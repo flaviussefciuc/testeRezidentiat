@@ -1,0 +1,682 @@
+{
+  "date": "2026-09-12",
+  "targetAdditionalAccepted": 800,
+  "additionalAccepted": 0,
+  "publicationStatus": "HOLD: draft content is not imported by the application",
+  "live": {
+    "count": 200,
+    "correctAnswerCounts": {
+      "1": 50,
+      "2": 0,
+      "3": 14,
+      "4": 136
+    },
+    "missingMultipleAnswerFormats": [
+      2
+    ],
+    "fourCorrectShareOfMultiple": 90.7,
+    "idsUnique": true,
+    "structuralErrors": [],
+    "exactQuestionDuplicates": [],
+    "possibleWordingCues": [
+      "sepsis-03",
+      "sepsis-04",
+      "sepsis-05",
+      "ati-01",
+      "ati-04",
+      "ati-05",
+      "hematologie-03",
+      "hematologie-05",
+      "reumatologie-01",
+      "reumatologie-02",
+      "reumatologie-03",
+      "reumatologie-04",
+      "reumatologie-05",
+      "endocrinologie-01",
+      "endocrinologie-02",
+      "diabet-01",
+      "diabet-03",
+      "neurologie-04",
+      "pneumologie-01",
+      "pneumologie-03",
+      "pneumologie-04",
+      "pneumologie-05",
+      "tromboembolism-04",
+      "cardiologie-03",
+      "cardiologie-04",
+      "cardiologie-05",
+      "cardiologie-07",
+      "cardiologie-08",
+      "cardiologie-10",
+      "hta-01",
+      "hta-05",
+      "gastro-02",
+      "gastro-03",
+      "gastro-04",
+      "gastro-05",
+      "hepatologie-02",
+      "hepatologie-03",
+      "hepatologie-04",
+      "nefrologie-02",
+      "nefrologie-03",
+      "nefrologie-04",
+      "nefrologie-05",
+      "hiv-01",
+      "hiv-03",
+      "perioperator-03",
+      "perioperator-04",
+      "perioperator-05",
+      "hemostaza-03",
+      "hemostaza-05",
+      "infectii-chir-02",
+      "infectii-chir-04",
+      "infectii-chir-05",
+      "arsuri-03",
+      "arsuri-04",
+      "hernii-02",
+      "hernii-04",
+      "hernii-05",
+      "esofag-02",
+      "esofag-03",
+      "stomac-02",
+      "stomac-05",
+      "intestin-02",
+      "intestin-04",
+      "intestin-05",
+      "colon-02",
+      "colon-05",
+      "biliar-03",
+      "biliar-04",
+      "pancreas-01",
+      "pancreas-03",
+      "pancreas-04",
+      "pancreas-05",
+      "ficat-splina-01",
+      "ficat-splina-04",
+      "vascular-01",
+      "vascular-02",
+      "vascular-03",
+      "vascular-04",
+      "orl-02",
+      "orl-03",
+      "orl-05",
+      "ortopedie-04",
+      "ortopedie-05",
+      "urologie-01",
+      "urologie-03",
+      "urologie-05",
+      "dermato-01",
+      "dermato-02",
+      "dermato-03",
+      "dermato-04",
+      "dermato-05",
+      "pediatrie-01",
+      "pediatrie-02",
+      "pediatrie-03",
+      "pediatrie-04",
+      "gineco-02",
+      "gineco-04",
+      "gineco-05",
+      "obstetrica-01",
+      "obstetrica-03",
+      "psihiatrie-01",
+      "psihiatrie-02",
+      "psihiatrie-03",
+      "psihiatrie-05",
+      "epidemio-02",
+      "epidemio-03"
+    ],
+    "possibleDuplicateStems": [],
+    "topicCoverage": [
+      {
+        "id": "sepsis",
+        "count": 5
+      },
+      {
+        "id": "electroliti",
+        "count": 5
+      },
+      {
+        "id": "ati",
+        "count": 5
+      },
+      {
+        "id": "hematologie",
+        "count": 5
+      },
+      {
+        "id": "reumatologie",
+        "count": 5
+      },
+      {
+        "id": "endocrinologie",
+        "count": 5
+      },
+      {
+        "id": "diabet",
+        "count": 5
+      },
+      {
+        "id": "neurologie",
+        "count": 5
+      },
+      {
+        "id": "pneumologie",
+        "count": 5
+      },
+      {
+        "id": "tromboembolism",
+        "count": 5
+      },
+      {
+        "id": "cardiologie",
+        "count": 10
+      },
+      {
+        "id": "hta",
+        "count": 5
+      },
+      {
+        "id": "gastro",
+        "count": 5
+      },
+      {
+        "id": "hepatologie",
+        "count": 5
+      },
+      {
+        "id": "nefrologie",
+        "count": 5
+      },
+      {
+        "id": "hiv",
+        "count": 5
+      },
+      {
+        "id": "perioperator",
+        "count": 5
+      },
+      {
+        "id": "hemostaza",
+        "count": 5
+      },
+      {
+        "id": "infectii-chir",
+        "count": 5
+      },
+      {
+        "id": "trauma",
+        "count": 5
+      },
+      {
+        "id": "arsuri",
+        "count": 5
+      },
+      {
+        "id": "hernii",
+        "count": 5
+      },
+      {
+        "id": "esofag",
+        "count": 5
+      },
+      {
+        "id": "stomac",
+        "count": 5
+      },
+      {
+        "id": "intestin",
+        "count": 5
+      },
+      {
+        "id": "colon",
+        "count": 5
+      },
+      {
+        "id": "biliar",
+        "count": 5
+      },
+      {
+        "id": "pancreas",
+        "count": 5
+      },
+      {
+        "id": "ficat-splina",
+        "count": 5
+      },
+      {
+        "id": "vascular",
+        "count": 5
+      },
+      {
+        "id": "orl",
+        "count": 5
+      },
+      {
+        "id": "ortopedie",
+        "count": 5
+      },
+      {
+        "id": "urologie",
+        "count": 5
+      },
+      {
+        "id": "dermato",
+        "count": 5
+      },
+      {
+        "id": "pediatrie",
+        "count": 5
+      },
+      {
+        "id": "gineco",
+        "count": 5
+      },
+      {
+        "id": "obstetrica",
+        "count": 5
+      },
+      {
+        "id": "psihiatrie",
+        "count": 5
+      },
+      {
+        "id": "epidemio",
+        "count": 5
+      }
+    ]
+  },
+  "draft": {
+    "count": 160,
+    "correctAnswerCounts": {
+      "1": 40,
+      "2": 0,
+      "3": 27,
+      "4": 93
+    },
+    "missingMultipleAnswerFormats": [
+      2
+    ],
+    "fourCorrectShareOfMultiple": 77.5,
+    "idsUnique": true,
+    "structuralErrors": [],
+    "exactQuestionDuplicates": [],
+    "possibleWordingCues": [
+      "sepsis-ext-006",
+      "sepsis-ext-009",
+      "sepsis-ext-010",
+      "sepsis-ext-015",
+      "electroliti-ext-003",
+      "electroliti-ext-018",
+      "electroliti-ext-019",
+      "electroliti-ext-020",
+      "ati-ext-002",
+      "ati-ext-007",
+      "ati-ext-010",
+      "hematologie-ext-004",
+      "hematologie-ext-006",
+      "hematologie-ext-007",
+      "hematologie-ext-012",
+      "hematologie-ext-013",
+      "hematologie-ext-014",
+      "hematologie-ext-016",
+      "reumatologie-ext-010",
+      "reumatologie-ext-013",
+      "reumatologie-ext-016",
+      "reumatologie-ext-018",
+      "reumatologie-ext-020",
+      "endocrinologie-ext-008",
+      "endocrinologie-ext-010",
+      "endocrinologie-ext-015",
+      "diabet-ext-006",
+      "diabet-ext-009",
+      "diabet-ext-012",
+      "diabet-ext-016",
+      "diabet-ext-020",
+      "neurologie-ext-004",
+      "neurologie-ext-010",
+      "neurologie-ext-011",
+      "neurologie-ext-013",
+      "neurologie-ext-017",
+      "neurologie-ext-020"
+    ],
+    "possibleDuplicateStems": [],
+    "topicCoverage": [
+      {
+        "id": "sepsis",
+        "count": 20
+      },
+      {
+        "id": "electroliti",
+        "count": 20
+      },
+      {
+        "id": "ati",
+        "count": 20
+      },
+      {
+        "id": "hematologie",
+        "count": 20
+      },
+      {
+        "id": "reumatologie",
+        "count": 20
+      },
+      {
+        "id": "endocrinologie",
+        "count": 20
+      },
+      {
+        "id": "diabet",
+        "count": 20
+      },
+      {
+        "id": "neurologie",
+        "count": 20
+      },
+      {
+        "id": "pneumologie",
+        "count": 0
+      },
+      {
+        "id": "tromboembolism",
+        "count": 0
+      },
+      {
+        "id": "cardiologie",
+        "count": 0
+      },
+      {
+        "id": "hta",
+        "count": 0
+      },
+      {
+        "id": "gastro",
+        "count": 0
+      },
+      {
+        "id": "hepatologie",
+        "count": 0
+      },
+      {
+        "id": "nefrologie",
+        "count": 0
+      },
+      {
+        "id": "hiv",
+        "count": 0
+      },
+      {
+        "id": "perioperator",
+        "count": 0
+      },
+      {
+        "id": "hemostaza",
+        "count": 0
+      },
+      {
+        "id": "infectii-chir",
+        "count": 0
+      },
+      {
+        "id": "trauma",
+        "count": 0
+      },
+      {
+        "id": "arsuri",
+        "count": 0
+      },
+      {
+        "id": "hernii",
+        "count": 0
+      },
+      {
+        "id": "esofag",
+        "count": 0
+      },
+      {
+        "id": "stomac",
+        "count": 0
+      },
+      {
+        "id": "intestin",
+        "count": 0
+      },
+      {
+        "id": "colon",
+        "count": 0
+      },
+      {
+        "id": "biliar",
+        "count": 0
+      },
+      {
+        "id": "pancreas",
+        "count": 0
+      },
+      {
+        "id": "ficat-splina",
+        "count": 0
+      },
+      {
+        "id": "vascular",
+        "count": 0
+      },
+      {
+        "id": "orl",
+        "count": 0
+      },
+      {
+        "id": "ortopedie",
+        "count": 0
+      },
+      {
+        "id": "urologie",
+        "count": 0
+      },
+      {
+        "id": "dermato",
+        "count": 0
+      },
+      {
+        "id": "pediatrie",
+        "count": 0
+      },
+      {
+        "id": "gineco",
+        "count": 0
+      },
+      {
+        "id": "obstetrica",
+        "count": 0
+      },
+      {
+        "id": "psihiatrie",
+        "count": 0
+      },
+      {
+        "id": "epidemio",
+        "count": 0
+      }
+    ]
+  },
+  "accepted": {
+    "count": 0,
+    "correctAnswerCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    "missingMultipleAnswerFormats": [
+      2,
+      3,
+      4
+    ],
+    "fourCorrectShareOfMultiple": 0,
+    "idsUnique": true,
+    "structuralErrors": [],
+    "exactQuestionDuplicates": [],
+    "possibleWordingCues": [],
+    "possibleDuplicateStems": [],
+    "topicCoverage": [
+      {
+        "id": "sepsis",
+        "count": 0
+      },
+      {
+        "id": "electroliti",
+        "count": 0
+      },
+      {
+        "id": "ati",
+        "count": 0
+      },
+      {
+        "id": "hematologie",
+        "count": 0
+      },
+      {
+        "id": "reumatologie",
+        "count": 0
+      },
+      {
+        "id": "endocrinologie",
+        "count": 0
+      },
+      {
+        "id": "diabet",
+        "count": 0
+      },
+      {
+        "id": "neurologie",
+        "count": 0
+      },
+      {
+        "id": "pneumologie",
+        "count": 0
+      },
+      {
+        "id": "tromboembolism",
+        "count": 0
+      },
+      {
+        "id": "cardiologie",
+        "count": 0
+      },
+      {
+        "id": "hta",
+        "count": 0
+      },
+      {
+        "id": "gastro",
+        "count": 0
+      },
+      {
+        "id": "hepatologie",
+        "count": 0
+      },
+      {
+        "id": "nefrologie",
+        "count": 0
+      },
+      {
+        "id": "hiv",
+        "count": 0
+      },
+      {
+        "id": "perioperator",
+        "count": 0
+      },
+      {
+        "id": "hemostaza",
+        "count": 0
+      },
+      {
+        "id": "infectii-chir",
+        "count": 0
+      },
+      {
+        "id": "trauma",
+        "count": 0
+      },
+      {
+        "id": "arsuri",
+        "count": 0
+      },
+      {
+        "id": "hernii",
+        "count": 0
+      },
+      {
+        "id": "esofag",
+        "count": 0
+      },
+      {
+        "id": "stomac",
+        "count": 0
+      },
+      {
+        "id": "intestin",
+        "count": 0
+      },
+      {
+        "id": "colon",
+        "count": 0
+      },
+      {
+        "id": "biliar",
+        "count": 0
+      },
+      {
+        "id": "pancreas",
+        "count": 0
+      },
+      {
+        "id": "ficat-splina",
+        "count": 0
+      },
+      {
+        "id": "vascular",
+        "count": 0
+      },
+      {
+        "id": "orl",
+        "count": 0
+      },
+      {
+        "id": "ortopedie",
+        "count": 0
+      },
+      {
+        "id": "urologie",
+        "count": 0
+      },
+      {
+        "id": "dermato",
+        "count": 0
+      },
+      {
+        "id": "pediatrie",
+        "count": 0
+      },
+      {
+        "id": "gineco",
+        "count": 0
+      },
+      {
+        "id": "obstetrica",
+        "count": 0
+      },
+      {
+        "id": "psihiatrie",
+        "count": 0
+      },
+      {
+        "id": "epidemio",
+        "count": 0
+      }
+    ]
+  },
+  "medicalValidation": "Review records are evidence of the recorded process, not a claim of psychometric equivalence. Automated checks cannot establish medical correctness."
+}

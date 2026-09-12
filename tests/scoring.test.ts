@@ -16,6 +16,17 @@ test('multiple choice classifies all five options and rejects invalid counts',()
  assert.equal(score(cm,[0,2,3]),4);
  for(const answer of [[],[0],[0,1,2,3,4],[0,0],[-1,2]])assert.equal(score(cm,answer),0);
 });
+test('all 32 response patterns are scored correctly for CM keys of size two, three and four',()=>{
+ for(const correct of [[0,3],[0,2,4],[0,1,3,4]]){
+  const question={...cm,correct};
+  for(let mask=0;mask<32;mask++){
+   const selected=[0,1,2,3,4].filter(i=>(mask&(1<<i))!==0);
+   const valid=selected.length>=2&&selected.length<=4;
+   const mismatches=selected.filter(i=>!correct.includes(i)).length+correct.filter(i=>!selected.includes(i)).length;
+   assert.equal(score(question,selected),valid?5-mismatches:0,`key=${correct}; response=${selected}`);
+  }
+ }
+});
 test('exam has 200 distinct questions, 50 simple, 150 multiple and 950 points',()=>{
  const exam=examQuestions(QUESTIONS);
  assert.equal(exam.length,200);assert.equal(new Set(exam.map(q=>q.id)).size,200);

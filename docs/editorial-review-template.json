@@ -1,0 +1,26 @@
+{
+  "questionId": "REPLACE_WITH_STABLE_ID",
+  "status": "draft",
+  "learningObjective": "",
+  "syllabus": {"book": "", "romanianEdition": "", "chapter": "", "page": "", "section": ""},
+  "options": [
+    {"index": 0, "verdict": "unreviewed", "rationale": "", "evidenceLocation": ""},
+    {"index": 1, "verdict": "unreviewed", "rationale": "", "evidenceLocation": ""},
+    {"index": 2, "verdict": "unreviewed", "rationale": "", "evidenceLocation": ""},
+    {"index": 3, "verdict": "unreviewed", "rationale": "", "evidenceLocation": ""},
+    {"index": 4, "verdict": "unreviewed", "rationale": "", "evidenceLocation": ""}
+  ],
+  "checks": {
+    "withinIncludedSyllabusPages": false,
+    "contextResolvesAmbiguity": false,
+    "distractorsClinicallyPlausible": false,
+    "noAnswerLengthOrAbsoluteWordingCue": false,
+    "independentObjectiveNotParaphraseDuplicate": false,
+    "explanationAddressesIncorrectOptions": false,
+    "terminologyReviewedInRomanian": false,
+    "keySupportedByRequestedEdition": false
+  },
+  "reviewer": null,
+  "reviewedAt": null,
+  "unresolvedIssues": []
+}
