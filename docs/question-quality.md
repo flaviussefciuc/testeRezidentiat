@@ -29,14 +29,20 @@ Utilizatorul a furnizat cele trei PDF-uri. Extragerea locală a reușit: Kumar 3
 
 Cele 20 de propuneri de sepsis au fost rescrise și confruntate cu textul: 5 CS și câte 5 CM cu 2, 3 și 4 răspunsuri. Sunt păstrate ca `source-checked`, cu recenzent explicit AI, pagini tipărite și PDF, motivarea tuturor opțiunilor și amprenta exactă a conținutului. Acesta nu este un review efectuat de medic și nu demonstrează dificultate echivalentă examenului. Valorile numerice qSOFA și șoc septic de la p. 154 au fost confruntate și cu imaginea. Pasajele contradictorii sunt consemnate în `source-discrepancies.md` și nu sunt folosite ca barem.
 
-Cele 5 grile inițiale de sepsis și cele 5 de electroliți sunt retrase din sesiunile noi. Rămân în `QUESTION_HISTORY`, cu textul și cheile originale, pentru rezultate și teste deja începute. Banca activă are 230 de grile, dintre care 40 revizuite pe sursa furnizată. Celelalte 120 de propuneri inițiale rămân nepublicate și necesită aceeași revizuire; celelalte 190 de grile inițiale active necesită îmbunătățire editorială.
+Câte 5 grile inițiale de sepsis, electroliți și terapie intensivă sunt retrase din sesiunile noi. Rămân în `QUESTION_HISTORY`, cu textul și cheile originale, pentru rezultate și teste deja începute. Banca activă are 245 de grile, dintre care 60 revizuite pe sursa furnizată. Celelalte 100 de propuneri inițiale rămân nepublicate și necesită aceeași revizuire; celelalte 185 de grile inițiale active necesită îmbunătățire editorială.
 
 `npm run audit:questions` produce raportul. Testele refuză publicarea unui item declarat verificat dacă înregistrarea de review lipsește, dovezile sunt incomplete, pagina este în afara intervalelor de capitol sau amprenta diferă. Schimbarea unui distractor, a cheii ori a explicației invalidează review-ul anterior. Verificarea automată a intervalelor nu înlocuiește verificarea manuală a excluderilor din interiorul paginilor.
 
-`npm run audit:questions:release` verifică finalizarea obiectivului de 800 de itemi suplimentari. La această etapă sunt 40 de itemi noi verificați și o creștere netă de 30 de întrebări active după retrageri; obiectivul nu este îndeplinit. Se pot publica loturi individuale verificate fără a prezenta extinderea ca terminată. Toate cele trei cardinalități CM sunt necesare în bancă; distribuția egală din acest lot este o decizie editorială, nu o cotă oficială sau o predicție pentru examen.
+`npm run audit:questions:release` verifică finalizarea obiectivului de 800 de itemi suplimentari. La această etapă sunt 60 de itemi noi verificați și o creștere netă de 45 de întrebări active după retrageri; obiectivul nu este îndeplinit. Se pot publica loturi individuale verificate fără a prezenta extinderea ca terminată. Toate cele trei cardinalități CM sunt necesare în bancă; distribuția egală din acest lot este o decizie editorială, nu o cotă oficială sau o predicție pentru examen.
 
 ## Al doilea lot: electroliți
 
 20 de itemi suplimentari confruntați cu p. 172–190: 5 CS și câte 5 CM cu 2, 3 și 4 răspunsuri. Distractorii compară tubulopatii, mecanisme diuretice, compartimente hidrice și cauze reale versus preanalitice ale hiperkaliemiei. Fiecare opțiune are motivare și referință. Imaginile paginilor 176, 185 și 188 au fost verificate pentru receptorii ADH, mecanismele cerebrale și diferențierea tubulopatiilor. Nu se folosesc dozele contradictorii de corecție a natremiei.
 
 În extrasul furnizat, p. 172–190 corespund PDF 23–41; pagina PDF 42 este deja p. 224. Paginile obligatorii 195–202 nu au fost localizate. Capitolul acido-bazic rămâne un gol de sursă, nu o parte pretins verificată. Celelalte două cărți au text extras local, dar nu se pretinde că întregul lor conținut a fost revizuit.
+
+## Al treilea lot: terapie intensivă
+
+20 de itemi confruntați cu p. 224–233 (PDF 42–51), cu 5 CS și câte 5 CM cu 2, 3 și 4 răspunsuri. Acoperă insuficiența respiratorie, modurile ventilatorii, efectele PEEP, capnografia, VNI, sevrajul, complicațiile și fiziopatologia ARDS. Distractorii folosesc confuzii între mecanisme și parametri, între colonizare și infecție și între ameliorarea oxigenării și beneficiul clinic. Fiecare opțiune are o justificare și o localizare a dovezii. Imaginile p. 230 și 232 au fost confruntate cu textul extras.
+
+Creșterea cerută de 800 este calculată net față de cele 200 de grile inițiale: pragul de finalizare cere minimum 1.000 de întrebări active și minimum 800 de itemi suplimentari cu review complet. Retragerea unui item vechi nu este numărată ca extindere.

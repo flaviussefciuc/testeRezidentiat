@@ -1,25 +1,25 @@
 {
   "date": "2026-09-12",
+  "baselineActive": 200,
   "targetAdditionalAccepted": 800,
-  "additionalAccepted": 40,
+  "targetNetAdditionalActive": 800,
+  "netAdditionalActive": 45,
+  "additionalAccepted": 60,
   "publicationStatus": "Expansion incomplete: only individually source-checked batches may be published",
   "live": {
-    "count": 230,
+    "count": 245,
     "correctAnswerCounts": {
-      "1": 56,
-      "2": 10,
-      "3": 22,
-      "4": 142
+      "1": 59,
+      "2": 15,
+      "3": 26,
+      "4": 145
     },
     "missingMultipleAnswerFormats": [],
-    "fourCorrectShareOfMultiple": 81.6,
+    "fourCorrectShareOfMultiple": 78,
     "idsUnique": true,
     "structuralErrors": [],
     "exactQuestionDuplicates": [],
     "possibleWordingCues": [
-      "ati-01",
-      "ati-04",
-      "ati-05",
       "hematologie-03",
       "hematologie-05",
       "reumatologie-01",
@@ -133,7 +133,7 @@
       },
       {
         "id": "ati",
-        "count": 5
+        "count": 20
       },
       {
         "id": "hematologie",
@@ -285,19 +285,16 @@
     "count": 160,
     "correctAnswerCounts": {
       "1": 40,
-      "2": 10,
-      "3": 30,
-      "4": 80
+      "2": 15,
+      "3": 35,
+      "4": 70
     },
     "missingMultipleAnswerFormats": [],
-    "fourCorrectShareOfMultiple": 66.7,
+    "fourCorrectShareOfMultiple": 58.3,
     "idsUnique": true,
     "structuralErrors": [],
     "exactQuestionDuplicates": [],
     "possibleWordingCues": [
-      "ati-ext-002",
-      "ati-ext-007",
-      "ati-ext-010",
       "hematologie-ext-004",
       "hematologie-ext-006",
       "hematologie-ext-007",
@@ -486,12 +483,12 @@
     ]
   },
   "accepted": {
-    "count": 40,
+    "count": 60,
     "correctAnswerCounts": {
-      "1": 10,
-      "2": 10,
-      "3": 10,
-      "4": 10
+      "1": 15,
+      "2": 15,
+      "3": 15,
+      "4": 15
     },
     "missingMultipleAnswerFormats": [],
     "fourCorrectShareOfMultiple": 33.3,
@@ -511,7 +508,7 @@
       },
       {
         "id": "ati",
-        "count": 0
+        "count": 20
       },
       {
         "id": "hematologie",

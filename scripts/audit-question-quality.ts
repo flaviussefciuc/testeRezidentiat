@@ -1,5 +1,5 @@
 import {writeFileSync,mkdirSync,readFileSync} from 'node:fs';
-import {QUESTIONS} from '../src/app/questions.ts';
+import {QUESTIONS,LEGACY_QUESTIONS} from '../src/app/questions.ts';
 import {MEDICINE_A} from '../src/app/bank/medicine-a.ts';
 import {MEDICINE_B} from '../src/app/bank/medicine-b.ts';
 import {TOPICS} from '../src/app/topics.ts';
@@ -45,8 +45,10 @@ for(const review of reviews){
 }
 const accepted=draft.filter(q=>acceptedIds.has(q.id));
 const acceptedAudit=audit(accepted);
-const releaseReady=accepted.length>=800&&!acceptedAudit.missingMultipleAnswerFormats.length&&!acceptedAudit.structuralErrors.length&&!acceptedAudit.exactQuestionDuplicates.length&&acceptedAudit.idsUnique&&!invalidReviews.length;
-const report={date:'2026-09-12',targetAdditionalAccepted:800,additionalAccepted:accepted.length,publicationStatus:releaseReady?'Eligible for editorial publication decision':'Expansion incomplete: only individually source-checked batches may be published',live:audit(QUESTIONS),draft:audit(draft),accepted:acceptedAudit,invalidReviews,medicalValidation:'Review records are evidence of the recorded process, not a claim of psychometric equivalence. Automated checks cannot establish medical correctness.'};
+const netAdditionalActive=QUESTIONS.length-LEGACY_QUESTIONS.length;
+const liveAudit=audit(QUESTIONS);
+const releaseReady=accepted.length>=800&&netAdditionalActive>=800&&!acceptedAudit.missingMultipleAnswerFormats.length&&!acceptedAudit.structuralErrors.length&&!acceptedAudit.exactQuestionDuplicates.length&&acceptedAudit.idsUnique&&!invalidReviews.length&&liveAudit.idsUnique&&!liveAudit.structuralErrors.length&&!liveAudit.exactQuestionDuplicates.length;
+const report={date:'2026-09-12',baselineActive:LEGACY_QUESTIONS.length,targetAdditionalAccepted:800,targetNetAdditionalActive:800,netAdditionalActive,additionalAccepted:accepted.length,publicationStatus:releaseReady?'Eligible for editorial publication decision':'Expansion incomplete: only individually source-checked batches may be published',live:liveAudit,draft:audit(draft),accepted:acceptedAudit,invalidReviews,medicalValidation:'Review records are evidence of the recorded process, not a claim of psychometric equivalence. Automated checks cannot establish medical correctness.'};
 mkdirSync('docs',{recursive:true});writeFileSync('docs/question-quality-audit.json',JSON.stringify(report,null,2)+'\n');
 console.log(JSON.stringify({live:report.live.correctAnswerCounts,draft:report.draft.correctAnswerCounts,draftCount:draft.length,invalidReviewCount:invalidReviews.length,additionalAccepted:accepted.length,missingFormats:report.draft.missingMultipleAnswerFormats,publicationStatus:report.publicationStatus},null,2));
 if(process.argv.includes('--release')&&!releaseReady)process.exitCode=1;

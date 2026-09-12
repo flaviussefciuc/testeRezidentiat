@@ -2730,5 +2730,1359 @@
     "reviewedAt": "2026-09-12T13:38:02.934Z",
     "unresolvedIssues": [],
     "reviewNotes": "Confruntare cu paginile 172–190 din textul român furnizat și reevaluare individuală a distractorilor. Itemii nu folosesc paginile absente 195–202 sau dozele contradictorii din pasajele de corecție a natremiei. Review AI, nu validare de medic sau calibrare psihometrică."
+  },
+  {
+    "questionId": "ati-ext-001",
+    "questionFingerprint": "510901c4d886f3ea613c484eaa9f2cc4b02d8e35492297b036cbd3c8a72202f7",
+    "status": "source-checked",
+    "learningObjective": "Alegerea monitorizării deteriorării neuromusculare înaintea hipercapniei tardive.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 10,
+      "printedPages": [
+        225,
+        227
+      ],
+      "pdfPages": [
+        43,
+        45
+      ],
+      "section": "Investigații; indicații pentru ventilație mecanică"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Capacitatea vitală scade odată cu pierderea forței musculare și este indicatorul preferat în bolile neuromusculare descrise.",
+        "evidenceLocation": "Kumar, p. 225, Investigații"
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "FEV₁ este util mai ales în evaluarea obstrucției din astm și BPOC.",
+        "evidenceLocation": "Kumar, p. 225, Investigații"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Oxigenul poate păstra saturația în limite normale în prezența hipoventilației.",
+        "evidenceLocation": "Kumar, p. 225, Pulsoximetria"
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "În insuficiența neuromusculară, frecvența poate avea modificări tardive și nespecifice.",
+        "evidenceLocation": "Kumar, p. 227, Indicații pentru ventilație mecanică"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Volumul curent este descris ca indicator relativ nespecific, cu modificări tardive în acest context.",
+        "evidenceLocation": "Kumar, p. 227, Indicații pentru ventilație mecanică"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T18:20:30.010Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare individuală cu p. 224–233 din textul român furnizat; imaginile p. 230 și 232 verificate pentru ventilație și clasificarea ARDS. Distractori revizuiți pentru confuzii între parametri, mecanisme, complicații și rezultate. Nu se folosesc afirmația despre direcția deplasării mediastinale sau concluziile despre steroizi din acest extras. Review AI, nu validare de medic sau calibrare psihometrică."
+  },
+  {
+    "questionId": "ati-ext-002",
+    "questionFingerprint": "8a4e10e93856eb12b962fe56efdd699c5ded01bc6063aeb84099d339b295ccff",
+    "status": "source-checked",
+    "learningObjective": "Diferențierea variabilelor setate de cele dependente de mecanica pulmonară.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 10,
+      "printedPages": [
+        229
+      ],
+      "pdfPages": [
+        47
+      ],
+      "section": "Ventilație mecanică controlată"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "incorrect",
+        "rationale": "La aceeași presiune de distensie, un plămân mai puțin compliant primește un volum mai mic.",
+        "evidenceLocation": "Kumar, p. 229, Ventilație mecanică controlată"
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Acesta nu este un mod cu reglare automată a presiunii pentru garantarea unui volum; presiunea a fost menținută constantă în enunț.",
+        "evidenceLocation": "Kumar, p. 229, Ventilație mecanică controlată"
+      },
+      {
+        "index": 2,
+        "verdict": "correct",
+        "rationale": "În controlul în presiune, volumul variază cu mecanica pulmonară; scăderea complianței reduce volumul la aceleași setări.",
+        "evidenceLocation": "Kumar, p. 229, Ventilație mecanică controlată"
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "Frecvența este o variabilă presetată în situația descrisă.",
+        "evidenceLocation": "Kumar, p. 229, Ventilație mecanică controlată"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "PEEP este menținut constant în enunț, nu este variabila care compensează automat modificarea complianței.",
+        "evidenceLocation": "Kumar, p. 229, Ventilație mecanică controlată"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T18:20:30.011Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare individuală cu p. 224–233 din textul român furnizat; imaginile p. 230 și 232 verificate pentru ventilație și clasificarea ARDS. Distractori revizuiți pentru confuzii între parametri, mecanisme, complicații și rezultate. Nu se folosesc afirmația despre direcția deplasării mediastinale sau concluziile despre steroizi din acest extras. Review AI, nu validare de medic sau calibrare psihometrică."
+  },
+  {
+    "questionId": "ati-ext-003",
+    "questionFingerprint": "baf1db4508ee6df73eb009974f18cc2ea7e7d89aae924b83be9946b781802a54",
+    "status": "source-checked",
+    "learningObjective": "Calcularea raportului PaO₂/FiO₂ și aplicarea clasificării fără confundarea PaO₂ cu raportul.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 10,
+      "printedPages": [
+        232
+      ],
+      "pdfPages": [
+        50
+      ],
+      "section": "ARDS — Definiție și etiologie"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "incorrect",
+        "rationale": "Pragul PaO₂ izolat nu definește categoria; se raportează la fracția inspirată de oxigen.",
+        "evidenceLocation": "Kumar, p. 232, ARDS — Definiție și etiologie"
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Valoarea folosită pentru severitate este raportul, nu PaO₂ singură.",
+        "evidenceLocation": "Kumar, p. 232, ARDS — Definiție și etiologie"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "FiO₂ nu stabilește singură categoria de severitate.",
+        "evidenceLocation": "Kumar, p. 232, ARDS — Definiție și etiologie"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "75/0,50 = 150 mmHg, în intervalul moderat, cu PEEP peste pragul de 5 cmH₂O.",
+        "evidenceLocation": "Kumar, p. 232, ARDS — Definiție și etiologie"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Pragul de suport din clasificarea citată este 5 cmH₂O; categoria se stabilește apoi după raport.",
+        "evidenceLocation": "Kumar, p. 232, ARDS — Definiție și etiologie"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T18:20:30.011Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare individuală cu p. 224–233 din textul român furnizat; imaginile p. 230 și 232 verificate pentru ventilație și clasificarea ARDS. Distractori revizuiți pentru confuzii între parametri, mecanisme, complicații și rezultate. Nu se folosesc afirmația despre direcția deplasării mediastinale sau concluziile despre steroizi din acest extras. Review AI, nu validare de medic sau calibrare psihometrică."
+  },
+  {
+    "questionId": "ati-ext-004",
+    "questionFingerprint": "371f32b3c52751a0d964140c534b3b7ed50f17835ca7c61a1b4f575c09eff0da",
+    "status": "source-checked",
+    "learningObjective": "Separarea capacității de eliminare a CO₂ de capacitatea de oxigenare extracorporeală.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 10,
+      "printedPages": [
+        230,
+        224
+      ],
+      "pdfPages": [
+        48,
+        42
+      ],
+      "section": "Schimburile gazoase extracorporeale"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "incorrect",
+        "rationale": "ECCO₂-R folosește debite mai mici, nu mai mari, pentru eliminarea eficientă a CO₂.",
+        "evidenceLocation": "Kumar, p. 230, Schimburi extracorporeale"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Aceasta este diferența funcțională explicită: eliminarea CO₂ este posibilă la debite care nu asigură aceeași oxigenare.",
+        "evidenceLocation": "Kumar, p. 230, Schimburi extracorporeale"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Un circuit cu întoarcere venoasă nu este echivalentul suportului circulator veno-arterial descris în capitol.",
+        "evidenceLocation": "Kumar, p. 224; 230, Suport mecanic; ECMO veno-venoasă"
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "La debitele mai mici ale ECCO₂-R, oxigenarea este mai puțin eficientă.",
+        "evidenceLocation": "Kumar, p. 230, Schimburi extracorporeale"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Ambele tehnici pot reduce necesarul de ventilație și leziunile induse de aceasta.",
+        "evidenceLocation": "Kumar, p. 230, Schimburi extracorporeale"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T18:20:30.011Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare individuală cu p. 224–233 din textul român furnizat; imaginile p. 230 și 232 verificate pentru ventilație și clasificarea ARDS. Distractori revizuiți pentru confuzii între parametri, mecanisme, complicații și rezultate. Nu se folosesc afirmația despre direcția deplasării mediastinale sau concluziile despre steroizi din acest extras. Review AI, nu validare de medic sau calibrare psihometrică."
+  },
+  {
+    "questionId": "ati-ext-005",
+    "questionFingerprint": "0e6d7ad3c455c7ce07c3a7db2a189333b3f430b280c1e04349c5ef72f816ec0a",
+    "status": "source-checked",
+    "learningObjective": "Diferențierea pneumotoracelui în tensiune de alte cauze de deteriorare bruscă sub ventilație.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 10,
+      "printedPages": [
+        228
+      ],
+      "pdfPages": [
+        46
+      ],
+      "section": "Complicații respiratorii ale ventilației mecanice"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "incorrect",
+        "rationale": "Pierderea etanșeității poate compromite ventilația, dar nu explică hemitoracele hipersonor și creșterea presiunii asociate colapsului circulator.",
+        "evidenceLocation": "Kumar, p. 228, Complicații respiratorii ale ventilației mecanice"
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Intubația bronșică dreaptă reduce ventilația plămânului stâng; nu explică hipersonoritatea hemitoracelui drept cu acest tablou circulator.",
+        "evidenceLocation": "Kumar, p. 228, Complicații respiratorii ale ventilației mecanice"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Deconectarea întrerupe livrarea presiunii, nu explică creșterea presiunii în căile aeriene și semnele unilaterale.",
+        "evidenceLocation": "Kumar, p. 228, Complicații respiratorii ale ventilației mecanice"
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "Edemul poate altera oxigenarea și complianța, dar nu explică bine hipersonoritatea unilaterală.",
+        "evidenceLocation": "Kumar, p. 228, Complicații respiratorii ale ventilației mecanice"
+      },
+      {
+        "index": 4,
+        "verdict": "correct",
+        "rationale": "Asocierea de deteriorare respiratorie, creștere a presiunii, hipotensiune și semne unilaterale este tabloul descris; necesită recunoaștere rapidă.",
+        "evidenceLocation": "Kumar, p. 228, Complicații respiratorii ale ventilației mecanice"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T18:20:30.011Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare individuală cu p. 224–233 din textul român furnizat; imaginile p. 230 și 232 verificate pentru ventilație și clasificarea ARDS. Distractori revizuiți pentru confuzii între parametri, mecanisme, complicații și rezultate. Nu se folosesc afirmația despre direcția deplasării mediastinale sau concluziile despre steroizi din acest extras. Review AI, nu validare de medic sau calibrare psihometrică."
+  },
+  {
+    "questionId": "ati-ext-006",
+    "questionFingerprint": "024fc233d8ff613561c082dc7df16490e0fb61dd52ec2e77a0b38c327d151d63",
+    "status": "source-checked",
+    "learningObjective": "Separarea oxigenării arteriale de transportul sistemic de oxigen la modificarea PEEP.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 10,
+      "printedPages": [
+        229
+      ],
+      "pdfPages": [
+        47
+      ],
+      "section": "Presiunea pozitivă la sfârșitul expirului"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Presiunea intratoracică crescută poate împiedica întoarcerea venoasă.",
+        "evidenceLocation": "Kumar, p. 229, Presiunea pozitivă la sfârșitul expirului"
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Recrutarea îmbunătățește schimbul gazos; nu reproduce creșterea volumului circulant și poate coexista cu scăderea debitului cardiac.",
+        "evidenceLocation": "Kumar, p. 229, Presiunea pozitivă la sfârșitul expirului"
+      },
+      {
+        "index": 2,
+        "verdict": "correct",
+        "rationale": "Capitolul avertizează explicit că beneficiul oxigenării poate fi depășit de reducerea debitului cardiac.",
+        "evidenceLocation": "Kumar, p. 229, Presiunea pozitivă la sfârșitul expirului"
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "Șuntul pulmonar și întoarcerea venoasă nu se modifică obligatoriu în același sens; PEEP poate reduce șuntul și întoarcerea venoasă.",
+        "evidenceLocation": "Kumar, p. 229, Presiunea pozitivă la sfârșitul expirului"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Distensia alveolară poate crește rezistența vasculară pulmonară, nu explică reducerea ei prin supradistensie.",
+        "evidenceLocation": "Kumar, p. 229, Presiunea pozitivă la sfârșitul expirului"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T18:20:30.011Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare individuală cu p. 224–233 din textul român furnizat; imaginile p. 230 și 232 verificate pentru ventilație și clasificarea ARDS. Distractori revizuiți pentru confuzii între parametri, mecanisme, complicații și rezultate. Nu se folosesc afirmația despre direcția deplasării mediastinale sau concluziile despre steroizi din acest extras. Review AI, nu validare de medic sau calibrare psihometrică."
+  },
+  {
+    "questionId": "ati-ext-007",
+    "questionFingerprint": "9340ca5f5fb3f57e44da901353a026a5eeb1f7e081529a12cb47ebab14767a80",
+    "status": "source-checked",
+    "learningObjective": "Diferențierea efectelor consumului celular de efectele contaminării probei cu aer.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 10,
+      "printedPages": [
+        225
+      ],
+      "pdfPages": [
+        43
+      ],
+      "section": "Analiza gazelor sanguine"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "incorrect",
+        "rationale": "Celulele consumă oxigen și produc CO₂; sensurile sunt inversate în variantă.",
+        "evidenceLocation": "Kumar, p. 225, Analiza gazelor sanguine"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Analiza întârziată permite consumul de O₂ și producerea de CO₂ în probă.",
+        "evidenceLocation": "Kumar, p. 225, Analiza gazelor sanguine"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Echilibrarea cu aerul scade PCO₂ a probei.",
+        "evidenceLocation": "Kumar, p. 225, Analiza gazelor sanguine"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Acestea sunt modificările descrise; pentru PO₂, textul precizează «de obicei», deoarece efectul depinde de gradient.",
+        "evidenceLocation": "Kumar, p. 225, Analiza gazelor sanguine"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Consumul de oxigen este însoțit de producerea, nu de scăderea CO₂.",
+        "evidenceLocation": "Kumar, p. 225, Analiza gazelor sanguine"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T18:20:30.011Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare individuală cu p. 224–233 din textul român furnizat; imaginile p. 230 și 232 verificate pentru ventilație și clasificarea ARDS. Distractori revizuiți pentru confuzii între parametri, mecanisme, complicații și rezultate. Nu se folosesc afirmația despre direcția deplasării mediastinale sau concluziile despre steroizi din acest extras. Review AI, nu validare de medic sau calibrare psihometrică."
+  },
+  {
+    "questionId": "ati-ext-008",
+    "questionFingerprint": "4fde3d2defe20d8c0fc2a71f2e328755da32a777ff9cdf0e7975c0582b4cd482",
+    "status": "source-checked",
+    "learningObjective": "Recunoașterea declanșării și a variabilelor dependente în modurile ventilatorii.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 10,
+      "printedPages": [
+        229
+      ],
+      "pdfPages": [
+        47
+      ],
+      "section": "Ventilație mecanică controlată; ventilația cu suport de presiune"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "PSV amplifică respirația spontană declanșată de pacient.",
+        "evidenceLocation": "Kumar, p. 229, Ventilație mecanică controlată; ventilația cu suport de presiune"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Volumul rezultat nu este o valoare garantată; depinde de acești trei factori.",
+        "evidenceLocation": "Kumar, p. 229, Ventilație mecanică controlată; ventilația cu suport de presiune"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Varianta atribuie PSV caracteristica controlului în volum.",
+        "evidenceLocation": "Kumar, p. 229, Ventilație mecanică controlată; ventilația cu suport de presiune"
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "În controlul în volum, presiunea variază cu rezistența și complianța.",
+        "evidenceLocation": "Kumar, p. 229, Ventilație mecanică controlată; ventilația cu suport de presiune"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "În controlul în presiune, volumul variază cu mecanica pulmonară.",
+        "evidenceLocation": "Kumar, p. 229, Ventilație mecanică controlată; ventilația cu suport de presiune"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T18:20:30.011Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare individuală cu p. 224–233 din textul român furnizat; imaginile p. 230 și 232 verificate pentru ventilație și clasificarea ARDS. Distractori revizuiți pentru confuzii între parametri, mecanisme, complicații și rezultate. Nu se folosesc afirmația despre direcția deplasării mediastinale sau concluziile despre steroizi din acest extras. Review AI, nu validare de medic sau calibrare psihometrică."
+  },
+  {
+    "questionId": "ati-ext-009",
+    "questionFingerprint": "5faa9e9544bb793e7b10019ffccb4db867d614bd30dc809b6fe2b1212367fd9e",
+    "status": "source-checked",
+    "learningObjective": "Corelarea poziției sau permeabilității canulei cu semnele de verificare.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 10,
+      "printedPages": [
+        228
+      ],
+      "pdfPages": [
+        46
+      ],
+      "section": "Cadranul 10.14 — Complicațiile intubației traheale"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "incorrect",
+        "rationale": "Aceste date susțin ventilarea pulmonară; nu descriu tabloul de intubație esofagiană din tabel.",
+        "evidenceLocation": "Kumar, p. 228, Cadranul 10.14"
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Simetria ventilației bilaterale este tocmai verificarea folosită pentru evitarea intubației într-o bronhie principală.",
+        "evidenceLocation": "Kumar, p. 228, Cadranul 10.14"
+      },
+      {
+        "index": 2,
+        "verdict": "correct",
+        "rationale": "Tabelul asociază intubația esofagiană cu hipoxie, distensie abdominală și absența curbelor capnografice.",
+        "evidenceLocation": "Kumar, p. 228, Cadranul 10.14"
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "Obstrucția prin secreții și pierderile din jurul canulei sunt complicații distincte.",
+        "evidenceLocation": "Kumar, p. 228, Cadranul 10.14"
+      },
+      {
+        "index": 4,
+        "verdict": "correct",
+        "rationale": "Ventilarea predominant unilaterală impune verificarea profunzimii și poziției canulei.",
+        "evidenceLocation": "Kumar, p. 228, Cadranul 10.14"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T18:20:30.011Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare individuală cu p. 224–233 din textul român furnizat; imaginile p. 230 și 232 verificate pentru ventilație și clasificarea ARDS. Distractori revizuiți pentru confuzii între parametri, mecanisme, complicații și rezultate. Nu se folosesc afirmația despre direcția deplasării mediastinale sau concluziile despre steroizi din acest extras. Review AI, nu validare de medic sau calibrare psihometrică."
+  },
+  {
+    "questionId": "ati-ext-010",
+    "questionFingerprint": "5aa84c35d48059f48d9dccf0a4cb5efc8ead10ce9e57b2baafe547a0849f2d50",
+    "status": "source-checked",
+    "learningObjective": "Identificarea profilului polineuropatiei bolii critice fără a-l confunda cu o neuropatie demielinizantă.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 10,
+      "printedPages": [
+        231
+      ],
+      "pdfPages": [
+        49
+      ],
+      "section": "Slăbiciunea neuromusculară — complicație a bolilor critice"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Leziunea descrisă este axonală, cu afectare motorie și într-o măsură mai mică senzitivă.",
+        "evidenceLocation": "Kumar, p. 231, Slăbiciunea neuromusculară — complicație a bolilor critice"
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Demielinizarea nu este leziunea definitorie a acestei polineuropatii.",
+        "evidenceLocation": "Kumar, p. 231, Slăbiciunea neuromusculară — complicație a bolilor critice"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Textul descrie valori normale sau minim crescute, nu o creștere importantă caracteristică.",
+        "evidenceLocation": "Kumar, p. 231, Slăbiciunea neuromusculară — complicație a bolilor critice"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Acesta este profilul LCR descris pentru polineuropatia bolii critice.",
+        "evidenceLocation": "Kumar, p. 231, Slăbiciunea neuromusculară — complicație a bolilor critice"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Nervii cranieni sunt rar afectați; această predominanță ar necesita altă explicație.",
+        "evidenceLocation": "Kumar, p. 231, Slăbiciunea neuromusculară — complicație a bolilor critice"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T18:20:30.011Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare individuală cu p. 224–233 din textul român furnizat; imaginile p. 230 și 232 verificate pentru ventilație și clasificarea ARDS. Distractori revizuiți pentru confuzii între parametri, mecanisme, complicații și rezultate. Nu se folosesc afirmația despre direcția deplasării mediastinale sau concluziile despre steroizi din acest extras. Review AI, nu validare de medic sau calibrare psihometrică."
+  },
+  {
+    "questionId": "ati-ext-011",
+    "questionFingerprint": "0173d7a8c6a6c7736005ded52dc029da5a76d83ce6f91e20cae91a9783ff739e",
+    "status": "source-checked",
+    "learningObjective": "Legarea efectelor venoase și arteriale de presarcină, postsarcină și consumul miocardic.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 10,
+      "printedPages": [
+        224
+      ],
+      "pdfPages": [
+        42
+      ],
+      "section": "Terapia vasodilatatoare"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Predominanța venoasă la doze mici este descrisă în text.",
+        "evidenceLocation": "Kumar, p. 224, Terapia vasodilatatoare"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "La doze mai mari apare și dilatație arterială.",
+        "evidenceLocation": "Kumar, p. 224, Terapia vasodilatatoare"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Nitroprusiatul dilată atât arteriolele, cât și vasele de capacitanță, reducând ambele sarcini.",
+        "evidenceLocation": "Kumar, p. 224, Terapia vasodilatatoare"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Reducerea tensiunii sistolice a peretelui ventricular poate scădea necesarul de oxigen și crește volumul-bătaie.",
+        "evidenceLocation": "Kumar, p. 224, Terapia vasodilatatoare"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Efectele sunt rapid reversibile, în câteva minute după întrerupere.",
+        "evidenceLocation": "Kumar, p. 224, Terapia vasodilatatoare"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T18:20:30.011Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare individuală cu p. 224–233 din textul român furnizat; imaginile p. 230 și 232 verificate pentru ventilație și clasificarea ARDS. Distractori revizuiți pentru confuzii între parametri, mecanisme, complicații și rezultate. Nu se folosesc afirmația despre direcția deplasării mediastinale sau concluziile despre steroizi din acest extras. Review AI, nu validare de medic sau calibrare psihometrică."
+  },
+  {
+    "questionId": "ati-ext-012",
+    "questionFingerprint": "a6e083e02ffd5d4c6c741c249da5a1fc550f0e58c85f639f71c02b8d6c6bb6b9",
+    "status": "source-checked",
+    "learningObjective": "Interpretarea limitelor și a rolurilor complementare ale monitorizării O₂ și CO₂.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 10,
+      "printedPages": [
+        225
+      ],
+      "pdfPages": [
+        43
+      ],
+      "section": "Pulsoximetria; capnografia"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "incorrect",
+        "rationale": "Oxigenul suplimentar poate masca hipoventilația la pulsoximetrie.",
+        "evidenceLocation": "Kumar, p. 225, Pulsoximetria; capnografia"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Textul menționează valori inexacte în perfuzia periferică scăzută.",
+        "evidenceLocation": "Kumar, p. 225, Pulsoximetria; capnografia"
+      },
+      {
+        "index": 2,
+        "verdict": "correct",
+        "rationale": "Capnografia continuă este folosită pentru depistarea problemelor acute de canulă.",
+        "evidenceLocation": "Kumar, p. 225, Pulsoximetria; capnografia"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Monitorizarea poate detecta modificări acute cardiorespiratorii, inclusiv scăderea debitului cardiac.",
+        "evidenceLocation": "Kumar, p. 225, Pulsoximetria; capnografia"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Aproximarea PaCO₂ prin end-tidal este descrisă la pacienții normali; nu justifică echivalența în orice situație.",
+        "evidenceLocation": "Kumar, p. 225, Pulsoximetria; capnografia"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T18:20:30.011Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare individuală cu p. 224–233 din textul român furnizat; imaginile p. 230 și 232 verificate pentru ventilație și clasificarea ARDS. Distractori revizuiți pentru confuzii între parametri, mecanisme, complicații și rezultate. Nu se folosesc afirmația despre direcția deplasării mediastinale sau concluziile despre steroizi din acest extras. Review AI, nu validare de medic sau calibrare psihometrică."
+  },
+  {
+    "questionId": "ati-ext-013",
+    "questionFingerprint": "0fbbe429a0edc32a6de4fad1bca934f22784a4a1c41bbae65e4c121b77d89014",
+    "status": "source-checked",
+    "learningObjective": "Alegerea VNI prin asocierea indicației cu capacitatea pacientului de a-și proteja căile aeriene.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 10,
+      "printedPages": [
+        230,
+        231
+      ],
+      "pdfPages": [
+        48,
+        49
+      ],
+      "section": "Ventilația non-invazivă; Cadranul 10.16"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Aceste condiții sunt cerute explicit în selecția pentru VNI.",
+        "evidenceLocation": "Kumar, p. 230, Ventilația non-invazivă"
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Masca nu asigură protecția căilor aeriene; incapacitatea de protecție este contraindicație.",
+        "evidenceLocation": "Kumar, p. 231, Cadranul 10.16"
+      },
+      {
+        "index": 2,
+        "verdict": "correct",
+        "rationale": "Cadranul include exacerbarea acută BPOC cu pH sub 7,35, în contextul selecției clinice adecvate.",
+        "evidenceLocation": "Kumar, p. 231, Cadranul 10.16"
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "Chirurgia facială sau a căilor aeriene superioare figurează între contraindicații.",
+        "evidenceLocation": "Kumar, p. 231, Cadranul 10.16"
+      },
+      {
+        "index": 4,
+        "verdict": "correct",
+        "rationale": "Edemul pulmonar cardiogen este inclus în lista indicațiilor.",
+        "evidenceLocation": "Kumar, p. 231, Cadranul 10.16"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T18:20:30.012Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare individuală cu p. 224–233 din textul român furnizat; imaginile p. 230 și 232 verificate pentru ventilație și clasificarea ARDS. Distractori revizuiți pentru confuzii între parametri, mecanisme, complicații și rezultate. Nu se folosesc afirmația despre direcția deplasării mediastinale sau concluziile despre steroizi din acest extras. Review AI, nu validare de medic sau calibrare psihometrică."
+  },
+  {
+    "questionId": "ati-ext-014",
+    "questionFingerprint": "6fbf9a956de33ccbf2075e88ee80716bc72a59620ee039f52f7551f25cdd3af3",
+    "status": "source-checked",
+    "learningObjective": "Separarea diagnosticului infecțios de colonizare și identificarea mecanismului de microaspirație.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 10,
+      "printedPages": [
+        228,
+        229
+      ],
+      "pdfPages": [
+        46,
+        47
+      ],
+      "section": "Pneumonie asociată ventilatorului"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "incorrect",
+        "rationale": "Textul subliniază dificultatea diferențierii colonizării de infecție pe baza izolării unui germen.",
+        "evidenceLocation": "Kumar, p. 228–229, Pneumonie asociată ventilatorului"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Ambele semne pot exista fără etiologie infecțioasă.",
+        "evidenceLocation": "Kumar, p. 228, Pneumonie asociată ventilatorului"
+      },
+      {
+        "index": 2,
+        "verdict": "correct",
+        "rationale": "Microaspirația secrețiilor infectate dincolo de balon este mecanismul descris.",
+        "evidenceLocation": "Kumar, p. 229, Pneumonie asociată ventilatorului"
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "Lista menționează bacili aerobi Gram-negativi, inclusiv Pseudomonas, Klebsiella, E. coli și Acinetobacter, precum și S. aureus, inclusiv MRSA; nu acești doi agenți de pneumonie atipică.",
+        "evidenceLocation": "Kumar, p. 228, Pneumonie asociată ventilatorului"
+      },
+      {
+        "index": 4,
+        "verdict": "correct",
+        "rationale": "Dispozitivele cu aspirație subglotică sunt descrise ca măsură pentru limitarea acestui risc.",
+        "evidenceLocation": "Kumar, p. 229, Pneumonie asociată ventilatorului"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T18:20:30.012Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare individuală cu p. 224–233 din textul român furnizat; imaginile p. 230 și 232 verificate pentru ventilație și clasificarea ARDS. Distractori revizuiți pentru confuzii între parametri, mecanisme, complicații și rezultate. Nu se folosesc afirmația despre direcția deplasării mediastinale sau concluziile despre steroizi din acest extras. Review AI, nu validare de medic sau calibrare psihometrică."
+  },
+  {
+    "questionId": "ati-ext-015",
+    "questionFingerprint": "7a9ee8db7f703131fdb1c8943224f2405de5ced2fbd6c6cf4dacc5cd9c9c3552",
+    "status": "source-checked",
+    "learningObjective": "Diferențierea ameliorării unui parametru fiziologic de beneficiul clinic demonstrat.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 10,
+      "printedPages": [
+        233,
+        230
+      ],
+      "pdfPages": [
+        51,
+        48
+      ],
+      "section": "Pronația; oxidul nitric inhalator"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Recrutarea, redistribuirea perfuziei și ventilația mai uniformă contribuie la efect.",
+        "evidenceLocation": "Kumar, p. 233, Pronația"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Vasodilatația în teritoriile ventilate poate ameliora raportul V/Q.",
+        "evidenceLocation": "Kumar, p. 233, Oxidul nitric inhalator"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Capitolul descrie ameliorarea oxigenării la responderi fără beneficiu demonstrat asupra supraviețuirii.",
+        "evidenceLocation": "Kumar, p. 233, Oxidul nitric inhalator"
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "Pasajul despre HFO arată lipsa beneficiului asupra mortalității la adulți, cu semnal de posibil prejudiciu într-un studiu.",
+        "evidenceLocation": "Kumar, p. 230, Oscilația de înaltă frecvență"
+      },
+      {
+        "index": 4,
+        "verdict": "correct",
+        "rationale": "Exemplele NO și HFO arată de ce cei doi indicatori nu sunt echivalenți.",
+        "evidenceLocation": "Kumar, p. 230; 233, HFO; Oxidul nitric"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T18:20:30.012Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare individuală cu p. 224–233 din textul român furnizat; imaginile p. 230 și 232 verificate pentru ventilație și clasificarea ARDS. Distractori revizuiți pentru confuzii între parametri, mecanisme, complicații și rezultate. Nu se folosesc afirmația despre direcția deplasării mediastinale sau concluziile despre steroizi din acest extras. Review AI, nu validare de medic sau calibrare psihometrică."
+  },
+  {
+    "questionId": "ati-ext-016",
+    "questionFingerprint": "c6a5b476f4e3a44f8b66f334c2ad61f705ebe412b1126ff36c2fdd8bfde14e35",
+    "status": "source-checked",
+    "learningObjective": "Identificarea compromisului dintre protecția pulmonară și normalizarea gazelor.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 10,
+      "printedPages": [
+        230
+      ],
+      "pdfPages": [
+        48
+      ],
+      "section": "Ventilația protectivă pulmonară"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Volumul se raportează la greutatea ideală în text, nu la excesul ponderal actual.",
+        "evidenceLocation": "Kumar, p. 230, Ventilația protectivă pulmonară"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Evitarea supradistensiei este un obiectiv central.",
+        "evidenceLocation": "Kumar, p. 230, Ventilația protectivă pulmonară"
+      },
+      {
+        "index": 2,
+        "verdict": "correct",
+        "rationale": "PEEP contribuie la menținerea volumului alveolar și la limitarea închiderii repetate.",
+        "evidenceLocation": "Kumar, p. 230, Ventilația protectivă pulmonară"
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "Normalizarea CO₂ nu justifică abandonarea limitării volumelor și a presiunii de platou.",
+        "evidenceLocation": "Kumar, p. 230, Ventilația protectivă pulmonară"
+      },
+      {
+        "index": 4,
+        "verdict": "correct",
+        "rationale": "Hipercapnia permisivă este descrisă ca acceptabilă în această strategie, cu atenție la acidoză.",
+        "evidenceLocation": "Kumar, p. 230, Ventilația protectivă pulmonară"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T18:20:30.012Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare individuală cu p. 224–233 din textul român furnizat; imaginile p. 230 și 232 verificate pentru ventilație și clasificarea ARDS. Distractori revizuiți pentru confuzii între parametri, mecanisme, complicații și rezultate. Nu se folosesc afirmația despre direcția deplasării mediastinale sau concluziile despre steroizi din acest extras. Review AI, nu validare de medic sau calibrare psihometrică."
+  },
+  {
+    "questionId": "ati-ext-017",
+    "questionFingerprint": "c6402e6990b84ca626b12e3f96682c8dacc357e905b6581aac72eea88fca89fe",
+    "status": "source-checked",
+    "learningObjective": "Interpretarea indicelui de respirație rapidă superficială ca predictor condiționat, nu criteriu suficient.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 10,
+      "printedPages": [
+        231,
+        232
+      ],
+      "pdfPages": [
+        49,
+        50
+      ],
+      "section": "Sevrajul; extubarea și decanularea traheostomei"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Definiția indicelui folosește respirații/minut împărțite la volumul curent în litri.",
+        "evidenceLocation": "Kumar, p. 231–232, Extubarea"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Pragul sub 100 este descris ca predictor relativ bun, condiționat de îndeplinirea precondițiilor.",
+        "evidenceLocation": "Kumar, p. 232, Indicele de respirație superficială și rapidă"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Indicele nu înlocuiește capacitatea de protecție a căilor aeriene.",
+        "evidenceLocation": "Kumar, p. 231–232, Extubarea"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Pacientul trebuie să poată tuși, înghiți și proteja căile aeriene.",
+        "evidenceLocation": "Kumar, p. 231, Extubarea"
+      },
+      {
+        "index": 4,
+        "verdict": "correct",
+        "rationale": "Ambele sunt incluse în evaluarea clinică pentru sevraj.",
+        "evidenceLocation": "Kumar, p. 231, Criterii pentru sevraj"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T18:20:30.012Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare individuală cu p. 224–233 din textul român furnizat; imaginile p. 230 și 232 verificate pentru ventilație și clasificarea ARDS. Distractori revizuiți pentru confuzii între parametri, mecanisme, complicații și rezultate. Nu se folosesc afirmația despre direcția deplasării mediastinale sau concluziile despre steroizi din acest extras. Review AI, nu validare de medic sau calibrare psihometrică."
+  },
+  {
+    "questionId": "ati-ext-018",
+    "questionFingerprint": "fea6a15820aba6f10073161897c8d208f4d9ebb45ac2a4db12e9ed54c169ce6f",
+    "status": "source-checked",
+    "learningObjective": "Integrarea leziunii alveolo-capilare cu mecanica și circulația pulmonară.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 10,
+      "printedPages": [
+        232
+      ],
+      "pdfPages": [
+        50
+      ],
+      "section": "ARDS — Patogeneză și fiziopatologie"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Edemul de permeabilitate este caracteristica principală descrisă.",
+        "evidenceLocation": "Kumar, p. 232, ARDS — Patogeneză și fiziopatologie"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Afectarea epiteliului reduce surfactantul și favorizează colapsul.",
+        "evidenceLocation": "Kumar, p. 232, ARDS — Patogeneză și fiziopatologie"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Complianța scade; acumularea de lichid nu face plămânul mai compliant.",
+        "evidenceLocation": "Kumar, p. 232, ARDS — Patogeneză și fiziopatologie"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Sunt menționate ambele modificări, chiar dacă exprimă mecanisme diferite de ineficiență a schimbului gazos.",
+        "evidenceLocation": "Kumar, p. 232, ARDS — Patogeneză și fiziopatologie"
+      },
+      {
+        "index": 4,
+        "verdict": "correct",
+        "rationale": "Compresia vasculară, microtromboza și vasoconstricția participă la hipertensiunea pulmonară.",
+        "evidenceLocation": "Kumar, p. 232, ARDS — Patogeneză și fiziopatologie"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T18:20:30.012Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare individuală cu p. 224–233 din textul român furnizat; imaginile p. 230 și 232 verificate pentru ventilație și clasificarea ARDS. Distractori revizuiți pentru confuzii între parametri, mecanisme, complicații și rezultate. Nu se folosesc afirmația despre direcția deplasării mediastinale sau concluziile despre steroizi din acest extras. Review AI, nu validare de medic sau calibrare psihometrică."
+  },
+  {
+    "questionId": "ati-ext-019",
+    "questionFingerprint": "bd9d5105e14787047cc6336a591ba081881231bd34245522d20de3400fec1afa",
+    "status": "source-checked",
+    "learningObjective": "Diferențierea complicațiilor de barotraumă de leziunile locale ale căii aeriene.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 10,
+      "printedPages": [
+        228
+      ],
+      "pdfPages": [
+        46
+      ],
+      "section": "Complicații respiratorii ale ventilației mecanice"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Aerul poate diseca în mediastin după ruptura alveolară.",
+        "evidenceLocation": "Kumar, p. 228, Complicații respiratorii ale ventilației mecanice"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Extensia aerului în țesuturile subcutanate este descrisă între aceste complicații.",
+        "evidenceLocation": "Kumar, p. 228, Complicații respiratorii ale ventilației mecanice"
+      },
+      {
+        "index": 2,
+        "verdict": "correct",
+        "rationale": "Pneumoperitoneul este inclus în lista consecințelor rupturii alveolare.",
+        "evidenceLocation": "Kumar, p. 228, Complicații respiratorii ale ventilației mecanice"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Ruptura alveolară poate produce pneumotorace, cu risc de tensiune sub ventilație.",
+        "evidenceLocation": "Kumar, p. 228, Complicații respiratorii ale ventilației mecanice"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Este o complicație locală tardivă a instrumentării căii aeriene, nu consecința rupturii alveolare.",
+        "evidenceLocation": "Kumar, p. 228, Complicații respiratorii ale ventilației mecanice"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T18:20:30.012Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare individuală cu p. 224–233 din textul român furnizat; imaginile p. 230 și 232 verificate pentru ventilație și clasificarea ARDS. Distractori revizuiți pentru confuzii între parametri, mecanisme, complicații și rezultate. Nu se folosesc afirmația despre direcția deplasării mediastinale sau concluziile despre steroizi din acest extras. Review AI, nu validare de medic sau calibrare psihometrică."
+  },
+  {
+    "questionId": "ati-ext-020",
+    "questionFingerprint": "4263aee28eb9dc19817e7acb52abb2bdff2fe68dbdbba84ed93594024c7663ce",
+    "status": "source-checked",
+    "learningObjective": "Corelarea mijloacelor de sevraj cu efectul urmărit și direcția reducerii suportului.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 10,
+      "printedPages": [
+        231,
+        228
+      ],
+      "pdfPages": [
+        49,
+        46
+      ],
+      "section": "Tehnici de sevraj; traheostomia"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Controlul secrețiilor este una dintre utilitățile traheostomiei descrise la p. 228.",
+        "evidenceLocation": "Kumar, p. 228, Traheostomia"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Confortul și reducerea sedării sunt alte beneficii menționate.",
+        "evidenceLocation": "Kumar, p. 228, Traheostomia"
+      },
+      {
+        "index": 2,
+        "verdict": "correct",
+        "rationale": "Capitolul descrie reducerea progresivă a presiunii de suport.",
+        "evidenceLocation": "Kumar, p. 231, Tehnici de sevraj"
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "În sevrajul prin SIMV se reduce, nu se crește progresiv frecvența respirațiilor controlate.",
+        "evidenceLocation": "Kumar, p. 231, Tehnici de sevraj"
+      },
+      {
+        "index": 4,
+        "verdict": "correct",
+        "rationale": "CPAP poate preveni colapsul, hipoxemia și scăderea complianței la reluarea respirației spontane.",
+        "evidenceLocation": "Kumar, p. 231, Tehnici de sevraj"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T18:20:30.012Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare individuală cu p. 224–233 din textul român furnizat; imaginile p. 230 și 232 verificate pentru ventilație și clasificarea ARDS. Distractori revizuiți pentru confuzii între parametri, mecanisme, complicații și rezultate. Nu se folosesc afirmația despre direcția deplasării mediastinale sau concluziile despre steroizi din acest extras. Review AI, nu validare de medic sau calibrare psihometrică."
   }
 ]

@@ -47,6 +47,18 @@
         41
       ],
       "chapter": 9
+    },
+    {
+      "book": "kumar",
+      "printed": [
+        224,
+        233
+      ],
+      "pdf": [
+        42,
+        51
+      ],
+      "chapter": 10
     }
   ],
   "note": "Mapping is partial. PDF text and images stay in ignored tmp/; no full textbook is distributed.",
