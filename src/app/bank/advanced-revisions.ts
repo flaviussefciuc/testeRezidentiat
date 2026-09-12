@@ -1,0 +1,88 @@
+import {advancedQuestion as q} from './advanced-author';
+
+export const ADVANCED_REVISIONS=[
+q('hematologie',16,-275,'hematologie-adv-021',[
+ 'Care asociere descrie corect cele două reacții dependente de cobalamină prezentate în bibliografie?',
+ ['Metilcobalamină — metilmalonil-CoA în succinil-CoA; deoxiadenosilcobalamină — homocisteină în metionină','Metilcobalamină — homocisteină în metionină; deoxiadenosilcobalamină — demetilarea metil-THF','Deoxiadenosilcobalamină — metilmalonil-CoA în succinil-CoA; metilcobalamină — homocisteină în metionină','Deoxiadenosilcobalamină — homocisteină în metionină; metilcobalamină — donator direct de metil în sinteza deoxitimidin-monofosfatului','Metilcobalamină — donator direct de metil în sinteza deoxitimidin-monofosfatului; deoxiadenosilcobalamină — metilmalonil-CoA în succinil-CoA'],'C',334,'Vitamina B12; Acidul folic — Metabolism',
+ 'Asocierea formei de cobalamină cu substratul și sensul reacției.',
+ ['Coenzimele sunt inversate între reacții.','Prima relație este corectă; demetilarea metil-THF este cuplată cu reacția dependentă de metilcobalamină.','Ambele asocieri sunt descrise în text; metilarea homocisteinei folosește și metil-THF.','Metilarea homocisteinei folosește metilcobalamină; donatorul pentru sinteza dTMP este metilen-THF.','A doua relație este corectă; donatorul direct pentru sinteza dTMP este metilen-THF, nu metilcobalamina.']],
+ [8,'Variantele permută forme active ale aceleiași vitamine și sensuri ale reacțiilor înrudite; sunt necesare două asocieri biochimice exacte.'],
+ ['deoxiadenosilcobalamina','metilmalonil CoA în succinil CoA','metilarea homocisteinei la metionină'],undefined,[333,335]),
+q('hematologie',16,-275,'hematologie-adv-022',[
+ 'Pentru fierul transportat de transferina plasmatică, care combinație între sursa majoritară, forma fierului și capacitatea unei molecule de transferină este corectă?',
+ ['Macrofagele sistemului reticuloendotelial — fier feros — doi atomi de fier','Absorbția intestinală — fier feric — doi atomi de fier','Macrofagele sistemului reticuloendotelial — fier feric — un atom de fier','Absorbția intestinală — fier feros — un atom de fier','Macrofagele sistemului reticuloendotelial — fier feric — doi atomi de fier'],'E',330,'Transportul fierului în sânge',
+ 'Separarea reciclării fierului de absorbție și a formei transportate de forma absorbită.',
+ ['Sursa și numărul sunt corecte; transferina leagă fier feric, nu feros.','Forma și numărul sunt corecte; majoritatea fierului provine din reciclarea prin macrofage.','Sursa și forma sunt corecte; fiecare moleculă leagă doi atomi.','Sursa majoritară, forma legată și numărul nu corespund descrierii transferinei.','Toate cele trei elemente sunt descrise în paragraful despre transport.']],
+ [8,'Cere trei detalii independente; distractorii apropiați păstrează câte două elemente și confundă fierul absorbit cu cel transportat.'],
+ ['macrofagele sistemului reticuloendotelial','doi atomi de fier feric','fierul legat de transferină']),
+q('hematologie',16,-275,'hematologie-adv-001',[
+ 'În anemia microcitară asociată unei boli inflamatorii și pierderilor de sânge, CTLF este scăzută, feritina serică este normală, iar receptorii solubili ai transferinei sunt crescuți. Care interpretare integrează aceste rezultate?',
+ ['Anemie din bolile cronice cu depozite de fier suficiente','Deficit de fier asociat anemiei din bolile cronice','Deficit de fier simplu cu răspuns de fază acută absent','Anemie sideroblastică dobândită cu supraîncărcare cu fier','Talasemie cu depozite de fier normale și CTLF nemodificată'],'B',331,'Investigații; Cadranul 16.4',
+ 'Interpretarea simultană a markerilor marțiali modificați de inflamație.',
+ ['În profilul necomplicat din tabel, receptorii solubili sunt normali; creșterea lor susține carența asociată.','Feritina, reactant de fază acută, poate fi normală în deficitul de fier; CTLF scăzută susține componenta inflamatorie.','În deficitul simplu CTLF crește și feritina scade.','Tabelul descrie fier seric și feritină crescute, cu CTLF normală; acesta nu este profilul prezentat.','CTLF normală caracterizează talasemia necomplicată din tabel, nu profilul inflamator descris.']],
+ [8,'Necesită reconcilierea a trei markeri; nici microcitoza, nici feritina izolată nu rezolvă diferențialul.'],
+ ['reactant de fază acută','receptorii solubili ai transferinei','anemia din bolile cronice'],'hematologie-ext-001'),
+q('hematologie',16,-275,'hematologie-adv-003',[
+ 'În diagnosticul anemiei pernicioase, care relație între anticorpii împotriva celulelor parietale și anticorpii anti-factor intrinsec corespunde bibliografiei?',
+ ['Anti-celulă parietală: sensibilitate mai mare, specificitate mai mică; anti-factor intrinsec: sensibilitate mai mică, specificitate mai mare','Anti-celulă parietală: sensibilitate mai mică, specificitate mai mare; anti-factor intrinsec: sensibilitate mai mare, specificitate mai mică','Anti-celulă parietală: sensibilitate și specificitate mai mari decât anti-factor intrinsec','Anti-factor intrinsec: sensibilitate și specificitate mai mari decât anti-celulă parietală','Cele două teste au specificitate similară, diferența fiind sensibilitatea'],'A',334,'Anemia pernicioasă — Patogeneză; Diagnostic diferențial',
+ 'Separarea frecvenței anticorpilor la bolnavi de specificitatea diagnosticului.',
+ ['Anticorpii parietali apar la 90% dintre pacienți și la 10% dintre indivizii normali; anti-factor intrinsec apar la aproximativ 50% dintre pacienți, dar sunt specifici.','Sunt inversate ambele relații dintre teste.','Sensibilitatea mai mare nu implică specificitate mai mare; anticorpii parietali apar și la indivizi normali.','Specificitatea anti-factor intrinsec este mai mare, dar sensibilitatea este mai mică.','Prezența anticorpilor parietali la indivizi normali diferențiază specificitatea celor două teste.']],
+ [8,'Alternativele permută aceleași două proprietăți ale acelorași teste; trebuie cunoscute simultan ambele relații.'],
+ ['anticorpii împotriva celulelor parietale','anticorpii anti-factor intrinsec'],'hematologie-ext-003',[335]),
+q('hematologie',16,-275,'hematologie-adv-006',[
+ 'Conform diagnosticului diferențial al anemiei microcitare, sunt corecte asocierile:',
+ ['Deficit de fier — CTLF crescută, receptori solubili ai transferinei crescuți, fier medular absent','Anemia din bolile cronice — CTLF scăzută, receptori solubili ai transferinei crescuți, fier medular prezent','Talasemie — CTLF normală, receptori solubili ai transferinei normali sau crescuți, fier medular absent','Anemia din bolile cronice — feritină normală sau crescută, fier medular prezent, fier eritroblastic absent sau scăzut','Anemie sideroblastică — feritină crescută, CTLF crescută, fier eritroblastic în forme inelare'],'AD',331,'Cadranul 16.4 — Anemia microcitară: diagnostic diferențial',
+ 'Compararea rezervelor și distribuției fierului cu markerii de transport.',
+ ['Toate cele trei elemente corespund deficitului de fier din tabel.','Receptorii solubili sunt normali; celelalte două elemente sunt corecte.','Fierul medular este prezent; celelalte două elemente sunt corecte.','Tabelul distinge fierul medular prezent de fierul absent sau scăzut în eritroblaști.','CTLF este normală; feritina și formele inelare sunt corect asociate.']],
+ [8,'Fiecare distractor păstrează două date corecte și schimbă un singur marker; cere diferențierea fierului medular de cel eritroblastic.'],
+ ['fier medular','fier în eritroblaști','forme inelare'],'hematologie-ext-006'),
+q('hematologie',16,-275,'hematologie-adv-007',[
+ 'În interpretarea macrocitozei și a modificărilor megaloblastice sunt corecte următoarele asocieri:',
+ ['Microcitoză coexistentă — VEM normal/mediu, cu dimorfism eritrocitar','Aglutinine la rece — VEM crescut, cu hipersegmentarea nucleului neutrofilelor prin aglutinare','Reticulocitoză — VEM crescut, cu maturație nucleară întârziată în reticulocite','Anemie megaloblastică — macro-ovalocite, cu cromatină nucleară condensată precoce în megaloblaști','Aglutinine la rece — VEM crescut, cu aglutinare reversibilă după încălzirea probei'],'AE',333,'Anemia megaloblastică; Macrocitoza fără modificări megaloblastice',
+ 'Separarea dimorfismului, artefactului de aglutinare și maturării megaloblastice.',
+ ['Coexistența microcitozei poate normaliza media VEM, în pofida populației macrocitare.','VEM poate fi crescut artefactual; hipersegmentarea neutrofilelor aparține megaloblastozei.','Reticulocitele sunt anucleate; dimensiunea lor crescută nu reprezintă maturare nucleară întârziată.','Macro-ovalocitele sunt caracteristice, dar cromatina megaloblaștilor este mai fin dispersată, cu maturare întârziată.','Încălzirea inversează aglutinarea care produce pseudomacrocitoză.']],
+ [7,'Integrare utilă, dar opțiunea despre maturarea nucleară în reticulocite rămâne prea ușor de exclus; versiune nepublicată.'],
+ ['macro-ovalocite','maturație nucleară întârziată','cromatina nucleară este mai fin dispersată'],'hematologie-ext-007',[336]),
+q('hematologie',16,-275,'hematologie-adv-008',[
+ 'Referitor la reglarea absorbției fierului, sunt corecte următoarele asocieri:',
+ ['Hepcidină — sinteză hepatică și internalizarea transportorului apical DMT1','Eritroferon — producție în eritroblaste și stimularea sintezei hepatice de hepcidină','Hepcidină — legare de feroportină și scăderea efluxului de fier în plasmă','IL-6 — stimularea hepcidinei și creșterea exportului de fier prin feroportină','Eritropoieză ineficientă — scăderea hepcidinei sub acțiunea eritroferonului și absorbție excesivă a fierului'],'CE',330,'Absorbția fierului — Hepcidină; eritroferon',
+ 'Identificarea mediatorului, transportorului și sensului reglării în inflamație și eritropoieză ineficientă.',
+ ['Sinteza hepatică este corectă; ținta internalizată este feroportina, nu DMT1.','Originea eritroblastică este corectă; eritroferonul scade hepcidina.','Legarea provoacă internalizarea și degradarea feroportinei, reducând efluxul de fier.','IL-6 stimulează hepcidina, dar exportul prin feroportină scade.','Această cale explică absorbția excesivă netransfuzională în anemiile cu eritropoieză ineficientă.']],
+ [8,'Fiecare alternativă eronată păstrează originea sau primul pas corect, dar atribuie greșit ținta ori consecința următoare.'],
+ ['internalizarea și degradarea','efluxului de fier','eritroblastele în curs de dezvoltare'],'hematologie-ext-008'),
+q('hematologie',16,-275,'hematologie-adv-010',[
+ 'În absorbția și transportul vitaminei B12 sunt corecte următoarele relații:',
+ ['Liantul R — derivat din salivă, eliberează B12 sub acțiunea enzimelor pancreatice','Factorul intrinsec — secretat de celulele parietale, transportă B12 de la enterocite la măduva osoasă','Cubilina — receptor de pe mucoasa ileonului, recunoaște complexul B12–transcobalamină II','Transcobalamina II — leagă fracția B12 activă preluată de celule','Transcobalamina I — leagă fracția plasmatică majoritară, denumită holotranscobalamină'],'AD',334,'Vitamina B12 — Absorbție și transport',
+ 'Urmărirea ligandului și compartimentului pentru fiecare proteină de transport.',
+ ['Ambele elemente sunt descrise în succesiunea absorbției.','Originea este corectă; transportul enterocit–țesuturi revine transcobalaminei II.','Localizarea este corectă; complexul recunoscut conține factor intrinsec.','Complexul B12–TCII este holotranscobalamina, fracția preluată de celule.','TCI leagă majoritatea B12 plasmatice; holotranscobalamina desemnează complexul cu TCII.']],
+ [8,'Toate proteinele aparțin aceleiași căi; distractorii schimbă numai ligandul, destinația sau denumirea fracției.'],
+ ['liantul R','mucoasei ileonului, cubilina','holotranscobalamină'],'hematologie-ext-010'),
+q('hematologie',16,-275,'hematologie-adv-016',[
+ 'Despre formele și transformările folaților sunt corecte afirmațiile:',
+ ['Folații alimentari se găsesc ca poliglutamați în forme reduse de dihidrofolat sau tetrahidrofolat','Poliglutamații sunt degradați în monoglutamați în tractul gastrointestinal superior','Monoglutamatul metil-THF este forma principală din ser','Metilarea homocisteinei la metionină necesită metil-THF și deoxiadenosilcobalamină','Poliglutamații intracelulari acționează ca forme active în transferul unităților cu un atom de carbon'],'ABCE',335,'Acidul folic — Metabolism',
+ 'Distingerea formelor de folat și a celor două coenzime cobalaminice.',
+ ['Acestea sunt formele alimentare descrise.','Transformarea precedă absorbția și conversia în metil-THF monoglutamat.','Aceasta este forma circulantă principală descrisă.','Reacția necesită metilcobalamină; deoxiadenosilcobalamina participă la transformarea metilmalonil-CoA în succinil-CoA.','Aceste forme sunt coenzime în metabolismul aminoacizilor și sinteza ADN.']],
+ [8,'Distractorul folosește o coenzimă reală a aceleiași vitamine; recunoașterea numelui B12 nu rezolvă reacția.'],
+ ['monoglutamat metil THF','poliglutamații intracelulari','metilarea homocisteinei la metionină'],'hematologie-ext-016',[334]),
+q('electroliti',9,-149,'electroliti-adv-001',[
+ 'Privind sindroamele cu hipokaliemie și alcaloză metabolică, sunt corecte asocierile:',
+ ['Gitelman — pierderea funcției cotransportorului apical sodiu-clor, hipocalciurie și renină crescută','Bartter — defect de transport al clorurii de sodiu în ansa Henle, hipercalciurie frecventă și renină scăzută','Liddle — activarea constitutivă a canalelor epiteliale de sodiu, hipertensiune și aldosteron crescut','Gitelman — defect al cotransportorului sodiu-clor, hipomagneziemie și hipercalciurie','Liddle — reabsorbție excesivă de sodiu, expansiune volemică și inhibiția secreției de renină'],'AE',188,'Sindromul Bartter; Sindromul Gitelman; Sindromul Liddle',
+ 'Compararea defectului tubular cu răspunsul hormonal și calciuria.',
+ ['Defectul NCCT, hipocalciuria și renina crescută caracterizează Gitelman.','Sediul și calciuria sunt corecte; renina este crescută prin pierderea de sare.','Activarea ENaC și hipertensiunea sunt corecte; aldosteronul este scăzut.','Primele două elemente sunt corecte; Gitelman asociază hipocalciurie.','Retenția nereglată de sodiu suprimă renina și aldosteronul.']],
+ [8,'Fiecare opțiune combină trei caracteristici apropiate; distractorii modifică un singur element dintr-un profil parțial corect.'],
+ ['activare constitutivă','cotransportorului apical de sodiu-clor','inhibiția secreției de renină'],'electroliti-ext-001'),
+q('electroliti',9,-149,'electroliti-adv-012',[
+ 'În ducturile colectoare corticale, sunt corecte următoarele relații între celulă, membrană și transport:',
+ ['Celule principale — canale de sodiu și potasiu apicale, Na+/K+-ATP-ază bazolaterală','Celule intercalate — manipularea hidrogenului și bicarbonatului, cu reabsorbția potasiului în depleția potasică','Celule principale — receptori V2 luminali, cu inserția aquaporinelor în membrana bazolaterală','Celule principale — activarea adenilciclazei prin V2, urmată de mobilizarea veziculelor cu aquaporine spre membrana luminală','Celule intercalate — sediul primar al creșterii permeabilității la apă induse de ADH, cu activitate Na+/K+-ATP-azică mai redusă'],'ABD',176,'Reglarea excreției apei; Figura 9.7',
+ 'Localizarea mecanismelor ionice și antidiuretice în cele două populații celulare.',
+ ['Ambele localizări sunt descrise pentru celulele principale.','Aceste funcții aparțin celulelor intercalate în text.','Receptorii V2 sunt bazolaterali; aquaporinele mobilizate sunt inserate luminal.','Aceasta este succesiunea semnalizării și traficului vezicular.','Activitatea ATP-azică redusă este corectă, dar răspunsul antidiuretic se produce în principal în celulele principale.']],
+ [8,'Cere simultan diferențiere celulară, polaritate membranară și succesiunea semnalizării; un fragment corect nu validează întreaga opțiune.'],
+ ['celulele intercalate','veziculelor citoplasmatice preformate','suprafața bazolaterală'],'electroliti-ext-012'),
+q('ati',10,-182,'ati-adv-010',[
+ 'Polineuropatia bolilor critice este caracterizată în bibliografie prin următoarele asocieri:',
+ ['Leziune axonală primară — afectare motorie și, în mai mică măsură, senzitivă','Dificultate de sevraj respirator — proteinorahie de obicei mult crescută','Slăbiciune flască a membrelor — afectare frecventă și predominantă a nervilor cranieni','Reflexe tendinoase diminuate sau absente — proteine LCR normale sau minim crescute','Sepsis persistent și insuficiență multiplă de organ — leziune demielinizantă primară la studiile de conducere'],'AD',231,'Slăbiciunea neuromusculară — complicație a bolilor critice',
+ 'Separarea profilului clinic, electrofiziologic și LCR de neuropatia demielinizantă comparată în capitol.',
+ ['Leziunea este axonală și predomină componenta motorie.','Dificultatea de sevraj este caracteristică; proteinorahia este normală sau minim crescută.','Slăbiciunea flască este caracteristică; nervii cranieni sunt rar afectați.','Ambele constatări corespund descrierii din capitol.','Contextul este corect, dar studiile confirmă deteriorare axonală.']],
+ [8,'Toți distractorii pornesc de la o constatare compatibilă; diferența decisivă privește distribuția, LCR sau tipul leziunii.'],
+ ['neuropatie axonală primară','proteine din lichidul cefalorahidian','nervii cranieni sunt rar afectați'],'ati-ext-010'),
+];

@@ -1,4 +1,22 @@
-# Revizuirea băncii · 12 septembrie 2026
+# Revizuirea băncii · 13 septembrie 2026
+
+## Situația curentă: prag editorial 8–10
+
+Toate cele 80 de grile suplimentare publicate anterior au o evaluare individuală în `difficulty-review.json`, cu amprenta versiunii, scorul 1–10, motivul și decizia. Nouă obiective au fost rescrise în versiuni acceptate cu ID nou; 71 de versiuni sunt retrase fără înlocuitor acceptat în acest lot. Niciun răspuns istoric nu este rescorizat folosind o versiune nouă.
+
+Lotul activ avansat conține 23 de întrebări: 9 înlocuitori și 14 întrebări suplimentare, inclusiv 12 de reumatologie. Toate sunt estimate la 8/10. Două propuneri au rămas la 7/10 și nu intră în sesiunile noi. Nu s-au atribuit scoruri 9–10 fără justificare. Scala estimează dificultatea editorială, nu probabilitatea de răspuns corect a unui student. Estimarea trebuie recalibrată ulterior din rezultate și prin evaluare medicală independentă.
+
+Criteriul 8/10 cere distincții precise între concepte vecine, alternative plauzibile și absența indiciilor de excludere evidente. Variantele greșite păstrează frecvent o parte corectă și schimbă compartimentul, ligandul, mecanismul sau o componentă a unui profil. Ambiguitatea, erorile tipografice și limbajul obscur nu cresc scorul. Expresiile-cheie sunt confruntate cu textul român; enunțurile rămân scurte și nu sunt transformate artificial în vignete lungi. Expresiile înregistrate sunt repere terminologice, nu un procent automat de similitudine.
+
+Antrenamentul are implicit filtrul «Doar grile avansate · 8–10/10». Scorul estimat este afișat după verificarea răspunsului. Dezactivarea filtrului și simularea folosesc banca mixtă de 203 întrebări: 23 avansate plus 180 inițiale încă neevaluate pe scala 1–10. Există 50 CS și 153 CM, suficiente pentru simularea distinctă 50 + 150. Pragul nu este pretins pentru banca inițială.
+
+Istoricul păstrează cele 200 de versiuni inițiale, cele 80 de versiuni suplimentare anterioare și cele 23 de versiuni acceptate noi. Testele verifică amprentele vechi, scorurile istorice, intervalul de dificultate, invalidarea review-ului după modificări și toate cardinalitățile CM. `audit:questions:release` continuă să ceară 800 suplimentare și o creștere netă de 800; în prezent sunt 23 acceptate pe criteriul nou și doar +3 net față de banca inițială. Extinderea rămâne incompletă.
+
+Sursele pentru lotul nou sunt paginile tipărite 176, 188, 231, 330–335, 438, 441, 443, 445, 447–448, 450–451. Pentru reumatologie, paginile 437–451 corespund PDF 67–81. Ca verificări externe punctuale ale țintelor medicamentoase s-au folosit [EMA Orencia](https://www.ema.europa.eu/en/documents/product-information/orencia-epar-product-information_en.pdf) și [EMA RoActemra](https://www.ema.europa.eu/en/documents/product-information/roactemra-epar-product-information_en.pdf). Acestea nu înlocuiesc ediția română din bibliografie.
+
+## Jurnalul etapelor anterioare
+
+Numerele de mai jos descriu loturile publicate înaintea aplicării pragului 8/10. Nu sunt situația activă curentă.
 
 ## Materiale comparate
 

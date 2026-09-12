@@ -1,7 +1,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {QUESTIONS,QUESTION_HISTORY,LEGACY_QUESTIONS,SOURCE_CHECKED_QUESTIONS} from '../src/app/questions.ts';
+import {QUESTIONS,QUESTION_HISTORY,LEGACY_QUESTIONS,SOURCE_CHECKED_QUESTIONS,PREVIOUS_SOURCE_QUESTIONS} from '../src/app/questions.ts';
+import {advancedEligibilityErrors} from '../src/app/bank/advanced-author.ts';
 import {HEMATOLOGY_SOURCE} from '../src/app/bank/hematology-source.ts';
 import {INTENSIVE_CARE_SOURCE} from '../src/app/bank/intensive-care-source.ts';
 import {ELECTROLYTES_SOURCE} from '../src/app/bank/electrolytes-source.ts';
@@ -48,4 +49,29 @@ test('retiring original questions preserves the content and scoring of old attem
 test('revised chapters cover CS and every CM cardinality without absolute-word distractors',()=>{
  for(const chapter of [SEPSIS_SOURCE,ELECTROLYTES_SOURCE,INTENSIVE_CARE_SOURCE,HEMATOLOGY_SOURCE])assert.deepEqual(new Set(chapter.map(q=>q.correct.length)),new Set([1,2,3,4]));
  assert.ok(SOURCE_CHECKED_QUESTIONS.every(q=>q.options.every(o=>!/obligator|întotdeauna|niciodată|exclusiv|garantat/i.test(o))));
+});
+test('difficulty gate rejects low, absent, fractional and out-of-range ratings',()=>{
+ const q=SOURCE_CHECKED_QUESTIONS[0];
+ for(const score of [0,7,7.9,8.5,11,NaN])assert.ok(advancedEligibilityErrors({...q,difficulty:{...q.difficulty,score}}).length);
+ assert.ok(advancedEligibilityErrors({...q,difficulty:undefined}).length);
+ assert.ok(advancedEligibilityErrors({...q,textbookExpressions:[]}).length);
+ for(const a of SOURCE_CHECKED_QUESTIONS)assert.deepEqual(advancedEligibilityErrors(a),[]);
+ const r=reviews.find((r:any)=>r.questionId===q.id);
+ assert.ok(reviewErrors({...q,difficulty:{...q.difficulty,score:9}},r).length);
+ assert.ok(reviewErrors({...q,textbookExpressions:['altă expresie']},r).length);
+});
+test('every earlier source version remains unchanged and cannot enter new sessions',()=>{
+ const assessments=JSON.parse(readFileSync(new URL('../docs/difficulty-review.json',import.meta.url),'utf8')).previous;
+ assert.equal(assessments.length,80);
+ assert.equal(new Set(assessments.map((r:any)=>r.questionId)).size,80);
+ for(const q of PREVIOUS_SOURCE_QUESTIONS){
+  assert.equal(assessments.find((r:any)=>r.questionId===q.id)?.questionFingerprint,questionFingerprint(q));
+  assert.deepEqual(QUESTION_HISTORY.find(h=>h.id===q.id),q);
+  assert.ok(!QUESTIONS.some(a=>a.id===q.id));
+  assert.deepEqual(reviewErrors(q,reviews.find((r:any)=>r.questionId===q.id)),[],q.id);
+  assert.deepEqual(summarize([{questionId:q.id,selected:q.correct}],QUESTION_HISTORY),summarize([{questionId:q.id,selected:q.correct}],PREVIOUS_SOURCE_QUESTIONS));
+ }
+ assert.deepEqual(new Set(SOURCE_CHECKED_QUESTIONS.map(q=>q.correct.length)),new Set([1,2,3,4]));
+ assert.ok(QUESTIONS.filter(q=>q.type==='CS').length>=50);
+ assert.ok(QUESTIONS.filter(q=>q.type==='CM').length>=150);
 });

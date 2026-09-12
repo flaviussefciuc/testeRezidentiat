@@ -1,0 +1,909 @@
+{
+  "date": "2026-09-13",
+  "scope": "All 80 previously published source questions; older 200-question legacy bank is not rated by this review.",
+  "minimumAccepted": 8,
+  "scale": "1–3 direct recall with obvious exclusions; 4–5 standard recall; 6–7 useful discrimination but weak cues remain; 8 precise neighboring distinctions with plausible partial truths; 9 multiple demanding distinctions without cues; 10 exceptional integrative demand. Ambiguity and obscure wording never increase the score.",
+  "reviewer": {
+    "kind": "ai",
+    "name": "Codex"
+  },
+  "previous": [
+    {
+      "questionId": "sepsis-ext-001",
+      "questionFingerprint": "08f07834562d830fe0847f410c34d0183c4fb977a757cd51398649850726bcf1",
+      "score": 5,
+      "kind": "editorial-estimate",
+      "reason": "Aplicare directă a două praguri qSOFA; unele interpretări sunt excluse prin definiție.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "sepsis-ext-002",
+      "questionFingerprint": "a0660137a4bd7499d35b111e090646838aab11b2f5f6cc346800fe01d65f4953",
+      "score": 6,
+      "kind": "editorial-estimate",
+      "reason": "Combină două criterii, dar opțiunea fără vasopresor și lactat crescut se elimină imediat.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "sepsis-ext-003",
+      "questionFingerprint": "43e121414dcb88ce79b37b0a263645870eb6407a7108b06a9ed69cd01dee8153",
+      "score": 3,
+      "kind": "editorial-estimate",
+      "reason": "Un singur fapt farmacocinetic, cu distractori din mecanisme fără legătură.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "sepsis-ext-004",
+      "questionFingerprint": "bdb6300e36fa48e8ad516abfa4694d12f400f29b13ba0851991f05dd2b40a417",
+      "score": 4,
+      "kind": "editorial-estimate",
+      "reason": "Porinele și LPS la S. aureus oferă indicii de excludere taxonomică.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "sepsis-ext-005",
+      "questionFingerprint": "a2ea56a3b8a7772c077acbf4b07c0c39080ab643d6c60d990a4471d019a21772",
+      "score": 5,
+      "kind": "editorial-estimate",
+      "reason": "Limitarea nitrofurantoinei în pielonefrită este o distincție uzuală, fără al doilea discriminator.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "sepsis-ext-006",
+      "questionFingerprint": "b7492922737860a3f1754a17598cc7832f130a1b6d94969799e0e04d87330fcc",
+      "score": 5,
+      "kind": "editorial-estimate",
+      "reason": "Mai mulți distractori inversează efecte inflamatorii generale.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "sepsis-ext-007",
+      "questionFingerprint": "c0d797979007586b9ddb30f4c8a3fc3904311ce7bd123077a3ae3879ceed73ca",
+      "score": 4,
+      "kind": "editorial-estimate",
+      "reason": "Efectul inotrop pozitiv al acidozei și beneficiul edemului sunt prea ușor de exclus.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "sepsis-ext-008",
+      "questionFingerprint": "51481e4866b82b4db3962f8293d539182105a3260dffce988b9c19424bdd6806",
+      "score": 4,
+      "kind": "editorial-estimate",
+      "reason": "Singurul distractor inversează efectul leziunii barierei intestinale.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "sepsis-ext-009",
+      "questionFingerprint": "3f86fbdde43d951e4f8b7df780e3213e4bc721d5baef357b5e4e7aea20e3f1cc",
+      "score": 6,
+      "kind": "editorial-estimate",
+      "reason": "Diferențe temporale utile, dar asocierea hemodializei rămâne directă.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "sepsis-ext-010",
+      "questionFingerprint": "0af009508d4ef8018c1450d7dd87d4542a39076c2b00945f78e8dabc8179ab74",
+      "score": 6,
+      "kind": "editorial-estimate",
+      "reason": "Embolizarea dreaptă versus stângă și germenii nosocomiali permit eliminare rapidă.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "sepsis-ext-011",
+      "questionFingerprint": "af388736c4c8624c3e9c22fdab070aaa46ceaa8f2f75630d53fb3535ec9726d1",
+      "score": 5,
+      "kind": "editorial-estimate",
+      "reason": "PCR versus spectrometrie și antibiogramă separă clase de investigații prea diferite.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "sepsis-ext-012",
+      "questionFingerprint": "34f6f031a22e3e8a4dca0b5a88f99ddba5c073767717c9c50b14439157a920b4",
+      "score": 4,
+      "kind": "editorial-estimate",
+      "reason": "Orice endocardită și menținerea spectrului larg sunt indicii de redactare.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "sepsis-ext-013",
+      "questionFingerprint": "2fe32d1d0ae0af10af2d71ded82799544ad6ad4d4eb545bc77bdad495d92561b",
+      "score": 4,
+      "kind": "editorial-estimate",
+      "reason": "Cronologia reacțiilor imediate și întârziate este inversată explicit.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "sepsis-ext-014",
+      "questionFingerprint": "b0f373ddf1bbe79d6ebabadf3a21ef5b7be84e2f2cf29c827955e9b92e6dbbd0",
+      "score": 3,
+      "kind": "editorial-estimate",
+      "reason": "Topoizomeraza și gruparea nitro sunt mecanisme din alte clase bine distincte.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "sepsis-ext-015",
+      "questionFingerprint": "ded7e3f0f099aefa44189a1a6d4b13162e22da3a790a37b3d5a3d2ac03cda4ed",
+      "score": 3,
+      "kind": "editorial-estimate",
+      "reason": "Identificarea clasei monobactam elimină două variante fără evaluarea spectrului.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "sepsis-ext-016",
+      "questionFingerprint": "e24ba696ee72419771d88967a0ff6eefbb201b34f4cd6ce5a46407cc3ce511f8",
+      "score": 6,
+      "kind": "editorial-estimate",
+      "reason": "Excepția ertapenemului este pertinentă, dar patru opțiuni sunt afirmații largi de clasă.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "sepsis-ext-017",
+      "questionFingerprint": "49c61389f9b33c9c46c520aa6cb702c45e4497bf253102c7ab7e388dd9e5687a",
+      "score": 4,
+      "kind": "editorial-estimate",
+      "reason": "Protecția față de ototoxicitate prin diuretice este prea evident falsă.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "sepsis-ext-018",
+      "questionFingerprint": "efb9405d164b18e02c2b94d66f16b7e99042d52c103c2b9abac016bad484dd5e",
+      "score": 4,
+      "kind": "editorial-estimate",
+      "reason": "Singura opțiune greșită mută linezolidul de la ribozom la peretele celular.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "sepsis-ext-019",
+      "questionFingerprint": "6e0ddd9623f86c79b2aa91ba8d55fd6bef72cd1abfa3181ad38faf79328ba13d",
+      "score": 5,
+      "kind": "editorial-estimate",
+      "reason": "Două opțiuni inversează același risc de hiperpotasemie.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "sepsis-ext-020",
+      "questionFingerprint": "d4f35c0ccba5c0df33e24d08826a6a39105cd8f16b6994ef5d7a5eb6092125f9",
+      "score": 6,
+      "kind": "editorial-estimate",
+      "reason": "Viteza bactericidiei este discriminatorul unic, restul sunt toxicități generale.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "electroliti-ext-001",
+      "questionFingerprint": "f43840daf09fd966a4ead40e2c42b249e866a30f010406ab508414ffffe74155",
+      "score": 7,
+      "kind": "editorial-estimate",
+      "reason": "Diagnostic diferențial bun, dar hipocalciuria și hipomagneziemia dezvăluie direct Gitelman.",
+      "decision": "replaced-with-new-version",
+      "replacementId": "electroliti-adv-001"
+    },
+    {
+      "questionId": "electroliti-ext-002",
+      "questionFingerprint": "17ef8186788040924ed37379b021626f838e569d7db93bc260dcb97846cc4093",
+      "score": 6,
+      "kind": "editorial-estimate",
+      "reason": "Cunoașterea blocării ENaC rezolvă întrebarea fără integrare suplimentară.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "electroliti-ext-003",
+      "questionFingerprint": "a30ec43e509cde84c59b44dbc403d9007215906d26af74a70fc61eb629d3fcbd",
+      "score": 4,
+      "kind": "editorial-estimate",
+      "reason": "Două opțiuni nici nu sunt receptori ai vasopresinei.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "electroliti-ext-004",
+      "questionFingerprint": "e000c20b4d22fa3346b1be6a56d28f1154926fd24bf635a3625df9e55c7afbb1",
+      "score": 5,
+      "kind": "editorial-estimate",
+      "reason": "Răspunsul la desmopresină rezolvă o diferențiere clasică.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "electroliti-ext-005",
+      "questionFingerprint": "6ab746a5dabfd85c82b7e1811102c40bda55945ccb79b1fb2c84a83986b83dba",
+      "score": 3,
+      "kind": "editorial-estimate",
+      "reason": "Un singur fapt foarte cunoscut privind magneziul.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "electroliti-ext-006",
+      "questionFingerprint": "012c3c8005851908bb769fbfc7e143c26404f948eeb5670c3c65425aa9d189c6",
+      "score": 6,
+      "kind": "editorial-estimate",
+      "reason": "Mecanismul de sustragere este util, dar două opțiuni exprimă aceeași reducere a ofertei distale.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "electroliti-ext-007",
+      "questionFingerprint": "ce5d4f8cfca7889ec4766fe7173d50f0faf8de27f4ba614def367c78e5f65f84",
+      "score": 5,
+      "kind": "editorial-estimate",
+      "reason": "Calciuria în sensuri opuse și puterea diuretică oferă eliminări rapide.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "electroliti-ext-008",
+      "questionFingerprint": "4fab1d45629d5798e0069abf674c13307c4419b120c912aabce8d1f9097d54f8",
+      "score": 6,
+      "kind": "editorial-estimate",
+      "reason": "Edem microvascular versus retenție renală, dar majoritatea distractorilor inversează efectul de clasă.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "electroliti-ext-009",
+      "questionFingerprint": "21dd320ea1c9396efaea6816b2eb8d2128712bf05de5316532c9a459bcc40be4",
+      "score": 4,
+      "kind": "editorial-estimate",
+      "reason": "Excluderile endocrine sunt corecte, însă alternativele SIADH sunt prea evident incompatibile.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "electroliti-ext-010",
+      "questionFingerprint": "eedfc51d75b8a35b0b5cef65504ec5a641052659051bdc52005c890673b277a1",
+      "score": 5,
+      "kind": "editorial-estimate",
+      "reason": "In vitro versus in vivo este explicit în variante.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "electroliti-ext-011",
+      "questionFingerprint": "c08ec5adc7a1775973d6a43dd95e4beab5cd00dedd62e0b3e44ca63f6e08a48e",
+      "score": 4,
+      "kind": "editorial-estimate",
+      "reason": "Două opțiuni inversează direct defectul de reabsorbție proximală.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "electroliti-ext-012",
+      "questionFingerprint": "a31cbdcd4db64fc581bceed45e1677eeb0311df0b95fb32b44199c754b73f8ca",
+      "score": 7,
+      "kind": "editorial-estimate",
+      "reason": "Localizarea membranară este precisă, dar retragerea aquaporinelor oferă un discriminator simplu.",
+      "decision": "replaced-with-new-version",
+      "replacementId": "electroliti-adv-012"
+    },
+    {
+      "questionId": "electroliti-ext-013",
+      "questionFingerprint": "4dea323def719c07e0a4a0051085186dad52887510c5c9bca2a578b0ad0ac0bf",
+      "score": 7,
+      "kind": "editorial-estimate",
+      "reason": "Necesită adaptarea osmotică în timp; două alternative inversează sensul aceleiași explicații.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "electroliti-ext-014",
+      "questionFingerprint": "05fb0dc255de8a0a81681bb53d419950c2a3429f5baaac7100f8748f00484b51",
+      "score": 4,
+      "kind": "editorial-estimate",
+      "reason": "Hiperosmolalitatea și diferența conținut–concentrație sunt proprietăți definitorii.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "electroliti-ext-015",
+      "questionFingerprint": "edf3a9a799fe429ffdc62c49019a38daee515a3f015b5128d73b0d0823726b84",
+      "score": 5,
+      "kind": "editorial-estimate",
+      "reason": "Moartea celulară este ușor de eliminat; rămâne o listă de factori.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "electroliti-ext-016",
+      "questionFingerprint": "d2973d0262cd83633f4bbba5bbacb7b7a6711bb7b8c90dada7917adb5496fc1d",
+      "score": 6,
+      "kind": "editorial-estimate",
+      "reason": "Interacțiunea cu litiul e utilă, dar este singurul discriminator.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "electroliti-ext-017",
+      "questionFingerprint": "df4331b83de9b51db171a09b79ecca9f80b390b3e94f5fad8a715c35ec51eaad",
+      "score": 4,
+      "kind": "editorial-estimate",
+      "reason": "Expansiunea primară cu renină scăzută contrazice direct pierderea de sare.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "electroliti-ext-018",
+      "questionFingerprint": "ac79c6fc560a74df34f240bd2c7782365ca07101fed38d45eb2e0b7724fdad61",
+      "score": 6,
+      "kind": "editorial-estimate",
+      "reason": "Mecanismele terapeutice sunt distincte și ușor de separat după intervenție.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "electroliti-ext-019",
+      "questionFingerprint": "3471fc6b51c1da0dbf15ce85e947d17689737cd3440caaad2a9af0321501c996",
+      "score": 4,
+      "kind": "editorial-estimate",
+      "reason": "Metolazona este singurul diuretic care pierde potasiu.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "electroliti-ext-020",
+      "questionFingerprint": "9964b3dbe8ac43052d4576ca7681b7b7aef402679d3294ebb299014da1abda84",
+      "score": 7,
+      "kind": "editorial-estimate",
+      "reason": "Riscul potasiului în supracorecție este relevant, dar celelalte opțiuni sunt conduite uzuale.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "ati-ext-001",
+      "questionFingerprint": "510901c4d886f3ea613c484eaa9f2cc4b02d8e35492297b036cbd3c8a72202f7",
+      "score": 6,
+      "kind": "editorial-estimate",
+      "reason": "Capacitatea vitală e discriminator util, dar restul nu oferă un diferențial suficient de apropiat.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "ati-ext-002",
+      "questionFingerprint": "8a4e10e93856eb12b962fe56efdd699c5ded01bc6063aeb84099d339b295ccff",
+      "score": 4,
+      "kind": "editorial-estimate",
+      "reason": "Enunțul fixează explicit variabilele pe care distractorii pretind că le modifică.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "ati-ext-003",
+      "questionFingerprint": "baf1db4508ee6df73eb009974f18cc2ea7e7d89aae924b83be9946b781802a54",
+      "score": 5,
+      "kind": "editorial-estimate",
+      "reason": "Calcul simplu; opțiunile folosesc parametri care nu clasifică severitatea.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "ati-ext-004",
+      "questionFingerprint": "371f32b3c52751a0d964140c534b3b7ed50f17835ca7c61a1b4f575c09eff0da",
+      "score": 6,
+      "kind": "editorial-estimate",
+      "reason": "Distincția debit–oxigenare este utilă, dar unele alternative schimbă complet tipul de suport.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "ati-ext-005",
+      "questionFingerprint": "0e6d7ad3c455c7ce07c3a7db2a189333b3f430b280c1e04349c5ef72f816ec0a",
+      "score": 5,
+      "kind": "editorial-estimate",
+      "reason": "Tablou tipic de pneumotorace în tensiune cu semne unilaterale decisive.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "ati-ext-006",
+      "questionFingerprint": "024fc233d8ff613561c082dc7df16490e0fb61dd52ec2e77a0b38c327d151d63",
+      "score": 7,
+      "kind": "editorial-estimate",
+      "reason": "Integrare transport O2–debit, dar recrutarea echivalată cu perfuzia e un indiciu prea puternic.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "ati-ext-007",
+      "questionFingerprint": "9340ca5f5fb3f57e44da901353a026a5eeb1f7e081529a12cb47ebab14767a80",
+      "score": 6,
+      "kind": "editorial-estimate",
+      "reason": "Metabolismul celular versus aer este precis, însă opțiunile repetă aceleași sensuri opuse.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "ati-ext-008",
+      "questionFingerprint": "4fde3d2defe20d8c0fc2a71f2e328755da32a777ff9cdf0e7975c0582b4cd482",
+      "score": 6,
+      "kind": "editorial-estimate",
+      "reason": "Comparație utilă a modurilor, cu distractori care schimbă direct variabila controlată.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "ati-ext-009",
+      "questionFingerprint": "5faa9e9544bb793e7b10019ffccb4db867d614bd30dc809b6fe2b1212367fd9e",
+      "score": 4,
+      "kind": "editorial-estimate",
+      "reason": "Simetria și capnografia sunt opuse semnelor caracteristice.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "ati-ext-010",
+      "questionFingerprint": "5aa84c35d48059f48d9dccf0a4cb5efc8ead10ce9e57b2baafe547a0849f2d50",
+      "score": 7,
+      "kind": "editorial-estimate",
+      "reason": "Electrofiziologie și LCR pertinente; varianta despre nervii cranieni este prea simplă.",
+      "decision": "replaced-with-new-version",
+      "replacementId": "ati-adv-010"
+    },
+    {
+      "questionId": "ati-ext-011",
+      "questionFingerprint": "0173d7a8c6a6c7736005ded52dc029da5a76d83ce6f91e20cae91a9783ff739e",
+      "score": 6,
+      "kind": "editorial-estimate",
+      "reason": "Distincție de doză și sarcină, cu două inverse relativ evidente.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "ati-ext-012",
+      "questionFingerprint": "a6e083e02ffd5d4c6c741c249da5a1fc550f0e58c85f639f71c02b8d6c6bb6b9",
+      "score": 5,
+      "kind": "editorial-estimate",
+      "reason": "Exclude și indiferent oferă indicii de generalizare excesivă.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "ati-ext-013",
+      "questionFingerprint": "0fbbe429a0edc32a6de4fad1bca934f22784a4a1c41bbae65e4c121b77d89014",
+      "score": 4,
+      "kind": "editorial-estimate",
+      "reason": "Etanșarea măștii nu poate substitui protecția căilor aeriene; chirurgia facială este indiciu clar.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "ati-ext-014",
+      "questionFingerprint": "6fbf9a956de33ccbf2075e88ee80716bc72a59620ee039f52f7551f25cdd3af3",
+      "score": 6,
+      "kind": "editorial-estimate",
+      "reason": "Colonizarea este relevantă, dar microorganismele atipice se elimină ușor.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "ati-ext-015",
+      "questionFingerprint": "7a9ee8db7f703131fdb1c8943224f2405de5ced2fbd6c6cf4dacc5cd9c9c3552",
+      "score": 6,
+      "kind": "editorial-estimate",
+      "reason": "Ultima opțiune reformulează concluzia metodologică și ajută rezolvarea celorlalte.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "ati-ext-016",
+      "questionFingerprint": "c6a5b476f4e3a44f8b66f334c2ad61f705ebe412b1126ff36c2fdd8bfde14e35",
+      "score": 4,
+      "kind": "editorial-estimate",
+      "reason": "Depășirea explicită a limitei protectoare contrazice enunțul.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "ati-ext-017",
+      "questionFingerprint": "c6402e6990b84ca626b12e3f96682c8dacc357e905b6581aac72eea88fca89fe",
+      "score": 5,
+      "kind": "editorial-estimate",
+      "reason": "Compensarea absenței reflexelor printr-un indice este un distractor evident.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "ati-ext-018",
+      "questionFingerprint": "fea6a15820aba6f10073161897c8d208f4d9ebb45ac2a4db12e9ed54c169ce6f",
+      "score": 4,
+      "kind": "editorial-estimate",
+      "reason": "Creșterea complianței prin edem este singurul distractor și prea ușor de exclus.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "ati-ext-019",
+      "questionFingerprint": "bd9d5105e14787047cc6336a591ba081881231bd34245522d20de3400fec1afa",
+      "score": 3,
+      "kind": "editorial-estimate",
+      "reason": "Stenoza traheală nu aparține aceleiași familii de leziuni prin aer extravazat.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "ati-ext-020",
+      "questionFingerprint": "4263aee28eb9dc19817e7acb52abb2bdff2fe68dbdbba84ed93594024c7663ce",
+      "score": 4,
+      "kind": "editorial-estimate",
+      "reason": "Creșterea suportului în timpul sevrajului este un indiciu de sens invers.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "hematologie-ext-001",
+      "questionFingerprint": "7428d2774feac4d8f35acfba39e6c95be4cb0a6aee3b840d7060a0a3abec38f0",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Integrare a trei markeri într-un deficit mixt; păstrat ca obiectiv, reformulat în terminologia cărții.",
+      "decision": "replaced-with-new-version",
+      "replacementId": "hematologie-adv-001"
+    },
+    {
+      "questionId": "hematologie-ext-002",
+      "questionFingerprint": "e024fd5202535c4d3a95a3a53b59ff112574ac72de842e07dc7fd8a1002250bc",
+      "score": 7,
+      "kind": "editorial-estimate",
+      "reason": "Compartimente apropiate, însă localizările intranucleară și membranară sunt mai puțin competitive.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "hematologie-ext-003",
+      "questionFingerprint": "865be3e30744dd7db4de94de6c43d6cabd9324875e67c4fe9e901c77ea83b4c0",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Compară simultan sensibilitatea și specificitatea; reformulat concis, păstrând relațiile exacte.",
+      "decision": "replaced-with-new-version",
+      "replacementId": "hematologie-adv-003"
+    },
+    {
+      "questionId": "hematologie-ext-004",
+      "questionFingerprint": "d16b8c522d56f3dc1997ef0843798a671d690e2902ffb042c9bd9a2fa6fef9ce",
+      "score": 7,
+      "kind": "editorial-estimate",
+      "reason": "Testul Donath–Landsteiner identifică aproape direct diagnosticul.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "hematologie-ext-005",
+      "questionFingerprint": "7c01642c33d34cb73cb93f893a8145f96e960eb84d43e9c2d2140887563f3f63",
+      "score": 6,
+      "kind": "editorial-estimate",
+      "reason": "Enunțul dezvăluie deja originea eritrocitelor pentru ambele teste.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "hematologie-ext-006",
+      "questionFingerprint": "1b4b82eb65ebad35fb2a53b665da9c1bb17ce811f0faaeb802ef4b61018f5864",
+      "score": 7,
+      "kind": "editorial-estimate",
+      "reason": "Perechi utile, dar fier absent în sideroblaști oferă un indiciu puternic; necesită profiluri mai apropiate.",
+      "decision": "replaced-with-new-version",
+      "replacementId": "hematologie-adv-006"
+    },
+    {
+      "questionId": "hematologie-ext-007",
+      "questionFingerprint": "7ac2eaf3598678f407e751e1599c81b88c92742bfbc7bbfef7cc7303cd9d0abd",
+      "score": 7,
+      "kind": "editorial-estimate",
+      "reason": "Integrare bună, dar hipersegmentarea prin aglutinare și reticulocitele mici sunt prea evidente.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "hematologie-ext-008",
+      "questionFingerprint": "79992a7a1e8ca071fa8257bf16d1b155cafde61e785ebe3a9abc0319a84777cb",
+      "score": 7,
+      "kind": "editorial-estimate",
+      "reason": "Apropiere bună a mediatorilor, dar originea hepcidinei și absența intermedierii sunt indicii.",
+      "decision": "replaced-with-new-version",
+      "replacementId": "hematologie-adv-008"
+    },
+    {
+      "questionId": "hematologie-ext-009",
+      "questionFingerprint": "307aca61644a186f6670937cfd770fd6caadf9ef83248644bb948ec6d056bb96",
+      "score": 6,
+      "kind": "editorial-estimate",
+      "reason": "IgM fără afinitate pentru complement este un distractor ușor în acest context.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "hematologie-ext-010",
+      "questionFingerprint": "e967ce9c05ed5259d63ba31720fc87814a5107bd3d743fe1e9b2e7d5ffc607d3",
+      "score": 7,
+      "kind": "editorial-estimate",
+      "reason": "Proteine din aceeași cale; întărit prin păstrarea unui atribut corect în fiecare distractor.",
+      "decision": "replaced-with-new-version",
+      "replacementId": "hematologie-adv-010"
+    },
+    {
+      "questionId": "hematologie-ext-011",
+      "questionFingerprint": "9b47d37513139158541d72d7f1e7a39db7a1aedaf7c215e8c1f67e96a2f4fc5d",
+      "score": 5,
+      "kind": "editorial-estimate",
+      "reason": "Complexele insolubile care favorizează absorbția sunt prea ușor de exclus.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "hematologie-ext-012",
+      "questionFingerprint": "65176ffe5c57427b061ef7ca104b40f75b584c02f61d19f0d7c48bd069b9f4b5",
+      "score": 5,
+      "kind": "editorial-estimate",
+      "reason": "Aderență, pierderi și diagnostic greșit sunt cauze generale evidente.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "hematologie-ext-013",
+      "questionFingerprint": "e381937f72b7539d267c4468049de2b8430b4d33fcbbb8aa1909ce6ad3a55ccb",
+      "score": 6,
+      "kind": "editorial-estimate",
+      "reason": "Metamielocitele mici și VEM suficient pentru excludere oferă indicii.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "hematologie-ext-014",
+      "questionFingerprint": "15d1eccae286454aac39e8a6dfb1885a1c54add6535ea7a6498029215855d476",
+      "score": 6,
+      "kind": "editorial-estimate",
+      "reason": "Corpii Heinz și absența aglutininelor nu oferă alternative imunologice suficient de apropiate.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "hematologie-ext-015",
+      "questionFingerprint": "a04c8fb32b88bd94468e519105bff3e57661979cd8ab44ff7e6228b83243d7b3",
+      "score": 7,
+      "kind": "editorial-estimate",
+      "reason": "Clonalitatea multilineară este bună, dar anti-P identifică direct altă boală.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "hematologie-ext-016",
+      "questionFingerprint": "6b20b4c3cd2c6d70aa9bbd3d5192f4f76d2f01ffef49aabcbf787bb552fca896",
+      "score": 7,
+      "kind": "editorial-estimate",
+      "reason": "Formele de folat sunt precise; independența de B12 este un discriminator prea larg.",
+      "decision": "replaced-with-new-version",
+      "replacementId": "hematologie-adv-016"
+    },
+    {
+      "questionId": "hematologie-ext-017",
+      "questionFingerprint": "a546f659493eaa21a2cc23f44b328df1a6b8654805b4684b8ff2526cc9073b47",
+      "score": 6,
+      "kind": "editorial-estimate",
+      "reason": "Răspunsul la folat ca excludere B12 este o eroare didactică uzuală.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "hematologie-ext-018",
+      "questionFingerprint": "83b3d7a09c050e668e19109e347da10a96f82c47c99f6acf89d1001c1c69b5f8",
+      "score": 7,
+      "kind": "editorial-estimate",
+      "reason": "Răspunsul la splenectomie este pertinent, dar unicul discriminator.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "hematologie-ext-019",
+      "questionFingerprint": "419d2d9d243036ed5e0f6faf3bd136653f7d95618ffc324c4d50876205c74f06",
+      "score": 7,
+      "kind": "editorial-estimate",
+      "reason": "Aplazia versus hemoliza e utilă, dar singura variantă falsă e din alt mecanism terapeutic.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    },
+    {
+      "questionId": "hematologie-ext-020",
+      "questionFingerprint": "3cabbd118246412f7a43721f216a8472d7d8941069aa6a19bb3a105744b3a432",
+      "score": 6,
+      "kind": "editorial-estimate",
+      "reason": "Mecanismul imun în HUS se elimină prin încadrarea uzuală a bolii.",
+      "decision": "withdrawn-below-threshold",
+      "replacementId": null
+    }
+  ],
+  "retained": [
+    {
+      "questionId": "hematologie-adv-021",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Variantele permută forme active ale aceleiași vitamine și sensuri ale reacțiilor înrudite; sunt necesare două asocieri biochimice exacte.",
+      "replaces": null
+    },
+    {
+      "questionId": "hematologie-adv-022",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Cere trei detalii independente; distractorii apropiați păstrează câte două elemente și confundă fierul absorbit cu cel transportat.",
+      "replaces": null
+    },
+    {
+      "questionId": "hematologie-adv-001",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Necesită reconcilierea a trei markeri; nici microcitoza, nici feritina izolată nu rezolvă diferențialul.",
+      "replaces": "hematologie-ext-001"
+    },
+    {
+      "questionId": "hematologie-adv-003",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Alternativele permută aceleași două proprietăți ale acelorași teste; trebuie cunoscute simultan ambele relații.",
+      "replaces": "hematologie-ext-003"
+    },
+    {
+      "questionId": "hematologie-adv-006",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Fiecare distractor păstrează două date corecte și schimbă un singur marker; cere diferențierea fierului medular de cel eritroblastic.",
+      "replaces": "hematologie-ext-006"
+    },
+    {
+      "questionId": "hematologie-adv-008",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Fiecare alternativă eronată păstrează originea sau primul pas corect, dar atribuie greșit ținta ori consecința următoare.",
+      "replaces": "hematologie-ext-008"
+    },
+    {
+      "questionId": "hematologie-adv-010",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Toate proteinele aparțin aceleiași căi; distractorii schimbă numai ligandul, destinația sau denumirea fracției.",
+      "replaces": "hematologie-ext-010"
+    },
+    {
+      "questionId": "hematologie-adv-016",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Distractorul folosește o coenzimă reală a aceleiași vitamine; recunoașterea numelui B12 nu rezolvă reacția.",
+      "replaces": "hematologie-ext-016"
+    },
+    {
+      "questionId": "electroliti-adv-001",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Fiecare opțiune combină trei caracteristici apropiate; distractorii modifică un singur element dintr-un profil parțial corect.",
+      "replaces": "electroliti-ext-001"
+    },
+    {
+      "questionId": "electroliti-adv-012",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Cere simultan diferențiere celulară, polaritate membranară și succesiunea semnalizării; un fragment corect nu validează întreaga opțiune.",
+      "replaces": "electroliti-ext-012"
+    },
+    {
+      "questionId": "ati-adv-010",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Toți distractorii pornesc de la o constatare compatibilă; diferența decisivă privește distribuția, LCR sau tipul leziunii.",
+      "replaces": "ati-ext-010"
+    },
+    {
+      "questionId": "reumatologie-adv-013",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Aceeași țintă pentru toate medicamentele; variantele diferă numai prin domeniul receptorului, fragmentul Fab și prezența Fc.",
+      "replaces": null
+    },
+    {
+      "questionId": "reumatologie-adv-001",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Toate variantele folosesc aceleași trei molecule și funcții reale; trebuie păstrată corespondența completă.",
+      "replaces": null
+    },
+    {
+      "questionId": "reumatologie-adv-002",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Diferențierea necesită atât structura moleculei, cât și etapa imunologică țintită; numele clasei nu este suficient.",
+      "replaces": null
+    },
+    {
+      "questionId": "reumatologie-adv-003",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Toate elementele provin din afectarea aceleiași regiuni; relația cauzală și tendonul implicat trebuie cunoscute precis.",
+      "replaces": null
+    },
+    {
+      "questionId": "reumatologie-adv-004",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Distractorii conservă o afirmație imunologică adevărată și schimbă ținta sau rolul moleculei asociate.",
+      "replaces": null
+    },
+    {
+      "questionId": "reumatologie-adv-005",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Sunt cerute perechi complete de asocieri apropiate; distractorii permută mecanisme și tipuri de afectare care apar toate în capitol.",
+      "replaces": null
+    },
+    {
+      "questionId": "reumatologie-adv-006",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Fiecare distractor păstrează ținta sau efectul corect și greșește un atribut apropiat: mecanismul intermediar ori clasificarea.",
+      "replaces": null
+    },
+    {
+      "questionId": "reumatologie-adv-007",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Se schimbă conduita după concentrația medicamentului, iar opțiunile disting eșecul de țintă de expunerea insuficientă.",
+      "replaces": null
+    },
+    {
+      "questionId": "reumatologie-adv-008",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Cere conexiunea exactă între mecanismul imun, enteză, reparare și anatomie; alternativa eronată păstrează osteogeneza, dar schimbă sediul.",
+      "replaces": null
+    },
+    {
+      "questionId": "reumatologie-adv-009",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Distractorii păstrează manifestarea recognoscibilă, dar schimbă mecanismul deformării ori interpretarea distribuției.",
+      "replaces": null
+    },
+    {
+      "questionId": "reumatologie-adv-010",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Cere distincția morfologică dependentă de circumcizie și independența evoluției oculare, dincolo de triada uzuală.",
+      "replaces": null
+    },
+    {
+      "questionId": "reumatologie-adv-011",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Toate variantele sunt terapii reale pentru boli inflamatorii apropiate; două schimbă o țintă sau structură din aceeași familie terapeutică.",
+      "replaces": null
+    }
+  ],
+  "held": [
+    {
+      "questionId": "hematologie-adv-007",
+      "score": 7,
+      "kind": "editorial-estimate",
+      "reason": "Integrare utilă, dar opțiunea despre maturarea nucleară în reticulocite rămâne prea ușor de exclus; versiune nepublicată."
+    },
+    {
+      "questionId": "reumatologie-adv-012",
+      "score": 7,
+      "kind": "editorial-estimate",
+      "reason": "Tiparele sunt apropiate, dar seronegativitatea formei rapid progresive este unicul distractor și rămâne prea previzibil; versiune nepublicată."
+    }
+  ]
+}

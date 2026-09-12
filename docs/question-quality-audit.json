@@ -1,21 +1,22 @@
 {
-  "date": "2026-09-12",
+  "date": "2026-09-13",
+  "minimumEditorialDifficulty": 8,
   "baselineActive": 200,
   "targetAdditionalAccepted": 800,
   "targetNetAdditionalActive": 800,
-  "netAdditionalActive": 60,
-  "additionalAccepted": 80,
-  "publicationStatus": "Expansion incomplete: only individually source-checked batches may be published",
+  "netAdditionalActive": 3,
+  "additionalAccepted": 23,
+  "publicationStatus": "Expansion incomplete: only source-reviewed new versions with editorial difficulty 8–10 may be published",
   "live": {
-    "count": 260,
+    "count": 203,
     "correctAnswerCounts": {
-      "1": 62,
-      "2": 20,
-      "3": 29,
-      "4": 149
+      "1": 50,
+      "2": 7,
+      "3": 14,
+      "4": 132
     },
     "missingMultipleAnswerFormats": [],
-    "fourCorrectShareOfMultiple": 75.3,
+    "fourCorrectShareOfMultiple": 86.3,
     "idsUnique": true,
     "structuralErrors": [],
     "exactQuestionDuplicates": [],
@@ -123,23 +124,23 @@
     "topicCoverage": [
       {
         "id": "sepsis",
-        "count": 20
+        "count": 0
       },
       {
         "id": "electroliti",
-        "count": 20
+        "count": 2
       },
       {
         "id": "ati",
-        "count": 20
+        "count": 1
       },
       {
         "id": "hematologie",
-        "count": 20
+        "count": 8
       },
       {
         "id": "reumatologie",
-        "count": 5
+        "count": 17
       },
       {
         "id": "endocrinologie",
@@ -280,15 +281,15 @@
     ]
   },
   "draft": {
-    "count": 160,
+    "count": 185,
     "correctAnswerCounts": {
-      "1": 40,
-      "2": 20,
-      "3": 40,
-      "4": 60
+      "1": 48,
+      "2": 28,
+      "3": 45,
+      "4": 64
     },
     "missingMultipleAnswerFormats": [],
-    "fourCorrectShareOfMultiple": 50,
+    "fourCorrectShareOfMultiple": 46.7,
     "idsUnique": true,
     "structuralErrors": [],
     "exactQuestionDuplicates": [],
@@ -321,19 +322,19 @@
       },
       {
         "id": "electroliti",
-        "count": 20
+        "count": 22
       },
       {
         "id": "ati",
-        "count": 20
+        "count": 21
       },
       {
         "id": "hematologie",
-        "count": 20
+        "count": 29
       },
       {
         "id": "reumatologie",
-        "count": 20
+        "count": 33
       },
       {
         "id": "endocrinologie",
@@ -474,15 +475,15 @@
     ]
   },
   "accepted": {
-    "count": 80,
+    "count": 23,
     "correctAnswerCounts": {
-      "1": 20,
-      "2": 20,
-      "3": 20,
-      "4": 20
+      "1": 8,
+      "2": 7,
+      "3": 5,
+      "4": 3
     },
     "missingMultipleAnswerFormats": [],
-    "fourCorrectShareOfMultiple": 33.3,
+    "fourCorrectShareOfMultiple": 20,
     "idsUnique": true,
     "structuralErrors": [],
     "exactQuestionDuplicates": [],
@@ -491,23 +492,23 @@
     "topicCoverage": [
       {
         "id": "sepsis",
-        "count": 20
+        "count": 0
       },
       {
         "id": "electroliti",
-        "count": 20
+        "count": 2
       },
       {
         "id": "ati",
-        "count": 20
+        "count": 1
       },
       {
         "id": "hematologie",
-        "count": 20
+        "count": 8
       },
       {
         "id": "reumatologie",
-        "count": 0
+        "count": 12
       },
       {
         "id": "endocrinologie",
@@ -648,5 +649,5 @@
     ]
   },
   "invalidReviews": [],
-  "medicalValidation": "Review records are evidence of the recorded process, not a claim of psychometric equivalence. Automated checks cannot establish medical correctness."
+  "medicalValidation": "Editorial difficulty is estimated, not measured. Review records are evidence of the recorded process, not a claim of psychometric equivalence. Automated checks cannot establish medical correctness."
 }

@@ -2,13 +2,15 @@ import {createHash} from 'node:crypto';
 import type {Question} from '../src/app/models.ts';
 import {TOPICS} from '../src/app/topics.ts';
 import type {SourcedQuestion} from '../src/app/bank/source-author.ts';
+import {advancedEligibilityErrors,type AdvancedQuestion} from '../src/app/bank/advanced-author.ts';
 
 export const REVIEW_CHECKS=['withinIncludedSyllabusPages','contextResolvesAmbiguity','distractorsClinicallyPlausible','noAnswerLengthOrAbsoluteWordingCue','independentObjectiveNotParaphraseDuplicate','explanationAddressesIncorrectOptions','terminologyReviewedInRomanian','keySupportedByRequestedEdition'] as const;
 
 // A review applies to one exact version, not simply to a reusable ID.
 export function questionFingerprint(q:Question):string {
  const s=q as SourcedQuestion;
- return createHash('sha256').update(JSON.stringify({id:q.id,topicId:q.topicId,type:q.type,stem:q.stem,options:q.options,correct:q.correct,explanation:q.explanation,source:q.source,reference:s.reference??null,learningObjective:s.learningObjective??null,optionRationales:s.optionRationales??null})).digest('hex');
+ const advanced=q as AdvancedQuestion;
+ return createHash('sha256').update(JSON.stringify({id:q.id,topicId:q.topicId,type:q.type,stem:q.stem,options:q.options,correct:q.correct,explanation:q.explanation,source:q.source,reference:s.reference??null,learningObjective:s.learningObjective??null,optionRationales:s.optionRationales??null,...(advanced.difficulty?{difficulty:advanced.difficulty,textbookExpressions:advanced.textbookExpressions,replaces:advanced.replaces??null}:{})})).digest('hex');
 }
 
 export function reviewErrors(q:Question,review:any):string[]{
@@ -30,5 +32,11 @@ export function reviewErrors(q:Question,review:any):string[]{
  if(!Array.isArray(review?.options)||review.options.length!==5||new Set(review.options.map((o:any)=>o.index)).size!==5||!review.options.every((o:any)=>Number.isInteger(o.index)&&o.index>=0&&o.index<5&&o.verdict===(q.correct.includes(o.index)?'correct':'incorrect')&&o.rationale?.trim()&&o.rationale===sourced.optionRationales?.[o.index]&&o.evidenceLocation?.trim()))errors.push('Incomplete or mismatched option review');
  if(!REVIEW_CHECKS.every(k=>review?.checks?.[k]===true))errors.push('Editorial checks incomplete');
  if(!Array.isArray(review?.unresolvedIssues)||review.unresolvedIssues.length)errors.push('Unresolved issues remain');
+ if(q.id.includes('-adv-')){
+  const advanced=q as AdvancedQuestion;
+  errors.push(...advancedEligibilityErrors(advanced));
+  if(JSON.stringify(review?.difficulty)!==JSON.stringify(advanced.difficulty))errors.push('Difficulty assessment differs from question');
+  if(JSON.stringify(review?.textbookExpressions)!==JSON.stringify(advanced.textbookExpressions)||review?.textbookWordingReviewed!==true)errors.push('Textbook wording review incomplete');
+ }
  return errors;
 }

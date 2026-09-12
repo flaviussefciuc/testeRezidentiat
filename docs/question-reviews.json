@@ -5454,5 +5454,1818 @@
     "reviewedAt": "2026-09-12T18:38:38.158Z",
     "unresolvedIssues": [],
     "reviewNotes": "Confruntare individuală cu p. 327–336 și 351–355. A doua trecere editorială a eliminat distractori evidenți și a apropiat alternativele; dificultate urmărită, nu demonstrată psihometric. Confuzie testată: Afecțiuni care produc toate hemoliză, dar prin mecanisme diferite. Review AI, nu validare de medic."
+  },
+  {
+    "questionId": "hematologie-adv-021",
+    "questionFingerprint": "57e1a4097828e80254ea4a13ad6f726678813ba13d52f07988e97cefb1e3cd7b",
+    "status": "source-checked",
+    "learningObjective": "Asocierea formei de cobalamină cu substratul și sensul reacției.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 16,
+      "printedPages": [
+        334,
+        333,
+        335
+      ],
+      "pdfPages": [
+        59,
+        58,
+        60
+      ],
+      "section": "Vitamina B12; Acidul folic — Metabolism"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "incorrect",
+        "rationale": "Coenzimele sunt inversate între reacții.",
+        "evidenceLocation": "Kumar, p. 334, 333, 335, Vitamina B12; Acidul folic — Metabolism; distincția verificată: Coenzimele sunt inversate între reacții."
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Prima relație este corectă; demetilarea metil-THF este cuplată cu reacția dependentă de metilcobalamină.",
+        "evidenceLocation": "Kumar, p. 334, 333, 335, Vitamina B12; Acidul folic — Metabolism; distincția verificată: Prima relație este corectă; demetilarea metil-THF este cuplată cu reacția dependentă de metilcobalamină."
+      },
+      {
+        "index": 2,
+        "verdict": "correct",
+        "rationale": "Ambele asocieri sunt descrise în text; metilarea homocisteinei folosește și metil-THF.",
+        "evidenceLocation": "Kumar, p. 334, 333, 335, Vitamina B12; Acidul folic — Metabolism; distincția verificată: Ambele asocieri sunt descrise în text; metilarea homocisteinei folosește și metil-THF."
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "Metilarea homocisteinei folosește metilcobalamină; donatorul pentru sinteza dTMP este metilen-THF.",
+        "evidenceLocation": "Kumar, p. 334, 333, 335, Vitamina B12; Acidul folic — Metabolism; distincția verificată: Metilarea homocisteinei folosește metilcobalamină; donatorul pentru sinteza dTMP este metilen-THF."
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "A doua relație este corectă; donatorul direct pentru sinteza dTMP este metilen-THF, nu metilcobalamina.",
+        "evidenceLocation": "Kumar, p. 334, 333, 335, Vitamina B12; Acidul folic — Metabolism; distincția verificată: A doua relație este corectă; donatorul direct pentru sinteza dTMP este metilen-THF, nu metilcobalamina."
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T23:38:59.927Z",
+    "unresolvedIssues": [],
+    "difficulty": {
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Variantele permută forme active ale aceleiași vitamine și sensuri ale reacțiilor înrudite; sunt necesare două asocieri biochimice exacte."
+    },
+    "textbookExpressions": [
+      "deoxiadenosilcobalamina",
+      "metilmalonil CoA în succinil CoA",
+      "metilarea homocisteinei la metionină"
+    ],
+    "textbookWordingReviewed": true,
+    "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+  },
+  {
+    "questionId": "hematologie-adv-022",
+    "questionFingerprint": "4a7a93390ad23e6ac341de1ef4af1c012786391731a95b217ca286e9a9d49850",
+    "status": "source-checked",
+    "learningObjective": "Separarea reciclării fierului de absorbție și a formei transportate de forma absorbită.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 16,
+      "printedPages": [
+        330
+      ],
+      "pdfPages": [
+        55
+      ],
+      "section": "Transportul fierului în sânge"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "incorrect",
+        "rationale": "Sursa și numărul sunt corecte; transferina leagă fier feric, nu feros.",
+        "evidenceLocation": "Kumar, p. 330, Transportul fierului în sânge; distincția verificată: Sursa și numărul sunt corecte; transferina leagă fier feric, nu feros."
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Forma și numărul sunt corecte; majoritatea fierului provine din reciclarea prin macrofage.",
+        "evidenceLocation": "Kumar, p. 330, Transportul fierului în sânge; distincția verificată: Forma și numărul sunt corecte; majoritatea fierului provine din reciclarea prin macrofage."
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Sursa și forma sunt corecte; fiecare moleculă leagă doi atomi.",
+        "evidenceLocation": "Kumar, p. 330, Transportul fierului în sânge; distincția verificată: Sursa și forma sunt corecte; fiecare moleculă leagă doi atomi."
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "Sursa majoritară, forma legată și numărul nu corespund descrierii transferinei.",
+        "evidenceLocation": "Kumar, p. 330, Transportul fierului în sânge; distincția verificată: Sursa majoritară, forma legată și numărul nu corespund descrierii transferinei."
+      },
+      {
+        "index": 4,
+        "verdict": "correct",
+        "rationale": "Toate cele trei elemente sunt descrise în paragraful despre transport.",
+        "evidenceLocation": "Kumar, p. 330, Transportul fierului în sânge; distincția verificată: Toate cele trei elemente sunt descrise în paragraful despre transport."
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T23:38:59.928Z",
+    "unresolvedIssues": [],
+    "difficulty": {
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Cere trei detalii independente; distractorii apropiați păstrează câte două elemente și confundă fierul absorbit cu cel transportat."
+    },
+    "textbookExpressions": [
+      "macrofagele sistemului reticuloendotelial",
+      "doi atomi de fier feric",
+      "fierul legat de transferină"
+    ],
+    "textbookWordingReviewed": true,
+    "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+  },
+  {
+    "questionId": "hematologie-adv-001",
+    "questionFingerprint": "0ee890d99d47344bbdbd2cb7750656a05df64a66353d5c29e77584fd7553aa55",
+    "status": "source-checked",
+    "learningObjective": "Interpretarea simultană a markerilor marțiali modificați de inflamație.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 16,
+      "printedPages": [
+        331
+      ],
+      "pdfPages": [
+        56
+      ],
+      "section": "Investigații; Cadranul 16.4"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "incorrect",
+        "rationale": "În profilul necomplicat din tabel, receptorii solubili sunt normali; creșterea lor susține carența asociată.",
+        "evidenceLocation": "Kumar, p. 331, Investigații; Cadranul 16.4; distincția verificată: În profilul necomplicat din tabel, receptorii solubili sunt normali; creșterea lor susține carența asociată."
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Feritina, reactant de fază acută, poate fi normală în deficitul de fier; CTLF scăzută susține componenta inflamatorie.",
+        "evidenceLocation": "Kumar, p. 331, Investigații; Cadranul 16.4; distincția verificată: Feritina, reactant de fază acută, poate fi normală în deficitul de fier; CTLF scăzută susține componenta inflamatorie."
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "În deficitul simplu CTLF crește și feritina scade.",
+        "evidenceLocation": "Kumar, p. 331, Investigații; Cadranul 16.4; distincția verificată: În deficitul simplu CTLF crește și feritina scade."
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "Tabelul descrie fier seric și feritină crescute, cu CTLF normală; acesta nu este profilul prezentat.",
+        "evidenceLocation": "Kumar, p. 331, Investigații; Cadranul 16.4; distincția verificată: Tabelul descrie fier seric și feritină crescute, cu CTLF normală; acesta nu este profilul prezentat."
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "CTLF normală caracterizează talasemia necomplicată din tabel, nu profilul inflamator descris.",
+        "evidenceLocation": "Kumar, p. 331, Investigații; Cadranul 16.4; distincția verificată: CTLF normală caracterizează talasemia necomplicată din tabel, nu profilul inflamator descris."
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T23:38:59.929Z",
+    "unresolvedIssues": [],
+    "difficulty": {
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Necesită reconcilierea a trei markeri; nici microcitoza, nici feritina izolată nu rezolvă diferențialul."
+    },
+    "textbookExpressions": [
+      "reactant de fază acută",
+      "receptorii solubili ai transferinei",
+      "anemia din bolile cronice"
+    ],
+    "textbookWordingReviewed": true,
+    "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+  },
+  {
+    "questionId": "hematologie-adv-003",
+    "questionFingerprint": "004246b8fc1c2ce663bc943d34b752d87ee9ccd969b0bae91ad4800a03e643af",
+    "status": "source-checked",
+    "learningObjective": "Separarea frecvenței anticorpilor la bolnavi de specificitatea diagnosticului.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 16,
+      "printedPages": [
+        334,
+        335
+      ],
+      "pdfPages": [
+        59,
+        60
+      ],
+      "section": "Anemia pernicioasă — Patogeneză; Diagnostic diferențial"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Anticorpii parietali apar la 90% dintre pacienți și la 10% dintre indivizii normali; anti-factor intrinsec apar la aproximativ 50% dintre pacienți, dar sunt specifici.",
+        "evidenceLocation": "Kumar, p. 334, 335, Anemia pernicioasă — Patogeneză; Diagnostic diferențial; distincția verificată: Anticorpii parietali apar la 90% dintre pacienți și la 10% dintre indivizii normali; anti-factor intrinsec apar la aproximativ 50% dintre pacienți, dar sunt specifici."
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Sunt inversate ambele relații dintre teste.",
+        "evidenceLocation": "Kumar, p. 334, 335, Anemia pernicioasă — Patogeneză; Diagnostic diferențial; distincția verificată: Sunt inversate ambele relații dintre teste."
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Sensibilitatea mai mare nu implică specificitate mai mare; anticorpii parietali apar și la indivizi normali.",
+        "evidenceLocation": "Kumar, p. 334, 335, Anemia pernicioasă — Patogeneză; Diagnostic diferențial; distincția verificată: Sensibilitatea mai mare nu implică specificitate mai mare; anticorpii parietali apar și la indivizi normali."
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "Specificitatea anti-factor intrinsec este mai mare, dar sensibilitatea este mai mică.",
+        "evidenceLocation": "Kumar, p. 334, 335, Anemia pernicioasă — Patogeneză; Diagnostic diferențial; distincția verificată: Specificitatea anti-factor intrinsec este mai mare, dar sensibilitatea este mai mică."
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Prezența anticorpilor parietali la indivizi normali diferențiază specificitatea celor două teste.",
+        "evidenceLocation": "Kumar, p. 334, 335, Anemia pernicioasă — Patogeneză; Diagnostic diferențial; distincția verificată: Prezența anticorpilor parietali la indivizi normali diferențiază specificitatea celor două teste."
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T23:38:59.929Z",
+    "unresolvedIssues": [],
+    "difficulty": {
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Alternativele permută aceleași două proprietăți ale acelorași teste; trebuie cunoscute simultan ambele relații."
+    },
+    "textbookExpressions": [
+      "anticorpii împotriva celulelor parietale",
+      "anticorpii anti-factor intrinsec"
+    ],
+    "textbookWordingReviewed": true,
+    "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+  },
+  {
+    "questionId": "hematologie-adv-006",
+    "questionFingerprint": "4245a14607b1da541319a4ef3a072d063bf54e71b5eb065e4149512c487d1562",
+    "status": "source-checked",
+    "learningObjective": "Compararea rezervelor și distribuției fierului cu markerii de transport.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 16,
+      "printedPages": [
+        331
+      ],
+      "pdfPages": [
+        56
+      ],
+      "section": "Cadranul 16.4 — Anemia microcitară: diagnostic diferențial"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Toate cele trei elemente corespund deficitului de fier din tabel.",
+        "evidenceLocation": "Kumar, p. 331, Cadranul 16.4 — Anemia microcitară: diagnostic diferențial; distincția verificată: Toate cele trei elemente corespund deficitului de fier din tabel."
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Receptorii solubili sunt normali; celelalte două elemente sunt corecte.",
+        "evidenceLocation": "Kumar, p. 331, Cadranul 16.4 — Anemia microcitară: diagnostic diferențial; distincția verificată: Receptorii solubili sunt normali; celelalte două elemente sunt corecte."
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Fierul medular este prezent; celelalte două elemente sunt corecte.",
+        "evidenceLocation": "Kumar, p. 331, Cadranul 16.4 — Anemia microcitară: diagnostic diferențial; distincția verificată: Fierul medular este prezent; celelalte două elemente sunt corecte."
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Tabelul distinge fierul medular prezent de fierul absent sau scăzut în eritroblaști.",
+        "evidenceLocation": "Kumar, p. 331, Cadranul 16.4 — Anemia microcitară: diagnostic diferențial; distincția verificată: Tabelul distinge fierul medular prezent de fierul absent sau scăzut în eritroblaști."
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "CTLF este normală; feritina și formele inelare sunt corect asociate.",
+        "evidenceLocation": "Kumar, p. 331, Cadranul 16.4 — Anemia microcitară: diagnostic diferențial; distincția verificată: CTLF este normală; feritina și formele inelare sunt corect asociate."
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T23:38:59.929Z",
+    "unresolvedIssues": [],
+    "difficulty": {
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Fiecare distractor păstrează două date corecte și schimbă un singur marker; cere diferențierea fierului medular de cel eritroblastic."
+    },
+    "textbookExpressions": [
+      "fier medular",
+      "fier în eritroblaști",
+      "forme inelare"
+    ],
+    "textbookWordingReviewed": true,
+    "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+  },
+  {
+    "questionId": "hematologie-adv-008",
+    "questionFingerprint": "f8b6f889a8b1e324f334165cb0714e57c099cd6d799368c42228eaf8a1a33f93",
+    "status": "source-checked",
+    "learningObjective": "Identificarea mediatorului, transportorului și sensului reglării în inflamație și eritropoieză ineficientă.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 16,
+      "printedPages": [
+        330
+      ],
+      "pdfPages": [
+        55
+      ],
+      "section": "Absorbția fierului — Hepcidină; eritroferon"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "incorrect",
+        "rationale": "Sinteza hepatică este corectă; ținta internalizată este feroportina, nu DMT1.",
+        "evidenceLocation": "Kumar, p. 330, Absorbția fierului — Hepcidină; eritroferon; distincția verificată: Sinteza hepatică este corectă; ținta internalizată este feroportina, nu DMT1."
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Originea eritroblastică este corectă; eritroferonul scade hepcidina.",
+        "evidenceLocation": "Kumar, p. 330, Absorbția fierului — Hepcidină; eritroferon; distincția verificată: Originea eritroblastică este corectă; eritroferonul scade hepcidina."
+      },
+      {
+        "index": 2,
+        "verdict": "correct",
+        "rationale": "Legarea provoacă internalizarea și degradarea feroportinei, reducând efluxul de fier.",
+        "evidenceLocation": "Kumar, p. 330, Absorbția fierului — Hepcidină; eritroferon; distincția verificată: Legarea provoacă internalizarea și degradarea feroportinei, reducând efluxul de fier."
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "IL-6 stimulează hepcidina, dar exportul prin feroportină scade.",
+        "evidenceLocation": "Kumar, p. 330, Absorbția fierului — Hepcidină; eritroferon; distincția verificată: IL-6 stimulează hepcidina, dar exportul prin feroportină scade."
+      },
+      {
+        "index": 4,
+        "verdict": "correct",
+        "rationale": "Această cale explică absorbția excesivă netransfuzională în anemiile cu eritropoieză ineficientă.",
+        "evidenceLocation": "Kumar, p. 330, Absorbția fierului — Hepcidină; eritroferon; distincția verificată: Această cale explică absorbția excesivă netransfuzională în anemiile cu eritropoieză ineficientă."
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T23:38:59.929Z",
+    "unresolvedIssues": [],
+    "difficulty": {
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Fiecare alternativă eronată păstrează originea sau primul pas corect, dar atribuie greșit ținta ori consecința următoare."
+    },
+    "textbookExpressions": [
+      "internalizarea și degradarea",
+      "efluxului de fier",
+      "eritroblastele în curs de dezvoltare"
+    ],
+    "textbookWordingReviewed": true,
+    "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+  },
+  {
+    "questionId": "hematologie-adv-010",
+    "questionFingerprint": "23044d061f7e6e6b3f06021d1ae95b232912770c2899aaa95b851df5d4fc6db2",
+    "status": "source-checked",
+    "learningObjective": "Urmărirea ligandului și compartimentului pentru fiecare proteină de transport.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 16,
+      "printedPages": [
+        334
+      ],
+      "pdfPages": [
+        59
+      ],
+      "section": "Vitamina B12 — Absorbție și transport"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Ambele elemente sunt descrise în succesiunea absorbției.",
+        "evidenceLocation": "Kumar, p. 334, Vitamina B12 — Absorbție și transport; distincția verificată: Ambele elemente sunt descrise în succesiunea absorbției."
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Originea este corectă; transportul enterocit–țesuturi revine transcobalaminei II.",
+        "evidenceLocation": "Kumar, p. 334, Vitamina B12 — Absorbție și transport; distincția verificată: Originea este corectă; transportul enterocit–țesuturi revine transcobalaminei II."
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Localizarea este corectă; complexul recunoscut conține factor intrinsec.",
+        "evidenceLocation": "Kumar, p. 334, Vitamina B12 — Absorbție și transport; distincția verificată: Localizarea este corectă; complexul recunoscut conține factor intrinsec."
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Complexul B12–TCII este holotranscobalamina, fracția preluată de celule.",
+        "evidenceLocation": "Kumar, p. 334, Vitamina B12 — Absorbție și transport; distincția verificată: Complexul B12–TCII este holotranscobalamina, fracția preluată de celule."
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "TCI leagă majoritatea B12 plasmatice; holotranscobalamina desemnează complexul cu TCII.",
+        "evidenceLocation": "Kumar, p. 334, Vitamina B12 — Absorbție și transport; distincția verificată: TCI leagă majoritatea B12 plasmatice; holotranscobalamina desemnează complexul cu TCII."
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T23:38:59.929Z",
+    "unresolvedIssues": [],
+    "difficulty": {
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Toate proteinele aparțin aceleiași căi; distractorii schimbă numai ligandul, destinația sau denumirea fracției."
+    },
+    "textbookExpressions": [
+      "liantul R",
+      "mucoasei ileonului, cubilina",
+      "holotranscobalamină"
+    ],
+    "textbookWordingReviewed": true,
+    "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+  },
+  {
+    "questionId": "hematologie-adv-016",
+    "questionFingerprint": "3ba72069f84686ef819c0179f51d1e10d897c0963fe4dcd6b285faa54d845076",
+    "status": "source-checked",
+    "learningObjective": "Distingerea formelor de folat și a celor două coenzime cobalaminice.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 16,
+      "printedPages": [
+        335,
+        334
+      ],
+      "pdfPages": [
+        60,
+        59
+      ],
+      "section": "Acidul folic — Metabolism"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Acestea sunt formele alimentare descrise.",
+        "evidenceLocation": "Kumar, p. 335, 334, Acidul folic — Metabolism; distincția verificată: Acestea sunt formele alimentare descrise."
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Transformarea precedă absorbția și conversia în metil-THF monoglutamat.",
+        "evidenceLocation": "Kumar, p. 335, 334, Acidul folic — Metabolism; distincția verificată: Transformarea precedă absorbția și conversia în metil-THF monoglutamat."
+      },
+      {
+        "index": 2,
+        "verdict": "correct",
+        "rationale": "Aceasta este forma circulantă principală descrisă.",
+        "evidenceLocation": "Kumar, p. 335, 334, Acidul folic — Metabolism; distincția verificată: Aceasta este forma circulantă principală descrisă."
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "Reacția necesită metilcobalamină; deoxiadenosilcobalamina participă la transformarea metilmalonil-CoA în succinil-CoA.",
+        "evidenceLocation": "Kumar, p. 335, 334, Acidul folic — Metabolism; distincția verificată: Reacția necesită metilcobalamină; deoxiadenosilcobalamina participă la transformarea metilmalonil-CoA în succinil-CoA."
+      },
+      {
+        "index": 4,
+        "verdict": "correct",
+        "rationale": "Aceste forme sunt coenzime în metabolismul aminoacizilor și sinteza ADN.",
+        "evidenceLocation": "Kumar, p. 335, 334, Acidul folic — Metabolism; distincția verificată: Aceste forme sunt coenzime în metabolismul aminoacizilor și sinteza ADN."
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T23:38:59.929Z",
+    "unresolvedIssues": [],
+    "difficulty": {
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Distractorul folosește o coenzimă reală a aceleiași vitamine; recunoașterea numelui B12 nu rezolvă reacția."
+    },
+    "textbookExpressions": [
+      "monoglutamat metil THF",
+      "poliglutamații intracelulari",
+      "metilarea homocisteinei la metionină"
+    ],
+    "textbookWordingReviewed": true,
+    "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+  },
+  {
+    "questionId": "electroliti-adv-001",
+    "questionFingerprint": "2b3daaacd8b1bad75cacb6f7b0d71adb6c33ed791d7cf28cc017c1906d4077d7",
+    "status": "source-checked",
+    "learningObjective": "Compararea defectului tubular cu răspunsul hormonal și calciuria.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 9,
+      "printedPages": [
+        188
+      ],
+      "pdfPages": [
+        39
+      ],
+      "section": "Sindromul Bartter; Sindromul Gitelman; Sindromul Liddle"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Defectul NCCT, hipocalciuria și renina crescută caracterizează Gitelman.",
+        "evidenceLocation": "Kumar, p. 188, Sindromul Bartter; Sindromul Gitelman; Sindromul Liddle; distincția verificată: Defectul NCCT, hipocalciuria și renina crescută caracterizează Gitelman."
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Sediul și calciuria sunt corecte; renina este crescută prin pierderea de sare.",
+        "evidenceLocation": "Kumar, p. 188, Sindromul Bartter; Sindromul Gitelman; Sindromul Liddle; distincția verificată: Sediul și calciuria sunt corecte; renina este crescută prin pierderea de sare."
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Activarea ENaC și hipertensiunea sunt corecte; aldosteronul este scăzut.",
+        "evidenceLocation": "Kumar, p. 188, Sindromul Bartter; Sindromul Gitelman; Sindromul Liddle; distincția verificată: Activarea ENaC și hipertensiunea sunt corecte; aldosteronul este scăzut."
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "Primele două elemente sunt corecte; Gitelman asociază hipocalciurie.",
+        "evidenceLocation": "Kumar, p. 188, Sindromul Bartter; Sindromul Gitelman; Sindromul Liddle; distincția verificată: Primele două elemente sunt corecte; Gitelman asociază hipocalciurie."
+      },
+      {
+        "index": 4,
+        "verdict": "correct",
+        "rationale": "Retenția nereglată de sodiu suprimă renina și aldosteronul.",
+        "evidenceLocation": "Kumar, p. 188, Sindromul Bartter; Sindromul Gitelman; Sindromul Liddle; distincția verificată: Retenția nereglată de sodiu suprimă renina și aldosteronul."
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T23:38:59.929Z",
+    "unresolvedIssues": [],
+    "difficulty": {
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Fiecare opțiune combină trei caracteristici apropiate; distractorii modifică un singur element dintr-un profil parțial corect."
+    },
+    "textbookExpressions": [
+      "activare constitutivă",
+      "cotransportorului apical de sodiu-clor",
+      "inhibiția secreției de renină"
+    ],
+    "textbookWordingReviewed": true,
+    "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+  },
+  {
+    "questionId": "electroliti-adv-012",
+    "questionFingerprint": "b8e8948d475d54a90a47007bf56ec9def277a81580852bc5aa741ce885262ecd",
+    "status": "source-checked",
+    "learningObjective": "Localizarea mecanismelor ionice și antidiuretice în cele două populații celulare.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 9,
+      "printedPages": [
+        176
+      ],
+      "pdfPages": [
+        27
+      ],
+      "section": "Reglarea excreției apei; Figura 9.7"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Ambele localizări sunt descrise pentru celulele principale.",
+        "evidenceLocation": "Kumar, p. 176, Reglarea excreției apei; Figura 9.7; distincția verificată: Ambele localizări sunt descrise pentru celulele principale."
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Aceste funcții aparțin celulelor intercalate în text.",
+        "evidenceLocation": "Kumar, p. 176, Reglarea excreției apei; Figura 9.7; distincția verificată: Aceste funcții aparțin celulelor intercalate în text."
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Receptorii V2 sunt bazolaterali; aquaporinele mobilizate sunt inserate luminal.",
+        "evidenceLocation": "Kumar, p. 176, Reglarea excreției apei; Figura 9.7; distincția verificată: Receptorii V2 sunt bazolaterali; aquaporinele mobilizate sunt inserate luminal."
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Aceasta este succesiunea semnalizării și traficului vezicular.",
+        "evidenceLocation": "Kumar, p. 176, Reglarea excreției apei; Figura 9.7; distincția verificată: Aceasta este succesiunea semnalizării și traficului vezicular."
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Activitatea ATP-azică redusă este corectă, dar răspunsul antidiuretic se produce în principal în celulele principale.",
+        "evidenceLocation": "Kumar, p. 176, Reglarea excreției apei; Figura 9.7; distincția verificată: Activitatea ATP-azică redusă este corectă, dar răspunsul antidiuretic se produce în principal în celulele principale."
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T23:38:59.929Z",
+    "unresolvedIssues": [],
+    "difficulty": {
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Cere simultan diferențiere celulară, polaritate membranară și succesiunea semnalizării; un fragment corect nu validează întreaga opțiune."
+    },
+    "textbookExpressions": [
+      "celulele intercalate",
+      "veziculelor citoplasmatice preformate",
+      "suprafața bazolaterală"
+    ],
+    "textbookWordingReviewed": true,
+    "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+  },
+  {
+    "questionId": "ati-adv-010",
+    "questionFingerprint": "fb2cb97e0a1625df1da114ce84aa64ce727a639f8a9e8ff8278746ea9e8d6fc6",
+    "status": "source-checked",
+    "learningObjective": "Separarea profilului clinic, electrofiziologic și LCR de neuropatia demielinizantă comparată în capitol.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 10,
+      "printedPages": [
+        231
+      ],
+      "pdfPages": [
+        49
+      ],
+      "section": "Slăbiciunea neuromusculară — complicație a bolilor critice"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Leziunea este axonală și predomină componenta motorie.",
+        "evidenceLocation": "Kumar, p. 231, Slăbiciunea neuromusculară — complicație a bolilor critice; distincția verificată: Leziunea este axonală și predomină componenta motorie."
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Dificultatea de sevraj este caracteristică; proteinorahia este normală sau minim crescută.",
+        "evidenceLocation": "Kumar, p. 231, Slăbiciunea neuromusculară — complicație a bolilor critice; distincția verificată: Dificultatea de sevraj este caracteristică; proteinorahia este normală sau minim crescută."
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Slăbiciunea flască este caracteristică; nervii cranieni sunt rar afectați.",
+        "evidenceLocation": "Kumar, p. 231, Slăbiciunea neuromusculară — complicație a bolilor critice; distincția verificată: Slăbiciunea flască este caracteristică; nervii cranieni sunt rar afectați."
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Ambele constatări corespund descrierii din capitol.",
+        "evidenceLocation": "Kumar, p. 231, Slăbiciunea neuromusculară — complicație a bolilor critice; distincția verificată: Ambele constatări corespund descrierii din capitol."
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Contextul este corect, dar studiile confirmă deteriorare axonală.",
+        "evidenceLocation": "Kumar, p. 231, Slăbiciunea neuromusculară — complicație a bolilor critice; distincția verificată: Contextul este corect, dar studiile confirmă deteriorare axonală."
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T23:38:59.929Z",
+    "unresolvedIssues": [],
+    "difficulty": {
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Toți distractorii pornesc de la o constatare compatibilă; diferența decisivă privește distribuția, LCR sau tipul leziunii."
+    },
+    "textbookExpressions": [
+      "neuropatie axonală primară",
+      "proteine din lichidul cefalorahidian",
+      "nervii cranieni sunt rar afectați"
+    ],
+    "textbookWordingReviewed": true,
+    "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+  },
+  {
+    "questionId": "reumatologie-adv-013",
+    "questionFingerprint": "0d8a4d566cc09dac8489d0dd550d0e473a09af7c84e1042b94d9c26ee20f2040",
+    "status": "source-checked",
+    "learningObjective": "Diferențierea structurilor moleculare între medicamente care au aceeași țintă.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 18,
+      "printedPages": [
+        445,
+        447
+      ],
+      "pdfPages": [
+        75,
+        77
+      ],
+      "section": "Terapii biologice — Blocanții TNF-α"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "incorrect",
+        "rationale": "Structurile etanerceptului și golimumabului sunt inversate.",
+        "evidenceLocation": "Kumar, p. 445, 447, Terapii biologice — Blocanții TNF-α; distincția verificată: Structurile etanerceptului și golimumabului sunt inversate."
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Toate cele trei structuri corespund descrierii din bibliografie.",
+        "evidenceLocation": "Kumar, p. 445, 447, Terapii biologice — Blocanții TNF-α; distincția verificată: Toate cele trei structuri corespund descrierii din bibliografie."
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Componenta etanerceptului este receptorul p75; CTLA4 aparține abataceptului.",
+        "evidenceLocation": "Kumar, p. 445, 447, Terapii biologice — Blocanții TNF-α; distincția verificată: Componenta etanerceptului este receptorul p75; CTLA4 aparține abataceptului."
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "Certolizumab este fragment Fab și nu conține porțiunea Fc.",
+        "evidenceLocation": "Kumar, p. 445, 447, Terapii biologice — Blocanții TNF-α; distincția verificată: Certolizumab este fragment Fab și nu conține porțiunea Fc."
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Golimumab este anticorp IgG1 uman, nu fragment Fab fără Fc.",
+        "evidenceLocation": "Kumar, p. 445, 447, Terapii biologice — Blocanții TNF-α; distincția verificată: Golimumab este anticorp IgG1 uman, nu fragment Fab fără Fc."
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T23:38:59.929Z",
+    "unresolvedIssues": [],
+    "difficulty": {
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Aceeași țintă pentru toate medicamentele; variantele diferă numai prin domeniul receptorului, fragmentul Fab și prezența Fc."
+    },
+    "textbookExpressions": [
+      "proteină de fuziune",
+      "fragment Fab",
+      "lipsa porțiunii Fc"
+    ],
+    "textbookWordingReviewed": true,
+    "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+  },
+  {
+    "questionId": "reumatologie-adv-001",
+    "questionFingerprint": "57010dd4ee386b398df0e73cae6c232129aee070b1ce75cf318d62530e798cf7",
+    "status": "source-checked",
+    "learningObjective": "Asocierea fiecărei molecule sinoviale cu funcția descrisă.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 18,
+      "printedPages": [
+        438
+      ],
+      "pdfPages": [
+        68
+      ],
+      "section": "Artrita reumatoidă — Imunologie"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "incorrect",
+        "rationale": "Rolurile VCAM-1 și DAF sunt inversate.",
+        "evidenceLocation": "Kumar, p. 438, Artrita reumatoidă — Imunologie; distincția verificată: Rolurile VCAM-1 și DAF sunt inversate."
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Rolurile DAF și caderinei 11 sunt inversate.",
+        "evidenceLocation": "Kumar, p. 438, Artrita reumatoidă — Imunologie; distincția verificată: Rolurile DAF și caderinei 11 sunt inversate."
+      },
+      {
+        "index": 2,
+        "verdict": "correct",
+        "rationale": "Succesiunea corespunde celor trei funcții din text.",
+        "evidenceLocation": "Kumar, p. 438, Artrita reumatoidă — Imunologie; distincția verificată: Succesiunea corespunde celor trei funcții din text."
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "Funcțiile atribuite DAF și caderinei 11 nu corespund; suportul limfocitelor B este atribuit VCAM-1.",
+        "evidenceLocation": "Kumar, p. 438, Artrita reumatoidă — Imunologie; distincția verificată: Funcțiile atribuite DAF și caderinei 11 nu corespund; suportul limfocitelor B este atribuit VCAM-1."
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Prevenirea lizei revine DAF, iar suportul limfocitelor B revine VCAM-1.",
+        "evidenceLocation": "Kumar, p. 438, Artrita reumatoidă — Imunologie; distincția verificată: Prevenirea lizei revine DAF, iar suportul limfocitelor B revine VCAM-1."
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T23:38:59.929Z",
+    "unresolvedIssues": [],
+    "difficulty": {
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Toate variantele folosesc aceleași trei molecule și funcții reale; trebuie păstrată corespondența completă."
+    },
+    "textbookExpressions": [
+      "supraviețuirea și diferențierea limfocitelor B",
+      "liza celulară indusă de complement",
+      "interacțiunile intercelulare"
+    ],
+    "textbookWordingReviewed": true,
+    "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+  },
+  {
+    "questionId": "reumatologie-adv-002",
+    "questionFingerprint": "b63b73ecb68cb7bd0a60f8d50f2ca5849f5bac8c0356b151ecdb178f9fd2bc48",
+    "status": "source-checked",
+    "learningObjective": "Diferențierea proteinelor de fuziune de anticorpii monoclonali și a țintelor acestora.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 18,
+      "printedPages": [
+        447,
+        445
+      ],
+      "pdfPages": [
+        77,
+        75
+      ],
+      "section": "Alți agenți biologici"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Structura și blocarea costimulării sunt descrise pentru abatacept.",
+        "evidenceLocation": "Kumar, p. 447, 445, Alți agenți biologici; distincția verificată: Structura și blocarea costimulării sunt descrise pentru abatacept."
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Etanercept neutralizează TNF, dar componenta receptorului este p75, nu CTLA4.",
+        "evidenceLocation": "Kumar, p. 447, 445, Alți agenți biologici; distincția verificată: Etanercept neutralizează TNF, dar componenta receptorului este p75, nu CTLA4."
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Rituximab are ținta CD20, însă efectul descris privește limfocitele B.",
+        "evidenceLocation": "Kumar, p. 447, 445, Alți agenți biologici; distincția verificată: Rituximab are ținta CD20, însă efectul descris privește limfocitele B."
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "Tocilizumab se leagă de receptorul IL-6, nu de CD20.",
+        "evidenceLocation": "Kumar, p. 447, 445, Alți agenți biologici; distincția verificată: Tocilizumab se leagă de receptorul IL-6, nu de CD20."
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Structura și ținta din opțiune descriu etanerceptul.",
+        "evidenceLocation": "Kumar, p. 447, 445, Alți agenți biologici; distincția verificată: Structura și ținta din opțiune descriu etanerceptul."
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T23:38:59.929Z",
+    "unresolvedIssues": [],
+    "difficulty": {
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Diferențierea necesită atât structura moleculei, cât și etapa imunologică țintită; numele clasei nu este suficient."
+    },
+    "textbookExpressions": [
+      "proteină de fuziune recombinantă",
+      "blocarea costimulării",
+      "receptorului de IL-6"
+    ],
+    "textbookWordingReviewed": true,
+    "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+  },
+  {
+    "questionId": "reumatologie-adv-003",
+    "questionFingerprint": "391cc6d6b7a203b331a4ace29eeeda14d13da016d4d9af4699aba438439947eb",
+    "status": "source-checked",
+    "learningObjective": "Distingerea leziunii tendinoase de neuropatia de compresie și deformarea articulară.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 18,
+      "printedPages": [
+        441
+      ],
+      "pdfPages": [
+        71
+      ],
+      "section": "Afectarea articulară — Articulațiile mâinilor și carpul"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "incorrect",
+        "rationale": "Textul leagă tenosinovita flexorilor de tunelul carpian; ruptura extensorilor este asociată stiloidei ulnare.",
+        "evidenceLocation": "Kumar, p. 441, Afectarea articulară — Articulațiile mâinilor și carpul; distincția verificată: Textul leagă tenosinovita flexorilor de tunelul carpian; ruptura extensorilor este asociată stiloidei ulnare."
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Această succesiune este descrisă pentru tumefacția și subluxația dorsală a stiloidei ulnare.",
+        "evidenceLocation": "Kumar, p. 441, Afectarea articulară — Articulațiile mâinilor și carpul; distincția verificată: Această succesiune este descrisă pentru tumefacția și subluxația dorsală a stiloidei ulnare."
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Subluxația MCF este descrisă împreună cu devierea ulnară; nu este mecanismul rupturii extensorilor.",
+        "evidenceLocation": "Kumar, p. 441, Afectarea articulară — Articulațiile mâinilor și carpul; distincția verificată: Subluxația MCF este descrisă împreună cu devierea ulnară; nu este mecanismul rupturii extensorilor."
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "Tunelul carpian este posibil, dar hiperextensia fixă a IFP este o deformare articulară distinctă.",
+        "evidenceLocation": "Kumar, p. 441, Afectarea articulară — Articulațiile mâinilor și carpul; distincția verificată: Tunelul carpian este posibil, dar hiperextensia fixă a IFP este o deformare articulară distinctă."
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Sunt reunite mecanisme diferite: leziunea extensorilor, tunelul carpian și deformarea în butonieră.",
+        "evidenceLocation": "Kumar, p. 441, Afectarea articulară — Articulațiile mâinilor și carpul; distincția verificată: Sunt reunite mecanisme diferite: leziunea extensorilor, tunelul carpian și deformarea în butonieră."
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T23:38:59.929Z",
+    "unresolvedIssues": [],
+    "difficulty": {
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Toate elementele provin din afectarea aceleiași regiuni; relația cauzală și tendonul implicat trebuie cunoscute precis."
+    },
+    "textbookExpressions": [
+      "subluxația dorsală a stiloidei ulnare",
+      "ruptura tendoanelor extensorilor",
+      "degetelor 4 și 5"
+    ],
+    "textbookWordingReviewed": true,
+    "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+  },
+  {
+    "questionId": "reumatologie-adv-004",
+    "questionFingerprint": "8e4d8f514fcc8395228d3a9e7b0be31bc82af07f56c0de5de7fe140c6005a5cb",
+    "status": "source-checked",
+    "learningObjective": "Legarea autoanticorpilor de bucla de amplificare și separarea moleculelor de suprafață.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 18,
+      "printedPages": [
+        438
+      ],
+      "pdfPages": [
+        68
+      ],
+      "section": "Artrita reumatoidă — Imunologie"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Ambele clase și ținta Fc sunt descrise.",
+        "evidenceLocation": "Kumar, p. 438, Artrita reumatoidă — Imunologie; distincția verificată: Ambele clase și ținta Fc sunt descrise."
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Această stimulare întreține producția de IL-1, IL-8, TNF și alte citokine.",
+        "evidenceLocation": "Kumar, p. 438, Artrita reumatoidă — Imunologie; distincția verificată: Această stimulare întreține producția de IL-1, IL-8, TNF și alte citokine."
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Inducerea IL-6 este corectă; ținta factorului reumatoid este Fc, nu Fab.",
+        "evidenceLocation": "Kumar, p. 438, Artrita reumatoidă — Imunologie; distincția verificată: Inducerea IL-6 este corectă; ținta factorului reumatoid este Fc, nu Fab."
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "Producția de autoanticorpi este corectă; suportul diferențierii B este atribuit VCAM-1.",
+        "evidenceLocation": "Kumar, p. 438, Artrita reumatoidă — Imunologie; distincția verificată: Producția de autoanticorpi este corectă; suportul diferențierii B este atribuit VCAM-1."
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Producția de citokine este corectă; protecția față de complement revine DAF.",
+        "evidenceLocation": "Kumar, p. 438, Artrita reumatoidă — Imunologie; distincția verificată: Producția de citokine este corectă; protecția față de complement revine DAF."
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T23:38:59.929Z",
+    "unresolvedIssues": [],
+    "difficulty": {
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Distractorii conservă o afirmație imunologică adevărată și schimbă ținta sau rolul moleculei asociate."
+    },
+    "textbookExpressions": [
+      "porțiunea Fc",
+      "complexelor imune în membrana sinovială",
+      "sinoviocite asemănătoare fibroblastelor"
+    ],
+    "textbookWordingReviewed": true,
+    "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+  },
+  {
+    "questionId": "reumatologie-adv-005",
+    "questionFingerprint": "cd4453d362fbb10d2d9cad464a601435ad17d44be0aaf163f4a3e5ae4ac038d3",
+    "status": "source-checked",
+    "learningObjective": "Compararea mecanismelor neurologice, tipurilor de amiloid și sindroamelor sistemice.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 18,
+      "printedPages": [
+        443,
+        441
+      ],
+      "pdfPages": [
+        73,
+        71
+      ],
+      "section": "Manifestări extraarticulare; Sistemul nervos; Rinichi; Sânge"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Ambele mecanisme sunt enumerate în afectarea neurologică.",
+        "evidenceLocation": "Kumar, p. 443, 441, Manifestări extraarticulare; Sistemul nervos; Rinichi; Sânge; distincția verificată: Ambele mecanisme sunt enumerate în afectarea neurologică."
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Tipurile sunt inversate: AA este amiloidoza secundară AR, iar AL poate mima distribuția poliartritei.",
+        "evidenceLocation": "Kumar, p. 443, 441, Manifestări extraarticulare; Sistemul nervos; Rinichi; Sânge; distincția verificată: Tipurile sunt inversate: AA este amiloidoza secundară AR, iar AL poate mima distribuția poliartritei."
+      },
+      {
+        "index": 2,
+        "verdict": "correct",
+        "rationale": "Ambele asocieri sunt descrise.",
+        "evidenceLocation": "Kumar, p. 443, 441, Manifestări extraarticulare; Sistemul nervos; Rinichi; Sânge; distincția verificată: Ambele asocieri sunt descrise."
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "Compresia medulară ține de subluxația atlanto-axială; vasculita produce neuropatiile periferice descrise.",
+        "evidenceLocation": "Kumar, p. 443, 441, Manifestări extraarticulare; Sistemul nervos; Rinichi; Sânge; distincția verificată: Compresia medulară ține de subluxația atlanto-axială; vasculita produce neuropatiile periferice descrise."
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Boala activă poate produce trombocitoză, iar hipersplenismul poate produce pancitopenie.",
+        "evidenceLocation": "Kumar, p. 443, 441, Manifestări extraarticulare; Sistemul nervos; Rinichi; Sânge; distincția verificată: Boala activă poate produce trombocitoză, iar hipersplenismul poate produce pancitopenie."
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T23:38:59.929Z",
+    "unresolvedIssues": [],
+    "difficulty": {
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Sunt cerute perechi complete de asocieri apropiate; distractorii permută mecanisme și tipuri de afectare care apar toate în capitol."
+    },
+    "textbookExpressions": [
+      "vasculitei vasa nervorum",
+      "pneumoconioză",
+      "splenomegalie și neutropenie"
+    ],
+    "textbookWordingReviewed": true,
+    "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+  },
+  {
+    "questionId": "reumatologie-adv-006",
+    "questionFingerprint": "2eccf8f4c29bae1b7afafc4a296f1f95bc50bb8e99b32311c2adad387eea3c21",
+    "status": "source-checked",
+    "learningObjective": "Separarea țintei, structurii și clasei terapiilor cu efecte imune apropiate.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 18,
+      "printedPages": [
+        447,
+        445
+      ],
+      "pdfPages": [
+        77,
+        75
+      ],
+      "section": "Alți agenți biologici; DMARD sintetice țintite"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Acesta este mecanismul leflunomidei descris la p. 445.",
+        "evidenceLocation": "Kumar, p. 447, 445, Alți agenți biologici; DMARD sintetice țintite; distincția verificată: Acesta este mecanismul leflunomidei descris la p. 445."
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Blocarea costimulării este corectă; inhibarea sintezei pirimidinelor aparține leflunomidei.",
+        "evidenceLocation": "Kumar, p. 447, 445, Alți agenți biologici; DMARD sintetice țintite; distincția verificată: Blocarea costimulării este corectă; inhibarea sintezei pirimidinelor aparține leflunomidei."
+      },
+      {
+        "index": 2,
+        "verdict": "correct",
+        "rationale": "Ținta și motivul monitorizării imunoglobulinelor sunt descrise pentru rituximab.",
+        "evidenceLocation": "Kumar, p. 447, 445, Alți agenți biologici; DMARD sintetice țintite; distincția verificată: Ținta și motivul monitorizării imunoglobulinelor sunt descrise pentru rituximab."
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Ambele medicamente țintesc receptorul IL-6.",
+        "evidenceLocation": "Kumar, p. 447, 445, Alți agenți biologici; DMARD sintetice țintite; distincția verificată: Ambele medicamente țintesc receptorul IL-6."
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Ținta și calea sunt corecte; încadrarea este DMARD sintetice țintite, nu biologice.",
+        "evidenceLocation": "Kumar, p. 447, 445, Alți agenți biologici; DMARD sintetice țintite; distincția verificată: Ținta și calea sunt corecte; încadrarea este DMARD sintetice țintite, nu biologice."
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T23:38:59.929Z",
+    "unresolvedIssues": [],
+    "difficulty": {
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Fiecare distractor păstrează ținta sau efectul corect și greșește un atribut apropiat: mecanismul intermediar ori clasificarea."
+    },
+    "textbookExpressions": [
+      "expansiunea clonală a limfocitelor T",
+      "limfocitele pre-B",
+      "DMARD sintetice țintite"
+    ],
+    "textbookWordingReviewed": true,
+    "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+  },
+  {
+    "questionId": "reumatologie-adv-007",
+    "questionFingerprint": "031f4c1c095153e94f610de3cdbe7663481985cd7b42d1e99dc724e97d4d02e8",
+    "status": "source-checked",
+    "learningObjective": "Interpretarea nivelului de medicament în eșecul secundar fără confundarea farmacocineticii cu ținta terapeutică.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 18,
+      "printedPages": [
+        447
+      ],
+      "pdfPages": [
+        77
+      ],
+      "section": "Schimbarea terapiilor DMARD și taperingul"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Aceasta este preferința formulată pentru un nivel terapeutic la pierderea răspunsului.",
+        "evidenceLocation": "Kumar, p. 447, Schimbarea terapiilor DMARD și taperingul; distincția verificată: Aceasta este preferința formulată pentru un nivel terapeutic la pierderea răspunsului."
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Textul menționează ambele explicații pentru nivelul subterapeutic.",
+        "evidenceLocation": "Kumar, p. 447, Schimbarea terapiilor DMARD și taperingul; distincția verificată: Textul menționează ambele explicații pentru nivelul subterapeutic."
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Identificarea unei explicații nu exclude non-complianța asociată; textul nu stabilește o asemenea excludere.",
+        "evidenceLocation": "Kumar, p. 447, Schimbarea terapiilor DMARD și taperingul; distincția verificată: Identificarea unei explicații nu exclude non-complianța asociată; textul nu stabilește o asemenea excludere."
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Ambele alternative sunt descrise pentru acest context.",
+        "evidenceLocation": "Kumar, p. 447, Schimbarea terapiilor DMARD și taperingul; distincția verificată: Ambele alternative sunt descrise pentru acest context."
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Nivelul terapeutic nu dovedește neutralizarea; textul preferă un preparat non-anti-TNF.",
+        "evidenceLocation": "Kumar, p. 447, Schimbarea terapiilor DMARD și taperingul; distincția verificată: Nivelul terapeutic nu dovedește neutralizarea; textul preferă un preparat non-anti-TNF."
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T23:38:59.929Z",
+    "unresolvedIssues": [],
+    "difficulty": {
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Se schimbă conduita după concentrația medicamentului, iar opțiunile disting eșecul de țintă de expunerea insuficientă."
+    },
+    "textbookExpressions": [
+      "non-responderi secundari",
+      "anticorpilor anti-medicament",
+      "nivelul de medicament este terapeutic"
+    ],
+    "textbookWordingReviewed": true,
+    "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+  },
+  {
+    "questionId": "reumatologie-adv-008",
+    "questionFingerprint": "41885a5c40649b766e520dc129c682fbb5c9bde38790956207add59d7774f2b8",
+    "status": "source-checked",
+    "learningObjective": "Integrarea prezentării antigenice cu sediul inflamației și repararea osoasă.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 18,
+      "printedPages": [
+        448
+      ],
+      "pdfPages": [
+        78
+      ],
+      "section": "Spondilita anchilozantă — Etiologie; Tablou clinic"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Aceasta este calea propusă în ipoteza peptidului artritogenic din text.",
+        "evidenceLocation": "Kumar, p. 448, Spondilita anchilozantă — Etiologie; Tablou clinic; distincția verificată: Aceasta este calea propusă în ipoteza peptidului artritogenic din text."
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Eroziunea la inserție se vindecă prin formare osoasă.",
+        "evidenceLocation": "Kumar, p. 448, Spondilita anchilozantă — Etiologie; Tablou clinic; distincția verificată: Eroziunea la inserție se vindecă prin formare osoasă."
+      },
+      {
+        "index": 2,
+        "verdict": "correct",
+        "rationale": "Expansiunea toracică redusă este legată de aceste articulații.",
+        "evidenceLocation": "Kumar, p. 448, Spondilita anchilozantă — Etiologie; Tablou clinic; distincția verificată: Expansiunea toracică redusă este legată de aceste articulații."
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Este una dintre căile patogenice prezentate.",
+        "evidenceLocation": "Kumar, p. 448, Spondilita anchilozantă — Etiologie; Tablou clinic; distincția verificată: Este una dintre căile patogenice prezentate."
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Textul localizează procesul la inserțiile ligamentare; alternativa transferă sediul în cartilaj.",
+        "evidenceLocation": "Kumar, p. 448, Spondilita anchilozantă — Etiologie; Tablou clinic; distincția verificată: Textul localizează procesul la inserțiile ligamentare; alternativa transferă sediul în cartilaj."
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T23:38:59.929Z",
+    "unresolvedIssues": [],
+    "difficulty": {
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Cere conexiunea exactă între mecanismul imun, enteză, reparare și anatomie; alternativa eronată păstrează osteogeneza, dar schimbă sediul."
+    },
+    "textbookExpressions": [
+      "limfocitelor T CD8+",
+      "inserției ligamentelor",
+      "formarea de os nou"
+    ],
+    "textbookWordingReviewed": true,
+    "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+  },
+  {
+    "questionId": "reumatologie-adv-009",
+    "questionFingerprint": "44a46bccafb1e323bd4567d815ab8b147d3e2c3cbb5c32c8eb6ac2c25cd150bb",
+    "status": "source-checked",
+    "learningObjective": "Diferențierea mecanismelor deformărilor și a distribuției care poate mima AR.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 18,
+      "printedPages": [
+        450
+      ],
+      "pdfPages": [
+        80
+      ],
+      "section": "Artrita psoriazică — Tablou clinic"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Această continuitate anatomică este descrisă.",
+        "evidenceLocation": "Kumar, p. 450, Artrita psoriazică — Tablou clinic; distincția verificată: Această continuitate anatomică este descrisă."
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Nu este o tumefacție limitată la o singură articulație.",
+        "evidenceLocation": "Kumar, p. 450, Artrita psoriazică — Tablou clinic; distincția verificată: Nu este o tumefacție limitată la o singură articulație."
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Forma mutilantă produce osteoliză periarticulară și scurtare osoasă.",
+        "evidenceLocation": "Kumar, p. 450, Artrita psoriazică — Tablou clinic; distincția verificată: Forma mutilantă produce osteoliză periarticulară și scurtare osoasă."
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Textul și figura leagă aspectul de eroziunea centrală și osteoliză.",
+        "evidenceLocation": "Kumar, p. 450, Artrita psoriazică — Tablou clinic; distincția verificată: Textul și figura leagă aspectul de eroziunea centrală și osteoliză."
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Poliartrita psoriazică poate deveni simetrică și greu de distins clinic de AR; simetria nu schimbă singură diagnosticul.",
+        "evidenceLocation": "Kumar, p. 450, Artrita psoriazică — Tablou clinic; distincția verificată: Poliartrita psoriazică poate deveni simetrică și greu de distins clinic de AR; simetria nu schimbă singură diagnosticul."
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T23:38:59.929Z",
+    "unresolvedIssues": [],
+    "difficulty": {
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Distractorii păstrează manifestarea recognoscibilă, dar schimbă mecanismul deformării ori interpretarea distribuției."
+    },
+    "textbookExpressions": [
+      "entezita care se extinde în rădăcina unghiilor",
+      "degete telescopate",
+      "toc în călimară"
+    ],
+    "textbookWordingReviewed": true,
+    "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+  },
+  {
+    "questionId": "reumatologie-adv-010",
+    "questionFingerprint": "d25672a8b47af1e21b2cb45cff3d2ace57b5c34a27da02522c309fefffb11341",
+    "status": "source-checked",
+    "learningObjective": "Distingerea aspectului leziunilor după context și a relației temporale oculo-articulare.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 18,
+      "printedPages": [
+        451
+      ],
+      "pdfPages": [
+        81
+      ],
+      "section": "Artrita reactivă — Tablou clinic"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Acesta este aspectul descris la bărbatul necircumcis.",
+        "evidenceLocation": "Kumar, p. 451, Artrita reactivă — Tablou clinic; distincția verificată: Acesta este aspectul descris la bărbatul necircumcis."
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Acesta este aspectul descris după circumcizie.",
+        "evidenceLocation": "Kumar, p. 451, Artrita reactivă — Tablou clinic; distincția verificată: Acesta este aspectul descris după circumcizie."
+      },
+      {
+        "index": 2,
+        "verdict": "correct",
+        "rationale": "Asemănarea histologică este precizată în text.",
+        "evidenceLocation": "Kumar, p. 451, Artrita reactivă — Tablou clinic; distincția verificată: Asemănarea histologică este precizată în text."
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "Uveita poate complica boala severă sau recurentă, dar nu este sincronă cu artrita.",
+        "evidenceLocation": "Kumar, p. 451, Artrita reactivă — Tablou clinic; distincția verificată: Uveita poate complica boala severă sau recurentă, dar nu este sincronă cu artrita."
+      },
+      {
+        "index": 4,
+        "verdict": "correct",
+        "rationale": "Ambele localizări sunt descrise pentru entezită.",
+        "evidenceLocation": "Kumar, p. 451, Artrita reactivă — Tablou clinic; distincția verificată: Ambele localizări sunt descrise pentru entezită."
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T23:38:59.929Z",
+    "unresolvedIssues": [],
+    "difficulty": {
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Cere distincția morfologică dependentă de circumcizie și independența evoluției oculare, dincolo de triada uzuală."
+    },
+    "textbookExpressions": [
+      "ulcerații superficiale nedureroase",
+      "eritematoasă și scuamoasă",
+      "nu este sincronă cu artrita"
+    ],
+    "textbookWordingReviewed": true,
+    "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+  },
+  {
+    "questionId": "reumatologie-adv-011",
+    "questionFingerprint": "10b3db6b7ba042d8f9cdf96ac575e5a2ac693a99d1d4d991337fa97ac8eed4cb",
+    "status": "source-checked",
+    "learningObjective": "Diferențierea țintelor biologice de enzimele intracelulare și a structurii anti-TNF.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 18,
+      "printedPages": [
+        450,
+        445,
+        447
+      ],
+      "pdfPages": [
+        80,
+        75,
+        77
+      ],
+      "section": "Artrita psoriazică — Tratament și prognostic"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Ambele sunt încadrate ca inhibitori IL-17.",
+        "evidenceLocation": "Kumar, p. 450, 445, 447, Artrita psoriazică — Tratament și prognostic; distincția verificată: Ambele sunt încadrate ca inhibitori IL-17."
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Ustekinumab țintește IL-12/23; receptorul IL-6 este ținta tocilizumabului și sarilumabului.",
+        "evidenceLocation": "Kumar, p. 450, 445, 447, Artrita psoriazică — Tratament și prognostic; distincția verificată: Ustekinumab țintește IL-12/23; receptorul IL-6 este ținta tocilizumabului și sarilumabului."
+      },
+      {
+        "index": 2,
+        "verdict": "correct",
+        "rationale": "Apremilast este inhibitor PDE4.",
+        "evidenceLocation": "Kumar, p. 450, 445, 447, Artrita psoriazică — Tratament și prognostic; distincția verificată: Apremilast este inhibitor PDE4."
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Tofacitinib este inhibitor JAK.",
+        "evidenceLocation": "Kumar, p. 450, 445, 447, Artrita psoriazică — Tratament și prognostic; distincția verificată: Tofacitinib este inhibitor JAK."
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Golimumab este anticorp monoclonal; proteina de fuziune p75 este etanerceptul.",
+        "evidenceLocation": "Kumar, p. 450, 445, 447, Artrita psoriazică — Tratament și prognostic; distincția verificată: Golimumab este anticorp monoclonal; proteina de fuziune p75 este etanerceptul."
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T23:38:59.929Z",
+    "unresolvedIssues": [],
+    "difficulty": {
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Toate variantele sunt terapii reale pentru boli inflamatorii apropiate; două schimbă o țintă sau structură din aceeași familie terapeutică."
+    },
+    "textbookExpressions": [
+      "inhibitori de IL-17",
+      "inhibitor oral al PDE4",
+      "inhibitor JAK"
+    ],
+    "textbookWordingReviewed": true,
+    "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
   }
 ]
