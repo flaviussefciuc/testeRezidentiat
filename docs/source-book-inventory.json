@@ -1,0 +1,41 @@
+{
+  "received": "2026-09-12",
+  "books": [
+    {
+      "id": "kumar",
+      "filename": "kumar-doar-capitolele-rezi.pdf",
+      "sha256": "ac73f8ad5f7feab7e4dc31e0644cde58a0cba0bbc67b4b88ffa2b97c97a4bdab",
+      "pdfPages": 391,
+      "textPages": 390
+    },
+    {
+      "id": "lawrence",
+      "filename": "LAWRENCE-REZI-MG-2025.pdf",
+      "sha256": "4646fc7179565353a911846913eb137231660378ec3500d07aaad694247d761a",
+      "pdfPages": 345,
+      "textPages": 345
+    },
+    {
+      "id": "sinopsis",
+      "filename": "Sinopsis-de-Medicina-REZI-MG-2025.pdf",
+      "sha256": "e999233bdc17be2654e75facd314333231ff6a5a46faaae2b57ea945e04bbdeb",
+      "pdfPages": 118,
+      "textPages": 118
+    }
+  ],
+  "confirmedPageMappings": [
+    {
+      "book": "kumar",
+      "printed": [
+        151,
+        168
+      ],
+      "pdf": [
+        5,
+        22
+      ],
+      "chapter": 8
+    }
+  ],
+  "note": "Mapping is partial. PDF text and images stay in ignored tmp/; no full textbook is distributed."
+}

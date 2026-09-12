@@ -2,7 +2,7 @@ import {Component,computed,inject,signal} from '@angular/core';
 import {FormsModule} from '@angular/forms';
 import {RouterLink} from '@angular/router';
 import {Store} from './store';
-import {QUESTIONS} from './questions';
+import {QUESTION_HISTORY as QUESTIONS} from './questions';
 import {TOPICS} from './topics';
 import {summarize,topicStats,improvement} from './scoring';
 import {ChartComponent} from './chart.component';

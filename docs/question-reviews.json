@@ -1,0 +1,1360 @@
+[
+  {
+    "questionId": "sepsis-ext-001",
+    "questionFingerprint": "08f07834562d830fe0847f410c34d0183c4fb977a757cd51398649850726bcf1",
+    "status": "source-checked",
+    "learningObjective": "Aplicarea qSOFA și separarea screeningului de diagnosticul de șoc septic.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 8,
+      "printedPages": [
+        154
+      ],
+      "pdfPages": [
+        8
+      ],
+      "section": "Definiția (consensul Sepsis-3)"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "incorrect",
+        "rationale": "Tahipneea și tensiunea sistolică redusă aduc fiecare câte un punct, chiar fără alterarea conștienței.",
+        "evidenceLocation": "Kumar, p. 154, Definiția (consensul Sepsis-3)"
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Sunt îndeplinite două praguri: ≥22 respirații/min și tensiune sistolică ≤100 mmHg.",
+        "evidenceLocation": "Kumar, p. 154, Definiția (consensul Sepsis-3)"
+      },
+      {
+        "index": 2,
+        "verdict": "correct",
+        "rationale": "Glasgow 15 nu aduce puncte, iar celelalte două criterii sunt prezente. Scorul pozitiv indică risc și impune evaluare.",
+        "evidenceLocation": "Kumar, p. 154, Definiția (consensul Sepsis-3)"
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "qSOFA este un instrument de risc; nu stabilește șocul septic, pentru care sunt necesare alte criterii circulatorii și metabolice.",
+        "evidenceLocation": "Kumar, p. 154, Definiția (consensul Sepsis-3)"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Pentru criteriul neurologic este necesar Glasgow <15; pacientul are 15.",
+        "evidenceLocation": "Kumar, p. 154, Definiția (consensul Sepsis-3)"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T13:24:26.972Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare cu textul român furnizat. Pragurile de la p. 154 au fost verificate și pe imagine. Distractorii au fost reevaluați după feedback privind eliminarea prea ușoară. Fără validare de către medic și fără calibrare psihometrică."
+  },
+  {
+    "questionId": "sepsis-ext-002",
+    "questionFingerprint": "a0660137a4bd7499d35b111e090646838aab11b2f5f6cc346800fe01d65f4953",
+    "status": "source-checked",
+    "learningObjective": "Aplicarea simultană a criteriului vasopresor și a pragului strict al lactatului.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 8,
+      "printedPages": [
+        154
+      ],
+      "pdfPages": [
+        8
+      ],
+      "section": "Șocul septic"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "incorrect",
+        "rationale": "Lactatul este crescut, dar situația nu include necesarul de vasopresor cerut de definiția clinică.",
+        "evidenceLocation": "Kumar, p. 154, Șocul septic"
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Lactatul trebuie să depășească 2 mmol/L; valoarea exactă 2,0 nu îndeplinește acest criteriu.",
+        "evidenceLocation": "Kumar, p. 154, Șocul septic"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Nu există nici necesar de vasopresor, nici lactat >2 mmol/L.",
+        "evidenceLocation": "Kumar, p. 154, Șocul septic"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Sunt prezente ambele condiții: suport vasopresor pentru PAM ≥65 mmHg și lactat >2 mmol/L după corectarea volemiei.",
+        "evidenceLocation": "Kumar, p. 154, Șocul septic"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Necesarul vasopresor este prezent, dar lactatul nu depășește pragul definiției.",
+        "evidenceLocation": "Kumar, p. 154, Șocul septic"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T13:24:26.974Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare cu textul român furnizat. Pragurile de la p. 154 au fost verificate și pe imagine. Distractorii au fost reevaluați după feedback privind eliminarea prea ușoară. Fără validare de către medic și fără calibrare psihometrică."
+  },
+  {
+    "questionId": "sepsis-ext-003",
+    "questionFingerprint": "43e121414dcb88ce79b37b0a263645870eb6407a7108b06a9ed69cd01dee8153",
+    "status": "source-checked",
+    "learningObjective": "Explicarea rolului farmacocinetic al cilastatinei.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 8,
+      "printedPages": [
+        163
+      ],
+      "pdfPages": [
+        17
+      ],
+      "section": "Carbapenemele"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Cartea descrie inactivarea enzimatică renală parțială a imipenemului ca motiv al administrării sale împreună cu cilastatina.",
+        "evidenceLocation": "Kumar, p. 163, Carbapenemele"
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Asocierea nu conferă activitate anti-MRSA; acest germen este exclus din spectrul descris al carbapenemelor.",
+        "evidenceLocation": "Kumar, p. 163, Carbapenemele"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Rolul descris privește metabolizarea renală, nu absorbția digestivă.",
+        "evidenceLocation": "Kumar, p. 163, Carbapenemele"
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "Efluxul este un mecanism bacterian de rezistență; cilastatina vizează inactivarea renală a medicamentului.",
+        "evidenceLocation": "Kumar, p. 163, Carbapenemele"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Asocierea nu este o metodă de prevenire a hipersensibilității la beta-lactamine.",
+        "evidenceLocation": "Kumar, p. 163, Carbapenemele"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T13:24:26.974Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare cu textul român furnizat. Pragurile de la p. 154 au fost verificate și pe imagine. Distractorii au fost reevaluați după feedback privind eliminarea prea ușoară. Fără validare de către medic și fără calibrare psihometrică."
+  },
+  {
+    "questionId": "sepsis-ext-004",
+    "questionFingerprint": "bdb6300e36fa48e8ad516abfa4694d12f400f29b13ba0851991f05dd2b40a417",
+    "status": "source-checked",
+    "learningObjective": "Diferențierea rezistenței prin schimbarea țintei PBP de alte mecanisme antibacteriene.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 8,
+      "printedPages": [
+        167,
+        165,
+        166
+      ],
+      "pdfPages": [
+        21,
+        19,
+        20
+      ],
+      "section": "Staphylococcus aureus rezistent la meticilină"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "incorrect",
+        "rationale": "Această schimbare a precursorului peptidoglicanului explică rezistența enterococilor la glicopeptide, nu rezistența MRSA la meticilină.",
+        "evidenceLocation": "Kumar, p. 167, Enterococi rezistenți la vancomicină"
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Reducerea porinelor este descrisă la Pseudomonas rezistent la carbapeneme, nu ca mecanism al MRSA.",
+        "evidenceLocation": "Kumar, p. 167, Pseudomonas rezistent la carbapeneme"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Modificarea LPS privește rezistența la polimixine, nu ținta beta-lactaminelor la S. aureus.",
+        "evidenceLocation": "Kumar, p. 165–166, Polimixinele"
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "Această schimbare enzimatică privește rezistența la sulfamide.",
+        "evidenceLocation": "Kumar, p. 166, Sulfamidele"
+      },
+      {
+        "index": 4,
+        "verdict": "correct",
+        "rationale": "Modificarea țintei PBP2a împiedică inhibarea eficientă a sintezei peretelui de către meticilină sau flucloxacilină.",
+        "evidenceLocation": "Kumar, p. 167, MRSA"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T13:24:26.974Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare cu textul român furnizat. Pragurile de la p. 154 au fost verificate și pe imagine. Distractorii au fost reevaluați după feedback privind eliminarea prea ușoară. Fără validare de către medic și fără calibrare psihometrică."
+  },
+  {
+    "questionId": "sepsis-ext-005",
+    "questionFingerprint": "a2ea56a3b8a7772c077acbf4b07c0c39080ab643d6c60d990a4471d019a21772",
+    "status": "source-checked",
+    "learningObjective": "Separarea sensibilității in vitro de adecvarea antibioticului la localizarea renală.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 8,
+      "printedPages": [
+        166,
+        162,
+        163,
+        164
+      ],
+      "pdfPages": [
+        20,
+        16,
+        17,
+        18
+      ],
+      "section": "Nitrofurantoina"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "incorrect",
+        "rationale": "Ciprofloxacina este descrisă pentru infecții urinare și sistemice; nu are limitarea de localizare indicată aici pentru nitrofurantoină.",
+        "evidenceLocation": "Kumar, p. 164, Chinolonele"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Pasajul precizează că nitrofurantoina este nepotrivită pentru pielonefrită și infecții urinare complicate. Sensibilitatea in vitro nu înlătură această limitare.",
+        "evidenceLocation": "Kumar, p. 166, Nitrofurantoina"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Amoxicilina are utilizare sistemică și activitate asupra unor patogeni urinari sensibili; nu este medicamentul cu limitarea farmacocinetică întrebată.",
+        "evidenceLocation": "Kumar, p. 163, Penicilinele"
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "Trimetoprimul este prezentat ca antibiotic urinar și nu are limitarea specifică nitrofurantoinei din enunț. Alegerea clinică depinde în continuare de pacient și sensibilitate.",
+        "evidenceLocation": "Kumar, p. 166, Trimetoprimul"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Cefuroximul este o cefalosporină cu administrare orală sau intravenoasă descrisă în capitol, nu agentul restrâns la infecții urinare joase din întrebare.",
+        "evidenceLocation": "Kumar, p. 162–163, Cefalosporinele"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T13:24:26.974Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare cu textul român furnizat. Pragurile de la p. 154 au fost verificate și pe imagine. Distractorii au fost reevaluați după feedback privind eliminarea prea ușoară. Fără validare de către medic și fără calibrare psihometrică."
+  },
+  {
+    "questionId": "sepsis-ext-006",
+    "questionFingerprint": "b7492922737860a3f1754a17598cc7832f130a1b6d94969799e0e04d87330fcc",
+    "status": "source-checked",
+    "learningObjective": "Diferențierea rolului defensiv local al imunotrombozei de consecințele răspunsului sistemic.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 8,
+      "printedPages": [
+        154
+      ],
+      "pdfPages": [
+        8
+      ],
+      "section": "Fiziopatologie"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "incorrect",
+        "rationale": "Textul descrie creșterea permeabilității vasculare prin activarea complementului.",
+        "evidenceLocation": "Kumar, p. 154, Fiziopatologie"
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Microparticulele eliberate conțin lipide și proteine pro-oxidante și procoagulante.",
+        "evidenceLocation": "Kumar, p. 154, Fiziopatologie"
+      },
+      {
+        "index": 2,
+        "verdict": "correct",
+        "rationale": "NET-urile cuprind fragmente de ADN, proteine și enzime antimicrobiene.",
+        "evidenceLocation": "Kumar, p. 154, Fiziopatologie"
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "Sepsisul autoîntreținut este asociat cu un catabolism marcat.",
+        "evidenceLocation": "Kumar, p. 154, Fiziopatologie"
+      },
+      {
+        "index": 4,
+        "verdict": "correct",
+        "rationale": "Captarea microorganismelor în microtrombi poate ajuta controlul local al infecției; extinderea difuză poate afecta gazda.",
+        "evidenceLocation": "Kumar, p. 154, Fiziopatologie"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T13:24:26.974Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare cu textul român furnizat. Pragurile de la p. 154 au fost verificate și pe imagine. Distractorii au fost reevaluați după feedback privind eliminarea prea ușoară. Fără validare de către medic și fără calibrare psihometrică."
+  },
+  {
+    "questionId": "sepsis-ext-007",
+    "questionFingerprint": "c0d797979007586b9ddb30f4c8a3fc3904311ce7bd123077a3ae3879ceed73ca",
+    "status": "source-checked",
+    "learningObjective": "Corelarea vasoplegiei, permeabilității și funcției cardiace cu perfuzia tisulară.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 8,
+      "printedPages": [
+        154
+      ],
+      "pdfPages": [
+        8
+      ],
+      "section": "Disfuncția de organ"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Scăderea rezistenței periferice totale este efectul vasoplegiei descris în text.",
+        "evidenceLocation": "Kumar, p. 154, Disfuncția de organ"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Extravazarea de plasmă și lichid bogat în proteine produce edem tisular.",
+        "evidenceLocation": "Kumar, p. 154, Disfuncția de organ"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Sindromul septic și acidoza pot exercita un efect inotrop negativ.",
+        "evidenceLocation": "Kumar, p. 154, Disfuncția de organ"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "La majoritatea pacienților din descriere, solicitarea fiziologică este însoțită de creșterea debitului după repleția lichidiană.",
+        "evidenceLocation": "Kumar, p. 154, Disfuncția de organ"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Edemul reduce livrarea oxigenului, contribuind la disfuncția tisulară.",
+        "evidenceLocation": "Kumar, p. 154, Disfuncția de organ"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T13:24:26.974Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare cu textul român furnizat. Pragurile de la p. 154 au fost verificate și pe imagine. Distractorii au fost reevaluați după feedback privind eliminarea prea ușoară. Fără validare de către medic și fără calibrare psihometrică."
+  },
+  {
+    "questionId": "sepsis-ext-008",
+    "questionFingerprint": "51481e4866b82b4db3962f8293d539182105a3260dffce988b9c19424bdd6806",
+    "status": "source-checked",
+    "learningObjective": "Identificarea mecanismelor leziunilor de organ în sindromul septic.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 8,
+      "printedPages": [
+        154
+      ],
+      "pdfPages": [
+        8
+      ],
+      "section": "Fiziopatologie; Disfuncția de organ"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Deficitul energetic este consecința disfuncției mitocondriale descrise.",
+        "evidenceLocation": "Kumar, p. 154, Fiziopatologie; Disfuncția de organ"
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Lezarea barierei intestinale favorizează, nu reduce, trecerea bacteriilor în sânge.",
+        "evidenceLocation": "Kumar, p. 154, Fiziopatologie; Disfuncția de organ"
+      },
+      {
+        "index": 2,
+        "verdict": "correct",
+        "rationale": "Afectarea pulmonară poate evolua spre leziuni acute și detresă respiratorie.",
+        "evidenceLocation": "Kumar, p. 154, Fiziopatologie; Disfuncția de organ"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Spectrul neurologic descris cuprinde somnolență, confuzie și comă.",
+        "evidenceLocation": "Kumar, p. 154, Fiziopatologie; Disfuncția de organ"
+      },
+      {
+        "index": 4,
+        "verdict": "correct",
+        "rationale": "Microtromboza difuză și inflamația compromit perfuzia la nivel microvascular.",
+        "evidenceLocation": "Kumar, p. 154, Fiziopatologie; Disfuncția de organ"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T13:24:26.974Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare cu textul român furnizat. Pragurile de la p. 154 au fost verificate și pe imagine. Distractorii au fost reevaluați după feedback privind eliminarea prea ușoară. Fără validare de către medic și fără calibrare psihometrică."
+  },
+  {
+    "questionId": "sepsis-ext-009",
+    "questionFingerprint": "3f86fbdde43d951e4f8b7df780e3213e4bc721d5baef357b5e4e7aea20e3f1cc",
+    "status": "source-checked",
+    "learningObjective": "Separarea debutului nosocomial de expunerea recentă la servicii medicale.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 8,
+      "printedPages": [
+        155
+      ],
+      "pdfPages": [
+        9
+      ],
+      "section": "Originea sepsisului"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "incorrect",
+        "rationale": "Debutul în primele 48 de ore este încadrat comunitar; subgrupul asociat asistenței medicale se identifică prin expunerile anterioare.",
+        "evidenceLocation": "Kumar, p. 155, Originea sepsisului"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Pragul temporal prezentat pentru dobândirea în spital este peste 48 de ore.",
+        "evidenceLocation": "Kumar, p. 155, Originea sepsisului"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Fereastra prezentată pentru externarea recentă este de 30 de zile.",
+        "evidenceLocation": "Kumar, p. 155, Originea sepsisului"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Tratamentul medical ambulator, exemplificat prin hemodializă, reprezintă unul dintre contextele enumerate.",
+        "evidenceLocation": "Kumar, p. 155, Originea sepsisului"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Textul include unitățile de îngrijiri cronice și le diferențiază de simpla locuire într-o comunitate închisă.",
+        "evidenceLocation": "Kumar, p. 155, Originea sepsisului"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T13:24:26.974Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare cu textul român furnizat. Pragurile de la p. 154 au fost verificate și pe imagine. Distractorii au fost reevaluați după feedback privind eliminarea prea ușoară. Fără validare de către medic și fără calibrare psihometrică."
+  },
+  {
+    "questionId": "sepsis-ext-010",
+    "questionFingerprint": "0af009508d4ef8018c1450d7dd87d4542a39076c2b00945f78e8dabc8179ab74",
+    "status": "source-checked",
+    "learningObjective": "Identificarea agenților frecvenți, a diseminării hematogene și a embolizării din endocardita dreaptă.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 8,
+      "printedPages": [
+        156,
+        155
+      ],
+      "pdfPages": [
+        10,
+        9
+      ],
+      "section": "Dependenții de droguri injectabile"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Infectarea tricuspidei poate produce emboli pulmonari septici și abcese multiple.",
+        "evidenceLocation": "Kumar, p. 156, Dependenții de droguri injectabile"
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Germenii caracteristici enumerați sunt S. aureus și S. pyogenes; cele două alternative sunt exemple nosocomiale la p. 155.",
+        "evidenceLocation": "Kumar, p. 155–156, Originea sepsisului; Dependenții de droguri injectabile"
+      },
+      {
+        "index": 2,
+        "verdict": "correct",
+        "rationale": "Coloana vertebrală este una dintre localizările distante menționate.",
+        "evidenceLocation": "Kumar, p. 156, Dependenții de droguri injectabile"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Articulațiile sunt sedii de diseminare care pot necesita tratament intervențional.",
+        "evidenceLocation": "Kumar, p. 156, Dependenții de droguri injectabile"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Mecanismul descris pentru abcesele pulmonare multiple pornește de la valva tricuspidă, din circulația dreaptă.",
+        "evidenceLocation": "Kumar, p. 156, Dependenții de droguri injectabile"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T13:24:26.974Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare cu textul român furnizat. Pragurile de la p. 154 au fost verificate și pe imagine. Distractorii au fost reevaluați după feedback privind eliminarea prea ușoară. Fără validare de către medic și fără calibrare psihometrică."
+  },
+  {
+    "questionId": "sepsis-ext-011",
+    "questionFingerprint": "af388736c4c8624c3e9c22fdab070aaa46ceaa8f2f75630d53fb3535ec9726d1",
+    "status": "source-checked",
+    "learningObjective": "Diferențierea utilității și limitelor PCR 16S față de cultură și spectrometrie.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 8,
+      "printedPages": [
+        158
+      ],
+      "pdfPages": [
+        12
+      ],
+      "section": "Cadranul 8.6: Identificarea moleculară a agenților infecțioși"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "incorrect",
+        "rationale": "Profilul spectral caracterizează MALDI-TOF, nu PCR 16S.",
+        "evidenceLocation": "Kumar, p. 158, Cadranul 8.6: Identificarea moleculară a agenților infecțioși"
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Metoda descrisă nu oferă date despre susceptibilitatea la antibiotice.",
+        "evidenceLocation": "Kumar, p. 158, Cadranul 8.6: Identificarea moleculară a agenților infecțioși"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Testul este util tocmai când culturile sunt negative după expunerea la antibiotice.",
+        "evidenceLocation": "Kumar, p. 158, Cadranul 8.6: Identificarea moleculară a agenților infecțioși"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Cartea recomandă luarea în considerare a PCR 16S pentru probe tisulare negative după antibioterapie.",
+        "evidenceLocation": "Kumar, p. 158, Cadranul 8.6: Identificarea moleculară a agenților infecțioși"
+      },
+      {
+        "index": 4,
+        "verdict": "correct",
+        "rationale": "Regiunile conservate permit amplificarea, iar cele variabile contribuie la identificarea speciei.",
+        "evidenceLocation": "Kumar, p. 158, Cadranul 8.6: Identificarea moleculară a agenților infecțioși"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T13:24:26.974Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare cu textul român furnizat. Pragurile de la p. 154 au fost verificate și pe imagine. Distractorii au fost reevaluați după feedback privind eliminarea prea ușoară. Fără validare de către medic și fără calibrare psihometrică."
+  },
+  {
+    "questionId": "sepsis-ext-012",
+    "questionFingerprint": "34f6f031a22e3e8a4dca0b5a88f99ddba5c073767717c9c50b14439157a920b4",
+    "status": "source-checked",
+    "learningObjective": "Alegerea conduitei de reevaluare în funcție de diagnostic, sediu și evoluție.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 8,
+      "printedPages": [
+        159
+      ],
+      "pdfPages": [
+        13
+      ],
+      "section": "Antibioterapia după 72 de ore"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Încetarea tratamentului este una dintre deciziile descrise când simptomele nu au fost cauzate de infecție.",
+        "evidenceLocation": "Kumar, p. 159, Antibioterapia după 72 de ore"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Acest context poate permite schimbarea căii de administrare după 2–3 zile.",
+        "evidenceLocation": "Kumar, p. 159, Antibioterapia după 72 de ore"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Descoperirea endocarditei poate impune tratament intravenos prelungit; dispariția febrei nu justifică singură această schimbare.",
+        "evidenceLocation": "Kumar, p. 159, Antibioterapia după 72 de ore"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Meningita și artrita septică sunt exemplele date pentru continuarea tratamentului intravenos.",
+        "evidenceLocation": "Kumar, p. 159, Antibioterapia după 72 de ore"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Când rezultatele permit, cartea recomandă un antibiotic cu spectru îngust pentru reducerea riscurilor asociate.",
+        "evidenceLocation": "Kumar, p. 159, Antibioterapia după 72 de ore"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T13:24:26.974Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare cu textul român furnizat. Pragurile de la p. 154 au fost verificate și pe imagine. Distractorii au fost reevaluați după feedback privind eliminarea prea ușoară. Fără validare de către medic și fără calibrare psihometrică."
+  },
+  {
+    "questionId": "sepsis-ext-013",
+    "questionFingerprint": "2fe32d1d0ae0af10af2d71ded82799544ad6ad4d4eb545bc77bdad495d92561b",
+    "status": "source-checked",
+    "learningObjective": "Diferențierea timpului de debut, mecanismului și severității reacțiilor alergice.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 8,
+      "printedPages": [
+        160
+      ],
+      "pdfPages": [
+        14
+      ],
+      "section": "Evaluarea riscului alergic"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Hipersensibilitatea imediată descrisă, inclusiv anafilaxia, este mediată de IgE.",
+        "evidenceLocation": "Kumar, p. 160, Evaluarea riscului alergic"
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Debutul în prima oră corespunde formei imediate; reacțiile întârziate apar după zile sau săptămâni.",
+        "evidenceLocation": "Kumar, p. 160, Evaluarea riscului alergic"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Anafilaxia este legată de reacția imediată descrisă în pasaj.",
+        "evidenceLocation": "Kumar, p. 160, Evaluarea riscului alergic"
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "Această cronologie corespunde reacției întârziate din text, nu formei imediate.",
+        "evidenceLocation": "Kumar, p. 160, Evaluarea riscului alergic"
+      },
+      {
+        "index": 4,
+        "verdict": "correct",
+        "rationale": "Este una dintre complicațiile severe ale hipersensibilității întârziate enumerate.",
+        "evidenceLocation": "Kumar, p. 160, Evaluarea riscului alergic"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T13:24:26.974Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare cu textul român furnizat. Pragurile de la p. 154 au fost verificate și pe imagine. Distractorii au fost reevaluați după feedback privind eliminarea prea ușoară. Fără validare de către medic și fără calibrare psihometrică."
+  },
+  {
+    "questionId": "sepsis-ext-014",
+    "questionFingerprint": "b0f373ddf1bbe79d6ebabadf3a21ef5b7be84e2f2cf29c827955e9b92e6dbbd0",
+    "status": "source-checked",
+    "learningObjective": "Corelarea țintei beta-lactaminelor cu mecanismul bactericid.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 8,
+      "printedPages": [
+        163,
+        164,
+        166
+      ],
+      "pdfPages": [
+        17,
+        18,
+        20
+      ],
+      "section": "Antibiotice betalactamice"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "incorrect",
+        "rationale": "Topoizomeraza IV este o țintă a chinolonelor, nu mecanismul beta-lactaminelor.",
+        "evidenceLocation": "Kumar, p. 164, Chinolonele"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "PBP sunt peptidaze implicate în etapele finale ale formării peretelui.",
+        "evidenceLocation": "Kumar, p. 163, Betalactamine"
+      },
+      {
+        "index": 2,
+        "verdict": "correct",
+        "rationale": "Inactivarea PBP blochează sinteza peretelui celular bacterian.",
+        "evidenceLocation": "Kumar, p. 163, Betalactamine"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Aceasta este caracteristica farmacodinamică prezentată pentru bacteriile susceptibile.",
+        "evidenceLocation": "Kumar, p. 163, Betalactamine"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Reducerea grupării nitro aparține mecanismului nitroimidazolilor.",
+        "evidenceLocation": "Kumar, p. 166, Nitroimidazolii"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T13:24:26.974Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare cu textul român furnizat. Pragurile de la p. 154 au fost verificate și pe imagine. Distractorii au fost reevaluați după feedback privind eliminarea prea ușoară. Fără validare de către medic și fără calibrare psihometrică."
+  },
+  {
+    "questionId": "sepsis-ext-015",
+    "questionFingerprint": "ded7e3f0f099aefa44189a1a6d4b13162e22da3a790a37b3d5a3d2ac03cda4ed",
+    "status": "source-checked",
+    "learningObjective": "Identificarea clasei și a limitelor de spectru ale aztreonamului.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 8,
+      "printedPages": [
+        163,
+        164
+      ],
+      "pdfPages": [
+        17,
+        18
+      ],
+      "section": "Monobactami"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "incorrect",
+        "rationale": "Aztreonamul este beta-lactamic, iar spectrul său nu este cel al glicopeptidelor.",
+        "evidenceLocation": "Kumar, p. 163–164, Monobactami; Glicopeptide"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Structura sa conține inelul beta-lactamic fără al doilea inel caracteristic altor clase.",
+        "evidenceLocation": "Kumar, p. 163, Monobactami"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Spectrul prezentat este limitat la bacili Gram-negativi aerobi.",
+        "evidenceLocation": "Kumar, p. 163, Monobactami"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Cartea include utilizarea în infecții cu P. aeruginosa; activitatea concretă trebuie raportată la tulpină.",
+        "evidenceLocation": "Kumar, p. 163, Monobactami; Carbapeneme"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Asocierea cu cilastatină privește imipenemul; aztreonamul este monobactam.",
+        "evidenceLocation": "Kumar, p. 163, Monobactami; Carbapeneme"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T13:24:26.974Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare cu textul român furnizat. Pragurile de la p. 154 au fost verificate și pe imagine. Distractorii au fost reevaluați după feedback privind eliminarea prea ușoară. Fără validare de către medic și fără calibrare psihometrică."
+  },
+  {
+    "questionId": "sepsis-ext-016",
+    "questionFingerprint": "e24ba696ee72419771d88967a0ff6eefbb201b34f4cd6ce5a46407cc3ce511f8",
+    "status": "source-checked",
+    "learningObjective": "Separarea spectrului de clasă de excepția ertapenemului și de alegerea pentru meningită.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 8,
+      "printedPages": [
+        163
+      ],
+      "pdfPages": [
+        17
+      ],
+      "section": "Carbapenemele"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Spectrul larg descris cuprinde și anaerobi.",
+        "evidenceLocation": "Kumar, p. 163, Carbapenemele"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Infecțiile severe cu bacili Gram-negativi producători de ESBL sunt o utilizare centrală prezentată.",
+        "evidenceLocation": "Kumar, p. 163, Carbapenemele"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Ertapenemul este excepția fără activitate asupra Pseudomonas și Acinetobacter.",
+        "evidenceLocation": "Kumar, p. 163, Carbapenemele"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Pasajul îl indică drept alternativă pentru meningită față de imipenem și ertapenem.",
+        "evidenceLocation": "Kumar, p. 163, Carbapenemele"
+      },
+      {
+        "index": 4,
+        "verdict": "correct",
+        "rationale": "Cartea descrie un spectru larg, dar exclude MRSA; formularea nu presupune sensibilitatea fiecărei tulpini.",
+        "evidenceLocation": "Kumar, p. 163, Carbapenemele"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T13:24:26.974Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare cu textul român furnizat. Pragurile de la p. 154 au fost verificate și pe imagine. Distractorii au fost reevaluați după feedback privind eliminarea prea ușoară. Fără validare de către medic și fără calibrare psihometrică."
+  },
+  {
+    "questionId": "sepsis-ext-017",
+    "questionFingerprint": "49c61389f9b33c9c46c520aa6cb702c45e4497bf253102c7ab7e388dd9e5687a",
+    "status": "source-checked",
+    "learningObjective": "Identificarea toxicităților și a riscului neuromuscular al aminoglicozidelor.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 8,
+      "printedPages": [
+        164
+      ],
+      "pdfPages": [
+        18
+      ],
+      "section": "Aminoglicozidele"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Nefrotoxicitatea este descrisă ca dependentă de doză și potențată de alte nefrotoxice.",
+        "evidenceLocation": "Kumar, p. 164, Aminoglicozidele"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Ototoxicitatea poate afecta componentele vestibulară și auditivă.",
+        "evidenceLocation": "Kumar, p. 164, Aminoglicozidele"
+      },
+      {
+        "index": 2,
+        "verdict": "correct",
+        "rationale": "Cartea avertizează asupra blocajului neuromuscular în această asociere.",
+        "evidenceLocation": "Kumar, p. 164, Aminoglicozidele"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Monitorizarea urmărește concentrații terapeutice care să nu devină toxice.",
+        "evidenceLocation": "Kumar, p. 164, Aminoglicozidele"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Asocierea unor diuretice poate accentua ototoxicitatea; nu reprezintă o măsură de protecție auditivă.",
+        "evidenceLocation": "Kumar, p. 164, Aminoglicozidele"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T13:24:26.974Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare cu textul român furnizat. Pragurile de la p. 154 au fost verificate și pe imagine. Distractorii au fost reevaluați după feedback privind eliminarea prea ușoară. Fără validare de către medic și fără calibrare psihometrică."
+  },
+  {
+    "questionId": "sepsis-ext-018",
+    "questionFingerprint": "efb9405d164b18e02c2b94d66f16b7e99042d52c103c2b9abac016bad484dd5e",
+    "status": "source-checked",
+    "learningObjective": "Corelarea avantajelor de administrare ale linezolidului cu mecanismul și monitorizarea sa.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 8,
+      "printedPages": [
+        165
+      ],
+      "pdfPages": [
+        19
+      ],
+      "section": "Oxazolidinonele"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Cartea descrie biodisponibilitate orală de 100% în condiții de absorbție normală.",
+        "evidenceLocation": "Kumar, p. 165, Oxazolidinonele"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Oxazolidinonele includ în spectrul descris E. faecium rezistent la vancomicină, fără a exclude apariția rezistenței.",
+        "evidenceLocation": "Kumar, p. 165, Oxazolidinonele"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Linezolidul inhibă sinteza proteică prin acțiune ribozomală, nu prin PBP2a.",
+        "evidenceLocation": "Kumar, p. 165, Oxazolidinonele"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Citopeniile pot fi severe și impun monitorizarea hemogramei.",
+        "evidenceLocation": "Kumar, p. 165, Oxazolidinonele"
+      },
+      {
+        "index": 4,
+        "verdict": "correct",
+        "rationale": "Acțiunea reversibilă de inhibare a monoaminoxidazei explică potențialul de interacțiune.",
+        "evidenceLocation": "Kumar, p. 165, Oxazolidinonele"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T13:24:26.974Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare cu textul român furnizat. Pragurile de la p. 154 au fost verificate și pe imagine. Distractorii au fost reevaluați după feedback privind eliminarea prea ușoară. Fără validare de către medic și fără calibrare psihometrică."
+  },
+  {
+    "questionId": "sepsis-ext-019",
+    "questionFingerprint": "6e0ddd9623f86c79b2aa91ba8d55fd6bef72cd1abfa3181ad38faf79328ba13d",
+    "status": "source-checked",
+    "learningObjective": "Legarea mecanismului antifolat de riscurile hematologice și de hiperpotasemie.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 8,
+      "printedPages": [
+        166
+      ],
+      "pdfPages": [
+        20
+      ],
+      "section": "Sulfamidele și trimetoprimul"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Aceasta este etapa metabolică inhibată de trimetoprim în pasaj.",
+        "evidenceLocation": "Kumar, p. 166, Sulfamidele și trimetoprimul"
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "IECA sunt menționați printre asocierile care necesită atenție pentru evitarea hiperpotasemiei.",
+        "evidenceLocation": "Kumar, p. 166, Sulfamidele și trimetoprimul"
+      },
+      {
+        "index": 2,
+        "verdict": "correct",
+        "rationale": "Deficitul de G6PD este un context de risc de hemoliză la sulfamide.",
+        "evidenceLocation": "Kumar, p. 166, Sulfamidele și trimetoprimul"
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "Textul compară trimetoprimul cu amiloridul, economisitor de potasiu, nu cu un diuretic de ansă.",
+        "evidenceLocation": "Kumar, p. 166, Sulfamidele și trimetoprimul"
+      },
+      {
+        "index": 4,
+        "verdict": "correct",
+        "rationale": "Monitorizarea este deosebit de relevantă în tratament prelungit și la asocierea altor medicamente care favorizează hiperpotasemia.",
+        "evidenceLocation": "Kumar, p. 166, Sulfamidele și trimetoprimul"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T13:24:26.974Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare cu textul român furnizat. Pragurile de la p. 154 au fost verificate și pe imagine. Distractorii au fost reevaluați după feedback privind eliminarea prea ușoară. Fără validare de către medic și fără calibrare psihometrică."
+  },
+  {
+    "questionId": "sepsis-ext-020",
+    "questionFingerprint": "d4f35c0ccba5c0df33e24d08826a6a39105cd8f16b6994ef5d7a5eb6092125f9",
+    "status": "source-checked",
+    "learningObjective": "Recunoașterea toxicităților și a reacției de perfuzie ale vancomicinei.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 8,
+      "printedPages": [
+        164
+      ],
+      "pdfPages": [
+        18
+      ],
+      "section": "Glicopeptidele"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Cartea descrie reacția de eliberare a histaminei la infuzie prea rapidă.",
+        "evidenceLocation": "Kumar, p. 164, Glicopeptidele"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Vancomicina poate fi nefrotoxică, necesitând monitorizare.",
+        "evidenceLocation": "Kumar, p. 164, Glicopeptidele"
+      },
+      {
+        "index": 2,
+        "verdict": "correct",
+        "rationale": "Ototoxicitatea este enumerată alături de nefrotoxicitate.",
+        "evidenceLocation": "Kumar, p. 164, Glicopeptidele"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Sunt menționate necroza și tromboflebita în cazul injectării perivenoase.",
+        "evidenceLocation": "Kumar, p. 164, Glicopeptidele"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Textul caracterizează vancomicina drept lent bactericidă, în contrast cu beta-lactaminele.",
+        "evidenceLocation": "Kumar, p. 164, Glicopeptidele"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T13:24:26.974Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare cu textul român furnizat. Pragurile de la p. 154 au fost verificate și pe imagine. Distractorii au fost reevaluați după feedback privind eliminarea prea ușoară. Fără validare de către medic și fără calibrare psihometrică."
+  }
+]

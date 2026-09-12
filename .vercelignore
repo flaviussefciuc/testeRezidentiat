@@ -6,5 +6,4 @@ dist
 tmp
 .env*
 supabase
-tests
 src/app/config.generated.ts
