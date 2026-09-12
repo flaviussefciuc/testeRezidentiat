@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {QUESTIONS,QUESTION_HISTORY,LEGACY_QUESTIONS,SOURCE_CHECKED_QUESTIONS} from '../src/app/questions.ts';
+import {ELECTROLYTES_SOURCE} from '../src/app/bank/electrolytes-source.ts';
 import {SEPSIS_SOURCE} from '../src/app/bank/sepsis-source.ts';
 import {reviewErrors,questionFingerprint} from '../scripts/question-review.ts';
 import {summarize} from '../src/app/scoring.ts';
@@ -29,9 +30,9 @@ test('a filled page reference outside the syllabus and incomplete evidence canno
  const fakeClinician=structuredClone(reviews[0]);fakeClinician.status='clinician-reviewed';
  assert.ok(reviewErrors(SEPSIS_SOURCE[0],fakeClinician).includes('AI review cannot be labelled clinician review'));
 });
-test('retiring the original sepsis questions preserves the content and scoring of old attempts',()=>{
- const retired=LEGACY_QUESTIONS.filter(q=>q.topicId==='sepsis');
- assert.equal(retired.length,5);
+test('retiring original questions preserves the content and scoring of old attempts',()=>{
+ const retired=LEGACY_QUESTIONS.filter(q=>['sepsis','electroliti'].includes(q.topicId));
+ assert.equal(retired.length,10);
  assert.ok(retired.every(q=>!QUESTIONS.some(a=>a.id===q.id)));
  for(const q of retired){
   assert.deepEqual(QUESTION_HISTORY.find(h=>h.id===q.id),q);
@@ -42,7 +43,7 @@ test('retiring the original sepsis questions preserves the content and scoring o
  }
  assert.equal(new Set(QUESTION_HISTORY.map(q=>q.id)).size,QUESTION_HISTORY.length);
 });
-test('revised chapter covers CS and every CM cardinality without absolute-word distractors',()=>{
- assert.deepEqual([1,2,3,4].map(n=>SEPSIS_SOURCE.filter(q=>q.correct.length===n).length),[5,5,5,5]);
- assert.ok(SEPSIS_SOURCE.every(q=>q.options.every(o=>!/obligator|întotdeauna|niciodată|exclusiv|garantat/i.test(o))));
+test('revised chapters cover CS and every CM cardinality without absolute-word distractors',()=>{
+ for(const chapter of [SEPSIS_SOURCE,ELECTROLYTES_SOURCE])assert.deepEqual(new Set(chapter.map(q=>q.correct.length)),new Set([1,2,3,4]));
+ assert.ok(SOURCE_CHECKED_QUESTIONS.every(q=>q.options.every(o=>!/obligator|întotdeauna|niciodată|exclusiv|garantat/i.test(o))));
 });

@@ -15,3 +15,11 @@ Verificat vizual la 12 septembrie 2026. Paragraful despre cefalosporine atribuie
 Verificat vizual la 12 septembrie 2026. OCR-ul deformează semnele de inegalitate și nota de subsol SOFA. Imaginea confirmă qSOFA: Glasgow <15, frecvență respiratorie ≥22/min, tensiune sistolică ≤100 mmHg; pozitiv la minimum două criterii. Nota SOFA indică o creștere cu ≥2 puncte, nu 22. La șoc septic, lactatul este >2 mmol/L, iar ținta PAM este ≥65 mmHg după resuscitare volemică adecvată.
 
 **Decizie:** pentru acești itemi se folosesc valorile verificate în imagine, iar referința păstrează atât pagina tipărită, cât și pagina PDF.
+
+## Kumar, pagina tipărită 185 / PDF 36 — limite de corecție a natremiei
+
+Verificat vizual la 12 septembrie 2026. Limita de creștere în 48 de ore din paragraful despre debutul acut diferă de cea din Cadranul 9.14 de pe aceeași pagină. Inconsecvența este prezentă în imagine. Nu sunt preluate aceste valori în întrebări. Itemii privind adaptarea cerebrală și abordarea în funcție de volemie folosesc pasajele necontradictorii și nu prescriu viteze de corecție.
+
+## Kumar, paginile tipărite 195–202 — gol de sursă
+
+Aceste pagini de echilibru acido-bazic apar în tematica 2026, dar nu au fost localizate în extrasul primit. Secvența PDF 23–41 corespunde p. 172–190; PDF 42 începe cu p. 224. Nu se completează golul prin citarea unor pagini care nu au fost consultate. Extinderea întrebărilor hidro-electrolitice folosește numai p. 172–190.

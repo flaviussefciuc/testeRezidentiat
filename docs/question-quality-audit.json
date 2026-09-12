@@ -1,18 +1,18 @@
 {
   "date": "2026-09-12",
   "targetAdditionalAccepted": 800,
-  "additionalAccepted": 20,
+  "additionalAccepted": 40,
   "publicationStatus": "Expansion incomplete: only individually source-checked batches may be published",
   "live": {
-    "count": 215,
+    "count": 230,
     "correctAnswerCounts": {
-      "1": 53,
-      "2": 5,
-      "3": 17,
-      "4": 140
+      "1": 56,
+      "2": 10,
+      "3": 22,
+      "4": 142
     },
     "missingMultipleAnswerFormats": [],
-    "fourCorrectShareOfMultiple": 86.4,
+    "fourCorrectShareOfMultiple": 81.6,
     "idsUnique": true,
     "structuralErrors": [],
     "exactQuestionDuplicates": [],
@@ -129,7 +129,7 @@
       },
       {
         "id": "electroliti",
-        "count": 5
+        "count": 20
       },
       {
         "id": "ati",
@@ -285,20 +285,16 @@
     "count": 160,
     "correctAnswerCounts": {
       "1": 40,
-      "2": 5,
-      "3": 26,
-      "4": 89
+      "2": 10,
+      "3": 30,
+      "4": 80
     },
     "missingMultipleAnswerFormats": [],
-    "fourCorrectShareOfMultiple": 74.2,
+    "fourCorrectShareOfMultiple": 66.7,
     "idsUnique": true,
     "structuralErrors": [],
     "exactQuestionDuplicates": [],
     "possibleWordingCues": [
-      "electroliti-ext-003",
-      "electroliti-ext-018",
-      "electroliti-ext-019",
-      "electroliti-ext-020",
       "ati-ext-002",
       "ati-ext-007",
       "ati-ext-010",
@@ -490,12 +486,12 @@
     ]
   },
   "accepted": {
-    "count": 20,
+    "count": 40,
     "correctAnswerCounts": {
-      "1": 5,
-      "2": 5,
-      "3": 5,
-      "4": 5
+      "1": 10,
+      "2": 10,
+      "3": 10,
+      "4": 10
     },
     "missingMultipleAnswerFormats": [],
     "fourCorrectShareOfMultiple": 33.3,
@@ -511,7 +507,7 @@
       },
       {
         "id": "electroliti",
-        "count": 0
+        "count": 20
       },
       {
         "id": "ati",

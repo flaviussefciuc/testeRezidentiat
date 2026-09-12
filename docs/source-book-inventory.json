@@ -35,7 +35,30 @@
         22
       ],
       "chapter": 8
+    },
+    {
+      "book": "kumar",
+      "printed": [
+        172,
+        190
+      ],
+      "pdf": [
+        23,
+        41
+      ],
+      "chapter": 9
     }
   ],
-  "note": "Mapping is partial. PDF text and images stay in ignored tmp/; no full textbook is distributed."
+  "note": "Mapping is partial. PDF text and images stay in ignored tmp/; no full textbook is distributed.",
+  "sourceGaps": [
+    {
+      "book": "kumar",
+      "printed": [
+        195,
+        202
+      ],
+      "status": "not located in supplied extract",
+      "topic": "electroliti"
+    }
+  ]
 }

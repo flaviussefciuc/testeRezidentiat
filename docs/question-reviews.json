@@ -1356,5 +1356,1379 @@
     "reviewedAt": "2026-09-12T13:24:26.974Z",
     "unresolvedIssues": [],
     "reviewNotes": "Confruntare cu textul român furnizat. Pragurile de la p. 154 au fost verificate și pe imagine. Distractorii au fost reevaluați după feedback privind eliminarea prea ușoară. Fără validare de către medic și fără calibrare psihometrică."
+  },
+  {
+    "questionId": "electroliti-ext-001",
+    "questionFingerprint": "f43840daf09fd966a4ead40e2c42b249e866a30f010406ab508414ffffe74155",
+    "status": "source-checked",
+    "learningObjective": "Diferențierea tubulopatiilor pe baza calciuriei, tensiunii și profilului renină–aldosteron.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 9,
+      "printedPages": [
+        188,
+        175,
+        187,
+        189
+      ],
+      "pdfPages": [
+        39,
+        26,
+        38,
+        40
+      ],
+      "section": "Sindromul Gitelman"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "incorrect",
+        "rationale": "Liddle asociază hipertensiune cu renină și aldosteron reduse.",
+        "evidenceLocation": "Kumar, p. 188, Liddle"
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Bartter asociază frecvent hipercalciurie; combinația hipocalciurie–hipomagneziemie favorizează Gitelman.",
+        "evidenceLocation": "Kumar, p. 187–188, Bartter"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Gordon se caracterizează prin hipertensiune, hiperkaliemie și acidoză metabolică.",
+        "evidenceLocation": "Kumar, p. 189, Gordon"
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "Fanconi este un defect proximal generalizat de reabsorbție a solviților; profilul descris este cel al tubulopatiei distale Gitelman.",
+        "evidenceLocation": "Kumar, p. 175, Cadranul 9.5"
+      },
+      {
+        "index": 4,
+        "verdict": "correct",
+        "rationale": "Sunt reunite caracteristicile descrise: hipokaliemie, alcaloză, hipocalciurie, hipomagneziemie, tensiune normală și activare renină–aldosteron.",
+        "evidenceLocation": "Kumar, p. 188, Gitelman"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T13:38:02.932Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare cu paginile 172–190 din textul român furnizat și reevaluare individuală a distractorilor. Itemii nu folosesc paginile absente 195–202 sau dozele contradictorii din pasajele de corecție a natremiei. Review AI, nu validare de medic sau calibrare psihometrică."
+  },
+  {
+    "questionId": "electroliti-ext-002",
+    "questionFingerprint": "17ef8186788040924ed37379b021626f838e569d7db93bc260dcb97846cc4093",
+    "status": "source-checked",
+    "learningObjective": "Alegerea blocării directe a ENaC în activarea sa independentă de aldosteron.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 9,
+      "printedPages": [
+        188,
+        179,
+        180
+      ],
+      "pdfPages": [
+        39,
+        30,
+        31
+      ],
+      "section": "Sindromul Liddle"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "incorrect",
+        "rationale": "Spironolactona antagonizează mineralocorticoizii; în Liddle activitatea crescută a canalului nu este mediată de aldosteron.",
+        "evidenceLocation": "Kumar, p. 188, Liddle"
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Eplerenona acționează asupra receptorului mineralocorticoid, nu blochează direct ENaC.",
+        "evidenceLocation": "Kumar, p. 179, Diuretice economisitoare"
+      },
+      {
+        "index": 2,
+        "verdict": "correct",
+        "rationale": "Amiloridul închide direct canalele epiteliale de sodiu implicate; triamterenul este cealaltă opțiune menționată.",
+        "evidenceLocation": "Kumar, p. 188, Liddle"
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "Indometacinul este descris uneori în tratamentul Bartter, pentru efectul asupra prostaglandinelor.",
+        "evidenceLocation": "Kumar, p. 188, Bartter"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Acetazolamida inhibă anhidraza carbonică, nu canalul ENaC.",
+        "evidenceLocation": "Kumar, p. 180, Inhibitorii anhidrazei carbonice"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T13:38:02.933Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare cu paginile 172–190 din textul român furnizat și reevaluare individuală a distractorilor. Itemii nu folosesc paginile absente 195–202 sau dozele contradictorii din pasajele de corecție a natremiei. Review AI, nu validare de medic sau calibrare psihometrică."
+  },
+  {
+    "questionId": "electroliti-ext-003",
+    "questionFingerprint": "a30ec43e509cde84c59b44dbc403d9007215906d26af74a70fc61eb629d3fcbd",
+    "status": "source-checked",
+    "learningObjective": "Separarea funcțiilor receptorilor vasopresinei: vasomotorie, hipofizară și renală.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 9,
+      "printedPages": [
+        176,
+        173,
+        179
+      ],
+      "pdfPages": [
+        27,
+        24,
+        30
+      ],
+      "section": "Reglarea excreției apei"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "incorrect",
+        "rationale": "V1A este descris în musculatura netedă, cu efect vasoconstrictor.",
+        "evidenceLocation": "Kumar, p. 176, Reglarea excreției apei"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "V1B este prezent în hipofiza anterioară și creier și mediază eliberarea ACTH.",
+        "evidenceLocation": "Kumar, p. 176, Reglarea excreției apei"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "V2 mediază răspunsul renal antidiuretic.",
+        "evidenceLocation": "Kumar, p. 176, Reglarea excreției apei"
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "Receptorul mineralocorticoid aparține căii aldosteronului, nu căii vasopresinei de eliberare a ACTH.",
+        "evidenceLocation": "Kumar, p. 179, Diuretice economisitoare"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Acesta aparține răspunsului natriuretic, nu efectului hipofizar al vasopresinei.",
+        "evidenceLocation": "Kumar, p. 173, Receptori extrarenali"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T13:38:02.933Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare cu paginile 172–190 din textul român furnizat și reevaluare individuală a distractorilor. Itemii nu folosesc paginile absente 195–202 sau dozele contradictorii din pasajele de corecție a natremiei. Review AI, nu validare de medic sau calibrare psihometrică."
+  },
+  {
+    "questionId": "electroliti-ext-004",
+    "questionFingerprint": "e000c20b4d22fa3346b1be6a56d28f1154926fd24bf635a3625df9e55c7afbb1",
+    "status": "source-checked",
+    "learningObjective": "Interpretarea răspunsului la desmopresină în diagnosticul diferențial al poliuriei hipernatremice.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 9,
+      "printedPages": [
+        186,
+        184
+      ],
+      "pdfPages": [
+        37,
+        35
+      ],
+      "section": "Hipernatremia — Investigații"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "incorrect",
+        "rationale": "Excesul de ADH favorizează retenția apei și hiponatremia, nu acest răspuns poliuric hipernatremic.",
+        "evidenceLocation": "Kumar, p. 184, SIADH"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Creșterea osmolalității urinare după analogul ADH susține diabetul insipid central.",
+        "evidenceLocation": "Kumar, p. 186, Investigații"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "În forma nefrogenă descrisă, desmopresina nu restabilește concentrarea urinei.",
+        "evidenceLocation": "Kumar, p. 186, Investigații"
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "Diureza osmotică este sugerată de urină cu osmolalitate crescută, nu de profilul hipoton care răspunde la desmopresină.",
+        "evidenceLocation": "Kumar, p. 186, Investigații"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Un răspuns renal adecvat la pierderea extrarenală ar produce urină concentrată.",
+        "evidenceLocation": "Kumar, p. 186, Investigații"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T13:38:02.933Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare cu paginile 172–190 din textul român furnizat și reevaluare individuală a distractorilor. Itemii nu folosesc paginile absente 195–202 sau dozele contradictorii din pasajele de corecție a natremiei. Review AI, nu validare de medic sau calibrare psihometrică."
+  },
+  {
+    "questionId": "electroliti-ext-005",
+    "questionFingerprint": "6ab746a5dabfd85c82b7e1811102c40bda55945ccb79b1fb2c84a83986b83dba",
+    "status": "source-checked",
+    "learningObjective": "Identificarea hipomagneziemiei în hipokaliemia refractară.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 9,
+      "printedPages": [
+        189,
+        187
+      ],
+      "pdfPages": [
+        40,
+        38
+      ],
+      "section": "Tratamentul hipokaliemiei"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Textul precizează că eșecul corectării hipokaliemiei poate fi cauzat de hipomagneziemie concomitentă.",
+        "evidenceLocation": "Kumar, p. 189, Tratamentul hipokaliemiei"
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Depleția de sodiu poate influența aldosteronul, dar deficitul asociat indicat pentru acest eșec de corecție este cel de magneziu.",
+        "evidenceLocation": "Kumar, p. 187, Reglarea potasiului"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Deficitul menționat în pasaj este magneziul, nu calciul.",
+        "evidenceLocation": "Kumar, p. 189, Tratamentul hipokaliemiei"
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "Hipofosfatemia nu este deficitul identificat în pasaj drept explicație a hipokaliemiei refractare.",
+        "evidenceLocation": "Kumar, p. 189, Tratamentul hipokaliemiei"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Deficitul de clor nu este explicația asociată cerută în acest context.",
+        "evidenceLocation": "Kumar, p. 189, Tratamentul hipokaliemiei"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T13:38:02.933Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare cu paginile 172–190 din textul român furnizat și reevaluare individuală a distractorilor. Itemii nu folosesc paginile absente 195–202 sau dozele contradictorii din pasajele de corecție a natremiei. Review AI, nu validare de medic sau calibrare psihometrică."
+  },
+  {
+    "questionId": "electroliti-ext-006",
+    "questionFingerprint": "012c3c8005851908bb769fbfc7e143c26404f948eeb5670c3c65425aa9d189c6",
+    "status": "source-checked",
+    "learningObjective": "Explicarea lipsei fenomenului de escape la aldosteron în stările edematoase.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 9,
+      "printedPages": [
+        175,
+        174,
+        176
+      ],
+      "pdfPages": [
+        26,
+        25,
+        27
+      ],
+      "section": "Împiedicarea sustragerii de la acțiunile aldosteronului"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Activitatea simpatică și angiotensina II favorizează reabsorbția proximală, reducând cantitatea livrată distal.",
+        "evidenceLocation": "Kumar, p. 175, Escape la aldosteron"
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Oferta distală scade; creșterea sa ar favoriza mecanismul de sustragere de la retenție.",
+        "evidenceLocation": "Kumar, p. 175, Escape la aldosteron"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Subumplerea arterială activează, nu suprimă, acest sistem.",
+        "evidenceLocation": "Kumar, p. 174–175, Stări edematoase"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Oferta distală insuficientă limitează natriureza și favorizează persistența efectului aldosteronului.",
+        "evidenceLocation": "Kumar, p. 175–176, Escape la aldosteron"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Cantitatea redusă de sodiu care ajunge la locul de acțiune contribuie la rezistența la ANP.",
+        "evidenceLocation": "Kumar, p. 175–176, Rezistența la ANP"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T13:38:02.933Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare cu paginile 172–190 din textul român furnizat și reevaluare individuală a distractorilor. Itemii nu folosesc paginile absente 195–202 sau dozele contradictorii din pasajele de corecție a natremiei. Review AI, nu validare de medic sau calibrare psihometrică."
+  },
+  {
+    "questionId": "electroliti-ext-007",
+    "questionFingerprint": "ce5d4f8cfca7889ec4766fe7173d50f0faf8de27f4ba614def367c78e5f65f84",
+    "status": "source-checked",
+    "learningObjective": "Diferențierea efectelor tiazidelor asupra calciuriei și excreției apei.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 9,
+      "printedPages": [
+        179,
+        178
+      ],
+      "pdfPages": [
+        30,
+        29
+      ],
+      "section": "Diureticele tiazidice"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "incorrect",
+        "rationale": "Creșterea calciuriei este caracteristică diureticelor de ansă din comparație.",
+        "evidenceLocation": "Kumar, p. 178, Diureticele de ansă"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Reducerea calciuriei explică utilizarea lor în hipercalciuria idiopatică.",
+        "evidenceLocation": "Kumar, p. 179, Tiazidice"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Textul descrie tocmai interferența cu excreția apei și riscul de hiponatremie.",
+        "evidenceLocation": "Kumar, p. 179, Tiazidice"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Riscul poate fi accentuat de asocierea cu amilorid sau triamteren.",
+        "evidenceLocation": "Kumar, p. 179, Tiazidice"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Tiazidele sunt descrise ca mai puțin puternice decât diureticele de ansă.",
+        "evidenceLocation": "Kumar, p. 179, Tiazidice"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T13:38:02.933Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare cu paginile 172–190 din textul român furnizat și reevaluare individuală a distractorilor. Itemii nu folosesc paginile absente 195–202 sau dozele contradictorii din pasajele de corecție a natremiei. Review AI, nu validare de medic sau calibrare psihometrică."
+  },
+  {
+    "questionId": "electroliti-ext-008",
+    "questionFingerprint": "4fab1d45629d5798e0069abf674c13307c4419b120c912aabce8d1f9097d54f8",
+    "status": "source-checked",
+    "learningObjective": "Separarea edemului prin efect microvascular de retenția renală medicamentoasă de sodiu.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 9,
+      "printedPages": [
+        178
+      ],
+      "pdfPages": [
+        29
+      ],
+      "section": "Retenția sodiului; Alte cauze ale edemelor"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Creșterea presiunii capilare prin relaxarea arteriolelor precapilare este mecanismul exemplificat pentru amlodipină.",
+        "evidenceLocation": "Kumar, p. 178, Retenția sodiului; Alte cauze ale edemelor"
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Efectul descris este suprareglarea ENaC, favorizând retenția.",
+        "evidenceLocation": "Kumar, p. 178, Retenția sodiului; Alte cauze ale edemelor"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Edemele tranzitorii de la inițierea insulinei implică suprareglarea ENaC și retenția sodiului.",
+        "evidenceLocation": "Kumar, p. 178, Retenția sodiului; Alte cauze ale edemelor"
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "AINS pot produce retenție de sodiu în acest context de activare renină–angiotensină–aldosteron.",
+        "evidenceLocation": "Kumar, p. 178, Retenția sodiului; Alte cauze ale edemelor"
+      },
+      {
+        "index": 4,
+        "verdict": "correct",
+        "rationale": "Textul asociază aceste medicamente cu retenția hidrosalină și le contraindică în insuficiența cardiacă.",
+        "evidenceLocation": "Kumar, p. 178, Retenția sodiului; Alte cauze ale edemelor"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T13:38:02.933Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare cu paginile 172–190 din textul român furnizat și reevaluare individuală a distractorilor. Itemii nu folosesc paginile absente 195–202 sau dozele contradictorii din pasajele de corecție a natremiei. Review AI, nu validare de medic sau calibrare psihometrică."
+  },
+  {
+    "questionId": "electroliti-ext-009",
+    "questionFingerprint": "21dd320ea1c9396efaea6816b2eb8d2128712bf05de5316532c9a459bcc40be4",
+    "status": "source-checked",
+    "learningObjective": "Excluderea cauzelor endocrine înainte de diagnosticul de SIADH.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 9,
+      "printedPages": [
+        185
+      ],
+      "pdfPages": [
+        36
+      ],
+      "section": "Investigații în hiponatremia cu volum extracelular aparent normal"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "incorrect",
+        "rationale": "Hiponatremia de diluție discutată se asociază cu osmolalitate plasmatică joasă.",
+        "evidenceLocation": "Kumar, p. 185, Investigații în hiponatremia cu volum extracelular aparent normal"
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Acțiunea persistentă a ADH împiedică diluția adecvată; urina descrisă este tipic mai concentrată decât plasma.",
+        "evidenceLocation": "Kumar, p. 185, Investigații în hiponatremia cu volum extracelular aparent normal"
+      },
+      {
+        "index": 2,
+        "verdict": "correct",
+        "rationale": "Boala Addison este una dintre cauzele care trebuie excluse.",
+        "evidenceLocation": "Kumar, p. 185, Investigații în hiponatremia cu volum extracelular aparent normal"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Hipotiroidismul este enumerat în diagnosticul diferențial necesar.",
+        "evidenceLocation": "Kumar, p. 185, Investigații în hiponatremia cu volum extracelular aparent normal"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Cartea avertizează asupra supradiagnosticării SIADH și cere evaluarea cauzelor alternative, inclusiv medicația.",
+        "evidenceLocation": "Kumar, p. 185, Investigații în hiponatremia cu volum extracelular aparent normal"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T13:38:02.933Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare cu paginile 172–190 din textul român furnizat și reevaluare individuală a distractorilor. Itemii nu folosesc paginile absente 195–202 sau dozele contradictorii din pasajele de corecție a natremiei. Review AI, nu validare de medic sau calibrare psihometrică."
+  },
+  {
+    "questionId": "electroliti-ext-010",
+    "questionFingerprint": "eedfc51d75b8a35b0b5cef65504ec5a641052659051bdc52005c890673b277a1",
+    "status": "source-checked",
+    "learningObjective": "Separarea eliberării preanalitice de potasiu de cauzele reale ale hiperkaliemiei.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 9,
+      "printedPages": [
+        189
+      ],
+      "pdfPages": [
+        40
+      ],
+      "section": "Cadranul 9.19: Cauzele hiperkaliemiei"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Eliberarea potasiului din celule în probă poate crește artificial valoarea măsurată.",
+        "evidenceLocation": "Kumar, p. 189, Cadranul 9.19: Cauzele hiperkaliemiei"
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Lezarea musculară produce eliberare reală de potasiu în organism.",
+        "evidenceLocation": "Kumar, p. 189, Cadranul 9.19: Cauzele hiperkaliemiei"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Liza tumorală in vivo reprezintă o cauză reală de eliberare a potasiului.",
+        "evidenceLocation": "Kumar, p. 189, Cadranul 9.19: Cauzele hiperkaliemiei"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Trombocitoza este enumerată printre situațiile de eliberare in vitro care pot produce valori false.",
+        "evidenceLocation": "Kumar, p. 189, Cadranul 9.19: Cauzele hiperkaliemiei"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Deficitul hormonal reduce excreția renală și poate determina hiperkaliemie reală.",
+        "evidenceLocation": "Kumar, p. 189, Cadranul 9.19: Cauzele hiperkaliemiei"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T13:38:02.934Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare cu paginile 172–190 din textul român furnizat și reevaluare individuală a distractorilor. Itemii nu folosesc paginile absente 195–202 sau dozele contradictorii din pasajele de corecție a natremiei. Review AI, nu validare de medic sau calibrare psihometrică."
+  },
+  {
+    "questionId": "electroliti-ext-011",
+    "questionFingerprint": "c08ec5adc7a1775973d6a43dd95e4beab5cd00dedd62e0b3e44ca63f6e08a48e",
+    "status": "source-checked",
+    "learningObjective": "Recunoașterea pierderii proximale de solviți și proteine mici în sindromul Fanconi.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 9,
+      "printedPages": [
+        175
+      ],
+      "pdfPages": [
+        26
+      ],
+      "section": "Cadranul 9.5: Funcțiile tubulare și bolile asociate"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Defectul proximal poate împiedica reabsorbția glucozei.",
+        "evidenceLocation": "Kumar, p. 175, Cadranul 9.5: Funcțiile tubulare și bolile asociate"
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Defectul produce pierdere de aminoacizi în urină, nu reducerea excreției lor.",
+        "evidenceLocation": "Kumar, p. 175, Cadranul 9.5: Funcțiile tubulare și bolile asociate"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Fosfaturia reflectă reducerea, nu creșterea, reabsorbției.",
+        "evidenceLocation": "Kumar, p. 175, Cadranul 9.5: Funcțiile tubulare și bolile asociate"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Proteinuria cu masă moleculară mică este caracteristică defectului proximal descris.",
+        "evidenceLocation": "Kumar, p. 175, Cadranul 9.5: Funcțiile tubulare și bolile asociate"
+      },
+      {
+        "index": 4,
+        "verdict": "correct",
+        "rationale": "Aminoaciduria este una dintre manifestările enumerate.",
+        "evidenceLocation": "Kumar, p. 175, Cadranul 9.5: Funcțiile tubulare și bolile asociate"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T13:38:02.934Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare cu paginile 172–190 din textul român furnizat și reevaluare individuală a distractorilor. Itemii nu folosesc paginile absente 195–202 sau dozele contradictorii din pasajele de corecție a natremiei. Review AI, nu validare de medic sau calibrare psihometrică."
+  },
+  {
+    "questionId": "electroliti-ext-012",
+    "questionFingerprint": "a31cbdcd4db64fc581bceed45e1677eeb0311df0b95fb32b44199c754b73f8ca",
+    "status": "source-checked",
+    "learningObjective": "Localizarea receptorului V2 și traficul aquaporinelor în răspunsul antidiuretic.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 9,
+      "printedPages": [
+        176
+      ],
+      "pdfPages": [
+        27
+      ],
+      "section": "Reglarea excreției apei; Figura 9.7"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "incorrect",
+        "rationale": "Receptorul V2 este bazolateral; aquaporinele sunt inserate în membrana luminală.",
+        "evidenceLocation": "Kumar, p. 176, Reglarea excreției apei; Figura 9.7"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Mobilizarea veziculelor cu aquaporine crește permeabilitatea membranei luminale.",
+        "evidenceLocation": "Kumar, p. 176, Reglarea excreției apei; Figura 9.7"
+      },
+      {
+        "index": 2,
+        "verdict": "correct",
+        "rationale": "Adenilciclaza și calea AMPc participă la răspunsul descris.",
+        "evidenceLocation": "Kumar, p. 176, Reglarea excreției apei; Figura 9.7"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Creșterea permeabilității se produce în principal în aceste celule ale ductului colector.",
+        "evidenceLocation": "Kumar, p. 176, Reglarea excreției apei; Figura 9.7"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "La încetarea efectului, canalele sunt retrase prin endocitoză și returnate citoplasmei.",
+        "evidenceLocation": "Kumar, p. 176, Reglarea excreției apei; Figura 9.7"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T13:38:02.934Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare cu paginile 172–190 din textul român furnizat și reevaluare individuală a distractorilor. Itemii nu folosesc paginile absente 195–202 sau dozele contradictorii din pasajele de corecție a natremiei. Review AI, nu validare de medic sau calibrare psihometrică."
+  },
+  {
+    "questionId": "electroliti-ext-013",
+    "questionFingerprint": "4dea323def719c07e0a4a0051085186dad52887510c5c9bca2a578b0ad0ac0bf",
+    "status": "source-checked",
+    "learningObjective": "Explicarea vulnerabilității creierului adaptat la creșterea rapidă a natremiei.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 9,
+      "printedPages": [
+        185
+      ],
+      "pdfPages": [
+        36
+      ],
+      "section": "Sindromul de demielinizare osmotică"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Reducerea osmoliților intracelulari limitează gradientul osmotic în hiponatremia cronică.",
+        "evidenceLocation": "Kumar, p. 185, Sindromul de demielinizare osmotică"
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Preluarea lor este lentă în timpul corecției, ceea ce explică vulnerabilitatea.",
+        "evidenceLocation": "Kumar, p. 185, Sindromul de demielinizare osmotică"
+      },
+      {
+        "index": 2,
+        "verdict": "correct",
+        "rationale": "O creștere rapidă poate depăși capacitatea de readaptare cerebrală.",
+        "evidenceLocation": "Kumar, p. 185, Sindromul de demielinizare osmotică"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Ipoteza descrisă include disfuncția barierei, lezarea oligodendrocitelor și demielinizare.",
+        "evidenceLocation": "Kumar, p. 185, Sindromul de demielinizare osmotică"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Recapturarea lentă lasă compartimentul intracelular relativ hipoosmolar, nu hiperosmolar.",
+        "evidenceLocation": "Kumar, p. 185, Sindromul de demielinizare osmotică"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T13:38:02.934Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare cu paginile 172–190 din textul român furnizat și reevaluare individuală a distractorilor. Itemii nu folosesc paginile absente 195–202 sau dozele contradictorii din pasajele de corecție a natremiei. Review AI, nu validare de medic sau calibrare psihometrică."
+  },
+  {
+    "questionId": "electroliti-ext-014",
+    "questionFingerprint": "05fb0dc255de8a0a81681bb53d419950c2a3429f5baaac7100f8748f00484b51",
+    "status": "source-checked",
+    "learningObjective": "Separarea concentrației sodiului de conținutul total și de starea volumului extracelular.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 9,
+      "printedPages": [
+        186
+      ],
+      "pdfPages": [
+        37
+      ],
+      "section": "Hipernatremia; Cadranul 9.16"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "incorrect",
+        "rationale": "Hipernatremia nu implică necesar creșterea sodiului total; deficitul de apă este o cauză majoră.",
+        "evidenceLocation": "Kumar, p. 186, Hipernatremia; Cadranul 9.16"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Administrarea soluțiilor hipertone este una dintre cauzele iatrogene enumerate.",
+        "evidenceLocation": "Kumar, p. 186, Hipernatremia; Cadranul 9.16"
+      },
+      {
+        "index": 2,
+        "verdict": "correct",
+        "rationale": "Setea și accesul la apă pot compensa pierderile; limitarea aportului poate permite creșterea natremiei.",
+        "evidenceLocation": "Kumar, p. 186, Hipernatremia; Cadranul 9.16"
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "Osmolalitatea plasmatică este crescută.",
+        "evidenceLocation": "Kumar, p. 186, Hipernatremia; Cadranul 9.16"
+      },
+      {
+        "index": 4,
+        "verdict": "correct",
+        "rationale": "Toate cele trei situații volemice sunt posibile; evaluarea volumului rămâne necesară.",
+        "evidenceLocation": "Kumar, p. 186, Hipernatremia; Cadranul 9.16"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T13:38:02.934Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare cu paginile 172–190 din textul român furnizat și reevaluare individuală a distractorilor. Itemii nu folosesc paginile absente 195–202 sau dozele contradictorii din pasajele de corecție a natremiei. Review AI, nu validare de medic sau calibrare psihometrică."
+  },
+  {
+    "questionId": "electroliti-ext-015",
+    "questionFingerprint": "edf3a9a799fe429ffdc62c49019a38daee515a3f015b5128d73b0d0823726b84",
+    "status": "source-checked",
+    "learningObjective": "Separarea redistribuirii intracelulare a potasiului de eliberarea sa celulară.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 9,
+      "printedPages": [
+        187
+      ],
+      "pdfPages": [
+        38
+      ],
+      "section": "Reglarea concentrației de potasiu seric"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Insulina stimulează preluarea celulară a potasiului.",
+        "evidenceLocation": "Kumar, p. 187, Reglarea concentrației de potasiu seric"
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Stimularea alfa-adrenergică diminuează intrarea descrisă.",
+        "evidenceLocation": "Kumar, p. 187, Reglarea concentrației de potasiu seric"
+      },
+      {
+        "index": 2,
+        "verdict": "correct",
+        "rationale": "Teofilina este enumerată printre factorii care stimulează intrarea.",
+        "evidenceLocation": "Kumar, p. 187, Reglarea concentrației de potasiu seric"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Stimularea beta-adrenergică favorizează preluarea intracelulară.",
+        "evidenceLocation": "Kumar, p. 187, Reglarea concentrației de potasiu seric"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Lezarea celulară eliberează potasiu, în loc să favorizeze intrarea lui.",
+        "evidenceLocation": "Kumar, p. 187, Reglarea concentrației de potasiu seric"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T13:38:02.934Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare cu paginile 172–190 din textul român furnizat și reevaluare individuală a distractorilor. Itemii nu folosesc paginile absente 195–202 sau dozele contradictorii din pasajele de corecție a natremiei. Review AI, nu validare de medic sau calibrare psihometrică."
+  },
+  {
+    "questionId": "electroliti-ext-016",
+    "questionFingerprint": "d2973d0262cd83633f4bbba5bbacb7b7a6711bb7b8c90dada7917adb5496fc1d",
+    "status": "source-checked",
+    "learningObjective": "Identificarea pierderilor electrolitice și a efectelor asupra uraților și litiului.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 9,
+      "printedPages": [
+        178,
+        179
+      ],
+      "pdfPages": [
+        29,
+        30
+      ],
+      "section": "Diureticele de ansă"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Pierderea potasiului este unul dintre efectele nedorite enumerate.",
+        "evidenceLocation": "Kumar, p. 178, Diuretice de ansă"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Excreția crescută de calciu poate favoriza calculii de calciu.",
+        "evidenceLocation": "Kumar, p. 178, Diuretice de ansă"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Interferența cu excreția litiului poate determina intoxicație, nu protecție prin creșterea clearance-ului.",
+        "evidenceLocation": "Kumar, p. 179, Continuarea efectelor diureticelor de ansă"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Hipomagneziemia este un efect advers descris.",
+        "evidenceLocation": "Kumar, p. 178, Diuretice de ansă"
+      },
+      {
+        "index": 4,
+        "verdict": "correct",
+        "rationale": "Retenția uraților poate provoca gută.",
+        "evidenceLocation": "Kumar, p. 178, Diuretice de ansă"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T13:38:02.934Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare cu paginile 172–190 din textul român furnizat și reevaluare individuală a distractorilor. Itemii nu folosesc paginile absente 195–202 sau dozele contradictorii din pasajele de corecție a natremiei. Review AI, nu validare de medic sau calibrare psihometrică."
+  },
+  {
+    "questionId": "electroliti-ext-017",
+    "questionFingerprint": "df4331b83de9b51db171a09b79ecca9f80b390b3e94f5fad8a715c35ec51eaad",
+    "status": "source-checked",
+    "learningObjective": "Legarea defectului din ansa Henle de activarea hormonală și pierderea distală de potasiu.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 9,
+      "printedPages": [
+        188,
+        187
+      ],
+      "pdfPages": [
+        39,
+        38
+      ],
+      "section": "Sindromul Bartter"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Defectul de transport în această regiune inițiază pierderea de sare.",
+        "evidenceLocation": "Kumar, p. 187, Bartter"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Solviții nereabsorbiți proximal de colector ajung în cantitate crescută la segmentele distale.",
+        "evidenceLocation": "Kumar, p. 188, Bartter"
+      },
+      {
+        "index": 2,
+        "verdict": "correct",
+        "rationale": "Depleția volemică rezultată activează sistemul hormonal.",
+        "evidenceLocation": "Kumar, p. 188, Bartter"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Aldosteronul și oferta distală crescută favorizează secreția care produce hipokaliemie și alcaloză.",
+        "evidenceLocation": "Kumar, p. 188, Bartter"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Bartter asociază depleție de volum și renină crescută; profilul din opțiune nu corespunde mecanismului descris.",
+        "evidenceLocation": "Kumar, p. 187–188, Bartter"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T13:38:02.934Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare cu paginile 172–190 din textul român furnizat și reevaluare individuală a distractorilor. Itemii nu folosesc paginile absente 195–202 sau dozele contradictorii din pasajele de corecție a natremiei. Review AI, nu validare de medic sau calibrare psihometrică."
+  },
+  {
+    "questionId": "electroliti-ext-018",
+    "questionFingerprint": "ac79c6fc560a74df34f240bd2c7782365ca07101fed38d45eb2e0b7724fdad61",
+    "status": "source-checked",
+    "learningObjective": "Separarea stabilizării miocardice, redistribuirii și eliminării potasiului.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 9,
+      "printedPages": [
+        190
+      ],
+      "pdfPages": [
+        41
+      ],
+      "section": "Tratamentul hiperkaliemiei; Cadranul 9.20"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Calciul protejează membranele de efectele hiperkaliemiei, dar nu scade kaliemia.",
+        "evidenceLocation": "Kumar, p. 190, Tratamentul hiperkaliemiei; Cadranul 9.20"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Insulina scade concentrația plasmatică prin preluare celulară; necesită prevenirea și monitorizarea hipoglicemiei.",
+        "evidenceLocation": "Kumar, p. 190, Tratamentul hiperkaliemiei; Cadranul 9.20"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Cartea precizează că glucoza singură nu obține nivelurile necesare de insulină pentru acest scop.",
+        "evidenceLocation": "Kumar, p. 190, Tratamentul hiperkaliemiei; Cadranul 9.20"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Agentul neabsorbabil favorizează eliminarea intestinală, fără a înlocui protecția miocardică urgentă.",
+        "evidenceLocation": "Kumar, p. 190, Tratamentul hiperkaliemiei; Cadranul 9.20"
+      },
+      {
+        "index": 4,
+        "verdict": "correct",
+        "rationale": "Dializa îndepărtează potasiul și constituie tratament definitiv în situațiile renale severe descrise.",
+        "evidenceLocation": "Kumar, p. 190, Tratamentul hiperkaliemiei; Cadranul 9.20"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T13:38:02.934Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare cu paginile 172–190 din textul român furnizat și reevaluare individuală a distractorilor. Itemii nu folosesc paginile absente 195–202 sau dozele contradictorii din pasajele de corecție a natremiei. Review AI, nu validare de medic sau calibrare psihometrică."
+  },
+  {
+    "questionId": "electroliti-ext-019",
+    "questionFingerprint": "3471fc6b51c1da0dbf15ce85e947d17689737cd3440caaad2a9af0321501c996",
+    "status": "source-checked",
+    "learningObjective": "Recunoașterea medicamentelor care reduc eliminarea potasiului.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 9,
+      "printedPages": [
+        189,
+        179,
+        187
+      ],
+      "pdfPages": [
+        40,
+        30,
+        38
+      ],
+      "section": "Cadranul 9.19: Cauzele hiperkaliemiei"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Heparina este enumerată între medicamentele care reduc excreția și poate influența eliberarea aldosteronului.",
+        "evidenceLocation": "Kumar, p. 187; 189, Reglarea potasiului; Cadranul 9.19"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Antagonizarea aldosteronului reduce secreția renală de potasiu.",
+        "evidenceLocation": "Kumar, p. 189, Cadranul 9.19"
+      },
+      {
+        "index": 2,
+        "verdict": "correct",
+        "rationale": "Această clasă este enumerată, iar asocierea cu economisitoare de potasiu crește riscul.",
+        "evidenceLocation": "Kumar, p. 189, Cadranul 9.19"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "AINS pot interfera cu homeostazia potasiului și sunt incluși în tabel.",
+        "evidenceLocation": "Kumar, p. 189, Cadranul 9.19"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Metolazona este un diuretic înrudit cu tiazidele, care poate favoriza hipokaliemia.",
+        "evidenceLocation": "Kumar, p. 179; 187, Tiazidice; Hipokaliemie"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T13:38:02.934Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare cu paginile 172–190 din textul român furnizat și reevaluare individuală a distractorilor. Itemii nu folosesc paginile absente 195–202 sau dozele contradictorii din pasajele de corecție a natremiei. Review AI, nu validare de medic sau calibrare psihometrică."
+  },
+  {
+    "questionId": "electroliti-ext-020",
+    "questionFingerprint": "9964b3dbe8ac43052d4576ca7681b7b7aef402679d3294ebb299014da1abda84",
+    "status": "source-checked",
+    "learningObjective": "Adaptarea conduitei la volemie și anticiparea factorilor de supracorecție a natremiei.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 9,
+      "printedPages": [
+        185,
+        186
+      ],
+      "pdfPages": [
+        36,
+        37
+      ],
+      "section": "Cadranul 9.14; Evitarea demielinizării osmotice"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Aceasta este conduita volemică descrisă pentru pacientul hipovolemic.",
+        "evidenceLocation": "Kumar, p. 185, Cadranul 9.14"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Restricția lichidiană este abordarea din cadrul de tratament pentru acest context; manifestările severe impun o altă conduită.",
+        "evidenceLocation": "Kumar, p. 185, Cadranul 9.14"
+      },
+      {
+        "index": 2,
+        "verdict": "correct",
+        "rationale": "Textul recomandă ambele restricții și luarea în considerare a unui diuretic de ansă în contextul potrivit.",
+        "evidenceLocation": "Kumar, p. 185, Cadranul 9.14"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Diureza apoasă poate apărea după repleție volemică sau dispariția altor stimuli non-osmotici ai ADH.",
+        "evidenceLocation": "Kumar, p. 185, Diureza apoasă"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Suplimentarea potasiului poate crește natremia, contribuind la supracorecție; nu o reduce în mod previzibil.",
+        "evidenceLocation": "Kumar, p. 186, Hiponatremia reversibilă"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T13:38:02.934Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare cu paginile 172–190 din textul român furnizat și reevaluare individuală a distractorilor. Itemii nu folosesc paginile absente 195–202 sau dozele contradictorii din pasajele de corecție a natremiei. Review AI, nu validare de medic sau calibrare psihometrică."
   }
 ]
