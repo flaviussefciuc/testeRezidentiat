@@ -3,25 +3,23 @@
   "baselineActive": 200,
   "targetAdditionalAccepted": 800,
   "targetNetAdditionalActive": 800,
-  "netAdditionalActive": 45,
-  "additionalAccepted": 60,
+  "netAdditionalActive": 60,
+  "additionalAccepted": 80,
   "publicationStatus": "Expansion incomplete: only individually source-checked batches may be published",
   "live": {
-    "count": 245,
+    "count": 260,
     "correctAnswerCounts": {
-      "1": 59,
-      "2": 15,
-      "3": 26,
-      "4": 145
+      "1": 62,
+      "2": 20,
+      "3": 29,
+      "4": 149
     },
     "missingMultipleAnswerFormats": [],
-    "fourCorrectShareOfMultiple": 78,
+    "fourCorrectShareOfMultiple": 75.3,
     "idsUnique": true,
     "structuralErrors": [],
     "exactQuestionDuplicates": [],
     "possibleWordingCues": [
-      "hematologie-03",
-      "hematologie-05",
       "reumatologie-01",
       "reumatologie-02",
       "reumatologie-03",
@@ -137,7 +135,7 @@
       },
       {
         "id": "hematologie",
-        "count": 5
+        "count": 20
       },
       {
         "id": "reumatologie",
@@ -285,23 +283,16 @@
     "count": 160,
     "correctAnswerCounts": {
       "1": 40,
-      "2": 15,
-      "3": 35,
-      "4": 70
+      "2": 20,
+      "3": 40,
+      "4": 60
     },
     "missingMultipleAnswerFormats": [],
-    "fourCorrectShareOfMultiple": 58.3,
+    "fourCorrectShareOfMultiple": 50,
     "idsUnique": true,
     "structuralErrors": [],
     "exactQuestionDuplicates": [],
     "possibleWordingCues": [
-      "hematologie-ext-004",
-      "hematologie-ext-006",
-      "hematologie-ext-007",
-      "hematologie-ext-012",
-      "hematologie-ext-013",
-      "hematologie-ext-014",
-      "hematologie-ext-016",
       "reumatologie-ext-010",
       "reumatologie-ext-013",
       "reumatologie-ext-016",
@@ -483,12 +474,12 @@
     ]
   },
   "accepted": {
-    "count": 60,
+    "count": 80,
     "correctAnswerCounts": {
-      "1": 15,
-      "2": 15,
-      "3": 15,
-      "4": 15
+      "1": 20,
+      "2": 20,
+      "3": 20,
+      "4": 20
     },
     "missingMultipleAnswerFormats": [],
     "fourCorrectShareOfMultiple": 33.3,
@@ -512,7 +503,7 @@
       },
       {
         "id": "hematologie",
-        "count": 0
+        "count": 20
       },
       {
         "id": "reumatologie",

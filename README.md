@@ -6,7 +6,7 @@ Aplicație Angular SPA în limba română pentru pregătirea concursului de rezi
 
 ## Funcționalități
 
-- 245 de grile active, inclusiv 60 de sepsis, electroliți și terapie intensivă revizuite pe textul bibliografiei furnizate, 39 de capitole din tematica 2026, explicații și resurse.
+- 260 de grile active, inclusiv 80 de sepsis, electroliți, terapie intensivă și hematologie revizuite pe textul bibliografiei furnizate, 39 de capitole din tematica 2026, explicații și resurse.
 - Antrenament filtrat pe capitole și recapitularea răspunsurilor greșite.
 - Simulare: 200 de întrebări distincte, 50 CS + 150 CM, 4 ore, maximum 950 de puncte.
 - Istoric, evoluție săptămânală, punctaj pe capitole, export JSON.
@@ -39,4 +39,4 @@ npx vercel deploy --prod
 
 ## Conținut și limite
 
-[Tematica oficială 2026](https://rezidentiat.ms.ro/20261115/tematici/rezidentiat-M-2026.pdf) și resursele anilor anteriori sunt accesibile în aplicație. Grilele sunt originale, redactate cu ajutorul AI, nu au validare medicală editorială și nu acoperă exhaustiv bibliografia. Revizuirea înlocuiește cele 15 grile inițiale de sepsis, electroliți și terapie intensivă cu 60 de itemi având explicații pentru fiecare opțiune și pagini de referință. Istoricul păstrează versiunile originale. Celelalte capitole sunt încă în curs de revizuire, iar obiectivul de 800 de întrebări suplimentare nu este finalizat. Procesul este descris în [documentația editorială](docs/question-quality.md). Formatul și punctajul urmează metodologia anilor anteriori; dificultatea nu este calibrată față de concurs.
+[Tematica oficială 2026](https://rezidentiat.ms.ro/20261115/tematici/rezidentiat-M-2026.pdf) și resursele anilor anteriori sunt accesibile în aplicație. Grilele sunt originale, redactate cu ajutorul AI, nu au validare medicală editorială și nu acoperă exhaustiv bibliografia. Revizuirea înlocuiește cele 20 de grile inițiale de sepsis, electroliți, terapie intensivă și hematologie cu 80 de itemi având explicații pentru fiecare opțiune și pagini de referință. Istoricul păstrează versiunile originale. Celelalte capitole sunt încă în curs de revizuire, iar obiectivul de 800 de întrebări suplimentare nu este finalizat. Procesul este descris în [documentația editorială](docs/question-quality.md). Formatul și punctajul urmează metodologia anilor anteriori; dificultatea nu este calibrată față de concurs.

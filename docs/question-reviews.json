@@ -4084,5 +4084,1375 @@
     "reviewedAt": "2026-09-12T18:20:30.012Z",
     "unresolvedIssues": [],
     "reviewNotes": "Confruntare individuală cu p. 224–233 din textul român furnizat; imaginile p. 230 și 232 verificate pentru ventilație și clasificarea ARDS. Distractori revizuiți pentru confuzii între parametri, mecanisme, complicații și rezultate. Nu se folosesc afirmația despre direcția deplasării mediastinale sau concluziile despre steroizi din acest extras. Review AI, nu validare de medic sau calibrare psihometrică."
+  },
+  {
+    "questionId": "hematologie-ext-001",
+    "questionFingerprint": "7428d2774feac4d8f35acfba39e6c95be4cb0a6aee3b840d7060a0a3abec38f0",
+    "status": "source-checked",
+    "learningObjective": "Interpretarea unui profil mixt când inflamația maschează feritina scăzută a carenței.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 16,
+      "printedPages": [
+        331,
+        332
+      ],
+      "pdfPages": [
+        56,
+        57
+      ],
+      "section": "Cadranul 16.4; feritina și receptorii solubili ai transferinei"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "incorrect",
+        "rationale": "În profilul inflamator necomplicat receptorii solubili sunt normali; creșterea lor și pierderile sanguine susțin o componentă carențială.",
+        "evidenceLocation": "Kumar, p. 331–332, Cadranul 16.4; anemia inflamatorie"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Inflamația poate menține feritina normală în prezența carenței; CTLF scăzută și receptorii solubili crescuți susțin mecanisme asociate.",
+        "evidenceLocation": "Kumar, p. 331–332, Feritină; receptori solubili; anemie inflamatorie"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Supraîncărcarea sideroblastică nu explică la fel de bine pierderile sanguine și combinația markerilor descriși.",
+        "evidenceLocation": "Kumar, p. 331, Cadranul 16.4"
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "Talasemia poate avea microcitoză și receptori crescuți, dar nu explică la fel de bine contextul și CTLF scăzută.",
+        "evidenceLocation": "Kumar, p. 331, Cadranul 16.4"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Carența izolată ar avea de regulă CTLF crescută și feritină scăzută; aici procesul inflamator modifică profilul.",
+        "evidenceLocation": "Kumar, p. 331, Cadranul 16.4"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T18:38:38.156Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare individuală cu p. 327–336 și 351–355. A doua trecere editorială a eliminat distractori evidenți și a apropiat alternativele; dificultate urmărită, nu demonstrată psihometric. Confuzie testată: Profil inflamator pur versus carență asociată mascată de feritină. Review AI, nu validare de medic."
+  },
+  {
+    "questionId": "hematologie-ext-002",
+    "questionFingerprint": "e024fd5202535c4d3a95a3a53b59ff112574ac72de842e07dc7fd8a1002250bc",
+    "status": "source-checked",
+    "learningObjective": "Identificarea mecanismului sideroblaștilor inelari, distinct de simpla microcitoză.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 16,
+      "printedPages": [
+        332,
+        329,
+        333
+      ],
+      "pdfPages": [
+        57,
+        54,
+        58
+      ],
+      "section": "Anemia sideroblastică"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "incorrect",
+        "rationale": "Fierul din macrofage nu constituie inelul din interiorul eritroblastului.",
+        "evidenceLocation": "Kumar, p. 332, Anemia sideroblastică"
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Defectul maturării nucleare caracterizează megaloblastoza; granulele inelare sunt în mitocondrii, nu în nucleu.",
+        "evidenceLocation": "Kumar, p. 333, Anemia megaloblastică"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Defectul globinei caracterizează talasemia; localizarea și mecanismul cerute sunt mitocondriale și legate de hem.",
+        "evidenceLocation": "Kumar, p. 329; 332, Defect globină; sideroblaști"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Acumulările mitocondriale secundare sintezei anormale a hemului produc aspectul inelar.",
+        "evidenceLocation": "Kumar, p. 332, Anemia sideroblastică"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Inelul nu este un depozit în membrana celulară legat de saturarea receptorilor transferinei.",
+        "evidenceLocation": "Kumar, p. 332, Anemia sideroblastică"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T18:38:38.157Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare individuală cu p. 327–336 și 351–355. A doua trecere editorială a eliminat distractori evidenți și a apropiat alternativele; dificultate urmărită, nu demonstrată psihometric. Confuzie testată: Compartimentul celular al fierului și defectul hemului versus globină/ADN. Review AI, nu validare de medic."
+  },
+  {
+    "questionId": "hematologie-ext-003",
+    "questionFingerprint": "865be3e30744dd7db4de94de6c43d6cabd9324875e67c4fe9e901c77ea83b4c0",
+    "status": "source-checked",
+    "learningObjective": "Compararea simultană a sensibilității și specificității celor două teste în profil discordant.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 16,
+      "printedPages": [
+        334,
+        335
+      ],
+      "pdfPages": [
+        59,
+        60
+      ],
+      "section": "Anemia pernicioasă — patogeneză; diagnostic diferențial"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Anticorpii parietali apar la mai mulți pacienți, dar și la persoane fără boală; cei anti-factor intrinsec sunt mai specifici, însă mai puțin sensibili.",
+        "evidenceLocation": "Kumar, p. 334–335, Anticorpi și diagnostic diferențial"
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Relația este inversată pentru ambele proprietăți.",
+        "evidenceLocation": "Kumar, p. 334, Anticorpi"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Specificitatea anticorpilor parietali este mai mică, nu mai mare.",
+        "evidenceLocation": "Kumar, p. 334, Anticorpi"
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "Anti-factor intrinsec are specificitate mai mare, dar sensibilitate mai mică.",
+        "evidenceLocation": "Kumar, p. 334, Anticorpi"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Anticorpii parietali sunt mai puțin specifici; specificitățile nu sunt echivalente.",
+        "evidenceLocation": "Kumar, p. 334, Anticorpi"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T18:38:38.157Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare individuală cu p. 327–336 și 351–355. A doua trecere editorială a eliminat distractori evidenți și a apropiat alternativele; dificultate urmărită, nu demonstrată psihometric. Confuzie testată: Sensibilitate versus specificitate pentru două teste apropiate. Review AI, nu validare de medic."
+  },
+  {
+    "questionId": "hematologie-ext-004",
+    "questionFingerprint": "d16b8c522d56f3dc1997ef0843798a671d690e2902ffb042c9bd9a2fa6fef9ce",
+    "status": "source-checked",
+    "learningObjective": "Diferențierea hemolizinei bifazice de aglutininele la rece și de HPN.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 16,
+      "printedPages": [
+        353,
+        351,
+        352,
+        354
+      ],
+      "pdfPages": [
+        64,
+        62,
+        63,
+        65
+      ],
+      "section": "Hemoglobinuria paroxistică la rece"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "incorrect",
+        "rationale": "CHAD se asociază cu IgM, frecvent anti-I; nu este explicația testului bifazic descris.",
+        "evidenceLocation": "Kumar, p. 353, CHAD"
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Anticorpii la cald reacționează optim la temperatura corpului, nu explică testul cerut.",
+        "evidenceLocation": "Kumar, p. 351–352, AHAI la cald"
+      },
+      {
+        "index": 2,
+        "verdict": "correct",
+        "rationale": "IgG anti-P se leagă la rece, iar hemoliza prin complement apare la încălzire.",
+        "evidenceLocation": "Kumar, p. 353, Hemoglobinuria paroxistică la rece"
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "HPN este un defect clonal de protecție față de complement, nu o hemolizină bifazică anti-P.",
+        "evidenceLocation": "Kumar, p. 354, HPN"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Mecanismul aloimun neonatal este distinct de episodul postinfecțios cu test bifazic.",
+        "evidenceLocation": "Kumar, p. 353, BHNN"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T18:38:38.157Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare individuală cu p. 327–336 și 351–355. A doua trecere editorială a eliminat distractori evidenți și a apropiat alternativele; dificultate urmărită, nu demonstrată psihometric. Confuzie testată: Hemolizină bifazică IgG versus aglutinine IgM și defect clonal GPI. Review AI, nu validare de medic."
+  },
+  {
+    "questionId": "hematologie-ext-005",
+    "questionFingerprint": "7c01642c33d34cb73cb93f893a8145f96e960eb84d43e9c2d2140887563f3f63",
+    "status": "source-checked",
+    "learningObjective": "Separarea substratului celular, anticorpilor circulanți și locului sensibilizării în testele Coombs.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 16,
+      "printedPages": [
+        351
+      ],
+      "pdfPages": [
+        62
+      ],
+      "section": "Figura 16.26 — Testele antiglobulinice"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "incorrect",
+        "rationale": "Țintele și condițiile celor două teste sunt inversate.",
+        "evidenceLocation": "Kumar, p. 351, Figura 16.26 — Testele antiglobulinice"
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Testul direct urmărește sensibilizarea produsă în organism; cel indirect produce sensibilizarea în laborator.",
+        "evidenceLocation": "Kumar, p. 351, Figura 16.26 — Testele antiglobulinice"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Locurile sensibilizării sunt corecte, dar sursele eritrocitelor sunt inversate între teste.",
+        "evidenceLocation": "Kumar, p. 351, Figura 16.26 — Testele antiglobulinice"
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "În testul indirect, sensibilizarea eritrocitelor normale se produce după incubarea in vitro cu serul pacientului.",
+        "evidenceLocation": "Kumar, p. 351, Figura 16.26 — Testele antiglobulinice"
+      },
+      {
+        "index": 4,
+        "verdict": "correct",
+        "rationale": "Această asociere păstrează corect atât eritrocitele utilizate, cât și locul sensibilizării.",
+        "evidenceLocation": "Kumar, p. 351, Figura 16.26 — Testele antiglobulinice"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T18:38:38.157Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare individuală cu p. 327–336 și 351–355. A doua trecere editorială a eliminat distractori evidenți și a apropiat alternativele; dificultate urmărită, nu demonstrată psihometric. Confuzie testată: Sursa eritrocitelor și sensibilizarea in vivo versus in vitro. Review AI, nu validare de medic."
+  },
+  {
+    "questionId": "hematologie-ext-006",
+    "questionFingerprint": "1b4b82eb65ebad35fb2a53b665da9c1bb17ce811f0faaeb802ef4b61018f5864",
+    "status": "source-checked",
+    "learningObjective": "Compararea perechilor de rezultate, nu interpretarea izolată a sideremiei.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 16,
+      "printedPages": [
+        331
+      ],
+      "pdfPages": [
+        56
+      ],
+      "section": "Cadranul 16.4 — Diagnosticul diferențial al anemiei microcitare"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Acesta este profilul deficitului absolut de fier din tabel.",
+        "evidenceLocation": "Kumar, p. 331, Cadranul 16.4 — Diagnosticul diferențial al anemiei microcitare"
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "CTLF este corect descrisă, dar receptorii solubili sunt normali în profilul inflamator necomplicat.",
+        "evidenceLocation": "Kumar, p. 331, Cadranul 16.4 — Diagnosticul diferențial al anemiei microcitare"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Microcitoza este corect descrisă; receptorii solubili sunt normali sau crescuți, nu scăzuți.",
+        "evidenceLocation": "Kumar, p. 331, Cadranul 16.4 — Diagnosticul diferențial al anemiei microcitare"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Feritina reflectă și inflamația, în timp ce CTLF scade.",
+        "evidenceLocation": "Kumar, p. 331, Cadranul 16.4 — Diagnosticul diferențial al anemiei microcitare"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Sideremia crescută este compatibilă, dar fierul eritroblastic este prezent în forme inelare.",
+        "evidenceLocation": "Kumar, p. 331, Cadranul 16.4 — Diagnosticul diferențial al anemiei microcitare"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T18:38:38.157Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare individuală cu p. 327–336 și 351–355. A doua trecere editorială a eliminat distractori evidenți și a apropiat alternativele; dificultate urmărită, nu demonstrată psihometric. Confuzie testată: O componentă greșită în perechi de rezultate altfel compatibile. Review AI, nu validare de medic."
+  },
+  {
+    "questionId": "hematologie-ext-007",
+    "questionFingerprint": "7ac2eaf3598678f407e751e1599c81b88c92742bfbc7bbfef7cc7303cd9d0abd",
+    "status": "source-checked",
+    "learningObjective": "Recunoașterea limitelor unui indice mediu și a pseudomacrocitozei prin aglutinare.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 16,
+      "printedPages": [
+        333,
+        328,
+        336
+      ],
+      "pdfPages": [
+        58,
+        53,
+        61
+      ],
+      "section": "Anemia megaloblastică; macrocitoza fără modificări megaloblastice"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "incorrect",
+        "rationale": "Frotiul arată în continuare populații distincte; normalizarea mediei nu înseamnă omogenizarea lor.",
+        "evidenceLocation": "Kumar, p. 328; 333; 336, Dimorfism și aglutinare"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Microcitele pot compensa în medie dimensiunea crescută a macro-ovalocitelor.",
+        "evidenceLocation": "Kumar, p. 333, VEM în deficite asociate"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Aglutinarea eritrocitelor nu explică hipersegmentarea neutrofilelor, care susține procesul megaloblastic.",
+        "evidenceLocation": "Kumar, p. 333, Neutrofile hipersegmentate"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Reversibilitatea prin încălzire este descrisă pentru artefactul produs de aglutininele la rece.",
+        "evidenceLocation": "Kumar, p. 336, Aglutinine la rece"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Reticulocitele sunt mai mari și tind să crească VEM, nu să îl reducă.",
+        "evidenceLocation": "Kumar, p. 336, Reticulocitoză"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T18:38:38.157Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare individuală cu p. 327–336 și 351–355. A doua trecere editorială a eliminat distractori evidenți și a apropiat alternativele; dificultate urmărită, nu demonstrată psihometric. Confuzie testată: Normalizarea mediei VEM versus persistența a două populații și artefact termic. Review AI, nu validare de medic."
+  },
+  {
+    "questionId": "hematologie-ext-008",
+    "questionFingerprint": "79992a7a1e8ca071fa8257bf16d1b155cafde61e785ebe3a9abc0319a84777cb",
+    "status": "source-checked",
+    "learningObjective": "Legarea reglării feroportinei de restricția inflamatorie și de supraîncărcarea netransfuzională.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 16,
+      "printedPages": [
+        330
+      ],
+      "pdfPages": [
+        55
+      ],
+      "section": "Absorbția fierului — hepcidină și eritroferon"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "incorrect",
+        "rationale": "Eritroblastele produc eritroferonul; hepcidina este sintetizată în ficat.",
+        "evidenceLocation": "Kumar, p. 330, Absorbția fierului — hepcidină și eritroferon"
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "IL-6 stimulează hepcidina hepatică, iar hepcidina determină internalizarea feroportinei; varianta omite mediatorul și atribuie acțiunea direct citokinei.",
+        "evidenceLocation": "Kumar, p. 330, Absorbția fierului — hepcidină și eritroferon"
+      },
+      {
+        "index": 2,
+        "verdict": "correct",
+        "rationale": "Internalizarea și degradarea exportatorului reduc trecerea fierului în plasmă.",
+        "evidenceLocation": "Kumar, p. 330, Absorbția fierului — hepcidină și eritroferon"
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "Eritroferonul reduce hepcidina; acest mecanism poate favoriza supraîncărcarea cu fier.",
+        "evidenceLocation": "Kumar, p. 330, Absorbția fierului — hepcidină și eritroferon"
+      },
+      {
+        "index": 4,
+        "verdict": "correct",
+        "rationale": "Mai puțină hepcidină permite activitate crescută a feroportinei și absorbție mai mare.",
+        "evidenceLocation": "Kumar, p. 330, Absorbția fierului — hepcidină și eritroferon"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T18:38:38.157Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare individuală cu p. 327–336 și 351–355. A doua trecere editorială a eliminat distractori evidenți și a apropiat alternativele; dificultate urmărită, nu demonstrată psihometric. Confuzie testată: Semnal eritroblastic, mediator hepatic și țintă de membrană. Review AI, nu validare de medic."
+  },
+  {
+    "questionId": "hematologie-ext-009",
+    "questionFingerprint": "307aca61644a186f6670937cfd770fd6caadf9ef83248644bb948ec6d056bb96",
+    "status": "source-checked",
+    "learningObjective": "Diferențierea opsonizării și fagocitozei de liza mediată de complement.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 16,
+      "printedPages": [
+        351,
+        352
+      ],
+      "pdfPages": [
+        62,
+        63
+      ],
+      "section": "Distrugerea imună a eritrocitelor"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Pierderea parțială a membranei produce sferocite care pot fi ulterior sechestrate splenic.",
+        "evidenceLocation": "Kumar, p. 352, Fagocitoză parțială"
+      },
+      {
+        "index": 1,
+        "verdict": "incorrect",
+        "rationale": "Receptorii Fc interacționează cu anticorpii; recunoașterea complementului folosește alți receptori.",
+        "evidenceLocation": "Kumar, p. 351–352, Receptori Fc și complement"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Acești anticorpi rari au efect redus sau absent asupra supraviețuirii eritrocitare în descrierea bibliografiei.",
+        "evidenceLocation": "Kumar, p. 352, IgM fără afinitate complement"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "C3b poate potența îndepărtarea eritrocitelor prin macrofage.",
+        "evidenceLocation": "Kumar, p. 352, C3b și fagocitoză"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "IgG produce frecvent hemoliză extravasculară; activarea complementului nu este implicită.",
+        "evidenceLocation": "Kumar, p. 351, Hemoliză extravasculară IgG"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T18:38:38.157Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare individuală cu p. 327–336 și 351–355. A doua trecere editorială a eliminat distractori evidenți și a apropiat alternativele; dificultate urmărită, nu demonstrată psihometric. Confuzie testată: Receptori Fc versus complement; hemoliză intra- versus extravasculară. Review AI, nu validare de medic."
+  },
+  {
+    "questionId": "hematologie-ext-010",
+    "questionFingerprint": "e967ce9c05ed5259d63ba31720fc87814a5107bd3d743fe1e9b2e7d5ffc607d3",
+    "status": "source-checked",
+    "learningObjective": "Diferențierea etapelor gastrică, pancreatică, ileală și plasmatică ale transportului B12.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 16,
+      "printedPages": [
+        334
+      ],
+      "pdfPages": [
+        59
+      ],
+      "section": "Vitamina B12 — Absorbție și transport"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "incorrect",
+        "rationale": "Factorul intrinsec este secretat de celulele parietale, nu de cele principale.",
+        "evidenceLocation": "Kumar, p. 334, Vitamina B12 — Absorbție și transport"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Complexul este recunoscut la suprafața mucoasei ileale de cubilină.",
+        "evidenceLocation": "Kumar, p. 334, Vitamina B12 — Absorbție și transport"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "B12 activă este legată de transcobalamina II; transcobalamina I leagă o mare parte din B12 plasmatică totală.",
+        "evidenceLocation": "Kumar, p. 334, Vitamina B12 — Absorbție și transport"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Enzimele pancreatice eliberează B12 de liantul R înainte de legarea de factorul intrinsec.",
+        "evidenceLocation": "Kumar, p. 334, Vitamina B12 — Absorbție și transport"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Transportul către țesuturi se face prin transcobalamina II; factorul intrinsec rămâne în lumen.",
+        "evidenceLocation": "Kumar, p. 334, Vitamina B12 — Absorbție și transport"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T18:38:38.157Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare individuală cu p. 327–336 și 351–355. A doua trecere editorială a eliminat distractori evidenți și a apropiat alternativele; dificultate urmărită, nu demonstrată psihometric. Confuzie testată: Celule gastrice și proteine de legare cu roluri și compartimente diferite. Review AI, nu validare de medic."
+  },
+  {
+    "questionId": "hematologie-ext-011",
+    "questionFingerprint": "9b47d37513139158541d72d7f1e7a39db7a1aedaf7c215e8c1f67e96a2f4fc5d",
+    "status": "source-checked",
+    "learningObjective": "Integrarea biodisponibilității, reciclării eritrocitare și mobilizării rezervelor.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 16,
+      "printedPages": [
+        330
+      ],
+      "pdfPages": [
+        55
+      ],
+      "section": "Cadranul 16.3; transportul și depozitele de fier"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Fierul heminic este mai bine absorbit și mai puțin influențat de ceilalți constituenți alimentari.",
+        "evidenceLocation": "Kumar, p. 330, Cadranul 16.3; transportul și depozitele de fier"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Aciditatea ajută menținerea solubilității și a formei feroase.",
+        "evidenceLocation": "Kumar, p. 330, Cadranul 16.3; transportul și depozitele de fier"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Complexele insolubile reduc absorbția.",
+        "evidenceLocation": "Kumar, p. 330, Cadranul 16.3; transportul și depozitele de fier"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Feritina este rezerva solubilă, mai ușor mobilizabilă.",
+        "evidenceLocation": "Kumar, p. 330, Cadranul 16.3; transportul și depozitele de fier"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Sursa majoritară este reciclarea fierului eritrocitar prin macrofage, nu absorbția zilnică intestinală.",
+        "evidenceLocation": "Kumar, p. 330, Cadranul 16.3; transportul și depozitele de fier"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T18:38:38.157Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare individuală cu p. 327–336 și 351–355. A doua trecere editorială a eliminat distractori evidenți și a apropiat alternativele; dificultate urmărită, nu demonstrată psihometric. Confuzie testată: Absorbție, solubilitate și reciclare versus depozitare. Review AI, nu validare de medic."
+  },
+  {
+    "questionId": "hematologie-ext-012",
+    "questionFingerprint": "65176ffe5c57427b061ef7ca104b40f75b584c02f61d19f0d7c48bd069b9f4b5",
+    "status": "source-checked",
+    "learningObjective": "Reevaluarea mecanismului unui răspuns insuficient, inclusiv cauzele asociate și toleranța.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 16,
+      "printedPages": [
+        332
+      ],
+      "pdfPages": [
+        57
+      ],
+      "section": "Tratamentul deficitului de fier"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Greața, diareea sau constipația pot reduce aderența.",
+        "evidenceLocation": "Kumar, p. 332, Tratamentul deficitului de fier"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Sângerarea persistentă poate împiedica răspunsul așteptat.",
+        "evidenceLocation": "Kumar, p. 332, Tratamentul deficitului de fier"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Corectarea Hb și refacerea rezervelor sunt obiective distincte; tratamentul trebuie să permită și reîncărcarea depozitelor.",
+        "evidenceLocation": "Kumar, p. 332, Tratamentul deficitului de fier"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Talasemia este exemplul de diagnostic inițial incorect menționat între cauzele eșecului.",
+        "evidenceLocation": "Kumar, p. 332, Tratamentul deficitului de fier"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Doza orală crește temporar hepcidina; sensul mecanismului este inversat în variantă.",
+        "evidenceLocation": "Kumar, p. 332, Tratamentul deficitului de fier"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T18:38:38.157Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare individuală cu p. 327–336 și 351–355. A doua trecere editorială a eliminat distractori evidenți și a apropiat alternativele; dificultate urmărită, nu demonstrată psihometric. Confuzie testată: Corectarea Hb versus rezerve; feedback hepcidinic după doză. Review AI, nu validare de medic."
+  },
+  {
+    "questionId": "hematologie-ext-013",
+    "questionFingerprint": "e381937f72b7539d267c4468049de2b8430b4d33fcbbb8aa1909ce6ad3a55ccb",
+    "status": "source-checked",
+    "learningObjective": "Identificarea modificărilor megaloblastice și a factorilor care le pot masca în indicii medii.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 16,
+      "printedPages": [
+        333
+      ],
+      "pdfPages": [
+        58
+      ],
+      "section": "Anemia megaloblastică — Investigații paraclinice"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Defectul sintezei ADN întârzie maturarea nucleară.",
+        "evidenceLocation": "Kumar, p. 333, Anemia megaloblastică — Investigații paraclinice"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Aceste modificări periferice sunt caracteristice în descrierea capitolului.",
+        "evidenceLocation": "Kumar, p. 333, Anemia megaloblastică — Investigații paraclinice"
+      },
+      {
+        "index": 2,
+        "verdict": "correct",
+        "rationale": "LDH poate fi foarte crescută prin eritropoieză ineficientă.",
+        "evidenceLocation": "Kumar, p. 333, Anemia megaloblastică — Investigații paraclinice"
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "Sunt descrise metamielocite uriașe, nu reduse ca dimensiune.",
+        "evidenceLocation": "Kumar, p. 333, Anemia megaloblastică — Investigații paraclinice"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Coexistența microcitozei poate normaliza VEM mediu.",
+        "evidenceLocation": "Kumar, p. 333, Anemia megaloblastică — Investigații paraclinice"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T18:38:38.157Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare individuală cu p. 327–336 și 351–355. A doua trecere editorială a eliminat distractori evidenți și a apropiat alternativele; dificultate urmărită, nu demonstrată psihometric. Confuzie testată: Maturare nucleară și efectul microcitozei coexistente. Review AI, nu validare de medic."
+  },
+  {
+    "questionId": "hematologie-ext-014",
+    "questionFingerprint": "15d1eccae286454aac39e8a6dfb1885a1c54add6535ea7a6498029215855d476",
+    "status": "source-checked",
+    "learningObjective": "Separarea dovezilor de hemoliză imună medicamentoasă de semnele hemolizei oxidative.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 16,
+      "printedPages": [
+        353,
+        351
+      ],
+      "pdfPages": [
+        64,
+        62
+      ],
+      "section": "Anemia hemolitică imună iatrogenă"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Asocierea temporală este unul dintre cele trei elemente enumerate.",
+        "evidenceLocation": "Kumar, p. 353, Hemoliză imună iatrogenă"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Testul direct pozitiv documentează sensibilizarea eritrocitelor.",
+        "evidenceLocation": "Kumar, p. 353, Hemoliză imună iatrogenă"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Corpii Heinz sunt descriși în hemoliza oxidativă produsă de medicamente precum dapsona; nu demonstrează fixarea de anticorpi.",
+        "evidenceLocation": "Kumar, p. 351, Hemoliză oxidativă medicamentoasă"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Remisiunea după oprire susține legătura cauzală.",
+        "evidenceLocation": "Kumar, p. 353, Hemoliză imună iatrogenă"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Absența aglutininelor la rece nu identifică mecanismul medicamentos; sunt necesare dovezile temporale și testul direct.",
+        "evidenceLocation": "Kumar, p. 351–353, Clasificare și hemoliză iatrogenă"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T18:38:38.158Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare individuală cu p. 327–336 și 351–355. A doua trecere editorială a eliminat distractori evidenți și a apropiat alternativele; dificultate urmărită, nu demonstrată psihometric. Confuzie testată: Hemoliză oxidativă cu Heinz versus sensibilizare imună documentată. Review AI, nu validare de medic."
+  },
+  {
+    "questionId": "hematologie-ext-015",
+    "questionFingerprint": "a04c8fb32b88bd94468e519105bff3e57661979cd8ab44ff7e6228b83243d7b3",
+    "status": "source-checked",
+    "learningObjective": "Integrarea hemolizei clonale cu tromboza atipică și posibila insuficiență medulară.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 16,
+      "printedPages": [
+        354,
+        355
+      ],
+      "pdfPages": [
+        65,
+        66
+      ],
+      "section": "Hemoglobinuria paroxistică nocturnă — clinică și investigații"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Aceste localizări atipice sunt descrise la HPN.",
+        "evidenceLocation": "Kumar, p. 355, HPN — Clinică"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Citometria cu markeri CD55/CD59 identifică deficitul proteinelor de suprafață.",
+        "evidenceLocation": "Kumar, p. 355, HPN — Investigații"
+      },
+      {
+        "index": 2,
+        "verdict": "incorrect",
+        "rationale": "Aceasta este hemolizina din hemoglobinuria paroxistică la rece, distinctă de HPN.",
+        "evidenceLocation": "Kumar, p. 354, HPN — Etiologie"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Hipoplazia sau aplazia poate coexista cu hemoliza.",
+        "evidenceLocation": "Kumar, p. 355, HPN — Investigații"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Mutația afectează celula stem hematopoietică; textul descrie și trombocite cu deficit de CD55/CD59.",
+        "evidenceLocation": "Kumar, p. 354–355, Defect clonal și trombocite"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T18:38:38.158Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare individuală cu p. 327–336 și 351–355. A doua trecere editorială a eliminat distractori evidenți și a apropiat alternativele; dificultate urmărită, nu demonstrată psihometric. Confuzie testată: Defect clonal multilinear versus anticorp anti-P sau defect exclusiv eritrocitar. Review AI, nu validare de medic."
+  },
+  {
+    "questionId": "hematologie-ext-016",
+    "questionFingerprint": "6b20b4c3cd2c6d70aa9bbd3d5192f4f76d2f01ffef49aabcbf787bb552fca896",
+    "status": "source-checked",
+    "learningObjective": "Diferențierea formelor alimentare, circulante și intracelulare ale folatului.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 16,
+      "printedPages": [
+        335
+      ],
+      "pdfPages": [
+        60
+      ],
+      "section": "Acidul folic — Metabolism"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Textul descrie formele alimentare reduse ca poliglutamați.",
+        "evidenceLocation": "Kumar, p. 335, Acidul folic — Metabolism"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Această transformare precedă și însoțește absorbția.",
+        "evidenceLocation": "Kumar, p. 335, Acidul folic — Metabolism"
+      },
+      {
+        "index": 2,
+        "verdict": "correct",
+        "rationale": "Metil-THF monoglutamat este forma circulantă principală descrisă.",
+        "evidenceLocation": "Kumar, p. 335, Acidul folic — Metabolism"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Poliglutamații intracelulari sunt coenzime active în metabolism și sinteza ADN.",
+        "evidenceLocation": "Kumar, p. 335, Acidul folic — Metabolism"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Reacția necesită atât metil-THF, cât și metilcobalamină; nu este independentă de B12.",
+        "evidenceLocation": "Kumar, p. 335, Acidul folic — Metabolism"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T18:38:38.158Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare individuală cu p. 327–336 și 351–355. A doua trecere editorială a eliminat distractori evidenți și a apropiat alternativele; dificultate urmărită, nu demonstrată psihometric. Confuzie testată: Forme alimentare, serice și intracelulare; coenzimele reacției metioninei. Review AI, nu validare de medic."
+  },
+  {
+    "questionId": "hematologie-ext-017",
+    "questionFingerprint": "a546f659493eaa21a2cc23f44b328df1a6b8654805b4684b8ff2526cc9073b47",
+    "status": "source-checked",
+    "learningObjective": "Evitarea folosirii hemogramei sau a răspunsului la folat pentru a exclude afectarea neurologică B12.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 16,
+      "printedPages": [
+        334,
+        335,
+        336
+      ],
+      "pdfPages": [
+        59,
+        60,
+        61
+      ],
+      "section": "Anemia pernicioasă — Tablou clinic; tratamentul anemiei megaloblastice"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Capitolul descrie această posibilitate; absența anemiei nu elimină deficitul.",
+        "evidenceLocation": "Kumar, p. 334, Manifestări neurologice"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Aceste modalități senzitive sunt menționate între modificările precoce.",
+        "evidenceLocation": "Kumar, p. 334, Manifestări neurologice"
+      },
+      {
+        "index": 2,
+        "verdict": "correct",
+        "rationale": "Distrugerea precursorilor în curs de maturare poate produce ambele creșteri.",
+        "evidenceLocation": "Kumar, p. 334–335, Eritropoieză ineficientă"
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "Folatul poate produce răspuns hematologic în deficitul B12 fără corectarea problemei neurologice.",
+        "evidenceLocation": "Kumar, p. 336, Folat în deficit B12"
+      },
+      {
+        "index": 4,
+        "verdict": "correct",
+        "rationale": "Leziunile neurologice persistente, mai ales medulare, pot să nu se recupereze.",
+        "evidenceLocation": "Kumar, p. 334; 336, Afectarea neurologică persistentă"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T18:38:38.158Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare individuală cu p. 327–336 și 351–355. A doua trecere editorială a eliminat distractori evidenți și a apropiat alternativele; dificultate urmărită, nu demonstrată psihometric. Confuzie testată: Răspuns hematologic versus recuperare neurologică în deficit B12. Review AI, nu validare de medic."
+  },
+  {
+    "questionId": "hematologie-ext-018",
+    "questionFingerprint": "83b3d7a09c050e668e19109e347da10a96f82c47c99f6acf89d1001c1c69b5f8",
+    "status": "source-checked",
+    "learningObjective": "Diferențierea tabloului imunologic și a răspunsului terapeutic de hemoliza la cald.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 16,
+      "printedPages": [
+        353,
+        352
+      ],
+      "pdfPages": [
+        64,
+        63
+      ],
+      "section": "Boala cronică a hemaglutinării la rece"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Forma cronică este asociată cu IgM monoclonale.",
+        "evidenceLocation": "Kumar, p. 353, CHAD"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Autoaglutinarea periferică poate produce acest semn.",
+        "evidenceLocation": "Kumar, p. 353, CHAD"
+      },
+      {
+        "index": 2,
+        "verdict": "correct",
+        "rationale": "Încălzirea probei inversează aglutinarea.",
+        "evidenceLocation": "Kumar, p. 353, CHAD — Investigații"
+      },
+      {
+        "index": 3,
+        "verdict": "correct",
+        "rationale": "Complementul rămâne detectabil la suprafața eritrocitelor.",
+        "evidenceLocation": "Kumar, p. 353, CHAD — Investigații"
+      },
+      {
+        "index": 4,
+        "verdict": "incorrect",
+        "rationale": "Splenectomia este de obicei ineficientă în forma la rece descrisă, spre deosebire de rolul său în forma la cald.",
+        "evidenceLocation": "Kumar, p. 352–353, Tratament la cald versus la rece"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T18:38:38.158Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare individuală cu p. 327–336 și 351–355. A doua trecere editorială a eliminat distractori evidenți și a apropiat alternativele; dificultate urmărită, nu demonstrată psihometric. Confuzie testată: Răspunsul terapeutic al hemolizei la cald versus la rece. Review AI, nu validare de medic."
+  },
+  {
+    "questionId": "hematologie-ext-019",
+    "questionFingerprint": "419d2d9d243036ed5e0f6faf3bd136653f7d95618ffc324c4d50876205c74f06",
+    "status": "source-checked",
+    "learningObjective": "Legarea blocadei complementului de beneficiu și de riscul infecțios, fără confundarea cu vindecarea clonei.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 16,
+      "printedPages": [
+        355
+      ],
+      "pdfPages": [
+        66
+      ],
+      "section": "HPN — Tratament și prognostic"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Blocarea C5 împiedică formarea complexului terminal de atac membranar.",
+        "evidenceLocation": "Kumar, p. 355, HPN — Tratament și prognostic"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Sunt descrise reducerea hemolizei, hemoglobinuriei și a nevoii de transfuzii.",
+        "evidenceLocation": "Kumar, p. 355, HPN — Tratament și prognostic"
+      },
+      {
+        "index": 2,
+        "verdict": "correct",
+        "rationale": "Reducerea riscului trombotic este unul dintre efectele menționate.",
+        "evidenceLocation": "Kumar, p. 355, HPN — Tratament și prognostic"
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "Reducerea distrugerii periferice nu reactivează măduva aplazică; textul distinge tratamentul insuficienței medulare de blocada complementului.",
+        "evidenceLocation": "Kumar, p. 355, HPN — Tratament și prognostic"
+      },
+      {
+        "index": 4,
+        "verdict": "correct",
+        "rationale": "Riscul de Neisseria meningitidis impune măsuri preventive; textul menționează vaccinarea înaintea tratamentului.",
+        "evidenceLocation": "Kumar, p. 355, HPN — Tratament și prognostic"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T18:38:38.158Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare individuală cu p. 327–336 și 351–355. A doua trecere editorială a eliminat distractori evidenți și a apropiat alternativele; dificultate urmărită, nu demonstrată psihometric. Confuzie testată: Controlul distrugerii periferice versus reactivarea măduvei aplazice. Review AI, nu validare de medic."
+  },
+  {
+    "questionId": "hematologie-ext-020",
+    "questionFingerprint": "3cabbd118246412f7a43721f216a8472d7d8941069aa6a19bb3a105744b3a432",
+    "status": "source-checked",
+    "learningObjective": "Diferențierea mecanismelor între afecțiuni care pot produce toate hemoliză.",
+    "reference": {
+      "book": "Kumar & Clark",
+      "edition": "Medicină clinică, ediția a 10-a, text român",
+      "chapter": 16,
+      "printedPages": [
+        355
+      ],
+      "pdfPages": [
+        66
+      ],
+      "section": "Anemia hemolitică mecanică"
+    },
+    "options": [
+      {
+        "index": 0,
+        "verdict": "correct",
+        "rationale": "Trauma directă la nivelul unei valve disfuncționale poate fragmenta eritrocitele.",
+        "evidenceLocation": "Kumar, p. 355, Anemia hemolitică mecanică"
+      },
+      {
+        "index": 1,
+        "verdict": "correct",
+        "rationale": "Microcirculația anormală din hipertensiunea malignă poate produce hemoliză microangiopatică.",
+        "evidenceLocation": "Kumar, p. 355, Anemia hemolitică mecanică"
+      },
+      {
+        "index": 2,
+        "verdict": "correct",
+        "rationale": "Textul localizează trauma eritrocitară asociată alergării la membrele inferioare.",
+        "evidenceLocation": "Kumar, p. 355, Anemia hemolitică mecanică"
+      },
+      {
+        "index": 3,
+        "verdict": "incorrect",
+        "rationale": "Sindromul uremic hemolitic produce fragmentare microangiopatică; mecanismul atribuit în variantă este al hemolizei imune extravasculare.",
+        "evidenceLocation": "Kumar, p. 355, Anemia hemolitică mecanică"
+      },
+      {
+        "index": 4,
+        "verdict": "correct",
+        "rationale": "CID poate altera microcirculația și produce fragmentare eritrocitară.",
+        "evidenceLocation": "Kumar, p. 355, Anemia hemolitică mecanică"
+      }
+    ],
+    "checks": {
+      "withinIncludedSyllabusPages": true,
+      "contextResolvesAmbiguity": true,
+      "distractorsClinicallyPlausible": true,
+      "noAnswerLengthOrAbsoluteWordingCue": true,
+      "independentObjectiveNotParaphraseDuplicate": true,
+      "explanationAddressesIncorrectOptions": true,
+      "terminologyReviewedInRomanian": true,
+      "keySupportedByRequestedEdition": true
+    },
+    "reviewer": {
+      "kind": "ai",
+      "name": "Codex"
+    },
+    "reviewedAt": "2026-09-12T18:38:38.158Z",
+    "unresolvedIssues": [],
+    "reviewNotes": "Confruntare individuală cu p. 327–336 și 351–355. A doua trecere editorială a eliminat distractori evidenți și a apropiat alternativele; dificultate urmărită, nu demonstrată psihometric. Confuzie testată: Afecțiuni care produc toate hemoliză, dar prin mecanisme diferite. Review AI, nu validare de medic."
   }
 ]

@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {QUESTIONS,QUESTION_HISTORY,LEGACY_QUESTIONS,SOURCE_CHECKED_QUESTIONS} from '../src/app/questions.ts';
+import {HEMATOLOGY_SOURCE} from '../src/app/bank/hematology-source.ts';
 import {INTENSIVE_CARE_SOURCE} from '../src/app/bank/intensive-care-source.ts';
 import {ELECTROLYTES_SOURCE} from '../src/app/bank/electrolytes-source.ts';
 import {SEPSIS_SOURCE} from '../src/app/bank/sepsis-source.ts';
@@ -32,8 +33,8 @@ test('a filled page reference outside the syllabus and incomplete evidence canno
  assert.ok(reviewErrors(SEPSIS_SOURCE[0],fakeClinician).includes('AI review cannot be labelled clinician review'));
 });
 test('retiring original questions preserves the content and scoring of old attempts',()=>{
- const retired=LEGACY_QUESTIONS.filter(q=>['sepsis','electroliti','ati'].includes(q.topicId));
- assert.equal(retired.length,15);
+ const retired=LEGACY_QUESTIONS.filter(q=>['sepsis','electroliti','ati','hematologie'].includes(q.topicId));
+ assert.equal(retired.length,20);
  assert.ok(retired.every(q=>!QUESTIONS.some(a=>a.id===q.id)));
  for(const q of retired){
   assert.deepEqual(QUESTION_HISTORY.find(h=>h.id===q.id),q);
@@ -45,6 +46,6 @@ test('retiring original questions preserves the content and scoring of old attem
  assert.equal(new Set(QUESTION_HISTORY.map(q=>q.id)).size,QUESTION_HISTORY.length);
 });
 test('revised chapters cover CS and every CM cardinality without absolute-word distractors',()=>{
- for(const chapter of [SEPSIS_SOURCE,ELECTROLYTES_SOURCE,INTENSIVE_CARE_SOURCE])assert.deepEqual(new Set(chapter.map(q=>q.correct.length)),new Set([1,2,3,4]));
+ for(const chapter of [SEPSIS_SOURCE,ELECTROLYTES_SOURCE,INTENSIVE_CARE_SOURCE,HEMATOLOGY_SOURCE])assert.deepEqual(new Set(chapter.map(q=>q.correct.length)),new Set([1,2,3,4]));
  assert.ok(SOURCE_CHECKED_QUESTIONS.every(q=>q.options.every(o=>!/obligator|întotdeauna|niciodată|exclusiv|garantat/i.test(o))));
 });

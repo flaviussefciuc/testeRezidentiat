@@ -1,31 +1,10 @@
 import {INTENSIVE_CARE_SOURCE} from './intensive-care-source';
 import {ELECTROLYTES_SOURCE} from './electrolytes-source';
 import {SEPSIS_SOURCE} from './sepsis-source';
-import {chapter} from './author';
+import {HEMATOLOGY_SOURCE} from './hematology-source';
 export const MEDICINE_A=[
 ...SEPSIS_SOURCE,
 ...ELECTROLYTES_SOURCE,
 ...INTENSIVE_CARE_SOURCE,
-...chapter('hematologie','https://www.msdmanuals.com/professional/hematology/anemias-caused-by-deficient-erythropoiesis/anemia-of-chronic-disease',`
-O femeie cu menstruații abundente are Hb 9 g/dL, VEM 68 fL și feritină redusă. Diagnosticul cel mai probabil este: | Anemie feriprivă~Deficit de folat~Anemie aplastică~Hemoliză autoimună~Anemie prin deficit B12 | A | Microcitoza și depozitele reduse de fier susțin feriprivia prin pierderi cronice.
-Ce marker este de regulă redus în hemoliza intravasculară? | LDH~Bilirubină indirectă~Reticulocite~Haptoglobină~Hemoglobină plasmatică liberă | D | Haptoglobina leagă hemoglobina liberă și se consumă în hemoliza intravasculară.
-Ce test demonstrează imunoglobuline sau complement fixate pe eritrocite? | Test antiglobulinic direct~Timp de protrombină~Electroforeza proteinelor~Feritină serică~Test de fragilitate capilară | A | Testul Coombs direct evidențiază acoperirea eritrocitelor cu anticorpi sau complement.
-Ce deficit explică anemia megaloblastică asociată cu parestezii și tulburări proprioceptive? | Fier~Vitamina B12~Vitamina C~Cupru exclusiv~Vitamina K | B | Deficitul B12 poate afecta măduva hematopoietică și cordoanele posterioare/laterale.
-Ce mecanism are hepcidina în anemia inflamației? | Crește eliberarea fierului prin ferroportină~Degradează ferroportina și reduce disponibilitatea fierului~Stimulează direct sinteza B12~Distruge anticorpii eritrocitari~Crește absorbția fierului intestinal | B | Hepcidina limitează absorbția intestinală și mobilizarea fierului din depozite.
-Ce profil sugerează feriprivie? | Feritină redusă~Saturație a transferinei redusă~Capacitate totală de legare a fierului crescută~VEM frecvent redus~Feritină obligatoriu crescută | ABCD | Feriprivia epuizează depozitele; inflamația poate totuși modifica interpretarea feritinei.
-În anemia inflamației se pot întâlni: | Fier seric redus~Feritină normală sau crescută~Transferină redusă~Hepcidină crescută~Depozite de fier obligatoriu absente | ABCD | Fierul este sechestrat și insuficient disponibil eritropoiezei, fără epuizarea obligatorie a depozitelor.
-Ce cauze pot determina macrocitoză? | Deficit B12~Deficit de folat~Consumul cronic de alcool~Hipotiroidism~Talasemie minoră ca aspect tipic | ABCD | Macrocitoza poate fi megaloblastică sau nonmegaloblastică; talasemia este tipic microcitară.
-În anemia megaloblastică sunt posibile: | Neutrofile hipersegmentate~Macroovalocite~Eritropoieză ineficientă~LDH crescut~Microcitoză ca semn definitoriu | ABCD | Sinteza deficitară de ADN produce asincronie nucleo-citoplasmatică și distrugere intramedulară.
-Care factori predispun la deficit B12? | Anemie pernicioasă~Rezecție ileală~Gastrectomie~Dietă vegană nesuplimentată de lungă durată~Menoragie izolată | ABCD | Absorbția necesită factor intrinsec și ileon funcțional; aportul alimentar poate deveni insuficient.
-Ce constatări susțin hemoliza? | Reticulocitoză în măduvă reactivă~Bilirubină neconjugată crescută~LDH crescut~Haptoglobină redusă~Reticulocite constant absente | ABCD | Distrugerea eritrocitară crește produșii de degradare și stimulează de regulă răspunsul medular.
-În hemoliza autoimună la cald sunt caracteristice: | Anticorpi predominant IgG~Hemoliză predominant extravasculară~Sferocite posibile~Test Coombs direct pozitiv~Anticorpi exclusiv IgM activi la rece | ABCD | Eritrocitele acoperite cu IgG sunt îndepărtate mai ales splenic.
-Care afirmații despre aglutininele la rece sunt corecte? | Sunt frecvent IgM~Pot activa complementul~Expunerea la frig poate agrava simptomele~Produc obligatoriu deficit de fier~Pot asocia acrocianoză | ABCE | Anticorpii activi la temperaturi joase pot produce aglutinare și hemoliză mediată de complement.
-Ce indicii susțin o talasemie minoră față de feriprivie? | Microcitoză disproporționată față de anemie~Număr eritrocitar relativ păstrat sau crescut~Istoric familial~Feritină redusă obligatoriu~HbA₂ crescută în beta-talasemia minoră | ABCE | Talasemia afectează sinteza globinei; depozitele de fier nu sunt obligatoriu scăzute.
-La un bărbat adult cu feriprivie confirmată sunt justificate: | Căutarea unei pierderi digestive~Anamneza medicației ulcerogene~Evaluarea aportului și absorbției~Tratament cu fier fără investigarea cauzei în toate cazurile~Considerarea neoplaziei digestive | ABCE | Substituția fierului nu înlocuiește identificarea sursei unei pierderi cronice.
-Ce afirmații despre tratamentul cu fier oral sunt corecte? | Poate provoca greață~Poate colora scaunul închis~Răspunsul se urmărește hematologic~Se oprește obligatoriu la prima reticulocitoză~Refacerea depozitelor necesită timp | ABCE | Creșterea hemoglobinei precedă uneori refacerea completă a depozitelor.
-Ce situații pot indica fier intravenos în context potrivit? | Intoleranță importantă la fier oral~Malabsorbție~Necesitate de repleție rapidă selectată~Deficit B12 izolat~Răspuns insuficient la administrare orală corectă | ABCE | Calea intravenoasă este utilă când absorbția, toleranța sau timpul limitează administrarea orală.
-Care elemente diferențiază deficitul de folat de deficitul B12? | Folatul nu corectează leziunea neurologică prin deficit B12~Acidul metilmalonic crește în deficitul B12~Ambele pot crește homocisteina~Deficitul de folat produce tipic neuropatia combinată subacută~Ambele pot produce megaloblastoză | ABCE | Acidul metilmalonic și afectarea neurologică ajută diferențierea; folatul poate masca anemia din deficit B12.
-Ce cauze pot determina anemie hemolitică dobândită? | Autoimunitate~Proteză valvulară mecanică~Microangiopatie trombotică~Medicamente~Mutație ereditară a beta-globinei ca mecanism dobândit | ABCD | Hemoliza dobândită include cauze imune și mecanice; hemoglobinopatiile genetice sunt ereditare.
-Ce constatări sunt sugestive pentru hemoliză microangiopatică? | Schistocite~LDH crescut~Trombocitopenie în sindroame asociate~Fragmentare mecanică eritrocitară~Macroovalocite ca semn caracteristic unic | ABCD | Eritrocitele se fragmentează în microcirculația lezată; frotiul arată schistocite.
-`)
+...HEMATOLOGY_SOURCE,
 ];
