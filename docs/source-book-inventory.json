@@ -95,6 +95,54 @@
         81
       ],
       "chapter": 18
+    },
+    {
+      "book": "kumar",
+      "printed": [
+        611,
+        618
+      ],
+      "pdf": [
+        88,
+        95
+      ],
+      "chapter": 21
+    },
+    {
+      "book": "kumar",
+      "printed": [
+        621,
+        622
+      ],
+      "pdf": [
+        96,
+        97
+      ],
+      "chapter": 21
+    },
+    {
+      "book": "kumar",
+      "printed": [
+        702,
+        711
+      ],
+      "pdf": [
+        101,
+        110
+      ],
+      "chapter": 23
+    },
+    {
+      "book": "kumar",
+      "printed": [
+        715,
+        720
+      ],
+      "pdf": [
+        114,
+        119
+      ],
+      "chapter": 23
     }
   ],
   "note": "Mapping is partial. PDF text and images stay in ignored tmp/; no full textbook is distributed.",
@@ -107,6 +155,15 @@
       ],
       "status": "not located in supplied extract",
       "topic": "electroliti"
+    },
+    {
+      "book": "kumar",
+      "printed": [
+        619,
+        619
+      ],
+      "status": "missing: PDF 95 ends at printed 618 and PDF 96 starts at 621",
+      "topic": "endocrinologie"
     }
   ]
 }

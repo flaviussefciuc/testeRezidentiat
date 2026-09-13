@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { QUESTIONS } from '../src/app/questions.ts';
+import { QUESTIONS,EXAM_AVAILABLE } from '../src/app/questions.ts';
 import { TOPICS } from '../src/app/topics.ts';
 import { score, maximum, summarize, topicStats, improvement, wrongIds, examQuestions } from '../src/app/scoring.ts';
 import type { Attempt, Question } from '../src/app/models.ts';
@@ -28,7 +28,9 @@ test('all 32 response patterns are scored correctly for CM keys of size two, thr
  }
 });
 test('exam has 200 distinct questions, 50 simple, 150 multiple and 950 points',()=>{
- const exam=examQuestions(QUESTIONS);
+ const fixture=[...Array.from({length:60},(_,i)=>({...cs,id:'cs-'+i})),...Array.from({length:170},(_,i)=>({...cm,id:'cm-'+i}))];
+ const exam=examQuestions(fixture);
+ if(EXAM_AVAILABLE)assert.equal(examQuestions(QUESTIONS).length,200);else assert.throws(()=>examQuestions(QUESTIONS));
  assert.equal(exam.length,200);assert.equal(new Set(exam.map(q=>q.id)).size,200);
  assert.equal(exam.filter(q=>q.type==='CS').length,50);
  assert.equal(exam.reduce((n,q)=>n+maximum(q),0),950);

@@ -1,6 +1,6 @@
 {
   "date": "2026-09-13",
-  "scope": "All 80 previously published source questions; older 200-question legacy bank is not rated by this review.",
+  "scope": "All 80 previously published source questions and accepted advanced versions. The separate legacy-question-review.json records the editorial admission review of all 200 original questions.",
   "minimumAccepted": 8,
   "scale": "1–3 direct recall with obvious exclusions; 4–5 standard recall; 6–7 useful discrimination but weak cues remain; 8 precise neighboring distinctions with plausible partial truths; 9 multiple demanding distinctions without cues; 10 exceptional integrative demand. Ambiguity and obscure wording never increase the score.",
   "reviewer": {
@@ -890,6 +890,209 @@
       "kind": "editorial-estimate",
       "reason": "Toate variantele sunt terapii reale pentru boli inflamatorii apropiate; două schimbă o țintă sau structură din aceeași familie terapeutică.",
       "replaces": null
+    },
+    {
+      "questionId": "endocrinologie-adv-001",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Perechi de mecanisme cu diferențe între hormon total, liber și raportul T4:T3; un singur profil izolat nu este suficient.",
+      "replaces": null
+    },
+    {
+      "questionId": "endocrinologie-adv-002",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Toate alternativele combină antigene reale; trebuie cunoscute ținta și tipul funcțional al anticorpului.",
+      "replaces": null
+    },
+    {
+      "questionId": "endocrinologie-adv-003",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Comparație cu trei dimensiuni: teren, mecanism și conversie; toate variantele folosesc mecanisme tiroidiene apropiate.",
+      "replaces": null
+    },
+    {
+      "questionId": "endocrinologie-adv-005",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Cere diferențierea efectelor materne și fetale și a transferului a trei categorii de molecule.",
+      "replaces": null
+    },
+    {
+      "questionId": "endocrinologie-adv-006",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Două profile biochimice aparent contradictorii trebuie integrate fără diagnostic printr-un singur test.",
+      "replaces": null
+    },
+    {
+      "questionId": "endocrinologie-adv-007",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Fiecare distractor păstrează etiologia corectă și schimbă un singur atribut evolutiv sau morfologic.",
+      "replaces": null
+    },
+    {
+      "questionId": "endocrinologie-adv-008",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Toate constatările pot apărea în hipotiroidism; eroarea este în atribuirea mecanismului, nu în prezența manifestării.",
+      "replaces": null
+    },
+    {
+      "questionId": "endocrinologie-adv-009",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Decizia depinde de timpul de la modificarea dozei, absorbție și diferența dintre interval normal și supresie.",
+      "replaces": null
+    },
+    {
+      "questionId": "endocrinologie-adv-010",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Distinge mecanisme oculare apropiate și disocierea dintre activitatea glandulară și orbitală.",
+      "replaces": null
+    },
+    {
+      "questionId": "endocrinologie-adv-012",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Profile hormonale similare sunt diferențiate prin distribuția captării și probabilitatea remisiunii.",
+      "replaces": null
+    },
+    {
+      "questionId": "endocrinologie-adv-013",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Solicită separarea a trei ritmuri de răspuns și a mecanismelor apropiate ale celor două medicamente.",
+      "replaces": null
+    },
+    {
+      "questionId": "endocrinologie-adv-014",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Distincția între cele două antitiroidiene trebuie integrată cu răspunsul precoce, orbital și tardiv.",
+      "replaces": null
+    },
+    {
+      "questionId": "endocrinologie-adv-016",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Distractorul reproduce un rezultat real de laborator, dar îi atribuie o echivalență tisulară falsă.",
+      "replaces": null
+    },
+    {
+      "questionId": "endocrinologie-adv-018",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Un rezultat aparent liniștitor trebuie condiționat simultan de stimulare și de validitatea metodei.",
+      "replaces": null
+    },
+    {
+      "questionId": "diabet-adv-001",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Alternativele combină modificări reale ale analogilor rapizi; sunt necesare atât poziția, cât și identitatea reziduului.",
+      "replaces": null
+    },
+    {
+      "questionId": "diabet-adv-002",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Distractorul păstrează poziția corectă de acilare, dar transferă între analogi structura legăturii; sunt comparate trei structuri apropiate.",
+      "replaces": null
+    },
+    {
+      "questionId": "diabet-adv-003",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Sunt necesare trei distincții: secreție versus concentrație, eliminare hepatică versus renală și debut versus evoluție.",
+      "replaces": null
+    },
+    {
+      "questionId": "diabet-adv-004",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Opțiunile intercalează două căi diferite și păstrează partea distală corectă în distractori.",
+      "replaces": null
+    },
+    {
+      "questionId": "diabet-adv-006",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Necesită clasificarea unor denumiri moleculare apropiate în trei roluri etiologice diferite.",
+      "replaces": null
+    },
+    {
+      "questionId": "diabet-adv-007",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Perechi de gene reale cu o jumătate corectă în majoritatea distractorilor; diferențiere KCNQ1/KCNJ11 și factor de transcripție/canal.",
+      "replaces": null
+    },
+    {
+      "questionId": "diabet-adv-008",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Distractorii păstrează vârsta sau hipoglicemia neonatală corecte și transferă alte trăsături între subtipuri.",
+      "replaces": null
+    },
+    {
+      "questionId": "diabet-adv-009",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Distincțiile nu urmează o creștere/scădere uniformă: unele căi rămân active, iar hiperinsulinemia coexistă cu deficitul relativ.",
+      "replaces": null
+    },
+    {
+      "questionId": "diabet-adv-011",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Sunt integrate două sisteme de praguri și două momente de recoltare, fără valori-limită ambigue.",
+      "replaces": null
+    },
+    {
+      "questionId": "diabet-adv-013",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Necesită ordonarea a două praguri și separarea reglării intra-insulare de insulina exogenă.",
+      "replaces": null
+    },
+    {
+      "questionId": "diabet-adv-015",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Distractorii atribuie diferența de durată altui mecanism ionic sau independenței β-celulare, păstrând clasa terapeutică apropiată.",
+      "replaces": null
+    },
+    {
+      "questionId": "diabet-adv-016",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Alternativele păstrează sinergia și sensibilizarea corecte, dar modifică ținta comună presupusă sau sursa insulinei.",
+      "replaces": null
+    },
+    {
+      "questionId": "diabet-adv-017",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Distractorul folosește o proprietate moleculară adevărată pentru a deduce greșit o asociere terapeutică.",
+      "replaces": null
+    },
+    {
+      "questionId": "diabet-adv-018",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Necesită diferențierea a trei efecte renale/metabolice și a doi transportori cu nume apropiate.",
+      "replaces": null
+    },
+    {
+      "questionId": "diabet-adv-019",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Perechi cu un atribut corect solicită diferențierea unor terapii apropiate ca efect glicemic, dar cu ținte distincte.",
+      "replaces": null
     }
   ],
   "held": [
@@ -904,6 +1107,72 @@
       "score": 7,
       "kind": "editorial-estimate",
       "reason": "Tiparele sunt apropiate, dar seronegativitatea formei rapid progresive este unicul distractor și rămâne prea previzibil; versiune nepublicată."
+    },
+    {
+      "questionId": "endocrinologie-adv-004",
+      "score": 7,
+      "kind": "editorial-estimate",
+      "reason": "Originea și markerul tumoral sunt prea ușor de recunoscut în această formulare. Neacceptată pentru publicare."
+    },
+    {
+      "questionId": "endocrinologie-adv-011",
+      "score": 7,
+      "kind": "editorial-estimate",
+      "reason": "Distractorii despre specificitate și ablație sunt prea ușor de exclus. Neacceptată pentru publicare."
+    },
+    {
+      "questionId": "endocrinologie-adv-015",
+      "score": 7,
+      "kind": "editorial-estimate",
+      "reason": "Mai multe variante repetă aceeași distincție despre persistența anticorpilor. Neacceptată pentru publicare."
+    },
+    {
+      "questionId": "endocrinologie-adv-017",
+      "score": 7,
+      "kind": "editorial-estimate",
+      "reason": "Clasificarea investigațiilor oferă un distractor prea evident. Neacceptată pentru publicare."
+    },
+    {
+      "questionId": "endocrinologie-adv-019",
+      "score": 7,
+      "kind": "editorial-estimate",
+      "reason": "Opțiunile repetă aceeași idee de expresie incompletă MEN 2. Neacceptată pentru publicare."
+    },
+    {
+      "questionId": "endocrinologie-adv-020",
+      "score": 7,
+      "kind": "editorial-estimate",
+      "reason": "Distractorul despre normalizarea hormonală repetă obiectivul altei întrebări orbitare. Neacceptată pentru publicare."
+    },
+    {
+      "questionId": "diabet-adv-005",
+      "score": 7,
+      "kind": "editorial-estimate",
+      "reason": "Distincțiile sunt utile, dar creierul insulinodependent este prea ușor de exclus. Reținută ca proiect nepublicat."
+    },
+    {
+      "questionId": "diabet-adv-010",
+      "score": 7,
+      "kind": "editorial-estimate",
+      "reason": "Un singur concept rezolvă toate opțiunile; se suprapune cu obiectivul întrebării despre mecanisme. Neacceptată."
+    },
+    {
+      "questionId": "diabet-adv-012",
+      "score": 7,
+      "kind": "editorial-estimate",
+      "reason": "Distractorii pot fi eliminați doar prin traseul portal, fără discriminare suficientă. Neacceptată."
+    },
+    {
+      "questionId": "diabet-adv-014",
+      "score": 7,
+      "kind": "editorial-estimate",
+      "reason": "Definiție izolată cu alternative ușor de departajat; neacceptată."
+    },
+    {
+      "questionId": "diabet-adv-020",
+      "score": 7,
+      "kind": "editorial-estimate",
+      "reason": "Ultimul distractor poate fi eliminat prin efectul ponderal uzual al pioglitazonei. Neacceptată pentru pragul cerut."
     }
   ]
 }

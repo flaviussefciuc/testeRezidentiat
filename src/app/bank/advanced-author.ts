@@ -8,7 +8,7 @@ export interface AdvancedQuestion extends SourcedQuestion {
 
 // Ratings are editorial judgments, never inferred from the answer count.
 // Published revisions receive a new ID so historical answers keep their meaning.
-export function advancedQuestion(topic:string,chapter:number,pdfOffset:number,id:string,row:SourceRow,rating:[score:number,reason:string],expressions:string[],replaces?:string,relatedPages:number[]=[]):AdvancedQuestion {
+export function advancedQuestion(topic:string,chapter:number,pdfOffset:number|((page:number)=>number),id:string,row:SourceRow,rating:[score:number,reason:string],expressions:string[],replaces?:string,relatedPages:number[]=[]):AdvancedQuestion {
  const q=sourceChapter(topic,'Kumar & Clark','Medicină clinică, ediția a 10-a, text român',chapter,pdfOffset,[row],{1:relatedPages})[0];
  return {...q,id,difficulty:{score:rating[0],kind:'editorial-estimate',reason:rating[1]},textbookExpressions:expressions,...(replaces?{replaces}:{})};
 }

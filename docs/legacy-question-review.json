@@ -1,0 +1,3406 @@
+{
+  "scope": "All 200 original questions, including the 20 retired earlier",
+  "minimumAccepted": 8,
+  "questions": [
+    {
+      "questionId": "sepsis-01",
+      "questionFingerprint": "7af06b9036c6eb8338a23310f9c7b41c91767faa1b43ead1d86c8b8838de28c8",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Definiție directă; febra și leucocitoza izolate nu oferă alternative apropiate."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "sepsis-02",
+      "questionFingerprint": "da4722fb9c7c450370e53b9923c8d823e5fc6c1e4781ada28f8b80ed3325fa8d",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Lactatul este singurul marker de hipoperfuzie dintre alternative."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "sepsis-03",
+      "questionFingerprint": "9a62a9671437dfae2a426ae4e351e2637d5231b058a3eaf9f363ee3e05685d3e",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Absența disfuncției de organ contrazice chiar suspiciunea testată."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "sepsis-04",
+      "questionFingerprint": "a55a8c62cbdecb5e1610c7193897c1d4d9a2f5c6d7e7729c27b01d47dd79b60b",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Întotdeauna și lipsit de importanță oferă două indicii de excludere."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "sepsis-05",
+      "questionFingerprint": "3e29d9baf9c138ffa647cd5228de91bba6cb4ed85ebf0a45492ae73b4aef779f",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Generalizările despre culturi și așteptarea tratamentului simplifică excesiv."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "electroliti-01",
+      "questionFingerprint": "615826144bd877cefd217f070705269033cfbf09da4db003d9833816b4069752",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 4,
+        "kind": "editorial-estimate",
+        "reason": "Enunțul identifică deja componenta primară și compensarea."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "electroliti-02",
+      "questionFingerprint": "432631f35743d4d9b3a9d96f1477f6fe6b3aac6e6abda8431a6a8ae1606cb8d5",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Fapt elementar despre compartimente, fără discriminare suplimentară."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "electroliti-03",
+      "questionFingerprint": "6a294819f94fe1baeb355844df1ae6159e1d17333c0f0336c7c4fe23936490c8",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 4,
+        "kind": "editorial-estimate",
+        "reason": "Vărsăturile sunt contrapunctul didactic standard al diareei."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "electroliti-04",
+      "questionFingerprint": "a7c805dc81d3b005f1cfda33652354f56b9167b97096e1451265d5e449ef439a",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Protecție completă împotriva aritmiilor este evident fals."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "electroliti-05",
+      "questionFingerprint": "342a1d3ff4ddf32dd76e077a5aa4778f7ae4c8564e4a2f248862c95437ddb8c1",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Compensarea care exclude tulburarea mixtă este unica generalizare falsă."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "ati-01",
+      "questionFingerprint": "fb7af729eb11b4c19c910a8b663e5f55d7d32d3803d523e2411bf596dce5b045",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Definiția hipercapniei este dezvăluită de termen."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "ati-02",
+      "questionFingerprint": "437ae3ba48306af3728b863f117f5f882ad8bbc06bebc35048717b7d41648a85",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "O singură investigație măsoară gazele; restul sunt categorii îndepărtate."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "ati-03",
+      "questionFingerprint": "f743184255cb2555300aa5e1a9313e257f2bdd956736b8e48d47f1988615b37c",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Miopia este fără legătură cu SDRA."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "ati-04",
+      "questionFingerprint": "3b808930d68d4e917cafa4cf67baf0165111ab1c3633ca7d2ad7f3393f7e6812",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Întotdeauna și orice fac distractorii ușor de eliminat."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "ati-05",
+      "questionFingerprint": "88ba543d74819bf51a4dde49c6623f67d345f0d3d6f34fd39c9543c742c126b7",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Exclusiv cardiacă este contrapunctul definiției SDRA."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "hematologie-01",
+      "questionFingerprint": "0b7dfed070e890eca26c6c59a779cc24db41b2f66a4432e1cde3e6b978a0f99e",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 4,
+        "kind": "editorial-estimate",
+        "reason": "Combinație standard de doi markeri; alternativele sunt îndepărtate."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "hematologie-02",
+      "questionFingerprint": "14556742c18d12718c7bee0909a028a7cae850a6310b23eb760df378c2703cae",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "B12 este singura alternativă cu relevanță megaloblastică."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "hematologie-03",
+      "questionFingerprint": "40b634f48760755f63f020f8e3a35c8c4aff4b1027de9b3cbeab981cdfc3752c",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Creșterea obligatorie a haptoglobinei inversează markerul clasic."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "hematologie-04",
+      "questionFingerprint": "9a00707375746b8deee3274faa460bce3908fa1eaec43f7ac6fba944bda17644",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 4,
+        "kind": "editorial-estimate",
+        "reason": "B12 și folatul oferă aceeași excludere prin macrocitoză."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "hematologie-05",
+      "questionFingerprint": "0604ff9ede36c202c07f2e1f047387a8617394701865f86b4fd1f7ad44f4a072",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Deficitul de fier și excluderea distrugerii periferice sunt prea îndepărtate."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "reumatologie-01",
+      "questionFingerprint": "b47990291a95b92618f858bc5d432ecaf78df38e869d4370c7433b4298d716ac",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Exclusiv și absența sinovitei elimină trei opțiuni."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "reumatologie-02",
+      "questionFingerprint": "de2c59330026f86106cdde09477b61e7b2fa0c9a052dd8c48d32f87ca2b98103",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Debutul după 80 de ani și durerea de câteva secunde sunt evidente."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "reumatologie-03",
+      "questionFingerprint": "6e767c5469a7a09ac36c0cebddcee76e2020f18ca6917edb8a45af9aeb501510",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Afectare cutanată fără artrită contrazice entitatea din enunț."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "reumatologie-04",
+      "questionFingerprint": "d925c13948fdeb57aff59803b5d1ae9d92155e94ca1b48251aefe41ad28075b2",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Limitarea obligatorie la piele contrazice denumirea sistemică."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "reumatologie-05",
+      "questionFingerprint": "abe82431a64ca007a86f7feda84216d8fd7795f10df3b5ce6897dfd303ede27c",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Nodulii reumatoizi obligatorii sunt singurul distractor și din altă boală."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "endocrinologie-01",
+      "questionFingerprint": "2b052cc6de6c829c784fe2687a16d2a34df763d3e36f5841ad57517f37256ce6",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Profil hormonal uzual; trei variante sunt marcate de generalizări."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "endocrinologie-02",
+      "questionFingerprint": "b3665edb3b5d42f6e19cfc95f40b5397db4644f8114911f9b8c189dca5c39cff",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Opțiuni tipice de hipotiroidism și generalizări evidente."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "endocrinologie-03",
+      "questionFingerprint": "e941cdc34914bbf839f4d1b0b290f32e37db2ed3cf6ae519bcfe567aac26f24f",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Tremorul și hipersudorația sunt contrapunctul didactic standard."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "endocrinologie-04",
+      "questionFingerprint": "505e239638c9792aa21f17d951e4e461975f02636cbf46e1deca79f8e7fc1a45",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "TSH constant crescut este singurul distractor evident."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "endocrinologie-05",
+      "questionFingerprint": "58fbbc3a5bf03c32937e1721b97a12dca1f381cfe4f84335c50e8f11480d658b",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Toți maligni și dimensiunea singură sunt generalizări eliminabile."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "diabet-01",
+      "questionFingerprint": "712b4082e0e427afb4789ed8776741e90e27a4db9a89824c0b48146bf6f824d2",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Definiție de bază cu mecanisme din afara diabetului."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "diabet-02",
+      "questionFingerprint": "df94b6eaa14836b70f45445a24b920903c6637e12a8cedd8a7683b4acad4077d",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "HbA1c concurează cu sodiu, uree și albuminurie."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "diabet-03",
+      "questionFingerprint": "f1fdd32a79b79441bb465372aa11d6edfa54232994c0dee89c533f3c5199b3b4",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Anurie obligatorie este opusul poliuriei din aceeași listă."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "diabet-04",
+      "questionFingerprint": "bd5314c36372d7bd287f52dc4547a26f9401456949f10764da6c51c9c7000e7d",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Alcaloza izolată contrazice chiar numele cetoacidozei."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "diabet-05",
+      "questionFingerprint": "fa011e40c66fc7658b19673b535828f94a7b306b2557571b4b38a957c452ebad",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 4,
+        "kind": "editorial-estimate",
+        "reason": "Lista clasică microvasculară versus două manifestări macrovasculare."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "neurologie-01",
+      "questionFingerprint": "6143a71cd79de9c6930e147a7601c462d025d97f4beba025f6204d3bf1f4edbe",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "AVC concurează cu rinită, dermatită și artroză."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "neurologie-02",
+      "questionFingerprint": "9a3fc0831a59adf76d2a7f787bab66ca3c103b1773715a0c447fad8cb152e39c",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "CT concurează cu teste fără relevanță intracraniană."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "neurologie-03",
+      "questionFingerprint": "6a03619a9b4c19805b734e9a08b862b8f5e869b483decf18bdd5b223d5695174",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Pruritul cronic este un distractor fără legătură."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "neurologie-04",
+      "questionFingerprint": "5633eb94869bc80bf3da2510a236021921b929e4997ed4e0648dbf470d349589",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Absența inflamației meningeale contrazice definiția."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "neurologie-05",
+      "questionFingerprint": "7fa24429575f7fcaaf1196f2c6f7210a40df99e647b2b4cb7fb12e497cd1a369",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Orice comă psihogenă este o generalizare evidentă."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "pneumologie-01",
+      "questionFingerprint": "7578be39ba7b29ad1735112adfa77e79019536e2495483672dd54fff5c92a28f",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Definiție de bază și variante cu afirmații absolute."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "pneumologie-02",
+      "questionFingerprint": "4ca21072713de747f292fce27c7d05871bcc886103c9b43d280e8b198a6169d1",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Fumatul concurează cu apă, ochelari și lumină solară."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "pneumologie-03",
+      "questionFingerprint": "e869785fd862c27f2ffea0f31ea0828b0d00c2601fb6432ce1e9fab23b47b016",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Hemoptizia masivă obligatorie este foarte ușor de eliminat."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "pneumologie-04",
+      "questionFingerprint": "1ee86f3c41d91088c8b8af4bb79dda7ca9877e187534e99687bb66acc2d0d1aa",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Absența obligatorie a simptomelor este singurul distractor."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "pneumologie-05",
+      "questionFingerprint": "bba3e05d02806d4bd4c3ff00bf08c2f22baa4b5eef62ccc5e5dc2f4a1a225745",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Transmiterea prin țânțar este fără legătură cu tuberculoza."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "tromboembolism-01",
+      "questionFingerprint": "2b9e5a494cd1f4bb2e610a3e3a03d683d30b4bc755b371d133ce49fa2b31a381",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Ecografia concurează cu audiogramă și EEG."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "tromboembolism-02",
+      "questionFingerprint": "04b34083a3970b5fb197eee93bdf8d0ac18ec74b24579a4cd24c7fab3f215301",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Embolia pulmonară concurează cu otită, cataractă și apendicită."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "tromboembolism-03",
+      "questionFingerprint": "dde348069071c6b1965d1e1a444f89bc3e99fa9f42c2123df62cfc2203b11695",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Mobilizarea precoce este contrapunct evident al imobilizării."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "tromboembolism-04",
+      "questionFingerprint": "83182ad3cbf37dee1fecff5fce3b6ab5ad2a8e6584a2a5c6e9cc3ef6dd7143ff",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Bradicardie obligatorie cu excluderea hipoxemiei este un indiciu clar."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "tromboembolism-05",
+      "questionFingerprint": "55af33f5035997b9512d8bddec49827d02ea62cf309f8349bf773ed283952a38",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Confirmă singur și complet independenți oferă indicii de generalizare."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "cardiologie-01",
+      "questionFingerprint": "d50c4b3121b1d223610e540e3a3e32d25e71289b89d89cae0ff31a2fbef4d0f6",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Neregulat versus variante explicit regulate."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "cardiologie-02",
+      "questionFingerprint": "a8fae255c30863122c60a7c0e0fc48d67f7bb87a84efd9176a2d29088929c513",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Troponina concurează cu markeri din alte organe."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "cardiologie-03",
+      "questionFingerprint": "29548d4178f8c59c4fdff54178ec32b1e994f8bdf48471bd6f7464c10aca0ace",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Ameliorarea obligatorie în decubit contrazice ortopneea."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "cardiologie-04",
+      "questionFingerprint": "4bc3e4c4279863aef4ef745e5af0560819d6d01c3d968c5f3544d8b088f78467",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Absența congestiei este opusul listei de semne congestive."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "cardiologie-05",
+      "questionFingerprint": "4e6f327e6ab1ef0b40977d4a906f682d095bff22c648b89b2205e78f05eca7ab",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Întotdeauna exclusă este un indiciu evident."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "cardiologie-06",
+      "questionFingerprint": "c4ceace12c28cd5117ffc89a7e58c801e03c9617542acdb80218354d32b3408a",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 4,
+        "kind": "editorial-estimate",
+        "reason": "Suflul de regurgitare este opusul didactic al stenozei."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "cardiologie-07",
+      "questionFingerprint": "7ae7fc3d6c9e944aec9d00862b90ef8a4fa487d4e3caaf1eca18c776f75665a2",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Durerea obligatoriu absentă contrazice primele două opțiuni."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "cardiologie-08",
+      "questionFingerprint": "8d6976c850397d3273b1fd029c2627ea1647cc1a79ec58c1b759be065a28cc7c",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Debitul cardiac crescut este singura inversare evidentă."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "cardiologie-09",
+      "questionFingerprint": "1abf702a31aebb62a9e66339699a9e50d8e81601e14291a9df73b85dc5919d88",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Risc identic pentru toți contrazice evaluarea individuală."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "cardiologie-10",
+      "questionFingerprint": "b2eea45ed8e88e35c949884a52617f4510451139c484c0cea741597f3930bb80",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Exclusiv tip 1 contrazice chiar enunțul despre alte cauze."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "hta-01",
+      "questionFingerprint": "277366b9773d0c57972d293efc8ddc8340a425c7833fcfd3fdcec3248b180661",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Opțiuni absolutiste versus o propoziție prudentă."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "hta-02",
+      "questionFingerprint": "9af674ee57fa586282cc0e66342da60115061fe25e95ac0c10c4cfb918a43a35",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Niciun organ fără cefalee este un distractor evident."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "hta-03",
+      "questionFingerprint": "09b4731e75384b24a789dc00e23aad8bfe4927607966d7dafbd4d3341fcf80c2",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Creșterea sării este opusul primei opțiuni."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "hta-04",
+      "questionFingerprint": "23f91499ab47d38731a680d5c899204909c21d7b72fe0779fb0e93b7ff08e8b7",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Miopia nu aparține cauzelor endocrine și renale."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "hta-05",
+      "questionFingerprint": "b1962a7e26646b3dcf2b6a16c16bf0edab5d683955482231f26c848d4cc30fe7",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Fără afectare de organ contrazice contextul din enunț."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "gastro-01",
+      "questionFingerprint": "584c0118d7b2121a250af5c18371cb3f50f7c55e72b6de7688d1821410202d0a",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Pirozisul concurează cu simptome non-digestive."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "gastro-02",
+      "questionFingerprint": "a946d31bd30935e81b5ba321b222e89a3846d8b0c0875ee4df9caf3d826034b0",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Întotdeauna nepatogenă este evident fals."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "gastro-03",
+      "questionFingerprint": "f9362924d9ab73c5d7d29dc1fe7f8e730f94574d43ce234a1932094243512f43",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Limitarea obligatorie la rect este o generalizare simplă."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "gastro-04",
+      "questionFingerprint": "71bcdaacff711ce572bd10b7fd06082978887209cd733976a6c29ca2f944d2c9",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Jejunul și fistulele transmurale sunt contrapuncte didactice evidente."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "gastro-05",
+      "questionFingerprint": "6780bb0fa16718a6ea5fbca31658f5765983ce056998c3aaf563d72f117e5d8e",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Pirozisul ca echivalent obligatoriu de cancer este absurd."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "hepatologie-01",
+      "questionFingerprint": "15cfce57f4043f6f3cf7c112a2edee370180ccb2118a9e17107cf17c5fea7d81",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Varicele concurează cu afecțiuni non-hepatice."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "hepatologie-02",
+      "questionFingerprint": "66e42288c935279a8db5e239840a159f50a5093b7571d26caba9968cde47596f",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Absența hipertensiunii portale este singura generalizare falsă."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "hepatologie-03",
+      "questionFingerprint": "365eea7fdc73650380c8b929ff4e3294d8c25ab199b28bec0cc31207d2ce743e",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Imunitatea față de sedative nu este un factor clinic plauzibil."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "hepatologie-04",
+      "questionFingerprint": "f79892f2aeb212ff1583c7604e6b7cb3e2fcfdd74d88d11037dfd0a839b72b1c",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Toate exclusiv alimentare este o generalizare evidentă."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "hepatologie-05",
+      "questionFingerprint": "c00e74c7ebfc48301357cb95dc56c31a665f0d18b87d902a60357e1810f470f1",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "INR și timpul de protrombină dublează obiectivul; hemoglobina este nerelevantă."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "nefrologie-01",
+      "questionFingerprint": "3d8c8f5b74004ca4aa79b0e212c14b3db55657714b134e97efa7386258e9f71a",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 4,
+        "kind": "editorial-estimate",
+        "reason": "Prag unic; celelalte durate sunt foarte îndepărtate."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "nefrologie-02",
+      "questionFingerprint": "2546a7dbcc6c002f3b665cdf61c32898f12055d8551c71b614e0b67fce895884",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Absența proteinuriei contrazice prima opțiune."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "nefrologie-03",
+      "questionFingerprint": "abb994d9563db19af927dbad75ac2a08beda3266993b84149262199b186098e7",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Absența inflamației contrazice sindromul nefritic."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "nefrologie-04",
+      "questionFingerprint": "b3ce8bcce26dc54a21ee31c55cc08db678490d93dfe245c9b7f31e4fae92397d",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Creșterea eritropoietinei este inversarea unui mecanism uzual."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "nefrologie-05",
+      "questionFingerprint": "bd20027e8b50fe62299cc459a1fb69ba0d09c3fd68febcbec820c7201c7c6a7a",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Toate semnele la fiecare pacient este un indiciu de redactare."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "hiv-01",
+      "questionFingerprint": "1226bcc9e6cbb61b634705b3142fbcfe154ad5c3aba61419ae556106aa27974f",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "CD4 concurează cu osteocite și adipocite."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "hiv-02",
+      "questionFingerprint": "c093656256b31b3583ad50ff1e51d5181ab0dc97c6800fa27ecf668ee572b604",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Strângerea mâinii este o excludere de educație sanitară de bază."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "hiv-03",
+      "questionFingerprint": "797397fc173a806735d159192ae4282f27c0ff9158a75e34e321ca2684e5e255",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Eradicarea obligatorie este o generalizare evidentă."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "hiv-04",
+      "questionFingerprint": "36a21befcea1b4f0393aa99ed87bc34320fff2041fa404dd35a4980330e6a28a",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Rinita alergică nici nu este infecție."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "hiv-05",
+      "questionFingerprint": "a73ad8c1484f2f001f63d9221e24681e32a1497c25e06f5bbc05327819a99fe6",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Antibioticele obișnuite în locul antiretroviralelor sunt nerelevante."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "perioperator-01",
+      "questionFingerprint": "b92f935cab515f202e3e71e2abbfc8069b19f4682d688d7694ba4d37cf4e7b31",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Evitarea anamnezei și înlocuirea consimțământului sunt absurde."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "perioperator-02",
+      "questionFingerprint": "273fd4ba6487a4b0222dd949ddb94a8be14d570d9f5914f3b24b941a85028089",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Ignorarea capacității funcționale este singura opțiune negativă."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "perioperator-03",
+      "questionFingerprint": "b2b0d88550a5c0ee7fd362d0b48a761129ecf8b7f87eea644ef3b45e38c704b1",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Absența oricărei boli ca risc obligatoriu este absurdă."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "perioperator-04",
+      "questionFingerprint": "cfe8d3fd05495258b12f7883ce6158b651b7b374b3857177b3c25b006905e9c4",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Semnătura fără discuție este o excludere etică de bază."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "perioperator-05",
+      "questionFingerprint": "f02f57724580e36676f65cb152ee950bc522bf8fcf8dae9752b1cdba2fc544ba",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Repausul strict pentru orice operație este un indiciu de generalizare."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "hemostaza-01",
+      "questionFingerprint": "f0f3a9dfc8bcb6777e33ed0bdf68d1e7737d1231a53f7b82989e0fd6314587e1",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Trombocitele concurează cu uree, bilirubină și sodiu."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "hemostaza-02",
+      "questionFingerprint": "91487b864e05d78cc715b5aba2df32216f0b8e0d278857baad91cefffa63973f",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Absența endoteliului este unicul distractor."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "hemostaza-03",
+      "questionFingerprint": "fa3821d479eedce43123a53a301fb0ef2b717a0d01a5ef743d1bdd615765fb15",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Absența manifestărilor cutanate contrazice peteșiile."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "hemostaza-04",
+      "questionFingerprint": "6e820122dc6846c1c8f555e4ddd26eb6203dd34ef373a3e2d8321fc1021ae50a",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Absența oricărui risc biologic este evident falsă."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "hemostaza-05",
+      "questionFingerprint": "cd10e6f3fe17c27dc5f64789407dc2b898f028d6b51f751453543b281845e561",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Toate sângerările exclusiv chirurgicale este o generalizare evidentă."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "infectii-chir-01",
+      "questionFingerprint": "6655317d9c7648ab3c46b979beffaf96a62094d15c1ff4a6163b640b9072448f",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Puroiul concurează cu vindecarea completă."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "infectii-chir-02",
+      "questionFingerprint": "b7b1ea18621e1d5d5bb153976826d6ae3a8bbb1595ef48a99db6b16196142810",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Vindecarea accelerată obligatorie contrazice infecția."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "infectii-chir-03",
+      "questionFingerprint": "6ca91286581064668bc5d493eca0948ec8589822281960f377bb0df42e5088ee",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Asepsia drept factor favorizant este evident falsă."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "infectii-chir-04",
+      "questionFingerprint": "b07cbd6e0214acf3f5b40f46633766a5c67b538a5ff20802a995504ef19db6c9",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Evoluția benignă fără tratament contrazice infecția necrozantă."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "infectii-chir-05",
+      "questionFingerprint": "5ee4a9b481c8f10dfd8a5826a084e0675fa46c87f080c94dffdc9b95b54684cb",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Doar analgezice în toate cazurile este evident insuficient."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "trauma-01",
+      "questionFingerprint": "5c22783cef4eb4aa2e165bc1cdd5aaf90ad0d94f3ea6b22c52a5ff34e7f95b37",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Acronim de bază; alternativele nu sunt etape de evaluare."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "trauma-02",
+      "questionFingerprint": "9d1089e23062552de74cdd696695ff8b295914a7139bd92a1dd98e59722a3edf",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Tensiunea normală care exclude hemoragia este o generalizare uzuală."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "trauma-03",
+      "questionFingerprint": "b970c7323b8f4117b450184c3bcaf599bda7b281a73775e77b42772f109933cf",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Contuzia explicit minoră fără repercusiuni se elimină imediat."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "trauma-04",
+      "questionFingerprint": "58e920d42ad6348ad295c46b44ec9c5334faa1ed3a9625fe652d7d6c51574db2",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "100% și toate fracturile sunt indicii de redactare."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "trauma-05",
+      "questionFingerprint": "0b23e7db9ab04b2cd7cd4900c666c1f3a75ad43cbf032721df5b78a23ee00890",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Examenul inițial în locul monitorizării este evident fals."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "arsuri-01",
+      "questionFingerprint": "ce78f7ab47719c3a5292e06cad30c8912cc8c24acb552e0d7811b687d18fb48d",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 4,
+        "kind": "editorial-estimate",
+        "reason": "Un singur procent din regula de bază, fără aplicare combinată."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "arsuri-02",
+      "questionFingerprint": "ca80fb8f8e9e51c9bff703b7b83129c2a612c141a52f26cd543d7bbab306a759",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Culoarea hainelor nu este o alternativă clinică."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "arsuri-03",
+      "questionFingerprint": "71b0eb6a8c1e6e220c2643b05a0753be6374f7e2c9f2c34e243384da41d783dd",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Absența obligatorie a simptomelor este un distractor evident."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "arsuri-04",
+      "questionFingerprint": "941ad6c0093c7ee9c5e838152cad2876449282aa47d6ca8632f4951a57f620e9",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Vindecarea rapidă fără sechele contrazice profunzimea."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "arsuri-05",
+      "questionFingerprint": "4aba2a3afd548ee0f866f0c3a9b872063bc4bbeebe6afafab1dafdc7f668a61c",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Lichidele fără reevaluare sunt evident improprii."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "hernii-01",
+      "questionFingerprint": "93cd12d81433d4ed6c662de7831d691cd50d5da13387231a3f35bd0e3a97d7ca",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Definiție de bază versus variante care neagă ischemia."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "hernii-02",
+      "questionFingerprint": "7dff51eb6a97eeb8ada985ea52d4e603b5bb8049f0f483dd7cb8f2c4b472dafa",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Localizarea craniană nu este plauzibilă pentru hernie inghinală."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "hernii-03",
+      "questionFingerprint": "f69e4926561ece66ffa3eda59bc722b33086186c3e505d5f508c5b4e7de0cc96",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Absența oricărei modificări contrazice complicația acută."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "hernii-04",
+      "questionFingerprint": "7dd4ec782afe18248ebf5468e13f7f42994c0bfe82e658a1821004a07a03efa0",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Toate asimptomatice este o generalizare evidentă."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "hernii-05",
+      "questionFingerprint": "992e9890ef371449e5f71d1e6164c742adcbc69f0d6d01cb9691e5539a4caa92",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Deasupra ombilicului este fără legătură cu canalul femural."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "esofag-01",
+      "questionFingerprint": "2950ca1ab4ac210b842dd2a864240a9023682e3ee488a2263d113f901ec13663",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Acalazia concurează cu boli ale altor organe."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "esofag-02",
+      "questionFingerprint": "16f28293f99eb242d41984937a51ff8795fd26c56720ce5c7da52c100d187d34",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Absența dificultăților de înghițire contrazice disfagia."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "esofag-03",
+      "questionFingerprint": "16da386fdf89494d24913667ea9b100d288f1cc7d2b52f6eef42788ed1af14e5",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Lipsa riscului este absurdă în perforație."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "esofag-04",
+      "questionFingerprint": "f8036d874fdb2ef11f053fd948b5ff1fa24903a736380b06bb475e04b63dca47",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Sinonimia cu hernia inghinală este evident falsă."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "esofag-05",
+      "questionFingerprint": "4283fce23403400e2f14e18b1f8c6e880b67555eba84da41963252548092608c",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Hipersecreția de insulină este fără legătură cu acalazia."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "stomac-01",
+      "questionFingerprint": "506fec57691aefe6426aeb0b5d36c5af3aceaa5dfd61c2df06bc22fb51949ec5",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Dumpingul concurează cu obstrucție ureterală și infecție auriculară."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "stomac-02",
+      "questionFingerprint": "ccf2ba29b12fce56bcac596d4068ccba183fd024f4e2f5abaed71b089ad7a1a7",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Absorbția garantat normală este o generalizare evidentă."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "stomac-03",
+      "questionFingerprint": "51a144ab6b043e1a5ac0f0aec95a385d278259ca15df9bbf55ca19415b7da620",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Excluderea sigură prin absența durerii este o generalizare evidentă."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "stomac-04",
+      "questionFingerprint": "eeb00a9e96b583456b9df4fbc16e7401ce3a46da44ccc6b69b346d2ffdc6cbde",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Garanția absenței controalelor ulterioare este un distractor evident."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "stomac-05",
+      "questionFingerprint": "e11a185293bae16ac36f20a0b2a16ad90f02f21b4c7ca52c6ee04a1e9921c7a8",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Creșterea obligatorie a factorului intrinsec contrazice rezecția."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "intestin-01",
+      "questionFingerprint": "4e941bdf4967e1c7934fbfa15a5a6c3d2fda174b2b8847c806136058262c09f2",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Singura variantă abdominală oferă răspunsul fără cunoașterea apendicitei."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "intestin-02",
+      "questionFingerprint": "ed0e24f9ca4e834a6073c72ed6d4ff62c5e26872cacd6e1fc3106eec9ce3e28b",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Tranzitul garantat normal contrazice ocluzia."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "intestin-03",
+      "questionFingerprint": "18dc32e4baffa911673bd8bf2c54610da7a1435b542693b5922222881bf5c95b",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Fără obstacol contrazice mecanismul mecanic."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "intestin-04",
+      "questionFingerprint": "218f2cbe53e00443c7849b3bf4bf5d6ff9dde6d434b22cd20d6aa66e33c73f25",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Obligatoriu benign este absurd în ischemia acută."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "intestin-05",
+      "questionFingerprint": "9f1581b125671dab6dd862240bf2082936a4bb4f8160e68c04da3174f430e33b",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Vindecarea obligatorie fără intervenție este un indiciu evident."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "colon-01",
+      "questionFingerprint": "95627206c4332cc7bb56804146ad1f5f07249cae4aa91c06032419eea3511ca2",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Singura variantă intestinală definește volvulusul."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "colon-02",
+      "questionFingerprint": "18b60c90ed6657cb3012a31eb299ed8267eace719bc4722269dcba76a8b95a75",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Absența obligatorie a precursorilor este o generalizare evidentă."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "colon-03",
+      "questionFingerprint": "34c3ebaf3111cfe91a5c4c681668abf53bcb181c10d0b93d7de1dfa300251927",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Abolirea oricărui risc inflamator contrazice diverticulita."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "colon-04",
+      "questionFingerprint": "f6d60daaa741d20236abaaa771d2ee885f6bff1ce1086adf7fa712532310ba71",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Orice sângerare automat hemoroizi este o generalizare evidentă."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "colon-05",
+      "questionFingerprint": "d31239869f285051037510f84ef6716d4402cf9beabfb88d09a944d96ca696df",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Absența obligatorie a durerii contrazice prima opțiune."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "biliar-01",
+      "questionFingerprint": "eb332d6fafdc8a0ae55790980775df0be053ebcafc0b984b5b9a9b9a570fe6a2",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "O singură triadă hepatobiliară între manifestări din alte sisteme."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "biliar-02",
+      "questionFingerprint": "ff72bf25b91f009a81c313d43e271fdc1660b4a4a35792a9c590f17da28424d2",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Excluderea oricărei inflamații este o generalizare evidentă."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "biliar-03",
+      "questionFingerprint": "781068c8e4454795e8200eda88ee29ee254b75765b53070613302150abcd56fa",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Durerea la degetele mâinii este nerelevantă."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "biliar-04",
+      "questionFingerprint": "c19d2494e34dc1f5db12ef017c890ab4aebdc6d741396eef94bf2bfb4675acdc",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Scăderea bilirubinei conjugate inversează mecanismul."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "biliar-05",
+      "questionFingerprint": "78b2412e3f58a21ae481bcd54790d83f55c660ebf64708b731cc3bb1451bfa17",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Orice calcul cu certitudine absolută este un indiciu de redactare."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "pancreas-01",
+      "questionFingerprint": "a61fa8540534565e46d77b499d71480366266186f7797e8e70ec8d04c9395cf6",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Singura durere abdominală dintre alternative."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "pancreas-02",
+      "questionFingerprint": "024d7b020288220a81bcb735b6e96f853d51694c232448ee4d02593d360ae52c",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Miopia este nerelevantă pentru pancreatită."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "pancreas-03",
+      "questionFingerprint": "0a271b573597c2666c8ec321394a2a3bc5a9ca1cf3e8c1925487a673b80a81c4",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Absența riscului sistemic contrazice severitatea."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "pancreas-04",
+      "questionFingerprint": "28e924211a3753845507ec123bd9f7e156176aa63462473323bc01983777e431",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Creșterea permanentă a secreției contrazice insuficiența."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "pancreas-05",
+      "questionFingerprint": "c079092cae1f37e7cb8f9c82426d35a69c35d750fd3a57b9a55919d952ca5669",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Absența colestazei contrazice icterul obstructiv."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "ficat-splina-01",
+      "questionFingerprint": "107b1c9ce6a4bf89b82b26cb04ae496b97206cecb57abc21c468e767d7ee1104",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Variantele exclusiv și niciun agent oferă indicii clare."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "ficat-splina-02",
+      "questionFingerprint": "e7c5d380b8dd7f7e36b0edb54c6aadae866458055d930d42736f9c6fc95f1c9b",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Două opțiuni neagă chiar riscul și relevanța pneumococului."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "ficat-splina-03",
+      "questionFingerprint": "b0af51cfba39a897514138b1fd80249c02b4a49903472dd88eb669796668e09e",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Excluderea hemoragiei interne contrazice leziunea splenică."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "ficat-splina-04",
+      "questionFingerprint": "7b786db877954364e8166b4dd01f95ff86a309c14b60a962f70fa4d57cab2d93",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Absența agentului infecțios este unicul distractor."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "ficat-splina-05",
+      "questionFingerprint": "b853c73f4b67e8b024b3c3db7c0d0a307eafda4b3c2ae8f53ce32ee8a67d918f",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Lipsa rolului metabolic contrazice funcția hepatică elementară."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "vascular-01",
+      "questionFingerprint": "d5f5c591c3741ed5fa44e5d40d7db9cbd62478f38943866940e111eda9c302a9",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Durerea musculară concurează cu durere oculară și disfagie."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "vascular-02",
+      "questionFingerprint": "c4802834b234235743dd96537c82296d8f5964d626a295afae02eab9fdb7bd5a",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Încălzirea cu perfuzie crescută inversează ischemia."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "vascular-03",
+      "questionFingerprint": "042136cca573954493b3290b4f6febdc43a95f1c0aba9b86e6a1ea7f0dc47750",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Exercițiul drept cauză obligatorie este un distractor evident."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "vascular-04",
+      "questionFingerprint": "2b6f8b56efecfb25f7481f567262a3c224a9655a9af778861040a3c5216400dc",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Lipsa modificărilor cutanate contrazice lista."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "vascular-05",
+      "questionFingerprint": "90a8b4239ea6630cfcaa1581911bd64abcef6bb9b2cfaba6d83bb91491b6eeed",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Presiunea venoasă centrală este din alt compartiment decât indicele arterial."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "orl-01",
+      "questionFingerprint": "7a9e49bb945821b6ad1decdf3af73206a193f01e5a85d1a7e1e761f722d1f850",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Stridorul concurează cu simptome non-respiratorii."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "orl-02",
+      "questionFingerprint": "73315863a8cf27c39ae750e4de106d1926f4b95b337f336d6e5d35c2c1185189",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Absența revărsatului este unicul distractor absolutist."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "orl-03",
+      "questionFingerprint": "12737d492bae8d36f1be0e6045871807ff4d8104d4e5de676d71a4bf6c188a02",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Orice epistaxis malign este evident fals."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "orl-04",
+      "questionFingerprint": "d50f38fb2c0acc631f843a12cac064fa61ae225177b199fa72d575889426b646",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Durerea de genunchi este fără legătură cu abcesul periamigdalian."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "orl-05",
+      "questionFingerprint": "77ec6901fc3042115b7884227f48f60eb24c992b124a241ba7ba3a01ff5b5275",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Absența legăturii cu fumatul este inversarea unui risc uzual."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "ortopedie-01",
+      "questionFingerprint": "67f8f00c59bd4b887463e1fe9fa5ba43d922f8073d4d96a12eac6fb3f24e2091",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Definiție directă cu alternative care nu descriu plaga."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "ortopedie-02",
+      "questionFingerprint": "22497398fd25ed178572644632a35f730ef12cdef93d5f67019d13519bdb216e",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Doar radiografia fără examen clinic este evident insuficient."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "ortopedie-03",
+      "questionFingerprint": "4680bcb3466e416e346660660166a9bbbb7e59982a4523ccf2be51374ed09414",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Excluderea sigură prin puls este un indiciu de generalizare."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "ortopedie-04",
+      "questionFingerprint": "ca8517845259cdf6c05912e9f753cccdf87969d7e1760675d6568fcb3d822b43",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Vindecarea garantată fără sechele este evident falsă."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "ortopedie-05",
+      "questionFingerprint": "444dff6c0403be34888a988acc17a2cb8505ebe0917e28442ead56c153e12dd1",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Absența riscului de distrucție este o generalizare evidentă."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "urologie-01",
+      "questionFingerprint": "466623f7c44e49c498e74e6d0e83f5e99ed86d2d0fa71b8e94d383355df72f32",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Singura variantă de durere urinară dintre alternative."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "urologie-02",
+      "questionFingerprint": "1645abf3ace4d1011cba531a2ed726318bea1cb308d0a42b5e69d85e937d891b",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Imposibilitatea obstrucției contrazice lista."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "urologie-03",
+      "questionFingerprint": "ed112f346368e09eb3f74c4c98a84875714b3b809f5a5d9bfb1883febf47a8a7",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Creșterea jetului contrazice simptomele obstructive."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "urologie-04",
+      "questionFingerprint": "2c6ef15dbede55adf84b4f6ce83976419b91f91d3667488b99d21948370d9f98",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Amânarea nelimitată contrazice riscul ischemic."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "urologie-05",
+      "questionFingerprint": "2161c5d0b81595ac7ea0b4b2c3e26deb0bc8a1dd762fae74a52baafb3dd52795",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Întotdeauna automat infecție este o generalizare evidentă."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "dermato-01",
+      "questionFingerprint": "ee5b53c4279887354dc24d7fb36b4e6a44cf31083ee61f2aed4e67b7cee1fd7e",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 4,
+        "kind": "editorial-estimate",
+        "reason": "Definiție elementară a unei leziuni, fără diferențe fine de morfologie."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "dermato-02",
+      "questionFingerprint": "b337b158edae83390e4dec41316faf149bac8a343be820e4900052d2e31cd2c6",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Transmiterea obligatorie prin atingere este evident falsă."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "dermato-03",
+      "questionFingerprint": "d285deb08f461350b6afaea130e695a03e9c7b798fc18600992e77c62abe06c0",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Absența pruritului contrazice prima opțiune."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "dermato-04",
+      "questionFingerprint": "903dce7c179807a86bcab51cba150ab9a11c57ed74e4501f9f3550ce7e4de77e",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Stabilitatea obligatorie contrazice evoluția din acronim."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "dermato-05",
+      "questionFingerprint": "a7b912e78b219b488913f9f7ba573d0fa690c60478a27e99cccea7c395db0017",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Cicatricile obligatorii și infecția în toate cazurile sunt indicii evidente."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "pediatrie-01",
+      "questionFingerprint": "499db739a8f915940d787cdc63010bab8836f9e9a5ac0465564385270b0f9128",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "VSR concurează cu virusuri hepatitic, rabic și papiloma."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "pediatrie-02",
+      "questionFingerprint": "679b08d1e653d4df844c9694b90f2f53cc8cc7ed7671f05bd746868273633307",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Diureza crescută contrazice prima opțiune."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "pediatrie-03",
+      "questionFingerprint": "e14f6faa32dee0d0fc2552ff0a889ad663d36e3cd101d0a88bd42db1d16a5c92",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Antibioticele obligatorii în fiecare caz sunt indiciu de redactare."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "pediatrie-04",
+      "questionFingerprint": "d25437a11835154ff6253f0b9140b38119a80eceee21f86ae7d89d8c6d9168d4",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Deficitul focal persistent contrazice forma simplă."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "pediatrie-05",
+      "questionFingerprint": "f8ed72da571eafc09ca4ab5eb8aab8441123132b7f7f1748d32d26cee7ce9077",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "O singură măsurare în locul urmăririi este evident insuficientă."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "gineco-01",
+      "questionFingerprint": "4a3a8b761cc00bed7712d413b4a28a65f3541b8e10692c55319399c855220cc2",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Sângerarea concurează cu ochelari, păr grizonat și somn normal."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "gineco-02",
+      "questionFingerprint": "319c884ac62321f04219ace406f7034a74e26a95e1b207a6f5fe11df7cc32d18",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Localizarea în cavitatea uterină contrazice endometrioza."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "gineco-03",
+      "questionFingerprint": "060ea4bb990f0da4ad482a09161288497be116b577716656cd84b6d17613d6a3",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Orice modificare sigur benignă este o generalizare evidentă."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "gineco-04",
+      "questionFingerprint": "d6744788f32be65e29463a43859c74d5d5b6c9f7f2ca270dacd635f1d31dc12a",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Exclusiv respiratorie și obligatoriu cancer sunt două indicii clare."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "gineco-05",
+      "questionFingerprint": "dd5a1b510fb325a91277af3e77187dc886965634ef92bae4e25717a585809252",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Transformarea malignă obligatorie este evident falsă."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "obstetrica-01",
+      "questionFingerprint": "abba5f7220eb72e155a29ea782afc0392498dbc0336e0b831b7721b5ca621d1a",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Un singur prag plauzibil între durate și contexte absurde."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "obstetrica-02",
+      "questionFingerprint": "28bdc451e1e4c6bf79fdde8aed15eab7bbd1abeb88cdb55771de505f044001f2",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Excluderea sigură fără proteinurie este un indiciu de generalizare."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "obstetrica-03",
+      "questionFingerprint": "a728ea259e0129a050c01d613a5c489a3031686a94853af23a09cf34d827c6e7",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Implantarea obligatoriu uterină contrazice ectopica."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "obstetrica-04",
+      "questionFingerprint": "1af425ca0514b28e40adf93bef14f1f21606fc222de8e0145501a68df70f7b71",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Doar hipertensiune este alternativa izolată față de cauzele standard."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "obstetrica-05",
+      "questionFingerprint": "06dc3a2b8f28a55aa4787d0f31b6649ba6f56e3d12f4f5c7c5f3569b49e69f44",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Sinonimia cu sarcina tubară este fără legătură cu placenta."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "psihiatrie-01",
+      "questionFingerprint": "07c342f1cc058e0f52264dfda8dc7aae1c461db65a7a8b41b38285aeed062c25",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Anhedonia concurează cu variante absolute și contrare depresiei."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "psihiatrie-02",
+      "questionFingerprint": "ddb1cc352bff47ac9d2c987190a98c4fbe650f74e416f771846eef9d9ea5ba6c",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Euforia obligatorie este unicul distractor."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "psihiatrie-03",
+      "questionFingerprint": "4a2963d71e3cb2755635464d9b89ad7209eb6f47f425cd07d87e463fc0b18468",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Încetinirea obligatorie este contrară tabloului maniacal."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "psihiatrie-04",
+      "questionFingerprint": "a7b07c1dde4f55bef6fd1ebb218796a9120e9597fbab57fd9d2de0fbe41a5eb9",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Excluderea automată fără evaluare este evident falsă."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "psihiatrie-05",
+      "questionFingerprint": "2819fcd9cdef437cb4cd94d95406592e0839e24b7f7d9fb091eda6e048d0e705",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Ani fără fluctuații contrazic deliriumul acut."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "epidemio-01",
+      "questionFingerprint": "5c22790781d1f3ad0c2d304024f3233b741bcd848ffc81eed4e2db3838f34003",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 4,
+        "kind": "editorial-estimate",
+        "reason": "Definiție directă cu numai o alternativă epidemiologică apropiată."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "epidemio-02",
+      "questionFingerprint": "1aa3a62a276d478431878944a05485d23f042ca2be43b176e9ff149e802284ea",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Sensibilitatea mereu identică specificității este un distractor evident."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "epidemio-03",
+      "questionFingerprint": "b262ec0fa0c52edf36c741d87930c6284144c31c178efe112dfaf94d6ed72fbc",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Randomizarea care elimină garantat orice eroare este evident falsă."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "epidemio-04",
+      "questionFingerprint": "214beba4f7cc7127ec49ec05c3ea63d2a11455c95fae10b7a624fb6d688fa100",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Ignorarea preferințelor este singurul comportament opus principiilor."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    },
+    {
+      "questionId": "epidemio-05",
+      "questionFingerprint": "e5d69b363587d49f08f53bfc471c73e182a87ecaf28b1490df07a964f17305cb",
+      "scope": "editorial-admission",
+      "decision": "withdrawn-below-threshold",
+      "difficulty": {
+        "score": 2,
+        "kind": "editorial-estimate",
+        "reason": "Divulgarea liberă pe rețele sociale este evident falsă."
+      },
+      "medicalKeyValidation": "Not claimed: rejected before full textbook key verification.",
+      "reviewer": {
+        "kind": "ai",
+        "name": "Codex"
+      },
+      "reviewedAt": "2026-09-13"
+    }
+  ]
+}

@@ -23,3 +23,12 @@ Verificat vizual la 12 septembrie 2026. Limita de creștere în 48 de ore din pa
 ## Kumar, paginile tipărite 195–202 — gol de sursă
 
 Aceste pagini de echilibru acido-bazic apar în tematica 2026, dar nu au fost localizate în extrasul primit. Secvența PDF 23–41 corespunde p. 172–190; PDF 42 începe cu p. 224. Nu se completează golul prin citarea unor pagini care nu au fost consultate. Extinderea întrebărilor hidro-electrolitice folosește numai p. 172–190.
+
+## Tiroidă și diabet — 13 septembrie 2026
+
+- Kumar: pagina PDF 95 se încheie la p. 618, iar PDF 96 începe la p. 621. P. 619 nu este disponibilă în extras și nu este citată de grile noi.
+- P. 613: se evită transformarea unui TSH crescut izolat în diagnostic complet fără interpretarea fT4/contextului și folosirea unor ținte de sarcină generale ca reguli actuale.
+- P. 617 și 622: se evită formulările generale privind siguranța oncologică a radioiodului, schimbarea antitiroidianului după reacții severe, profilaxia MEN2 fără context genetic și tratamentul limfomului tiroidian.
+- P. 709: efectele incretinelor sunt prezentate colectiv; nu se atribuie automat fiecărui hormon toate efectele asupra glucagonului, golirii gastrice și sațietății.
+- P. 710: textul diagnosticului precizează «mai mare sau egal», în timp ce unele simboluri din casete sunt extrase diferit. Întrebările folosesc valori aflate clar în interiorul intervalelor și diferențiază criteriul glicemic de confirmarea diagnosticului.
+- P. 717–720: nu se folosesc ca barem actual autorizarea SGLT2 în tipul 1, lipsa formulărilor orale GLP-1, contraindicațiile generale pentru metformin ori afirmația că toate ghidurile cer aceeași primă linie. Întrebările acceptate din aceste pagini testează mecanismele și distincțiile susținute de text.

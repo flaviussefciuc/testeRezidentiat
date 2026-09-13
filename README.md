@@ -6,9 +6,9 @@ Aplicație Angular SPA în limba română pentru pregătirea concursului de rezi
 
 ## Funcționalități
 
-- 203 grile active, inclusiv 23 avansate cu estimare editorială 8/10 și referințe la textul român furnizat, 39 de capitole din tematica 2026, explicații și resurse.
+- 52 de grile active, cu estimare editorială 8/10, explicații pentru fiecare opțiune și referințe la textul român furnizat. Catalogul include cele 39 de capitole din tematica 2026; acoperirea cu grile acceptate este încă parțială.
 - Antrenament filtrat pe capitole și recapitularea răspunsurilor greșite.
-- Simulare: 200 de întrebări distincte, 50 CS + 150 CM, 4 ore, maximum 950 de puncte.
+- Simulare: format de 200 de întrebări distincte, 50 CS + 150 CM, 4 ore, maximum 950 de puncte. Temporar indisponibilă până când banca acceptată conține suficiente grile din ambele tipuri.
 - Istoric, evoluție săptămânală, punctaj pe capitole, export JSON.
 - Conturi Supabase și sincronizarea rezultatelor finalizate între dispozitive.
 - Mod vizitator și reluarea testului în același browser; rezultatele vizitatorului rămân separate de cont.
@@ -39,4 +39,6 @@ npx vercel deploy --prod
 
 ## Conținut și limite
 
-[Tematica oficială 2026](https://rezidentiat.ms.ro/20261115/tematici/rezidentiat-M-2026.pdf) și resursele anilor anteriori sunt accesibile în aplicație. Grilele sunt originale, redactate cu ajutorul AI, nu au validare medicală editorială și nu acoperă exhaustiv bibliografia. Toate cele 80 de grile suplimentare publicate anterior au fost reevaluate: 9 au versiuni noi acceptate, iar 71 sunt retrase din sesiunile noi. Au fost adăugate 14 întrebări suplimentare acceptate; două alte propuneri, estimate la 7/10, rămân nepublicate. Antrenamentul selectează implicit doar grilele avansate. Simularea completă include și cele 180 de grile inițiale active, încă neevaluate pe scala de dificultate. Istoricul păstrează toate versiunile deja publicate. Obiectivul de 800 de întrebări suplimentare nu este finalizat. Procesul este descris în [documentația editorială](docs/question-quality.md). Formatul și punctajul urmează metodologia anilor anteriori; dificultatea nu este calibrată față de concurs.
+[Tematica oficială 2026](https://rezidentiat.ms.ro/20261115/tematici/rezidentiat-M-2026.pdf) și resursele anilor anteriori sunt accesibile în aplicație. Grilele sunt originale, redactate cu ajutorul AI, fără validare independentă de medic și fără acoperire exhaustivă a bibliografiei. Cele 200 de grile inițiale și cele 80 suplimentare publicate anterior au fost evaluate individual pentru admiterea în banca avansată. Grilele inițiale nu au trecut pragul editorial; nouă obiective din lotul suplimentar au versiuni noi acceptate. Evaluarea editorială a grilelor respinse nu pretinde reverificarea medicală a tuturor cheilor lor.
+
+Banca activă conține 52 de versiuni acceptate: cele 23 anterioare, 14 de tiroidă și 15 de diabet. Treisprezece propuneri estimate sub 8/10 rămân nepublicate. Sesiunile noi folosesc numai grile acceptate; istoricul păstrează toate cele 280 de versiuni vechi și cele 52 avansate. Scorul de dificultate este estimativ, nu măsurat la studenți. Obiectivul actual este atingerea a 800 de grile acceptate: mai sunt 748. Procesul este descris în [documentația editorială](docs/question-quality.md). Formatul și punctajul urmează metodologia anilor anteriori; dificultatea nu este calibrată față de concurs.

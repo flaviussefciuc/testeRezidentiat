@@ -34,8 +34,8 @@ test('a filled page reference outside the syllabus and incomplete evidence canno
  assert.ok(reviewErrors(SEPSIS_SOURCE[0],fakeClinician).includes('AI review cannot be labelled clinician review'));
 });
 test('retiring original questions preserves the content and scoring of old attempts',()=>{
- const retired=LEGACY_QUESTIONS.filter(q=>['sepsis','electroliti','ati','hematologie'].includes(q.topicId));
- assert.equal(retired.length,20);
+ const retired=LEGACY_QUESTIONS;
+ assert.equal(retired.length,200);
  assert.ok(retired.every(q=>!QUESTIONS.some(a=>a.id===q.id)));
  for(const q of retired){
   assert.deepEqual(QUESTION_HISTORY.find(h=>h.id===q.id),q);
@@ -72,6 +72,18 @@ test('every earlier source version remains unchanged and cannot enter new sessio
   assert.deepEqual(summarize([{questionId:q.id,selected:q.correct}],QUESTION_HISTORY),summarize([{questionId:q.id,selected:q.correct}],PREVIOUS_SOURCE_QUESTIONS));
  }
  assert.deepEqual(new Set(SOURCE_CHECKED_QUESTIONS.map(q=>q.correct.length)),new Set([1,2,3,4]));
- assert.ok(QUESTIONS.filter(q=>q.type==='CS').length>=50);
- assert.ok(QUESTIONS.filter(q=>q.type==='CM').length>=150);
+ assert.ok(QUESTIONS.every(q=>SOURCE_CHECKED_QUESTIONS.some(a=>a.id===q.id)));
+});
+
+test('every original question has an exact-version editorial rejection',()=>{
+ const report=JSON.parse(readFileSync(new URL('../docs/legacy-question-review.json',import.meta.url),'utf8'));
+ assert.equal(report.questions.length,LEGACY_QUESTIONS.length);
+ for(const q of LEGACY_QUESTIONS){
+  const records=report.questions.filter((r:any)=>r.questionId===q.id);
+  assert.equal(records.length,1);
+  assert.equal(records[0].questionFingerprint,questionFingerprint(q));
+  assert.ok(records[0].difficulty.score<8);
+  assert.ok(records[0].difficulty.reason);
+  assert.ok(!QUESTIONS.some(a=>a.id===q.id));
+ }
 });
