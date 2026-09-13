@@ -32,3 +32,11 @@ Aceste pagini de echilibru acido-bazic apar în tematica 2026, dar nu au fost lo
 - P. 709: efectele incretinelor sunt prezentate colectiv; nu se atribuie automat fiecărui hormon toate efectele asupra glucagonului, golirii gastrice și sațietății.
 - P. 710: textul diagnosticului precizează «mai mare sau egal», în timp ce unele simboluri din casete sunt extrase diferit. Întrebările folosesc valori aflate clar în interiorul intervalelor și diferențiază criteriul glicemic de confirmarea diagnosticului.
 - P. 717–720: nu se folosesc ca barem actual autorizarea SGLT2 în tipul 1, lipsa formulărilor orale GLP-1, contraindicațiile generale pentru metformin ori afirmația că toate ghidurile cer aceeași primă linie. Întrebările acceptate din aceste pagini testează mecanismele și distincțiile susținute de text.
+
+## Complicații diabetice — verificare suplimentară
+
+- P. 721: nu se preia drept durată de viață eritrocitară mențiunea de aproximativ șase săptămâni din explicația HbA1c și nu se folosesc duratele de purtare sau întârzierile unor senzori ca proprietăți universale actuale.
+- P. 722–723: acetona este un corp cetonic, dar nu produce acidoză precum acetoacetatul și β-hidroxibutiratul. Se evită formularea colectivă că toți corpii cetonici sunt acizi tari. Formularea despre insulină care ar accentua hiperpotasemia este contradictorie; p. 724 descrie corect captarea celulară a potasiului după insulină.
+- P. 724–725: nu se folosesc bareme de tratament din casetă unde administrarea inițială a potasiului diferă de textul narativ. Nici pragul tipărit pentru hipotermie și nici pH-ul OCR din tabel nu sunt folosite drept răspunsuri.
+- P. 728: tabelul verificat vizual plasează hemoragia în vitros la retinopatia proliferativă; fibroza și dezlipirea prin tracțiune sunt avansate. S-a corectat explicația proiectului 029 înainte de publicare. Nu se utilizează afirmația generală că edemul macular nu poate fi observat oftalmoscopic.
+- P. 729–732: se evită formularea despre țintirea directă a vaselor noi cu laser, sensul invariabil al schimbării refracției, pareza diabetică de nerv III obligatoriu nedureroasă și tratamentele generale pentru gastropareză fără verificare suplimentară. Aceste afirmații nu susțin cheia niciunui item nou.

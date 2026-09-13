@@ -1,20 +1,42 @@
 # Revizuirea băncii · 13 septembrie 2026
 
-## Situația curentă: 52 / 800 acceptate
+## Situația curentă: 99 / 800 acceptate
 
 Toate cele 200 de întrebări inițiale au o decizie editorială individuală în `legacy-question-review.json`: amprenta exactă, motiv și scor sub 8. Evaluarea a citit enunțurile, opțiunile și cheile pentru admiterea editorială; nu pretinde o reverificare medicală completă a cheilor respinse. Întrebările inițiale nu mai intră în sesiuni noi.
 
 Cele 80 de întrebări suplimentare publicate anterior au evaluări individuale în `difficulty-review.json`. Nouă obiective au versiuni noi acceptate; restul sunt retrase fără înlocuitor acceptat. Toate versiunile publicate anterior rămân în istoric, fără schimbarea cheilor sau a punctajului rezultatelor vechi.
 
-Banca activă conține 52 de întrebări avansate, toate cu estimare editorială 8/10: 23 din etapa precedentă, 14 de tiroidă și 15 de diabet. Dintre cele 40 de propuneri noi, șase de tiroidă și cinci de diabet au rămas la 7/10. Împreună cu două propuneri anterioare, sunt 13 proiecte neacceptate. Evaluarea nu este un scor psihometric și nu certifică echivalența cu examenul.
+Banca activă conține 99 de întrebări avansate, toate cu estimare editorială 8/10: 23 din etapa precedentă, 14 de tiroidă, 32 de diabet, 13 de tromboembolism venos și 17 de hipertensiune arterială. Lotul de hipertensiune adaugă alte două neacceptate (7/10, recunoaștere directă dintr-un tabel de doze sau dintr-o coloană de contraindicații, fără confuzie clinică reală), pentru un total de 22 de proiecte neacceptate. Evaluarea nu este un scor psihometric și nu certifică echivalența cu examenul.
 
 Fiecare întrebare acceptată are referințe la ediția română, pagini tipărite și PDF, cinci justificări ale opțiunilor, expresii terminologice și review legat de amprenta exactă a versiunii. Figurile pentru structurile analogilor de insulină și tabelul MODY au fost verificate vizual. Alternativele trebuie să testeze distincții precise între concepte apropiate. Ambiguitatea și obscuritatea nu cresc scorul.
 
-Antrenamentul folosește numai banca acceptată. Estimarea dificultății apare după verificarea răspunsului. Simularea este temporar indisponibilă până la minimum 50 CS și 150 CM acceptate. Istoricul păstrează 332 de versiuni: 200 inițiale, 80 suplimentare anterioare și 52 avansate. Formatul CM include două, trei și patru răspunsuri corecte, fără cotă obligatorie pentru fiecare cardinalitate.
+Antrenamentul folosește numai banca acceptată. Estimarea dificultății apare după verificarea răspunsului. Simularea este temporar indisponibilă până la minimum 50 CS și 150 CM acceptate (banca activă are acum 23 CS și 76 CM). Istoricul păstrează 379 de versiuni: 200 inițiale, 80 suplimentare anterioare și 99 avansate. Formatul CM include două, trei și patru răspunsuri corecte, fără cotă obligatorie pentru fiecare cardinalitate.
 
-Ultima cerere este «până la 800», după revizuirea băncii. Pragul de finalizare și progresul din aplicație urmăresc 800 de întrebări active acceptate; sunt necesare încă 748. Vechiul obiectiv de creștere netă cu 800 este păstrat numai în jurnalul istoric de mai jos. `audit:questions:release` trebuie să eșueze până la finalizarea obiectivului. Auditul structural nu stabilește corectitudinea medicală.
+Ultima cerere este «până la 800», după revizuirea băncii. Pragul de finalizare și progresul din aplicație urmăresc 800 de întrebări active acceptate; sunt necesare încă 701. Vechiul obiectiv de creștere netă cu 800 este păstrat numai în jurnalul istoric de mai jos. `audit:questions:release` trebuie să eșueze până la finalizarea obiectivului. Auditul structural nu stabilește corectitudinea medicală.
+
+## Al cincilea lot: tromboembolism venos (cap. 29, Kumar & Clark)
+
+15 itemi confruntați cu p. 1002–1015 (PDF 192–205, interval contiguu, fără salt de paginare), cu redactare Claude (nu GPT). 13 acceptate, 2 neacceptate. Distribuția CM include cardinalitățile două, trei și patru. Temele acoperite: triada lui Virchow și compoziția trombilor, algoritmul diagnostic NICE (scor Wells, D-dimeri, limitele fiecărui pas), imagistica EP (CTPA față de scintigrafia V/Q), sincronizarea anticoagulării cu investigațiile, fazele tratamentului și inițierea DOAC, anticoagularea în sarcină și alăptare, rolul și riscurile trombolizei, filtrele de venă cavă inferioară, riscul de recurență, trombofiliile ereditare (factor V Leiden, mutația protrombinei, deficitele de antitrombină/proteină C/S) și trombocitopenia indusă de heparină.
+
+Cele două neacceptate (7/10) sunt recunoașteri directe ale unei singure valori sau ale unui tabel farmacologic complet (Cadranul 29.7), fără o confuzie medicală reală între concepte apropiate — același criteriu aplicat anterior calculelor directe din lotul de diabet.
+
+Auditul (`npm run audit:questions`) a găsit o eroare structurală preexistentă, independentă de acest lot: `diabet-adv-021` era marcată fals ca duplicat intern, pentru că funcția `normalize()` din `scripts/audit-question-quality.ts` elimina literele grecești (α/β) din opțiuni, făcând ca cele două distractori care diferă doar prin identitatea lanțului (α vs β) să pară identice. Corectată prin păstrarea literelor grecești în expresia regulată de normalizare; nu s-a modificat conținutul întrebării.
+
+## Al șaselea lot: hipertensiune arterială (cap. 31, Kumar & Clark)
+
+19 itemi confruntați cu p. 1133–1145 (PDF 278–290, interval unic, offset constant −855; două pagini fără numerotare OCR a antetului — 1133 și 1139 — dar cu conținut continuu, verificat manual). 17 acceptate, 2 neacceptate. Distribuția CM include cardinalitățile două, trei și patru. Temele acoperite: impactul epidemiologic și cele patru întrebări-cheie ale evaluării clinice, tehnica corectă de măsurare și efectul de halat alb, fenotipurile de TA (halat alb, mascată) și superioritatea predictivă a monitorizării ambulatorii, hipertensiunea sistolică izolată, hipotensiunea ortostatică, etiologia primară/secundară și contribuția poligenică, cauzele secundare (feocromocitom, hiperaldosteronism), clasificarea în trei trepte a retinopatiei hipertensive, leziunile de organ țintă cardiace și renale, beneficiile cuantificate ale reducerii TA, impactul modificărilor stilului de viață, alegerea claselor de medicamente pe criterii de vârstă/etnie și studiul PATHWAY-2, managementul perioperator și urgențele hipertensive (Cadranul 31.7).
+
+Cele două neacceptate (7/10) sunt recunoașteri directe ale unei valori dintr-un tabel de doze sau ale unei coloane complete de contraindicații (Cadranul 31.6), fără o confuzie medicală reală — același criteriu aplicat loturilor anterioare.
+
+La redactare, două întrebări candidate aveau inițial doar patru opțiuni (eroare de transcriere, nu de conținut); completate la cinci opțiuni distincte înainte de acceptare, verificat automat prin `sourceChapter`. Toate expresiile terminologice au fost verificate literal în extrasul local înainte de publicare; două expresii inițial alese se rupeau la un salt de linie PDF și au fost înlocuite cu ancore mai scurte, complet conținute pe o singură linie a textului extras.
 
 Sursele noi: Kumar, p. 611–618 și 621–622 (PDF 88–97, cu salt de paginare) și p. 702–711, 715–720 (PDF 101–110, 114–119). Pagina tipărită 619 lipsește din extras, la fel ca intervalul 195–202 identificat anterior; nu se publică întrebări care depind de aceste pagini. În diabet sunt evitate afirmațiile depășite despre autorizări, formulări disponibile și contraindicații generale. Criteriile de examen rămân cele din ediția cerută, iar erorile sau pasajele ambigue nu devin barem.
+
+## Lotul complicațiilor diabetice
+
+17 întrebări noi acceptate, cu ID-uri 021–042 (cinci proiecte din acest interval sunt nepublicate). Obiectivele includ HbA1c și fructozamina, acidoza hipercloremică în recuperare, mecanisme microvasculare, leziuni și stadii retiniene, hemodinamica glomerulară, formele nefropatiei, neuropatie autonomă, amiotrofie și neuroartropatie Charcot. Paginile 721–734 corespund PDF 120–133; tabelul de stadializare de la p. 728 a fost verificat și vizual. Nu se folosesc variante ale aceluiași calcul pentru a crește numărul.
+
+Ca verificări externe punctuale, [NIDDK — A1C](https://www.niddk.nih.gov/health-information/diagnostic-tests/a1c-test) susține prudența privind deficitul de fier și turnoverul eritrocitar, iar [IHS — manifestări oftalmologice](https://www.ihs.gov/sites/diabetes/themes/responsive2017/display_objects/documents/training_seminars/6603_Handout_Eye_Care.pdf) diferențiază exsudatele dure de ischemia cu întreruperea transportului axoplasmatic. Cheile și terminologia sunt confruntate cu textul român furnizat.
 
 ## Jurnalul etapelor anterioare
 

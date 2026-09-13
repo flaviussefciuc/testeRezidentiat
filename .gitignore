@@ -9,4 +9,5 @@ tmp/
 src/app/config.generated.ts
 *.log
 out-tsc/
-
+.claude/
+.playwright-mcp/

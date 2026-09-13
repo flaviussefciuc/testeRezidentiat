@@ -7,7 +7,7 @@ import {TOPICS} from '../src/app/topics.ts';
 import {reviewErrors} from './question-review.ts';
 import type {Question} from '../src/app/models.ts';
 
-const normalize=(s:string)=>s.normalize('NFD').replace(/\p{Diacritic}/gu,'').toLowerCase().replace(/[^a-z0-9]/g,'');
+const normalize=(s:string)=>s.normalize('NFD').replace(/\p{Diacritic}/gu,'').toLowerCase().replace(/[^a-z0-9α-ω]/g,'');
 function audit(bank:Question[]){
  const seen=new Map<string,string>();
  const duplicates:string[][]=[];

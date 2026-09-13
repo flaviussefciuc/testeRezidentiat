@@ -1093,6 +1093,125 @@
       "kind": "editorial-estimate",
       "reason": "Perechi cu un atribut corect solicită diferențierea unor terapii apropiate ca efect glicemic, dar cu ținte distincte.",
       "replaces": null
+    },
+    {
+      "questionId": "diabet-adv-021",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Fiecare alternativă păstrează două repere corecte; trebuie recunoscute simultan situsul, substratul și intervalul.",
+      "replaces": null
+    },
+    {
+      "questionId": "diabet-adv-022",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Distractorii confundă corectarea analitică, schimbarea substratului și sensul efectului turnoverului, păstrând contextul biologic relevant.",
+      "replaces": null
+    },
+    {
+      "questionId": "diabet-adv-025",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Trei indicatori aparent favorabili pot ascunde procese diferite; distractorii confundă concentrația, stocul și obiectivul metabolic.",
+      "replaces": null
+    },
+    {
+      "questionId": "diabet-adv-027",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Asociază trei căi cu direcții diferite; un profil hormonal și efectul autoreglării trebuie diferențiate precis.",
+      "replaces": null
+    },
+    {
+      "questionId": "diabet-adv-028",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Aspectul optic și substratul histologic sunt schimbate între două leziuni albe plauzibil confundabile.",
+      "replaces": null
+    },
+    {
+      "questionId": "diabet-adv-029",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Fiecare alternativă reunește semne retiniene reale, cu transferul uneia sau a două leziuni între stadii vecine.",
+      "replaces": null
+    },
+    {
+      "questionId": "diabet-adv-030",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Distractorii păstrează consecința vizuală sau aspectul leziunii, dar transferă mecanismul și compartimentul.",
+      "replaces": null
+    },
+    {
+      "questionId": "diabet-adv-031",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Opțiunile folosesc mecanisme retiniene concurente și confundă două investigații reale, fără boli din afara contextului.",
+      "replaces": null
+    },
+    {
+      "questionId": "diabet-adv-032",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Confuzia testată privește scopul biologic versus consecința funcțională și alegerea între intervenții oftalmologice apropiate.",
+      "replaces": null
+    },
+    {
+      "questionId": "diabet-adv-033",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Toate opțiunile modifică doar raportul aferent/eferent și consecințele sale; trebuie urmărită întreaga succesiune.",
+      "replaces": null
+    },
+    {
+      "questionId": "diabet-adv-034",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Sunt combinate cronologia markerilor, o excepție clinică reală și decalajul dintre proteinurie și creșterea creatininei.",
+      "replaces": null
+    },
+    {
+      "questionId": "diabet-adv-036",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Diferențiere între sediu, tip de dismotilitate și transformarea sărurilor biliare, cu manifestări digestive comune.",
+      "replaces": null
+    },
+    {
+      "questionId": "diabet-adv-037",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Perechi de efecte din același sistem necesită localizarea exactă a ramurii autonome și a sensului modificării vasculare.",
+      "replaces": null
+    },
+    {
+      "questionId": "diabet-adv-038",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Aceeași durere apare în ambele forme; discriminarea cere topografie, masă musculară și reflex, nu prezența durerii.",
+      "replaces": null
+    },
+    {
+      "questionId": "diabet-adv-039",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Opțiunile cer asocierea fiecărei leziuni cu componenta neurologică și separarea mecanismelor de presiune de ischemie.",
+      "replaces": null
+    },
+    {
+      "questionId": "diabet-adv-040",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Semnele vasculare păstrate și durerea variabilă nu permit excludere rapidă; trebuie diferențiate și criteriile clinice de încheiere a imobilizării.",
+      "replaces": null
+    },
+    {
+      "questionId": "diabet-adv-042",
+      "score": 8,
+      "kind": "editorial-estimate",
+      "reason": "Combină topografia somatică cu manifestări autonome în organe diferite; trebuie recunoscute două distribuții neurologice apropiate, dar nepotrivite.",
+      "replaces": null
     }
   ],
   "held": [
@@ -1173,6 +1292,36 @@
       "score": 7,
       "kind": "editorial-estimate",
       "reason": "Ultimul distractor poate fi eliminat prin efectul ponderal uzual al pioglitazonei. Neacceptată pentru pragul cerut."
+    },
+    {
+      "questionId": "diabet-adv-023",
+      "score": 7,
+      "kind": "editorial-estimate",
+      "reason": "Distincția interstițiu–sânge rezolvă prea multe opțiuni, iar un distractor este procedural prea slab. Neacceptată."
+    },
+    {
+      "questionId": "diabet-adv-024",
+      "score": 7,
+      "kind": "editorial-estimate",
+      "reason": "Conceptul este important, dar două mecanisme false rămân ușor de exclus. Neacceptată."
+    },
+    {
+      "questionId": "diabet-adv-026",
+      "score": 7,
+      "kind": "editorial-estimate",
+      "reason": "Două calcule directe nu justifică singure dificultate peste 7. Neacceptată."
+    },
+    {
+      "questionId": "diabet-adv-035",
+      "score": 7,
+      "kind": "editorial-estimate",
+      "reason": "Ultimul distractor este prea artificial și repetă distincția microalbuminuriei din alt item. Neacceptată."
+    },
+    {
+      "questionId": "diabet-adv-041",
+      "score": 7,
+      "kind": "editorial-estimate",
+      "reason": "Inversarea rolurilor monofilamentului și Dopplerului este prea ușor de recunoscut. Neacceptată."
     }
   ]
 }

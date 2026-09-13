@@ -1,0 +1,137 @@
+{
+  "date": "2026-09-13",
+  "scope": "User-provided restored copies; extraction diagnostics plus a separate sampled editorial review. Filenames do not establish official authenticity.",
+  "copies": [
+    {
+      "filename": "Caiet_Rezidentiat_2021_Medicina_Varianta_C_CURAT_VERIFICAT.pdf",
+      "sha256": "e63e2406d7813d787ab808053921fadfa0dcd540cc43a37cd3101ff57fe31f78",
+      "pdfPages": 21,
+      "detectedUniqueNumbers": 199,
+      "numbersMissingFromExtraction": [
+        141
+      ],
+      "repeatedNumbers": {
+        "47": 2,
+        "48": 2,
+        "49": 2,
+        "50": 2,
+        "52": 2,
+        "53": 2,
+        "54": 2,
+        "55": 2,
+        "56": 2
+      },
+      "itemsWithOneFiveOptionExtraction": 188,
+      "medianStemWordsAmongThoseItems": 8.0,
+      "sectionHeadingPages": [
+        3,
+        7
+      ],
+      "answerKeyStatus": "No separate answer-key section identified; keys and CM cardinality cannot be inferred from option wording."
+    },
+    {
+      "filename": "Caiet_Rezidentiat_2022_Medicina_Varianta_C_CURAT_VERIFICAT-1-1.pdf",
+      "sha256": "3871b83dd500d42c4716450458213aa856e5725235be09beb80876f586a68791",
+      "pdfPages": 24,
+      "detectedUniqueNumbers": 199,
+      "numbersMissingFromExtraction": [
+        88
+      ],
+      "repeatedNumbers": {
+        "49": 2,
+        "50": 2,
+        "54": 2,
+        "55": 2,
+        "56": 2,
+        "57": 2,
+        "58": 2
+      },
+      "itemsWithOneFiveOptionExtraction": 178,
+      "medianStemWordsAmongThoseItems": 10.0,
+      "sectionHeadingPages": [
+        3,
+        8
+      ],
+      "answerKeyStatus": "No separate answer-key section identified; keys and CM cardinality cannot be inferred from option wording."
+    },
+    {
+      "filename": "Caiet_Rezidentiat_2023_Mai_Medicina_Varianta_A_RESTAURAT-1.pdf",
+      "sha256": "c24d28e313bc3c6f1dd71c6cefc8c5c29c7532dd7ce98fceec1c8750608a4df2",
+      "pdfPages": 22,
+      "detectedUniqueNumbers": 200,
+      "numbersMissingFromExtraction": [],
+      "repeatedNumbers": {
+        "43": 2,
+        "44": 2,
+        "45": 2,
+        "46": 2,
+        "47": 2,
+        "48": 2,
+        "49": 2,
+        "50": 2
+      },
+      "itemsWithOneFiveOptionExtraction": 192,
+      "medianStemWordsAmongThoseItems": 8.0,
+      "sectionHeadingPages": [
+        3,
+        7
+      ],
+      "answerKeyStatus": "No separate answer-key section identified; keys and CM cardinality cannot be inferred from option wording."
+    },
+    {
+      "filename": "Caiet_Rezidentiat_2023_Noiembrie_Medicina_Varianta_D_RESTAURAT-1.pdf",
+      "sha256": "69887f4c3064b70ab062218886b91910b2ea109f482096ad26d9639541465561",
+      "pdfPages": 22,
+      "detectedUniqueNumbers": 199,
+      "numbersMissingFromExtraction": [
+        12
+      ],
+      "repeatedNumbers": {},
+      "itemsWithOneFiveOptionExtraction": 186,
+      "medianStemWordsAmongThoseItems": 8.0,
+      "sectionHeadingPages": [
+        3,
+        7
+      ],
+      "answerKeyStatus": "No separate answer-key section identified; keys and CM cardinality cannot be inferred from option wording."
+    },
+    {
+      "filename": "Caiet_Rezidentiat_2024_Medicina_Varianta_C_CURAT_VERIFICAT.pdf",
+      "sha256": "403d1358d3f6bcff0c69d4341e84cf75a055bfeb1f9beaefa30132d1d0c9412b",
+      "pdfPages": 22,
+      "detectedUniqueNumbers": 200,
+      "numbersMissingFromExtraction": [],
+      "repeatedNumbers": {
+        "44": 2,
+        "45": 2,
+        "46": 2,
+        "47": 2,
+        "48": 2,
+        "49": 2,
+        "50": 2
+      },
+      "itemsWithOneFiveOptionExtraction": 193,
+      "medianStemWordsAmongThoseItems": 8,
+      "sectionHeadingPages": [
+        3,
+        7
+      ],
+      "answerKeyStatus": "No separate answer-key section identified; keys and CM cardinality cannot be inferred from option wording."
+    },
+    {
+      "filename": "Caiet_Rezidentiat_2025_Medicina_Varianta_A_RESTAURAT.pdf",
+      "sha256": "a7d1d219bf6630bf4958a69f1f68df2da7461c5abb6d568411dc2ea77238e275",
+      "pdfPages": 18,
+      "detectedUniqueNumbers": 200,
+      "numbersMissingFromExtraction": [],
+      "repeatedNumbers": {},
+      "itemsWithOneFiveOptionExtraction": 200,
+      "medianStemWordsAmongThoseItems": 8.0,
+      "sectionHeadingPages": [
+        1,
+        5
+      ],
+      "answerKeyStatus": "No separate answer-key section identified; keys and CM cardinality cannot be inferred from option wording."
+    }
+  ]
+}
