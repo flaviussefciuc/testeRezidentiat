@@ -13,10 +13,16 @@ import {DIABETES_ADVANCED} from './bank/diabetes-advanced';
 import {DIABETES_COMPLICATIONS_ADVANCED} from './bank/diabetes-complications-advanced';
 import {TROMBOEMBOLISM_ADVANCED} from './bank/tromboembolism-advanced';
 import {HIPERTENSIUNE_ADVANCED} from './bank/hipertensiune-advanced';
+import {PNEUMOLOGIE_ADVANCED} from './bank/pneumologie-advanced';
+import {PERIOPERATOR_ADVANCED} from './bank/perioperator-advanced';
+import {HEMOSTAZA_ADVANCED} from './bank/hemostaza-advanced';
+import {INFECTII_CHIR_ADVANCED} from './bank/infectii-chir-advanced';
+import {DERMATO_ADVANCED} from './bank/dermato-advanced';
+import {EPIDEMIO_ADVANCED} from './bank/epidemio-advanced';
 import {advancedEligibilityErrors} from './bank/advanced-author';
 
 export const PREVIOUS_SOURCE_QUESTIONS:Question[]=[...SEPSIS_SOURCE,...ELECTROLYTES_SOURCE,...INTENSIVE_CARE_SOURCE,...HEMATOLOGY_SOURCE];
-export const ADVANCED_CANDIDATES=[...ADVANCED_REVISIONS,...RHEUMATOLOGY_ADVANCED,...THYROID_ADVANCED,...DIABETES_ADVANCED,...DIABETES_COMPLICATIONS_ADVANCED,...TROMBOEMBOLISM_ADVANCED,...HIPERTENSIUNE_ADVANCED];
+export const ADVANCED_CANDIDATES=[...ADVANCED_REVISIONS,...RHEUMATOLOGY_ADVANCED,...THYROID_ADVANCED,...DIABETES_ADVANCED,...DIABETES_COMPLICATIONS_ADVANCED,...TROMBOEMBOLISM_ADVANCED,...HIPERTENSIUNE_ADVANCED,...PNEUMOLOGIE_ADVANCED,...PERIOPERATOR_ADVANCED,...HEMOSTAZA_ADVANCED,...INFECTII_CHIR_ADVANCED,...DERMATO_ADVANCED,...EPIDEMIO_ADVANCED];
 export const SOURCE_CHECKED_QUESTIONS=ADVANCED_CANDIDATES.filter(q=>advancedEligibilityErrors(q).length===0);
 export const LEGACY_QUESTIONS:Question[]=[...KUMAR,...SURGERY,...SYNOPSIS];
 // Old stems/options/keys remain addressable for saved attempts and open drafts.
