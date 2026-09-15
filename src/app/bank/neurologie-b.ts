@@ -1,0 +1,217 @@
+import {advancedQuestion} from './advanced-author';
+import type {SourceRow} from './source-author';
+const pdfOffset=(p:number)=>p<=848?p-696:p-715;
+const q=(n:number,row:SourceRow,score:number,reason:string,expressions:string[],related:number[]=[])=>
+ advancedQuestion('neurologie',26,pdfOffset,`neurologie-adv-${String(n).padStart(3,'0')}`,row,[score,reason],expressions,undefined,related);
+
+export const NEUROLOGIE_B=[
+q(15,['Conform Cadranului 26.28, coma poate fi definită și ca un scor GCS de:',
+ ['3 sau mai mic','între 9 și 12','13-15','8 sau mai mic','minim 5, maxim 12'],'D',832,'Coma și alte tulburări ale conștienței — Scala de comă Glasgow',
+ 'Recunoașterea pragului GCS care definește coma, distinct de minimul și maximul scalei.',
+ ['Minimul scalei este 3, nu un prag de definire a comei sub această valoare.','Intervalul 9-12 nu este folosit în text ca definiție a comei.','13-15 reprezintă conștiența păstrată, nu coma.','Textul precizează că coma mai poate fi definită și ca un scor GCS de 8 sau mai mic.','Minimul este 3 și maximul 15; 5 și 12 nu sunt pragurile de definire.']],
+ 8,'Celelalte valori sunt extreme reale ale GCS sau intervale plauzibile, ușor de confunat cu pragul ≤8.',['scor GCS :,8','minim= 3 puncte']),
+
+q(16,['Cele mai comune cauze de comă, conform textului, sunt:',
+ ['Tulburările metabolice, în circa 35% din cazuri','Drogurile și toxicele, în circa 25% din cazuri','Leziunile cu efect de masă, în circa 20% din cazuri','Trauma, AVC sau infecțiile SNC, care depășesc împreună 50%','O singură leziune focală emisferică, suficientă prin ea însăși, fără compresiune pe trunchi'],'ABC',833,'Coma — Mecanisme și cauze',
+ 'Ierarhizarea ponderii etiologice a comei și recunoașterea că o leziune emisferică izolată nu induce comă fără efect asupra trunchiului.',
+ ['Textul indică tulburările metabolice drept cea mai comună cauză, 35%.','Drogurile și toxicele reprezintă 25%.','Leziunile cu efect de masă reprezintă 20%.','Categoria „altele” (traumă, AVC, infecții SNC) completează restul, sub 50%.','O singură leziune focală emisferică sau cerebeloasă nu produce comă decât dacă comprimă trunchiul cerebral.']],
+ 8,'Procentele 35/25/20 sunt ușor de permutat, iar distractorul atribuie comei o leziune focală pe care textul o exclude fără herniere.',['35%','leziunile cu efect de masă - 20%']),
+
+q(17,['Evaluarea imediată a pacientului inconștient include:',
+ ['Administrarea de glucoză 25 ml 50% dacă pacientul este hipoglicemic','Tratarea crizelor cu midazolam per oral, iar dacă persistă cu fenitoină intravenos','Antibiotice intravenos de primă intenție la orice pacient comatos, chiar fără febră sau meningism','Naloxon sau flumazenil și tiamină la cei cu consum excesiv de alcool','Verificarea căilor aeriene, respirației, circulației, dizabilității și expunerii'],'ABDE',833,'Pacientul inconștient — Evaluare imediată și tratament',
+ 'Aplicarea secvenței ABCDE și a antidoturilor specifice, fără a generaliza antibioticele în absența febrei și meningismului.',
+ ['Textul indică 25 ml glucoză 50% în hipoglicemie.','Midazolam per oral, apoi fenitoină i.v. dacă crizele persistă, este schema citată.','Antibioticele i.v. se dau dacă există febră și meningism, nu la orice comatos.','Naloxon, flumazenil și tiamină sunt indicate la consumul excesiv de alcool.','Textul începe evaluarea cu căi aeriene, respirație, circulație, dizabilitate și expunere.']],
+ 8,'Distractorul extinde indicația de antibiotice de la perechea febră-meningism la orice comă, o generalizare clinic plauzibilă.',['25 ml 50%','encefalopatiei Wernicke']),
+
+q(18,['Care dintre următoarele afirmații privind pattern-urile respiratorii din comă sunt adevărate?',
+ ['Respirația Cheyne-Stokes, cu hiperpnee alternând cu apnee, indică disfuncție cerebrală bilaterală sau la nivelul superior al trunchiului','Respirația Kussmaul este hipoventilație superficială tipică leziunilor pontine','Respirația acidotică de tip Kussmaul se întâlnește în cetoacidoza diabetică sau în uremie','Mioza importantă bilaterală este tipică comei metabolice, spre deosebire de opioide','Fetorul cetonic, alcoolic sau hepatic nu are valoare la pacientul inconștient'],'AC',833,'Pacientul inconștient — Examen obiectiv general',
+ 'Diferențierea Cheyne-Stokes (disfuncție bilaterală/trunchi superior) de Kussmaul (acidoză metabolică).',
+ ['Textul descrie Cheyne-Stokes ca perioade de hiperpnee alternând cu apnee, din disfuncție cerebrală bilaterală sau a trunchiului superior.','Kussmaul este hiperventilație profundă, nu hipoventilație pontină.','Textul asociază Kussmaul cu cetoacidoza diabetică sau uremia.','Pupilele mici reactive apar în come metabolice/sedative; mioza importantă este pentru opioide/leziune pontină.','Textul cere verificarea urmelor de cetone, alcool sau fetor hepatic.']],
+ 8,'Inversează adâncimea ventilației Kussmaul și atribuie mioza importantă comei metabolice, unde textul descrie pupile mici reactive.',['Cheyne-Stokes','Kussmaul']),
+
+q(19,['Reflexul vestibulo-ocular și mișcările oculare din comă:',
+ ['Reflexul „ochilor de păpușă” este devierea conjugată a globilor în partea opusă la întoarcerea pasivă a capului','Acest reflex dispare în coma profundă, leziunile de trunchi și moartea cerebrală','Ochii „ping pong” în coma ușoară indică leziune de trunchi cu cortex intact','În coma ușoară, mișcările lente stânga-dreapta implică funcționarea normală a trunchiului','Capul se rotește de rutină chiar dacă există leziune cervicală, pentru a nu pierde semnul'],'ABD',835,'Funcția trunchiului cerebral — Reflexul ochilor de păpușă',
+ 'Corelarea prezenței reflexului oculocefalic cu integritatea trunchiului și interpretarea ochilor ping-pong.',
+ ['Textul definește reflexul vestibulo-ocular ca deviere conjugată opusă întoarcerii pasive a capului.','Textul precizează dispariția în coma profundă, leziuni de trunchi și moarte cerebrală.','Ochii ping-pong în coma ușoară demonstrează disfuncție corticală cu trunchi funcțional, nu leziune de trunchi.','Figura 26.29 leagă mișcările lente stânga-dreapta din coma ușoară de funcționarea normală a trunchiului.','Textul interzice manevra dacă pacientul prezintă leziune cervicală.']],
+ 8,'Inversează semnificația ochilor ping-pong (cortex versus trunchi) și anulează precauția cervicală din legendă.',['ochilor de păpuşă','ping pong']),
+
+q(20,['Devierea conjugată a globilor oculari spre stânga, cu hemipareză dreaptă, la un pacient comatos, este cel mai bine explicată prin:',
+ ['Leziune pontină stângă, ochii privind spre membrele paretice','Leziune frontală dreaptă, ochii privind spre deficit','Leziune frontală stângă, ochii privind spre leziune și spre membrele sănătoase','Compresiune de nerv III stâng, cu midriază fixă ca semn constant asociat','Leziune de PPRF drept, care „împinge” ochii contralateral'],'C',835,'Funcția trunchiului cerebral — Devierea conjugată a globilor',
+ 'Aplicarea regulii: ochii privesc spre leziunea frontală (și spre membrele sănătoase) versus spre partea opusă leziunii de trunchi.',
+ ['Leziunea pontină deviază ochii spre partea opusă leziunii și spre membrele afectate.','Leziunea frontală dreaptă ar da hemipareză stângă, nu dreaptă.','Textul precizează devierea ochilor spre leziunea din lobul frontal și spre membrele sănătoase.','Compresia de nerv III produce midriază unilaterală, nu deviere conjugată.','PPRF controlează privirea ipsilaterală; o leziune dreaptă nu reproduce acest tablou.']],
+ 8,'Vinieta cere aplicarea simultană a lateralității deficitului și a direcției privirii, ușor de inversat între cortex și punte.',['Devierea conjugată','PPRF din punte']),
+
+q(21,['Starea vegetativă (SV) se caracterizează prin:',
+ ['Funcții de trunchi intacte, respirație fără ventilație mecanică, ochi deschiși și ritm somn-veghe păstrat','Absența semnelor de conștiență sau a răspunsului la mediu, în afara unor mișcări reflexe','Diagnostic de SV permanentă după 3 luni indiferent de cauză','SV permanentă după 12 luni în traumă și după 6 luni pentru orice altă cauză','Metabolism cerebral ușor redus, similar sindromului locked-in'],'ABD',836,'Prognosticul în comă — Starea vegetativă',
+ 'Recunoașterea criteriilor clinice ale SV și a intervalelor care definesc permanența, diferite după traumă versus alte cauze.',
+ ['Textul descrie trunchi intact, respirație spontană, ochi deschiși și ritm somn-veghe.','Nu există semne de conștiență sau răspuns la mediu, exceptând mișcările reflexe.','Permanența nu se declară la 3 luni.','Textul precizează 12 luni după traumă și 6 luni pentru celelalte cauze.','Metabolismul în SV este redus sever; reducerea ușoară este a sindromului locked-in.']],
+ 8,'Intervalele 6 și 12 luni sunt ușor de inversat, iar distractorul împrumută metabolismul locked-in din tabelul alăturat.',['12 luni în cazul traumei','stare vegetativă permanentă']),
+
+q(22,['După leziuni cerebrale hipoxic-ischemice apărute după un stop cardiac, se recuperează aproximativ:',
+ ['7% dintre pacienți','11% dintre pacienți','35% dintre pacienți','25% dintre pacienți','50% dintre pacienți'],'B',836,'Prognosticul în comă — Recuperarea după injuria hipoxic-ischemică',
+ 'Diferențierea ratei de recuperare după stop cardiac de cea, mai mică, după AVC, ambele citate pe aceeași pagină.',
+ ['7% este rata de recuperare după accidentul vascular cerebral, nu după stop cardiac.','Textul precizează că după leziuni hipoxic-ischemice post-stop cardiac doar 11% se recuperează.','35% este ponderea comei metabolice, nu o rată de recuperare.','25% este mortalitatea după AVC din alt paragraf al capitolului.','50% este mortalitatea hemoragiei intracerebrale, nu recuperarea după stop.']],
+ 8,'Toate procentele apar în capitolul de comă/AVC; candidatul trebuie să lege 11% de stop cardiac și 7% de AVC.',['doar 11%','doar 7% recuperându-se']),
+
+q(23,['Accidentul vascular cerebral, definiții și pondere etiologică:',
+ ['AVC ischemic/infarct cerebral reprezintă circa 85% din cazuri','AVC hemoragic reprezintă circa 10%','Alte cauze, precum disecția, tromboza venoasă sau vasculitele, circa 5%','Durata arbitrară de maximum 24 de ore rămâne criteriul de definire a AIT','AIT este disfuncție neurologică scurtă prin ischemie cerebrală sau retiniană focală, fără infarct'],'ABCE',837,'Accidentul vascular cerebral — Definiții și fiziopatologie',
+ 'Reținerea ponderilor 85/10/5 și a abandonării pragului de 24 de ore pentru AIT.',
+ ['Textul atribuie 85% infarctului cerebral.','Hemoragia reprezintă 10%.','Cauzele „alte” sunt 5%.','Textul precizează că durata arbitrară de maxim 24 de ore nu mai este utilizată.','Definiția AIT exclude infarctul și include ischemia retiniană.']],
+ 8,'Distractorul reintroduce pragul clasic de 24 de ore pe care textul îl declară abandonat.',['AVC ischemic/infarct cerebral {85%)','maxim 24 de ore nu mai este utilizată']),
+
+q(24,['Stenoza arterelor mari și distribuția ateromului în AVC ischemic:',
+ ['Populația albă tinde să aibă mai frecvent stenoze intracraniene, iar cea non-caucaziană afectare extracraniană','Stenoza arterelor mari cauzează de obicei AVC mai mult prin embolie decât prin ocluzie vasculară','Ocluzia progresivă cu circulație colaterală adecvată produce invariabil infarct extins','Sediul cel mai frecvent al plăcilor este la mijlocul trunchiului carotidian, departe de bifurcații','Populația non-caucaziană tinde să aibă mai frecvent stenoze intracraniene'],'BE',837,'Accidentul vascular cerebral ischemic — Boala arterială',
+ 'Contrastarea sediului stenozelor după etnie și a mecanismului embolic dominant al stenozelor de calibru mare.',
+ ['Textul inversează: non-caucazienii au stenoze intracraniene, albii afectare extracraniană.','Textul precizează mecanismul embolic predominant față de ocluzie.','Ocluzia progresivă cu colaterale adecvate nu cauzează neapărat AVC.','Sediul cel mai frecvent este la bifurcații (originea vaselor din aortă, ACI proximală).','Textul afirmă explicit predominanța stenozelor intracraniene la non-caucazieni.']],
+ 8,'Inversează perechea etnie–sediu (intra- versus extracranian) și transformă ocluzia progresivă într-un infarct inevitabil.',['stenoze intracraniene','mecanism embolie']),
+
+q(25,['Infarctele prin hipoperfuzie (zone de graniță):',
+ ['Apar după hipotensiune severă, de exemplu stop cardiac, mai ales pe fond de stenoză carotidiană proximală severă','Regiunea parieto-occipitală, între teritoriile ACM și ACP, este în mod particular vulnerabilă','Infarctele simultane în teritorii vasculare diferite sugerează hipoperfuzie sistemică, nu embolie proximală','Infarctele de graniță pot da sindrom Balint, deteriorare cognitivă și uneori deficit motor','Sunt infarcte lacunare <1,5 cm³ prin lipohialinoză hipertensivă'],'ABD',837,'Accidentul vascular cerebral ischemic — Hipoperfuzia',
+ 'Localizarea watershed parieto-occipital ACM–ACP și recunoașterea tabloului complex (Balint), distinct de lacune și de embolia multi-teritorială.',
+ ['Textul leagă hipotensiunea severă și stenoza carotidiană proximală de infarctele de graniță.','Vulnerabilitatea particulară a regiunii parieto-occipitale ACM–ACP este explicită.','Infarctele simultane în teritorii diferite sunt foarte sugestive pentru embolie proximală cardiacă sau aortică, nu pentru hipoperfuzie.','Textul descrie sindrom Balint, declin cognitiv și uneori deficit motor.','Lacunele prin lipohialinoză sunt boală microvasculară, nu hipoperfuzie de graniță.']],
+ 8,'Confundă infarctul de graniță cu lacunele și inversează semnificația infarctelor multi-teritoriale (embolie versus hipoperfuzie).',['zonele de graniţă','Regiunea parieto-occipitală'],[841]),
+
+q(26,['Accidentul vascular cerebral venos:',
+ ['Reprezintă doar circa 1% dintre AVC','Tromboza sinusului sagital superior sau a venelor corticale poate apărea în sarcină, hipercoagulabilitate, deshidratare sau malignitate','Rezultă infarcte corticale, crize convulsive și hipertensiune intracraniană','Este cauza dominantă de AVC la vârstnici hipertensivi','Anticoagularea este contraindicată din cauza transformării hemoragice frecvente'],'ABC',838,'Accidentul vascular cerebral venos',
+ 'Cuantificarea ponderii (1%) și a contextului protrombotic, cu triadă clinică infarct–crize–HTIC.',
+ ['Textul precizează că doar 1% dintre AVC sunt de etiologie venoasă.','Sarcina, stările de hipercoagulabilitate, deshidratarea și bolile maligne sunt cauzele citate.','Textul enumeră infarcte corticale, crize și hipertensiune intracraniană.','AVC venos nu este etiologia dominantă la hipertensivul vârstnic.','Tratamentul standard este anticoagularea, nu contraindicația ei.']],
+ 8,'Procentul 1% este ușor de umflat, iar distractorul contraindică anticoagularea tocmai din cauza transformării hemoragice, o teamă clinică frecventă.',['Doar 1% dintre AVC','sinusul sagital superior'],[848]),
+
+q(27,['Conform Cadranului 26.31, intervențiile de prevenție secundară a AVC includ:',
+ ['Tratamentul hipertensiunii, cu scăderea riscului relativ de 28%','Întreruperea fumatului, cu scăderea riscului relativ de 33%','Anticoagularea în fibrilația atrială, care scade riscul de infarct dar crește ușor riscul hemoragic, cu RRR 67%','Chirurgia stenozei carotidiene severe, cu RRR 44%','Controlul colesterolului cu statine, care reduce în aceeași măsură infarctul și hemoragia, cu RRR 67%'],'ABCD',838,'Controlul factorilor de risc pentru scăderea riscului de AVC',
+ 'Atribuirea corectă a reducerilor relative din tabel (HTA 28%, fumat 33%, FA 67%, carotidă 44%) versus confuzia cu statinelor (24%, fără efect pe hemoragie).',
+ ['Tabelul indică 28% pentru tratamentul hipertensiunii.','Întreruperea fumatului are 33%.','Anticoagularea în FA are ++ pe infarct, crește ușor hemoragia și RRR 67%.','Chirurgia stenozei severe are 44%.','Statinele au + pe infarct, 0 pe hemoragie și RRR 24%, nu 67%.']],
+ 8,'Toate procentele sunt din același tabel; distractorul mută 67% de la FA la statine și le atribuie efect antihemoragic inexistent.',['67%','Stenoză carotidiană severă']),
+
+q(28,['Amauroza fugace și scorul ABCD2:',
+ ['Amauroza fugace este pierdere tranzitorie bruscă a vederii la un singur ochi','Embolul retinal poate fi vizibil oftalmoscopic ca placă Hollenhorst','Un scor ABCD2 sub 4 rămâne criteriul actual care amână evaluarea specializată','Toți pacienții cu suspiciune de AIT trebuie îndrumați spre clinică specializată în primele 24 de ore','Deficitul motor unilateral valorează 1 punct în ABCD2, ca tulburarea izolată de vorbire'],'ABD',839,'Atacul ischemic tranzitor — Amauroza fugace și ABCD2',
+ 'Recunoașterea amaurozei ca semnal de stenoză ACI și a faptului că ABCD2 nu mai ghidează triajul, toți suspecții fiind văzuți în 24 de ore.',
+ ['Textul definește amauroza ca pierdere tranzitorie bruscă a vederii la un ochi.','Placa Hollenhorst este menționată ca embol vizibil.','Textul precizează că scorul nu mai este utilizat pentru a ghida tratamentul AIT.','Indrumarea în primele 24 de ore este explicită la pagina de prognostic.','Deficitul motor unilateral valorează 2 puncte, tulburarea izolată de vorbire 1 punct.']],
+ 8,'Distractorii păstrează ABCD2 ca instrument de triaj (abandonat) și inversează punctajul motor versus vorbire.',['placa Hollenhorst','Scorul ABCD2'],[840]),
+
+q(29,['Prognosticul la 5 ani după un AIT tromboembolic, conform studiilor prospective:',
+ ['Circa 15% prezintă un AVC ischemic, o treime în primul an','Circa 30% prezintă un AVC ischemic, o treime din ei în primul an','Circa 15% suferă un infarct miocardic','AIT-ul în circulația posterioară are prognostic mai grav decât cel anterior','Chirurgia unei stenoze severe simptomatice se amână 3 luni, după stabilizarea plăcii'],'BC',840,'Atacul ischemic tranzitor — Prognostic',
+ 'Reținerea ratelor de 30% AVC și 15% infarct miocardic la 5 ani și a gravității mai mari a AIT anterior.',
+ ['15% este rata infarctului miocardic, nu a AVC.','Textul indică 30% AVC ischemic la 5 ani, o treime în primul an.','15% suferă un infarct miocardic.','Textul atribuie prognostic mai grav AIT-ului din circulația anterioară.','Stentarea/chirurgia stenozei severe simptomatice trebuie efectuate în prima săptămână.']],
+ 8,'Permutează 15% și 30% între AVC și infarctul miocardic și inversează gravitatea anterior versus posterior.',['30% din pacienţi prezintă un AVC','15% suferă un infarct miocardic']),
+
+q(30,['Penumbră ischemică și infarctul malign în teritoriul ACM:',
+ ['Penumbră este regiunea ischemică edemațiată, alterată funcțional dar nu structural, detectată pe RMN','Poate să își redobândească funcțiile după revascularizare','Ocluzia completă de ACM determină hemiplegie controlaterală, afazie (emisferă dominantă) și hemianopsie','Craniectomia decompresivă în primele 48 de ore reduce mortalitatea infarctului malign ACM','Edemul din teritoriul ACM nu influențează mortalitatea, herniația fiind rară'],'ABCD',840,'Infarctul cerebral — Penumbră și infarct malign ACM',
+ 'Definirea penumbrei ca țesut salvabil și a ferestrei de 48 de ore pentru craniectomie în infarctul malign ACM.',
+ ['Textul definește penumbra ca alterare funcțională fără distrucție structurală.','Revascularizarea poate redobândi funcțiile.','Tabloul ocluziei complete de ACM este descris cu hemiplegie, afazie și hemianopsie.','Craniectomia în primele 48 de ore reduce mortalitatea.','Textul leagă edemul de mortalitate crescută prin herniere — infarct cerebral malign ACM.']],
+ 8,'Distractorul neagă herniația mortală pe care textul o numește infarct malign, în contrast cu fereastra de 48 de ore.',['penumbră ischemică','primele 48 de ore']),
+
+q(31,['Care dintre următoarele afirmații privind infarctele ACA și lacunele sunt adevărate?',
+ ['Infarctele ACA sunt mai rare decât cele ACM și produc tipic hemipareză predominant crurală, apatie și apraxie','Lacunele sunt infarcte mici sub 1,5 cm³, vizibile pe RMN sau postmortem','Hipertensiunea este factorul de risc cel mai important al lacunelor','Sindroamele lacunare tipice includ afazie și neglijare vizuală, ca în infarctul cortical ACM','Hemipareza pur motorie, hemisindromul senzitiv pur și dizartria cu mână inabilă sunt sindroame lacunare'],'ABDE',840,'Infarctul cerebral — ACA și infarctul lacunar',
+ 'Contrastarea hemiparezei crurale ACA cu sindroamele lacunare fără semne corticale și a pragului volumetric <1,5 cm³.',
+ ['Textul descrie hemipareză predominant crurală și simptome de lob frontal.','Pragul <1,5 cm³ este explicit.','Hipertensiunea este factorul de risc cel mai important.','Afazia și neglijarea sunt semne corticale, absente în lacunele tipice.','Cele trei sindroame lacunare sunt enumerate în text.']],
+ 8,'Atribuie lacunelor semnele corticale ale ACM și cere reținerea simultană a hemiparezei crurale ACA.',['hemipareză predominant crurală','mult mai rare'],[841]),
+
+q(32,['Un bărbat de 62 de ani, hipertensiv, prezintă brusc vertij, disfagie, sindrom Horner stâng, hipoestezie hemifață stângă, ataxie a membrelor și hipoestezie spino-talamică dreaptă. Teritoriul cel mai probabil este:',
+ ['Artera cerebrală medie stângă','Bulb lateral stâng (PICA sau arteră vertebrală)','Capsula internă stângă','Artera cerebrală posterioară stângă','Artera cerebrală anterioară stângă'],'B',841,'Sindroame clinice de AVC — Sindromul bulbar lateral',
+ 'Recunoașterea sindromului Wallenberg (Horner ipsilateral, tract spino-talamic controlateral, nerv X) ca infarct de bulb lateral.',
+ ['ACM produce hemipareză facio-brahială și semne corticale, nu Horner cu disfagie.','Cadranul 26.35 atribuie acest tablou bulbului lateral (PICA sau vertebrală).','Capsula internă dă hemisindrom egal față=MS=MI, fără Horner sau disfagie.','ACP produce hemianopsie și deficite talamice/occipitale.','ACA produce hemipareză crurală și apatie.']],
+ 8,'Vinieta reunește semnele crossed ale Wallenberg, ușor de atribuit greșit capsulei sau ACM de aceeași parte.',['Sindrom Homer ipsilateral','artera cerebeloasă postere-inferioară']),
+
+q(33,['Investigațiile în AVC acut, conform Cadranului 26.36:',
+ ['CT cranian, hemoleucogramă și glicemie sunt investigații imediate, ideal în prima oră','RMN cu DWI este mult mai sensibil decât CT pentru modificările precoce de infarct','Angiografia prin cateterism este investigația de primă intenție în aproape toate AVC-urile ischemice','Doppler carotidian este esențial în primele 24 de ore la AVC-ul de teritoriu anterior eligibil chirurgical','Semnul semilunei pe secvențe speciale RMN sugerează lumenul fals al disecției'],'ABDE',842,'Investigațiile în accidentul vascular cerebral',
+ 'Ierarhizarea CT de urgență, a sensibilității DWI și a Doppler-ului în 24 de ore, față de angiografia prin cateter, rară.',
+ ['Tabelul plasează CT, HLG și glicemia în prima oră.','Textul afirmă că RMN-DWI este mult mai sensibil pentru infarctul precoce.','Angiografia prin cateter este rar necesară în AVC ischemic.','Doppler-ul în 24 de ore este esențial pentru stenozele severe simptomatice.','Semnul semilunei este descris pentru lumenul fals al disecției.']],
+ 8,'Promovează angiografia invazivă ca primă intenție, contrar textului care o rezervă rar, pe fondul unor intervale 1h/24h ușor de confundat.',['Ideal în termen de I oră','semnul semi­']),
+
+q(34,['În AVC-ul ischemic acut, înaintea deciziei de reperfuzie:',
+ ['Aproximativ 10% dintre pacienți sunt candidați potențiali pentru tromboliză, cei mai mulți fiind excluși prin prezentare tardivă','FAST (față, amorțeală/slăbiciune, sacadarea vorbirii, timp) este instrumentul de recunoaștere pre-spital','Tromboliza rămâne inutilă în fereastra de 4,5 ore, beneficiul fiind demonstrat doar sub 90 de minute','Aspirina 300 mg/zi se administrează imediat tuturor, inclusiv în timpul infuziei de alteplase','Trombectomia endovasculară este abandonată după meta-analize negative'],'AB',843,'Accidentul vascular cerebral acut — FAST și tromboliză',
+ 'Cuantificarea eligibilității (10%) și a acronimului FAST, fără a anticipa aspirina înaintea trombolizei sau a nega trombectomia.',
+ ['Textul citează circa 10% candidați, excluziunea principală fiind fereastra depășită.','FAST este descris explicit.','Tratamentul precoce în fereastra de 4,5 ore crește prognosticul favorabil.','Aspirina 300 mg se dă dacă tromboliza este contraindicată, nu concomitent.','Meta-analiza a cinci studii a arătat beneficiul trombectomiei în ocluzia proximală anterioară.']],
+ 8,'Distractorii anulează fereastra de 4,5 ore și trombectomia, ambele afirmate pe paginile alăturate.',['Aproximativ 10%','FAST:'],[844]),
+
+q(35,['Prevenția secundară imediat după un AVC ischemic:',
+ ['Hipertensiunea tranzitorie post-AVC se tratează agresiv din prima oră, ținta fiind sub 140/90 mmHg','Hipertensiunea severă susținută se tratează după 72 de ore; tensiunea se scade lent','Atorvastatina 40 mg se administrează tuturor, în absența contraindicației, țintă colesterol total sub 4 mmol/L (LDL sub 2 mmol/L)','Aspirina 300 mg se continuă 2 săptămâni înaintea trecerii pe clopidogrel, NNT 100 pentru un AVC prevenit','Tensiunea diastolică care nu depășește 100 mmHg nu impune de obicei tratament în faza tranzitorie'],'BCDE',844,'Prevenția secundară — Antihipertensivă, hipolipemiantă și antiplachetară',
+ 'Aplicarea ferestrei de 72 de ore și a pragului diastolic 100 mmHg, plus schema statinelor și durata aspirinei 300 mg.',
+ ['Textul precizează că hipertensiunea tranzitorie de obicei nu necesită tratament dacă diastolica nu depășește 100 mmHg.','Tratamentul hipertensiunii severe susținute este după 72 de ore, cu scădere lentă.','Atorvastatina 40 mg și țintele <4 și LDL <2 mmol/L sunt explicite.','Aspirina 300 mg 2 săptămâni, apoi clopidogrel, NNT 100.','Pragul diastolic 100 mmHg este criteriul de abținere în faza tranzitorie.']],
+ 8,'Inversează conduita TA acută (agresivă versus expectativă) folosind ținte reale de prevenție cronică.',['atorvastatina 40 mg','72 de ore']),
+
+q(36,['Chirurgia și stentarea stenozelor carotidiene:',
+ ['Endarterectomia se efectuează în primele 2 săptămâni la stenoze simptomatice 70-99% pe partea afectată, dacă AVC-ul inițial nu a fost cu dizabilitate severă','Pentru stenoze simptomatice 50-69% beneficiul este modest, riscul procedural de AVC fiind circa 3%','Ocluzia carotidiană se tratează prin endarterectomie de urgență, pentru a evacua trombul','Endarterectomia la peste 75 de ani conferă o reducere a riscului mai mare decât la tineri','Screening-ul asimptomaticilor pentru stenoze carotidiene este folositor populațional'],'ABD',845,'Chirurgia și stentarea stenozelor carotidiene',
+ 'Aplicarea pragurilor 70-99% (2 săptămâni) versus 50-69% (beneficiu modest) și a conduitei conservative în ocluzie.',
+ ['Textul indică 2 săptămâni pentru 70-99% simptomatic, fără dizabilitate severă.','Beneficiul modest la 50-69% și riscul ~3% sunt citate.','Ocluzia se tratează conservativ, neexistând risc de embolizare distală.','Pacienții >75 ani au reducere crescută a riscului față de cei mai tineri.','Textul afirmă că screening-ul asimptomaticilor nu este folositor.']],
+ 8,'Transformă ocluzia (tratament conservativ) în indicație de endarterectomie de urgență și inversează utilitatea screening-ului.',['70-99%','aproximativ 3% din cazuri']),
+
+q(37,['Prognosticul după AVC:',
+ ['Aproximativ 50% decedează în prima lună, mortalitatea precoce fiind mai mică în hemoragie decât în ischemie','Coma, devierile oculocefalogire și hemiplegia anunță un prognostic nefavorabil','Recurențele sunt circa 25% în primul an','Platoul de recuperare este atins după 3 luni, ulterior progresul fiind nul','Aproximativ 25% decedează în primii 2 ani, 10% în prima lună; recurența este 10% în primul an'],'BE',845,'Accidentul vascular cerebral — Prognostic',
+ 'Reținerea ratelor 25% la 2 ani, 10% în prima lună și 10% recurență în anul 1, plus markerii de prognostic nefavorabil.',
+ ['Mortalitatea precoce este 10% în prima lună și mai mare după hemoragie, nu 50% și nu mai mică.','Textul leagă coma, devierile oculocefalogire și hemiplegia de prognostic nefavorabil.','Recurența citată este 10% în primul an, nu 25%.','Platoul este după 12 luni.','Cele trei procente (25, 10, 10) sunt explicitate în text.']],
+ 8,'Permutează 10%, 25% și 50% între mortalitatea precoce, cea la 2 ani și recurență.',['25% dintre pacienţi decedează','10% în primul an']),
+
+q(38,['Tratamentul medical al hemoragiei intracerebrale:',
+ ['Antiagregantele rămân indicate pentru prevenția secundară ischemică, chiar în prezența hematomului','Anticoagularea se antagonizează rapid; la warfarină se dau vitamina K i.v. și concentrate de factori','Controlul TA este vital, cu medicamente i.v. în ATI la TAS peste 180 mmHg','Factorul VII activat recombinant previne creșterea hematomului și îmbunătățește demonstrat prognosticul','Măsurile de scădere a PIC pot include ventilație mecanică și manitol'],'BCE',846,'Tratamentul AVC hemoragic — Medical',
+ 'Aplicarea pragului TAS 180 mmHg și a antagonizării anticoagulării, cu nuanța că rFVIIa nu îmbunătățește prognosticul.',
+ ['Antiagregantele sunt contraindicate.','Antagonizarea rapidă cu vitamina K i.v. și concentrate de factori este explicită.','TAS >180 mmHg impune control i.v. în ATI.','rFVIIa poate preveni creșterea hematomului, dar fără îmbunătățirea prognosticului.','Ventilația și manitolul sunt citate ca măsuri de reducere a PIC.']],
+ 8,'Păstrează un efect real (limitarea hematomului) dar îi atribuie beneficiu de prognostic pe care textul îl neagă.',['mai mari de 180','factor VII']),
+
+q(39,['Anevrismele saculare și hemoragia subarahnoidiană:',
+ ['HSA reprezintă circa 5% din AVC, cu incidență anuală de 6 la 100.000','Locațiile frecvente sunt joncțiunile: comunicantă posterioară–ACI, comunicantă anterioară–ACA și trifurcația ACM','Anevrismul mărit de arteră comunicantă posterioară este cauza cea mai comună de pareză dureroasă de nerv III','Anevrismele saculare sunt descoperiri incidentale în 10% din autopsii și apar doar ca leziuni unice','Cea mai frecventă cauză de HSA este malformația arteriovenoasă, circa 70%'],'ABC',847,'Hemoragia subarahnoidiană — Anevrisme saculare',
+ 'Reținerea ponderii HSA, a locurilor de joncțiune și a parezei dureroase de nerv III prin PComm, versus MAV (10%) și incidentalomul 1%.',
+ ['5% și 6/100.000 sunt citate.','Cele trei joncțiuni sunt enumerate.','Pareza dureroasă de nerv III prin anevrism PComm este explicită.','Descoperirea incidentală este 1% din autopsii, iar anevrismele pot fi multiple.','Anevrismul sacular este 70%; MAV 10%.']],
+ 8,'Inversează 70% anevrism versus 10% MAV și umflă prevalența de autopsie de la 1% la 10%.',['pareză dureroasă','Anevrismele saculare'],[846]),
+
+q(40,['Malformațiile arteriovenoase cerebrale nerupte:',
+ ['Riscul primei hemoragii este circa 10% pe an, similar celui de resângerare','20% dintre hemoragii sunt fatale și 30% lasă dizabilitate permanentă','Riscul primei hemoragii este circa 2-3% pe an; după o hemoragie, resângerarea crește la circa 10% pe an','Cavernomele au prevalență 5-10% și sângerează sub presiune înaltă, cu deficit sever frecvent','Tratamentul MAV este uniform chirurgical, fără loc pentru abordare conservatoare'],'BC',847,'Malformațiile arteriovenoase și cavernoamele',
+ 'Diferențierea riscului anual de primă hemoragie (2-3%) de cel de resângerare (10%) și a cavernomului (0,1-0,5%, presiune joasă).',
+ ['10% pe an este riscul de resângerare, nu de primă hemoragie.','Fatalitatea 20% și dizabilitatea 30% sunt citate pentru hemoragia din MAV.','2-3% apoi 10% sunt valorile corecte.','Prevalența cavernomelor este 0,1-0,5%; sângerarea este la presiune joasă, rar cu deficit sever.','Nu există consens că riscul intervenției este clar inferior abordării conservatoare.']],
+ 8,'Permutează 2-3% și 10% între prima hemoragie și resângerare și atribuie cavernomului prevalența și presiunea MAV.',['2-3% pe an','0,1-0,5%']),
+
+q(41,['Timpul mediu până la amplitudinea maximă a cefaleei din HSA este de aproximativ:',
+ ['3 minute','30 de minute','3 ore','12 ore','24 de ore'],'A',847,'Hemoragia subarahnoidiană — Caracteristici clinice',
+ 'Reținerea intervalului de 3 minute care distinge HSA de alte cefalee acute, față de ferestrele CT/LCR de pe aceeași pagină.',
+ ['Textul precizează timpul mediu de circa 3 minute până la amplitudinea maximă.','30 de minute nu este intervalul citat.','3 ore ar fi prea lung pentru tabloul „thunderclap” descris.','12 ore este intervalul până la xantocromia LCR, nu până la vârful cefaleei.','24 de ore este fereastra de sensibilitate CT 95%, nu cronologia durerii.']],
+ 8,'Toate intervalele apar pe pagina HSA (3 min, 12 h, 24 h), deci distractorii sunt fapte reale atribuite parametrului greșit.',['aproximativ 3 minute','thunderclap']),
+
+q(42,['Tratamentul anevrismelor după HSA și al celor nerupte:',
+ ['Plasarea endovasculară de bobine de platină este în acest moment prima linie','Cliparea chirurgicală a pediculului rămâne necesară în cazuri selecționate','Anevrismele nerupte sub 3 mm se tratează de rutină, riscul tratamentului fiind neglijabil','Aproape jumătate din HSA sunt decedate sau muribunde înainte de spital; din rest, 10-20% resângerează în săptămâni','Pentru anevrismele asimptomatice peste 8 mm, riscul tratamentului este mai mic decât al hemoragiei netratate'],'ABDE',848,'Hemoragia subarahnoidiană — Tratament endovascular și chirurgical',
+ 'Ierarhizarea coiling versus clipping și a pragului de 8 mm pentru anevrismul nerupt.',
+ ['Textul plasează coiling-ul ca primă linie.','Cliparea rămâne necesară în cazuri selecționate.','Pragul citat este 8 mm, nu 3 mm, și nu se tratează de rutină microanevrismele.','Mortalitatea pre-spital circa jumătate și resângerarea 10-20% sunt explicite.','Comparația de risc la >8 mm este explicită.']],
+ 8,'Înlocuiește pragul de 8 mm cu 3 mm (pragul hematomului cerebelos din capitol) și anulează mortalitatea pre-spital.',['mai mari de 8 mm','bobine']),
+
+q(43,['Hematomul subdural versus hemoragia extradurală:',
+ ['HSD urmează ruptura unei vene, câteodată după traumă banală, cu interval de zile-săptămâni sau luni','HSD cronic, aparent spontan, este frecvent la vârstnici și la anticoagulați','HED urmează de obicei o fractură care rupe o ramură a arterei meningeale mijlocii','Intervalul de luciditate, apoi midriază ipsilaterală și hemipareză controlaterală, este caracteristic HED','HED se acumulează lent în săptămâni, iar HSD arterial se umple în minute'],'ABCD',848,'Hemoragia subdurală și extradurală',
+ 'Contrastarea sursei venoase lente a HSD cu sângerarea arterială rapidă a HED și a intervalului de luciditate.',
+ ['Ruptura venoasă și intervalul lung sunt descrise.','Vârstnicii și anticoagulații sunt populațiile HSD cronic.','Artera meningeală mijlocie pe linia de fractură este mecanismul HED.','Tabloul luciditate–midriază ipsilaterală–hemipareză controlaterală este caracteristic.','HED se acumulează în minute-ore, nu HSD.']],
+ 8,'Inversează viteza de acumulare arterial versus venos, păstrând restul descrierii corecte.',['arterei meningeale mijlocii','intervalul de luciditate']),
+
+q(44,['După heparina inițială, anticoagularea orală în tromboza venoasă cerebrală se continuă de obicei:',
+ ['7 zile','14 zile','6 săptămâni','6 luni','pe termen nedefinit, ca în FA valvulară'],'D',848,'Tromboza venoasă corticală și a sinusurilor durale — Tratament',
+ 'Reținerea duratei de 6 luni a anticoagulării orale după faza heparinică.',
+ ['7 zile este o durată de profilaxie scurtă, nu schema citată.','14 zile nu este intervalul din text.','6 săptămâni este prea scurt față de durata recomandată.','Textul precizează warfarină sau alt anticoagulant oral timp de 6 luni.','Textul limitează durata la 6 luni, nu la anticoagulare nedefinită.']],
+ 8,'Toate duratele sunt scheme reale de anticoagulare din neurologie/cardiologie; doar 6 luni este cea din acest paragraf.',['timp de 6 luni','heparină']),
+
+q(45,['La primul contact, înaintea investigațiilor, suspiciunea de meningită meningococică impune:',
+ ['O cefalosporină de generația a treia, de exemplu cefotaxim, ca terapie empirică','Dexametazonă 0,6 mg/kg i.v. cu sau înainte de prima doză de antibiotic','Înlocuire ulterioară cu benzilpenicilină dacă se confirmă sensibilitatea','Așteptarea puncției lombare și a culturilor înaintea oricărui antibiotic','Penicilină empirică de primă intenție, rezistența fiind neglijabilă'],'ABC',869,'Meningita meningococică — Tratament în urgență',
+ 'Aplicarea schemei de urgență: cefalosporină de generația a treia plus dexametazonă 0,6 mg/kg, cu de-escaladare ulterioară.',
+ ['Cadranul 26.57 indică cefalosporina de generația a treia empiric.','Dexametazona 0,6 mg/kg i.v. cu sau înainte de antibiotic este explicită.','Benzilpenicilina înlocuiește dacă sensibilitatea se confirmă.','Textul cere tratament imediat, înaintea altor investigații; minutele contează.','Ratele crescute de rezistență la penicilină motivează cefalosporina empirică.']],
+ 8,'Contrazice mesajul „minutele contează” prin amânarea antibioticului și ignoră rezistența care motivează cefalosporina.',['0,6 mg/kg i.v.','cefotaxim']),
+
+q(46,['Antibioterapia și adjuvantul steroidian în meningita bacteriană acută a adultului:',
+ ['La vârsta peste 50 de ani sau la imunocompromiși se adaugă ampicilină pentru a acoperi Listeria','Tratamentul antibiotic se continuă cel puțin 5 zile','Dexametazona 0,6 mg/kg i.v. timp de 4 zile, cu sau înainte de prima doză, reduce complicațiile (ex. surditatea)','Etambutolul este adjuvantul de elecție, pentru spectrul antituberculos empiric','Pentru pneumococ, în zone cu rezistență ridicată, se poate adăuga vancomicină la cefalosporina de generația a treia'],'ABCE',871,'Meningita bacteriană acută — Antibiotice și steroizi',
+ 'Recunoașterea acoperirii Listeria după 50 de ani, a duratei minime de 5 zile și a ferestrei steroiziene de 4 zile.',
+ ['Cadranul 26.59 adaugă ampicilina pentru Listeria la >50 ani/imunocompromiși.','Textul cere continuarea cel puțin 5 zile.','Dexametazona 0,6 mg/kg 4 zile reduce complicațiile neurologice.','Etambutolul trebuie evitat în meningita TBC, nu adăugat empiric în forma acută.','Vancomicina se adaugă în zone cu rezistență pneumococică ridicată.']],
+ 8,'Introduce etambutolul (de evitat în TBM) ca adjuvant al meningitei acute și cere reținerea vârstei 50 de ani pentru Listeria.',['cel puţin 5 zile','timp de 4 zile'],[870]),
+
+q(47,['Meningita virală, comparativ cu forma bacteriană acută:',
+ ['Este în majoritatea cazurilor o afecțiune malignă, cu sechele grele la majoritatea adulților','Durează de obicei 4-10 zile, cu cefalee care poate persista câteva luni','Conștiența rămâne intactă în meningita necomplicată, deși febra mare poate delira','Puncția lombară este superfluă dacă există erupție peteșială, ca în orice meningită virală','LCR-ul viral are de regulă sute de PMN/mm³ și glucoză sub jumătate din glicemie'],'BC',870,'Meningita virală — Tablou clinic și evoluție',
+ 'Recunoașterea evoluției benigne 4-10 zile și a conștienței păstrate, distinct de profilul LCR bacterian și de excepția peteșială meningococică.',
+ ['Textul o descrie ca afecțiune benignă autolimitantă, fără sechele serioase în absența encefalitei.','Durata 4-10 zile și cefaleea reziduală de luni sunt explicite.','În meningita necomplicată conștiența rămâne intactă.','PL inutilă vizează meningococul cu erupție peteșială, nu viralele.','Profilul viral este mononuclear, glucoză >½ din glicemie; PMN-urile și hipoglicorahia sunt bacteriene.']],
+ 8,'Atribuie viralei mortalitatea și LCR-ul bacterienei și extinde excepția PL de la rash-ul meningococic la toate viralele.',['4-10 zile','autolimitantă']),
+
+q(48,['Encefalita herpetică (HSV):',
+ ['Afectează inițial, tipic, lobii temporali și este adesea asimetrică','PCR din LCR poate fi fals-negativ în primele 48 de ore de la debutul simptomelor','Aciclovirul i.v. se amână până la confirmarea PCR, pentru a evita toxicitatea','Doza de aciclovir este 10 mg/kg de 3 ori pe zi, 14-21 de zile, chiar înaintea rezultatelor','EEG prezintă de obicei complexe de unde ascuțite și lente'],'ABDE',872,'Encefalita virală — HSV: investigații și tratament',
+ 'Aplicarea schemei de aciclovir imediat (10 mg/kg ×3, 14-21 zile) și a limitei PCR în primele 48 de ore.',
+ ['Afectarea temporală asimetrică este tipică.','Fals-negativul PCR în primele 48 de ore este precizat.','Tratamentul se începe imediat, înaintea rezultatelor.','Doza și durata sunt explicitate.','EEG cu complexe ascuțite și lente este descris.']],
+ 8,'Amână aciclovirul până la PCR, contrar regulii de tratament imediat, pe fondul unui interval 48 de ore real dar pentru fals-negativ.',['10 mg/kg de 3 ori pe zi','primele 48 de ore'],[871]),
+
+q(49,['Nevralgia postherpetică și imunizarea anti-zoster:',
+ ['Este definită ca durere peste 4 luni de la dezvoltarea zonei zoster','Apare la circa 10% dintre pacienți, adesea vârstnici','Vaccinarea adulților mai în vârstă reduce incidența zonei zoster cu aproximativ 50%','Amitriptilina sau gabapentinul sunt inutile, singurul tratament fiind opioidele','Herpesul oftalmic (V1) poate duce la cicatrizarea corneei și panoftalmită secundară'],'ABCE',872,'Herpes zoster — Nevralgia postherpetică și imunizare',
+ 'Reținerea pragului de 4 luni, a ponderii de 10% și a reducerii cu 50% prin vaccinare, plus riscul oftalmic V1.',
+ ['Definiția >4 luni este explicită.','10%, adesea vârstnici, este cifra din text.','Reducerea cu circa 50% prin vaccinare este citată.','Amitriptilina sau gabapentinul sunt utilizate în mod obișnuit; opioidele nu sunt tratamentul citat.','Implicarea V1 cu cicatrizare corneeană și panoftalmită este descrisă.']],
+ 8,'Înlocuiește amitriptilina/gabapentinul cu opioide și cere reținerea simultană a pragului 4 luni, a 10% și a 50%.',['mai mare de 4 luni','aproximativ 50%']),
+];

@@ -1,0 +1,248 @@
+import {advancedQuestion} from './advanced-author';
+import type {SourceRow} from './source-author';
+const pdfOffset=(p:number)=>p<=961?p-789:p<=972?p-790:p-792;
+const q=(n:number,row:SourceRow,score:number,reason:string,expressions:string[],related:number[]=[])=>
+ advancedQuestion('pneumologie',28,pdfOffset,`pneumologie-adv-${String(n).padStart(3,'0')}`,row,[score,reason],expressions,undefined,related);
+
+export const PNEUMOLOGIE_B=[
+q(23,['Ipoteza igienei în etiologia astmului:',
+ ['Petrecerea copilăriei într-un mediu relativ „curat" poate predispune la un răspuns de tip IgE la alergene','Expunerea timpurie la produși ai microorganismelor, ca în comunitățile cu ferme de animale, poate reduce riscul de alergie și de astm','Majoritatea bolnavilor cu astm alergic sunt sensibilizați la alergenele acarienilor din praful de casă','Polenurile sunt mai implicate în astm decât în rinită','Alergia la gândacii de bucătărie a fost descrisă ca fiind mai frecventă în mediul rural decât în zonele urbane'],'ABC',950,'Boli respiratorii obstructive — Factorii de mediu; Alergenele',
+ 'Integrarea ipotezei igienei cu spectrul alergenic al astmului alergic.',
+ ['Textul leagă mediul „curat" de predispoziția la răspuns IgE (ipoteza igienei).','Expunerea timpurie în comunități agricole este descrisă ca protectoare.','Acarienii din praful de casă sunt alergenul dominant al astmului alergic.','Textul precizează opusul: polenurile sunt relativ mai puțin implicate în astm decât în rinită.','Alergia la gândaci a fost implicată la copiii din zonele urbane din SUA, nu în mediul rural.']],
+ 8,'Distractorii inversează ponderea polenurilor între astm și rinită și mută alergia la gândaci din mediul urban în cel rural.',['ipoteza igienei','acarienilor din praful de casă']),
+
+q(24,['Un adolescent astmatic dezvoltă wheezing la 10 minute după un efort prelungit în aer uscat și rece, nu în timpul efortului. Mecanismul descris în text include:',
+ ['Eliberarea de histamină, prostaglandine și leucotriene din mastocite, plus stimulare nervoasă reflexă','Instalarea simptomelor caracteristic după efort, nu în timpul acestuia','Bronhoconstricție mediată de o inervație simpatică directă a musculaturii netede bronșice','Depunerea de IgE pe acarieni, fără participarea mediatorilor mastocitari','Apariția simptomelor numai la efortul din aer cald și umed, nu la aer uscat și rece'],'AB',950,'Factorii declanșatori — Aerul rece și efortul fizic',
+ 'Recunoașterea momentului post-efort al wheezing-ului indus de efort și a mediatorilor mastocitari.',
+ ['Textul atribuie wheezing-ul de efort eliberării acestor mediatori din mastocite și reflexelor nervoase.','Simptomele nu apar în timpul efortului, ci după, conform descrierii caracteristice.','Inervația simpatică directă a musculaturii bronșice este negată în capitol, nu este mecanismul descris aici.','Mediatorii mastocitari sunt explicit implicați, nu un mecanism fără histamină.','Declanșatorul citat este aerul uscat și rece, nu aerul cald și umed.']],
+ 8,'Vigneta reproduce momentul post-efort; distractorii importă un mecanism inervațional din altă secțiune sau inversează condițiile de temperatură.',['nu apar în timpul efortului','eliberarea de histamină']),
+
+q(25,['Alegeți afirmațiile corecte referitoare la astmul indus de AINS:',
+ ['Aspirina și derivații de acid propionic (indometacin, ibuprofen) sunt implicați la aproximativ 5% dintre pacienți','Intoleranța este prevalentă mai ales la cei cu polipoză nazală și astm','Pacienții cu intoleranță la aspirină ar putea tolera inhibitorii de ciclooxigenază-2','Paracetamolul este principalul declanșator, iar AINS-urile sunt rareori implicate','Intoleranța la AINS exclude orice formă de rinită asociată'],'ABC',951,'Factorii declanșatori — Medicamente; AINS',
+ 'Asocierea AINS-astm cu polipoza nazală și posibila toleranță a inhibitorilor COX-2.',
+ ['Textul citează prevalența de aproximativ 5% pentru aspirină și derivații de acid propionic.','Asocierea cu polipoza nazală este explicită.','Textul menționează că inhibitorii COX-2 ar putea fi tolerați.','AINS-urile, nu paracetamolul, sunt clasa implicată ca declanșatori.','Rinita și eritemul tranzitoriu după expunere sunt descrise ca asocieri frecvente, nu ca excludere.']],
+ 8,'Distractorii mută clasa declanșatoare și neagă rinita care însoțește clasic intoleranța la AINS.',['aproximativ 5% din pacienţi','polipoză nazală'],[952]),
+
+q(26,['Chiar și cu o tehnică bună a inhalatorului cu doze măsurate (MDI), fracția de medicament care ajunge în căile aeriene este de aproximativ:',
+ ['15%, restul de 85% depunându-se pe peretele faringelui și fiind ulterior înghițit','85%, restul de 15% rămânând în dispozitiv','50%, în părți egale între plămân și faringe','100%, dacă pacientul expiră până la volumul rezidual înainte de activare','0%, MDI nefiind conceput pentru livrare pulmonară'],'A',952,'Cadranul 28.19 — Terapia inhalatorie pentru astm',
+ 'Reținerea raportului 15/85 dintre fracția inhalată și cea depusă faringian la MDI.',
+ ['Textul precizează că, chiar cu tehnică bună, doar 15% din conținut este inhalat, iar 85% se depune faringian.','Raportul este inversat față de text.','Nu este descris un raport 50/50.','Expirul corect este până la capacitatea reziduală funcțională, nu până la volumul rezidual; chiar și atunci fracția pulmonară rămâne 15%.','Avantajul inhalatorului este tocmai livrarea directă în căile aeriene.']],
+ 8,'Distractorii inversează raportul 15/85 sau confundă volumul rezidual cu capacitatea reziduală funcțională din aceeași listă de pași.',['15% din conţinut este inhalat','capacitatea reziduală funcţională']),
+
+q(27,['Antagoniștii receptorilor pentru leucotriene în astm:',
+ ['Un tratament de probă de 4 săptămâni este recomandat înainte de a decide continuarea','Sunt utili în special la pacienții cu astm și intoleranță la aspirină','Efectul lor este aditiv cu cel al β2-agoniștilor cu durată lungă de acțiune','Răspunsul clinic poate fi prezis înainte de inițiere la toți pacienții, fără probă terapeutică','Sunt contraindicate la copiii mici cu wheezing post-viral'],'ABD',953,'Tratament — Antagoniștii receptorilor pentru leucotriene',
+ 'Aplicarea probei de 4 săptămâni, a utilității în astmul cu intoleranță la aspirină și a aditivității cu BADLA.',
+ ['Proba de 4 săptămâni este explicit recomandată, deoarece răspunsul nu poate fi prezis.','Textul subliniază utilitatea particulară în astmul cu intoleranță la aspirină.','Efectul este descris ca aditiv cu BADLA.','Textul precizează opusul: nu poate fi prezis care pacienți vor avea beneficiu.','Administrarea orală le face utile tocmai la copiii mici cu astm și/sau wheezing post-viral.']],
+ 8,'Cheia combină o durată de probă cu o indicație de nișă; distractorii inversează predicția răspunsului și indicația pediatrică.',['tratament de probă de 4 săptămâni','intoleranţă la aspirină']),
+
+q(28,['Dacă simptomele unei exacerbări astmatice severe nu sunt controlate de bronhodilatatoare și corticosteroizi, doza unică de sulfat de magneziu intravenos menționată în text este:',
+ ['0,5 g în bolus rapid','4 g în 5 minute','1,2–2 g în perfuzie timp de 20 de minute','10 g subcutanat','Magneziul este contraindicat, fiind rezervat BPOC'],'C',954,'Exacerbarea astmatică severă — Tratament',
+ 'Reținerea dozei și duratei de administrare a magneziului intravenos în astmul acut necontrolat.',
+ ['Doza este mai mare și se administrează în perfuzie, nu 0,5 g în bolus.','4 g în 5 minute nu este schema din text.','Aceasta este doza și durata citate (1,2–2 g în 20 de minute).','Calea este intravenoasă, nu subcutanată, iar doza nu este 10 g.','Magneziul este menționat explicit în algoritmul exacerbării astmatice severe.']],
+ 8,'Toate cifrele sunt plauzibile clinic; doar intervalul 1,2–2 g / 20 min corespunde textului.',['1,2-2 g sulfat de magneziu','20 min']),
+
+q(29,['În exacerbarea astmatică acută, expectorația galbenă sau verde:',
+ ['Poate conține eozinofile și celule epiteliale, reflectând mai degrabă infecție virală decât bacteriană','Nu impune, de regulă, antibiotice, dovezile de beneficiu fiind slabe','Semnifică suprainfecție bacteriană ce impune macrolid de lungă durată la toți adulții','Exclude diagnosticul de astm, fiind patognomonică pentru BPOC','Impune întreruperea corticoterapiei până la sterilizarea sputei'],'AB',954,'Exacerbări — Antibiotice',
+ 'Diferențierea sputei colorate eozinofilice virale de indicația reală (rară) a antibioticelor în astmul acut.',
+ ['Textul atribuie culoarea eozinofilelor și celulelor epiteliale, nu neapărat bacteriilor.','Antibioticele nu aduc, de regulă, beneficiu în astmul acut.','Macrolidele de lungă durată au dovezi contradictorii și nu sunt impuse de sputa colorată acută.','Sputa colorată este descrisă în astmul acut, nu exclude diagnosticul.','Corticoterapia rămâne pilonul exacerbării, nu se întrerupe pentru culoarea sputei.']],
+ 8,'Inversează interpretarea sputei colorate (viral/eozinofilic versus bacterian) — o capcană frecventă.',['expectoraţie galbenă sau verde','eozinofile şi celule epiteliale']),
+
+q(30,['Bronșita acută la adulți anterior sănătoși:',
+ ['Debutează cu tuse neproductivă iritativă și disconfort retrosternal','Se ameliorează spontan în 4–8 zile, fără semne de severitate','Antibioticele (ex. amoxicilină) nu ar trebui prescrise în majoritatea acestor cazuri','Necesită internare și oxigenoterapie de rutină, similar exacerbării de BPOC','Este produsă aproape numai de Mycobacterium tuberculosis'],'ABC',955,'Bronșita acută',
+ 'Recunoașterea evoluției autolimitate și a absenței indicației de rutină a antibioticelor la adultul sănătos.',
+ ['Debutul cu tuse iritativă și disconfort retrosternal este descris explicit.','Ameliorarea spontană în 4–8 zile este citată pentru adulții anterior sănătoși.','Textul precizează că în majoritatea cazurilor antibioticele nu ar trebui prescrise.','Evoluția autolimitată nu justifică internarea de rutină.','Etiologia obișnuită este virală, cu suprainfecție posibilă cu S. pneumoniae sau H. influenzae, nu TBC.']],
+ 8,'Distractorii medicalizează o boală autolimitată și substituie etiologia virală cu TBC.',['4-8 zile','amoxicilină 250 mg']),
+
+q(31,['Definiția clasică a bronșitei cronice este tuse productivă zilnică timp de:',
+ ['6 săptămâni consecutive într-un singur an','3 luni pe an în 2 ani consecutivi','5 zile pe lună timp de 6 luni','12 luni neîntrerupte, indiferent de productivitate','O singură lună cu spută hemoptoică'],'B',955,'Bronșita cronică',
+ 'Reținerea criteriului temporal clasic (3 luni/an, 2 ani consecutivi) al bronșitei cronice.',
+ ['Intervalul de 6 săptămâni nu îndeplinește criteriul clasic.','Aceasta este definiția clasică din text.','Criteriul nu este formulat în zile pe lună.','Productivitatea zilnică pe 3 luni în 2 ani, nu 12 luni continue, definește sindromul.','Hemoptizia nu face parte din definiția bronșitei cronice.']],
+ 8,'Distractorii deplasează pragul temporal cu intervale plauzibile din același registru de tuse cronică.',['3 luni pe an','2 ani consecutivi']),
+
+q(32,['Modificările histopatologice și contextul sistemic al BPOC includ:',
+ ['Predominanța neutrofilelor, a limfocitelor CD8 și a macrofagelor pe biopsiile endobronșice','Creșterea numărului de celule caliciforme în mucoasa bronșică','Asocierea frecventă cu boală cardiacă ischemică, hipertensiune, diabet, insuficiență cardiacă și cancer','În țările în curs de dezvoltare, inhalarea fumului de biomasă în încăperi slab ventilate','Inflamație eozinofilică izolată, fără neutrofile, identică cu astmul alergic al copilului'],'ABCD',955,'BPOC — Definiție; Fiziopatologie',
+ 'Diferențierea infiltratului CD8/neutrofilic al BPOC de eozinofilia astmatică și recunoașterea comorbidităților sistemice.',
+ ['Acesta este profilul celular descris pe biopsiile endobronșice.','Hiperplazia celulelor caliciforme este ilustrată și descrisă.','Lista de comorbidități sugerează un proces inflamator sistemic.','Fumul de biomasă este etiologia suplimentară citată în țările în curs de dezvoltare.','Profilul dominant este neutrofilic/CD8, nu eozinofilia izolată a astmului alergic.']],
+ 8,'Ultimul distractor substituie fenotipul inflamator al BPOC cu cel al astmului, păstrând restul faptelor din același capitol.',['limfocitelor predominant CD8','celule caliciforme']),
+
+q(33,['Deficitul de alfa-1-antitripsină:',
+ ['Proteina hepatică inhibă elastaza neutrofilică capabilă să distrugă țesutul conjunctiv alveolar','Fenotipurile principale sunt MM (normal), MZ (heterozigot) și ZZ (homozigot)','Este responsabil pentru 2% din cazurile de emfizem din Marea Britanie','Fenotipul MM este forma homozigotă gravă, iar ZZ este normal','Deficitul pulmonar exclude orice afectare hepatică concomitentă'],'ABC',956,'Patogenie — Deficitul de alfa1-antitripsină',
+ 'Asocierea mecanismului antiproteazic cu fenotipurile MM/MZ/ZZ și ponderea de 2% a emfizemului.',
+ ['Rolul de inhibitor al elastazei neutrofilice este descris explicit.','Cele trei fenotipuri sunt enumerate în text.','Ponderea de 2% este cifra din Marea Britanie.','MM este normal, ZZ este deficitul homozigot, nu invers.','Textul menționează și afectarea hepatică asociată deficitului.']],
+ 8,'Inversează corespunderea MM/ZZ și neagă afectarea hepatică menționată pe aceeași pagină.',['Cele 3 fenotipuri principale','2% din cazurile de emfizem']),
+
+q(34,['Pacienții cu BPOC care devin insensibili la variațiile PaCO2 se caracterizează, spre deosebire de cei care își conservă răspunsul, prin:',
+ ['Edeme și cianoză frecvente, fără dispnee semnificativă','Dispnee marcată și cianoză rară, cu edeme doar terminale','Vasodilatație periferică, puls amplu și asterixis în hipercapnie','Edem papilar patognomonic, suficient pentru diagnosticul BPOC','Absența oricărei manifestări neurologice chiar în hipercapnia severă'],'AC',957,'Tablou clinic — Răspunsul la CO2',
+ 'Contrastul clinic dintre conservatorii de CO2 (dispnee, puțină cianoză) și cei insensibili (edeme, cianoză, asterixis).',
+ ['Acesta este tabloul celor insensibili la variațiile CO2.','Acest profil aparține celor care își conservă răspunsul la CO2, nu celor insensibili.','Hipercapnia poate produce vasodilatație, puls amplu și flapping tremor.','Edemul papilar poate fi prezent, dar nu este nici specific, nici sensibil pentru diagnosticul BPOC.','Hipercapnia severă induce confuzie și somnolență progresivă.']],
+ 8,'Perechea clasică „pink puffer / blue bloater” este testată prin inversarea dispneei și a edemelor, plus supraevaluarea edemului papilar.',['insensibili la variaţii ale CO2','asterixis']),
+
+q(35,['Alegeți afirmațiile adevărate despre tratamentul de fond al BPOC:',
+ ['Anticolinergicele cu durată lungă de acțiune ameliorează funcția, dispneea și calitatea vieții, dar nu previn declinul VEMS','Roflumilast, inhibitor de fosfodiesterază de tip 4, este adjuvant la VEMS <50% prezis și bronșită cronică','Corticosteroizii inhalatori se folosesc la exacerbări frecvente și VEMS <50%; eozinofilia poate identifica responderii','Dozele mari de corticosteroizi inhalatori sunt preferate deoarece reduc pneumonia','Teofilina cu durată lungă aduce un beneficiu major, superior LAMA'],'ABC',957,'Tratament — Bronhodilatatoare; Roflumilast; Corticosteroizi',
+ 'Separarea efectului simptomatic al LAMA de lipsa prevenirii declinului VEMS și a criteriilor pentru roflumilast/CSI.',
+ ['Textul precizează ameliorarea simptomatică fără prevenirea declinului VEMS.','Acestea sunt criteriile de utilizare a roflumilastului.','Pragul VEMS și rolul eozinofiliei sunt explicitate.','Dozele mari de CSI se evită tocmai din cauza incidenței crescute a pneumoniei.','Teofilina aduce un beneficiu redus, nu superior LAMA.']],
+ 8,'Distractorii inversează riscul de pneumonie al CSI și magnitudinează teofilina, două erori de ierarhie terapeutică.',['nu previne declinul VEMS','Roflumilast']),
+
+q(36,['Măsurile adjuvante în BPOC cu exacerbări frecvente includ:',
+ ['Macrolid de lungă durată (azitromicină) care scade frecvența exacerbărilor','Mucolitice precum carbocisteina, utile în prevenția exacerbărilor la cei cu episoade frecvente','Înlocuirea vaccinării antigripale anuale cu o singură doză la diagnostic','Interzicerea oricărui mucolitic, deoarece crește vâscozitatea sputei','Azitromicina numai ca monoterapie, în locul bronhodilatatoarelor'],'AB',958,'Tratament — Antibiotice; Agenții mucolitici',
+ 'Recunoașterea rolului preventiv al macrolidului de lungă durată și al mucoliticelor la exacerbatorii frecvenți.',
+ ['Textul atribuie azitromicinei scăderea frecvenței exacerbărilor și ameliorarea calității vieții.','Meta-analiza citată susține carbocisteina la exacerbatori frecvenți.','Vaccinarea antigripală rămâne anuală; pneumococică este doza unică.','Mucoliticele scad, nu cresc, vâscozitatea sputei.','Macrolidul este adjuvant, nu înlocuitor al bronhodilatatoarelor.']],
+ 8,'Confundă schema de vaccinare (unică pneumococică versus anuală gripală) și sensul efectului mucolitic.',['azitromicina','vâscozitatea sputei']),
+
+q(37,['Un pacient cu BPOC moderată planifică un zbor comercial. Selectați enunțurile adevărate despre desaturarea de altitudine:',
+ ['Aeronavele sunt presurizate la echivalentul a 2.000–2.400 m altitudine','Desaturarea poate fi simulată la sol respirând aer cu 15% oxigen','Dacă saturația scade sub 85% după 15 minute, se recomandă oxigen suplimentar pe durata zborului','Presurizarea menține PaO2 identică cu cea de la nivelul mării la toți pacienții cu BPOC','Testul de simulare se face cu 100% oxigen timp de o oră'],'ABC',959,'Măsuri adiționale — Călătoria cu avionul',
+ 'Aplicarea simulării hipoxice (15% O2, prag 85% la 15 minute) înaintea zborului la BPOC.',
+ ['Intervalul de presurizare 2.000–2.400 m este citat.','Simularea cu 15% oxigen la nivelul mării este metoda descrisă.','Pragul de 85% după 15 minute declanșează solicitarea de oxigen la companie.','La sănătoși PaO2 scade de la 100 la 75 mmHg; la BPOC desaturarea poate fi semnificativă.','Amestecul este 15% oxigen, nu 100%, iar durata testului este 15 minute.']],
+ 8,'Cifrele de altitudine, fracție de O2 și prag de saturație trebuie ținute împreună; distractorii le amestecă.',['15% oxigen','sub 85% după 15 minute']),
+
+q(38,['Indicația de ventilație non-invazivă pe secție la BPOC, conform cadranului de indicații, reunește:',
+ ['Frecvență respiratorie >23/min, pH <7,35 și PaCO2 >49 mmHg (6,5 kPa)','Orice pH <7,50, indiferent de PaCO2','Doar tahipneea >30/min cu pH normal','Astmul acut ca indicație de elecție pe secție','Vărsăturile incoercibile ca criteriu de inițiere, nu de evitare'],'A',961,'Cadranul 28.25 — Indicațiile VNI',
+ 'Reținerea triadei FR, pH și PaCO2 care autorizează VNI pe secție în BPOC.',
+ ['Aceste praguri sunt cele listate pentru BPOC/obezitate.','pH-ul 7,50 nu este criteriul acidotic cerut.','pH-ul scăzut și hipercapnia fac parte din indicație, nu tahipneea izolată.','Astmul figurează la contraindicațiile absolute ale VNI pe secție.','Vărsăturile sunt contraindicație absolută, nu indicație.']],
+ 8,'Distractorii amestecă pragurile de indicație cu contraindicațiile absolute (astm, vărsături) din cadranul alăturat.',['Frecvenţa respiratorie >23/min','pH <7,35']),
+
+q(39,['Apneea obstructivă în somn:',
+ ['Are o prevalență de 3–5% și este cea mai frecventă la bărbați de vârstă mijlocie supraponderali','În somnul REM, diafragmul este practic singurul mușchi respirator activ','Colabarea faringelui apare prin hipotonie a mușchilor genioglos și palatini','Sforăitul puternic este raportat la aproximativ 95% dintre simptomatici','Este întâlnită doar la copiii cu hipertrofie amigdaliană, nu la adulți'],'ABCD',961,'Apneea în somn de tip obstructiv',
+ 'Integrarea epidemiologiei, fiziologiei REM și a simptomului dominant (sforăit) în ASO.',
+ ['Prevalența 3–5% și profilul bărbatului de vârstă mijlocie supraponderal sunt explicite.','Reducerea activității musculare în REM, cu diafragm aproape izolat, este descrisă.','Genioglosul și palatinii sunt dilatatorii care devin hipotoni.','Cadranul de simptome listează sforăitul puternic la 95%.','ASO este descrisă la adulți; la copii apar forme asociate hipertrofiei amigdaliene sau trisomiei 21, nu exclusivitatea pediatrică.']],
+ 8,'Reunește prevalența, fiziologia REM și procentul de sforăit; distractorul restrânge artificial boala la copii.',['3-5% din populaţie','muşchii genioglos şi palatini']),
+
+q(40,['Alegeți afirmațiile adevărate referitoare la sevrajul tabagic medicamentos:',
+ ['Substituția nicotinică și bupropionul sunt adjuvante la cei care fumează mai mult de 10 țigări pe zi','Vareniclina, agonist parțial al receptorului nicotinic α4β2, în cură de 12 săptămâni dublează șansele de reușită','Prima prescripție de substituție ar trebui să dureze până la 2 săptămâni după data-țintă de oprire','Terapia combinată nicotină plus bupropion este demonstrat superioară monoterapiei și se preferă de primă intenție','Țigările electronice au dovezi de siguranță pe termen lung superioare nicotinei orale'],'ABC',963,'Oprirea fumatului',
+ 'Aplicarea pragului de 10 țigări/zi, a duratei vareniclinei și a ferestrei de prescripție după data-țintă.',
+ ['Pragul >10 țigări/zi și cele două adjuvante sunt explicitate.','Cura de 12 săptămâni care dublează șansele este atribuită vareniclinei.','Fereastra de 2 săptămâni după data prestabilită este cerută pentru prima prescripție.','Textul precizează că nu există dovezi pentru avantaje ale terapiei combinate; substituția nicotinică este preferată.','Siguranța pe termen lung a e-țigărilor nu este încă disponibilă.']],
+ 8,'Distractorii pretind superioritatea asocierii nicotină–bupropion, pe care textul o neagă, și inventează siguranța e-țigărilor.',['mai mult de 10 ţigări pe zi','cură de 12 săptămâni']),
+
+q(41,['Pneumonia comunitară:',
+ ['Streptococcus pneumoniae este cea mai frecventă cauză în general','În 30–50% din cazuri nu este identificat niciun microorganism','La vârstnici se poate prezenta cu stare confuzională sau căderi, fără tablou tipic','Este produsă aproape numai de fungi la gazda imunocompetentă','Simptomatologia discretă la vârstnici permite excluderea diagnosticului fără investigații'],'ABC',964,'Pneumonia comunitară — Epidemiologie; Tablou clinic',
+ 'Cuantificarea etiologiei pneumococice și a cazurilor fără germene, plus prezentarea atipică a vârstnicului.',
+ ['Pneumococul este citat ca cea mai frecventă cauză.','Intervalul 30–50% fără microorganism identificat este explicit.','Tabloul confuzional sau căderile la vârstnici sunt subliniate.','Fungii și virusurile sunt menționate, dar bacteria (în special pneumococul) predomină la imunocompetent.','Textul cere ca PC să fie luată în considerare tocmai din cauza tabloului atipic, nu exclusă.']],
+ 8,'Cifra 30–50% fără germene se confundă ușor cu „etiologie necunoscută = nu e pneumonie”.',['30-50% din cazuri','stare confuzională']),
+
+q(42,['O femeie de 72 de ani este internată cu pneumonie. Care asocieri de laborator sunt corecte?',
+ ['În infecția cu Legionella: limfopenie fără leucocitoză marcată, hiponatremie, hipoalbuminemie și transaminaze crescute','Un test HIV trebuie oferit tuturor pacienților cu pneumonie, ca formă frecventă de debut al infecției nediagnosticate','În infecția cu Mycoplasma, leucocitoza >15×10³/µL cu neutrofilie 90% este regula','Antigenul urinar Legionella înlocuiește gazometria când saturația este <94%','Hemoculturile se omit sistematic în pneumonia moderată-severă, pentru a nu întârzia antibioticul'],'AB',965,'Investigații — Analize de sânge; Alte teste',
+ 'Asocierea profilului biochimic al Legionellei cu indicația de testare HIV la orice pneumonie.',
+ ['Acesta este profilul de laborator descris pentru Legionella.','Testul HIV este recomandat tuturor pacienților cu pneumonie.','Leucocitoza marcată cu neutrofilie caracterizează pneumococul; în Mycoplasma numărul de leucocite este de obicei normal.','Gazometria este indicată la saturație <94%, independent de antigenul urinar.','Hemoculturile sunt necesare în PC moderată sau severă, ideal înainte de antibiotic, fără a amâna prima doză.']],
+ 8,'Transferă leucocitoza pneumococică asupra Mycoplasmei și inversează prioritatea hemoculturilor față de prima oră de antibiotic.',['limfopenie fără leucocitoză','test HIV']),
+
+q(43,['Abordarea inițială a pneumoniei comunitare include:',
+ ['În formele ușoare, testele microbiologice nu sunt necesare; se tratează la domiciliu cu amoxicilină orală (sau claritromicină la alergie)','Radiografia toracică se repetă la 6 săptămâni pentru a exclude un cancer bronșic subiacent','Prima doză de antibiotic se administrează în prima oră după identificarea unui criteriu de risc înalt','Oxigenul țintă este 94–98% la pacienții fără risc de retenție de CO2','Fizioterapia toracică se aplică de rutină la toți internații, chiar fără retenție de spută'],'ABCD',965,'Evaluarea inițială; Abordare terapeutică generală',
+ 'Articularea criteriilor de tratament ambulator, a radiografiei de control și a ferestrei de o oră pentru antibiotic.',
+ ['Formele ușoare se tratează acasă, fără microbiologie de rutină.','Controlul la 6 săptămâni urmărește o obstrucție neoplazică.','Fereastra de o oră este explicită pentru riscul înalt.','Intervalul 94–98% este ținta, cu excepția BPOC cu risc de hipercapnie (88–92%).','Fizioterapia este rezervată retenției de spută, nu se aplică de rutină.']],
+ 8,'Distractorul extinde fizioterapia la toți internații, contrar precizării de excepție din text.',['prima oră','după 6 săptămâni']),
+
+q(44,['Pleurezia parapneumonică și empiemul:',
+ ['Pleurezia complică aproximativ o treime până la jumătate din cazurile de pneumonie comunitară','Un exudat cu pH pleural <7,2 este intens sugestiv pentru empiem','Febra persistentă și probele inflamatorii înalte sub antibiotic adecvat sunt indicatori precoce de empiem','Un transudat cu pH 7,6 este echivalentul biochimic al empiemului','Drenajul se amână până la pahipleurită, pentru a crește randamentul culturii'],'ABC',966,'Pleurezia parapneumonică și empiemul',
+ 'Aplicarea pragului de pH <7,2 și a semnelor de alarmă care impun toracenteză și drenaj.',
+ ['Fracția 1/3–1/2 este citată pentru pleurezia din PC.','pH-ul <7,2 este criteriul intens sugestiv de empiem.','Febra și inflamația persistentă sunt indicatorii precoce descriși.','Empiemul este exudat purulent acid, nu transudat alcalin.','Drenajul trebuie făcut urgent pentru a preveni pahipleurita, nu amânat.']],
+ 8,'Inversează urgența drenajului și substituie exudatul acid cu un transudat, două erori de interpretare a lichidului pleural.',['pH în lichidul pleural <7,2','o treime până la jumătate']),
+
+q(45,['Abcesul pulmonar:',
+ ['Se asociază cu spută abundentă, adesea fetidă prin anaerobi, și febră oscilantă','Hipocratismul digital poate apărea în supurația cronică','Tratamentul este adesea prelungit (4–6 săptămâni), ghidat de culturi','Se vindecă în 48 de ore cu o singură doză de amoxicilină orală','CT-ul este superfluu, radiografia fiind suficientă pentru excluderea corpilor străini'],'ABC',967,'Abcesul pulmonar',
+ 'Recunoașterea tabloului de supurație cronică și a duratei de 4–6 săptămâni a antibioterapiei.',
+ ['Sputa fetidă și febra oscilantă sunt manifestările descrise.','Hipocratismul este menționat în supurația cronică.','Durata 4–6 săptămâni este explicită.','Tratamentul este prelungit, nu o doză unică orală.','CT-ul este esențial, iar bronhoscopia poate extrage corpi străini.']],
+ 8,'Minimizează durata terapiei și neagă rolul CT, ambele contrare paragrafului de management.',['4-6 săptămâni','hipocratismul digital']),
+
+q(46,['Pneumonia de aspirație:',
+ ['Materialul aspirat ajunge cel mai frecvent în lobul mijlociu drept și în segmentele superior și posterobazal ale lobului inferior drept','Co-amoxiclav este folosit în formele ușoare-moderate, acoperind Gram-negativi și anaerobi','Aspirația gastrică în sarcină (sindromul Mendelson) este o formă benignă, fără necroză','Localizarea predilectă este lobul superior stâng, datorită unghiului bronșic','Anaerobii sunt absenți, deci metronidazolul este inutil în orice formă'],'AB',967,'Pneumonia de aspirație',
+ 'Reținerea distribuției anatomice drepte a aspiratului și a acoperirii empirice cu co-amoxiclav.',
+ ['Anatomia bronșică explică predilecția dreaptă descrisă.','Co-amoxiclav este schema empirică citată pentru formele ușoare-moderate.','Sindromul Mendelson este descris ca boală extrem de severă, uneori fatală, prin acid gastric.','Predilecția este dreaptă, nu stângă superioară.','Anaerobii sunt implicați în pneumonia persistentă post-aspirație.']],
+ 8,'Inversează sediul anatomic (stâng versus drept) și minimizează gravitatea sindromului Mendelson.',['lobul mijlociu drept','sindromul lui Mendelson']),
+
+q(47,['Un pacient cu HIV și CD4 180/mm³ prezintă febră, tuse seacă și desaturare rapidă la efort. Referitor la pneumonia cu Pneumocystis jirovecii sunt corecte:',
+ ['Riscul este crescut la CD4 <200/mm³','Aspectul radiografic tipic este de opacități alveolo-interstițiale bilaterale perihilare în „fluture”','Infecția se produce mai degrabă prin re-infecție din aer decât prin reactivarea unor microorganisme persistente din copilărie','Tratamentul de primă linie este fluconazolul în doză unică','Desaturarea la efort este neobișnuită și orientează spre embolie, nu spre Pneumocystis'],'ABC',967,'Pneumonia cu Pneumocystis jirovecii',
+ 'Asocierea pragului CD4, a imaginii „în fluture” și a re-infecției aeriene, distinctă de reactivare.',
+ ['Pragul CD4 <200/mm³ este explicit.','Imaginea perihilară bilaterală „în fluture” este aspectul tipic.','Textul opune re-infecția reactivării persistenței din copilărie.','Prima linie este co-trimoxazolul în doză mare, nu fluconazolul.','Desaturarea rapidă la efort este manifestarea caracteristică la examenul fizic.']],
+ 8,'Confundă re-infecția aeriană cu reactivarea și înlocuiește co-trimoxazolul cu un azol, două erori de mecanism și de tratament.',['CD4 mai mic de 200/mm3','aspect de fluture']),
+
+q(48,['Patogenia tuberculozei primare:',
+ ['M. tuberculosis este un patogen intracelular aerob, adesea denumit bacil acid-alcoolo-rezistent','Focarul Ghon poate rămâne calcificat, cu bacili dormanți izolați de sistemul imun','La primul contact, mai puțin de 5% dezvoltă boală activă (proporția crește la 10% în primul an)','Infecția necesită inhalarea a mii de bacili; un număr mic nu este suficient','Toți infectații dezvoltă boală activă în primele săptămâni'],'ABC',968,'Tuberculoza — Patogenie; TB primară',
+ 'Integrarea naturii BAAR, a focarului Ghon dormant și a riscului mic de boală activă la primo-infecție.',
+ ['Caracterul intracelular aerob și denumirea de BAAR sunt explicite.','Nodulii calcificați cu bacili dormanți definesc focarul Ghon.','Pragurile <5% la primul contact și 10% în primul an sunt citate.','Textul precizează că este necesar doar un număr mic de bacterii.','Nu toți infectații fac boală activă; majoritatea rămân cu infecție latentă.']],
+ 8,'Inversează doza infectantă (număr mic versus mii de bacili) și rata de progresie către boală activă.',['focarul Ghon','mai puţin de 5%']),
+
+q(49,['TB ganglionară și recoltarea sputei în TB pulmonară:',
+ ['Ganglionii extratoracici sunt mai frecvent interesați decât cei mediastinali; abcesul „rece” nu prezintă eritem','Sunt necesare minim trei eșantioane de spută, ideal dimineața devreme','Adenopatia cervicală TB este dureroasă, eritematoasă și de scurtă durată, ca o adenită piogenă','Un singur eșantion de spută de după-amiază este suficient dacă microscopia este negativă','Ganglionii mediastinali nu se biopsiază, EBUS fiind contraindicat'],'AB',969,'TB pulmonară; TB ganglionară',
+ 'Diferențierea abcesului rece de adenita piogenă și a protocolului de trei spute matinale.',
+ ['Consistența fermă, nedureroasă, fără eritem (abces rece) este caracteristică.','Cele trei eșantioane matinale sunt cerute explicit.','Adenopatia TB este nedureroasă, fără eritem, adesea prezentă luni de zile.','Un singur eșantion de după-amiază nu înlocuiește protocolul de trei spute matinale.','EBUS este menționat tocmai pentru biopsia ganglionilor intratoracici.']],
+ 8,'Înlocuiește abcesul rece cu tabloul piogen și reduce protocolul de spută la un singur eșantion.',['abces rece','minim trei eşantioane de spută']),
+
+q(50,['Comparativ cu colorația Ziehl-Neelsen, colorația cu auramină-rodamină este:',
+ ['Mai puțin sensibilă și mai specifică, de aceea abandonată','Identică ca sensibilitate, dar nu necesită fluorescență','Utilă doar pe medii solide Lowenstein-Jensen','Mai sensibilă, deși mai puțin specifică, și necesită microscopie cu fluorescență','Rezervată micobacteriilor netuberculoase'],'D',969,'Diagnostic microbiologic — Colorații',
+ 'Reținerea compromisului sensibilitate/specificitate al auraminei și a necesității fluorescenței.',
+ ['Auramina este mai sensibilă, nu mai puțin.','Sensibilitatea este superioară ZN, iar fluorescența este necesară.','Lowenstein-Jensen este mediu de cultură, nu metoda de colorație.','Aceasta este comparația din text: mai sensibilă, mai puțin specifică, cu bacili galben-portocalii pe fond verde.','Metoda se folosește pentru evidențierea BAAR, inclusiv M. tuberculosis.']],
+ 8,'Distractorii inversează sensibilitatea și specificitatea sau confundă colorația cu mediul de cultură.',['auramină-rodamină','mai sensibilă']),
+
+q(51,['Metodele moleculare și cultura în tuberculoză:',
+ ['Cultura pe medii lichide scurtează timpul (1–3 săptămâni) față de mediile solide (3–8 săptămâni)','GeneXpert detectează mutații asociate rezistenței la rifampicină în mai puțin de 2 ore','PCR rămâne frecvent pozitivă sub tratament, prin detecția microorganismelor moarte, deci nu înlocuiește cultura','PCR negativă după 48 de ore de tratament certifică vindecarea și permite oprirea terapiei','Mediile solide înlocuiesc complet mediile lichide în țările dezvoltate, fiind mai rapide'],'ABC',969,'Cultură; Amplificarea acizilor nucleici',
+ 'Separarea rolului NAAT/GeneXpert de cultură și recunoașterea persistenței PCR sub tratament.',
+ ['Intervalele 1–3 versus 3–8 săptămâni sunt contrastate explicit.','Durata <2 ore a GeneXpert pentru rezistența la rifampicină este citată.','Persistența PCR prin ADN din bacili morți este avertismentul din text.','PCR nu certifică vindecarea și nu înlocuiește cultura.','Țările dezvoltate folosesc lichidul în plus față de solid, tocmai pentru că este mai rapid.']],
+ 8,'Testează limita PCR (pozitivă pe bacili morți) și inversarea timpilor de cultură lichid/solid.',['GeneXpert','1-3 săptămâni faţă de 3-8 săptămâni']),
+
+q(52,['Infecția TB latentă:',
+ ['Testul Mantoux fals-negativ (anergie) este frecvent la HIV cu CD4 <200/mm³, imunosupresie, vârste extreme și boală activă','IGRA are specificitate mai înaltă decât testul cutanat, sensibilitate similară sau mai bună, și necesită o singură vizită','Tratamentul ITBL este izoniazidă plus rifampicină 3 luni sau izoniazidă 6 luni','IGRA diferențiază cert infecția latentă de cea activă','Rezultatele Mantoux fals-pozitive nu apar după BCG'],'ABC',972,'Infecția TB latentă',
+ 'Contrastul anergie/fals-pozitiv al Mantoux cu avantajele IGRA și schemele 3RH sau 6H.',
+ ['Cauzele de anergie sunt enumerate, inclusiv HIV cu CD4 scăzut.','Avantajele IGRA (specificitate, o vizită) sunt explicite.','Cele două scheme (3 luni RH sau 6 luni H) sunt cele recomandate.','Textul precizează că IGRA nu poate diferenția latentul de activ.','Fals-pozitivele Mantoux apar prin reactivitate încrucișată cu NTM și vaccinare BCG.']],
+ 8,'Atribuie IGRA o discriminare latent/activ pe care textul o neagă și neagă interferența BCG asupra Mantoux.',['testului cutanat tuberculinic','Infecţia TB latentă']),
+
+q(53,['Mycobacterium bovis și micobacteriile netuberculoase:',
+ ['Tratamentul TB cu M. bovis se face cu izoniazidă, rifampicină și etambutol; rezistența la pirazinamidă este frecventă','Complexul M. avium poate da infiltrate nodulare în lobul mijlociu la femei sau boală fibrocavitară la bărbați fumători de vârstă mijlocie','M. bovis se tratează identic cu M. tuberculosis, pirazinamida rămânând activă în toate tulpinile','NTM sunt patogene la gazda sănătoasă cu plămâni structural normali, fără defect de apărare','M. gordonae este cel mai virulent patogen pulmonar la imunocompetent'],'AB',971,'TB în situații speciale; Micobacterii netuberculoase',
+ 'Recunoașterea rezistenței M. bovis la pirazinamidă și a fenotipurilor pulmonare MAC.',
+ ['Schema fără pirazinamidă, din cauza rezistenței frecvente, este explicită.','Cadranul 28.46 descrie cele două fenotipuri MAC.','Rezistența la pirazinamidă deosebește M. bovis de schema cvadruplă standard.','NTM devin patogene când există defect de apărare sau boală structurală.','M. gordonae este descris ca rareori patogenic.']],
+ 8,'Păstrează schema cvadruplă standard pentru M. bovis, ignorând rezistența caracteristică la pirazinamidă.',['rezistenţa la pirazinamidă','Complexul M. avium'],[972]),
+
+q(54,['Pleurezia:',
+ ['Poate fi evidențiată radiografic de la minim 300 ml și se manifestă clinic de la minim 500 ml','Transudatul conține proteine sub 30 g/L și LDH sub 200 UI/L','Lichidul subpulmonar poate simula un hemidiafragm ascensionat','Un volum de 50 ml este suficient pentru semne fizice clasice de matitate','Transudatul se definește prin proteine peste 50 g/L și LDH pleural foarte crescut'],'ABC',972,'Afecțiuni pleurale — Pleureziile',
+ 'Aplicarea pragurilor volumetrice 300/500 ml și a criteriilor biochimice de transudat.',
+ ['Cele două praguri (radiografic 300 ml, clinic 500 ml) sunt juxtapuse în text.','Definiția transudatului prin proteine <30 g/L și LDH <200 UI/L este dată.','Simularea hemidiafragmului ascensionat este menționată pentru revărsatul subpulmonar.','Semnele fizice apar la volume mai mari (pragul clinic 500 ml).','Valorile citate definesc transudatul prin proteine și LDH scăzute, nu crescute.']],
+ 8,'Inversează pragurile volumetrice și criteriile proteice ale transudatului, două perechi numerice de pe aceeași pagină.',['minim 300 ml','proteine sub 30 g/L']),
+
+q(55,['După un prim pneumotorace spontan tratat conservator, sfaturile către pacient includ:',
+ ['Fără zboruri timp de 1 săptămână de la rezoluția completă','Rata de recidivă este de 30–50%','Aspirația simplă se oprește la 2,5 L de aer sau dacă apare rezistență/tuse excesivă','Scufundările sunt permise imediat, fără pleurodeză','Controlul ambulator se programează abia după 6 luni, în absența simptomelor'],'ABC',975,'Cadranele 28.48 și 28.49 — Pneumotoracele',
+ 'Reținerea interdicției de zbor o săptămână, a recidivei 30–50% și a limitei de 2,5 L la aspirație.',
+ ['Interdicția de zbor o săptămână după rezoluție este listată.','Recidiva 30–50% (în cadran) respectiv 30% în textul adiacent este riscul comunicat pacientului.','Limita 2,5 L și criteriile de oprire sunt pașii 5 ai aspirației simple.','Scufundările sunt interzise decât după tratament chirurgical (pleurodeză).','Controlul ambulator este prevăzut în termen de 10 zile, nu la 6 luni.']],
+ 8,'Amestecă interdicția de scufundare cu cea de zbor și înlocuiește controlul la 10 zile cu o amânare de 6 luni.',['Fără zboruri pentru 1 săptămână','2,5 L de aer']),
+
+q(56,['Campaniile din Marea Britanie au evidențiat, ca simptom ce necesită radiografie toracică, tusea de:',
+ ['3 zile','3 săptămâni','3 luni','3 ani','O singură tuse nocturnă la nefumătorul tânăr, fără alte semne'],'B',975,'Cancerul bronhopulmonar — Efectele locale',
+ 'Reținerea pragului de 3 săptămâni de tuse care declanșează radiografia.',
+ ['3 zile este prea scurt față de pragul campaniei.','„Tusea de 3 săptămâni” este simptomul evidențiat pentru radiografie.','3 luni depășește pragul de alarmă comunicat populației.','3 ani nu este criteriul campaniei.','Campania vizează tusea persistenta de 3 săptămâni, adesea neglijată, nu un episod izolat.']],
+ 8,'Distractorii sunt multipli ai aceluiași număr 3 pe unități de timp diferite.',['tusea de 3 săptămâni','radiografie toracică']),
+
+q(57,['Alegeți afirmațiile adevărate privind etiologia moleculară a cancerului pulmonar:',
+ ['Fumatul (inclusiv pasiv) este responsabil pentru 80% din cazuri la bărbați și 90% la femei','Mutațiile EGFR de activare sunt mai frecvente la nefumători, femei și persoane de origine asiatică','Oncogena de fuziune ALK este frecventă la nefumători sau foști fumători și la pacienți tineri','Carcinomul scuamocelular este tipul dominant la nefumători, nu adenocarcinomul','Factorii de mediu (radon, azbest) nu joacă niciun rol după ajustarea pentru fumat'],'ABC',975,'Cancerul bronhopulmonar — Etiologie; Fiziopatologie',
+ 'Asocierea ponderii fumatului pe sexe cu profilurile moleculare EGFR și ALK.',
+ ['Procentele 80% și 90% sunt citate distinct pe sexe.','Profilul EGFR (nefumător, femeie, origine asiatică) este explicit.','Profilul ALK (nefumător/fost fumător, tânăr) este alăturat.','Adenocarcinomul, nu scuamosul, este cel mai comun la nefumători (pagina de histologie).','Radonul, azbestul și alte expuneri sunt listate ca factori etiologici suplimentari.']],
+ 8,'Transferă epidemiologia adenocarcinomului de la nefumători asupra scuamosului și neagă carcinogenii de mediu din aceeași listă.',['80% din cazurile','nefumători, femei'],[976]),
+
+q(58,['În stadializarea TNM a cancerului pulmonar, sunt corecte:',
+ ['T2 descrie tumora >3 cm dar ≤5 cm, sau implicarea bronhiei principale fără carină, sau invazia pleurei viscerale','N2 înseamnă metastaze în ganglionii mediastinali ipsilaterali și/sau subcarinari','T1 include tumori de 6 cm cu invazia diafragmului','N3 este limitat la ganglionii intrapulmonari ipsilaterali','M0 include noduli pleurali maligni contralaterali'],'AB',979,'Cadranul 28.53 — Stadializarea TNM',
+ 'Aplicarea definițiilor T2 (3–5 cm / pleură viscerală) și N2 (mediastinal ipsilateral/subcarinar).',
+ ['Acestea sunt criteriile T2 din cadran.','N2 este definit prin mediastinal ipsilateral și/sau subcarinar.','Invazia diafragmului și tumora >7 cm țin de T4, nu de T1.','N3 include mediastinal/hilar contralateral sau scalenic/supraclavicular.','Nodulii pleurali maligni contralaterali țin de M1a, nu de M0.']],
+ 8,'Mută criterii T4/M1a în T1/M0, o confuzie tipică de treaptă în tabelul TNM.',['nu mai mare de 5 cm','ganglionii mediastinali ipsilaterali']),
+
+q(59,['Tratamentul cu intenție curativă în NSCLC:',
+ ['Chirurgia se efectuează în stadiile I, II și cazuri selectate IIIA','Pneumonita post-radioterapie apare în 10–15% din cazuri, ca infiltrat acut limitat la zona iradiată, la 3 luni','Radioterapia CHART este o alternativă când chirurgia nu este posibilă din comorbidități','Fibroza post-iradiere lipsește dacă doza este hiperfracționată','Stadiul IV este indicația clasică de rezecție pulmonară cu viză curativă'],'ABC',978,'Tratament — Chirurgical; Radioterapie cu intenție curativă',
+ 'Delimitarea stadiilor chirurgicale de pneumonita (10–15%, 3 luni) și de fibroza tardivă universală.',
+ ['Stadiile I–II și IIIA selectat sunt indicațiile chirurgicale curative.','Definiția, incidența și momentul de 3 luni ale pneumonitei sunt explicite.','CHART este alternativa când chirurgia nu este fezabilă.','Fibroza post-iradiere este întâlnită într-o oarecare măsură în toate cazurile, la un an sau mai mult.','La prezentare, ~75% au boală avansată; stadiul IV nu este indicație de rezecție curativă.']],
+ 8,'Neagă fibroza aproape constantă și mută chirurgia curativă în stadiul IV, contrar cifrei de 75% boală avansată.',['10-15% din cazuri','3 luni de la radioterapie']),
+
+q(60,['Mezoteliomul pleural:',
+ ['Este strâns corelat cu expunerea la azbest și se dezvoltă de obicei din plăci pleurale preexistente','Cea mai frecventă manifestare este revărsatul pleural cu durere persistentă de perete toracic','Marea Britanie are cea mai mare rată de deces pe cap de locuitor, cu circa 2.500 de decese pe an','Este o tumoră benignă a mezoteliului visceral, fără legătură cu azbestul','Diagnosticul se pune sigur pe o singură citologie pleurală negativă, biopsia VATS fiind superfluă'],'ABC',980,'Mezoteliomul',
+ 'Asocierea azbest–plăci pleurale cu prezentarea prin revărsat dureros și povara epidemiologică britanică.',
+ ['Corelația cu azbestul și originea din plăci preexistente sunt explicite.','Revărsatul cu durere persistentă este manifestarea cea mai frecventă.','Cifra de circa 2.500 decese/an și întâietatea UK pe cap de locuitor sunt citate.','Mezoteliomul este o tumoră malignă mezotelială, aproape tot timpul legată de azbest.','Citologia inițială poate fi negativă; CT/biopsie ghidată sau VATS sunt adesea necesare.']],
+ 8,'Minimizează malignitatea și neagă nevoia de biopsie, deși textul avertizează că lichidul inițial poate să nu confirme diagnosticul.',['plăcile pleurale preexistente','2.500 de decese pe an']),
+
+q(61,['Nodulul pulmonar solitar se definește ca o opacitate discretă cu diametrul mai mic de:',
+ ['1 cm','2 cm','3 cm','5 cm','10 cm'],'C',981,'Nodulul pulmonar solitar',
+ 'Reținerea pragului de 3 cm care delimitează nodulul pulmonar solitar de o masă.',
+ ['1 cm este pragul de vizibilitate radiografică a unor leziuni, nu definiția nodulului solitar.','2 cm nu este pragul definițional din text.','Textul definește nodulul pulmonar solitar ca opacitate discretă sub 3 cm.','5 cm depășește definiția de nodul și intră în teritoriul maselor.','10 cm descrie o masă voluminoasă, nu un nodul solitar.']],
+ 8,'Distractorii sunt praguri imagistice reale din capitol (1 cm vizibilitate, 5 cm T2b/T3), atribuite greșit definiției nodulului.',['mai mic de 3 cm','scorul Brock']),
+
+q(62,['Bronșiectaziile:',
+ ['Cauza rămâne neidentificată în aproximativ 50% din cazuri; la nivel global, principala cauză identificabilă este tuberculoza','HRCT arată căi aeriene în „șină de tramvai” și semnul „inelului cu pecete” (raport bronho-arterial crescut)','Soluția salină hipertonică nebulizată este aprobată ca agent mucoactiv','Radiografia toracică este suficientă și înlocuiește HRCT în toate cazurile','Testul sudorii se limitează la copiii sub 5 ani, fiind inutil la adulți'],'ABC',982,'Bronșiectaziile — Etiologie; Investigații; Tratament',
+ 'Asocierea epidemiologiei (50% idiopatic, TBC global) cu semnele HRCT și cu salinele hipertonice.',
+ ['Fracția de 50% fără cauză și TBC-ul ca principală cauză globală sunt explicite.','Șina de tramvai și inelul cu pecete sunt semnele HRCT caracteristice.','Salina hipertonică nebulizată este menționată ca agent mucoactiv aprobat.','Radiografia poate fi normală; HRCT este investigația de elecție.','Testul sudorii se face la toți sub 40 de ani și la suspiciune, indiferent de vârstă.']],
+ 8,'Neagă rolul HRCT (investigația de elecție) și restrânge testul sudorii, contrar pragului de 40 de ani din text.',['şină de tram','inelului cu pecete']),
+];
+

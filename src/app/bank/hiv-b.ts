@@ -1,0 +1,217 @@
+import {advancedQuestion} from './advanced-author';
+import type {SourceRow} from './source-author';
+const pdfOffset=(p:number)=>p-1059;
+const q=(n:number,row:SourceRow,score:number,reason:string,expressions:string[],related:number[]=[])=>
+ advancedQuestion('hiv',37,pdfOffset,`hiv-adv-${String(n).padStart(3,'0')}`,row,[score,reason],expressions,undefined,related);
+
+export const HIV_B=[
+q(11,['Țintele globale UNAIDS „90-90-90" prevăd ca:',
+ ['90% dintre persoanele care trăiesc cu HIV să fie diagnosticate și să-și cunoască statusul serologic','90% dintre persoanele diagnosticate să primească terapie ARV','90% dintre cei care primesc ARV să aibă supresie virală','90% dintre cei cu supresie virală să fie vindecați funcțional, fără tratament ulterior','Aceste ținte să fie atinse până în 2020, nu până în 2030'],'ABC',1426,'HIV — Epidemiologie: țintele 90-90-90',
+ 'Recunoașterea celor trei trepte ale cascadei 90-90-90 și a orizontului 2030, fără a confunda supresia cu vindecarea.',
+ ['Prima treaptă este diagnosticul a 90% dintre persoanele care trăiesc cu HIV.','A doua treaptă este ARV la 90% dintre diagnosticați.','A treia treaptă este supresia virală la 90% dintre cei tratați.','Supresia virală nu echivalează cu vindecare funcțională.','Textul leagă țintele de încheierea epidemiei până în 2030.']],
+ 8,'Adaugă o a patra treaptă inexistentă (vindecare) și mută orizontul de la 2030 la 2020.',['90-90-90','până în 2030']),
+
+q(12,['În Marea Britanie, în 2017, următoarele afirmații epidemiologice sunt adevărate:',
+ ['Numărul de cazuri noi a crescut față de 2015, reflectând eșecul PrEP','Dintre cei diagnosticați, 98% erau în tratament ARV, iar 97% dintre tratați aveau supresie virală','Diagnosticul tardiv (CD4 sub 350/ml în primele 3 luni) rămânea de 43%','Circa 75% dintre cei care trăiesc cu HIV au cel puțin încă o afecțiune cronică','O treime dintre persoanele care trăiesc cu HIV aveau sub 30 de ani'],'BCD',1426,'HIV — Epidemiologie în țările cu nivel de trai ridicat',
+ 'Reținerea cascadei britanice 92/98/97 și a ponderii diagnosticului tardiv (43%) versus comorbiditățile (75%).',
+ ['Textul descrie o scădere a cazurilor noi din 2015, nu o creștere.','98% tratați și 97% cu supresie sunt cifrele din 2017.','43% diagnostic tardiv este explicit.','75% au cel puțin o comorbiditate cronică.','O treime au peste 50 de ani, nu sub 30.']],
+ 8,'Permutează vârsta (peste 50 versus sub 30) și inversează trendul cazurilor noi, pe fondul unor procente reale din aceeași pagină.',['43% în 2017','75% dintre cei']),
+
+q(13,['Transmiterea verticală a HIV:',
+ ['Fără intervenție, studiile europene indică circa 15%, cu rate de până la 40% în Africa și SUA','În era pre-ARV, alăptarea dubla riscul de transmitere verticală','În Marea Britanie, riscul actual este de 1:1000','90% din infecțiile materno-fetale se înregistrează în țările cu nivel de trai scăzut','Majoritatea infecțiilor se produc in-utero, nașterea și alăptarea având un rol minor'],'ABCD',1427,'HIV — Transmiterea verticală',
+ 'Cuantificarea riscului fără intervenție, a dublării prin alăptare și a ratei britanice 1:1000, față de predominanța perinatală.',
+ ['Cifrele 15% europene și până la 40% Africa/SUA sunt din text.','Alăptarea dubla riscul în era pre-ARV.','Riscul britanic 1:1000 este explicit.','90% din transmiterile verticale sunt în țările cu venituri scăzute.','Textul precizează că majoritatea infecțiilor se produc perinatal, deși transmiterea in-utero este posibilă.']],
+ 8,'Inversează locul predominant al transmiterii (in-utero versus perinatal) pe fondul unor procente exacte ușor de memorat greșit.',['1:1000','alăptarea dubla riscul']),
+
+q(14,['Patogenia infecției HIV include:',
+ ['Receptorul recunoscut de gp120 este molecula CD4, împreună cu co-receptorii CCR5 sau CXCR4','Limfocitele T CD4 și CCR5 pozitive din tractul gastrointestinal sunt infectate masiv încă de la început','Timpul de înjumătățire al virusului în circulație este de circa 6 ore, cu 10⁸-10⁹ particule eliberate zilnic','Anticorpii neutralizing apar în primele 48 de ore de la infecție','Infecția independentă de CD4 a astrocitelor și a celulelor epiteliale renale poate deteriora aceste organe'],'ABCE',1429,'HIV — Patogenie: pătrunderea în celulă și turnover-ul viral',
+ 'Corelarea gp120–CD4–CCR5/CXCR4 cu depleția intestinală precoce și cu cinetică virală de 6 ore.',
+ ['Interacțiunea gp120–CD4 cu CCR5 sau CXCR4 este mecanismul de pătrundere.','Infectarea masivă precoce a limfocitelor intestinale este explicită.','Timpul de înjumătățire de circa 6 ore și 10⁸-10⁹ particule/zi sunt citate.','Anticorpii neutralizing apar la circa 12 săptămâni, nu în 48 de ore.','Infecția CD4-independentă a astrocitelor și a epiteliului renal este menționată.']],
+ 8,'Mută apariția anticorpilor neutralizing de la 12 săptămâni la 48 de ore, intervalul seroconversiei acute.',['aproximativ 6 ore','translocaţie microbiană'],[1428]),
+
+q(15,['„Elite controllers" sunt definiți ca sub-populația de long-term non-progressors care mențin, în absența ARV, o viremie:',
+ ['sub 20 copii/ml, pragul celui mai sensibil test de încărcătură','sub 50 copii/ml, pragul de supresie sub tratament','sub 2.000 copii/ml sau chiar nedetectabilă','sub 10.000 copii/ml, pragul de prognostic favorabil','sub 100.000 copii/ml, sub care riscul de SIDA nu crește'],'C',1430,'HIV — Perioada de latență clinică: elite controllers',
+ 'Diferențierea pragului de 2.000 copii/ml al elite controllers de pragurile de laborator și de prognostic din același capitol.',
+ ['20 copii/ml este sensibilitatea testului de încărcătură, nu definiția elite controllers.','50 copii/ml este ținta de supresie sub ARV.','Textul definește elite controllers prin viremie sub 2.000 copii/ml sau nedetectabilă, fără ARV.','10.000 copii/ml este pragul de prognostic comparativ din monitorizare, nu definiția.','Peste 100.000 copii/ml crește de 10 ori riscul de SIDA; nu definește elite controllers.']],
+ 8,'Toate pragurile viremice apar în capitol; doar 2.000 copii/ml definește elite controllers.',['elite controllers','2.000 copii/ml']),
+
+q(16,['Infecția primară HIV:',
+ ['Se referă la perioada de 6 luni de la contactare, cu replicare rapidă și infecțiozitate ridicată','Boala virală autolimitată, confuzabilă cu mononucleoza, apare după 3-6 săptămâni și durează până la 3 săptămâni','Limfocitele CD4 sunt invariabil normale, raportul CD4:CD8 rămânând neschimbat','Anticorpii pot lipsi în etapele timpurii, deși ARN-ul viral plasmatic este crescut și p24 poate fi detectat','Dacă testele standard sunt negative dar suspiciunea persistă, testarea se repetă după 7 zile'],'ABDE',1430,'HIV — Infecția primară: clinic și diagnostic',
+ 'Recunoașterea ferestrei de 6 luni, a sindromului de la 3-6 săptămâni și a strategiei de retestare la 7 zile.',
+ ['Primoinfecția acoperă 6 luni, cu viremie înaltă.','Intervalul 3-6 săptămâni și durata până la 3 săptămâni sunt explicite.','CD4 pot fi scăzute semnificativ, cu inversarea raportului CD4:CD8.','ARN crescut și p24 detectabil înaintea anticorpilor sunt descrise.','Repetarea după 7 zile este recomandată explicit.']],
+ 8,'Neagă limfopenia și inversarea CD4:CD8, semne de laborator reale ale fazei acute.',['6 luni de la contactarea','limfocite reactive atipice']),
+
+q(17,['Limfadenopatia generalizată persistentă (LGP) în infecția HIV:',
+ ['Este definită ca adenopatie peste 1 cm în două sau mai multe zone extra-inghinale, peste 3 luni, fără altă cauză decât HIV','Ganglionii sunt de obicei simetrici, fermi, mobili și nedureroși, uneori cu splenomegalie','Biopsia ganglionară este indicată de rutină la toți pacienții cu LGP','Prezența LGP accelerează invariabil progresia către SIDA','Adenopatia se accentuează pe măsură ce boala avansează, fără regresia ulterioară'],'AB',1430,'HIV — Limfadenopatia generalizată persistentă',
+ 'Aplicarea definiției LGP (1 cm, extra-inghinal, >3 luni) și a faptului că nu modifică evoluția, biopsia nefiind de rutină.',
+ ['Definiția dimensională, topografică și temporală este explicită.','Caracterele palpatorii și splenomegalia posibilă sunt descrise.','Biopsia nu este în general indicată.','Prezența LGP nu pare să influențeze evoluția bolii.','Pe măsură ce boala progresează, adenopatia poate să regreseze.']],
+ 8,'Transformă o entitate fără impact prognostic într-un marker de progresie și face din biopsie o rutină.',['>1 cm','zone extra-inghinale']),
+
+q(18,['Trombocitopenia izolată din infecția HIV:',
+ ['Poate apărea precoce și poate fi, o perioadă, singura manifestare','Numărul poate scădea dramatic la 10-20 × 10⁹/L, cu sângerări și echimoze','Anticorpii circulanți antitrombocitari determină distrugere periferică','Terapia cu corticosteroizi este tratamentul de primă intenție, înaintea ARV','ARV eficient produce frecvent creșterea numărului de trombocite'],'ABCE',1431,'HIV — Complicații hematologice: trombocitopenia',
+ 'Recunoașterea mecanismului imun periferic și a evitării corticoizilor, ARV fiind intervenția care crește trombocitele.',
+ ['Apariția precoce ca unică manifestare este explicită.','Pragul 10-20 × 10⁹/L este citat.','Distrugerea periferică prin anticorpi este descrisă.','Textul precizează că terapia cu corticoizi ar trebui evitată.','ARV eficient crește frecvent trombocitele.']],
+ 8,'Inversează locul corticoizilor (de evitat) cu al ARV, pe fondul unui prag numeric real.',['10-20 x 109/L','corticosterozi ar trebui evitată']),
+
+q(19,['Nefropatia asociată HIV (HIVAN):',
+ ['Este cel mai frecvent întâlnită la bărbații de rasă neagră și poate fi exacerbată de heroină','Este o glomeruloscleroză focală segmentară cu tubulopatie prin infectarea directă a celulelor tubulare','Poate progresa până la insuficiență renală cu necesar de substituție sau transplant','Tenofovirul este asociat cu sindromul Fanconi','Este forma dominantă de afectare renală la caucazieni cu CD4 peste 500/mm³'],'ABCD',1432,'HIV — Complicații renale: HIVAN',
+ 'Recunoașterea profilului demografic, a FSGS cu tubulopatie și a toxicității Fanconi a tenofovirului.',
+ ['Predominanța la bărbații de rasă neagră și exacerbarea prin heroină sunt explicite.','GSFS cu infectare tubulară directă este mecanismul descris.','Progresia către substituție/transplant este menționată.','Tenofovirul este asociat cu sindromul Fanconi.','HIVAN este rară și caracteristică stadiilor avansate, nu caucazienilor cu CD4 înalt.']],
+ 8,'Atribuie HIVAN-ul pacientului caucazian cu imunodepresie minimă, opusul profilului din text.',['bărbaţii de rasă neagră','sindromul Fanconi']),
+
+q(20,['Standardul actual de testare HIV în numeroase țări este reprezentat de testele de generația a 4-a, care identifică simultan:',
+ ['Doar anticorpii anti-HIV-1, nu și anti-HIV-2','Doar ARN-ul viral, analog NAAT','Anticorpii anti-HIV și antigenul p24','Doar antigenul p24, după dispariția anticorpilor','Izolarea virusului în culturi, ca metodă de screening'],'C',1433,'HIV — Testarea HIV: teste de generația a 4-a',
+ 'Identificarea combinației Ac + p24 ca standard de generația a 4-a, distinct de NAAT și de culturi.',
+ ['Testele de generația a 4-a nu se limitează la Ac anti-HIV-1.','NAAT detectează genomul, nu este testul de generația a 4-a descris aici.','Textul precizează identificarea simultană a anticorpilor și a antigenului p24.','p24 dispare de obicei la 8-10 săptămâni, iar testul de generația a 4-a include și anticorpii.','Culturile sunt tehnici specializate, nu screening.']],
+ 8,'Permutează țintele diagnostice (Ac, p24, ARN, culturi) din același capitol de testare.',['antigenul p24','Testele moderne']),
+
+q(21,['Anticorpii anti-HIV, ca marker de infecție:',
+ ['Pot fi detectați după o perioadă de 3 luni (în medie 6 săptămâni) de la infecție','Traversează placenta, astfel că toți nou-născuții din mame HIV-pozitive îi au la naștere','La nou-născuții neinfectați, titrul scade până la dispariție în primele 18 luni','Sunt un marker de infecție activă neonatală, echivalent PCR-ului','Algoritmul STARHS distinge infecția recentă (sub 130 de zile) de cea mai veche'],'ABCE',1433,'HIV — Detecția anticorpilor anti-HIV',
+ 'Aplicarea ferestrei serologice medii de 6 săptămâni, a transferului transplacentar și a dispariției până la 18 luni la copilul neinfectat.',
+ ['Fereastra de 3 luni, media 6 săptămâni, este explicită.','Trecerea transplacentară a IgG este descrisă.','Dispariția până la 18 luni la neinfectați este citată.','Anticorpii nu sunt marker de infecție activă neonatală.','STARHS cu pragul de 130 de zile este descris.']],
+ 8,'Transformă anticorpii transplacentari într-un diagnostic de infecție neonatală activă, greșeala clasică de interpretare.',['primele 18 luni','fereastră serologică']),
+
+q(22,['Evaluarea inițială a pacientului nou diagnosticat cu HIV include:',
+ ['Consult de specialist în termen de două săptămâni, sau mai rapid dacă este simptomatic','Analiza genotipului viral doar după eșecul primei linii de ARV','HLA-B*5701 figurează printre investigațiile de bază din Marea Britanie','Monitorizarea celor care refuză ARV se face săptămânal, indiferent de CD4','Cea mai adecvată probă pentru genotip este cea recoltată cât mai aproape de diagnostic'],'ACE',1434,'HIV — Evaluarea inițială și determinarea genotipului',
+ 'Reținerea ferestrei de 2 săptămâni până la specialist și a genotipării imediat după diagnostic, inclusiv HLA-B*5701.',
+ ['Două săptămâni, mai rapid dacă simptomatic, este explicit.','Genotiparea este recomandată pentru toți nou-diagnosticații, nu după eșec.','HLA-B*5701 este în Cadranul 37.14.','Cei care refuză ARV sunt monitorizați de 2-4 ori pe an, mai rar la CD4 crescut.','Proba cât mai aproape de diagnostic ghidează ARV.']],
+ 8,'Amână genotiparea până la eșec și înlocuiește intervalul 2-4 ori/an cu monitorizare săptămânală.',['două săptămâni','2-4 ori pe an'],[1433]),
+
+q(23,['Inițierea terapiei antiretrovirale:',
+ ['ARV trebuie oferit tuturor pacienților cu HIV, indiferent de numărul de CD4','La o afecțiune definitorie SIDA sau o infecție oportunistă, ARV se inițiază în termen de două săptămâni de la tratamentul afecțiunii intercurente','La primoinfecție, ARV trebuie inițiat imediat','Renunțarea la pragul de CD4 s-a bazat și pe beneficiul demonstrat la CD4 peste 500','ARV se amână până când CD4 scade sub 350/mm³, conform ghidurilor vechi încă în vigoare'],'ABCD',1435,'HIV — Când trebuie inițiată terapia antiretrovirală',
+ 'Aplicarea indicației universale de ARV, cu inițiere imediată în primoinfecție și în 2 săptămâni după OI.',
+ ['Indicația independentă de CD4 este explicită.','Fereastra de două săptămâni după OI/SIDA este citată.','Inițierea imediată în primoinfecție este cerută.','Beneficiul la CD4 >500 este argumentul abandonării pragurilor vechi.','Ghidurile vechi bazate pe CD4 au fost abandonate.']],
+ 8,'Reintroduce pragul vechi de 350/mm³ ca regulă actuală, contrar paragrafului de abandonare a acestor praguri.',['indiferent de numărul','peste 500']),
+
+q(24,['Regimul de primă linie la pacientul naiv trebuie să conțină:',
+ ['Un singur INRT, pentru a limita toxicitatea mitocondrială','Două INRT plus un al treilea agent: INSTI, IP potențat sau INNRT','Tenofovir-DF sau TAF plus emtricitabină ca fundament INRT recomandat','Abacavir este contraindicat la purtătorii HLA-B*57:01','Monoterapia cu un INSTI este suficientă la viremie sub 10.000 copii/ml'],'BCD',1437,'HIV — Cu ce medicamente se inițiază terapia ARV',
+ 'Reținerea schemei 2 INRT + al treilea agent și a contraindicației abacavirului la HLA-B*57:01.',
+ ['Tratamentul se inițiază cu trei medicamente, două INRT plus un al treilea.','Cadranul 37.18 descrie doi INRT plus INSTI, IP boostat sau INNRT.','TDF/TAF plus emtricitabină este fundamentul recomandat.','Abacavirul este contraindicat la HLA-B*57:01.','Monoterapia INSTI nu este schema de primă linie.']],
+ 8,'Reduce schema de trei medicamente la un singur INRT sau la monoterapie INSTI, greșeli de dezescaladare.',['trei medicamente','HLA-6*57:01']),
+
+q(25,['Combinația abacavir/lamivudină (Kivexa) la naivi, în absența asocierii cu dolutegravir, este recomandată doar dacă viremia la inițiere este:',
+ ['nedetectabilă','sub 50 copii/ml','sub 10.000 copii/ml','sub 100.000 copii/ml','peste 100.000 copii/ml, unde este superioară Truvadei'],'D',1437,'HIV — INRT: Kivexa versus Truvada',
+ 'Reținerea pragului de 100.000 copii/ml sub care Kivexa este non-inferioară, cu excepția asocierii cu dolutegravir.',
+ ['Nedetectabilul este ținta sub tratament, nu criteriul de alegere Kivexa.','50 copii/ml este supresia, nu pragul de prescriere.','10.000 copii/ml este un prag de prognostic, nu de alegere a backbone-ului.','Non-inferioritatea Kivexa la viremii sub 100.000 copii/ml este explicită.','La viremie mare, Kivexa se folosește doar dacă Truvada este contraindicată.']],
+ 8,'Toate pragurile viremice apar în capitol; doar 100.000 copii/ml condiționează Kivexa (fără dolutegravir).',['100.000 de copii/ml','Kivexa']),
+
+q(26,['Selectați enunțurile adevărate despre inhibitorii non-nucleozidici de revers-transcriptază:',
+ ['INNRT sunt eficienți împotriva HIV-2, spre deosebire de INRT','Efavirenzul este astăzi mai degrabă alternativă decât elecție, din cauza efectelor pe SNC (disforie, insomnie, risc suicidar)','Rilpivirina trebuie administrată cu alimente; inhibitorii pompei de protoni sunt contraindicați','Nevirapina nu trebuie folosită la femei cu CD4 peste 250/mm³ sau la bărbați cu CD4 peste 400/mm³','Etravirina nu are nicio activitate pe tulpinile rezistente la alți INNRT'],'BCD',1437,'HIV — Analogii non-nucleozidici de revers-transcriptază',
+ 'Diferențierea locului actual al efavirenzului, a restricțiilor rilpivirinei (alimente, IPP) și a pragurilor de CD4 pentru nevirapină.',
+ ['INNRT sunt ineficienți împotriva HIV-2.','Efectele SNC mută efavirenzul la alternativă.','Administrarea cu alimente și contraindicația IPP sunt explicite.','Pragurile 250 (femei) și 400 (bărbați) sunt citate.','Etravirina are oarecare activitate împotriva tulpinilor rezistente.']],
+ 8,'Atribuie INNRT activitate pe HIV-2 (fals) și neagă activitatea reziduală a etravirinei.',['inhibitorii pompei de protoni','peste 250/mm3']),
+
+q(27,['Inhibitorii de protează „bostați":',
+ ['Boosting-ul cu doze mici de ritonavir sau cobicistat blochează P450, crescând timpul de înjumătățire al IP','Atazanavirul crește bilirubina neconjugată și poate produce icter','Boosting-ul reduce riscul de tulburări lipidice, în particular al trigliceridelor','IP au, în general, o barieră genetică mai joasă decât INNRT','Darunavirul nu are activitate pe virusuri rezistente la IP mai vechi'],'AB',1438,'HIV — Inhibitorii de protează',
+ 'Corelarea boosting-ului P450 cu hiperbilirubinemia de atazanavir, distinct de bariera genetică înaltă a IP.',
+ ['Mecanismul de boosting prin blocarea P450 este explicit.','Hiperbilirubinemia neconjugată și icterul sunt descrise la atazanavir.','Boosting-ul crește riscul tulburărilor lipidice, în particular al trigliceridelor.','IP au barieră genetică mai înaltă, nu mai joasă.','Darunavirul a demonstrat activitate împotriva virusurilor rezistente la IP vechi.']],
+ 8,'Inversează efectul boosting-ului asupra lipidelor și atribuie IP bariera joasă a INNRT.',['poate produce icter','barieră genetică mai înaltă']),
+
+q(28,['Monitorizarea după inițierea ARV, conform textului:',
+ ['După 4 săptămâni, încărcătura virală ar trebui să scadă cu cel puțin 1 log10 copii/ml','Supresia sub 50 copii/ml ar trebui obținută între săptămânile 12-24','Viremia se reevaluează la 1, 3 și 6 luni de la inițiere','CD4 se evaluează la 3 luni de la inițiere, apoi la 3-4 luni','După supresie, viremia se dozează săptămânal până la 12 luni'],'ABCD',1438,'HIV — Monitorizarea terapiei ARV',
+ 'Aplicarea cineticilor 1 log la 4 săptămâni și <50 copii/ml la 12-24 săptămâni, plus calendarul de reevaluare.',
+ ['Scăderea de cel puțin 1 log10 la 4 săptămâni este explicită.','Supresia <50 între săptămânile 12-24 este ținta.','Reevaluarea la 1, 3 și 6 luni este citată.','CD4 la 3 luni, apoi 3-4 luni, este schema.','După supresie, în stabilitate, viremia se evaluează la fiecare 6 luni.']],
+ 8,'Înlocuiește intervalul de 6 luni după supresie cu dozări săptămânale, o intensificare nejustificată.',['1 log10 copii/ml','<50 copii/ml']),
+
+q(29,['Eșecul virusologic și schimbarea ARV:',
+ ['Eșecul virusologic este definit prin două determinări succesive peste 400 copii/ml la un pacient anterior suprimat','Noul regim trebuie bazat pe cel puțin doi agenți noi la care virusul este sensibil','Dacă viremia este nedetectabilă și un medicament nu se tolerează, se face switch în aceeași clasă, la un agent la care virusul este sensibil','Întreruperea ARV este de evitat chiar în toxicitate cumulativă, pentru a nu pierde bariera genetică','Efavirenzul și nevirapina, cu timp de înjumătățire lung, pot necesita oprire înaintea celorlalte componente'],'ABCE',1440,'HIV — Eșecul terapeutic, switch și întrerupere',
+ 'Aplicarea pragului dublu de 400 copii/ml, a regulii celor doi agenți noi și a opririi eșalonate a INNRT cu timp de înjumătățire lung.',
+ ['Definiția prin două valori >400 copii/ml este explicită.','Cel puțin doi agenți noi sensibili sunt ceruți.','Switch-ul intra-clasă la intoleranță cu viremie nedetectabilă este descris.','Textul indică întreruperea în toxicitate cumulativă sau interacțiuni urgente.','Oprirea eșalonată a efavirenzului/nevirapinei este precizată.']],
+ 8,'Interzice întreruperea pe care textul o recomandă în toxicitate și cere reținerea pragului dublu de 400 copii/ml.',['peste 400 copii/ml','timp de înjumătăţire lung']),
+
+q(30,['Reacția de hipersensibilitate la abacavir, legată de HLA-B*5701, apare de obicei în:',
+ ['primele 6 săptămâni de la inițiere','primele 48 de ore, analog anafilaxiei IgE','luna a 6-a de tratament, odată cu IRIS','al doilea an, ca toxicitate mitocondrială','numai la reinițiere, nu și la prima expunere'],'A',1440,'HIV — Reacții alergice: hipersensibilitatea la abacavir',
+ 'Reținerea ferestrei de 6 săptămâni a HSR la abacavir și a contraindicației de reinițiere.',
+ ['Textul precizează apariția de obicei în primele 6 săptămâni.','Nu este descrisă ca anafilaxie IgE în 48 de ore.','IRIS nu este mecanismul HSR la abacavir.','Toxicitatea mitocondrială este a altor INRT, nu HSR-ul de 6 săptămâni.','Poate apărea la prima expunere; reinițierea este contraindicată pentru că poate fi fatală.']],
+ 8,'Permutează fereastra de 6 săptămâni cu alte intervale reale din același capitol (48 h, IRIS, toxicitate tardivă).',['primele 6 săptămâni','HLA-8 5701']),
+
+q(31,['Complicații metabolice și IRIS după ARV:',
+ ['Simvastatina este agentul de elecție pentru dislipidemia de sub IP, interacțiunile fiind neglijabile','Stavudina și zidovudina determină un risc crescut de lipoatrofie','Pentru a reduce IRIS în tuberculoză și criptococoză, tratamentul specific se dă în medie 4 săptămâni înaintea ARV','Toxicitatea mitocondrială cu acidoză lactică este o urgență care impune continuarea ARV la doze reduse','Tenofovir alafenamida pare să aibă toxicitate osoasă mai redusă decât TDF'],'BCE',1440,'HIV — Lipodistrofie, toxicitate mitocondrială și IRIS',
+ 'Recunoașterea contraindicației simvastatinei cu IP, a ferestrei IRIS de 4 săptămâni și a avantajului osos al TAF.',
+ ['Simvastatina este contraindicată din cauza interacțiunilor cu IP.','Stavudina și zidovudina cresc riscul de lipoatrofie.','Fereastra medie de 4 săptămâni înaintea ARV în TB și criptococoză este explicită.','Acidoza lactică impune întreruperea imediată a ARV, nu continuarea.','TAF are toxicitate osoasă mai redusă.']],
+ 8,'Transformă simvastatina contraindicată în agent de elecție și cere continuarea ARV în acidoza lactică, o urgență de întrerupere.',['Simvastatina este contraindicată','lipoatrofie'],[1441]),
+
+q(32,['O gravidă cu HIV, viremie sub 50 copii/ml sub ARV, fără complicații de travaliu. Conduita corectă include:',
+ ['Rata de transmitere în acest context este circa 0,1% în Marea Britanie','Nașterea vaginală nu crește riscul de transmitere față de cezariană','Nou-născutul primește zidovudină sirop timp de 4 săptămâni','Mamele sunt încă sfătuite să nu alăpteze, deși riscul sub ARV eficient este extrem de scăzut','Cezariana rămâne indicația de elecție la orice gravidă seropozitivă, chiar cu viremie nedetectabilă'],'ABCD',1441,'HIV — Sarcina: transmitere, naștere și alăptare',
+ 'Aplicarea ratei 0,1% la VL<50, a nașterii vaginale acceptabile și a zidovudinei 4 săptămâni la nou-născut.',
+ ['0,1% la femeile cu ARV și VL<50 este explicit.','Nașterea vaginală nu crește riscul dacă ARV este eficient și nu apar complicații.','Zidovudina sirop 4 săptămâni este schema nou-născutului.','Sfătuirea de a nu alăpta rămâne, deși riscul sub ARV este extrem de scăzut.','Cezariana a redus riscul în era pre-ARV; nu mai este impusă la VL nedetectabilă.']],
+ 8,'Reintroduce cezariana universală din era pre-ARV, ignorând rata 0,1% și nașterea vaginală acceptată.',['0,1%','zidovudină sirop']),
+
+q(33,['Profilaxia post-expunere (PEP) în Marea Britanie:',
+ ['Poate fi benefică dacă este administrată în primele 72 de ore','Regimul standard este Truvada cu raltegravir, timp de 4 săptămâni','Dacă sursa are viremie nedetectabilă (sub 200 copii ARN HIV/ml), PEP nu este recomandată','PEP înlocuiește prezervativul la partenerii cu viremie nedetectabilă','Testarea HIV a expusului înainte de PEP nu este necesară'],'ABC',1441,'HIV — Profilaxia post-expunere',
+ 'Aplicarea ferestrei de 72 de ore, a schemei Truvada+raltegravir 4 săptămâni și a non-indicației când sursa are VL<200.',
+ ['Fereastra de 72 de ore este explicită.','Truvada plus raltegravir 4 săptămâni este regimul standard britanic.','PEP nu este recomandată dacă sursa are VL<200.','Textul precizează că PEP nu trebuie să înlocuiască celelalte metode de protecție.','Pacienții la risc trebuie testați HIV înainte de începerea PEP.']],
+ 8,'Transformă PEP într-un substitut al prezervativului și anulează testarea prealabilă, pe fondul pragului VL<200 ușor de ignorat.',['primele 72 de ore','<200 copii ARN HIV']),
+
+q(34,['Vaccinarea la adultul cu HIV, conform Cadranului 37.22:',
+ ['Vaccinurile cu virus viu-atenuat se administrează preferențial la CD4 sub 200/mm³, când riscul de infecție naturală este maxim','Vaccinurile viu-atenuate nu trebuie administrate la CD4 sub 200/mm³ și se folosesc cu atenție sub 350/mm³','Gripa inactivată se recomandă tuturor pacienților, anual','ROR și varicela viu-atenuate se dau tuturor neimunizaților, indiferent de CD4','Hepatita B cu subunitate virală se recomandă tuturor neimunizaților'],'BCE',1443,'HIV — Vaccinarea la adulții cu infecție HIV',
+ 'Aplicarea pragului CD4<200 pentru interdicția vaccinurilor vii și a indicațiilor anuale (gripă) și universale (VHB).',
+ ['Textul interzice vaccinurile vii la CD4<200, nu le preferă.','Interdicția sub 200 și prudența sub 350 sunt explicite.','Gripa inactivată anual pentru toți este în tabel.','ROR și varicela sunt vii; se țin cont de pragul de CD4.','Hepatita B la toți neimunizații este indicată.']],
+ 8,'Inversează regula vaccinurilor vii (contraindicate, nu preferate, la CD4<200).',['CD4 <200/mm3','Viu atenuat']),
+
+q(35,['Meningita criptococică la pacientul cu HIV:',
+ ['Redoarea de ceafă și fotofobia pot lipsi, răspunsul inflamator fiind alterat','Tratamentul inițial este amfotericină B liposomală 4,0 mg/kg/zi i.v., cu sau fără flucitozină','Corticoterapia sistemică este adjuvantul de rutină, ca în pneumocistoză','ARV se inițiază la circa 4 săptămâni, pentru a reduce IRIS','Întreținerea cu fluconazol continuă până la 1 an, cu VL nedetectabilă și CD4 constant peste 100/mm³'],'ABDE',1444,'HIV — Criptococoza',
+ 'Recunoașterea meningismului absent, a schemei amfotericină±flucitozină și a amânării ARV 4 săptămâni, fără steroizi.',
+ ['Absența redorii și fotofobiei este explicită.','Doza 4,0 mg/kg/zi cu/fără flucitozină este citată.','Nu se recomandă corticoterapia.','ARV la circa 4 săptămâni reduce IRIS.','Fluconazolul de întreținere până la 1 an, VL nedetectabilă și CD4>100 este schema.']],
+ 8,'Importă corticoterapia din pneumocistoză, contraindicată aici, pe fondul unor praguri CD4 și intervale reale.',['amfotericină B liposomală','Nu se recomandă utilizarea corticoterapiei']),
+
+q(36,['Doza de încărcare de pirimetamină în toxoplasmoza cerebrală, urmată de 50 mg zilnic cel puțin 6 săptămâni, este:',
+ ['50 mg','100 mg','200 mg','400 mg','800 mg, ca misoprostolul ulcerului'],'C',1445,'HIV — Toxoplasmoza: tratament',
+ 'Reținerea dozei de încărcare de 200 mg, distinctă de întreținerea de 50 mg și de alte doze din capitol.',
+ ['50 mg este doza zilnică de întreținere, nu încărcarea.','100 mg nu este doza de încărcare citată.','Textul indică încărcare 200 mg, apoi 50 mg zilnic.','400 mg este doza de fluconazol i.v. din criptococoză, nu pirimetamina.','800 μg/zi este doza de misoprostol din alt capitol, nu mg de pirimetamină.']],
+ 8,'Permutează 200 mg (încărcare) cu 50 mg (întreținere) și cu doze reale ale altor antimicrobiene din aceleași pagini.',['doză de încărcare 200 mg','50 mg zilnic'],[1444]),
+
+q(37,['Criptosporidioza la pacientul cu HIV:',
+ ['Poate provoca diaree apoasă severă și persistentă, cu anorexie, dureri, greață și vărsături','Se poate asocia cu colangită sclerozantă','Chisturile se vizualizează cu colorația Kinyoun în materiile fecale','Nitazoxanida este tratamentul curativ, ARV fiind inutil până la eradicarea parazitului','Refacerea imunologică prin ARV eficient este tratamentul de elecție și determină de obicei remisia'],'ABCE',1445,'HIV — Criptosporidioza',
+ 'Recunoașterea colorației Kinyoun și a faptului că ARV, nu antiparazitarul, este tratamentul de elecție.',
+ ['Tabloul de diaree apoasă persistentă este descris.','Asocierea cu colangită sclerozantă este menționată.','Colorația Kinyoun este metoda citată.','Nitazoxanida și paromomicina pot avea un oarecare efect, dar elecția este ARV.','Refacerea imună prin ARV determină de obicei remisia.']],
+ 8,'Inversează ierarhia terapeutică, făcând din nitazoxanidă cura și din ARV o măsură amânabilă.',['coloraţiei Kinyoun','tratamentul de elecţie']),
+
+q(38,['Co-infecția HIV cu virusuri hepatitice:',
+ ['La nivel global, 5-15% dintre pacienții cu HIV au hepatită B cronică, iar circa o treime au VHC','Toți nou-diagnosticații se testează pentru VHA, VHB și VHC; neimunizații se vaccinează anti-A și anti-B','Progresia bolii hepatice este mai rapidă decât în mono-infecție','DAA pentru VHC se administrează 12 săptămâni, cu SVR peste 90%','ARV se evită până după vindecarea VHC, pentru a nu amplifica hepatotoxicitatea'],'ABCD',1445,'HIV — Co-infecția cu virusuri hepatitice B și C',
+ 'Cuantificarea prevalențelor 5-15% VHB și ~1/3 VHC, a vaccinării universale și a SVR>90% la 12 săptămâni de DAA.',
+ ['Prevalențele globale sunt citate.','Testarea și vaccinarea anti-A/B sunt cerute.','Progresia mai rapidă este explicită.','DAA 12 săptămâni cu SVR>90% sunt pe pagina următoare.','Toți co-infectații HIV/VHC trebuie să primească ARV; dacă DAA sunt planificate, ARV se începe cu 4-6 săptămâni înainte.']],
+ 8,'Amână ARV până după VHC, opusul recomandării de a începe ARV cu 4-6 săptămâni înaintea DAA.',['5-15%','aproximativ o treime'],[1446]),
+
+q(39,['Colita cu citomegalovirus la pacientul cu HIV se caracterizează prin:',
+ ['Debut tipic la CD4 între 200 și 350/mm³, analog pneumocistozei','Examen histologic cu incluziuni citoplasmatice în „ochi de bufniță"','Ganciclovir 5 mg/kg × 2/zi i.v. timp de 14-28 de zile','Terapia de menținere rămâne necesară chiar după refacerea imună prin ARV','Durere abdominală, diaree cu sânge și mucoasă colonică friabilă sau ulcerată'],'BCE',1446,'HIV — Afecțiuni gastrointestinale cu CMV',
+ 'Recunoașterea incluziunilor „ochi de bufniță" și a schemei ganciclovir 14-28 de zile, fără menținere după reconstitutie.',
+ ['CMV apare la CD4 constant sub 100, retinita sub 50, nu la 200-350.','Incluziunile în ochi de bufniță sunt caracteristice.','Doza 5 mg/kg ×2, 14-28 zile, este explicită.','Menținerea nu mai este necesară după ameliorarea imună prin ARV.','Tabloul durere–diaree sangvinolentă–mucoasă friabilă este descris.']],
+ 8,'Mută colita CMV la pragul de CD4 al pneumocistozei și prelungește inutil terapia de menținere.',['ochi de bufniţă','14-28 de zile']),
+
+q(40,['Leucoencefalopatia multifocală progresivă (PML):',
+ ['Se datorează poliomavirusului JC, care infectează oligodendrocitele','Leziunile nu captează contrastul și nu produc efect de masă','RMN este mai sensibil decât CT, cu leziuni hiperintense T2 în substanța albă','Tratamentul specific de elecție este cidofovirul, ARV fiind adjuvant','PCR pentru JC în LCR plus imagistica sunt de regulă suficiente, biopsia nemaifiind necesară'],'ABCE',1447,'HIV — Infecția cu poliomavirusul JC: PML',
+ 'Corelarea virusului JC cu leziunile fără contrast/masă și cu absența unui antiviral specific, ARV fiind singura intervenție.',
+ ['JC pe oligodendrocite este mecanismul.','Absența prizei de contrast și a efectului de masă este explicită.','RMN T2 hiperintens, mai sensibil decât CT, este descris.','Nu există tratament specific; ARV eficient este singura intervenție care poate induce remisie.','PCR în LCR plus IRM fac biopsia inutilă.']],
+ 8,'Introduce cidofovirul ca elecție, deși textul afirmă absența tratamentului specific.',['Poliomavirusul JC','nu produc efect de masă']),
+
+q(41,['Infecția diseminată cu Mycobacterium avium-intracellulare:',
+ ['Apare în stadii avansate, cu imunodepresie foarte severă','Poarta de intrare este tractul digestiv sau plămânii, cu diseminare prin macrofage','O combinație des întâlnită este etambutol, rifabutină și claritromicină','MAI este sensibil la regimul standard antituberculos de primă linie','Profilaxia primară cu rifabutină sau azitromicină poate întârzia apariția, fără creștere demonstrată a supraviețuirii'],'ABCE',1448,'HIV — Infecția cu Mycobacterium avium-intracellulare',
+ 'Recunoașterea rezistenței la anti-TB standard și a combinației etambutol–rifabutină–claritromicină, plus limita profilaxiei.',
+ ['Apariția în imunodepresie foarte severă este explicită.','Poarta digestivă/pulmonară și diseminarea prin macrofage sunt descrise.','Combinația etambutol, rifabutină și claritromicină este citată.','MAI este rezistent la tratamentul standard anti-TB.','Profilaxia întârzie apariția, fără creștere a duratei de supraviețuire.']],
+ 8,'Atribuie MAI sensibilitatea la HREZ, opusul rezistenței declarate, pe fondul unei combinații reale de macrolid și rifabutină.',['Etambutolul poate fi util','claritromicină sau azitromicină']),
+
+q(42,['Agentul implicat în patogenia sarcomului Kaposi epidemic este:',
+ ['EBV, ca în limfomul primar cerebral','HHV-8 (virusul herpetic uman 8)','HPV, ca în carcinomul cervical','Virusul JC, ca în PML','CMV, ca în retinită'],'B',1449,'HIV — Sarcomul Kaposi',
+ 'Asocierea SK epidemic cu HHV-8, distinct de EBV, HPV, JC și CMV, toate virusuri cu manifestări proprii în HIV.',
+ ['EBV se asociază cu limfoamele, nu cu SK.','Textul identifică HHV-8 în patogenia SK.','HPV este legat de neoplazia cervicală/anală.','JC produce PML.','CMV produce retinită și colită, nu SK.']],
+ 8,'Permutează cele cinci virusuri oncogene/oportuniste din aceleași pagini între tumorile și infecțiile pe care le cauzează.',['HHV-8','nuanţa violacee'],[1447]),
+
+q(43,['Neoplaziile asociate HIV:',
+ ['Limfoamele sunt în majoritate non-Hodgkin cu celulă mare B, frecvent extra-ganglionare (creier, plămân, tub digestiv)','O mare parte sunt asociate EBV, cu exprimarea antigenelor nucleare latente EBNA 1-6','Femeile cu HIV au risc crescut de neoplasm de col, fiind recomandată citologie cervicală anuală','Sarcomul Kaposi visceral are prognostic mai bun decât forma cutanată, fiind mai sensibil la radioterapie','Terapia ARV favorizează regresia leziunilor de SK'],'ABCE',1449,'HIV — Limfoame, carcinom cervical și sarcom Kaposi',
+ 'Recunoașterea profilului LNH extra-ganglionar EBV-asociat, a citologiei anuale și a regresiei SK sub ARV, cu prognostic rezervat al formei viscerale.',
+ ['Profilul LNH B extra-ganglionar este explicit.','Asocierea EBV/EBNA 1-6 este citată.','Citologia cervicală anuală este recomandată.','SK visceral are prognostic mai rezervat decât cel cutanat.','ARV favorizează regresia leziunilor de SK.']],
+ 8,'Inversează prognosticul SK visceral versus cutanat, pe fondul unor asocieri virale reale.',['EBNA 1-6','citologiei cervicale']),
+
+q(44,['Extinderea testării HIV în Marea Britanie:',
+ ['În 2017, circa 8% dintre persoanele cu HIV erau nediagnosticate, iar 43% dintre noile diagnostice erau tardive (CD4 sub 350)','Testarea se recomandă tuturor nou-înregistraților în asistența primară și urgență unde seroprevalența depășește 2/1.000','Testele reactive la domiciliu sau point-of-care nu necesită confirmare serologică, specificitatea fiind absolută','23% dintre pacienți au avut CD4 sub 200/mm³ la diagnostic','Inițierea tardivă a tratamentului este cel mai important predictor al morbidității și mortalității'],'ABDE',1449,'HIV — Extinderea testării și diagnosticul tardiv',
+ 'Reținerea ponderilor 8% nediagnosticați, 43% tardiv, 23% CD4<200 și a pragului populațional 2/1.000 pentru testare universală.',
+ ['8% nediagnosticați și 43% tardiv sunt cifrele din 2017.','Pragul 2/1.000 pentru testare în primar și urgență este explicit.','Textul cere confirmare serologică din cauza ratei semnificative de fals-pozitive.','23% cu CD4<200 la diagnostic este citat.','Inițierea tardivă este descrisă ca cel mai important predictor.']],
+ 8,'Anulează necesitatea confirmării testelor rapide, deși textul subliniază fals-pozitivele, și cere reținerea a trei procente din același paragraf.',['2/1.000','43% dintre pacienţii']),
+
+q(45,['Următoarele afirmații despre prevenirea transmiterii HIV, dincolo de PrEP, sunt adevărate:',
+ ['Modelele britanice atribuie marea majoritate a cazurilor noi persoanelor nediagnosticate sau cu infecție recentă','Dezvoltarea vaccinului a fost ușurată de variabilitatea genetică redusă a virusului','Furnizarea de echipament steril de injectare a avut efecte favorabile unde a fost implementată','Testele de domiciliu reactive impun confirmare serologică și programare rapidă la specialist','Persoanele cu infecție recentă și viremie înaltă au contagiozitate deosebit de ridicată'],'ACDE',1450,'HIV — Strategii de reducere a transmiterii',
+ 'Recunoașterea rolului nediagnosticatului și al infecției recente în lanțul de transmitere, plus confirmarea testelor de domiciliu.',
+ ['Atribuirea cazurilor noi nediagnosticaților/infecției recente este explicită.','Textul indică opusul: vaccinul a fost îngreunat de variabilitatea genetică.','Echipamentul steril de injectare a avut efecte favorabile.','Confirmarea serologică a testelor de domiciliu este cerută pe pagina anterioară.','Contagiozitatea deosebit de ridicată a infecției recente cu viremie înaltă este citată.']],
+ 8,'Inversează obstacolul vaccinului (variabilitatea genetică) și cere integrarea datelor de testare de pe pagina alăturată.',['cel puţin 50%','nedetectabil = netransmisibil'],[1449]),
+];
