@@ -3,20 +3,20 @@
   "minimumEditorialDifficulty": 8,
   "baselineActive": 200,
   "targetAcceptedActive": 800,
-  "netAdditionalActive": 181,
-  "additionalAccepted": 381,
-  "remainingToTarget": 419,
+  "netAdditionalActive": 381,
+  "additionalAccepted": 581,
+  "remainingToTarget": 219,
   "publicationStatus": "Expansion incomplete: only source-reviewed new versions with editorial difficulty 8–10 may be published",
   "live": {
-    "count": 381,
+    "count": 581,
     "correctAnswerCounts": {
-      "1": 85,
-      "2": 77,
-      "3": 162,
-      "4": 57
+      "1": 125,
+      "2": 110,
+      "3": 255,
+      "4": 91
     },
     "missingMultipleAnswerFormats": [],
-    "fourCorrectShareOfMultiple": 19.3,
+    "fourCorrectShareOfMultiple": 20,
     "idsUnique": true,
     "structuralErrors": [],
     "exactQuestionDuplicates": [],
@@ -29,15 +29,15 @@
       },
       {
         "id": "electroliti",
-        "count": 2
+        "count": 20
       },
       {
         "id": "ati",
-        "count": 1
+        "count": 13
       },
       {
         "id": "hematologie",
-        "count": 8
+        "count": 20
       },
       {
         "id": "reumatologie",
@@ -97,7 +97,7 @@
       },
       {
         "id": "infectii-chir",
-        "count": 7
+        "count": 15
       },
       {
         "id": "trauma",
@@ -137,7 +137,7 @@
       },
       {
         "id": "ficat-splina",
-        "count": 0
+        "count": 18
       },
       {
         "id": "vascular",
@@ -145,15 +145,15 @@
       },
       {
         "id": "orl",
-        "count": 0
+        "count": 40
       },
       {
         "id": "ortopedie",
-        "count": 0
+        "count": 50
       },
       {
         "id": "urologie",
-        "count": 0
+        "count": 42
       },
       {
         "id": "dermato",
@@ -182,15 +182,15 @@
     ]
   },
   "draft": {
-    "count": 563,
+    "count": 763,
     "correctAnswerCounts": {
-      "1": 132,
-      "2": 99,
-      "3": 208,
-      "4": 124
+      "1": 172,
+      "2": 132,
+      "3": 301,
+      "4": 158
     },
     "missingMultipleAnswerFormats": [],
-    "fourCorrectShareOfMultiple": 28.8,
+    "fourCorrectShareOfMultiple": 26.7,
     "idsUnique": true,
     "structuralErrors": [],
     "exactQuestionDuplicates": [],
@@ -224,15 +224,15 @@
       },
       {
         "id": "electroliti",
-        "count": 22
+        "count": 40
       },
       {
         "id": "ati",
-        "count": 21
+        "count": 33
       },
       {
         "id": "hematologie",
-        "count": 29
+        "count": 41
       },
       {
         "id": "reumatologie",
@@ -292,7 +292,7 @@
       },
       {
         "id": "infectii-chir",
-        "count": 7
+        "count": 15
       },
       {
         "id": "trauma",
@@ -332,7 +332,7 @@
       },
       {
         "id": "ficat-splina",
-        "count": 0
+        "count": 18
       },
       {
         "id": "vascular",
@@ -340,15 +340,15 @@
       },
       {
         "id": "orl",
-        "count": 0
+        "count": 40
       },
       {
         "id": "ortopedie",
-        "count": 0
+        "count": 50
       },
       {
         "id": "urologie",
-        "count": 0
+        "count": 42
       },
       {
         "id": "dermato",
@@ -377,15 +377,15 @@
     ]
   },
   "accepted": {
-    "count": 381,
+    "count": 581,
     "correctAnswerCounts": {
-      "1": 85,
-      "2": 77,
-      "3": 162,
-      "4": 57
+      "1": 125,
+      "2": 110,
+      "3": 255,
+      "4": 91
     },
     "missingMultipleAnswerFormats": [],
-    "fourCorrectShareOfMultiple": 19.3,
+    "fourCorrectShareOfMultiple": 20,
     "idsUnique": true,
     "structuralErrors": [],
     "exactQuestionDuplicates": [],
@@ -398,15 +398,15 @@
       },
       {
         "id": "electroliti",
-        "count": 2
+        "count": 20
       },
       {
         "id": "ati",
-        "count": 1
+        "count": 13
       },
       {
         "id": "hematologie",
-        "count": 8
+        "count": 20
       },
       {
         "id": "reumatologie",
@@ -466,7 +466,7 @@
       },
       {
         "id": "infectii-chir",
-        "count": 7
+        "count": 15
       },
       {
         "id": "trauma",
@@ -506,7 +506,7 @@
       },
       {
         "id": "ficat-splina",
-        "count": 0
+        "count": 18
       },
       {
         "id": "vascular",
@@ -514,15 +514,15 @@
       },
       {
         "id": "orl",
-        "count": 0
+        "count": 40
       },
       {
         "id": "ortopedie",
-        "count": 0
+        "count": 50
       },
       {
         "id": "urologie",
-        "count": 0
+        "count": 42
       },
       {
         "id": "dermato",

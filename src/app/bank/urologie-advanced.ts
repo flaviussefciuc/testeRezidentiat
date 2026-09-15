@@ -1,0 +1,261 @@
+import {advancedQuestion} from './advanced-author';
+import type {SourceRow} from './source-author';
+
+const EDITION='Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025';
+const pdfOffset=(p:number)=>p-329;
+const q=(n:number,row:SourceRow,score:number,reason:string,expressions:string[],related:number[]=[])=>
+ advancedQuestion('urologie',29,pdfOffset,`urologie-adv-${String(n).padStart(3,'0')}`,row,[score,reason],expressions,undefined,related,'Lawrence',EDITION);
+
+export const UROLOGIE_ADVANCED=[
+q(1,['Originea a aproximativ 90% dintre cancerele de prostată este:',
+ ['Zona periferică','Zona tranzițională','Zona centrală','Stroma fibromusculară anterioară','Verumontanum'],'A',635,'Prostata — Anatomie și zone',
+ 'Recunoașterea zonei periferice ca sediu al marii majorități a carcinoamelor, distinct de zona tranzițională a HBP.',
+ ['Textul precizează că zona periferică reprezintă originea a aproximativ 90% dintre cazurile de cancer de prostată.','Zona tranzițională crește în volum în hiperplazia benignă, nu este originea tipică a cancerului.','Zona centrală este descrisă anatomic, fără a fi sediul a 90% dintre carcinoame.','Stroma fibromusculară anterioară este un compartiment anatomic, nu originea statistică a cancerului.','Verumontanum este locul de deschidere a ductelor ejaculatorii în uretra prostatică, nu originea carcinomului.']],
+ 8,'Inversează zona periferică (cancer) cu zona tranzițională (HBP), perechea clasică de confuzie din același paragraf.',['zona periferică','verumontanum']),
+
+q(2,['Alegeți afirmațiile corecte referitoare la prostatita acută:',
+ ['Agentul este, de obicei, o bacterie Gram-negativă, cel mai adesea Escherichia coli','Antibioticele se continuă câteva săptămâni, din cauza penetranței reduse în prostată','Retenția urinară se drenează prin cateter suprapubian, nu transuretral','Abcesul se evacuează prin drenaj perineal deschis, ca metodă cea mai frecventă','Prostatita bacteriană și cea non-bacteriană se diferențiază corect doar pe simptomatologie'],'ABC',636,'Prostatita acută',
+ 'Aplicarea etiologiei E. coli, a duratei antibioterapiei și a drenajului suprapubian, față de calea transuretrală a abcesului.',
+ ['Textul identifică E. coli ca agentul cel mai adesea incriminat.','Penetranța redusă impune continuarea tratamentului câteva săptămâni.','Cateterul transuretral poate exacerba infecția; se recomandă cateterul suprapubian.','Tratamentul cel mai frecvent al abcesului este incizia transuretrală cu rezectoscopul sau aspirația ghidată TRUS.','Textul precizează că cele două forme nu pot fi diferențiate corect doar pe simptomatologie.']],
+ 8,'Promovează drenajul perineal deschis în locul rezecției transuretrale și pretinde diferențierea clinică pe care textul o neagă.',['Escherichia coli','cateter suprapubian'],[635]),
+
+q(3,['Prostatita cronică bacteriană se caracterizează prin:',
+ ['Lichid prostatic cu peste 10 leucocite pe câmp, după masaj digital','Culturi de lichid prostatic pozitive, necesare pentru diagnostic','Antecedente de prostatită acută la marea majoritate a pacienților','Lichid prostatic constant anormal în forma non-bacteriană','Cura antibiotică de 3 zile, identică cistitei necomplicate'],'AB',636,'Prostatita cronică și non-bacteriană',
+ 'Diferențierea criteriului de cultură și a pragului de 10 leucocite de forma non-bacteriană cu lichid microscopic normal.',
+ ['Textul descrie caracteristic peste 10 globule albe pe câmp în lichidul prostatic.','Culturile pozitive sunt cerute explicit pentru diagnosticul formei bacteriene cronice.','De obicei nu există antecedente de prostatită acută.','În forma non-bacteriană lichidul prostatic este frecvent normal la microscop.','Tratamentul oral cu spectru larg durează adesea 6 săptămâni, nu 3 zile.']],
+ 8,'Inversează antecedentele de prostatită acută și atribuie formei non-bacteriene un lichid microscopic patologic.',['6 săptămâni','trimetoprim-sulfametoxazol']),
+
+q(4,['Tabloul clinic și evaluarea hiperplaziei benigne de prostată:',
+ ['Debitmetria arată, de obicei, un debit sub 15 mL/secundă la simptomatici','Caracteristice sunt conturul neted și consistența moale la tușeu','Urografia intravenoasă este investigația de rutină a HBP necomplicate','Semnul ureterelor în crosă de hochei reflectă deplasarea cranială a ureterelor distale','Prostata mărită, chiar asimptomatică, impune de la sine consult urologic'],'ABD',637,'HBP — Tablou clinic și evaluare',
+ 'Aplicarea pragului debitmetric și a semnelor de tușeu, față de limita urografiei de rutină și de prostata mare asimptomatică.',
+ ['Pragul <15 mL/secundă este citat pentru pacienții simptomatici.','Conturul neted și consistența moale sunt descrise ca și caracteristici ale HBP.','UIV nu este indicată uzual în evaluarea HBP necomplicate.','Deplasarea cranială a ureterelor distale de către prostata mărită produce semnul în crosă de hochei.','Creșterea semnificativă asimptomatică nu indică, prin ea însăși, evaluare și consult urologic.']],
+ 8,'Transformă o observație radiologică ocazională în indicație de rutină și leagă volumul palpabil de indicația de consult.',['mL/secundă','crosă de hochei'],[636]),
+
+q(5,['Tratamentul medicamentos al HBP include:',
+ ['Blocanții α-adrenergici sunt, de obicei, agenții de primă linie, cu răspuns posibil în 24 de ore','Inhibitorii de 5α-reductază scad dimensiunea prostatei cu 20–30% și impun dublarea PSA-ului seric interpretat','Finasterida este mai puțin eficientă decât α-blocantele când volumul prostatic este sub 50 cm³','Răspunsul la α-blocante apare abia după câteva luni de administrare','PSA-ul seric rămâne neschimbat sub finasteridă sau dutasteridă'],'ABC',637,'HBP — Tratament medicamentos',
+ 'Ierarhizarea α-blocant versus 5α-reductază după volum și corectarea interpretării PSA-ului sub inhibitori.',
+ ['Prima linie și posibilitatea răspunsului în 24 de ore sunt explicite.','Reducerea modestă 20–30% și dublarea PSA-ului pentru o valoare relativă sunt descrise.','Inferioritatea finasteridei față de α-blocante la volum <50 cm³ este citată din studiile comparative.','Răspunsul rapid în 24 de ore aparține α-blocantelor; întârzierea de luni este a finasteridei.','Finasterida și dutasterida scad de obicei nivelul seric al PSA.']],
+ 8,'Inversează cinetica de răspuns α-blocant versus finasteridă și anulează regula de dublare a PSA.',['dihidrotestosteron','<50 cm3']),
+
+q(6,['Selectați enunțurile adevărate despre tratamentul chirurgical al HBP:',
+ ['Abordul deschis sau robotic este ales, de obicei, pentru prostate peste 100 g','Capsula prostatică nu este îndepărtată, iar continuitatea uretrală nu este afectată','TURP rezecă țesutul obstructiv cu ansa de electrocauter până la capsulă','Incizia transuretrală se poate practica la pacienții cu volum prostatic mic','Continuitatea uretrală trebuie întreruptă pentru a enuclea adenomul'],'ABCD',637,'HBP — Tratament chirurgical',
+ 'Diferențierea enucleării cu păstrarea capsulei de rezecția transuretrală și de incizia pentru glande mici.',
+ ['Pragul >100 g pentru abord deschis/robotic este explicit.','Textul precizează că respectiva capsulă nu se îndepărtează și că uretra rămâne continuă.','Ansa de electrocauter până la capsulă definește TURP.','Incizia transuretrală este rezervată volumului mic.','Textul afirmă opusul: continuitatea uretrală nu este afectată.']],
+ 8,'Distractorul final întrerupe uretra, deși enuclearea HBP păstrează capsula și continuitatea.',['100 g','capsula prostatică'],[638]),
+
+q(7,['Care dintre următoarele afirmații privind epidemiologia carcinomului prostatic și antigenul specific prostatic sunt adevărate?',
+ ['Peste 95% dintre neoplaziile prostatice sunt adenocarcinoame acinare','La autopsie, adenocarcinomul este identificat la 30% dintre bărbații peste 50 de ani și la 70% peste 80 de ani','PSA-ul este specific prostatei, dar nu este specific cancerului de prostată','HBP și carcinomul prostatic au o relație cauzală demonstrată','Screening-ul a crescut mortalitatea prin cancer de prostată cu aproximativ 40%'],'ABC',638,'Carcinom prostatic — Epidemiologie și PSA',
+ 'Recunoașterea discrepanței autopsie versus boală clinică și a lipsei de specificitate oncologică a PSA.',
+ ['Proporția de peste 95% adenocarcinoame acinare este explicită.','Cifrele de autopsie 30% și 70% sunt citate.','Textul disociază specificitatea de organ de specificitatea de cancer.','Cancerul și HBP pot coexista, dar aparent nu există relație de cauzalitate.','Decesele au scăzut cu aproximativ 40% după răspândirea screening-ului, nu au crescut.']],
+ 8,'Inversează direcția efectului screening-ului asupra mortalității și inventează cauzalitatea HBP–cancer.',['adenocarcinoame','zona periferică']),
+
+q(8,['Un scor Gleason de 9 este clasificat drept carcinom:',
+ ['Bine diferențiat','Slab diferențiat','Moderat diferențiat','Echivalent al scorurilor 2–4 din screening','Carcinom in situ, fără invazie stromală'],'B',639,'Carcinom prostatic — Scorul Gleason',
+ 'Încadrarea intervalelor Gleason 2–4 / 5–7 / 8–10, fără confuzia cu scorurile 4–6 descoperite la screening.',
+ ['Intervalul 2–4 definește forma bine diferențiată, nu scorul 9.','Textul încadrează scorurile 8–10 ca slab diferențiate.','Intervalul 5–7 (și, în screening, 4–6) corespunde formei moderat diferențiate.','Screeningul descoperă mai ales scoruri 4–6, nu echivalează 9 cu această categorie.','Gleason descrie adenocarcinom invaziv gradat, nu carcinom in situ.']],
+ 9,'Amestecă intervalul 8–10 cu 4–6 din screening și cu 2–4 „bine diferențiat”, trei benzi numerice alăturate.',['scorul Gleason','slab diferenţiat']),
+
+q(9,['Cancerul de prostată în stadiu localizat:',
+ ['La speranță de viață sub 10 ani, monitorizarea fără tratament activ („watchful waiting”) poate fi indicată','Supravegherea activă este preferată la risc scăzut (Gleason ≤6) și speranță de viață mai mare','Crioterapia oferă rezultate superioare metodelor curative pentru tumorile intracapsulare','Brahiterapia cu iod-125 sau paladiu-103 este rezervată doar riscului înalt','Prezervarea bandeletelor neuro-vasculare nu poate menține potența'],'AB',640,'Cancer de prostată localizat — Opțiuni',
+ 'Diferențierea watchful waiting de active surveillance și recunoașterea limitei crioterapiei față de brahiterapie.',
+ ['Pragul <10 ani pentru watchful waiting este explicit.','Active surveillance este descrisă pentru Gleason ≤6, cu PSA, tușeu și biopsii la nevoie.','Crioterapia oferă rezultate inferioare metodelor anterioare pentru tumorile localizate.','Brahiterapia este o opțiune la risc scăzut și intermediar.','Potența poate fi păstrată în aproximativ două treimi din cazuri prin prezervarea bandeletelor.']],
+ 8,'Promovează crioterapia ca superioară și limitează greșit brahiterapia la riscul înalt.',['watchful waiting','iod-125']),
+
+q(10,['Următoarele afirmații despre cancerul de prostată metastatic sunt adevărate:',
+ ['Tratamentul principal este deprivarea androgenică','Supresia testosteronului se obține prin orhidectomie bilaterală sau analogi de LHRH','Estrogenii reduc testosteronul, dar asociază efecte cardiovasculare la aproximativ 20% dintre pacienți','Peste jumătate din androgenii circulanți provin din glandele suprarenale','Răspunsul hormonal durează, de regulă, 5–7 ani înainte de progresie'],'ABC',641,'Cancer de prostată — Stadiul metastatic',
+ 'Aplicarea castrării chirurgicale sau chimice și a duratei de răspuns 18–24 de luni, față de ponderea androgenilor suprarenali.',
+ ['Dependența de androgeni și deprivarea ca tratament principal sunt explicite.','Cele două căi de supresie sunt enumerate.','Rata de aproximativ 20% a efectelor cardiovasculare ale estrogenilor este citată.','Textul precizează că mai puțin de 10% din androgenii circulanți sunt produși suprarenal.','Durata tipică de răspuns este 18–24 de luni, nu 5–7 ani.']],
+ 8,'Umflă contribuția suprarenală de la <10% la peste jumătate și prelungește fereastra hormonală de la 18–24 de luni.',['18-24 de luni','castrare chimică']),
+
+q(11,['Rinichiul normal se caracterizează prin:',
+ ['Este situat retroperitoneal, paralel cu ultima vertebră toracică și cu L1–L3','Rinichiul stâng este situat puțin mai cranial decât cel drept','Rinichiul drept este situat cranial față de cel stâng, sub splină','Are circa 11 cm lungime, 6 cm lățime, 3 cm grosime, cu 150 g la bărbat și 135 g la femeie','Este lipsit de capsulă fibroasă, fiind acoperit doar de peritoneu'],'ABD',641,'Rinichii — Anatomie',
+ 'Fixarea poziției relative stâng-drept și a dimensiunilor, față de capsula fibroasă intimă cu corticala.',
+ ['Localizarea retroperitoneală și nivelul vertebral sunt descrise.','Textul precizează că rinichiul stâng este puțin mai cranial.','Rinichiul drept are raport cu ficatul și duodenul; cel stâng, nu dreptul, este mai cranial.','Cifrele 11×6×3 cm și greutățile 150/135 g sunt explicite.','Rinichiul este acoperit de o capsulă fibroasă în contact intim cu corticala.']],
+ 8,'Inversează asimetria cranio-caudală stâng/drept, capcană anatomică frecventă.',['150 g la bărbaţi','135 g la femei']),
+
+q(12,['Indicațiile imagisticii în traumatismul renal închis:',
+ ['Traumatismele închise însumează 70–80% din traumatismele renale','La adultul cu microhematurie, fără decelerare importantă și fără hipotensiune, imagistica poate să nu fie necesară','La copilul cu decelerare importantă, examenul de urină normal exclude avulsia joncțiunii pielo-ureterale','Hematuria macroscopică la adult nu justifică imagistica dacă tensiunea este păstrată','Mecanismul tipic este traumatismul penetrant, nu cel închis'],'AB',642,'Traumatisme renale — Evaluare',
+ 'Aplicarea criteriilor de imagistică (macrohematurie, hipotensiune, decelerare) și a excepției pediatrice cu urină normală.',
+ ['Ponderea 70–80% a traumatismelor închise este explicită.','Textul scutește de imagistică adultul cu microhematurie fără decelerare importantă și fără hipotensiune.','Avulsia joncțiunii pielo-ureterale la copil poate coexistă cu examen de urină normal.','Hematuria macroscopică, hipotensiunea sau decelerarea importantă impun imagistică.','Forma închisă, nu cea penetrantă, reprezintă 70–80% din total.']],
+ 8,'Folosește urina „normală” ca argument fals de liniștire în avulsia pediatrică de joncțiune.',['70-80%','hematurie macroscopică']),
+
+q(13,['Identificați afirmațiile corecte privind clasificarea și explorarea traumatismelor renale:',
+ ['În lacerațiile minore leziunea nu depășește corticala, fără extravazare urinară sau hematom important','Lacerațiile majore interesează capsula și joncțiunea corticomedulară, adesea cu extravazare și hematom voluminos','Pacientul instabil hemodinamic necesită laparotomie; UIV „dintr-o filmare” folosește 2 mL/kg contrast și un film la 10 minute','Vasele renale se izolează înaintea mobilizării colonului, pentru a limita exsanguinarea','Pacientul stabil cu traumatism închis se explorează chirurgical de principiu, indiferent de CT'],'ABCD',643,'Traumatisme renale — Clasificare și tratament',
+ 'Separarea laceratiei minore de cea majoră și a algoritmului instabil (UIV 2 mL/kg) de conservatorismul la pacientul stabil.',
+ ['Criteriile laceratiei minore sunt enumerate explicit.','Interesarea capsulei și a joncțiunii corticomedulare definește forma majoră.','Doza 2 mL/kg și filmul la 10 minute sunt protocolul UIV la instabil.','Izolarea vaselor înaintea mobilizării colonului este descrisă ca protecție împotriva hemoragiei.','Tendința este tratamentul conservator cât timp pacientul rămâne stabil hemodinamic.']],
+ 9,'Combină pragul de contrast al UIV intraoperatorii cu secvența vasculară înaintea colonului, două detalii ușor de oglindit.',['2 mL/kg','hematomul retroperitoneal']),
+
+q(14,['Malformațiile congenitale reno-ureterale:',
+ ['Rinichiul în potcoavă are incidența 1:400–1:1.800, este cea mai frecventă anomalie de fuziune și afectează precumpănitor polul inferior','În copilărie, stenoza de joncțiune pielo-ureterală este cauzată cel mai frecvent de obstrucție intrinsecă prin dezvoltare incompletă','La adolescent și adult, cauza mai probabilă este un vas aberant care comprimă joncțiunea','Rinichiul în potcoavă fuzionează aproape constant la polul superior','Afectarea bilaterală a joncțiunii pielo-ureterale apare în 80–90% din cazuri'],'ABC',643,'Malformații — Rinichi în potcoavă și stenoza de joncțiune',
+ 'Diferențierea cauzei intrinseci pediatrice de vasul aberant al adultului și recunoașterea fuziunii la polul inferior.',
+ ['Intervalul 1:400–1:1.800, caracterul de fuziune cea mai frecventă și polul inferior sunt explicite.','Obstrucția intrinsecă prin dezvoltare incompletă este cauza pediatrică principală.','Vasul aberant este cauza mai probabilă la adolescent și adult.','Textul precizează afectarea precumpănitoare a polului inferior, nu a celui superior.','Afectarea bilaterală apare în 10–40% din cazuri, nu în 80–90%.']],
+ 8,'Mută fuziunea la polul superior și umflă bilateritatea de la 10–40% la 80–90%.',['Rinichiul în potcoavă','joncţiunii pielo-ureterale']),
+
+q(15,['Un pacient febril, cu durere de flanc și calcul ureteral obstructiv. Conduita inițială corectă este:',
+ ['Antibioterapie plus dezobstrucție prin stent dublu J sau nefrostomie; extracția calculului nu este manevra inițială','Ureteroscopie cu extracția imediată a calculului, pentru a înlătura focarul','Antibiotice orale în ambulatoriu, ca în pielonefrita necomplicată','Nefrectomie de urgență, ca în forma emfizematoasă','Litotriție extracorporeală în faza septică, urmată de antibiotice'],'A',644,'Pielonefrita acută obstructivă',
+ 'Recunoașterea urgenței de drenaj, nu de extracție, în „puroiul sub presiune” al pielonefritei obstructive.',
+ ['Textul impune drenaj rapid (stent sau nefrostomie) și contraindică extracția ca tratament inițial.','Manevrele de extragere pot agrava starea septică și sunt contraindicate inițial.','Forma necomplicată, nu cea obstructivă, se tratează oral în ambulatoriu.','Nefrectomia de urgență aparține pielonefritei emfizematoase, nu obstructivității litiazice.','ESWL nu este tratamentul fazei septice obstructive.']],
+ 8,'Oferă extracția endoscopică „ca să scoți focarul”, inversul explicit al textului.',['stent ureteral','pielonefrită acută obstructivă'],[647]),
+
+q(16,['Alegeți afirmațiile corecte referitoare la pielonefrita emfizematoasă și la forma xantogranulomatoasă:',
+ ['Forma emfizematoasă produce gaz în parenchim, are ca factor de risc diabetul necontrolat, iar nefrectomia de urgență rămâne opțiunea de primă intenție','PXG afectează precumpănitor femeile (75%) în decadele 5–7; rinichiul este de obicei nefuncțional, iar tratamentul este cel mai frecvent nefrectomia','Drenajul percutanat a înlocuit nefrectomia ca tratament de primă intenție în forma emfizematoasă','PXG este o boală predominant masculină a decadei a treia','Rinichiul din PXG păstrează, de regulă, o funcție aproape normală'],'AB',645,'Pielonefrita emfizematoasă și xantogranulomatoasă',
+ 'Separarea urgenței nefrectomiei din forma gazoasă de nefrectomia tehnic dificilă din PXG a femeii de vârstă mijlocie.',
+ ['Gazul, diabetul necontrolat și nefrectomia de urgență ca primă intenție sunt explicite.','Predominanța feminină 75%, decadele 5–7, rinichiul nefuncțional și nefrectomia sunt citate.','Drenajul percutanat a fost sugerat ca alternativă, dar nefrectomia rămâne opțiunea de primă intenție.','Textul indică 75% femei, nu predominanță masculină tânără.','Rinichiul afectat este, de obicei, nefuncțional.']],
+ 8,'Inversează sexul și funcția renală în PXG și promovează drenajul ca înlocuitor al nefrectomiei emfizematoase.',['nefrectomia de urgenţă','75% din cazuri'],[644]),
+
+q(17,['Tuberculoza genito-urinară:',
+ ['Polakiuria nedureroasă, în special nocturnă, este frecvent întâlnită','Piuria sterilă trebuie să ridice suspiciunea de tuberculoză','Diagnosticul definitiv se stabilește prin urocultură cu izolare de Mycobacterium tuberculosis','Un test cutanat PPD pozitiv confirmă boala activă','Tratamentul începe cu nefrectomie, urmată de antituberculoase doar dacă persistă piuria'],'ABC',645,'Tuberculoza genito-urinară',
+ 'Recunoașterea piuriei sterile și a culturii ca diagnostic definitiv, față de PPD și de prioritatea medicală.',
+ ['Polakiuria nedureroasă nocturnă este descrisă ca frecventă.','Textul cere suspiciune la pacientul cu piurie sterilă.','Izolarea de M. tuberculosis din urină este diagnosticul definitiv.','Un test PPD pozitiv nu indică neapărat boală activă.','Gestionarea începe cu tratamentul medicamentos antituberculos; nefrectomia este ulterioară, selectivă.']],
+ 8,'Transformă PPD-ul pozitiv în dovadă de boală activă și inversează ordinea medical-chirurgicală.',['Mycobacterium tuberculosis','antituberculos']),
+
+q(18,['Tumorile renale:',
+ ['Chistul simplu este leziunea tisulară renală cea mai des întâlnită (70% din cazuri)','Carcinomul cu celule clare reprezintă peste 85% dintre cancerele renale primare la adult','Triada clasică (durere în flanc, masă, hematurie) este prezentă rar în întregime','Angiomiolipomul este recunoscut tomografic prin grăsimea care apare neagră','Arteriografia rămâne investigația preoperatorie standard la toți pacienții cu masă renală'],'ABCD',645,'Tumori renale — Evaluare și leziuni benigne',
+ 'Ierarhizarea chistului simplu, a CRCC și a criteriului de grăsime al angiomiolipomului, față de arteriografia rezervată cazurilor selectate.',
+ ['Ponderea de 70% a chistului simplu este explicită.','Pragul >85% pentru CRCC este citat.','Textul precizează că pacienții prezintă rareori toate cele trei semne.','Grăsimea neagră pe CT într-o masă renală indică aproape sigur angiomiolipom.','Arteriografia este recomandată doar în cazuri selectate, nu ca standard universal.']],
+ 8,'Păstrează arteriografia ca „standard” din era anterioară, deși textul o limitează la cazuri incerte sau cu vase aberante.',['chistul simplu','Angiomiolipomul']),
+
+q(19,['Carcinomul renal cu celule clare — tratament și diseminare:',
+ ['Tratamentul formei localizate este nefrectomia radicală sau parțială','Nefrectomia parțială este preferată pentru tumorile mici, chiar și cu rinichi contralateral normal','Metastazează cel mai adesea în plămâni, os și creier, în această ordine','Supraviețuirea la 5 ani în stadiile III–IV este de 80–90%','Nefrectomia radicală păstrează fascia Gerota și suprarenala ipsilaterală'],'ABC',646,'CRCC — Tratament și metastaze',
+ 'Aplicarea ordinii de diseminare și a preferinței pentru nefrectomie parțială, față de cifrele de supraviețuire inversate pe stadii.',
+ ['Ambele tipuri de nefrectomie sunt indicate pentru forma localizată.','Preferința pentru tumorile mici, independent de rinichiul contralateral, este explicită.','Ordinea plămân–os–creier este citată.','80–90% este supraviețuirea stadiilor I–II; III–IV au 40–60%.','Radicala îndepărtează rinichiul, grăsimea perirenală, fascia Gerota, suprarenala și ganglionii ipsilaterali.']],
+ 8,'Inversează supraviețuirile I–II versus III–IV și transformă piesa radicală într-o rezecție care păstrează fascia.',['80-90%','Gerata']),
+
+q(20,['Compoziția și factorii de risc ai calculilor urinari:',
+ ['Majoritatea calculilor sunt compuși din oxalat de calciu','Calculii de cistină apar în cistinurie, cu defect de reabsorbție a cistinei, ornitinei, lizinei și argininei','Calculii de acid uric se asociază unui aport scăzut de purine și urinei alcaline','Calculii de struvit (fosfat amonico-magnezian) se formează în urină sterilă, fără infecție','Incidența maximă este după 70 de ani, cu predominanță feminină'],'AB',647,'Litiaza urinară — Tipuri de calculi',
+ 'Potrivirea oxalatului ca majoritate și a tetralogiei COLA din cistinurie, față de struvitul infecțios și de vârful 30–50 de ani.',
+ ['Predominanța oxalatului de calciu este explicită.','Cei patru aminoacizi ai cistinuriei sunt enumerați.','Factorii pentru acid uric includ aportul ridicat de purine, guta, deshidratarea și hiperuricozuria.','Struvitul este calculul de infecție, la pacienți cu ITU cronice sau catetere.','Predominanța este masculină, cu vârf între 30 și 50 de ani.']],
+ 8,'Atribuie acidului uric dieta săracă în purine și struvitului urina sterilă, două inversiuni metabolice din același paragraf.',['oxalat de calciu','fosfat amonico-magnezian']),
+
+q(21,['Investigația imagistică optimă pentru litiaza tractului urinar superior este:',
+ ['Tomografia computerizată fără substanță de contrast','Radiografia renală simplă, care vizualizează și calculii de acid uric','Ecografia renală, superioară CT-ului în vizualizarea ureterelor','Urografia intravenoasă, înlocuitoarea actuală a CT-ului','Rezonanța magnetică ca investigație de primă intenție la camera de gardă'],'A',647,'Litiaza — Evaluare imagistică',
+ 'Recunoașterea CT-ului nativ ca standard, cu trucul calculului de acid uric radiotransparent dar alb pe CT.',
+ ['Textul numește CT-ul fără contrast investigația optimă.','Calculul de acid uric este transparent pe radiografia simplă.','Ecografia este lipsită de precizia anatomică a CT-ului, mai ales pe uretere.','UIV este un test folosit în trecut, nu înlocuitorul actual al CT-ului.','IRM nu este descrisă ca investigație de primă intenție pentru colica litiazică.']],
+ 8,'Folosește radiotransparența de pe radiografia simplă ca și cum ar vizualiza acidul uric, deși CT-ul îl arată alb strălucitor.',['CT fără substanţă','acid uric']),
+
+q(22,['Managementul litiazei urinare:',
+ ['Calculii ureterali sub 5 mm se elimină, de obicei, spontan','Pielonefrita obstructivă se drenează de urgență; extracția calculului nu se încearcă în faza septică','Laserul Holmium este tehnologia cea mai frecvent folosită pentru fragmentarea endoscopică','Calculii de acid uric se pot dizolva prin alcalinizare urinară și aport crescut de lichide','Chirurgia deschisă rămâne tratamentul de primă intenție al calculilor din bazinet'],'ABCD',647,'Litiaza — Tratament',
+ 'Ierarhizarea pasajului spontan, a drenajului septic, a laserului Holmium și a alcalinizării uratului, față de chirurgia deschisă rar indicată.',
+ ['Pragul <5 mm pentru eliminarea spontană este explicit.','Drenajul fără manipulare a calculului în faza septică este reluat în capitolul de litiază.','Holmium este numit tehnologia cea mai frecvent folosită la fragmentarea endoscopică.','Acidul uric se dizolvă la pH crescut, cu alcalinizare și lichide.','Chirurgia deschisă, frecventă în trecut, este rar indicată astăzi.']],
+ 8,'Repune chirurgia deschisă ca primă intenție, deși textul o descrie ca rar indicată.',['laserul Holmium','<5 mm'],[648]),
+
+q(23,['Anatomia ureterului intramural și prevenirea refluxului:',
+ ['Fiecare ureter parcurge oblic circa 1,5 cm prin peretele vezical','Porțiunea inferioară este ancorată de teaca lui Waldeyer','În absența contracției ureterale, presiunea vezicală comprimă lumenul submucos și previne refluxul','Fibrele musculare din porțiunea intramurală sunt dispuse circular, concentric pe lumen','CT și UIV sunt investigații slabe pentru diagnosticul obstrucției ureterale'],'ABC',648,'Ureterele — Anatomie și anti-reflux',
+ 'Aplicarea lungimii intramurale și a mecanismului de comprimare submucoasă, față de dispoziția longitudinală a fibrelor distale.',
+ ['Traiectul oblic de 1,5 cm este explicit.','Teaca lui Waldeyer este numită țesutul de susținere.','Mecanismul de comprimare a submucoasei împotriva musculaturii vezicale este descris.','În apropierea vezicii și intramural, fibrele sunt dispuse paralel cu lumenul, nu circular.','Atât CT, cât și UIV sunt investigații excelente pentru obstrucția ureterală.']],
+ 8,'Înlocuiește dispoziția paralelă a fibrelor intramurale cu un model circular, capcană de histologie ureterală.',['1,5 cm','teaca lui Waldeyer']),
+
+q(24,['Nevoia de a urina este resimțită prima dată, la vezica normală, la un volum de:',
+ ['350–500 mL','350–450 mL','150–250 mL','20–25 mL','80–100 mL'],'C',650,'Evaluare urodinamică — Volume vezicale',
+ 'Separarea primului impuls (150–250 mL) de plenitudinea certă (350–450 mL) și de capacitatea fără creștere de presiune (350–500 mL).',
+ ['350–500 mL este volumul pe care vezica îl poate acumula fără creștere semnificativă a presiunii.','350–450 mL este volumul la care este sesizată umplerea certă.','Textul plasează prima nevoie de a urina la 150–250 mL.','20–25 mL/secundă este debitul maxim masculin, nu un volum vezical.','80–100 mL nu figurează ca prag al primei nevoi.']],
+ 8,'Trei intervale volumetrice din același paragraf sunt ușor de permutat (capacitate, plenitudine, primul impuls).',['150-250 mL','350-500 mL']),
+
+q(25,['Refluxul vezico-ureteral primar:',
+ ['Rezultă dintr-un traiect intramural anormal de scurt, prin implantare laterală a mugurelui ureteral','Gradele I și II se remit, de obicei, odată cu creșterea copilului','Cistouretrografia micțională este investigația principală de diagnostic','Prevalența la copiii evaluați pentru ITU este de circa 29–50%','Ecografia renală și UIV sunt suficiente, singure, pentru diagnosticul RVU'],'ABCD',650,'Reflux vezico-ureteral — Diagnostic',
+ 'Legarea anatomiei de tunelul scurt de CUGM ca test principal și de remisia gradelor mici, față de limita ecografiei.',
+ ['Mecanismul de implantare laterală și tunelul scurt sunt explicite.','Remisia gradelor I–II odată cu maturizarea joncțiunii este descrisă.','CUGM este numită investigația principală.','Intervalul 29–50% este citat pentru copiii evaluați pentru ITU.','Ecografia și UIV arată dilatații, dar nu pot fi unica metodă de diagnostic.']],
+ 8,'Atribuie ecografiei și UIV rolul de test diagnostic unic, pe care textul îl neagă.',['29-50%','Cistouretrografia micţională']),
+
+q(26,['Corecția chirurgicală și endoscopică a refluxului vezico-ureteral:',
+ ['Reimplantarea urmărește un tunel intramural de 4–5 ori diametrul ureterului','Injectarea de Deflux vindecă 70–91% dintre pacienții cu grade II–IV după o singură injecție','Extrofia vezicală are incidența 1:1.000, cu predominanță feminină 3:1','Deflux-ul vindecă sub 20% dintre refluxurile de grad II–IV','Tunelul intramural trebuie scurtat sub diametrul ureterului pentru a reduce rezistența'],'AB',651,'RVU — Reimplantare și Deflux',
+ 'Aplicarea raportului 4–5× diametru și a ratei Deflux, față de epidemiologia extrofiei (1:30.000, bărbați 3:1).',
+ ['Alungirea intramurală de 4–5 ori diametrul este obiectivul explicit al reimplantării.','Intervalul 70–91% după o singură injecție la gradele II–IV este citat.','Extrofia apare la 1:30.000 de nașteri, cu preponderență masculină 3:1.','Rata citată este 70–91%, nu sub 20%.','Obiectivul este alungirea, nu scurtarea tunelului.']],
+ 8,'Importă epidemiologia extrofiei cu sex și incidență inversate, lângă un raport de tunel ușor de oglindit.',['4-5 ori diametrul','Deflux']),
+
+q(27,['Ruptura vezicii urinare:',
+ ['Rupturile mici extraperitoneale se pot trata prin sondă Foley 1–2 săptămâni','Rupturile intraperitoneale sau cele extraperitoneale mari/complicate necesită sutură cu fire resorbabile','Filmul după golirea contrastului diagnostichează aproximativ 15% dintre rupturi','Uretrografia retrogradă se face după cateterizare, dacă există sânge la meat','Sutura vezicală se practică cu fire neresorbabile, pentru a preveni dehiscența'],'ABC',654,'Traumatismele vezicii — Tratament și cistografie',
+ 'Separarea tratamentului conservator extraperitoneal de sutura resorbabilă și de filmul post-golire care salvează 15% din diagnostice.',
+ ['Intervalul 1–2 săptămâni de Foley pentru rupturile mici extraperitoneale este explicit.','Indicația chirurgicală și firele resorbabile sunt descrise.','Filmul după îndepărtarea drenajului ajută la circa 15% dintre diagnostice.','Dacă se suspectează leziune uretrală (sânge la meat), uretrografia precede cateterizarea.','Textul cere fire resorbabile, nu neresorbabile.']],
+ 8,'Inversează ordinea uretrografie–cateter la sângele de meat și materialul de sutură.',['15%','1-2 săptămâni'],[653]),
+
+q(28,['Cistita bacteriană:',
+ ['Escherichia coli cauzează peste 80% din toate infecțiile de tract urinar','Febra este neobișnuită în cistita necomplicată și poate indica infecția tractului superior','Este mai frecventă la bărbați, din cauza uretrei lungi care favorizează ascenșiunea','Simptomele dispar, cu terapie adecvată, abia după 3 săptămâni','La femei, cauza tipică este golirea incompletă a vezicii, nu uretra scurtă'],'AB',654,'Cistita bacteriană',
+ 'Aplicarea ponderii E. coli și a febrei ca semnal de tract superior, față de patogenia diferită femeie/bărbat.',
+ ['Pragul de peste 80% pentru E. coli este explicit.','Textul leagă febra de posibila infecție a tractului superior.','Cistita este mult mai frecventă la femei, prin uretra mai scurtă.','Simptomele ar trebui să dispară în 3–5 zile, nu în 3 săptămâni.','Golirea incompletă explică cistita la bărbați; la femei calea este ascendentă prin uretra scurtă.']],
+ 8,'Inversează sexul predilect și durată de răspuns 3–5 zile versus 3 săptămâni.',['Enterobacteriaceae','80%']),
+
+q(29,['Cistita interstițială și fistulele vezicale:',
+ ['Cistita interstițială este un diagnostic de excludere, cu glomerulații și, rar, ulcerații Hunner','Fistula entero-vezicală apare cel mai frecvent în diverticulită, neoplasme, Crohn și traumatisme penetrante','Incontinența totală, cu scurgere continuă, este caracteristică unei fistule (de exemplu vezico-vaginale)','Uroculturile din cistita interstițială sunt, în mod tipic, pozitive pentru bacterii','Aerul vezical pe CT se caută după cateterizarea vezicii, care produce pneumaturia de diagnostic'],'ABC',655,'Cistita interstițială și fistula vezicală',
+ 'Recunoașterea leziunilor Hunner, a etiologiilor fistulei entero-vezicale și a incontinenței totale ca semn de fistulă.',
+ ['Diagnosticul de excludere, glomerulațiile și ulcerațiile Hunner sunt explicite.','Cele patru situații etiologice sunt enumerate.','Incontinența totală este definită ca scurgere continuă, caracteristică fistulei.','Uroculturile pentru bacterii, virusuri și fungi sunt negative.','CT-ul se face fără cateterizarea vezicii; aerul din vezică confirmă diagnosticul.']],
+ 8,'Pozitivează urocultura din cistita interstițială și produce iatrogen „pneumaturia” prin cateter.',['leziuni Hunner','pneumaturie']),
+
+q(30,['Tratamentul incontinenței urinare:',
+ ['Instabilitatea detrusorului fără obstrucție, malignitate, infecție sau cauză neurologică răspunde la oxibutinină','Procedura Marshall-Marchetti-Krantz repoziționează colul și uretra pe fața posterioară a simfizei','La bărbat, tonusul uretral scăzut se tratează prin sfincter urinar artificial','În procedura Stamey se plasează o grefă Dacron lângă colul vezical','Tractul urinar superior se evaluează de rutină la toate pacientele cu incontinență de efort'],'ABCD',656,'Incontinența — Tratament chirurgical și medical',
+ 'Potrivirea anticolinergicelor, a MMK, a sfincterului artificial masculin și a grefei Dacron din Stamey, față de imagistica superioară neselectivă.',
+ ['Oxibutinina este citată pentru relaxarea detrusorului instabil.','Ancorarea pe simfiza pubiană definește MMK.','Proteza cu manșetă bulbară, rezervor și pompă scrotală este descrisă la bărbat.','Grefa vasculară Dacron din Stamey este explicită.','Tractul superior se evaluează doar dacă există o indicație, nu de rutină.']],
+ 8,'Extinde evaluarea tractului superior la toate incontinențele de efort, deși textul o rezervă indicațiilor.',['Marshall-Marchetti-Krantz','sfincter urinar']),
+
+q(31,['Inervația vezicii și vezica neurologică neinhibată:',
+ ['Detrusorul are inervație parasimpatică, mai ales din S3 și o parte din S4','Trigonul și colul vezical sunt sub control simpatic T11–L2','Sfincterul extern este inervat în principal de la S2, prin nervul rușinos','Vezica neinhibată se asociază cu accidentul vascular, paralizia cerebrală, demența și scleroza multiplă','Micțiunea normală începe cu contracția detrusorului, sfincterul rămânând contractat până la golirea completă'],'ABCD',657,'Vezica neurogenă — Inervație și clasificare Lapides',
+ 'Maparea S3/S4, T11–L2 și S2 și recunoașterea cauzelor vezicii neinhibate, față de secvența reală sfincter → col → detrusor.',
+ ['Originea parasimpatică S3 și parțial S4 este explicită.','Controlul simpatic T11–L2 al trigonului și colului este citat.','S2 prin nervul rușinos este inervația sfincterului extern.','Lista de leziuni cerebrale ale vezicii neinhibate este enumerată.','Micțiunea începe cu relaxarea sfincterului extern, apoi a colului, urmată de contracția detrusorului.']],
+ 8,'Inversează secvența micțională, o eroare urodinamică clasică lângă trepte medulare corecte.',['nervul ruşinos','S3'],[656]),
+
+q(32,['Carcinomul vezical:',
+ ['Este de 2,5 ori mai frecvent la bărbați; prevalența la fumători este de cinci ori mai mare; 85–90% sunt carcinoame tranziționale','Stadiile Ta și T1 se tratează adesea prin rezecție transuretrală; BCG este eficient în Tis','Tumorile musculo-invazive se tratează prin cistectomie radicală','Schistosomiaza și sonda Foley cronică se asociază adenocarcinomului, nu carcinomului scuamos','Rata de recidivă la 5 ani rămâne sub 10%, fără a necesita supraveghere endoscopică'],'ABC',659,'Carcinomul de vezică — Epidemiologie și tratament',
+ 'Potrivirea histologiei (TCC versus scuamos pe inflamație cronică) și a BCG în Tis, față de recidiva de până la 50% la 5 ani.',
+ ['Raportul 2,5×, riscul de 5× al fumătorilor și ponderea 85–90% TCC sunt explicite.','TURBT pentru Ta/T1 și eficacitatea BCG în Tis sunt descrise.','Cistectomia radicală este recomandarea pentru musculo-invazie.','Inflamația cronică (Foley, Schistosoma) se asociază carcinomului scuamos; adenocarcinomul ține de uraca patentă și de dom.','Rata de recidivă la 5 ani poate ajunge până la 50%; controalele periodice sunt necesare.']],
+ 8,'Schimbă histologia inflamației cronice (scuamos ↔ adenocarcinom) și minimizează recidiva de 50%.',['85-90%','Bacillus Calmette-Guerin']),
+
+q(33,['Un bărbat raportează un sunet de fisurare în timpul actului sexual, urmat de durere și tumefacție peniană. Sunt adevărate:',
+ ['Fractura presupune ruptura tunicii albuginee a corpului cavernos și se explorează chirurgical imediat','Uretrografia retrogradă este indicată când mecanismul sugerează leziune uretrală','Cateterizarea uretrală prelungită peste 72 de ore este preferată drenajului suprapubian','Avulsia circumferențială păstrează tegumentul distal, pentru a nu întrerupe limfaticile','Amputația completă nu poate fi reimplantată, chiar dacă piesa a fost ținută în ser rece'],'AB',660,'Traumatisme peniene — Fractură și evaluare',
+ 'Recunoașterea fracturii de albuginee ca indicație de explorare imediată și a uretrografiei când uretra este suspectă.',
+ ['Ruptura albugineei în timpul actului sexual și explorarea cu sutura tunicii sunt explicite.','Uretrografia retrogradă este cerută la suspiciunea de leziune uretrală.','Peste 72 de ore se recomandă cateterul suprapubian, pentru a evita ischemia uretrală.','Avulsia circumferențială impune excizia tegumentului distal până la șanțul coronar și grefă despicată.','Reimplantarea microchirurgicală este posibilă dacă penisul a fost conservat în soluție salină rece.']],
+ 8,'Păstrează Foley-ul peste 72 de ore și tegumentul distal avulsionat, două decizii pe care textul le interzice.',['tunicii albuginee','fascia lui Buck']),
+
+q(34,['Carcinomul scuamos al penisului:',
+ ['Este extrem de rar la bărbații circumciși la naștere și apare cel mai frecvent în decada a șasea','Penectomia parțială cu marjă de cel puțin 2 cm este folosită pentru leziuni distale de 2–5 cm','Adenopatiile inghinale se reevaluează la 4–6 săptămâni de antibiotice, înainte de a decide limfadenectomia','Limfadenectomia profilactică este indicată de indată ce adenopatiile dispar sub antibiotice','Radioterapia oferă un control oncologic superior exciziei pentru leziunile mici'],'ABC',661,'Neoplasmul penian',
+ 'Aplicarea marjei de 2 cm și a ferestrei de 4–6 săptămâni pentru adenopatii infecțioase, față de falsa superioritate a iradierii.',
+ ['Raritatea după circumcizia neonatală și decada a șasea sunt explicite.','Marja ≥2 cm pentru leziuni distale de 2–5 cm este citată.','Reevaluarea la 4–6 săptămâni sub antibiotice precede decizia de limfadenectomie.','Dacă adenopatiile dispar, limfadenectomia profilactică nu este necesară.','Ratele de control oncologic ale radioterapiei sunt mai reduse decât după excizie.']],
+ 8,'Operează ganglionii care au dispărut sub antibiotice și declară radioterapia superioară chirurgiei.',['2 cm','Penectomia parţială'],[662]),
+
+q(35,['Priapismul:',
+ ['Spre deosebire de erecția fiziologică, sunt turgescenți doar corpii cavernoși; corpul spongios și glandul sunt flasce','Forma cu flux redus se asociază anemiei falciforme, leucemiei, metastazelor și injecțiilor vasoactive','În priapismul cu flux crescut, PO2 în sângele cavernos este scăzută, similar ischemiei','Procedura Winter creează o comunicare între corpii cavernoși și corpul spongios, prin gland','Priapismul cu flux crescut se tratează prin arteriografia arterei rușinoase și embolizarea fistulei'],'ABDE',662,'Priapismul — Flux redus versus flux crescut',
+ 'Disocierea glandului flasc de cavernoși și a PO2 (scăzută în flux redus, crescută în flux înalt) de embolizarea rușinoasei.',
+ ['Turgescența limitată la cavernoși, cu spongios și gland flasce, este explicită.','Lista etiologică a formei cu flux redus este enumerată.','În fluxul scăzut PO2 este scăzută; în fluxul înalt PO2 este crescută.','Șuntul Winter prin ac de biopsie din gland către cavernoși este descris.','Arteriografia rușinoasei cu embolizare selectivă este tratamentul formei cu flux înalt.']],
+ 9,'Inversează gazele cavernosului între flux redus și flux înalt, discriminatorul de la care atârnă embolizarea.',['corpilor cavernoşi','fenilefrină']),
+
+q(36,['Imposibilitatea de a readuce prepuțul peste gland, cu inel constrictiv proximal de șanțul coronal, definește:',
+ ['Parafimoza, urgență urologică; se încearcă mai întâi compresia manuală a glandului','Fimoza simplă, tratată doar prin circumcizie electivă la rece','Boala Peyronie în faza imatură, cu indicație chirurgicală imediată','Priapismul cu flux crescut, care cere embolizare','Balanita xerotică obliterantă, tratată doar topic cu steroizi'],'A',663,'Parafimoza',
+ 'Recunoașterea inelului prepuțial ireductibil ca urgență, distinctă de fimoza neredusă și de Peyronie-ul imatur în care chirurgia este contraindicată.',
+ ['Definiția, caracterul de urgență și compresia manuală urmată la nevoie de incizie sunt explicite.','Fimoza este contractura care nu permite retracția; nu este inelul ireductibil de după retragere forțată.','În faza imatură a bolii Peyronie chirurgia este contraindicată.','Priapismul nu se definește prin inel prepuțial.','BXO este o leziune atrofică a glandului/prepuțului, nu urgența de inel constrictiv.']],
+ 8,'Oferă circumcizia electivă a fimozei și chirurgia imediată a Peyronie-ului imatur în locul urgenței de reducere.',['parafimoză','urgenţă urologică']),
+
+q(37,['Leziunile uretrale traumatice:',
+ ['Ruptura parțială arată extravazare de contrast și pasaj spre vezică; ruptura completă arată extravazare fără umplerea vezicii','Rupturile posterioare cu fractură de bazin se drenează suprapubian cel puțin 3 luni, apoi se reconstruiesc','Carcinomul uretral masculin este, în circa 80% din cazuri, scuamos și apare de obicei după 60 de ani','Cancerul uretral este mai frecvent la bărbați decât la femei, ca restul malignităților genito-urinare','Ruptura incompletă anterioară se tratează identic cu cea posterioară, cu reconstrucție abia la 3 luni'],'ABC',665,'Uretra — Traumatism și carcinom',
+ 'Citirea uretrografiei (parțial versus complet) și a ferestrei de 3 luni pentru uretra posterioară, față de excepția feminină a carcinomului uretral.',
+ ['Cele două tipare uretrografice sunt descrise explicit.','Drenajul suprapubian minim 3 luni urmat de reconstrucție perineală este protocolul rupturii posterioare.','Ponderea de 80% scuamo-celular și vârsta peste 60 de ani sunt citate.','Cancerul uretral este singura malignitate genito-urinară mai frecventă la femei.','Rupturile mici incomplete anterioare, cu extravazare limitată de fascia lui Buck, se tratează inițial prin cateter sau cistostomie.']],
+ 8,'Anulează excepția epidemiologică feminină și aplică fereastra de 3 luni a uretrei posterioare și leziunilor anterioare minore.',['3 luni','80%'],[664]),
+
+q(38,['Valvele de uretră posterioară:',
+ ['Tipul I constă în pliuri mucoase de la extremitatea distală a verumontanum, care se întâlnesc anterior în uretra membranoasă','Diagnosticul antenatal asociază distensie vezicală, hidronefroză și oligohidramnios; inițial se plasează un tub 8 French sau o cistostomie','Hipospadiasul plasează meatul pe fața dorsală a penisului, distal de gland','Rezecția endoscopică a valvelor se face înaintea oricărei stabilizări hidroelectrolitice','Hipospadiasul se corectează de principiu după pubertate, pentru a folosi un prepuț matur'],'AB',666,'Valve uretrale posterioare',
+ 'Recunoașterea originii de la verumontanum și a drenajului inițial 8 French, față de hipospadiasul ventral corectat înainte de 1 an.',
+ ['Anatomia tipului I de la verumontanum este explicită.','Triada antenatală și calibrul 8 French (sau cistostomia) sunt descrise.','Meatul hipospadic este pe fața ventrală, proximal de vârful glandului.','Mai întâi se stabilizează statusul hidroelectrolitic și acidobazic, apoi se rezecă valvele.','Intervenția pentru hipospadias se recomandă înaintea vârstei de 1 an.']],
+ 8,'Mută meatul hipospadic pe fața dorsală și inversează momentul rezecției față de stabilizarea metabolică.',['8 French','verumontanum prostatic'],[667,668]),
+
+q(39,['Tratamentul de elecție al uretritei gonococice este:',
+ ['Ceftriaxonă 250 mg intramuscular, doză unică','Azitromicină 1 g oral, ca monoterapie a gonococului','Doxiciclină 100 mg oral, de două ori pe zi, 7 zile, ca singur agent pentru Neisseria','Ceftriaxonă 250 mg oral, 7 zile','Penicilină G benzatină, doză unică intramusculară'],'A',668,'Uretritele gonococice',
+ 'Fixarea dozei unice intramusculare de ceftriaxonă 250 mg, distinctă de azitromicina (non-gonococică) și de doxiciclină.',
+ ['Textul numește ceftriaxona 250 mg IM în doză unică tratamentul de elecție.','Azitromicina 1 g este tratamentul de elecție al uretritei non-gonococice, nu monoterapia gonococului.','Doxiciclina 7 zile vizează C. trachomatis și Ureaplasma, nu este agentul de elecție al gonoreei.','Calea este intramusculară, nu orală, și doza este unică.','Penicilina benzatină nu este schema citată pentru N. gonorrhoeae.']],
+ 8,'Substituie doza IM unică cu schemele orale ale uretritei non-gonococice din același paragraf.',['Ceftriaxona 250 mg','Neisseria gonorrhoeae']),
+
+q(40,['Criptorhidismul și patența procesului vaginal:',
+ ['Incidența testiculului nepalpabil scade de la 3,4% la nou-născutul la termen la 0,7% la sugarul de 9 luni','Testiculul intraabdominal are un risc de malignizare de 48 de ori mai mare; orhidopexia nu reduce riscul, dar permite depistarea precoce','Procesul vaginal patent are incidența 4,4% la termen și până la 13% la prematuri; hidrocelul persistent după 1 an se tratează chirurgical','CT și ecografia sunt investigațiile de primă intenție pentru localizarea testiculului nepalpabil','Orhidopexia anulează riscul de malignizare al testiculului necoborât'],'ABC',669,'Criptorhidismul și procesul vaginal',
+ 'Aplicarea cifrelor de incidență și a riscului 48×, cu limita orhidopexiei (nu reduce riscul) și a imagisticii inutile.',
+ ['Scăderea 3,4% → 0,7% este explicită.','Riscul 48 de ori și faptul că orhidopexia nu reduce riscul, dar permite supravegherea, sunt citate.','Cifrele 4,4% și 13% și pragul de 1 an pentru hidrocel sunt descrise.','CT și ecografia nu sunt utile, în general, în localizarea testiculului nepalpabil; laparoscopia este adesea utilă.','Textul precizează că orhidopexia nu reduce riscul de malignizare.']],
+ 8,'Declară orhidopexia protectoare oncologic și promovează CT-ul pentru un testicul pe care textul îl caută laparoscopic.',['3,4%','48 de ori']),
+
+q(41,['Un adolescent cu scrot acut, dureros, fără piurie. Enunțurile corecte sunt:',
+ ['La nou-născut torsiunea este extravaginală; la adolescent este, de obicei, intravaginală (deformarea „clopotului")','Pierderea reflexului cremasteric se observă la 95% dintre pacienții cu torsiune testiculară','Torsiunea peste 6 ore poate produce leziuni ireversibile; se practică și orhidopexie contralaterală','Fasceita necrozantă (gangrena Fournier) cere debridare largă și antibiotice cu spectru larg','Orhiepididimita este diagnosticul cel mai probabil la adolescentul fără piurie și înlocuiește explorarea'],'ABCD',670,'Torsiunea de cordon și infecțiile scrotale',
+ 'Separarea torsiunii extra- versus intravaginale, a pragului de 6 ore și a Fournier-ului de falsa orhiepididimită adolescentină fără piurie.',
+ ['Cele două forme după vârstă sunt descrise, inclusiv analogia limbii de clopot.','Pragul de 95% pentru absența reflexului cremasteric este explicit.','Fereastra >6 ore și orhidopexia contralaterală sunt indicate.','Debridarea largă și antibioticele cu spectru larg sunt esențiale în Fournier.','Orhiepididimita este extrem de rară la adolescenți și, în absența piuriei, nu trebuie luată în considerare.']],
+ 9,'Oferă orhiepididimita ca prim diagnostic la adolescentul fără piurie, exact ce textul interzice, lângă pragul ischemic de 6 ore.',['6 ore','orhidopexia contralaterală'],[669]),
+
+q(42,['Masa testiculară la un bărbat de 25 de ani:',
+ ['Cancerul testicular este cea mai frecventă malignitate solidă între 18 și 35 de ani','Incizia scrotală este contraindicată; abordul este inghinal, cu clamparea cordonului înaintea mobilizării','Transiluminarea masei confirmă malignitatea și scutește de explorare inghinală','AFP nu crește în seminomul pur; timpul de înjumătățire este de 5–7 zile','β-hCG poate fi crescută în 30–40% dintre seminoame'],'ABDE',670,'Cancerul testicular — Diagnostic și markeri',
+ 'Recunoașterea abordului inghinal și a profilului de markeri (AFP absentă în seminomul pur, β-hCG prezentă în 30–40%).',
+ ['Intervalul 18–35 de ani este explicit.','Contraindicația inciziei scrotale și pensarea atraumatică a cordonului sunt descrise.','Transiluminarea sugerează lichid (hidrocel, spermatocel), nu malignitate.','AFP, produsă de sacul vitelin, nu crește într-un seminom pur; timpul de înjumătățire este 5–7 zile.','β-hCG poate fi crescută în 30–40% dintre seminoame.']],
+ 9,'Folosește transiluminarea ca „dovadă” de cancer și uită că AFP nu aparține seminomului pur.',['18-35 de ani','incizia scrotală'],[671]),
+];
