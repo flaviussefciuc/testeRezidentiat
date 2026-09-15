@@ -3,20 +3,20 @@
   "minimumEditorialDifficulty": 8,
   "baselineActive": 200,
   "targetAcceptedActive": 800,
-  "netAdditionalActive": -29,
-  "additionalAccepted": 171,
-  "remainingToTarget": 629,
+  "netAdditionalActive": 181,
+  "additionalAccepted": 381,
+  "remainingToTarget": 419,
   "publicationStatus": "Expansion incomplete: only source-reviewed new versions with editorial difficulty 8–10 may be published",
   "live": {
-    "count": 171,
+    "count": 381,
     "correctAnswerCounts": {
-      "1": 34,
-      "2": 37,
-      "3": 80,
-      "4": 20
+      "1": 85,
+      "2": 77,
+      "3": 162,
+      "4": 57
     },
     "missingMultipleAnswerFormats": [],
-    "fourCorrectShareOfMultiple": 14.6,
+    "fourCorrectShareOfMultiple": 19.3,
     "idsUnique": true,
     "structuralErrors": [],
     "exactQuestionDuplicates": [],
@@ -25,7 +25,7 @@
     "topicCoverage": [
       {
         "id": "sepsis",
-        "count": 0
+        "count": 10
       },
       {
         "id": "electroliti",
@@ -53,7 +53,7 @@
       },
       {
         "id": "neurologie",
-        "count": 0
+        "count": 14
       },
       {
         "id": "pneumologie",
@@ -65,7 +65,7 @@
       },
       {
         "id": "cardiologie",
-        "count": 0
+        "count": 18
       },
       {
         "id": "hta",
@@ -73,19 +73,19 @@
       },
       {
         "id": "gastro",
-        "count": 0
+        "count": 12
       },
       {
         "id": "hepatologie",
-        "count": 0
+        "count": 12
       },
       {
         "id": "nefrologie",
-        "count": 0
+        "count": 14
       },
       {
         "id": "hiv",
-        "count": 0
+        "count": 10
       },
       {
         "id": "perioperator",
@@ -101,39 +101,39 @@
       },
       {
         "id": "trauma",
-        "count": 0
+        "count": 10
       },
       {
         "id": "arsuri",
-        "count": 0
+        "count": 8
       },
       {
         "id": "hernii",
-        "count": 0
+        "count": 8
       },
       {
         "id": "esofag",
-        "count": 0
+        "count": 6
       },
       {
         "id": "stomac",
-        "count": 0
+        "count": 6
       },
       {
         "id": "intestin",
-        "count": 0
+        "count": 6
       },
       {
         "id": "colon",
-        "count": 0
+        "count": 8
       },
       {
         "id": "biliar",
-        "count": 0
+        "count": 6
       },
       {
         "id": "pancreas",
-        "count": 0
+        "count": 6
       },
       {
         "id": "ficat-splina",
@@ -141,7 +141,7 @@
       },
       {
         "id": "vascular",
-        "count": 0
+        "count": 6
       },
       {
         "id": "orl",
@@ -161,19 +161,19 @@
       },
       {
         "id": "pediatrie",
-        "count": 0
+        "count": 14
       },
       {
         "id": "gineco",
-        "count": 0
+        "count": 12
       },
       {
         "id": "obstetrica",
-        "count": 0
+        "count": 14
       },
       {
         "id": "psihiatrie",
-        "count": 0
+        "count": 10
       },
       {
         "id": "epidemio",
@@ -182,15 +182,15 @@
     ]
   },
   "draft": {
-    "count": 353,
+    "count": 563,
     "correctAnswerCounts": {
-      "1": 81,
-      "2": 59,
-      "3": 126,
-      "4": 87
+      "1": 132,
+      "2": 99,
+      "3": 208,
+      "4": 124
     },
     "missingMultipleAnswerFormats": [],
-    "fourCorrectShareOfMultiple": 32,
+    "fourCorrectShareOfMultiple": 28.8,
     "idsUnique": true,
     "structuralErrors": [],
     "exactQuestionDuplicates": [],
@@ -220,7 +220,7 @@
     "topicCoverage": [
       {
         "id": "sepsis",
-        "count": 20
+        "count": 30
       },
       {
         "id": "electroliti",
@@ -248,7 +248,7 @@
       },
       {
         "id": "neurologie",
-        "count": 20
+        "count": 34
       },
       {
         "id": "pneumologie",
@@ -260,7 +260,7 @@
       },
       {
         "id": "cardiologie",
-        "count": 0
+        "count": 18
       },
       {
         "id": "hta",
@@ -268,19 +268,19 @@
       },
       {
         "id": "gastro",
-        "count": 0
+        "count": 12
       },
       {
         "id": "hepatologie",
-        "count": 0
+        "count": 12
       },
       {
         "id": "nefrologie",
-        "count": 0
+        "count": 14
       },
       {
         "id": "hiv",
-        "count": 0
+        "count": 10
       },
       {
         "id": "perioperator",
@@ -296,39 +296,39 @@
       },
       {
         "id": "trauma",
-        "count": 0
+        "count": 10
       },
       {
         "id": "arsuri",
-        "count": 0
+        "count": 8
       },
       {
         "id": "hernii",
-        "count": 0
+        "count": 8
       },
       {
         "id": "esofag",
-        "count": 0
+        "count": 6
       },
       {
         "id": "stomac",
-        "count": 0
+        "count": 6
       },
       {
         "id": "intestin",
-        "count": 0
+        "count": 6
       },
       {
         "id": "colon",
-        "count": 0
+        "count": 8
       },
       {
         "id": "biliar",
-        "count": 0
+        "count": 6
       },
       {
         "id": "pancreas",
-        "count": 0
+        "count": 6
       },
       {
         "id": "ficat-splina",
@@ -336,7 +336,7 @@
       },
       {
         "id": "vascular",
-        "count": 0
+        "count": 6
       },
       {
         "id": "orl",
@@ -356,19 +356,19 @@
       },
       {
         "id": "pediatrie",
-        "count": 0
+        "count": 14
       },
       {
         "id": "gineco",
-        "count": 0
+        "count": 12
       },
       {
         "id": "obstetrica",
-        "count": 0
+        "count": 14
       },
       {
         "id": "psihiatrie",
-        "count": 0
+        "count": 10
       },
       {
         "id": "epidemio",
@@ -377,15 +377,15 @@
     ]
   },
   "accepted": {
-    "count": 171,
+    "count": 381,
     "correctAnswerCounts": {
-      "1": 34,
-      "2": 37,
-      "3": 80,
-      "4": 20
+      "1": 85,
+      "2": 77,
+      "3": 162,
+      "4": 57
     },
     "missingMultipleAnswerFormats": [],
-    "fourCorrectShareOfMultiple": 14.6,
+    "fourCorrectShareOfMultiple": 19.3,
     "idsUnique": true,
     "structuralErrors": [],
     "exactQuestionDuplicates": [],
@@ -394,7 +394,7 @@
     "topicCoverage": [
       {
         "id": "sepsis",
-        "count": 0
+        "count": 10
       },
       {
         "id": "electroliti",
@@ -422,7 +422,7 @@
       },
       {
         "id": "neurologie",
-        "count": 0
+        "count": 14
       },
       {
         "id": "pneumologie",
@@ -434,7 +434,7 @@
       },
       {
         "id": "cardiologie",
-        "count": 0
+        "count": 18
       },
       {
         "id": "hta",
@@ -442,19 +442,19 @@
       },
       {
         "id": "gastro",
-        "count": 0
+        "count": 12
       },
       {
         "id": "hepatologie",
-        "count": 0
+        "count": 12
       },
       {
         "id": "nefrologie",
-        "count": 0
+        "count": 14
       },
       {
         "id": "hiv",
-        "count": 0
+        "count": 10
       },
       {
         "id": "perioperator",
@@ -470,39 +470,39 @@
       },
       {
         "id": "trauma",
-        "count": 0
+        "count": 10
       },
       {
         "id": "arsuri",
-        "count": 0
+        "count": 8
       },
       {
         "id": "hernii",
-        "count": 0
+        "count": 8
       },
       {
         "id": "esofag",
-        "count": 0
+        "count": 6
       },
       {
         "id": "stomac",
-        "count": 0
+        "count": 6
       },
       {
         "id": "intestin",
-        "count": 0
+        "count": 6
       },
       {
         "id": "colon",
-        "count": 0
+        "count": 8
       },
       {
         "id": "biliar",
-        "count": 0
+        "count": 6
       },
       {
         "id": "pancreas",
-        "count": 0
+        "count": 6
       },
       {
         "id": "ficat-splina",
@@ -510,7 +510,7 @@
       },
       {
         "id": "vascular",
-        "count": 0
+        "count": 6
       },
       {
         "id": "orl",
@@ -530,19 +530,19 @@
       },
       {
         "id": "pediatrie",
-        "count": 0
+        "count": 14
       },
       {
         "id": "gineco",
-        "count": 0
+        "count": 12
       },
       {
         "id": "obstetrica",
-        "count": 0
+        "count": 14
       },
       {
         "id": "psihiatrie",
-        "count": 0
+        "count": 10
       },
       {
         "id": "epidemio",
