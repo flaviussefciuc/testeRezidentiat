@@ -1,0 +1,217 @@
+import {advancedQuestion} from './advanced-author';
+import type {SourceRow} from './source-author';
+const pdfOffset=(p:number)=>p<=848?p-696:p-715;
+const q=(n:number,row:SourceRow,score:number,reason:string,expressions:string[],related:number[]=[])=>
+ advancedQuestion('neurologie',26,pdfOffset,`neurologie-adv-${String(n).padStart(3,'0')}`,row,[score,reason],expressions,undefined,related);
+
+export const NEUROLOGIE_C=[
+q(50,['Conform Cadranului 26.28, deschiderea ochilor la stimul dureros cotează:',
+ ['1 punct','3 puncte','4 puncte','2 puncte','6 puncte'],'D',832,'Coma — Scala de comă Glasgow: deschiderea ochilor',
+ 'Reținerea punctajului E=2 pentru deschiderea la durere, distinct de verbal (3), spontan (4) și de maximul motor (6).',
+ ['1 punct corespunde absenței răspunsului, nu deschiderii la durere.','3 puncte este deschiderea la stimul verbal.','4 puncte este deschiderea spontană.','Cadranul atribuie 2 puncte deschiderii ochilor la stimul dureros.','6 puncte este maximul răspunsului motor, nu al deschiderii ochilor.']],
+ 8,'Toate valorile apar pe scala GCS; candidatul trebuie să lege 2 de componenta oculară la durere.',['Scala de coma Glasgow','stimul dureros']),
+
+q(51,['Următoarele afirmații despre obținerea istoricului la pacientul inconștient sunt adevărate:',
+ ['Istoricul limitat al bolii este principala problemă în evaluarea unui pacient comatos','Se cer circumstanțele evenimentului de la paramedici, poliție sau martori','Se completează istoricul cu rude, prieteni sau medicul de familie','Medicamentele sau documentele de identificare de pe pacient se ignoră, neavând valoare','Temperatura se măsoară doar axilar, nu și rectal în hipotermie'],'ABC',833,'Pacientul inconștient — Istoric și examen general',
+ 'Recunoașterea surselor de istoric (martori, familie, obiecte de pe pacient) și a măsurării temperaturii.',
+ ['Textul identifică istoricul limitat drept principala problemă.','Paramedicii, poliția sau martorii sunt sursele cerute explicit.','Rudele, prietenii sau medicul de familie completează istoricul.','Textul cere verificarea medicamentelor/drogurilor și a documentelor de identificare.','Textul cere măsurarea temperaturii, intrarectal dacă pacientul este hipoterm.']],
+ 8,'Distractorii anulează două gesturi practice (buzunarul pacientului și temperatura rectală) descrise pe aceeași pagină.',['istoric limitat','intrarectal']),
+
+q(52,['Examenul fundului de ochi la pacientul comatos urmărește:',
+ ['Edemul papilar','Hemoragiile retiniene subhialoide, care apar în hemoragia subarahnoidiană','Doar presiunea intraoculară, fără valoare pentru HSA','Drusenii maculari, ca semn de moarte cerebrală','Reflexul cornean, care se citește oftalmoscopic'],'AB',834,'Coma — Examenul fundului de ochi',
+ 'Corelarea edemului papilar și a hemoragiilor subhialoide cu HSA la pacientul inconștient.',
+ ['Textul cere evaluarea prezenței edemului papilar.','Hemoragiile retiniene subhialoide sunt legate explicit de HSA.','Textul nu menționează presiunea intraoculară ca obiectiv al fundului de ochi.','Drusenii nu sunt semnul de moarte cerebrală citat.','Reflexul cornean este un reflex de trunchi, nu un semn oftalmoscopic.']],
+ 8,'Atribuie fundului de ochi semne din alte registre (moarte cerebrală, reflex cornean) în locul perechii papilă–subhialoide.',['edemului papilar','subhialoide']),
+
+q(53,['Semnele de lateralizare utile în comă includ:',
+ ['Răspunsul asimetric la amenințările vizuale la un pacient stuporos, care sugerează hemianopsie','Curgerea salivei sau lacrimilor pe partea deficitară și respirația pe colțul gurii, prin obrazul paralizat','Asimetria tonusului (hipotonie sau spasticitate unilaterală), care poate fi singurul semn de hemipareză','Asimetria posturilor de decerebrare sau decorticare și răspunsul asimetric la durere','Reflexul cutanat plantar în flexie bilaterală, ca regulă în coma profundă'],'ABCD',835,'Coma — Semne de lateralizare',
+ 'Recunoașterea indiciilor de hemisferă (amenințare vizuală, față, tonus, posturi) versus plantarul în extensie din coma profundă.',
+ ['Textul leagă amenințarea vizuală asimetrică de hemianopsie.','Asimetria facială cu salivă/lacrimi și colțul gurii este explicită.','Hipotonie sau spasticitate unilaterală pot fi singurele semne de hemipareză.','Posturile și răspunsul dureros asimetric sunt enumerate.','În coma profundă plantarul este de obicei în extensie bilateral, nu în flexie.']],
+ 8,'Inversează direcția plantarului din coma profundă, singurul detaliu care trădează o listă altfel corectă.',['ameninţările vizuale','extensie bilateral']),
+
+q(54,['În coma profundă, reflexul cutanat plantar este de obicei:',
+ ['în flexie bilaterală','în extensie bilaterală','abolit pe ambele părți','prezent doar pe hemicorpul plegic, în flexie','în flexie pe partea leziunii și în extensie contralateral'],'B',835,'Coma — Reflexul cutanat plantar',
+ 'Reținerea extensiei plantare bilaterale ca regulă în coma profundă, distinct de asimetria utilă ca semn de lateralizare.',
+ ['Flexia bilaterală nu este regula citată în coma profundă.','Textul precizează extensie bilaterală de obicei în coma profundă.','Abolirea nu este descrierea din paragraf.','Textul nu limitează plantarul la hemicorpul plegic.','Direcțiile incrucișate nu sunt schema citată.']],
+ 8,'Celelalte direcții (flexie, abolire, asimetrie) sunt variante plauzibile de reflex piramidal, dar textul fixează extensia bilaterală.',['coma profundă','cutanat plantar']),
+
+q(55,['Investigațiile complementare la pacientul comatos, când cauza nu este evidentă, includ:',
+ ['EEG pentru coma metabolică, encefalită și status epileptic nonconvulsiv','Puncție lombară doar după evaluare detaliată, contraindicată la suspiciunea de leziune cu efect de masă','CT înaintea puncției, esențial pentru a exclude masa','PL imediată, înaintea oricărei imagistici, în toate comele','EEG fără valoare în statusul nonconvulsiv, fiind rezervat doar morții cerebrale'],'ABC',836,'Coma — EEG, puncție lombară și CT',
+ 'Ierarhizarea CT înaintea PL (contraindicată la masă) și a indicațiilor EEG (metabolic, encefalită, status nonconvulsiv).',
+ ['Textul atribuie EEG-ului aceste trei indicații.','PL după evaluare detaliată și contraindicația de masă sunt explicite.','CT are rol esențial înaintea puncției.','Textul interzice PL la suspiciunea de masă; CT-ul precede.','Statusul nonconvulsiv este o indicație explicită de EEG.']],
+ 8,'Inversează secvența CT–PL și mută EEG-ul de la statusul nonconvulsiv la moartea cerebrală.',['statusu­lui epileptic nonconvulsiv','efect de masă']),
+
+q(56,['Starea de minimă conștiență (SMC), comparativ cu starea vegetativă:',
+ ['Descrie conștiență limitată, adesea fluctuantă, cu răspunsuri reproductibile dar inconstante','Exemplele includ mișcări la o anumită voce, râs sau plâns la stimuli emoționali, vocalizare la întrebări','Un pacient nu poate trece din SV în SMC','Răspunsurile sunt absente, ca în SV, dar EEG-ul este plat','Hrănirea se face oral de la început, gastrostoma fiind contraindicată'],'AB',836,'Prognosticul în comă — Starea de minimă conștiență',
+ 'Diferențierea SMC (răspunsuri inconstante dar reproductibile) de SV și recunoașterea tranziției SV→SMC.',
+ ['Definiția cu conștiență limitată fluctuantă este explicită.','Cele trei exemple de răspuns sunt citate.','Textul precizează că un pacient poate ieși din SV pentru a intra în SMC.','Răspunsurile absente definesc SV, nu SMC.','Gastrostoma este menționată la SV; textul nu contraindică nutriția asistată în SMC.']],
+ 8,'Neagă tranziția SV→SMC pe care textul o afirmă și confundă absența răspunsului din SV cu SMC.',['minimă de conştienţă','reproductibile, dar inconstante']),
+
+q(57,['Epidemiologia globală a accidentului vascular cerebral, conform textului:',
+ ['Este a treia cea mai frecventă cauză de mortalitate în țările cu venituri mari','Reprezintă 11% din totalul deceselor în Marea Britanie','Este prima cauză de dizabilitate a adultului la nivel mondial','Aproximativ două treimi din AVC-urile mondiale aparțin țărilor cu venituri mici și mijlocii','Incidența este mai mică la asiatici și afro-americani decât la caucazieni'],'ABCD',836,'Accidentul vascular cerebral — Epidemiologie',
+ 'Reținerea rangului 3 de mortalitate (11% în UK), a primului loc în dizabilitate și a ponderii de două treimi în țările cu venituri mici/mijlocii.',
+ ['Rangul trei în țările cu venituri mari este explicit.','11% din decesele din Marea Britanie este cifra citată.','Prima cauză de dizabilitate a adultului este menționată.','Ponderea de două treimi în țările cu venituri mici și mijlocii este explicită.','Textul indică incidență mai mare la asiatici și afro-americani decât la caucazieni.']],
+ 8,'Inversează gradientul etnic (asiatici/afro-americani versus caucazieni) pe fondul a trei ranguri epidemiologice reale.',['11% din totalul deceselor','două treimi'],[837]),
+
+q(58,['Infarctele simultane în teritorii vasculare diferite sunt foarte sugestive pentru:',
+ ['Boală microvasculară cu lipohialinoză','O sursă proximală de embolie la nivelul inimii sau aortei','Stenoză izolată de ACM, fără embolie','CADASIL limitat la substanța albă profundă','Ocluzie progresivă cu circulație colaterală adecvată'],'B',837,'AVC ischemic — Sursă embolică proximală',
+ 'Recunoașterea infarctelor simultane multi-teritoriale ca marcă a emboliei din inimă sau aortă.',
+ ['Lipohialinoza produce lacune, nu infarcte simultane în teritorii diferite.','Textul leagă infarctele simultane de o sursă proximală cardiacă sau aortică.','Stenoza izolată de ACM explică un teritoriu, nu mai multe simultane.','CADASIL este o arterioloapatie subcorticală, nu sursa proximală citată.','Ocluzia progresivă cu colaterale adecvate poate chiar evita infarctul.']],
+ 8,'Distractorii sunt mecanisme reale de AVC ischemic de pe aceeași pagină, atribuite greșit pattern-ului multi-teritorial.',['teritorii vasculare','inimii sau aortei']),
+
+q(59,['Boala microvasculară cerebrală se caracterizează prin:',
+ ['Afectarea ramurilor arteriale mici, penetrante, care irigă parenchimul profund','Vasculopatie obstructivă de tip lipohialinoză, consecință a hipertensiunii','Infarcte mici denumite lacune și/sau acumulare progresivă de modificări ischemice în substanța albă profundă','Tromboză murală într-un segment ventricular akinetic, ca mecanism principal','Embolie paradoxală prin FOP la manevra Valsalva, ca leziune tipică'],'ABC',837,'AVC ischemic — Boala microvasculară și lipohialinoza',
+ 'Corelarea hipertensiunii cu lipohialinoza ramurilor penetrante, lacunele și leucoaraiosis, distinct de embolia cardiacă.',
+ ['Textul identifică ramurile penetrante ale parenchimului profund.','Lipohialinoza ca consecință a hipertensiunii este explicită.','Lacunele și modificările ischemice difuze din substanța albă profundă sunt citate.','Trombul mural ventricular este mecanism cardioembolic, nu microvascular.','FOP/Valsalva este embolie paradoxală, nu boală de arteriolă penetrantă.']],
+ 8,'Mută două mecanisme cardioembolice (akinetic, FOP) pe seama bolii de arteriolă penetrantă.',['lipohialinoză','substanţa albă profundă']),
+
+q(60,['AIT-urile prin scăderea presiunii de perfuzie cerebrală:',
+ ['Pot fi produse de aritmii, hipotensiune ortostatică sau scăderea fluxului prin artere aterosclerotice','Infarctul este de obicei evitat datorită autoreglării cerebrale','Sunt indistinctibile de lacunele hipertensive, care au același mecanism de hipoperfuzie globală','Tumorile și hematoamele subdurale nu produc episoade de tip AIT','Policitemia nu este recunoscută ca sursă de evenimente de tip AIT'],'AB',838,'Atacul ischemic tranzitor — Hipoperfuzie și diagnostice diferențiale',
+ 'Recunoașterea AIT de hipoperfuzie (aritmie, ortostatism, stenoză) și a protecției prin autoreglare, versus mimic-urile tumoră/subdural.',
+ ['Cele trei cauze de scădere a presiunii de perfuzie sunt enumerate.','Autoreglarea cerebrală evită de obicei infarctul.','Lacunele țin de boala microvasculară, nu de hipoperfuzia globală descrisă aici.','Textul precizează că, rar, tumorile sau hematoamele subdurale cauzează episoade indiferențiabile de AIT tromboembolice.','Policitemia este menționată ca o altă cauză.']],
+ 8,'Neagă mimic-urile tumoră/subdural și policitemia, ambele citate pe aceeași pagină ca diagnostice diferențiale.',['autoreglării cerebrale','hipotensiune ortostatică']),
+
+q(61,['CADASIL și anatomia circulației cerebrale:',
+ ['CADASIL este o cauză ereditară rară de AVC ischemic și demență','Poligonul Willis este irigat de cele două carotide interne (circulația anterioară) și de circulația posterioară vertebro-bazilară','Cunoașterea regiunilor de aterom și stenoză ajută la înțelegerea sindroamelor de AVC','Hemipareza și afazia sunt manifestările cele mai frecvente ale AIT','CADASIL este o vasculită inflamatorie a aortei, fără risc de demență'],'ABCD',839,'CADASIL și anatomia vasculară cerebrală',
+ 'Recunoașterea CADASIL ca arterioloapatie ereditară cu AVC și demență și a alimentării poligonului Willis, plus predominanța hemiparezei/afaziei în AIT.',
+ ['Definiția CADASIL (AVC ischemic și demență) este explicită.','Cele două carotide interne și sistemul vertebro-bazilar alimentează poligonul Willis.','Textul leagă anatomia ateromului de sindroamele clinice.','Hemipareza și afazia sunt cele mai frecvente manifestări de AIT.','CADASIL nu este o vasculită de aortă; textul o plasează ca arterioloapatie ereditară cu demență.']],
+ 8,'Transformă CADASIL într-o vasculită de aortă, opusul unei arterioloapatii ereditare cu demență.',['CADASIL','Poligonul Willis']),
+
+q(62,['Angiopatia amiloidă cerebrală poate provoca evenimente asemănătoare cu AIT. Identificarea imagistică este necesară deoarece:',
+ ['Tromboliza se indică imediat, ca în AVC-ul ischemic din fereastra de 4,5 ore','Tratamentul antiplachetar este contraindicat','Endarterectomia carotidiană se indică de urgență','Anticoagularea orală vindecă depozitele de amiloid','Scorul ABCD2 înlocuiește imagistica'],'B',840,'AIT — Diagnostic diferențial: angiopatia amiloidă',
+ 'Recunoașterea interdicției antiplachetarului în evenimentele AIT-like din angiopatia amiloidă cerebrală.',
+ ['Tromboliza nu este indicația citată pentru aceste evenimente.','Textul precizează că tratamentul antiplachetar este contraindicat.','Endarterectomia vizează stenoza carotidiană simptomatică, nu amiloidul.','Textul nu atribuie anticoagulantelor un efect asupra amiloidului.','ABCD2 nu mai ghidează triajul și nu înlocuiește imagistica.']],
+ 8,'Toate opțiunile sunt gesturi reale din capitolul de AIT/AVC, dar doar interdicția antiplachetarului este legată de amiloid.',['Angiopatia amiloida','antiplachetar este contraindicat']),
+
+q(63,['În interiorul ariei ischemice, hipoxia declanșează afectare neuronală prin:',
+ ['Scăderea nivelului de ATP','Eliberarea de glutamat, care deschide canalele de calciu','Eliberarea de radicali liberi, cu leziuni inflamatorii, necroză și apoptoză','Creșterea ATP-ului, care stabilizează membrana și previne apoptoza','Blocarea glutamatului, care închide canalele de calciu și oprește cascada'],'ABC',840,'Infarctul cerebral — Cascada ischemică',
+ 'Reținerea secvenței ATP↓ → glutamat → canale de Ca2+ → radicali liberi → inflamație, necroză și apoptoză.',
+ ['Scăderea ATP este primul pas citat.','Glutamatul care deschide canalele de calciu este explicit.','Radicalii liberi, inflamația, necroza și apoptoza încheie cascada.','Textul descrie scăderea, nu creșterea ATP.','Direcția cascadei este eliberare de glutamat și deschidere de canale, nu blocare.']],
+ 8,'Inversează doi pași (ATP și glutamat) dintr-o cascadă altfel memorabilă ca listă de mediatori.',['eliberează glutamat','moarte celulară prin apoptoză']),
+
+q(64,['Infarctele cerebeloase, izolat sau în sindroame de trunchi:',
+ ['Edemul cerebelos poate comprima trunchiul, cu comă, sau produce hidrocefalie obstructivă','Chirurgia decompresivă poate fi necesară','Edemul cerebelos este benign și nu comprimă trunchiul','Hidrocefalia obstructivă nu apare în infarctul cerebelos','Decompresiunea este rezervată infarctelor lacunare sub 1,5 cm³'],'AB',841,'Infarctul cerebral — Infarctul cerebelos și decompresiunea',
+ 'Recunoașterea edemului cerebelos ca urgență (comprimare de trunchi, hidrocefalie) cu indicație de decompresiune.',
+ ['Compresia de trunchi, coma și hidrocefalia obstructivă sunt explicite.','Textul menționează chirurgia decompresivă.','Textul afirmă opusul: edemul poate comprima trunchiul.','Hidrocefalia obstructivă este o consecință citată.','Pragul 1,5 cm³ definește lacunele, nu indicația de decompresiune cerebeloasă.']],
+ 8,'Neagă herniația/hidrocefalia pe care textul le leagă de edemul cerebelos și mută decompresiunea pe seama lacunelor.',['Edemul cerebelos','hidrocefalie obstructivă']),
+
+q(65,['Infarctele în teritoriul arterei cerebrale posterioare:',
+ ['Sunt în mod tipic embolice','Hemianopsia homonimă rezultă din leziuni unilaterale, iar cecitatea corticală (sindromul Anton) din leziuni bilaterale','Afectarea talamusului și a lobului temporal postero-medial cauzează confuzie și tulburări de memorie','Sunt trombotice în marea majoritate, embolia fiind rară','Sindromul Anton este un infarct lacunar de capsulă internă, fără deficit vizual'],'ABC',841,'Infarctul cerebral — Teritoriul ACP, Anton și memorie',
+ 'Corelarea ACP embolice cu hemianopsia unilaterală, cecitatea corticală bilaterală și tulburările talamo-temporale de memorie.',
+ ['Textul precizează caracterul tipic embolic.','Hemianopsia unilaterală versus Anton bilateral sunt explicite.','Confuzia și tulburările de memorie prin talamus/temporal postero-medial sunt citate.','Textul le califică drept tipic embolice, nu trombotice.','Anton este cecitate corticală prin leziuni bilaterale ACP, nu lacună capsulară.']],
+ 8,'Inversează mecanismul (trombotic versus embolic) și mută sindromul Anton pe capsula internă.',['Sindromul Anton','Infarctele de ACP']),
+
+q(66,['Boala Binswanger desemnează:',
+ ['Hipoatenuarea difuză a substanței albe cerebrale, asociată cu demență, AIT-uri și episoade de AVC la hipertensivi','Un infarct lacunar unic sub 1,5 cm³, fără demență','Sindromul Balint din infarctele de graniță occipito-parietale','Tromboza de arteră bazilară cu sindrom locked-in','Cecitatea corticală prin leziuni bilaterale ACP'],'A',841,'Demența vasculară — Boala Binswanger',
+ 'Diferențierea leucoencefalopatiei hipertensive Binswanger de lacune, Balint, top de bazilară și Anton, toate de pe aceeași pagină.',
+ ['Textul definește Binswanger prin hipoatenuare difuză a substanței albe cu demență, AIT și AVC la hipertensivi.','Lacunele unice sub 1,5 cm³ sunt o entitate distinctă.','Balint este tabloul vizual al infarctelor de graniță.','Locked-in ține de tromboza bazilară/pontin ventral.','Anton este cecitatea corticală ACP bilaterală.']],
+ 8,'Toate distractoarele sunt sindroame reale de pe aceeași pagină, atribuite greșit eponimului Binswanger.',['Boala Binswanger','hipoatenuarea difuză']),
+
+q(67,['Investigațiile adiționale în AVC, în cazuri selecționate (tineri sau fără cauză):',
+ ['Monitorizare electrocardiografică prelungită, de exemplu loop recorder implantabil, pentru FA paroxistică în AVC criptogen','Evaluare genetică pentru CADASIL și boli mitocondriale','Alfa-galactozidază pentru boala Fabry','Screening pentru droguri, de exemplu cocaină','Angiografia prin cateterism ca primă intenție la toți vârstnicii cu ateroscleroză evidentă'],'ABCD',842,'Investigațiile în AVC — Cazuri selecționate',
+ 'Recunoașterea pachetului de investigații pentru tineri/criptogeni (loop recorder, CADASIL, Fabry, cocaină), fără a generaliza cateterismul.',
+ ['Loop recorder-ul pentru FA paroxistică în criptogen este explicit.','Evaluarea genetică CADASIL/mitocondrială este în cadran.','Alfa-galactozidaza pentru Fabry este citată.','Screening-ul pentru cocaină este menționat.','Cateterismul nu este prima intenție la vârstnicul cu ateroscleroză evidentă; cadranul îl rezervă cazurilor selecționate.']],
+ 8,'Extinde cateterismul la vârstnicul aterosclerotic, deși lista (Fabry, CADASIL, cocaină, loop recorder) vizează tinerii/criptogenii.',['loop recorder implantabil','boala Fabry']),
+
+q(68,['Acronimul FAST, folosit pentru recunoașterea AVC de către paramedici și public, include:',
+ ['Fața — asimetria facială apărută brusc','Amorțeală/slăbiciunea — slăbiciunea sau amorțeala bruscă a unuia sau a două membre','Sacadarea vorbirii — dizartrie sau afazie','Timp — durata de la debut, tratamentul fiind cu atât mai bun cu cât este mai rapid','Tromboliza imediată la domiciliu, înaintea oricărei imagistici'],'ABCD',843,'AVC acut — Recunoașterea FAST',
+ 'Decodarea celor patru litere FAST (față, deficit motor, vorbire, timp) fără a muta tromboliza înaintea imagisticii.',
+ ['Asimetria facială bruscă este F-ul din acronim.','Deficitul motor/senzitiv brusc al membrelor este A-ul.','Dizartria/afazia este S-ul.','Timpul de la debut este T-ul, cu mesajul tratamentului rapid.','Schema de tratament cere imagistică înaintea trombolizei, nu tromboliză la domiciliu.']],
+ 8,'Adaugă tromboliza pre-spital unui acronim de recunoaștere, contrar schemei care cere CT înaintea lizei.',['asimetria fetei','Sacadarea vorbirii']),
+
+q(69,['Trombectomia și anticoagulantele orale directe după AVC ischemic:',
+ ['Trombectomia se efectuează de rutină, în cazuri selectate, pentru ocluzia proximală a circulației anterioare','DOAC-urile au spectru terapeutic mai larg, rată mai mică de hemoragii, fără monitorizare și cu mai puține interacțiuni decât warfarina','Trombectomia înlocuiește imagistica, nemaifiind necesar CT-ul','DOAC-urile au fereastră terapeutică mai îngustă decât warfarina și cer INR săptămânal','Trombectomia este abandonată, fiind înlocuită complet de rt-PA în primele 3 ore'],'AB',844,'AVC ischemic — Trombectomie și DOAC',
+ 'Poziționarea trombectomiei pentru ocluzia proximală anterioară și a avantajelor DOAC față de warfarină.',
+ ['Textul plasează trombectomia de rutină în cazuri selectate de ocluzie proximală anterioară.','Cele patru avantaje ale DOAC față de warfarină sunt enumerate.','Imagistica rămâne necesară înaintea reperfuziei.','Avantajele citate sunt opusul ferestrei înguste și al monitorizării INR.','Textul descrie trombectomia ca practicată de rutină în centre, nu ca abandonată.']],
+ 8,'Inversează profilul DOAC (monitorizare, fereastră) și declară trombectomia abandonată, deși textul o plasează de rutină în centre.',['trombectomia','anticoagulantele orale directe']),
+
+q(70,['Pentru disecția arterială cervicală, riscul de recurență embolică de la locul de origine este considerat destul de înalt pentru a justifica:',
+ ['Anticoagularea imediată sau terapia antiplachetară, deși dovezile din studii controlate sunt insuficiente','Așteptarea 2 săptămâni, ca în fibrilația atrială după infarct extins','Doar staționarea, fără antitrombotic, până la vindecarea lumenului fals','rt-PA la peste 12 ore de la debut, chiar cu hemoragie pe CT','Endarterectomia de urgență a ocluziei complete'],'A',844,'Disecția arterială — Anticoagulare sau antiplachetar',
+ 'Recunoașterea justificării anticoagulării sau antiagregării imediate în disecție, cu nuanța evidenței RCT insuficiente.',
+ ['Textul justifică anticoagularea imediată sau antiplachetarul, recunoscând insuficiența studiilor controlate.','Fereastra de 2 săptămâni vizează FA după infarct, nu disecția.','Textul nu recomandă abținerea de la antitrombotic.','rt-PA după 12 ore cu hemoragie pe CT contrazice criteriile de reperfuzie.','Ocluzia carotidiană se tratează conservativ, nu prin endarterectomie de urgență.']],
+ 8,'Importă fereastra de 2 săptămâni a FA și endarterectomia ocluziei, ambele din vecinătate, peste disecție.',['disecţia arterială','studiilor control']),
+
+q(71,['Reabilitarea după AVC, conform textului, include:',
+ ['Confirmarea rezultatelor Doppler printr-o a doua tehnică, precum angio-CT, înaintea endarterectomiei','Riscul de AVC major similar pentru chirurgie și stentare, dar AVC minor non-dizabilitant mai frecvent la stentare','Baclofen și/sau toxină botulinică, uneori utile în spasticitatea severă','Fluoroscopie video-asistată în timpul încercării de a înghiți, când deglutiția este nesigură','Screening populațional al stenozelor carotidiene asimptomatice, ca măsură de reabilitare'],'ABCD',845,'AVC — Stent carotidian, spasticitate și deglutiție',
+ 'Integrarea confirmării Doppler prin angio-CT, a surplusului de AVC minor la stentare și a mijloacelor de spasticitate/deglutiție.',
+ ['Angio-CT-ul de confirmare a Doppler-ului este explicit.','Egalitatea AVC major și excesul de AVC minor la stentare sunt citate.','Baclofenul și toxina botulinică sunt menționate pentru spasticitatea severă.','Videofluoroscopia deglutiției este descrisă.','Textul afirmă că screening-ul asimptomaticilor nu este folositor.']],
+ 8,'Introduce screening-ul carotidian ca „reabilitare”, deși textul îl declară nefolositor, pe fondul unor detalii reale de stent și spasticitate.',['toxina botulinică','Fluoroscopia video']),
+
+q(72,['După un AVC, dintre supraviețuitorii inițiali:',
+ ['Aproximativ 30-40% rămân în viață la 3 ani','O treime își recuperează mobilitatea independentă','Aproape o treime prezintă dizabilitate ce necesită îngrijire instituțională','Platoul de recuperare este atins după 3 săptămâni, ulterior progresul fiind nul','Depresia este rară, respectul de sine fiind de obicei păstrat'],'ABC',845,'AVC — Prognostic funcțional la 3 ani',
+ 'Cuantificarea supraviețuirii 30-40% la 3 ani și a împărțirii treimilor (mobilitate versus instituționalizare), distinct de platoul de 12 luni.',
+ ['30-40% în viață la 3 ani este explicit.','O treime cu mobilitate independentă este citat.','Aproape o treime cu îngrijire instituțională este menționat.','Platoul este după 12 luni, nu 3 săptămâni.','Textul leagă pierderea respectului de sine de frecvența depresiei.']],
+ 8,'Mută platoul de la 12 luni la 3 săptămâni și neagă depresia pe care textul o descrie ca frecventă.',['30-40% rămân în viaţă','îngrijire instituţională']),
+
+q(73,['La examinarea clinică, deosebirea dintre hemoragia intracerebrală și infarctul ischemic:',
+ ['Nu există nicio metodă de încredere pentru a distinge hemoragia de infarct','Hemoragia este mai frecvent asociată cu cefalee severă și comă','Pacienții anticoagulați oral trebuie considerați ca având hemoragie, dacă nu se dovedește contrariul','Oftalmoscopia cu hemoragii subhialoide exclude hemoragia intracerebrală','Un deficit pur motor lacunar certifică infarctul, fără a mai fi nevoie de CT'],'ABC',846,'Hemoragia intracerebrală — Clinic versus infarct',
+ 'Acceptarea indistincției clinice sigure și a indiciilor (cefalee, comă, anticoagulare) care totuși orientează spre hemoragie până la CT.',
+ ['Textul afirmă absența unei metode clinice de încredere.','Asocierea cu cefalee severă și comă este explicită.','Regula anticoagulantului oral este citată.','Hemoragiile subhialoide țin de HSA, nu exclud ICH.','Niciun sindrom lacunar nu scutește de imagistică pentru a exclude hemoragia.']],
+ 8,'Oferă două „certificate” clinice (subhialoide, lacună) pe care textul le infirmă prin absența unei metode de încredere.',['nicio metodă de încredere','cefalee severă şi coma']),
+
+q(74,['O malformație arteriovenoasă cerebrală se diagnostichează de obicei după:',
+ ['Un screening populațional cu angio-RM la toți hipertensivii','O hemoragie intracerebrală spontană sau o criză epileptică, de obicei cu debut focal','O oftalmoplegie dureroasă de nerv VI, patognomonică','Un infarct lacunar pur motor','O stenoză carotidiană de 50-69%'],'B',847,'Malformațiile arteriovenoase — Prezentare clinică',
+ 'Reținerea celor două porți de diagnostic ale MAV (hemoragie spontană sau criză focală), distinct de alte prezentări din capitol.',
+ ['Nu există screening populațional citat pentru MAV.','Textul plasează diagnosticul după HIC spontană sau criză cu debut focal.','Pareza dureroasă de nerv III, nu VI, ține de anevrismul comunicantei posterioare.','Lacunele țin de boala microvasculară.','Stenoza 50-69% este un prag carotidian, nu o prezentare de MAV.']],
+ 8,'Permutează prezentările reale din capitol (pareză III, lacună, stenoză) peste poarta diagnostică a MAV.',['criză epileptica','hemoragie intracerebrală spontană']),
+
+q(75,['Tratamentul malformațiilor arteriovenoase cerebrale poate include:',
+ ['Ablație','Tratament endovascular, de obicei prin injectarea unui material asemănător unui lipici','Microchirurgie','Radioterapie stereotaxică','Un consens clar că riscul intervenției este considerabil mai mic decât abordarea conservatoare, deci toți pacienții se operează'],'ABCD',847,'Malformațiile arteriovenoase — Modalități terapeutice',
+ 'Enumerarea celor patru modalități (ablație, glue endovascular, microchirurgie, radiochirurgie) și a absenței consensului versus conservator.',
+ ['Ablația este menționată.','Injectarea de material tip lipici este explicită.','Microchirurgia este o opțiune citată.','Radioterapia stereotaxică este enumerată.','Textul afirmă absența unui consens clar că riscul intervenției este considerabil mai mic decât abordarea conservatoare.']],
+ 8,'Transformă absența consensului într-o indicație operatorie universală, pe fondul unei liste reale de patru tehnici.',['material asemanator unui lipici','radioterapie stereotaxică']),
+
+q(76,['Imagistica hematoamelor subdurale și extradurale:',
+ ['CT este cea mai utilizată investigație, datorită disponibilității imediate','RMN este mai sensibil pentru detectarea hematoamelor mici; secvențele T1 arată hipersemnal prin methemoglobină','Radiografia de craniu înlocuiește CT-ul la vârstnici','Secvențele T1 sunt hipointense prin hemosiderină acută, fără methemoglobină','HED se supraveghează conservativ, intervenția fiind rezervată HSD cronic'],'AB',848,'Hemoragia subdurală și extradurală — Imagistică',
+ 'Contrastarea CT-ului ca primă investigație cu sensibilitatea RMN pentru hematoame mici și hipersemnalul T1 al methemoglobinei.',
+ ['Disponibilitatea imediată a CT este motivul citat.','Sensibilitatea RMN pentru hematoame mici și hipersemnalul T1 prin methemoglobină sunt explicite.','Radiografia nu înlocuiește CT-ul.','Textul descrie hipersemnal T1 prin methemoglobină, nu hipointensitate.','HED necesită intervenție neurochirurgicală de urgență.']],
+ 8,'Inversează semnalul T1 (hipo versus hiper) și indicația de urgență a HED, două detalii de pe aceeași pagină.',['methemoglobinei','disponibilităţii imediate']),
+
+q(77,['Cauzele meningitei, conform Cadranului 26.55 și textului:',
+ ['Organismele listate reprezintă 70% din meningita bacteriană acută în afara perioadei neonatale','Haemophilus influenzae b a fost eliminat ca și cauză în multe țări prin imunizare','Malaria se prezintă adesea cu simptome cerebrale și febră','Cauzele non-infecțioase includ meningita malignă, medicamentele intratecale și sângele după HSA','Poliomielita rămâne cauza virală dominantă în Marea Britanie, nedeclarată eradicată'],'ABCD',869,'Meningita — Etiologie infecțioasă și non-infecțioasă',
+ 'Reținerea ponderii de 70%, a dispariției Hib prin vaccin, a malariei febrile cerebrale și a cauzelor non-infecțioase, versus eradicarea poliomielitei.',
+ ['Nota de subsol a cadranului indică 70%.','Eliminarea Hib prin imunizare este explicită.','Prezentarea malariei cu simptome cerebrale și febră este citată.','Cele trei cauze non-infecțioase sunt enumerate în text.','Cadranul notează poliomielita declarată eradicată la nivel mondial.']],
+ 8,'Reintroduce poliomielita ca dominantă, deși cadranul o marchează eradicată, pe fondul procentului 70% și al Hib.',['Haemophilus influenzae b','70% din meningita']),
+
+q(78,['Un lucrător în canale sau ape poluate, cu meningism, mialgii, conjunctivită și icter, ridică cel mai probabil suspiciunea de:',
+ ['Infecție meningococică, prin erupția peteșială ca unică cheie diagnostică','Leptospiroză','Infecție cu enterovirusuri, prin durerea pleuritică','Malarie, prin călătoria internațională','Meningită pneumococică post-fractură de craniu'],'B',869,'Meningita — Indicii ocupaționale: leptospiroza',
+ 'Corelarea ocupației (canale, ape, înot) cu triada mialgii–conjunctivită–icter a leptospirozei.',
+ ['Erupția peteșială orientează spre meningococ, nu spre această ocupație.','Cadranul 26.56 leagă lucrătorul în canale/ape/înot de leptospiroză, cu mialgii, conjunctivită și icter.','Enterovirusurile sunt legate de rash sau durere pleuritică.','Malaria este legată de călătoriile internaționale.','Pneumococul este legat de fractura de craniu sau de afectarea urechii.']],
+ 8,'Toate distractoarele sunt indicii reale din același cadran (peteșii, enterovirus, malarie, fractură), atribuite ocupației greșite.',['Leptospiroză','conjunctivită, icter']),
+
+q(79,['Sindromul meningian se caracterizează prin:',
+ ['Triada dureri de cap, rigiditatea cefei și febră','Fotofobie și vărsături, adesea prezente','Pacient irascibil, care preferă să stea nemișcat; rigiditatea gâtului și semnul Kernig apar de obicei în câteva ore','Conștiența abolită de la debut în orice meningită necomplicată','Absența febrei ca regulă în forma bacteriană acută'],'ABC',870,'Meningita — Sindromul meningian',
+ 'Reținerea triadei, a fotofobiei/vărsăturilor și a Kernig-ului, cu conștiența păstrată în forma necomplicată.',
+ ['Triada este explicită.','Fotofobia și vărsăturile sunt adesea prezente.','Irascibilitatea, nemișcarea, rigiditatea și Kernig în câteva ore sunt descrise.','În meningita necomplicată conștiența rămâne intactă.','Forma bacteriană acută are febră ridicată și frisoane.']],
+ 8,'Inversează două trăsături cardinale (conștiență, febră) ale formei acute, păstrând o triadă altfel corectă.',['rigiditatea cefei','semnul Kernig']),
+
+q(80,['Meningita bacteriană recurentă se asociază cu:',
+ ['Acces în spațiul subarahnoidian prin fractură de craniu (recentă sau veche) sau spina bifida ocultă','Pneumococul ca organism infectant obișnuit','Enterovirusurile ECHO ca primă cauză de recurență prin defect osos','Hib ca agent dominant al recurențelor, vaccinul fiind ineficient','Neisseria ca unică etiologie, independent de poarta anatomică'],'AB',870,'Meningita bacteriană — Recurență prin defect anatomic',
+ 'Legarea recurenței de poarta anatomică (fractură, spina bifida) și de pneumococ, nu de viruși sau Hib.',
+ ['Cele două porți (fractură, spina bifida ocultă) sunt explicite.','Pneumococul este organismul obișnuit citat.','Enterovirusurile nu sunt cauza recurenței prin defect osos.','Hib a fost eliminat prin imunizare, nu este agentul recurențelor.','Meningococul nu este legat de această poartă anatomică în paragraf.']],
+ 8,'Înlocuiește pneumococul cu enterovirus sau Hib, deși textul leagă recurența de defectul osos și de pneumococ.',['spina bifida oculta','organismul infectant este de obicei pneumococ']),
+
+q(81,['Examenul LCR în meningita acută, dincolo de biochimie, include:',
+ ['Frotiu: diplococi intracelulari Gram-pozitivi pentru pneumococ și coci Gram-negativi pentru meningococ','Colorație Ziehl-Neelsen pentru bacili acido-alcoolo-rezistenți, deși organismele TBC sunt rareori numeroase','Cerneală indiană pentru fungi','Serologie pentru sifilis, care trebuie efectuată','Înlocuirea culturilor cu un singur test antigenic, PCR-ul fiind inutil pentru viruși'],'ABCD',871,'Meningita — Microbiologia LCR',
+ 'Atribuirea corectă a colorațiilor (Gram, ZN, cerneală indiană) și a serologiei luetice, cu păstrarea PCR-ului pentru meningococ și viruși.',
+ ['Corespondența Gram-pozitiv intracelular–pneumococ și Gram-negativ–meningococ este explicită.','ZN și raritatea bacililor TBC sunt citate.','Cerneala indiană pentru fungi este menționată.','Serologia sifilisului trebuie efectuată.','Textul subliniază PCR-ul pentru meningococi și viruși și testele antigenice, nu le declară inutile.']],
+ 8,'Declară PCR-ul inutil, deși textul îl plasează printre tehnicile foarte importante, pe fondul a trei colorații reale.',['Cerneala indiana','Ziehl-Neelsen']),
+
+q(82,['Chimioprofilaxia contactilor apropiați de infecție meningococică se prescrie cu:',
+ ['Rifampicină sau ciprofloxacină','Etambutol, pentru penetrarea meningeală','Vancomicină orală, ca în C. difficile','Isoniazidă 9 luni, ca în TBM','Aciclovir, ca în encefalita HSV'],'A',871,'Meningita meningococică — Profilaxia contactilor',
+ 'Reținerea perechii rifampicină/ciprofloxacină pentru contactii apropiați, distinct de antimicobacteriene, vancomicină sau aciclovir.',
+ ['Textul indică rifampicină sau ciprofloxacină tuturor contactilor apropiați.','Etambutolul trebuie evitat în TBM, nu este profilaxia meningococului.','Vancomicina orală nu este schema citată.','Isoniazida 9 luni este a meningitei TBC, nu a contactilor meningococici.','Aciclovirul ține de encefalita herpetică.']],
+ 8,'Permutează patru antimicrobiene reale din aceleași pagini (TBM, HSV, rezistență pneumococică) peste profilaxia de contact.',['rifampicina sau ciprofloxacina','contactilor apropiati']),
+
+q(83,['Imunizarea relevantă pentru prevenirea meningitei, conform textului:',
+ ['Vaccinul MenC este administrat în Marea Britanie, iar MenB este disponibil pentru sugari și pentru focare','Vaccinul combinat A și C este uneori folosit înaintea călătoriilor în regiuni endemice (Africa, Asia), iar quadrivalentul ACWY pentru Hajj și Umrah','Vaccinul pneumococic conjugat la sugari și cel polizaharidic la vârstnici, imunodeficiență sau splenectomie au redus incidența meningitei pneumococice','Vaccinul Hib este evitat în copilărie, fiind ineficient împotriva meningitei','Profilaxia vaccinală înlocuiește raportarea către direcția de sănătate publică'],'ABC',871,'Meningita — Vaccinuri meningococic, pneumococic și Hib',
+ 'Poziționarea MenC/MenB, ACWY pentru Hajj și a vaccinurilor pneumococice, cu Hib-ul de rutină în copilărie.',
+ ['MenC în UK și MenB la sugari/focare sunt explicite.','A+C pentru Africa/Asia și ACWY pentru Hajj/Umrah sunt citate.','Cele două vaccinuri pneumococice și reducerea incidenței sunt descrise.','Hib se administrează de rutină în copilărie, eliminând o cauză frecventă.','Infecția meningococică trebuie raportată direcției de sănătate publică.']],
+ 8,'Inversează statutul Hib (evitat versus rutină) și anulează raportarea de sănătate publică.',['Vaccinul MenC','Hajj şi Umrah']),
+
+q(84,['Encefalita limbică paraneoplazică (PLE):',
+ ['Este observată în special în cancerul pulmonar cu celule mici și în tumorile testiculare','Anticorpii, inclusiv anti-Hu și anti-Ma2, pot fi detectați în 60% din cazuri; RMN arată de obicei semnal crescut în hipocamp','Precede diagnosticul de cancer în cele mai multe cazuri, impunând căutarea promptă a tumorii','Răspunde mai bine la imunoterapie decât encefalitele anti-NMDA sau anti-VGKC','Diskineziile orofaciale sunt semnul ei caracteristic, iar teratoamele ovariene sunt regula'],'ABC',872,'Encefalita autoimună — PLE anti-Hu/anti-Ma2',
+ 'Corelarea PLE cu SCLC/tumori testiculare, anticorpii Hu/Ma2 în 60%, hipocampul RMN și precedența față de cancer, cu răspuns mai slab la imunoterapie.',
+ ['Asocierea SCLC și tumori testiculare este explicită.','Anti-Hu/Ma2, 60% și semnalul hipocampic sunt citate.','Precedența față de cancer și căutarea tumorii sunt descrise.','Textul precizează că PLE răspunde mai puțin la tratament.','Diskineziile orofaciale și teratoamele țin de encefalita anti-NMDA, nu de PLE.']],
+ 8,'Mută răspunsul bun și semnele anti-NMDA (diskinezii, teratoma) pe seama PLE, pe care textul o descrie ca mai puțin responsivă.',['anti-Hu şi anti-Ma2','60% din cazuri']),
+];
