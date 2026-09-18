@@ -106,7 +106,7 @@ q(82,['După artroplastia majoră de șold sau genunchi, capitolul notează că 
  ['Fraza despre descoperirea reducerii riscului după artroplastie este explicită.','DOAC-urile în doză mică sunt o opțiune, nu unica, și nu infirmă aspirina.','Aspirina este citată după artroplastie, nu ca substitut universal la medicali.','Chirurgia majoră, nu aspirina, este factorul 10-50×.','INR >5 privește managementul warfarinei, nu profilaxia cu aspirină.']],
  8,'Distractorii neagă efectul anti-TEV al aspirinei post-artroplastie sau îl mută pe treapta de risc 10-50× a chirurgiei.',['aspirina','înlocuire (artroplastie)']),
 
-q(83,['DOAC în doză mică după înlocuirea majoră de șold și genunchi se caracterizează prin:',
+q(83,['DOAC în doză mică după înlocuirea majoră de șold și genunchi:',
  ['Au fost aprobate pentru prevenirea TEV în acest context','Administrarea este continuată timp de 2-5 săptămâni după operație','Se dau în doză terapeutică de EP masivă, 6 luni, fără legătură cu artroplastia','Durata este o singură doză intraoperatorie, identică UFH de profilaxie','Sunt contraindicate după genunchi, fiind rezervate TVP distale netratate'],'AB',1013,'Profilaxia farmacologică — DOAC post-artroplastie',
  'Reținerea aprobării și a ferestrei 2-5 săptămâni post-șold/genunchi, distinct de doza terapeutică.',
  ['Aprobarea pentru prevenție după artroplastie este explicită.','Fereastra 2-5 săptămâni este durata citată.','Doza este mică (profilactică), nu terapeutică de EP masivă.','UFH de profilaxie cere 2-3 injecții/zi; DOAC-ul nu este o doză unică intraoperatorie.','Indicația include genunchiul, nu îl exclude.']],

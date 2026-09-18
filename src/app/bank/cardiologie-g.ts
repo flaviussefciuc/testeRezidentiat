@@ -71,7 +71,7 @@ q(269,['Semne auscultatorii și ECG în regurgitarea mitrală, dincolo de suflul
  ['Clicul mezosistolic și suflul telesistolic sunt descrise.','S3 și uruitura scurtă sunt explicite.','Suma >35 mm este din text.','S3 este accentuat prin umplere rapidă, nu absent.','Cașexia poate fi prezentă în stadiile avansate.']],
  8,'Neagă S3-ul de umplere rapidă — semnul VS dilatat — și anulează cașexia stadiilor avansate.',['>35 mm','Clic mezosistolic']),
 
-q(270,['Stenoza tricuspidiană se caracterizează prin:',
+q(270,['Stenoza tricuspidiană:',
  ['Simptome: dureri abdominale (hepatomegalie), distensie (ascită) și edeme periferice','În sinus: undă jugulară „a” proeminentă, palpată și la ficat; suflu mezodiastolic la marginea sternală stângă inferioară, accentuat în inspir','Pe ECG, dilatarea AD: unde P înalte (>3 mm) în DII','Este, de regulă, o leziune izolată, fără afectare mitrală/aortică reumatismală','Suflul se ameliorează în inspir, identic suflurilor stângi'],'ABC',1101,'Stenoza tricuspidiană — Unda a, P >3 mm',
  'Potrivirea congestiei drepte cu unda a hepatică, suflul inspirator și P >3 mm în DII.',
  ['Simptomele de congestie sistemică sunt explicite.','Unda a, palparea hepatică și suflul inspirator sunt descrise.','P >3 mm în DII marchează dilatarea AD.','Textul: pacienții au de obicei și valve stângi reumatismale; ST este rar izolată.','Suflul se accentuează în inspir, nu se ameliorează.']],

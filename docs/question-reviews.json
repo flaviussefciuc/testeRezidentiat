@@ -209858,7 +209858,7 @@
  },
  {
   "questionId": "cardiologie-adv-270",
-  "questionFingerprint": "28b48fc294cc798ead14df812f7a3eff572957bad6dea692bf29a8b00d3c59cf",
+  "questionFingerprint": "3f0b6d8183a1f2e2d3cd2255f1a8c03e7469e1bf6d8fe62a02b3d2a11b9cf755",
   "status": "source-checked",
   "learningObjective": "Potrivirea congestiei drepte cu unda a hepatică, suflul inspirator și P >3 mm în DII.",
   "reference": {
@@ -209919,7 +209919,7 @@
    "kind": "ai",
    "name": "Codex"
   },
-  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "reviewedAt": "2026-09-18T13:01:01.440Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -226206,7 +226206,7 @@
  },
  {
   "questionId": "neurologie-adv-095",
-  "questionFingerprint": "fce7ccda0856fe482c0262c05fb9715ff6f8a1f2b1e9748293b00386605ec3d2",
+  "questionFingerprint": "a8f7dca88096cd798bbec2371cd656c08c396b5c274f06551dc95270814e41bd",
   "status": "source-checked",
   "learningObjective": "Cuantificarea 1 din 5 sub 40 de ani, sediul extracranian, Horner/nervi inferiori și fereastra de zile până la embolie.",
   "reference": {
@@ -226267,7 +226267,7 @@
    "kind": "ai",
    "name": "Codex"
   },
-  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "reviewedAt": "2026-09-18T13:01:01.440Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -231302,7 +231302,7 @@
  },
  {
   "questionId": "gastro-adv-084",
-  "questionFingerprint": "8c1fc39e09130b57382ba52fe7005f107c49e0496c3a129ccf4107d7bd3c73b0",
+  "questionFingerprint": "d1169acbc6b2d984c1f907455cccb998eaf46ac92a095fdc8b9f39675a0753a8",
   "status": "source-checked",
   "learningObjective": "Trio-ul adeziune BabA–Lewis, virulență CagA/VacA–IL-8 și riscul genetic IL-1β.",
   "reference": {
@@ -231313,7 +231313,7 @@
     1172
    ],
    "pdfPages": [
-    296
+    297
    ],
    "section": "H. pylori — BabA/Lewis, CagA/VacA/IL-8, IL-1β"
   },
@@ -231363,7 +231363,7 @@
    "kind": "ai",
    "name": "Codex"
   },
-  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "reviewedAt": "2026-09-18T13:01:01.440Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -231687,7 +231687,7 @@
  },
  {
   "questionId": "gastro-adv-089",
-  "questionFingerprint": "15cc200d51c09eed1845e4534e25e28160ef50a594b26f55f63ddc33c65626df",
+  "questionFingerprint": "ccc0e7adaced2b53b3110b40e8ddea3033a0ab9bea93a6285d2f1d72623973db",
   "status": "source-checked",
   "learningObjective": "Mecanismul dumping-ului, ponderea 1% a diareei post-vagotomie și triada carențelor.",
   "reference": {
@@ -231730,7 +231730,7 @@
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "1%, nu 50%; B12 scade prin lipsa de factor intrinsc.",
+    "rationale": "1%, nu 50%; B12 scade prin lipsa de factor intrinsec.",
     "evidenceLocation": "Kumar & Clark, p. 1176, Chirurgia gastrică — Dumping, diaree 1%, carențe B12/fier/folat"
    }
   ],
@@ -231748,7 +231748,7 @@
    "kind": "ai",
    "name": "Codex"
   },
-  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "reviewedAt": "2026-09-18T13:01:01.440Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -231757,7 +231757,7 @@
   },
   "textbookExpressions": [
    "aproximativ 1%",
-   "factor intrinsc"
+   "factor intrinsec"
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
@@ -235938,7 +235938,7 @@
  },
  {
   "questionId": "tromboembolism-adv-083",
-  "questionFingerprint": "61ecab5465d4f1f64f22a848c1f94b24b6419152e6ecd23c34a06a2599437ef7",
+  "questionFingerprint": "05f632e25e6f2b483002c55548e6a4312c90c426e5fefc3d34f23fad17020345",
   "status": "source-checked",
   "learningObjective": "Reținerea aprobării și a ferestrei 2-5 săptămâni post-șold/genunchi, distinct de doza terapeutică.",
   "reference": {
@@ -235999,7 +235999,7 @@
    "kind": "ai",
    "name": "Codex"
   },
-  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "reviewedAt": "2026-09-18T13:01:01.440Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -237172,7 +237172,7 @@
  },
  {
   "questionId": "sepsis-adv-064",
-  "questionFingerprint": "58a3255b3f4bfc9b39b997b80fdd1837d4a42c423a921a9d2e63913116412b86",
+  "questionFingerprint": "64ff7109af1fd6d9b4dbff7e089a202e1c31bcb29f6961be118fc50299772858",
   "status": "source-checked",
   "learningObjective": "Reținerea țintei PBP, a bactericidiei time-dependent și a ingineriei de nucleu/lanț.",
   "reference": {
@@ -237233,7 +237233,7 @@
    "kind": "ai",
    "name": "Codex"
   },
-  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "reviewedAt": "2026-09-18T13:01:01.440Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -237480,7 +237480,7 @@
  },
  {
   "questionId": "sepsis-adv-068",
-  "questionFingerprint": "6c823ad037289b57f983d3676c96685532f58d95549d9809eea05923b669f73f",
+  "questionFingerprint": "b5fd4ac9b356fcadf2c73db237261c8d0ec5a59d1bf5558abada7d2b6fc5d3ec",
   "status": "source-checked",
   "learningObjective": "Contrastarea t½ lung și a penetrării tisulare cu limita serică care o face problematică în bacteriemie.",
   "reference": {
@@ -237541,7 +237541,7 @@
    "kind": "ai",
    "name": "Codex"
   },
-  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "reviewedAt": "2026-09-18T13:01:01.440Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -237790,7 +237790,7 @@
  },
  {
   "questionId": "sepsis-adv-072",
-  "questionFingerprint": "a3afb3c07a4328f4dfba91ddf4ab4448a40096cf68266a8bbc33768ac79c57d6",
+  "questionFingerprint": "50442d7c80607d012f88117890bd929cd2f1def3d639c8cf051e9f63373f1378",
   "status": "source-checked",
   "learningObjective": "Reținerea indicațiilor (EI streptococică, fasceită/gangrenă gazoasă, de regulă în combinație) și a interdicției empirice fără sensibilitate.",
   "reference": {
@@ -237851,7 +237851,7 @@
    "kind": "ai",
    "name": "Codex"
   },
-  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "reviewedAt": "2026-09-18T13:01:01.440Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -238175,7 +238175,7 @@
  },
  {
   "questionId": "electroliti-adv-072",
-  "questionFingerprint": "020f4108fabed7c98e6a68b32371bf61aee9dd3d1d607628a7ef8e8afcd86bbd",
+  "questionFingerprint": "f5e0baa937ea62ed26417e844f244d959c7a47dce953742c7145091e4f0cd603",
   "status": "source-checked",
   "learningObjective": "Contrastarea soartei coloidului (vascular, oncotic) de practica actuală care preferă salina 0,9%.",
   "reference": {
@@ -238236,7 +238236,7 @@
    "kind": "ai",
    "name": "Codex"
   },
-  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "reviewedAt": "2026-09-18T13:01:01.440Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -239255,7 +239255,7 @@
  },
  {
   "questionId": "electroliti-adv-086",
-  "questionFingerprint": "b721ef3eccc6fd3b159ac28d396a82ef16a399b4a481aadae80cb13161adbaad",
+  "questionFingerprint": "17b95703a31324674ca15ab41559d2af364900b0d649160f96ffb1ebc46ab3cc",
   "status": "source-checked",
   "learningObjective": "Memorarea ierarhiei 125 / 115 mmol/L și a semnalului 130-135 mmol/L la vârstnic.",
   "reference": {
@@ -239316,7 +239316,7 @@
    "kind": "ai",
    "name": "Codex"
   },
-  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "reviewedAt": "2026-09-18T13:01:01.440Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -239486,7 +239486,7 @@
  },
  {
   "questionId": "electroliti-adv-089",
-  "questionFingerprint": "a02c3119db0e6f798b8c93532b0f1a317ef8f772473b7f43efff2635e30eac54",
+  "questionFingerprint": "10f2bf4d7ecd1d9e944df64c1510cbb6bd60a9e596ac07a4078a23d88039f2dd",
   "status": "source-checked",
   "learningObjective": "Contrastarea perechii Klotho/CD63 de pierderile GI (5-10 versus 10-30 mmol/L) și de adenomul vilos.",
   "reference": {
@@ -239547,7 +239547,7 @@
    "kind": "ai",
    "name": "Codex"
   },
-  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "reviewedAt": "2026-09-18T13:01:01.440Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -241105,7 +241105,7 @@
  },
  {
   "questionId": "endocrinologie-adv-049",
-  "questionFingerprint": "ffcbff8b58aa524fd4dc2f3498a3027f373d5ddb380872753077e2528ee457e2",
+  "questionFingerprint": "7fc03db53cc60917579c7440e029ae0a087dbffae088bdb8753bc9016da09bdc",
   "status": "source-checked",
   "learningObjective": "Integrarea celor trei tipuri de anemie, a AST/CK, a dislipidemiei și a hiponatremiei prin ADH.",
   "reference": {
@@ -241166,7 +241166,7 @@
    "kind": "ai",
    "name": "Codex"
   },
-  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "reviewedAt": "2026-09-18T13:01:01.440Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -241182,7 +241182,7 @@
  },
  {
   "questionId": "endocrinologie-adv-050",
-  "questionFingerprint": "e05801b15867ba82c6d126bafa3aab06beffe9292d228be85a7303e73e2cda71",
+  "questionFingerprint": "c805d5689e0643dc4ae2f3bd1c3a4c7a85eaf9858d7ee4ed2eac880eeea0cfc2",
   "status": "source-checked",
   "learningObjective": "Contrastarea creșterii 25-50 µg / TSH 0,3-2,5 din sarcină de interferențele de absorbție și de absența beneficiului T3 adjunct.",
   "reference": {
@@ -241243,7 +241243,7 @@
    "kind": "ai",
    "name": "Codex"
   },
-  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "reviewedAt": "2026-09-18T13:06:57.473Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -241251,7 +241251,7 @@
    "reason": "Distractorii inversează titrarea din sarcină (creștere versus scădere) și transformă eșecul T4+T3 în superioritate."
   },
   "textbookExpressions": [
-   "25-50µ9",
+   "25-50µg",
    "0,3-2,5 mU/L"
   ],
   "textbookWordingReviewed": true,
@@ -241259,7 +241259,7 @@
  },
  {
   "questionId": "endocrinologie-adv-051",
-  "questionFingerprint": "9b41ffe4149552dd0d9a355f509e843e80f60953c429483682a77c092977edc7",
+  "questionFingerprint": "aa80b1540843cf5894cd0bed3bd933727d58362e4fd0c4f26531b038fa042368",
   "status": "source-checked",
   "learningObjective": "Reținerea ponderii de 5% și a absenței remisiunii după antitiroidiene, distinct de Graves.",
   "reference": {
@@ -241290,7 +241290,7 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": ">99% descrie originea tiroidiană intrinscă a hipertiroidismului, nu ponderea adenomului.",
+    "rationale": ">99% descrie originea tiroidiană intrinsecă a hipertiroidismului, nu ponderea adenomului.",
     "evidenceLocation": "Kumar & Clark, p. 614, Adenomul/nodulul toxic solitar"
    },
    {
@@ -241320,7 +241320,7 @@
    "kind": "ai",
    "name": "Codex"
   },
-  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "reviewedAt": "2026-09-18T13:01:01.440Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -241336,9 +241336,9 @@
  },
  {
   "questionId": "endocrinologie-adv-052",
-  "questionFingerprint": "dc93dfbf8388d7740746cd1eba11a448f1d6493b2c46bd6727803e0f51998a2d",
+  "questionFingerprint": "0bd6fd61f053ef5b01df4af98e79cbc368e863bb473dd2eb634f9fe32b69349f",
   "status": "source-checked",
-  "learningObjective": "Asocierea febrei/VSH/captării nule de faza hipotiroidiană tardivă și de aspira/prednisolonul scurt.",
+  "learningObjective": "Asocierea febrei/VSH/captării nule de faza hipotiroidiană tardivă și de aspirină/prednisolonul scurt.",
   "reference": {
    "book": "Kumar & Clark",
    "edition": "Medicină clinică, ediția a 10-a, text român",
@@ -241397,7 +241397,7 @@
    "kind": "ai",
    "name": "Codex"
   },
-  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "reviewedAt": "2026-09-18T13:01:01.440Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -241413,7 +241413,7 @@
  },
  {
   "questionId": "endocrinologie-adv-053",
-  "questionFingerprint": "7170cfea1cef2deafc4dc3540efa4f641d44cc6a88b96c281611aa1b87c10641",
+  "questionFingerprint": "b82efea790b68088adf25df4959fd270406a2b724e9449d59fc9709a409ec723",
   "status": "source-checked",
   "learningObjective": "Recunoașterea FA ca prezentare oligosimptomatică la vârstnic și a obligației de a doza hormonii tiroidieni.",
   "reference": {
@@ -241474,7 +241474,7 @@
    "kind": "ai",
    "name": "Codex"
   },
-  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "reviewedAt": "2026-09-18T13:01:01.440Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -241482,7 +241482,7 @@
    "reason": "Distractorii anulează testarea tiroidiană obligatorie din FA, mesajul central al paragrafului geriatrie."
   },
   "textbookExpressions": [
-   "fibrilaţie atrială",
+   "fibrilație atrială",
    "Testele tiroidiene sunt obligatorii"
   ],
   "textbookWordingReviewed": true,
@@ -244349,7 +244349,7 @@
  },
  {
   "questionId": "trauma-adv-088",
-  "questionFingerprint": "83df62d57baa7ec50a53d3e07bab5e6d530b87cfa8f0eeb3badca05783f69c2e",
+  "questionFingerprint": "2b4093b711caf7a98a54f2e5c254ce574b29bc4d2ee6698115e8bae767197cd6",
   "status": "source-checked",
   "learningObjective": "Recunoașterea disocierii brațe > picioare pe hiperextensie și stenoză la vârstnicul cu OA.",
   "reference": {
@@ -244410,7 +244410,7 @@
    "kind": "ai",
    "name": "Codex"
   },
-  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "reviewedAt": "2026-09-18T13:01:01.440Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -246207,7 +246207,7 @@
  },
  {
   "questionId": "colon-adv-083",
-  "questionFingerprint": "60e52257a0ff1f8246b2d531e484a4005ae15a8a33e469803ef432c3ab7be78f",
+  "questionFingerprint": "576a777b0a2b832dd28836abb73f7e950feb7f1d24f67add0c9569089c4ae89e",
   "status": "source-checked",
   "learningObjective": "Reținerea statutului de cea mai frecventă descoperire endoscopică și a dietei sărace în fibre, față de geografia „strict vestică”.",
   "reference": {
@@ -246268,7 +246268,7 @@
    "kind": "ai",
    "name": "Codex"
   },
-  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "reviewedAt": "2026-09-18T13:01:01.440Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -247441,7 +247441,7 @@
  },
  {
   "questionId": "colon-adv-100",
-  "questionFingerprint": "c6522c864b2688b4bf2da434e6b511711d6b117088f8907e6e097e983d960793",
+  "questionFingerprint": "fd05ac4b0a1ac34a5ad290de5ce41be7f64013d276227fe9db5994b991ac1bae",
   "status": "source-checked",
   "learningObjective": "Aplicarea pragului de 30 de ani pentru colonoscopie și a ileoscopiei când se suspectează Crohn.",
   "reference": {
@@ -247502,7 +247502,7 @@
    "kind": "ai",
    "name": "Codex"
   },
-  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "reviewedAt": "2026-09-18T13:01:01.440Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -247511,14 +247511,14 @@
   },
   "textbookExpressions": [
    "peste 30 de ani",
-   "ileonulw"
+   "ileonul"
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
  },
  {
   "questionId": "colon-adv-101",
-  "questionFingerprint": "71b8b9fed559c3df06c3f325589a77e390f7d71afe9951f995cdb8183960420d",
+  "questionFingerprint": "c9fdf277eacd12cf24b63094dd82600ba075c0042c7d17a480cd6c2ca50b006a",
   "status": "source-checked",
   "learningObjective": "Combinarea ubicuității infecției cu rata 60–90% a distrucției locale, care nu eradică virusul.",
   "reference": {
@@ -247581,7 +247581,7 @@
    "kind": "ai",
    "name": "Codex"
   },
-  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "reviewedAt": "2026-09-18T13:01:01.440Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -247597,7 +247597,7 @@
  },
  {
   "questionId": "colon-adv-102",
-  "questionFingerprint": "aab032b67e17d57d32a1ad88d654d18cfec076776f9b62bf7a98ca5a36f6d162",
+  "questionFingerprint": "07a8ba074b4fe443c0897b56496fa7f88e6e77e9527c7012221986f254a5feb6",
   "status": "source-checked",
   "learningObjective": "Aplicarea seroprevalenței de 20% și a aciclovirului oral versus IV, față de APR ca „tratament”.",
   "reference": {
@@ -247658,7 +247658,7 @@
    "kind": "ai",
    "name": "Codex"
   },
-  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "reviewedAt": "2026-09-18T13:01:01.440Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -247674,7 +247674,7 @@
  },
  {
   "questionId": "colon-adv-103",
-  "questionFingerprint": "ad4cbfaaa180663aafcd5a72d62fa998c0661f732c84fc1aac837e980653f879",
+  "questionFingerprint": "591264536440f5c29af8ce1ca009268de6d63648cff889177f6bbd9a8718833a",
   "status": "source-checked",
   "learningObjective": "Reținerea lanțului hemoroidală inferioară ← rușinoasă internă ← iliacă internă, distinct de hemoroidala superioară din AMI.",
   "reference": {
@@ -247735,7 +247735,7 @@
    "kind": "ai",
    "name": "Codex"
   },
-  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "reviewedAt": "2026-09-18T13:01:01.440Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -247744,7 +247744,7 @@
   },
   "textbookExpressions": [
    "hemoroidală inferioară",
-   "ruşinoasă internă"
+   "rușinoasă internă"
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
@@ -248444,7 +248444,7 @@
  },
  {
   "questionId": "pancreas-adv-074",
-  "questionFingerprint": "d1ee851173787c3ebb6e656c69c786dff4a216bfeace8aecdd33dc4b5c7ee76f",
+  "questionFingerprint": "20bb34405c5eeae3a3e94eef736947c7c8d3fa6eeee4e2fdfdda418b1e98289a",
   "status": "source-checked",
   "learningObjective": "Legarea complicației celei mai frecvente de absența epiteliului și de maturarea la 3–4 săptămâni.",
   "reference": {
@@ -248505,7 +248505,7 @@
    "kind": "ai",
    "name": "Codex"
   },
-  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "reviewedAt": "2026-09-18T13:01:01.440Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -248598,7 +248598,7 @@
  },
  {
   "questionId": "pancreas-adv-076",
-  "questionFingerprint": "222a32c614c7154eabca81a7793a52a02dc133ba205a5f9de90646948f6a2d63",
+  "questionFingerprint": "9d1737a073e9733dda9efee020c680a497ff8472510b080b437d91fa7807f7f3",
   "status": "source-checked",
   "learningObjective": "Recunoașterea sensibilității maxime a ERCP pentru anatomia ductală preoperatorie, cu riscul (redus) de exacerbare.",
   "reference": {
@@ -248659,7 +248659,7 @@
    "kind": "ai",
    "name": "Codex"
   },
-  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "reviewedAt": "2026-09-18T13:01:01.440Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -249137,7 +249137,7 @@
  },
  {
   "questionId": "pancreas-adv-083",
-  "questionFingerprint": "0ded31b49321ffa72b5a4f9c6ad148cc8236bce8e5b7d3dcb6b0f5272ec3d20d",
+  "questionFingerprint": "fc8b3927ab2f549c4544151a6b27ca191e53d67360e9f8abf4c9fb3568e7ea84",
   "status": "source-checked",
   "learningObjective": "Contrastul seros (benign, fără rezecție) versus mucinos (stromă ovariană, rezecție) și excepția rarului chistadenocarcinom seros.",
   "reference": {
@@ -249200,7 +249200,7 @@
    "kind": "ai",
    "name": "Codex"
   },
-  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "reviewedAt": "2026-09-18T13:01:01.440Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -250144,7 +250144,7 @@
  },
  {
   "questionId": "esofag-adv-069",
-  "questionFingerprint": "e1031f16ce9c08fd4bc702354489e688194b873707837405db31a7e49890eb51",
+  "questionFingerprint": "dab55447a2649f98f82594c3b1d0ab69bab7098f2d7e098a73f0eeb228af0708",
   "status": "source-checked",
   "learningObjective": "Adăugarea timpului cervical (anastomoză + margini + fistula mai „iartă”) ca distincție față de Ivor Lewis, pe indicația proximală/mediotoracică.",
   "reference": {
@@ -250205,7 +250205,7 @@
    "kind": "ai",
    "name": "Codex"
   },
-  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "reviewedAt": "2026-09-18T13:01:01.440Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -250298,7 +250298,7 @@
  },
  {
   "questionId": "esofag-adv-071",
-  "questionFingerprint": "89185ad167a32a083cd9a26ce7aa31108fcffd0d01b69127dd6404875d6311b7",
+  "questionFingerprint": "47391aa338f0cad12ed46b584d7b8f13b6cbb4eaa5d7b163db43903b6ac9c2c8",
   "status": "source-checked",
   "learningObjective": "Efectul imediat al stentului expandabil, temperat de recurența la luni și de triada migrare/impactare/perforație.",
   "reference": {
@@ -250359,7 +250359,7 @@
    "kind": "ai",
    "name": "Codex"
   },
-  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "reviewedAt": "2026-09-18T13:01:01.440Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -250916,7 +250916,7 @@
  },
  {
   "questionId": "esofag-adv-079",
-  "questionFingerprint": "01b53033e21249cb6b18002d24f5d01e58b699be3ff1d0ad1b2c2f44cd461a5c",
+  "questionFingerprint": "0380a807903c6d287bdb4960b2b504c2b1fa2e7575906634b9a9e680f63abe33",
   "status": "source-checked",
   "learningObjective": "Definirea tipului III ca alunecare + paraesofagiană (cea mai frecventă paraesofagiană după tipul I) și a tipului IV ca III plus viscere.",
   "reference": {
@@ -250979,7 +250979,7 @@
    "kind": "ai",
    "name": "Codex"
   },
-  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "reviewedAt": "2026-09-18T13:01:01.440Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -251382,7 +251382,7 @@
  },
  {
   "questionId": "esofag-adv-086",
-  "questionFingerprint": "7b7bac3ed5c03e4c54dab463590ea19a4cd6dc000340c48ffa9ded25f17d61e4",
+  "questionFingerprint": "50e0465a97b9c1b1c63cc413c9deaf2c1feea16fdb8ed6e9602b1736db22204c",
   "status": "source-checked",
   "learningObjective": "Clasarea tumorii granulare și a polipului fibrovascular ca leziuni mucoase/submucoase mijlocii-distale, cu baritat neted și EUS, distincte de leiomiom.",
   "reference": {
@@ -251443,7 +251443,7 @@
    "kind": "ai",
    "name": "Codex"
   },
-  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "reviewedAt": "2026-09-18T13:01:01.440Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -253234,7 +253234,7 @@
  },
  {
   "questionId": "stomac-adv-090",
-  "questionFingerprint": "14237611774d75b09c822990344a780a732462c1515324443c48f88cb6520f07",
+  "questionFingerprint": "b94505961d70426d8711ab4d9be642fe151021be1e7645a43bf0ff6089ed3bbf",
   "status": "source-checked",
   "learningObjective": "Adăugarea prednisonului/AINS și a ferestrei săptămâni–1 an, față de ulcerul ≤2 cm postgastrectomie deja chestionat.",
   "reference": {
@@ -253295,7 +253295,7 @@
    "kind": "ai",
    "name": "Codex"
   },
-  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "reviewedAt": "2026-09-18T13:06:57.473Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -253304,7 +253304,7 @@
   },
   "textbookExpressions": [
    "prednisonul",
-   "la l an postoperator"
+   "la 1 an postoperator"
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
@@ -253619,7 +253619,7 @@
  },
  {
   "questionId": "stomac-adv-095",
-  "questionFingerprint": "63d045cc7dea703c7a283b30fcb73f70a45e00f49f922a43fbeb4d08aec71274",
+  "questionFingerprint": "23e4f87c18447241dad9cc82ec73cf7178e6053df60cfd356cb59a70424f4b90",
   "status": "source-checked",
   "learningObjective": "Rolul laparoscopiei (biopsie + lavaj) care contraindică rezecția curativă, practicat selectiv, pe fondul limitelor CT-ului peritoneal.",
   "reference": {
@@ -253680,7 +253680,7 @@
    "kind": "ai",
    "name": "Codex"
   },
-  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "reviewedAt": "2026-09-18T13:01:01.440Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -255933,7 +255933,7 @@
  },
  {
   "questionId": "arsuri-adv-059",
-  "questionFingerprint": "ea15a7e35a995ac7de40c7b897eb8a98d9df5676a17125c42d17c8160f7f764c",
+  "questionFingerprint": "aa45de363d959a010190f4cc7dfbf4dd580f992feb28b7497c4e147aa4743dd0",
   "status": "source-checked",
   "learningObjective": "Contrastarea măștii rigide (evitând deformarea mandibulară) cu revenirea funcțională după arsuri ≥70% SCT.",
   "reference": {
@@ -255996,7 +255996,7 @@
    "kind": "ai",
    "name": "Codex"
   },
-  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "reviewedAt": "2026-09-18T13:06:57.473Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -256004,7 +256004,7 @@
    "reason": "Preferă masca elastică la copil (care deformează mandibula) și neagă reinserția după 70% SCT."
   },
   "textbookExpressions": [
-   "deformă1i ale mandibulei",
+   "deformări ale mandibulei",
    "70% SCT"
   ],
   "textbookWordingReviewed": true,
@@ -257015,7 +257015,7 @@
  },
  {
   "questionId": "hernii-adv-049",
-  "questionFingerprint": "46b9ffc28c3776f31a0bd2e9011df520270e635f628282339c07c9a312b9a5e4",
+  "questionFingerprint": "b195000a9c79f4f7b5ceff925e5c4f7f2402f1edae6a8953f027b5cb53b71431",
   "status": "source-checked",
   "learningObjective": "Rezervarea suturii anatomice pentru defecte mici/risc minim și recunoașterea încorporării prin pori a plasei sintetice.",
   "reference": {
@@ -257076,7 +257076,7 @@
    "kind": "ai",
    "name": "Codex"
   },
-  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "reviewedAt": "2026-09-18T13:01:01.440Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -257092,7 +257092,7 @@
  },
  {
   "questionId": "hernii-adv-050",
-  "questionFingerprint": "a1ffd4dff2a3a74e7c55f30f136b73d54eef22f8ba13062e21286f6df984c6a5",
+  "questionFingerprint": "3dff2bf8b553b361090f6825a0d35d91bb95ca8ef7cc4528e855a975e0b43019",
   "status": "source-checked",
   "learningObjective": "Recunoașterea suturii anatomice ca alternativă la defecte largi când riscurile plasei depășesc recidiva acceptată.",
   "reference": {
@@ -257153,7 +257153,7 @@
    "kind": "ai",
    "name": "Codex"
   },
-  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "reviewedAt": "2026-09-18T13:06:57.473Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -257162,14 +257162,14 @@
   },
   "textbookExpressions": [
    "defecte parietale largi",
-   "riscul de recurenţă"
+   "riscul de recurență"
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
  },
  {
   "questionId": "hernii-adv-051",
-  "questionFingerprint": "2596af182d25b8b37f8d9802ef5f02531475a5f07968086913a52bb713d52b6e",
+  "questionFingerprint": "1ec397462c31b6e5a39e64ad9727938b5c8988f32ee5ba60bb2b5c43645b4edb",
   "status": "source-checked",
   "learningObjective": "Recunoașterea originii cremasterului din fibrele inferioare ale oblicului intern la traversarea inelului intern.",
   "reference": {
@@ -257230,7 +257230,7 @@
    "kind": "ai",
    "name": "Codex"
   },
-  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "reviewedAt": "2026-09-18T13:01:01.440Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -257238,7 +257238,7 @@
    "reason": "Mută originea cremasterului pe oblicul extern sau pe tendonul conjunct, confuzia de învelișuri ale funiculului."
   },
   "textbookExpressions": [
-   "muşchiul cremaster",
+   "mușchiul cremaster",
    "oblicului intern"
   ],
   "textbookWordingReviewed": true,
@@ -257246,7 +257246,7 @@
  },
  {
   "questionId": "hernii-adv-052",
-  "questionFingerprint": "b15787d561bbfffd31cd03d5ef200b5236d6b1a3f7b5bd5c48edd21b77449360",
+  "questionFingerprint": "36b01e7d588f5c39c07fdad6df9d7d856b65c39248eecfa69ec9a0490e5911e9",
   "status": "source-checked",
   "learningObjective": "Recunoașterea ocupației unu–trei spații și a supravegherii herniei OMP minim simptomatice, cu operație adesea ulterioară.",
   "reference": {
@@ -257309,7 +257309,7 @@
    "kind": "ai",
    "name": "Codex"
   },
-  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "reviewedAt": "2026-09-18T13:01:01.440Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -257317,7 +257317,7 @@
    "reason": "Impune urgență asupra herniei OMP minim simptomatice și neagă ocupația simultană a spațiilor."
   },
   "textbookExpressions": [
-   "toate aceste trei spaţii",
+   "toate aceste trei spații",
    "supravegherea atentă"
   ],
   "textbookWordingReviewed": true,
@@ -257558,7 +257558,7 @@
  },
  {
   "questionId": "hernii-adv-056",
-  "questionFingerprint": "d5f4933afc0bca9135b16354c97fd72a7bfedc2c9927c0462478d3fea4ab1da7",
+  "questionFingerprint": "7965ab82dadde826f482b360ac7f025082eb649a6220be47f69bd21e98355149",
   "status": "source-checked",
   "learningObjective": "Recunoașterea caracterului ambulator al curei OMP actuale și a consilierii privind așteptările (echimoze, inflamație).",
   "reference": {
@@ -257619,7 +257619,7 @@
    "kind": "ai",
    "name": "Codex"
   },
-  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "reviewedAt": "2026-09-18T13:01:01.440Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,

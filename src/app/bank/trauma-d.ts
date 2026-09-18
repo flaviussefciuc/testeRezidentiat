@@ -79,7 +79,7 @@ q(87,['Sediul predilect al traumatismelor cervicale închise diferă astfel:',
  ['Predilecția C5 la adult este explicită.','C2 și C3 la copilul sub 8 ani sunt citate.','Direcția este inversă.','Cervicalul este sediul cel mai frecvent, nu doar C0–C1.','Toracicul este mai puțin mobil, stabilizat de coaste.']],
  8,'Inversează C5 adult cu C2–C3 pediatric, două sedii din aceeași frază.',['a cincea vertebră cervicală','copiii sub 8 ani']),
 
-q(88,['Sindromul medular central, ca leziune incompletă, se caracterizează prin:',
+q(88,['Sindromul medular central, ca leziune incompletă:',
  ['Slăbiciune accentuată la extremitățile superioare comparativ cu cele inferioare','Rezultă din hiperextensie cervicală pe fondul unei îngustări preexistente a canalului','Predomină la tineri după scufundare cu încărcare axială, fără stenoză de canal','Este o leziune completă, cu prognostic identic absenței totale a funcției sub nivel','Brown-Séquard înlocuiește sindromul central la vârstnicul cu osteoartrită'],'AB',92,'Leziuni incomplete — Sindromul medular central',
  'Recunoașterea disocierii brațe > picioare pe hiperextensie și stenoză la vârstnicul cu OA.',
  ['Predominanța slăbiciunii la membrele superioare este explicită.','Mecanismul de hiperextensie plus stenoză este citat.','Scufundarea cu încărcare axială descrie fracturi cervicale la tineri, nu sindromul central.','Leziunea incompletă are prognostic mai bun, nu identic formei complete.','Sindromul central, nu Brown-Séquard, este varianta geriatrică cu OA.']],

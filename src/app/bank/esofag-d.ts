@@ -49,7 +49,7 @@ q(68,['Avantajele stomacului ca grefon și dezavantajele colonului stâng includ
  ['Cele trei avantaje gastrice sunt explicite.','Rezistența colonului la refluxul acid este citată.','Cele două anastomoze suplimentare și experiența vasculară sunt descrise.','Colonoscopia și angiografia colonică sunt cerute pentru colon, nu pentru stomac.','Colonul e izoperistaltic pe colica stângă/AMI; gastrica stângă se secționează.']],
  8,'Inversează lucrările preoperatorii (angiografie pe stomac) și pediculul colonic (AMS vs AMI).',['vascularizaţia sa bogată','refluxul acid']),
 
-q(69,['Procedura McKeown, față de Ivor Lewis, se caracterizează prin:',
+q(69,['Procedura McKeown, față de Ivor Lewis:',
  ['Adaugă un al treilea timp, incizia cervicală, cu anastomoză esofago-gastrică cervicală','Este descrisă pentru tumorile care implică esofagul proximal sau mediotoracic','Oferă margini proximale mai largi prin rezecție esofagiană proximală mai extinsă','Consecințele unei fistule anastomotice cervicale sunt mai puțin severe decât ale uneia intratoracice','Anastomoza rămâne în hemitoracele drept, timpul cervical fiind doar de drenaj, fără anastomoză'],'ABCD',153,'Tehnici — McKeown versus Ivor Lewis',
  'Adăugarea timpului cervical (anastomoză + margini + fistula mai „iartă”) ca distincție față de Ivor Lewis, pe indicația proximală/mediotoracică.',
  ['Al treilea timp și anastomoza cervicală sunt explicite.','Indicația proximală/mediotoracică este citată.','Marginile proximale mai largi sunt descrise.','Severitatea mai mică a fistulei cervicale este menționată.','Anastomoza McKeown este cervicală, nu rămâne în hemitoracele drept.']],
@@ -61,7 +61,7 @@ q(70,['Pe măsură ce tubul gastric este retras prin cervicotomie, textul sublin
  ['Cele trei accidente de tracțiune sunt explicite în legendă.','Gastrica stângă se secționează; ischemia fornixului ține de colaterale, nu de păstrarea ei.','Calea mediastinală posterioară este preferată, nu abandonată.','Vagul este secționat; piloromiotomia este deseori practicată.','Grefa jejunală liberă nu este subiectul figurii.']],
  8,'Înlocuiește triada de tracțiune cu păstrarea gastricei stângi sau cu calea retrosternală, două erori de grefon.',['răsucirea, ruptura','tensionarea inadecvată']),
 
-q(71,['Stenturile metalice expandabile paliative, față de tuburile rigide din plastic, se caracterizează prin:',
+q(71,['Stenturile metalice expandabile paliative, față de tuburile rigide din plastic:',
  ['Le-au înlocuit pentru paliația leziunilor stenozante și au efect imediat','Simptomele obstructive pot reapărea în câteva luni, necesitând reintervenție','Complicațiile includ migrarea stentului, impactarea alimentelor și perforația esofagiană','Necesită expertiză pentru alegerea dimensiunii și plasarea adecvată','Sunt abandonate, laserul având risc zero de perforație și efect permanent'],'ABCD',156,'Paliație — Stent expandabil',
  'Efectul imediat al stentului expandabil, temperat de recurența la luni și de triada migrare/impactare/perforație.',
  ['Înlocuirea tuburilor de plastic și efectul imediat sunt explicite.','Recurența la câteva luni este citată.','Cele trei complicații sunt enumerate.','Nevoia de expertiză dimensională/pozițională este descrisă.','Laserul are risc ridicat de perforație; chirurgia paliativă e rar indicată.']],
@@ -109,7 +109,7 @@ q(78,['Etapele cheie ale curei chirurgicale a herniei hiatale simptomatice inclu
  ['Reducerea completă a sacului este explicită.','Lungimea intraabdominală 2–3 cm este citată.','Închiderea fără tensiune ± plasă resorbabilă este descrisă.','Fundoplicatura este menționată ca etapă cheie.','Tipul I asimptomatic nu se operează profilactic pentru încarcerare; plasa citată este resorbabilă.']],
  8,'Anulează fundoplicatura și impune plasă neresorbabilă pe tipul I asimptomatic, două inversări de etapă.',['2-3 cm','plasă resorbabilă']),
 
-q(79,['Hernia hiatală de tip III, potrivit figurii 12-18, se caracterizează prin:',
+q(79,['Hernia hiatală de tip III, potrivit figurii 12-18:',
  ['Migrația în torace atât a joncțiunii gastroesofagiene, cât și a stomacului','Este cea mai frecventă hernie paraesofagiană, în afară de tipul I','Tipul IV este un tip III plus alte viscere abdominale migrate intratoracic','Joncțiunea rămâne ancorată în abdomen, doar stomacul alunecând prin ligamentul frenoesofagian','Este identică tipului I, fără componentă paraesofagiană'],'ABC',158,'Hernii hiatale — Tip III versus II și IV',
  'Definirea tipului III ca alunecare + paraesofagiană (cea mai frecventă paraesofagiană după tipul I) și a tipului IV ca III plus viscere.',
  ['Migrația JGE + stomac este explicită în legendă.','Statutul de cea mai frecventă paraesofagiană (în afară de tipul I) este citat.','Tipul IV ca III plus alte viscere este descris.','JGE ancorată cu prolaps gastric izolat definește tipul II.','Tipul III combină alunecarea cu componenta paraesofagiană.']],
@@ -151,7 +151,7 @@ q(85,['Diverticulii medioesofagieni adevărați se asociază frecvent cu:',
  ['Asocierea cu adenopatia paratraheală TBC/histoplasmoză/cancer pulmonar este explicită.','Fistula în trahee sau vase este citată.','Excizia, repararea structurii adiacente și lamboul interpus sunt descrise.','De obicei sunt asimptomatici și nu necesită tratament.','Cricofaringianul definește Zenker-ul cervical, nu diverticulul mediu.']],
  8,'Forțează Ivor Lewis pe diverticulul asimptomatic și îl mută pe cricofaringian, două etaje greșite.',['histoplasmoză','lambou de ţesut']),
 
-q(86,['Tumora cu celule granulare și polipul fibrovascular, ca leziuni mucoase/submucoase esofagiene, se caracterizează prin:',
+q(86,['Tumora cu celule granulare și polipul fibrovascular, ca leziuni mucoase/submucoase esofagiene:',
  ['Sunt cele mai frecvente leziuni mucoase/submucoase; majoritatea apar pe esofagul mijlociu și distal și se prezintă frecvent cu disfagie','Tranzitul baritat arată o masă cu contur neted, bine definit, care ocupă lumenul','Evaluarea include vizualizare endoscopică directă și ecoendoscopie','Leiomiomul este a doua masă, localizat în adventice, FNA fiind diagnosticul de elecție','Sunt diverticuli de pulsiune cervicali, tratați prin miotomie cricofaringiană'],'ABC',162,'Mase benigne — Granular și fibrovascular',
  'Clasarea tumorii granulare și a polipului fibrovascular ca leziuni mucoase/submucoase mijlocii-distale, cu baritat neted și EUS, distincte de leiomiom.',
  ['Frecvența, sediul mijlociu/distal și disfagia sunt explicite.','Masa netedă, bine definită, ocupând lumenul este citată.','Endoscopia și EUS sunt descrise.','Leiomiomul este cea mai frecventă tumoră benignă, în musculară; FNA se evită.','Nu sunt diverticuli; Zenker se tratează prin miotomie cricofaringiană.']],

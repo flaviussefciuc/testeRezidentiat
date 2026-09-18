@@ -61,7 +61,7 @@ q(73,['Necroza pancreatică pe CT, recunoscută prin absența captării contrast
  ['Fraza că diagnosticul radiologic nu este indicator operator este explicită.','Necrectomia precoce în necroza sterilă se evită 2–3 săptămâni.','Necroza ține de forma severă, nu de cea ușoară.','Profilaxia nu este indicată în necroza sterilă.','Necroza e evidențiată cel mai frecvent la zile–săptămâni, nu la toți din ziua 1.']],
  8,'Transformă semnul CT de necroză în indicație de necrectomie din ziua 1.',['nu captează','nu reprezintă un indicator']),
 
-q(74,['Colecțiile lichidiene peripancreatice, cea mai frecventă complicație a pancreatitei acute, se caracterizează prin:',
+q(74,['Colecțiile lichidiene peripancreatice, cea mai frecventă complicație a pancreatitei acute:',
  ['Rezultă din întreruperea ductului și scurgerea enzimelor activate în mezenter și retroperitoneu','Sunt delimitate de viscere și țesut inflamator (colagen); cele mai multe se resorb spontan','Pseudochistul bine definit apare de obicei la 3–4 săptămâni, fără straturi epiteliale în perete','Cele persistente >1 an sau >5 cm tind să crească și să obstrueze, deci drenajul este indicat','Colecția acută din ziua 1 are perete epitelial matur, potrivit pentru anastomoză'],'ABCD',266,'Colecții și pseudochist — 3–4 săptămâni',
  'Legarea complicației celei mai frecvente de absența epiteliului și de maturarea la 3–4 săptămâni.',
  ['Mecanismul de scurgere ductală este explicit.','Delimitarea de viscere/colagen și resorbția spontană sunt citate.','Fereastra 3–4 săptămâni și absența epiteliului sunt descrise.','Pragurile 1 an / 5 cm sunt menționate.','Colecțiile acute nu au perete de granulație/epiteliu; anastomozarea prematură nu este descrisă.']],
@@ -73,7 +73,7 @@ q(75,['Când 90% din pancreasul cronic a fost înlocuit de cicatrice, consecinț
  ['Pragul 90% și lista de consecințe sunt explicite.','Enzimele pentru steatoree sunt citate.','Caracterul durerii și agravarea alimentară sunt descrise.','Normalitatea de laborator în absența icterului obstructiv este menționată.','Steatoreea ține de insuficiența exocrină, enzimele fiind utile.']],
  8,'Anulează enzimele orale și mută steatoreea pe B12, contrar frazei despre substituție.',['90% din glandă','steatoreei']),
 
-q(76,['Dintre explorările ductale în pancreatita cronică, ERCP se caracterizează prin:',
+q(76,['Dintre explorările ductale în pancreatita cronică, ERCP:',
  ['Are cea mai mare sensibilitate pentru arhitectura ductală bilio-pancreatică: lungime, stricturi, fistule, obstrucții, esențiale înaintea chirurgiei','Este un test invaziv, cu riscuri reduse de exacerbare a pancreatitei sau de sepsis biliar/pancreatic','CT/MRCP sunt suficiente pentru planificarea tuturor rezecțiilor, ERCP fiind abandonat','ERCP nu vizualizează stricturile, fiind inferioară radiografiei simple','Sepsisul biliar exclude orice indicație de ERCP, chiar diagnostică'],'AB',267,'Pancreatită cronică — ERCP',
  'Recunoașterea sensibilității maxime a ERCP pentru anatomia ductală preoperatorie, cu riscul (redus) de exacerbare.',
  ['Sensibilitatea maximă și detaliile ductale sunt explicite.','Caracterul invaziv și riscurile reduse sunt citate.','Textul spune că CT/MRCP de obicei nu arată suficiente detalii pentru a planifica.','ERCP evaluează tocmai stricturile și obstrucțiile.','Riscul de sepsis există, dar testul rămâne util diagnostic.']],
@@ -115,7 +115,7 @@ q(82,['Analogii de somatostatină în TPN paliative se caracterizează prin:',
  ['Aproape 100% control simptomatic este explicit.','Absența prelungirii supraviețuirii este citată.','Eficacitatea slabă și toxicitatea schemei de salvare sunt descrise.','Analogii nu prelungesc supraviețuirea; 90% la 5 ani nu figurează aici.','Rezecția rămâne tratamentul TPN rezecabile.']],
  8,'Transformă analogii într-un tratament curativ care prelungește supraviețuirea, contrar frazei explicite.',['aproape 100%','nu prelungesc supravieţuirea']),
 
-q(83,['Chistadenoamele seroase pancreatice, spre deosebire de neoplasmele mucinoase, se caracterizează prin:',
+q(83,['Chistadenoamele seroase pancreatice, spre deosebire de neoplasmele mucinoase:',
  ['Sunt benigne și nu necesită rezecție','Chistadenocarcinoamele seroase, deși foarte rare, trebuie rezecate când sunt identificate','Mucinoasele au stromă ovariană, predilecție feminină și 40% invazive la diagnostic, deci se rezecă','Seroasele conțin stromă ovariană și se rezecă de principiu la bărbați','IPMN-urile de ramură se rezecă toate, urmărirea CT fiind interzisă'],'ABC',274,'Chiste — Seros versus mucinos',
  'Contrastul seros (benign, fără rezecție) versus mucinos (stromă ovariană, rezecție) și excepția rarului chistadenocarcinom seros.',
  ['Caracterul benign fără rezecție este explicit.','Excepția chistadenocarcinomului seros este citată.','Stroma ovariană, femeile și 40% invazive sunt descrise.','Stroma ovariană ține de mucinoase, nu de seroase.','IPMN-urile de ramură se urmăresc, cu excepțiile cunoscute.']],

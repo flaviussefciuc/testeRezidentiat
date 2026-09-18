@@ -1,6 +1,6 @@
 import {advancedQuestion} from './advanced-author';
 import type {SourceRow} from './source-author';
-const pdfOffset=(p:number)=>p<=1166?p-871:p<=1176?p-876:p-897;
+const pdfOffset=(p:number)=>p<=1166?p-871:p<=1173?297:p<=1176?p-876:p-897;
 const q=(n:number,row:SourceRow,score:number,reason:string,expressions:string[],related:number[]=[])=>
  advancedQuestion('gastro',32,pdfOffset,`gastro-adv-${String(n).padStart(3,'0')}`,row,[score,reason],expressions,undefined,related);
 
@@ -101,10 +101,10 @@ q(88,['Sensibilitatea și specificitatea antigenului fecal H. pylori cu anticorp
  8,'Inversează IPP versus H2 înaintea antigenului fecal, singura nuanță practică rămasă nefolosită.',['2 săptămâni','blocanţii receptorilor H2']),
 
 q(89,['Consecințele pe termen lung ale chirurgiei gastrice, dincolo de ulcerul recurent:',
- ['Sindromul dumping după gastrectomie parțială cu gastro-jejunoanastomoză: greață, distensie, transpirații, leșin, palpitații prin evacuare jejunală hiperotonă și scăderea volemiei; poate apărea hipoglicemie','Diareea după vagotomie: episoade severe recurente la aproximativ 1% dintre pacienți','Carențe: fier (absorbție redusă), folat (aport deficitar), B12 (deficit de factor intrinsc), scădere ponderală (aport redus)','Dumping-ul este un reflux biliari, fără deplasare de lichid plasmatic','Diareea post-vagotomie atinge 50% din pacienți, B12 fiind în exces'],'ABC',1176,'Chirurgia gastrică — Dumping, diaree 1%, carențe B12/fier/folat',
+ ['Sindromul dumping după gastrectomie parțială cu gastro-jejunoanastomoză: greață, distensie, transpirații, leșin, palpitații prin evacuare jejunală hiperotonă și scăderea volemiei; poate apărea hipoglicemie','Diareea după vagotomie: episoade severe recurente la aproximativ 1% dintre pacienți','Carențe: fier (absorbție redusă), folat (aport deficitar), B12 (deficit de factor intrinsec), scădere ponderală (aport redus)','Dumping-ul este un reflux biliari, fără deplasare de lichid plasmatic','Diareea post-vagotomie atinge 50% din pacienți, B12 fiind în exces'],'ABC',1176,'Chirurgia gastrică — Dumping, diaree 1%, carențe B12/fier/folat',
  'Mecanismul dumping-ului, ponderea 1% a diareei post-vagotomie și triada carențelor.',
- ['Evacuare jejunală, influx de lichid, hipovolemie, posibilă hipoglicemie.','Aproximativ 1% episoade severe după vagotomie.','Fier, folat, B12, greutate.','Mecanismul este hiperosmolar, nu reflux biliar.','1%, nu 50%; B12 scade prin lipsa de factor intrinsc.']],
- 8,'Umflă diareea post-vagotomie de la 1% la 50% și rupe mecanismul hiperosmolar al dumping-ului.',['aproximativ 1%','factor intrinsc']),
+ ['Evacuare jejunală, influx de lichid, hipovolemie, posibilă hipoglicemie.','Aproximativ 1% episoade severe după vagotomie.','Fier, folat, B12, greutate.','Mecanismul este hiperosmolar, nu reflux biliar.','1%, nu 50%; B12 scade prin lipsa de factor intrinsec.']],
+ 8,'Umflă diareea post-vagotomie de la 1% la 50% și rupe mecanismul hiperosmolar al dumping-ului.',['aproximativ 1%','factor intrinsec']),
 
 q(90,['Asocierile H. pylori cu neoplazia gastrică:',
  ['Incidența cancerului gastric distal (nu și a celui proximal) este direct proporțională cu infecția H. pylori în țările cu incidență ridicată','Peste 70% dintre limfoamele gastrice MALT cu celule B prezintă infecție H. pylori; gastrita cronică conține celula B clonală','Cancerul proximal este proporțional cu H. pylori, MALT-ul fiind independent de bacterie','Eradicarea nu are rol în MALT, celula B clonală fiind absentă','Adenocarcinomul distal scade când prevalența H. pylori crește'],'AB',1176,'H. pylori — Cancer distal și MALT >70%',

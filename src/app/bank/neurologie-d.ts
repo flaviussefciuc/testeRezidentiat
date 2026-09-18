@@ -65,7 +65,7 @@ q(94,['Epidemiologia AVC, dincolo de mortalitatea globală deja citată, include
  ['Un sfert înainte de 65 de ani este explicit.','20-25% este rata deceselor după AVC.','40% dependenți la 6 luni este citat.','Incidența este mai mare la asiatici și afro-americani.','Sub 5% subestimează mortalitatea și neagă dependența.']],
  8,'Inversează gradientul etnic și înlocuiește 20-25%/40% cu o mortalitate neglijabilă.',['un sfert din totalitatea cazurilor','40% din supravieţuitori']),
 
-q(95,['Disecția arterelor carotide și vertebrale se caracterizează prin:',
+q(95,['Disecția arterelor carotide și vertebrale:',
  ['Este responsabilă pentru 1 din 5 cazuri de AVC la pacienții sub 40 de ani','Majoritatea afectează vasele extracraniene cervicale mari','În disecția carotidiană pot apărea sindrom Horner sau pareze de nervi cranieni inferiori','Embolizarea și AVC-ul ischemic pot surveni la câteva zile după evenimentul inițial','Afectează doar vasele intracraniene, Hornerul fiind imposibil'],'ABCD',837,'Disecția arterială cervicală — Pondere la tineri și Horner',
  'Cuantificarea 1 din 5 sub 40 de ani, sediul extracranian, Horner/nervi inferiori și fereastra de zile până la embolie.',
  ['1 din 5 AVC sub 40 de ani este cifra din text.','Majoritatea sunt extracraniene cervicale.','Horner și nervii cranieni inferiori sunt vecini ai carotidei cervicale.','Embolia poate apărea la câteva zile.','Sediul dominant este extracranian; Hornerul este o cheie diagnostică.']],

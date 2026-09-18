@@ -53,7 +53,7 @@ q(63,['La examenul obiectiv al sepsisului fără focar evident, sediile mai puț
  ['Discita/abcesul și flancurile de pielonefrită sunt din schemă.','Suflul nou și dispozitivul Hickman sunt explicite.','Tampoanele (TSS) și diverticulita stângă completează lista.','Febra nu exclude discita; suflul nou o sugerează, nu o infirmă.','Tampoanele pot provoca TSS; Hickman-ul este poartă.']],
  8,'Distractorii inversează valoarea suflului nou și transformă tamponul (cauză de TSS) într-un factor protector.',['discită','şocului toxic']),
 
-q(64,['Betalactaminele, ca clasă folosită în sepsis, se caracterizează prin:',
+q(64,['Betalactaminele, ca clasă folosită în sepsis:',
  ['Blochează sinteza peretelui prin legarea de proteinele de legare a penicilinei (peptidaze) din ultima etapă a formării peretelui și a diviziunii','Sunt în general bactericide pentru celulele susceptibile, într-o manieră dependentă de timp','Modificări ale nucleului β-lactamic și/sau ale lanțului adiacent pot extinde spectrul la Gram-negativi și Gram-pozitivi','Sunt bacteriostatice dependente de concentrație, fără țintă pe perete','Nucleul β-lactamic nu poate fi modificat, spectrul rămânând identic penicilinei G'],'ABC',163,'Antibiotice betalactamice — Mecanism',
  'Reținerea țintei PBP, a bactericidiei time-dependent și a ingineriei de nucleu/lanț.',
  ['Ținta PBP/peptidaze este explicită.','Bactericidia dependentă de timp este enunțată.','Modificările de nucleu/lanț extind spectrul.','Nu sunt bacteriostatice concentration-dependent.','Ingineria nucleului este tocmai baza generațiilor.']],
@@ -77,7 +77,7 @@ q(67,['Tigeciclina și tetraciclinele, dincolo de evitarea pompelor de eflux, se
  ['Spectrul cu excepțiile Pseudomonas/Proteus și indicațiile SSTI/intraabdominal sunt din paragraf.','Avertismentul FDA 2010 pe VAP este explicit.','Dinții, gravidele, 1/20 și doxiciclina renală completează toxicitatea.','FDA slăbește tocmai VAP; Pseudomonas este exceptat.','Colorarea dentară contraindică copiii/gravidele.']],
  8,'Distractorii transformă avertismentul FDA pe VAP într-o indicație de primă intenție și neagă colorarea dentară.',['tigeciclinei','1 din 20']),
 
-q(68,['Azitromicina, comparativ cu eritromicina, se caracterizează prin:',
+q(68,['Azitromicina, comparativ cu eritromicina:',
  ['Penetrabilitate tisulară și intracelulară ridicate și timp de înjumătățire mai lung, care permite administrarea zilnică în doză unică','Biodisponibilitate serică scăzută, care face problematică utilizarea în bacteriemii','Este de primă intenție în endocardită și meningită, concentrația serică fiind maximă','t½ scurt impune șase prize pe zi, identic eritromicinei i.v. iritante','Penetrarea tisulară nulă o face inutilă în trahom sau holeră'],'AB',165,'Macrolidele — Azitromicina',
  'Contrastarea t½ lung și a penetrării tisulare cu limita serică care o face problematică în bacteriemie.',
  ['PK superioară și doza unică zilnică sunt explicite.','Biodisponibilitatea serică scăzută și problema din bacteriemii sunt enunțate.','Macrolidele nu sunt folosite curent în endocardită sau meningită.','t½ lung permite o doză zilnică, nu șase.','Este folosită în trahom, holeră și unele BTS.']],
@@ -101,7 +101,7 @@ q(71,['Conform Cadranului 8.7, dincolo de meningococ și Haemophilus, chemoprofi
  ['250 mg ×2/zi sau sulfadiazină 1 g sunt din rândul RAA.','300 mg ×6 luni și populațiile-țintă sunt din rândul TB.','Splenectomia este 500 mg, nu 250 mg; izoniazida nu este 2 zile.','Sulfadiazina este alternativa de alergie din RAA, nu de elecție la splenectomie.','Ciprofloxacina 500 mg unică este alternativa meningococică, nu izoniazida.']],
  8,'Distractorii permută 250 mg (RAA) cu 500 mg (splenectomie) și izoniazida de 6 luni cu doza unică de ciprofloxacină.',['250 mg','300 mg zilnic']),
 
-q(72,['În infecțiile severe streptococice, benzilpenicilina se caracterizează prin:',
+q(72,['În infecțiile severe streptococice, benzilpenicilina:',
  ['Rămâne de primă intenție în anumite infecții severe, inclusiv endocardita streptococică și infecțiile cu streptococ de grup A care produc fasceită necrozantă sau gangrenă gazoasă, în general combinate cu alte antibiotice','Nu trebuie folosită empiric în infecțiile severe fără confirmarea sensibilității, din cauza creșterii rezistenței','Se dă empiric la orice sepsis comunitar, fără cultură, fiind inactivă pe S. pyogenes','Înlocuiește debridarea în fasceita necrozantă, combinațiile fiind inutile','Este rezervată ITU joase, ca nitrofurantoina'],'AB',163,'Penicilinele — Benzilpenicilina în infecții severe',
  'Reținerea indicațiilor (EI streptococică, fasceită/gangrenă gazoasă, de regulă în combinație) și a interdicției empirice fără sensibilitate.',
  ['Indicațiile severe și combinațiile sunt din paragraf.','Regula „nu empiric fără laborator” este explicită.','Este activă pe S. pyogenes; empiricul fără sensibilitate este descurajat.','Debridarea rămâne controlul sursei; antibioticul se asociază.','ITU joasă nu este indicația benzilpenicilinei.']],

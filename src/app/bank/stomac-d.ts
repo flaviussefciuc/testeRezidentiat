@@ -149,7 +149,7 @@ q(90,['Ulcerul marginal după bypass gastric, față de cel postgastrectomie cla
  ['Rezultă din alterarea perfuziei mucoasei jejunale prin linia de sutură mecanică; fumatul, AINS-urile sau steroizii (prednison) pot contribui','Poate apărea precoce, la câteva săptămâni, sau tardiv, la 1 an postoperator','Pacienții pot slăbi de teama de a mânca, alimentele agravând simptomele; tratamentul e IPP și sucralfat, uneori NPT','Enucleerea leiomiomului e prima linie, prednisonul fiind protector','Apare doar la 15 ani, AINS-urile fiind fără rol'],'ABC',188,'Bariatric — Ulcer marginal, prednison',
  'Adăugarea prednisonului/AINS și a ferestrei săptămâni–1 an, față de ulcerul ≤2 cm postgastrectomie deja chestionat.',
  ['Ischemia de capsă și cofactorii tutun/AINS/prednison sunt explicite.','Fereastra săptămâni versus 1 an este citată.','Teama de a mânca, IPP/sucralfat și NPT sunt descrise.','Enucleerea e a leiomiomului esofagian; prednisonul e factor de risc, nu protector.','Nu e o complicație doar la 15 ani.']],
- 8,'Face din prednison un protector și mută ulcerul la 15 ani, inversând fereastra și etiologia.',['prednisonul','la l an postoperator']),
+ 8,'Face din prednison un protector și mută ulcerul la 15 ani, inversând fereastra și etiologia.',['prednisonul','la 1 an postoperator']),
 
 q(91,['Monitorizarea pe viață după bypass gastric, potrivit textului, include vizite anuale cu dozarea:',
  ['Vitaminelor A, B12, D și E, plus tiamină, acid folic, calciu și prealbumină','Doar hemoglobina, vitaminele liposolubile fiind inutile după malabsorbție','Gastrinei sub IPP, ca screening ZES de rutină','5-HIAA urinar, identic carcinoidului ileal','Acarbozei serice, ca marker al dumpingului tardiv'],'A',188,'Bariatric — Laboratoare anuale',
@@ -175,7 +175,7 @@ q(94,['Pierderea în greutate cu 10%, potrivit textului, reduce:',
  ['Cele trei comorbidități reduse sunt explicite.','Bolile de inimă și ACV sunt citate.','Creșterea speranței de viață este descrisă.','76% e vindecarea DM după chirurgie; 28% e reducerea mortalității, nu un exces.','Textul listează tocmai TA, lipidele și ACV.']],
  8,'Confundă scăderea de 10% cu inversarea cifrelor 76% DM / 28% mortalitate din meta-analiză.',['10% a redus','speranţa de viaţă']),
 
-q(95,['Identificați afirmația corectă referitoare la stadializarea laparoscopică a cancerului gastric:',
+q(95,['Identificați afirmațiile corecte referitoare la stadializarea laparoscopică a cancerului gastric:',
  ['Explorarea identifică leziuni peritoneale, hepatice sau omentale; leziunile suspecte se biopsiază, se face lavaj peritoneal și se determină extensia locală','Prezența bolii metastatice sau lavajul pozitiv contraindică rezecția curativă și poate evita o laparotomie inutilă','Majoritatea chirurgilor o practică selectiv, informațiile TNM având importanță semnificativă doar la anumite categorii','CT-ul convențional identifică ușor metastazele peritoneale și omentale, laparoscopia fiind inutilă','Lavajul pozitiv impune gastrectomie totală de principiu, ca unică cale curativă'],'ABC',173,'Stadializare — Laparoscopie și lavaj',
  'Rolul laparoscopiei (biopsie + lavaj) care contraindică rezecția curativă, practicat selectiv, pe fondul limitelor CT-ului peritoneal.',
  ['Explorarea, biopsia, lavajul și extensia locală sunt explicite.','Lavalajul pozitiv contraindică rezecția curativă.','Practica selectivă este descrisă.','CT-ul convențional identifică greu leziunile peritoneale/omentale.','Lavajul pozitiv contraindică, nu impune, rezecția curativă.']],
