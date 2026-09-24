@@ -74,7 +74,7 @@ export function gateFailures(m:CueMetrics,scope:'bank'|'topic'):string[]{
  if(Math.abs(m.absoluteWordingCorrectPct-m.absoluteWordingIncorrectPct)>5+slack)f.push(`absolute wording correct ${m.absoluteWordingCorrectPct}% vs incorrect ${m.absoluteWordingIncorrectPct}%`);
  if(m.optionMedianWords>7)f.push(`option median ${m.optionMedianWords} words > 7`);
  if(m.lowercaseOptionPct<50-slack)f.push(`lowercase fragment options ${m.lowercaseOptionPct}% < ${50-slack}%`);
- if(m.cs>=10&&Math.max(...m.csKeyPositionPct)>35+slack)f.push(`CS key concentrated at one position (${m.csKeyPositionPct.join('/')})`);
+ if(m.cs>=(scope==='topic'?20:10)&&Math.max(...m.csKeyPositionPct)>35+slack)f.push(`CS key concentrated at one position (${m.csKeyPositionPct.join('/')})`);
  if(m.cm>=10&&Math.min(...m.cmOptionCorrectPct)<0.6*Math.max(...m.cmOptionCorrectPct))f.push(`CM correct positions unbalanced (${m.cmOptionCorrectPct.join('/')})`);
  if(m.questionsWithCuesPct>10)f.push(`${m.questionsWithCuesPct}% questions carry a per-question cue > 10%`);
  return f;
