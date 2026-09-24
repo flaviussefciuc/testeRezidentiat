@@ -254936,83 +254936,6 @@
   "reviewNotes": "Rescriere a tromboembolism-adv-041: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "tromboembolism-adv-067-v2",
-  "questionFingerprint": "6536b6a60fbbbf4ef142562126e31dd47772ce9ba25c25086ca7bf0439bbd0f3",
-  "status": "source-checked",
-  "learningObjective": "Fixarea ponderii globale a trombozei în mortalitate.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 29,
-   "printedPages": [
-    1002
-   ],
-   "pdfPages": [
-    192
-   ],
-   "section": "Patogeneza trombozei"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Nu este proporția citată.",
-    "evidenceLocation": "Kumar, p. 1002, Patogeneza trombozei"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Nu este proporția citată.",
-    "evidenceLocation": "Kumar, p. 1002, Patogeneza trombozei"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Tromboza cauzează aproximativ 25% din decesele mondiale anuale.",
-    "evidenceLocation": "Kumar, p. 1002, Patogeneza trombozei"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Nu este proporția citată.",
-    "evidenceLocation": "Kumar, p. 1002, Patogeneza trombozei"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Nu este proporția citată.",
-    "evidenceLocation": "Kumar, p. 1002, Patogeneza trombozei"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:07:11.767Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii sunt proporții plauzibile."
-  },
-  "textbookExpressions": [
-   "25%",
-   "fiecare an"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a tromboembolism-adv-067: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "tromboembolism-adv-001-v2",
   "questionFingerprint": "425cdaba7125672d3cb5bbd4071cd8e6f60251638ecf0e87fbd7a61abfae5cba",
   "status": "source-checked",
@@ -261902,160 +261825,6 @@
   "reviewNotes": "Rescriere a biliar-adv-003: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "biliar-adv-051-v2",
-  "questionFingerprint": "48b418e68cc29e4dc1ebdc6a2af4b003c8b92de7a58ce611fac22a7757468e1c",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea principiului și a limitelor HIDA.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 16,
-   "printedPages": [
-    246
-   ],
-   "pdfPages": [
-    158
-   ],
-   "section": "Examinare imagistică — HIDA"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Hepatita poate da rezultate fals pozitive.",
-    "evidenceLocation": "Lawrence, p. 246, Examinare imagistică — HIDA"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Trasorul este excretat de ficat în bilă.",
-    "evidenceLocation": "Lawrence, p. 246, Examinare imagistică — HIDA"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "HIDA nu este utilă pentru calculii veziculari sau ai CBP.",
-    "evidenceLocation": "Lawrence, p. 246, Examinare imagistică — HIDA"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Se injectează un derivat de acid iminodiacetic marcat cu techneţiu.",
-    "evidenceLocation": "Lawrence, p. 246, Examinare imagistică — HIDA"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Poate identifica fistule postoperatorii, dar este rar folosită în acest scop.",
-    "evidenceLocation": "Lawrence, p. 246, Examinare imagistică — HIDA"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:21:14.916Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii contrazic farmacocinetica și limitele."
-  },
-  "textbookExpressions": [
-   "iminodiacetic",
-   "fistule biliare postoperatorii"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a biliar-adv-051: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "biliar-adv-030-v2",
-  "questionFingerprint": "bf22117a9e392c437274d09d9279b7b5443d9f2f96c8d479582609d134265d37",
-  "status": "source-checked",
-  "learningObjective": "Fixarea performanței PTC.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 16,
-   "printedPages": [
-    246
-   ],
-   "pdfPages": [
-    158
-   ],
-   "section": "Examinare imagistică — PTC"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Nu este valoarea citată.",
-    "evidenceLocation": "Lawrence, p. 246, Examinare imagistică — PTC"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "La calibru normal, succesul este de 70–80%.",
-    "evidenceLocation": "Lawrence, p. 246, Examinare imagistică — PTC"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Nu este valoarea citată.",
-    "evidenceLocation": "Lawrence, p. 246, Examinare imagistică — PTC"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Nu este valoarea citată.",
-    "evidenceLocation": "Lawrence, p. 246, Examinare imagistică — PTC"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Peste 95% la ducte dilatate.",
-    "evidenceLocation": "Lawrence, p. 246, Examinare imagistică — PTC"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:21:14.916Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii sunt valori plauzibile."
-  },
-  "textbookExpressions": [
-   "70-80%",
-   "PTC"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a biliar-adv-030: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "biliar-adv-050-v2",
   "questionFingerprint": "db091e2c392216553cc4d3e4697981cea5bc5a954346f76970f63f13dcbca29c",
   "status": "source-checked",
@@ -263754,83 +263523,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a biliar-adv-039: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "biliar-adv-056-v2",
-  "questionFingerprint": "de63d8ea1e7047e01c111444a4960a6aa18282a09f008b3d9fc5055d0aeaa41d",
-  "status": "source-checked",
-  "learningObjective": "Fixarea frecvenței icterului în boala avansată.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 16,
-   "printedPages": [
-    252
-   ],
-   "pdfPages": [
-    164
-   ],
-   "section": "Cancerul veziculei biliare — Clinic"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Nu este valoarea citată.",
-    "evidenceLocation": "Lawrence, p. 252, Cancerul veziculei biliare — Clinic"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Nu este valoarea citată.",
-    "evidenceLocation": "Lawrence, p. 252, Cancerul veziculei biliare — Clinic"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Nu este valoarea citată.",
-    "evidenceLocation": "Lawrence, p. 252, Cancerul veziculei biliare — Clinic"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Icterul este prezent la aproximativ 50%, prin extensie hilară și metastaze ganglionare.",
-    "evidenceLocation": "Lawrence, p. 252, Cancerul veziculei biliare — Clinic"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Nu este valoarea citată.",
-    "evidenceLocation": "Lawrence, p. 252, Cancerul veziculei biliare — Clinic"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:21:14.931Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii sunt proporții plauzibile."
-  },
-  "textbookExpressions": [
-   "aproximativ 50%",
-   "nodulii limfatici regionali"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a biliar-adv-056: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "biliar-adv-017-v2",
@@ -270031,83 +269723,6 @@
   "reviewNotes": "Rescriere a trauma-adv-009: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "trauma-adv-056-v2",
-  "questionFingerprint": "ef3c4a3de3a8ad6c94cff24542b92da00c19945bb8617ae24ae0265bc6e12ead",
-  "status": "source-checked",
-  "learningObjective": "Explicarea hipotensiunii prin vasodilatație în șocul neurogen.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 9,
-   "printedPages": [
-    92
-   ],
-   "pdfPages": [
-    35
-   ],
-   "section": "Șocul neurogen"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Nu este valoarea citată.",
-    "evidenceLocation": "Lawrence, p. 92, Șocul neurogen"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Volumul poate crește la 15 L.",
-    "evidenceLocation": "Lawrence, p. 92, Șocul neurogen"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Nu este valoarea citată.",
-    "evidenceLocation": "Lawrence, p. 92, Șocul neurogen"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Nu este valoarea citată.",
-    "evidenceLocation": "Lawrence, p. 92, Șocul neurogen"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Nu este valoarea citată.",
-    "evidenceLocation": "Lawrence, p. 92, Șocul neurogen"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:36:00.328Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii sunt valori plauzibile."
-  },
-  "textbookExpressions": [
-   "15 L",
-   "5 L"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a trauma-adv-056: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "trauma-adv-057-v2",
   "questionFingerprint": "f6fb92cd73d03596c841aa9d47f1d1db816921c4614b7a85fe26d06cb10341c6",
   "status": "source-checked",
@@ -274373,5 +273988,82 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a trauma-adv-075: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "biliar-adv-051-v2",
+  "questionFingerprint": "2506d7b041d5617024d35120d1bede2eede607d8e3e1f70ed965af381733a3f7",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea principiului și a limitelor HIDA.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    246
+   ],
+   "pdfPages": [
+    158
+   ],
+   "section": "Examinare imagistică — HIDA"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Hepatita poate da rezultate fals pozitive.",
+    "evidenceLocation": "Lawrence, p. 246, Examinare imagistică — HIDA"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Trasorul este excretat de ficat în bilă.",
+    "evidenceLocation": "Lawrence, p. 246, Examinare imagistică — HIDA"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "HIDA nu este utilă pentru calculii veziculari sau ai CBP.",
+    "evidenceLocation": "Lawrence, p. 246, Examinare imagistică — HIDA"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Se injectează un derivat de acid iminodiacetic marcat cu tehnețiu.",
+    "evidenceLocation": "Lawrence, p. 246, Examinare imagistică — HIDA"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Poate identifica fistule postoperatorii, dar este rar folosită în acest scop.",
+    "evidenceLocation": "Lawrence, p. 246, Examinare imagistică — HIDA"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-24T21:44:27.408Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii contrazic farmacocinetica și limitele."
+  },
+  "textbookExpressions": [
+   "iminodiacetic",
+   "fistule biliare postoperatorii"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a biliar-adv-051: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  }
 ]

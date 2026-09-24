@@ -23,12 +23,6 @@ q('tromboembolism-adv-066',['Trombii arteriali sunt descriși ca:',
  ['Coagulii arteriali sunt trombi albi, bogați în trombocite și fibrină.','Trombii roșii, bogați în hematii, sunt venoși.','Trombii roșii sunt venoși și bogați în hematii.','Trombii albi sunt bogați în trombocite.','Nu este descrierea citată.']],
  [8,'Distractorii descriu trombii venoși.'],['trombi albi','plăcilor ateromatoase']),
 
-q('tromboembolism-adv-067',['Tromboza este considerată cauza a aproximativ ce proporție din totalul deceselor mondiale anuale?',
- ['5%','10%','15%','25%','50%'],'D',1002,'Patogeneza trombozei',
- 'Fixarea ponderii globale a trombozei în mortalitate.',
- ['Nu este proporția citată.','Nu este proporția citată.','Nu este proporția citată.','Tromboza cauzează aproximativ 25% din decesele mondiale anuale.','Nu este proporția citată.']],
- [8,'Distractorii sunt proporții plauzibile.'],['25%','fiecare an']),
-
 q('tromboembolism-adv-001',['În triada lui Virchow:',
  ['staza și hipercoagulabilitatea sunt relevante pentru tromboza venoasă','turbulența și disfuncția parietală sunt factori ai trombozei arteriale','hipercoagulabilitatea este una dintre cele trei componente','staza este determinantul principal al trombozei arteriale','ruptura plăcii inițiază tromboza venoasă'],'ABC',1002,'Factorii care influențează tromboza',
  'Aplicarea triadei Virchow la tromboza arterială și venoasă.',

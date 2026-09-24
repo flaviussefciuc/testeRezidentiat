@@ -167,12 +167,6 @@ q('trauma-adv-009',['Prezentarea clasică a șocului neurogen include:',
  ['Clasic: tetraplegie, hipotensiune, bradicardie, extremități calde.','Descrie șocul hemoragic.','Nu este prezentarea citată.','Frecvența cardiacă nu crește.','Nu este prezentarea citată.']],
  [8,'Distractorii permută elementele triadei.'],['extremităţi calde','bradicardie']),
 
-q('trauma-adv-056',['În șocul neurogen, volumul vascular al unui adult de 70 kg, normal de aproximativ 5 L, poate crește la:',
- ['15 L','8 L','10 L','20 L','30 L'],'A',92,'Șocul neurogen',
- 'Explicarea hipotensiunii prin vasodilatație în șocul neurogen.',
- ['Volumul poate crește la 15 L.','Nu este valoarea citată.','Nu este valoarea citată.','Nu este valoarea citată.','Nu este valoarea citată.']],
- [8,'Distractorii sunt valori plauzibile.'],['15 L','5 L']),
-
 q('trauma-adv-057',['Examenul neurologic al coloanei:',
  ['începe la pacientul treaz cu rădăcinile distale de leziune','reține dermatomul mamelonului la T4','reține dermatomul ombilicului la L1','reține dermatomul deltoidului la C7','reține dermatomul mamelonului la T8'],'AB',92,'Leziunile coloanei vertebrale — Examen',
  'Aplicarea reperelor dermatomale.',
