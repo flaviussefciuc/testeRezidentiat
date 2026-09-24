@@ -64,3 +64,10 @@ Fiecare temă rescrisă (versiunile `-v2`) a fost confruntată din nou cu pagini
 - P. 155: pragul NEWS pentru solicitarea ajutorului apare în extras ca «scor NEWS total de 2 din 5 sau mai mare», probabil o eroare OCR/de traducere. Nu se construiește nicio cheie pe acest prag; se folosește doar NEWS 2 ≥5 ca prag de screening (p. 154).
 - P. 159 față de p. 167: terapia adjuvantă (rifampicină, acid fusidic) apare printre parametrii de evaluat în infecția severă cu S. aureus, dar p. 167 citează studiul britanic fără beneficiu clinic. Versiunea veche `-021` avea opțiunea «terapia adjuvantă este inutilă» marcată falsă. `-v2` nu mai testează această afirmație contradictorie. `-051-v2` testează doar faptul explicit că studiul nu a arătat beneficiu.
 - Retrase fără înlocuitor (parafraze): 005, 009, 018, 059, 068, 069, 075.
+
+### Stomac și duoden (Lawrence, cap. 13)
+- Nu s-au găsit chei greșite în cei 96 de itemi confruntați cu p. 167–168, 172–174 și 179–191.
+- P. 187: legenda Figurii 13-13 numește bypass-ul gastric «cea mai frecventă procedură bariatrică», în timp ce textul și Figura 13-11 arată gastrectomia longitudinală pe primul loc (125.496 față de 40.392 în 2016). Versiunile `-v2` urmează textul și datele numerice.
+- P. 180–181: textul plasează dumpingul precoce «la aproximativ 15 minute» și pe cel tardiv «la 3 ore», iar Tabelul 13-2 dă 15–30 de minute, respectiv 1–3 ore. Itemii folosesc intervalele din tabel, compatibile cu textul.
+- P. 182: proporția pacienților cu scaune dese după reconstrucție este ilizibilă în extras («unul din panu»); nu se folosește ca răspuns.
+- Retrase fără înlocuitor (trivia sau parafraze): 015, 029, 030, 055, 068, 071, 073, 075, 083, 088, 091, 092.

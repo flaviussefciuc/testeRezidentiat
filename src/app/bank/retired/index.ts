@@ -5,5 +5,6 @@ import {RETIRED_ESOFAG} from './esofag';
 import {RETIRED_HEMOSTAZA} from './hemostaza';
 import {RETIRED_HERNII} from './hernii';
 import {RETIRED_SEPSIS} from './sepsis';
+import {RETIRED_STOMAC} from './stomac';
 
-export const RETIRED_QUESTIONS:Question[]=[...RETIRED_ESOFAG,...RETIRED_HEMOSTAZA,...RETIRED_HERNII,...RETIRED_SEPSIS];
+export const RETIRED_QUESTIONS:Question[]=[...RETIRED_ESOFAG,...RETIRED_HEMOSTAZA,...RETIRED_HERNII,...RETIRED_SEPSIS,...RETIRED_STOMAC];
