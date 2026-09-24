@@ -71,3 +71,9 @@ Fiecare temă rescrisă (versiunile `-v2`) a fost confruntată din nou cu pagini
 - P. 180–181: textul plasează dumpingul precoce «la aproximativ 15 minute» și pe cel tardiv «la 3 ore», iar Tabelul 13-2 dă 15–30 de minute, respectiv 1–3 ore. Itemii folosesc intervalele din tabel, compatibile cu textul.
 - P. 182: proporția pacienților cu scaune dese după reconstrucție este ilizibilă în extras («unul din panu»); nu se folosește ca răspuns.
 - Retrase fără înlocuitor (trivia sau parafraze): 015, 029, 030, 055, 068, 071, 073, 075, 083, 088, 091, 092.
+
+### Reumatologie (Kumar, cap. 18)
+- **Paginare greșită corectată:** extrasul nu conține p. 455–456, deci p. 457–459 (LES) sunt PDF 85–87, nu PDF 87–89. Vechea formulă `p-370` lega p. 457 de PDF 87 (conținutul p. 459) și p. 459 de PDF 89 (capitolul de endocrinologie). `reumatologie-adv-038` (VSH/PCR în LES) și `-088` (tratament, prognostic, sarcină) citau p. 457, dar informația se află pe p. 459. Versiunile `-v2` citează p. 459, cu formula `p-372` pentru p. ≥457.
+- P. 453: losartanul este descris ca «antagonist al receptorilor angiotensinei I», o formulare imprecisă (este antagonist al receptorului AT1 al angiotensinei II). Itemul `-062-v2` testează doar efectul uricozuric, fără a folosi această formulare.
+- LES: tot conținutul folosit (inclusiv sarcina și anticorpii anti-Ro/anti-La) precede titlul «Sindromul antifosfolipidic» de pe p. 459, conform limitei din tematică.
+- Retrase ca parafraze sau trivia de dozare: 004, 013, 015, 075, 085.
