@@ -111,3 +111,9 @@ Fiecare temă rescrisă (versiunile `-v2`) a fost confruntată din nou cu pagini
 - P. 211: sindromul intestinului scurt se află între «Malrotația» și «Bolile apendicelui», în intervalul de pagini 209–211 al tematicii. Itemul `-022` a fost păstrat pe baza regulii intervalului de pagini.
 - P. 211: pragul de 180 cm apare în extras ca «<I 80 cm» (OCR). Valoarea este confirmată de logica pragurilor NPT (60 cm / 100 cm).
 - Retrase fără înlocuitor (dubluri sau trivia): 025 (dublura lui 006), 063 (a treia intervenție, trivia), 067 (proporția de 2%, trivia), 069 (inclus în 047).
+
+### Bolile sistemului vascular (Lawrence, cap. 26)
+- Nu s-au găsit chei greșite în cei 66 de itemi confruntați cu p. 520–527 și 534–541.
+- **Conținut la marginea intervalelor din tematică:** p. 520 începe cu anevrismele femurale și disecția de aortă, înaintea titlului «Boala arterială periferică». P. 534 începe cu boala vertebro-bazilară (furtul subclavicular), înaintea titlului «Bolile venelor». P. 541 se încheie cu «Traumatismele vasculare». Tematica indică doar intervalele de pagini (520–527, 534–541), fără limite de tip «până la», așa că itemii sunt păstrați după regula intervalului de pagini.
+- P. 522: textul inversează în extras semnul Buerger («eritroză de declivitate», paloare la ridicare). Itemii folosesc această formulare corectă, iar vechiul distractor inversat nu a fost reluat.
+- Retrase fără înlocuitor (dubluri sau trivia): 044 (inclus în 003), 047 (inclus în 048), 051 (valoare numerică dintr-o figură), 054 (frecvența sondei Doppler, trivia).

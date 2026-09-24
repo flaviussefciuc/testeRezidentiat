@@ -66,7 +66,7 @@ were found on that page. Cutoff-page and box checks for each topic are logged in
 
 ## Items relying on a Cadran / Figura / Tabel
 
-569 items, 86 resolved, 483 pending.
+569 items, 89 resolved, 480 pending.
 
 | Original ID | Topic | Status |
 |---|---|---|
@@ -636,6 +636,6 @@ were found on that page. Cutoff-page and box checks for each topic are logged in
 | urologie-adv-069 | urologie | pending (original still live) |
 | urologie-adv-090 | urologie | pending (original still live) |
 | urologie-adv-101 | urologie | pending (original still live) |
-| vascular-adv-022 | vascular | pending (original still live) |
-| vascular-adv-031 | vascular | pending (original still live) |
-| vascular-adv-051 | vascular | pending (original still live) |
+| vascular-adv-022 | vascular | replaced by vascular-adv-022-v2 (p. 539; expressions verified on the cited page) |
+| vascular-adv-031 | vascular | replaced by vascular-adv-031-v2 (p. 526; expressions verified on the cited page) |
+| vascular-adv-051 | vascular | retired without replacement |

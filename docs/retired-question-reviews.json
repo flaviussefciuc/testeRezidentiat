@@ -62557,5 +62557,5099 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-001",
+  "questionFingerprint": "5bf6c6b21caad579bbd26715a1c63b8ad68e56de95200d27166e218e131f12e8",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea tipului A (chirurgie de urgență) de tipul B (control tensional și dp/dt) după clasificarea Stanford.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    520
+   ],
+   "pdfPages": [
+    205
+   ],
+   "section": "Disecția de aortă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Interesarea aortei ascendente și indicația de chirurgie în urgență sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 520, Disecția de aortă"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Originea distal de subclaviculara stângă definește tipul B.",
+    "evidenceLocation": "Lawrence, p. 520, Disecția de aortă"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Scăderea TA, a frecvenței și a dp/dt este strategia medicală a tipului B.",
+    "evidenceLocation": "Lawrence, p. 520, Disecția de aortă"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Tipul B necomplicat se tratează medical; chirurgia se rezervă rupturii, ischemiei de organ sau anevrismului cu risc de ruptură.",
+    "evidenceLocation": "Lawrence, p. 520, Disecția de aortă"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Diagnosticul se confirmă prin ecocardiografie transesofagiană, CT sau angiografie, nu prin radiografie simplă.",
+    "evidenceLocation": "Lawrence, p. 520, Disecția de aortă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T15:31:57.229Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează indicația de urgență între tipul A și B, pe o clasificare Stanford ușor de oglindit."
+  },
+  "textbookExpressions": [
+   "tip A Stanford",
+   "tip B Stanford"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-002",
+  "questionFingerprint": "86c8d867005f783629e1096e2a1b0e29719ca57d26d070c6380f52f82b8746c6",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea arterei femurale superficiale în canalul Hunter ca sediu predilect al bolii femuro-popliteale.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    520
+   ],
+   "pdfPages": [
+    205
+   ],
+   "section": "Boala arterială periferică — Localizare"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Textul identifică AFS în canalul adductorilor (Hunter) ca localizarea cea mai frecventă.",
+    "evidenceLocation": "Lawrence, p. 520, Boala arterială periferică — Localizare"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Artera femurală profundă poate asigura colaterale în repaus, nu este sediul predilect.",
+    "evidenceLocation": "Lawrence, p. 520, Boala arterială periferică — Localizare"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Boala ocluzivă tibială (sub trifurcație) este tipică diabetului, insuficienței renale terminale și vârstei înaintate.",
+    "evidenceLocation": "Lawrence, p. 520, Boala arterială periferică — Localizare"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Boala aorto-iliacă predilectă la 45–65 de ani nu este localizarea femuro-popliteală.",
+    "evidenceLocation": "Lawrence, p. 520, Boala arterială periferică — Localizare"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Arterele tibiale definesc boala ocluzivă tibială, nu sediul femuro-popliteal clasic.",
+    "evidenceLocation": "Lawrence, p. 520, Boala arterială periferică — Localizare"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T15:31:57.229Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Mută sediul clasic Hunter către AFP, tibiale sau aorto-iliac, entități învecinate din aceeași pagină."
+  },
+  "textbookExpressions": [
+   "arterei femurale",
+   "canalul adductorilor"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-003",
+  "questionFingerprint": "b24b55f594e5a8fcf95a4f1a134e91e55fe861f999317f590d6883b33b654e34",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea pragurilor IGB (0,9 / 0,8 / 0,4) față de morfologia undei Doppler și de semnul Buerger.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    522
+   ],
+   "pdfPages": [
+    207
+   ],
+   "section": "Evaluarea BAP — IGB și Doppler"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Pragul >0,9 ca valoare normală este citat.",
+    "evidenceLocation": "Lawrence, p. 522, Evaluarea BAP — IGB și Doppler"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Corespondența <0,8–claudicație și <0,4–durere de repaus/leziuni este explicită.",
+    "evidenceLocation": "Lawrence, p. 522, Evaluarea BAP — IGB și Doppler"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Unda normală este trifazică; stenoza o face bifazică, apoi monofazică.",
+    "evidenceLocation": "Lawrence, p. 522, Evaluarea BAP — IGB și Doppler"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "La claudicație, IGB scade când apar simptomele pe bandă.",
+    "evidenceLocation": "Lawrence, p. 522, Evaluarea BAP — IGB și Doppler"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "În declivitate piciorul devine roșu (rubor), iar la ridicare palid — inversul enunțului.",
+    "evidenceLocation": "Lawrence, p. 522, Evaluarea BAP — IGB și Doppler"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T15:31:57.229Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează secvența trifazic→monofazic și semnul Buerger, pe pragurile IGB care se memorează greșit."
+  },
+  "textbookExpressions": [
+   "1GB >0.9",
+   "1GB <0.4"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-004",
+  "questionFingerprint": "c572b25d132656aa5c3e4eeea87ec1eb3d6ecc4e1413574230f73aed9dbfd4f3",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea rolului endarterectomiei carotidiene de limitele ei în BAP, cu patența aortofemurală și dual antiplachetar post-PTA.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    525
+   ],
+   "pdfPages": [
+    210
+   ],
+   "section": "Tratamentul BAP — Endovascular și chirurgical"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Contrastul carotidă versus membre inferioare (leziuni extinse, fără zone clare de început/sfârșit) este explicit.",
+    "evidenceLocation": "Lawrence, p. 525, Tratamentul BAP — Endovascular și chirurgical"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Patența >90% la 5 ani a bypassului aortofemural este citată.",
+    "evidenceLocation": "Lawrence, p. 525, Tratamentul BAP — Endovascular și chirurgical"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Schema clopidogrel+aspirină ≥6 săptămâni, apoi aspirină nelimitat, este descrisă.",
+    "evidenceLocation": "Lawrence, p. 525, Tratamentul BAP — Endovascular și chirurgical"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Patența iliaca 70–90% la 1 an este menționată.",
+    "evidenceLocation": "Lawrence, p. 525, Tratamentul BAP — Endovascular și chirurgical"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Angioplastia infrapopliteală este rezervată pacienților cu risc chirurgical, bypass limitat sau ulcer limitat al piciorului.",
+    "evidenceLocation": "Lawrence, p. 525, Tratamentul BAP — Endovascular și chirurgical"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T15:31:57.229Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Împerechează patențe (90% la 5 ani vs 70–90% la 1 an) cu indicația carotidă a endarterectomiei, ușor de generalizat la membru."
+  },
+  "textbookExpressions": [
+   "peste 90%",
+   "Clopidogrelul"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-005",
+  "questionFingerprint": "301e9f529a89da91c6e40cd19467c0cc1c8ad8096e7ef0445d27fc3394228334",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea pragului de două vase, a anginei intestinale cronice și a compromisului patență versus morbiditate PTA/bypass.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    527,
+    526
+   ],
+   "pdfPages": [
+    212,
+    211
+   ],
+   "section": "Ischemia mezenterică cronică"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Textul leagă simptomele de ocluzia a 2 din 3 artere principale.",
+    "evidenceLocation": "Lawrence, p. 527, 526, Ischemia mezenterică cronică"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Durerea postprandială precoce și frica alimentară cu scădere ponderală sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 527, 526, Ischemia mezenterică cronică"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Cifrele ~70% PTA versus >90% bypass la 3 ani sunt citate.",
+    "evidenceLocation": "Lawrence, p. 527, 526, Ischemia mezenterică cronică"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Celelalte două artere compensează prin gastroduodenală și arcada marginală; infarctul nu urmează stenozei unui singur vas.",
+    "evidenceLocation": "Lawrence, p. 527, 526, Ischemia mezenterică cronică"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Deși patența PTA este inferioară, morbiditatea imediată este mai mică, deci stentarea este preferată la vârstnici malnutriți.",
+    "evidenceLocation": "Lawrence, p. 527, 526, Ischemia mezenterică cronică"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T15:31:57.229Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează alegerea PTA versus bypass la vârstnicul malnutrit și neagă circulația colaterală între cele trei trunchiuri."
+  },
+  "textbookExpressions": [
+   "2 din cele 3",
+   "pentru bypass la 3 ani"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-006",
+  "questionFingerprint": "b4467b16a206cbba58363df9254f58b4083933c9c4915169def6723f2c9da7e9",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea inversării de flux vertebral la efortul brațului ca mecanism al furtului subclavicular.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    534
+   ],
+   "pdfPages": [
+    213
+   ],
+   "section": "Boala vertebro-bazilară — Sindromul de furt subclavicular"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Textul descrie scăderea rezistenței la efort, inversarea fluxului vertebral și scăderea perfuziei bazilare.",
+    "evidenceLocation": "Lawrence, p. 534, Boala vertebro-bazilară — Sindromul de furt subclavicular"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Incidența este de 3–4 ori mai mare pe stânga, artera subclaviculară stângă fiind mai lungă.",
+    "evidenceLocation": "Lawrence, p. 534, Boala vertebro-bazilară — Sindromul de furt subclavicular"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Presiunea brahială ipsilaterală este redusă cu cel puțin 15 mmHg.",
+    "evidenceLocation": "Lawrence, p. 534, Boala vertebro-bazilară — Sindromul de furt subclavicular"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "La stenoza carotidă asociată, endarterectomia carotidă singură poate ameliora simptomele prin colaterale.",
+    "evidenceLocation": "Lawrence, p. 534, Boala vertebro-bazilară — Sindromul de furt subclavicular"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Angioplastia subclaviculară, bypassul carotido-subclavicular și reimplantarea restabilesc fluxul anterograd vertebral.",
+    "evidenceLocation": "Lawrence, p. 534, Boala vertebro-bazilară — Sindromul de furt subclavicular"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T15:31:57.229Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează predilecția stânga/dreapta și pragul de 15 mmHg, pe un mecanism de furt ușor de oglindit."
+  },
+  "textbookExpressions": [
+   "cel puţin 15 mmHg",
+   "3--4 ori mai mare"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-007",
+  "questionFingerprint": "a44b76773b805f4c961dddfc12f46823a74e3428a92f4a3fa12b38e3a8089b79",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea riscului mai mic față de popliteu și a contraindicației de stent-graft în zona de flexie.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    520
+   ],
+   "pdfPages": [
+    205
+   ],
+   "section": "Anevrismul arterei femurale"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Morbiditatea redusă, embolizarea rară și bypass-ul (nu stent-graft) sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 520, Anevrismul arterei femurale"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Stent-graftul este nrecomandat tocmai din cauza mobilității.",
+    "evidenceLocation": "Lawrence, p. 520, Anevrismul arterei femurale"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Popliteele, nu femuralele, embolizează/trombozează mai des.",
+    "evidenceLocation": "Lawrence, p. 520, Anevrismul arterei femurale"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "EVAR ține de aorta abdominală.",
+    "evidenceLocation": "Lawrence, p. 520, Anevrismul arterei femurale"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Tratamentul implică bypass cu interpoziție.",
+    "evidenceLocation": "Lawrence, p. 520, Anevrismul arterei femurale"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Pune stent-graftul — contraindicat în zona de flexie — ca tratament de elecție al anevrismului femural."
+  },
+  "textbookExpressions": [
+   "arteră femurală",
+   "graft-stent"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-008",
+  "questionFingerprint": "31a6c6bc2a7579231057ae9975602dccc58ee21141186d3048fe83d5dc01e2a2",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea relației ΔP ∝ 1/r² și a pragurilor 50% diametru / 75% arie, plus remodelarea până la 40%.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    520,
+    521
+   ],
+   "pdfPages": [
+    205,
+    206
+   ],
+   "section": "Fiziologie — Poiseuille și pragul de stenoză"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Proporționalitățile și predominanța razei sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 520, 521, Fiziologie — Poiseuille și pragul de stenoză"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Pragurile 50% diametru și 75% arie sunt citate.",
+    "evidenceLocation": "Lawrence, p. 520, 521, Fiziologie — Poiseuille și pragul de stenoză"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Remodelarea compensatorie până la >40% este pe pagina următoare.",
+    "evidenceLocation": "Lawrence, p. 520, 521, Fiziologie — Poiseuille și pragul de stenoză"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "ΔP crește când raza scade.",
+    "evidenceLocation": "Lawrence, p. 520, 521, Fiziologie — Poiseuille și pragul de stenoză"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "75% arie, nu 10%, corespunde stenozei de 50% diametru.",
+    "evidenceLocation": "Lawrence, p. 520, 521, Fiziologie — Poiseuille și pragul de stenoză"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Permutează 50% diametru cu 75% arie și inversează relația rază–ΔP."
+  },
+  "textbookExpressions": [
+   "50%",
+   "75%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-009",
+  "questionFingerprint": "b41377e097bd5d6d30cce74f7f0096f57715a46d6c8e61362c54e2ad09deb257",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea amputației de 5%/5 ani cu ameliorarea de 50% prin fumat/exercițiu și cu decesul cardio-cerebral.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    521
+   ],
+   "pdfPages": [
+    206
+   ],
+   "section": "Claudicația — Framingham și prognostic"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cifra Framingham 5% la 5 ani este explicită.",
+    "evidenceLocation": "Lawrence, p. 521, Claudicația — Framingham și prognostic"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "50% ameliorare și decesul cardiac/cerebral sunt citate.",
+    "evidenceLocation": "Lawrence, p. 521, Claudicația — Framingham și prognostic"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "5%, nu 50% în primul an, este riscul de amputație; decesul este sistemic.",
+    "evidenceLocation": "Lawrence, p. 521, Claudicația — Framingham și prognostic"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Exercițiile supravegheate ameliorează.",
+    "evidenceLocation": "Lawrence, p. 521, Claudicația — Framingham și prognostic"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Fumatul și ateroscleroza sistemică sunt centrali.",
+    "evidenceLocation": "Lawrence, p. 521, Claudicația — Framingham și prognostic"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Permutează 5% (amputație) cu 50% (ameliorare) și mută cauza decesului de pe cord/creier pe membru."
+  },
+  "textbookExpressions": [
+   "5% la",
+   "50% din pacienţii"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-010",
+  "questionFingerprint": "2f9f463f1bf387b0bf04edbc297ae1cbe756aa548a482320c9c65eab306f236c",
+  "status": "source-checked",
+  "learningObjective": "Maparea Leriche (aorto-iliac) versus claudicația de gambă din AFS, cu scutirea piciorului.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    521
+   ],
+   "pdfPages": [
+    206
+   ],
+   "section": "Claudicație — Leriche și AFS"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Triada Leriche este explicită.",
+    "evidenceLocation": "Lawrence, p. 521, Claudicație — Leriche și AFS"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Gamba, nu coapsa, și rolul AFP sunt citate.",
+    "evidenceLocation": "Lawrence, p. 521, Claudicație — Leriche și AFS"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Regula „distal de obstrucție” și scutirea piciorului sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 521, Claudicație — Leriche și AFS"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "AFS nu claudică la coapsă.",
+    "evidenceLocation": "Lawrence, p. 521, Claudicație — Leriche și AFS"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Leriche include impotența, nu doar durerea de repaus.",
+    "evidenceLocation": "Lawrence, p. 521, Claudicație — Leriche și AFS"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Mută claudicația AFS pe coapsă și golește Leriche de impotență, două localizări din același paragraf."
+  },
+  "textbookExpressions": [
+   "sindromul Leriche",
+   "arterei femurale profunde"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-011",
+  "questionFingerprint": "a5594bc509c8af9f6933cea11356a77f193d5e2a6d0bc1abbf659ff9c4247f91",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea sediului distal (degete/metatarsiene), a predilecției nocturne și a alinării prin declivitate.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    521
+   ],
+   "pdfPages": [
+    206
+   ],
+   "section": "Durerea de repaus ischemică"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Sediul, nocturnul și alinarea declivă prin presiune hidrostatică sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 521, Durerea de repaus ischemică"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Crampele de gambă se diferențiază tocmai prin localizare și absența ischemiei cutanate.",
+    "evidenceLocation": "Lawrence, p. 521, Durerea de repaus ischemică"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "În Buerger, declivitatea produce rubor, ridicarea paloare.",
+    "evidenceLocation": "Lawrence, p. 521, Durerea de repaus ischemică"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Ridicarea scade presiunea hidrostatică și agravează ischemia.",
+    "evidenceLocation": "Lawrence, p. 521, Durerea de repaus ischemică"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Piciorul distal, nu gamba/articulațiile, este sediul.",
+    "evidenceLocation": "Lawrence, p. 521, Durerea de repaus ischemică"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Confundă durerea de repaus (degete) cu crampele de gambă, distincția din același paragraf."
+  },
+  "textbookExpressions": [
+   "Durerea de repaus",
+   "poziţionarea declivă"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-012",
+  "questionFingerprint": "ab6bf2c9d1407ce49940fe1cdcff65ce9fc8ad18df1198897a71911b0cd5d3d8",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea sediului (digital/maleolar/plantar) și a prognosticului 50%/50%.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    521,
+    522
+   ],
+   "pdfPages": [
+    206,
+    207
+   ],
+   "section": "Ulcere arteriale, venoase, diabetice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Caracterele ulcerului arterial sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 521, 522, Ulcere arteriale, venoase, diabetice"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Sediul maleolar venos este citat.",
+    "evidenceLocation": "Lawrence, p. 521, 522, Ulcere arteriale, venoase, diabetice"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Sediul plantar/lateral diabetic și Charcot sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 521, 522, Ulcere arteriale, venoase, diabetice"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Cele două cifre de 50% (amputație; supraviețuire la 2 ani) sunt pe pagina următoare.",
+    "evidenceLocation": "Lawrence, p. 521, 522, Ulcere arteriale, venoase, diabetice"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Maleolarul nedureros descrie venosul, nu arterialul.",
+    "evidenceLocation": "Lawrence, p. 521, 522, Ulcere arteriale, venoase, diabetice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Egalizează cele trei ulcere pe maleolă și pierde cele două prognostice de 50%."
+  },
+  "textbookExpressions": [
+   "maleolelor",
+   "rata de supravieţuire la 2 ani"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-013",
+  "questionFingerprint": "e91a6c5a67e70f6b873531d9d639dd377382f01c21f3a6ee7bbddef299a418b7",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea mumificării uscate de infecția umedă și recunoașterea diabetului ca principală cauză de amputație.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    522
+   ],
+   "pdfPages": [
+    207
+   ],
+   "section": "Gangrenă și amputație"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Contrastul uscat/umed este explicit.",
+    "evidenceLocation": "Lawrence, p. 522, Gangrenă și amputație"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Diabetul ca principală cauză de amputație este citat.",
+    "evidenceLocation": "Lawrence, p. 522, Gangrenă și amputație"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Sepsisul și nevoia de debridare plus revascularizare sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 522, Gangrenă și amputație"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Umeda, nu uscata, este forma septicemică.",
+    "evidenceLocation": "Lawrence, p. 522, Gangrenă și amputație"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Framingham arată amputație rară în claudicație; diabetul conduce amputațiile.",
+    "evidenceLocation": "Lawrence, p. 522, Gangrenă și amputație"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează uscat versus umed și atribuie amputația claudicației, nu diabetului."
+  },
+  "textbookExpressions": [
+   "Gangrena uscată",
+   "Gangrena umedă"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-014",
+  "questionFingerprint": "6630c8c35d5ce6825d4ef51458aae4a194e443bc6643506e4d05c3169b99d29d",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea forței radiale (oțel pe balon, origini calcificate) cu flexibilitatea nitinolului pe vase lungi/sinuoase.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    524
+   ],
+   "pdfPages": [
+    209
+   ],
+   "section": "Stenturi expandabile versus nitinol"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Indicația oțel-balon pe origini calcificate este explicită.",
+    "evidenceLocation": "Lawrence, p. 524, Stenturi expandabile versus nitinol"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Nitinolul flexibil, forța mai mică și riscul de fractură la flexie sunt citate.",
+    "evidenceLocation": "Lawrence, p. 524, Stenturi expandabile versus nitinol"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nitinolul are forță radială mai mică, nu maximă.",
+    "evidenceLocation": "Lawrence, p. 524, Stenturi expandabile versus nitinol"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Expandabilele pe balon sunt tocmai pentru origini.",
+    "evidenceLocation": "Lawrence, p. 524, Stenturi expandabile versus nitinol"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Fractura este un risc recunoscut la flexie.",
+    "evidenceLocation": "Lawrence, p. 524, Stenturi expandabile versus nitinol"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează forța radială și sediul (origine calcificată versus AFS sinuoasă) între cele două stenturi."
+  },
+  "textbookExpressions": [
+   "oţel inoxidabil",
+   "nitinol"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-015",
+  "questionFingerprint": "7d6c5de75d78d855b3d79d2fe0e82c2118e03a8169ab6dbfabb1892771d8edce",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea ferestrei 6 luni–1 an, a mecanismului neointimal și a contrastului de patență iliac versus infrainghinal.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    525
+   ],
+   "pdfPages": [
+    210
+   ],
+   "section": "Restenoză, hiperplazie neointimală și TASC"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Fereastra 6 luni–1 an și mecanismul inflamator sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 525, Restenoză, hiperplazie neointimală și TASC"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "TASC după localizare, stenoză și lungime este citat.",
+    "evidenceLocation": "Lawrence, p. 525, Restenoză, hiperplazie neointimală și TASC"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "70–90% iliac versus 20–50% eșec infrainghinal sunt menționate.",
+    "evidenceLocation": "Lawrence, p. 525, Restenoză, hiperplazie neointimală și TASC"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Hiperplazia limitează eficacitatea, nu protejează.",
+    "evidenceLocation": "Lawrence, p. 525, Restenoză, hiperplazie neointimală și TASC"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "TASC este o clasificare arterială.",
+    "evidenceLocation": "Lawrence, p. 525, Restenoză, hiperplazie neointimală și TASC"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Anulează hiperplazia neointimală și permutează patențele iliac/infrainghinal."
+  },
+  "textbookExpressions": [
+   "6 luni şi 1 an",
+   "TASC"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-016",
+  "questionFingerprint": "5250d632163d2857655d0f4ffb9e9f35a4994a49fefd1dbb71d58bb6f98152bc",
+  "status": "source-checked",
+  "learningObjective": "Poziționarea axilo-/femuro-femuralului în abdomenul ostil, cu patență inferioară aortofemuralului.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    525
+   ],
+   "pdfPages": [
+    210
+   ],
+   "section": "Bypass extra-anatomic"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Indicația de abdomen ostil, traseul subcutanat și anestezia locală sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 525, Bypass extra-anatomic"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Patența inferioară, mecanismele de ocluzie și rolul anticoagulării sunt citate.",
+    "evidenceLocation": "Lawrence, p. 525, Bypass extra-anatomic"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Aortofemuralul are >90% la 5 ani; extra-anatomicul este inferior.",
+    "evidenceLocation": "Lawrence, p. 525, Bypass extra-anatomic"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Tunelizarea este subcutanată, nu transperitoneală de principiu.",
+    "evidenceLocation": "Lawrence, p. 525, Bypass extra-anatomic"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Extra-anatomicul există tocmai pentru abdomenul ostil.",
+    "evidenceLocation": "Lawrence, p. 525, Bypass extra-anatomic"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Supraestimează patența extra-anatomică peste aortofemural și cere abord transperitoneal."
+  },
+  "textbookExpressions": [
+   "abdomen ostil",
+   "axilo-femurale"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-017",
+  "questionFingerprint": "936b00c4f1e05964200c27cad244bb169d4f557cd015b11fd136bcf4c20d7a31",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea echivalenței deasupra genunchiului cu superioritatea venei sub genunchi și a opțiunii in situ.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    525,
+    526
+   ],
+   "pdfPages": [
+    210,
+    211
+   ],
+   "section": "Bypass infrainghinal — Venă versus proteză"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Echivalența inițială supra-genunchi este explicită.",
+    "evidenceLocation": "Lawrence, p. 525, 526, Bypass infrainghinal — Venă versus proteză"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Inferioritatea sinteticei sub genunchi este citată.",
+    "evidenceLocation": "Lawrence, p. 525, 526, Bypass infrainghinal — Venă versus proteză"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Inversarea versus in situ, cu avantaje/dezavantaje, este descrisă.",
+    "evidenceLocation": "Lawrence, p. 525, 526, Bypass infrainghinal — Venă versus proteză"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Sub genunchi vena este superioară.",
+    "evidenceLocation": "Lawrence, p. 525, 526, Bypass infrainghinal — Venă versus proteză"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "In situ distruge valvele cu valvulotomul.",
+    "evidenceLocation": "Lawrence, p. 525, 526, Bypass infrainghinal — Venă versus proteză"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează ierarhia venă/proteză sub genunchi și păstrează greșit valvele în tehnica in situ."
+  },
+  "textbookExpressions": [
+   "deasupra genunchiului",
+   "grefon venos autolog"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-018",
+  "questionFingerprint": "224a8227a78539778bc43cb7cee2498cf2183405367bc08e935b11d896d9d1ba",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea redenumirii menite să evidențieze caracterul profund și riscul de EP.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    534
+   ],
+   "pdfPages": [
+    213
+   ],
+   "section": "Nomenclatură — Vena femurală"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Textul explică redenumirea prin confuzie și risc de EP.",
+    "evidenceLocation": "Lawrence, p. 534, Nomenclatură — Vena femurală"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu este o venă superficială.",
+    "evidenceLocation": "Lawrence, p. 534, Nomenclatură — Vena femurală"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Motivația este emboligenă, nu alinierea la AFP.",
+    "evidenceLocation": "Lawrence, p. 534, Nomenclatură — Vena femurală"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "TVP a acestei vene este relevantă embolic.",
+    "evidenceLocation": "Lawrence, p. 534, Nomenclatură — Vena femurală"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "85–90% din întoarcere e profundă; stripping-ul superficial e permis doar dacă profundul e patent.",
+    "evidenceLocation": "Lawrence, p. 534, Nomenclatură — Vena femurală"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Tratează vena femurală (ex-superficială) ca venă superficială neemboligenă, capcana nomenclaturii."
+  },
+  "textbookExpressions": [
+   "femurală superficială",
+   "embolie pulmonară"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-019",
+  "questionFingerprint": "c112ef613a1aa38ecce471e6f752066ada3e38ed8e3c10b240027e46b61d80cd",
+  "status": "source-checked",
+  "learningObjective": "Reținerea triadului 40% / 6% ulcer / 70% după 70 de ani și a apelului la profilaxia TVP.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    534
+   ],
+   "pdfPages": [
+    213
+   ],
+   "section": "Boala venoasă — Epidemiologie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "40% este explicit.",
+    "evidenceLocation": "Lawrence, p. 534, Boala venoasă — Epidemiologie"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "6% ulcer lifetime și 70% după 70 de ani sunt citate.",
+    "evidenceLocation": "Lawrence, p. 534, Boala venoasă — Epidemiologie"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Decesul postoperator prin TVP și apelul la profilaxie sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 534, Boala venoasă — Epidemiologie"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "40%, nu 5%; vârsta crește incidența.",
+    "evidenceLocation": "Lawrence, p. 534, Boala venoasă — Epidemiologie"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "La toți pacienții chirurgicali cu risc trebuie avută în vedere o formă de profilaxie.",
+    "evidenceLocation": "Lawrence, p. 534, Boala venoasă — Epidemiologie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Coboară 40% sub 5% și anulează profilaxia TVP, pe trei procente memorabile."
+  },
+  "textbookExpressions": [
+   "40% dintre",
+   "6% de a dezvolta"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-020",
+  "questionFingerprint": "00190a95406bdff47e079ac2035819ed60e44f0caa899e211631fe6073d4d02a",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea dublării venelor tibiale/peroniere (6 versus 3 artere) și a conținutului sistemului superficial.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    534
+   ],
+   "pdfPages": [
+    213
+   ],
+   "section": "Anatomie venoasă — Șase vene de gambă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Perechile și totalul de șase vene versus trei artere sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 534, Anatomie venoasă — Șase vene de gambă"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Safena mare, mică și afluenții definesc superficialul.",
+    "evidenceLocation": "Lawrence, p. 534, Anatomie venoasă — Șase vene de gambă"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Textul precizează că sunt aproape întotdeauna pereche.",
+    "evidenceLocation": "Lawrence, p. 534, Anatomie venoasă — Șase vene de gambă"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Safena mare este superficială.",
+    "evidenceLocation": "Lawrence, p. 534, Anatomie venoasă — Șase vene de gambă"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Perforantele dirijează sângele din superficial spre profund; incompetența permite refluxul invers.",
+    "evidenceLocation": "Lawrence, p. 534, Anatomie venoasă — Șase vene de gambă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Reduce cele șase vene pereche la trei vene unice și mută safena în compartimentul profund."
+  },
+  "textbookExpressions": [
+   "şase vene profunde",
+   "trei at1ere"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-021",
+  "questionFingerprint": "86c1db53f433d8472ee368c3932dbe247b2ce345a50a06c98f73da756275642f",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea triadei, a pompării musculare și a lipodermatosclerozei ca stadiu final de gambă.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    535
+   ],
+   "pdfPages": [
+    214
+   ],
+   "section": "Virchow și lipodermatoscleroza"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cele trei elemente și trauma ca leziune endotelială sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 535, Virchow și lipodermatoscleroza"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Cascada presiune–exudat–fibroză de gambă este descrisă.",
+    "evidenceLocation": "Lawrence, p. 535, Virchow și lipodermatoscleroza"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Contrastul pompă musculară profundă versus superficial fără pompă este citat.",
+    "evidenceLocation": "Lawrence, p. 535, Virchow și lipodermatoscleroza"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Triada nu este HTA.",
+    "evidenceLocation": "Lawrence, p. 535, Virchow și lipodermatoscleroza"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Sediul este gamba, unde presiunea ortostatică e maximă.",
+    "evidenceLocation": "Lawrence, p. 535, Virchow și lipodermatoscleroza"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Mută lipodermatoscleroza pe membrul superior și golește triada Virchow de stază."
+  },
+  "textbookExpressions": [
+   "staza, leziunile endoteliale",
+   "lipodermatoscleroza"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-022",
+  "questionFingerprint": "a89ca6f0bc12cad0b75f98861fcb947915de8a3a450f7ebc85e626d97c507e62",
+  "status": "source-checked",
+  "learningObjective": "Reținerea celor patru procente (70/80/45/25–30) față de raritatea semnelor radiografice clasice.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    539
+   ],
+   "pdfPages": [
+    218
+   ],
+   "section": "Tabelul 26-4 — Embolia pulmonară"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "70% durere pleuritică este tabelat.",
+    "evidenceLocation": "Lawrence, p. 539, Tabelul 26-4 — Embolia pulmonară"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "80% dispnee/tahipnee este tabelat.",
+    "evidenceLocation": "Lawrence, p. 539, Tabelul 26-4 — Embolia pulmonară"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "45% tahicardie este tabelat.",
+    "evidenceLocation": "Lawrence, p. 539, Tabelul 26-4 — Embolia pulmonară"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "25–30% hemoptizie este tabelat.",
+    "evidenceLocation": "Lawrence, p. 539, Tabelul 26-4 — Embolia pulmonară"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Radiografia este rareori diagnostică; pana de atelectazie este rară.",
+    "evidenceLocation": "Lawrence, p. 539, Tabelul 26-4 — Embolia pulmonară"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Patru procente din tabel versus mitul radiografiei „în pană”, ușor de memorat greșit."
+  },
+  "textbookExpressions": [
+   "70%",
+   "80%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-023",
+  "questionFingerprint": "301fcea3dd07738e7ef12ab3aa185e652d02335f54c5344deab2f093eccb9872",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea triadului CT / V/Q / angiografie, cu performanța >98% a angiografiei invazive.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    539
+   ],
+   "pdfPages": [
+    218
+   ],
+   "section": "Diagnosticul emboliei pulmonare"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cele trei modalități și cifra >98% sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 539, Diagnosticul emboliei pulmonare"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Radiografia este rareori diagnostică.",
+    "evidenceLocation": "Lawrence, p. 539, Diagnosticul emboliei pulmonare"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "D-dimerii nu sunt menționați ca substitut al imagisticii de confirmare.",
+    "evidenceLocation": "Lawrence, p. 539, Diagnosticul emboliei pulmonare"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "CT-ul toracic evidențiază trombul pulmonar.",
+    "evidenceLocation": "Lawrence, p. 539, Diagnosticul emboliei pulmonare"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Angiografia are >98%, nu sub 50%; scintigrafia rămâne o opțiune.",
+    "evidenceLocation": "Lawrence, p. 539, Diagnosticul emboliei pulmonare"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Înlocuiește CT/V/Q/angiografia cu radiografia simplă și coboară sensibilitatea angiografică de la >98% sub 50%."
+  },
+  "textbookExpressions": [
+   ">98%",
+   "angiografia pulmonară"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-024",
+  "questionFingerprint": "1264b9dfe0a92773fd599561a3b397f44ce198bceeed784db4a8daed5c33ed48",
+  "status": "source-checked",
+  "learningObjective": "Ierarhia anticoagulant → tromboliză la simptomaticul stabil → filtru cav la contraindicație/recidivă.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    539
+   ],
+   "pdfPages": [
+    218
+   ],
+   "section": "EP — Anticoagulare, tromboliză, filtru cav"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Anticoagularea și inotopia sunt prima linie.",
+    "evidenceLocation": "Lawrence, p. 539, EP — Anticoagulare, tromboliză, filtru cav"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Tromboliza la stabilul simptomatic este citată.",
+    "evidenceLocation": "Lawrence, p. 539, EP — Anticoagulare, tromboliză, filtru cav"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Indicațiile, căile de implantare și explantarea filtrului sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 539, EP — Anticoagulare, tromboliză, filtru cav"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu există corelație directă mărime–supraviețuire; embolii mici multipli pot cauza colaps.",
+    "evidenceLocation": "Lawrence, p. 539, EP — Anticoagulare, tromboliză, filtru cav"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Textul cere îndepărtarea pentru a preveni migrare, perforație, ocluzie.",
+    "evidenceLocation": "Lawrence, p. 539, EP — Anticoagulare, tromboliză, filtru cav"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Atribuie prognosticul exclusiv mărimii trombului și lasă filtrul cav permanent, contrar paragrafului de explantare."
+  },
+  "textbookExpressions": [
+   "filtru cav",
+   "trombolitic"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-025",
+  "questionFingerprint": "53ee19a0b5b7f417d0aa7bed39d13e249f6dbed97b9eedd1372da26be42ddcf8",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea ponderii de 85–90% a sistemului profund și a pragului >1,5 cm pentru ligatură versus ablație.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    540,
+    539
+   ],
+   "pdfPages": [
+    219,
+    218
+   ],
+   "section": "Varice — 85–90% profund și tehnici"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "85–90% și condiția de patență profundă sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 540, 539, Varice — 85–90% profund și tehnici"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Pragul >1,5 cm și recidiva superioară stripping-ului sunt citate.",
+    "evidenceLocation": "Lawrence, p. 540, 539, Varice — 85–90% profund și tehnici"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Tehnicile endovenoase prin puncție sub genunchi sunt listate.",
+    "evidenceLocation": "Lawrence, p. 540, 539, Varice — 85–90% profund și tehnici"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Stripping-ul are recuperare mai lungă și durere mai mare decât minim-invazivul.",
+    "evidenceLocation": "Lawrence, p. 540, 539, Varice — 85–90% profund și tehnici"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Ablația superficială e permisă tocmai când profundul e patent.",
+    "evidenceLocation": "Lawrence, p. 540, 539, Varice — 85–90% profund și tehnici"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează 85–90% (profund) cu dependența de safenă și reabilitează stripping-ul ca mai puțin dureros."
+  },
+  "textbookExpressions": [
+   "85-90%",
+   "> 1,5 cm"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-026",
+  "questionFingerprint": "6ec4926100e09fb6d523cf7d38e02f8c446b50d0d1d1c426af77de8c9ec6ed3d",
+  "status": "source-checked",
+  "learningObjective": "Legarea hipertensiunii venoase (valve/obstrucție/perforante) de edemul și hiperpigmentarea maleolară.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    540
+   ],
+   "pdfPages": [
+    219
+   ],
+   "section": "Insuficiența venoasă cronică"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cele trei cauze de hipertensiune venoasă sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 540, Insuficiența venoasă cronică"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Edemul, hiperpigmentarea și ulcerele, cu sediu maleolar, sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 540, Insuficiența venoasă cronică"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu este o arteriopatie.",
+    "evidenceLocation": "Lawrence, p. 540, Insuficiența venoasă cronică"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Ulcerele venoase sunt maleolare, nu digitale.",
+    "evidenceLocation": "Lawrence, p. 540, Insuficiența venoasă cronică"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Fiziopatologia este hipertensiunea; compresia și elevația o combat, nu o agravează.",
+    "evidenceLocation": "Lawrence, p. 540, Insuficiența venoasă cronică"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Mută ulcerul venos pe degete (sediul arterial) și neagă hipertensiunea venoasă ca mecanism."
+  },
+  "textbookExpressions": [
+   "hipertensiunii venoase",
+   "hiperpigmentarea"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-027",
+  "questionFingerprint": "088e40d60aa3341b7b5c500aa2367b8e1245840370a97c778566fba1ae04ea30",
+  "status": "source-checked",
+  "learningObjective": "Listarea complicațiilor de puncție și a ferestrei de tromboză de 6 ore, plus compresia ecografică a pseudoanevrismului.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    523
+   ],
+   "pdfPages": [
+    208
+   ],
+   "section": "Angiografie — Complicații Seldinger"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Lista de complicații și predilecția diabeticului pentru nefropatia de contrast sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 523, Angiografie — Complicații Seldinger"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Fereastra de 6 ore (și posibilitatea tardivă) este citată.",
+    "evidenceLocation": "Lawrence, p. 523, Angiografie — Complicații Seldinger"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Compresia US versus sutura chirurgicală sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 523, Angiografie — Complicații Seldinger"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Hidratarea, mai ales la IR, este cerută.",
+    "evidenceLocation": "Lawrence, p. 523, Angiografie — Complicații Seldinger"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Tromboza poate apărea și după zile; diabeticul e tocmai la risc renal.",
+    "evidenceLocation": "Lawrence, p. 523, Angiografie — Complicații Seldinger"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Anulează fereastra de 6 ore și toxicitatea renală a diabeticului, două capcane din același paragraf."
+  },
+  "textbookExpressions": [
+   "primele 6 ore",
+   "pseudoanevrism"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-028",
+  "questionFingerprint": "ea402390a825f51f91c444522f8ed45c51c1585d9dd6b322d367334d39f2164b",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea infarctului miocardic ca principală cauză de deces în BAP, nu a evenimentului de membru.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    523
+   ],
+   "pdfPages": [
+    208
+   ],
+   "section": "BAP — Terapie medicală și mortalitate"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "IM-ul ca cauză principală și pachetul de terapie medicală sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 523, BAP — Terapie medicală și mortalitate"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Amputația nu este cauza principală de deces citată.",
+    "evidenceLocation": "Lawrence, p. 523, BAP — Terapie medicală și mortalitate"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Decesul e cardiac, pe fond aterosclerotic sistemic.",
+    "evidenceLocation": "Lawrence, p. 523, BAP — Terapie medicală și mortalitate"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Ischemia mezenterică nu înlocuiește IM-ul.",
+    "evidenceLocation": "Lawrence, p. 523, BAP — Terapie medicală și mortalitate"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Popliteul embolizează/trombozează, dar mortalitatea BAP e coronariană.",
+    "evidenceLocation": "Lawrence, p. 523, BAP — Terapie medicală și mortalitate"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Mută cauza decesului din BAP de pe infarct pe amputație, inversul explicit al paragrafului de terapie medicală."
+  },
+  "textbookExpressions": [
+   "infarctul miocardic",
+   "Terapia medicală"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-029",
+  "questionFingerprint": "c7a4dfe6a2df59ca5e5c6b5b25593316c3a61188468d34ae1dd19463669e82c6",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea absenței puncției femurale cu riscul de fibroză nefrogene a gadoliniumului și de exacerbarea IR la iod.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    523
+   ],
+   "pdfPages": [
+    208
+   ],
+   "section": "Angio-RM/CT versus arteriografie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Absența puncției și injectarea venoasă centrală sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 523, Angio-RM/CT versus arteriografie"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Gadolinium/NSF și exacerbarea IR sunt citate.",
+    "evidenceLocation": "Lawrence, p. 523, Angio-RM/CT versus arteriografie"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "PTA în aceeași ședință ține de arteriografia cu puncție.",
+    "evidenceLocation": "Lawrence, p. 523, Angio-RM/CT versus arteriografie"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Gadoliniumul are risc în IR; puncția nu e cerută.",
+    "evidenceLocation": "Lawrence, p. 523, Angio-RM/CT versus arteriografie"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Seldinger descrie arteriografia, nu angio-RM.",
+    "evidenceLocation": "Lawrence, p. 523, Angio-RM/CT versus arteriografie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează puncția (RM/CT versus Seldinger) și declară gadoliniumul inofensiv în IR."
+  },
+  "textbookExpressions": [
+   "Gadolinium",
+   "fibroză subcutanată"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-030",
+  "questionFingerprint": "668deadb5f3c2e82bc426c422cf93a2b806c7774af7b374b637926c767435375",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea recanalizării subintimale, a stenturilor farmacologic active și a costului restenoic al aterectomiei.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    524
+   ],
+   "pdfPages": [
+    209
+   ],
+   "section": "PTA — Subintimal, DES, aterectomie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Pasajul subintimal fără bypass este explicit.",
+    "evidenceLocation": "Lawrence, p. 524, PTA — Subintimal, DES, aterectomie"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Acoperirea farmacologică și rezultatele inițiale sunt citate.",
+    "evidenceLocation": "Lawrence, p. 524, PTA — Subintimal, DES, aterectomie"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Lamele/laserul, lumenul maximal și restenoza prin denudare sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 524, PTA — Subintimal, DES, aterectomie"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Stenturile acoperite au rezultate favorabile față de neacoperite, mai ales la restenoză.",
+    "evidenceLocation": "Lawrence, p. 524, PTA — Subintimal, DES, aterectomie"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Subintimala evită bypass-ul; aterectomia rămâne o alternativă.",
+    "evidenceLocation": "Lawrence, p. 524, PTA — Subintimal, DES, aterectomie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Declară stentul acoperit inferior neacoperitului și transformă subintimala în indicație de bypass."
+  },
+  "textbookExpressions": [
+   "recanalizare subintimală",
+   "Aterectomia"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-031",
+  "questionFingerprint": "ad200c8f31eb5d0031c572107341b1a804785e3643e552cc2b259d29ad875c28",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea prăbușirii PTFE sub genunchi și tibial (60% / 30%) față de venă (75–80% / 70–75%).",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    526
+   ],
+   "pdfPages": [
+    211
+   ],
+   "section": "Tabelul 26-3 — Patențe PTFE versus venă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Rândul supra-genunchi 75/80 la 2 ani este tabelat.",
+    "evidenceLocation": "Lawrence, p. 526, Tabelul 26-3 — Patențe PTFE versus venă"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Sub-genunchi 60 versus 75–80/90 este tabelat.",
+    "evidenceLocation": "Lawrence, p. 526, Tabelul 26-3 — Patențe PTFE versus venă"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Tibialul 30 versus 70–75/80–90 este tabelat.",
+    "evidenceLocation": "Lawrence, p. 526, Tabelul 26-3 — Patențe PTFE versus venă"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Coloana de 4 ani confirmă 20% PTFE tibial.",
+    "evidenceLocation": "Lawrence, p. 526, Tabelul 26-3 — Patențe PTFE versus venă"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Deasupra genunchiului vena (80%) rămâne cel puțin egală, nu inferioară PTFE.",
+    "evidenceLocation": "Lawrence, p. 526, Tabelul 26-3 — Patențe PTFE versus venă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează vena cu PTFE deasupra genunchiului și ignoră prăbușirea tibială a sinteticei la 30%."
+  },
+  "textbookExpressions": [
+   "Femuro-popliteu deasupra",
+   "Bypass femuro-tibial"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-032",
+  "questionFingerprint": "8c7c67130e9bea0c3e2f198a122c11ae3a5146ce8842709ca9d5be98d610709e",
+  "status": "source-checked",
+  "learningObjective": "Ierarhia contralaterală → vene de braț → PTFE cu cuff → criovenă/ombilicală, cu patență inferioară autologului.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    526
+   ],
+   "pdfPages": [
+    211
+   ],
+   "section": "Grefon alternativ — Safenă, braț, criovenă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Contralaterala cu precauție este explicită.",
+    "evidenceLocation": "Lawrence, p. 526, Grefon alternativ — Safenă, braț, criovenă"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Cefalica/bazilica cap-la-cap sunt citate.",
+    "evidenceLocation": "Lawrence, p. 526, Grefon alternativ — Safenă, braț, criovenă"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Cuff-ul, criovena și patența redusă dar utilă pentru ulcer sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 526, Grefon alternativ — Safenă, braț, criovenă"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Textul cere precauție pentru celălalt picior.",
+    "evidenceLocation": "Lawrence, p. 526, Grefon alternativ — Safenă, braț, criovenă"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Patența criovenei e mult mai redusă decât a autologului.",
+    "evidenceLocation": "Lawrence, p. 526, Grefon alternativ — Safenă, braț, criovenă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Supraestimează criovena peste autolog și recoltează contralateralul fără a gândi celălalt membru."
+  },
+  "textbookExpressions": [
+   "criovena",
+   "manşete"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-033",
+  "questionFingerprint": "27cb7d4c2510bbb16135b192393aee75dbab62d45c60c74080f483dd0ac894df",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea patenței asistate de 90% la 2 ani cu 30% după ocluzia stenozelor netratate.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    526
+   ],
+   "pdfPages": [
+    211
+   ],
+   "section": "Patență asistată — 90% versus 30%"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "90% asistată prin Doppler + PTA/revizie este explicită.",
+    "evidenceLocation": "Lawrence, p. 526, Patență asistată — 90% versus 30%"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "30% după ocluzie netratată este citată.",
+    "evidenceLocation": "Lawrence, p. 526, Patență asistată — 90% versus 30%"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Cifrele sunt inversate față de text.",
+    "evidenceLocation": "Lawrence, p. 526, Patență asistată — 90% versus 30%"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Doppler-ul e util tocmai pentru stenoze anastomotice și de grefon.",
+    "evidenceLocation": "Lawrence, p. 526, Patență asistată — 90% versus 30%"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Corecția crește, nu scade, patența.",
+    "evidenceLocation": "Lawrence, p. 526, Patență asistată — 90% versus 30%"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Permutează 90% (asistată) cu 30% (după ocluzie), perechea de prognostic a urmăririi Doppler."
+  },
+  "textbookExpressions": [
+   "90% la 2 ani",
+   "doar 30%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-034",
+  "questionFingerprint": "0aa118cea5e7086c2cdeb5206938e78e32158c557f886cdc20ac06cd72ffc74c",
+  "status": "source-checked",
+  "learningObjective": "Ierarhia distal → proximal (reabilitare) și costul energetic al protezei de coapsă, plus indicațiile amputației de coapsă.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    527
+   ],
+   "pdfPages": [
+    212
+   ],
+   "section": "Amputație — Syme, gambă, coapsă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Regula „mai distal, mai bun” și lista Syme sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 527, Amputație — Syme, gambă, coapsă"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Energia crescută a protezei de coapsă este citată.",
+    "evidenceLocation": "Lawrence, p. 527, Amputație — Syme, gambă, coapsă"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Cele trei indicații de coapsă sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 527, Amputație — Syme, gambă, coapsă"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Syme este distal (gleznă), nu de coapsă.",
+    "evidenceLocation": "Lawrence, p. 527, Amputație — Syme, gambă, coapsă"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Degetele, nu coapsa, maximizează reabilitarea.",
+    "evidenceLocation": "Lawrence, p. 527, Amputație — Syme, gambă, coapsă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Sacrifică genunchiul de principiu și declară coapsa superioară degetelor, inversul energiei de deplasare."
+  },
+  "textbookExpressions": [
+   "Syme",
+   "proteză de coapsă"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-035",
+  "questionFingerprint": "baf209c51a5f2d5c389a343de69a91e2f929abe18ee8da66fd749410824571a7",
+  "status": "source-checked",
+  "learningObjective": "Reținerea volumului de 900.000/an, a mortalității >10% prin EP și a ponderii de 50% asimptomatice spitalicești.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    536
+   ],
+   "pdfPages": [
+    215
+   ],
+   "section": "TVP — 900.000 și mortalitate >10%"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "900.000 și >10% sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 536, TVP — 900.000 și mortalitate >10%"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "50% asimptomatice spitalicești sunt citate.",
+    "evidenceLocation": "Lawrence, p. 536, TVP — 900.000 și mortalitate >10%"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "50%, nu 95%; mortalitatea nu e sub 1%.",
+    "evidenceLocation": "Lawrence, p. 536, TVP — 900.000 și mortalitate >10%"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "900.000, nu 9.000.",
+    "evidenceLocation": "Lawrence, p. 536, TVP — 900.000 și mortalitate >10%"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Jumătate din TVP spitalicească e tăcută.",
+    "evidenceLocation": "Lawrence, p. 536, TVP — 900.000 și mortalitate >10%"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Coboară 900.000 la 9.000 și mortalitatea prin EP sub 1%, două ordine de mărime din același paragraf."
+  },
+  "textbookExpressions": [
+   "900.000 de pacienţi",
+   "depăşeşte 10%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-036",
+  "questionFingerprint": "7bb769fd579bf64e6d673b06663dcf2b465305ab6cece33217ea626b33685c70",
+  "status": "source-checked",
+  "learningObjective": "Ierarhia AINS/comprese → HGMM 4–6 săptămâni → trombectomie superficială pentru durere și pigmentare.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    536
+   ],
+   "pdfPages": [
+    215
+   ],
+   "section": "Tromboflebită superficială"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "AINS și compresele calde sunt prima linie.",
+    "evidenceLocation": "Lawrence, p. 536, Tromboflebită superficială"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "HGMM 4–6 săptămâni este citată.",
+    "evidenceLocation": "Lawrence, p. 536, Tromboflebită superficială"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Excizia pentru durere, cosmetic și pigmentare este descrisă.",
+    "evidenceLocation": "Lawrence, p. 536, Tromboflebită superficială"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Warfarina INR 4–5 nu e tratamentul flebitei superficiale.",
+    "evidenceLocation": "Lawrence, p. 536, Tromboflebită superficială"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Excizia reduce, nu agravează, pigmentarea.",
+    "evidenceLocation": "Lawrence, p. 536, Tromboflebită superficială"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Înlocuiește AINS/HGMM cu warfarină la INR 4–5 și inversează efectul cosmetic al trombectomiei."
+  },
+  "textbookExpressions": [
+   "4-6 săptămâni",
+   "comprese calde"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-037",
+  "questionFingerprint": "0ad674d4b2350c51ab05c97b42df3dce5f4aaf238321927c11f4125cbcbf6f64",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea predilecției stângi (May-Thurner), a sensibilității Homan <50% și a Doppler >95%, cu D-dimerii ca screening.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    537
+   ],
+   "pdfPages": [
+    216
+   ],
+   "section": "TVP — May-Thurner, Homan, Doppler"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "May-Thurner și predilecția iliacului stâng sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 537, TVP — May-Thurner, Homan, Doppler"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Homan <50% și acuratețea clinică 50% sunt citate.",
+    "evidenceLocation": "Lawrence, p. 537, TVP — May-Thurner, Homan, Doppler"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Doppler >95% și D-dimerii sensibili/nespecifici sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 537, TVP — May-Thurner, Homan, Doppler"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Rolul venografiei înainte de tromboliză este enunțat.",
+    "evidenceLocation": "Lawrence, p. 537, TVP — May-Thurner, Homan, Doppler"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Homan nu înlocuiește Doppler-ul; May-Thurner e iliac, nu popliteu.",
+    "evidenceLocation": "Lawrence, p. 537, TVP — May-Thurner, Homan, Doppler"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Ridică Homan la 95% ca substitut al Doppler-ului și mută May-Thurner pe popliteu."
+  },
+  "textbookExpressions": [
+   "May-Thurner",
+   ">95%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-038",
+  "questionFingerprint": "bbc690cf31a70e24edc2ce8556b0c6c6ff2e675080f01a32e6520e220a46dff9",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea panelului complet (C, S, ATIII, FV Leiden, protrombină, anticardiolipină) în TVP spontană.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    537
+   ],
+   "pdfPages": [
+    216
+   ],
+   "section": "Hipercoagulabilitate — Panelul idiopatic"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cele șase categorii sunt enumerate explicit.",
+    "evidenceLocation": "Lawrence, p. 537, Hipercoagulabilitate — Panelul idiopatic"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "D-dimerii sunt screening de TVP, nu substitut al panelului de trombofilie.",
+    "evidenceLocation": "Lawrence, p. 537, Hipercoagulabilitate — Panelul idiopatic"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "ABO nu înlocuiește panelul.",
+    "evidenceLocation": "Lawrence, p. 537, Hipercoagulabilitate — Panelul idiopatic"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Panelul se cere la idiopatică, nu după 6 luni de warfarină ca unică fereastră.",
+    "evidenceLocation": "Lawrence, p. 537, Hipercoagulabilitate — Panelul idiopatic"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "FV Leiden nu anulează celelalte teste.",
+    "evidenceLocation": "Lawrence, p. 537, Hipercoagulabilitate — Panelul idiopatic"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Reduce panelul de trombofilie la D-dimeri, deși textul listează șase determinări la TVP idiopatică."
+  },
+  "textbookExpressions": [
+   "proteină C",
+   "factor V Leiden"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-039",
+  "questionFingerprint": "ddb4ef12fcb2328f6062b2ed03277b309ef008a80afc914ba8357e07fa223a91",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea INR 2–3 și a overlap-ului de heparină din cauza ferestrei hipercoagulabile (C/S versus II/VII/IX/X).",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    538
+   ],
+   "pdfPages": [
+    217
+   ],
+   "section": "Warfarină — INR 2–3 și necroza cutanată"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Succesiunea heparină → warfarină și INR 2–3 sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 538, Warfarină — INR 2–3 și necroza cutanată"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Inhibarea dublă și timpii mai scurți ai C/S sunt citați.",
+    "evidenceLocation": "Lawrence, p. 538, Warfarină — INR 2–3 și necroza cutanată"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Necroza cutanată și menținerea heparinei sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 538, Warfarină — INR 2–3 și necroza cutanată"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Ținta nu e 5–6; heparina nu se oprește înainte.",
+    "evidenceLocation": "Lawrence, p. 538, Warfarină — INR 2–3 și necroza cutanată"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "C/S au timpi mai scurți, nu mai lungi.",
+    "evidenceLocation": "Lawrence, p. 538, Warfarină — INR 2–3 și necroza cutanată"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Oprește heparina înaintea warfarinei și urcă INR-ul la 5–6, tocmai scenariul necrozei cutanate."
+  },
+  "textbookExpressions": [
+   "INR între 2 şi 3",
+   "Necroza cutanată warfarinică"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-040",
+  "questionFingerprint": "66d34b62b6724251ad567fff7f197d18418c4efbd32e85fb5aa1027bdd0c62f8",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea triadului subclavie/renală/AMS și a ferestrei ACCP <14 zile / >1 an.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    538
+   ],
+   "pdfPages": [
+    217
+   ],
+   "section": "Tromboliză — Subclavie, renală, AMS, ACCP"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cele trei indicații clare și criteriile ACCP sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 538, Tromboliză — Subclavie, renală, AMS, ACCP"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "TVP surală cronică nu e indicația citată.",
+    "evidenceLocation": "Lawrence, p. 538, Tromboliză — Subclavie, renală, AMS, ACCP"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "ACCP vizează tocmai iliofemurala simptomatică recentă.",
+    "evidenceLocation": "Lawrence, p. 538, Tromboliză — Subclavie, renală, AMS, ACCP"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Speranța >1 an, nu <3 luni.",
+    "evidenceLocation": "Lawrence, p. 538, Tromboliză — Subclavie, renală, AMS, ACCP"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Subclavia și renală sunt indicații clare, nu contraindicații.",
+    "evidenceLocation": "Lawrence, p. 538, Tromboliză — Subclavie, renală, AMS, ACCP"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Mută tromboliza de pe subclavie/AMS pe TVP surală cronică și inversează fereastra ACCP de 14 zile / 1 an."
+  },
+  "textbookExpressions": [
+   "< 14 zile",
+   "speranţă de viaţă> I an"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-041",
+  "questionFingerprint": "8767008dd937da4cc144c4bc7d91b700131d16913edb5e1254f38a879708757a",
+  "status": "source-checked",
+  "learningObjective": "Poziționarea trombectomiei mecanice/trombolizei ca primă linie chiar în phlegmasia, chirurgia fiind rezervată ischemiei de membru.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    538
+   ],
+   "pdfPages": [
+    217
+   ],
+   "section": "Phlegmasia — Mecanică versus chirurgicală"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Phlegmasia cerulea/alba și întâietatea mecanică/trombolitică sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 538, Phlegmasia — Mecanică versus chirurgicală"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Raritatea chirurgiei și rezerva pentru ischemia de membru sunt citate.",
+    "evidenceLocation": "Lawrence, p. 538, Phlegmasia — Mecanică versus chirurgicală"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Izolarea agentului și contraindicațiile mai puține sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 538, Phlegmasia — Mecanică versus chirurgicală"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Chirurgia nu e prima linie.",
+    "evidenceLocation": "Lawrence, p. 538, Phlegmasia — Mecanică versus chirurgicală"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Ciorapii nu recanalizează iliofemurala oclusă.",
+    "evidenceLocation": "Lawrence, p. 538, Phlegmasia — Mecanică versus chirurgicală"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Pune chirurgia deschisă înaintea trombectomiei mecanice în phlegmasia, inversul ierarhiei din paragraf."
+  },
+  "textbookExpressions": [
+   "phlegmasia cerulea dolens",
+   "trombectomie mecanică"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-042",
+  "questionFingerprint": "f131e5bfed5e9e9075bf30f2f3d5eb6eaa7315d860532b27e40e62e42b1c9e92",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea pulsațiilor păstrate și a trombozei tardive pe flap intimal, plus mecanismele penetrant/contuzie/decelerație.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    541
+   ],
+   "pdfPages": [
+    220
+   ],
+   "section": "Traumatism vascular — Flap intimal tardiv"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cele trei mecanisme și decelerația sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 541, Traumatism vascular — Flap intimal tardiv"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Hemoragia ocultă, fistulele și ischemia de organ sunt citate.",
+    "evidenceLocation": "Lawrence, p. 541, Traumatism vascular — Flap intimal tardiv"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Limitarea semnului de puls absent și latența ore–zile sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 541, Traumatism vascular — Flap intimal tardiv"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Complicațiile tardive sunt listate.",
+    "evidenceLocation": "Lawrence, p. 541, Traumatism vascular — Flap intimal tardiv"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Pulsul prezent nu exclude leziunea; tromboza poate fi tardivă.",
+    "evidenceLocation": "Lawrence, p. 541, Traumatism vascular — Flap intimal tardiv"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Tratează pulsul distal prezent ca excludere a traumei, deși flapul intimal poate tromboza după ore sau zile."
+  },
+  "textbookExpressions": [
+   "flapul intimai",
+   "ore sau zile"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-043",
+  "questionFingerprint": "d354dbb492c98a378b38afec794676359b99298fdf0caf8a62a3943feff24c75",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea IGB 1 + membru viabil (traumă improbabilă, Doppler) cu ischemia (arteriografie cu contrast).",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    541
+   ],
+   "pdfPages": [
+    220
+   ],
+   "section": "Traumă vasculară — IGB 1 versus arteriografie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "IGB 1 și viabilitatea ca argument împotriva traumei semnificative sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 541, Traumă vasculară — IGB 1 versus arteriografie"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Arteriografia în ischemia de membru este citată.",
+    "evidenceLocation": "Lawrence, p. 541, Traumă vasculară — IGB 1 versus arteriografie"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "IGB 1 nu impune arteriografie de urgență.",
+    "evidenceLocation": "Lawrence, p. 541, Traumă vasculară — IGB 1 versus arteriografie"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Direcția e inversă: arteriografia e pentru ischemic, nu contraindicată.",
+    "evidenceLocation": "Lawrence, p. 541, Traumă vasculară — IGB 1 versus arteriografie"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Ecografia e tocmai următorul pas la IGB 1.",
+    "evidenceLocation": "Lawrence, p. 541, Traumă vasculară — IGB 1 versus arteriografie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Impune arteriografie la IGB 1 cu membru viabil, inversul triajului din ultimele rânduri ale capitolului."
+  },
+  "textbookExpressions": [
+   "indice gleznă-braţ",
+   "extremitate viabilă"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-044",
+  "questionFingerprint": "980f37977db880af24c0d0573f1452d6eea512b20fa26f8f2a25ff59ad8f6d4c",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea scăderii IGB la efort ca discriminator al claudicației față de alte dureri de membru.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    523
+   ],
+   "pdfPages": [
+    208
+   ],
+   "section": "IGB la efort — Banda de alergare"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Scăderea IGB la apariția simptomelor versus absența modificării în alte cauze este explicită.",
+    "evidenceLocation": "Lawrence, p. 523, IGB la efort — Banda de alergare"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Neschimbarea ar pune diagnosticul de cauză nevasculară, nu de claudicație.",
+    "evidenceLocation": "Lawrence, p. 523, IGB la efort — Banda de alergare"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "IGB scade, nu crește, la stenoză simptomatică.",
+    "evidenceLocation": "Lawrence, p. 523, IGB la efort — Banda de alergare"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Banda e tocmai testul descris.",
+    "evidenceLocation": "Lawrence, p. 523, IGB la efort — Banda de alergare"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Sediul maleolar venei nu definește răspunsul IGB la efort.",
+    "evidenceLocation": "Lawrence, p. 523, IGB la efort — Banda de alergare"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Declară IGB neschimbat la efort în claudicație, deși textul îl folosește tocmai ca discriminator."
+  },
+  "textbookExpressions": [
+   "bandă de alergare",
+   "IGB va scădea"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-045",
+  "questionFingerprint": "38d9d285e27578b5fba8f4b14996a1a0944a4e0e9ca327994c3525c5f07cab54",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea triadului ocluzie acută (ruptură/disecție) / recul elastic / pierdere de continuitate ca indicații de stent.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    524
+   ],
+   "pdfPages": [
+    209
+   ],
+   "section": "PTA — Ocluzie acută și recul elastic"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cele trei evenimente și conduita (stent ± chirurgie) sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 524, PTA — Ocluzie acută și recul elastic"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Extinderea la leziuni lungi și ocluzii totale este citată.",
+    "evidenceLocation": "Lawrence, p. 524, PTA — Ocluzie acută și recul elastic"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Ocluzia acută e complicația descrisă, nu o excepție.",
+    "evidenceLocation": "Lawrence, p. 524, PTA — Ocluzie acută și recul elastic"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Reculul cauzează restenoză, nu protejează.",
+    "evidenceLocation": "Lawrence, p. 524, PTA — Ocluzie acută și recul elastic"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Ocluziile totale pot fi abordate, inclusiv subintimal.",
+    "evidenceLocation": "Lawrence, p. 524, PTA — Ocluzie acută și recul elastic"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Anulează ocluzia acută post-PTA și tratează reculul elastic ca protector, inversul indicației de stent."
+  },
+  "textbookExpressions": [
+   "ocluzia acută",
+   "reculul elastic"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-046",
+  "questionFingerprint": "bd07166cb2170f6cc6e862a57b654097105c6f74daf02c2438a33f8c67c3b855",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea debutului imediat fără heparină și a absenței monitorizării cu limita unui singur antidot.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    538
+   ],
+   "pdfPages": [
+    217
+   ],
+   "section": "DOAC — Fără punte de heparină, un antidot"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Absența heparinizării prealabile este explicită.",
+    "evidenceLocation": "Lawrence, p. 538, DOAC — Fără punte de heparină, un antidot"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Lipsa monitorizării, sângerarea similară și unicul antidot sunt citate.",
+    "evidenceLocation": "Lawrence, p. 538, DOAC — Fără punte de heparină, un antidot"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "PPC și concentratele de complex protrombinic sunt descrise pentru reversie.",
+    "evidenceLocation": "Lawrence, p. 538, DOAC — Fără punte de heparină, un antidot"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Doar unul are antidot; heparina nu e cerută înainte.",
+    "evidenceLocation": "Lawrence, p. 538, DOAC — Fără punte de heparină, un antidot"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Avantajul e tocmai biodisponibilitatea stabilă, fără INR.",
+    "evidenceLocation": "Lawrence, p. 538, DOAC — Fără punte de heparină, un antidot"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Atribuie tuturor DOAC-urilor antidot și reintroduce heparina/INR-ul, inversul avantajelor listate."
+  },
+  "textbookExpressions": [
+   "nu necesită heparinizare",
+   "doar unul dintre aceste medicamente"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-047",
+  "questionFingerprint": "62a65572cff3441eb58523210b0eddbe2c453a0bd92cf72979bc09857525fe39",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea lumenului fals ≥50% din circumferință ca geometrie a aortei cu lumen dublu.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    520
+   ],
+   "pdfPages": [
+    205
+   ],
+   "section": "Disecție — Double-barreled aorta"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Textul definește lumenul fals ca 50% sau mai mult din circumferință.",
+    "evidenceLocation": "Lawrence, p. 520, Disecție — Double-barreled aorta"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Pragul citat este ≥50%, nu sub 10%.",
+    "evidenceLocation": "Lawrence, p. 520, Disecție — Double-barreled aorta"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Double-barreled ține de disecția aortică, nu de popliteu.",
+    "evidenceLocation": "Lawrence, p. 520, Disecție — Double-barreled aorta"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Dilacerarea trece din intimă în medie, creând lumen fals.",
+    "evidenceLocation": "Lawrence, p. 520, Disecție — Double-barreled aorta"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Ramurile critice pot fi compromise tocmai de acest lumen fals.",
+    "evidenceLocation": "Lawrence, p. 520, Disecție — Double-barreled aorta"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Coboară lumenul fals sub 10%, deși paragraful îl plasează la ≥50% din circumferință."
+  },
+  "textbookExpressions": [
+   "double-barreled aorta",
+   "50% sau mai mult"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-048",
+  "questionFingerprint": "392b335ade518b13ab7e802239afda6a748de7ce70b31bad794c4cf94886c0a9",
+  "status": "source-checked",
+  "learningObjective": "Legarea fragilizării mediei (Marfan/ED, HTA, aterom, traumă) de propagarea proximală sau distală prin medie.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    520
+   ],
+   "pdfPages": [
+    205
+   ],
+   "section": "Disecție — Marfan, Ehlers-Danlos, propagare"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Predispoziția Marfan și Ehlers-Danlos este explicită.",
+    "evidenceLocation": "Lawrence, p. 520, Disecție — Marfan, Ehlers-Danlos, propagare"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "HTA, ateroscleroza și trauma sunt citate ca leziuni murale.",
+    "evidenceLocation": "Lawrence, p. 520, Disecție — Marfan, Ehlers-Danlos, propagare"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Propagarea proximală sau distală prin medie este descrisă.",
+    "evidenceLocation": "Lawrence, p. 520, Disecție — Marfan, Ehlers-Danlos, propagare"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Marfan predispun, nu protejează; sediul e aortic, nu safenian.",
+    "evidenceLocation": "Lawrence, p. 520, Disecție — Marfan, Ehlers-Danlos, propagare"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Textul admite atât propagarea proximală, cât și pe cea distală.",
+    "evidenceLocation": "Lawrence, p. 520, Disecție — Marfan, Ehlers-Danlos, propagare"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează Marfan din factor de ruptură în protecție și blochează propagarea distală."
+  },
+  "textbookExpressions": [
+   "Marfan şi Ehlers-Danlos",
+   "propaga"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-049",
+  "questionFingerprint": "697a4a94641bfc36e3803aa662e8843af89d63f27aff81962b7729fc11fa9a78",
+  "status": "source-checked",
+  "learningObjective": "Maparea celor patru complicații retrograde/anterograde ale disecției ascendente.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    520
+   ],
+   "pdfPages": [
+    205
+   ],
+   "section": "Disecție — Coronare, IA, tamponadă, AVC"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Obstrucția ostiilor coronare și ischemia acută sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 520, Disecție — Coronare, IA, tamponadă, AVC"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Insuficiența aortică prin extensia la cuspe este citată.",
+    "evidenceLocation": "Lawrence, p. 520, Disecție — Coronare, IA, tamponadă, AVC"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Tamponada prin ruptură pericardică este complicația majoră descrisă.",
+    "evidenceLocation": "Lawrence, p. 520, Disecție — Coronare, IA, tamponadă, AVC"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Extensia brahiocefalică cu AVC este enunțată.",
+    "evidenceLocation": "Lawrence, p. 520, Disecție — Coronare, IA, tamponadă, AVC"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Ascendența interesează tocmai rădăcina, coronarele și pericardul.",
+    "evidenceLocation": "Lawrence, p. 520, Disecție — Coronare, IA, tamponadă, AVC"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Declară rădăcina, coronarele și pericardul ocrotite, inversul listei de complicații ale tipului A."
+  },
+  "textbookExpressions": [
+   "tamponadei cardiace",
+   "arterelor coronare"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-050",
+  "questionFingerprint": "e415ae0ca7a5691064874ddf441e896162db0d101da75df4fd047cfab0b6022b",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea lărgirii cronice cu anevrism ca indicație majoră electivă, distinctă de urgența ischemiei/rupturii.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    520
+   ],
+   "pdfPages": [
+    205
+   ],
+   "section": "Disecție tip B — Chirurgie electivă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Textul numește lărgirea cronică cu anevrism indicația majoră electivă.",
+    "evidenceLocation": "Lawrence, p. 520, Disecție tip B — Chirurgie electivă"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Urgența de 6 ore definește tipul A, nu B-ul necomplicat.",
+    "evidenceLocation": "Lawrence, p. 520, Disecție tip B — Chirurgie electivă"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Controlul tensional fără anevrism ține de tratamentul medical.",
+    "evidenceLocation": "Lawrence, p. 520, Disecție tip B — Chirurgie electivă"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Indicația electivă este dilatarea anevrismală cu risc de ruptură, nu leziunea scurtă.",
+    "evidenceLocation": "Lawrence, p. 520, Disecție tip B — Chirurgie electivă"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "dp/dt rămâne strategia medicală a tipului B necomplicat.",
+    "evidenceLocation": "Lawrence, p. 520, Disecție tip B — Chirurgie electivă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Mută chirurgia electivă de tip B pe urgența de 6 ore a tipului A, deși paragraful o rezervă anevrismului cronic."
+  },
+  "textbookExpressions": [
+   "disecţiei cronice",
+   "chirurgie reparatorie electivă"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-051",
+  "questionFingerprint": "232478ff07ce582f93e75d23a8d414bf1e6de4a4fb695476167ee4015c7183c6",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea pragului figurii (reducerea fluxului la 60–70% scădere de diametru), distinct de remodelarea Glagov.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    521
+   ],
+   "pdfPages": [
+    206
+   ],
+   "section": "Figura 26-10 — Prag 60–70%"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Legenda figurii plasează reducerea fluxului la 60–70% scădere de diametru.",
+    "evidenceLocation": "Lawrence, p. 521, Figura 26-10 — Prag 60–70%"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "10% nu este pragul citat.",
+    "evidenceLocation": "Lawrence, p. 521, Figura 26-10 — Prag 60–70%"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Figura vorbește de diametru, nu de 20% arie.",
+    "evidenceLocation": "Lawrence, p. 521, Figura 26-10 — Prag 60–70%"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Stenozele parțiale de 60–70% reduc deja fluxul.",
+    "evidenceLocation": "Lawrence, p. 521, Figura 26-10 — Prag 60–70%"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Turbulența precede placa; 5% nu e pragul de flux.",
+    "evidenceLocation": "Lawrence, p. 521, Figura 26-10 — Prag 60–70%"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Permutează 60–70% cu praguri de 5–20%, pe o legendă de figură ușor de confudat cu 50%/75% Poiseuille."
+  },
+  "textbookExpressions": [
+   "60-70%",
+   "reducerea fluxului"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-052",
+  "questionFingerprint": "d1377f783e751dbce0e96a735ca54d9dcb46a9df365356abec81cb15c79898a4",
+  "status": "source-checked",
+  "learningObjective": "Legarea etimologiei și a definiției efort/repaus de metabolismul anaerob și de scutirea piciorului.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    521
+   ],
+   "pdfPages": [
+    206
+   ],
+   "section": "Claudicație — claudatio și acidoză"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Etimologia claudatio și precipitarea de efort sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 521, Claudicație — claudatio și acidoză"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Conversia anaerobă cu acidoză este mecanismul citat.",
+    "evidenceLocation": "Lawrence, p. 521, Claudicație — claudatio și acidoză"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Scutirea articulațiilor și a piciorului este descrisă.",
+    "evidenceLocation": "Lawrence, p. 521, Claudicație — claudatio și acidoză"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Prezența în repaus definește ischemia avansată sau crampele, nu claudicația.",
+    "evidenceLocation": "Lawrence, p. 521, Claudicație — claudatio și acidoză"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Masa musculară redusă scutește piciorul, nu îl face sediu.",
+    "evidenceLocation": "Lawrence, p. 521, Claudicație — claudatio și acidoză"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Mută claudicația pe repaus și pe picior, inversul definiției efort/acidoză din același paragraf."
+  },
+  "textbookExpressions": [
+   "claudatio",
+   "metabolismul anaerob"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-053",
+  "questionFingerprint": "4a91e94705e610d6de21186e91d4a3264590e5d36b181efd21ed45c76fecca65",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea alinării prin aplecare înainte și a neremiterii imediate, față de claudicația de grup muscular.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    522
+   ],
+   "pdfPages": [
+    207
+   ],
+   "section": "Diagnostic diferențial — Stenoza de canal medular"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Aplecarea înainte, iradierea și neremitearea imediată sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 522, Diagnostic diferențial — Stenoza de canal medular"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Localizarea extra-musculară și raritatea precipitării de efort sunt citate.",
+    "evidenceLocation": "Lawrence, p. 522, Diagnostic diferențial — Stenoza de canal medular"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Textul precizează că nu se remite imediat în repaus.",
+    "evidenceLocation": "Lawrence, p. 522, Diagnostic diferențial — Stenoza de canal medular"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Aplecarea ameliorează, nu agravează, stenoza de canal.",
+    "evidenceLocation": "Lawrence, p. 522, Diagnostic diferențial — Stenoza de canal medular"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Durerea musculo-scheletală este adesea prezentă în repaus.",
+    "evidenceLocation": "Lawrence, p. 522, Diagnostic diferențial — Stenoza de canal medular"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Tratează stenoza de canal ca pe claudicația care cedează imediat la repaus, inversul alinării prin aplecare."
+  },
+  "textbookExpressions": [
+   "stenozei de canal medular",
+   "aplecarea înainte"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-054",
+  "questionFingerprint": "22c1f012a6abef955838a2409099d94a3b922afc27fda0585d418aa540750942",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea ferestrei 2–10 MHz și a dependenței deplasării de frecvență de viteza hematiilor.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    522
+   ],
+   "pdfPages": [
+    207
+   ],
+   "section": "Doppler — 2–10 MHz"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Intervalul 2–10 MHz, reflexia pe hematii și proporționalitatea cu viteza sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 522, Doppler — 2–10 MHz"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "20–50 MHz nu este fereastra citată; semnalul depinde de viteză.",
+    "evidenceLocation": "Lawrence, p. 522, Doppler — 2–10 MHz"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "kHz-ul jos nu descrie sonda portabilă.",
+    "evidenceLocation": "Lawrence, p. 522, Doppler — 2–10 MHz"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Fereastra e în MHz, nu 100–200 kHz, și nu e rezervată cavzelor.",
+    "evidenceLocation": "Lawrence, p. 522, Doppler — 2–10 MHz"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Instrumentul este ultrasonografic, nu optic.",
+    "evidenceLocation": "Lawrence, p. 522, Doppler — 2–10 MHz"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Mută 2–10 MHz pe decade vecine și rupe legătura hematii–viteză, capcana ferestrei de frecvență."
+  },
+  "textbookExpressions": [
+   "2 şi 10 MHz",
+   "globulele roşii"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-055",
+  "questionFingerprint": "9a3af00fd813877aad2eb59b9ce5c47c1ee2267cf6b7781faa3162104dfc583a",
+  "status": "source-checked",
+  "learningObjective": "Cuplarea premedicației steroizi/antihistaminice cu îngrijirea piciorului diabetic (unghii, ortopedie, calus).",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    523
+   ],
+   "pdfPages": [
+    208
+   ],
+   "section": "Contrast — Steroizi; piciorul diabetic"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Premedicația steroizi plus antihistaminice este explicită.",
+    "evidenceLocation": "Lawrence, p. 523, Contrast — Steroizi; piciorul diabetic"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Chestionarea alergică înaintea celor patru imagistici este cerută.",
+    "evidenceLocation": "Lawrence, p. 523, Contrast — Steroizi; piciorul diabetic"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Triada unghii/încălțăminte/calus este descrisă.",
+    "evidenceLocation": "Lawrence, p. 523, Contrast — Steroizi; piciorul diabetic"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Steroizii se dau tocmai alergicilor cunoscuți.",
+    "evidenceLocation": "Lawrence, p. 523, Contrast — Steroizi; piciorul diabetic"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Calusul se îndepărtează pentru a preveni ulcerația, nu se păstrează.",
+    "evidenceLocation": "Lawrence, p. 523, Contrast — Steroizi; piciorul diabetic"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Interzice steroizii la alergic și transformă calusul în protecție, inversul celor două paragrafe de prevenție."
+  },
+  "textbookExpressions": [
+   "steroizi şi antihistaminice",
+   "îndepă1iarea calusurilor"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-056",
+  "questionFingerprint": "fe4cd5237ab468d9b1f2f55e8f5cd841e38125c8bf5155a908b7d94390ab4cf3",
+  "status": "source-checked",
+  "learningObjective": "Poziționarea endarterectomiei CFA/PFA ca adjuvant de descărcare și ca piesă a hibridului iliac/AFS.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    525
+   ],
+   "pdfPages": [
+    210
+   ],
+   "section": "Endarterectomie femurală — Abord hibrid"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Raritatea candidaților aorto-iliaci este explicită.",
+    "evidenceLocation": "Lawrence, p. 525, Endarterectomie femurală — Abord hibrid"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Rolul de îmbunătățire a fluxului de proteză/bypass este citat.",
+    "evidenceLocation": "Lawrence, p. 525, Endarterectomie femurală — Abord hibrid"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Asocierea cu stent iliac sau aterectomie/stent AFS este descrisă.",
+    "evidenceLocation": "Lawrence, p. 525, Endarterectomie femurală — Abord hibrid"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Reducerea invazivității prin hibrid este enunțată.",
+    "evidenceLocation": "Lawrence, p. 525, Endarterectomie femurală — Abord hibrid"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Hibridul completează, nu înlocuiește, reconstrucția; textul îl consideră tot mai important.",
+    "evidenceLocation": "Lawrence, p. 525, Endarterectomie femurală — Abord hibrid"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Declară endarterectomia femurală substitut al bypassului și abandon al hibridului, inversul paragrafului de proceduri combinate."
+  },
+  "textbookExpressions": [
+   "abordare hibridă",
+   "stentarea iliacă"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-057",
+  "questionFingerprint": "7bd968201619f1a52648d32f3f449526da1512c09652fce942a846e419d8cc9f",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea utilității în durerea de repaus (colaterale AFP) cu insuficiența ei la pierderea de țesut.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    525
+   ],
+   "pdfPages": [
+    210
+   ],
+   "section": "Profundoplastie — Repaus versus gangrenă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Indicația (repaus + ocluzie AFS + stenoză AFP) și ameliorarea sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 525, Profundoplastie — Repaus versus gangrenă"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Insuficiența la ulcerație/gangrenă și nevoia de bypass sunt citate.",
+    "evidenceLocation": "Lawrence, p. 525, Profundoplastie — Repaus versus gangrenă"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "La gangrenă textul cere bypass, nu substitutul prin profundoplastie.",
+    "evidenceLocation": "Lawrence, p. 525, Profundoplastie — Repaus versus gangrenă"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Indicația citată este tocmai durerea de repaus, nu claudicația benignă.",
+    "evidenceLocation": "Lawrence, p. 525, Profundoplastie — Repaus versus gangrenă"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Ulcerațiile cer bypass, nu profundoplastie izolată.",
+    "evidenceLocation": "Lawrence, p. 525, Profundoplastie — Repaus versus gangrenă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Pune profundoplastia înaintea bypassului în gangrenă, inversul limitei de flux către picior."
+  },
+  "textbookExpressions": [
+   "profundoplastia",
+   "leziuni tisulare sau gangrenă"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-058",
+  "questionFingerprint": "c02028da93a173b55250fbdbdb8667f8d896341ce4fa6567c5e67c322559a19f",
+  "status": "source-checked",
+  "learningObjective": "Listarea tetradei imediate (sângerare, tromboză, infecție, limfocel) față de comorbiditatea cardiopulmonară asociată.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    526
+   ],
+   "pdfPages": [
+    211
+   ],
+   "section": "Bypass — Complicații imediate"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Sângerarea anastomotică este explicită.",
+    "evidenceLocation": "Lawrence, p. 526, Bypass — Complicații imediate"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Tromboza grefonului este citată.",
+    "evidenceLocation": "Lawrence, p. 526, Bypass — Complicații imediate"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Infecția plăgilor este listată.",
+    "evidenceLocation": "Lawrence, p. 526, Bypass — Complicații imediate"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Limforagia cu limfocel este descrisă.",
+    "evidenceLocation": "Lawrence, p. 526, Bypass — Complicații imediate"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Textul menționează tocmai complicații cardiopulmonare pe fond de BCI, IR sau BPOC.",
+    "evidenceLocation": "Lawrence, p. 526, Bypass — Complicații imediate"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Anulează tetrada chirurgicală imediată și neagă comorbiditatea cardiopulmonară, deși ambele stau în același paragraf."
+  },
+  "textbookExpressions": [
+   "limfocel",
+   "tromboza grefonului"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-059",
+  "questionFingerprint": "204b4ba7feb4162942f31c9d1d1cb26bbd24066edbe9e08052ea389f910fdcbc",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea AFP ca outflow când AFS e oclusă și a progresiei distale ca mecanism de ocluzie a protezei.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    525
+   ],
+   "pdfPages": [
+    210
+   ],
+   "section": "Aortofemural — Descărcare pe AFP"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "AFP ca vas principal de descărcare este explicită.",
+    "evidenceLocation": "Lawrence, p. 525, Aortofemural — Descărcare pe AFP"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Progresia distală cu limitarea outflow-ului este mecanismul citat.",
+    "evidenceLocation": "Lawrence, p. 525, Aortofemural — Descărcare pe AFP"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "AFS oclusă nu poate descărca; textul mută rolul pe AFP.",
+    "evidenceLocation": "Lawrence, p. 525, Aortofemural — Descărcare pe AFP"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Mecanismul ocluziei de proteză e boala distală, nu limfocelul.",
+    "evidenceLocation": "Lawrence, p. 525, Aortofemural — Descărcare pe AFP"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Patența citată a aortofemuralului e >90% la 5 ani, nu sub 30%.",
+    "evidenceLocation": "Lawrence, p. 525, Aortofemural — Descărcare pe AFP"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Mută outflow-ul pe AFS oclusă și coboară patența sub 30%, două capcane ale aceluiași paragraf de bypass."
+  },
+  "textbookExpressions": [
+   "principal de descărcare",
+   "progresia bolii"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-060",
+  "questionFingerprint": "e6c0fb404900913b4702d38684677dca762bce612d273301cc7aefcc79b5777b",
+  "status": "source-checked",
+  "learningObjective": "Ierarhia conservator/endovascular la claudicant versus bypass la ischemia care amenință membrul.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    527,
+    526
+   ],
+   "pdfPages": [
+    212,
+    211
+   ],
+   "section": "Claudicație versus pericol de membru"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Modificarea factorilor de risc și pragul simptomelor debilitante sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 527, 526, Claudicație versus pericol de membru"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Endovascularul ca primă linie, cu rezerva invazivă, este citat.",
+    "evidenceLocation": "Lawrence, p. 527, 526, Claudicație versus pericol de membru"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Bypassul la pericolul de membru și endovascularul la riscul înalt sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 527, 526, Claudicație versus pericol de membru"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Claudicația ușoară nu cere bypass de primă linie; fumatul e central.",
+    "evidenceLocation": "Lawrence, p. 527, 526, Claudicație versus pericol de membru"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Textul rezervă endovascularul tocmai pacientului cu risc înalt în ischemia critică.",
+    "evidenceLocation": "Lawrence, p. 527, 526, Claudicație versus pericol de membru"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează ierarhia (bypass la claudicație ușoară, endovascular interzis în ischemia critică)."
+  },
+  "textbookExpressions": [
+   "renunţarea la fumat",
+   "pun în pericol membrele"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-061",
+  "questionFingerprint": "63d8396817cd3fda65ae9acb4c89e98da62228656121358217148089c3951a56",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea utilității Doppler la emergențe cu limitele aerocolie/calcificare care trimit spre CT/RM.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    527
+   ],
+   "pdfPages": [
+    212
+   ],
+   "section": "Mezenteric — Doppler versus angio-CT/RM"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Caracterul non-invaziv și vizualizarea stenozelor de emergență sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 527, Mezenteric — Doppler versus angio-CT/RM"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Limitele aerocolie/calcificare și preferința CT/RM sunt citate.",
+    "evidenceLocation": "Lawrence, p. 527, Mezenteric — Doppler versus angio-CT/RM"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Aerocolia limitează, nu îmbunătățește, Doppler-ul; angiografia rămâne pentru intervenții.",
+    "evidenceLocation": "Lawrence, p. 527, Mezenteric — Doppler versus angio-CT/RM"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Calcificările reduc acuratețea.",
+    "evidenceLocation": "Lawrence, p. 527, Mezenteric — Doppler versus angio-CT/RM"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Angiografia este folosită pentru intervenții, nu e abandonată.",
+    "evidenceLocation": "Lawrence, p. 527, Mezenteric — Doppler versus angio-CT/RM"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Transformă aerocolia și calcificările în avantaje Doppler și abandonează angiografia, inversul indicației de CT/RM."
+  },
+  "textbookExpressions": [
+   "aerocoliei marcate",
+   "calcificărilor"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-062",
+  "questionFingerprint": "07062915d6ec65e11ffa24965315701782c9693810818802abe737d8ae5b35fc",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea revascularizării a cel puțin două vase și a venei autologe rezervate riscului infecțios.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    527
+   ],
+   "pdfPages": [
+    212
+   ],
+   "section": "Mezenteric — Două vase și venă autologă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cele două reguli (≥2 vase; venă doar la risc infecțios) sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 527, Mezenteric — Două vase și venă autologă"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Un singur vas nu e strategia citată; vena nu înlocuiește de principiu sinteticele.",
+    "evidenceLocation": "Lawrence, p. 527, Mezenteric — Două vase și venă autologă"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Endarterectomia proximală și bypassul cu grefe sintetice rămân opțiuni.",
+    "evidenceLocation": "Lawrence, p. 527, Mezenteric — Două vase și venă autologă"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Al doilea vas e pentru patență, nu pentru infarct.",
+    "evidenceLocation": "Lawrence, p. 527, Mezenteric — Două vase și venă autologă"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Vena e tocmai pentru riscul de infecție, nu invers.",
+    "evidenceLocation": "Lawrence, p. 527, Mezenteric — Două vase și venă autologă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Reduce revascularizarea la un singur vas și inversează indicația venei autologe la infecție."
+  },
+  "textbookExpressions": [
+   "cel puţin două vase viscerale",
+   "Grefa venoasă autologă"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-063",
+  "questionFingerprint": "a29485bf9917e111ee11ecb38516dafed68f1382aa005830f29e2c431e5ee3b5",
+  "status": "source-checked",
+  "learningObjective": "Cuplarea apelului din 2008 cu definiția sistemului central și cu rolul valvelor bicuspide în ortostatism.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    534
+   ],
+   "pdfPages": [
+    213
+   ],
+   "section": "Vene — Apel 2008, sistem central, bicuspide"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Apelul la acțiune din 2008 este explicit.",
+    "evidenceLocation": "Lawrence, p. 534, Vene — Apel 2008, sistem central, bicuspide"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Cele patru teritorii ale sistemului central sunt listate.",
+    "evidenceLocation": "Lawrence, p. 534, Vene — Apel 2008, sistem central, bicuspide"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Valvele bicuspide și prevenirea refluxului ortostatic sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 534, Vene — Apel 2008, sistem central, bicuspide"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Safenele țin de sistemul superficial periferic, nu de central.",
+    "evidenceLocation": "Lawrence, p. 534, Vene — Apel 2008, sistem central, bicuspide"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Apelul vizează TVP prevenibilă la pacientul chirurgical, nu estetica varicelor.",
+    "evidenceLocation": "Lawrence, p. 534, Vene — Apel 2008, sistem central, bicuspide"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Mută apelul din 2008 pe varicele estetice și golește sistemul central de cave/iliace, două ancore de pagină."
+  },
+  "textbookExpressions": [
+   "apel la acţiune",
+   "valve venoase bicuspide"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-064",
+  "questionFingerprint": "ff0198c73d7b223752accf062b8e8c4f288dcfcbadb2eb576020ff93d0f111db",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea scăderii inspiratorii a fluxului, a limitei tibiale a Doppler-ului, a CT-ului pelvin/cav și a diagnosticului diferențial.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    537
+   ],
+   "pdfPages": [
+    216
+   ],
+   "section": "TVP — Inspirație, tibiale, CT, Baker"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Scăderea fluxului cu inspirația prin presiune intraabdominală este explicită.",
+    "evidenceLocation": "Lawrence, p. 537, TVP — Inspirație, tibiale, CT, Baker"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Reducerea acurateții la tibiale este citată.",
+    "evidenceLocation": "Lawrence, p. 537, TVP — Inspirație, tibiale, CT, Baker"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Rolul CT abdomino-pelvin pentru pelvină/cavă este descris.",
+    "evidenceLocation": "Lawrence, p. 537, TVP — Inspirație, tibiale, CT, Baker"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Lista de diagnostic diferențial, inclusiv chistul Baker rupt, este enunțată.",
+    "evidenceLocation": "Lawrence, p. 537, TVP — Inspirație, tibiale, CT, Baker"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Direcția e inversă: inspirația scade fluxul; tibialele sunt mai greu de văzut.",
+    "evidenceLocation": "Lawrence, p. 537, TVP — Inspirație, tibiale, CT, Baker"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează răspunsul inspirator al fluxului și supraestimează Doppler-ul tibial, două capcane de fiziologie/acuratețe."
+  },
+  "textbookExpressions": [
+   "scade cu inspiraţia",
+   "chistul Baker rupt"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-065",
+  "questionFingerprint": "f2ea09443dc99537a9c0b0da12e56f5ad2baffb700f961788674b89b06675e90",
+  "status": "source-checked",
+  "learningObjective": "Reținerea triadului mecanic/mobilizare/farmacologic, a stratificării de risc și a listei de contraindicații.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    538
+   ],
+   "pdfPages": [
+    217
+   ],
+   "section": "TVP — Profilaxie și contraindicații"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cele trei măsuri profilactice sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 538, TVP — Profilaxie și contraindicații"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Cei patru factori de vulnerabilitate sunt citați.",
+    "evidenceLocation": "Lawrence, p. 538, TVP — Profilaxie și contraindicații"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Lista de contraindicații (diatheză, ulcer, AVC, MAV, chirurgie, hemofilie, mielosupresie) este descrisă.",
+    "evidenceLocation": "Lawrence, p. 538, TVP — Profilaxie și contraindicații"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Mecanicul e parte din profilaxie; contraindicațiile există.",
+    "evidenceLocation": "Lawrence, p. 538, TVP — Profilaxie și contraindicații"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Cancerul și vârsta cresc, nu scad, riscul.",
+    "evidenceLocation": "Lawrence, p. 538, TVP — Profilaxie și contraindicații"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Anulează stratificarea de risc și lista de contraindicații, deși stau în paragrafele de profilaxie și de warfarină."
+  },
+  "textbookExpressions": [
+   "compresie segmentară intermitentă",
+   "ulcerere gastrointestinale"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "vascular-adv-066",
+  "questionFingerprint": "146f44f98b92a09fbb6d683f43978b3fa8582a57f771297592ec5914be0ad3ef",
+  "status": "source-checked",
+  "learningObjective": "Ierarhia ciorapi (cu complianță slabă) → pansamente 3–4 straturi → piele despicată după controlul refluxului/edemului.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    541
+   ],
+   "pdfPages": [
+    220
+   ],
+   "section": "CVI — Ciorapi, pansamente, piele despicată"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Ciorapii ca tratament inițial și cauzele complianței slabe sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 541, CVI — Ciorapi, pansamente, piele despicată"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Pansamentele din trei sau patru straturi sunt citate.",
+    "evidenceLocation": "Lawrence, p. 541, CVI — Ciorapi, pansamente, piele despicată"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Condiția (reflux și edem controlate) a plastiei cu piele despicată este descrisă.",
+    "evidenceLocation": "Lawrence, p. 541, CVI — Ciorapi, pansamente, piele despicată"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Textul leagă complianța slabă tocmai de absența beneficiului imediat și de cost/discomfort.",
+    "evidenceLocation": "Lawrence, p. 541, CVI — Ciorapi, pansamente, piele despicată"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Pielea despicată urmează controlului refluxului, nu îl precede.",
+    "evidenceLocation": "Lawrence, p. 541, CVI — Ciorapi, pansamente, piele despicată"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează complianța ciorapilor și pune grefa de piele înaintea controlului refluxului."
+  },
+  "textbookExpressions": [
+   "trei sau patru straturi",
+   "piele liberă despicată"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
  }
 ]
