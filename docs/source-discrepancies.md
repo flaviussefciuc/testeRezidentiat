@@ -48,3 +48,7 @@ Fiecare temă rescrisă (versiunile `-v2`) a fost confruntată din nou cu pagini
 ### Hemostază (Lawrence, cap. 4)
 - `hemostaza-adv-020` și `hemostaza-adv-021`: citau p. 42 (PDF 16), însă paragrafele «Cazuri particulare» (sarcina, afecțiunile hepatice și renale) sunt pe p. 43 (PDF 17). Cheile erau corecte; versiunile `-v2` citează p. 43.
 - Celelalte 29 de itemi: cheia și justificările au fost confirmate de textul p. 39–45. Nu s-au găsit erori de conținut.
+
+### Esofag (Lawrence, cap. 12)
+- Nu s-au găsit chei greșite în cei 86 de itemi confruntați cu p. 140–142 și 151–164.
+- Retrase fără înlocuitor (26): `esofag-adv-013` și `-014` testau legendele figurilor Nissen/Collis de pe p. 151, care aparțin secțiunii BRGE. Lista din tematică pentru capitolul 12 nu include BRGE, iar figurile sunt trimiteri din afara intervalului. Alți 24 de itemi erau parafraze ale aceluiași obiectiv: 003, 019, 029, 033, 034, 036, 040, 043, 052, 061, 064, 065, 067, 070, 075, 077, 078, 079, 080, 081, 083, 084, 085, 086.
