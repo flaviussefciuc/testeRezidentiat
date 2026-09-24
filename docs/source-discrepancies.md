@@ -77,3 +77,9 @@ Fiecare temă rescrisă (versiunile `-v2`) a fost confruntată din nou cu pagini
 - P. 453: losartanul este descris ca «antagonist al receptorilor angiotensinei I», o formulare imprecisă (este antagonist al receptorului AT1 al angiotensinei II). Itemul `-062-v2` testează doar efectul uricozuric, fără a folosi această formulare.
 - LES: tot conținutul folosit (inclusiv sarcina și anticorpii anti-Ro/anti-La) precede titlul «Sindromul antifosfolipidic» de pe p. 459, conform limitei din tematică.
 - Retrase ca parafraze sau trivia de dozare: 004, 013, 015, 075, 085.
+
+### Tromboembolism (Kumar, cap. 29)
+- Nu s-au găsit chei greșite în cei 88 de itemi confruntați cu p. 1001–1017 (ferestrele Wells: chirurgie 12 săptămâni pentru TVP și 4 săptămâni pentru EP; valorile PESI verificate în Cadranul 29.5).
+- `tromboembolism-adv-030` (formularea CS/CM semnalată în raportul din 2026-09-23) a fost retras fără înlocuitor, fiind dublura lui `-029` (fondaparinux); problema de formulare dispare odată cu retragerea.
+- Scorul Wells pentru EP (Cadranul 29.4) include și cancerul activ; `-071-v2` îl folosește ca răspuns corect.
+- Retrase fără înlocuitor (parafraze/dubluri): 030, 036, 042, 046, 047, 049, 050, 052, 053, 065, 073, 074, 076, 080, 089, 090.
