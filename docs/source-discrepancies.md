@@ -95,3 +95,12 @@ Fiecare temă rescrisă (versiunile `-v2`) a fost confruntată din nou cu pagini
 - **Contradicție internă:** p. 2 recomandă oprirea fumatului «cu minim 6 săptămâni» înaintea intervenției, pentru reducerea complicațiilor pulmonare; p. 10 recomandă, pentru atelectazie, oprirea fumatului «cu 8 săptămâni înainte». Vechiul `-007` testa valoarea de 8 săptămâni. `-007-v2` nu mai construiește cheia pe niciuna dintre aceste valori.
 - P. 5: în extras, doza din Tabelul 1-3 apare ca «SO mg» (OCR pentru 50 mg). Valoarea de 50 mg este confirmată de logica tabelului (25 mg la 8 ore ulterior).
 - Retras fără înlocuitor (trivia numerică izolată): 034 (echivalentul de 36 mg hidrocortizon/zi din sindromul Cushing).
+
+### Traumatologie (Lawrence, cap. 9)
+- Nu s-au găsit chei greșite în cei 105 itemi confruntați cu p. 87–106.
+- P. 103: textul spune că valorile IGB «≥0,9» sugerează leziune arterială sau ocluzie. Semnul este inversat, probabil prin OCR sau traducere: sunt patologice valorile <0,9. Nicio cheie nu folosește acest prag; `-104-v2` testează doar valoarea normală (1).
+- P. 98–99: textul afirmă că leziunile splenice sunt clasificate «de la I la VI», dar Tabelul 9-5 are doar gradele I–V. Itemii folosesc doar pragurile din tabel.
+- P. 100: «Contuziile renale necesită rareori intervenție chirurgicală, cu excepția cazurilor în care este lezată uretra sau pelvisul renal»: «uretra» este probabil o eroare de traducere pentru «ureterul». Nicio cheie nu folosește această frază.
+- P. 90: textul trimite scorul Glasgow la «Tabelul 9-1», dar scala este în Tabelul 9-2. Itemii citează Tabelul 9-2.
+- **Contradicție între itemii vechi:** `-012` marca drept fals «cateter 22 sau 24 gauge», iar `-077` marca drept adevărat «16 sau 18 G». P. 87 confirmă 16 sau 18 gauge. `-012` a fost retras ca dublură, iar `-077-v2` păstrează valoarea corectă.
+- Retrase fără înlocuitor (dubluri sau trivia): 012, 013, 014, 017, 020, 023, 037, 046, 053, 061, 076, 080, 083, 084, 087, 088, 089, 091, 092, 093, 094, 095, 097, 099, 100, 102.
