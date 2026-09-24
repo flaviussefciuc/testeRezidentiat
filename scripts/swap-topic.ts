@@ -28,7 +28,9 @@ for(const m of [...src.matchAll(/^import \{(\w+)\} from '\.\/bank\/([\w-]+)';\r?
 }
 if(!removed.length)throw new Error(`No single-topic bank files found for ${topic}`);
 src=src.replace("import {advancedEligibilityErrors} from './bank/advanced-author';",`import {${v2Const}} from './bank/${topic}-v2';\nimport {advancedEligibilityErrors} from './bank/advanced-author';`);
-src=src.replace(/(export const ADVANCED_CANDIDATES=\[[^\r\n]*)\];/,`$1,...${v2Const}];`);
+const before=src;
+src=src.replace(/(const ALL_ADVANCED=\[[^\r\n]*)\];/,`$1,...${v2Const}];`);
+if(src===before)throw new Error('ALL_ADVANCED list not found in questions.ts');
 writeFileSync('src/app/questions.ts',src);
 for(const f of removed)unlinkSync(`src/app/bank/${f}.ts`);
 console.log(`Replaced ${removed.join(', ')} with ${v2Const}.`);
