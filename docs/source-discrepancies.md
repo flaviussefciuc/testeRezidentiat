@@ -40,3 +40,11 @@ Aceste pagini de echilibru acido-bazic apar în tematica 2026, dar nu au fost lo
 - P. 724–725: nu se folosesc bareme de tratament din casetă unde administrarea inițială a potasiului diferă de textul narativ. Nici pragul tipărit pentru hipotermie și nici pH-ul OCR din tabel nu sunt folosite drept răspunsuri.
 - P. 728: tabelul verificat vizual plasează hemoragia în vitros la retinopatia proliferativă; fibroza și dezlipirea prin tracțiune sunt avansate. S-a corectat explicația proiectului 029 înainte de publicare. Nu se utilizează afirmația generală că edemul macular nu poate fi observat oftalmoscopic.
 - P. 729–732: se evită formularea despre țintirea directă a vaselor noi cu laser, sensul invariabil al schimbării refracției, pareza diabetică de nerv III obligatoriu nedureroasă și tratamentele generale pentru gastropareză fără verificare suplimentară. Aceste afirmații nu susțin cheia niciunui item nou.
+
+## Remedierea din 24 septembrie 2026 — erori de citare corectate la rescriere
+
+Fiecare temă rescrisă (versiunile `-v2`) a fost confruntată din nou cu paginile citate. Se consemnează aici erorile găsite în versiunile retrase (păstrate neschimbate în `src/app/bank/retired/`) și corecția aplicată.
+
+### Hemostază (Lawrence, cap. 4)
+- `hemostaza-adv-020` și `hemostaza-adv-021`: citau p. 42 (PDF 16), însă paragrafele «Cazuri particulare» (sarcina, afecțiunile hepatice și renale) sunt pe p. 43 (PDF 17). Cheile erau corecte; versiunile `-v2` citează p. 43.
+- Celelalte 29 de itemi: cheia și justificările au fost confirmate de textul p. 39–45. Nu s-au găsit erori de conținut.

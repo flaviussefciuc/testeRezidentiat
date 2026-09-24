@@ -1,1 +1,2397 @@
-[]
+[
+ {
+  "questionId": "hemostaza-adv-001",
+  "questionFingerprint": "c13e45e05f85122ad45056bd8dca390a165c955bb2e75b39cd4334cb6a417afc",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea transmiterii, a localizării sângerării și a profilului de laborator dintre hemofilia A și boala von Willebrand.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 4,
+   "printedPages": [
+    39
+   ],
+   "pdfPages": [
+    13
+   ],
+   "section": "Tulburări congenitale ale hemostazei — Hemofilia A și boala von Willebrand"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Transmiterea X-linkată și afectarea doar a sexului masculin sunt explicite pentru hemofilia A.",
+    "evidenceLocation": "Lawrence, p. 39, Tulburări congenitale ale hemostazei — Hemofilia A și boala von Willebrand"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Transmiterea autosomal-dominantă și afectarea ambelor sexe sunt explicite pentru vWD.",
+    "evidenceLocation": "Lawrence, p. 39, Tulburări congenitale ale hemostazei — Hemofilia A și boala von Willebrand"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Localizarea articulară/intramusculară versus muco-cutanată este tabelată.",
+    "evidenceLocation": "Lawrence, p. 39, Tulburări congenitale ale hemostazei — Hemofilia A și boala von Willebrand"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "În ambele, aPTT este prelungit și PT este normal.",
+    "evidenceLocation": "Lawrence, p. 39, Tulburări congenitale ale hemostazei — Hemofilia A și boala von Willebrand"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Funcția trombocitară este normală în hemofilia A și anormală în vWD, nu invers.",
+    "evidenceLocation": "Lawrence, p. 39, Tulburări congenitale ale hemostazei — Hemofilia A și boala von Willebrand"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-13T20:58:58.119Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul final inversează profilul funcției trombocitare între cele două boli."
+  },
+  "textbookExpressions": [
+   "X-linkat",
+   "muco-cutanat"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem reformulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hemostaza-adv-002",
+  "questionFingerprint": "fe5b820c0d1a5b7ec579d301b8b14be60a8f00fc92619330a1c8d8a16d8a5876",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea cauzelor dobândite și a profilului de acțiune al aspirinei, clopidogrelului și al inhibitorilor direcți ai trombinei.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 4,
+   "printedPages": [
+    40
+   ],
+   "pdfPages": [
+    14
+   ],
+   "section": "Tulburări dobândite ale hemostazei; Anticoagulante și antiplachetare"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Lista cauzelor dobândite include explicit aceste entități.",
+    "evidenceLocation": "Lawrence, p. 40, Tulburări dobândite ale hemostazei; Anticoagulante și antiplachetare"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Inhibarea ireversibilă plachetară de către aspirină și clopidogrel este menționată.",
+    "evidenceLocation": "Lawrence, p. 40, Tulburări dobândite ale hemostazei; Anticoagulante și antiplachetare"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Argatrobanul/bivalirudina sunt indicate în special în HIT.",
+    "evidenceLocation": "Lawrence, p. 40, Tulburări dobândite ale hemostazei; Anticoagulante și antiplachetare"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Warfarina este antagonist al vitaminei K; heparina acționează prin antitrombină.",
+    "evidenceLocation": "Lawrence, p. 40, Tulburări dobândite ale hemostazei; Anticoagulante și antiplachetare"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Suplimentele din plante sunt listate explicit ca o cauză posibilă.",
+    "evidenceLocation": "Lawrence, p. 40, Tulburări dobândite ale hemostazei; Anticoagulante și antiplachetare"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-13T20:58:58.119Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii confundă mecanismul warfarinei cu al heparinei și exclud greșit o cauză listată (plantele)."
+  },
+  "textbookExpressions": [
+   "inhibarea ireversibilă",
+   "trombocitopenie indusă de heparină"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem reformulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hemostaza-adv-003",
+  "questionFingerprint": "90552601fce1b5c5c6eb24a26487832a1e5ee51d553e7e46e6e1f3e410a5e882",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea definițiilor de hemoragie masivă, a raportului 1:1:1 și a principiului hipotensiunii permisive.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 4,
+   "printedPages": [
+    40,
+    41
+   ],
+   "pdfPages": [
+    14,
+    15
+   ],
+   "section": "Hemoragia masivă și resuscitarea de control lezional"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Pragurile de 10 U/24 h și ≥4 U/oră sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 40, 41, Hemoragia masivă și resuscitarea de control lezional"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Raportul 1:1:1 este standardul citat.",
+    "evidenceLocation": "Lawrence, p. 40, 41, Hemoragia masivă și resuscitarea de control lezional"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Calciul la fiecare 2 U MER este recomandat.",
+    "evidenceLocation": "Lawrence, p. 40, 41, Hemoragia masivă și resuscitarea de control lezional"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Textul promovează hipotensiunea permisivă și evitarea hemodiluției cu cristaloide.",
+    "evidenceLocation": "Lawrence, p. 40, 41, Hemoragia masivă și resuscitarea de control lezional"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "CAT rezultă din perfuzia tisulară inadecvată, nu din consumul exagerat de factori.",
+    "evidenceLocation": "Lawrence, p. 40, 41, Hemoragia masivă și resuscitarea de control lezional"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-13T20:58:58.119Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează două principii centrale ale RCL (hipotensiune permisivă și mecanismul CAT)."
+  },
+  "textbookExpressions": [
+   "1:1:1",
+   "hipotensiune permisivă"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem reformulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hemostaza-adv-004",
+  "questionFingerprint": "a99ebee1cb8af918689674eda146da9e53819585144346032c5e66d2b9531d1c",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea intervenției abreviate de control lezional de chirurgia definitivă într-o singură etapă.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 4,
+   "printedPages": [
+    41
+   ],
+   "pdfPages": [
+    15
+   ],
+   "section": "Chirurgia de control lezional"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Intervenția abreviată pentru stoparea sângerării/contaminării este definiția.",
+    "evidenceLocation": "Lawrence, p. 41, Chirurgia de control lezional"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Procedurile definitive urmează după stabilizare în UTI.",
+    "evidenceLocation": "Lawrence, p. 41, Chirurgia de control lezional"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Standardul pentru leziuni severe multi-site este explicit.",
+    "evidenceLocation": "Lawrence, p. 41, Chirurgia de control lezional"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Reconstrucția completă într-o etapă contrazice principiul abrevierei.",
+    "evidenceLocation": "Lawrence, p. 41, Chirurgia de control lezional"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Strategiile RCL urmăresc evitarea hipotermiei și a hemodiluției.",
+    "evidenceLocation": "Lawrence, p. 41, Chirurgia de control lezional"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-13T20:58:58.119Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii restabilesc greșit paradigma chirurgiei definitive imediate și acceptă complicațiile pe care RCL le evită."
+  },
+  "textbookExpressions": [
+   "intervenție inițială abreviată",
+   "hipotermiei"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem reformulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hemostaza-adv-005",
+  "questionFingerprint": "518cb0d797aa5925d878d7a404d44b8facd6b4a89aa886ccf3c64060f320c144",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea pragurilor de sângerare și a răspunsului cantitativ așteptat după transfuzia de trombocite.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 4,
+   "printedPages": [
+    44
+   ],
+   "pdfPages": [
+    18
+   ],
+   "section": "Transfuzia de masă trombocitară"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Indicația pe sângerare plus trombocitopenie/disfuncție este explicită.",
+    "evidenceLocation": "Lawrence, p. 44, Transfuzia de masă trombocitară"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Pragul 30.000–50.000 la funcție normală este citat.",
+    "evidenceLocation": "Lawrence, p. 44, Transfuzia de masă trombocitară"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Creșterea de 50.000–100.000 după 6 unități este așteptarea tipică.",
+    "evidenceLocation": "Lawrence, p. 44, Transfuzia de masă trombocitară"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Cu disfuncție, sângerarea apare adesea la număr normal de trombocite, nu doar sub 10.000.",
+    "evidenceLocation": "Lawrence, p. 44, Transfuzia de masă trombocitară"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Suspensiile conțin o cantitate de plasma și câteva eritrocite sau leucocite.",
+    "evidenceLocation": "Lawrence, p. 44, Transfuzia de masă trombocitară"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-13T20:58:58.119Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează relația disfuncție–prag numeric și compoziția suspensiei trombocitare."
+  },
+  "textbookExpressions": [
+   "30.000-50.000",
+   "50.000-100.000"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem reformulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hemostaza-adv-006",
+  "questionFingerprint": "2653b81f60d7a6821478034fc15e8aa07e80f8137f6dbfe73f73d165fd3195a4",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea celor trei componente ale triadei letale și a efectelor hipotermiei asupra hemostazei.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 4,
+   "printedPages": [
+    44
+   ],
+   "pdfPages": [
+    18
+   ],
+   "section": "Complicații ale transfuziei — Triada letală"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cele trei componente sunt enumerate și ilustrate.",
+    "evidenceLocation": "Lawrence, p. 44, Complicații ale transfuziei — Triada letală"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Pragul <35°C este definiția citată.",
+    "evidenceLocation": "Lawrence, p. 44, Complicații ale transfuziei — Triada letală"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Efectele asupra trombocitelor și a factorilor de coagulare sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 44, Complicații ale transfuziei — Triada letală"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Triada are trei elemente; hipernatremia nu face parte din ea.",
+    "evidenceLocation": "Lawrence, p. 44, Complicații ale transfuziei — Triada letală"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Încălzirea fluidelor este o strategie importantă împotriva hipotermiei.",
+    "evidenceLocation": "Lawrence, p. 44, Complicații ale transfuziei — Triada letală"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-13T20:58:58.119Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Adaugă un element fals la triadă și neagă o măsură preventivă explicită (încălzirea fluidelor)."
+  },
+  "textbookExpressions": [
+   "Triada letală",
+   "<35"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem reformulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hemostaza-adv-007",
+  "questionFingerprint": "46c7dde884ec29357d1a888e741c6f39cf137a1141d8afde175a3d96114403ec",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea LPAT de supraîncărcarea volemică, de reacția hemolitică, de GVHD și de contaminarea bacteriană.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 4,
+   "printedPages": [
+    45
+   ],
+   "pdfPages": [
+    19
+   ],
+   "section": "Complicații ale transfuziei — LPAT"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "LPAT este caracterizată ca edem pulmonar noncardiogen post-transfuzie, mai frecvent după PPC/trombocite.",
+    "evidenceLocation": "Lawrence, p. 45, Complicații ale transfuziei — LPAT"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Edemul cardiogen prin supraîncărcare este o entitate distinctă, nu definiția LPAT.",
+    "evidenceLocation": "Lawrence, p. 45, Complicații ale transfuziei — LPAT"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Hemoliza ABO descrie reacția hemolitică acută, nu LPAT.",
+    "evidenceLocation": "Lawrence, p. 45, Complicații ale transfuziei — LPAT"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "GVHD are debut insidios la săptămâni și alt mecanism.",
+    "evidenceLocation": "Lawrence, p. 45, Complicații ale transfuziei — LPAT"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Contaminarea bacteriană este o complicație infecțioasă distinctă.",
+    "evidenceLocation": "Lawrence, p. 45, Complicații ale transfuziei — LPAT"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-13T20:58:58.119Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Toate opțiunile sunt complicații reale ale transfuziei din capitol; doar una corespunde definiției LPAT."
+  },
+  "textbookExpressions": [
+   "noncardiogen",
+   "PPC"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem reformulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hemostaza-adv-008",
+  "questionFingerprint": "24225320f583b91d92c313e5c9296a8004098e27a1a9b1251c0bb92d02af6992",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea ferestrei de 30 de minute și a istoricului hemoragic ca indicii de coagulopatie preexistentă.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 4,
+   "printedPages": [
+    39
+   ],
+   "pdfPages": [
+    13
+   ],
+   "section": "Tulburări preexistente ale hemostazei"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Textul leagă antecedentele hemoragice și sângerarea din primele 30 de minute de o tulburare preexistentă.",
+    "evidenceLocation": "Lawrence, p. 39, Tulburări preexistente ale hemostazei"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Sângerarea tardivă (3–5 zile) evocă deficitul de factor XIII, nu coagulopatia preexistentă tipică.",
+    "evidenceLocation": "Lawrence, p. 39, Tulburări preexistente ale hemostazei"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Coagulograma poate fi normală la majoritatea pacienților; istoricul rămâne esențial.",
+    "evidenceLocation": "Lawrence, p. 39, Tulburări preexistente ale hemostazei"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Bypass-ul, chirurgia aortică și transplantul hepatic sunt operații cu pierderi mari, nu exclud un defect preexistent.",
+    "evidenceLocation": "Lawrence, p. 39, Tulburări preexistente ale hemostazei"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Timpul de sângerare este mai puțin utilizat; funcția plachetară integrală îl înlocuiește.",
+    "evidenceLocation": "Lawrence, p. 39, Tulburări preexistente ale hemostazei"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Confundă fereastra de 30 de minute cu sângerarea tardivă de factor XIII de două pagini mai jos."
+  },
+  "textbookExpressions": [
+   "primele 30 de",
+   "tulburări preexistente"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hemostaza-adv-009",
+  "questionFingerprint": "ad43b9eaf08ef04252f683bf03ad715b56ea0426173b747f6a5856bdc6cb5bac",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea incidenței (25/100.000 versus 1%) și a prezenței moleculelor de factor VIII în hemofilia A.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 4,
+   "printedPages": [
+    39
+   ],
+   "pdfPages": [
+    13
+   ],
+   "section": "Tabelul 4-2 — Hemofilia A versus boala von Willebrand"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cifra 25 la 100.000 este tabelată.",
+    "evidenceLocation": "Lawrence, p. 39, Tabelul 4-2 — Hemofilia A versus boala von Willebrand"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Proporția de 1% pentru vWD este tabelată.",
+    "evidenceLocation": "Lawrence, p. 39, Tabelul 4-2 — Hemofilia A versus boala von Willebrand"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Moleculele de factor VIII prezente, cu activitate redusă/absentă, definesc hemofilia A.",
+    "evidenceLocation": "Lawrence, p. 39, Tabelul 4-2 — Hemofilia A versus boala von Willebrand"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "1% este prevalența vWD, nu a hemofiliei A.",
+    "evidenceLocation": "Lawrence, p. 39, Tabelul 4-2 — Hemofilia A versus boala von Willebrand"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "vWD reduce atât activitatea factorului VIII, cât și pe cea a vWF.",
+    "evidenceLocation": "Lawrence, p. 39, Tabelul 4-2 — Hemofilia A versus boala von Willebrand"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Permutează 25/100.000 cu 1% și neagă prezența moleculelor de FVIII din același tabel."
+  },
+  "textbookExpressions": [
+   "25 la 100.000",
+   "1% din populaţia"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hemostaza-adv-010",
+  "questionFingerprint": "585e4a6721b80c6ea6f3c84c11a0acac3f7b2c52aa7196196f7290ca3fb72632",
+  "status": "source-checked",
+  "learningObjective": "Completarea definiției (volum, 50%/4 h, 150 mL/min) cu predictorii de cameră și epidemiologia CAT.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 4,
+   "printedPages": [
+    40
+   ],
+   "pdfPages": [
+    14
+   ],
+   "section": "Hemoragia masivă — Definiții și CAT"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Criteriile de înlocuire a volumului sunt enumerate pe lângă pragurile de unități.",
+    "evidenceLocation": "Lawrence, p. 40, Hemoragia masivă — Definiții și CAT"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Rata >150 mL/min cu instabilitate este o variantă de definiție.",
+    "evidenceLocation": "Lawrence, p. 40, Hemoragia masivă — Definiții și CAT"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Cei patru predictori de cameră de gardă sunt listați.",
+    "evidenceLocation": "Lawrence, p. 40, Hemoragia masivă — Definiții și CAT"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Prevalența de 25% și mortalitatea ×4 sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 40, Hemoragia masivă — Definiții și CAT"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "CAT rezultă din perfuzia tisulară inadecvată, nu din consumul exagerat.",
+    "evidenceLocation": "Lawrence, p. 40, Hemoragia masivă — Definiții și CAT"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Adaugă praguri (150 mL/min, 50%/4 h) ușor de omis pe lângă 10 U/24 h, cu inversarea mecanismului CAT."
+  },
+  "textbookExpressions": [
+   "> 150 mL/minut",
+   "aproximativ 25%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hemostaza-adv-011",
+  "questionFingerprint": "267af985fa8895fa1fc1d88f19e9a7e5f0db2b74f717eedbc6da6b956800971c",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea ferestrei de 3 ore a TXA de absența beneficiului de mortalitate al rFVIIa și de cauza tehnică a jumătății de sângerări.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 4,
+   "printedPages": [
+    41
+   ],
+   "pdfPages": [
+    15
+   ],
+   "section": "RCL — TXA, rFVIIa și hemoragia postoperatorie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Fereastra de 3 ore și indicația condiționată sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 41, RCL — TXA, rFVIIa și hemoragia postoperatorie"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Reducerea transfuziilor fără impact pe mortalitate este citată.",
+    "evidenceLocation": "Lawrence, p. 41, RCL — TXA, rFVIIa și hemoragia postoperatorie"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Proporția de 50% prin hemostază necorespunzătoare este enunțată.",
+    "evidenceLocation": "Lawrence, p. 41, RCL — TXA, rFVIIa și hemoragia postoperatorie"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Textul cere administrarea în primele 3 ore, nu după 12.",
+    "evidenceLocation": "Lawrence, p. 41, RCL — TXA, rFVIIa și hemoragia postoperatorie"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Raportul 1:1:1 rămâne standardul PTM; rFVIIa este adjuvant.",
+    "evidenceLocation": "Lawrence, p. 41, RCL — TXA, rFVIIa și hemoragia postoperatorie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Mută TXA după 12 ore și promovează rFVIIa ca substitut al 1:1:1, două erori de protocol."
+  },
+  "textbookExpressions": [
+   "primele 3 ore",
+   "50% din sângerările"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hemostaza-adv-012",
+  "questionFingerprint": "3abe0f00d520396e18fcbcda3ca0e2808495bcab5834303a7c2f4d9a278f8ead",
+  "status": "source-checked",
+  "learningObjective": "Separarea ferestrei 3–5 zile a deficitului de FXIII de sângerarea precoce și de deficitul K-dependent.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 4,
+   "printedPages": [
+    41
+   ],
+   "pdfPages": [
+    15
+   ],
+   "section": "Hemoragii postoperatorii — Factorul XIII"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Textul plasează sângerarea la 3–5 zile și cere evaluarea factorului XIII.",
+    "evidenceLocation": "Lawrence, p. 41, Hemoragii postoperatorii — Factorul XIII"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Primele 30 de minute evocă tulburarea preexistentă, nu FXIII.",
+    "evidenceLocation": "Lawrence, p. 41, Hemoragii postoperatorii — Factorul XIII"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Hemoglobinuria/oliguria țin de CID post-transfuzie incompatibilă.",
+    "evidenceLocation": "Lawrence, p. 41, Hemoragii postoperatorii — Factorul XIII"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Necroza cutanată ține de warfarină în deficitul de proteină C.",
+    "evidenceLocation": "Lawrence, p. 41, Hemoragii postoperatorii — Factorul XIII"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "FXIII nu este K-dependent; vitamina K corectează II, VII, IX și X.",
+    "evidenceLocation": "Lawrence, p. 41, Hemoragii postoperatorii — Factorul XIII"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Confundă fereastra 3–5 zile a FXIII cu sângerarea din primele 30 de minute și cu deficitul K-dependent."
+  },
+  "textbookExpressions": [
+   "factor Xlll",
+   "3-5 zile"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hemostaza-adv-013",
+  "questionFingerprint": "e63971892bcf57953d482265aba21d5ef5a9a1ef5086ab0daf8b003b0361e157",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea sediului (V Leiden venos versus antifosfolipidic arterial) cu riscul de necroză Coumadin.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 4,
+   "printedPages": [
+    42
+   ],
+   "pdfPages": [
+    16
+   ],
+   "section": "Hipercoagulabilitate — Tabelul 4-5 și warfarina"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Tabelul plasează V Leiden la TEV și sindromul antifosfolipidic la tromboza arterială.",
+    "evidenceLocation": "Lawrence, p. 42, Hipercoagulabilitate — Tabelul 4-5 și warfarina"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Necroza cutanată fără overlapping heparinic este explicită.",
+    "evidenceLocation": "Lawrence, p. 42, Hipercoagulabilitate — Tabelul 4-5 și warfarina"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Atribuirea este inversată față de tabel.",
+    "evidenceLocation": "Lawrence, p. 42, Hipercoagulabilitate — Tabelul 4-5 și warfarina"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Heparina 5.000 UI s.c. asigură protecție fără a compromite hemostaza.",
+    "evidenceLocation": "Lawrence, p. 42, Hipercoagulabilitate — Tabelul 4-5 și warfarina"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Istoricul familial ghidează evaluarea factorilor ereditari.",
+    "evidenceLocation": "Lawrence, p. 42, Hipercoagulabilitate — Tabelul 4-5 și warfarina"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează V Leiden și sindromul antifosfolipidic pe coloanele arterial/venos ale aceluiași tabel."
+  },
+  "textbookExpressions": [
+   "FactorV Leiden",
+   "necroză cutanată"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hemostaza-adv-014",
+  "questionFingerprint": "acdfc1202aa1d81983b89e47bf0525bbe883d6f686a930ad70c54f88fb596c5f",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea cifrelor de conservare (42 zile, 200/30/310 mL, +3%/+1 g/dL) și a gravității ABO.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 4,
+   "printedPages": [
+    43
+   ],
+   "pdfPages": [
+    17
+   ],
+   "section": "Transfuzia de eritrocite"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Temperatura 1–6°C și durata 42 de zile sunt citate.",
+    "evidenceLocation": "Lawrence, p. 43, Transfuzia de eritrocite"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Compoziția 200/30/310 mL și Ht 57% sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 43, Transfuzia de eritrocite"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Creșterea de 3% Ht și 1 g/dL Hb la 70 kg este așteptarea tipică.",
+    "evidenceLocation": "Lawrence, p. 43, Transfuzia de eritrocite"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "ABO este cauza principală a reacțiilor fatale.",
+    "evidenceLocation": "Lawrence, p. 43, Transfuzia de eritrocite"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Sângele integral nu are indicații ferme, exceptând volumul masiv sau indisponibilitatea componentelor.",
+    "evidenceLocation": "Lawrence, p. 43, Transfuzia de eritrocite"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Patru cifre de produs (temperatură, volum, ΔHt, ΔHb) ușor de permutat, plus mitul sângelui integral."
+  },
+  "textbookExpressions": [
+   "42 de zile",
+   "1 g/dL"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hemostaza-adv-015",
+  "questionFingerprint": "27a9205f9d8e0446787d1fd9d691d73712d057f79a4ad93ccb009f12bc39b21e",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea reacției febrile (cea mai frecventă, antileucocitară) de hemoliza ABO precoce (50 mL).",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 4,
+   "printedPages": [
+    45,
+    44
+   ],
+   "pdfPages": [
+    19,
+    18
+   ],
+   "section": "Complicații imunologice — Febrile și hemolitice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Predominanța reacțiilor febrile și mecanismul antileucocitar sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 45, 44, Complicații imunologice — Febrile și hemolitice"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Pragul de 50 mL și semnele (lombare, hemoglobinurie, hipotensiune) sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 45, 44, Complicații imunologice — Febrile și hemolitice"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Febrilele sunt cele mai frecvente; transfuzia se oprește.",
+    "evidenceLocation": "Lawrence, p. 45, 44, Complicații imunologice — Febrile și hemolitice"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Debutul la săptămâni descrie GVHD, nu hemoliza acută.",
+    "evidenceLocation": "Lawrence, p. 45, 44, Complicații imunologice — Febrile și hemolitice"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Unii clinicieni recomandă manitol și/sau furosemid pentru a menține diureza.",
+    "evidenceLocation": "Lawrence, p. 45, 44, Complicații imunologice — Febrile și hemolitice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează frecvența febrilelor și mută hemoliza acută în fereastra GVHD de săptămâni."
+  },
+  "textbookExpressions": [
+   "50 mL de sânge",
+   "Reacţiile feb1ile"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hemostaza-adv-016",
+  "questionFingerprint": "87a22c6b19dd72b8815c2892cf04ebd7bb5fbb0213e6f9831c581479b410317a",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea faptului că anemia izolată nu dictează transfuzia, aceasta fiind un transplant tisular individualizat.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 4,
+   "printedPages": [
+    43
+   ],
+   "pdfPages": [
+    17
+   ],
+   "section": "Transfuzia de eritrocite — Anemia izolată nu este indicație"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Textul precizează explicit că anemia izolată nu este o indicație și că transfuzia este un transplant tisular.",
+    "evidenceLocation": "Lawrence, p. 43, Transfuzia de eritrocite — Anemia izolată nu este indicație"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Un prag neselectiv de 12 g/dL nu figurează; decizia este multifactorială.",
+    "evidenceLocation": "Lawrence, p. 43, Transfuzia de eritrocite — Anemia izolată nu este indicație"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Sângele integral nu are indicații ferme, exceptând volumul masiv sau indisponibilitatea componentelor.",
+    "evidenceLocation": "Lawrence, p. 43, Transfuzia de eritrocite — Anemia izolată nu este indicație"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Comorbiditățile cardiace, pulmonare și renale sunt printre factorii listați.",
+    "evidenceLocation": "Lawrence, p. 43, Transfuzia de eritrocite — Anemia izolată nu este indicație"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Deplasmatizate/deleucocitate sunt pentru hipersensibilitate, reacții febrile sau transplantați.",
+    "evidenceLocation": "Lawrence, p. 43, Transfuzia de eritrocite — Anemia izolată nu este indicație"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Transformă anemia izolată într-o indicație neselectivă și promovează sângele integral, contrar paragrafului despre transplantul tisular."
+  },
+  "textbookExpressions": [
+   "anemia izolată",
+   "transplant tisular"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hemostaza-adv-017",
+  "questionFingerprint": "fc00258ae57f5b549a688008919ccdc1a2ea43e8c69606f7ba9f4b7039609424",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea aPTT/anti-Xa (HNF), anti-Xa (HGMM și Xa-inhibitori) și PT/INR (warfarină) de aPTT/TT (DTI).",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 4,
+   "printedPages": [
+    40
+   ],
+   "pdfPages": [
+    14
+   ],
+   "section": "Tabelul 4-4 — Mecanism și teste de monitorizare"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Rândul HNF: aPTT sau anti-Xa este tabelat.",
+    "evidenceLocation": "Lawrence, p. 40, Tabelul 4-4 — Mecanism și teste de monitorizare"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Rândul inhibitorilor de Xa, inclusiv fondaparina, cere anti-Xa.",
+    "evidenceLocation": "Lawrence, p. 40, Tabelul 4-4 — Mecanism și teste de monitorizare"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Mnemotehnica 1972 și PT/INR pentru warfarină, plus aPTT/TT pentru DTI, sunt tabelate.",
+    "evidenceLocation": "Lawrence, p. 40, Tabelul 4-4 — Mecanism și teste de monitorizare"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Anti-Xa aparține HGMM/Xa-inhibitorilor, nu warfarinei.",
+    "evidenceLocation": "Lawrence, p. 40, Tabelul 4-4 — Mecanism și teste de monitorizare"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "HNF se urmărește prin aPTT sau anti-Xa, nu prin PT.",
+    "evidenceLocation": "Lawrence, p. 40, Tabelul 4-4 — Mecanism și teste de monitorizare"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Permutează PT/INR al warfarinei cu anti-Xa al HGMM, două coloane alăturate din același tabel."
+  },
+  "textbookExpressions": [
+   "fondaparină (Arixtra)",
+   "1972"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hemostaza-adv-018",
+  "questionFingerprint": "2397db75428155fc4c89dee6dd91a62665b47091ba8a9e9b34dabbe9b200cee1",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea panelului de laborator al CID și a crioprecipitatului ca sursă de fibrinogen, plus tratarea cauzei.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 4,
+   "printedPages": [
+    41
+   ],
+   "pdfPages": [
+    15
+   ],
+   "section": "CID — Probe de laborator și crioprecipitat"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cele cinci probe (aPTT, PT, fibrinogen, trombocite, FDP/D-dimeri) sunt enumerate.",
+    "evidenceLocation": "Lawrence, p. 41, CID — Probe de laborator și crioprecipitat"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Eliminarea cauzei (septicemie) este descrisă ca cel mai important aspect.",
+    "evidenceLocation": "Lawrence, p. 41, CID — Probe de laborator și crioprecipitat"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Crioprecipitatul ca cea mai bună metodă pentru fibrinogen este explicit.",
+    "evidenceLocation": "Lawrence, p. 41, CID — Probe de laborator și crioprecipitat"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Textul menționează PPC pentru celelalte deficite, cu atenție la supraîncărcarea volemică.",
+    "evidenceLocation": "Lawrence, p. 41, CID — Probe de laborator și crioprecipitat"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Vitamina K corectează factorii II, VII, IX, X; crioprecipitatul este metoda citată pentru fibrinogen.",
+    "evidenceLocation": "Lawrence, p. 41, CID — Probe de laborator și crioprecipitat"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează D-dimerii/fibrinogenul și înlocuiește crioprecipitatul cu vitamina K, două erori de substituție din același paragraf."
+  },
+  "textbookExpressions": [
+   "hipofibrinogenemie",
+   "Crioprecipitatul"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hemostaza-adv-019",
+  "questionFingerprint": "2c8691cc79146655637bc6e438a0b1d7324d4850e26fd90738149fe3d37bd210",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea fibrinolizei primare (tPA, prostată, t½ scurt, EACA cu risc trombotic) de fibrinoliza secundară din CID.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 4,
+   "printedPages": [
+    42
+   ],
+   "pdfPages": [
+    16
+   ],
+   "section": "Fibrinoliza primară — Urokinază prostatică și EACA"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cauzele (tPA, prostată/urokinază, ficat) și t½ de minute sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 42, Fibrinoliza primară — Urokinază prostatică și EACA"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "EACA ca terapie de rezervă, cu risc trombotic, este enunțat.",
+    "evidenceLocation": "Lawrence, p. 42, Fibrinoliza primară — Urokinază prostatică și EACA"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Răspunsul la CID definește fibrinoliza secundară, nu pe cea primară.",
+    "evidenceLocation": "Lawrence, p. 42, Fibrinoliza primară — Urokinază prostatică și EACA"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Textul precizează t½ de minute, nu 48 de ore.",
+    "evidenceLocation": "Lawrence, p. 42, Fibrinoliza primară — Urokinază prostatică și EACA"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "EACA se folosește cu atenție, nu neselectiv în CID.",
+    "evidenceLocation": "Lawrence, p. 42, Fibrinoliza primară — Urokinază prostatică și EACA"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Confundă fibrinoliza primară (prostată, t½ minute) cu cea secundară din CID și ignoră riscul trombotic al EACA."
+  },
+  "textbookExpressions": [
+   "urokinază",
+   "timpul de înjumătăţire"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hemostaza-adv-020",
+  "questionFingerprint": "d0addd66461ea1bf7247b58172bf86637615d8cb86d1f1c5dd53e70e02356fc7",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea stării procoagulante (FVIII, fibrinogen), a vârfului de risc din trimestrul III/postpartum și a heparinei ca electiv.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 4,
+   "printedPages": [
+    42
+   ],
+   "pdfPages": [
+    16
+   ],
+   "section": "Cazuri particulare — Gravida: FVIII, trimestrul III, heparină"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Creșterea FVIII, fibrinogenului și anemia relativă sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 42, Cazuri particulare — Gravida: FVIII, trimestrul III, heparină"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "EP/tromboza ca principale cauze de deces și vârful din trimestrul III/postpartum sunt citate.",
+    "evidenceLocation": "Lawrence, p. 42, Cazuri particulare — Gravida: FVIII, trimestrul III, heparină"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "HGMM și HNF ca tratament electiv sunt enunțate.",
+    "evidenceLocation": "Lawrence, p. 42, Cazuri particulare — Gravida: FVIII, trimestrul III, heparină"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Warfarina nu este listată ca electivă în sarcină; heparinele sunt.",
+    "evidenceLocation": "Lawrence, p. 42, Cazuri particulare — Gravida: FVIII, trimestrul III, heparină"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Textul plasează maximul în trimestrul III și după naștere, nu în primul trimestru.",
+    "evidenceLocation": "Lawrence, p. 42, Cazuri particulare — Gravida: FVIII, trimestrul III, heparină"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Mută vârful trombotic în primul trimestru și promovează warfarina în locul heparinei, două erori obstetricale din același paragraf."
+  },
+  "textbookExpressions": [
+   "factor VIII, fibrinogen",
+   "al treilea trimestru"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hemostaza-adv-021",
+  "questionFingerprint": "462e6d8c4c6e579b1a7a79622360bde17a7a468e3319eb3e1d069d092e3dcf77",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea INR-ului ca marker de sinteză de markerii non-hemostatici (bilirubină, amoniu, transaminaze) și recunoașterea paradoxului hemoragie/tromboză.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 4,
+   "printedPages": [
+    42
+   ],
+   "pdfPages": [
+    16
+   ],
+   "section": "Cazuri particulare — Ficat: INR versus transaminaze"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "INR ca monitor al sintezei și inutilitatea bilirubinei/amoniemiei/transaminazelor sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 42, Cazuri particulare — Ficat: INR versus transaminaze"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Paradoxul hemoragie plus hipercoagulabilitate este enunțat.",
+    "evidenceLocation": "Lawrence, p. 42, Cazuri particulare — Ficat: INR versus transaminaze"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Textul neagă utilitatea transaminazelor/amoniemiei pentru coagulopatie.",
+    "evidenceLocation": "Lawrence, p. 42, Cazuri particulare — Ficat: INR versus transaminaze"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Hipercoagulabilitatea este descrisă ca posibilă concomitent.",
+    "evidenceLocation": "Lawrence, p. 42, Cazuri particulare — Ficat: INR versus transaminaze"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Dializa hepatică nu figurează ca corecție; paragraful următor privește dializa renală și trombocitele.",
+    "evidenceLocation": "Lawrence, p. 42, Cazuri particulare — Ficat: INR versus transaminaze"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Înlocuiește INR-ul cu transaminaze/amoniemie și neagă hipercoagulabilitatea paradoxală a ciroticului."
+  },
+  "textbookExpressions": [
+   "Măsurarea INR",
+   "amoniemiei"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hemostaza-adv-022",
+  "questionFingerprint": "e0b5dacf90a2b9fccbd693376cd32a0e1ea6466cedcac0a86e65b3792f8f099c",
+  "status": "source-checked",
+  "learningObjective": "Integrarea complicațiilor metabolice, a prevalenței hipotermiei de 50%, a pragului pH <7,35 și a pH-ului 5,5 al serului fiziologic.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 4,
+   "printedPages": [
+    44
+   ],
+   "pdfPages": [
+    18
+   ],
+   "section": "Triada letală — Hipotermie 50%, pH 7,35, cristaloid 5,5"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cele patru tulburări metabolice sunt enumerate.",
+    "evidenceLocation": "Lawrence, p. 44, Triada letală — Hipotermie 50%, pH 7,35, cristaloid 5,5"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Cifra de 50% la prezentare este explicită.",
+    "evidenceLocation": "Lawrence, p. 44, Triada letală — Hipotermie 50%, pH 7,35, cristaloid 5,5"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "pH <7,35 și pH 5,5 al serului fiziologic sunt citate.",
+    "evidenceLocation": "Lawrence, p. 44, Triada letală — Hipotermie 50%, pH 7,35, cristaloid 5,5"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Mortalitatea ×4 a coagulopatiei este enunțată.",
+    "evidenceLocation": "Lawrence, p. 44, Triada letală — Hipotermie 50%, pH 7,35, cristaloid 5,5"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Hipotermia este frecventă la prezentare; cristaloidele au pH scăzut.",
+    "evidenceLocation": "Lawrence, p. 44, Triada letală — Hipotermie 50%, pH 7,35, cristaloid 5,5"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Neagă hipotermia de 50% și atribuie serului fiziologic pH 7,40, două cifre din același paragraf de triadă letală."
+  },
+  "textbookExpressions": [
+   "50% dintre pacienţii",
+   "pH <7,35"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hemostaza-adv-023",
+  "questionFingerprint": "43f38be6529456a3ba7e7ac4d578582635354ca3f3d250fce3f4b03a6d250ada",
+  "status": "source-checked",
+  "learningObjective": "Fixarea incidenței 1/5.000, a predilecției pentru plasmă și a ferestrelor 1–2 / 6 / 72 de ore, distinct de GVHD, hemoliză și TACO.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 4,
+   "printedPages": [
+    45
+   ],
+   "pdfPages": [
+    19
+   ],
+   "section": "Complicații pulmonare — LPAT 1/5.000 și fereastra 1–6 ore"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Incidența 1/5.000, predilecția pentru PPC/trombocite și ferestrele temporale sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 45, Complicații pulmonare — LPAT 1/5.000 și fereastra 1–6 ore"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "LPAT este mai frecventă după plasmă, nu după MER deleucocitată izolată.",
+    "evidenceLocation": "Lawrence, p. 45, Complicații pulmonare — LPAT 1/5.000 și fereastra 1–6 ore"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Debutul la săptămâni descrie GVHD, nu LPAT.",
+    "evidenceLocation": "Lawrence, p. 45, Complicații pulmonare — LPAT 1/5.000 și fereastra 1–6 ore"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Hemoliza ABO cu hemoglobinurie este reacția hemolitică acută.",
+    "evidenceLocation": "Lawrence, p. 45, Complicații pulmonare — LPAT 1/5.000 și fereastra 1–6 ore"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Edemul LPAT este noncardiogen; creșterea vitezei agravează, nu tratează.",
+    "evidenceLocation": "Lawrence, p. 45, Complicații pulmonare — LPAT 1/5.000 și fereastra 1–6 ore"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Permutează 1/5.000 și fereastra 1–6 ore cu GVHD-ul de săptămâni sau cu hemoliza de 50 mL, trei complicații din același capitol."
+  },
+  "textbookExpressions": [
+   "5.000 de transfuzii",
+   "1-2 ore"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hemostaza-adv-024",
+  "questionFingerprint": "44b04d7e74e2baa7a5c77b27d7dcfd57108a6c346130405b963b86a601dff6ce",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea indicației selective a panelului de laborator, distinctă de istoricul și examenul fizic de rutină.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 4,
+   "printedPages": [
+    39
+   ],
+   "pdfPages": [
+    13
+   ],
+   "section": "Evaluarea preoperatorie — Tabelul 4-1, indicația de probe"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Tabelul limitează probele la tulburarea evidentă sau la hemoragia anticipată prin natura operației.",
+    "evidenceLocation": "Lawrence, p. 39, Evaluarea preoperatorie — Tabelul 4-1, indicația de probe"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Screeningul neselectiv la hernia curată nu figurează; istoricul rămâne de rutină.",
+    "evidenceLocation": "Lawrence, p. 39, Evaluarea preoperatorie — Tabelul 4-1, indicația de probe"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Probele sunt preoperatorii, când sunt indicate.",
+    "evidenceLocation": "Lawrence, p. 39, Evaluarea preoperatorie — Tabelul 4-1, indicația de probe"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "aPTT și PT sunt listate împreună, nu condiționate una de alta.",
+    "evidenceLocation": "Lawrence, p. 39, Evaluarea preoperatorie — Tabelul 4-1, indicația de probe"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Istoricul și examenul fizic se fac de rutină; probele nu le înlocuiesc.",
+    "evidenceLocation": "Lawrence, p. 39, Evaluarea preoperatorie — Tabelul 4-1, indicația de probe"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Extinde panelul de laborator la screening neselectiv, contrar coloanei „momentul efectuării” din Tabelul 4-1."
+  },
+  "textbookExpressions": [
+   "tulburări de sângerare",
+   "Probe de laborator"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hemostaza-adv-025",
+  "questionFingerprint": "20b12f29ebddad2641c31050eeb9e50b5bfcfc3b9f0a5072e3fb573bb855d992",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea listei de operații cu pierderi mari și a paletei de agenți topici (Gelfoam, Surgicel, Avitene).",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 4,
+   "printedPages": [
+    40,
+    39
+   ],
+   "pdfPages": [
+    14,
+    13
+   ],
+   "section": "Complicații intraoperatorii — Operații cu pierderi mari și agenți locali"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Lista de operații (bypass, aortă, transplant, prostată, șunt portocav, traumă) este explicită.",
+    "evidenceLocation": "Lawrence, p. 40, 39, Complicații intraoperatorii — Operații cu pierderi mari și agenți locali"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Paleta de agenți locali, cu denumirile comerciale, este enumerată.",
+    "evidenceLocation": "Lawrence, p. 40, 39, Complicații intraoperatorii — Operații cu pierderi mari și agenți locali"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Indicația pe puncte de sutură/linii vasculare/disecție este enunțată.",
+    "evidenceLocation": "Lawrence, p. 40, 39, Complicații intraoperatorii — Operații cu pierderi mari și agenți locali"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Textul leagă reacția hemolitică acută de producerea CID.",
+    "evidenceLocation": "Lawrence, p. 40, 39, Complicații intraoperatorii — Operații cu pierderi mari și agenți locali"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Prostata și șuntul portocav sunt pe lista de pierderi mari.",
+    "evidenceLocation": "Lawrence, p. 40, 39, Complicații intraoperatorii — Operații cu pierderi mari și agenți locali"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Scoate prostata și șuntul portocav de pe lista de pierderi mari și rezervă Gelfoam/Surgicel pentru CID."
+  },
+  "textbookExpressions": [
+   "Gelfoam",
+   "Surgicel"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hemostaza-adv-026",
+  "questionFingerprint": "e95060a6356cff0b22ae6e4f10d153752cb9b1de0ab89998b97d49af9d50c392",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea faptului că, sub AG, incompatibilitatea se demască prin sângerare difuză, hemoglobinurie și oligurie, nu prin agitație.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 4,
+   "printedPages": [
+    40
+   ],
+   "pdfPages": [
+    14
+   ],
+   "section": "Transfuzia incompatibilă sub anestezie — CID fără simptome clasice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Textul precizează că simptomele obișnuite nu sunt evidente sub anestezie generală.",
+    "evidenceLocation": "Lawrence, p. 40, Transfuzia incompatibilă sub anestezie — CID fără simptome clasice"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Sângerarea generalizată prin CID este manifestarea descrisă.",
+    "evidenceLocation": "Lawrence, p. 40, Transfuzia incompatibilă sub anestezie — CID fără simptome clasice"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Hemoglobinuria și oliguria sunt probele clinice suplimentare.",
+    "evidenceLocation": "Lawrence, p. 40, Transfuzia incompatibilă sub anestezie — CID fără simptome clasice"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Sub AG aceste simptome lipsesc; CID este tocmai consecința.",
+    "evidenceLocation": "Lawrence, p. 40, Transfuzia incompatibilă sub anestezie — CID fără simptome clasice"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Perechea hemoglobinurie-oligurie susține, nu infirmă, CID-ul.",
+    "evidenceLocation": "Lawrence, p. 40, Transfuzia incompatibilă sub anestezie — CID fără simptome clasice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Așteaptă frisonul și durerea lombară sub anestezie și neagă CID-ul, contrar paragrafului despre transfuzia incompatibilă."
+  },
+  "textbookExpressions": [
+   "Hemoglobinuria",
+   "oliguria"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hemostaza-adv-027",
+  "questionFingerprint": "3608f5907f3fdc9ecf0f6058269694259b982e7405ef2e935c5a44ef9f9db06c",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea heparinei reziduale post-bypass de fereastra de 3–5 zile a ficatului restant, versus FXIII din același interval.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 4,
+   "printedPages": [
+    41
+   ],
+   "pdfPages": [
+    15
+   ],
+   "section": "Hemoragii postoperatorii — Heparină reziduală și fereastra 3–5 zile hepatică"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Heparina reziduală ca și cauză de sângerare progresivă post-bypass/vascular este explicită.",
+    "evidenceLocation": "Lawrence, p. 41, Hemoragii postoperatorii — Heparină reziduală și fereastra 3–5 zile hepatică"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Fereastra 3–5 zile a producției de factori după hepatectomie este citată.",
+    "evidenceLocation": "Lawrence, p. 41, Hemoragii postoperatorii — Heparină reziduală și fereastra 3–5 zile hepatică"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Deficitul K-dependent (II, VII, IX, X) la malnutriți cu antibiotice este enunțat.",
+    "evidenceLocation": "Lawrence, p. 41, Hemoragii postoperatorii — Heparină reziduală și fereastra 3–5 zile hepatică"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "FXIII se confirmă prin dozare, nu prin heparină.",
+    "evidenceLocation": "Lawrence, p. 41, Hemoragii postoperatorii — Heparină reziduală și fereastra 3–5 zile hepatică"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Textul cere zile, nu o oră, până la producția adecvată de factori.",
+    "evidenceLocation": "Lawrence, p. 41, Hemoragii postoperatorii — Heparină reziduală și fereastra 3–5 zile hepatică"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Confundă fereastra hepatică de 3–5 zile cu heparina reziduală și cu FXIII, trei cauze din același paragraf de sângerare tardivă."
+  },
+  "textbookExpressions": [
+   "3-5 zile",
+   "bypass"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hemostaza-adv-028",
+  "questionFingerprint": "acad9a954da45051f82021f7b491e023d20c63cce135e41cf4b04bda1a372e35",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea clusterului anamnestic (TEV <40 de ani, neprovocat, recurent, mezenteric) ca semnal de hipercoagulabilitate.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 4,
+   "printedPages": [
+    42
+   ],
+   "pdfPages": [
+    16
+   ],
+   "section": "Hipercoagulabilitate — Istoricul: <40 de ani și sediu mezenteric"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cele patru elemente — vârstă <40, neprovocat, recurență, sediu neobișnuit/mezenteric — sunt enumerate ca primul pas.",
+    "evidenceLocation": "Lawrence, p. 42, Hipercoagulabilitate — Istoricul: <40 de ani și sediu mezenteric"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "TEV-ul provocat de fractură la vârstnic, fără recurență, nu este clusterul citat.",
+    "evidenceLocation": "Lawrence, p. 42, Hipercoagulabilitate — Istoricul: <40 de ani și sediu mezenteric"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "INR-ul terapeutic nu înlocuiește anamneza de TEV.",
+    "evidenceLocation": "Lawrence, p. 42, Hipercoagulabilitate — Istoricul: <40 de ani și sediu mezenteric"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Hernia curată fără antecedente nu alertează.",
+    "evidenceLocation": "Lawrence, p. 42, Hipercoagulabilitate — Istoricul: <40 de ani și sediu mezenteric"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Timpul de sângerare privește hemostaza hemoragică, nu riscul trombotic.",
+    "evidenceLocation": "Lawrence, p. 42, Hipercoagulabilitate — Istoricul: <40 de ani și sediu mezenteric"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Înlocuiește TEV-ul <40 de ani/mezenteric cu un eveniment provocat la vârstnic, capcana clasică a anamnezei de hipercoagulabilitate."
+  },
+  "textbookExpressions": [
+   "40 de ani",
+   "venelor mezenterice"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hemostaza-adv-029",
+  "questionFingerprint": "5abe7c59be667dc8ba1381b9b1d94eb90f7af737b369e7575a4aa043e22c49fa",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea indicației pe deficite multiple cu sângerare sau gest invaziv, plus lista etiologică, versus confuzia cu MER/trombocite.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 4,
+   "printedPages": [
+    43
+   ],
+   "pdfPages": [
+    17
+   ],
+   "section": "Transfuzia de PPC — PT/aPTT și procedură invazivă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Indicația PT/aPTT crescute plus sângerare sau procedură invazivă este explicită.",
+    "evidenceLocation": "Lawrence, p. 43, Transfuzia de PPC — PT/aPTT și procedură invazivă"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Lista cauzelor (diluție, congenital, warfarină/heparină, ficat, malnutriție) este enumerată.",
+    "evidenceLocation": "Lawrence, p. 43, Transfuzia de PPC — PT/aPTT și procedură invazivă"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Diluția după transfuzie masivă este tocmai o indicație, nu o contraindicație.",
+    "evidenceLocation": "Lawrence, p. 43, Transfuzia de PPC — PT/aPTT și procedură invazivă"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Creșterea Ht cu 3% aparține MER, nu PPC.",
+    "evidenceLocation": "Lawrence, p. 43, Transfuzia de PPC — PT/aPTT și procedură invazivă"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Pragul 30.000–50.000 este al trombocitelor, nu al plasmei.",
+    "evidenceLocation": "Lawrence, p. 43, Transfuzia de PPC — PT/aPTT și procedură invazivă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Atribuie PPC efectul de hematocrit al MER și pragul trombocitar, două cifre din pagini alăturate."
+  },
+  "textbookExpressions": [
+   "Transfuzia de PPC",
+   "proceduri invazive"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hemostaza-adv-030",
+  "questionFingerprint": "98744e81f6066b58c5f04dd739ac16e78f806818543300fde657361f3a6d596f",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea reacției febrile (cea mai frecventă, antileucocitară) de GVHD-ul tardiv prevenit prin deleucocitare/iradiere.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 4,
+   "printedPages": [
+    45,
+    44
+   ],
+   "pdfPages": [
+    19,
+    18
+   ],
+   "section": "Reacții imunologice — Febrile (antileucocitare) versus GVHD iradiat"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Frecvența maximă, anticorpii antileucocitari și conduita (oprire, suport) sunt explicite pe pagina anterioară.",
+    "evidenceLocation": "Lawrence, p. 45, 44, Reacții imunologice — Febrile (antileucocitare) versus GVHD iradiat"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Mecanismul, fereastra de săptămâni, tabloul și prevenția prin deleucocitare/iradiere sunt enunțate.",
+    "evidenceLocation": "Lawrence, p. 45, 44, Reacții imunologice — Febrile (antileucocitare) versus GVHD iradiat"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Febrilele sunt cele mai frecvente; 1–2 ore este fereastra LPAT, nu a GVHD.",
+    "evidenceLocation": "Lawrence, p. 45, 44, Reacții imunologice — Febrile (antileucocitare) versus GVHD iradiat"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Iradierea previne, nu precipită, GVHD.",
+    "evidenceLocation": "Lawrence, p. 45, 44, Reacții imunologice — Febrile (antileucocitare) versus GVHD iradiat"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Creșterea vitezei agravează supraîncărcarea, nu tratează GVHD.",
+    "evidenceLocation": "Lawrence, p. 45, 44, Reacții imunologice — Febrile (antileucocitare) versus GVHD iradiat"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Permutează fereastra de săptămâni a GVHD cu 1–2 ore ale LPAT și inversează rolul iradierii."
+  },
+  "textbookExpressions": [
+   "reacţii febrile",
+   "eritrocite iradiate"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hemostaza-adv-031",
+  "questionFingerprint": "2c4be81b469a33bc8600a376e1176654b0cad98caa5ef1d640eda6234e8ecdb8",
+  "status": "source-checked",
+  "learningObjective": "Fixarea pragului de 50 mL, a opririi imediate cu retrimitere la laborator și a manitolului/furosemidului pentru diureză.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 4,
+   "printedPages": [
+    45
+   ],
+   "pdfPages": [
+    19
+   ],
+   "section": "Reacția hemolitică acută — 50 mL, oprire și manitol"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Pragul de doar 50 mL este explicit.",
+    "evidenceLocation": "Lawrence, p. 45, Reacția hemolitică acută — 50 mL, oprire și manitol"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Oprirea, retrimiterea pentru ABO/compatibilitate și culturile sunt listate.",
+    "evidenceLocation": "Lawrence, p. 45, Reacția hemolitică acută — 50 mL, oprire și manitol"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Manitolul/furosemidul și hemodializa sunt enunțate.",
+    "evidenceLocation": "Lawrence, p. 45, Reacția hemolitică acută — 50 mL, oprire și manitol"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Simptomele și semnele, inclusiv hemoglobinuria, sunt enumerate.",
+    "evidenceLocation": "Lawrence, p. 45, Reacția hemolitică acută — 50 mL, oprire și manitol"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Textul cere oprirea imediată, nu accelerarea; 50 mL poate declanșa reacția.",
+    "evidenceLocation": "Lawrence, p. 45, Reacția hemolitică acută — 50 mL, oprire și manitol"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Continuă transfuzia după 50 mL și interzice manitolul, două gesturi inversate din algoritmul hemolitic."
+  },
+  "textbookExpressions": [
+   "50 mL de sânge",
+   "manito"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ }
+]
