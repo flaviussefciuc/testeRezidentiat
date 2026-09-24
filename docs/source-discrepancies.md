@@ -89,3 +89,9 @@ Fiecare temă rescrisă (versiunile `-v2`) a fost confruntată din nou cu pagini
 - P. 243: fraza «Calculii pigmentari conțin adesea suficient calciu cât să devină radioopaci» se referă la calculii pigmentari în general, nu doar la cei bruni. Vechiul `-026` o atribuia explicit calculilor bruni. Itemul a fost retras, iar `-009-v2` nu folosește această atribuire.
 - P. 250: proporția ileusului biliar din ocluzii apare în extras ca «<!%» (OCR). Valoarea «sub 1%» este păstrată, dar expresiile citate folosesc alte fragmente, lizibile.
 - Retrase fără înlocuitor (dubluri): 026 (dublura lui 009), 052 și 053 (dublurile lui 031), 063 (inclus în 002).
+
+### Evaluarea și managementul perioperator (Lawrence, cap. 1)
+- Nu s-au găsit chei greșite în cei 40 de itemi confruntați cu p. 1–12.
+- **Contradicție internă:** p. 2 recomandă oprirea fumatului «cu minim 6 săptămâni» înaintea intervenției, pentru reducerea complicațiilor pulmonare; p. 10 recomandă, pentru atelectazie, oprirea fumatului «cu 8 săptămâni înainte». Vechiul `-007` testa valoarea de 8 săptămâni. `-007-v2` nu mai construiește cheia pe niciuna dintre aceste valori.
+- P. 5: în extras, doza din Tabelul 1-3 apare ca «SO mg» (OCR pentru 50 mg). Valoarea de 50 mg este confirmată de logica tabelului (25 mg la 8 ore ulterior).
+- Retras fără înlocuitor (trivia numerică izolată): 034 (echivalentul de 36 mg hidrocortizon/zi din sindromul Cushing).

@@ -5,9 +5,10 @@ import {RETIRED_BILIAR} from './biliar';
 import {RETIRED_ESOFAG} from './esofag';
 import {RETIRED_HEMOSTAZA} from './hemostaza';
 import {RETIRED_HERNII} from './hernii';
+import {RETIRED_PERIOPERATOR} from './perioperator';
 import {RETIRED_REUMATOLOGIE} from './reumatologie';
 import {RETIRED_SEPSIS} from './sepsis';
 import {RETIRED_STOMAC} from './stomac';
 import {RETIRED_TROMBOEMBOLISM} from './tromboembolism';
 
-export const RETIRED_QUESTIONS:Question[]=[...RETIRED_BILIAR,...RETIRED_ESOFAG,...RETIRED_HEMOSTAZA,...RETIRED_HERNII,...RETIRED_REUMATOLOGIE,...RETIRED_SEPSIS,...RETIRED_STOMAC,...RETIRED_TROMBOEMBOLISM];
+export const RETIRED_QUESTIONS:Question[]=[...RETIRED_BILIAR,...RETIRED_ESOFAG,...RETIRED_HEMOSTAZA,...RETIRED_HERNII,...RETIRED_PERIOPERATOR,...RETIRED_REUMATOLOGIE,...RETIRED_SEPSIS,...RETIRED_STOMAC,...RETIRED_TROMBOEMBOLISM];

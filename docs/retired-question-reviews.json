@@ -45839,5 +45839,3105 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "perioperator-adv-001",
+  "questionFingerprint": "81130d03850e44274782229ff059e5547b2d796901f0efa603b7a4da9fae00a8",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea limitelor screeningului neselectiv preoperator și a faptului că anamneza și examenul clinic nu pot fi substituite de analize de rutină.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    1
+   ],
+   "pdfPages": [
+    1
+   ],
+   "section": "Evaluarea preoperatorie — Testele de screening și consulturile de specialitate"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Textul precizează costurile ridicate fără garanția rezultatelor pozitive.",
+    "evidenceLocation": "Lawrence, p. 1, Evaluarea preoperatorie — Testele de screening și consulturile de specialitate"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Prejudiciul potențial al screeningului neselectiv este descris ca mai mare decât beneficiul.",
+    "evidenceLocation": "Lawrence, p. 1, Evaluarea preoperatorie — Testele de screening și consulturile de specialitate"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Argumentul că 60% din rezultatele anormale sunt ignorate este explicit.",
+    "evidenceLocation": "Lawrence, p. 1, Evaluarea preoperatorie — Testele de screening și consulturile de specialitate"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Textul precizează că nu este necesară repetarea analizelor normale din ultimele 4 săptămâni.",
+    "evidenceLocation": "Lawrence, p. 1, Evaluarea preoperatorie — Testele de screening și consulturile de specialitate"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Textul indică opusul: obținerea stării bazale nu este recomandată la asimptomatici.",
+    "evidenceLocation": "Lawrence, p. 1, Evaluarea preoperatorie — Testele de screening și consulturile de specialitate"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-13T20:58:58.119Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul final inversează recomandarea privind starea bazală, pe fondul unui fapt cantitativ memorabil (60%)."
+  },
+  "textbookExpressions": [
+   "60% din rezultatele anormale",
+   "nu este recomandată"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem reformulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "perioperator-adv-002",
+  "questionFingerprint": "481753d9aba14b787e13ff835685c08c49123f1fa63a5f421f2d4146cf641d46",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea efectelor fiziologice ale stresului chirurgical de screeningul neselectiv și de excepția capacității funcționale păstrate.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    2
+   ],
+   "pdfPages": [
+    2
+   ],
+   "section": "Evaluarea cardiacă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Creșterea catecolaminelor și a necesarului miocardic de O2 este descrisă explicit.",
+    "evidenceLocation": "Lawrence, p. 2, Evaluarea cardiacă"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Supresia fibrinolizei cu predispoziție la tromboză este menționată.",
+    "evidenceLocation": "Lawrence, p. 2, Evaluarea cardiacă"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Textul precizează opusul: screeningul cardiac de rutină nu este recomandat la risc scăzut.",
+    "evidenceLocation": "Lawrence, p. 2, Evaluarea cardiacă"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Textul indică că pacienții cu risc înalt și capacitate funcțională păstrată ar putea să nu necesite evaluare amănunțită.",
+    "evidenceLocation": "Lawrence, p. 2, Evaluarea cardiacă"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "ECG-ul este indicat la comorbidități semnificative și operații cu risc înalt.",
+    "evidenceLocation": "Lawrence, p. 2, Evaluarea cardiacă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-13T20:58:58.119Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii extind screeningul la risc scăzut și anulează excepția capacității funcționale păstrate."
+  },
+  "textbookExpressions": [
+   "catecolamine",
+   "sistemului fibrinolitic"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem reformulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "perioperator-adv-003",
+  "questionFingerprint": "25cb86d9eb42a1fc0baccb0109f1ebf9fd2caa9ac4c76471c1f3c2575f8bd510",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea indicațiilor selective de radiografie toracică și recunoașterea factorilor de risc pulmonari legați de pacient.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    2,
+    3
+   ],
+   "pdfPages": [
+    2,
+    3
+   ],
+   "section": "Evaluarea pulmonară"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Intervalul 2-9% este citat explicit.",
+    "evidenceLocation": "Lawrence, p. 2, 3, Evaluarea pulmonară"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Textul precizează că Rx și TFP de rutină nu sunt necesare.",
+    "evidenceLocation": "Lawrence, p. 2, 3, Evaluarea pulmonară"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Lista de factori de risc legați de pacient este enumerată, inclusiv ASA.",
+    "evidenceLocation": "Lawrence, p. 2, 3, Evaluarea pulmonară"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Rx este indicată pentru intervenții intratoracice sau boală pulmonară activă, nu oricărui asimptomatic.",
+    "evidenceLocation": "Lawrence, p. 2, 3, Evaluarea pulmonară"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "ASA are 6 categorii, de la I (sănătos) până la V (moribund) și VI.",
+    "evidenceLocation": "Lawrence, p. 2, 3, Evaluarea pulmonară"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-13T20:58:58.119Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii generalizează indicația radiografiei și reduc greșit numărul de clase ASA."
+  },
+  "textbookExpressions": [
+   "2-9%",
+   "American Society of Anesthesiologists"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem reformulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "perioperator-adv-004",
+  "questionFingerprint": "13d57a19acb87ef7468f72207963403c6444630563e2156c617e035a3588d2c0",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea pragurilor Child-Pugh pentru tolerabilitatea chirurgiei elective și a componentelor scorului MELD.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    3
+   ],
+   "pdfPages": [
+    3
+   ],
+   "section": "Pacientul cu disfuncție hepatică — Child-Pugh și MELD"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Ambele scoruri sunt cerute explicit în evaluarea preoperatorie.",
+    "evidenceLocation": "Lawrence, p. 3, Pacientul cu disfuncție hepatică — Child-Pugh și MELD"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Child A tolerează bine chirurgia electivă.",
+    "evidenceLocation": "Lawrence, p. 3, Pacientul cu disfuncție hepatică — Child-Pugh și MELD"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Child C contraindică chirurgia electivă.",
+    "evidenceLocation": "Lawrence, p. 3, Pacientul cu disfuncție hepatică — Child-Pugh și MELD"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Child B permite chirurgia electivă cu pregătire, cu excepții (rezecții hepatice extinse, chirurgie cardiacă).",
+    "evidenceLocation": "Lawrence, p. 3, Pacientul cu disfuncție hepatică — Child-Pugh și MELD"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "MELD se bazează pe bilirubină, creatinină și INR, nu pe albumină/timp de sângerare.",
+    "evidenceLocation": "Lawrence, p. 3, Pacientul cu disfuncție hepatică — Child-Pugh și MELD"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-13T20:58:58.119Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii extind contraindicația Child B la toate cazurile și înlocuiesc componentele reale ale MELD."
+  },
+  "textbookExpressions": [
+   "Child C",
+   "bilirubinei"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem reformulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "perioperator-adv-005",
+  "questionFingerprint": "1f3d3abd9f2d1f264e7f4ef15f688f2a1e154fe7bdaf7414ab2d35f9c04fa996",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea țintei glicemice perioperatorii și a independenței CAD față de valoarea absolută a glicemiei.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    5
+   ],
+   "pdfPages": [
+    5
+   ],
+   "section": "Pacientul diabetic"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Intervalul 120-180 mg/dL este ținta explicită.",
+    "evidenceLocation": "Lawrence, p. 5, Pacientul diabetic"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Preferința pentru limita superioară din cauza hipoglicemiei este menționată.",
+    "evidenceLocation": "Lawrence, p. 5, Pacientul diabetic"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "CAD nu depinde de valoarea glicemiei, ci de absența insulinei.",
+    "evidenceLocation": "Lawrence, p. 5, Pacientul diabetic"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Insulina rapidă/scurtă se oprește când pacientul nu se mai alimentează preoperator.",
+    "evidenceLocation": "Lawrence, p. 5, Pacientul diabetic"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Agenții orali cu durată lungă se opresc cu 48-72 de ore înainte.",
+    "evidenceLocation": "Lawrence, p. 5, Pacientul diabetic"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-13T20:58:58.119Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează două reguli practice de oprire a insulinelor/oralelor și testează independența CAD de pragul glicemic."
+  },
+  "textbookExpressions": [
+   "120-180 mg/dL",
+   "absența insulinei"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem reformulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "perioperator-adv-006",
+  "questionFingerprint": "0080e44400586bc1fbba4fe39b02c2063efe4619e0a6d1551189901cf71c21a2",
+  "status": "source-checked",
+  "learningObjective": "Alegerea trimestrului optim pentru chirurgie și recunoașterea modificărilor fiziologice care maschează hipovolemia și a indicației de anti-D.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    6
+   ],
+   "pdfPages": [
+    6
+   ],
+   "section": "Pacienta însărcinată"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Al doilea trimestru este descris ca ideal pentru riscul minim de avort/travaliu prematur.",
+    "evidenceLocation": "Lawrence, p. 6, Pacienta însărcinată"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Creșterea volumului plasmatic maschează pierderile sanguine.",
+    "evidenceLocation": "Lawrence, p. 6, Pacienta însărcinată"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Indicația anti-D la Rh-negative post-traumă, cu excepția leziunilor minore distale, este explicită.",
+    "evidenceLocation": "Lawrence, p. 6, Pacienta însărcinată"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Textul preferă evitarea chirurgiei; când e necesară, al doilea trimestru, nu primul.",
+    "evidenceLocation": "Lawrence, p. 6, Pacienta însărcinată"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Laparoscopia poate fi realizată în siguranță în al doilea trimestru, cu modificări de trocare și presiune redusă.",
+    "evidenceLocation": "Lawrence, p. 6, Pacienta însărcinată"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-13T20:58:58.119Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează trimestrul preferat și transformă o precauție tehnică a laparoscopiei într-o interdicție absolută."
+  },
+  "textbookExpressions": [
+   "al doilea trimestru",
+   "imunoglobulina anti-D"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem reformulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "perioperator-adv-007",
+  "questionFingerprint": "0e0799172d7c2d65e7870757f6f99baaf6007f4a165b1d0ebb0010d9492b73bb",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea incidenței înalte a atelectaziei și a măsurilor preventive pre- și postoperatorii.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    10,
+    9
+   ],
+   "pdfPages": [
+    10,
+    9
+   ],
+   "section": "Complicațiile postoperatorii — Atelectazia"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Incidența de până la 90% este citată explicit.",
+    "evidenceLocation": "Lawrence, p. 10, 9, Complicațiile postoperatorii — Atelectazia"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Oprirea fumatului cu 8 săptămâni și exercițiile inspiratorii sunt măsuri preoperatorii.",
+    "evidenceLocation": "Lawrence, p. 10, 9, Complicațiile postoperatorii — Atelectazia"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Analgezia adecvată (inclusiv epidurală) și mobilizarea precoce sunt strategii cheie.",
+    "evidenceLocation": "Lawrence, p. 10, 9, Complicațiile postoperatorii — Atelectazia"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Colabarea alveolară este favorizată de anestezicele generale, indiferent de agent.",
+    "evidenceLocation": "Lawrence, p. 10, 9, Complicațiile postoperatorii — Atelectazia"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Chirurgia minim invazivă reduce, nu crește, incidența atelectaziei.",
+    "evidenceLocation": "Lawrence, p. 10, 9, Complicațiile postoperatorii — Atelectazia"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-13T20:58:58.119Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează relația cu tipul de anestezie și cu abordul minim invaziv, pe fondul unui procent memorabil (90%)."
+  },
+  "textbookExpressions": [
+   "90%",
+   "8 săptămâni"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem reformulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "perioperator-adv-008",
+  "questionFingerprint": "23c8cdb2d7d93f3123043cb9fde980d8887226335be2ab2d88d437d27c580bb0",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea evenimentelor „never events” chirurgicale de complicațiile postoperatorii frecvente, dar nu listate ca never events.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    11
+   ],
+   "pdfPages": [
+    11
+   ],
+   "section": "Siguranța perioperatorie a pacientului — Situații care nu trebuie să aibă loc niciodată"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Chirurgia pe partea greșită este listată explicit printre situațiile chirurgicale care nu trebuie să aibă loc.",
+    "evidenceLocation": "Lawrence, p. 11, Siguranța perioperatorie a pacientului — Situații care nu trebuie să aibă loc niciodată"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Febra ≥38,3°C declanșează investigații, dar nu este un never event chirurgical.",
+    "evidenceLocation": "Lawrence, p. 11, Siguranța perioperatorie a pacientului — Situații care nu trebuie să aibă loc niciodată"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Atelectazia este o complicație frecventă, nu un never event din tabel.",
+    "evidenceLocation": "Lawrence, p. 11, Siguranța perioperatorie a pacientului — Situații care nu trebuie să aibă loc niciodată"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Transfuzia intraoperatorie nu figurează ca never event chirurgical în tabel.",
+    "evidenceLocation": "Lawrence, p. 11, Siguranța perioperatorie a pacientului — Situații care nu trebuie să aibă loc niciodată"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Consultul cardiologic post-IM este o practică recomandată, nu un never event.",
+    "evidenceLocation": "Lawrence, p. 11, Siguranța perioperatorie a pacientului — Situații care nu trebuie să aibă loc niciodată"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-13T20:58:58.119Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt evenimente clinice reale din capitol, dar nu apar în lista never events chirurgicale."
+  },
+  "textbookExpressions": [
+   "partea greșită",
+   "Situații chirurgicale"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem reformulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "perioperator-adv-009",
+  "questionFingerprint": "e3a5c94954f01fc51c409c19646a1bedb8b4d6a9548151c0618c9d95cf172ed0",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea indicației selective de hemoglobină (>500 mL sau anemie nediagnosticată) față de screeningul neselectiv.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    1
+   ],
+   "pdfPages": [
+    1
+   ],
+   "section": "Evaluarea preoperatorie — Screeningul hemoglobinei"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Textul limitează screeningul de rutină al hemoglobinei la proceduri cu pierderi tipic >500 mL sau anemie de cauză necunoscută.",
+    "evidenceLocation": "Lawrence, p. 1, Evaluarea preoperatorie — Screeningul hemoglobinei"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Screeningul neselectiv la asimptomatici este argumentat împotriva, nu în favoare.",
+    "evidenceLocation": "Lawrence, p. 1, Evaluarea preoperatorie — Screeningul hemoglobinei"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Indicația nu este rezervată copiilor.",
+    "evidenceLocation": "Lawrence, p. 1, Evaluarea preoperatorie — Screeningul hemoglobinei"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Starea bazală nu este recomandată la asimptomatici; hemoglobina se evaluează preoperator când e indicată.",
+    "evidenceLocation": "Lawrence, p. 1, Evaluarea preoperatorie — Screeningul hemoglobinei"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Testele nu substituie anamneza, nici la urgențe.",
+    "evidenceLocation": "Lawrence, p. 1, Evaluarea preoperatorie — Screeningul hemoglobinei"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Pragul de 500 mL se confundă ușor cu indicația de ionogramă sau de sumar de urină de pe aceeași pagină."
+  },
+  "textbookExpressions": [
+   ">500 mL",
+   "anemie de cauză necunoscută"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "perioperator-adv-010",
+  "questionFingerprint": "8d8bb555e0c009f2a71846cee5a4ae51120711d1a173a1b0f310e7ed84969efb",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea indicațiilor selective de ionogramă/sumar urinar de mitul contraindicației prin consult.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    1
+   ],
+   "pdfPages": [
+    1
+   ],
+   "section": "Testele de screening și consulturile de specialitate"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Textul enumeră patologiile cronice care justifică ionograma și creatinina.",
+    "evidenceLocation": "Lawrence, p. 1, Testele de screening și consulturile de specialitate"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Cele trei indicații ale sumarului de urină sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 1, Testele de screening și consulturile de specialitate"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Consultul stabilește gradul de risc și pregătirea, nu contraindicația.",
+    "evidenceLocation": "Lawrence, p. 1, Testele de screening și consulturile de specialitate"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Vârstnicii au risc substanțial de deshidratare cronică, deci ionograma este recomandată.",
+    "evidenceLocation": "Lawrence, p. 1, Testele de screening și consulturile de specialitate"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "După cuantificarea riscului, echipa chirurgicală discută indicația cu pacientul.",
+    "evidenceLocation": "Lawrence, p. 1, Testele de screening și consulturile de specialitate"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează indicația de ionogramă la vârstnic și transformă consultul într-un veto operator."
+  },
+  "textbookExpressions": [
+   "sumarului de urină",
+   "consultului de specialitate"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "perioperator-adv-011",
+  "questionFingerprint": "5dd84937058ccf90344e0e188550c81567d5ac602a94a13127a9fa833a57dfea",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea definiției BRC (≥3 luni), a NTA ca cauză perioperatorie dominantă și a riscului de 1%.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    2
+   ],
+   "pdfPages": [
+    2
+   ],
+   "section": "Pacientul cu disfuncție renală — BRC și IRA"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Pragul de cel puțin 3 luni definește BRC.",
+    "evidenceLocation": "Lawrence, p. 2, Pacientul cu disfuncție renală — BRC și IRA"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "NTA este cauza perioperatorie cea mai frecventă de IRA.",
+    "evidenceLocation": "Lawrence, p. 2, Pacientul cu disfuncție renală — BRC și IRA"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Cifra de aproximativ 1% este citată.",
+    "evidenceLocation": "Lawrence, p. 2, Pacientul cu disfuncție renală — BRC și IRA"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "FE <35% și indexul cardiac <1,7 L/min/m² sunt listați ca factori de risc.",
+    "evidenceLocation": "Lawrence, p. 2, Pacientul cu disfuncție renală — BRC și IRA"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Stadiul terminal indică necesitatea dializei sau a transplantului, nu un grad precis de funcție.",
+    "evidenceLocation": "Lawrence, p. 2, Pacientul cu disfuncție renală — BRC și IRA"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Permutează NTA cu cauzele prerenale și confundă „stadiu terminal” cu un prag numeric de RFG."
+  },
+  "textbookExpressions": [
+   "cel puţin 3 luni",
+   "necroza tubulară acută"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "perioperator-adv-012",
+  "questionFingerprint": "2f7794b29a1cec2cba4754c394fe5287d5833036cd541989bf093b0c2a576292",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea DDAVP ca manevră preoperatorie pentru trombocitopatia uremică.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    3,
+    2
+   ],
+   "pdfPages": [
+    3,
+    2
+   ],
+   "section": "BRC — DDAVP și analgezia perioperatorie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Textul descrie eliberarea de vWF de către DDAVP și folosirea unei doze preoperatorii.",
+    "evidenceLocation": "Lawrence, p. 3, 2, BRC — DDAVP și analgezia perioperatorie"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "AINS sunt în general contraindicate din cauza nefrotoxicității.",
+    "evidenceLocation": "Lawrence, p. 3, 2, BRC — DDAVP și analgezia perioperatorie"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Opioidele se acumulează și cresc riscul de depresie respiratorie.",
+    "evidenceLocation": "Lawrence, p. 3, 2, BRC — DDAVP și analgezia perioperatorie"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "DDAVP stimulează, nu blochează, eliberarea de vWF.",
+    "evidenceLocation": "Lawrence, p. 3, 2, BRC — DDAVP și analgezia perioperatorie"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Heparinizarea de dializă și coagulopatia uremică cresc pierderea de sânge.",
+    "evidenceLocation": "Lawrence, p. 3, 2, BRC — DDAVP și analgezia perioperatorie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează rolul DDAVP și promovează AINS, contraindicate explicit în același paragraf."
+  },
+  "textbookExpressions": [
+   "DDAVP",
+   "trombocitopatiei"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "perioperator-adv-013",
+  "questionFingerprint": "4b7db9b3319305f90c092fcd8499b3cb6a78da4cc7b9f1d5377c0616a3810947",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea NASH ca etiologie dominantă și a biopsiei ca standard, față de screeningul neselectiv.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    3
+   ],
+   "pdfPages": [
+    3
+   ],
+   "section": "Pacientul cu disfuncție hepatică — Evaluare"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "NASH este identificată ca cea mai frecventă cauză de boală hepatică cronică în SUA.",
+    "evidenceLocation": "Lawrence, p. 3, Pacientul cu disfuncție hepatică — Evaluare"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Absența testelor de rutină la asimptomatici fără risc este explicită.",
+    "evidenceLocation": "Lawrence, p. 3, Pacientul cu disfuncție hepatică — Evaluare"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Biopsia rămâne standardul de aur pentru diagnostic și stadializare.",
+    "evidenceLocation": "Lawrence, p. 3, Pacientul cu disfuncție hepatică — Evaluare"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Textul descurajează testarea de rutină la asimptomatici.",
+    "evidenceLocation": "Lawrence, p. 3, Pacientul cu disfuncție hepatică — Evaluare"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Serologia și imagistica sunt adesea adecvate, dar biopsia rămâne standardul.",
+    "evidenceLocation": "Lawrence, p. 3, Pacientul cu disfuncție hepatică — Evaluare"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează ierarhia NASH versus hepatita virală clasică și anulează rolul biopsiei."
+  },
+  "textbookExpressions": [
+   "Steatohepatita non-alcoolică",
+   "standardul de aur"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "perioperator-adv-014",
+  "questionFingerprint": "e16d4d14917243bb9896bbc5a39cb690597cac57f55e8fdec3286d62dfb09af6",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea ferestrei zilei 3 (până la 10 zile) și a reducerii mortalității DT de la 50% la 10%.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    4
+   ],
+   "pdfPages": [
+    4
+   ],
+   "section": "Disfuncție hepatică — Sevrajul etanolic"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Maximul în ziua 3 și excepția de 10 zile sunt citate.",
+    "evidenceLocation": "Lawrence, p. 4, Disfuncție hepatică — Sevrajul etanolic"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Cifrele 50% netratat și 10% tratat sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 4, Disfuncție hepatică — Sevrajul etanolic"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Benzodiazepinele profilactice sunt menționate ca prevenție a simptomelor majore.",
+    "evidenceLocation": "Lawrence, p. 4, Disfuncție hepatică — Sevrajul etanolic"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Simptomele ușoare apar între ziua 1 și ziua 5, nu la 30 de minute.",
+    "evidenceLocation": "Lawrence, p. 4, Disfuncție hepatică — Sevrajul etanolic"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Tratamentul reduce mortalitatea de la 50% la 10%.",
+    "evidenceLocation": "Lawrence, p. 4, Disfuncție hepatică — Sevrajul etanolic"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Permutează fereastra zilei 3 cu debutul imediat și anulează beneficiul benzodiazepinelor asupra DT."
+  },
+  "textbookExpressions": [
+   "delirium tremens",
+   "până la 50%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "perioperator-adv-015",
+  "questionFingerprint": "ed0d65074b15d79cbea6ad8dc89ef9461549dc0bf10879082c63bb3e195ba2f4",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea dozelor diferențiate după magnitudinea stresului și a pragului prednison 20 mg/3 săptămâni.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    5,
+    4
+   ],
+   "pdfPages": [
+    5,
+    4
+   ],
+   "section": "Insuficiența adrenală — Tabelul 1-3"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Absența suplimentării la proceduri minore, cu păstrarea dozei matinale, este primul rând.",
+    "evidenceLocation": "Lawrence, p. 5, 4, Insuficiența adrenală — Tabelul 1-3"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Schema 50+25 mg/8 h/24 h definește stresul moderat.",
+    "evidenceLocation": "Lawrence, p. 5, 4, Insuficiența adrenală — Tabelul 1-3"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Schema 100+50 mg/8 h/24 h definește stresul major.",
+    "evidenceLocation": "Lawrence, p. 5, 4, Insuficiența adrenală — Tabelul 1-3"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Pragul 20 mg prednison ≥3 săptămâni este enunțat în text.",
+    "evidenceLocation": "Lawrence, p. 5, 4, Insuficiența adrenală — Tabelul 1-3"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Stresul minor nu se suplimentează; 200 mg/4 h nu figurează.",
+    "evidenceLocation": "Lawrence, p. 5, 4, Insuficiența adrenală — Tabelul 1-3"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează dozele dintre stresul minor și cel major, pe un tabel ușor de oglindit."
+  },
+  "textbookExpressions": [
+   "20 mg/zi",
+   "50 mg hidrocortizon"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "perioperator-adv-016",
+  "questionFingerprint": "080921decd5134585583f3b04607b6d108df9c4bb36191d961342d1b93408518",
+  "status": "source-checked",
+  "learningObjective": "Integrarea ratei de 15% a pierderii fetale cu semnele dezlipirii și cu testul de sarcină la vârsta fertilă.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    6
+   ],
+   "pdfPages": [
+    6
+   ],
+   "section": "Pacienta însărcinată — Trauma"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cifra de 15% este explicită.",
+    "evidenceLocation": "Lawrence, p. 6, Pacienta însărcinată — Trauma"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Dezlipirea după trauma minoră, fără sângerare vaginală invariabilă, este descrisă.",
+    "evidenceLocation": "Lawrence, p. 6, Pacienta însărcinată — Trauma"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Uterul dur, mai mare decât vârsta gestațională, este semnul citat.",
+    "evidenceLocation": "Lawrence, p. 6, Pacienta însărcinată — Trauma"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Testul de sarcină la vârsta fertilă este o regulă.",
+    "evidenceLocation": "Lawrence, p. 6, Pacienta însărcinată — Trauma"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Volumul plasmatic crescut maschează hipovolemia și suferința fetală.",
+    "evidenceLocation": "Lawrence, p. 6, Pacienta însărcinată — Trauma"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Neagă mascarea hipovolemiei de către volumul plasmatic, pe fondul cifrei de 15% ușor de uitat."
+  },
+  "textbookExpressions": [
+   "15% din gravidele",
+   "test de sarcină"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "perioperator-adv-017",
+  "questionFingerprint": "e22f5dfcdc1949356352e8a05f23d71c71ea3f4bd96f54cb64113e6093ab8851",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea procesului de consimțământ de formularul legal, față de semnătura de ultim moment.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    7,
+    6
+   ],
+   "pdfPages": [
+    7,
+    6
+   ],
+   "section": "Managementul operator — Consimțământul informat"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Definiția ca proces, nu moment/formalitate, este explicită.",
+    "evidenceLocation": "Lawrence, p. 7, 6, Managementul operator — Consimțământul informat"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Formularul consemnează rezultatul discuțiilor.",
+    "evidenceLocation": "Lawrence, p. 7, 6, Managementul operator — Consimțământul informat"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Textul precizează sesiuni multiple, nu o discuție unică în sală.",
+    "evidenceLocation": "Lawrence, p. 7, 6, Managementul operator — Consimțământul informat"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Textul respinge reducerea la o formalitate unică.",
+    "evidenceLocation": "Lawrence, p. 7, 6, Managementul operator — Consimțământul informat"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Opțiunea de a nu se opera face parte din discuția onestă.",
+    "evidenceLocation": "Lawrence, p. 7, 6, Managementul operator — Consimțământul informat"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Reduce consimțământul la semnătura din sală și exclude opțiunea non-operatorie, contrar paragrafului."
+  },
+  "textbookExpressions": [
+   "Consimţământul informat",
+   "proces, nu un moment"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "perioperator-adv-018",
+  "questionFingerprint": "1d1752d352f5a878655454af9487d839a7f76c9e130f1cf8298f9ebe1985c78c",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea aspirației continue pe sonda-sifon și a radiografiei ca unică confirmare a sondei de alimentație.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    8
+   ],
+   "pdfPages": [
+    8
+   ],
+   "section": "Sonde și tuburi de dren — Tractul gastro-intestinal"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Mecanismul de sifon și indicația de aspirație continuă sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 8, Sonde și tuburi de dren — Tractul gastro-intestinal"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Radiografia sau palparea intraoperatorie sunt singurele confirmări sigure.",
+    "evidenceLocation": "Lawrence, p. 8, Sonde și tuburi de dren — Tractul gastro-intestinal"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Calibrul subțire și consistența moale definesc sondele de alimentație.",
+    "evidenceLocation": "Lawrence, p. 8, Sonde și tuburi de dren — Tractul gastro-intestinal"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Auscultația poate fi pozitivă și pe o sondă endobronșică.",
+    "evidenceLocation": "Lawrence, p. 8, Sonde și tuburi de dren — Tractul gastro-intestinal"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Administrarea de contrast intrapulmonar poate fi letală.",
+    "evidenceLocation": "Lawrence, p. 8, Sonde și tuburi de dren — Tractul gastro-intestinal"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Transformă auscultația epigastrică într-un criteriu de siguranță, capcana clasică a sondei intrapulmonare."
+  },
+  "textbookExpressions": [
+   "aspiraţie continuă",
+   "poziţionarea sondei"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "perioperator-adv-019",
+  "questionFingerprint": "64c8aab115179f4e51c94597c08458c546e9af2773285460591140ca8c3c9b99",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea drenajului toracic sub apă (20 cm H2O) cu Penrose-ul pasiv bidirecțional.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    9
+   ],
+   "pdfPages": [
+    9
+   ],
+   "section": "Sonde de tract respirator, urinar și drenuri"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cele trei funcții și nivelul de 20 cm H2O sunt enumerate.",
+    "evidenceLocation": "Lawrence, p. 9, Sonde de tract respirator, urinar și drenuri"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Caracterul pasiv, latexul și calea bacteriană dublă sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 9, Sonde de tract respirator, urinar și drenuri"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Traheostomia este pentru ventilație pe termen lung; orotraheala pentru termen scurt.",
+    "evidenceLocation": "Lawrence, p. 9, Sonde de tract respirator, urinar și drenuri"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Penrose nu se conectează la aspirație; Davol-ul este aspirativ.",
+    "evidenceLocation": "Lawrence, p. 9, Sonde de tract respirator, urinar și drenuri"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Tubul toracic evacuează aer, sânge sau lichid.",
+    "evidenceLocation": "Lawrence, p. 9, Sonde de tract respirator, urinar și drenuri"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează Penrose (pasiv) cu drenul aspirativ și limitează toracostomia la aer, omitând hemotoraxul."
+  },
+  "textbookExpressions": [
+   "20 cm H2O",
+   "drenaje Penrose"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "perioperator-adv-020",
+  "questionFingerprint": "875fb61afe9b8cb1d5a02ea088d6599012ba153ef5cc3df775f8871c6c92f31d",
+  "status": "source-checked",
+  "learningObjective": "Asocierea lichidului seros ca precursor al eviscerației cu incidențele 2–5% (IPC) și 25% (TEV fără profilaxie).",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    10,
+    9
+   ],
+   "pdfPages": [
+    10,
+    9
+   ],
+   "section": "Dehiscența plăgii, IPC și TEV"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Lichidul seros ca semn premergător și conduita de reintervenție sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 10, 9, Dehiscența plăgii, IPC și TEV"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Locul doi nosocomial și intervalul 2–5% sunt citate.",
+    "evidenceLocation": "Lawrence, p. 10, 9, Dehiscența plăgii, IPC și TEV"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Tetrada inflamației și tahicardia precoce sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 10, 9, Dehiscența plăgii, IPC și TEV"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Cifra de 25% fără profilaxie este de pe pagina anterioară.",
+    "evidenceLocation": "Lawrence, p. 10, 9, Dehiscența plăgii, IPC și TEV"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Lichidul seros impune reintervenție, nu expectativă.",
+    "evidenceLocation": "Lawrence, p. 10, 9, Dehiscența plăgii, IPC și TEV"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Tratează lichidul seros ca semn de vindecare și permutează 2–5% cu 25%, două procente din pagini alăturate."
+  },
+  "textbookExpressions": [
+   "2-5%",
+   "25%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "perioperator-adv-021",
+  "questionFingerprint": "e7586fae14ce2f21b047de7b6e5546096678970d6855233c5d782bfc552219f1",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea listei tabelate de contraindicații acute/refractare, distinctă de Child A sau de NASH compensată.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    3
+   ],
+   "pdfPages": [
+    3
+   ],
+   "section": "Pacientul cu disfuncție hepatică — Tabelul 1-1"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Textul enumeră aceste entități în Tabelul 1-1.",
+    "evidenceLocation": "Lawrence, p. 3, Pacientul cu disfuncție hepatică — Tabelul 1-1"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Child A tolerează, în general, chirurgia electivă; steatoza ușoară nu figurează în tabel.",
+    "evidenceLocation": "Lawrence, p. 3, Pacientul cu disfuncție hepatică — Tabelul 1-1"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "HTA controlată nu este o rubrică a Tabelului 1-1.",
+    "evidenceLocation": "Lawrence, p. 3, Pacientul cu disfuncție hepatică — Tabelul 1-1"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "NASH este etiologia cea mai frecventă, nu o contraindicație automată.",
+    "evidenceLocation": "Lawrence, p. 3, Pacientul cu disfuncție hepatică — Tabelul 1-1"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Doar coagulopatia severă în ciuda tratamentului este tabelată, nu cea corectată.",
+    "evidenceLocation": "Lawrence, p. 3, Pacientul cu disfuncție hepatică — Tabelul 1-1"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Extinde contraindicațiile acute asupra Child A/NASH și asupra coagulopatiei deja corectate."
+  },
+  "textbookExpressions": [
+   "Insuficienţa hepatică acută",
+   "Coagulopatia severă"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "perioperator-adv-022",
+  "questionFingerprint": "eb808e31d6f39d841429f0912b4fc5460aa42146b133d1dda3984f685df1b367",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea pragurilor de albumină/bilirubină și a mortalităților tabelate (<10%, 40%, >80%), plus intervalul MELD 6–40.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    4,
+    3
+   ],
+   "pdfPages": [
+    4,
+    3
+   ],
+   "section": "Disfuncție hepatică — Tabelul 1-2 Child-Pugh și intervalul MELD"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Rândul A al tabelului fixează albumina >3,5, bilirubina <2,0 și mortalitatea <10%.",
+    "evidenceLocation": "Lawrence, p. 4, 3, Disfuncție hepatică — Tabelul 1-2 Child-Pugh și intervalul MELD"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Rândul B fixează 3,0–3,5 / 2,0–3,0 și mortalitatea 40%.",
+    "evidenceLocation": "Lawrence, p. 4, 3, Disfuncție hepatică — Tabelul 1-2 Child-Pugh și intervalul MELD"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Rândul C fixează <3,0 / >3,0 și mortalitatea >80%.",
+    "evidenceLocation": "Lawrence, p. 4, 3, Disfuncție hepatică — Tabelul 1-2 Child-Pugh și intervalul MELD"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Intervalul MELD 6–40 este enunțat pe pagina anterioară.",
+    "evidenceLocation": "Lawrence, p. 4, 3, Disfuncție hepatică — Tabelul 1-2 Child-Pugh și intervalul MELD"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Mortalitatea >80% aparține clasei C, nu A.",
+    "evidenceLocation": "Lawrence, p. 4, 3, Disfuncție hepatică — Tabelul 1-2 Child-Pugh și intervalul MELD"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Permutează mortalitățile <10% / 40% / >80% între clasele A–C și inversează albumina clasei A."
+  },
+  "textbookExpressions": [
+   ">3,5",
+   "Precar >80"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "perioperator-adv-023",
+  "questionFingerprint": "934f50c788ca262ccf58a3a2fcc759acf8e7df9a053137bb3c48724e3209a30a",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea reducerii 2/3–1/2 a insulinelor lente de oprirea rapidelor și de infuzia de 10 g glucoză/oră cu glucometrie la 6 ore.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    5
+   ],
+   "pdfPages": [
+    5
+   ],
+   "section": "Pacientul diabetic — Scheme de insulină și glucoză 10 g/oră"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Schema 2/3 seara și 1/2 dimineața este explicită pentru durată intermediară/lungă.",
+    "evidenceLocation": "Lawrence, p. 5, Pacientul diabetic — Scheme de insulină și glucoză 10 g/oră"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Aportul de 10 g glucoză/oră pe glucoză 5% este citat.",
+    "evidenceLocation": "Lawrence, p. 5, Pacientul diabetic — Scheme de insulină și glucoză 10 g/oră"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Intervalul de cel puțin 6 ore este cerut.",
+    "evidenceLocation": "Lawrence, p. 5, Pacientul diabetic — Scheme de insulină și glucoză 10 g/oră"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Infuzia 1–3 U/oră este metoda preferată la instabil.",
+    "evidenceLocation": "Lawrence, p. 5, Pacientul diabetic — Scheme de insulină și glucoză 10 g/oră"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Insulina rapidă/scurtă se oprește când pacientul nu se mai alimentează, de obicei la miezul nopții.",
+    "evidenceLocation": "Lawrence, p. 5, Pacientul diabetic — Scheme de insulină și glucoză 10 g/oră"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Continuă insulina rapidă în dimineața operației și uită schema 2/3–1/2, două reguli din aceeași listă numerotată."
+  },
+  "textbookExpressions": [
+   "2/3 din doza",
+   "I O g glucoză"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "perioperator-adv-024",
+  "questionFingerprint": "b22951c852754d48c3796e7a674d554b29e38f79b6303e31ae8189d215c3d7df",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea triadei ataxie–oftalmoplegie–confuzie și a ordinii tiamină înaintea glucozei.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    4
+   ],
+   "pdfPages": [
+    4
+   ],
+   "section": "Disfuncție hepatică — Tiamină și Wernicke-Korsakoff"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Textul definește sindromul prin ataxie, oftalmoplegie și confuzie dacă tiamina nu precede glucoza.",
+    "evidenceLocation": "Lawrence, p. 4, Disfuncție hepatică — Tiamină și Wernicke-Korsakoff"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Paralizia flască și vitamina K țin de alte deficite, nu de acest sindrom.",
+    "evidenceLocation": "Lawrence, p. 4, Disfuncție hepatică — Tiamină și Wernicke-Korsakoff"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Necroza cutanată Coumadin aparține hipercoagulabilității, nu capitolului de tiamină.",
+    "evidenceLocation": "Lawrence, p. 4, Disfuncție hepatică — Tiamină și Wernicke-Korsakoff"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Delirium tremens are alt tablou (halucinații, tremor, agitație, tahicardie) și alt timing.",
+    "evidenceLocation": "Lawrence, p. 4, Disfuncție hepatică — Tiamină și Wernicke-Korsakoff"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Hipoglicemia prin insulină este o entitate distinctă; mecanismul citat este omiterea tiaminei înaintea glucozei.",
+    "evidenceLocation": "Lawrence, p. 4, Disfuncție hepatică — Tiamină și Wernicke-Korsakoff"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Înlocuiește triada Wernicke cu DT, cu necroza Coumadin sau cu hipoglicemia insulinică, toate din vecinătatea perioperatorie."
+  },
+  "textbookExpressions": [
+   "Wernicke-Kor",
+   "înaintea glucozei"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "perioperator-adv-025",
+  "questionFingerprint": "d4e979cb1d943344865c6d61509b8fa0cf0a9e22281bf5e76bca693b76edf03d",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea restricției de 2 g/zi și a diureticelor antialdosteronice plus TIPS, versus liberalizarea sodiului.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    4
+   ],
+   "pdfPages": [
+    4
+   ],
+   "section": "Ascita perioperatorie — 2 g sodiu, spironolactonă-furosemid, TIPS"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Pragul de maxim 2 g/zi și combinația spironolactonă-furosemid sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 4, Ascita perioperatorie — 2 g sodiu, spironolactonă-furosemid, TIPS"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "TIPS este menționat ca alternativă de control preoperator.",
+    "evidenceLocation": "Lawrence, p. 4, Ascita perioperatorie — 2 g sodiu, spironolactonă-furosemid, TIPS"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Textul cere maxim 2 g/zi, nu 6–8 g.",
+    "evidenceLocation": "Lawrence, p. 4, Ascita perioperatorie — 2 g sodiu, spironolactonă-furosemid, TIPS"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Ascita reacumulată crește dehiscența și eventrațiile; controlul preoperator este recomandat.",
+    "evidenceLocation": "Lawrence, p. 4, Ascita perioperatorie — 2 g sodiu, spironolactonă-furosemid, TIPS"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Schema citată este combinația, nu furosemidul izolat.",
+    "evidenceLocation": "Lawrence, p. 4, Ascita perioperatorie — 2 g sodiu, spironolactonă-furosemid, TIPS"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Ridică sodiul la 6–8 g și anulează TIPS/spironolactona, trei măsuri din același paragraf de ascită."
+  },
+  "textbookExpressions": [
+   "2g/zi",
+   "spironolactonă şi furosemid"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "perioperator-adv-026",
+  "questionFingerprint": "1049183e998bd786e8c5b579777963c4385f0ffc9733a7c5572397475a82fa93",
+  "status": "source-checked",
+  "learningObjective": "Integrarea prevalenței hemoroidale, a ratei de traumă 1/14 și a CID precoce după abruptie/embolie amniotică.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    6
+   ],
+   "pdfPages": [
+    6
+   ],
+   "section": "Pacienta însărcinată — Hemoroizi 1/3, traumă 1/14, CID"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cifra de 1/3 pentru boala hemoroidală este explicită.",
+    "evidenceLocation": "Lawrence, p. 6, Pacienta însărcinată — Hemoroizi 1/3, traumă 1/14, CID"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Una din 14 sarcini se complică cu traumă.",
+    "evidenceLocation": "Lawrence, p. 6, Pacienta însărcinată — Hemoroizi 1/3, traumă 1/14, CID"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Fereastra de ore până la CID după abruptie sau embolie amniotică este citată.",
+    "evidenceLocation": "Lawrence, p. 6, Pacienta însărcinată — Hemoroizi 1/3, traumă 1/14, CID"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Leucocitoza de sarcină reduce, nu crește, utilitatea analizei.",
+    "evidenceLocation": "Lawrence, p. 6, Pacienta însărcinată — Hemoroizi 1/3, traumă 1/14, CID"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Homeostazia maternă se menține cu prețul scăderii perfuziei uterine; semnele de șoc semnifică suferință fetală în evoluție.",
+    "evidenceLocation": "Lawrence, p. 6, Pacienta însărcinată — Hemoroizi 1/3, traumă 1/14, CID"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează mascarea hipovolemiei/suferinței fetale și tratează leucocitoza fiziologică ca marker specific."
+  },
+  "textbookExpressions": [
+   "I /3 din gravide",
+   "Una din 14 sarcini"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "perioperator-adv-027",
+  "questionFingerprint": "1403b16ac0df296e13b3b4f9d459fd78c8ddc67ab7437ca58fc81f1b1f20f3c0",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea înlocuitorului familial și a directivei în avans de formularul legal și de semnătura de ultim moment.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    7,
+    6
+   ],
+   "pdfPages": [
+    7,
+    6
+   ],
+   "section": "Managementul operator — Înlocuitorul decizional și directiva în avans"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Definiția surrogate decision maker și rudenie cea mai apropiată sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 7, 6, Managementul operator — Înlocuitorul decizional și directiva în avans"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Rolul directivei în avans ca document despre nivelul de îngrijire este enunțat.",
+    "evidenceLocation": "Lawrence, p. 7, 6, Managementul operator — Înlocuitorul decizional și directiva în avans"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Textul descrie sesiuni multiple și căutarea unui înlocuitor, nu o semnătură unică în sală.",
+    "evidenceLocation": "Lawrence, p. 7, 6, Managementul operator — Înlocuitorul decizional și directiva în avans"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Directiva informează perspectiva pacientului; nu anulează foaia de observație.",
+    "evidenceLocation": "Lawrence, p. 7, 6, Managementul operator — Înlocuitorul decizional și directiva în avans"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Formularul este documentul legal care consemnează rezultatul discuțiilor, distinct de proces.",
+    "evidenceLocation": "Lawrence, p. 7, 6, Managementul operator — Înlocuitorul decizional și directiva în avans"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Reduce consimțământul la semnătura din sală și confundă formularul cu procesul, două distincții din același capitol."
+  },
+  "textbookExpressions": [
+   "înlocuitor în luarea",
+   "directiva în avans"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "perioperator-adv-028",
+  "questionFingerprint": "a8c5c1a412f9a6e8e8e5db8d7a0a5ca75afecb9af45c284e737354dc872a7406",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea meșei laxe cu ser de soluțiile antiseptice fără avantaj (acetic 0,25%, Dakin) și a pigtail-ului pasiv ghidat imagistic.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    9
+   ],
+   "pdfPages": [
+    9
+   ],
+   "section": "Îngrijirea plăgilor — Per secundam, Dakin și cateter pigtail"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Neapoziționarea, meșa cu ser și interdicția împachetării strânse sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 9, Îngrijirea plăgilor — Per secundam, Dakin și cateter pigtail"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Cele trei soluții, inhibiția fibroblastului și absența avantajului față de ser sunt citate.",
+    "evidenceLocation": "Lawrence, p. 9, Îngrijirea plăgilor — Per secundam, Dakin și cateter pigtail"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Pigtail-ul ca drenaj pasiv plasat de radiologul intervenționist este enunțat.",
+    "evidenceLocation": "Lawrence, p. 9, Îngrijirea plăgilor — Per secundam, Dakin și cateter pigtail"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Împachetarea strânsă este descurajată tocmai pentru ischemia tisulară.",
+    "evidenceLocation": "Lawrence, p. 9, Îngrijirea plăgilor — Per secundam, Dakin și cateter pigtail"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Niciuna dintre soluții nu oferă avantaj comparativ cu serul fiziologic steril.",
+    "evidenceLocation": "Lawrence, p. 9, Îngrijirea plăgilor — Per secundam, Dakin și cateter pigtail"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează regula meșei laxe și atribuie acidului acetic/Dakin un avantaj inexistent față de ser."
+  },
+  "textbookExpressions": [
+   "acid acetic 0,25%",
+   "soluţia Dakin"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "perioperator-adv-029",
+  "questionFingerprint": "d4091e8b33ea1b090fd8d9944488aa424bb0f89739ccb53e82a2bb8bd16411f9",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea pragului SCCM de 38,3°C și a ordinii circumstanțe → examen țintit → teste, versus panoul neselectiv.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    10,
+    11
+   ],
+   "pdfPages": [
+    10,
+    11
+   ],
+   "section": "Febra postoperatorie — Pragul 38,3°C și secvența de evaluare"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Pragul ≥38,3°C este citat ca moment de inițiere a investigațiilor.",
+    "evidenceLocation": "Lawrence, p. 10, 11, Febra postoperatorie — Pragul 38,3°C și secvența de evaluare"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Analiza circumstanțelor este descrisă ca primul pas.",
+    "evidenceLocation": "Lawrence, p. 10, 11, Febra postoperatorie — Pragul 38,3°C și secvența de evaluare"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Examenul țintit precede testele; culturile fără suspiciune sunt rezervate unor situații speciale.",
+    "evidenceLocation": "Lawrence, p. 10, 11, Febra postoperatorie — Pragul 38,3°C și secvența de evaluare"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Pragul nu este 37,2°C, iar testele neselective sunt descurajate la majoritatea chirurgicalilor.",
+    "evidenceLocation": "Lawrence, p. 10, 11, Febra postoperatorie — Pragul 38,3°C și secvența de evaluare"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Textul precizează că mulți o consideră, în mod greșit, o stare normală.",
+    "evidenceLocation": "Lawrence, p. 10, 11, Febra postoperatorie — Pragul 38,3°C și secvența de evaluare"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Coboară pragul la 37,2°C și inversează ordinea (culturi înaintea examenului), contrar ghidului SCCM."
+  },
+  "textbookExpressions": [
+   "38,3°C",
+   "Criticai Care Medicine"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "perioperator-adv-030",
+  "questionFingerprint": "dbdf4e088c1f0004837fe934566d9df97cd50d8dcdfba6fae6cbdeb6aba3f089",
+  "status": "source-checked",
+  "learningObjective": "Fixarea intervalului 44.000–98.000, a rolului NSQIP și a celor 6 pachete care au salvat circa 122.000 de vieți.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    11,
+    12
+   ],
+   "pdfPages": [
+    11,
+    12
+   ],
+   "section": "Siguranța pacientului — IOM, NSQIP și campania 100.000 Lives"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cifrele 44.000–98.000 și titlul raportului sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 11, 12, Siguranța pacientului — IOM, NSQIP și campania 100.000 Lives"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "NSQIP ca estimare ajustată de risc este enunțat.",
+    "evidenceLocation": "Lawrence, p. 11, 12, Siguranța pacientului — IOM, NSQIP și campania 100.000 Lives"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Cele 6 strategii și cifra de circa 122.000 de vieți sunt listate pe pagina următoare.",
+    "evidenceLocation": "Lawrence, p. 11, 12, Siguranța pacientului — IOM, NSQIP și campania 100.000 Lives"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Intervalul IOM este cu două ordine de mărime peste 1.000.",
+    "evidenceLocation": "Lawrence, p. 11, 12, Siguranța pacientului — IOM, NSQIP și campania 100.000 Lives"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "NSQIP completează, nu înlocuiește, pachetele de prevenție (inclusiv antibioticele perioperatorii).",
+    "evidenceLocation": "Lawrence, p. 11, 12, Siguranța pacientului — IOM, NSQIP și campania 100.000 Lives"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Minimizează mortalitatea IOM la 1.000 și anulează pachetele 100.000 Lives, două cifre ușor de permutat."
+  },
+  "textbookExpressions": [
+   "44.000-98.000",
+   "122.000 de vieţi"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "perioperator-adv-031",
+  "questionFingerprint": "7027edce5437781e21f23f1cb2beacd271cb1734bd36fd18ef9d0d3a7ee55fb8",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea triadei supraîncărcare-anurie/ICC, hiperkaliemie amenințătoare și acidoză refractară, distinctă de Child sau de hipokaliemie.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    3
+   ],
+   "pdfPages": [
+    3
+   ],
+   "section": "Disfuncție renală — Indicațiile dializei perioperatorii"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Textul enumeră aceste trei situații ca exemple de dializă când echilibrul hidric sau detoxifierea sunt inadecvate.",
+    "evidenceLocation": "Lawrence, p. 3, Disfuncție renală — Indicațiile dializei perioperatorii"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Child-Pugh privește ficatul, nu indicația de dializă renală.",
+    "evidenceLocation": "Lawrence, p. 3, Disfuncție renală — Indicațiile dializei perioperatorii"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Textul citează hiperkaliemia amenințătoare, nu hipokaliemia ușoară.",
+    "evidenceLocation": "Lawrence, p. 3, Disfuncție renală — Indicațiile dializei perioperatorii"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Acidoza refractară, nu cea deja corectată, figurează ca indicație.",
+    "evidenceLocation": "Lawrence, p. 3, Disfuncție renală — Indicațiile dializei perioperatorii"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Monitorizarea invazivă ghidează volemia; nu înlocuiește dializa în anuria cu ICC.",
+    "evidenceLocation": "Lawrence, p. 3, Disfuncție renală — Indicațiile dializei perioperatorii"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Permutează hiperkaliemia amenințătoare cu hipokaliemia și mută Child A pe dializa renală."
+  },
+  "textbookExpressions": [
+   "hiperkalemia ameninţătoare",
+   "acidoza refractară"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "perioperator-adv-032",
+  "questionFingerprint": "26121510d004ef46e033f50b067d1f07844a2e07a6fd357a91ea40c0d1a689d3",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea perechilor 0%/6% (colecistectomie) versus 5%/10%/25% (alte intervenții) pe intervalele MELD tabelate.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    3
+   ],
+   "pdfPages": [
+    3
+   ],
+   "section": "Disfuncție hepatică — Praguri MELD și mortalitate"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Perechea <8 → 0% și >8 → ≈6% este explicită pentru colecistectomia laparoscopică.",
+    "evidenceLocation": "Lawrence, p. 3, Disfuncție hepatică — Praguri MELD și mortalitate"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Pragul ≤7 cu 5% este enunțat pentru chirurgia abdominală/ortopedică/cardiovasculară.",
+    "evidenceLocation": "Lawrence, p. 3, Disfuncție hepatică — Praguri MELD și mortalitate"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Intervalul 8–11 cu 10% este citat.",
+    "evidenceLocation": "Lawrence, p. 3, Disfuncție hepatică — Praguri MELD și mortalitate"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Intervalul 12–15 cu 25% este citat.",
+    "evidenceLocation": "Lawrence, p. 3, Disfuncție hepatică — Praguri MELD și mortalitate"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "25% aparține intervalului 12–15, nu colecistectomiei cu MELD <8.",
+    "evidenceLocation": "Lawrence, p. 3, Disfuncție hepatică — Praguri MELD și mortalitate"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Oglindește 0% al MELD <8 cu 25% al intervalului 12–15, două cifre consecutive din același paragraf."
+  },
+  "textbookExpressions": [
+   "MELD <8",
+   "mortalitate de 25%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "perioperator-adv-033",
+  "questionFingerprint": "d1a913c903d183f1309bdabb3834ab30051f1cd702a4b0734aa1cc8cc6edc42b",
+  "status": "source-checked",
+  "learningObjective": "Integrarea clapotajului ca semn de gastropareză, a defectului fagocitar și a pattern-ului conic de ischemie a vaselor mici.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    4
+   ],
+   "pdfPages": [
+    4
+   ],
+   "section": "Pacientul diabetic — Gastropareză, fagocitoză și vase mici"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Plenitudinea, constipația și clapotajul pe stomacul care ar trebui gol sunt semnele citate de gastropareză.",
+    "evidenceLocation": "Lawrence, p. 4, Pacientul diabetic — Gastropareză, fagocitoză și vase mici"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Alterarea fagocitozei și prezența pulsului în ischemia de vase mici sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 4, Pacientul diabetic — Gastropareză, fagocitoză și vase mici"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Metafora conului și gravitatea panarițiului/plăgii de picior sunt enunțate.",
+    "evidenceLocation": "Lawrence, p. 4, Pacientul diabetic — Gastropareză, fagocitoză și vase mici"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Gastropareza întârzie, nu accelerează, evacuarea; leucocitoza de sarcină, nu gastropareza, reduce utilitatea analizei.",
+    "evidenceLocation": "Lawrence, p. 4, Pacientul diabetic — Gastropareză, fagocitoză și vase mici"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Textul precizează că pulsul poate fi prezent; tegumentul este cruțat.",
+    "evidenceLocation": "Lawrence, p. 4, Pacientul diabetic — Gastropareză, fagocitoză și vase mici"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează prezența pulsului în ischemia de vase mici și tratează clapotajul ca evacuare accelerată."
+  },
+  "textbookExpressions": [
+   "Clapotajul gastric",
+   "con cu baza"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "perioperator-adv-034",
+  "questionFingerprint": "dc05ca182b6ca748cf666623bc8ea4e42e4d9f24c9e89fef43c462a7877360e8",
+  "status": "source-checked",
+  "learningObjective": "Fixarea cifrei de 36 mg hidrocortizon/zi ca referință fiziologică, distinctă de pragul prednison 20 mg și de schemele Tabelului 1-3.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    5
+   ],
+   "pdfPages": [
+    5
+   ],
+   "section": "Insuficiența adrenală — Producția din sindromul Cushing"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Textul precizează echivalentul de 36 mg hidrocortizon/zi produs de pacienții cu sindrom Cushing.",
+    "evidenceLocation": "Lawrence, p. 5, Insuficiența adrenală — Producția din sindromul Cushing"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "20 mg prednison ≥3 săptămâni este pragul de supresie HPA, nu producția cushingoidă.",
+    "evidenceLocation": "Lawrence, p. 5, Insuficiența adrenală — Producția din sindromul Cushing"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "100 mg la inducție este schema stresului major, nu producția endogenă.",
+    "evidenceLocation": "Lawrence, p. 5, Insuficiența adrenală — Producția din sindromul Cushing"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "50+25 mg definește stresul moderat din Tabelul 1-3.",
+    "evidenceLocation": "Lawrence, p. 5, Insuficiența adrenală — Producția din sindromul Cushing"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Stresul minor nu se suplimentează; 200 mg/4 h nu figurează.",
+    "evidenceLocation": "Lawrence, p. 5, Insuficiența adrenală — Producția din sindromul Cushing"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Permutează 36 mg/zi cu 20 mg prednison sau cu dozele 50/100 mg din Tabelul 1-3."
+  },
+  "textbookExpressions": [
+   "36 mg hidrocortizon",
+   "sindrom Cushing"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "perioperator-adv-035",
+  "questionFingerprint": "c18de2363a09a464cbfe329e022f02f3e63b9d2bc58b74a557bf6e88de9e406a",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea hipocapniei prin hiperventilație (CRF redusă) de mecanismul progesteronic al refluxului, versus hipersecreția ca cauză unică.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    6
+   ],
+   "pdfPages": [
+    6
+   ],
+   "section": "Pacienta însărcinată — Ventilație, CRF și reflux prin progesteron"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Creșterea FR/VT, scăderea PaCO2 și reducerea CRF/VR sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 6, Pacienta însărcinată — Ventilație, CRF și reflux prin progesteron"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Progesteronul ca cauză principală a evacuării întârziate, cu aciditate doar ușor crescută, este enunțat.",
+    "evidenceLocation": "Lawrence, p. 6, Pacienta însărcinată — Ventilație, CRF și reflux prin progesteron"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Textul descrie scăderea, nu creșterea, PaCO2 și reducerea CRF.",
+    "evidenceLocation": "Lawrence, p. 6, Pacienta însărcinată — Ventilație, CRF și reflux prin progesteron"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Hipersecreția este secundară; mecanismul principal este evacuarea întârziată.",
+    "evidenceLocation": "Lawrence, p. 6, Pacienta însărcinată — Ventilație, CRF și reflux prin progesteron"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Grețurile din T1 pot fi confundate cu afecțiuni chirurgicale, deci diagnosticul diferențial rămâne.",
+    "evidenceLocation": "Lawrence, p. 6, Pacienta însărcinată — Ventilație, CRF și reflux prin progesteron"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează PaCO2/CRF și atribuie refluxul hipersecreției, două mecanisme din același paragraf de fiziologie gravidă."
+  },
+  "textbookExpressions": [
+   "volumul curent",
+   "acţiunii progesteronului"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "perioperator-adv-036",
+  "questionFingerprint": "613dcf829d63d7b4915d589b9de6e8a975673df291f44e70398a4375b6ce2692",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea celor patru indicații de explorare și a principiului de a nu evita diagnosticul imagistic de teama teratogenezei.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    6
+   ],
+   "pdfPages": [
+    6
+   ],
+   "section": "Pacienta însărcinată — Indicațiile explorării în traumă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Hemoragia intraperitoneală este prima indicație enumerată.",
+    "evidenceLocation": "Lawrence, p. 6, Pacienta însărcinată — Indicațiile explorării în traumă"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Organele cavitare, plaga penetrantă și injuria uterină/fetală completează lista.",
+    "evidenceLocation": "Lawrence, p. 6, Pacienta însărcinată — Indicațiile explorării în traumă"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Textul cere explorări diagnostice, nu evitarea lor.",
+    "evidenceLocation": "Lawrence, p. 6, Pacienta însărcinată — Indicațiile explorării în traumă"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Monitorizarea fetală precoce este esențială; resuscitarea fetală cere volum și oxigenare materne.",
+    "evidenceLocation": "Lawrence, p. 6, Pacienta însărcinată — Indicațiile explorării în traumă"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Plaga penetrantă abdominală este tocmai o indicație de explorare.",
+    "evidenceLocation": "Lawrence, p. 6, Pacienta însărcinată — Indicațiile explorării în traumă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Transformă teama de teratogeneză într-o interdicție imagistică și amână monitorizarea fetală."
+  },
+  "textbookExpressions": [
+   "plagă penetrantă",
+   "efectului teratogen"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "perioperator-adv-037",
+  "questionFingerprint": "26f62896cbe924d171711218fbb08da370ea0f3085d48505f8ca17ba3c21efbb",
+  "status": "source-checked",
+  "learningObjective": "Fixarea celor trei obiective, a conținutului notei intraoperatorii și a biletului concis, plus riscul copy-paste electronic.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    7
+   ],
+   "pdfPages": [
+    7
+   ],
+   "section": "Documentația — Trei roluri ale foii și biletul de externare"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cele trei obiective sunt enumerate explicit.",
+    "evidenceLocation": "Lawrence, p. 7, Documentația — Trei roluri ale foii și biletul de externare"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Elementele notei imediat postoperatorii sunt listate.",
+    "evidenceLocation": "Lawrence, p. 7, Documentația — Trei roluri ale foii și biletul de externare"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Conținutul biletului de externare și interdicția detaliului exhaustiv sunt enunțate.",
+    "evidenceLocation": "Lawrence, p. 7, Documentația — Trei roluri ale foii și biletul de externare"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Avertismentul privind copierea electronică este citat.",
+    "evidenceLocation": "Lawrence, p. 7, Documentația — Trei roluri ale foii și biletul de externare"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Textul cere un bilet concis, nu transcrierea fiecărui detaliu.",
+    "evidenceLocation": "Lawrence, p. 7, Documentația — Trei roluri ale foii și biletul de externare"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Transformă biletul concis într-o transcriere exhaustivă și anulează cele trei obiective din același paragraf de documentație."
+  },
+  "textbookExpressions": [
+   "obiective principale",
+   "Biletul de externare"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "perioperator-adv-038",
+  "questionFingerprint": "0aa7c82417a13b0092589a387577b9854c4a7d59a7cc961d4a371dd761c2e249",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea pragurilor de alarmă (diureză <30 mL/oră, drenaj toracic >100 mL/oră) versus interdicția analizelor „zilnice” neselective.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    8
+   ],
+   "pdfPages": [
+    8
+   ],
+   "section": "Recomandări medicale — Praguri 30 mL/oră și 100 mL/oră"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Pragul <30 mL/oră este exemplul explicit de înștiințare.",
+    "evidenceLocation": "Lawrence, p. 8, Recomandări medicale — Praguri 30 mL/oră și 100 mL/oră"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Pragul >100 mL/oră pentru drenajul toracic este citat în aceeași paranteză.",
+    "evidenceLocation": "Lawrence, p. 8, Recomandări medicale — Praguri 30 mL/oră și 100 mL/oră"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Textul califică investigațiile „de rutină”/„zilnice” drept risipă, de evitat.",
+    "evidenceLocation": "Lawrence, p. 8, Recomandări medicale — Praguri 30 mL/oră și 100 mL/oră"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Exemplul cerut este hematocrit la 6 ore timp de 24 de ore, cu reper temporal.",
+    "evidenceLocation": "Lawrence, p. 8, Recomandări medicale — Praguri 30 mL/oră și 100 mL/oră"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Poziționarea este esențială în prevenția aspirației la alimentația pe sondă.",
+    "evidenceLocation": "Lawrence, p. 8, Recomandări medicale — Praguri 30 mL/oră și 100 mL/oră"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Anulează pragurile 30/100 mL și promovează analizele zilnice neselective, contrar aceluiași paragraf de ordine."
+  },
+  "textbookExpressions": [
+   "<30 mL/oră",
+   "> 100 mL/oră"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "perioperator-adv-039",
+  "questionFingerprint": "79b8dec13720033fca30d4ee633eeeec17904ae87ad1b97e05c9f04aeb9d2661",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea drenului închis aspirativ (JP/Hemovac) și a Davol-ului rigid de nefrostomie, versus confuzia cu Penrose sau inversarea traheostomă/orotraheală.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    9
+   ],
+   "pdfPages": [
+    9
+   ],
+   "section": "Sonde și drenuri — JP/Hemovac, Davol și nefrostomie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "JP/Hemovac, colecțiile și burduful pliabil sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 9, Sonde și drenuri — JP/Hemovac, Davol și nefrostomie"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Davol: volum, rigiditate, aspirație continuă și drenaj particulat sunt citate.",
+    "evidenceLocation": "Lawrence, p. 9, Sonde și drenuri — JP/Hemovac, Davol și nefrostomie"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Sediul în pelvisul renal și indicațiile (obstrucție/anastomoză) sunt enunțate.",
+    "evidenceLocation": "Lawrence, p. 9, Sonde și drenuri — JP/Hemovac, Davol și nefrostomie"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Traheostomia este pentru termen lung; orotraheala pentru termen scurt.",
+    "evidenceLocation": "Lawrence, p. 9, Sonde și drenuri — JP/Hemovac, Davol și nefrostomie"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Penrose este pasiv din latex; JP/Hemovac sunt aspirative închise.",
+    "evidenceLocation": "Lawrence, p. 9, Sonde și drenuri — JP/Hemovac, Davol și nefrostomie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează JP (închis aspirativ) cu Penrose și limitează traheostomia la două ore, două distincții din pagini alăturate."
+  },
+  "textbookExpressions": [
+   "Jackson-Pratt",
+   "Davol"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "perioperator-adv-040",
+  "questionFingerprint": "8086132de6d9749991712aae8483734a4d5b6752e39459744057850a4f2d33c7",
+  "status": "source-checked",
+  "learningObjective": "Fixarea cifrelor 27 de milioane / 500.000 / un sfert nosocomial și a ierarhiei drenaj înaintea antibioticelor.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    10
+   ],
+   "pdfPages": [
+    10
+   ],
+   "section": "IPC — 500.000/27 milioane și rolul secundar al antibioticelor"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cifrele 27 de milioane, 500.000 și un sfert din nosocomiale sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 10, IPC — 500.000/27 milioane și rolul secundar al antibioticelor"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Rolul secundar al antibioticelor și semnele de infecție profundă sunt enunțate.",
+    "evidenceLocation": "Lawrence, p. 10, IPC — 500.000/27 milioane și rolul secundar al antibioticelor"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Textul o plasează ca a doua cea mai frecventă nosocomială, la 2–5% dintre chirurgicali.",
+    "evidenceLocation": "Lawrence, p. 10, IPC — 500.000/27 milioane și rolul secundar al antibioticelor"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Drenajul, nu antibioticele izolate, este manevra cheie; tahicardia poate fi primul semn de infecție.",
+    "evidenceLocation": "Lawrence, p. 10, IPC — 500.000/27 milioane și rolul secundar al antibioticelor"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "500.000 este un sfert din nosocomiale, nu totalul.",
+    "evidenceLocation": "Lawrence, p. 10, IPC — 500.000/27 milioane și rolul secundar al antibioticelor"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Minimizează 500.000 la sub 1% și inversează drenajul cu antibioticele, două mesaje din același paragraf de IPC."
+  },
+  "textbookExpressions": [
+   "27 de milioane",
+   "500.000 de cazuri"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
  }
 ]
