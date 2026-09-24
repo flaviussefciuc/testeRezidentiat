@@ -83,3 +83,9 @@ Fiecare temă rescrisă (versiunile `-v2`) a fost confruntată din nou cu pagini
 - `tromboembolism-adv-030` (formularea CS/CM semnalată în raportul din 2026-09-23) a fost retras fără înlocuitor, fiind dublura lui `-029` (fondaparinux); problema de formulare dispare odată cu retragerea.
 - Scorul Wells pentru EP (Cadranul 29.4) include și cancerul activ; `-071-v2` îl folosește ca răspuns corect.
 - Retrase fără înlocuitor (parafraze/dubluri): 030, 036, 042, 046, 047, 049, 050, 052, 053, 065, 073, 074, 076, 080, 089, 090.
+
+### Căile biliare (Lawrence, cap. 16)
+- Nu s-au găsit chei greșite în cei 66 de itemi confruntați cu p. 242–255.
+- P. 243: fraza «Calculii pigmentari conțin adesea suficient calciu cât să devină radioopaci» se referă la calculii pigmentari în general, nu doar la cei bruni. Vechiul `-026` o atribuia explicit calculilor bruni. Itemul a fost retras, iar `-009-v2` nu folosește această atribuire.
+- P. 250: proporția ileusului biliar din ocluzii apare în extras ca «<!%» (OCR). Valoarea «sub 1%» este păstrată, dar expresiile citate folosesc alte fragmente, lizibile.
+- Retrase fără înlocuitor (dubluri): 026 (dublura lui 009), 052 și 053 (dublurile lui 031), 063 (inclus în 002).

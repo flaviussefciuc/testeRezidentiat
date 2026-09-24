@@ -40741,5 +40741,5103 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-001",
+  "questionFingerprint": "86a42936d3af82bc6204058eb2ab83089196ea0ab05c49cd9a712ad94326823d",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea semnului Courvoisier de semnul Murphy și de colica biliară neinflamatorie.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    244
+   ],
+   "pdfPages": [
+    156
+   ],
+   "section": "Tablou clinic — Colică biliară, colecistită și icter"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Textul definește vezicula destinsă nedureroasă cu icter ca semn Courvoisier, sugestiv pentru malignitate (cancer de cap de pancreas).",
+    "evidenceLocation": "Lawrence, p. 244, Tablou clinic — Colică biliară, colecistită și icter"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Oprirea respirației la palpare în HD este semnul Murphy, din colecistita acută.",
+    "evidenceLocation": "Lawrence, p. 244, Tablou clinic — Colică biliară, colecistită și icter"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Durerea de 1–4 ore fără inflamație descrie colica biliară, nu semnul Courvoisier.",
+    "evidenceLocation": "Lawrence, p. 244, Tablou clinic — Colică biliară, colecistită și icter"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Febra însoțește colecistita acută sau angiocolita, nu colica biliară.",
+    "evidenceLocation": "Lawrence, p. 244, Tablou clinic — Colică biliară, colecistită și icter"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Scaunele decolorate și urina hipercromă sugerează obstacol extrahepatic, nu absența lui.",
+    "evidenceLocation": "Lawrence, p. 244, Tablou clinic — Colică biliară, colecistită și icter"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T15:31:57.229Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Alege între trei semne din aceeași pagină (Courvoisier, Murphy, colică) care se confundă frecvent."
+  },
+  "textbookExpressions": [
+   "senmul Courvoisier",
+   "cancer de cap de pancreas"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-002",
+  "questionFingerprint": "4b7a81f7853bc6ff948ef41fba73e65fe8b31be2ba2ccd06599858db5df23b2e",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea performanței ecografice (95%, 3 mm, 7 mm) și a limitelor pentru coledocolitiază și radioopacitate.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    245
+   ],
+   "pdfPages": [
+    157
+   ],
+   "section": "Examinare imagistică — Ecografie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Sensibilitatea și specificitatea de 95% sunt citate explicit.",
+    "evidenceLocation": "Lawrence, p. 245, Examinare imagistică — Ecografie"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Pragul de 3 mm este menționat.",
+    "evidenceLocation": "Lawrence, p. 245, Examinare imagistică — Ecografie"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Diametrul >7 mm definește dilatația căii biliare.",
+    "evidenceLocation": "Lawrence, p. 245, Examinare imagistică — Ecografie"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Ecografia este mai puțin utilă pentru calculii de CBP din cauza aerului duodenal.",
+    "evidenceLocation": "Lawrence, p. 245, Examinare imagistică — Ecografie"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Doar 10–15% dintre calculii veziculari conțin suficient calciu pentru a fi radioopaci.",
+    "evidenceLocation": "Lawrence, p. 245, Examinare imagistică — Ecografie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T15:31:57.229Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Trei praguri numerice corecte față de două supraestimări clasice (CBP vizibil, radioopacitate 50%)."
+  },
+  "textbookExpressions": [
+   "sunt de 95%",
+   ">7 mm"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-003",
+  "questionFingerprint": "605db588c4a1d934451b4ea20140f0114f57dfc5c5f4faad60f210ef8376c539",
+  "status": "source-checked",
+  "learningObjective": "Interpretarea nevizualizării colecistului la 4 ore ca obstrucție cistică și recunoașterea limitelor HIDA pentru litiază.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    246
+   ],
+   "pdfPages": [
+    158
+   ],
+   "section": "Scintigrafia biliară HIDA"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Criteriul CBP+duoden vizibile, colecist absent la 4 ore, este explicit pentru obstrucția cisticului.",
+    "evidenceLocation": "Lawrence, p. 246, Scintigrafia biliară HIDA"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Intervalele 95–97% și 90–97% sunt citate.",
+    "evidenceLocation": "Lawrence, p. 246, Scintigrafia biliară HIDA"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "HIDA nu este utilă în identificarea calculilor veziculari sau ai CBP.",
+    "evidenceLocation": "Lawrence, p. 246, Scintigrafia biliară HIDA"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Colecistul normal este vizualizat în 30 de minute de la injectare.",
+    "evidenceLocation": "Lawrence, p. 246, Scintigrafia biliară HIDA"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Rezultate fals pozitive pot apărea la nutriție parenterală sau hepatită.",
+    "evidenceLocation": "Lawrence, p. 246, Scintigrafia biliară HIDA"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T15:31:57.229Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează timing-ul vizualizării normale (30 min vs 4 h) și atribuie HIDA un rol diagnostic pe care textul i-l neagă."
+  },
+  "textbookExpressions": [
+   "după 4 ore",
+   "95-97%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-004",
+  "questionFingerprint": "f3fe8a8a14f932c668a43163f2f3633e777610aaf3f168eab3b74cbdb9429e49",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea triadei Charcot de pentada Reynolds și a colangitei de colecistită, cu recunoașterea limitei ecografiei pentru CBP.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    249
+   ],
+   "pdfPages": [
+    161
+   ],
+   "section": "Litiaza coledociană și colangita acută"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cele trei elemente ale triadei Charcot sunt enumerate.",
+    "evidenceLocation": "Lawrence, p. 249, Litiaza coledociană și colangita acută"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Hipotensiunea și confuzia completează pentada Reynolds.",
+    "evidenceLocation": "Lawrence, p. 249, Litiaza coledociană și colangita acută"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Deosebirea prin absența obstrucției și a icterului este explicită.",
+    "evidenceLocation": "Lawrence, p. 249, Litiaza coledociană și colangita acută"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Proporția de circa 50% asimptomatici este citată.",
+    "evidenceLocation": "Lawrence, p. 249, Litiaza coledociană și colangita acută"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "De cele mai multe ori, calculii din CBP nu pot fi vizualizați ecografic.",
+    "evidenceLocation": "Lawrence, p. 249, Litiaza coledociană și colangita acută"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T15:31:57.229Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 9,
+   "kind": "editorial-estimate",
+   "reason": "Cere harta Charcot versus Reynolds versus colecistită, cu un distractor care supraestimează vizibilitatea ecografică a CBP."
+  },
+  "textbookExpressions": [
+   "Triada Charcot",
+   "pentada Reynold"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-005",
+  "questionFingerprint": "f23b215030a559638fe439de79677c9659360a636b8cb462158a0db571973150",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea etiologiei 40/40, a recurenței de 60% fără colecistectomie și a ferestrei 48–72 de ore pentru colecistectomie precoce.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    250
+   ],
+   "pdfPages": [
+    162
+   ],
+   "section": "Pancreatită acută biliară"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Proporțiile 40% litiază și 40% alcool, cu predilecție de sex, sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 250, Pancreatită acută biliară"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Recidiva de până la 60% în 6 luni fără colecistectomie este citată.",
+    "evidenceLocation": "Lawrence, p. 250, Pancreatită acută biliară"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Fereastra 48–72 de ore pentru forme ușoare/moderate este menționată.",
+    "evidenceLocation": "Lawrence, p. 250, Pancreatită acută biliară"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Antibioticele sunt rezervate formelor severe și complicațiilor septice, nu formelor ușoare de rutină.",
+    "evidenceLocation": "Lawrence, p. 250, Pancreatită acută biliară"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Amânarea este justificată în pancreatita severă, nu după orice episod ușor.",
+    "evidenceLocation": "Lawrence, p. 250, Pancreatită acută biliară"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T15:31:57.229Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Confruntă fereastra precoce 48–72 h cu falsa amânare de 6 luni și cu antibioterapia neselectivă."
+  },
+  "textbookExpressions": [
+   "calculi biliari (40%",
+   "până la 60%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-006",
+  "questionFingerprint": "520b40c824c408e90dcf04951196f7871be12b259dc54db18b285ccfa9886681",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea rarității ileusului biliar și a predominanței feminine, față de locul clasic de impactare și aerobilie.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    250
+   ],
+   "pdfPages": [
+    162
+   ],
+   "section": "Ileusul biliar"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Textul citează <1% din ocluziile intestinale.",
+    "evidenceLocation": "Lawrence, p. 250, Ileusul biliar"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Raportul 3,5:1 este explicit.",
+    "evidenceLocation": "Lawrence, p. 250, Ileusul biliar"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Impactarea este imediat proximal de valva ileocecală, cea mai îngustă porțiune.",
+    "evidenceLocation": "Lawrence, p. 250, Ileusul biliar"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Pacienții se prezintă cu ocluzie și aer în arborele biliar.",
+    "evidenceLocation": "Lawrence, p. 250, Ileusul biliar"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "CT-ul cu contrast oral este investigația de elecție, nu inferioară radiografiei.",
+    "evidenceLocation": "Lawrence, p. 250, Ileusul biliar"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T15:31:57.229Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Mută locul de impactare (VIC versus jejun) și neagă aerobilia, pe două cifre epidemiologice memorabile."
+  },
+  "textbookExpressions": [
+   "3,5: 1",
+   "valva ileocecală"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-007",
+  "questionFingerprint": "b13ae0e42a71605ea947df776c90acf3d48bd52f228df95239cbfb84eaa0b271",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea dimensiunilor colecistului, a triadei din ligamentul hepatoduodenal și a limitelor Calot.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    242
+   ],
+   "pdfPages": [
+    154
+   ],
+   "section": "Anatomie — Calot, Heister, triadă portală"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Dimensiunile 10 × 5 cm, 50 mL și cele trei porțiuni sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 242, Anatomie — Calot, Heister, triadă portală"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Heister și ordinea CBP–arteră–portă sunt citate.",
+    "evidenceLocation": "Lawrence, p. 242, Anatomie — Calot, Heister, triadă portală"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Cele trei limite ale Calot sunt enumerate.",
+    "evidenceLocation": "Lawrence, p. 242, Anatomie — Calot, Heister, triadă portală"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Artera cistică se desprinde din hepatică dreaptă, în Calot.",
+    "evidenceLocation": "Lawrence, p. 242, Anatomie — Calot, Heister, triadă portală"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Sfincterul Oddi manșonează canalul comun la ampula Vater.",
+    "evidenceLocation": "Lawrence, p. 242, Anatomie — Calot, Heister, triadă portală"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Mută cistica pe hepatică stângă și anulează Oddi, două repere din același paragraf."
+  },
+  "textbookExpressions": [
+   "triunghiul Calot",
+   "valvele spiralate"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-008",
+  "questionFingerprint": "abf5bd1a4c3de6ba4410b6a3bdb4db55180aacedb5d4c73a9c74154cc9da92b7",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea prevalenței de 15%, a raportului 3:1, a predilecției la nativi și a pigmentarilor din hemoliză/ciroză.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    242
+   ],
+   "pdfPages": [
+    154
+   ],
+   "section": "Epidemiologia calculilor biliari"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "15% și raportul de circa 3 ori sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 242, Epidemiologia calculilor biliari"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Cifrele 50%/80% la nativi până la 60 de ani sunt citate.",
+    "evidenceLocation": "Lawrence, p. 242, Epidemiologia calculilor biliari"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Lista de factori (obezitate, paritate, NPT, Crohn) este enumerată.",
+    "evidenceLocation": "Lawrence, p. 242, Epidemiologia calculilor biliari"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Hemoliza și ciroza alcoolică predispun la pigmentari.",
+    "evidenceLocation": "Lawrence, p. 242, Epidemiologia calculilor biliari"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Obezitatea predispune la calculi de colesterol, nu pigmentari.",
+    "evidenceLocation": "Lawrence, p. 242, Epidemiologia calculilor biliari"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Anulează predilecția de sex și mută pigmentarii de pe hemoliză pe obezitate."
+  },
+  "textbookExpressions": [
+   "15% dintre adulţi",
+   "de circa 3 ori"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-009",
+  "questionFingerprint": "c7463738cf613f3661fdc59632927e4dccf8f90e897c1ea913d16bd3d0ea4589",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea 75% micști / 20% negri / bruni infecțioși și a sludge-ului ca precursor.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    243
+   ],
+   "pdfPages": [
+    155
+   ],
+   "section": "Patogenia litiazei — Micști, pigmentari, sludge"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Proporția de circa 75% micști este explicită.",
+    "evidenceLocation": "Lawrence, p. 243, Patogenia litiazei — Micști, pigmentari, sludge"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "20%, bila sterilă, hemoliza/ciroza definesc negrii.",
+    "evidenceLocation": "Lawrence, p. 243, Patogenia litiazei — Micști, pigmentari, sludge"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Brunii infecțioși, moi, radioopaci, primitivi în căi sunt descriși.",
+    "evidenceLocation": "Lawrence, p. 243, Patogenia litiazei — Micști, pigmentari, sludge"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Cifrele 75% și 20% sunt inversate.",
+    "evidenceLocation": "Lawrence, p. 243, Patogenia litiazei — Micști, pigmentari, sludge"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Sludge-ul conține mucoproteine, cristale de colesterol și bilirubinat de calciu și poate precede calculii.",
+    "evidenceLocation": "Lawrence, p. 243, Patogenia litiazei — Micști, pigmentari, sludge"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează 75% micști cu 20% pigmentari negri, două procente din același paragraf."
+  },
+  "textbookExpressions": [
+   "circa 75%",
+   "aproximativ 20%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-010",
+  "questionFingerprint": "3c8e4660a530503dc0ab52cb2d43017e4f48e32ede0e21b3b8ff543bc49963ce",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea duratei 1–4 ore (viscerală, fără inflamație) cu durerea >3–4 ore, somatică, febrilă a colecistitei.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    244
+   ],
+   "pdfPages": [
+    156
+   ],
+   "section": "Colică versus colecistită"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Mecanismul și fereastra 1–4 ore fără inflamație sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 244, Colică versus colecistită"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Contrastul neliniștit versus imobil este citat.",
+    "evidenceLocation": "Lawrence, p. 244, Colică versus colecistită"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Durata prelungită, febra și semnificația febrei înalte sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 244, Colică versus colecistită"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Febra însoțește colecistita/angiocolita, nu colica.",
+    "evidenceLocation": "Lawrence, p. 244, Colică versus colecistită"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Apărarea și decompresia apar când inflamația atinge peritoneul parietal, în colecistită.",
+    "evidenceLocation": "Lawrence, p. 244, Colică versus colecistită"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Atribuie febra înaltă colicii necomplicate și peritonismul primului episod de colică."
+  },
+  "textbookExpressions": [
+   "1-4 ore",
+   "3-4 ore"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-011",
+  "questionFingerprint": "553d42119f9824389e616cc14d75b05353093bcac886c04d639c4bfbe081c0dc",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea ierarhiei FA/GGT > transaminaze, a stabilității termice a FA hepatice și a FA crescute cu bilirubină normală în obstacol incomplet.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    244
+   ],
+   "pdfPages": [
+    156
+   ],
+   "section": "Analize de laborator — Colestază versus hepatită"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Bilirubina directă și ierarhia FA/GGT versus AST/ALT sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 244, Analize de laborator — Colestază versus hepatită"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Originea epitelială și distincția termică față de FA osoasă sunt citate.",
+    "evidenceLocation": "Lawrence, p. 244, Analize de laborator — Colestază versus hepatită"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Obstacolul incomplet cu FA crescută și bilirubină normală este descris.",
+    "evidenceLocation": "Lawrence, p. 244, Analize de laborator — Colestază versus hepatită"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Obstacolul reduce urobilinogenul urinar; bilirubina conjugată apare în urină.",
+    "evidenceLocation": "Lawrence, p. 244, Analize de laborator — Colestază versus hepatită"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "INR-ul crește prin malabsorbția vitaminei K.",
+    "evidenceLocation": "Lawrence, p. 244, Analize de laborator — Colestază versus hepatită"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează urobilinogenul/bilirubina urinară și direcția INR-ului din icterul obstructiv."
+  },
+  "textbookExpressions": [
+   "gama-glutamil transferazei",
+   "Fosfataza alcalină"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-012",
+  "questionFingerprint": "0c033756f9118e50f3f6f10ac8f2884d36dd364c09beda9a9304b56cad6b0be0",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea aerobiliei, a aerului parietal emfizematos și a radioopacității de 10–15%.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    245
+   ],
+   "pdfPages": [
+    157
+   ],
+   "section": "Radiografia abdominală simplă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Aerobilia prin fistulă sau anastomoză este citată.",
+    "evidenceLocation": "Lawrence, p. 245, Radiografia abdominală simplă"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Aerul luminal/parietal definește forma emfizematoasă.",
+    "evidenceLocation": "Lawrence, p. 245, Radiografia abdominală simplă"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "10–15% radioopaci sunt cifra explicită.",
+    "evidenceLocation": "Lawrence, p. 245, Radiografia abdominală simplă"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Doar 10–15%, nu 80%, sunt radioopaci.",
+    "evidenceLocation": "Lawrence, p. 245, Radiografia abdominală simplă"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Emfizematoasa se vede tocmai prin aer parietal.",
+    "evidenceLocation": "Lawrence, p. 245, Radiografia abdominală simplă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Ridică radioopacitatea de la 10–15% la 80% și neagă aerobilia, două semne din același paragraf."
+  },
+  "textbookExpressions": [
+   "10-15%",
+   "colecistitei acute emfizematoase"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-013",
+  "questionFingerprint": "47843fe06546b199d7ccddb5add7896d7be36684a627e86dc1cdfa459402ddab",
+  "status": "source-checked",
+  "learningObjective": "Poziționarea MRCP ca metodă neinvazivă, neiradiantă, de obicei preliminară ERCP/PTC, nu ca prim test în colică.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    245
+   ],
+   "pdfPages": [
+    157
+   ],
+   "section": "MRCP"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Utilitatea pentru CBP și anomalii este explicită.",
+    "evidenceLocation": "Lawrence, p. 245, MRCP"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Rolul preliminar și absența iradierii/invazivității sunt citate.",
+    "evidenceLocation": "Lawrence, p. 245, MRCP"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Ecografia rămâne explorarea inițială de elecție în colică.",
+    "evidenceLocation": "Lawrence, p. 245, MRCP"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "MRCP nu iradiază și nu este mai invazivă decât ERCP.",
+    "evidenceLocation": "Lawrence, p. 245, MRCP"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "MRCP este utilă tocmai pentru CBP.",
+    "evidenceLocation": "Lawrence, p. 245, MRCP"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Pune MRCP înaintea ecografiei în colică și îi atribuie iradiere, două erori de ierarhie imagistică."
+  },
+  "textbookExpressions": [
+   "MRCP",
+   "nu implică utilizarea radiaţiilor"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-014",
+  "questionFingerprint": "597aa40e78436ef401600c30a2c0a529b246520735154319b3113c8d5f668921",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea colecistectomiei laparoscopice ca standard cu limitele dizolvării (15%, recurență 50%/5 ani).",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    249
+   ],
+   "pdfPages": [
+    161
+   ],
+   "section": "Colica biliară — Tratament"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Laparoscopia electivă este indicația la majoritate.",
+    "evidenceLocation": "Lawrence, p. 249, Colica biliară — Tratament"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Opțiunea de dizolvare la 15% este citată.",
+    "evidenceLocation": "Lawrence, p. 249, Colica biliară — Tratament"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Cifrele 90%/60% și recurența 50% la 5 ani sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 249, Colica biliară — Tratament"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "5 mm, nu 3 cm, și durata de luni, nu 2 săptămâni; recurența există.",
+    "evidenceLocation": "Lawrence, p. 249, Colica biliară — Tratament"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "ESWL are utilizare limitată prin risc de pancreatită și calculi noi.",
+    "evidenceLocation": "Lawrence, p. 249, Colica biliară — Tratament"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Supraestimează dizolvarea (3 cm în 2 săptămâni) și reabilitează ESWL ca primă linie."
+  },
+  "textbookExpressions": [
+   "Acidul ursodeoxicolic",
+   "recurenţă de 50%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-015",
+  "questionFingerprint": "b1cecf3b5c605011aa0071dfc7f153cddcba5ee7fac38696a1e4c78a9c2dd618",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea compresiei hepaticului comun de către un calcul vezicular mare de ileus, Klatskin și colică.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    249
+   ],
+   "pdfPages": [
+    161
+   ],
+   "section": "Sindromul Mirizzi"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Definiția (calcul vezicular mare, compresie de hepatic comun, icter) este explicită.",
+    "evidenceLocation": "Lawrence, p. 249, Sindromul Mirizzi"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Fistula colecisto-enterică descrie ileusul biliar, nu Mirizzi.",
+    "evidenceLocation": "Lawrence, p. 249, Sindromul Mirizzi"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Impactarea ileală este ileusul biliar.",
+    "evidenceLocation": "Lawrence, p. 249, Sindromul Mirizzi"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Klatskin este colangiocarcinom perihilar.",
+    "evidenceLocation": "Lawrence, p. 249, Sindromul Mirizzi"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Colica nu produce icter prin compresie de hepatic comun.",
+    "evidenceLocation": "Lawrence, p. 249, Sindromul Mirizzi"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Confundă Mirizzi cu ileusul biliar și cu tumora Klatskin, trei cauze de icter din același capitol."
+  },
+  "textbookExpressions": [
+   "Sindromul Mirizzi",
+   "canalul hepatic comun"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-016",
+  "questionFingerprint": "01f39781bb211a0133d3500634f1e31d2344a66c42a0396494ff6d1e093a90a9",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea algoritmului reechilibrare → 70% răspuns → colecistectomie versus decompresie urgentă, plus performanța ERCP.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    249,
+    250
+   ],
+   "pdfPages": [
+    161,
+    162
+   ],
+   "section": "Colangita supurată — Decompresie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Resuscitarea, UTI, spectrul Gram-negativ și corectarea coagulării sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 249, 250, Colangita supurată — Decompresie"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "70%, colecistectomia ulterioară și căile de decompresie sunt citate.",
+    "evidenceLocation": "Lawrence, p. 249, 250, Colangita supurată — Decompresie"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Succesul >90% și complicațiile 5–10% sunt de pe pagina următoare.",
+    "evidenceLocation": "Lawrence, p. 249, 250, Colangita supurată — Decompresie"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Decompresia nu se amână în non-responderi.",
+    "evidenceLocation": "Lawrence, p. 249, 250, Colangita supurată — Decompresie"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Succesul ERCP este >90%, nu sub 20%.",
+    "evidenceLocation": "Lawrence, p. 249, 250, Colangita supurată — Decompresie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Amână decompresia la non-responderi și coboară succesul ERCP de la >90% sub 20%."
+  },
+  "textbookExpressions": [
+   "Peste 70%",
+   ">90%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-017",
+  "questionFingerprint": "191cb523ca572f16cbdd10c41cb68cb17fff8b1e885de00d8d69a8d7c7e9297b",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea diagnosticului preoperator de 10% cu supraviețuirea de 80% a formelor incipiente incidente.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    252,
+    253
+   ],
+   "pdfPages": [
+    164,
+    165
+   ],
+   "section": "Cancerul veziculei biliare"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "10% diagnostic preoperator și 80% la 5 ani după colecistectomie cu margini negative sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 252, 253, Cancerul veziculei biliare"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "10%, nu 90%, este cifra de diagnostic preoperator.",
+    "evidenceLocation": "Lawrence, p. 252, 253, Cancerul veziculei biliare"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "<5% la 5 ani descrie tumorile avansate, nu incipientele.",
+    "evidenceLocation": "Lawrence, p. 252, 253, Cancerul veziculei biliare"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Calcificările difuze de veziculă de porțelan sunt un aspect ecografic sugestiv.",
+    "evidenceLocation": "Lawrence, p. 252, 253, Cancerul veziculei biliare"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Limfadenectomiei de hil îi lipsește standardizarea.",
+    "evidenceLocation": "Lawrence, p. 252, 253, Cancerul veziculei biliare"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Permutează 10% (diagnostic preoperator) cu 80% (supraviețuire incipientă) și cu <5% (avansat)."
+  },
+  "textbookExpressions": [
+   "l 0% din cazuri",
+   "până la 80%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-018",
+  "questionFingerprint": "0c67ed0b1f4348922ccce7937f20eb86ca7c0487174ea2cdc4dce7dde0afc3bd",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea distribuției 50/40/10 și a contrastului icter progresiv versus fluctuant litiazic.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    253
+   ],
+   "pdfPages": [
+    165
+   ],
+   "section": "Colangiocarcinomul — Clasificare și risc"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Distribuția 50% perihilar / 40% distal / 10% intrahepatic este explicită.",
+    "evidenceLocation": "Lawrence, p. 253, Colangiocarcinomul — Clasificare și risc"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Sexul egal, vârsta 50–70 și lista de risc (CSP, chisturi, trematode) sunt citate.",
+    "evidenceLocation": "Lawrence, p. 253, Colangiocarcinomul — Clasificare și risc"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Icterul progresiv versus fluctuant și raritatea angiocolitei sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 253, Colangiocarcinomul — Clasificare și risc"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Intrahepaticul este 10%, nu 80%.",
+    "evidenceLocation": "Lawrence, p. 253, Colangiocarcinomul — Clasificare și risc"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Icterul nu fluctuează ca litiaza; angiocolita este rară.",
+    "evidenceLocation": "Lawrence, p. 253, Colangiocarcinomul — Clasificare și risc"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează 10% intrahepatic cu 80% și confundă icterul progresiv cu cel fluctuant litiazic."
+  },
+  "textbookExpressions": [
+   "50% din cazuri",
+   "40% din cazuri"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-019",
+  "questionFingerprint": "232726ac02556c986e1ba5b1e490ac2928e6e6b4b182a8e6ebc3d3947b414a76",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea reconstrucției Roux pentru Klatskin de Whipple pentru distale, cu cifrele de supraviețuire 10% versus 12–25%.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    253
+   ],
+   "pdfPages": [
+    165
+   ],
+   "section": "Klatskin și Whipple"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Rezecția plus Roux și cifra ≈10% sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 253, Klatskin și Whipple"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Whipple și intervalul 12–25% sunt citate.",
+    "evidenceLocation": "Lawrence, p. 253, Klatskin și Whipple"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "5–10% global și unicitatea chirurgiei curative sunt enunțate.",
+    "evidenceLocation": "Lawrence, p. 253, Klatskin și Whipple"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Stentul este paliativ, nu curativ, pentru distalele nerezecabile.",
+    "evidenceLocation": "Lawrence, p. 253, Klatskin și Whipple"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Marginile negative intrahepatice se obțin la <30%.",
+    "evidenceLocation": "Lawrence, p. 253, Klatskin și Whipple"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Confundă Whipple cu stentul palativ și supraestimează marginile intrahepatice de la <30% la 90%."
+  },
+  "textbookExpressions": [
+   "tumori Klatskin",
+   "operaţia Whipple"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-020",
+  "questionFingerprint": "ea4c2616ac75477569841554863112be05c7249435b48dab2f32433a5b828380",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea predilecției feminine 4:1, a riscului oncologic ×20–30 și a reconstrucției Roux.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    254,
+    253
+   ],
+   "pdfPages": [
+    166,
+    165
+   ],
+   "section": "Chisturile coledociene"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Raportul 4:1 și predilecția asiatică sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 254, 253, Chisturile coledociene"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Rezecția și riscul ×20–30 sunt citate.",
+    "evidenceLocation": "Lawrence, p. 254, 253, Chisturile coledociene"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Roux-en-Y și urmărirea pentru stenoze/neoplazie sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 254, 253, Chisturile coledociene"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Raportul este 4:1 femei, nu invers; riscul oncologic justifică rezecția.",
+    "evidenceLocation": "Lawrence, p. 254, 253, Chisturile coledociene"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Anastomoza Roux restabilește fluxul după rezecție.",
+    "evidenceLocation": "Lawrence, p. 254, 253, Chisturile coledociene"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează raportul 4:1 și anulează indicația oncologică de rezecție."
+  },
+  "textbookExpressions": [
+   "4: 1",
+   "20-30 de ori"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-021",
+  "questionFingerprint": "103b56e82cca1ea67d55c479c3ba169ef8d594cd45bf59b0ee458368327d7bf9",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea cifrelor 75% / 0,4–0,6% (×4) și a pragului de 50% circumferință pentru reparația primară versus Roux.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    254
+   ],
+   "pdfPages": [
+    166
+   ],
+   "section": "Leziuni iatrogene de cale biliară"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "75% după colecistectomie simplă este explicit.",
+    "evidenceLocation": "Lawrence, p. 254, Leziuni iatrogene de cale biliară"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "0,4–0,6% și factorul ×4, plus riscul din acut, sunt citate.",
+    "evidenceLocation": "Lawrence, p. 254, Leziuni iatrogene de cale biliară"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Regula <3 mm pentru ligatură este enunțată.",
+    "evidenceLocation": "Lawrence, p. 254, Leziuni iatrogene de cale biliară"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Pragul <50% cu tub T este descris.",
+    "evidenceLocation": "Lawrence, p. 254, Leziuni iatrogene de cale biliară"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "<50% fără devascularizare se repară primar, nu prin Whipple.",
+    "evidenceLocation": "Lawrence, p. 254, Leziuni iatrogene de cale biliară"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Permutează pragul de 50% circumferință cu indicația de Whipple și ignoră regula celor 3 mm."
+  },
+  "textbookExpressions": [
+   "0,4-0,6%",
+   "<50% din circumferinţa"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-022",
+  "questionFingerprint": "b85d9e45c0e85b9ba0cb46648fd2842f842c212a44afa9e5c202121a1102b9e7",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea drenajului percutan (accesoriu) / stent ERCP (cistic) de amânarea reconstrucției majore.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    254
+   ],
+   "pdfPages": [
+    166
+   ],
+   "section": "Fistula biliară precoce"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Tabloul clinic și bilomul imagistic sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 254, Fistula biliară precoce"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Cele două conduite (percutan versus stent) sunt distinse.",
+    "evidenceLocation": "Lawrence, p. 254, Fistula biliară precoce"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Amânarea reconstrucției majore până la controlul sepsisului este cerută.",
+    "evidenceLocation": "Lawrence, p. 254, Fistula biliară precoce"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Reconstrucția imediată în sepsis este descurajată.",
+    "evidenceLocation": "Lawrence, p. 254, Fistula biliară precoce"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Bilomul se caută imagistic; ERCP stentază cisticul.",
+    "evidenceLocation": "Lawrence, p. 254, Fistula biliară precoce"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Forțează reconstrucția majoră în sepsis și contraindică ERCP-ul, inversul algoritmului din paragraf."
+  },
+  "textbookExpressions": [
+   "colecţie intra-abdominală de bilă",
+   "stent prin ERCP"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-023",
+  "questionFingerprint": "1b61b6f002309beb4221e4aa48c78cfd379a0f99b86b44e8aeb95891f2d1e7cc",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea secvenței angiocolită recurentă → ciroză biliară/HTP și a derivației pe ansă jejunală.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    254
+   ],
+   "pdfPages": [
+    166
+   ],
+   "section": "Stricturi biliare tardive"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Icterul, angiocolita recurentă și evoluția spre ciroză/HTP sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 254, Stricturi biliare tardive"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "MRC/ERCP/PTC și derivația jejunală sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 254, Stricturi biliare tardive"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Netratarea duce la ciroză, deci nu este benignă.",
+    "evidenceLocation": "Lawrence, p. 254, Stricturi biliare tardive"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "HTP este o consecință, nu o contraindicație absolută enunțată.",
+    "evidenceLocation": "Lawrence, p. 254, Stricturi biliare tardive"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "PTC este una dintre metodele de confirmare.",
+    "evidenceLocation": "Lawrence, p. 254, Stricturi biliare tardive"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Anulează evoluția spre ciroză biliară, miza clinică a stricturii nediagnosticate."
+  },
+  "textbookExpressions": [
+   "ciroză biliară",
+   "hipertensiune portală"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-024",
+  "questionFingerprint": "1357faeb63b0339d775894932866d22ed6c65c1cbe34c0be0080b3b52042070c",
+  "status": "source-checked",
+  "learningObjective": "Ierarhia Murphy → masă sensibilă → peritonism local, distinctă de Courvoisier.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    244
+   ],
+   "pdfPages": [
+    156
+   ],
+   "section": "Colecistita acută — Semne fizice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Definiția Murphy este explicită.",
+    "evidenceLocation": "Lawrence, p. 244, Colecistita acută — Semne fizice"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Masa sensibilă din HD este descrisă.",
+    "evidenceLocation": "Lawrence, p. 244, Colecistita acută — Semne fizice"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Apărarea și decompresia apar la extinderea parietală.",
+    "evidenceLocation": "Lawrence, p. 244, Colecistita acută — Semne fizice"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Courvoisier este veziculă destinsă nedureroasă cu icter, nu echivalent Murphy.",
+    "evidenceLocation": "Lawrence, p. 244, Colecistita acută — Semne fizice"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Abdomenul suplul între crize descrie colica, nu colecistita acută.",
+    "evidenceLocation": "Lawrence, p. 244, Colecistita acută — Semne fizice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Egalizează Murphy cu Courvoisier, două semne din același paragraf, ușor de superpus."
+  },
+  "textbookExpressions": [
+   "semnul Murphy",
+   "masă sensibilă"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-025",
+  "questionFingerprint": "14c62c4ab01118ee1decbfff4f0925267918e2f77af3b9531bb2010da7c8b173",
+  "status": "source-checked",
+  "learningObjective": "Poziționarea CT ca instrument de urgență/anatomie/intervenție, nu ca prim test de litiază.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    245
+   ],
+   "pdfPages": [
+    157
+   ],
+   "section": "Tomografia computerizată"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Inferioritatea față de eco pentru litiază este explicită.",
+    "evidenceLocation": "Lawrence, p. 245, Tomografia computerizată"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Rolul în cazurile acute severe este citat.",
+    "evidenceLocation": "Lawrence, p. 245, Tomografia computerizată"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Colangio-CT și ghidajul percutan sunt menționate.",
+    "evidenceLocation": "Lawrence, p. 245, Tomografia computerizată"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Ecografia rămâne primul test; CT iradiază.",
+    "evidenceLocation": "Lawrence, p. 245, Tomografia computerizată"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "95% este performanța ecografiei, nu a CT-ului.",
+    "evidenceLocation": "Lawrence, p. 245, Tomografia computerizată"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Pune CT înaintea ecografiei în colică și îi atribuie sensibilitatea de 95% a ultrasunetelor."
+  },
+  "textbookExpressions": [
+   "Tomografia computerizată",
+   "sensibilităţii reduse"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-026",
+  "questionFingerprint": "cc211d4cb7e9329184eefe5398c4a74bd25cac5fa120724d1f64c5709e583695",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea mediului steril/colecist/hemoliză (negri) cu bila infectată/căi/moi (bruni).",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    243
+   ],
+   "pdfPages": [
+    155
+   ],
+   "section": "Calculi pigmentari negri versus bruni"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Infecția, originea primitivă în căi și consistența moale definesc brunii.",
+    "evidenceLocation": "Lawrence, p. 243, Calculi pigmentari negri versus bruni"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "20%, bila sterilă și hemoliza/ciroza definesc negrii.",
+    "evidenceLocation": "Lawrence, p. 243, Calculi pigmentari negri versus bruni"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Radioopacitatea prin calciu este atribuită pigmentarilor, în special relevanți la bruni.",
+    "evidenceLocation": "Lawrence, p. 243, Calculi pigmentari negri versus bruni"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "75% sunt micștii, nu brunii; brunii nu sunt din colecist steril.",
+    "evidenceLocation": "Lawrence, p. 243, Calculi pigmentari negri versus bruni"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Atributele sunt inversate față de text.",
+    "evidenceLocation": "Lawrence, p. 243, Calculi pigmentari negri versus bruni"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează sediul (colecist steril versus căi infectate) între negri și bruni."
+  },
+  "textbookExpressions": [
+   "Calculii pigmentari bruni",
+   "Calculii pigmentari negri"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-027",
+  "questionFingerprint": "6c54c764896fdee9e8a32f2d528b898ef0d821ff37b466a79f9220f4cc70785d",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea cifrelor 1–2%/an și 2/3 la 20 de ani și a absenței indicației de colecistectomie profilactică la adultul asimptomatic.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    246
+   ],
+   "pdfPages": [
+    158
+   ],
+   "section": "Litiază veziculară asimptomatică"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cifrele 1–2% și două treimi/20 de ani sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 246, Litiază veziculară asimptomatică"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Absența indicației profilactice la adult este citată.",
+    "evidenceLocation": "Lawrence, p. 246, Litiază veziculară asimptomatică"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Porțelanul crește riscul de carcinom față de calculii simpli.",
+    "evidenceLocation": "Lawrence, p. 246, Litiază veziculară asimptomatică"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Profilaxia nu se impune la asimptomaticul adult.",
+    "evidenceLocation": "Lawrence, p. 246, Litiază veziculară asimptomatică"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "1–2%/an, nu 50%, este rata citată.",
+    "evidenceLocation": "Lawrence, p. 246, Litiază veziculară asimptomatică"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Ridică conversia simptomatică de la 1–2%/an la 50% și impune profilaxie la toți adulții cu calculi."
+  },
+  "textbookExpressions": [
+   "1-2% vor dezvolta",
+   "20 de ani"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-028",
+  "questionFingerprint": "78c4156fd28ea339a0d9c898245436e9c6d60284054db1523d6d5ecef8b64615",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea colestazei (FA/GGT) de hepatocelular (AST/ALT) și a icterului neconjugat (Crigler-Najjar, Gilbert, hemoliză).",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    247
+   ],
+   "pdfPages": [
+    159
+   ],
+   "section": "Figura 16-3 — Algoritmul icterului"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Ramura conjugată + FA/GGT către obstrucție este desenată.",
+    "evidenceLocation": "Lawrence, p. 247, Figura 16-3 — Algoritmul icterului"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Ramura neconjugată către Crigler-Najjar, Gilbert și hemoliză este listată.",
+    "evidenceLocation": "Lawrence, p. 247, Figura 16-3 — Algoritmul icterului"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Ierarhia transaminaze >> FA definește hepatocelularul.",
+    "evidenceLocation": "Lawrence, p. 247, Figura 16-3 — Algoritmul icterului"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Obstrucția este conjugată, cu FA crescută.",
+    "evidenceLocation": "Lawrence, p. 247, Figura 16-3 — Algoritmul icterului"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Gilbert este pe ramura neconjugată, nu colestatică.",
+    "evidenceLocation": "Lawrence, p. 247, Figura 16-3 — Algoritmul icterului"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Mută Gilbert/Crigler-Najjar pe ramura colestatică și inversează FA versus transaminaze."
+  },
+  "textbookExpressions": [
+   "Crigler-Najjar",
+   "Gilbert"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-029",
+  "questionFingerprint": "7c43fcff3168999d23fd927c2f3c5c100654d8f3088c534585deab757558265a",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea hipercarotenemiei (bilirubină normală, sclere albe) față de icterul adevărat.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    247
+   ],
+   "pdfPages": [
+    159
+   ],
+   "section": "Diagnostic diferențial — Hipercarotenemia"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Algoritmul o plasează la bilirubină normală și sclere albe.",
+    "evidenceLocation": "Lawrence, p. 247, Diagnostic diferențial — Hipercarotenemia"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Tegumente și sclere icterice cu bilirubină crescută definesc icterul.",
+    "evidenceLocation": "Lawrence, p. 247, Diagnostic diferențial — Hipercarotenemia"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Scaunele decolorate țin de obstacol extrahepatic.",
+    "evidenceLocation": "Lawrence, p. 247, Diagnostic diferențial — Hipercarotenemia"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "CBP dilatată nu face parte din ramura hipercarotenemiei.",
+    "evidenceLocation": "Lawrence, p. 247, Diagnostic diferențial — Hipercarotenemia"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "ERCP nu este primul gest în hipercarotenemie.",
+    "evidenceLocation": "Lawrence, p. 247, Diagnostic diferențial — Hipercarotenemia"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Tratează hipercarotenemia ca obstacol extrahepatic (sclere icterice, ERCP), deși algoritmul o desparte prin sclere albe."
+  },
+  "textbookExpressions": [
+   "Hipercarotenemia",
+   "Sclere albe"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-030",
+  "questionFingerprint": "c3f419825331318265135d1f4674c07ad57678894f9fbbaf44464c88f490870e",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea ratelor de succes după calibru și a rolului terapeutic (citologie, extracție, dren), cu corectarea coagulopatiei.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    246
+   ],
+   "pdfPages": [
+    158
+   ],
+   "section": "PTC — Succes 95% versus 70–80%"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cifrele >95% versus 70–80% și utilitatea proximală sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 246, PTC — Succes 95% versus 70–80%"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Citologia, extracția și drenul sunt listate.",
+    "evidenceLocation": "Lawrence, p. 246, PTC — Succes 95% versus 70–80%"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Corectarea coagulopatiei înainte de PTC/ERCP este cerută.",
+    "evidenceLocation": "Lawrence, p. 246, PTC — Succes 95% versus 70–80%"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Succesul pe dilatate este >95%, nu sub 20%.",
+    "evidenceLocation": "Lawrence, p. 246, PTC — Succes 95% versus 70–80%"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "PTC vizează arborele biliar proximal.",
+    "evidenceLocation": "Lawrence, p. 246, PTC — Succes 95% versus 70–80%"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează 95% (ducte dilatate) cu 70–80% (calibru normal) și mută PTC pe pancreas."
+  },
+  "textbookExpressions": [
+   "peste 95%",
+   "70-80%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-031",
+  "questionFingerprint": "f46cbd3ce1769149758468671e73122c59cc47320e43aa4f5b439dd2d68a748a",
+  "status": "source-checked",
+  "learningObjective": "Ierarhia NPO/IV/antibiotice → colecistectomie precoce versus colecistostomie la pacientul instabil.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    248
+   ],
+   "pdfPages": [
+    160
+   ],
+   "section": "Colecistita acută — Antibiotice și timing"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Bacteriile și spectrul antibiotic sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 248, Colecistita acută — Antibiotice și timing"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Fereastra de câteva zile și prevenția complicațiilor sunt citate.",
+    "evidenceLocation": "Lawrence, p. 248, Colecistita acută — Antibiotice și timing"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Excepțiile (comorbidități versus perforație) sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 248, Colecistita acută — Antibiotice și timing"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Colecistostomia percutană prin ficat este indicația pentru cel prea grav.",
+    "evidenceLocation": "Lawrence, p. 248, Colecistita acută — Antibiotice și timing"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Spectrul țintește Gram-negativi și enterococ; amânarea 6 săptămâni nu e regula.",
+    "evidenceLocation": "Lawrence, p. 248, Colecistita acută — Antibiotice și timing"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Amână sistematic 6 săptămâni și schimbă spectrul antibiotic, inversul algoritmului precoce."
+  },
+  "textbookExpressions": [
+   "Escherichia coli",
+   "colecistostomie"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-032",
+  "questionFingerprint": "8e2ad07ad185912cc39ac7d0c16815199aeeaa1e43101ba5c0e340efa06d5bf6",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea colecistostomiei percutane transhepatice ca decompresie la pacientul inoperabil.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    248
+   ],
+   "pdfPages": [
+    160
+   ],
+   "section": "Colecistostomia percutană"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Plasarea percutană ecoghidată prin ficat este explicită.",
+    "evidenceLocation": "Lawrence, p. 248, Colecistostomia percutană"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Whipple nu este tratamentul colecistitei.",
+    "evidenceLocation": "Lawrence, p. 248, Colecistostomia percutană"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "ESWL nu decomprimează vezicula inflamată.",
+    "evidenceLocation": "Lawrence, p. 248, Colecistostomia percutană"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Ursodeoxicolicul ține de dizolvarea electivă, nu de acutul instabil.",
+    "evidenceLocation": "Lawrence, p. 248, Colecistostomia percutană"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "ERCP decomprimează CBP, nu vezicula obstruată pe cistic.",
+    "evidenceLocation": "Lawrence, p. 248, Colecistostomia percutană"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Înlocuiește colecistostomia percutană cu Whipple sau ESWL, două gesturi din alte capitole ale căii biliare."
+  },
+  "textbookExpressions": [
+   "plasarea percutană",
+   "ghidaj ecografic"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-033",
+  "questionFingerprint": "07bacc79c8b934607a2f2483abda2cf16cf5ce8b36cc16ec96e10135ee184040",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea prognosticului 15–25%/20–25% al gangrenei cu aerul parietal și diabetul 20–50% ale formei emfizematoase.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    248
+   ],
+   "pdfPages": [
+    160
+   ],
+   "section": "Gangrenă versus emfizematoasă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cifrele de morbiditate/mortalitate și conduita sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 248, Gangrenă versus emfizematoasă"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Gazul, diabetul 20–50% și semnele radiologice sunt citate.",
+    "evidenceLocation": "Lawrence, p. 248, Gangrenă versus emfizematoasă"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Acoperirea anaerobă și urgența operatorie închid paragraful emfizematos.",
+    "evidenceLocation": "Lawrence, p. 248, Gangrenă versus emfizematoasă"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Mortalitatea gangrenei nu e sub 1%; emfizematoasa e a vârstnicului, adesea diabetic.",
+    "evidenceLocation": "Lawrence, p. 248, Gangrenă versus emfizematoasă"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Aerul impune urgență, nu amânare.",
+    "evidenceLocation": "Lawrence, p. 248, Gangrenă versus emfizematoasă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Permutează mortalitatea 20–25% sub 1% și transformă aerul parietal într-o indicație electivă."
+  },
+  "textbookExpressions": [
+   "15-25%",
+   "20-50% dintre pacienţi"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-034",
+  "questionFingerprint": "cff3640f36705fb72bd322822e4315bfad9bf79420a5de8dc1849f346c5cfa0e",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea terenului (NPT, ventilație, imunosupresie) și a specificității HIDA de doar 38% în alitiazică.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    248
+   ],
+   "pdfPages": [
+    160
+   ],
+   "section": "Colecistita acută alitiazică"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Terenul și dificultatea diagnosticului sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 248, Colecistita acută alitiazică"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Fals-pozitivele și 38% specificitate sunt citate; tratamentul e similar.",
+    "evidenceLocation": "Lawrence, p. 248, Colecistita acută alitiazică"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "38%, nu 98%, este specificitatea; calculii lipsesc prin definiție.",
+    "evidenceLocation": "Lawrence, p. 248, Colecistita acută alitiazică"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "NPT și ventilația predispun, nu protejează.",
+    "evidenceLocation": "Lawrence, p. 248, Colecistita acută alitiazică"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Tratamentul este similar litiazicei.",
+    "evidenceLocation": "Lawrence, p. 248, Colecistita acută alitiazică"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Ridică specificitatea HIDA din alitiazică de la 38% la 98% și transformă NPT-ul în factor protector."
+  },
+  "textbookExpressions": [
+   "specificitate de doar 38%",
+   "Colecistita acută alitiazică"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-035",
+  "questionFingerprint": "927ec87c32dd23212fbb4d0d52a346e6c8f369457a2be0e930dd4995d0914be2",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea colicii prelungite fără febră a cronicei față de angiocolită și de peritonismul acutului.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    248
+   ],
+   "pdfPages": [
+    160
+   ],
+   "section": "Colecistita cronică"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Frecvența maximă și mecanismul (obstrucții minore repetate) sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 248, Colecistita cronică"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Fereastra 30 min–ore și absența febrei sunt citate.",
+    "evidenceLocation": "Lawrence, p. 248, Colecistita cronică"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Nespecificitatea dispepsiei și originea extra-cistică a icterului sunt enunțate.",
+    "evidenceLocation": "Lawrence, p. 248, Colecistita cronică"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Febra/icterul prin cistic țin de acut/angiocolită, nu de cronică.",
+    "evidenceLocation": "Lawrence, p. 248, Colecistita cronică"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Între crize abdomenul nu are modificări specifice.",
+    "evidenceLocation": "Lawrence, p. 248, Colecistita cronică"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Atribuie cronicei febra și icterul angiocolitei, deși textul le neagă explicit."
+  },
+  "textbookExpressions": [
+   "Colecistita cronică",
+   "30 de minute"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-036",
+  "questionFingerprint": "2c2eda90711dc1e68a9650b8d0c0dc03673f86e7a9c6413631e13565f9988b11",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea prevalențelor pe decade la caucazieni și a volumului de 800.000 de colecistectomii, față de inversarea de sex/vârstă.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    242
+   ],
+   "pdfPages": [
+    154
+   ],
+   "section": "Epidemiologie — Prevalență pe vârstă și sex"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cifra de 800.000 este explicită.",
+    "evidenceLocation": "Lawrence, p. 242, Epidemiologie — Prevalență pe vârstă și sex"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "5–15% și 25% la femei sunt citate.",
+    "evidenceLocation": "Lawrence, p. 242, Epidemiologie — Prevalență pe vârstă și sex"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "4–10% și 10–15% la bărbați completează tabelul.",
+    "evidenceLocation": "Lawrence, p. 242, Epidemiologie — Prevalență pe vârstă și sex"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Incidența crește cu vârsta; femeile sunt afectate de circa 3 ori mai frecvent.",
+    "evidenceLocation": "Lawrence, p. 242, Epidemiologie — Prevalență pe vârstă și sex"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Laparoscopia a înlocuit deschisul, nu invers.",
+    "evidenceLocation": "Lawrence, p. 242, Epidemiologie — Prevalență pe vârstă și sex"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează predilecția de sex și direcția vârstei, pe fondul a patru procente din același paragraf."
+  },
+  "textbookExpressions": [
+   "800.000 de colecistectomii",
+   "5-15%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-037",
+  "questionFingerprint": "5a0b510e0e356a0d014b99b4b4a8b899f2e2c8c6393f016fd31dc1c5ac8f74ae",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea compoziției sludge-ului și a terenului (NPT, înfometare, scădere ponderală) ca precursor al calculilor.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    243
+   ],
+   "pdfPages": [
+    155
+   ],
+   "section": "Sludge biliar"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Compoziția, terenul și rolul de precursor sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 243, Sludge biliar"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Brunii infectați din căi sunt altă entitate.",
+    "evidenceLocation": "Lawrence, p. 243, Sludge biliar"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Sludge-ul conține tocmai cristale de colesterol și se leagă de NPT.",
+    "evidenceLocation": "Lawrence, p. 243, Sludge biliar"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Negrii sunt din colecist steril, nu sludge-ul.",
+    "evidenceLocation": "Lawrence, p. 243, Sludge biliar"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu este echivalentul colangitei supurate.",
+    "evidenceLocation": "Lawrence, p. 243, Sludge biliar"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Confundă sludge-ul (precursor amorf) cu calculul pigmentar brun din căile infectate."
+  },
+  "textbookExpressions": [
+   "Nămolul\" biliar",
+   "bilirubinat de calciu"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-038",
+  "questionFingerprint": "21ca8e1bec16905138aa03a0d3308af8389a303d375e3bf4b48fda22a989d655",
+  "status": "source-checked",
+  "learningObjective": "Reținerea triadului 3:1 / 75% litiază / 20% porțelan și a pragului de 1,5 cm pentru polipi.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    251
+   ],
+   "pdfPages": [
+    163
+   ],
+   "section": "Cancer de veziculă — 3:1, 75%, porțelan 20%"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Frecvența, decada a șaptea și 3:1 sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 251, Cancer de veziculă — 3:1, 75%, porțelan 20%"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "75% și 46–70% la polipi ≥1,5 cm sunt citate.",
+    "evidenceLocation": "Lawrence, p. 251, Cancer de veziculă — 3:1, 75%, porțelan 20%"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "20% și indicația profilactică pe calcificări sunt enunțate.",
+    "evidenceLocation": "Lawrence, p. 251, Cancer de veziculă — 3:1, 75%, porțelan 20%"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Joncțiunea, CSP, infecțiile și toxinele completează lista.",
+    "evidenceLocation": "Lawrence, p. 251, Cancer de veziculă — 3:1, 75%, porțelan 20%"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Vârful nu e în tinerețe; litiaza e factor de risc, nu protecție.",
+    "evidenceLocation": "Lawrence, p. 251, Cancer de veziculă — 3:1, 75%, porțelan 20%"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează raportul 3:1 și tratează litiaza ca protectivă, pe trei procente din același paragraf."
+  },
+  "textbookExpressions": [
+   "3: 1",
+   "aproximativ 20%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-039",
+  "questionFingerprint": "359714d81e46a993995f78db3883771b37e9056e576093dac62c9502247d433a",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea diagnosticului incidental (30%; 0,3–1% din piese) cu simptomele litiazice ale bolii incipiente.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    251
+   ],
+   "pdfPages": [
+    163
+   ],
+   "section": "Cancer incidental — 30% și 0,3–1%"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "30% incidental și 0,3–1% din piese sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 251, Cancer incidental — 30% și 0,3–1%"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Originea litiazică a simptomelor incipiente este citată.",
+    "evidenceLocation": "Lawrence, p. 251, Cancer incidental — 30% și 0,3–1%"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Diagnosticul preoperator corect e scăzut (capitolul citează 10% în altă secțiune), nu 90%.",
+    "evidenceLocation": "Lawrence, p. 251, Cancer incidental — 30% și 0,3–1%"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Scăderea ponderală și astenia țin de boala avansată.",
+    "evidenceLocation": "Lawrence, p. 251, Cancer incidental — 30% și 0,3–1%"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "0,3–1%, nu 0,01%, este cifra din piese.",
+    "evidenceLocation": "Lawrence, p. 251, Cancer incidental — 30% și 0,3–1%"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Permutează 30% (incidental) cu 90% preoperator și coboară 0,3–1% sub 0,01%."
+  },
+  "textbookExpressions": [
+   "Treizeci la sută",
+   "0,3-1%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-040",
+  "questionFingerprint": "8f7d83bf0b31efa343259871a07613cf2bcf92b99af44e2e58a5da78a8648f23",
+  "status": "source-checked",
+  "learningObjective": "Ierarhia decompresie/hidratare → enterotomie în intestin sănătos → explorarea întregului intestin, cu fistulă doar la selectați.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    251
+   ],
+   "pdfPages": [
+    163
+   ],
+   "section": "Ileus biliar — Enterotomie și explorarea intestinului"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "NG și hidratarea ca ocluzie înaltă sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 251, Ileus biliar — Enterotomie și explorarea intestinului"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Enterotomia după mobilizare retrogradă este citată.",
+    "evidenceLocation": "Lawrence, p. 251, Ileus biliar — Enterotomie și explorarea intestinului"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Explorarea întregului intestin și selecția pentru fistulă sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 251, Ileus biliar — Enterotomie și explorarea intestinului"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Mulți vârstnici nu tolerează operații prelungite; fistulă nu precede enterotomia.",
+    "evidenceLocation": "Lawrence, p. 251, Ileus biliar — Enterotomie și explorarea intestinului"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "NG este primul gest, nu o contraindicație.",
+    "evidenceLocation": "Lawrence, p. 251, Ileus biliar — Enterotomie și explorarea intestinului"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează ordinea enterotomie versus reconstrucția fistulei și contraindică sonda nazogastrică."
+  },
+  "textbookExpressions": [
+   "enterotomie",
+   "Întregul intestin"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-041",
+  "questionFingerprint": "27a4c4aaa112e6387d0433a8c03a77c932ba693400757e20ad61a6a90cf9198f",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea ferestrelor 3 săptămâni / 3–6 săptămâni și a evacuării spontane la 20% din calculii restanți mici.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    255
+   ],
+   "pdfPages": [
+    167
+   ],
+   "section": "Tubul în T — 3 săptămâni și 20% spontan"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cele 3 săptămâni și condiția de extragere sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 255, Tubul în T — 3 săptămâni și 20% spontan"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Intervalul 3–6 săptămâni este citat.",
+    "evidenceLocation": "Lawrence, p. 255, Tubul în T — 3 săptămâni și 20% spontan"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "20% și fereastra 4–6 săptămâni sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 255, Tubul în T — 3 săptămâni și 20% spontan"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Drenajul peritoneal, nu tubul în T, se suprimă la 24–48 de ore după clampare.",
+    "evidenceLocation": "Lawrence, p. 255, Tubul în T — 3 săptămâni și 20% spontan"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "20% se evacuează spontan; ERCP rămâne o opțiune.",
+    "evidenceLocation": "Lawrence, p. 255, Tubul în T — 3 săptămâni și 20% spontan"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Extrage tubul în T la 24 de ore și neagă evacuarea spontană de 20%, două ferestre din același paragraf."
+  },
+  "textbookExpressions": [
+   "3 săptămâni",
+   "4-6 săptămâni"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-042",
+  "questionFingerprint": "5212e43b19b4489134b3698190fd2483af07d177f9c29a8d2f3d12514bdcc0d7",
+  "status": "source-checked",
+  "learningObjective": "Reținerea procentelor 1–2% (sângerare) și 0,3% (perforație) și a stentului de decomprimare când extracția eșuează.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    255
+   ],
+   "pdfPages": [
+    167
+   ],
+   "section": "ERCP — Sângerare 1–2%, perforație 0,3%"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cele trei complicații și cifrele sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 255, ERCP — Sângerare 1–2%, perforație 0,3%"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Corectarea coagulării și stentul paliativ sunt citate.",
+    "evidenceLocation": "Lawrence, p. 255, ERCP — Sângerare 1–2%, perforație 0,3%"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "1–2% și 0,3%, nu 50%/30%.",
+    "evidenceLocation": "Lawrence, p. 255, ERCP — Sângerare 1–2%, perforație 0,3%"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Stentul este tocmai soluția când extracția eșuează.",
+    "evidenceLocation": "Lawrence, p. 255, ERCP — Sângerare 1–2%, perforație 0,3%"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "ERCP electiv este de obicei ambulatoriu.",
+    "evidenceLocation": "Lawrence, p. 255, ERCP — Sângerare 1–2%, perforație 0,3%"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Ridică sângerarea de la 1–2% la 50% și perforația de la 0,3% la 30%."
+  },
+  "textbookExpressions": [
+   "1-2%",
+   "0,3%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-043",
+  "questionFingerprint": "2212e67abcb2fd22617394d120bb955a48c9019c38d9009860d148241961a482",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea indicațiilor absolute (calcul văzut/palpat) cu cele relative (icter, pancreatită, dilatație, microlitiază) și a manevrei Kocher.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    255
+   ],
+   "pdfPages": [
+    167
+   ],
+   "section": "Explorarea CBP — Absolute versus relative"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Absolutele sunt enumerate.",
+    "evidenceLocation": "Lawrence, p. 255, Explorarea CBP — Absolute versus relative"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Relativele și rolul colangiografiei sunt citate.",
+    "evidenceLocation": "Lawrence, p. 255, Explorarea CBP — Absolute versus relative"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Kocher, incizia, instrumentele și tubul în T sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 255, Explorarea CBP — Absolute versus relative"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Dispepsia nu este indicație absolută.",
+    "evidenceLocation": "Lawrence, p. 255, Explorarea CBP — Absolute versus relative"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Tubul în T închide breșa, nu se lasă deschis.",
+    "evidenceLocation": "Lawrence, p. 255, Explorarea CBP — Absolute versus relative"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Transformă dispepsia în indicație absolută și omite tubul în T, doi piloni ai explorării deschise."
+  },
+  "textbookExpressions": [
+   "manevra Kocher",
+   "Indicaţiile absolute"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-044",
+  "questionFingerprint": "9e171a887887becc527f07ba75880ae9e1fa5f06708c0412acb1aa2db643da25",
+  "status": "source-checked",
+  "learningObjective": "Legarea suprasaturării/nucleației de radiotransparență și de formarea în veziculă prin stază.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    243
+   ],
+   "pdfPages": [
+    155
+   ],
+   "section": "Patogenie — Micști, nucleație, solitar"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Litogenia, suprasaturarea și nucleația sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 243, Patogenie — Micști, nucleație, solitar"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Radiotransparența și calculul solitar de colesterol sunt citate.",
+    "evidenceLocation": "Lawrence, p. 243, Patogenie — Micști, nucleație, solitar"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Staza veziculară ca loc principal de formare este enunțată.",
+    "evidenceLocation": "Lawrence, p. 243, Patogenie — Micști, nucleație, solitar"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "20% și căile infectate definesc pigmentarii, nu micștii (circa 75%).",
+    "evidenceLocation": "Lawrence, p. 243, Patogenie — Micști, nucleație, solitar"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Majoritatea nu sunt radioopaci; nucleația este centrală.",
+    "evidenceLocation": "Lawrence, p. 243, Patogenie — Micști, nucleație, solitar"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Atribuie micștilor cifrele și sediul pigmentarilor (20%, căi infectate) și îi face pe toți radioopaci."
+  },
+  "textbookExpressions": [
+   "colesterol „solitar\"",
+   "factorilor de nucleaţie"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-045",
+  "questionFingerprint": "afe7faef1690eed553bb246533a9831cac15024df932cb934a990ca73ee42a47",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea triadului scaune decolorate / urină ca ceaiul / prurit prin acizi biliari conjugați.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    244
+   ],
+   "pdfPages": [
+    156
+   ],
+   "section": "Icter obstructiv — Scaune, urină, prurit"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Scaunele decolorate și urina ca ceaiul sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 244, Icter obstructiv — Scaune, urină, prurit"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Mecanismul pruritului (acizi biliari conjugați) este citat.",
+    "evidenceLocation": "Lawrence, p. 244, Icter obstructiv — Scaune, urină, prurit"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Direcția culorilor este inversată.",
+    "evidenceLocation": "Lawrence, p. 244, Icter obstructiv — Scaune, urină, prurit"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Pruritul ține de acizi biliari conjugați, nu de neconjugată.",
+    "evidenceLocation": "Lawrence, p. 244, Icter obstructiv — Scaune, urină, prurit"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Urina hipercromă susține obstacolul, nu hemoliza (neconjugată).",
+    "evidenceLocation": "Lawrence, p. 244, Icter obstructiv — Scaune, urină, prurit"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează culorile scaun/urină și atribuie pruritul bilirubinei neconjugate."
+  },
+  "textbookExpressions": [
+   "scaunelor decolorate",
+   "urine hipercrome"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-046",
+  "questionFingerprint": "e3db61f34005e92912afed81f8d58908f5f60daf83f5dc45e5a494a082c3f9f0",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea originii din diverticulul proenteronului și a celor trei muguri (ficat, pancreas ventral, veziculă).",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    242
+   ],
+   "pdfPages": [
+    154
+   ],
+   "section": "Embriologie — Trei muguri"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Diverticulul proenteronului și cei trei muguri sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 242, Embriologie — Trei muguri"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Localizarea în HD sub scizura interlobară este citată.",
+    "evidenceLocation": "Lawrence, p. 242, Embriologie — Trei muguri"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu este hindgut; splina și rinichiul nu sunt mugurii listați.",
+    "evidenceLocation": "Lawrence, p. 242, Embriologie — Trei muguri"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Pancreasul ventral este unul dintre muguri; vezicula e în HD.",
+    "evidenceLocation": "Lawrence, p. 242, Embriologie — Trei muguri"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Originea este endodermică din proenteron, nu neurală.",
+    "evidenceLocation": "Lawrence, p. 242, Embriologie — Trei muguri"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Mută originea pe hindgut și înlocuiește cei trei muguri (ficat/pancreas ventral/veziculă) cu splină și rinichi."
+  },
+  "textbookExpressions": [
+   "proenteronului",
+   "trei muguri"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-047",
+  "questionFingerprint": "8cc9e7d4381fc6ac1833dd8950c5f57c8039ed6535dd1a96d9b4788108faaea7",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea unirii CBP–Wirsung la circa 1 cm de duoden și a rolului sfincterului Oddi pe canalul comun.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    242
+   ],
+   "pdfPages": [
+    154
+   ],
+   "section": "Anatomie — Ampula Vater și Oddi"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Traiectul prin capul pancreasului, unirea la circa 1 cm și ampula Vater sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 242, Anatomie — Ampula Vater și Oddi"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Manșonarea canalului comun de către Oddi este citată.",
+    "evidenceLocation": "Lawrence, p. 242, Anatomie — Ampula Vater și Oddi"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Distanța citată este 1 cm, nu 10 cm; Oddi există.",
+    "evidenceLocation": "Lawrence, p. 242, Anatomie — Ampula Vater și Oddi"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Deschiderea este în a doua porțiune duodenală.",
+    "evidenceLocation": "Lawrence, p. 242, Anatomie — Ampula Vater și Oddi"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "CBP trece prin capul pancreasului; cisticul se unește mai proximal, formând CBP.",
+    "evidenceLocation": "Lawrence, p. 242, Anatomie — Ampula Vater și Oddi"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Permutează 1 cm cu 10 cm și anulează Oddi, două repere de la sfârșitul paragrafului de anatomie."
+  },
+  "textbookExpressions": [
+   "circa 1 cm",
+   "sfincterul lui Oddi"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-048",
+  "questionFingerprint": "694edae828d00995f99143d49d273b9130d343b46d681b5b3cdd3eb4c8bb728c",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea triadului evitare obezitate / fibre / mese regulate + grăsimi nesaturate ca prevenție a nucleației.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    242,
+    243
+   ],
+   "pdfPages": [
+    154,
+    155
+   ],
+   "section": "Prevenția litiazei — Dietă și ritm alimentar"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Evitarea obezității deschide lista de prevenție.",
+    "evidenceLocation": "Lawrence, p. 242, 243, Prevenția litiazei — Dietă și ritm alimentar"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Fibrele și circuitul enterohepatic al acizilor dehidroxilați sunt citate.",
+    "evidenceLocation": "Lawrence, p. 242, 243, Prevenția litiazei — Dietă și ritm alimentar"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Mesele regulate și reducerea grăsimilor saturate închid paragraful.",
+    "evidenceLocation": "Lawrence, p. 242, 243, Prevenția litiazei — Dietă și ritm alimentar"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Hipercaloric, masă unică și saturate cresc, nu scad, riscul.",
+    "evidenceLocation": "Lawrence, p. 242, 243, Prevenția litiazei — Dietă și ritm alimentar"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Stocarea prelungită favorizează nucleația; dieta o influențează.",
+    "evidenceLocation": "Lawrence, p. 242, 243, Prevenția litiazei — Dietă și ritm alimentar"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează sfaturile dietetice (fibre, mese regulate) în stază și grăsimi saturate, exact ce textul cere evitat."
+  },
+  "textbookExpressions": [
+   "conţinut bogat în fibre",
+   "acizi graşi saturaţi"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-049",
+  "questionFingerprint": "ca644c81c72a55a4a7ce7511ef04489e175aa3e60b522ec10fc7b8fcc40c3554",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea creșterii ușoare din colecistită/colangită cu creșterea marcată care orientează spre pancreatită.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    244
+   ],
+   "pdfPages": [
+    156
+   ],
+   "section": "Laborator — Amilază și lipază"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Creșterea ușoară în ambele infecții biliare este explicită.",
+    "evidenceLocation": "Lawrence, p. 244, Laborator — Amilază și lipază"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Creșterea marcată ca indicator de pancreatită este citată.",
+    "evidenceLocation": "Lawrence, p. 244, Laborator — Amilază și lipază"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Creșterea ușoară nu echivalează pancreatita severă.",
+    "evidenceLocation": "Lawrence, p. 244, Laborator — Amilază și lipază"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Ambele enzime cresc marcat în pancreatită, nu doar amilaza în colică.",
+    "evidenceLocation": "Lawrence, p. 244, Laborator — Amilază și lipază"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Textul le plasează tocmai în bilanțul biliar acut.",
+    "evidenceLocation": "Lawrence, p. 244, Laborator — Amilază și lipază"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Egalizează creșterea ușoară din colecistită cu pancreatita necrotico-hemoragică."
+  },
+  "textbookExpressions": [
+   "Amilaza serică şi lipaza",
+   "pancreatită acută"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-050",
+  "questionFingerprint": "47aa06aecb2c99783cd7f04feb4f03999f3dc262817f86c6d065607cbebcaf74",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea semnelor de inflamație (>3–4 mm, lichid) și a Murphy ecografic (98%), plus localizarea obstacolului distal de joncțiune.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    246,
+    245
+   ],
+   "pdfPages": [
+    158,
+    157
+   ],
+   "section": "Ecografie — Perete >3–4 mm și Murphy 98%"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Distensia, pragul >3–4 mm și lichidul pericolecistic sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 246, 245, Ecografie — Perete >3–4 mm și Murphy 98%"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Definiția Murphy ecografic și cifra 98% sunt citate.",
+    "evidenceLocation": "Lawrence, p. 246, 245, Ecografie — Perete >3–4 mm și Murphy 98%"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Regula veziculă destinsă + căi dilatate → obstacol distal de joncțiune este de pe pagina anterioară.",
+    "evidenceLocation": "Lawrence, p. 246, 245, Ecografie — Perete >3–4 mm și Murphy 98%"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Peretele subțire fără lichid nu definește gangrena.",
+    "evidenceLocation": "Lawrence, p. 246, 245, Ecografie — Perete >3–4 mm și Murphy 98%"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "98%, nu 10%; obstacolul distal dilată și hepaticul.",
+    "evidenceLocation": "Lawrence, p. 246, 245, Ecografie — Perete >3–4 mm și Murphy 98%"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Coboară Murphy ecografic de la 98% la 10% și inversează pragul de îngroșare parietală."
+  },
+  "textbookExpressions": [
+   ">3-4 mm",
+   "98% dintre pacienţii"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-051",
+  "questionFingerprint": "73e729aae2c4a8e897875cd242b25f00f7fb8891cbd37e8ecb9b28a394e12661",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea trasorului 99mTc-iminodiacetic și a rolului rar, actual, în fistula biliară postoperatorie.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    246
+   ],
+   "pdfPages": [
+    158
+   ],
+   "section": "HIDA — 99mTc și fistula postoperatorie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Marcajul cu 99m-tehnețiu și excreția hepatică în bilă sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 246, HIDA — 99mTc și fistula postoperatorie"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Utilitatea istorică pentru fistulă și folosirea rară actuală sunt citate.",
+    "evidenceLocation": "Lawrence, p. 246, HIDA — 99mTc și fistula postoperatorie"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "HIDA nu identifică calculii veziculari sau ai CBP.",
+    "evidenceLocation": "Lawrence, p. 246, HIDA — 99mTc și fistula postoperatorie"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Trasorul este excretat în bilă, nu reținut renal.",
+    "evidenceLocation": "Lawrence, p. 246, HIDA — 99mTc și fistula postoperatorie"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Textul îi recunoaște încă un rol, deși rar, în fistulă.",
+    "evidenceLocation": "Lawrence, p. 246, HIDA — 99mTc și fistula postoperatorie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Transformă HIDA în testul de elecție pentru calculi și îi neagă excreția biliară."
+  },
+  "textbookExpressions": [
+   "99\"'techneţiu",
+   "fistule biliare postoperatorii"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-052",
+  "questionFingerprint": "d19f2e1f4ac6914669211f72547d6b48dfe10a103b389dc2c57461ae8dc4bfad",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea spectrului E. coli/Klebsiella/enterococ, a ferestrei de câteva zile și a NG doar la vărsături.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    248
+   ],
+   "pdfPages": [
+    160
+   ],
+   "section": "Colecistita acută — Antibiotice și colecistectomie precoce"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "NPO, lichidele și spectrul bacterian sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 248, Colecistita acută — Antibiotice și colecistectomie precoce"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Colecistectomia precoce la câteva zile, după resuscitare, este cerută.",
+    "evidenceLocation": "Lawrence, p. 248, Colecistita acută — Antibiotice și colecistectomie precoce"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "NG rareori, exceptând vărsăturile, este citată.",
+    "evidenceLocation": "Lawrence, p. 248, Colecistita acută — Antibiotice și colecistectomie precoce"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Amânarea de 6 luni crește inflamația și complicațiile.",
+    "evidenceLocation": "Lawrence, p. 248, Colecistita acută — Antibiotice și colecistectomie precoce"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "NG nu înlocuiește antibioticele și nu e de rutină.",
+    "evidenceLocation": "Lawrence, p. 248, Colecistita acută — Antibiotice și colecistectomie precoce"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Amână colecistectomia 6 luni și golește antibioticele de Gram-negative, inversul algoritmului precoce."
+  },
+  "textbookExpressions": [
+   "Escherichia coli",
+   "câteva zile de la prezentare"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-053",
+  "questionFingerprint": "69cbd009d537560d6e0fea2ab466d7556051d1de59388d52189fb94ac0a69348",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea amânării pentru comorbidități majore cu avansarea la suspiciune de perforație/abces și cu excesul de risc al urgenței.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    248
+   ],
+   "pdfPages": [
+    160
+   ],
+   "section": "Colecistita acută — Amânare versus urgență"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Amânarea pentru probleme medicale majore este explicită.",
+    "evidenceLocation": "Lawrence, p. 248, Colecistita acută — Amânare versus urgență"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Avansarea la perforație sau abces este citată.",
+    "evidenceLocation": "Lawrence, p. 248, Colecistita acută — Amânare versus urgență"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Excesul de mortalitate/morbiditate al urgenței și cauzele (CV, pulmonar, metabolic) sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 248, Colecistita acută — Amânare versus urgență"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Gangrena e tocmai o complicație de evitat prin operație precoce.",
+    "evidenceLocation": "Lawrence, p. 248, Colecistita acută — Amânare versus urgență"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Urgența are risc ușor mai mare, nu mai mic.",
+    "evidenceLocation": "Lawrence, p. 248, Colecistita acută — Amânare versus urgență"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează amânarea (comorbidități) cu avansarea (perforație) și declară urgența mai sigură decât electiva."
+  },
+  "textbookExpressions": [
+   "perforaţiei sau abcesului",
+   "mortalitate şi morbiditate"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-054",
+  "questionFingerprint": "482e252b234520b2368b3cb70e8e511bcec6b2609c46771c04b807de21fe50bf",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea ferestrei 48–72 h pentru colecistectomia formelor ușoare de fereastra 24–36 h a sfincterotomiei de urgență și de reducerea recidivei la 2–5%.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    250
+   ],
+   "pdfPages": [
+    162
+   ],
+   "section": "Pancreatită biliară — 48–72 h versus 24–36 h"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "48–72 de ore, remisia durerii și normalizarea amilazei sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 250, Pancreatită biliară — 48–72 h versus 24–36 h"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Amânarea în severă și cifra 2–5% la 2 ani sunt citate.",
+    "evidenceLocation": "Lawrence, p. 250, Pancreatită biliară — 48–72 h versus 24–36 h"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Fereastra 24–36 de ore pentru ES de urgență este descrisă.",
+    "evidenceLocation": "Lawrence, p. 250, Pancreatită biliară — 48–72 h versus 24–36 h"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "60%/6 luni este recidiva FĂRĂ colecistectomie, nu un protocol după forma ușoară.",
+    "evidenceLocation": "Lawrence, p. 250, Pancreatită biliară — 48–72 h versus 24–36 h"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "ES de urgență este tocmai indicată la 24–36 de ore dacă nu se ameliorează.",
+    "evidenceLocation": "Lawrence, p. 250, Pancreatită biliară — 48–72 h versus 24–36 h"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Permutează 48–72 h (colecistectomie ușoară) cu 24–36 h (ES de urgență) și inversează efectul sfincterotomiei asupra recidivei."
+  },
+  "textbookExpressions": [
+   "2-5%",
+   "24--36 de ore"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-055",
+  "questionFingerprint": "e0a5645dc59734b82d34edee66d8442ecde67ab5e4585fa2586659ad6ca3a0b5",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea IOC-ului ca verificare a CBP la colecistectomie și a rezervării antibioticelor/colecistostomiei pentru formele severe.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    250
+   ],
+   "pdfPages": [
+    162
+   ],
+   "section": "Pancreatită biliară — IOC și antibiotice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "IOC-ul pentru confirmarea absenței calculilor este explicit.",
+    "evidenceLocation": "Lawrence, p. 250, Pancreatită biliară — IOC și antibiotice"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Antibioticele în severă/sepsis și colecistostomia ca punte sunt citate.",
+    "evidenceLocation": "Lawrence, p. 250, Pancreatită biliară — IOC și antibiotice"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "IOC-ul este cerut, nu omis.",
+    "evidenceLocation": "Lawrence, p. 250, Pancreatită biliară — IOC și antibiotice"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Antibioticele nu sunt de rutină în ușoare; colecistostomia e pentru grav, nu pentru tânărul fără comorbidități.",
+    "evidenceLocation": "Lawrence, p. 250, Pancreatită biliară — IOC și antibiotice"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Confirmarea se face prin colangiografie cu contrast, nu prin radiografie simplă.",
+    "evidenceLocation": "Lawrence, p. 250, Pancreatită biliară — IOC și antibiotice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Omit IOC-ul și generalizează antibioticele asupra formelor ușoare, două gesturi din același paragraf de închidere."
+  },
+  "textbookExpressions": [
+   "Colangiografia intraoperatorie",
+   "Terapia antibiotică"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-056",
+  "questionFingerprint": "d1e645c150ae5a582bf3effa2ea7eb502fd0a74bd8b28f7baad1aaee96989c93",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea prevalenței de circa 50% a icterului prin extensie hilară precoce, nu a formelor incidente intramurale.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    252
+   ],
+   "pdfPages": [
+    164
+   ],
+   "section": "Cancer de veziculă avansat — Icter 50%"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cifra de aproximativ 50% și căile de diseminare (ficat, hil, ganglioni) sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 252, Cancer de veziculă avansat — Icter 50%"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Formele avansate nu rămân intramurale.",
+    "evidenceLocation": "Lawrence, p. 252, Cancer de veziculă avansat — Icter 50%"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Formele incidente au adesea simptome litiazice, nu icterul a 90%.",
+    "evidenceLocation": "Lawrence, p. 252, Cancer de veziculă avansat — Icter 50%"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Porțelanul e factor de risc, nu unica situație de icter.",
+    "evidenceLocation": "Lawrence, p. 252, Cancer de veziculă avansat — Icter 50%"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Boala avansată asociază durere, scădere ponderală, astenie și frecvent icter.",
+    "evidenceLocation": "Lawrence, p. 252, Cancer de veziculă avansat — Icter 50%"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Coboară icterul de la 50% sub 1% și îl rezervă formelor incidente, inversul paragrafului de boală avansată."
+  },
+  "textbookExpressions": [
+   "aproximativ 50%",
+   "hitul hepatic"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-057",
+  "questionFingerprint": "3eb95d2c750376ed3e2b0a499613a82524934f9b3c766785d4238bbb6a823d8c",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea rezecției cuneiforme plus limfadenectomie cu rezecția hepatică formală și cu supraviețuirea <5% a formelor avansate.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    253,
+    252
+   ],
+   "pdfPages": [
+    165,
+    164
+   ],
+   "section": "Cancer de veziculă — Rezecție cuneiformă versus formală"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Rezecția cuneiformă a patului și limfadenectomia regională sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 253, 252, Cancer de veziculă — Rezecție cuneiformă versus formală"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Rezecția hepatică formală pentru avansate este citată.",
+    "evidenceLocation": "Lawrence, p. 253, 252, Cancer de veziculă — Rezecție cuneiformă versus formală"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Lipsa de standardizare a limfadenectomiei hilare este enunțată.",
+    "evidenceLocation": "Lawrence, p. 253, 252, Cancer de veziculă — Rezecție cuneiformă versus formală"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "<5% la 5 ani, exceptând incidentalul incipient, este cifra de prognostic.",
+    "evidenceLocation": "Lawrence, p. 253, 252, Cancer de veziculă — Rezecție cuneiformă versus formală"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "80% la 5 ani ține de adenocarcinomul mucinos incipient cu margini negative, nu de avansat.",
+    "evidenceLocation": "Lawrence, p. 253, 252, Cancer de veziculă — Rezecție cuneiformă versus formală"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Extinde supraviețuirea de 80% a incidentalului incipient asupra tumorilor avansate care cer rezecție hepatică."
+  },
+  "textbookExpressions": [
+   "rezecţie hepatică cuneiformă",
+   "<5% la 5 ani"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-058",
+  "questionFingerprint": "fcc67ca3845f42fe3d435b88c9835ea5f9cab134971cf2a0d3522fcb0efec439",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea biologiei local-avansate (metastaze distante rare) și a rolului PTC în leziunile proximale.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    253
+   ],
+   "pdfPages": [
+    165
+   ],
+   "section": "Colangiocarcinom — Biologie și PTC proximal"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Adenocarcinomul mucinos, creșterea lentă și raritatea metastazelor distante sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 253, Colangiocarcinom — Biologie și PTC proximal"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Excepția rezecției curative din cauza vecinătăților vitale este citată.",
+    "evidenceLocation": "Lawrence, p. 253, Colangiocarcinom — Biologie și PTC proximal"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Rolul PTC proximal și stentarea anterogradă sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 253, Colangiocarcinom — Biologie și PTC proximal"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Metastazele distante sunt rare, nu regula; rezecția curativă e excepția.",
+    "evidenceLocation": "Lawrence, p. 253, Colangiocarcinom — Biologie și PTC proximal"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "PTC este tocmai utilă proximal.",
+    "evidenceLocation": "Lawrence, p. 253, Colangiocarcinom — Biologie și PTC proximal"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Transformă colangiocarcinomul într-o boală cu metastaze distante de rutină și neagă PTC-ul proximal."
+  },
+  "textbookExpressions": [
+   "metastazează la distanţă",
+   "PTC facilitează"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-059",
+  "questionFingerprint": "da85796e20c9fb2eb2a34a6e82f501788581a2985e84f7e885e71a8e98490b25",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea externării în aceeași zi (electiv sănătos) versus 24–48 de ore (comorbidități/acut) și a avantajelor de durere/plagă/pulmonar.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    254
+   ],
+   "pdfPages": [
+    166
+   ],
+   "section": "Colecistectomia laparoscopică — Externare în aceeași zi"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Externarea în aceeași zi la electivul sănătos este explicită.",
+    "evidenceLocation": "Lawrence, p. 254, Colecistectomia laparoscopică — Externare în aceeași zi"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Fereastra 24–48 de ore pentru comorbidități/acut este citată.",
+    "evidenceLocation": "Lawrence, p. 254, Colecistectomia laparoscopică — Externare în aceeași zi"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Durerea redusă, complicațiile de plagă/pulmonare și reluarea precoce sunt listate.",
+    "evidenceLocation": "Lawrence, p. 254, Colecistectomia laparoscopică — Externare în aceeași zi"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Textul leagă toleranța la spitalizarea scurtă de scăderea semnificativă a durerii față de abordul deschis.",
+    "evidenceLocation": "Lawrence, p. 254, Colecistectomia laparoscopică — Externare în aceeași zi"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Complicațiile de plagă și pulmonare scad, nu cresc.",
+    "evidenceLocation": "Lawrence, p. 254, Colecistectomia laparoscopică — Externare în aceeași zi"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Înlocuiește externarea în aceeași zi cu internarea de 14 zile și inversează avantajul de plagă/pulmonar."
+  },
+  "textbookExpressions": [
+   "aceeaşi zi",
+   "24-48 de ore"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-060",
+  "questionFingerprint": "433c4ad08cb6cfb6e7c17874c4b474376487dd8fc43970827ca0982356f8ff59",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea mecanismelor de leziune (trocar orb, electrocauter) și a regulii de conversie plus IOC selectivă.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    254
+   ],
+   "pdfPages": [
+    166
+   ],
+   "section": "Laparoscopie — Trocar, electrocauter, conversie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Leziunile de cale, intestin și vase prin trocar orb/electrocauter sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 254, Laparoscopie — Trocar, electrocauter, conversie"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Conversia la anatomie dificilă este cerută.",
+    "evidenceLocation": "Lawrence, p. 254, Laparoscopie — Trocar, electrocauter, conversie"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Abordarea selectivă a IOC este practica majorității.",
+    "evidenceLocation": "Lawrence, p. 254, Laparoscopie — Trocar, electrocauter, conversie"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Trocarul orb și electrocauterul sunt tocmai sursele de risc.",
+    "evidenceLocation": "Lawrence, p. 254, Laparoscopie — Trocar, electrocauter, conversie"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Controversa rutină versus selectivă se încheie cu selectivul; conversia rămâne o opțiune.",
+    "evidenceLocation": "Lawrence, p. 254, Laparoscopie — Trocar, electrocauter, conversie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Interzice conversia și declară trocarul orb inofensiv, inversul paragrafului de complicații."
+  },
+  "textbookExpressions": [
+   "inserţia trocarului în orb",
+   "electrocauterului"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-061",
+  "questionFingerprint": "ced51090a8562b47757f940919931a513a77ccdcd61b907a4451182c92923b9f",
+  "status": "source-checked",
+  "learningObjective": "Secvența clampare → suprimarea drenului peritoneal la 24–48 de ore și investigarea sângerării/bilei semnificative.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    255
+   ],
+   "pdfPages": [
+    167
+   ],
+   "section": "Tub în T — Clampare și dren peritoneal"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Fereastra 24–48 de ore după clampare este explicită.",
+    "evidenceLocation": "Lawrence, p. 255, Tub în T — Clampare și dren peritoneal"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Indicația de investigație la sânge sau bilă semnificative este citată.",
+    "evidenceLocation": "Lawrence, p. 255, Tub în T — Clampare și dren peritoneal"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Tubul în T se menține săptămâni, nu se extrage odată cu drenul la 12 ore.",
+    "evidenceLocation": "Lawrence, p. 255, Tub în T — Clampare și dren peritoneal"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Cantitățile semnificative cer investigație.",
+    "evidenceLocation": "Lawrence, p. 255, Tub în T — Clampare și dren peritoneal"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Clamparea precede suprimarea drenului, nu este contraindicată.",
+    "evidenceLocation": "Lawrence, p. 255, Tub în T — Clampare și dren peritoneal"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Extrage tubul în T odată cu drenul la 12 ore, invertind fereastra 24–48 de ore de după clampare."
+  },
+  "textbookExpressions": [
+   "24--48 de ore",
+   "tubul în T"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-062",
+  "questionFingerprint": "e68516d5afaaba3085351c749ffe43164d07e759648030adf42f55e33e14d809",
+  "status": "source-checked",
+  "learningObjective": "Ierarhia derivație biliară / ERCP / coșuleț pe tub T / reexplorare rară, când persistă calculi după explorarea deschisă.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    255
+   ],
+   "pdfPages": [
+    167
+   ],
+   "section": "Calculi restanți — Derivație, ERCP, coșuleț pe tub T"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Derivația coledoco-duodenală sau jejunală pentru calculi numeroși/suspecți restanți este explicită.",
+    "evidenceLocation": "Lawrence, p. 255, Calculi restanți — Derivație, ERCP, coșuleț pe tub T"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "ERCP și coșulețul pe tub T sub fluoroscopie sunt citate.",
+    "evidenceLocation": "Lawrence, p. 255, Calculi restanți — Derivație, ERCP, coșuleț pe tub T"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Reexplorarea ca ultimă soluție este descrisă.",
+    "evidenceLocation": "Lawrence, p. 255, Calculi restanți — Derivație, ERCP, coșuleț pe tub T"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Derivația este tocmai indicată când calculii sunt numeroși.",
+    "evidenceLocation": "Lawrence, p. 255, Calculi restanți — Derivație, ERCP, coșuleț pe tub T"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Coșulețul sub fluoroscopie este o alternativă recunoscută.",
+    "evidenceLocation": "Lawrence, p. 255, Calculi restanți — Derivație, ERCP, coșuleț pe tub T"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Contraindică derivația tocmai la calculii numeroși și anulează coșulețul pe tub T, două ieșiri din impasul restantului."
+  },
+  "textbookExpressions": [
+   "derivaţie biliară",
+   "coşuleţ de sârmă"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-063",
+  "questionFingerprint": "c41e188c1c6c80d80a79f9a3ddf99d56091505b8ac9bc606433b7bdb10f387ea",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea înlocuirii colecistografiei orale de către ecografia non-invazivă, rapidă și neiradiantă.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    244,
+    245
+   ],
+   "pdfPages": [
+    156,
+    157
+   ],
+   "section": "Ecografie versus colecistografie orală"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Înlocuirea colecistografiei orale și calitățile (non-invaziv, rapid, ieftin, fără iradiere) sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 244, 245, Ecografie versus colecistografie orală"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Ecografia, nu colecistografia orală, este explorarea inițială de elecție.",
+    "evidenceLocation": "Lawrence, p. 244, 245, Ecografie versus colecistografie orală"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "ERCP nu este primul test în colica necomplicată.",
+    "evidenceLocation": "Lawrence, p. 244, 245, Ecografie versus colecistografie orală"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Ecografia nu iradiază, spre deosebire de CT.",
+    "evidenceLocation": "Lawrence, p. 244, 245, Ecografie versus colecistografie orală"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Rapiditatea este un avantaj al ecografiei, nu un dezavantaj.",
+    "evidenceLocation": "Lawrence, p. 244, 245, Ecografie versus colecistografie orală"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Readuce colecistografia orală ca prim test și atribuie ecografiei iradiere, inversul paragrafului de deschidere imagistică."
+  },
+  "textbookExpressions": [
+   "colecistografia orală",
+   "nu iradiază"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-064",
+  "questionFingerprint": "28dd167160e5d3ee4d781b66f1c548547f1b5dc9f1ce5ec7c8993eb493d03dbb",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea stazei și a saturației crescute după scădere ponderală rapidă (inclusiv bariatric) și a rolului hipocolesterolemianelor.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    242,
+    243
+   ],
+   "pdfPages": [
+    154,
+    155
+   ],
+   "section": "Litogeneză — Bariatric și hipocolesterolemiante"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Apariția calculilor după bariatric și mecanismul (saturație + stază) sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 242, 243, Litogeneză — Bariatric și hipocolesterolemiante"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Alterarea biosintezei de acizi biliari și colesterol de către hipocolesterolemiante este citată.",
+    "evidenceLocation": "Lawrence, p. 242, 243, Litogeneză — Bariatric și hipocolesterolemiante"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Scăderea ponderală rapidă predispune, nu protejează.",
+    "evidenceLocation": "Lawrence, p. 242, 243, Litogeneză — Bariatric și hipocolesterolemiante"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Staza veziculară este tocmai crescută.",
+    "evidenceLocation": "Lawrence, p. 242, 243, Litogeneză — Bariatric și hipocolesterolemiante"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Hipocolesterolemiantele predispun la calculi, nu îi dizolvă ca ursodeoxicolicul.",
+    "evidenceLocation": "Lawrence, p. 242, 243, Litogeneză — Bariatric și hipocolesterolemiante"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Transformă scăderea ponderală rapidă și hipocolesterolemiantele în factori protectori, inversul listei de predispoziție."
+  },
+  "textbookExpressions": [
+   "scădere ponderală rapidă",
+   "medicamente hipocolesterolemiante"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-065",
+  "questionFingerprint": "b6eeaeb58cdf9afcb22cb5996651195fdf4b1501b9be0f1fc15d13a42a57b8be",
+  "status": "source-checked",
+  "learningObjective": "Reținerea profilului vârstnic tarat / ocluzie incompletă / aerobilie + calcul obstructiv, ca rând tabelat distinct de colică.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    252
+   ],
+   "pdfPages": [
+    164
+   ],
+   "section": "Tabelul 16-1 — Ileus biliar"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Profilul vârstnic tarat și ocluzia incompletă sunt tabelate.",
+    "evidenceLocation": "Lawrence, p. 252, Tabelul 16-1 — Ileus biliar"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Triada radiologică (ocluzie distală, aerobilie, calcul) este citată.",
+    "evidenceLocation": "Lawrence, p. 252, Tabelul 16-1 — Ileus biliar"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "CT-ul ca sumă și eco ± litiază/aerobilie închid rândul.",
+    "evidenceLocation": "Lawrence, p. 252, Tabelul 16-1 — Ileus biliar"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Colica de 1–4 ore este alt sindrom tabelat, la pacientul ne-ocluziv.",
+    "evidenceLocation": "Lawrence, p. 252, Tabelul 16-1 — Ileus biliar"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Aerobilia este un semn căutat, nu exclus; CT-ul este investigația de elecție în text.",
+    "evidenceLocation": "Lawrence, p. 252, Tabelul 16-1 — Ileus biliar"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Reduce ileusul tabelat la o colică de 1–4 ore și neagă aerobilia, două rânduri alăturate din Tabelul 16-1."
+  },
+  "textbookExpressions": [
+   "Pacient vârstnic, tarat",
+   "aer în cai le bi lare"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "biliar-adv-066",
+  "questionFingerprint": "849c96cd27941ce52b6c928898bed0f3df1f047fcbc45a9dcfb21f0e08974a6b",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea piesei de rezecție (CBP distală, cap pancreatic, duoden) și a celor trei anastomoze pe ansă jejunală, plus paliativul.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    253
+   ],
+   "pdfPages": [
+    165
+   ],
+   "section": "Whipple — Trei anastomoze"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cele trei structuri rezecate sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 253, Whipple — Trei anastomoze"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Cele trei anastomoze pe ansă jejunală sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 253, Whipple — Trei anastomoze"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Bypass-ul sau stentul paliativ pentru nerezecabile sunt citate.",
+    "evidenceLocation": "Lawrence, p. 253, Whipple — Trei anastomoze"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Reconstrucția are trei, nu o singură, anastomoze.",
+    "evidenceLocation": "Lawrence, p. 253, Whipple — Trei anastomoze"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Duodenul și capul pancreatic fac parte din piesă, nu se conservă.",
+    "evidenceLocation": "Lawrence, p. 253, Whipple — Trei anastomoze"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Reduce Whipple-ul la o colecistectomie sau la o singură anastomoză, anulând triada de reconstrucție."
+  },
+  "textbookExpressions": [
+   "operaţia Whipple",
+   "Trei anastomoze"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
  }
 ]
