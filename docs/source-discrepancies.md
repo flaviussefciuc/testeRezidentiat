@@ -104,3 +104,10 @@ Fiecare temă rescrisă (versiunile `-v2`) a fost confruntată din nou cu pagini
 - P. 90: textul trimite scorul Glasgow la «Tabelul 9-1», dar scala este în Tabelul 9-2. Itemii citează Tabelul 9-2.
 - **Contradicție între itemii vechi:** `-012` marca drept fals «cateter 22 sau 24 gauge», iar `-077` marca drept adevărat «16 sau 18 G». P. 87 confirmă 16 sau 18 gauge. `-012` a fost retras ca dublură, iar `-077-v2` păstrează valoarea corectă.
 - Retrase fără înlocuitor (dubluri sau trivia): 012, 013, 014, 017, 020, 023, 037, 046, 053, 061, 076, 080, 083, 084, 087, 088, 089, 091, 092, 093, 094, 095, 097, 099, 100, 102.
+
+### Intestinul subțire și apendicele (Lawrence, cap. 14)
+- **Cheie greșită corectată:** `intestin-adv-050` marca drept corectă afirmația «Apendicectomia se evită, cecul rămânând în fosa iliacă dreaptă». P. 210 spune explicit că în volvulusul de mezenteron «de obicei se efectuează și apendicectomia», deoarece apendicele ar rămâne în cadranul superior stâng, împreună cu cecul. `-050-v2` o tratează ca adevărată, iar poziția cecului în FID ca distractor.
+- **În afara tematicii:** tematica 2026 acoperă p. 193–199 «până la "Boala Crohn a intestinului subțire"», apoi p. 204–206 doar pentru «Ischemia mezenterică acută». Boala Crohn a intestinului subțire (finalul p. 199, p. 204 până la titlul «Ischemia mezenterică acută») este deci exclusă. Au fost retrași fără înlocuitor: 013, 014, 041, 042, 043, 060.
+- P. 211: sindromul intestinului scurt se află între «Malrotația» și «Bolile apendicelui», în intervalul de pagini 209–211 al tematicii. Itemul `-022` a fost păstrat pe baza regulii intervalului de pagini.
+- P. 211: pragul de 180 cm apare în extras ca «<I 80 cm» (OCR). Valoarea este confirmată de logica pragurilor NPT (60 cm / 100 cm).
+- Retrase fără înlocuitor (dubluri sau trivia): 025 (dublura lui 006), 063 (a treia intervenție, trivia), 067 (proporția de 2%, trivia), 069 (inclus în 047).

@@ -57066,5 +57066,5496 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-001",
+  "questionFingerprint": "cd96bf1adb8c9f111f0b423a9116cc630a7964465cd32103202f5f623766f54f",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea herniei Richter (porțiune antimezenterică, lumen incomplet compromis) de herniile interne și de încarcerarea cu ocluzie completă.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    193
+   ],
+   "pdfPages": [
+    115
+   ],
+   "section": "Ocluzia intestinului subțire — Cauze extrinseci"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Textul descrie hernia Richter ca prindere doar a porțiunii antimezenterice, cu masă ireductibilă fără ocluzie, lumenul rămânând permeabil pe partea mezenterică.",
+    "evidenceLocation": "Lawrence, p. 193, Ocluzia intestinului subțire — Cauze extrinseci"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Hernia paraduodenală este o hernie internă cu risc ridicat de strangulare, nu o hernie Richter.",
+    "evidenceLocation": "Lawrence, p. 193, Ocluzia intestinului subțire — Cauze extrinseci"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "După tumefacție, intestinul încarcerat nu mai poate fi repoziționat; hernia devine ireductibilă.",
+    "evidenceLocation": "Lawrence, p. 193, Ocluzia intestinului subțire — Cauze extrinseci"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "În hernia Richter lumenul nu este complet compromis, spre deosebire de ocluzia circumferențială.",
+    "evidenceLocation": "Lawrence, p. 193, Ocluzia intestinului subțire — Cauze extrinseci"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Hernia internă post-bypass gastric este un exemplu separat de hernie internă, nu de hernie Richter.",
+    "evidenceLocation": "Lawrence, p. 193, Ocluzia intestinului subțire — Cauze extrinseci"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T15:31:57.229Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Confruntă trei entități herniale din aceeași pagină (Richter, internă, post-bypass) pe un detaliu anatomic ușor de inversat."
+  },
+  "textbookExpressions": [
+   "hernie Richter",
+   "porţiunea antimezenterică"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-002",
+  "questionFingerprint": "a8257f5d0b3080df2fe875452e8acf0cae1ad9eac5879aa0d718540d59bbef97",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea cauzelor extrinseci dominante (aderențe vs hernie) și a mecanismului SAMS față de stricturile fără strangulare.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    193,
+    194
+   ],
+   "pdfPages": [
+    115,
+    116
+   ],
+   "section": "Ocluzia intestinului subțire — Etiologie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Textul identifică aderențele postoperatorii drept cea mai frecventă cauză de OIS în țările industrializate.",
+    "evidenceLocation": "Lawrence, p. 193, 194, Ocluzia intestinului subțire — Etiologie"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Reducerea cu aproximativ 80% a aderențelor după laparoscopie este citată explicit.",
+    "evidenceLocation": "Lawrence, p. 193, 194, Ocluzia intestinului subțire — Etiologie"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Hernia (inghinală sau ombilicală) este descrisă ca respectiva cauză dominantă unde chirurgia abdominală este rară.",
+    "evidenceLocation": "Lawrence, p. 193, 194, Ocluzia intestinului subțire — Etiologie"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "La stricturi mezenterul nu este compromis, iar strangularea este improbabilă.",
+    "evidenceLocation": "Lawrence, p. 193, 194, Ocluzia intestinului subțire — Etiologie"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "SAMS comprimă a treia porțiune duodenală după o scădere ponderală rapidă, nu prima porțiune după creștere.",
+    "evidenceLocation": "Lawrence, p. 193, 194, Ocluzia intestinului subțire — Etiologie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T15:31:57.229Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează localizarea SAMS și relația strictură-strangulare, pe fondul contrastului epidemiologic aderențe versus hernie."
+  },
+  "textbookExpressions": [
+   "80% mai puţine aderenţe",
+   "cea mai frecventă cauză"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-003",
+  "questionFingerprint": "a6cd8c86fd68f0482c74cd8f192a2b8fd86b32550cc5e4199229002c9a14449d",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea celor patru markeri de strangulare și recunoașterea că infarctul nu este exclus de absența lor, față de tulburările acido-bazice după sediul ocluziei.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    195
+   ],
+   "pdfPages": [
+    117
+   ],
+   "section": "Ocluzia intestinului subțire — Fiziopatologie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Intervalul 7–67% în funcție de numărul semnelor este citat explicit.",
+    "evidenceLocation": "Lawrence, p. 195, Ocluzia intestinului subțire — Fiziopatologie"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Textul precizează că infarctul poate evolua chiar în absența semnelor.",
+    "evidenceLocation": "Lawrence, p. 195, Ocluzia intestinului subțire — Fiziopatologie"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Dacă oricare dintre cei patru factori este prezent, se recomandă intervenție chirurgicală promptă.",
+    "evidenceLocation": "Lawrence, p. 195, Ocluzia intestinului subțire — Fiziopatologie"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "OIS proximală produce alcaloză metabolică, nu acidoză; acidoza apare în OIS distală.",
+    "evidenceLocation": "Lawrence, p. 195, Ocluzia intestinului subțire — Fiziopatologie"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Riscul de infarct crește, nu scade, dacă ocluzia de grad înalt este tratată non-chirurgical peste 24–48 de ore.",
+    "evidenceLocation": "Lawrence, p. 195, Ocluzia intestinului subțire — Fiziopatologie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T15:31:57.229Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 9,
+   "kind": "editorial-estimate",
+   "reason": "Combină pragul cantitativ 7/67% cu inversarea acido-bazei după sediul ocluziei și cu falsa fereastră de 72 de ore."
+  },
+  "textbookExpressions": [
+   "de la 7%",
+   "la 67%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-004",
+  "questionFingerprint": "676a7e5bab93b0589472ccb27eeee3677dd5cb8f9ae7547188f87d63f16c6042",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea emboliei, trombozei AMS, trombozei VMS și ischemiei non-ocluzive, cu recunoașterea arteriografiei ca standard de aur.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    204,
+    205
+   ],
+   "pdfPages": [
+    122,
+    123
+   ],
+   "section": "Ischemia mezenterică acută — Fiziopatologie și diagnostic"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Originea cardiacă, fibrilația atrială și locul de impact la artera colică medie sunt descrise explicit.",
+    "evidenceLocation": "Lawrence, p. 204, 205, Ischemia mezenterică acută — Fiziopatologie și diagnostic"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Sediul originei AMS și teritoriul de infarct sunt enumerate în text.",
+    "evidenceLocation": "Lawrence, p. 204, 205, Ischemia mezenterică acută — Fiziopatologie și diagnostic"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Hipercoagulabilitatea (antitrombină III, factor V Leiden) și secvența venoasă→arterială sunt menționate.",
+    "evidenceLocation": "Lawrence, p. 204, 205, Ischemia mezenterică acută — Fiziopatologie și diagnostic"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Contextul de șoc/dializă și vasospasmul splanhnic definesc forma non-ocluzivă.",
+    "evidenceLocation": "Lawrence, p. 204, 205, Ischemia mezenterică acută — Fiziopatologie și diagnostic"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Standardul de aur rămâne arteriografia mezenterică; CT-ul de înaltă rezoluție a înlocuit-o ca evaluare de primă intenție, nu ca etalon.",
+    "evidenceLocation": "Lawrence, p. 204, 205, Ischemia mezenterică acută — Fiziopatologie și diagnostic"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T15:31:57.229Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 9,
+   "kind": "editorial-estimate",
+   "reason": "Cere mapa embolie versus tromboză versus VMS versus non-ocluziv, cu un distractor care confundă first-line CT cu standardul de aur."
+  },
+  "textbookExpressions": [
+   "angină intestinală",
+   "fibrilaţia"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-005",
+  "questionFingerprint": "b20359909c1fb132006b208e141014e485c18080cabb6a905507e2e53d795952",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea semnelor Rovsing și psoas și a riscului fetal la gravida cu perforație, față de limitele radiografiei și clismei baritate.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    212
+   ],
+   "pdfPages": [
+    130
+   ],
+   "section": "Apendicita acută — Tablou clinic și evaluare"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Definiția semnului Rovsing este explicită.",
+    "evidenceLocation": "Lawrence, p. 212, Apendicita acută — Tablou clinic și evaluare"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Semnul psoasului este legat de apendicele retrocecal în contact cu iliopsoasul.",
+    "evidenceLocation": "Lawrence, p. 212, Apendicita acută — Tablou clinic și evaluare"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Rata decesului fetal de 35% sau mai mult după perforație este citată.",
+    "evidenceLocation": "Lawrence, p. 212, Apendicita acută — Tablou clinic și evaluare"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Radiografiile sunt rareori utile; fecalitul apare doar într-un procent mic de cazuri.",
+    "evidenceLocation": "Lawrence, p. 212, Apendicita acută — Tablou clinic și evaluare"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Clisma baritată are 10–15% rezultate fals pozitive și fals negative.",
+    "evidenceLocation": "Lawrence, p. 212, Apendicita acută — Tablou clinic și evaluare"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T15:31:57.229Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Împerechează semne de localizare cu un prag obstetric memorabil și cu două investigații istorice supraevaluate."
+  },
+  "textbookExpressions": [
+   "Rovsing",
+   "semnul psoasului"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-006",
+  "questionFingerprint": "94ac98cba166aff2861158b067099c48d97ea6e276f285a8bac2213cf1b67fa2",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea pragului de 2 cm care trece managementul carcinoidului de la apendicectomie simplă la hemicolectomie dreaptă.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    214
+   ],
+   "pdfPages": [
+    132
+   ],
+   "section": "Tumorile apendicelui"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Textul rezervă hemicolectomia dreaptă leziunilor >2 cm, pentru drenajul limfatic mai larg.",
+    "evidenceLocation": "Lawrence, p. 214, Tumorile apendicelui"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Leziunile <2 cm sunt tratate adecvat prin apendicectomie simplă.",
+    "evidenceLocation": "Lawrence, p. 214, Tumorile apendicelui"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Vindecarea adenocarcinomului apendicular este 50–60% la 5 ani, nu 90–95%.",
+    "evidenceLocation": "Lawrence, p. 214, Tumorile apendicelui"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Mucocelele pot fi legate de un carcinom de bază apendiculară (<1% dintre afecțiunile apendicelui).",
+    "evidenceLocation": "Lawrence, p. 214, Tumorile apendicelui"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Pseudomixomul se asociază mucocelului și carcinoamelor perforate, dar și unor leziuni fără perforație francă.",
+    "evidenceLocation": "Lawrence, p. 214, Tumorile apendicelui"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T15:31:57.229Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează pragul de 2 cm și supraestimează supraviețuirea adenocarcinomului, pe un capitol unde apendicectomia simplă este alternativa evidentă."
+  },
+  "textbookExpressions": [
+   ">2 cm",
+   "hemicolectomie dreaptă"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-007",
+  "questionFingerprint": "bc86551c585ec84ee6052d27d2f19e07f7c57d084a5d9264ac7c62a51cae768d",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea buclei închise ca ocluzie completă bidirecțională, cu strangulare iminentă, distinctă de OIS parțială aderențială.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    193
+   ],
+   "pdfPages": [
+    115
+   ],
+   "section": "OIS — Buclă închisă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Definiția (proximal + distal) și viza imediată sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 193, OIS — Buclă închisă"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Rezolvarea de ~80% ține de OIS parțială aderențială, nu de bucla închisă.",
+    "evidenceLocation": "Lawrence, p. 193, OIS — Buclă închisă"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Textul cere chirurgie imediată, nu o fereastră de 72 de ore.",
+    "evidenceLocation": "Lawrence, p. 193, OIS — Buclă închisă"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Strictura Crohn nu compromite mezenterul; bucla închisă da.",
+    "evidenceLocation": "Lawrence, p. 193, OIS — Buclă închisă"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Ileusul paralitic nu are obstacol mecanic.",
+    "evidenceLocation": "Lawrence, p. 193, OIS — Buclă închisă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Confundă bucla închisă cu OIS parțială aderențială (80%) sau cu ileusul, două entități din același capitol."
+  },
+  "textbookExpressions": [
+   "buclă închisă",
+   "strangulare"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-008",
+  "questionFingerprint": "8405549aa73373d87a8cbda08b91aeecfad06ef158a5e9d4929ca8ba9532dfd2",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea treptelor ≥2/3 după o operație, >90% după două și 3–9% simptomatici, față de reducerea laparoscopică deja tratată în itemul 2.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    193
+   ],
+   "pdfPages": [
+    115
+   ],
+   "section": "OIS — Aderențe postoperatorii"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Pragul de cel puțin două treimi este explicit.",
+    "evidenceLocation": "Lawrence, p. 193, OIS — Aderențe postoperatorii"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Pragul de peste 90% este citat.",
+    "evidenceLocation": "Lawrence, p. 193, OIS — Aderențe postoperatorii"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Intervalul 3–9% este descris.",
+    "evidenceLocation": "Lawrence, p. 193, OIS — Aderențe postoperatorii"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Laparoscopia produce ~80% mai puține aderențe, nu invers.",
+    "evidenceLocation": "Lawrence, p. 193, OIS — Aderențe postoperatorii"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Aderențele persistă și pot cauza OIS ulterior.",
+    "evidenceLocation": "Lawrence, p. 193, OIS — Aderențe postoperatorii"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Permutează ≥2/3, >90% și 3–9% între numărul de operații și simptomatologie."
+  },
+  "textbookExpressions": [
+   "două treimi",
+   "3-9%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-009",
+  "questionFingerprint": "f56edc11b04ba7377fef983453514ae364aea9a7f47c2c4397b05eb5fddcf95f",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea paliației chiar în boala incurabilă multifocală (ovar/colon), față de aderențe ca etiologie dominantă.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    194
+   ],
+   "pdfPages": [
+    116
+   ],
+   "section": "OIS — Carcinomatoză"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Originea ovariană/colică și caracterul multifocal sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 194, OIS — Carcinomatoză"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Indicația paliativă este citată.",
+    "evidenceLocation": "Lawrence, p. 194, OIS — Carcinomatoză"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Vindecarea radicală 90% contrazice incurabilitatea descrisă.",
+    "evidenceLocation": "Lawrence, p. 194, OIS — Carcinomatoză"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Aderențele, nu carcinomatoza, domină în țările industrializate.",
+    "evidenceLocation": "Lawrence, p. 194, OIS — Carcinomatoză"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Hernia Richter este altă entitate, cu lumen parțial permeabil.",
+    "evidenceLocation": "Lawrence, p. 194, OIS — Carcinomatoză"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Pune carcinomatoza în locul aderențelor ca etiologie dominantă și anulează paliația."
+  },
+  "textbookExpressions": [
+   "cancerului ovarian",
+   "tratamentul paliativ"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-010",
+  "questionFingerprint": "30d32f0d55e4d705dbdf194267590002faa4f3a4bfa397ef526a3e2d9c149705",
+  "status": "source-checked",
+  "learningObjective": "Fixarea compresiei pe D3 după slăbire rapidă, față de distractorul D1 din itemul 2.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    194
+   ],
+   "pdfPages": [
+    116
+   ],
+   "section": "SAMS — Localizare"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "D3 și unghiul AMS–aortă sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 194, SAMS — Localizare"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Bulbul (D1) este alt etaj, al ulcerului posterior.",
+    "evidenceLocation": "Lawrence, p. 194, SAMS — Localizare"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Treitz marchează D4, nu punctul SAMS.",
+    "evidenceLocation": "Lawrence, p. 194, SAMS — Localizare"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Cecul nu este sediul descris.",
+    "evidenceLocation": "Lawrence, p. 194, SAMS — Localizare"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu există „sindrom de arteră rectală superioară” în acest context.",
+    "evidenceLocation": "Lawrence, p. 194, SAMS — Localizare"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Mută compresia de pe D3 pe D1 sau Treitz, două reperuri duodenale vecine."
+  },
+  "textbookExpressions": [
+   "a treia porţiune",
+   "scăderi ponderale rapide"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-011",
+  "questionFingerprint": "b86bcbc494bce1e87ea9d8a8e80dd0a3611097d6151c7f351701656b61f73a68",
+  "status": "source-checked",
+  "learningObjective": "Separarea cauzelor benigne (Crohn, iradiere, AINS, anastomoză) de neoplaziile care dau stricturi maligne.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    194
+   ],
+   "pdfPages": [
+    116
+   ],
+   "section": "OIS — Stricturi benigne"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Crohn ca cea mai frecventă cauză benignă este explicit.",
+    "evidenceLocation": "Lawrence, p. 194, OIS — Stricturi benigne"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Enterita postradioterapie este citată.",
+    "evidenceLocation": "Lawrence, p. 194, OIS — Stricturi benigne"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "AINS și stricturile anastomotice sunt enumerate.",
+    "evidenceLocation": "Lawrence, p. 194, OIS — Stricturi benigne"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Adenocarcinomul/GIST/limfomul sunt cauze maligne.",
+    "evidenceLocation": "Lawrence, p. 194, OIS — Stricturi benigne"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Volvulusul este cauză extrinsecă, nu strictură parietală.",
+    "evidenceLocation": "Lawrence, p. 194, OIS — Stricturi benigne"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Trece neoplaziile (adeno/GIST/limfom) în categoria benignă, inversând clasificarea din același paragraf."
+  },
+  "textbookExpressions": [
+   "boala Crohn",
+   "antiinflamatoare nesteroidiene"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-012",
+  "questionFingerprint": "07a6af025ae0a83009db27d6579b861073a9edd46abe140e4fa3000325072f5a",
+  "status": "source-checked",
+  "learningObjective": "Maparea răsucirii pe ax mezenteric pe bucla închisă cu strangulare, distinctă de strictură și de Richter.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    194
+   ],
+   "pdfPages": [
+    116
+   ],
+   "section": "OIS — Volvulus"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Axul mezenteric, ansa închisă și riscul mare sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 194, OIS — Volvulus"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "La stricturi mezenterul nu e compromis.",
+    "evidenceLocation": "Lawrence, p. 194, OIS — Volvulus"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "80% ține de OIS parțială aderențială.",
+    "evidenceLocation": "Lawrence, p. 194, OIS — Volvulus"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "SAMS urmează scăderii, nu creșterii ponderale.",
+    "evidenceLocation": "Lawrence, p. 194, OIS — Volvulus"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Hernia Richter nu este un volvulus.",
+    "evidenceLocation": "Lawrence, p. 194, OIS — Volvulus"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Confundă volvulusul mezenteric cu strictura (fără strangulare) sau cu Richter."
+  },
+  "textbookExpressions": [
+   "axului mezenteric",
+   "risc mare de strangulare"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-013",
+  "questionFingerprint": "75a541a1de772ebf4e703553305fd0423333cb8af035ea2d1d7c02ff5748aec1",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea rezecției limitate (fără margini microscopice), a stricturoplastiei, a apendicectomiei condiționate și a pragului de 100 cm.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    204
+   ],
+   "pdfPages": [
+    122
+   ],
+   "section": "Crohn — Principii chirurgicale"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Rezecția limitată și absența cerinței microscopice sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 204, Crohn — Principii chirurgicale"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Stricturoplastia este citată.",
+    "evidenceLocation": "Lawrence, p. 204, Crohn — Principii chirurgicale"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Condiția cecală a apendicectomiei este descrisă.",
+    "evidenceLocation": "Lawrence, p. 204, Crohn — Principii chirurgicale"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Pragul de 100 cm și rolul VIC sunt menționate.",
+    "evidenceLocation": "Lawrence, p. 204, Crohn — Principii chirurgicale"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Rezecția excesiv de agresivă predispone la intestin scurt.",
+    "evidenceLocation": "Lawrence, p. 204, Crohn — Principii chirurgicale"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează regula „fără margini microscopice” și ignoră pragul de 100 cm."
+  },
+  "textbookExpressions": [
+   "margini normale microscopic",
+   "I 00 cm"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-014",
+  "questionFingerprint": "0cf60f10ead1c480b40522ce11cbc7e435308166ec69468bf7fb6fd9dd302eba",
+  "status": "source-checked",
+  "learningObjective": "Rezervarea stomei pentru peritonită avansată sau imunosupresie septicată, nu ca rutină a rezecției limitate.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    204
+   ],
+   "pdfPages": [
+    122
+   ],
+   "section": "Crohn — Stome temporare"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Peritonita avansată este explicită.",
+    "evidenceLocation": "Lawrence, p. 204, Crohn — Stome temporare"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Imunosupresia cu sepsis este citată.",
+    "evidenceLocation": "Lawrence, p. 204, Crohn — Stome temporare"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Anastomoza primară este de obicei posibilă.",
+    "evidenceLocation": "Lawrence, p. 204, Crohn — Stome temporare"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Apendicectomia pe cec bolnav riscă fistula, deci se evită.",
+    "evidenceLocation": "Lawrence, p. 204, Crohn — Stome temporare"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "PAF duodenal ține de alt capitol.",
+    "evidenceLocation": "Lawrence, p. 204, Crohn — Stome temporare"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Transformă stoma din excepție (peritonită/imunosupresie) în gest de principiu."
+  },
+  "textbookExpressions": [
+   "peritonită avansată",
+   "imunosupresiv"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-015",
+  "questionFingerprint": "fb54149ab0711fb841f3d5c8eef1727ddecb64a0958fc4cb5c72ae8da618068b",
+  "status": "source-checked",
+  "learningObjective": "Izolarea cifrei de ~80% pentru OIS parțială aderențială, față de mortalitățile <1% / >25% din același capitol.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    199
+   ],
+   "pdfPages": [
+    121
+   ],
+   "section": "OIS parțială aderențială — Rezolvare"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Aproximativ 80% este explicit.",
+    "evidenceLocation": "Lawrence, p. 199, OIS parțială aderențială — Rezolvare"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "<1%, nu 10%, este mortalitatea OIS necomplicate.",
+    "evidenceLocation": "Lawrence, p. 199, OIS parțială aderențială — Rezolvare"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": ">25% este mortalitatea din strangulare/perforație.",
+    "evidenceLocation": "Lawrence, p. 199, OIS parțială aderențială — Rezolvare"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "≥2/3, nu 50%, este prevalența aderențelor.",
+    "evidenceLocation": "Lawrence, p. 199, OIS parțială aderențială — Rezolvare"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "2% este rata de metastaze a carcinoizilor <1 cm.",
+    "evidenceLocation": "Lawrence, p. 199, OIS parțială aderențială — Rezolvare"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Permutează 80% (rezolvare) cu <1%/25% (mortalitate) și cu 2% (carcinoid)."
+  },
+  "textbookExpressions": [
+   "aproximativ 80%",
+   "cauză aderenţială"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-016",
+  "questionFingerprint": "37415c67c33769e2a5842fed95a11ae5594e87e7cea18430cb54fc9439cc8371",
+  "status": "source-checked",
+  "learningObjective": "Contrastul radiologic (dilatare difuză, fără zonă de tranziție, aer rectal) față de OIS cu punct de obstacol.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    197,
+    198
+   ],
+   "pdfPages": [
+    119,
+    120
+   ],
+   "section": "Diagnostic diferențial — Ileus"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Lista de cauze, inclusiv narcoticele și electroliții, este explicită.",
+    "evidenceLocation": "Lawrence, p. 197, 198, Diagnostic diferențial — Ileus"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Absența zonei de tranziție este citată.",
+    "evidenceLocation": "Lawrence, p. 197, 198, Diagnostic diferențial — Ileus"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Figura 14-4 menționează aerul din sigmoid/rect.",
+    "evidenceLocation": "Lawrence, p. 197, 198, Diagnostic diferențial — Ileus"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Zona de tranziție definește OIS mecanică.",
+    "evidenceLocation": "Lawrence, p. 197, 198, Diagnostic diferențial — Ileus"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Arteriografia este etalonul IMA, nu al ileusului.",
+    "evidenceLocation": "Lawrence, p. 197, 198, Diagnostic diferențial — Ileus"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Atribuie ileusului zona de tranziție a OIS sau arteriografia din ischemia mezenterică."
+  },
+  "textbookExpressions": [
+   "Ileusul paralitic",
+   "Narcoticele"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-017",
+  "questionFingerprint": "cebe780a110c37bf51251131439f54e4648cb4b5f644be571541ca366c9fd9a1",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea contrastului hidrosolubil oral ca măsură care contestă dogma NPO plus sondă nazogastrică.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    198
+   ],
+   "pdfPages": [
+    120
+   ],
+   "section": "OIS — Contrast hidrosolubil oral"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Administrarea orală de contrast hidrosolubil este explicită.",
+    "evidenceLocation": "Lawrence, p. 198, OIS — Contrast hidrosolubil oral"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nissen este antireflux esofagian.",
+    "evidenceLocation": "Lawrence, p. 198, OIS — Contrast hidrosolubil oral"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Embolectomia ține de embolia AMS.",
+    "evidenceLocation": "Lawrence, p. 198, OIS — Contrast hidrosolubil oral"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "SIL este pentru fisură anală.",
+    "evidenceLocation": "Lawrence, p. 198, OIS — Contrast hidrosolubil oral"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Manometria anală nu evaluează OIS.",
+    "evidenceLocation": "Lawrence, p. 198, OIS — Contrast hidrosolubil oral"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Înlocuiește contrastul hidrosolubil cu gesturi din esofag, ischemie sau proctologie."
+  },
+  "textbookExpressions": [
+   "contrast hidrosolubile oral",
+   "sondei nazogastrice"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-018",
+  "questionFingerprint": "cf47f1bb27e20919a335279b607aa6b271ba83b9d38300038690e8e1a767e942",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea ferestrei de ~2 săptămâni și a pericolului reintervenției după prima săptămână.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    199
+   ],
+   "pdfPages": [
+    121
+   ],
+   "section": "OIS precoce postoperatorie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Rezolvarea în 2 săptămâni este explicită.",
+    "evidenceLocation": "Lawrence, p. 199, OIS precoce postoperatorie"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Riscul reintervenției după prima săptămână este citat.",
+    "evidenceLocation": "Lawrence, p. 199, OIS precoce postoperatorie"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Chirurgia de ziua 1 nu este regula descrisă.",
+    "evidenceLocation": "Lawrence, p. 199, OIS precoce postoperatorie"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Contrastul hidrosolubil contestă dogma NPO.",
+    "evidenceLocation": "Lawrence, p. 199, OIS precoce postoperatorie"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Herniile interne post-bypass cer chirurgie promptă.",
+    "evidenceLocation": "Lawrence, p. 199, OIS precoce postoperatorie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează temporizarea de 2 săptămâni cu laparotomia de ziua 1 și cu hernia internă post-bypass."
+  },
+  "textbookExpressions": [
+   "2 săptămâni",
+   "prima săptămână"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-019",
+  "questionFingerprint": "f14eab158b5dcad5a68ae8c9b9f99b5e4f9297a5a70c666de136c950b58f44d5",
+  "status": "source-checked",
+  "learningObjective": "Cântărirea <1% versus >25% și a limitei barierelor (reduc aderențe, nu OIS recurentă), plus riscul de intestin scurt după rezecție extinsă.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    199
+   ],
+   "pdfPages": [
+    121
+   ],
+   "section": "OIS — Mortalitate și bariere"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Pragul <1% este explicit.",
+    "evidenceLocation": "Lawrence, p. 199, OIS — Mortalitate și bariere"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Pragul de peste 25% este citat.",
+    "evidenceLocation": "Lawrence, p. 199, OIS — Mortalitate și bariere"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Eficacitatea pe aderențe fără scăderea OIS recurente este descrisă.",
+    "evidenceLocation": "Lawrence, p. 199, OIS — Mortalitate și bariere"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Sindromul de intestin scurt după rezecție extinsă este menționat.",
+    "evidenceLocation": "Lawrence, p. 199, OIS — Mortalitate și bariere"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Utilizarea de rutină nu este justificată de evidențe suficiente.",
+    "evidenceLocation": "Lawrence, p. 199, OIS — Mortalitate și bariere"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează mortalitățile <1% și >25% și declară barierele eficace pe OIS recurentă."
+  },
+  "textbookExpressions": [
+   "<I%",
+   "25%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-020",
+  "questionFingerprint": "17a297fa81ba4aa14a31b6d5f0e4f1f40e0857ca36be49daccc07f53cfb10e3b",
+  "status": "source-checked",
+  "learningObjective": "Reținerea cvartetului 2%/2× bărbați/2 mucoase/60 cm de VIC, față de declinul simptomelor cu vârsta.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    209
+   ],
+   "pdfPages": [
+    127
+   ],
+   "section": "Diverticul Meckel — Regula lui 2"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cele patru elemente ale regulii sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 209, Diverticul Meckel — Regula lui 2"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "50% este ponderea mucoasei gastrice ectopice, nu prevalența.",
+    "evidenceLocation": "Lawrence, p. 209, Diverticul Meckel — Regula lui 2"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Meckel este pe ileonul antimezenteric, nu pe stomac.",
+    "evidenceLocation": "Lawrence, p. 209, Diverticul Meckel — Regula lui 2"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Richter este altă hernie.",
+    "evidenceLocation": "Lawrence, p. 209, Diverticul Meckel — Regula lui 2"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Simptomele scad cu vârsta, nu cresc.",
+    "evidenceLocation": "Lawrence, p. 209, Diverticul Meckel — Regula lui 2"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Permutează 2% (prevalență) cu 50% (mucoasă gastrică) și mută Meckel pe stomac."
+  },
+  "textbookExpressions": [
+   "regula lui 2",
+   "2% din populaţie"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-021",
+  "questionFingerprint": "6588a76ab3c3338000a9a52b4b4f05e4635cc3f952ad8b96c705c76b0778b2af",
+  "status": "source-checked",
+  "learningObjective": "Împerecherea mucoasei gastrice 50% cu scintigrafia 90% la <2 ani și cu hernia Littre.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    209,
+    210
+   ],
+   "pdfPages": [
+    127,
+    128
+   ],
+   "section": "Meckel — Mucoasă, sângerare, Littre"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Ponderea de 50% a mucoasei gastrice este explicită.",
+    "evidenceLocation": "Lawrence, p. 209, 210, Meckel — Mucoasă, sângerare, Littre"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Tabloul hemoragic pediatric și 90% sunt citate.",
+    "evidenceLocation": "Lawrence, p. 209, 210, Meckel — Mucoasă, sângerare, Littre"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Hernia Littre și sediile sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 209, 210, Meckel — Mucoasă, sângerare, Littre"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Colonica nu e mucoasa dominantă; scintigrafia e utilă.",
+    "evidenceLocation": "Lawrence, p. 209, 210, Meckel — Mucoasă, sângerare, Littre"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Beneficiul rezecției incidentale scade cu vârsta.",
+    "evidenceLocation": "Lawrence, p. 209, 210, Meckel — Mucoasă, sângerare, Littre"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează mucoasa gastrică 50% cu o pretinsă predominantă colonică și anulează scintigrafia."
+  },
+  "textbookExpressions": [
+   "50%",
+   "techneţiu-99m"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-022",
+  "questionFingerprint": "42fae4333c603c6add7ed365cbb064c629952d30811c6a1a6ad237084f3b57fd",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea pragului de definiție <180 cm și a ferestrelor NPT (<60 cm cu colon/VIC vs <100 cm fără).",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    211
+   ],
+   "pdfPages": [
+    129
+   ],
+   "section": "Sindrom de intestin scurt"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Definiția <180 cm și cele două praguri NPT sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 211, Sindrom de intestin scurt"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "25 cm este lungimea duodenului, nu definiția.",
+    "evidenceLocation": "Lawrence, p. 211, Sindrom de intestin scurt"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "2 cm este pragul carcinoidului apendicular.",
+    "evidenceLocation": "Lawrence, p. 211, Sindrom de intestin scurt"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Textul definește prin deficit de lungime, nu prin exces.",
+    "evidenceLocation": "Lawrence, p. 211, Sindrom de intestin scurt"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Pierderea ileonului terminal pierde permanent B12 și sărurile biliare.",
+    "evidenceLocation": "Lawrence, p. 211, Sindrom de intestin scurt"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Permutează <180/<60/<100 cm cu lungimea duodenului (25 cm) sau pragul carcinoid (2 cm)."
+  },
+  "textbookExpressions": [
+   "<I 80 cm",
+   "<60 cm"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-023",
+  "questionFingerprint": "daab2e456675530353fd107e5061bb8ba39b797d32c39ec5539b3c306e249fef",
+  "status": "source-checked",
+  "learningObjective": "Ierarhia 60% hiperplazie / 35% fecalit / până la 20% perforație, față de omentul nedezvoltat al copilului mic.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    211
+   ],
+   "pdfPages": [
+    129
+   ],
+   "section": "Apendicită — Fiziopatologie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "60% hiperplazie ca etiologie dominantă este explicită.",
+    "evidenceLocation": "Lawrence, p. 211, Apendicită — Fiziopatologie"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "35% fecaliți sunt citați.",
+    "evidenceLocation": "Lawrence, p. 211, Apendicită — Fiziopatologie"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Până la 20% perforație este descrisă.",
+    "evidenceLocation": "Lawrence, p. 211, Apendicită — Fiziopatologie"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Tumorile nu sunt etiologia dominantă a obstrucției acute.",
+    "evidenceLocation": "Lawrence, p. 211, Apendicită — Fiziopatologie"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Copiii mici nu au oment bine dezvoltat, deci peritonita difuză e mai frecventă.",
+    "evidenceLocation": "Lawrence, p. 211, Apendicită — Fiziopatologie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează 60/35/20% și atribuie sugarului un oment protector, contrar textului."
+  },
+  "textbookExpressions": [
+   "60%",
+   "35%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-024",
+  "questionFingerprint": "cc6c0c35882c1ae84ba368c85cfd7627e29c019f1317634926d19c3142372798",
+  "status": "source-checked",
+  "learningObjective": "Completarea semnelor (McBurney, obturator) și a ratelor 70–90%/10%/20% ale tratamentului non-operator, față de itemul 5 (Rovsing/psoas).",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    211,
+    212,
+    213
+   ],
+   "pdfPages": [
+    129,
+    130,
+    131
+   ],
+   "section": "Apendicită — McBurney, obturator, non-operator"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Definiția punctului McBurney este explicită.",
+    "evidenceLocation": "Lawrence, p. 211, 212, 213, Apendicită — McBurney, obturator, non-operator"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Semnul obturatorului este citat.",
+    "evidenceLocation": "Lawrence, p. 211, 212, 213, Apendicită — McBurney, obturator, non-operator"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Cifrele 70–90%, 10% și 20% sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 211, 212, 213, Apendicită — McBurney, obturator, non-operator"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Fecaliții, vârsta și cronicitatea exclud varianta non-operatorie.",
+    "evidenceLocation": "Lawrence, p. 211, 212, 213, Apendicită — McBurney, obturator, non-operator"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Apendicectomia incidentală a căzut în dizgrație, cu beneficiu minim.",
+    "evidenceLocation": "Lawrence, p. 211, 212, 213, Apendicită — McBurney, obturator, non-operator"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Extinde non-operatorul la fecalit/vârstnic și supraestimează apendicectomia incidentală."
+  },
+  "textbookExpressions": [
+   "McBumey",
+   "70-90%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-025",
+  "questionFingerprint": "dfde90aada4f02ccd825f75e0969ceae8fe19bf8913b9c88ce36dc6fb5d28447",
+  "status": "source-checked",
+  "learningObjective": "Completarea itemului 6: sub 2 cm se rezolvă prin apendicectomie simplă, hemicolectomia rămânând pentru >2 cm.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    214,
+    213
+   ],
+   "pdfPages": [
+    132,
+    131
+   ],
+   "section": "Carcinoid apendicular <2 cm"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Textul rezervă apendicectomia simplă leziunilor <2 cm.",
+    "evidenceLocation": "Lawrence, p. 214, 213, Carcinoid apendicular <2 cm"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Hemicolectomia este pentru >2 cm.",
+    "evidenceLocation": "Lawrence, p. 214, 213, Carcinoid apendicular <2 cm"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Ivor Lewis este esofagian.",
+    "evidenceLocation": "Lawrence, p. 214, 213, Carcinoid apendicular <2 cm"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nissen este antireflux.",
+    "evidenceLocation": "Lawrence, p. 214, 213, Carcinoid apendicular <2 cm"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Octreotidul ține de sindromul carcinoid metastatic, nu înlocuiește rezecția leziunii mici.",
+    "evidenceLocation": "Lawrence, p. 214, 213, Carcinoid apendicular <2 cm"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează pragul de 2 cm, punând hemicolectomia pe leziunea mică."
+  },
+  "textbookExpressions": [
+   "apendicectomie simplă",
+   ">2 cm"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-026",
+  "questionFingerprint": "f74e7fd7f4de4c8c871d59125537ec592857e50b0f9862c5f8ffff6ddb7bf1e9",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea <1% (carcinom de bază), a „burții de jeleu” și a 50–60% la 5 ani, față de 90–95% din distractorul itemului 6.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    214
+   ],
+   "pdfPages": [
+    132
+   ],
+   "section": "Mucocel, pseudomixom, adenocarcinom"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Pragul <1% este explicit.",
+    "evidenceLocation": "Lawrence, p. 214, Mucocel, pseudomixom, adenocarcinom"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Pseudomixomul și burta de jeleu sunt citate.",
+    "evidenceLocation": "Lawrence, p. 214, Mucocel, pseudomixom, adenocarcinom"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "50–60% la 5 ani este descris.",
+    "evidenceLocation": "Lawrence, p. 214, Mucocel, pseudomixom, adenocarcinom"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "90–95% supraestimează vindecarea.",
+    "evidenceLocation": "Lawrence, p. 214, Mucocel, pseudomixom, adenocarcinom"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Pseudomixomul se leagă de perforate și de unele fără perforație francă.",
+    "evidenceLocation": "Lawrence, p. 214, Mucocel, pseudomixom, adenocarcinom"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Umflă vindecarea la 90–95% și rupe legătura mucocel–carcinom de bază."
+  },
+  "textbookExpressions": [
+   "<l %",
+   "50-60%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-027",
+  "questionFingerprint": "abd733ad089323d06597563a2d4882ecd59c7fb3ff456c2ff1ad4e06371b6da8",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea vârtejului CT ca marker de volvulus/buclă închisă/hernie internă, nu de patologie gastro-anală.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    196
+   ],
+   "pdfPages": [
+    118
+   ],
+   "section": "OIS — Semnul vârtejului"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cele trei entități asociate vârtejului sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 196, OIS — Semnul vârtejului"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Ulcerul duodenal nu rotește mezenterul.",
+    "evidenceLocation": "Lawrence, p. 196, OIS — Semnul vârtejului"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Meckel-ul asimptomatic nu produce vârtej.",
+    "evidenceLocation": "Lawrence, p. 196, OIS — Semnul vârtejului"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Polipul gastric nu este o urgență mezenterică.",
+    "evidenceLocation": "Lawrence, p. 196, OIS — Semnul vârtejului"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Fisura anală este o entitate perineală.",
+    "evidenceLocation": "Lawrence, p. 196, OIS — Semnul vârtejului"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Înlocuiește vârtejul mezenteric cu diagnostice din stomac sau proctologie."
+  },
+  "textbookExpressions": [
+   "semnul vâ1tejului",
+   "volvulus"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-028",
+  "questionFingerprint": "df94524b51be9a2964da3d3120ce8b20f8c13cc0b270b7c4cd6344739dc52a5d",
+  "status": "source-checked",
+  "learningObjective": "Maparea embolectomie / bypass-stent / heparină pe cele trei ocluzii, față de evitarea vasopresoarelor α în forma non-ocluzivă.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    205
+   ],
+   "pdfPages": [
+    123
+   ],
+   "section": "IMA — Tratament specific"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Embolectomia cu cateter-balon este explicită.",
+    "evidenceLocation": "Lawrence, p. 205, IMA — Tratament specific"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Bypass-ul sau stentul sunt citate.",
+    "evidenceLocation": "Lawrence, p. 205, IMA — Tratament specific"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Heparina ca primă linie în VMS este descrisă.",
+    "evidenceLocation": "Lawrence, p. 205, IMA — Tratament specific"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Vasopresoarele α și digoxina trebuie evitate în IMNO.",
+    "evidenceLocation": "Lawrence, p. 205, IMA — Tratament specific"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Arteriografia rămâne standardul de aur; CT-ul e first-line.",
+    "evidenceLocation": "Lawrence, p. 205, IMA — Tratament specific"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Prescrie vasopresoare α în IMNO, inversând tocmai evitarea spasmului suplimentar."
+  },
+  "textbookExpressions": [
+   "Embolectomia imediată",
+   "heparină intravenoasă"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-029",
+  "questionFingerprint": "1123c76c1c02105b0f7208a579f01063f67c02550dbba32ae0784ab2cb20d1a2",
+  "status": "source-checked",
+  "learningObjective": "Izolarea durerii disproporționate față de palparea precoce săracă, cauza întârzierii diagnostice.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    205
+   ],
+   "pdfPages": [
+    123
+   ],
+   "section": "IMA — Tablou clinic"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Discordanța durere severă / examen sărac este explicită.",
+    "evidenceLocation": "Lawrence, p. 205, IMA — Tablou clinic"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Psoasul ține de apendicita retrocecală.",
+    "evidenceLocation": "Lawrence, p. 205, IMA — Tablou clinic"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Ansa aferentă este un sindrom postgastrectomie.",
+    "evidenceLocation": "Lawrence, p. 205, IMA — Tablou clinic"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Mittelschmerz este din diagnosticul diferențial al apendicitei.",
+    "evidenceLocation": "Lawrence, p. 205, IMA — Tablou clinic"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Durerea este cardinală, nu absentă.",
+    "evidenceLocation": "Lawrence, p. 205, IMA — Tablou clinic"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Permutează durerea disproporționată IMA cu psoas, ansă aferentă sau Mittelschmerz."
+  },
+  "textbookExpressions": [
+   "durere disproporţionată",
+   "examenul fizic"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-030",
+  "questionFingerprint": "93ec05d214fd08d5dda5d873f270d946dd473078662c08bd6db647fae9e36a7f",
+  "status": "source-checked",
+  "learningObjective": "Contrastul capsulă (2 imagini/s, fără biopsie) versus balon dublu (până la 2/3, cu acces anterograd/retrograd).",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    206
+   ],
+   "pdfPages": [
+    124
+   ],
+   "section": "Tumori — Capsulă și balon dublu"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cele două imagini pe secundă și limita de biopsie sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 206, Tumori — Capsulă și balon dublu"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Plierea în acordeon și cele două treimi sunt citate.",
+    "evidenceLocation": "Lawrence, p. 206, Tumori — Capsulă și balon dublu"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Incapacitatea de biopsie/terapie este dezavantajul major al capsulei.",
+    "evidenceLocation": "Lawrence, p. 206, Tumori — Capsulă și balon dublu"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Clisma baritată gastrică nu e etalonul tumorilor de intestin subțire.",
+    "evidenceLocation": "Lawrence, p. 206, Tumori — Capsulă și balon dublu"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Manometria anală nu diagnostichează limfomul.",
+    "evidenceLocation": "Lawrence, p. 206, Tumori — Capsulă și balon dublu"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Atribuie capsulei gesturi terapeutice pe care textul le neagă explicit."
+  },
+  "textbookExpressions": [
+   "două imagini pe secundă",
+   "balon dublu"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-031",
+  "questionFingerprint": "c8733309928990e7d73a58026869b410983965f8a11e58f23e8811e7b2e377a6",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea pragurilor 2%/90% după mărime, a ponderii apendice/ileon, a desmoplaziei și a hemicolectomiei pentru ileon, față de fiziologia portală a sindromului.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    207
+   ],
+   "pdfPages": [
+    125
+   ],
+   "section": "Carcinoid — Biologie și prezentare"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Originea Kulchitsky și pragurile 2%/90% sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 207, Carcinoid — Biologie și prezentare"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "40–50%, locul 2 și 30% multicentric sunt citate.",
+    "evidenceLocation": "Lawrence, p. 207, Carcinoid — Biologie și prezentare"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Desmoplazia mezenterică ca mecanism obstructiv este descrisă.",
+    "evidenceLocation": "Lawrence, p. 207, Carcinoid — Biologie și prezentare"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Hemicolectomia dreaptă pentru ileon este menționată.",
+    "evidenceLocation": "Lawrence, p. 207, Carcinoid — Biologie și prezentare"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Ficatul epurează serotonina portală; sindromul cere metastaze hepatice sau primar extra-portal.",
+    "evidenceLocation": "Lawrence, p. 207, Carcinoid — Biologie și prezentare"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Anulează necesitatea metastazelor hepatice pentru sindromul carcinoid ileal, inversând epurarea portală."
+  },
+  "textbookExpressions": [
+   "<l cm",
+   ">2 cm"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-032",
+  "questionFingerprint": "51663e56fa564c93b90ef872095d06a811e552e3b333b8026ab51eee7e180b5b",
+  "status": "source-checked",
+  "learningObjective": "Separarea alcalozei din OIS extrem de proximală de acidoza din OIS distală, plus pierderea renală de K+ cu bicarbonatul.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    195
+   ],
+   "pdfPages": [
+    117
+   ],
+   "section": "OIS — Alcaloză proximală vs acidoză distală"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Alcaloza prin suc acid și vărsături proximale este explicită.",
+    "evidenceLocation": "Lawrence, p. 195, OIS — Alcaloză proximală vs acidoză distală"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Acidoza metabolică este rezultatul OIS distale, unde sucul este mai alcalin.",
+    "evidenceLocation": "Lawrence, p. 195, OIS — Alcaloză proximală vs acidoză distală"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Acidoza lactică poate semnala ischemie, dar infarctul nu este exclus de absența ei.",
+    "evidenceLocation": "Lawrence, p. 195, OIS — Alcaloză proximală vs acidoză distală"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Alcaloza descrisă este metabolică, nu respiratorie.",
+    "evidenceLocation": "Lawrence, p. 195, OIS — Alcaloză proximală vs acidoză distală"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Pierderile de potasiu cresc, rinichiul secretând K+ împreună cu bicarbonatul, deci hipokalemie, nu hiperkalemie.",
+    "evidenceLocation": "Lawrence, p. 195, OIS — Alcaloză proximală vs acidoză distală"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează alcaloza proximală cu acidoza distală, două tulburări consecutive în același paragraf."
+  },
+  "textbookExpressions": [
+   "alcaloză metabolică",
+   "OIS distală"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-033",
+  "questionFingerprint": "303e9c7b488521f026b948aec2e66bef903b2b755d83ddeb82511bf05e1adc01",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea tripletei vărsături/malabsorbție/secreție plus a treilea spațiu parietal-peritoneal ca surse de hipovolemie.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    195
+   ],
+   "pdfPages": [
+    117
+   ],
+   "section": "OIS — Hipovolemie și spațiul al treilea"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cele trei mecanisme digestive sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 195, OIS — Hipovolemie și spațiul al treilea"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Spațiul al treilea și hipovolemia severă sunt citate.",
+    "evidenceLocation": "Lawrence, p. 195, OIS — Hipovolemie și spațiul al treilea"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Absorbția electroliților este redusă semnificativ, iar hormonii stimulează secreția.",
+    "evidenceLocation": "Lawrence, p. 195, OIS — Hipovolemie și spațiul al treilea"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Textul include transsudatul peritoneal, nu doar hematemeza.",
+    "evidenceLocation": "Lawrence, p. 195, OIS — Hipovolemie și spațiul al treilea"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Pierderile, nu hiperhidratarea, definesc tabloul.",
+    "evidenceLocation": "Lawrence, p. 195, OIS — Hipovolemie și spațiul al treilea"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Neagă spațiul al treilea pe care paragraful îl pune ca mecanism suplimentar de hipovolemie."
+  },
+  "textbookExpressions": [
+   "spaţiul al treilea",
+   "hipovolemie severă"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-034",
+  "questionFingerprint": "5c3d41d61d7fe4f0ed2bd8d584f28debfe1617bafc0c9907d5bc43de9d99f887",
+  "status": "source-checked",
+  "learningObjective": "Contrastul distal (fecaloid, distensie) versus parțial (pasaj persistent) și față de ocluzia înaltă (lipsă de gaze, dar nu imediată).",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    196
+   ],
+   "pdfPages": [
+    118
+   ],
+   "section": "OIS — Fecaloid și distensie distală"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Caracterul fecaloid și distensia distală sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 196, OIS — Fecaloid și distensie distală"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Persistența pasajului în OIS parțială și întârzierea în ocluzia înaltă sunt citate.",
+    "evidenceLocation": "Lawrence, p. 196, OIS — Fecaloid și distensie distală"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Distensia poate fi minimă în obstrucțiile proximale; fecaloidul apare pe măsură ce bacteriile acționează, nu de la debut proximal.",
+    "evidenceLocation": "Lawrence, p. 196, OIS — Fecaloid și distensie distală"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Aerul și scaunul deja din colon pot trece după debut.",
+    "evidenceLocation": "Lawrence, p. 196, OIS — Fecaloid și distensie distală"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Fecaloidul este descris în OIS mecanică distală, nu ca definiție a ileusului.",
+    "evidenceLocation": "Lawrence, p. 196, OIS — Fecaloid și distensie distală"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Atribuie fecaloidul și distensia masivă OIS proximale, inversând capacitatea de înmagazinare a intestinului."
+  },
+  "textbookExpressions": [
+   "caracter „fecaloid\"",
+   "Distensia abdominală"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-035",
+  "questionFingerprint": "a8a8a1fd6c2d31baea1dcf4d028ebde7b0d9e7187a31f2bb45e4a55830a56ab9",
+  "status": "source-checked",
+  "learningObjective": "Citirea progresiei borborisme înalte → tăcere și a testului de decompresie SNG ca discriminator de ischemie.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    196
+   ],
+   "pdfPages": [
+    118
+   ],
+   "section": "OIS — Clinic, auscultație, SNG"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Semnele de hipovolemie sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 196, OIS — Clinic, auscultație, SNG"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Secvența auscultatorie este citată.",
+    "evidenceLocation": "Lawrence, p. 196, OIS — Clinic, auscultație, SNG"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Remiterea după SNG, dacă nu există ischemie, este descrisă.",
+    "evidenceLocation": "Lawrence, p. 196, OIS — Clinic, auscultație, SNG"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Semnele peritoneale ca indicație de urgență sunt menționate.",
+    "evidenceLocation": "Lawrence, p. 196, OIS — Clinic, auscultație, SNG"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "La obezi, eritemul/sensibilitatea lângă cicatrice pot fi singurul indiciu de hernie ocultă.",
+    "evidenceLocation": "Lawrence, p. 196, OIS — Clinic, auscultație, SNG"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Ignorează indiciile de hernie ocultă la obez, pe care textul le subliniază explicit."
+  },
+  "textbookExpressions": [
+   "borborisme",
+   "sondă nazogastrică"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-036",
+  "questionFingerprint": "bb578f89b7b8362c0439fac3070e4529246dc29e6b34efc50b69b1135ae7a955",
+  "status": "source-checked",
+  "learningObjective": "Pachetul Rx (hidroaerice, pneumatoză, aeroportie) plus clisma hidrosolubilă când distincția subțire/colon este grea.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    196,
+    197
+   ],
+   "pdfPages": [
+    118,
+    119
+   ],
+   "section": "OIS — Radiografie și nivele hidroaerice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Lista de semne de căutat, inclusiv pneumatoză și aeroportie, este explicită.",
+    "evidenceLocation": "Lawrence, p. 196, 197, OIS — Radiografie și nivele hidroaerice"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Nivelele hidroaerice și persistența de ansă închisă sunt citate.",
+    "evidenceLocation": "Lawrence, p. 196, 197, OIS — Radiografie și nivele hidroaerice"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Clisma hidrosolubilă pentru obstacolul colic este descrisă.",
+    "evidenceLocation": "Lawrence, p. 196, 197, OIS — Radiografie și nivele hidroaerice"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "CT-ul identifică zona de tranziție și ansele pline cu lichid.",
+    "evidenceLocation": "Lawrence, p. 196, 197, OIS — Radiografie și nivele hidroaerice"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Aerul din sigmoid/rect ajută diferențierea ileusului de OIS, nu confirmă perforația.",
+    "evidenceLocation": "Lawrence, p. 196, 197, OIS — Radiografie și nivele hidroaerice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Anulează CT-ul ca unealtă a zonei de tranziție, deși paragraful următor i-o atribuie."
+  },
+  "textbookExpressions": [
+   "nivelele hidroaerice",
+   "pneumatoza intestinală"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-037",
+  "questionFingerprint": "9838edfa5665dfc2151c13898d38af8110686c02ca5cf0294888d9096e144dd4",
+  "status": "source-checked",
+  "learningObjective": "Temperarea acidului lactic: sugerează ischemie după resuscitare, dar nu exclude infarctul dacă lipsește.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    197
+   ],
+   "pdfPages": [
+    119
+   ],
+   "section": "OIS — Laborator, alcaloză de contracție"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Alcaloza hipokalemică de contracție este explicită.",
+    "evidenceLocation": "Lawrence, p. 197, OIS — Laborator, alcaloză de contracție"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Limitele acidozei lactice sunt citate.",
+    "evidenceLocation": "Lawrence, p. 197, OIS — Laborator, alcaloză de contracție"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Leucocitoza persistentă poate fi semn de progresie spre ischemie.",
+    "evidenceLocation": "Lawrence, p. 197, OIS — Laborator, alcaloză de contracție"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Hiperamilazemia poate apărea în OIS; valorile foarte mari ridică și suspiciunea de pancreatită.",
+    "evidenceLocation": "Lawrence, p. 197, OIS — Laborator, alcaloză de contracție"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Sumarul de urină exclude infecția sau litiaza ca origine a durerii.",
+    "evidenceLocation": "Lawrence, p. 197, OIS — Laborator, alcaloză de contracție"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Transformă absența acidozei lactice în excluderea infarctului, contrar frazei din paragraf."
+  },
+  "textbookExpressions": [
+   "alcaloză hipokalemică",
+   "Acidoza lactică"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-038",
+  "questionFingerprint": "0ac8ce3af78b124d071c8b6d5fb6718e5c57fe50fbc1cd70c2a0415bddc11dcc",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea pragului 0,5 mL/kg/oră, a ordinii volemie-înainte-de-K+ și a alvimopanului în protocolul de circuit rapid.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    198
+   ],
+   "pdfPages": [
+    120
+   ],
+   "section": "IPO — 0,5 mL/kg/h și alvimopan"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Ordinea volemie apoi potasiu este explicită.",
+    "evidenceLocation": "Lawrence, p. 198, IPO — 0,5 mL/kg/h și alvimopan"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Pragul 0,5 mL/kg/oră este citat.",
+    "evidenceLocation": "Lawrence, p. 198, IPO — 0,5 mL/kg/h și alvimopan"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Pachetul de circuit rapid și alvimopanul sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 198, IPO — 0,5 mL/kg/h și alvimopan"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "5 mL/kg/oră umflă diureza; K+ înainte de volemie riscă hiperkalemie.",
+    "evidenceLocation": "Lawrence, p. 198, IPO — 0,5 mL/kg/h și alvimopan"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Alvimopanul scade durata IPO; protocolul evită SNG-ul de rutină.",
+    "evidenceLocation": "Lawrence, p. 198, IPO — 0,5 mL/kg/h și alvimopan"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Umflă diureza la 5 mL/kg/oră și inversează alvimopanul, două detalii din același paragraf de reechilibrare."
+  },
+  "textbookExpressions": [
+   "0,5 mL/kg/oră",
+   "alvimopan"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-039",
+  "questionFingerprint": "2df1dbe323b812ae22f3bfa7fb20aa11e8cec1e9041240d9ae2c60bd2b64f815",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea capcanei: internalizare aparentă cu intestin încă strangulat în sac, deci durerea persistentă cere reevaluare.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    199
+   ],
+   "pdfPages": [
+    121
+   ],
+   "section": "OIS — Reducere în masă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Definiția (sac + conținut ca unitate) și persistența compromiterii sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 199, OIS — Reducere în masă"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Monitorizarea atentă este cerută tocmai pentru a certifica remiterea.",
+    "evidenceLocation": "Lawrence, p. 199, OIS — Reducere în masă"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Richter este prindere antimezenterică fără ocluzie completă, altă entitate.",
+    "evidenceLocation": "Lawrence, p. 199, OIS — Reducere în masă"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Vârtejul CT ține de volvulus/hernie internă, nu de reducerea în masă.",
+    "evidenceLocation": "Lawrence, p. 199, OIS — Reducere în masă"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Temporizarea de 2 săptămâni este a OIS precoce, nu a herniei încă ischemice.",
+    "evidenceLocation": "Lawrence, p. 199, OIS — Reducere în masă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Confundă reducerea în masă (intestin încă compromis) cu rezolvarea sau cu hernia Richter."
+  },
+  "textbookExpressions": [
+   "reducere în masă",
+   "internalizat"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-040",
+  "questionFingerprint": "8745ef389738ad310cbc7b833527ccb01ddaff8992489a2ec66b168dec2907df",
+  "status": "source-checked",
+  "learningObjective": "Cuplarea fluoresceină/Doppler + second-look 24 h cu regula adult=rezecție versus copil=clismă în invaginație.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    199
+   ],
+   "pdfPages": [
+    121
+   ],
+   "section": "OIS — Fluoresceină, 24 de ore, invaginație"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Fluoresceina, Doppler-ul și fereastra de 24 de ore sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 199, OIS — Fluoresceină, 24 de ore, invaginație"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Pragul de 100 cm și Crohn-ul sunt citați.",
+    "evidenceLocation": "Lawrence, p. 199, OIS — Fluoresceină, 24 de ore, invaginație"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Contrastul adult (rezecție) versus copil (clismă) este descris.",
+    "evidenceLocation": "Lawrence, p. 199, OIS — Fluoresceină, 24 de ore, invaginație"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Textul cere evitatea rezecțiilor extinse, nu rezecția în bloc.",
+    "evidenceLocation": "Lawrence, p. 199, OIS — Fluoresceină, 24 de ore, invaginație"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Direcția adult/copil este inversată.",
+    "evidenceLocation": "Lawrence, p. 199, OIS — Fluoresceină, 24 de ore, invaginație"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează conduita invaginației adult versus copil și anulează second-look-ul de 24 de ore."
+  },
+  "textbookExpressions": [
+   "fluoresceină",
+   "24 de ore"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-041",
+  "questionFingerprint": "c62a48d29b6714a21c33a0d7a4e9853fba9079b1bd3fade14c5c7a839c0ec578",
+  "status": "source-checked",
+  "learningObjective": "Memorarea treptelor 10–70 mondiale, 200 nord-americane, 30× la rude și a ponderii de o pătrime din intestinul scurt.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    199,
+    204
+   ],
+   "pdfPages": [
+    121,
+    122
+   ],
+   "section": "Crohn — 10–70 / 200 / 30× / o pătrime"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Intervalul 10–70 și cifra nord-americană 200 sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 199, 204, Crohn — 10–70 / 200 / 30× / o pătrime"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Predominanța în țările industrializate este citată.",
+    "evidenceLocation": "Lawrence, p. 199, 204, Crohn — 10–70 / 200 / 30× / o pătrime"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Riscul de 30 de ori la rudele de gradul I este descris.",
+    "evidenceLocation": "Lawrence, p. 199, 204, Crohn — 10–70 / 200 / 30× / o pătrime"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Ponderea de o pătrime din intestinul scurt este menționată.",
+    "evidenceLocation": "Lawrence, p. 199, 204, Crohn — 10–70 / 200 / 30× / o pătrime"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "2% este prevalența Meckel, nu a Crohn; agregarea familială există.",
+    "evidenceLocation": "Lawrence, p. 199, 204, Crohn — 10–70 / 200 / 30× / o pătrime"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Permutează 10–70/100.000 (Crohn) cu 2% (Meckel) și neagă riscul familial de 30 de ori."
+  },
+  "textbookExpressions": [
+   "I 0-70 de cazuri",
+   "30 de ori"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-042",
+  "questionFingerprint": "70c77e97841249c919a6afd7c43409d34ca419d594c3163b66216539a2b66312",
+  "status": "source-checked",
+  "learningObjective": "Fixarea recurenței proximal de sediul anterior, față de pattern-urile ileal carcinoid sau colitic.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    204
+   ],
+   "pdfPages": [
+    122
+   ],
+   "section": "Crohn — Recurență proximală"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Fraza „cel mai frecvent localizată proximal de sediul anterior” este explicită.",
+    "evidenceLocation": "Lawrence, p. 204, Crohn — Recurență proximală"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Carcinoidul ileal nu dictează recurența Crohn.",
+    "evidenceLocation": "Lawrence, p. 204, Crohn — Recurență proximală"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Rectocolita nu este pattern-ul descris.",
+    "evidenceLocation": "Lawrence, p. 204, Crohn — Recurență proximală"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Barrett ține de esofag, nu de Crohn intestinal.",
+    "evidenceLocation": "Lawrence, p. 204, Crohn — Recurență proximală"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Apendicectomia profilactică se evită dacă inserția cecală e bolnavă.",
+    "evidenceLocation": "Lawrence, p. 204, Crohn — Recurență proximală"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Mută recurența Crohn de pe versantul proximal pe colon stâng sau Barrett, două sedii din alte capitole."
+  },
+  "textbookExpressions": [
+   "proxima! de",
+   "sediul anterior"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-043",
+  "questionFingerprint": "ffb1cd3779b9410492296369fc7740541cf839f369036cdb88374ffd203a9ce6",
+  "status": "source-checked",
+  "learningObjective": "Escaladarea seton → stomă → proctectomie de ultimă linie, față de debridarea agresivă care nu se vindecă.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    204
+   ],
+   "pdfPages": [
+    122
+   ],
+   "section": "Crohn — Seton, stomă, proctectomie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Drenajul percutanat și rezecția limitată a fistulelor sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 204, Crohn — Seton, stomă, proctectomie"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Setonul, stoma și proctectomia ca ultimă treaptă sunt citate.",
+    "evidenceLocation": "Lawrence, p. 204, Crohn — Seton, stomă, proctectomie"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Caracterul conservator al chirurgiei perianale este descris.",
+    "evidenceLocation": "Lawrence, p. 204, Crohn — Seton, stomă, proctectomie"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Proctectomia este rezervată stadiului final, nu primei intenții.",
+    "evidenceLocation": "Lawrence, p. 204, Crohn — Seton, stomă, proctectomie"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Apendicectomia pe cec bolnav riscă fistula cecală și se evită.",
+    "evidenceLocation": "Lawrence, p. 204, Crohn — Seton, stomă, proctectomie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Pune proctectomia ca prim gest, inversând ierarhia conservatoare seton–stomă–proctectomie."
+  },
+  "textbookExpressions": [
+   "seton elastic",
+   "Proctectomia"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-044",
+  "questionFingerprint": "7d8ecbfe48a9b1c820f19ec5089208b26610f06ab98d23ec9800a3683261de35",
+  "status": "source-checked",
+  "learningObjective": "Contrastul ferestrei scurte >12 ore până la necroză cu debutul insidios zile–săptămâni al trombozei VMS.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    205
+   ],
+   "pdfPages": [
+    123
+   ],
+   "section": "IMA — Fereastra >12 ore și VMS insidios"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Fereastra >12 ore este explicită.",
+    "evidenceLocation": "Lawrence, p. 205, IMA — Fereastra >12 ore și VMS insidios"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Debutul insidios zile/săptămâni al VMS este citat.",
+    "evidenceLocation": "Lawrence, p. 205, IMA — Fereastra >12 ore și VMS insidios"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Embolia AMS este clasic bruscă, adesea cu FiA.",
+    "evidenceLocation": "Lawrence, p. 205, IMA — Fereastra >12 ore și VMS insidios"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "2 săptămâni este temporizarea OIS precoce, nu fereastra IMA.",
+    "evidenceLocation": "Lawrence, p. 205, IMA — Fereastra >12 ore și VMS insidios"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "IMNO are dureri minore, umbrite de instabilitatea hemodinamică.",
+    "evidenceLocation": "Lawrence, p. 205, IMA — Fereastra >12 ore și VMS insidios"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Permutează fereastra >12 ore a necrozei IMA cu temporizarea de 2 săptămâni a OIS precoce."
+  },
+  "textbookExpressions": [
+   "> 12 ore",
+   "câteva zile"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-045",
+  "questionFingerprint": "57233d02f0a33177246f9351e8558cff355383612dd8539fe15dd89dea23d9a6",
+  "status": "source-checked",
+  "learningObjective": "Izolarea papaverinei pe cateter mezenteric ca antispastic după revascularizare, față de vasopresoarele α evitate în IMNO.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    206
+   ],
+   "pdfPages": [
+    124
+   ],
+   "section": "IMA — Papaverină pe cateter"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Papaverina pentru vasospasmul post-revascularizare este explicită.",
+    "evidenceLocation": "Lawrence, p. 206, IMA — Papaverină pe cateter"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Vasopresoarele α și digoxina trebuie evitate în IMNO.",
+    "evidenceLocation": "Lawrence, p. 206, IMA — Papaverină pe cateter"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Octreotidul ține de dumping/diaree post-vagotomie sau gastrinom.",
+    "evidenceLocation": "Lawrence, p. 206, IMA — Papaverină pe cateter"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Ursodeoxicolicul este profilaxia litiazei bariatrice.",
+    "evidenceLocation": "Lawrence, p. 206, IMA — Papaverină pe cateter"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Alvimopanul este pentru IPO, nu pentru IMA.",
+    "evidenceLocation": "Lawrence, p. 206, IMA — Papaverină pe cateter"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Înlocuiește papaverina cu vasopresoare α, inversând tocmai evitarea spasmului splanhnic."
+  },
+  "textbookExpressions": [
+   "papaverină",
+   "vasospasmul"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-046",
+  "questionFingerprint": "cf3a22aa719c53c3af66233eb2f49970a258308bba6daeb3008968101d3cff3e",
+  "status": "source-checked",
+  "learningObjective": "Explicația rarității (tranzit/bacterii/diluție), a enterografiei CT și a leiomiomului jejunal din decada a șasea.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    206,
+    207
+   ],
+   "pdfPages": [
+    124,
+    125
+   ],
+   "section": "Tumori IS — Raritate, CT, leiomiom jejunal"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cele trei explicații sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 206, 207, Tumori IS — Raritate, CT, leiomiom jejunal"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Enteroclisma și enterografia CT sunt citate.",
+    "evidenceLocation": "Lawrence, p. 206, 207, Tumori IS — Raritate, CT, leiomiom jejunal"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Leiomiomul jejunal, decada a șasea și asimptomaticul sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 206, 207, Tumori IS — Raritate, CT, leiomiom jejunal"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Incapacitatea capsulei de a biopsia este dezavantajul major.",
+    "evidenceLocation": "Lawrence, p. 206, 207, Tumori IS — Raritate, CT, leiomiom jejunal"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Manometria anală nu diagnostichează tumorile de intestin subțire.",
+    "evidenceLocation": "Lawrence, p. 206, 207, Tumori IS — Raritate, CT, leiomiom jejunal"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Atribuie capsulei biopsia, pe care textul o neagă, și anulează enterografia CT."
+  },
+  "textbookExpressions": [
+   "enterografie CT",
+   "decada a şasea"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-047",
+  "questionFingerprint": "d460d709b92a39e7413f4e24b465036f0088952764675f77da5f318f5791fdcd",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea regulii first-pass: sindromul intestinal cere metastaze hepatice sau primar extra-portal, plus 5-HIAA urinar.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    208
+   ],
+   "pdfPages": [
+    126
+   ],
+   "section": "Carcinoid — 5-HIAA și first-pass hepatic"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Serotonina și degradarea la 5-HIAA sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 208, Carcinoid — 5-HIAA și first-pass hepatic"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Condiția metastaze hepatice sau primar extra-portal este citată.",
+    "evidenceLocation": "Lawrence, p. 208, Carcinoid — 5-HIAA și first-pass hepatic"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "5-HIAA urinar și cromogranina A sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 208, Carcinoid — 5-HIAA și first-pass hepatic"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Eritemul, bronhospasmul și valvulopatia dreaptă sunt din figură.",
+    "evidenceLocation": "Lawrence, p. 208, Carcinoid — 5-HIAA și first-pass hepatic"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Ficatul este extrem de eficient la epurarea portală; sindromul ileal cere metastaze hepatice.",
+    "evidenceLocation": "Lawrence, p. 208, Carcinoid — 5-HIAA și first-pass hepatic"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Anulează first-pass-ul hepatic, permițând sindrom carcinoid ileal fără metastaze, contrar paragrafului."
+  },
+  "textbookExpressions": [
+   "5-HIAA",
+   "vena po1te"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-048",
+  "questionFingerprint": "e0a1c218e4df272513c997c05c802acafa93bd8d512f8f928b47ab411c390f98",
+  "status": "source-checked",
+  "learningObjective": "Împerecherea 5% din limfoame / 10–15% din cancerele IS cu predilecția ileonului (Peyer) în decadele 5–6.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    208
+   ],
+   "pdfPages": [
+    126
+   ],
+   "section": "Limfom IS — 5%, 10–15%, Peyer"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cele două procente și locul extraganglionar 1 sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 208, Limfom IS — 5%, 10–15%, Peyer"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Ileonul, Peyer și decadele 5–6 sunt citate.",
+    "evidenceLocation": "Lawrence, p. 208, Limfom IS — 5%, 10–15%, Peyer"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Predomină non-Hodgkin-ul adult, nu Hodgkin-ul pediatric.",
+    "evidenceLocation": "Lawrence, p. 208, Limfom IS — 5%, 10–15%, Peyer"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Duodenul periampular este sediul adenocarcinomului, nu al limfomului dominant.",
+    "evidenceLocation": "Lawrence, p. 208, Limfom IS — 5%, 10–15%, Peyer"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Diagnosticul este histologic, nu manometric.",
+    "evidenceLocation": "Lawrence, p. 208, Limfom IS — 5%, 10–15%, Peyer"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Permutează 10–15% (cancere IS) cu 90% periampular (adenocarcinom duodenal) și mută limfomul pe Hodgkin pediatric."
+  },
+  "textbookExpressions": [
+   "I 0-15%",
+   "plăcilor Peyer"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-049",
+  "questionFingerprint": "c422a40bfb2f20f83d0203e0ec858d888be3d4601bef75a3a25c67cb447da7a0",
+  "status": "source-checked",
+  "learningObjective": "Completarea regulii lui 2 cu jeleul de coacăze, adjuvanții scintigrafiei și cu indicațiile rezecției incidentale (tânăr vs bază îngustă).",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    210
+   ],
+   "pdfPages": [
+    128
+   ],
+   "section": "Meckel — Jeleu de coacăze, cimetidină, incidental"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Clisma pediatrică urmată de rezecție este explicită.",
+    "evidenceLocation": "Lawrence, p. 210, Meckel — Jeleu de coacăze, cimetidină, incidental"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "90% și cimetidina/pentagastrina sunt citate.",
+    "evidenceLocation": "Lawrence, p. 210, Meckel — Jeleu de coacăze, cimetidină, incidental"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Criteriile de rezecție incidentală după vârstă sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 210, Meckel — Jeleu de coacăze, cimetidină, incidental"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "La adult invaginația se rezecează; scintigrafia este utilă la <2 ani.",
+    "evidenceLocation": "Lawrence, p. 210, Meckel — Jeleu de coacăze, cimetidină, incidental"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Beneficiul rezecției incidentale scade cu vârsta, nu crește.",
+    "evidenceLocation": "Lawrence, p. 210, Meckel — Jeleu de coacăze, cimetidină, incidental"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează clisma pediatrică cu rezecția de principiu a vârstnicului, două extreme de vârstă din același paragraf."
+  },
+  "textbookExpressions": [
+   "Jeleu de coacăze",
+   "cimetidină"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-050",
+  "questionFingerprint": "3ca74dcb784659e6f99d7d10314e7cd07124096cd584f46ae18e89d9df83f5af",
+  "status": "source-checked",
+  "learningObjective": "Maparea săptămânilor 4–10, a benzilor Ladd și a operației (detorsie + apendicectomie, pentru că apendicele ar ajunge în hipocondrul stâng).",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    210
+   ],
+   "pdfPages": [
+    128
+   ],
+   "section": "Malrotație — Ladd, UGI, apendicectomie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Fereastra 4–10 săptămâni și benzile Ladd sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 210, Malrotație — Ladd, UGI, apendicectomie"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Vărsăturile bilioase ca semn precoce sunt citate.",
+    "evidenceLocation": "Lawrence, p. 210, Malrotație — Ladd, UGI, apendicectomie"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "UGI, detorsia, plasarea intestin/colon și apendicectomia sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 210, Malrotație — Ladd, UGI, apendicectomie"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Apendicectomia se face tocmai pentru că apendicele ar fi în cadranul superior stâng.",
+    "evidenceLocation": "Lawrence, p. 210, Malrotație — Ladd, UGI, apendicectomie"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nissen este antireflux, nu procedura Ladd.",
+    "evidenceLocation": "Lawrence, p. 210, Malrotație — Ladd, UGI, apendicectomie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Omite apendicectomia din procedura Ladd, deși textul o cere din cauza poziției viitoare a cecului."
+  },
+  "textbookExpressions": [
+   "benzile lui Ladd",
+   "a 4-a şi a 10-a"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-051",
+  "questionFingerprint": "77d11695cfa7e84e9a6906cddc74ebf24bae40128f4ba2f1a7b0562fb7cc1c64",
+  "status": "source-checked",
+  "learningObjective": "Reținerea cuplului 6,7% femei / 8,6% bărbați și a dublării perforației la extremele de vârstă.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    211
+   ],
+   "pdfPages": [
+    129
+   ],
+   "section": "Apendicită — 6,7% / 8,6%"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cifrele 6,7% și 8,6%, vârsta 5–35 de ani, fereastra 24–48 de ore și dublarea perforației sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 211, Apendicită — 6,7% / 8,6%"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "2% este prevalența Meckel.",
+    "evidenceLocation": "Lawrence, p. 211, Apendicită — 6,7% / 8,6%"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "50% este mucoasa gastrică ectopică, nu incidența apendicitei.",
+    "evidenceLocation": "Lawrence, p. 211, Apendicită — 6,7% / 8,6%"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Vârstnicii au prezentare atipică și risc mai mare de perforație, nu 90% incidență.",
+    "evidenceLocation": "Lawrence, p. 211, Apendicită — 6,7% / 8,6%"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "0,5% este sângerarea după sleeve, nu apendicita.",
+    "evidenceLocation": "Lawrence, p. 211, Apendicită — 6,7% / 8,6%"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Permutează 6,7/8,6% (apendicită) cu 2% (Meckel) sau 0,5% (sleeve), trei prevalențe din capitole vecine."
+  },
+  "textbookExpressions": [
+   "6,7%",
+   "8,6%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-052",
+  "questionFingerprint": "f6c43099eb35909a8bd404bdcacb92d4fd3df7de339a2fd27806218a30966137",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea aderențelor după inflamații peritoneale netolerate chirurgical (diverticulită, colecistită, apendicită, BIP, endometrioză), distincte de carcinomatoză sau Richter.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    193
+   ],
+   "pdfPages": [
+    115
+   ],
+   "section": "OIS — Aderențe post-inflamatorii non-operatorii"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Diverticulita, colecistita și apendicita sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 193, OIS — Aderențe post-inflamatorii non-operatorii"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "BIP și endometrioza sunt citate.",
+    "evidenceLocation": "Lawrence, p. 193, OIS — Aderențe post-inflamatorii non-operatorii"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Carcinomatoza comprimă lumenul ca factor extrinsec, nu ca aderență post-inflamatorie sterilă.",
+    "evidenceLocation": "Lawrence, p. 193, OIS — Aderențe post-inflamatorii non-operatorii"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Causticul e esofagian.",
+    "evidenceLocation": "Lawrence, p. 193, OIS — Aderențe post-inflamatorii non-operatorii"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Richter e o hernie antimezenterică, nu o cauză de aderențe.",
+    "evidenceLocation": "Lawrence, p. 193, OIS — Aderențe post-inflamatorii non-operatorii"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Confundă aderențele post-diverticulită cu carcinomatoza sau cu hernia Richter, două entități extrinseci vecine."
+  },
+  "textbookExpressions": [
+   "dive1ticulita acută",
+   "endometrioza"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-053",
+  "questionFingerprint": "2f5a4515f429a32be031631519c1f631042333672dbdd678411d0109065a0d76",
+  "status": "source-checked",
+  "learningObjective": "Contrastul proximal (vărsături voluminoase, distensie absentă) versus distal (fecaloid, distensie), fără a reface paragraful clinic deja chestionat.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    195
+   ],
+   "pdfPages": [
+    117
+   ],
+   "section": "OIS — Tabelul 14-1 proximal vs distal"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Vărsăturile mari biloase și distensia absentă sunt din tabel.",
+    "evidenceLocation": "Lawrence, p. 195, OIS — Tabelul 14-1 proximal vs distal"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Durerea colicativă ameliorată de vărsătură este citată.",
+    "evidenceLocation": "Lawrence, p. 195, OIS — Tabelul 14-1 proximal vs distal"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Fecaloidul și distensia țin de ansa distală; absența tranzitului poate lipsi proximal.",
+    "evidenceLocation": "Lawrence, p. 195, OIS — Tabelul 14-1 proximal vs distal"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Durerea continuă e a colonului/rectului.",
+    "evidenceLocation": "Lawrence, p. 195, OIS — Tabelul 14-1 proximal vs distal"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "La ansa închisă distensia e adesea absentă, vărsăturile putând fi proeminente (reflexe).",
+    "evidenceLocation": "Lawrence, p. 195, OIS — Tabelul 14-1 proximal vs distal"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Atribuie fecaloidul și distensia marcată OIS proximale, inversând tabelul 14-1."
+  },
+  "textbookExpressions": [
+   "Cantităţi mari, bilioase",
+   "Absentă"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-054",
+  "questionFingerprint": "17bb35ad95e0dca72e293de5b669075362f66516be799047f917492f9b476017",
+  "status": "source-checked",
+  "learningObjective": "Legarea colicii periombilicale de embriologia autonomă a mezenteronului, distinctă de durerea somatică a peritonitei.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    195
+   ],
+   "pdfPages": [
+    117
+   ],
+   "section": "OIS — Durere periombilicală de mezenteron"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Fraza despre embriologia căilor autonome ale intestinului subțire este explicită.",
+    "evidenceLocation": "Lawrence, p. 195, OIS — Durere periombilicală de mezenteron"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Durerea somatică localizată ridică tocmai suspiciunea de ischemie/peritonită, nu e de debut.",
+    "evidenceLocation": "Lawrence, p. 195, OIS — Durere periombilicală de mezenteron"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nucleul ambiguu inițiază deglutiția, nu durerea din OIS.",
+    "evidenceLocation": "Lawrence, p. 195, OIS — Durere periombilicală de mezenteron"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Overlap-ul anginos ține de esofag, nu de OIS.",
+    "evidenceLocation": "Lawrence, p. 195, OIS — Durere periombilicală de mezenteron"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Auerbach esofagian nu orientează colica abdominală.",
+    "evidenceLocation": "Lawrence, p. 195, OIS — Durere periombilicală de mezenteron"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Înlocuiește inervația de mezenteron cu nucleul ambiguu sau cu overlap-ul esofago-cardiac."
+  },
+  "textbookExpressions": [
+   "periombilicală",
+   "embriologia"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-055",
+  "questionFingerprint": "f2733888883ec22c24edd8d32b90977c2f1e79127479d42cdc38f7fbbeb23501",
+  "status": "source-checked",
+  "learningObjective": "Ordinea: exclude colonul și mezenterul (clismă/angio), apoi contrastul de subțire; inutil de rutină în urgența elocventă.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    197
+   ],
+   "pdfPages": [
+    119
+   ],
+   "section": "OIS — Contrast subțire după excluderea colonului"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Utilitatea în ileus vs mecanic este explicită.",
+    "evidenceLocation": "Lawrence, p. 197, OIS — Contrast subțire după excluderea colonului"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Excluderea prealabilă a obstacolului colic și a ocluziei mezenterice este citată.",
+    "evidenceLocation": "Lawrence, p. 197, OIS — Contrast subțire după excluderea colonului"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Inutilitatea de rutină în urgență este descrisă.",
+    "evidenceLocation": "Lawrence, p. 197, OIS — Contrast subțire după excluderea colonului"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "În urgență ghidează clinica/Rx/CT; clisma hidrosolubilă e tocmai un pas anterior.",
+    "evidenceLocation": "Lawrence, p. 197, OIS — Contrast subțire după excluderea colonului"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Textul menționează tocmai falsul pozitiv CT de ansă închisă/hernie internă, deci CT-ul nu e suficient necorelat.",
+    "evidenceLocation": "Lawrence, p. 197, OIS — Contrast subțire după excluderea colonului"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Pune contrastul de subțire înaintea excluderii obstacolului colic, inversând ordinea paragrafului."
+  },
+  "textbookExpressions": [
+   "obstrucţia colonică",
+   "boala ocluzivă mezenterică"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-056",
+  "questionFingerprint": "380404b53bac89de74c228261279e6180cb7d0d255e68dae9a84b90efea07c92",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea prețului SNG: microaspirație prin abolirea gag-ului și deschiderea JGE, distinct de protocolul de circuit rapid al IPO.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    198
+   ],
+   "pdfPages": [
+    120
+   ],
+   "section": "OIS — SNG și microaspirație"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Dublul efect (mai puțin de aspirat vs microaspirație prin gag/JGE) este explicit.",
+    "evidenceLocation": "Lawrence, p. 198, OIS — SNG și microaspirație"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Textul tocmai descrie creșterea, nu anularea, riscului.",
+    "evidenceLocation": "Lawrence, p. 198, OIS — SNG și microaspirație"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Reechilibrarea rămâne primul pas.",
+    "evidenceLocation": "Lawrence, p. 198, OIS — SNG și microaspirație"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "SNG-ul e început de regulă în OIS; circuitul rapid evită SNG-ul în IPO, nu interzice SNG-ul în OIS mecanică.",
+    "evidenceLocation": "Lawrence, p. 198, OIS — SNG și microaspirație"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Baritatul oral nu e gestul SNG.",
+    "evidenceLocation": "Lawrence, p. 198, OIS — SNG și microaspirație"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Anulează riscul de microaspirație pe care paragraful îl pune ca preț al SNG-ului."
+  },
+  "textbookExpressions": [
+   "microaspiraţie",
+   "joncţiunii gastroesofagiene"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-057",
+  "questionFingerprint": "7014c83e18503d70faf7bf18d819d7f11c833f1dc042f72e383b1702edfdd34a",
+  "status": "source-checked",
+  "learningObjective": "Indicația operatorie la OIS „virgin abdomen” (neoplazie/hernie internă) și la ocluzia completă/înaltă, distinctă de temporizarea de 2 săptămâni a OIS precoce.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    199
+   ],
+   "pdfPages": [
+    121
+   ],
+   "section": "OIS — Fără cicatrice: neoplazie sau hernie internă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Pregătirea pentru chirurgie și cauzele (neoplazie, hernie internă) sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 199, OIS — Fără cicatrice: neoplazie sau hernie internă"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Ocluzia completă/înaltă cu risc de ischemie este citată.",
+    "evidenceLocation": "Lawrence, p. 199, OIS — Fără cicatrice: neoplazie sau hernie internă"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Cele 2 săptămâni țin de OIS precoce postoperatorie.",
+    "evidenceLocation": "Lawrence, p. 199, OIS — Fără cicatrice: neoplazie sau hernie internă"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Absența cicatricei crește, nu scade, suspiciunea de hernie internă/neoplazie.",
+    "evidenceLocation": "Lawrence, p. 199, OIS — Fără cicatrice: neoplazie sau hernie internă"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Manometria anală nu diagnostichează OIS.",
+    "evidenceLocation": "Lawrence, p. 199, OIS — Fără cicatrice: neoplazie sau hernie internă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Aplică fereastra de 2 săptămâni a OIS precoce pe abdomenul neoperat, unde textul cere chirurgie."
+  },
+  "textbookExpressions": [
+   "nu au antecedente chirurgicale",
+   "hernie internă"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-058",
+  "questionFingerprint": "a6798e7c9a40aacb9e6c1bc4a5269f88caa6df86cbd00f97637005540c0be029",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea spectrului gram-negativ aerob+anaerob, justificat de proliferarea în intestinul cu stază, altfel „steril”.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    199
+   ],
+   "pdfPages": [
+    121
+   ],
+   "section": "OIS — Antibiotice preoperatorii"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Spectrul aerob/anaerob gram-negativ și staza sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 199, OIS — Antibiotice preoperatorii"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Cocii cutanați nu sunt spectrul citat.",
+    "evidenceLocation": "Lawrence, p. 199, OIS — Antibiotice preoperatorii"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Intestinul obstruat nu rămâne steril.",
+    "evidenceLocation": "Lawrence, p. 199, OIS — Antibiotice preoperatorii"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Candida esofagiană nu e flora OIS.",
+    "evidenceLocation": "Lawrence, p. 199, OIS — Antibiotice preoperatorii"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Alvimopanul e antagonist opioid pentru IPO, nu antibiotic.",
+    "evidenceLocation": "Lawrence, p. 199, OIS — Antibiotice preoperatorii"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Lasă intestinul obstruat „steril” sau acoperă doar coci cutanați, ignorând proliferarea gram-negativă."
+  },
+  "textbookExpressions": [
+   "aerobilor şi anaerobilor",
+   "intestinul normal steril"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-059",
+  "questionFingerprint": "33642e629c33907189f54390a2217d6b73f0f5aa110a1c63dbb54d233bc040a2",
+  "status": "source-checked",
+  "learningObjective": "Temperarea entuziasmului laparoscopic: distensie și abdomen ostil versus nișa aderențială necomplicată/proximală.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    199
+   ],
+   "pdfPages": [
+    121
+   ],
+   "section": "OIS — Limitele laparoscopiei"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Succesul modest și limita distensiei/ostilului sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 199, OIS — Limitele laparoscopiei"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Nișa aderențială necomplicată și proximală este citată.",
+    "evidenceLocation": "Lawrence, p. 199, OIS — Limitele laparoscopiei"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Strangularea cu distensie nu e indicația de elecție.",
+    "evidenceLocation": "Lawrence, p. 199, OIS — Limitele laparoscopiei"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Textul tocmai menționează interesul în OIS proximală aderențială.",
+    "evidenceLocation": "Lawrence, p. 199, OIS — Limitele laparoscopiei"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Carcinomatoza nu e nișa laparoscopică descrisă.",
+    "evidenceLocation": "Lawrence, p. 199, OIS — Limitele laparoscopiei"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Transformă laparoscopia în standard al OIS strangulate sau o interzice pe nișa aderențială proximală."
+  },
+  "textbookExpressions": [
+   "abdomenului multiplu",
+   "ocluzii aderenţiale"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-060",
+  "questionFingerprint": "7bf860194ded3ecdd9f94b35474ac8c0c8da150e57ee04a91e9ece5f8e91bf25",
+  "status": "source-checked",
+  "learningObjective": "Maparea complicațiilor care schimbă strategia (malnutriție/ocluzie/fistulă/electroliți), a toxicității cortizon/imunosupresie și a incontinenței sfincteriene, distincte de principiile de rezecție deja chestionate.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    204
+   ],
+   "pdfPages": [
+    122
+   ],
+   "section": "Crohn — Complicații medicale și sfincteriene"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cele patru complicații clinice sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 204, Crohn — Complicații medicale și sfincteriene"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Toxicitatea cortizonului/imunosupresivelor și progresia prin rezistență sunt citate.",
+    "evidenceLocation": "Lawrence, p. 204, Crohn — Complicații medicale și sfincteriene"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Incontinența după boală perianală avansată sau chirurgie agresivă este descrisă.",
+    "evidenceLocation": "Lawrence, p. 204, Crohn — Complicații medicale și sfincteriene"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Textul cere suport nutrițional perioperator aproape la toți operații; imunosupresia preoperatorie afectează vindecarea.",
+    "evidenceLocation": "Lawrence, p. 204, Crohn — Complicații medicale și sfincteriene"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Fistulele chirurgicale pot urma scurgerilor anastomotice după rezecție.",
+    "evidenceLocation": "Lawrence, p. 204, Crohn — Complicații medicale și sfincteriene"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Ignorează incontinența sfincteriană și toxicitatea cortizonului, două complicații din același paragraf de închidere."
+  },
+  "textbookExpressions": [
+   "Malnutriţia, ocluzia",
+   "perianală avansată"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-061",
+  "questionFingerprint": "97c82a778d4607d493a3c406ca120e15754c03e3a100b4fb16258d11ccb31da2",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea că IMA nu are marker de laborator patognomonic, că valorile normale nu exclud și că durerea plus acidoza persistentă ridică suspiciunea, distincte de tratamentul embolie/VMS deja chestionat.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    205
+   ],
+   "pdfPages": [
+    123
+   ],
+   "section": "IMA — Laborator nespecific, acidoză persistentă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Absența unui test diagnostic de laborator este explicită.",
+    "evidenceLocation": "Lawrence, p. 205, IMA — Laborator nespecific, acidoză persistentă"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Neexcluderea prin valori normale este citată.",
+    "evidenceLocation": "Lawrence, p. 205, IMA — Laborator nespecific, acidoză persistentă"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Cuplul durere + acidoză metabolică persistentă este descris.",
+    "evidenceLocation": "Lawrence, p. 205, IMA — Laborator nespecific, acidoză persistentă"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Modificările de laborator nu sunt necesare pentru diagnostic și pot fi tardive; infarctul nu e exclus de laborator normal.",
+    "evidenceLocation": "Lawrence, p. 205, IMA — Laborator nespecific, acidoză persistentă"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Standardul de aur rămâne arteriografia mezenterică, nu manometria.",
+    "evidenceLocation": "Lawrence, p. 205, IMA — Laborator nespecific, acidoză persistentă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Așteaptă leucocitoza/lactatul ca sine qua non, inversând fraza că infarctul poate exista cu laborator normal."
+  },
+  "textbookExpressions": [
+   "analiză de laborator",
+   "acidoză metabolică persistentă"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-062",
+  "questionFingerprint": "40799fd36231d8241c19b75bc01208727e4d0f78fc54e327dd5238a2eb78adbe",
+  "status": "source-checked",
+  "learningObjective": "Separarea obstacolelor din lumen (corpi străini la VIC, fitobezoar, ileus biliar al vârstnicului) de cauzele extrinseci SAMS și carcinomatoză.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    194
+   ],
+   "pdfPages": [
+    116
+   ],
+   "section": "OIS — Fitobezoar, ileus biliar, VIC"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Traversarea post-pilorică și bariera VIC sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 194, OIS — Fitobezoar, ileus biliar, VIC"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Fitobezoarele sunt citate.",
+    "evidenceLocation": "Lawrence, p. 194, OIS — Fitobezoar, ileus biliar, VIC"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Mecanismul colecistită → fistulă → calcul lângă VIC, mai ales la vârstnici, este descris.",
+    "evidenceLocation": "Lawrence, p. 194, OIS — Fitobezoar, ileus biliar, VIC"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "SAMS este o compresie extrinsecă a D3, nu un conținut luminal.",
+    "evidenceLocation": "Lawrence, p. 194, OIS — Fitobezoar, ileus biliar, VIC"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Carcinomatoza comprimă din peritoneu, nu din lumen.",
+    "evidenceLocation": "Lawrence, p. 194, OIS — Fitobezoar, ileus biliar, VIC"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Clasează SAMS și carcinomatoza ca obstacole intraluminale, inversând capitolul de cauze extrinseci."
+  },
+  "textbookExpressions": [
+   "Fitobezoarele",
+   "ileusul biliar"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-063",
+  "questionFingerprint": "0fe025f89b481af350e1055088a1dcec8187fb288c2bc412dfc43be6a10817e6",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea celui de-al treilea look ca excepție ghidată clinic, nu ca protocol, pe fondul evitării anastomozei primare până la second-look.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    206
+   ],
+   "pdfPages": [
+    124
+   ],
+   "section": "IMA — Al treilea look"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Raritatea și condiția indicațiilor clinice sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 206, IMA — Al treilea look"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Fereastra second-look e 12–24 de ore, nu 2 ore esofagiene.",
+    "evidenceLocation": "Lawrence, p. 206, IMA — Al treilea look"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Al treilea look nu înlocuiește second-look-ul.",
+    "evidenceLocation": "Lawrence, p. 206, IMA — Al treilea look"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Vizualizarea poate fi open sau laparo, nu doar laparoscopică.",
+    "evidenceLocation": "Lawrence, p. 206, IMA — Al treilea look"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Anastomoza primară e adesea evitată până la a doua laparotomie.",
+    "evidenceLocation": "Lawrence, p. 206, IMA — Al treilea look"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Transformă al treilea look din excepție clinică într-un protocol de 2 ore sau într-o contraindicație."
+  },
+  "textbookExpressions": [
+   "a treia inte1ventie",
+   "rar necesară"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-064",
+  "questionFingerprint": "4e2436925a763ffbd9ef28ca23ca7e885c4bf760a606cc077ccfc1ccd1c361cb",
+  "status": "source-checked",
+  "learningObjective": "Contrastul prezentării de urgență (~1/4), al perforației prin liză tumorală și al supraviețuirii (medie >10 ani vs 20–40% după urgență), față de epidemiologia Peyer deja chestionată.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    209
+   ],
+   "pdfPages": [
+    127
+   ],
+   "section": "Limfom IS — Urgențe, liză, 20–40%"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cele patru urgențe și ponderea de o pătrime sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 209, Limfom IS — Urgențe, liză, 20–40%"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Perforația rară prin liză după chimio/RT este citată.",
+    "evidenceLocation": "Lawrence, p. 209, Limfom IS — Urgențe, liză, 20–40%"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Cuplul >10 ani versus 20–40% la 5 ani după urgență este descris.",
+    "evidenceLocation": "Lawrence, p. 209, Limfom IS — Urgențe, liză, 20–40%"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "CT-ul arată adesea adenopatie mezenterică; diagnosticul e histologic, nu manometric.",
+    "evidenceLocation": "Lawrence, p. 209, Limfom IS — Urgențe, liză, 20–40%"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Predomină non-Hodgkin-ul adult ileal, nu Hodgkin-ul pediatric periampular.",
+    "evidenceLocation": "Lawrence, p. 209, Limfom IS — Urgențe, liză, 20–40%"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Permutează supraviețuirea >10 ani (cazurile imagistice) cu 20–40% (urgențele) și mută limfomul pe Hodgkin pediatric."
+  },
+  "textbookExpressions": [
+   "o pătrime",
+   "20-40%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-065",
+  "questionFingerprint": "f2bc2db4281f2e9047df041e37f0de58a1fe625ba2f7381bc0910c5b3005471d",
+  "status": "source-checked",
+  "learningObjective": "Predominanța benignelor, egalitatea de sex și vârful din decada a șasea, distincte de epidemiologia apendicitei.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    206
+   ],
+   "pdfPages": [
+    124
+   ],
+   "section": "Tumori benigne — Sex egal, decada a șasea"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Frecvența mai mare și asimptomatologia sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 206, Tumori benigne — Sex egal, decada a șasea"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Egalitatea de sex și decada a șasea sunt citate.",
+    "evidenceLocation": "Lawrence, p. 206, Tumori benigne — Sex egal, decada a șasea"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Apendicita e 5–35 de ani, nu profilul tumorilor benigne.",
+    "evidenceLocation": "Lawrence, p. 206, Tumori benigne — Sex egal, decada a șasea"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Malignele sunt doar 2% din neoplaziile GI.",
+    "evidenceLocation": "Lawrence, p. 206, Tumori benigne — Sex egal, decada a șasea"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Benignele sunt mai frecvente, nu mai rare.",
+    "evidenceLocation": "Lawrence, p. 206, Tumori benigne — Sex egal, decada a șasea"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează frecvența benign/malign și mută vârful pe decadele apendicitei."
+  },
+  "textbookExpressions": [
+   "mult mai frecvente",
+   "decada a şasea"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-066",
+  "questionFingerprint": "f31de1a9a94379f510733a459f44e4748262c759fbf386703de7d20a08106581",
+  "status": "source-checked",
+  "learningObjective": "Maparea lipom (bărbați, D/ileon), hemangiom 5% (Osler, capsulă) și vilos 30%, plus supravegherea periampulară PAF.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    207
+   ],
+   "pdfPages": [
+    125
+   ],
+   "section": "Tumori benigne — Lipom, Osler, vilos 30%"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Predilecția masculină și sediile D/ileon sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 207, Tumori benigne — Lipom, Osler, vilos 30%"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "5%, multiplicitatea Osler și utilitatea capsulei sunt citate.",
+    "evidenceLocation": "Lawrence, p. 207, Tumori benigne — Lipom, Osler, vilos 30%"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Riscul 30% și indicația de excizie sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 207, Tumori benigne — Lipom, Osler, vilos 30%"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Screeningul duodenal/papilar post-proctocolectomie este menționat.",
+    "evidenceLocation": "Lawrence, p. 207, Tumori benigne — Lipom, Osler, vilos 30%"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Direcțiile de sex, sediu și risc sunt inversate.",
+    "evidenceLocation": "Lawrence, p. 207, Tumori benigne — Lipom, Osler, vilos 30%"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează sexul lipomului, unicitatea hemangiomului și riscul vilosului de 30%."
+  },
+  "textbookExpressions": [
+   "Osler-Weber-Rendu",
+   "risc global 30%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-067",
+  "questionFingerprint": "ce1ba34e97413d31bb5f5954c431f97ab262cad085986a0b1618786fbb8a178e",
+  "status": "source-checked",
+  "learningObjective": "Izolarea ponderii de 2% și a vârfului din decada a șasea, față de suprafața mare care ar sugera inversul.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    207
+   ],
+   "pdfPages": [
+    125
+   ],
+   "section": "Tumori maligne — 2% din neoplaziile GI"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cifra de 2%, predominanța masculină ușoară și decada a șasea sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 207, Tumori maligne — 2% din neoplaziile GI"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Colonul, nu intestinul subțire, e sediul dominant.",
+    "evidenceLocation": "Lawrence, p. 207, Tumori maligne — 2% din neoplaziile GI"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Textul tocmai notează paradoxul suprafață mare / tumori rare.",
+    "evidenceLocation": "Lawrence, p. 207, Tumori maligne — 2% din neoplaziile GI"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "0,5% e sângerarea după sleeve.",
+    "evidenceLocation": "Lawrence, p. 207, Tumori maligne — 2% din neoplaziile GI"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "6,7% e apendicita la femei.",
+    "evidenceLocation": "Lawrence, p. 207, Tumori maligne — 2% din neoplaziile GI"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Umflă ponderea de 2% la jumătate din cancerele GI, ignorând paradoxul suprafeței."
+  },
+  "textbookExpressions": [
+   "2% din totalul",
+   "decada a şasea"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-068",
+  "questionFingerprint": "32e65b361df7c523d23d0b731556f47916f429d9b145178bb86ea6e5f737b6c3",
+  "status": "source-checked",
+  "learningObjective": "Ponderea de ~50%, gradientul duodenal→distal, icterul periampular și sângerarea ocultă a tânărului, distincte de intervalul 10–30% la 5 ani.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    207
+   ],
+   "pdfPages": [
+    125
+   ],
+   "section": "Adenocarcinom IS — Jumătate, duoden, 10–30%"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Jumătatea și gradientul duodenal sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 207, Adenocarcinom IS — Jumătate, duoden, 10–30%"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Sângerarea ocultă la tânăr și raritatea masivei sunt citate.",
+    "evidenceLocation": "Lawrence, p. 207, Adenocarcinom IS — Jumătate, duoden, 10–30%"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Icterul nedureros și diagnosticul intraoperator ~50% sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 207, Adenocarcinom IS — Jumătate, duoden, 10–30%"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Textul dă 10–30% la 5 ani, cu adjuvantă puțin dovedită, nu 70–90%.",
+    "evidenceLocation": "Lawrence, p. 207, Adenocarcinom IS — Jumătate, duoden, 10–30%"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Ileonalul e al carcinoidului/limfomului; sângerarea masivă e rară.",
+    "evidenceLocation": "Lawrence, p. 207, Adenocarcinom IS — Jumătate, duoden, 10–30%"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Mută adenocarcinomul pe ileon și umflă 10–30% la 90%, două confuzii cu carcinoidul/limfomul."
+  },
+  "textbookExpressions": [
+   "aproximativ jumătate",
+   "10-30%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-069",
+  "questionFingerprint": "c61acbdcfc2cacd154b6557d1c2d07b3c8faaea672a86d37841cdc6caf969e15",
+  "status": "source-checked",
+  "learningObjective": "Declanșatorii (efort/alcool/anestezie), pelagra prin deturnarea triptofanului și lista de peptide vasoactive, distincte de regula first-pass hepatic deja chestionată.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    207,
+    208
+   ],
+   "pdfPages": [
+    125,
+    126
+   ],
+   "section": "Carcinoid — Pelagră, triggere, peptide"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cei cinci triggere sunt expliciți.",
+    "evidenceLocation": "Lawrence, p. 207, 208, Carcinoid — Pelagră, triggere, peptide"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Pelagra prin deturnarea triptofanului de la niacină este citată.",
+    "evidenceLocation": "Lawrence, p. 207, 208, Carcinoid — Pelagră, triggere, peptide"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "5-hidroxitriptofanul, calicreina, histamina și ACTH sunt enumerați.",
+    "evidenceLocation": "Lawrence, p. 207, 208, Carcinoid — Pelagră, triggere, peptide"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Ficatul epurează serotonina portală; sindromul ileal cere metastaze hepatice.",
+    "evidenceLocation": "Lawrence, p. 207, 208, Carcinoid — Pelagră, triggere, peptide"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Confirmarea e 5-HIAA urinar ± serotonină/cromogranină A serică.",
+    "evidenceLocation": "Lawrence, p. 207, 208, Carcinoid — Pelagră, triggere, peptide"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Anulează first-pass-ul și înlocuiește pelagra/triggerele cu manometria, două capcane de capitol vecin."
+  },
+  "textbookExpressions": [
+   "pelagra",
+   "efo1i, emoţie"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-070",
+  "questionFingerprint": "f1d47dc6d52af11c886c853602474b928ec879feed77663ef470e34affd86d71",
+  "status": "source-checked",
+  "learningObjective": "Prognosticul mai grav intestinal, recurența ~50% la 2 ani și sunitinib ca linie după imatinib, plus originea Cajal/CD117.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    209
+   ],
+   "pdfPages": [
+    127
+   ],
+   "section": "GIST intestinal — Prognostic, 50%, sunitinib"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Prognosticul mai grav față de esofag/stomac este explicit.",
+    "evidenceLocation": "Lawrence, p. 209, GIST intestinal — Prognostic, 50%, sunitinib"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Cifra de ~50% la 2 ani este citată.",
+    "evidenceLocation": "Lawrence, p. 209, GIST intestinal — Prognostic, 50%, sunitinib"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Sunitinib după eșec/intoleranță la imatinib este descris.",
+    "evidenceLocation": "Lawrence, p. 209, GIST intestinal — Prognostic, 50%, sunitinib"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Cajal și CD117 sunt menționate.",
+    "evidenceLocation": "Lawrence, p. 209, GIST intestinal — Prognostic, 50%, sunitinib"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Direcția prognosticului și a liniilor TKI este inversată.",
+    "evidenceLocation": "Lawrence, p. 209, GIST intestinal — Prognostic, 50%, sunitinib"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează prognosticul intestinal vs gastric și pune sunitinib înaintea imatinibului."
+  },
+  "textbookExpressions": [
+   "prognostic mai grav",
+   "sunitinib"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "intestin-adv-071",
+  "questionFingerprint": "cc129a89c66554fe51a4b2be75e3de81a314c3d8d2ceb96badf791b801f63b26",
+  "status": "source-checked",
+  "learningObjective": "Pediculul ileocolic, cei ~200 de foliculi la 10–20 de ani, cele ~10.000 decese/an și pileflebită/US necompresibil, distincte de McBurney/Rovsing deja chestionate.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    211,
+    212
+   ],
+   "pdfPages": [
+    129,
+    130
+   ],
+   "section": "Apendicită — Ileocolică, 200 foliculi, pileflebită"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Artera ileocolică și cei 200 de foliculi sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 211, 212, Apendicită — Ileocolică, 200 foliculi, pileflebită"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Cifra de ~10.000 decese/an este citată.",
+    "evidenceLocation": "Lawrence, p. 211, 212, Apendicită — Ileocolică, 200 foliculi, pileflebită"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Pileflebită, aer portal și abcese hepatice sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 211, 212, Apendicită — Ileocolică, 200 foliculi, pileflebită"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "US necompresibil cu durere focală este menționat.",
+    "evidenceLocation": "Lawrence, p. 211, 212, Apendicită — Ileocolică, 200 foliculi, pileflebită"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Artera nu e din AMS direct; foliculii sunt numeroși tocmai la tineri.",
+    "evidenceLocation": "Lawrence, p. 211, 212, Apendicită — Ileocolică, 200 foliculi, pileflebită"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Rupe pediculul ileocolic și neagă pileflebită, două detalii de vecinătate vasculară/portală."
+  },
+  "textbookExpressions": [
+   "artera ileocolică",
+   "pileflebita"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
  }
 ]

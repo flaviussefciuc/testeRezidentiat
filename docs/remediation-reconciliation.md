@@ -6,7 +6,7 @@ were found on that page. Cutoff-page and box checks for each topic are logged in
 
 ## Items citing a syllabus cutoff page
 
-53 items, 0 resolved, 53 pending.
+53 items, 9 resolved, 44 pending.
 
 | Original ID | Topic | Status |
 |---|---|---|
@@ -33,15 +33,15 @@ were found on that page. Cutoff-page and box checks for each topic are logged in
 | gastro-adv-089 | gastro | pending (original still live) |
 | gastro-adv-090 | gastro | pending (original still live) |
 | gastro-adv-091 | gastro | pending (original still live) |
-| intestin-adv-015 | intestin | pending (original still live) |
-| intestin-adv-018 | intestin | pending (original still live) |
-| intestin-adv-019 | intestin | pending (original still live) |
-| intestin-adv-039 | intestin | pending (original still live) |
-| intestin-adv-040 | intestin | pending (original still live) |
-| intestin-adv-041 | intestin | pending (original still live) |
-| intestin-adv-057 | intestin | pending (original still live) |
-| intestin-adv-058 | intestin | pending (original still live) |
-| intestin-adv-059 | intestin | pending (original still live) |
+| intestin-adv-015 | intestin | replaced by intestin-adv-015-v2 (p. 199; expressions verified on the cited page) |
+| intestin-adv-018 | intestin | replaced by intestin-adv-018-v2 (p. 199; expressions verified on the cited page) |
+| intestin-adv-019 | intestin | replaced by intestin-adv-019-v2 (p. 199; expressions verified on the cited page) |
+| intestin-adv-039 | intestin | replaced by intestin-adv-039-v2 (p. 199; expressions verified on the cited page) |
+| intestin-adv-040 | intestin | replaced by intestin-adv-040-v2 (p. 199; expressions verified on the cited page) |
+| intestin-adv-041 | intestin | retired without replacement |
+| intestin-adv-057 | intestin | replaced by intestin-adv-057-v2 (p. 199; expressions verified on the cited page) |
+| intestin-adv-058 | intestin | replaced by intestin-adv-058-v2 (p. 199; expressions verified on the cited page) |
+| intestin-adv-059 | intestin | replaced by intestin-adv-059-v2 (p. 199; expressions verified on the cited page) |
 | neurologie-adv-014 | neurologie | pending (original still live) |
 | neurologie-adv-048 | neurologie | pending (original still live) |
 | neurologie-adv-049 | neurologie | pending (original still live) |
@@ -66,7 +66,7 @@ were found on that page. Cutoff-page and box checks for each topic are logged in
 
 ## Items relying on a Cadran / Figura / Tabel
 
-569 items, 83 resolved, 486 pending.
+569 items, 86 resolved, 483 pending.
 
 | Original ID | Topic | Status |
 |---|---|---|
@@ -371,9 +371,9 @@ were found on that page. Cutoff-page and box checks for each topic are logged in
 | infectii-chir-adv-034 | infectii-chir | pending (original still live) |
 | infectii-chir-adv-035 | infectii-chir | pending (original still live) |
 | infectii-chir-adv-039 | infectii-chir | pending (original still live) |
-| intestin-adv-016 | intestin | pending (original still live) |
-| intestin-adv-050 | intestin | pending (original still live) |
-| intestin-adv-053 | intestin | pending (original still live) |
+| intestin-adv-016 | intestin | replaced by intestin-adv-016-v2 (p. 197, 198; expressions verified on the cited page) |
+| intestin-adv-050 | intestin | replaced by intestin-adv-050-v2 (p. 210; expressions verified on the cited page) |
+| intestin-adv-053 | intestin | replaced by intestin-adv-053-v2 (p. 195; expressions verified on the cited page) |
 | nefrologie-adv-006 | nefrologie | pending (original still live) |
 | nefrologie-adv-008 | nefrologie | pending (original still live) |
 | nefrologie-adv-017 | nefrologie | pending (original still live) |
