@@ -116,3 +116,9 @@ Fiecare temă rescrisă (versiunile `-v2`) a fost confruntată din nou cu pagini
 - Nu s-au găsit chei greșite în cei 66 de itemi confruntați cu p. 520–527 și 534–541.
 - **Conținut la marginea intervalelor din tematică:** p. 520 începe cu anevrismele femurale și disecția de aortă, înaintea titlului «Boala arterială periferică». P. 534 începe cu boala vertebro-bazilară (furtul subclavicular), înaintea titlului «Bolile venelor». P. 541 se încheie cu «Traumatismele vasculare». Tematica indică doar intervalele de pagini (520–527, 534–541), fără limite de tip «până la», așa că itemii sunt păstrați după regula intervalului de pagini.
 - Retrase fără înlocuitor (dubluri sau trivia): 044 (inclus în 003), 047 (inclus în 048), 051 (valoare numerică dintr-o figură), 054 (frecvența sondei Doppler, trivia).
+
+### Epidemiologie și etică (Sinopsis, cap. 15)
+- Nu s-au găsit chei greșite în cei 24 de itemi confruntați cu p. 333–338.
+- P. 335: nota «OR dă estimarea cea mai precisă a AR în cazurile de boli rare» folosește «AR», deși textul definește raportul cotelor ca estimator al **riscului relativ** (RR) la prevalență scăzută. «AR» este probabil o eroare de traducere. `-018-v2` testează doar formularea din text (OR estimează RR dacă prevalența este scăzută).
+- P. 338: criteriile (1)–(5) ale morții cerebrale sunt paginate în extras sub «Moartea cardiacă». Conținutul lor (reflexe de trunchi, apnee, excluderea hipotermiei) este clar al morții cerebrale, iar itemii îl tratează ca atare.
+- Retrase fără înlocuitor (unite într-un singur item CM, `-012-v2`): 015 (prevalența), 020 (rata de fatalitate) și 022 (inclus în `-017-v2`).

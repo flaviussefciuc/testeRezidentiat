@@ -12,8 +12,8 @@ function seededOrder(id:string):number[]{
  for(let i=4;i>0;i--){const j=Math.floor(next()*(i+1));[order[i],order[j]]=[order[j],order[i]];}
  return order;
 }
-function shuffleRow(id:string,[stem,options,key,page,section,objective,rationales]:SourceRow):SourceRow{
- const order=seededOrder(id),correct=new Set([...key].map(c=>'ABCDE'.indexOf(c)));
+function shuffleRow(id:string,salt:string,[stem,options,key,page,section,objective,rationales]:SourceRow):SourceRow{
+ const order=seededOrder(id+salt),correct=new Set([...key].map(c=>'ABCDE'.indexOf(c)));
  const newKey=order.map((from,to)=>correct.has(from)?'ABCDE'[to]:'').join('');
  return [stem,order.map(i=>options[i]),newKey,page,section,objective,order.map(i=>rationales[i])];
 }
@@ -21,12 +21,13 @@ function shuffleRow(id:string,[stem,options,key,page,section,objective,rationale
 // A rewrite is a new published version (-v2) of a retired question. It keeps the
 // retired item's book, chapter and edition, so the source stays the same syllabus
 // chapter; the row itself is authored and re-checked against the cited page.
-// With {shuffle:true} the authored option order is permuted deterministically.
-export function rewriter(retired:Question[],pdfOffset:number|((page:number)=>number),opts:{shuffle?:boolean}={}){
+// With {shuffle:true} the authored option order is permuted deterministically; an optional
+// salt re-seeds the permutation (used to balance key positions in small chapters).
+export function rewriter(retired:Question[],pdfOffset:number|((page:number)=>number),opts:{shuffle?:boolean;salt?:string}={}){
  return (oldId:string,row:SourceRow,rating:[score:number,reason:string],expressions:string[],related?:number[]):AdvancedQuestion=>{
   const old=retired.find(q=>q.id===oldId) as SourcedQuestion|undefined;
   if(!old)throw new Error(`Rewrite target ${oldId} is not retired`);
   const r=old.reference,id=`${oldId}-v2`;
-  return advancedQuestion(old.topicId,r.chapter,pdfOffset,id,opts.shuffle?shuffleRow(id,row):row,rating,expressions,oldId,related??r.printedPages.filter(p=>p!==row[3]),r.book,r.edition);
+  return advancedQuestion(old.topicId,r.chapter,pdfOffset,id,opts.shuffle?shuffleRow(id,opts.salt??'',row):row,rating,expressions,oldId,related??r.printedPages.filter(p=>p!==row[3]),r.book,r.edition);
  };
 }

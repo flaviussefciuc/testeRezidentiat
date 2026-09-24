@@ -2,6 +2,7 @@
 // were replaced or withdrawn; they keep old attempts and drafts scoreable.
 import type {Question} from '../../models';
 import {RETIRED_BILIAR} from './biliar';
+import {RETIRED_EPIDEMIO} from './epidemio';
 import {RETIRED_ESOFAG} from './esofag';
 import {RETIRED_HEMOSTAZA} from './hemostaza';
 import {RETIRED_HERNII} from './hernii';
@@ -14,4 +15,4 @@ import {RETIRED_TRAUMA} from './trauma';
 import {RETIRED_TROMBOEMBOLISM} from './tromboembolism';
 import {RETIRED_VASCULAR} from './vascular';
 
-export const RETIRED_QUESTIONS:Question[]=[...RETIRED_BILIAR,...RETIRED_ESOFAG,...RETIRED_HEMOSTAZA,...RETIRED_HERNII,...RETIRED_INTESTIN,...RETIRED_PERIOPERATOR,...RETIRED_REUMATOLOGIE,...RETIRED_SEPSIS,...RETIRED_STOMAC,...RETIRED_TRAUMA,...RETIRED_TROMBOEMBOLISM,...RETIRED_VASCULAR];
+export const RETIRED_QUESTIONS:Question[]=[...RETIRED_BILIAR,...RETIRED_EPIDEMIO,...RETIRED_ESOFAG,...RETIRED_HEMOSTAZA,...RETIRED_HERNII,...RETIRED_INTESTIN,...RETIRED_PERIOPERATOR,...RETIRED_REUMATOLOGIE,...RETIRED_SEPSIS,...RETIRED_STOMAC,...RETIRED_TRAUMA,...RETIRED_TROMBOEMBOLISM,...RETIRED_VASCULAR];

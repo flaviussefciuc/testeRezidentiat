@@ -66,7 +66,7 @@ were found on that page. Cutoff-page and box checks for each topic are logged in
 
 ## Items relying on a Cadran / Figura / Tabel
 
-569 items, 89 resolved, 480 pending.
+569 items, 97 resolved, 472 pending.
 
 | Original ID | Topic | Status |
 |---|---|---|
@@ -240,14 +240,14 @@ were found on that page. Cutoff-page and box checks for each topic are logged in
 | endocrinologie-adv-023 | endocrinologie | pending (original still live) |
 | endocrinologie-adv-041 | endocrinologie | pending (original still live) |
 | endocrinologie-adv-056 | endocrinologie | pending (original still live) |
-| epidemio-adv-001 | epidemio | pending (original still live) |
-| epidemio-adv-002 | epidemio | pending (original still live) |
-| epidemio-adv-003 | epidemio | pending (original still live) |
-| epidemio-adv-013 | epidemio | pending (original still live) |
-| epidemio-adv-016 | epidemio | pending (original still live) |
-| epidemio-adv-017 | epidemio | pending (original still live) |
-| epidemio-adv-021 | epidemio | pending (original still live) |
-| epidemio-adv-022 | epidemio | pending (original still live) |
+| epidemio-adv-001 | epidemio | replaced by epidemio-adv-001-v2 (p. 333; expressions verified on the cited page) |
+| epidemio-adv-002 | epidemio | replaced by epidemio-adv-002-v2 (p. 333; expressions verified on the cited page) |
+| epidemio-adv-003 | epidemio | replaced by epidemio-adv-003-v2 (p. 334; expressions verified on the cited page) |
+| epidemio-adv-013 | epidemio | replaced by epidemio-adv-013-v2 (p. 333; expressions verified on the cited page) |
+| epidemio-adv-016 | epidemio | replaced by epidemio-adv-016-v2 (p. 333; expressions verified on the cited page) |
+| epidemio-adv-017 | epidemio | replaced by epidemio-adv-017-v2 (p. 334; expressions verified on the cited page) |
+| epidemio-adv-021 | epidemio | replaced by epidemio-adv-021-v2 (p. 333, 334; expressions verified on the cited page) |
+| epidemio-adv-022 | epidemio | retired without replacement |
 | esofag-adv-039 | esofag | replaced by esofag-adv-039-v2 (p. 152; expressions verified on the cited page) |
 | esofag-adv-070 | esofag | retired without replacement |
 | ficat-splina-adv-012 | ficat-splina | pending (original still live) |
