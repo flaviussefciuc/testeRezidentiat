@@ -52,3 +52,9 @@ Fiecare temă rescrisă (versiunile `-v2`) a fost confruntată din nou cu pagini
 ### Esofag (Lawrence, cap. 12)
 - Nu s-au găsit chei greșite în cei 86 de itemi confruntați cu p. 140–142 și 151–164.
 - Retrase fără înlocuitor (26): `esofag-adv-013` și `-014` testau legendele figurilor Nissen/Collis de pe p. 151, care aparțin secțiunii BRGE. Lista din tematică pentru capitolul 12 nu include BRGE, iar figurile sunt trimiteri din afara intervalului. Alți 24 de itemi erau parafraze ale aceluiași obiectiv: 003, 019, 029, 033, 034, 036, 040, 043, 052, 061, 064, 065, 067, 070, 075, 077, 078, 079, 080, 081, 083, 084, 085, 086.
+
+### Hernii (Lawrence, cap. 11)
+- Nu s-au găsit chei greșite în cei 64 de itemi confruntați cu p. 125–137.
+- P. 129 este contradictorie: fraza anterioară spune că plasele «biologice și absorbabile» sunt mult mai puțin susceptibile la infecție, dar fraza următoare recomandă în contaminare materialele «biologice și non-absorbabile», probabil o eroare de traducere. Versiunile `-v2` folosesc doar prima afirmație (biologice/absorbabile, mai puțin susceptibile la infecție) și nu construiesc cheia pe formularea «non-absorbabile».
+- P. 134 precizează că detaliile tehnice ale procedeelor tisulare «nu sunt solicitate la examene standard». Itemul `hernii-adv-040` (rândurile Bassini/Shouldice din Tabelul 11.1) a fost retras. `-019` a fost păstrat doar pentru distincția esențială: McVay este procedeul tisular folosit și în hernia femurală.
+- Retrase fără înlocuitor și ca parafraze/itemi fără conținut medical: 027 (dublura lui 060), 044 (organizarea capitolului), 061 (dublura lui 015), 062 (inclus în 013), 063 (dublura lui 003), 064 (afirmații despre examene, nu conținut medical).

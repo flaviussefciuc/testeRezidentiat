@@ -9041,5 +9041,4957 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-001",
+  "questionFingerprint": "e0a79508d75260071b39ba96e2680f9d8a4665c0a5f7c469d62b080a9f65084b",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea diastazisului (fără defect, fără strangulare, fără chirurgie) de hernia ventrală adevărată.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    127
+   ],
+   "pdfPages": [
+    68
+   ],
+   "section": "Herniile peretelui abdominal — Diastazisul"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Definiția (subțiere fără defect), absența riscului de încarcerare/strangulare și absența indicației chirurgicale sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 127, Herniile peretelui abdominal — Diastazisul"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Defectul parietal definește hernia, nu diastazisul.",
+    "evidenceLocation": "Lawrence, p. 127, Herniile peretelui abdominal — Diastazisul"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Diastazisul nu este un defect ombilical.",
+    "evidenceLocation": "Lawrence, p. 127, Herniile peretelui abdominal — Diastazisul"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Sacul prin inelul inghinal intern descrie hernia indirectă, nu diastazisul.",
+    "evidenceLocation": "Lawrence, p. 127, Herniile peretelui abdominal — Diastazisul"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Plasa intraperitoneală nu este tratamentul diastazisului, care nu se operează.",
+    "evidenceLocation": "Lawrence, p. 127, Herniile peretelui abdominal — Diastazisul"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T15:31:57.229Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii tratează diastazisul ca pe o hernie cu risc de strangulare, o confuzie clinică frecventă."
+  },
+  "textbookExpressions": [
+   "diastazisul de mușchi",
+   "defect parietal"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-002",
+  "questionFingerprint": "b6f71707248578779a74b5a76e6734e9013b755f5e39619dd0ae92b01a4792f1",
+  "status": "source-checked",
+  "learningObjective": "Separarea încarcerării (blocare, nu neapărat urgență) de strangulare (ischemie, urgență) și a ferestrei de 4–6 ore.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    127
+   ],
+   "pdfPages": [
+    68
+   ],
+   "section": "Tablou clinic — Încarcerare și strangulare"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Definiția încarcerării ca ireductibilitate este explicită.",
+    "evidenceLocation": "Lawrence, p. 127, Tablou clinic — Încarcerare și strangulare"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Textul precizează că hernia încarcerată nedureroasă nu necesită urgență.",
+    "evidenceLocation": "Lawrence, p. 127, Tablou clinic — Încarcerare și strangulare"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Fereastra 4–6 ore pentru herniile recent încarcerate este citată.",
+    "evidenceLocation": "Lawrence, p. 127, Tablou clinic — Încarcerare și strangulare"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Reducerea sub sedare se acceptă doar la pacientul stabil, fără leucocitoză sau acidoză.",
+    "evidenceLocation": "Lawrence, p. 127, Tablou clinic — Încarcerare și strangulare"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Modificarea de culoare sugerează necroză, dar strangularea poate fi prezentă și fără acest semn; peritonita, acidoza și leucocitoza o indică.",
+    "evidenceLocation": "Lawrence, p. 127, Tablou clinic — Încarcerare și strangulare"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T15:31:57.229Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează condițiile de reducere sub sedare (leucocitoză/acidoză) și transformă culoarea tegumentului în criteriu de excludere."
+  },
+  "textbookExpressions": [
+   "4-6 ore",
+   "încarcerată"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-003",
+  "questionFingerprint": "1c5ad01c4b4f46d96308610a7e57bb95bcfec459d6673046f0d19d65ba36599a",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea pragului HbA1c <7 și a alegerii plasei biologice în câmp contaminat, față de supraestimarea suturii anatomice.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    128,
+    129
+   ],
+   "pdfPages": [
+    69,
+    70
+   ],
+   "section": "Factori ce țin de pacient — Tehnici alloplastice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Pragul A1C sub 7 înaintea chirurgiei elective este explicit.",
+    "evidenceLocation": "Lawrence, p. 128, 129, Factori ce țin de pacient — Tehnici alloplastice"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Efectul opririi fumatului asupra plămânului și plăgii este menționat.",
+    "evidenceLocation": "Lawrence, p. 128, 129, Factori ce țin de pacient — Tehnici alloplastice"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Materialele biologice/absorbabile sunt indicate în contaminare sau diabet dezechilibrat.",
+    "evidenceLocation": "Lawrence, p. 128, 129, Factori ce țin de pacient — Tehnici alloplastice"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Ținta nu este 9%; textul cere normalizare sub 7.",
+    "evidenceLocation": "Lawrence, p. 128, 129, Factori ce țin de pacient — Tehnici alloplastice"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Tehnicile alloplastice au risc mult mai scăzut de recidivă; anatomica este rezervată defectelor mici, cu risc minim.",
+    "evidenceLocation": "Lawrence, p. 128, 129, Factori ce țin de pacient — Tehnici alloplastice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T15:31:57.229Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Ridică pragul A1C la 9% și inversează relația recidivă plasă vs sutură anatomică."
+  },
+  "textbookExpressions": [
+   "valoarea de 7",
+   "plasele biologice"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-004",
+  "questionFingerprint": "832f64f3d54a72e0aa2ffc569406e2330272da6f2399a301234ead3439711ca5",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea riscului înalt de încarcerare al herniei femurale, inclusiv asimptomatice, și a diferenței de localizare față de hernia inghinală.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    133
+   ],
+   "pdfPages": [
+    74
+   ],
+   "section": "Herniile orificiului miopectineal — Hernia femurală"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Incidența mai mare la femei, pelvisul mai larg și indicația de a opera hernia femurală asimptomatică sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 133, Herniile orificiului miopectineal — Hernia femurală"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Spre deosebire de hernia OMP minim simptomatică, femurala asimptomatică se operează.",
+    "evidenceLocation": "Lawrence, p. 133, Herniile orificiului miopectineal — Hernia femurală"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Hernia femurală se simte complet sub ligamentul ilioinghinal.",
+    "evidenceLocation": "Lawrence, p. 133, Herniile orificiului miopectineal — Hernia femurală"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Riscul de încarcerare/strangulare este motivul intervenției.",
+    "evidenceLocation": "Lawrence, p. 133, Herniile orificiului miopectineal — Hernia femurală"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Herniile femurale necesită metode diferite, cu închiderea spațiului inferior al OMP; abordul posterior acoperă cele trei spații.",
+    "evidenceLocation": "Lawrence, p. 133, Herniile orificiului miopectineal — Hernia femurală"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T15:31:57.229Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Extinde protocolul de supraveghere al herniei inghinale minim simptomatice asupra femuralelor, o eroare de triaj."
+  },
+  "textbookExpressions": [
+   "hernii femurale",
+   "ligamentul ilioinghinal"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-005",
+  "questionFingerprint": "443981fcffe2cdd040f3f230c3c9d614ec26b586092e37aea76f10703cb2a879",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea celor patru entități eponime și a pericolului herniei Richter (strangulare fără ocluzie).",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    133
+   ],
+   "pdfPages": [
+    74
+   ],
+   "section": "Situații particulare — Richter, alunecare, Littre, Amyand"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Definiția Richter (porțiune de circumferință, fără simptome de ocluzie) este explicită.",
+    "evidenceLocation": "Lawrence, p. 133, Situații particulare — Richter, alunecare, Littre, Amyand"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Mecanismul herniei prin alunecare și riscul de contaminare intraoperatorie sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 133, Situații particulare — Richter, alunecare, Littre, Amyand"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Littre = diverticul Meckel în sac.",
+    "evidenceLocation": "Lawrence, p. 133, Situații particulare — Richter, alunecare, Littre, Amyand"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Amyand = apendice în sac.",
+    "evidenceLocation": "Lawrence, p. 133, Situații particulare — Richter, alunecare, Littre, Amyand"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "În Richter lumenul nu este implicat, deci nu există ocluzie completă.",
+    "evidenceLocation": "Lawrence, p. 133, Situații particulare — Richter, alunecare, Littre, Amyand"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T15:31:57.229Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează fiziopatologia Richter (ocluzie vs strangulare fără ocluzie), capcana clasică a acestei hernii."
+  },
+  "textbookExpressions": [
+   "hernia Richter",
+   "hernia Amyand"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-006",
+  "questionFingerprint": "8437f2018f15155144e27a21e929b21a5dc4952716740696e5293e0fb71483a4",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea acoperirii anterioare Lichtenstein (două spații) de plasa posterioară care include și spațiul femural.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    134,
+    133
+   ],
+   "pdfPages": [
+    75,
+    74
+   ],
+   "section": "Tehnici chirurgicale — Lichtenstein, TEP, TAPP"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Descrierea Lichtenstein (plasă anterioară, spații direct/indirect, deasupra ligamentului) este explicită.",
+    "evidenceLocation": "Lawrence, p. 134, 133, Tehnici chirurgicale — Lichtenstein, TEP, TAPP"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Acoperirea celor trei spații prin TEP/TAPP este numită unică.",
+    "evidenceLocation": "Lawrence, p. 134, 133, Tehnici chirurgicale — Lichtenstein, TEP, TAPP"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Recomandarea de abord posterior pentru hernia femurală este enunțată.",
+    "evidenceLocation": "Lawrence, p. 134, 133, Tehnici chirurgicale — Lichtenstein, TEP, TAPP"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Utilizarea protezei este standardul; procedeele tisulare sunt rezervate câmpului contaminat.",
+    "evidenceLocation": "Lawrence, p. 134, 133, Tehnici chirurgicale — Lichtenstein, TEP, TAPP"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "TEP nu intră în cavitatea peritoneală; TAPP pătrunde intraperitoneal.",
+    "evidenceLocation": "Lawrence, p. 134, 133, Tehnici chirurgicale — Lichtenstein, TEP, TAPP"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T15:31:57.229Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează TEP cu TAPP și restabilește greșit procedeele tisulare ca standard în câmp curat."
+  },
+  "textbookExpressions": [
+   "Lichtenstein",
+   "orificiul miopectineal"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-007",
+  "questionFingerprint": "3691344b96bbe9eb69f7bbf962daf0af7a72713c64479568db3ece8867935bb0",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea pragului de 12 săptămâni și a incidenței 5–10% pentru durerea cronică post-herniorafie OMP.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    136
+   ],
+   "pdfPages": [
+    77
+   ],
+   "section": "Complicații postoperatorii — Durerea cronică"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Textul definește durerea cronică ca persistând mai mult de 12 săptămâni, la 5–10% dintre pacienți.",
+    "evidenceLocation": "Lawrence, p. 136, Complicații postoperatorii — Durerea cronică"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "48 de ore descrie inflamația acută, nu cronicizarea.",
+    "evidenceLocation": "Lawrence, p. 136, Complicații postoperatorii — Durerea cronică"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Seromul se resorbe în timp și nu redefinește pragul durerii cronice.",
+    "evidenceLocation": "Lawrence, p. 136, Complicații postoperatorii — Durerea cronică"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Echimoză/tumefacție scrotală sunt așteptări imediate, nu durere cronică.",
+    "evidenceLocation": "Lawrence, p. 136, Complicații postoperatorii — Durerea cronică"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Hipoestezia de incizie este frecventă în abord deschis și nu definește cronicizarea la 24 de ore.",
+    "evidenceLocation": "Lawrence, p. 136, Complicații postoperatorii — Durerea cronică"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T15:31:57.229Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii înlocuiesc pragul de 12 săptămâni cu intervale ale inflamației acute sau ale echimozelor."
+  },
+  "textbookExpressions": [
+   "5-10%",
+   "12 săptămâni"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-008",
+  "questionFingerprint": "987e417e129962bf6a26fd212f8e3d42b46a05b7ae30448ab96f96a576c180f6",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea seromului de recidivă (fără Valsalva) și evitarea puncției seromului necomplicat.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    130
+   ],
+   "pdfPages": [
+    71
+   ],
+   "section": "Complicații postoperatorii — Seromul"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Absența expansiunii la Valsalva și caracterul de obicei nedureros sunt explicit contrastate cu recidiva.",
+    "evidenceLocation": "Lawrence, p. 130, Complicații postoperatorii — Seromul"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Drenarea seromului necomplicat este descurajată din cauza infecției.",
+    "evidenceLocation": "Lawrence, p. 130, Complicații postoperatorii — Seromul"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Impulsul la tuse și drenajul de principiu descriu conduita greșită, rezervată recidivei suspectate.",
+    "evidenceLocation": "Lawrence, p. 130, Complicații postoperatorii — Seromul"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Chiar și după excizia sacului, mai ales în hernii mari, riscul nu dispare complet.",
+    "evidenceLocation": "Lawrence, p. 130, Complicații postoperatorii — Seromul"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Drenajul seromului necomplicat crește, nu scade, riscul de infectare a plasei.",
+    "evidenceLocation": "Lawrence, p. 130, Complicații postoperatorii — Seromul"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T15:31:57.229Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Tratează seromul ca recidivă (Valsalva pozitiv, drenaj imediat), o eroare care infectează plasa."
+  },
+  "textbookExpressions": [
+   "seromul",
+   "manevra Valsalva"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-009",
+  "questionFingerprint": "548261be0bb7f21ffc5703cf8629c58fedd7740ecd2d5f6ab93c279c3ccfbc0d",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea tecii anterioare (xifoid–pube) cu terminarea tecii posterioare la linia arcuată și stratigrafia laterală.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    125
+   ],
+   "pdfPages": [
+    66
+   ],
+   "section": "Anatomie — Linea alba și linia arcuată"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Definiția linei alba este explicită.",
+    "evidenceLocation": "Lawrence, p. 125, Anatomie — Linea alba și linia arcuată"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Terminarea tecii posterioare imediat subombilical, ca linia arcuată, este citată.",
+    "evidenceLocation": "Lawrence, p. 125, Anatomie — Linea alba și linia arcuată"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Compoziția sub linia arcuată (drept + teacă anterioară) este enunțată.",
+    "evidenceLocation": "Lawrence, p. 125, Anatomie — Linea alba și linia arcuată"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Succesiunea oblic extern–intern–transvers–transversalis–peritoneu este descrisă.",
+    "evidenceLocation": "Lawrence, p. 125, Anatomie — Linea alba și linia arcuată"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Fascia transversalis este cel mai profund strat, sub transvers.",
+    "evidenceLocation": "Lawrence, p. 125, Anatomie — Linea alba și linia arcuată"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează teaca anterioară cu cea posterioară și mută fascia transversalis la suprafață."
+  },
+  "textbookExpressions": [
+   "linea semilunaris",
+   "linia arcuată"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-010",
+  "questionFingerprint": "72edc68c84edb18ef7d7613471f95253b89353f20c01cf5d6a1cf06826b38801",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea localizării la linia arcuată și a „ascunderii” sub oblicul extern intact.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    126
+   ],
+   "pdfPages": [
+    67
+   ],
+   "section": "Situații particulare — Hernia Spiegel"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Zona de unire la linia arcuată este definiția.",
+    "evidenceLocation": "Lawrence, p. 126, Situații particulare — Hernia Spiegel"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Cadranele inferioare, straturile posterioare și oblicul extern intact sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 126, Situații particulare — Hernia Spiegel"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Canalul femural definește hernia femurală, nu Spiegel.",
+    "evidenceLocation": "Lawrence, p. 126, Situații particulare — Hernia Spiegel"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nevizibilitatea nu anulează riscul de încarcerare.",
+    "evidenceLocation": "Lawrence, p. 126, Situații particulare — Hernia Spiegel"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Diastazisul nu are defect; Spiegel are defect posterior.",
+    "evidenceLocation": "Lawrence, p. 126, Situații particulare — Hernia Spiegel"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Tratează Spiegel ca diastazis sau ca hernie femurală, două entități vecine din același capitol."
+  },
+  "textbookExpressions": [
+   "hernia Spiegel",
+   "liniei arcuate"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-011",
+  "questionFingerprint": "977384c7d5f6f6f6dd2f195d57e9cad6a8c369fbc634dc1151e4ec1c0b1f968b",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea mecanismului (defectul de stomă) și a opțiunilor de reparație versus relocare.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    126
+   ],
+   "pdfPages": [
+    67
+   ],
+   "section": "Herniile parastomale"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Definiția și impactul asupra funcției stomei sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 126, Herniile parastomale"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Tehnicile laparoscopic/deschis și relocarea sunt listate.",
+    "evidenceLocation": "Lawrence, p. 126, Herniile parastomale"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Sunt dobândite după stomă, nu congenitale.",
+    "evidenceLocation": "Lawrence, p. 126, Herniile parastomale"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Textul precizează că pot afecta funcția stomei.",
+    "evidenceLocation": "Lawrence, p. 126, Herniile parastomale"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Relocarea într-o zonă indemnă este o opțiune.",
+    "evidenceLocation": "Lawrence, p. 126, Herniile parastomale"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Transformă hernia parastomală într-o entitate congenitală și exclude relocarea, menționată explicit."
+  },
+  "textbookExpressions": [
+   "Herniile parastomale",
+   "relocarea stomei"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-012",
+  "questionFingerprint": "d6ade625df0489695500ceca313d41b11627b92bda1a7e0db2f46e3735cb8d7b",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea axului epigastric central de ramurile segmentare laterale.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    125
+   ],
+   "pdfPages": [
+    66
+   ],
+   "section": "Vascularizație și inervație"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Epigastricele superioare și inferioare definesc axul central.",
+    "evidenceLocation": "Lawrence, p. 125, Vascularizație și inervație"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Perforantele din epigastrice sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 125, Vascularizație și inervație"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Ramurile segmentare laterale sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 125, Vascularizație și inervație"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Artera femurală nu este axul central.",
+    "evidenceLocation": "Lawrence, p. 125, Vascularizație și inervație"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Perforantele există și vascularizează tegumentul.",
+    "evidenceLocation": "Lawrence, p. 125, Vascularizație și inervație"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Înlocuiește axul epigastric cu artera femurală, o confuzie de pedicul de lambou."
+  },
+  "textbookExpressions": [
+   "epigastrice superioare",
+   "ramuri segmentare"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-013",
+  "questionFingerprint": "727f5e1f2c18aa731d08ebd6967341050fa255f75d7b2b462bde91258dfbcd83",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea onlay / underlay preperitoneal / punte față de contactul intraperitoneal neprotejat.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    129
+   ],
+   "pdfPages": [
+    70
+   ],
+   "section": "Poziționarea plasei — Onlay, underlay, punte"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Onlay-ul de întărire este primul mod descris.",
+    "evidenceLocation": "Lawrence, p. 129, Poziționarea plasei — Onlay, underlay, punte"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Underlay preperitoneal reduce eroziunea prin peritoneu.",
+    "evidenceLocation": "Lawrence, p. 129, Poziționarea plasei — Onlay, underlay, punte"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Puntea de substituție este indicată la defecte nereductibile.",
+    "evidenceLocation": "Lawrence, p. 129, Poziționarea plasei — Onlay, underlay, punte"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Contactul intraperitoneal direct crește riscul de eroziune; există plase dedicate, dar nu este „cea mai sigură”.",
+    "evidenceLocation": "Lawrence, p. 129, Poziționarea plasei — Onlay, underlay, punte"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Biologicele/absorbabilele sunt preferate în contaminare.",
+    "evidenceLocation": "Lawrence, p. 129, Poziționarea plasei — Onlay, underlay, punte"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează riscul eroziv intraperitoneal și alegerea plasei în câmp contaminat."
+  },
+  "textbookExpressions": [
+   "manieră „onlay\"",
+   "spaţiul preperitoneal"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-014",
+  "questionFingerprint": "1d5ee0d01bddb9e96ac045c39939ce6d62cd76235b567bcd16e2588f51fd52e4",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea indicației (hernii mediane mari) și a câștigului de 10–12 cm prin eliberarea oblicului extern.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    129
+   ],
+   "pdfPages": [
+    70
+   ],
+   "section": "Separarea componentelor"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Rezervarea pentru hernii mari mediane/recidive este explicită.",
+    "evidenceLocation": "Lawrence, p. 129, Separarea componentelor"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Incizia aponevrozei oblicului extern și 10–12 cm sunt citate.",
+    "evidenceLocation": "Lawrence, p. 129, Separarea componentelor"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Asocierea cu underlay preperitoneal este menționată.",
+    "evidenceLocation": "Lawrence, p. 129, Separarea componentelor"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Câștigul citat este 10–12 cm, nu 1–2 cm.",
+    "evidenceLocation": "Lawrence, p. 129, Separarea componentelor"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Manevra vizează oblicul extern, nu internul.",
+    "evidenceLocation": "Lawrence, p. 129, Separarea componentelor"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Coboară câștigul de 10–12 cm la 1–2 cm și mută incizia pe oblicul intern."
+  },
+  "textbookExpressions": [
+   "I 0-12 cm",
+   "oblic extern"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-015",
+  "questionFingerprint": "2d3ace051b163c6558f4e2442dbd73517a2254990a535ca4db6d194fa147e3de",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea reducerii IPC în MIS cu avantajele deschisului (timp, anestezie, excizie de piele).",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    129,
+    130
+   ],
+   "pdfPages": [
+    70,
+    71
+   ],
+   "section": "Abord minim-invaziv versus deschis"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Beneficiile MIS și costul (AG, adezioliză) sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 129, 130, Abord minim-invaziv versus deschis"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Timpul mai scurt, evitarea AG și indicația de revizuire cutanată definesc deschisul.",
+    "evidenceLocation": "Lawrence, p. 129, 130, Abord minim-invaziv versus deschis"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "MIS cere AG și adezioliză.",
+    "evidenceLocation": "Lawrence, p. 129, 130, Abord minim-invaziv versus deschis"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Reducerea IPC este avantajul principal al MIS, nu al deschisului.",
+    "evidenceLocation": "Lawrence, p. 129, 130, Abord minim-invaziv versus deschis"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Trocarele se plasează adesea la distanță de hernie.",
+    "evidenceLocation": "Lawrence, p. 129, 130, Abord minim-invaziv versus deschis"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează avantajul de IPC și nevoia de anestezie generală între MIS și deschis."
+  },
+  "textbookExpressions": [
+   "infecţiilor de plagă",
+   "anestezia generală"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-016",
+  "questionFingerprint": "9a345236a29fd4ad33add6a10c26e1ea2f95dc5d790b763ac90fe8ca8cbf57d0",
+  "status": "source-checked",
+  "learningObjective": "Listarea factorilor de risc de recidivă și a indicației de imagistică la simptome noi.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    131
+   ],
+   "pdfPages": [
+    72
+   ],
+   "section": "Recidiva postoperatorie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Lista de factori este explicită.",
+    "evidenceLocation": "Lawrence, p. 131, Recidiva postoperatorie"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Reevaluarea și ecografia/CT la examen neconcludent sunt cerute.",
+    "evidenceLocation": "Lawrence, p. 131, Recidiva postoperatorie"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Toate herniile au potențial de recidivă.",
+    "evidenceLocation": "Lawrence, p. 131, Recidiva postoperatorie"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Obezitatea și fumatul cresc riscul.",
+    "evidenceLocation": "Lawrence, p. 131, Recidiva postoperatorie"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Tusea cronică este listată ca factor.",
+    "evidenceLocation": "Lawrence, p. 131, Recidiva postoperatorie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Anulează potențialul de recidivă după plasă și inversează rolul fumatului/obezității."
+  },
+  "textbookExpressions": [
+   "obezitatea, vârsta, fumatul",
+   "tuse cronică"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-017",
+  "questionFingerprint": "852b8c849f20f055ff93093711233df1d09dadf43c21641e5a5d1087e94b11b2",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea celor patru limite și a tendonului conjunct (3–6%).",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    131
+   ],
+   "pdfPages": [
+    72
+   ],
+   "section": "OMP — Limite anatomice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cooper/linia pectineală este limita inferioară.",
+    "evidenceLocation": "Lawrence, p. 131, OMP — Limite anatomice"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Iliopsoasul medial este limita laterală.",
+    "evidenceLocation": "Lawrence, p. 131, OMP — Limite anatomice"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Arcadă musculară superior și dreptul medial completează cadranul.",
+    "evidenceLocation": "Lawrence, p. 131, OMP — Limite anatomice"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Tendonul conjunct în 3–6% este precizat.",
+    "evidenceLocation": "Lawrence, p. 131, OMP — Limite anatomice"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Limita inferioară este Cooper, nu ligamentul inghinal ca substitut.",
+    "evidenceLocation": "Lawrence, p. 131, OMP — Limite anatomice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Înlocuiește ligamentul Cooper cu ligamentul inghinal ca limită inferioară, o confuzie de reper clasică."
+  },
+  "textbookExpressions": [
+   "ligamentul lui Cooper",
+   "3-6% dintre cazuri"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-018",
+  "questionFingerprint": "ee1eb021e53cc611a673482abff2dbe17541571728994ed62e791a6029cc14a0",
+  "status": "source-checked",
+  "learningObjective": "Împărțirea de către Poupart în spațiu femural versus canal inghinal (direct/indirect).",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    131
+   ],
+   "pdfPages": [
+    72
+   ],
+   "section": "Spațiile OMP"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Împărțirea de ligamentul ilioinghinal este explicită.",
+    "evidenceLocation": "Lawrence, p. 131, Spațiile OMP"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Spațiul gol ca loc al herniei femurale este citat.",
+    "evidenceLocation": "Lawrence, p. 131, Spațiile OMP"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Directa și indirecta stau deasupra ligamentului.",
+    "evidenceLocation": "Lawrence, p. 131, Spațiile OMP"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "OMP nu conține strat muscular, spre deosebire de peretele abdominal.",
+    "evidenceLocation": "Lawrence, p. 131, Spațiile OMP"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Canalul femural este locul herniei femurale.",
+    "evidenceLocation": "Lawrence, p. 131, Spațiile OMP"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Mută hernia directă în canalul femural și atribuie OMP un strat muscular inexistent."
+  },
+  "textbookExpressions": [
+   "ligamentul ilioinghinal",
+   "spaţiu femural"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-019",
+  "questionFingerprint": "72607b297f14f85f1695ae458d1cc0df77abe34a589523a3bfb8dc41971e8e05",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea McVay (Cooper, inclusiv femurală, cu relaxare) de Bassini/Shouldice (fără femurală).",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    135
+   ],
+   "pdfPages": [
+    76
+   ],
+   "section": "Tabelul 11.1 — McVay, Bassini, Shouldice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Sutura la Cooper, indicația femurală și incizia de relaxare sunt tabelate.",
+    "evidenceLocation": "Lawrence, p. 135, Tabelul 11.1 — McVay, Bassini, Shouldice"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Sutura doar la ilioinghinal fără femurală descrie Bassini, nu McVay.",
+    "evidenceLocation": "Lawrence, p. 135, Tabelul 11.1 — McVay, Bassini, Shouldice"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Fără tensiune și fără femurală descrie Shouldice.",
+    "evidenceLocation": "Lawrence, p. 135, Tabelul 11.1 — McVay, Bassini, Shouldice"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "McVay este tocmai procedeul tisular pentru femurală.",
+    "evidenceLocation": "Lawrence, p. 135, Tabelul 11.1 — McVay, Bassini, Shouldice"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Proteza este standardul în câmp curat; tisularul se rezervă contaminării.",
+    "evidenceLocation": "Lawrence, p. 135, Tabelul 11.1 — McVay, Bassini, Shouldice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Confundă McVay cu Bassini/Shouldice pe coloana „tipuri de hernii” a aceluiași tabel."
+  },
+  "textbookExpressions": [
+   "McVay",
+   "ligamentul Cooper"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-020",
+  "questionFingerprint": "15cbc3013b38bf7103c070d9b8aecaa84be79c4b304846cf214c4ef8f00e8505",
+  "status": "source-checked",
+  "learningObjective": "Maparea celor trei nervi pe abord deschis versus MIS și pe teritoriul senzitiv.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    136
+   ],
+   "pdfPages": [
+    77
+   ],
+   "section": "Durere cronică — Nervii OMP"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Traiectul ilioinghinal, iradierea scrotală/labială și predilecția abordului deschis sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 136, Durere cronică — Nervii OMP"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Trecerea genitofemuralului prin inelul intern și lezarea MIS sunt citate.",
+    "evidenceLocation": "Lawrence, p. 136, Durere cronică — Nervii OMP"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Teritoriul anterolateral al coapsei definește cutanatul lateral femural.",
+    "evidenceLocation": "Lawrence, p. 136, Durere cronică — Nervii OMP"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Ilioinghinalul NU trece prin inelul intern.",
+    "evidenceLocation": "Lawrence, p. 136, Durere cronică — Nervii OMP"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Genitofemuralul trece tocmai prin inelul intern.",
+    "evidenceLocation": "Lawrence, p. 136, Durere cronică — Nervii OMP"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează care nerv trece prin inelul intern și, deci, care abord îl lezează."
+  },
+  "textbookExpressions": [
+   "nervul ilioinghinal",
+   "inelul inghinal intern"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-021",
+  "questionFingerprint": "e9cf6f021d8828335759b1f214082404ea901725fbb3b49ea5b28a7007093069",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea predilecției pentru recidivă, a conduitei cu AINS și a atrofiei tardive versus infarctul rar.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    136
+   ],
+   "pdfPages": [
+    77
+   ],
+   "section": "Complicații — Orhita"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Predilecția pentru recidivă și plexul pampiniform sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 136, Complicații — Orhita"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Diferențierea de inflamația obișnuită și AINS sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 136, Complicații — Orhita"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Colateralele și riscul de atrofie sunt menționate.",
+    "evidenceLocation": "Lawrence, p. 136, Complicații — Orhita"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Orhidectomia nu este conduita de primă intenție.",
+    "evidenceLocation": "Lawrence, p. 136, Complicații — Orhita"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Colateralele există; edemul scrotal imediat este adesea așteptat.",
+    "evidenceLocation": "Lawrence, p. 136, Complicații — Orhita"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Transformă orhita autolimitată în indicație de orhidectomie și neagă circulația colaterală."
+  },
+  "textbookExpressions": [
+   "Orhita",
+   "plexul venos pampiniform"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-022",
+  "questionFingerprint": "eacef423cbddaec53d7b3eb1417f48f1ea422700aaa1767ed256dfc8105ad4fd",
+  "status": "source-checked",
+  "learningObjective": "Separarea pubalgiei de efort de hernia adevărată și recunoașterea diagnosticului diferențial larg.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    136
+   ],
+   "pdfPages": [
+    77
+   ],
+   "section": "Sindromul durerii inghinale pubiene"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Tensiunea adductorilor și contextul de efort sunt definiția.",
+    "evidenceLocation": "Lawrence, p. 136, Sindromul durerii inghinale pubiene"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Patternul efort–odihnă–reluare este descris.",
+    "evidenceLocation": "Lawrence, p. 136, Sindromul durerii inghinale pubiene"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Tabelul 11-2 listează sportive, șold, GU și GI.",
+    "evidenceLocation": "Lawrence, p. 136, Sindromul durerii inghinale pubiene"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu este o hernie femurală încarcerată.",
+    "evidenceLocation": "Lawrence, p. 136, Sindromul durerii inghinale pubiene"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Absența formațiunii este tocmai cadrul clinic al inghinodiniei.",
+    "evidenceLocation": "Lawrence, p. 136, Sindromul durerii inghinale pubiene"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Operează pubalgia ca hernie femurală strangulată, capcana clasică a „herniei sportivului”."
+  },
+  "textbookExpressions": [
+   "hernia sportivului",
+   "inghinodiniei"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-023",
+  "questionFingerprint": "998ff6681b7d1d675ae6dd808062ef1605b9bd8f521e79a91307c56d2355f169",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea profilului „femeii bătrâne emaciate” și a semnului Howship-Romberg.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    137
+   ],
+   "pdfPages": [
+    78
+   ],
+   "section": "Hernia obturatorie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Localizarea la canalul obturator, inferior OMP, este explicită.",
+    "evidenceLocation": "Lawrence, p. 137, Hernia obturatorie"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Profilul epidemiologic și eponimul sunt citate.",
+    "evidenceLocation": "Lawrence, p. 137, Hernia obturatorie"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Howship-Romberg este definit prin rotația medială.",
+    "evidenceLocation": "Lawrence, p. 137, Hernia obturatorie"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Este rară, la femeia vârstnică, nu la bărbatul tânăr.",
+    "evidenceLocation": "Lawrence, p. 137, Hernia obturatorie"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Howship-Romberg este pozitiv, nu un semn de excludere.",
+    "evidenceLocation": "Lawrence, p. 137, Hernia obturatorie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Mută hernia obturatorie pe bărbatul tânăr și inversează semnul Howship-Romberg."
+  },
+  "textbookExpressions": [
+   "Howship-Romberg",
+   "femeii bătrâne"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-024",
+  "questionFingerprint": "8aefa6ee27264ea41040b9f0114eabe37a349b94e8d4256bbb90a95d056e31da",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea suspiciunii înalte, a CT/intraoperatorului și a faptului că cele asimptomatice nu se rezolvă independent.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    137
+   ],
+   "pdfPages": [
+    78
+   ],
+   "section": "Hernia obturatorie — Diagnostic"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Dificultatea diagnosticului și ocluzia acută sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 137, Hernia obturatorie — Diagnostic"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Teritoriul anteromedial și tușeul rectal rar pozitiv sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 137, Hernia obturatorie — Diagnostic"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "CT sau descoperirea intraoperatorie sunt calea uzuală.",
+    "evidenceLocation": "Lawrence, p. 137, Hernia obturatorie — Diagnostic"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Textul precizează că nu se rezolvă independent, ci odată cu ocluzia.",
+    "evidenceLocation": "Lawrence, p. 137, Hernia obturatorie — Diagnostic"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Palparea este rară; diagnosticul este imagistic sau intraoperator.",
+    "evidenceLocation": "Lawrence, p. 137, Hernia obturatorie — Diagnostic"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Transformă hernia obturatorie asimptomatică într-o urgență independentă, contrar ultimei fraze a paragrafului."
+  },
+  "textbookExpressions": [
+   "tomografie computerizată",
+   "ocluzii a intestinului"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-025",
+  "questionFingerprint": "ed2842833defe53b5f788124f8e000415cab9d3cf5679166ffba5c9890a59034",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea herniei ventrale primare de ombilicală și de incizională.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    125
+   ],
+   "pdfPages": [
+    66
+   ],
+   "section": "Tipuri de hernii ale peretelui"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Definiția ventralei primare (fără incizie, mediană) este explicită.",
+    "evidenceLocation": "Lawrence, p. 125, Tipuri de hernii ale peretelui"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Protruzia ombilicală definește ombilicala.",
+    "evidenceLocation": "Lawrence, p. 125, Tipuri de hernii ale peretelui"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Incizionala pe cicatrice, oriunde, este citată.",
+    "evidenceLocation": "Lawrence, p. 125, Tipuri de hernii ale peretelui"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Incizionala, nu primara, stă pe locul laparotomiei.",
+    "evidenceLocation": "Lawrence, p. 125, Tipuri de hernii ale peretelui"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Ombilicala are defect; diastazisul este entitatea fără defect.",
+    "evidenceLocation": "Lawrence, p. 125, Tipuri de hernii ale peretelui"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Confundă ventrala primară cu incizionala și ombilicala cu diastazisul."
+  },
+  "textbookExpressions": [
+   "Herniile ventrale",
+   "Herniile incizionale"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-026",
+  "questionFingerprint": "9298fabbc517aae7e5c5f426816b26c67952fe9f33e89e3a8c53e48d26533781",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea caracterului adesea limitat și a predominanței după OMP.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    130,
+    136
+   ],
+   "pdfPages": [
+    71,
+    77
+   ],
+   "section": "Neuropatii postoperatorii"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Simptomele și conduita conservatoare inițială sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 130, 136, Neuropatii postoperatorii"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Predominanța după OMP este explicită.",
+    "evidenceLocation": "Lawrence, p. 130, 136, Neuropatii postoperatorii"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Reintervenția urgentă cu explant nu este conduita de primă linie.",
+    "evidenceLocation": "Lawrence, p. 130, 136, Neuropatii postoperatorii"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Textul le leagă mai ales de OMP.",
+    "evidenceLocation": "Lawrence, p. 130, 136, Neuropatii postoperatorii"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Hipoestezia de incizie este frecventă în abordul deschis al OMP.",
+    "evidenceLocation": "Lawrence, p. 130, 136, Neuropatii postoperatorii"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Transformă neuropatia limitată în indicație de explant la 24 de ore și inversează predominanța OMP versus ventrală."
+  },
+  "textbookExpressions": [
+   "parestezii",
+   "herniile de OMP"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-027",
+  "questionFingerprint": "15159c32e0f0abe6fc6247999534389727bebfa618eb9d2e1e1f402bef0448bb",
+  "status": "source-checked",
+  "learningObjective": "Normalizarea echimozelor la distanță față de reintervenția inutilă.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    134,
+    135
+   ],
+   "pdfPages": [
+    75,
+    76
+   ],
+   "section": "Complicații imediate — Echimoze scrotale"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Apariția la distanță și caracterul alarmant sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 134, 135, Complicații imediate — Echimoze scrotale"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Echimoza nu definește recidiva și nu cere urgență de 4–6 ore.",
+    "evidenceLocation": "Lawrence, p. 134, 135, Complicații imediate — Echimoze scrotale"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Ilioinghinalul se recunoaște prin teritoriul senzitiv, nu prin echimoză.",
+    "evidenceLocation": "Lawrence, p. 134, 135, Complicații imediate — Echimoze scrotale"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Un suport scrotal poate ameliora simptomele, nu precipită orhita.",
+    "evidenceLocation": "Lawrence, p. 134, 135, Complicații imediate — Echimoze scrotale"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Echimoza labială este o consecință a disecției OMP, nu un semn de obturatorie.",
+    "evidenceLocation": "Lawrence, p. 134, 135, Complicații imediate — Echimoze scrotale"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Tratează echimoza scrotală așteptată ca recidivă de urgență, o confuzie cu fereastra 4–6 ore a încarcerării."
+  },
+  "textbookExpressions": [
+   "echimoze pe scrot",
+   "suport scrotal"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-028",
+  "questionFingerprint": "15e9cb24afdc44a4112a8fed8ece5535ab066c2f7a046e667491aa9fdd3336e7",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea OMP ca cilindru cu aspect oval anterior și patrulater posterior.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    131
+   ],
+   "pdfPages": [
+    72
+   ],
+   "section": "OMP — Geometrie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cilindrul și schimbarea oval/patrulater sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 131, OMP — Geometrie"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Consecința asupra abordului deschis versus MIS este enunțată.",
+    "evidenceLocation": "Lawrence, p. 131, OMP — Geometrie"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Textul neagă caracterul de plan.",
+    "evidenceLocation": "Lawrence, p. 131, OMP — Geometrie"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "OMP nu conține strat muscular.",
+    "evidenceLocation": "Lawrence, p. 131, OMP — Geometrie"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Cele două perspective diferă tocmai de aceea.",
+    "evidenceLocation": "Lawrence, p. 131, OMP — Geometrie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Aplatizează cilindrul OMP într-un plan unic, anulând rațiunea anatomică a TEP/TAPP."
+  },
+  "textbookExpressions": [
+   "nu este un plan",
+   "un cilindru"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Lawrence (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-029",
+  "questionFingerprint": "eac538dab375d2ce5f14f49518a46f5733a4ae49d8851b430c5026ffb0176133",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea definiției (defect muscular-fascial bine delimitat cu exteriorizare viscerală), distinctă de diastazis.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    125
+   ],
+   "pdfPages": [
+    66
+   ],
+   "section": "Definiție — Defect parietal"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Definiția cu defect bine definit și exteriorizare este explicită.",
+    "evidenceLocation": "Lawrence, p. 125, Definiție — Defect parietal"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Subțierea fără defect descrie diastazisul, nu hernia.",
+    "evidenceLocation": "Lawrence, p. 125, Definiție — Defect parietal"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Hernia comunică cu cavitatea abdominală.",
+    "evidenceLocation": "Lawrence, p. 125, Definiție — Defect parietal"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Textul leagă hernia de încarcerare, ocluzie și strangulare.",
+    "evidenceLocation": "Lawrence, p. 125, Definiție — Defect parietal"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Defectul vizat este muscular și fascial, nu doar cutanat.",
+    "evidenceLocation": "Lawrence, p. 125, Definiție — Defect parietal"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Egalizează hernia (defect) cu diastazisul (fără defect), confuzia de deschidere a capitolului."
+  },
+  "textbookExpressions": [
+   "defect parietal",
+   "structurilor musculare"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-030",
+  "questionFingerprint": "aa990e33382ef04d3f43635fddd623bf004b2d4887221b9151fd9ea141dac0ae",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea supravegherii herniei asimptomatice reductibile cu riscul crescut la defect mic / conținut mare.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    127
+   ],
+   "pdfPages": [
+    68
+   ],
+   "section": "Tablou clinic — Cele patru tipuri"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cele patru tipuri sunt enumerate.",
+    "evidenceLocation": "Lawrence, p. 127, Tablou clinic — Cele patru tipuri"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Reductibilitatea și absența indicației operatorii la asimptomatice sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 127, Tablou clinic — Cele patru tipuri"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Defectul mic și conținutul voluminos cresc riscul.",
+    "evidenceLocation": "Lawrence, p. 127, Tablou clinic — Cele patru tipuri"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Asimptomaticele nu se operează de urgență; strangularea e ischemie, nu reductibilitate.",
+    "evidenceLocation": "Lawrence, p. 127, Tablou clinic — Cele patru tipuri"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Textul precizează că herniile reductibile pot fi simptomatice.",
+    "evidenceLocation": "Lawrence, p. 127, Tablou clinic — Cele patru tipuri"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Transformă hernia asimptomatică reductibilă în urgență de strangulare, inversul paragrafului."
+  },
+  "textbookExpressions": [
+   "asimptomatice, simptomatice",
+   "defect parietal de mici dimensiuni"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-031",
+  "questionFingerprint": "b5215b15b4d92ce076362f0c9de6f5ddac025d7bf02c04e858ac876097378f3e",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea internării obligatorii după reducere, din cauza ischemiei oculta a viscerelor reintroduse.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    127
+   ],
+   "pdfPages": [
+    68
+   ],
+   "section": "Reducere sub sedare — Supravegherea ulterioară"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Internarea și riscul de strangulare prealabilă sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 127, Reducere sub sedare — Supravegherea ulterioară"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Infarctizarea/ischemia și indicația de explorare sunt citate.",
+    "evidenceLocation": "Lawrence, p. 127, Reducere sub sedare — Supravegherea ulterioară"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Externarea imediată contrazice monitorizarea cerută.",
+    "evidenceLocation": "Lawrence, p. 127, Reducere sub sedare — Supravegherea ulterioară"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Acidoza prealabilă contraindica reducerea, nu explorarea.",
+    "evidenceLocation": "Lawrence, p. 127, Reducere sub sedare — Supravegherea ulterioară"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Fereastra de supraveghere este imediată, nu la 6 luni.",
+    "evidenceLocation": "Lawrence, p. 127, Reducere sub sedare — Supravegherea ulterioară"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Externează imediat după reducere, anulând riscul de ischemie a viscerelor reintroduse."
+  },
+  "textbookExpressions": [
+   "internat şi monitorizat",
+   "celiotomie"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-032",
+  "questionFingerprint": "a93317ca2db8d393b7499a356324e160a59db0698debe79552e5721730c49b5f",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea triadei nutriție / control ponderal / profilaxie TVP (mecanică ± chemoprofilaxie).",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    128
+   ],
+   "pdfPages": [
+    69
+   ],
+   "section": "Factori modificabili — Nutriție, greutate, TVP"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Reechilibrarea nutrițională este explicită.",
+    "evidenceLocation": "Lawrence, p. 128, Factori modificabili — Nutriție, greutate, TVP"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Efectul controlului ponderal asupra recidivei este citat.",
+    "evidenceLocation": "Lawrence, p. 128, Factori modificabili — Nutriție, greutate, TVP"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Compreshia pentru majoritate și anticoagularea la risc crescut sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 128, Factori modificabili — Nutriție, greutate, TVP"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Stoparea fumatului, nu fumatul, previne complicațiile; nutriția contează.",
+    "evidenceLocation": "Lawrence, p. 128, Factori modificabili — Nutriție, greutate, TVP"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Textul cere un plan de bridging la cei deja anticoagulați.",
+    "evidenceLocation": "Lawrence, p. 128, Factori modificabili — Nutriție, greutate, TVP"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează rolul fumatului și anulează bridging-ul, două măsuri perioperatorii din același paragraf."
+  },
+  "textbookExpressions": [
+   "Reechilibrarea nutriţională",
+   "chemoprofilaxie"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-033",
+  "questionFingerprint": "1ffba728843b8823f6cd683827b0073a88442dead2906832cd03f02c2d04f9c3",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea lidocainei, a blocului PTA și a blocurilor neuraxiale ca alternative care reduc depresia respiratorie.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    128
+   ],
+   "pdfPages": [
+    69
+   ],
+   "section": "Planificarea perioperatorie — Blocuri PTA"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cele trei modalități sunt enumerate explicit.",
+    "evidenceLocation": "Lawrence, p. 128, Planificarea perioperatorie — Blocuri PTA"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Scopul este reducerea opioidelor și a depresiei respiratorii.",
+    "evidenceLocation": "Lawrence, p. 128, Planificarea perioperatorie — Blocuri PTA"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Lidocaina este citată ca infiltrare.",
+    "evidenceLocation": "Lawrence, p. 128, Planificarea perioperatorie — Blocuri PTA"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Blocul PTA este tocmai o alternativă recomandată.",
+    "evidenceLocation": "Lawrence, p. 128, Planificarea perioperatorie — Blocuri PTA"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Indicația ține de herniorafie, nu de diastazis.",
+    "evidenceLocation": "Lawrence, p. 128, Planificarea perioperatorie — Blocuri PTA"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Elimină blocul PTA și epidurala, tocmai alternativele non-narcotice din protocolul de recuperare."
+  },
+  "textbookExpressions": [
+   "planului transvers abdominal",
+   "lidocaină"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-034",
+  "questionFingerprint": "46472443e5c882e5d6776e02e0c4f8f0bd608338c4c4ff1a318da9c45a4d2aaa",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea inelului intern (transversalis, posterior) cu cel extern (oblic extern, anterior) și a hidrocelului din procesul vaginal persistent.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    132
+   ],
+   "pdfPages": [
+    73
+   ],
+   "section": "Inel intern, inel extern și proces vaginal"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Definiția inelului intern este explicită.",
+    "evidenceLocation": "Lawrence, p. 132, Inel intern, inel extern și proces vaginal"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Definiția inelului extern completează unghiul de penetrare.",
+    "evidenceLocation": "Lawrence, p. 132, Inel intern, inel extern și proces vaginal"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Hernia pediatrică și hidrocelul din neobliterare sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 132, Inel intern, inel extern și proces vaginal"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Atributele celor două inele sunt inversate.",
+    "evidenceLocation": "Lawrence, p. 132, Inel intern, inel extern și proces vaginal"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Neobliterarea produce, nu protejează de, hidrocel.",
+    "evidenceLocation": "Lawrence, p. 132, Inel intern, inel extern și proces vaginal"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează straturile inelului intern cu ale celui extern, capcana anatomică a canalului inghinal."
+  },
+  "textbookExpressions": [
+   "inel inghinal intern",
+   "proces vaginal"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-035",
+  "questionFingerprint": "15b353fbdc569fa0dbc6627a3269a4bb6b4ec3f358ffff8ec905500f0e087242",
+  "status": "source-checked",
+  "learningObjective": "Maparea lateralei de epigastrice (indirectă, inel intern) versus medialei (directă, Hesselbach), plus hidrocelul congenital tardiv.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    132
+   ],
+   "pdfPages": [
+    73
+   ],
+   "section": "Directă versus indirectă — Epigastricele"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Lateralitatea și traiectul prin inelul intern definesc indirecta.",
+    "evidenceLocation": "Lawrence, p. 132, Directă versus indirectă — Epigastricele"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Medialitatea, Hesselbach și evitarea inelului intern definesc directa.",
+    "evidenceLocation": "Lawrence, p. 132, Directă versus indirectă — Epigastricele"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Asocierea hidrocel tardiv–hernie indirectă congenitală este citată.",
+    "evidenceLocation": "Lawrence, p. 132, Directă versus indirectă — Epigastricele"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Atributele sunt ale indirectei, nu ale directe.",
+    "evidenceLocation": "Lawrence, p. 132, Directă versus indirectă — Epigastricele"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Medial/Hesselbach descrie directa, nu indirecta.",
+    "evidenceLocation": "Lawrence, p. 132, Directă versus indirectă — Epigastricele"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează raportul cu epigastricele (lateral vs medial), distincția clasică directă/indirectă."
+  },
+  "textbookExpressions": [
+   "triunghiul lui Hesselbach",
+   "vasele epigastrice"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-036",
+  "questionFingerprint": "1a2c01345be1734c53b20e4728ff3a94918848f8e061c3b980b1fe48e502ee87",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea dublei componente (direct + indirect) despărțite de epigastricele fixe.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    132
+   ],
+   "pdfPages": [
+    73
+   ],
+   "section": "Hernia în pantalon"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Definiția (ambele spații) este explicită.",
+    "evidenceLocation": "Lawrence, p. 132, Hernia în pantalon"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "„Piciorul” peritoneal și fixitatea epigastricelor sunt citate.",
+    "evidenceLocation": "Lawrence, p. 132, Hernia în pantalon"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Femurala stă sub Poupart, nu definește pantalonul.",
+    "evidenceLocation": "Lawrence, p. 132, Hernia în pantalon"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Pantalonul are două componente, nu un defect unic.",
+    "evidenceLocation": "Lawrence, p. 132, Hernia în pantalon"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Există sac în ambele spații; epigastricele sunt fixe.",
+    "evidenceLocation": "Lawrence, p. 132, Hernia în pantalon"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Mută hernia în pantalon sub ligamentul ilioinghinal (spațiul femural), o confuzie de etaj al OMP."
+  },
+  "textbookExpressions": [
+   "hernie „în pantalon\"",
+   "vasele epigastrice"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-037",
+  "questionFingerprint": "7671b6188df43026f0da2e7103948a3c2af0bc11aa235e2dade2dba85369a30a",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea predilecției pentru indirectă la femei și a imposibilității de a distinge cert directa de indirectă preoperator.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    133
+   ],
+   "pdfPages": [
+    74
+   ],
+   "section": "OMP la femei — Directă rară, diagnostic"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Raritatea directei și predominanța indirectei sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 133, OMP la femei — Directă rară, diagnostic"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Absența unui test care să diferențieze cert cele două inghinale este citată.",
+    "evidenceLocation": "Lawrence, p. 133, OMP la femei — Directă rară, diagnostic"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Identitatea tehnicilor inghinale versus specificul femural sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 133, OMP la femei — Directă rară, diagnostic"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "CT/IRM de obicei nu aduc beneficiu; ecografia poate ajuta.",
+    "evidenceLocation": "Lawrence, p. 133, OMP la femei — Directă rară, diagnostic"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Directa e rară; femuralele sunt mai frecvente la femei decât la bărbați.",
+    "evidenceLocation": "Lawrence, p. 133, OMP la femei — Directă rară, diagnostic"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Declară directa ca cea mai frecventă OMP la femei și pune CT înaintea ecografiei."
+  },
+  "textbookExpressions": [
+   "rareori hernii inghinale directe",
+   "cea mai frecventă"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-038",
+  "questionFingerprint": "fa58404632893eba0bc8e5d9e5656d9ca47748dc4e96b4315a3b46e1880a5e74",
+  "status": "source-checked",
+  "learningObjective": "Listarea conținutului consilierii (risc operator vs conservator, recidivă personalizată, complicații specifice).",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    128
+   ],
+   "pdfPages": [
+    69
+   ],
+   "section": "Consilierea pacientului"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Contrastul chirurgical versus non-chirurgical este explicit.",
+    "evidenceLocation": "Lawrence, p. 128, Consilierea pacientului"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Factorii de personalizare a recidivei sunt citați.",
+    "evidenceLocation": "Lawrence, p. 128, Consilierea pacientului"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Seromul, infecția de plasă, nervii și intestinul sunt listați.",
+    "evidenceLocation": "Lawrence, p. 128, Consilierea pacientului"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Recidiva rămâne posibilă; consilierea este esențială.",
+    "evidenceLocation": "Lawrence, p. 128, Consilierea pacientului"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Calculatorul ACS este menționat pentru educația pacienților cu hernie.",
+    "evidenceLocation": "Lawrence, p. 128, Consilierea pacientului"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Anulează consilierea pe motivul unei recidive nule după plasă, contrar listei de riscuri."
+  },
+  "textbookExpressions": [
+   "Consilierea pacientului",
+   "Colegiul American al Chirurgilor"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-039",
+  "questionFingerprint": "835dc9a79bb40aa03c361ba7bc7c4f9851c166ab2883582304f12e028a8b4d7d",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea protezei ca regulă (cu excepțiile de contaminare/ischemie) și a recomandării MIS la unilaterală, femurală și femei.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    134
+   ],
+   "pdfPages": [
+    75
+   ],
+   "section": "Alegerea unei tehnici — Proteză și MIS"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Regula protezei și contraindicațiile sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 134, Alegerea unei tehnici — Proteză și MIS"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Recomandarea puternică pentru unilaterală nerecidivată și femurală este citată.",
+    "evidenceLocation": "Lawrence, p. 134, Alegerea unei tehnici — Proteză și MIS"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Preferința la femei pentru femuralele oculte este enunțată.",
+    "evidenceLocation": "Lawrence, p. 134, Alegerea unei tehnici — Proteză și MIS"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Proteza este standardul în absența contaminării.",
+    "evidenceLocation": "Lawrence, p. 134, Alegerea unei tehnici — Proteză și MIS"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "MIS este tocmai preferată la femei.",
+    "evidenceLocation": "Lawrence, p. 134, Alegerea unei tehnici — Proteză și MIS"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Readuce procedeele tisulare ca standard în câmp curat și evită MIS la femei, inversul algoritmului."
+  },
+  "textbookExpressions": [
+   "hernia unilaterală",
+   "hernii femurale oculte"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-040",
+  "questionFingerprint": "2652f693a5aa0a87801f1110a23d47938a4faffb8cd5354b73dee7a762597e2a",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea Bassini (ilioinghinal, relaxare, fără femurală) cu Shouldice (multistrat, fără tensiune, recidivă minimă, tot fără femurală).",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    135
+   ],
+   "pdfPages": [
+    76
+   ],
+   "section": "Tabelul 11.1 — Bassini versus Shouldice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Sutura la ilioinghinal, indicațiile și relaxarea Bassini sunt tabelate.",
+    "evidenceLocation": "Lawrence, p. 135, Tabelul 11.1 — Bassini versus Shouldice"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Multistratul, absența tensiunii și excluderea femuralei la Shouldice sunt citate.",
+    "evidenceLocation": "Lawrence, p. 135, Tabelul 11.1 — Bassini versus Shouldice"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Cea mai redusă recidivă tisulară este atribuită Shouldice.",
+    "evidenceLocation": "Lawrence, p. 135, Tabelul 11.1 — Bassini versus Shouldice"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Nota de subsol leagă relaxarea de tehnica separării componentelor.",
+    "evidenceLocation": "Lawrence, p. 135, Tabelul 11.1 — Bassini versus Shouldice"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Femurala tisulară este McVay (Cooper), nu Shouldice.",
+    "evidenceLocation": "Lawrence, p. 135, Tabelul 11.1 — Bassini versus Shouldice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Atribuie Shouldice indicația femurală a lui McVay, coloana „tipuri de hernii” a aceluiași tabel."
+  },
+  "textbookExpressions": [
+   "Bassini",
+   "Shouldice"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-041",
+  "questionFingerprint": "c6a801a450fb88ae17c921d98124150e267726f2d3ce7611e98727bf48388060",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea constellationii clinic-biologice de strangulare și a rezecției posibile, față de amânarea electivă.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    128,
+    127
+   ],
+   "pdfPages": [
+    69,
+    68
+   ],
+   "section": "Strangulare — Semne de urgență"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Simptomele sistemice și peritonita sunt de la sfârșitul paginii precedente, continuate aici.",
+    "evidenceLocation": "Lawrence, p. 128, 127, Strangulare — Semne de urgență"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Leucocitoza, acidoza și ocluzia imagistică sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 128, 127, Strangulare — Semne de urgență"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Modificarea de culoare tegumentară este citată.",
+    "evidenceLocation": "Lawrence, p. 128, 127, Strangulare — Semne de urgență"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Rezecția de organ ischemic este menționată.",
+    "evidenceLocation": "Lawrence, p. 128, 127, Strangulare — Semne de urgență"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Acidoza impune urgență, nu programare electivă.",
+    "evidenceLocation": "Lawrence, p. 128, 127, Strangulare — Semne de urgență"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Amână strangularea (acidoză, peritonită) ca pe o colică, inversul indicației de urgență."
+  },
+  "textbookExpressions": [
+   "leucocitoza, acidoza",
+   "modificări de culoare"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-042",
+  "questionFingerprint": "b8aab1d729c790d072bbb94d0209025604c2914d2d2b802e3024b42242ada8a4",
+  "status": "source-checked",
+  "learningObjective": "Poziționarea IRM-ului pentru tendon/mușchi și a scanării osoase pentru osteita pubiană, față de ecografie/CT.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    137
+   ],
+   "pdfPages": [
+    78
+   ],
+   "section": "Pubalgie — IRM și scanarea osoasă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "IRM ca examen ales și semnele de asimetrie/inflamație sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 137, Pubalgie — IRM și scanarea osoasă"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Scanarea osoasă în osteita de pubis este citată.",
+    "evidenceLocation": "Lawrence, p. 137, Pubalgie — IRM și scanarea osoasă"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "IRM, nu radiografia, e alegerea pentru tendoane.",
+    "evidenceLocation": "Lawrence, p. 137, Pubalgie — IRM și scanarea osoasă"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Ecografia poate exclude hernie sau patologie testiculară.",
+    "evidenceLocation": "Lawrence, p. 137, Pubalgie — IRM și scanarea osoasă"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "CT-ul e descris ca mai puțin dependent de operator decât ecografia.",
+    "evidenceLocation": "Lawrence, p. 137, Pubalgie — IRM și scanarea osoasă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Pune radiografia simplă înaintea IRM-ului pentru leziunea tendinoasă, inversul ierarhiei din paragraf."
+  },
+  "textbookExpressions": [
+   "IRM-ul însă",
+   "osteita de pubis"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-043",
+  "questionFingerprint": "c9bf39c9a84146ca47738e00a27eaa18d8c675ab7a0097d80c9068c9425471e1",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea conservatorului ca primă linie și a durerii preoperatorii ca predictor al durerii cronice post-herniorafie.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    137
+   ],
+   "pdfPages": [
+    78
+   ],
+   "section": "Pubalgie — Tratament conservator"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Non-chirurgicalul ca cea mai bună abordare este explicit.",
+    "evidenceLocation": "Lawrence, p. 137, Pubalgie — Tratament conservator"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Predictorul (durerea preoperatorie) este citat.",
+    "evidenceLocation": "Lawrence, p. 137, Pubalgie — Tratament conservator"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "AINS, limitarea efortului și recuperarea sunt listate.",
+    "evidenceLocation": "Lawrence, p. 137, Pubalgie — Tratament conservator"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Textul cere gândire atentă și discuție sinceră despre prognostic, nu vindecare sigură.",
+    "evidenceLocation": "Lawrence, p. 137, Pubalgie — Tratament conservator"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Terapia de recuperare face parte din management, nu se evită.",
+    "evidenceLocation": "Lawrence, p. 137, Pubalgie — Tratament conservator"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Operează pubalgia de primă intenție, deși durerea preoperatorie prezice durerea cronică postoperatorie."
+  },
+  "textbookExpressions": [
+   "non-chirurgical",
+   "terapie de recuperare fizică"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-044",
+  "questionFingerprint": "b029b1a27f2b321db721ce4249513d59eb6c94db440a32fd7dd7d7a8bd304195",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea bipartiției perete abdominal / OMP și a statutului separat al herniei obturatorii.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    125
+   ],
+   "pdfPages": [
+    66
+   ],
+   "section": "Clasificare — Perete versus OMP"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cele două categorii principale și excepția obturatorie sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 125, Clasificare — Perete versus OMP"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Figura 11-1 arată multiple localizări, nu doar ombilicalul.",
+    "evidenceLocation": "Lawrence, p. 125, Clasificare — Perete versus OMP"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Diastazisul nu are defect, deci nu e o hernie OMP.",
+    "evidenceLocation": "Lawrence, p. 125, Clasificare — Perete versus OMP"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Distincția perete versus OMP deschide capitolul.",
+    "evidenceLocation": "Lawrence, p. 125, Clasificare — Perete versus OMP"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Parastomalele sunt o excepție a peretelui, nu unicul grup.",
+    "evidenceLocation": "Lawrence, p. 125, Clasificare — Perete versus OMP"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Topesc OMP-ul în diastazis sau reduc capitolul la ombilical, anulând bipartiția de deschidere."
+  },
+  "textbookExpressions": [
+   "orificiului miopectineal",
+   "hernia obturatorie"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-045",
+  "questionFingerprint": "0e60978808719b05d91f0bbca975c30789eceed6677a47dc4796e2dd75434933",
+  "status": "source-checked",
+  "learningObjective": "Ierarhia antibiotice preoperatorii / evitare plasă contaminată / MIS / recunoaștere precoce a infecției superficiale.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    130
+   ],
+   "pdfPages": [
+    71
+   ],
+   "section": "Infecția de plagă — Prevenție"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Antibioticele preoperatorii sunt primul gest listat.",
+    "evidenceLocation": "Lawrence, p. 130, Infecția de plagă — Prevenție"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Evitarea plasei în contaminare, comorbiditățile și MIS sunt citate.",
+    "evidenceLocation": "Lawrence, p. 130, Infecția de plagă — Prevenție"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Recunoașterea precoce limitează răspândirea către plasă.",
+    "evidenceLocation": "Lawrence, p. 130, Infecția de plagă — Prevenție"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Plasa în contaminare e tocmai de evitat.",
+    "evidenceLocation": "Lawrence, p. 130, Infecția de plagă — Prevenție"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Infecția superficială netratată poate ajunge la plasă.",
+    "evidenceLocation": "Lawrence, p. 130, Infecția de plagă — Prevenție"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Montează plasa în contaminare și ignoră infecția superficială, inversul prevenției din paragraf."
+  },
+  "textbookExpressions": [
+   "Antibiotice preoperatorie",
+   "excizia plasei"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-046",
+  "questionFingerprint": "de65b31cbd24e9da2ba3d8aa5482ceadd3ec054f1642fbf9926f15dcfe7c5c37",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea TEP (extraperitoneal, doar laparoscopic) cu TAPP (intraperitoneal, lap sau robotic), ambele protetice.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    134
+   ],
+   "pdfPages": [
+    75
+   ],
+   "section": "TEP versus TAPP — Echipament"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cele trei incizii, proteza și poziția între peritoneu și OMP sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 134, TEP versus TAPP — Echipament"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Spațiul drept-peritoneu și limita la laparoscopie definesc TEP.",
+    "evidenceLocation": "Lawrence, p. 134, TEP versus TAPP — Echipament"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Reatașarea peritoneului și opțiunea robotică definesc TAPP.",
+    "evidenceLocation": "Lawrence, p. 134, TEP versus TAPP — Echipament"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Direcția echipamentului este inversată.",
+    "evidenceLocation": "Lawrence, p. 134, TEP versus TAPP — Echipament"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Ambele folosesc proteză; Bassini e tisular anterior.",
+    "evidenceLocation": "Lawrence, p. 134, TEP versus TAPP — Echipament"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează echipamentul (TEP robotic versus TAPP doar laparoscopic) și golește ambele de proteză."
+  },
+  "textbookExpressions": [
+   "total extraperitoneal",
+   "transabdominal preperitoneal"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-047",
+  "questionFingerprint": "15f6af9ef8c0318a3a20fcd6b992876a6f29edff65bcd9b4e11330c638baa167",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea herniei cronic încarcerate nestrangulate (programată, după comorbidități) cu urgența strangulării.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    127
+   ],
+   "pdfPages": [
+    68
+   ],
+   "section": "Încarcerare cronică — Programare electivă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Textul atribuie încarcerării cronice fără strangulare indicația programată, ghidată de comorbidități.",
+    "evidenceLocation": "Lawrence, p. 127, Încarcerare cronică — Programare electivă"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Urgența în 30 de minute descrie strangularea, nu forma cronică stabilă.",
+    "evidenceLocation": "Lawrence, p. 127, Încarcerare cronică — Programare electivă"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Reducerea forțată la domiciliu contrazice evaluarea spitalicească.",
+    "evidenceLocation": "Lawrence, p. 127, Încarcerare cronică — Programare electivă"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Încarcerarea cronică rămâne cu indicație operatorie electivă, nu supraveghere indefinită.",
+    "evidenceLocation": "Lawrence, p. 127, Încarcerare cronică — Programare electivă"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Celiotomia de principiu ține de ischemia suspectată după reducere, nu de forma cronică nestrangulată.",
+    "evidenceLocation": "Lawrence, p. 127, Încarcerare cronică — Programare electivă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Transformă încarcerarea cronică nestrangulată în urgență de strangulare, inversul ultimei fraze a paragrafului."
+  },
+  "textbookExpressions": [
+   "cronic încarcerată",
+   "regim programat"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-048",
+  "questionFingerprint": "a7b133ee49a69f0e9f935e4fb9eb56012a65b902f9589d8fa3147e939b36ac8f",
+  "status": "source-checked",
+  "learningObjective": "Listarea informațiilor CT (defect, viscere, stomă, plase/implante) când examenul clinic este insuficient.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    128
+   ],
+   "pdfPages": [
+    69
+   ],
+   "section": "Caracteristicile herniei — Rolul CT"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Poziția și dimensiunile defectului sunt primul obiectiv citat.",
+    "evidenceLocation": "Lawrence, p. 128, Caracteristicile herniei — Rolul CT"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Organele implicate și peretele abdominal completează evaluarea.",
+    "evidenceLocation": "Lawrence, p. 128, Caracteristicile herniei — Rolul CT"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Poziționarea stomei este menționată explicit.",
+    "evidenceLocation": "Lawrence, p. 128, Caracteristicile herniei — Rolul CT"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Plasele anterioare și dispozitivele implantabile sunt indicații de CT.",
+    "evidenceLocation": "Lawrence, p. 128, Caracteristicile herniei — Rolul CT"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "CT-ul este tocmai util când există plase sau dispozitive, nu doar în diastazis.",
+    "evidenceLocation": "Lawrence, p. 128, Caracteristicile herniei — Rolul CT"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Reduce CT-ul la diastazis și neagă rolul lui în prezența plasei, inversul listei de indicații."
+  },
+  "textbookExpressions": [
+   "tomografiei computerizate",
+   "plaselor chirurgicale"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-049",
+  "questionFingerprint": "b195000a9c79f4f7b5ceff925e5c4f7f2402f1edae6a8953f027b5cb53b71431",
+  "status": "source-checked",
+  "learningObjective": "Rezervarea suturii anatomice pentru defecte mici/risc minim și recunoașterea încorporării prin pori a plasei sintetice.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    128
+   ],
+   "pdfPages": [
+    69
+   ],
+   "section": "Tehnica anatomică versus alloplastică"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Rezervarea pentru defecte foarte reduse și risc minim este explicită.",
+    "evidenceLocation": "Lawrence, p. 128, Tehnica anatomică versus alloplastică"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Recidiva mai mică a alloplastiei și prudența față de anatomică sunt citate.",
+    "evidenceLocation": "Lawrence, p. 128, Tehnica anatomică versus alloplastică"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Închiderea permanentă și creșterea tisulară printre pori sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 128, Tehnica anatomică versus alloplastică"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Alloplastia, nu anatomica, are recidivă mai mică în herniile cu risc.",
+    "evidenceLocation": "Lawrence, p. 128, Tehnica anatomică versus alloplastică"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Porii permit tocmai încorporarea, nu o împiedică.",
+    "evidenceLocation": "Lawrence, p. 128, Tehnica anatomică versus alloplastică"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-18T13:01:01.440Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează recidiva plasă versus sutură și rezervă anatomica fumătorului obez cu defect mare."
+  },
+  "textbookExpressions": [
+   "Tehnica anatomică",
+   "porii plasei"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-050",
+  "questionFingerprint": "3dff2bf8b553b361090f6825a0d35d91bb95ca8ef7cc4528e855a975e0b43019",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea suturii anatomice ca alternativă la defecte largi când riscurile plasei depășesc recidiva acceptată.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    129
+   ],
+   "pdfPages": [
+    70
+   ],
+   "section": "Alloplastie — Când se renunță la plasă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Plasa intraperitoneală crește riscul eroziv, nu este soluția când riscurile protezării sunt foarte ridicate.",
+    "evidenceLocation": "Lawrence, p. 129, Alloplastie — Când se renunță la plasă"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Lichtenstein cu plasă este contraindicat în contaminare/ischemie.",
+    "evidenceLocation": "Lawrence, p. 129, Alloplastie — Când se renunță la plasă"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Textul indică tehnica anatomică și pentru defecte largi, acceptând recurența.",
+    "evidenceLocation": "Lawrence, p. 129, Alloplastie — Când se renunță la plasă"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Roboticul posterior nu înlocuiește această excepție.",
+    "evidenceLocation": "Lawrence, p. 129, Alloplastie — Când se renunță la plasă"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Defectul larg rămâne o hernie, nu un diastazis.",
+    "evidenceLocation": "Lawrence, p. 129, Alloplastie — Când se renunță la plasă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-18T13:06:57.473Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Impune plasa intraperitoneală tocmai când textul cere sutură anatomică cu acceptarea recidivei."
+  },
+  "textbookExpressions": [
+   "defecte parietale largi",
+   "riscul de recurență"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-051",
+  "questionFingerprint": "1ec397462c31b6e5a39e64ad9727938b5c8988f32ee5ba60bb2b5c43645b4edb",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea originii cremasterului din fibrele inferioare ale oblicului intern la traversarea inelului intern.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    132
+   ],
+   "pdfPages": [
+    73
+   ],
+   "section": "Embriologie — Cremasterul"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Înfășurarea de către fibrele inferioare ale oblicului intern este explicită.",
+    "evidenceLocation": "Lawrence, p. 132, Embriologie — Cremasterul"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Inelul superficial este orificiul din aponevroza oblicului extern, nu originea cremasterului.",
+    "evidenceLocation": "Lawrence, p. 132, Embriologie — Cremasterul"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Fascia transversalis formează inelul intern, nu cremasterul.",
+    "evidenceLocation": "Lawrence, p. 132, Embriologie — Cremasterul"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Tendonul conjunct (3–6%) nu este cremasterul.",
+    "evidenceLocation": "Lawrence, p. 132, Embriologie — Cremasterul"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Ligamentul rotund nu lasă o structură musculară analogă cremasterului.",
+    "evidenceLocation": "Lawrence, p. 132, Embriologie — Cremasterul"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-18T13:01:01.440Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Mută originea cremasterului pe oblicul extern sau pe tendonul conjunct, confuzia de învelișuri ale funiculului."
+  },
+  "textbookExpressions": [
+   "mușchiul cremaster",
+   "oblicului intern"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-052",
+  "questionFingerprint": "36b01e7d588f5c39c07fdad6df9d7d856b65c39248eecfa69ec9a0490e5911e9",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea ocupației unu–trei spații și a supravegherii herniei OMP minim simptomatice, cu operație adesea ulterioară.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    132,
+    133
+   ],
+   "pdfPages": [
+    73,
+    74
+   ],
+   "section": "Cele trei spații OMP — Supravegherea minim simptomaticelor"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Ocuparea unuia, a două sau a tuturor celor trei spații este explicită.",
+    "evidenceLocation": "Lawrence, p. 132, 133, Cele trei spații OMP — Supravegherea minim simptomaticelor"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Maparea femural/indirect/direct pe etajele Poupart este citată.",
+    "evidenceLocation": "Lawrence, p. 132, 133, Cele trei spații OMP — Supravegherea minim simptomaticelor"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Raritatea complicațiilor, supravegherea și operația ulterioară la majoritate sunt de la începutul paginii următoare.",
+    "evidenceLocation": "Lawrence, p. 132, 133, Cele trei spații OMP — Supravegherea minim simptomaticelor"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Pantalonul este tocmai ocupația simultană a spațiilor direct și indirect.",
+    "evidenceLocation": "Lawrence, p. 132, 133, Cele trei spații OMP — Supravegherea minim simptomaticelor"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Supravegherea este suficientă inițial la minim simptomatice, nu urgența.",
+    "evidenceLocation": "Lawrence, p. 132, 133, Cele trei spații OMP — Supravegherea minim simptomaticelor"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-18T13:01:01.440Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Impune urgență asupra herniei OMP minim simptomatice și neagă ocupația simultană a spațiilor."
+  },
+  "textbookExpressions": [
+   "toate aceste trei spații",
+   "supravegherea atentă"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-053",
+  "questionFingerprint": "eb0c5d82355449b88fd5d429033464ef4cccf159488303e4b4f5cd1f63008b60",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea proeminenței supraligamentare (inghinală, posibil scrot/labie) cu cea complet infraligamentară (femurală).",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    133
+   ],
+   "pdfPages": [
+    74
+   ],
+   "section": "Examenul OMP — Deasupra versus sub Poupart"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Poziția deasupra ligamentului și extensia scrotală/labială sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 133, Examenul OMP — Deasupra versus sub Poupart"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Localizarea complet sub ligament definește femurala.",
+    "evidenceLocation": "Lawrence, p. 133, Examenul OMP — Deasupra versus sub Poupart"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Reducerea cel puțin parțială a herniei simptomatice simple este cerută.",
+    "evidenceLocation": "Lawrence, p. 133, Examenul OMP — Deasupra versus sub Poupart"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Extensia scrotală deasupra ligamentului descrie inghinala, nu femurala.",
+    "evidenceLocation": "Lawrence, p. 133, Examenul OMP — Deasupra versus sub Poupart"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Reducerea parțială susține, nu exclude, hernia simptomatică simplă.",
+    "evidenceLocation": "Lawrence, p. 133, Examenul OMP — Deasupra versus sub Poupart"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Mută femurala deasupra ligamentului și în scrot, inversul reperului clinic Poupart."
+  },
+  "textbookExpressions": [
+   "deasupra ligamentului ilioinghinal",
+   "complet sub ligamentul"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-054",
+  "questionFingerprint": "fab90a9aae8500d53d7fd4c94b44f875a9581a03962b7797ad68dd02460b257a",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea laparotomiei separate când ischemia nu poate fi judecată prin incizia inghinală, plus condițiile reducerii.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    133
+   ],
+   "pdfPages": [
+    74
+   ],
+   "section": "OMP — Laparotomie separată pentru ischemie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Justificarea explorării și laparotomia separată la ischemie neevaluabilă inghinal sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 133, OMP — Laparotomie separată pentru ischemie"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Condițiile (stabil, fără modificări de laborator) și monitorizarea postreducție sunt citate.",
+    "evidenceLocation": "Lawrence, p. 133, OMP — Laparotomie separată pentru ischemie"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Textul prevede tocmai situația în care incizia inghinală nu ajunge.",
+    "evidenceLocation": "Lawrence, p. 133, OMP — Laparotomie separată pentru ischemie"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Acidoza și instabilitatea contraindică reducerea, nu o indică.",
+    "evidenceLocation": "Lawrence, p. 133, OMP — Laparotomie separată pentru ischemie"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Monitorizarea după reducere este cerută, analog herniilor ventrale.",
+    "evidenceLocation": "Lawrence, p. 133, OMP — Laparotomie separată pentru ischemie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Anulează laparotomia separată și reduce sub acidoză, două capcane de evaluare a ischemiei OMP."
+  },
+  "textbookExpressions": [
+   "laparotomie separată",
+   "incizie inghinală"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-055",
+  "questionFingerprint": "c3a4781d96677a6f9d60ce0439bf37604cb7da836dbb08081f237d6ff80a4ff4",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea breșei superioare (noul inel intern) și a oblicului extern lăsat deschis inferior (noul inel superficial).",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    133,
+    134
+   ],
+   "pdfPages": [
+    74,
+    75
+   ],
+   "section": "Lichtenstein — Noul inel intern și superficial"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Fixarea pe peretele posterior, deasupra Poupart, este descrierea clasică.",
+    "evidenceLocation": "Lawrence, p. 133, 134, Lichtenstein — Noul inel intern și superficial"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Breșa superioară pentru funicul și noul inel intern sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 133, 134, Lichtenstein — Noul inel intern și superficial"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Sutura oblicului deasupra plasei, deschisă inferior, definește noul inel superficial.",
+    "evidenceLocation": "Lawrence, p. 133, 134, Lichtenstein — Noul inel intern și superficial"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Breșa nu închide spațiul femural; Lichtenstein acoperă spațiile de deasupra ligamentului.",
+    "evidenceLocation": "Lawrence, p. 133, 134, Lichtenstein — Noul inel intern și superficial"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Lăsarea deschisă inferior este tocmai manevra noului inel superficial.",
+    "evidenceLocation": "Lawrence, p. 133, 134, Lichtenstein — Noul inel intern și superficial"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Mută breșa Lichtenstein pe spațiul femural și închide etanș inelul superficial, inversul celor două manevre."
+  },
+  "textbookExpressions": [
+   "nou inel inghinal intern",
+   "inel inghinal superficial"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-056",
+  "questionFingerprint": "7965ab82dadde826f482b360ac7f025082eb649a6220be47f69bd21e98355149",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea caracterului ambulator al curei OMP actuale și a consilierii privind așteptările (echimoze, inflamație).",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    134
+   ],
+   "pdfPages": [
+    75
+   ],
+   "section": "OMP — Chirurgie de zi"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Ambulatoriul, părăsirea imediată și consilierea așteptărilor sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 134, OMP — Chirurgie de zi"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Internarea prelungită nu este practica descrisă; echimozele sunt așteptate, nu indicație de reintervenție.",
+    "evidenceLocation": "Lawrence, p. 134, OMP — Chirurgie de zi"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Consilierea este esențială tocmai pentru a nu alarma pacientul.",
+    "evidenceLocation": "Lawrence, p. 134, OMP — Chirurgie de zi"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Proteza este standardul, nu Bassini.",
+    "evidenceLocation": "Lawrence, p. 134, OMP — Chirurgie de zi"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Textul nu impune rahianestezie prelungită ca și condiție.",
+    "evidenceLocation": "Lawrence, p. 134, OMP — Chirurgie de zi"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-18T13:01:01.440Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Transformă cura OMP de zi într-o internare de două săptămâni și tratează echimozele ca recidivă."
+  },
+  "textbookExpressions": [
+   "în ambulatoriu",
+   "aşteptările postoperatorii"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-057",
+  "questionFingerprint": "d002b6c515e682d14401905d0b2fa0734b39bf3490cd30db6742f7dc3bee8452",
+  "status": "source-checked",
+  "learningObjective": "Secvența hipoestezie de incizie → parestezii la regenerare și recunoașterea disconfortului prin percepția plasei.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    136
+   ],
+   "pdfPages": [
+    77
+   ],
+   "section": "OMP deschis — Hipoestezie, parestezie, percepția plasei"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Hipoestezia de incizie și paresteziile de regenerare sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 136, OMP deschis — Hipoestezie, parestezie, percepția plasei"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Percepția plasei cu disconfort prelungit este citată.",
+    "evidenceLocation": "Lawrence, p. 136, OMP deschis — Hipoestezie, parestezie, percepția plasei"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Hipoestezia este descrisă tocmai după abordul deschis.",
+    "evidenceLocation": "Lawrence, p. 136, OMP deschis — Hipoestezie, parestezie, percepția plasei"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Explantarea de urgență nu este conduita pentru simpla percepție a plasei.",
+    "evidenceLocation": "Lawrence, p. 136, OMP deschis — Hipoestezie, parestezie, percepția plasei"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Paresteziile apar odată cu regenerarea, nu dispar din prima zi.",
+    "evidenceLocation": "Lawrence, p. 136, OMP deschis — Hipoestezie, parestezie, percepția plasei"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Neagă hipoestezia de incizie deschisă și transformă percepția plasei în indicație de explant la 24 de ore."
+  },
+  "textbookExpressions": [
+   "zonă de hipoestezie",
+   "simtă plasa"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-058",
+  "questionFingerprint": "6fa4e6b283cdae42017b40db1a4bed2cdcd3fb307dc7aa832697f5cd22beabc7",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea celor patru rubrici tabelate (sport, șold, GU, GI) cu exemplele eponime (labrum, varicocel, BII).",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    136
+   ],
+   "pdfPages": [
+    77
+   ],
+   "section": "Tabelul 11-2 — Diagnosticul diferențial al inghinodiniei"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Lista de patologii de șold, inclusiv labrum și osteonecroză, este tabelată.",
+    "evidenceLocation": "Lawrence, p. 136, Tabelul 11-2 — Diagnosticul diferențial al inghinodiniei"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Rubrica genitourinară, de la ligamentul rotund la endometrioză, este explicită.",
+    "evidenceLocation": "Lawrence, p. 136, Tabelul 11-2 — Diagnosticul diferențial al inghinodiniei"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Aderențele, BII, diverticulita și SII închid rubrica GI.",
+    "evidenceLocation": "Lawrence, p. 136, Tabelul 11-2 — Diagnosticul diferențial al inghinodiniei"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Întinderea adductorilor, slăbirea canalului și osteita pubiană deschid tabelul.",
+    "evidenceLocation": "Lawrence, p. 136, Tabelul 11-2 — Diagnosticul diferențial al inghinodiniei"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Tabelul este tocmai un diagnostic diferențial larg, nu o reducere la hernia femurală.",
+    "evidenceLocation": "Lawrence, p. 136, Tabelul 11-2 — Diagnosticul diferențial al inghinodiniei"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Reduce tabelul 11-2 la hernia femurală și omite rubricile de șold, GU și GI."
+  },
+  "textbookExpressions": [
+   "Osteita pubiană",
+   "Sindromul de intestin iritabil"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-059",
+  "questionFingerprint": "a02f9e4328dba95b8011af01aee3d188592f9cc4b49f5e2ecc3d8a0165358c06",
+  "status": "source-checked",
+  "learningObjective": "Secvența ortostatism–clinostatism, manevrele adductorului lung și valoarea durerii de tubercul pubic plus anamneza pelvină.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    136
+   ],
+   "pdfPages": [
+    77
+   ],
+   "section": "Inghinodinie — Examen în ortostatism și adductor"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Ortostatismul, Valsalva și repetarea în clinostatism sunt explicite.",
+    "evidenceLocation": "Lawrence, p. 136, Inghinodinie — Examen în ortostatism și adductor"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Rotația/flexia/extensia cu/fără rezistență și presiunea pe inserția adductorului sunt descrise.",
+    "evidenceLocation": "Lawrence, p. 136, Inghinodinie — Examen în ortostatism și adductor"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Durerea de tubercul ca osteită și anamneza micțiune/tranzit sunt citate.",
+    "evidenceLocation": "Lawrence, p. 136, Inghinodinie — Examen în ortostatism și adductor"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Trendelenburg nu înlocuiește ortostatismul; Valsalva este utilă.",
+    "evidenceLocation": "Lawrence, p. 136, Inghinodinie — Examen în ortostatism și adductor"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Tuberculul dureros orientează spre osteită; simptomele pelvine contează.",
+    "evidenceLocation": "Lawrence, p. 136, Inghinodinie — Examen în ortostatism și adductor"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Înlocuiește ortostatismul cu Trendelenburg și anulează manevra adductorului, două gesturi din același paragraf de examen."
+  },
+  "textbookExpressions": [
+   "adductorul lung",
+   "tuberculului pubic"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-060",
+  "questionFingerprint": "c8d16a58c2a216919d6237bbe4cd1656d5b089b9c729d65b071d5e54c7815e63",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea caracterului așteptat al echimozelor la distanță cu utilitatea suportului scrotal, nu cu reintervenția.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    135,
+    134
+   ],
+   "pdfPages": [
+    76,
+    75
+   ],
+   "section": "Echimoze scrotale — Suport scrotal"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Suportul scrotal ca măsură de ameliorare la bărbați este explicit.",
+    "evidenceLocation": "Lawrence, p. 135, 134, Echimoze scrotale — Suport scrotal"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Apariția la distanță și riscul de a alarma pacientul sunt citate.",
+    "evidenceLocation": "Lawrence, p. 135, 134, Echimoze scrotale — Suport scrotal"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Textul recomandă suportul, nu îl contraindică.",
+    "evidenceLocation": "Lawrence, p. 135, 134, Echimoze scrotale — Suport scrotal"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Fereastra 4–6 ore ține de încarcerarea recentă, nu de echimoza așteptată.",
+    "evidenceLocation": "Lawrence, p. 135, 134, Echimoze scrotale — Suport scrotal"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Obturatoria nu se diagnostichează prin echimoză scrotală post-OMP.",
+    "evidenceLocation": "Lawrence, p. 135, 134, Echimoze scrotale — Suport scrotal"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Transformă echimoza scrotală așteptată în indicație de reintervenție și contraindică suportul, recomandat explicit."
+  },
+  "textbookExpressions": [
+   "suport scrotal",
+   "echimoze pe scrot"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-061",
+  "questionFingerprint": "1db4e5075bf63068fc7eb052e36560440554f90a2a84c71b05684bf719af281d",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea costului tehnic al MIS (tact, mișcare, adezioliză) față de beneficiul de infecții de plagă.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    129,
+    130
+   ],
+   "pdfPages": [
+    70,
+    71
+   ],
+   "section": "MIS ventrală — Limite tactile"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "MIS cere anestezie generală, nu o elimină.",
+    "evidenceLocation": "Lawrence, p. 129, 130, MIS ventrală — Limite tactile"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Reducerea, nu absența, infecțiilor este avantajul principal.",
+    "evidenceLocation": "Lawrence, p. 129, 130, MIS ventrală — Limite tactile"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Timpul mai scurt aparține abordului deschis.",
+    "evidenceLocation": "Lawrence, p. 129, 130, MIS ventrală — Limite tactile"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Lipsa tactului, limitarea mișcărilor și adezioliza sunt dezavantajele citate.",
+    "evidenceLocation": "Lawrence, p. 129, 130, MIS ventrală — Limite tactile"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Trocarele se plasează adesea la distanță de hernie, deci adezioliza este necesară.",
+    "evidenceLocation": "Lawrence, p. 129, 130, MIS ventrală — Limite tactile"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Confundă dezavantajul tactil al MIS cu avantajele deschisului (timp scurt, fără AG)."
+  },
+  "textbookExpressions": [
+   "simtului tactil",
+   "limitării mişcărilor"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-062",
+  "questionFingerprint": "a3178ba59cd296eb111e3805bd376a9f7d1274edf0fae8902b98d9d98e94500e",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea riscului eroziv al contactului visceral cu existența plaselor dedicate, cu proprietăți care atenuează acest risc.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    129
+   ],
+   "pdfPages": [
+    70
+   ],
+   "section": "Plasă intraperitoneală — Eroziune"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Materialele cu proprietăți biochimice anti-erozive sunt citate pentru montarea intraperitoneală.",
+    "evidenceLocation": "Lawrence, p. 129, Plasă intraperitoneală — Eroziune"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Problema eroziunii la contactul direct visceral este explicită.",
+    "evidenceLocation": "Lawrence, p. 129, Plasă intraperitoneală — Eroziune"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Risc rămâne; există tipuri dedicate, nu imunitate universală.",
+    "evidenceLocation": "Lawrence, p. 129, Plasă intraperitoneală — Eroziune"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Underlay-ul preperitoneal reduce eroziunea prin peritoneu ca strat protector.",
+    "evidenceLocation": "Lawrence, p. 129, Plasă intraperitoneală — Eroziune"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Intraperitoneala este o opțiune descrisă, nu o interdicție.",
+    "evidenceLocation": "Lawrence, p. 129, Plasă intraperitoneală — Eroziune"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Declară orice plasă intraperitoneală inofensivă sau o interzice, anulând distincția materialelor dedicate."
+  },
+  "textbookExpressions": [
+   "montării intraperitoneale",
+   "eroziunea"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-063",
+  "questionFingerprint": "bef0bb7c135e55bdd45c71a23a4621120f4661a8dfe55918dae8a06dc6211778",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea impactului diabetic (mortalitate, plagă, infecție) și a țintei A1C <7, față de alegerea greșită a plasei în dezechilibru.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    128,
+    129
+   ],
+   "pdfPages": [
+    69,
+    70
+   ],
+   "section": "Diabet — HbA1c <7 și riscuri"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Asocierea cu mortalitate și morbiditate perioperatorie este explicită.",
+    "evidenceLocation": "Lawrence, p. 128, 129, Diabet — HbA1c <7 și riscuri"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Vindecarea redusă și infecțiile crescute sunt citate.",
+    "evidenceLocation": "Lawrence, p. 128, 129, Diabet — HbA1c <7 și riscuri"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Normalizarea A1C sub 7 înaintea electivei este cerută.",
+    "evidenceLocation": "Lawrence, p. 128, 129, Diabet — HbA1c <7 și riscuri"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Ținta nu este 9%; dezechilibrul crește, nu scade, infecția.",
+    "evidenceLocation": "Lawrence, p. 128, 129, Diabet — HbA1c <7 și riscuri"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "În diabet dezechilibrat se preferă materiale biologice/absorbabile, nu sintentica non-absorbabilă.",
+    "evidenceLocation": "Lawrence, p. 128, 129, Diabet — HbA1c <7 și riscuri"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Ridică ținta A1C la 9% și montează sintetică non-absorbabilă în diabetul dezechilibrat."
+  },
+  "textbookExpressions": [
+   "glicozilată A IC",
+   "valoarea de 7"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hernii-adv-064",
+  "questionFingerprint": "7ca03fbfd3a77dc965f0a91bf609efd7b860544b550333a12f8a37121d451de2",
+  "status": "source-checked",
+  "learningObjective": "Rezervarea tisularelor pentru contaminare, cu McVay ca variantă femurală, față de interdicția plasei în ischemie.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    134,
+    135
+   ],
+   "pdfPages": [
+    75,
+    76
+   ],
+   "section": "Procedee tisulare — Câmp contaminat"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Utilitatea în contaminare, fără proteză, este explicită.",
+    "evidenceLocation": "Lawrence, p. 134, 135, Procedee tisulare — Câmp contaminat"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Folosirea rară și întrebările de stagiu, mai ales femurale, sunt citate.",
+    "evidenceLocation": "Lawrence, p. 134, 135, Procedee tisulare — Câmp contaminat"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Nesolicitarea la examene standard și trimiterea la tabel sunt precizate.",
+    "evidenceLocation": "Lawrence, p. 134, 135, Procedee tisulare — Câmp contaminat"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "McVay (Cooper) este linia tabelului pentru femurală.",
+    "evidenceLocation": "Lawrence, p. 134, 135, Procedee tisulare — Câmp contaminat"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Plasa este contraindicată în contaminare, strangulare cu ischemie/necroză sau leziune intestinală incidentală.",
+    "evidenceLocation": "Lawrence, p. 134, 135, Procedee tisulare — Câmp contaminat"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Montează Lichtenstein în contaminare cu ischemie, anulând tocmai nișa procedeeelor tisulare."
+  },
+  "textbookExpressions": [
+   "câmp operator contaminat",
+   "herniile femurale"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
  }
 ]

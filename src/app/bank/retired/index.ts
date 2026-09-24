@@ -3,5 +3,6 @@
 import type {Question} from '../../models';
 import {RETIRED_ESOFAG} from './esofag';
 import {RETIRED_HEMOSTAZA} from './hemostaza';
+import {RETIRED_HERNII} from './hernii';
 
-export const RETIRED_QUESTIONS:Question[]=[...RETIRED_ESOFAG,...RETIRED_HEMOSTAZA];
+export const RETIRED_QUESTIONS:Question[]=[...RETIRED_ESOFAG,...RETIRED_HEMOSTAZA,...RETIRED_HERNII];
