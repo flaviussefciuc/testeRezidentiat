@@ -9,7 +9,8 @@
     "test": "node --import tsx --test tests/*.test.ts",
     "check": "npm test && npm run build",
     "audit:questions": "node --import tsx scripts/audit-question-quality.ts",
-    "audit:questions:release": "node --import tsx scripts/audit-question-quality.ts --release"
+    "audit:questions:release": "node --import tsx scripts/audit-question-quality.ts --release",
+    "audit:cues": "node --import tsx scripts/cue-audit.ts"
   },
   "engines": {
     "node": "24.x"

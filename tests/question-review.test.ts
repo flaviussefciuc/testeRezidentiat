@@ -1,7 +1,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {QUESTIONS,QUESTION_HISTORY,LEGACY_QUESTIONS,SOURCE_CHECKED_QUESTIONS,PREVIOUS_SOURCE_QUESTIONS} from '../src/app/questions.ts';
+import {QUESTIONS,QUESTION_HISTORY,LEGACY_QUESTIONS,SOURCE_CHECKED_QUESTIONS,PREVIOUS_SOURCE_QUESTIONS,RETIRED_QUESTIONS} from '../src/app/questions.ts';
+import {questionCues} from '../scripts/cue-metrics.ts';
 import {advancedEligibilityErrors} from '../src/app/bank/advanced-author.ts';
 import {HEMATOLOGY_SOURCE} from '../src/app/bank/hematology-source.ts';
 import {INTENSIVE_CARE_SOURCE} from '../src/app/bank/intensive-care-source.ts';
@@ -85,5 +86,33 @@ test('every original question has an exact-version editorial rejection',()=>{
   assert.ok(records[0].difficulty.score<8);
   assert.ok(records[0].difficulty.reason);
   assert.ok(!QUESTIONS.some(a=>a.id===q.id));
+ }
+});
+
+test('retired advanced versions stay frozen, scoreable and out of new sessions',()=>{
+ const retiredReviews=JSON.parse(readFileSync(new URL('../docs/retired-question-reviews.json',import.meta.url),'utf8'));
+ assert.equal(new Set(RETIRED_QUESTIONS.map(q=>q.id)).size,RETIRED_QUESTIONS.length);
+ for(const q of RETIRED_QUESTIONS){
+  assert.ok(!QUESTIONS.some(a=>a.id===q.id),q.id);
+  assert.equal(QUESTION_HISTORY.find(h=>h.id===q.id),q);
+  // The snapshot must be the exact version that was reviewed and published.
+  const records=retiredReviews.filter((r:any)=>r.questionId===q.id);
+  assert.equal(records.length,1,q.id);
+  assert.equal(records[0].questionFingerprint,questionFingerprint(q),q.id);
+  assert.ok(!reviews.some((r:any)=>r.questionId===q.id),q.id);
+  for(const selected of [[],q.correct,[0,1]]){
+   const answer=[{questionId:q.id,selected}];
+   assert.deepEqual(summarize(answer,QUESTION_HISTORY),summarize(answer,RETIRED_QUESTIONS));
+  }
+ }
+ assert.equal(new Set(QUESTION_HISTORY.map(q=>q.id)).size,QUESTION_HISTORY.length);
+});
+test('rewritten versions replace a retired question and carry no answer cue',()=>{
+ const retiredIds=new Set(RETIRED_QUESTIONS.map(q=>q.id));
+ for(const q of SOURCE_CHECKED_QUESTIONS as any[]){
+  if(/-v\d+$/.test(q.id)){
+   assert.ok(retiredIds.has(q.replaces),q.id);
+   assert.deepEqual(questionCues(q),[],q.id);
+  }
  }
 });
