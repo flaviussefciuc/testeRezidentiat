@@ -206908,162 +206908,6 @@
   "reviewNotes": "Rescriere a ati-adv-021: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "dermato-adv-001-v2",
-  "questionFingerprint": "0733235cf7db4e9420f95317e1aeb055af6f29e88453535a1b24709045c96b32",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea etiologiei și tratamentului celulitei.",
-  "reference": {
-   "book": "Sinopsis",
-   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
-   "chapter": 9,
-   "printedPages": [
-    196
-   ],
-   "pdfPages": [
-    1
-   ],
-   "section": "Infecții — Celulita"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "MRSA este frecvent în abcese.",
-    "evidenceLocation": "Sinopsis, p. 196, Infecții — Celulita"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Cefalosporinele orale sau β-lactaminele rezistente la penicilinază 10–14 zile.",
-    "evidenceLocation": "Sinopsis, p. 196, Infecții — Celulita"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Recurența este 20–50%.",
-    "evidenceLocation": "Sinopsis, p. 196, Infecții — Celulita"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Culturile conțin floră comensală sau sunt fals negative.",
-    "evidenceLocation": "Sinopsis, p. 196, Infecții — Celulita"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Streptococul de grup A este cel mai frecvent.",
-    "evidenceLocation": "Sinopsis, p. 196, Infecții — Celulita"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:19:10.937Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii confundă celulita cu abcesul."
-  },
-  "textbookExpressions": [
-   "streptococul de grup A",
-   "10-14 zile"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a dermato-adv-001: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "dermato-adv-018-v2",
-  "questionFingerprint": "5efdcc3df68462e025052ac2b238a7df298b1539b9a8752711aa70ad52105524",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea etiologiei și tratamentului abceselor cutanate.",
-  "reference": {
-   "book": "Sinopsis",
-   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
-   "chapter": 9,
-   "printedPages": [
-    196,
-    197
-   ],
-   "pdfPages": [
-    1,
-    2
-   ],
-   "section": "Infecții — Abcesele"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Incizia și drenajul plus cotrimoxazol.",
-    "evidenceLocation": "Sinopsis, p. 196, 197, Infecții — Abcesele"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Stafilococii, de obicei MRSA, sunt cei mai frecvenți.",
-    "evidenceLocation": "Sinopsis, p. 196, 197, Infecții — Abcesele"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Streptococul de grup A domină în celulită.",
-    "evidenceLocation": "Sinopsis, p. 196, 197, Infecții — Abcesele"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Drenajul este esențial.",
-    "evidenceLocation": "Sinopsis, p. 196, 197, Infecții — Abcesele"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Anaerobii sunt mai frecvenți lombar și perineal.",
-    "evidenceLocation": "Sinopsis, p. 196, 197, Infecții — Abcesele"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:19:10.940Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii confundă abcesul cu celulita."
-  },
-  "textbookExpressions": [
-   "MRSA",
-   "perineale"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a dermato-adv-018: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "dermato-adv-019-v2",
   "questionFingerprint": "e15598f1570089b08ff9da4b261eae503af4525ccfbba9652341828eb71c6cca",
   "status": "source-checked",
@@ -207293,160 +207137,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a dermato-adv-033: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "dermato-adv-004-v2",
-  "questionFingerprint": "48944507599876d297ab6d1395d928621270a73d4072164616e2f13365014ea4",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea treptelor terapeutice în acnee.",
-  "reference": {
-   "book": "Sinopsis",
-   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
-   "chapter": 9,
-   "printedPages": [
-    198
-   ],
-   "pdfPages": [
-    3
-   ],
-   "section": "Infecții — Acneea vulgară"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Nu există asociere demonstrată cu alimentele.",
-    "evidenceLocation": "Sinopsis, p. 198, Infecții — Acneea vulgară"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Retinoizii topici sunt prima linie.",
-    "evidenceLocation": "Sinopsis, p. 198, Infecții — Acneea vulgară"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Săpunurile au efect redus.",
-    "evidenceLocation": "Sinopsis, p. 198, Infecții — Acneea vulgară"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Sunt necesare două teste de sarcină negative.",
-    "evidenceLocation": "Sinopsis, p. 198, Infecții — Acneea vulgară"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Isotretinoinul impune monitorizarea hepatică și a hCG.",
-    "evidenceLocation": "Sinopsis, p. 198, Infecții — Acneea vulgară"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:19:10.943Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii contrazic notele explicite."
-  },
-  "textbookExpressions": [
-   "Retinoizii topici",
-   "două teste de sarcină"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a dermato-adv-004: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "dermato-adv-005-v2",
-  "questionFingerprint": "bc31da4c80b503e62e6f6495efeb124f76210cb39b8b5b6e4812241455e53f7a",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea caracteristicilor infecției HSV.",
-  "reference": {
-   "book": "Sinopsis",
-   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
-   "chapter": 9,
-   "printedPages": [
-    198
-   ],
-   "pdfPages": [
-    3
-   ],
-   "section": "Infecții — HSV"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "HSV-1 afectează oral, HSV-2 genital.",
-    "evidenceLocation": "Sinopsis, p. 198, Infecții — HSV"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Infecția primară este mai severă, cu simptome gripale.",
-    "evidenceLocation": "Sinopsis, p. 198, Infecții — HSV"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Boala este incurabilă.",
-    "evidenceLocation": "Sinopsis, p. 198, Infecții — HSV"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Materialul genetic viral rămâne în ganglioni.",
-    "evidenceLocation": "Sinopsis, p. 198, Infecții — HSV"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "HSV-2 este genital.",
-    "evidenceLocation": "Sinopsis, p. 198, Infecții — HSV"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:19:10.944Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează localizarea și curabilitatea."
-  },
-  "textbookExpressions": [
-   "ganglionii neuro-senzitivi",
-   "HSV-1"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a dermato-adv-005: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "dermato-adv-008-v2",
@@ -207680,164 +207370,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a dermato-adv-025: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "dermato-adv-009-v2",
-  "questionFingerprint": "8de12f75a630238fc967deb32a108123b598c18412b91c838a37ac61cb7114f1",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea eritemului polimorf.",
-  "reference": {
-   "book": "Sinopsis",
-   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
-   "chapter": 9,
-   "printedPages": [
-    202,
-    201
-   ],
-   "pdfPages": [
-    7,
-    6
-   ],
-   "section": "Afecțiuni inflamatorii — Eritemul polimorf"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "HSV și Mycoplasma pneumoniae sunt cauze frecvente.",
-    "evidenceLocation": "Sinopsis, p. 202, 201, Afecțiuni inflamatorii — Eritemul polimorf"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Penicilinele, sulfonamidele, AINS, contraceptivele și antiepilepticele sunt frecvente.",
-    "evidenceLocation": "Sinopsis, p. 202, 201, Afecțiuni inflamatorii — Eritemul polimorf"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Biopsia arată limfocite și keratinocite necrotice.",
-    "evidenceLocation": "Sinopsis, p. 202, 201, Afecțiuni inflamatorii — Eritemul polimorf"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Leziunile în țintă sunt caracteristice.",
-    "evidenceLocation": "Sinopsis, p. 202, 201, Afecțiuni inflamatorii — Eritemul polimorf"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Descrie necroliza epidermică toxică.",
-    "evidenceLocation": "Sinopsis, p. 202, 201, Afecțiuni inflamatorii — Eritemul polimorf"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:19:10.948Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii preiau trăsăturile pemfigusului și TEN."
-  },
-  "textbookExpressions": [
-   "Mycoplasma",
-   "leziuni în ţintă"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a dermato-adv-009: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "dermato-adv-010-v2",
-  "questionFingerprint": "9807cade5a4bd22ed1907c2cedd371edc229af7482f423f87b2eb967a0100e6a",
-  "status": "source-checked",
-  "learningObjective": "Diferențierea SSJ de TEN.",
-  "reference": {
-   "book": "Sinopsis",
-   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
-   "chapter": 9,
-   "printedPages": [
-    202,
-    203
-   ],
-   "pdfPages": [
-    7,
-    8
-   ],
-   "section": "Afecțiuni inflamatorii — SSJ și TEN"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "TEN depășește 30% BSA.",
-    "evidenceLocation": "Sinopsis, p. 202, 203, Afecțiuni inflamatorii — SSJ și TEN"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Se tratează adesea în secțiile de arși.",
-    "evidenceLocation": "Sinopsis, p. 202, 203, Afecțiuni inflamatorii — SSJ și TEN"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Nikolsky este pozitiv în SSJ.",
-    "evidenceLocation": "Sinopsis, p. 202, 203, Afecțiuni inflamatorii — SSJ și TEN"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "TEN scade leucocitele, hemoglobina și hematocritul.",
-    "evidenceLocation": "Sinopsis, p. 202, 203, Afecțiuni inflamatorii — SSJ și TEN"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "SSJ afectează mucoasele și <10% BSA.",
-    "evidenceLocation": "Sinopsis, p. 202, 203, Afecțiuni inflamatorii — SSJ și TEN"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:19:10.949Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Singurul distractor contrazice gravitatea."
-  },
-  "textbookExpressions": [
-   "<10%",
-   ">30%"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a dermato-adv-010: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "dermato-adv-026-v2",
@@ -208306,162 +207838,6 @@
   "reviewNotes": "Rescriere a dermato-adv-028: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "dermato-adv-029-v2",
-  "questionFingerprint": "8a300ca966186204457d1bbeb40b890fdf433fc391d91afceec8f2af08e468b2",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea riscului și tratamentului keratozei actinice.",
-  "reference": {
-   "book": "Sinopsis",
-   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
-   "chapter": 9,
-   "printedPages": [
-    206
-   ],
-   "pdfPages": [
-    11
-   ],
-   "section": "Neoplasme — Keratoza actinică"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Riscul este 0,1% pe an.",
-    "evidenceLocation": "Sinopsis, p. 206, Neoplasme — Keratoza actinică"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Este o leziune precanceroasă.",
-    "evidenceLocation": "Sinopsis, p. 206, Neoplasme — Keratoza actinică"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Tratamentul: 5-FU, imiquimod, crioterapie.",
-    "evidenceLocation": "Sinopsis, p. 206, Neoplasme — Keratoza actinică"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Riscul este 0,1% pe an.",
-    "evidenceLocation": "Sinopsis, p. 206, Neoplasme — Keratoza actinică"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Biopsia exclude carcinomul scuamocelular.",
-    "evidenceLocation": "Sinopsis, p. 206, Neoplasme — Keratoza actinică"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:19:10.954Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Singurul distractor umflă riscul."
-  },
-  "textbookExpressions": [
-   "0,1%",
-   "imiquimod"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a dermato-adv-029: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "dermato-adv-014-v2",
-  "questionFingerprint": "df97284621cdc7cf70e5c6bd6a418d1fda791877e2fac78f0243bcafd54d0121",
-  "status": "source-checked",
-  "learningObjective": "Diferențierea carcinoamelor bazocelular și scuamocelular.",
-  "reference": {
-   "book": "Sinopsis",
-   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
-   "chapter": 9,
-   "printedPages": [
-    207,
-    206
-   ],
-   "pdfPages": [
-    12,
-    11
-   ],
-   "section": "Neoplasme — Carcinoamele"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Scuamocelularul metastazează în 5–10%.",
-    "evidenceLocation": "Sinopsis, p. 207, 206, Neoplasme — Carcinoamele"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "60% se dezvoltă din keratoze actinice.",
-    "evidenceLocation": "Sinopsis, p. 207, 206, Neoplasme — Carcinoamele"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Biopsia bazocelularului arată palisade bazofile.",
-    "evidenceLocation": "Sinopsis, p. 207, 206, Neoplasme — Carcinoamele"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Bazocelularul metastazează rar.",
-    "evidenceLocation": "Sinopsis, p. 207, 206, Neoplasme — Carcinoamele"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Bazocelularul este cel mai frecvent.",
-    "evidenceLocation": "Sinopsis, p. 207, 206, Neoplasme — Carcinoamele"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:19:10.955Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează riscul metastatic și originea."
-  },
-  "textbookExpressions": [
-   "palisade",
-   "5-10%"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a dermato-adv-014: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "dermato-adv-030-v2",
   "questionFingerprint": "504bd944b6dc7f3002c6066c61614c349a49eea562eceb96bb635a639914b10d",
   "status": "source-checked",
@@ -208620,83 +207996,6 @@
   "reviewNotes": "Rescriere a dermato-adv-016: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "dermato-adv-017-v2",
-  "questionFingerprint": "87e08b5e766b760f6c9edce7ba087d4651217e23ad258a1432fac48054c0eca8",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea caracteristicilor grefei despicate.",
-  "reference": {
-   "book": "Sinopsis",
-   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
-   "chapter": 9,
-   "printedPages": [
-    209
-   ],
-   "pdfPages": [
-    14
-   ],
-   "section": "Tabelul 9-3"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Locurile donatoare sunt abdomenul, coapsele, fesele.",
-    "evidenceLocation": "Sinopsis, p. 209, Tabelul 9-3"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Descrie grefa cu grosime completă.",
-    "evidenceLocation": "Sinopsis, p. 209, Tabelul 9-3"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Se contractă în timp.",
-    "evidenceLocation": "Sinopsis, p. 209, Tabelul 9-3"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Conține epiderm și o parte din derm.",
-    "evidenceLocation": "Sinopsis, p. 209, Tabelul 9-3"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Retroauricular se recoltează grefa cu grosime completă.",
-    "evidenceLocation": "Sinopsis, p. 209, Tabelul 9-3"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:19:10.957Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii descriu grefa cu grosime completă."
-  },
-  "textbookExpressions": [
-   "despicată",
-   "Abdomen, coapse, fese"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a dermato-adv-017: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "dermato-adv-022-v2",
   "questionFingerprint": "5d3e4879a763bd71d77010623e7472230e6c58730c38c17c83f11a5b0d2821ec",
   "status": "source-checked",
@@ -208772,239 +208071,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a dermato-adv-022: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "dermato-adv-023-v2",
-  "questionFingerprint": "86a73af714066297f7dda8c135448c686ae5f0882c9526e50a0a722ae52efe03",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea hidradenitei supurative.",
-  "reference": {
-   "book": "Sinopsis",
-   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
-   "chapter": 9,
-   "printedPages": [
-    196,
-    197
-   ],
-   "pdfPages": [
-    1,
-    2
-   ],
-   "section": "Infecții — Hidradenita"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Infecția cronică duce la cicatrici.",
-    "evidenceLocation": "Sinopsis, p. 196, 197, Infecții — Hidradenita"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Tratamentul poate necesita antibiotice și excizie.",
-    "evidenceLocation": "Sinopsis, p. 196, 197, Infecții — Hidradenita"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Abcesele recurente apar axilar, inghinal și perineal.",
-    "evidenceLocation": "Sinopsis, p. 196, 197, Infecții — Hidradenita"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Sunt afectate glandele apocrine.",
-    "evidenceLocation": "Sinopsis, p. 196, 197, Infecții — Hidradenita"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Ocluzia foliculară cronică și inflamația glandelor apocrine.",
-    "evidenceLocation": "Sinopsis, p. 196, 197, Infecții — Hidradenita"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:19:55.870Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Singurul distractor schimbă tipul glandei."
-  },
-  "textbookExpressions": [
-   "glandelor apocrine",
-   "cicatricilor"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a dermato-adv-023: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "dermato-adv-002-v2",
-  "questionFingerprint": "2bebf00557d3ef1b10437e5d01a6e1a7c066b0937db6635789c00f3002267a66",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea și tratamentul fasceitei necrozante.",
-  "reference": {
-   "book": "Sinopsis",
-   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
-   "chapter": 9,
-   "printedPages": [
-    197
-   ],
-   "pdfPages": [
-    2
-   ],
-   "section": "Infecții — Fasceita necrozantă"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Durerea este disproporționată.",
-    "evidenceLocation": "Sinopsis, p. 197, Infecții — Fasceita necrozantă"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Este polimicrobiană, rapid progresivă.",
-    "evidenceLocation": "Sinopsis, p. 197, Infecții — Fasceita necrozantă"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "RX sau CT pot detecta aer subcutanat.",
-    "evidenceLocation": "Sinopsis, p. 197, Infecții — Fasceita necrozantă"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Tratamentul este debridarea rapidă și antibiotice IV.",
-    "evidenceLocation": "Sinopsis, p. 197, Infecții — Fasceita necrozantă"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Mortalitatea este de 25%.",
-    "evidenceLocation": "Sinopsis, p. 197, Infecții — Fasceita necrozantă"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:19:55.872Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii subestimează gravitatea."
-  },
-  "textbookExpressions": [
-   "polimicrobiană",
-   "25%"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a dermato-adv-002: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "dermato-adv-006-v2",
-  "questionFingerprint": "1daba317afd589ab9d2dfcc8ade1572516cde47fadd3b63a9b10d56a5e255c6f",
-  "status": "source-checked",
-  "learningObjective": "Diferențierea varicelei de zona zoster.",
-  "reference": {
-   "book": "Sinopsis",
-   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
-   "chapter": 9,
-   "printedPages": [
-    199
-   ],
-   "pdfPages": [
-    4
-   ],
-   "section": "Tabelul 9-1"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Mai multe dermatoame distincte semnifică diseminare.",
-    "evidenceLocation": "Sinopsis, p. 199, Tabelul 9-1"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Simptomele apar la 2 săptămâni după infecție.",
-    "evidenceLocation": "Sinopsis, p. 199, Tabelul 9-1"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Sunt infecțioase până la formarea crustei.",
-    "evidenceLocation": "Sinopsis, p. 199, Tabelul 9-1"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Zona zoster este limitată dermatomal.",
-    "evidenceLocation": "Sinopsis, p. 199, Tabelul 9-1"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Nevralgia postherpetică complică zona zoster.",
-    "evidenceLocation": "Sinopsis, p. 199, Tabelul 9-1"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:19:55.873Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Singurul distractor mută complicația."
-  },
-  "textbookExpressions": [
-   "dermatoame",
-   "2 săptămâni"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a dermato-adv-006: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "dermato-adv-037-v2",
@@ -209469,314 +208535,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a dermato-adv-032: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "dermato-adv-034-v2",
-  "questionFingerprint": "748de74b8baeb50beb514b892e89a8c9ed9b7215d1d72f5781bbb8972fd5b751",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea cauzelor și terapiilor acneei.",
-  "reference": {
-   "book": "Sinopsis",
-   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
-   "chapter": 9,
-   "printedPages": [
-    198
-   ],
-   "pdfPages": [
-    3
-   ],
-   "section": "Infecții — Acneea vulgară"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Contraceptivele pot fi utile la femei.",
-    "evidenceLocation": "Sinopsis, p. 198, Infecții — Acneea vulgară"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Severitatea scade la sfârșitul adolescenței.",
-    "evidenceLocation": "Sinopsis, p. 198, Infecții — Acneea vulgară"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Benzoil-peroxidul este terapie de linia a doua.",
-    "evidenceLocation": "Sinopsis, p. 198, Infecții — Acneea vulgară"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Se asociază cu Propionibacterium acnes.",
-    "evidenceLocation": "Sinopsis, p. 198, Infecții — Acneea vulgară"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Corticosteroizii și excesul de androgeni cauzează acnee la adult.",
-    "evidenceLocation": "Sinopsis, p. 198, Infecții — Acneea vulgară"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:20:12.851Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Singurul distractor inversează evoluția."
-  },
-  "textbookExpressions": [
-   "Propionibacterium",
-   "Benzoil-peroxidul"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a dermato-adv-034: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "dermato-adv-035-v2",
-  "questionFingerprint": "937b4f6d77f859a4ea8f05dc9800c008740129d9b10317759934c7b778c800ee",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea tratamentului și complicațiilor HSV.",
-  "reference": {
-   "book": "Sinopsis",
-   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
-   "chapter": 9,
-   "printedPages": [
-    198
-   ],
-   "pdfPages": [
-    3
-   ],
-   "section": "Infecții — HSV"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Boala este incurabilă.",
-    "evidenceLocation": "Sinopsis, p. 198, Infecții — HSV"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Transmiterea perinatală poate da boală diseminată.",
-    "evidenceLocation": "Sinopsis, p. 198, Infecții — HSV"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Aciclovirul, famciclovirul, valaciclovirul scurtează recurențele.",
-    "evidenceLocation": "Sinopsis, p. 198, Infecții — HSV"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "La imunosupresați: encefalită, pneumonie, hepatită.",
-    "evidenceLocation": "Sinopsis, p. 198, Infecții — HSV"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Terapia continuă scade frecvența.",
-    "evidenceLocation": "Sinopsis, p. 198, Infecții — HSV"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:20:12.853Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Singurul distractor contrazice incurabilitatea."
-  },
-  "textbookExpressions": [
-   "supresivă",
-   "encefalită"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a dermato-adv-035: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "dermato-adv-036-v2",
-  "questionFingerprint": "01c502e0357e211656d6a3591d7a7a1aaacb9853303ada47c189ea2282d48282",
-  "status": "source-checked",
-  "learningObjective": "Diferențierea verucilor de molluscum contagiosum.",
-  "reference": {
-   "book": "Sinopsis",
-   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
-   "chapter": 9,
-   "printedPages": [
-    200
-   ],
-   "pdfPages": [
-    5
-   ],
-   "section": "Infecții — Verucile și molluscum"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Molluscum este produs de poxvirus.",
-    "evidenceLocation": "Sinopsis, p. 200, Infecții — Verucile și molluscum"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Verucile sunt determinate de HPV.",
-    "evidenceLocation": "Sinopsis, p. 200, Infecții — Verucile și molluscum"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Papulele sunt lucioase, ombilicate.",
-    "evidenceLocation": "Sinopsis, p. 200, Infecții — Verucile și molluscum"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Crioterapia sau acidul salicilic le îndepărtează.",
-    "evidenceLocation": "Sinopsis, p. 200, Infecții — Verucile și molluscum"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Permetrina tratează scabia.",
-    "evidenceLocation": "Sinopsis, p. 200, Infecții — Verucile și molluscum"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:20:12.854Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Singurul distractor preia tratamentul scabiei."
-  },
-  "textbookExpressions": [
-   "poxvirus",
-   "ombilicată"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a dermato-adv-036: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "dermato-adv-007-v2",
-  "questionFingerprint": "0349b04ac1425f168016abeb9ae885b2826d3d382ba6ae21958f04c662233c87",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea și tratamentul scabiei.",
-  "reference": {
-   "book": "Sinopsis",
-   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
-   "chapter": 9,
-   "printedPages": [
-    200
-   ],
-   "pdfPages": [
-    5
-   ],
-   "section": "Infecții — Scabia"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Agentul este Sarcoptes scabiei.",
-    "evidenceLocation": "Sinopsis, p. 200, Infecții — Scabia"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Pruritul se agravează după baie fierbinte.",
-    "evidenceLocation": "Sinopsis, p. 200, Infecții — Scabia"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Hainele și lenjeria se spală în apă fierbinte.",
-    "evidenceLocation": "Sinopsis, p. 200, Infecții — Scabia"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Permetrina sau ivermectina sunt tratamentul.",
-    "evidenceLocation": "Sinopsis, p. 200, Infecții — Scabia"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Sunt afectate cel mai frecvent spațiile interdigitale.",
-    "evidenceLocation": "Sinopsis, p. 200, Infecții — Scabia"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:20:12.854Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Singurul distractor schimbă localizarea."
-  },
-  "textbookExpressions": [
-   "Permetrina",
-   "baie fierbinte"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a dermato-adv-007: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "dermato-adv-038-v2",
@@ -269519,5 +268277,1247 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a ati-adv-020: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "dermato-adv-018-v2",
+  "questionFingerprint": "f1027279735f6ed465b2783f7081600180c40dce8ee801ec4c74e58cc2370389",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea etiologiei și tratamentului abceselor cutanate.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 9,
+   "printedPages": [
+    196,
+    197
+   ],
+   "pdfPages": [
+    1,
+    2
+   ],
+   "section": "Infecții — Abcesele"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Incizia și drenajul plus cotrimoxazol.",
+    "evidenceLocation": "Sinopsis, p. 196, 197, Infecții — Abcesele"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Stafilococii, de obicei MRSA, sunt cei mai frecvenți.",
+    "evidenceLocation": "Sinopsis, p. 196, 197, Infecții — Abcesele"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Streptococul de grup A domină în celulită.",
+    "evidenceLocation": "Sinopsis, p. 196, 197, Infecții — Abcesele"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Drenajul este esențial.",
+    "evidenceLocation": "Sinopsis, p. 196, 197, Infecții — Abcesele"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: anaerobii sunt mai frecvenți lombar și perineal.",
+    "evidenceLocation": "Sinopsis, p. 196, 197, Infecții — Abcesele"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:20:36.786Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii confundă abcesul cu celulita."
+  },
+  "textbookExpressions": [
+   "MRSA",
+   "perineale"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a dermato-adv-018: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "dermato-adv-023-v2",
+  "questionFingerprint": "bf6aa9a0b952ed7bf16e1e85ba576df4019fc1a0ca602b835e34f22e8da2e7ac",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea hidradenitei supurative.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 9,
+   "printedPages": [
+    196,
+    197
+   ],
+   "pdfPages": [
+    1,
+    2
+   ],
+   "section": "Infecții — Hidradenita"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: infecția cronică duce la cicatrici.",
+    "evidenceLocation": "Sinopsis, p. 196, 197, Infecții — Hidradenita"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Tratamentul poate necesita antibiotice și excizie.",
+    "evidenceLocation": "Sinopsis, p. 196, 197, Infecții — Hidradenita"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Abcesele recurente apar axilar, inghinal și perineal.",
+    "evidenceLocation": "Sinopsis, p. 196, 197, Infecții — Hidradenita"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Sunt afectate glandele apocrine.",
+    "evidenceLocation": "Sinopsis, p. 196, 197, Infecții — Hidradenita"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Ocluzia foliculară cronică și inflamația glandelor apocrine.",
+    "evidenceLocation": "Sinopsis, p. 196, 197, Infecții — Hidradenita"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:20:36.789Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Singurul distractor schimbă tipul glandei."
+  },
+  "textbookExpressions": [
+   "glandelor apocrine",
+   "cicatricilor"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a dermato-adv-023: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "dermato-adv-002-v2",
+  "questionFingerprint": "8fb22eddb6b4cbdff87c6b924f03d3f88f1c8008af5a85c9bcda873ace7c8f8c",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea și tratamentul fasceitei necrozante.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 9,
+   "printedPages": [
+    197
+   ],
+   "pdfPages": [
+    2
+   ],
+   "section": "Infecții — Fasceita necrozantă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: durerea este disproporționată față de examenul obiectiv.",
+    "evidenceLocation": "Sinopsis, p. 197, Infecții — Fasceita necrozantă"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Este polimicrobiană, rapid progresivă.",
+    "evidenceLocation": "Sinopsis, p. 197, Infecții — Fasceita necrozantă"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "RX sau CT pot detecta aer subcutanat.",
+    "evidenceLocation": "Sinopsis, p. 197, Infecții — Fasceita necrozantă"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Tratamentul este debridarea rapidă și antibiotice IV.",
+    "evidenceLocation": "Sinopsis, p. 197, Infecții — Fasceita necrozantă"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Mortalitatea este de 25%.",
+    "evidenceLocation": "Sinopsis, p. 197, Infecții — Fasceita necrozantă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:20:36.789Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii subestimează gravitatea."
+  },
+  "textbookExpressions": [
+   "polimicrobiană",
+   "25%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a dermato-adv-002: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "dermato-adv-034-v2",
+  "questionFingerprint": "3f9fe14a68975bd32ec4239e864f2baa0012eef67c3aecafa3588f10305ed2a3",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea cauzelor și terapiilor acneei.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 9,
+   "printedPages": [
+    198
+   ],
+   "pdfPages": [
+    3
+   ],
+   "section": "Infecții — Acneea vulgară"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: contraceptivele orale pot fi utile la femei.",
+    "evidenceLocation": "Sinopsis, p. 198, Infecții — Acneea vulgară"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Severitatea scade la sfârșitul adolescenței.",
+    "evidenceLocation": "Sinopsis, p. 198, Infecții — Acneea vulgară"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Benzoil-peroxidul este terapie de linia a doua.",
+    "evidenceLocation": "Sinopsis, p. 198, Infecții — Acneea vulgară"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Se asociază cu Propionibacterium acnes.",
+    "evidenceLocation": "Sinopsis, p. 198, Infecții — Acneea vulgară"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Corticosteroizii și excesul de androgeni cauzează acnee la adult.",
+    "evidenceLocation": "Sinopsis, p. 198, Infecții — Acneea vulgară"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:20:36.790Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Singurul distractor inversează evoluția."
+  },
+  "textbookExpressions": [
+   "Propionibacterium",
+   "Benzoil-peroxidul"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a dermato-adv-034: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "dermato-adv-005-v2",
+  "questionFingerprint": "9229d94c9bf5d656c0b6425222bdd3504efd2a2a8c15ea8cd0f769328c482ee9",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea caracteristicilor infecției HSV.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 9,
+   "printedPages": [
+    198
+   ],
+   "pdfPages": [
+    3
+   ],
+   "section": "Infecții — HSV"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "HSV-1 afectează oral, HSV-2 genital.",
+    "evidenceLocation": "Sinopsis, p. 198, Infecții — HSV"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: infecția primară este mai severă, cu simptome gripale.",
+    "evidenceLocation": "Sinopsis, p. 198, Infecții — HSV"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Boala este incurabilă.",
+    "evidenceLocation": "Sinopsis, p. 198, Infecții — HSV"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Materialul genetic viral rămâne în ganglioni.",
+    "evidenceLocation": "Sinopsis, p. 198, Infecții — HSV"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "HSV-2 este genital.",
+    "evidenceLocation": "Sinopsis, p. 198, Infecții — HSV"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:20:36.791Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează localizarea și curabilitatea."
+  },
+  "textbookExpressions": [
+   "ganglionii neuro-senzitivi",
+   "HSV-1"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a dermato-adv-005: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "dermato-adv-035-v2",
+  "questionFingerprint": "39d8eb1d2f68191631514f3749892745bef719f8f9c7e55fad1594f699c07830",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea tratamentului și complicațiilor HSV.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 9,
+   "printedPages": [
+    198
+   ],
+   "pdfPages": [
+    3
+   ],
+   "section": "Infecții — HSV"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Boala este incurabilă.",
+    "evidenceLocation": "Sinopsis, p. 198, Infecții — HSV"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Transmiterea perinatală poate da boală diseminată.",
+    "evidenceLocation": "Sinopsis, p. 198, Infecții — HSV"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Aciclovirul, famciclovirul, valaciclovirul scurtează recurențele.",
+    "evidenceLocation": "Sinopsis, p. 198, Infecții — HSV"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: la imunosupresați poate produce encefalită, pneumonie, hepatită.",
+    "evidenceLocation": "Sinopsis, p. 198, Infecții — HSV"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Terapia continuă scade frecvența.",
+    "evidenceLocation": "Sinopsis, p. 198, Infecții — HSV"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:20:36.791Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Singurul distractor contrazice incurabilitatea."
+  },
+  "textbookExpressions": [
+   "supresivă",
+   "encefalită"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a dermato-adv-035: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "dermato-adv-006-v2",
+  "questionFingerprint": "f26a3d84f1cab7c11012f31b806433794eb0d0800ff770061c5afeaba2ec42c8",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea varicelei de zona zoster.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 9,
+   "printedPages": [
+    199
+   ],
+   "pdfPages": [
+    4
+   ],
+   "section": "Tabelul 9-1"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Mai multe dermatoame distincte semnifică diseminare.",
+    "evidenceLocation": "Sinopsis, p. 199, Tabelul 9-1"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: simptomele apar la 2 săptămâni după infecție.",
+    "evidenceLocation": "Sinopsis, p. 199, Tabelul 9-1"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Sunt infecțioase până la formarea crustei.",
+    "evidenceLocation": "Sinopsis, p. 199, Tabelul 9-1"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Zona zoster este limitată dermatomal.",
+    "evidenceLocation": "Sinopsis, p. 199, Tabelul 9-1"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nevralgia postherpetică complică zona zoster.",
+    "evidenceLocation": "Sinopsis, p. 199, Tabelul 9-1"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:20:36.792Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Singurul distractor mută complicația."
+  },
+  "textbookExpressions": [
+   "dermatoame",
+   "2 săptămâni"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a dermato-adv-006: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "dermato-adv-036-v2",
+  "questionFingerprint": "ee0f8158d8f58f96ccd8210121fe8d4bf06392aa33fbbee05339435be52fcedb",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea verucilor de molluscum contagiosum.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 9,
+   "printedPages": [
+    200
+   ],
+   "pdfPages": [
+    5
+   ],
+   "section": "Infecții — Verucile și molluscum"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: molluscum este produs de un poxvirus.",
+    "evidenceLocation": "Sinopsis, p. 200, Infecții — Verucile și molluscum"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Verucile sunt determinate de HPV.",
+    "evidenceLocation": "Sinopsis, p. 200, Infecții — Verucile și molluscum"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Papulele sunt lucioase, ombilicate.",
+    "evidenceLocation": "Sinopsis, p. 200, Infecții — Verucile și molluscum"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Crioterapia sau acidul salicilic le îndepărtează.",
+    "evidenceLocation": "Sinopsis, p. 200, Infecții — Verucile și molluscum"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Permetrina tratează scabia.",
+    "evidenceLocation": "Sinopsis, p. 200, Infecții — Verucile și molluscum"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:20:36.792Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Singurul distractor preia tratamentul scabiei."
+  },
+  "textbookExpressions": [
+   "poxvirus",
+   "ombilicată"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a dermato-adv-036: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "dermato-adv-007-v2",
+  "questionFingerprint": "7b88b1030d178813481fba37c0474ec8964b88278dcaad921ec13b533e89c21f",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea și tratamentul scabiei.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 9,
+   "printedPages": [
+    200
+   ],
+   "pdfPages": [
+    5
+   ],
+   "section": "Infecții — Scabia"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Agentul este Sarcoptes scabiei.",
+    "evidenceLocation": "Sinopsis, p. 200, Infecții — Scabia"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: pruritul se agravează după baia fierbinte.",
+    "evidenceLocation": "Sinopsis, p. 200, Infecții — Scabia"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Hainele și lenjeria se spală în apă fierbinte.",
+    "evidenceLocation": "Sinopsis, p. 200, Infecții — Scabia"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Permetrina sau ivermectina sunt tratamentul.",
+    "evidenceLocation": "Sinopsis, p. 200, Infecții — Scabia"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Sunt afectate cel mai frecvent spațiile interdigitale.",
+    "evidenceLocation": "Sinopsis, p. 200, Infecții — Scabia"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:20:36.793Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Singurul distractor schimbă localizarea."
+  },
+  "textbookExpressions": [
+   "Permetrina",
+   "baie fierbinte"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a dermato-adv-007: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "dermato-adv-010-v2",
+  "questionFingerprint": "4e5917b87751bec4004b7f3cc8e7ec28854b30e8408a8d62e0253048efd9072a",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea SSJ de TEN.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 9,
+   "printedPages": [
+    202,
+    203
+   ],
+   "pdfPages": [
+    7,
+    8
+   ],
+   "section": "Afecțiuni inflamatorii — SSJ și TEN"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "TEN depășește 30% BSA.",
+    "evidenceLocation": "Sinopsis, p. 202, 203, Afecțiuni inflamatorii — SSJ și TEN"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Se tratează adesea în secțiile de arși.",
+    "evidenceLocation": "Sinopsis, p. 202, 203, Afecțiuni inflamatorii — SSJ și TEN"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: Nikolsky este pozitiv în SSJ.",
+    "evidenceLocation": "Sinopsis, p. 202, 203, Afecțiuni inflamatorii — SSJ și TEN"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "TEN scade leucocitele, hemoglobina și hematocritul.",
+    "evidenceLocation": "Sinopsis, p. 202, 203, Afecțiuni inflamatorii — SSJ și TEN"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "SSJ afectează mucoasele și <10% BSA.",
+    "evidenceLocation": "Sinopsis, p. 202, 203, Afecțiuni inflamatorii — SSJ și TEN"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:20:36.794Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Singurul distractor contrazice gravitatea."
+  },
+  "textbookExpressions": [
+   "<10%",
+   ">30%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a dermato-adv-010: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "dermato-adv-029-v2",
+  "questionFingerprint": "0dab9ae7d31e61e27768ac0f4d011efbede7a737b0cdc3f9e1ba62174ca9744d",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea riscului și tratamentului keratozei actinice.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 9,
+   "printedPages": [
+    206
+   ],
+   "pdfPages": [
+    11
+   ],
+   "section": "Neoplasme — Keratoza actinică"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Riscul este 0,1% pe an.",
+    "evidenceLocation": "Sinopsis, p. 206, Neoplasme — Keratoza actinică"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: keratoza actinică este o leziune precanceroasă.",
+    "evidenceLocation": "Sinopsis, p. 206, Neoplasme — Keratoza actinică"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Tratamentul: 5-FU, imiquimod, crioterapie.",
+    "evidenceLocation": "Sinopsis, p. 206, Neoplasme — Keratoza actinică"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Riscul este de aproximativ 0,1% pe an.",
+    "evidenceLocation": "Sinopsis, p. 206, Neoplasme — Keratoza actinică"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Biopsia exclude carcinomul scuamocelular.",
+    "evidenceLocation": "Sinopsis, p. 206, Neoplasme — Keratoza actinică"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:20:36.795Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Singurul distractor umflă riscul."
+  },
+  "textbookExpressions": [
+   "0,1%",
+   "imiquimod"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a dermato-adv-029: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "dermato-adv-014-v2",
+  "questionFingerprint": "1980cf52519969b245f9eced3af9a75358a475291c9f67dc347d5ae9c44f3818",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea carcinoamelor bazocelular și scuamocelular.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 9,
+   "printedPages": [
+    207,
+    206
+   ],
+   "pdfPages": [
+    12,
+    11
+   ],
+   "section": "Neoplasme — Carcinoamele"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: scuamocelularul metastazează în 5–10%.",
+    "evidenceLocation": "Sinopsis, p. 207, 206, Neoplasme — Carcinoamele"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "60% se dezvoltă din keratoze actinice.",
+    "evidenceLocation": "Sinopsis, p. 207, 206, Neoplasme — Carcinoamele"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Biopsia bazocelularului arată palisade bazofile.",
+    "evidenceLocation": "Sinopsis, p. 207, 206, Neoplasme — Carcinoamele"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Bazocelularul metastazează rar.",
+    "evidenceLocation": "Sinopsis, p. 207, 206, Neoplasme — Carcinoamele"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Bazocelularul este cel mai frecvent.",
+    "evidenceLocation": "Sinopsis, p. 207, 206, Neoplasme — Carcinoamele"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:20:36.796Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează riscul metastatic și originea."
+  },
+  "textbookExpressions": [
+   "palisade",
+   "5-10%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a dermato-adv-014: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "dermato-adv-017-v2",
+  "questionFingerprint": "353b556444bab7f29a185d22633b540638b12dcc834476830d01853ccf64cc65",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea caracteristicilor grefei despicate.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 9,
+   "printedPages": [
+    209
+   ],
+   "pdfPages": [
+    14
+   ],
+   "section": "Tabelul 9-3"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Locurile donatoare sunt abdomenul, coapsele, fesele.",
+    "evidenceLocation": "Sinopsis, p. 209, Tabelul 9-3"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Descrie grefa cu grosime completă.",
+    "evidenceLocation": "Sinopsis, p. 209, Tabelul 9-3"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: grefa despicată se contractă în timp.",
+    "evidenceLocation": "Sinopsis, p. 209, Tabelul 9-3"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Conține epiderm și o parte din derm.",
+    "evidenceLocation": "Sinopsis, p. 209, Tabelul 9-3"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Retroauricular se recoltează grefa cu grosime completă.",
+    "evidenceLocation": "Sinopsis, p. 209, Tabelul 9-3"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:20:36.796Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii descriu grefa cu grosime completă."
+  },
+  "textbookExpressions": [
+   "despicată",
+   "Abdomen, coapse, fese"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a dermato-adv-017: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "dermato-adv-001-v2",
+  "questionFingerprint": "ee55e93324d1d2fb732f783057fb1b3671b172ccd3aca249cc5a8102b412877e",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea etiologiei și tratamentului celulitei.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 9,
+   "printedPages": [
+    196
+   ],
+   "pdfPages": [
+    1
+   ],
+   "section": "Infecții — Celulita"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "MRSA este frecvent în abcese.",
+    "evidenceLocation": "Sinopsis, p. 196, Infecții — Celulita"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Cefalosporinele orale sau β-lactaminele rezistente la penicilinază 10–14 zile.",
+    "evidenceLocation": "Sinopsis, p. 196, Infecții — Celulita"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Recurența este 20–50%.",
+    "evidenceLocation": "Sinopsis, p. 196, Infecții — Celulita"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: culturile conțin floră comensală sau sunt fals negative.",
+    "evidenceLocation": "Sinopsis, p. 196, Infecții — Celulita"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Streptococul de grup A este cel mai frecvent.",
+    "evidenceLocation": "Sinopsis, p. 196, Infecții — Celulita"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:20:56.543Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii confundă celulita cu abcesul."
+  },
+  "textbookExpressions": [
+   "streptococul de grup A",
+   "10-14 zile"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a dermato-adv-001: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "dermato-adv-004-v2",
+  "questionFingerprint": "9155098e4ae2d6080d559a8c64448684f80802fe74ec513f3a5a11f258b102a0",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea treptelor terapeutice în acnee.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 9,
+   "printedPages": [
+    198
+   ],
+   "pdfPages": [
+    3
+   ],
+   "section": "Infecții — Acneea vulgară"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu există asociere demonstrată cu alimentele.",
+    "evidenceLocation": "Sinopsis, p. 198, Infecții — Acneea vulgară"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: retinoizii topici sunt prima linie.",
+    "evidenceLocation": "Sinopsis, p. 198, Infecții — Acneea vulgară"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Săpunurile au efect redus.",
+    "evidenceLocation": "Sinopsis, p. 198, Infecții — Acneea vulgară"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Sunt necesare două teste de sarcină negative.",
+    "evidenceLocation": "Sinopsis, p. 198, Infecții — Acneea vulgară"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Isotretinoinul impune monitorizarea hepatică și a hCG.",
+    "evidenceLocation": "Sinopsis, p. 198, Infecții — Acneea vulgară"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:20:56.546Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii contrazic notele explicite."
+  },
+  "textbookExpressions": [
+   "Retinoizii topici",
+   "două teste de sarcină"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a dermato-adv-004: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "dermato-adv-009-v2",
+  "questionFingerprint": "3c12869401fbcf1f24371e33ea83ce041d75fadfee2ff1bf288479045dc6fdbf",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea eritemului polimorf.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 9,
+   "printedPages": [
+    202,
+    201
+   ],
+   "pdfPages": [
+    7,
+    6
+   ],
+   "section": "Afecțiuni inflamatorii — Eritemul polimorf"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "HSV și Mycoplasma pneumoniae sunt cauze frecvente.",
+    "evidenceLocation": "Sinopsis, p. 202, 201, Afecțiuni inflamatorii — Eritemul polimorf"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Penicilinele, sulfonamidele, AINS, contraceptivele și antiepilepticele sunt frecvente.",
+    "evidenceLocation": "Sinopsis, p. 202, 201, Afecțiuni inflamatorii — Eritemul polimorf"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Biopsia arată limfocite și keratinocite necrotice.",
+    "evidenceLocation": "Sinopsis, p. 202, 201, Afecțiuni inflamatorii — Eritemul polimorf"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: leziunile caracteristice sunt în țintă.",
+    "evidenceLocation": "Sinopsis, p. 202, 201, Afecțiuni inflamatorii — Eritemul polimorf"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Descrie necroliza epidermică toxică.",
+    "evidenceLocation": "Sinopsis, p. 202, 201, Afecțiuni inflamatorii — Eritemul polimorf"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:20:56.548Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii preiau trăsăturile pemfigusului și TEN."
+  },
+  "textbookExpressions": [
+   "Mycoplasma",
+   "leziuni în ţintă"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a dermato-adv-009: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  }
 ]
