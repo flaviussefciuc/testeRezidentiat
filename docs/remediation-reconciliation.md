@@ -66,7 +66,7 @@ were found on that page. Cutoff-page and box checks for each topic are logged in
 
 ## Items relying on a Cadran / Figura / Tabel
 
-569 items, 97 resolved, 472 pending.
+569 items, 103 resolved, 466 pending.
 
 | Original ID | Topic | Status |
 |---|---|---|
@@ -84,12 +84,12 @@ were found on that page. Cutoff-page and box checks for each topic are logged in
 | arsuri-adv-054 | arsuri | pending (original still live) |
 | arsuri-adv-056 | arsuri | pending (original still live) |
 | arsuri-adv-065 | arsuri | pending (original still live) |
-| ati-adv-016 | ati | pending (original still live) |
-| ati-adv-019 | ati | pending (original still live) |
-| ati-adv-023 | ati | pending (original still live) |
-| ati-adv-030 | ati | pending (original still live) |
-| ati-adv-036 | ati | pending (original still live) |
-| ati-adv-046 | ati | pending (original still live) |
+| ati-adv-016 | ati | replaced by ati-adv-016-v2 (p. 228; expressions verified on the cited page) |
+| ati-adv-019 | ati | replaced by ati-adv-019-v2 (p. 232; expressions verified on the cited page) |
+| ati-adv-023 | ati | replaced by ati-adv-023-v2 (p. 224; expressions verified on the cited page) |
+| ati-adv-030 | ati | replaced by ati-adv-030-v2 (p. 228; expressions verified on the cited page) |
+| ati-adv-036 | ati | replaced by ati-adv-036-v2 (p. 231; expressions verified on the cited page) |
+| ati-adv-046 | ati | replaced by ati-adv-046-v2 (p. 232; expressions verified on the cited page) |
 | biliar-adv-028 | biliar | replaced by biliar-adv-028-v2 (p. 247; expressions verified on the cited page) |
 | biliar-adv-036 | biliar | replaced by biliar-adv-036-v2 (p. 242; expressions verified on the cited page) |
 | biliar-adv-065 | biliar | replaced by biliar-adv-065-v2 (p. 252; expressions verified on the cited page) |

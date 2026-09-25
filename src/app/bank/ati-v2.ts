@@ -1,0 +1,217 @@
+import {rewriter} from './rewrite-author';
+import {RETIRED_ATI} from './retired/ati';
+
+// Rewritten after the 2026-09-24 cue audit (Kumar, cap. 10, p. 224–233).
+const q=rewriter(RETIRED_ATI,(p:number)=>p-182,{shuffle:true});
+
+export const ATI_V2=[
+q('ati-adv-023',['Conform Cadranului 10.12, au risc perioperator de insuficiență multiplă de organ:',
+ ['pacienții vârstnici, cu rezervă funcțională limitată','pacienții cu traumatisme în două cavități și transfuzii multiple','pacienții cu esofagectomie sau pancreatectomie','pacienții operați de urgență pentru peritonită fecaloidă','tinerii operați electiv pentru hernie inghinală'],'ABCD',224,'Cadranul 10.12',
+ 'Recunoașterea pacienților cu risc perioperator crescut.',
+ ['Vârstnicii sunt citați.','Traumatismele în două cavități cu transfuzii multiple sunt citate.','Disecția tisulară extensivă este citată.','Chirurgia de urgență pentru afecțiuni foarte grave este citată.','Nu este grupul citat.']],
+ [8,'Singurul distractor este grupul cu risc scăzut.'],['două cavităţi','esofagectomie']),
+
+q('ati-adv-011',['Terapia precoce ghidată de obiective (ScvO2 >70%) în sepsisul sever și șocul septic:',
+ ['nu pare să îmbunătățească evoluția','reduce mortalitatea în toate studiile','înlocuiește monitorizarea debitului cardiac','impune creșterea DO2 peste normal','este superioară resuscitării standard'],'A',224,'Obiectivele hemodinamicii',
+ 'Recunoașterea rezultatelor terapiei precoce ghidate de obiective.',
+ ['În ciuda optimismului inițial, nu pare să îmbunătățească evoluția.','Nu este rezultatul citat.','Monitorizarea debitului ghidează substituția volemică.','Creșterea DO2 peste normal nu aduce beneficiu.','Nu este rezultatul citat.']],
+ [8,'Distractorii reflectă optimismul inițial infirmat.'],['early goal-directed therapy','>70%']),
+
+q('ati-adv-024',['Nitroglicerina în terapia intensivă:',
+ ['este în doze mici predominant venodilatatoare','produce dilatație arterială la doze crescute','reduce rezistența vasculară pulmonară','se asociază cu intoxicația cu cianură la perfuzii prelungite','este un dilatator arterial pur la doze mici'],'ABC',224,'Terapia vasodilatatoare',
+ 'Diferențierea nitroglicerinei de nitroprusiat.',
+ ['În doze mici este predominant venodilatatoare.','La doze crescute dilată și arterele.','Reduce rezistența vasculară pulmonară.','Intoxicația cu cianură privește nitroprusiatul.','Este predominant venodilatatoare la doze mici.']],
+ [8,'Distractorii preiau proprietăți ale nitroprusiatului.'],['venodilatator','rezistenţa vasculară pulmonară']),
+
+q('ati-adv-031',['Terapia vasodilatatoare și suportul mecanic al miocardului:',
+ ['reducerea postsarcinii crește volumul-bătaie','nitroprusiatul are efecte reversibile în câteva minute','contrapulsația cu balon intra-aortic este cel mai folosit suport mecanic','vasodilatatoarele sunt utile mai ales în hipovolemie','valoarea de rutină a dopexaminei este bine stabilită'],'ABC',224,'Terapia vasodilatatoare',
+ 'Aplicarea terapiei vasodilatatoare și a suportului mecanic.',
+ ['Reducerea postsarcinii crește volumul-bătaie și scade consumul miocardic de O2.','Efectele nitroprusiatului sunt rapide și reversibile în minute.','BCPIA este tehnica folosită cel mai frecvent.','Sunt utile în insuficiența cardiacă cu curbă aplatizată.','Valoarea rămâne incertă.']],
+ [8,'Distractorii inversează indicația și certitudinea.'],['Nitroprusiatul','intra-aortic']),
+
+q('ati-adv-012',['Insuficiența respiratorie:',
+ ['de tip I are PaO2 scăzută și PaCO2 normală sau scăzută','de tip II are PaO2 scăzută și PaCO2 ridicată','este prezentă practic la PaO2 sub 8 kPa','de tip II are drept cauză principală pneumonia','de tip I rezultă din hipoventilație alveolară'],'ABC',224,'Insuficiența respiratorie — Clasificare',
+ 'Diferențierea tipurilor de insuficiență respiratorie.',
+ ['Tipul I: PaO2 scăzută, PaCO2 normală sau scăzută.','Tipul II: PaO2 scăzută, PaCO2 ridicată.','Pragul practic este PaO2 <8 kPa sau PaCO2 >7 kPa.','Cea mai frecventă cauză de tip II este BPOC.','Tipul I rezultă din șunt sau dezechilibru V/Q.']],
+ [8,'Distractorii inversează mecanismele.'],['8 kPa','BPOC'],[225]),
+
+q('ati-adv-032',['Respirația paradoxală constă în:',
+ ['mișcarea abdomenului și toracelui în direcții opuse','o discrepanță de moment între abdomen și torace','alternarea participării intercostalilor și diafragmei','creșterea inspiratorie a tensiunii arteriale','tirajul intercostal izolat'],'A',225,'Insuficiența respiratorie — Tablou clinic',
+ 'Diferențierea semnelor de disfuncție respiratorie.',
+ ['Compartimentele se deplasează în direcții opuse.','Descrie respirația asincronă.','Descrie alternanța respiratorie.','Nu este semnul citat.','Nu este semnul citat.']],
+ [8,'Distractorii sunt celelalte semne din listă.'],['respiraţia paradoxală','direcţii opuse']),
+
+q('ati-adv-039',['Cel mai sensibil indicator clinic al creșterii dificultății respiratorii este:',
+ ['creșterea frecvenței respiratorii','scăderea saturației periferice de oxigen','apariția pulsului paradoxal','creșterea PaCO2 la gazometria arterială','scăderea capacității vitale'],'A',225,'Insuficiența respiratorie — Investigații',
+ 'Recunoașterea indicatorului clinic cel mai sensibil.',
+ ['Creșterea frecvenței respiratorii este cel mai sensibil indicator clinic.','Pulsoximetria nu este un indicator sensibil.','Pulsul paradoxal este rar prezent.','Nu este indicatorul clinic citat.','Este mai bună în bolile neuromusculare.']],
+ [8,'Distractorii sunt indicatori reali, mai puțin sensibili.'],['Cel mai sensibil indicator','frecvenţei respiratorii']),
+
+q('ati-adv-033',['Pulsoximetria și proba de gaze sanguine:',
+ ['SpO2 normală pe oxigen nu exclude retenția de CO2','pulsoximetria poate fi inexactă la perfuzie periferică scăzută','proba se analizează imediat sau se ține în apă cu gheață','bulele de aer din probă cresc PCO2','pulsoximetrele necesită calibrare înaintea fiecărei măsurători'],'ABC',225,'Monitorizarea',
+ 'Recunoașterea limitelor monitorizării oxigenării.',
+ ['SpO2 normală pe oxigen nu exclude hipoventilația.','Perfuzia periferică scăzută dă valori inexacte.','Gheața previne metabolismul leucocitar.','Bulele scad PCO2.','Nu necesită calibrare.']],
+ [8,'Distractorii inversează efectul bulelor și calibrarea.'],['retenţie de dioxid de carbon','apă cu gheaţă']),
+
+q('ati-adv-034',['Raportul PaO2/FiO2:',
+ ['aproximează gradientul alveolo-arterial','se calculează cu PaO2 în mmHg și FiO2 ca fracție','este folosit mai ales în ARDS','este identic cu presiunea end-tidal a CO2 expirat','este independent de concentrația de oxigen inspirat'],'ABC',225,'Monitorizarea — PaO2/FiO2',
+ 'Aplicarea raportului PaO2/FiO2.',
+ ['Este o aproximare simplă a gradientului alveolo-arterial.','PaO2 în mmHg raportat la FiO2 ca fracție din 1.','Evaluează severitatea, mai ales în ARDS.','Nu este variabila citată.','Include FiO2 prin definiție.']],
+ [8,'Distractorii confundă raportul cu alte variabile.'],['fracţie de 1','ARDS']),
+
+q('ati-adv-041',['Capnografia se folosește pentru:',
+ ['confirmarea intubației traheale','monitorizarea PCO2 end-tidal','detectarea canulei blocate sau dislocate','detectarea scăderii bruște a debitului cardiac','poziționarea sondei nazogastrice'],'ABCD',225,'Monitorizarea — Capnografia',
+ 'Recunoașterea utilizărilor capnografiei.',
+ ['Confirmă intubația traheală.','Monitorizează continuu PCO2 end-tidal.','Detectează problemele acute ale căilor aeriene.','Detectează modificările acute cardiorespiratorii.','Nu este utilizarea citată.']],
+ [8,'Singurul distractor nu este citat.'],['intubaţiei traheale','end-tidal']),
+
+q('ati-adv-013',['Oxigenoterapia:',
+ ['măștile Venturi permit controlul concentrației de oxigen','hipoxemia severă este mai periculoasă decât hipercapnia','saturațiile de 90–92% sunt probabil adecvate la majoritatea pacienților','canulele nazale asigură o concentrație inspirată fixă','saturațiile de 98–100% sunt ținta după infarctul miocardic'],'ABC',226,'Oxigenoterapia',
+ 'Aplicarea principiilor administrării oxigenului.',
+ ['Masca Venturi, cu performanță fixă, controlează concentrația.','Hipoxemia severă este mai periculoasă decât hipercapnia.','Saturațiile de 90–92% sunt probabil adecvate.','Respirația bucală diluează oxigenul.','Saturațiile mari pot fi dăunătoare post-infarct.']],
+ [8,'Distractorii contrazic riscul hiperoxiei.'],['Hipoxemia severă','Venturi'],[227]),
+
+q('ati-adv-014',['În insuficiența ventilatorie acută neuromusculară, ventilația mecanică:',
+ ['se instituie de obicei la capacitate vitală sub 10 mL/kg','urmărește evitarea atelectaziei și a infecției','devine urgentă la PaCO2 crescut, în creștere','se ghidează după volumul curent, un indicator precoce','se instituie la orice scădere a capacității vitale'],'ABC',227,'Indicații pentru ventilație mecanică',
+ 'Aplicarea criteriilor de ventilație în bolile neuromusculare.',
+ ['Se instituie la capacitate vitală ≤10 mL/kg.','Previne atelectazia, infecția și stopul respirator.','PaCO2 crescut, în creștere, impune ventilație urgentă.','Volumul curent se modifică tardiv și nespecific.','Evaluarea clinică individuală este esențială.']],
+ [8,'Distractorii se bazează pe indicatori tardivi.'],['10 ml/kg','atelectazia']),
+
+q('ati-adv-015',['Sedarea pacientului ventilat mecanic:',
+ ['combină adesea un opiaceu cu benzodiazepină sau propofol','minimizată prin trezire zilnică scurtează durata ventilației','este profundă la insuficiența respiratorie severă','prelungește ventilația dacă sedativele sunt evitate total','impune blocanți neuromusculari la toți pacienții'],'ABC',227,'Sedarea, analgezia și relaxarea musculară',
+ 'Aplicarea strategiilor de sedare în ATI.',
+ ['Opiaceu plus benzodiazepină sau propofol este combinația uzuală.','Trezirea zilnică reduce durata ventilației.','Sedarea profundă se recomandă în insuficiența severă.','Chiar evitarea totală se asociază cu reducerea duratei.','Doar unii pacienți necesită blocanți.']],
+ [8,'Distractorii contrazic datele despre sedarea minimă.'],['trezire zilnică','propofol'],[228]),
+
+q('ati-adv-030',['Conform Cadranului 10.14, complicațiile imediate ale intubației traheale includ:',
+ ['intubația esofagiană, fără curbă capnografică','intubația bronhiei principale drepte','traumatismele buzelor, dinților și gingiilor','sinuzita apărută după zile de intubație','stenoza și fibroza traheală tardivă'],'ABC',228,'Cadranul 10.14',
+ 'Clasificarea cronologică a complicațiilor intubației.',
+ ['Intubația esofagiană este detectată prin absența capnogramei.','Intubația bronhiei principale drepte este imediată.','Traumatismul căilor aeriene superioare este imediat.','Sinuzita este tardivă.','Stenoza traheală este tardivă.']],
+ [8,'Distractorii sunt complicații tardive.'],['capnografie','bronhie principală']),
+
+q('ati-adv-016',['Traheostomia și calea aeriană chirurgicală:',
+ ['traheostomia percutanată are rată mai mică de infecție a plăgii','traheostomia chirurgicală se face la coagulare anormală','cricotiroidotomia este mai rapidă decât traheostomia clasică','traheostomia nu are mortalitate asociată','traheostomia percutanată se face doar în sala de operație'],'ABC',228,'Traheostomia',
+ 'Aplicarea indicațiilor traheostomiei.',
+ ['Percutanat, infecția plăgii este mult mai rară.','Chirurgical, la factori anatomici sau coagulopatie.','Cricotiroidotomia este mai sigură și mai rapidă.','Are mortalitate mică, dar semnificativă.','Se face cel mai frecvent în ATI.']],
+ [8,'Distractorii contrazic practica descrisă.'],['percutanată','cricotiroidotomie']),
+
+q('ati-adv-043',['Ventilația cu presiune pozitivă:',
+ ['împiedică întoarcerea venoasă','crește rezistența vasculară pulmonară','poate produce barotraumă și volutraumă','are risc crescut de pneumotorace în emfizem și astm','protejează alveolele la volume mari'],'ABCD',228,'Complicațiile ventilației mecanice',
+ 'Recunoașterea complicațiilor cardiovasculare și pulmonare ale ventilației.',
+ ['Presiunea pozitivă împiedică întoarcerea venoasă.','Capilarele întinse cresc rezistența vasculară pulmonară.','Supradistensia produce leziuni pulmonare asociate ventilatorului.','Riscul este crescut în boala distructivă, astm și fracturi costale.','Volumele mari pot distruge membrana.']],
+ [8,'Singurul distractor contrazice leziunea prin volum.'],['barotraumă','10-12 ml/kg']),
+
+q('ati-adv-042',['Pneumotoracele în tensiune la pacientul ventilat se recunoaște prin:',
+ ['creșterea inexplicabilă a presiunii în căile aeriene','hipotensiune și tahicardie','hipersonoritatea unui hemitorace','deplasarea mediastinului spre partea sănătoasă','scăderea presiunii în căile aeriene'],'ABC',228,'Complicațiile ventilației — Pneumotoracele',
+ 'Recunoașterea pneumotoracelui în tensiune la ventilat.',
+ ['Presiunea în căile aeriene crește inexplicabil.','Apar hipotensiune și tahicardie.','Un hemitorace este hipersonor.','Textul citează deplasarea de partea pneumotoracelui.','Presiunea crește.']],
+ [8,'Distractorii inversează semnele.'],['hipersonoritatea','presiunii în căile aeri']),
+
+q('ati-adv-027',['Reducerea pneumoniei asociate ventilatorului include:',
+ ['canulele cu aspirație subglotică','poziționarea pacientului la 45°','decontaminarea orofaringiană','antibioticul cu spectru larg, apoi țintit','poziția în decubit dorsal la 0°'],'ABCD',229,'Pneumonia asociată ventilatorului',
+ 'Aplicarea măsurilor de prevenție și tratament ale VAP.',
+ ['Aspirația subglotică minimizează riscul.','Poziția la 45° reduce riscul.','Decontaminarea orofaringiană reduce riscul.','Antibioticul se modifică după izolarea germenului.','Poziția la 45° este recomandată.']],
+ [8,'Singurul distractor inversează poziționarea.'],['aspiraţie subglotică','45°'],[228]),
+
+q('ati-adv-025',['Ventilația mecanică controlată:',
+ ['cu volum controlat presetează volumul curent și frecvența','cu presiune controlată presetează presiunea inspiratorie și frecvența','cu presiune controlată are volum curent variabil','cu volum controlat are presiunea în căile aeriene fixă','cu presiune controlată are volumul curent fix, independent de mecanică'],'ABC',229,'Tehnici de suport respirator — VMC',
+ 'Diferențierea modurilor volumetric și presometric.',
+ ['Volumul curent și frecvența sunt presetate.','Presiunea inspiratorie și frecvența sunt presetate.','Volumul curent variază cu mecanica pulmonară.','Presiunea variază cu mecanica pulmonară.','Volumul curent variază.']],
+ [8,'Distractorii inversează variabila presetată.'],['Ventilaţie cu volum controlat','presiune controlată']),
+
+q('ati-adv-026',['Presiunea pozitivă la sfârșitul expirului (PEEP):',
+ ['reduce șuntul și crește PaO2','poate reduce debitul cardiac','se folosește la niveluri de 5–8 cmH2O la majoritatea ventilaților','crește constant aportul total de oxigen','se folosește uzual la 20–30 cmH2O'],'ABC',229,'Tehnici de suport respirator — PEEP',
+ 'Aplicarea efectelor PEEP.',
+ ['PEEP re-expandează alveolele și reduce șuntul.','Presiunea intratoracică crescută poate scădea debitul.','Nivelele de 5–8 cmH2O sunt uzuale.','Scăderea debitului poate reduce aportul de O2.','Nivelele uzuale sunt 5–8 cmH2O.']],
+ [8,'Distractorii ignoră efectul hemodinamic.'],['5-8 cmH20','şuntul']),
+
+q('ati-adv-017',['Oxigenul nazal cu flux înalt (HFNO):',
+ ['creează o variantă limitată de CPAP','este adesea mai bine tolerat','permite tusea, comunicarea și alimentația','poate fi echivalent cu VNI în insuficiența de tip I','împiedică tusea și alimentația'],'ABCD',229,'Tehnici de suport respirator — HFNO',
+ 'Recunoașterea caracteristicilor HFNO.',
+ ['Fluxul foarte ridicat creează o variantă limitată de CPAP.','Este adesea mai bine tolerat.','Pacientul poate tuși, expectora și se poate alimenta.','Poate fi echivalent sau mai eficient decât VNI în tipul I.','Permite tusea și alimentația.']],
+ [8,'Singurul distractor contrazice toleranța.'],['HFNO','tip I']),
+
+q('ati-adv-044',['Ventilația cu suport de presiune (PSV):',
+ ['amplifică respirațiile spontane cu o presiune prestabilită','folosește uzual 5–20 cmH2O','este declanșată de efortul pacientului','are volum curent fix, independent de efort','folosește uzual 40–60 cmH2O'],'ABC',229,'Tehnici de suport respirator — PSV',
+ 'Aplicarea principiilor PSV.',
+ ['Respirațiile spontane sunt amplificate.','Presiunea uzuală este 5–20 cmH2O.','Este declanșată de efortul pacientului.','Volumul depinde de presiune, efort și mecanică.','Nivelul uzual este 5–20 cmH2O.']],
+ [8,'Distractorii inversează dependențele.'],['5-20 cm','efortul respira']),
+
+q('ati-adv-028',['Ventilația protectivă pulmonară:',
+ ['limitează volumul curent la 4–8 mL/kg greutate ideală','menține presiunea de platou sub 30 cmH2O','acceptă hipercapnia permisivă','se folosește la aproape toți pacienții ventilați','folosește volume curente de 12–15 mL/kg'],'ABCD',230,'Ventilația protectivă pulmonară',
+ 'Aplicarea parametrilor ventilației protective.',
+ ['Volumul curent este 4–8 mL/kg (ideal 6).','Pplat nu trebuie să depășească 30 cmH2O.','Hipercapnia permisivă este acceptabilă.','Se folosește la aproape toți pacienții ventilați.','Volumele mari produc leziuni pulmonare.']],
+ [8,'Singurul distractor contrazice principiul protectiv.'],['4-8 ml/kg','hipercapnia permisivă']),
+
+q('ati-adv-029',['Ventilația cu oscilație de înaltă frecvență la adult:',
+ ['nu aduce beneficiu de mortalitate','reduce mortalitatea în ARDS','înlocuiește ventilația protectivă','folosește volume curente mari fără PEEP','este prima linie în hipoxemia ușoară'],'A',230,'Oscilația de înaltă frecvență',
+ 'Recunoașterea evidenței privind HFO.',
+ ['HFO nu oferă beneficiu; un trial sugerează mortalitate crescută.','Nu reduce mortalitatea.','Nu este recomandarea citată.','Folosește un circuit CPAP cu presiune medie înaltă.','Nu este recomandarea citată.']],
+ [8,'Distractorii reflectă așteptări infirmate.'],['HFO','mortalitate crescută']),
+
+q('ati-adv-045',['Schimburile gazoase extracorporeale:',
+ ['ECMO veno-venos returnează sângele în vena cavă superioară','ECCO2-R folosește debite mai mici de sânge','ECCO2-R oxigenează mai puțin eficient','ECCO2-R este mai ușor de realizat decât ECMO','ECMO veno-venos returnează sângele în artera femurală'],'ABCD',230,'Schimburile gazoase extracorporeale',
+ 'Diferențierea ECMO de ECCO2-R.',
+ ['Sângele oxigenat se întoarce în VCS.','ECCO2-R folosește debite mai mici.','Oxigenarea prin ECCO2-R este mai puțin eficientă.','ECCO2-R este mai ușor de realizat.','Returul este venos, în VCS.']],
+ [8,'Singurul distractor confundă ECMO veno-venos cu veno-arterial.'],['ECMO','vena cavă superioară']),
+
+q('ati-adv-035',['Ventilația non-invazivă:',
+ ['se indică la pacientul conștient și cooperant','furnizează BiPAP cu IPAP și EPAP reglate independent','reduce riscul de pneumonie asociată ventilatorului','este utilă în insuficiența hipercapnică acută din BPOC','se indică și la pacientul obnubilat, fără protecția căilor aeriene'],'ABCD',230,'Ventilația non-invazivă',
+ 'Aplicarea principiilor ventilației non-invazive.',
+ ['Pacientul trebuie să fie conștient, cooperant, cu căi aeriene protejate.','IPAP și EPAP sunt reglate independent.','Riscul de VAP este redus.','Este deosebit de utilă în BPOC hipercapnic.','Obnubilarea este contraindicație.']],
+ [8,'Singurul distractor este o contraindicație.'],['BiPAP','cooperanţi'],[231]),
+
+q('ati-adv-036',['Conform Cadranului 10.16, ventilația non-invazivă:',
+ ['este indicată în exacerbarea BPOC cu pH sub 7,35','este indicată în edemul pulmonar cardiogen','este contraindicată după chirurgia facială','este contraindicată la nivel scăzut al conștienței','este indicată la căi aeriene neprotejate'],'ABCD',231,'Cadranul 10.16',
+ 'Aplicarea indicațiilor și contraindicațiilor VNI.',
+ ['Exacerbarea BPOC cu pH <7,35 este indicație.','Edemul pulmonar cardiogen este indicație.','Chirurgia facială este contraindicație.','Nivelul scăzut al conștienței este contraindicație.','Este contraindicație.']],
+ [8,'Singurul distractor inversează o contraindicație.'],['44 nmol/L','Chirurgie facială']),
+
+q('ati-adv-037',['Polineuropatia bolilor critice, față de sindromul Guillain–Barré:',
+ ['este o neuropatie axonală primară','are proteine LCR normale sau minim crescute','afectează rar nervii cranieni','este o neuropatie demielinizantă primară','are de obicei proteine LCR mult crescute'],'ABC',231,'Slăbiciunea neuromusculară a bolii critice',
+ 'Diferențierea polineuropatiei bolii critice de Guillain–Barré.',
+ ['Este o neuropatie axonală primară.','Proteinele LCR sunt normale sau minim crescute.','Nervii cranieni sunt rar afectați.','Demielinizarea caracterizează Guillain–Barré.','Proteinele crescute caracterizează Guillain–Barré.']],
+ [8,'Distractorii preiau trăsăturile Guillain–Barré.'],['axonală primară','Guillain-Barre']),
+
+q('ati-adv-018',['Sevrajul de ventilația mecanică:',
+ ['nu e necesar după ventilații sub 24–48 de ore','preferă reducerea progresivă a presiunii de suport','este prezis cel mai fiabil de evaluarea clinică','se complică de miopatie la steroizi și miorelaxante','nu necesită niciun criteriu obiectiv de evaluare'],'ABCD',231,'Sevrajul de suportul respirator',
+ 'Aplicarea tehnicilor și predictorilor sevrajului.',
+ ['Ventilații scurte permit reluarea imediată a respirației.','Reducerea presiunii de suport este preferată.','Evaluarea clinică experimentată este cel mai fiabil predictor.','Miopatia cvadriplegică s-a asociat cu steroizi și miorelaxante.','Criteriile obiective includ gazele, mecanica și forța.']],
+ [8,'Singurul distractor neagă criteriile obiective.'],['24-48 de ore','miopatie cvadriplegică']),
+
+q('ati-adv-040',['Indicele de respirație rapidă superficială (frecvență/volum curent):',
+ ['sub 100 prezice relativ bine reușita extubării','peste 100 este un predictor bun al reușitei extubării','permite extubarea fără verificarea tusei','înlocuiește gazele sanguine','se calculează cu volumul curent în mililitri'],'A',232,'Extubarea',
+ 'Interpretarea indicelui de respirație rapidă superficială.',
+ ['Un scor sub 100 prezice relativ bine reușita.','Scorul favorabil este sub 100.','Pacientul trebuie să poată tuși și înghiți.','Celelalte precondiții rămân necesare.','Volumul curent se exprimă în litri.']],
+ [8,'Distractorii inversează pragul și precondițiile.'],['mai mic de 100','extubării'],[231]),
+
+q('ati-adv-019',['Sindromul de detresă respiratorie acută (definiția Berlin):',
+ ['apare la aproximativ 10% din internările în ATI','are mortalitate prezisă de 45% în forma severă','are sepsisul drept cel mai frecvent factor predispozant','cere cauză non-cardiacă a edemului pulmonar','are mortalitate prezisă de 45% în forma ușoară'],'ABCD',232,'ARDS — Definiție și etiologie',
+ 'Fixarea definiției și epidemiologiei ARDS.',
+ ['Aproximativ 10% din internările în ATI.','Forma severă: 45%.','Sepsisul este de departe cel mai frecvent factor.','Presiunea de ocluzie pulmonară <18 mmHg sau indici cardiaci normali.','Forma ușoară: 27%.']],
+ [8,'Singurul distractor permută mortalitatea.'],['Berlin','45%']),
+
+q('ati-adv-046',['Conform Cadranului 10.17, sunt cauze directe de ARDS:',
+ ['pneumonia','aspirația conținutului gastric','embolia grăsoasă','contuzia pulmonară','pancreatita acută'],'ABCD',232,'Cadranul 10.17',
+ 'Diferențierea cauzelor directe de cele indirecte.',
+ ['Cauză directă frecventă.','Cauză directă frecventă.','Cauză directă mai puțin frecventă.','Cauză directă mai puțin frecventă.','Cauză indirectă.']],
+ [8,'Singurul distractor este o cauză indirectă.'],['Aspiraţia conţinutului gastric','Pancreatită acută']),
+
+q('ati-adv-021',['În ARDS, limitarea edemului pulmonar urmărește:',
+ ['o balanță hidrică negativă','expansiunea volemică agresivă','o balanță pozitivă de 2–3 L/zi','coloizii ca fluid de primă intenție','menținerea balanței hidrice neutre'],'A',233,'ARDS — Tratament',
+ 'Aplicarea obiectivului hidric în ARDS.',
+ ['Se urmărește o balanță negativă prin restricție, diuretice, hemofiltrare.','Nu este obiectivul citat.','Nu este obiectivul citat.','Nu este obiectivul citat.','Obiectivul este balanța negativă.']],
+ [8,'Distractorii sunt strategii hidrice opuse.'],['balanţe negative','hemofiltrare']),
+
+q('ati-adv-038',['Măsurile adjuvante în ARDS:',
+ ['pronația precoce și prelungită reduce mortalitatea','oxidul nitric inhalat ameliorează oxigenarea la responderi','prostaciclinele inhalatorii au efecte similare oxidului nitric','steroizii în ARDS persistent îmbunătățesc supraviețuirea','oxidul nitric inhalat crește supraviețuirea'],'ABC',233,'ARDS — Tratament',
+ 'Aplicarea măsurilor adjuvante în ARDS.',
+ ['Pronația precoce și prelungită are beneficiu substanțial.','NO ameliorează oxigenarea la responderi.','Prostaciclinele au efecte similare și sunt mai ușor de administrat.','Steroizii nu par să îmbunătățească rezultatele.','Nu s-a dovedit creșterea supraviețuirii.']],
+ [8,'Distractorii supraestimează steroizii și NO.'],['Pronaţia','responderi']),
+
+q('ati-adv-020',['Prognosticul ARDS:',
+ ['majoritatea deceselor se datorează MODS și instabilității hemodinamice','mortalitatea a scăzut la 20–40%','mortalitatea este foarte mare în sepsisul intra-abdominal','majoritatea deceselor se datorează hipoxemiei refractare','mortalitatea este mai mare în ARDS primar prin pneumonie'],'ABC',233,'ARDS — Prognostic',
+ 'Recunoașterea factorilor de prognostic în ARDS.',
+ ['Decesele sunt în majoritate prin MODS și instabilitate hemodinamică.','Mortalitatea a scăzut de la ~60% la 20–40%.','Sepsisul intra-abdominal are mortalitate foarte mare.','Nu predomină deteriorarea schimbului de gaze.','ARDS primar are mortalitate mult mai scăzută.']],
+ [8,'Distractorii inversează cauza decesului și etiologia.'],['MODS','20-40%']),
+];

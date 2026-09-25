@@ -122,3 +122,9 @@ Fiecare temă rescrisă (versiunile `-v2`) a fost confruntată din nou cu pagini
 - P. 335: nota «OR dă estimarea cea mai precisă a AR în cazurile de boli rare» folosește «AR», deși textul definește raportul cotelor ca estimator al **riscului relativ** (RR) la prevalență scăzută. «AR» este probabil o eroare de traducere. `-018-v2` testează doar formularea din text (OR estimează RR dacă prevalența este scăzută).
 - P. 338: criteriile (1)–(5) ale morții cerebrale sunt paginate în extras sub «Moartea cardiacă». Conținutul lor (reflexe de trunchi, apnee, excluderea hipotermiei) este clar al morții cerebrale, iar itemii îl tratează ca atare.
 - Retrase fără înlocuitor (unite într-un singur item CM, `-012-v2`): 015 (prevalența), 020 (rata de fatalitate) și 022 (inclus în `-017-v2`).
+
+### Terapie intensivă (Kumar, cap. 10)
+- Nu s-au găsit chei greșite în cei 37 de itemi confruntați cu p. 224–233.
+- **Contradicție internă:** Cadranul 10.13 indică pentru ventilația protectivă pulmonară un volum curent de 6–8 ml/kg și o presiune maximă în căile respiratorii <35–40 cmH2O. Textul de pe p. 230 indică 4–8 ml/kg (ideal 6 ml/kg) și o presiune de platou ≤30 cmH2O. `-028-v2` folosește valorile din text.
+- P. 224: Cadranul 10.12, terapia vasodilatatoare și suportul mecanic al miocardului se află pe p. 224 înaintea titlului «Insuficiența respiratorie», care deschide intervalul p. 224–232 din tematică. Itemii 011, 023, 024 și 031 sunt păstrați după regula intervalului de pagini.
+- Retrase fără înlocuitor (dubluri): 010 (versiunea din `advanced-revisions.ts`, dublura lui 037) și 022 (inclus în 024 și 031).
