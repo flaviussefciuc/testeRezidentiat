@@ -3,20 +3,20 @@
   "minimumEditorialDifficulty": 8,
   "baselineActive": 200,
   "targetAcceptedActive": 800,
-  "netAdditionalActive": 3235,
-  "additionalAccepted": 3435,
+  "netAdditionalActive": 3229,
+  "additionalAccepted": 3429,
   "remainingToTarget": 0,
   "publicationStatus": "Eligible for editorial publication decision",
   "live": {
-    "count": 3435,
+    "count": 3429,
     "correctAnswerCounts": {
-      "1": 702,
-      "2": 415,
-      "3": 1621,
-      "4": 697
+      "1": 700,
+      "2": 402,
+      "3": 1622,
+      "4": 705
     },
     "missingMultipleAnswerFormats": [],
-    "fourCorrectShareOfMultiple": 25.5,
+    "fourCorrectShareOfMultiple": 25.8,
     "idsUnique": true,
     "structuralErrors": [],
     "exactQuestionDuplicates": [],
@@ -54,7 +54,7 @@
       },
       {
         "id": "hematologie",
-        "count": 65
+        "count": 59
       },
       {
         "id": "reumatologie",
@@ -199,15 +199,15 @@
     ]
   },
   "draft": {
-    "count": 3606,
+    "count": 3600,
     "correctAnswerCounts": {
-      "1": 746,
-      "2": 437,
-      "3": 1665,
-      "4": 758
+      "1": 744,
+      "2": 424,
+      "3": 1666,
+      "4": 766
     },
     "missingMultipleAnswerFormats": [],
-    "fourCorrectShareOfMultiple": 26.5,
+    "fourCorrectShareOfMultiple": 26.8,
     "idsUnique": true,
     "structuralErrors": [],
     "exactQuestionDuplicates": [],
@@ -266,7 +266,7 @@
       },
       {
         "id": "hematologie",
-        "count": 86
+        "count": 80
       },
       {
         "id": "reumatologie",
@@ -411,15 +411,15 @@
     ]
   },
   "accepted": {
-    "count": 3435,
+    "count": 3429,
     "correctAnswerCounts": {
-      "1": 702,
-      "2": 415,
-      "3": 1621,
-      "4": 697
+      "1": 700,
+      "2": 402,
+      "3": 1622,
+      "4": 705
     },
     "missingMultipleAnswerFormats": [],
-    "fourCorrectShareOfMultiple": 25.5,
+    "fourCorrectShareOfMultiple": 25.8,
     "idsUnique": true,
     "structuralErrors": [],
     "exactQuestionDuplicates": [],
@@ -457,7 +457,7 @@
       },
       {
         "id": "hematologie",
-        "count": 65
+        "count": 59
       },
       {
         "id": "reumatologie",

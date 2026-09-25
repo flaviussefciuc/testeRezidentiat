@@ -66,7 +66,7 @@ were found on that page. Cutoff-page and box checks for each topic are logged in
 
 ## Items relying on a Cadran / Figura / Tabel
 
-569 items, 159 resolved, 410 pending.
+569 items, 172 resolved, 397 pending.
 
 | Original ID | Topic | Status |
 |---|---|---|
@@ -290,19 +290,19 @@ were found on that page. Cutoff-page and box checks for each topic are logged in
 | gineco-adv-086 | gineco | pending (original still live) |
 | gineco-adv-090 | gineco | pending (original still live) |
 | gineco-adv-091 | gineco | pending (original still live) |
-| hematologie-adv-001 | hematologie | pending (original still live) |
-| hematologie-adv-006 | hematologie | pending (original still live) |
-| hematologie-adv-023 | hematologie | pending (original still live) |
-| hematologie-adv-026 | hematologie | pending (original still live) |
-| hematologie-adv-029 | hematologie | pending (original still live) |
-| hematologie-adv-033 | hematologie | pending (original still live) |
-| hematologie-adv-036 | hematologie | pending (original still live) |
-| hematologie-adv-040 | hematologie | pending (original still live) |
-| hematologie-adv-042 | hematologie | pending (original still live) |
-| hematologie-adv-051 | hematologie | pending (original still live) |
-| hematologie-adv-054 | hematologie | pending (original still live) |
-| hematologie-adv-055 | hematologie | pending (original still live) |
-| hematologie-adv-066 | hematologie | pending (original still live) |
+| hematologie-adv-001 | hematologie | replaced by hematologie-adv-001-v2 (p. 331; expressions verified on the cited page) |
+| hematologie-adv-006 | hematologie | replaced by hematologie-adv-006-v2 (p. 331; expressions verified on the cited page) |
+| hematologie-adv-023 | hematologie | replaced by hematologie-adv-023-v2 (p. 327; expressions verified on the cited page) |
+| hematologie-adv-026 | hematologie | replaced by hematologie-adv-026-v2 (p. 328; expressions verified on the cited page) |
+| hematologie-adv-029 | hematologie | replaced by hematologie-adv-029-v2 (p. 352, 351; expressions verified on the cited page) |
+| hematologie-adv-033 | hematologie | replaced by hematologie-adv-033-v2 (p. 355; expressions verified on the cited page) |
+| hematologie-adv-036 | hematologie | retired without replacement |
+| hematologie-adv-040 | hematologie | replaced by hematologie-adv-040-v2 (p. 336; expressions verified on the cited page) |
+| hematologie-adv-042 | hematologie | replaced by hematologie-adv-042-v2 (p. 351; expressions verified on the cited page) |
+| hematologie-adv-051 | hematologie | replaced by hematologie-adv-051-v2 (p. 330, 329; expressions verified on the cited page) |
+| hematologie-adv-054 | hematologie | replaced by hematologie-adv-054-v2 (p. 331; expressions verified on the cited page) |
+| hematologie-adv-055 | hematologie | replaced by hematologie-adv-055-v2 (p. 332, 331; expressions verified on the cited page) |
+| hematologie-adv-066 | hematologie | replaced by hematologie-adv-066-v2 (p. 328; expressions verified on the cited page) |
 | hemostaza-adv-001 | hemostaza | replaced by hemostaza-adv-001-v2 (p. 39; expressions verified on the cited page) |
 | hemostaza-adv-009 | hemostaza | replaced by hemostaza-adv-009-v2 (p. 39; expressions verified on the cited page) |
 | hemostaza-adv-013 | hemostaza | replaced by hemostaza-adv-013-v2 (p. 42; expressions verified on the cited page) |
