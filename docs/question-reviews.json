@@ -174420,314 +174420,6 @@
   "reviewNotes": "Rescriere a esofag-adv-035: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "sepsis-adv-011-v2",
-  "questionFingerprint": "95abd1ede886db87da83cf149d09fc76b8fdd8ef9b27288f3a1bd7aad9a50605",
-  "status": "source-checked",
-  "learningObjective": "Fixarea datelor epidemiologice și a ferestrelor terapeutice din sepsis.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 8,
-   "printedPages": [
-    151
-   ],
-   "pdfPages": [
-    5
-   ],
-   "section": "Introducere"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Se estimează 49 de milioane de cazuri anual.",
-    "evidenceLocation": "Kumar, p. 151, Introducere"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Antibioterapia empirică trebuie prescrisă în interval de o oră.",
-    "evidenceLocation": "Kumar, p. 151, Introducere"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Se estimează 11 milioane de decese anual.",
-    "evidenceLocation": "Kumar, p. 151, Introducere"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Antibioterapia se revizuiește la 72 de ore.",
-    "evidenceLocation": "Kumar, p. 151, Introducere"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Abordarea se bazează pe pachetul Sepsis Six.",
-    "evidenceLocation": "Kumar, p. 151, Introducere"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:39:37.270Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Ferestrele de timp sunt deplasate în distractori."
-  },
-  "textbookExpressions": [
-   "49 de milioane",
-   "Sepsis Six"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a sepsis-adv-011: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "sepsis-adv-056-v2",
-  "questionFingerprint": "a3db1e57ec3635f0f829482721b3ff009e92e65775cfa49a7c5bf8cee94ada55",
-  "status": "source-checked",
-  "learningObjective": "Asocierea simptomelor cu sediul infecției.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 8,
-   "printedPages": [
-    152
-   ],
-   "pdfPages": [
-    6
-   ],
-   "section": "Cadranul 8.1 — Caracteristici anamnestice"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Tusea, sputa și dispneea orientează spre torace.",
-    "evidenceLocation": "Kumar, p. 152, Cadranul 8.1 — Caracteristici anamnestice"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Cefaleea și meningismul orientează spre SNC.",
-    "evidenceLocation": "Kumar, p. 152, Cadranul 8.1 — Caracteristici anamnestice"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Semnele de celulită orientează spre tegumente și țesuturi moi.",
-    "evidenceLocation": "Kumar, p. 152, Cadranul 8.1 — Caracteristici anamnestice"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Icterul și durerea în abdomenul superior orientează spre tractul biliar.",
-    "evidenceLocation": "Kumar, p. 152, Cadranul 8.1 — Caracteristici anamnestice"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Disuria, incontinența și durerea în flancuri orientează spre tractul urinar.",
-    "evidenceLocation": "Kumar, p. 152, Cadranul 8.1 — Caracteristici anamnestice"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:39:37.272Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează sistemele pentru simptome reale."
-  },
-  "textbookExpressions": [
-   "meningism",
-   "durere în flancuri"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a sepsis-adv-056: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "sepsis-adv-057-v2",
-  "questionFingerprint": "f72c7e5d878e69b25082bdc28938ead3444dbc178ba0aa01a39a6c293c2d67e0",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea pragurilor de disfuncție de organ din algoritmul de sepsis.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 8,
-   "printedPages": [
-    152
-   ],
-   "pdfPages": [
-    6
-   ],
-   "section": "Fig. 8.1 — Abordarea pacientului cu suspiciune de sepsis"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Creatinina >170 µmol/L este criteriu.",
-    "evidenceLocation": "Kumar, p. 152, Fig. 8.1 — Abordarea pacientului cu suspiciune de sepsis"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Pragul pentru trombocite este <100 × 10⁹/L.",
-    "evidenceLocation": "Kumar, p. 152, Fig. 8.1 — Abordarea pacientului cu suspiciune de sepsis"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "INR >1,5 este criteriu.",
-    "evidenceLocation": "Kumar, p. 152, Fig. 8.1 — Abordarea pacientului cu suspiciune de sepsis"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Lactatul >2,0 mmol/L este criteriu.",
-    "evidenceLocation": "Kumar, p. 152, Fig. 8.1 — Abordarea pacientului cu suspiciune de sepsis"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Pragul pentru bilirubină este ≥32 µmol/L.",
-    "evidenceLocation": "Kumar, p. 152, Fig. 8.1 — Abordarea pacientului cu suspiciune de sepsis"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:39:37.273Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii folosesc praguri apropiate, dar mai puțin severe decât cele din figură."
-  },
-  "textbookExpressions": [
-   "Trombocite",
-   "170 µmol"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a sepsis-adv-057: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "sepsis-adv-041-v2",
-  "questionFingerprint": "fb8d8a42f9bb089bbf5a4974e0a164aff0ec5247990bfdd4da004f724e3f2d0d",
-  "status": "source-checked",
-  "learningObjective": "Interpretarea semnelor vitale și generale în sepsis.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 8,
-   "printedPages": [
-    153
-   ],
-   "pdfPages": [
-    7
-   ],
-   "section": "Examenul obiectiv"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Pulsul poate fi amplu prin vasodilatație sau de volum mic prin hipovolemie relativă.",
-    "evidenceLocation": "Kumar, p. 153, Examenul obiectiv"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Tahipneea este semnul-cheie al deteriorării.",
-    "evidenceLocation": "Kumar, p. 153, Examenul obiectiv"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Somnolența și confuzia sunt semne frecvente de sepsis la vârstnici.",
-    "evidenceLocation": "Kumar, p. 153, Examenul obiectiv"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "PVJ poate fi redusă în deshidratare sau depleție volemică.",
-    "evidenceLocation": "Kumar, p. 153, Examenul obiectiv"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Hipoxia poate sugera o infecție respiratorie inferioară.",
-    "evidenceLocation": "Kumar, p. 153, Examenul obiectiv"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:39:37.274Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează frecvența confuziei și direcția PVJ."
-  },
-  "textbookExpressions": [
-   "Tahipnee",
-   "amplitudine mare"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a sepsis-adv-041: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "sepsis-adv-063-v2",
   "questionFingerprint": "39e3a1b5c194580dc9f081341d30574b9934f95e59a3174eedd713a86e6d7f2a",
   "status": "source-checked",
@@ -174882,83 +174574,6 @@
   "reviewNotes": "Rescriere a sepsis-adv-037: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "sepsis-adv-038-v2",
-  "questionFingerprint": "f51947b6e7ed1fb77cb3bc9dbb332f9191f3741f4553b875cf599931472a1aea",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea mecanismelor disfuncției multiple de organ.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 8,
-   "printedPages": [
-    154
-   ],
-   "pdfPages": [
-    8
-   ],
-   "section": "Fiziopatologie — Disfuncția de organ"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Lezarea epiteliului intestinal produce malabsorbție și translocare bacteriană.",
-    "evidenceLocation": "Kumar, p. 154, Fiziopatologie — Disfuncția de organ"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Vasoplegia reduce rezistența periferică totală.",
-    "evidenceLocation": "Kumar, p. 154, Fiziopatologie — Disfuncția de organ"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Afectarea renală acută este frecventă și crește mortalitatea.",
-    "evidenceLocation": "Kumar, p. 154, Fiziopatologie — Disfuncția de organ"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Sindromul și acidoza pot fi inotrop negative.",
-    "evidenceLocation": "Kumar, p. 154, Fiziopatologie — Disfuncția de organ"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Extravazarea capilară produce edem care reduce livrarea de oxigen.",
-    "evidenceLocation": "Kumar, p. 154, Fiziopatologie — Disfuncția de organ"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:39:37.276Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează direcția efectelor hemodinamice."
-  },
-  "textbookExpressions": [
-   "Vasoplegia",
-   "translocarea"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a sepsis-adv-038: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "sepsis-adv-012-v2",
   "questionFingerprint": "3e0825ae308794b333aee52a7c7d2c79f687df63c786506848d0b3fed87b2f07",
   "status": "source-checked",
@@ -175111,85 +174726,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a sepsis-adv-036: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "sepsis-adv-013-v2",
-  "questionFingerprint": "20471b3175089a6e35317849a43b38cc7ccbcb92d7210c8cca1cb3c471ee4d65",
-  "status": "source-checked",
-  "learningObjective": "Folosirea corectă a scorurilor de risc și a lactatului.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 8,
-   "printedPages": [
-    154,
-    155
-   ],
-   "pdfPages": [
-    8,
-    9
-   ],
-   "section": "Definiția — NEWS 2 și lactatul"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Niciun biomarker nu are specificitate suficientă.",
-    "evidenceLocation": "Kumar, p. 154, 155, Definiția — NEWS 2 și lactatul"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "NEWS 2 ≥5 este pragul de screening recomandat în Marea Britanie.",
-    "evidenceLocation": "Kumar, p. 154, 155, Definiția — NEWS 2 și lactatul"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "qSOFA și NEWS 2 indică doar risc ridicat, nu diagnostic.",
-    "evidenceLocation": "Kumar, p. 154, 155, Definiția — NEWS 2 și lactatul"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Așteptarea rezultatelor de laborator este contraproductivă.",
-    "evidenceLocation": "Kumar, p. 154, 155, Definiția — NEWS 2 și lactatul"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Lactatul crescut nu trebuie ignorat, chiar dacă pacientul pare să evolueze bine.",
-    "evidenceLocation": "Kumar, p. 154, 155, Definiția — NEWS 2 și lactatul"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:39:37.279Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii contrazic caracterul clinic și rapid al diagnosticului."
-  },
-  "textbookExpressions": [
-   "NEWS 2",
-   "valoare prognostică"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a sepsis-adv-013: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "sepsis-adv-039-v2",
@@ -175423,83 +174959,6 @@
   "reviewNotes": "Rescriere a sepsis-adv-042: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "sepsis-adv-040-v2",
-  "questionFingerprint": "8b5db42fa4d0e7ba9d512d403654b5d2f40f6cebf460ca46ef3980e34188cd6a",
-  "status": "source-checked",
-  "learningObjective": "Clasificarea sepsisului după momentul și contextul instalării.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 8,
-   "printedPages": [
-    155
-   ],
-   "pdfPages": [
-    9
-   ],
-   "section": "Originea sepsisului"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Hemodializa este un exemplu de sepsis asociat asistenței medicale.",
-    "evidenceLocation": "Kumar, p. 155, Originea sepsisului"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Locuitorii comunităților închise sunt excluși.",
-    "evidenceLocation": "Kumar, p. 155, Originea sepsisului"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Dobândit în spital: după peste 48 de ore.",
-    "evidenceLocation": "Kumar, p. 155, Originea sepsisului"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Asociat asistenței medicale: externare în ultimele 30 de zile, îngrijiri cronice, tratament ambulator.",
-    "evidenceLocation": "Kumar, p. 155, Originea sepsisului"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Comunitar: primele 48 de ore de la internare.",
-    "evidenceLocation": "Kumar, p. 155, Originea sepsisului"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:39:37.281Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează două excepții explicite ale definiției."
-  },
-  "textbookExpressions": [
-   "48 de ore",
-   "30 de zile"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a sepsis-adv-040: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "sepsis-adv-002-v2",
   "questionFingerprint": "027ce83971b8e3890c67f7209d04f1e23d59ba1d17bd9e995dc3d82aec9b2de2",
   "status": "source-checked",
@@ -175575,391 +175034,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a sepsis-adv-002: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "sepsis-adv-003-v2",
-  "questionFingerprint": "614c2ee8a6491fc30978518208d63b0fc2849adcae0c05bbe70aaa7748ef7d26",
-  "status": "source-checked",
-  "learningObjective": "Separarea criteriilor de risc înalt de cele de risc moderat.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 8,
-   "printedPages": [
-    156
-   ],
-   "pdfPages": [
-    10
-   ],
-   "section": "Cadranul 8.3 — Stratificarea riscului"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "FR ≥25/min este criteriu de risc înalt.",
-    "evidenceLocation": "Kumar, p. 156, Cadranul 8.3 — Stratificarea riscului"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Temperatura timpanică <36°C este criteriu de risc moderat spre crescut.",
-    "evidenceLocation": "Kumar, p. 156, Cadranul 8.3 — Stratificarea riscului"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Alura de 91–130/min este criteriu de risc moderat spre crescut.",
-    "evidenceLocation": "Kumar, p. 156, Cadranul 8.3 — Stratificarea riscului"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Absența diurezei în 18 ore este criteriu de risc înalt.",
-    "evidenceLocation": "Kumar, p. 156, Cadranul 8.3 — Stratificarea riscului"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "TAS ≤90 mmHg (sau >40 mmHg sub normal) este criteriu de risc înalt.",
-    "evidenceLocation": "Kumar, p. 156, Cadranul 8.3 — Stratificarea riscului"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:39:37.282Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii sunt criterii reale, din coloana de risc moderat."
-  },
-  "textbookExpressions": [
-   "25 respiraţii",
-   "18 ore"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a sepsis-adv-003: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "sepsis-adv-060-v2",
-  "questionFingerprint": "8e7be9db36000e44c063a771818de6ec542fb0fc6f8b2e6d3e77cf09bfc706a0",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea variabilității tabloului clinic al sepsisului.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 8,
-   "printedPages": [
-    156
-   ],
-   "pdfPages": [
-    10
-   ],
-   "section": "Tablou clinic"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Nu există un semn patognomonic.",
-    "evidenceLocation": "Kumar, p. 156, Tablou clinic"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Imunodeprimații pot avea puține semne de inflamație.",
-    "evidenceLocation": "Kumar, p. 156, Tablou clinic"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Nu există simptome patognomonice.",
-    "evidenceLocation": "Kumar, p. 156, Tablou clinic"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Unii pacienți se deteriorează abrupt, în câteva ore.",
-    "evidenceLocation": "Kumar, p. 156, Tablou clinic"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Oliguria este un semn sistemic de disfuncție de organ.",
-    "evidenceLocation": "Kumar, p. 156, Tablou clinic"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:39:37.283Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii impun un semn patognomonic inexistent."
-  },
-  "textbookExpressions": [
-   "patognomonice",
-   "imunodeprimaţi"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a sepsis-adv-060: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "sepsis-adv-001-v2",
-  "questionFingerprint": "2c3e1bee3f1b899c82e41ecc0dc275490313bf0d206e7e6ce44313e1e4407016",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea ferestrelor temporale pentru infecțiile de import.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 8,
-   "printedPages": [
-    156
-   ],
-   "pdfPages": [
-    10
-   ],
-   "section": "Sepsisul în situații speciale — Pacienții întorși din călătorii"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "MERS-CoV: simptome respiratorii în primele 14 zile.",
-    "evidenceLocation": "Kumar, p. 156, Sepsisul în situații speciale — Pacienții întorși din călătorii"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Febra hemoragică virală: febră în primele 21 de zile.",
-    "evidenceLocation": "Kumar, p. 156, Sepsisul în situații speciale — Pacienții întorși din călătorii"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Investigațiile minime includ hemoculturi și screeningul malariei.",
-    "evidenceLocation": "Kumar, p. 156, Sepsisul în situații speciale — Pacienții întorși din călătorii"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Fereastra MERS-CoV este de 14 zile, pentru simptome respiratorii.",
-    "evidenceLocation": "Kumar, p. 156, Sepsisul în situații speciale — Pacienții întorși din călătorii"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Profilaxia trebuie documentată, dar nu exclude malaria.",
-    "evidenceLocation": "Kumar, p. 156, Sepsisul în situații speciale — Pacienții întorși din călătorii"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:39:37.289Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Ferestrele de 14 și 21 de zile sunt permutate."
-  },
-  "textbookExpressions": [
-   "21 de zile",
-   "MERS-CoV"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a sepsis-adv-001: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "sepsis-adv-055-v2",
-  "questionFingerprint": "d18a6b4ac3a385fdea42246de248cc02ce5df9da426fbf7cba7399181b56b4ca",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea focarelor și patogenilor tipici la utilizatorii de droguri i.v.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 8,
-   "printedPages": [
-    156
-   ],
-   "pdfPages": [
-    10
-   ],
-   "section": "Sepsisul în situații speciale — Dependenții de droguri injectabile"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Endoftalmita fungică apare rar, legată de sucul de lămâie.",
-    "evidenceLocation": "Kumar, p. 156, Sepsisul în situații speciale — Dependenții de droguri injectabile"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Pseudomonas nu este citat ca patogen dominant.",
-    "evidenceLocation": "Kumar, p. 156, Sepsisul în situații speciale — Dependenții de droguri injectabile"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Endocardita tricuspidiană produce embolii pulmonare cu abcese multiple.",
-    "evidenceLocation": "Kumar, p. 156, Sepsisul în situații speciale — Dependenții de droguri injectabile"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Majoritatea episoadelor sunt legate de tromboflebite sau abcese locale.",
-    "evidenceLocation": "Kumar, p. 156, Sepsisul în situații speciale — Dependenții de droguri injectabile"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "S. aureus (MSSA/MRSA) și S. pyogenes sunt cei mai frecvenți.",
-    "evidenceLocation": "Kumar, p. 156, Sepsisul în situații speciale — Dependenții de droguri injectabile"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:39:37.290Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii transformă o raritate în regulă."
-  },
-  "textbookExpressions": [
-   "tromboflebite",
-   "valva tricus"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a sepsis-adv-055: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "sepsis-adv-016-v2",
-  "questionFingerprint": "7f3adf6ae9c5680093fd23e9210bd1edd49eeb4150268debb35e88e8a09d7b16",
-  "status": "source-checked",
-  "learningObjective": "Alegerea empiricului la neutropenic și sursele de risc la imobilizat.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 8,
-   "printedPages": [
-    157
-   ],
-   "pdfPages": [
-    11
-   ],
-   "section": "Sepsisul în situații speciale — Neutropenici și imobilizați"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Empiricul cuprinde piperacilină/tazobactam, cu sau fără aminoglicozid.",
-    "evidenceLocation": "Kumar, p. 157, Sepsisul în situații speciale — Neutropenici și imobilizați"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Cateterele venoase centrale, urinare și sondele endotraheale reprezintă cel mai mare risc.",
-    "evidenceLocation": "Kumar, p. 157, Sepsisul în situații speciale — Neutropenici și imobilizați"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Glicopeptidul nu acoperă Pseudomonas.",
-    "evidenceLocation": "Kumar, p. 157, Sepsisul în situații speciale — Neutropenici și imobilizați"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Escarele se previn cu saltele potrivite și rotire periodică.",
-    "evidenceLocation": "Kumar, p. 157, Sepsisul în situații speciale — Neutropenici și imobilizați"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Riscul de Pseudomonas motivează această schemă.",
-    "evidenceLocation": "Kumar, p. 157, Sepsisul în situații speciale — Neutropenici și imobilizați"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:39:37.291Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii omit acoperirea antipseudomonas."
-  },
-  "textbookExpressions": [
-   "piocianic",
-   "rotirea periodică"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a sepsis-adv-016: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "sepsis-adv-015-v2",
@@ -176270,83 +175344,6 @@
   "reviewNotes": "Rescriere a sepsis-adv-006: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "sepsis-adv-045-v2",
-  "questionFingerprint": "3e83f86529f7ef46b02bc192119964aeb6c4ce5cc39bce1776c0591d3187869f",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea regulilor de recoltare a hemoculturilor.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 8,
-   "printedPages": [
-    158
-   ],
-   "pdfPages": [
-    12
-   ],
-   "section": "Probe biologice utile și examinarea în laborator"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "PCR pentru ADN bacterian poate detecta patogenul și după antibiotic.",
-    "evidenceLocation": "Kumar, p. 158, Probe biologice utile și examinarea în laborator"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Există întotdeauna timp pentru hemoculturi înaintea antibioticului, chiar la pacientul acut.",
-    "evidenceLocation": "Kumar, p. 158, Probe biologice utile și examinarea în laborator"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Antibioterapia prealabilă poate negativiza culturile.",
-    "evidenceLocation": "Kumar, p. 158, Probe biologice utile și examinarea în laborator"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "La adult se recoltează minim 5 ml în flacoane aerob și anaerob.",
-    "evidenceLocation": "Kumar, p. 158, Probe biologice utile și examinarea în laborator"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Hemoculturile se recoltează înaintea tratamentului.",
-    "evidenceLocation": "Kumar, p. 158, Probe biologice utile și examinarea în laborator"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:39:37.295Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii contrazic rolul PCR și momentul recoltării."
-  },
-  "textbookExpressions": [
-   "5 ml de sânge",
-   "ADN bacterian"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a sepsis-adv-045: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "sepsis-adv-020-v2",
   "questionFingerprint": "527348499bfd98f85be2fe98f35a868130e3e2dbb02e293db45ee888c3979cd4",
   "status": "source-checked",
@@ -176499,83 +175496,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a sepsis-adv-019: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "sepsis-adv-062-v2",
-  "questionFingerprint": "877ada3e07c8fd773a135f86b9f1ae1d96e6b478f09d271a5a2789dcea2f32ef",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea indicatorilor de administrare prudentă a antibioticelor.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 8,
-   "printedPages": [
-    159
-   ],
-   "pdfPages": [
-    13
-   ],
-   "section": "Obiective specifice în Marea Britanie"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Revizuirea la 72 de ore este un indicator.",
-    "evidenceLocation": "Kumar, p. 159, Obiective specifice în Marea Britanie"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Utilizarea ciprofloxacinei trebuie redusă.",
-    "evidenceLocation": "Kumar, p. 159, Obiective specifice în Marea Britanie"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Nitrofurantoina se prescrie în loc de trimetoprim.",
-    "evidenceLocation": "Kumar, p. 159, Obiective specifice în Marea Britanie"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Indicatorii vizează reducerea carbapenemelor și a piperacilină-tazobactamului.",
-    "evidenceLocation": "Kumar, p. 159, Obiective specifice în Marea Britanie"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Utilizarea co-amoxiclavului trebuie redusă.",
-    "evidenceLocation": "Kumar, p. 159, Obiective specifice în Marea Britanie"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:39:37.297Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează sensul indicatorilor din medicina de familie."
-  },
-  "textbookExpressions": [
-   "CQUIN",
-   "nitrofurantoin"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a sepsis-adv-062: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "sepsis-adv-021-v2",
@@ -177196,85 +176116,6 @@
   "reviewNotes": "Rescriere a sepsis-adv-024: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "sepsis-adv-064-v2",
-  "questionFingerprint": "5d0a6ed575244ae2163089bad7c713343e0134c41bf8f32b13028cf4560f2a95",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea mecanismului și a farmacodinamicii β-lactaminelor.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 8,
-   "printedPages": [
-    161,
-    163
-   ],
-   "pdfPages": [
-    15,
-    17
-   ],
-   "section": "Antibiotice β-lactamice"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Modificarea nucleului sau a lanțului adiacent extinde spectrul.",
-    "evidenceLocation": "Kumar, p. 161, 163, Antibiotice β-lactamice"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Sunt în general bactericide, dependent de timp.",
-    "evidenceLocation": "Kumar, p. 161, 163, Antibiotice β-lactamice"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "ADN-giraza este ținta chinolonelor.",
-    "evidenceLocation": "Kumar, p. 161, 163, Antibiotice β-lactamice"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Sunt bactericide dependent de timp.",
-    "evidenceLocation": "Kumar, p. 161, 163, Antibiotice β-lactamice"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Blochează sinteza peretelui prin inactivarea peptidazelor.",
-    "evidenceLocation": "Kumar, p. 161, 163, Antibiotice β-lactamice"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:39:37.304Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii descriu farmacodinamica și ținta altor clase."
-  },
-  "textbookExpressions": [
-   "dependentă de timp",
-   "penicilină, peptidaze"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a sepsis-adv-064: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "sepsis-adv-072-v2",
   "questionFingerprint": "14ea70418c5579c64e9fef1a9e4055823006676e7ab7569db7f2cf3fab4a5cde",
   "status": "source-checked",
@@ -177427,83 +176268,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a sepsis-adv-025: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "sepsis-adv-049-v2",
-  "questionFingerprint": "455f5a52db5a3be280a75caa7043207d0601ea025f0c120f80c5bd67d5cdbc8b",
-  "status": "source-checked",
-  "learningObjective": "Delimitarea spectrului penicilinelor Gram-negative cu spectru îngust.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 8,
-   "printedPages": [
-    163
-   ],
-   "pdfPages": [
-    17
-   ],
-   "section": "Penicilinele — Pivmecilinamul și temocilina"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Temocilina favorizează mai puțin C. difficile și protejează carbapenemele.",
-    "evidenceLocation": "Kumar, p. 163, Penicilinele — Pivmecilinamul și temocilina"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Niciuna nu este activă pe P. aeruginosa.",
-    "evidenceLocation": "Kumar, p. 163, Penicilinele — Pivmecilinamul și temocilina"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Temocilina nu este activă pe Acinetobacter.",
-    "evidenceLocation": "Kumar, p. 163, Penicilinele — Pivmecilinamul și temocilina"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Ambele acționează și pe tulpini producătoare de ESBL.",
-    "evidenceLocation": "Kumar, p. 163, Penicilinele — Pivmecilinamul și temocilina"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Ambele au spectru Gram-negativ.",
-    "evidenceLocation": "Kumar, p. 163, Penicilinele — Pivmecilinamul și temocilina"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:39:37.307Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii extind spectrul spre germenii explicit excluși."
-  },
-  "textbookExpressions": [
-   "Temocilina",
-   "ESBL"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a sepsis-adv-049: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "sepsis-adv-048-v2",
@@ -177737,83 +176501,6 @@
   "reviewNotes": "Rescriere a sepsis-adv-073: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "sepsis-adv-046-v2",
-  "questionFingerprint": "658ede20eb8eaa0d34e5c9660ec9901bdec05fefc8678ece4ece4b3ab9f4c65a",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea structurii și spectrului aztreonamului.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 8,
-   "printedPages": [
-    163
-   ],
-   "pdfPages": [
-    17
-   ],
-   "section": "Monobactamii"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Monobactamul are doar inelul β-lactamic.",
-    "evidenceLocation": "Kumar, p. 163, Monobactamii"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Nu acoperă anaerobii.",
-    "evidenceLocation": "Kumar, p. 163, Monobactamii"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Nu acoperă Gram-pozitivii.",
-    "evidenceLocation": "Kumar, p. 163, Monobactamii"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Este activ pe unele tulpini rezistente la carbapeneme producătoare de metalo-β-lactamază.",
-    "evidenceLocation": "Kumar, p. 163, Monobactamii"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Spectrul este limitat la bacilii Gram-negativi aerobi.",
-    "evidenceLocation": "Kumar, p. 163, Monobactamii"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:39:37.310Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii extind spectrul aztreonamului la cel al carbapenemelor."
-  },
-  "textbookExpressions": [
-   "monobactam",
-   "metalo"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a sepsis-adv-046: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "sepsis-adv-047-v2",
   "questionFingerprint": "069ea594c2f7678c18b4ca3c16f7a027ae5c3a5e8174dfb1e83c78fdbcdfe312",
   "status": "source-checked",
@@ -178045,83 +176732,6 @@
   "reviewNotes": "Rescriere a sepsis-adv-026: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "sepsis-adv-027-v2",
-  "questionFingerprint": "1702b908d52ef3f7e78f8373fac6e39a518af628b489d42147d6b564015e9399",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea mecanismului, efectelor adverse și limitelor chinolonelor.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 8,
-   "printedPages": [
-    164
-   ],
-   "pdfPages": [
-    18
-   ],
-   "section": "Chinolonele"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Utilizarea se evită în sarcină și la copii.",
-    "evidenceLocation": "Kumar, p. 164, Chinolonele"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "În multe țări, >80% dintre E. coli și Klebsiella sunt rezistente.",
-    "evidenceLocation": "Kumar, p. 164, Chinolonele"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Există îngrijorări privind prelungirea QT.",
-    "evidenceLocation": "Kumar, p. 164, Chinolonele"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Leziunile de tendon pot apărea în primele 48 de ore.",
-    "evidenceLocation": "Kumar, p. 164, Chinolonele"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Inhibă topoizomeraza IV și ADN-giraza.",
-    "evidenceLocation": "Kumar, p. 164, Chinolonele"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:39:37.312Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii contrazic restricțiile și datele de rezistență."
-  },
-  "textbookExpressions": [
-   "topoizomerazei IV",
-   "48 de ore"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a sepsis-adv-027: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "sepsis-adv-028-v2",
   "questionFingerprint": "e8e232876b7a284770a08207cb0d5508a1c2cac597b074fc18a305fb4a211878",
   "status": "source-checked",
@@ -178274,162 +176884,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a sepsis-adv-029: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "sepsis-adv-030-v2",
-  "questionFingerprint": "8e3f3c1b59ce67d4cdf95ea81599eae80bfa9b60003e4ff7117662d834591b46",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea spectrului și indicațiilor daptomicinei.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 8,
-   "printedPages": [
-    164
-   ],
-   "pdfPages": [
-    18
-   ],
-   "section": "Lipopeptidele"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Se folosește în infecțiile complicate ale pielii și țesuturilor moi, inclusiv MRSA.",
-    "evidenceLocation": "Kumar, p. 164, Lipopeptidele"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Spectrul este Gram-pozitiv.",
-    "evidenceLocation": "Kumar, p. 164, Lipopeptidele"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Daptomicina are spectru similar vancomicinei.",
-    "evidenceLocation": "Kumar, p. 164, Lipopeptidele"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Este alternativă în endocardită, infecții osteoarticulare și septicemii Gram-pozitive.",
-    "evidenceLocation": "Kumar, p. 164, Lipopeptidele"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Se administrează intravenos.",
-    "evidenceLocation": "Kumar, p. 164, Lipopeptidele"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:39:37.314Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii extind nejustificat calea și spectrul."
-  },
-  "textbookExpressions": [
-   "Daptomicina",
-   "ţesuturilor moi"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a sepsis-adv-030: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "sepsis-adv-031-v2",
-  "questionFingerprint": "f7e310994d526dd92fb9022104537a5776b5ff720b573cd40cd3791067e01291",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea mecanismului și a diferențelor linezolid/tedizolid.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 8,
-   "printedPages": [
-    165,
-    164
-   ],
-   "pdfPages": [
-    19,
-    18
-   ],
-   "section": "Oxazolidinonele"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Biodisponibilitatea orală este de 100%.",
-    "evidenceLocation": "Kumar, p. 165, 164, Oxazolidinonele"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Tedizolidul este mai puțin medulotoxic.",
-    "evidenceLocation": "Kumar, p. 165, 164, Oxazolidinonele"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Se leagă de ARN-ul ribozomal 23S.",
-    "evidenceLocation": "Kumar, p. 165, 164, Oxazolidinonele"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Tedizolidul se administrează o dată pe zi, linezolidul de două ori.",
-    "evidenceLocation": "Kumar, p. 165, 164, Oxazolidinonele"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Sunt inhibitori MAO non-selectivi, cu interacțiuni serotoninergice.",
-    "evidenceLocation": "Kumar, p. 165, 164, Oxazolidinonele"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:39:37.315Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează comparația medulotoxică și interacțiunile MAO."
-  },
-  "textbookExpressions": [
-   "23S",
-   "Tedizolid"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a sepsis-adv-031: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "sepsis-adv-067-v2",
@@ -178665,160 +177119,6 @@
   "reviewNotes": "Rescriere a sepsis-adv-033: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "sepsis-adv-004-v2",
-  "questionFingerprint": "488e99f1413a4b1da68d8bbe0c7d5ef0baa584017389511cdc570faf5448e937",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea proprietăților și a regulilor de utilizare ale fusidatului.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 8,
-   "printedPages": [
-    166
-   ],
-   "pdfPages": [
-    20
-   ],
-   "section": "Fusidatul de sodiu"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Se combină cu alt antistafilococic pentru a preveni rezistența.",
-    "evidenceLocation": "Kumar, p. 166, Fusidatul de sodiu"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Are structură asemănătoare sărurilor biliare.",
-    "evidenceLocation": "Kumar, p. 166, Fusidatul de sodiu"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Asigură o concentrație bună la nivel osos.",
-    "evidenceLocation": "Kumar, p. 166, Fusidatul de sodiu"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Utilizarea concomitentă a statinelor trebuie evitată.",
-    "evidenceLocation": "Kumar, p. 166, Fusidatul de sodiu"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Preparatele topice trebuie evitate pentru a limita rezistența.",
-    "evidenceLocation": "Kumar, p. 166, Fusidatul de sodiu"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:39:37.318Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează două precauții explicite."
-  },
-  "textbookExpressions": [
-   "sărurilor biliare",
-   "concentraţie bună la nivel osos"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a sepsis-adv-004: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "sepsis-adv-034-v2",
-  "questionFingerprint": "eb95a1ebf79d1f67f583ae7cfe1bcbc9a1d0fd085bd52a3cc7170791fd4c8239",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea indicațiilor și interacțiunilor metronidazolului.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 8,
-   "printedPages": [
-    166
-   ],
-   "pdfPages": [
-    20
-   ],
-   "section": "Nitroimidazolii"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Este de elecție în infecția moderată cu C. difficile, amibiază, giardiază și trichomoniază.",
-    "evidenceLocation": "Kumar, p. 166, Nitroimidazolii"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Are rol important în infecțiile cu Bacteroides.",
-    "evidenceLocation": "Kumar, p. 166, Nitroimidazolii"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Supozitorul are absorbție bună.",
-    "evidenceLocation": "Kumar, p. 166, Nitroimidazolii"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Produce reacție de tip disulfiram.",
-    "evidenceLocation": "Kumar, p. 166, Nitroimidazolii"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Intensifică efectul warfarinei.",
-    "evidenceLocation": "Kumar, p. 166, Nitroimidazolii"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:39:37.319Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii contrazic calea rectală și spectrul anaerob."
-  },
-  "textbookExpressions": [
-   "disulfiram",
-   "supozitor"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a sepsis-adv-034: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "sepsis-adv-035-v2",
   "questionFingerprint": "b0caad741d17ad3b111ba07a585cde4b31b1b8071151cf6ed29730523456b9eb",
   "status": "source-checked",
@@ -178979,83 +177279,6 @@
   "reviewNotes": "Rescriere a sepsis-adv-010: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "sepsis-adv-050-v2",
-  "questionFingerprint": "b329feac2db20fec63bfce9bdcdd6912be8faaaac34d2e31ac19b68a2c595e67",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea mecanismului și a evoluției infecției cu MRSA.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 8,
-   "printedPages": [
-    167
-   ],
-   "pdfPages": [
-    21
-   ],
-   "section": "Tratamentul infecțiilor cu organisme multirezistente — MRSA"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Îndepărtarea cateterului face parte din tratament.",
-    "evidenceLocation": "Kumar, p. 167, Tratamentul infecțiilor cu organisme multirezistente — MRSA"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Rezistența este mediată de PBP2a, neinhibată de meticilină sau flucloxacilină.",
-    "evidenceLocation": "Kumar, p. 167, Tratamentul infecțiilor cu organisme multirezistente — MRSA"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Diseminarea hematogenă apare în aproximativ 5% din cazuri.",
-    "evidenceLocation": "Kumar, p. 167, Tratamentul infecțiilor cu organisme multirezistente — MRSA"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Flucloxacilina nu inhibă PBP2a.",
-    "evidenceLocation": "Kumar, p. 167, Tratamentul infecțiilor cu organisme multirezistente — MRSA"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Proporția citată este de aproximativ 5%.",
-    "evidenceLocation": "Kumar, p. 167, Tratamentul infecțiilor cu organisme multirezistente — MRSA"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:39:37.323Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii sunt contrariul mecanismului și o cifră deplasată."
-  },
-  "textbookExpressions": [
-   "proteinei 2a",
-   "5% dintre cazuri"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a sepsis-adv-050: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "sepsis-adv-051-v2",
   "questionFingerprint": "81b81e5f367b50dcfc6265644d89dfab43c7fa310a21e6e69ae121edcea2c2a9",
   "status": "source-checked",
@@ -179131,83 +177354,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a sepsis-adv-051: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "sepsis-adv-052-v2",
-  "questionFingerprint": "2c17c0d4461d2ac06f2e6fbd688f71d393aacc163c52f492435f10c73e31b2d1",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea mecanismului și a tratamentului VRE.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 8,
-   "printedPages": [
-    167
-   ],
-   "pdfPages": [
-    21
-   ],
-   "section": "Enterococi rezistenți la vancomicină"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "D-Ala-D-Lac împiedică legarea glicopeptidelor.",
-    "evidenceLocation": "Kumar, p. 167, Enterococi rezistenți la vancomicină"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Singurul tratament oral este linezolidul.",
-    "evidenceLocation": "Kumar, p. 167, Enterococi rezistenți la vancomicină"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Sediile frecvente sunt tractul urinar și cel biliar.",
-    "evidenceLocation": "Kumar, p. 167, Enterococi rezistenți la vancomicină"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Multe infecții cu VRE sunt nosocomiale.",
-    "evidenceLocation": "Kumar, p. 167, Enterococi rezistenți la vancomicină"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "VRE are virulență scăzută.",
-    "evidenceLocation": "Kumar, p. 167, Enterococi rezistenți la vancomicină"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:39:37.325Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează virulența și tratamentul oral."
-  },
-  "textbookExpressions": [
-   "peptidoglican",
-   "linezolid"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a sepsis-adv-052: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "sepsis-adv-053-v2",
@@ -269519,5 +267665,1859 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a hernii-adv-039: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "sepsis-adv-011-v2",
+  "questionFingerprint": "2c19eeb7963aa0c3a4f6549ef5c31ea15bc153f48a422a439a8ca6f48cc2868a",
+  "status": "source-checked",
+  "learningObjective": "Fixarea datelor epidemiologice și a ferestrelor terapeutice din sepsis.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 8,
+   "printedPages": [
+    151
+   ],
+   "pdfPages": [
+    5
+   ],
+   "section": "Introducere"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Se estimează 49 de milioane de cazuri anual.",
+    "evidenceLocation": "Kumar, p. 151, Introducere"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Antibioterapia empirică trebuie prescrisă în interval de o oră.",
+    "evidenceLocation": "Kumar, p. 151, Introducere"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: se estimează 11 milioane de decese anual.",
+    "evidenceLocation": "Kumar, p. 151, Introducere"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Antibioterapia se revizuiește la 72 de ore.",
+    "evidenceLocation": "Kumar, p. 151, Introducere"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Abordarea se bazează pe pachetul Sepsis Six.",
+    "evidenceLocation": "Kumar, p. 151, Introducere"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:44:20.324Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Ferestrele de timp sunt deplasate în distractori."
+  },
+  "textbookExpressions": [
+   "49 de milioane",
+   "Sepsis Six"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a sepsis-adv-011: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "sepsis-adv-056-v2",
+  "questionFingerprint": "1865ded0489f1906267f3f3ba91811c5dc6895f82e21d36e79727ed6bb2516aa",
+  "status": "source-checked",
+  "learningObjective": "Asocierea simptomelor cu sediul infecției.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 8,
+   "printedPages": [
+    152
+   ],
+   "pdfPages": [
+    6
+   ],
+   "section": "Cadranul 8.1 — Caracteristici anamnestice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Tusea, sputa și dispneea orientează spre torace.",
+    "evidenceLocation": "Kumar, p. 152, Cadranul 8.1 — Caracteristici anamnestice"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: cefaleea și meningismul orientează spre SNC.",
+    "evidenceLocation": "Kumar, p. 152, Cadranul 8.1 — Caracteristici anamnestice"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Semnele de celulită orientează spre tegumente și țesuturi moi.",
+    "evidenceLocation": "Kumar, p. 152, Cadranul 8.1 — Caracteristici anamnestice"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Icterul și durerea în abdomenul superior orientează spre tractul biliar.",
+    "evidenceLocation": "Kumar, p. 152, Cadranul 8.1 — Caracteristici anamnestice"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Disuria, incontinența și durerea în flancuri orientează spre tractul urinar.",
+    "evidenceLocation": "Kumar, p. 152, Cadranul 8.1 — Caracteristici anamnestice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:44:20.326Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează sistemele pentru simptome reale."
+  },
+  "textbookExpressions": [
+   "meningism",
+   "durere în flancuri"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a sepsis-adv-056: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "sepsis-adv-057-v2",
+  "questionFingerprint": "5c739f1a83d349acc49d1ac6636653958ccdf3b6b6d6f5b63fd414b7d9b3516e",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea pragurilor de disfuncție de organ din algoritmul de sepsis.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 8,
+   "printedPages": [
+    152
+   ],
+   "pdfPages": [
+    6
+   ],
+   "section": "Fig. 8.1 — Abordarea pacientului cu suspiciune de sepsis"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Creatinina >170 µmol/L este criteriu.",
+    "evidenceLocation": "Kumar, p. 152, Fig. 8.1 — Abordarea pacientului cu suspiciune de sepsis"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Trombocitele <100 × 10⁹/L sunt criteriu.",
+    "evidenceLocation": "Kumar, p. 152, Fig. 8.1 — Abordarea pacientului cu suspiciune de sepsis"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "INR >1,5 este criteriu.",
+    "evidenceLocation": "Kumar, p. 152, Fig. 8.1 — Abordarea pacientului cu suspiciune de sepsis"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Lactatul >2,0 mmol/L este criteriu.",
+    "evidenceLocation": "Kumar, p. 152, Fig. 8.1 — Abordarea pacientului cu suspiciune de sepsis"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Pragul pentru bilirubină este ≥32 µmol/L.",
+    "evidenceLocation": "Kumar, p. 152, Fig. 8.1 — Abordarea pacientului cu suspiciune de sepsis"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:44:20.327Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii folosesc praguri apropiate, dar mai puțin severe decât cele din figură."
+  },
+  "textbookExpressions": [
+   "Trombocite",
+   "170 µmol"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a sepsis-adv-057: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "sepsis-adv-041-v2",
+  "questionFingerprint": "2beeea2af64da8a33b88c8c755be0c0b55cc5770cdf4de38c009f223989b7833",
+  "status": "source-checked",
+  "learningObjective": "Interpretarea semnelor vitale și generale în sepsis.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 8,
+   "printedPages": [
+    153
+   ],
+   "pdfPages": [
+    7
+   ],
+   "section": "Examenul obiectiv"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: pulsul poate fi amplu prin vasodilatație sau mic prin hipovolemie relativă.",
+    "evidenceLocation": "Kumar, p. 153, Examenul obiectiv"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Tahipneea este semnul-cheie al deteriorării.",
+    "evidenceLocation": "Kumar, p. 153, Examenul obiectiv"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Somnolența și confuzia sunt semne frecvente de sepsis la vârstnici.",
+    "evidenceLocation": "Kumar, p. 153, Examenul obiectiv"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "PVJ poate fi redusă în deshidratare sau depleție volemică.",
+    "evidenceLocation": "Kumar, p. 153, Examenul obiectiv"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Hipoxia poate sugera o infecție respiratorie inferioară.",
+    "evidenceLocation": "Kumar, p. 153, Examenul obiectiv"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:44:20.328Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează frecvența confuziei și direcția PVJ."
+  },
+  "textbookExpressions": [
+   "Tahipnee",
+   "amplitudine mare"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a sepsis-adv-041: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "sepsis-adv-013-v2",
+  "questionFingerprint": "afb1d7039b79b6c6fac8c06ae83207f95921c120f6478b9d5024eade67074b4b",
+  "status": "source-checked",
+  "learningObjective": "Folosirea corectă a scorurilor de risc și a lactatului.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 8,
+   "printedPages": [
+    154,
+    155
+   ],
+   "pdfPages": [
+    8,
+    9
+   ],
+   "section": "Definiția — NEWS 2 și lactatul"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Niciun biomarker nu are specificitate suficientă.",
+    "evidenceLocation": "Kumar, p. 154, 155, Definiția — NEWS 2 și lactatul"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "NEWS 2 ≥5 este pragul de screening recomandat în Marea Britanie.",
+    "evidenceLocation": "Kumar, p. 154, 155, Definiția — NEWS 2 și lactatul"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: qSOFA și NEWS 2 indică doar risc ridicat, nu diagnostic.",
+    "evidenceLocation": "Kumar, p. 154, 155, Definiția — NEWS 2 și lactatul"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Așteptarea rezultatelor de laborator este contraproductivă.",
+    "evidenceLocation": "Kumar, p. 154, 155, Definiția — NEWS 2 și lactatul"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Lactatul crescut nu trebuie ignorat, chiar dacă pacientul pare să evolueze bine.",
+    "evidenceLocation": "Kumar, p. 154, 155, Definiția — NEWS 2 și lactatul"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:44:20.331Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii contrazic caracterul clinic și rapid al diagnosticului."
+  },
+  "textbookExpressions": [
+   "NEWS 2",
+   "valoare prognostică"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a sepsis-adv-013: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "sepsis-adv-040-v2",
+  "questionFingerprint": "81ef0b8f5eddddcc4ba761e23622e6427bec416e26ea4a529e33d271de060b5d",
+  "status": "source-checked",
+  "learningObjective": "Clasificarea sepsisului după momentul și contextul instalării.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 8,
+   "printedPages": [
+    155
+   ],
+   "pdfPages": [
+    9
+   ],
+   "section": "Originea sepsisului"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Hemodializa este un exemplu de sepsis asociat asistenței medicale.",
+    "evidenceLocation": "Kumar, p. 155, Originea sepsisului"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Locuitorii comunităților închise sunt excluși.",
+    "evidenceLocation": "Kumar, p. 155, Originea sepsisului"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Dobândit în spital: după peste 48 de ore.",
+    "evidenceLocation": "Kumar, p. 155, Originea sepsisului"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: criteriul este externarea în ultimele 30 de zile.",
+    "evidenceLocation": "Kumar, p. 155, Originea sepsisului"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Comunitar: primele 48 de ore de la internare.",
+    "evidenceLocation": "Kumar, p. 155, Originea sepsisului"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:44:20.332Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează două excepții explicite ale definiției."
+  },
+  "textbookExpressions": [
+   "48 de ore",
+   "30 de zile"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a sepsis-adv-040: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "sepsis-adv-003-v2",
+  "questionFingerprint": "95b6400deaadf9fe8c4d038d59da57b8c93791782cbe4b795d240141e04d3c96",
+  "status": "source-checked",
+  "learningObjective": "Separarea criteriilor de risc înalt de cele de risc moderat.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 8,
+   "printedPages": [
+    156
+   ],
+   "pdfPages": [
+    10
+   ],
+   "section": "Cadranul 8.3 — Stratificarea riscului"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "FR ≥25/min este criteriu de risc înalt.",
+    "evidenceLocation": "Kumar, p. 156, Cadranul 8.3 — Stratificarea riscului"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Temperatura timpanică <36°C este criteriu de risc moderat spre crescut.",
+    "evidenceLocation": "Kumar, p. 156, Cadranul 8.3 — Stratificarea riscului"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "TAS cu peste 40 mmHg sub normal este criteriu de risc înalt.",
+    "evidenceLocation": "Kumar, p. 156, Cadranul 8.3 — Stratificarea riscului"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Absența diurezei în 18 ore este criteriu de risc înalt.",
+    "evidenceLocation": "Kumar, p. 156, Cadranul 8.3 — Stratificarea riscului"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "TAS ≤90 mmHg (sau >40 mmHg sub normal) este criteriu de risc înalt.",
+    "evidenceLocation": "Kumar, p. 156, Cadranul 8.3 — Stratificarea riscului"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:44:20.332Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt criterii reale, din coloana de risc moderat."
+  },
+  "textbookExpressions": [
+   "25 respiraţii",
+   "18 ore"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a sepsis-adv-003: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "sepsis-adv-060-v2",
+  "questionFingerprint": "e9f269beb11f1a8c7d7932271c47659dd5d1f26a43368a58555d2b606e540c72",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea variabilității tabloului clinic al sepsisului.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 8,
+   "printedPages": [
+    156
+   ],
+   "pdfPages": [
+    10
+   ],
+   "section": "Tablou clinic"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu există un semn patognomonic.",
+    "evidenceLocation": "Kumar, p. 156, Tablou clinic"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: imunodeprimații pot avea puține semne de inflamație.",
+    "evidenceLocation": "Kumar, p. 156, Tablou clinic"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Nu există simptome patognomonice.",
+    "evidenceLocation": "Kumar, p. 156, Tablou clinic"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Unii pacienți se deteriorează abrupt, în câteva ore.",
+    "evidenceLocation": "Kumar, p. 156, Tablou clinic"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Oliguria este un semn sistemic de disfuncție de organ.",
+    "evidenceLocation": "Kumar, p. 156, Tablou clinic"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:44:20.333Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii impun un semn patognomonic inexistent."
+  },
+  "textbookExpressions": [
+   "patognomonice",
+   "imunodeprimaţi"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a sepsis-adv-060: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "sepsis-adv-001-v2",
+  "questionFingerprint": "e1cfb10374d0b72f9d8d6d8596fae90872e9612156ccb59978d429b518089c0b",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea ferestrelor temporale pentru infecțiile de import.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 8,
+   "printedPages": [
+    156
+   ],
+   "pdfPages": [
+    10
+   ],
+   "section": "Sepsisul în situații speciale — Pacienții întorși din călătorii"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "MERS-CoV: simptome respiratorii în primele 14 zile.",
+    "evidenceLocation": "Kumar, p. 156, Sepsisul în situații speciale — Pacienții întorși din călătorii"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: fereastra pentru febra hemoragică virală este de 21 de zile.",
+    "evidenceLocation": "Kumar, p. 156, Sepsisul în situații speciale — Pacienții întorși din călătorii"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Investigațiile minime includ hemoculturi și screeningul malariei.",
+    "evidenceLocation": "Kumar, p. 156, Sepsisul în situații speciale — Pacienții întorși din călătorii"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Fereastra MERS-CoV este de 14 zile, pentru simptome respiratorii.",
+    "evidenceLocation": "Kumar, p. 156, Sepsisul în situații speciale — Pacienții întorși din călătorii"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Profilaxia trebuie documentată, dar nu exclude malaria.",
+    "evidenceLocation": "Kumar, p. 156, Sepsisul în situații speciale — Pacienții întorși din călătorii"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:44:20.334Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Ferestrele de 14 și 21 de zile sunt permutate."
+  },
+  "textbookExpressions": [
+   "21 de zile",
+   "MERS-CoV"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a sepsis-adv-001: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "sepsis-adv-055-v2",
+  "questionFingerprint": "640a4688cef5981f27027f08cebd9a75a9bae7f5e5e1033454627d549667eab5",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea focarelor și patogenilor tipici la utilizatorii de droguri i.v.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 8,
+   "printedPages": [
+    156
+   ],
+   "pdfPages": [
+    10
+   ],
+   "section": "Sepsisul în situații speciale — Dependenții de droguri injectabile"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Endoftalmita fungică apare rar, legată de sucul de lămâie.",
+    "evidenceLocation": "Kumar, p. 156, Sepsisul în situații speciale — Dependenții de droguri injectabile"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Pseudomonas nu este citat ca patogen dominant.",
+    "evidenceLocation": "Kumar, p. 156, Sepsisul în situații speciale — Dependenții de droguri injectabile"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Endocardita tricuspidiană produce embolii pulmonare cu abcese multiple.",
+    "evidenceLocation": "Kumar, p. 156, Sepsisul în situații speciale — Dependenții de droguri injectabile"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Majoritatea episoadelor sunt legate de tromboflebite sau abcese locale.",
+    "evidenceLocation": "Kumar, p. 156, Sepsisul în situații speciale — Dependenții de droguri injectabile"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "S. aureus (MSSA/MRSA) și S. pyogenes sunt cei mai frecvenți.",
+    "evidenceLocation": "Kumar, p. 156, Sepsisul în situații speciale — Dependenții de droguri injectabile"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:44:20.334Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii transformă o raritate în regulă."
+  },
+  "textbookExpressions": [
+   "tromboflebite",
+   "valva tricus"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a sepsis-adv-055: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "sepsis-adv-016-v2",
+  "questionFingerprint": "01b6e7aaabd2edc0934d2b0ae0717973bda8ed8c617e319c54f659e603a06515",
+  "status": "source-checked",
+  "learningObjective": "Alegerea empiricului la neutropenic și sursele de risc la imobilizat.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 8,
+   "printedPages": [
+    157
+   ],
+   "pdfPages": [
+    11
+   ],
+   "section": "Sepsisul în situații speciale — Neutropenici și imobilizați"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Empiricul cuprinde piperacilină/tazobactam, cu sau fără aminoglicozid.",
+    "evidenceLocation": "Kumar, p. 157, Sepsisul în situații speciale — Neutropenici și imobilizați"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: cateterele venoase centrale, urinare și sondele endotraheale reprezintă cel mai mare risc.",
+    "evidenceLocation": "Kumar, p. 157, Sepsisul în situații speciale — Neutropenici și imobilizați"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Glicopeptidul nu acoperă Pseudomonas.",
+    "evidenceLocation": "Kumar, p. 157, Sepsisul în situații speciale — Neutropenici și imobilizați"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Escarele se previn cu saltele potrivite și rotire periodică.",
+    "evidenceLocation": "Kumar, p. 157, Sepsisul în situații speciale — Neutropenici și imobilizați"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Riscul de Pseudomonas motivează această schemă.",
+    "evidenceLocation": "Kumar, p. 157, Sepsisul în situații speciale — Neutropenici și imobilizați"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:44:20.335Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii omit acoperirea antipseudomonas."
+  },
+  "textbookExpressions": [
+   "piocianic",
+   "rotirea periodică"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a sepsis-adv-016: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "sepsis-adv-045-v2",
+  "questionFingerprint": "8cf90cb21b1fca519d30d3400ee55e11445c2e9ad353ffb5b1316bbe819dbf58",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea regulilor de recoltare a hemoculturilor.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 8,
+   "printedPages": [
+    158
+   ],
+   "pdfPages": [
+    12
+   ],
+   "section": "Probe biologice utile și examinarea în laborator"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "PCR pentru ADN bacterian poate detecta patogenul și după antibiotic.",
+    "evidenceLocation": "Kumar, p. 158, Probe biologice utile și examinarea în laborator"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Există întotdeauna timp pentru hemoculturi înaintea antibioticului, chiar la pacientul acut.",
+    "evidenceLocation": "Kumar, p. 158, Probe biologice utile și examinarea în laborator"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: antibioterapia prealabilă poate negativiza culturile.",
+    "evidenceLocation": "Kumar, p. 158, Probe biologice utile și examinarea în laborator"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "La adult se recoltează minim 5 ml în flacoane aerob și anaerob.",
+    "evidenceLocation": "Kumar, p. 158, Probe biologice utile și examinarea în laborator"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Hemoculturile se recoltează înaintea tratamentului.",
+    "evidenceLocation": "Kumar, p. 158, Probe biologice utile și examinarea în laborator"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:44:20.336Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii contrazic rolul PCR și momentul recoltării."
+  },
+  "textbookExpressions": [
+   "5 ml de sânge",
+   "ADN bacterian"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a sepsis-adv-045: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "sepsis-adv-062-v2",
+  "questionFingerprint": "5acbe954ff8b8632e3aff3902b6fad42f3e320891e2072caf9578801bb9f0e0d",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea indicatorilor de administrare prudentă a antibioticelor.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 8,
+   "printedPages": [
+    159
+   ],
+   "pdfPages": [
+    13
+   ],
+   "section": "Obiective specifice în Marea Britanie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Revizuirea la 72 de ore este un indicator.",
+    "evidenceLocation": "Kumar, p. 159, Obiective specifice în Marea Britanie"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Utilizarea ciprofloxacinei trebuie redusă.",
+    "evidenceLocation": "Kumar, p. 159, Obiective specifice în Marea Britanie"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: nitrofurantoina se prescrie în loc de trimetoprim.",
+    "evidenceLocation": "Kumar, p. 159, Obiective specifice în Marea Britanie"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Indicatorii vizează reducerea carbapenemelor și a piperacilină-tazobactamului.",
+    "evidenceLocation": "Kumar, p. 159, Obiective specifice în Marea Britanie"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Utilizarea co-amoxiclavului trebuie redusă.",
+    "evidenceLocation": "Kumar, p. 159, Obiective specifice în Marea Britanie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:44:20.337Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează sensul indicatorilor din medicina de familie."
+  },
+  "textbookExpressions": [
+   "CQUIN",
+   "nitrofurantoin"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a sepsis-adv-062: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "sepsis-adv-064-v2",
+  "questionFingerprint": "5c774adbae78f7843b798c7200467e47db9561050b9effef7700ac2d1e240a74",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea mecanismului și a farmacodinamicii β-lactaminelor.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 8,
+   "printedPages": [
+    161,
+    163
+   ],
+   "pdfPages": [
+    15,
+    17
+   ],
+   "section": "Antibiotice β-lactamice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: modificarea nucleului sau a lanțului adiacent extinde spectrul.",
+    "evidenceLocation": "Kumar, p. 161, 163, Antibiotice β-lactamice"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Sunt în general bactericide, dependent de timp.",
+    "evidenceLocation": "Kumar, p. 161, 163, Antibiotice β-lactamice"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "ADN-giraza este ținta chinolonelor.",
+    "evidenceLocation": "Kumar, p. 161, 163, Antibiotice β-lactamice"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Sunt bactericide dependent de timp.",
+    "evidenceLocation": "Kumar, p. 161, 163, Antibiotice β-lactamice"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Blochează sinteza peretelui prin inactivarea peptidazelor.",
+    "evidenceLocation": "Kumar, p. 161, 163, Antibiotice β-lactamice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:44:20.338Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii descriu farmacodinamica și ținta altor clase."
+  },
+  "textbookExpressions": [
+   "dependentă de timp",
+   "penicilină, peptidaze"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a sepsis-adv-064: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "sepsis-adv-049-v2",
+  "questionFingerprint": "d8d48d326b16c6b4b655532cf545a6047c3f03860dbc507d849decda8397ed75",
+  "status": "source-checked",
+  "learningObjective": "Delimitarea spectrului penicilinelor Gram-negative cu spectru îngust.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 8,
+   "printedPages": [
+    163
+   ],
+   "pdfPages": [
+    17
+   ],
+   "section": "Penicilinele — Pivmecilinamul și temocilina"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Temocilina favorizează mai puțin C. difficile și protejează carbapenemele.",
+    "evidenceLocation": "Kumar, p. 163, Penicilinele — Pivmecilinamul și temocilina"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Niciuna nu este activă pe P. aeruginosa.",
+    "evidenceLocation": "Kumar, p. 163, Penicilinele — Pivmecilinamul și temocilina"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Temocilina nu este activă pe Acinetobacter.",
+    "evidenceLocation": "Kumar, p. 163, Penicilinele — Pivmecilinamul și temocilina"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Ambele acționează și pe tulpini producătoare de ESBL.",
+    "evidenceLocation": "Kumar, p. 163, Penicilinele — Pivmecilinamul și temocilina"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Ambele au spectru Gram-negativ.",
+    "evidenceLocation": "Kumar, p. 163, Penicilinele — Pivmecilinamul și temocilina"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:44:20.339Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii extind spectrul spre germenii explicit excluși."
+  },
+  "textbookExpressions": [
+   "Temocilina",
+   "ESBL"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a sepsis-adv-049: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "sepsis-adv-046-v2",
+  "questionFingerprint": "7deb14d9e0f7f05cc17c04239ac2d799e0764905790946934ee9eb2778e3b72f",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea structurii și spectrului aztreonamului.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 8,
+   "printedPages": [
+    163
+   ],
+   "pdfPages": [
+    17
+   ],
+   "section": "Monobactamii"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Monobactamul are doar inelul β-lactamic.",
+    "evidenceLocation": "Kumar, p. 163, Monobactamii"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu acoperă anaerobii.",
+    "evidenceLocation": "Kumar, p. 163, Monobactamii"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Spectrul nu acoperă Gram-pozitivii.",
+    "evidenceLocation": "Kumar, p. 163, Monobactamii"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Este activ pe unele tulpini rezistente la carbapeneme producătoare de metalo-β-lactamază.",
+    "evidenceLocation": "Kumar, p. 163, Monobactamii"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Spectrul este limitat la bacilii Gram-negativi aerobi.",
+    "evidenceLocation": "Kumar, p. 163, Monobactamii"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:44:20.340Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii extind spectrul aztreonamului la cel al carbapenemelor."
+  },
+  "textbookExpressions": [
+   "monobactam",
+   "metalo"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a sepsis-adv-046: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "sepsis-adv-030-v2",
+  "questionFingerprint": "fbd73d7b28081ddb146d4b55495d0e6c3b642d30be91119dff920223dfb57a2c",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea spectrului și indicațiilor daptomicinei.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 8,
+   "printedPages": [
+    164
+   ],
+   "pdfPages": [
+    18
+   ],
+   "section": "Lipopeptidele"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Se folosește în infecțiile complicate ale pielii și țesuturilor moi, inclusiv MRSA.",
+    "evidenceLocation": "Kumar, p. 164, Lipopeptidele"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Spectrul este Gram-pozitiv.",
+    "evidenceLocation": "Kumar, p. 164, Lipopeptidele"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Daptomicina are spectru similar vancomicinei.",
+    "evidenceLocation": "Kumar, p. 164, Lipopeptidele"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: este alternativă în endocardită, infecții osteoarticulare și septicemii Gram-pozitive.",
+    "evidenceLocation": "Kumar, p. 164, Lipopeptidele"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Se administrează intravenos.",
+    "evidenceLocation": "Kumar, p. 164, Lipopeptidele"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:44:20.341Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii extind nejustificat calea și spectrul."
+  },
+  "textbookExpressions": [
+   "Daptomicina",
+   "ţesuturilor moi"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a sepsis-adv-030: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "sepsis-adv-031-v2",
+  "questionFingerprint": "2ab41c54b358f360a3245e8c01f733a04569085ff16effb4e94b908c83e99ba7",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea mecanismului și a diferențelor linezolid/tedizolid.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 8,
+   "printedPages": [
+    165,
+    164
+   ],
+   "pdfPages": [
+    19,
+    18
+   ],
+   "section": "Oxazolidinonele"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Biodisponibilitatea orală este de 100%.",
+    "evidenceLocation": "Kumar, p. 165, 164, Oxazolidinonele"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Tedizolidul este mai puțin medulotoxic decât linezolidul.",
+    "evidenceLocation": "Kumar, p. 165, 164, Oxazolidinonele"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Se leagă de ARN-ul ribozomal 23S.",
+    "evidenceLocation": "Kumar, p. 165, 164, Oxazolidinonele"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Tedizolidul se administrează o dată pe zi, linezolidul de două ori.",
+    "evidenceLocation": "Kumar, p. 165, 164, Oxazolidinonele"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Sunt inhibitori MAO non-selectivi, cu interacțiuni serotoninergice.",
+    "evidenceLocation": "Kumar, p. 165, 164, Oxazolidinonele"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:44:20.343Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează comparația medulotoxică și interacțiunile MAO."
+  },
+  "textbookExpressions": [
+   "23S",
+   "Tedizolid"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a sepsis-adv-031: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "sepsis-adv-034-v2",
+  "questionFingerprint": "e8863ef0398f87ba1ffbd7788a2581badf7f6f019eb05561a098046ea6f7d473",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea indicațiilor și interacțiunilor metronidazolului.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 8,
+   "printedPages": [
+    166
+   ],
+   "pdfPages": [
+    20
+   ],
+   "section": "Nitroimidazolii"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Este de elecție în infecția moderată cu C. difficile, amibiază, giardiază și trichomoniază.",
+    "evidenceLocation": "Kumar, p. 166, Nitroimidazolii"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Are rol important în infecțiile cu Bacteroides.",
+    "evidenceLocation": "Kumar, p. 166, Nitroimidazolii"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Supozitorul are absorbție bună.",
+    "evidenceLocation": "Kumar, p. 166, Nitroimidazolii"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Produce reacție de tip disulfiram.",
+    "evidenceLocation": "Kumar, p. 166, Nitroimidazolii"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Intensifică efectul warfarinei.",
+    "evidenceLocation": "Kumar, p. 166, Nitroimidazolii"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:44:20.344Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii contrazic calea rectală și spectrul anaerob."
+  },
+  "textbookExpressions": [
+   "disulfiram",
+   "supozitor"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a sepsis-adv-034: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "sepsis-adv-050-v2",
+  "questionFingerprint": "a04560754f689793408f3fdb86d9461bcf663aab11c0c23439cc7dfe7c693505",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea mecanismului și a evoluției infecției cu MRSA.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 8,
+   "printedPages": [
+    167
+   ],
+   "pdfPages": [
+    21
+   ],
+   "section": "Tratamentul infecțiilor cu organisme multirezistente — MRSA"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Îndepărtarea cateterului face parte din tratament.",
+    "evidenceLocation": "Kumar, p. 167, Tratamentul infecțiilor cu organisme multirezistente — MRSA"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Rezistența este mediată de PBP2a, neinhibată de meticilină sau flucloxacilină.",
+    "evidenceLocation": "Kumar, p. 167, Tratamentul infecțiilor cu organisme multirezistente — MRSA"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Diseminarea hematogenă apare în aproximativ 5% din cazuri.",
+    "evidenceLocation": "Kumar, p. 167, Tratamentul infecțiilor cu organisme multirezistente — MRSA"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Flucloxacilina nu inhibă PBP2a.",
+    "evidenceLocation": "Kumar, p. 167, Tratamentul infecțiilor cu organisme multirezistente — MRSA"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Proporția citată este de aproximativ 5%.",
+    "evidenceLocation": "Kumar, p. 167, Tratamentul infecțiilor cu organisme multirezistente — MRSA"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:44:20.345Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt contrariul mecanismului și o cifră deplasată."
+  },
+  "textbookExpressions": [
+   "proteinei 2a",
+   "5% dintre cazuri"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a sepsis-adv-050: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "sepsis-adv-052-v2",
+  "questionFingerprint": "66748791b779e8f5896bece613ea2886ed89a07bafe2fb6b714c6f51e72433b7",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea mecanismului și a tratamentului VRE.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 8,
+   "printedPages": [
+    167
+   ],
+   "pdfPages": [
+    21
+   ],
+   "section": "Enterococi rezistenți la vancomicină"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "D-Ala-D-Lac împiedică legarea glicopeptidelor.",
+    "evidenceLocation": "Kumar, p. 167, Enterococi rezistenți la vancomicină"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Singurul tratament oral este linezolidul.",
+    "evidenceLocation": "Kumar, p. 167, Enterococi rezistenți la vancomicină"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: sediile frecvente sunt tractul urinar și cel biliar.",
+    "evidenceLocation": "Kumar, p. 167, Enterococi rezistenți la vancomicină"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Multe infecții cu VRE sunt nosocomiale.",
+    "evidenceLocation": "Kumar, p. 167, Enterococi rezistenți la vancomicină"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "VRE are virulență scăzută.",
+    "evidenceLocation": "Kumar, p. 167, Enterococi rezistenți la vancomicină"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:44:20.345Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează virulența și tratamentul oral."
+  },
+  "textbookExpressions": [
+   "peptidoglican",
+   "linezolid"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a sepsis-adv-052: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "sepsis-adv-038-v2",
+  "questionFingerprint": "d2cd85e9b387becffd91413c72806be1101529efde470b4cf10c46a4bc601145",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea mecanismelor disfuncției multiple de organ.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 8,
+   "printedPages": [
+    154
+   ],
+   "pdfPages": [
+    8
+   ],
+   "section": "Fiziopatologie — Disfuncția de organ"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Lezarea epiteliului intestinal produce malabsorbție și translocare bacteriană.",
+    "evidenceLocation": "Kumar, p. 154, Fiziopatologie — Disfuncția de organ"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Vasoplegia reduce rezistența periferică totală.",
+    "evidenceLocation": "Kumar, p. 154, Fiziopatologie — Disfuncția de organ"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Afectarea renală acută este frecventă și crește mortalitatea.",
+    "evidenceLocation": "Kumar, p. 154, Fiziopatologie — Disfuncția de organ"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Sindromul și acidoza pot fi inotrop negative.",
+    "evidenceLocation": "Kumar, p. 154, Fiziopatologie — Disfuncția de organ"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Extravazarea capilară produce edem care reduce livrarea de oxigen.",
+    "evidenceLocation": "Kumar, p. 154, Fiziopatologie — Disfuncția de organ"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:44:36.639Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează direcția efectelor hemodinamice."
+  },
+  "textbookExpressions": [
+   "Vasoplegia",
+   "translocarea"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a sepsis-adv-038: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "sepsis-adv-027-v2",
+  "questionFingerprint": "c0b04f2c47b775766825573854ec87c92ab972bf71cd36ff4813d9c85cced5aa",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea mecanismului, efectelor adverse și limitelor chinolonelor.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 8,
+   "printedPages": [
+    164
+   ],
+   "pdfPages": [
+    18
+   ],
+   "section": "Chinolonele"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Utilizarea se evită în sarcină și la copii.",
+    "evidenceLocation": "Kumar, p. 164, Chinolonele"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "În multe țări, >80% dintre E. coli și Klebsiella sunt rezistente.",
+    "evidenceLocation": "Kumar, p. 164, Chinolonele"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Există îngrijorări privind prelungirea QT.",
+    "evidenceLocation": "Kumar, p. 164, Chinolonele"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: leziunile de tendon pot apărea în primele 48 de ore.",
+    "evidenceLocation": "Kumar, p. 164, Chinolonele"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Inhibă topoizomeraza IV și ADN-giraza.",
+    "evidenceLocation": "Kumar, p. 164, Chinolonele"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:44:36.644Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii contrazic restricțiile și datele de rezistență."
+  },
+  "textbookExpressions": [
+   "topoizomerazei IV",
+   "48 de ore"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a sepsis-adv-027: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "sepsis-adv-004-v2",
+  "questionFingerprint": "9db0e140b067f2cf07a123c4ab68507cb77c3936bcff47f43295c9654abe4762",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea proprietăților și a regulilor de utilizare ale fusidatului.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 8,
+   "printedPages": [
+    166
+   ],
+   "pdfPages": [
+    20
+   ],
+   "section": "Fusidatul de sodiu"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Se combină cu alt antistafilococic pentru a preveni rezistența.",
+    "evidenceLocation": "Kumar, p. 166, Fusidatul de sodiu"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Are structură asemănătoare sărurilor biliare.",
+    "evidenceLocation": "Kumar, p. 166, Fusidatul de sodiu"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Asigură o concentrație bună la nivel osos.",
+    "evidenceLocation": "Kumar, p. 166, Fusidatul de sodiu"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Utilizarea concomitentă a statinelor trebuie evitată.",
+    "evidenceLocation": "Kumar, p. 166, Fusidatul de sodiu"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Preparatele topice trebuie evitate pentru a limita rezistența.",
+    "evidenceLocation": "Kumar, p. 166, Fusidatul de sodiu"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:44:36.645Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează două precauții explicite."
+  },
+  "textbookExpressions": [
+   "sărurilor biliare",
+   "concentraţie bună la nivel osos"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a sepsis-adv-004: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  }
 ]
