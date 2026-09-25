@@ -66,7 +66,7 @@ were found on that page. Cutoff-page and box checks for each topic are logged in
 
 ## Items relying on a Cadran / Figura / Tabel
 
-569 items, 124 resolved, 445 pending.
+569 items, 137 resolved, 432 pending.
 
 | Original ID | Topic | Status |
 |---|---|---|
@@ -556,19 +556,19 @@ were found on that page. Cutoff-page and box checks for each topic are logged in
 | pneumologie-adv-138 | pneumologie | pending (original still live) |
 | pneumologie-adv-140 | pneumologie | pending (original still live) |
 | pneumologie-adv-141 | pneumologie | pending (original still live) |
-| psihiatrie-adv-015 | psihiatrie | pending (original still live) |
-| psihiatrie-adv-016 | psihiatrie | pending (original still live) |
-| psihiatrie-adv-019 | psihiatrie | pending (original still live) |
-| psihiatrie-adv-021 | psihiatrie | pending (original still live) |
-| psihiatrie-adv-023 | psihiatrie | pending (original still live) |
-| psihiatrie-adv-024 | psihiatrie | pending (original still live) |
-| psihiatrie-adv-028 | psihiatrie | pending (original still live) |
-| psihiatrie-adv-036 | psihiatrie | pending (original still live) |
-| psihiatrie-adv-037 | psihiatrie | pending (original still live) |
-| psihiatrie-adv-038 | psihiatrie | pending (original still live) |
-| psihiatrie-adv-040 | psihiatrie | pending (original still live) |
-| psihiatrie-adv-045 | psihiatrie | pending (original still live) |
-| psihiatrie-adv-052 | psihiatrie | pending (original still live) |
+| psihiatrie-adv-015 | psihiatrie | replaced by psihiatrie-adv-015-v2 (p. 328; expressions verified on the cited page) |
+| psihiatrie-adv-016 | psihiatrie | replaced by psihiatrie-adv-016-v2 (p. 329; expressions verified on the cited page) |
+| psihiatrie-adv-019 | psihiatrie | replaced by psihiatrie-adv-019-v2 (p. 328; expressions verified on the cited page) |
+| psihiatrie-adv-021 | psihiatrie | replaced by psihiatrie-adv-021-v2 (p. 330; expressions verified on the cited page) |
+| psihiatrie-adv-023 | psihiatrie | replaced by psihiatrie-adv-023-v2 (p. 320; expressions verified on the cited page) |
+| psihiatrie-adv-024 | psihiatrie | replaced by psihiatrie-adv-024-v2 (p. 322; expressions verified on the cited page) |
+| psihiatrie-adv-028 | psihiatrie | replaced by psihiatrie-adv-028-v2 (p. 323; expressions verified on the cited page) |
+| psihiatrie-adv-036 | psihiatrie | replaced by psihiatrie-adv-036-v2 (p. 328; expressions verified on the cited page) |
+| psihiatrie-adv-037 | psihiatrie | replaced by psihiatrie-adv-037-v2 (p. 330, 329; expressions verified on the cited page) |
+| psihiatrie-adv-038 | psihiatrie | replaced by psihiatrie-adv-038-v2 (p. 319; expressions verified on the cited page) |
+| psihiatrie-adv-040 | psihiatrie | replaced by psihiatrie-adv-040-v2 (p. 320; expressions verified on the cited page) |
+| psihiatrie-adv-045 | psihiatrie | replaced by psihiatrie-adv-045-v2 (p. 322; expressions verified on the cited page) |
+| psihiatrie-adv-052 | psihiatrie | replaced by psihiatrie-adv-052-v2 (p. 329, 328; expressions verified on the cited page) |
 | reumatologie-adv-009 | reumatologie | replaced by reumatologie-adv-009-v2 (p. 450; expressions verified on the cited page) |
 | reumatologie-adv-014 | reumatologie | replaced by reumatologie-adv-014-v2 (p. 437; expressions verified on the cited page) |
 | reumatologie-adv-018 | reumatologie | replaced by reumatologie-adv-018-v2 (p. 440; expressions verified on the cited page) |

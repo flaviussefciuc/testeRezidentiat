@@ -10,13 +10,13 @@
   "live": {
     "count": 3440,
     "correctAnswerCounts": {
-      "1": 704,
-      "2": 453,
-      "3": 1596,
-      "4": 687
+      "1": 702,
+      "2": 441,
+      "3": 1601,
+      "4": 696
     },
     "missingMultipleAnswerFormats": [],
-    "fourCorrectShareOfMultiple": 25.1,
+    "fourCorrectShareOfMultiple": 25.4,
     "idsUnique": true,
     "structuralErrors": [],
     "exactQuestionDuplicates": [],
@@ -26,7 +26,6 @@
       "gastro-adv-049",
       "pancreas-adv-062",
       "urologie-adv-079",
-      "psihiatrie-adv-028",
       "neurologie-adv-095",
       "reumatologie-adv-031-v2",
       "tromboembolism-adv-056-v2",
@@ -201,13 +200,13 @@
   "draft": {
     "count": 3613,
     "correctAnswerCounts": {
-      "1": 749,
-      "2": 475,
-      "3": 1640,
-      "4": 749
+      "1": 747,
+      "2": 463,
+      "3": 1645,
+      "4": 758
     },
     "missingMultipleAnswerFormats": [],
-    "fourCorrectShareOfMultiple": 26.2,
+    "fourCorrectShareOfMultiple": 26.4,
     "idsUnique": true,
     "structuralErrors": [],
     "exactQuestionDuplicates": [],
@@ -238,7 +237,6 @@
       "gastro-adv-049",
       "pancreas-adv-062",
       "urologie-adv-079",
-      "psihiatrie-adv-028",
       "neurologie-adv-095",
       "reumatologie-adv-031-v2",
       "tromboembolism-adv-056-v2",
@@ -413,13 +411,13 @@
   "accepted": {
     "count": 3440,
     "correctAnswerCounts": {
-      "1": 704,
-      "2": 453,
-      "3": 1596,
-      "4": 687
+      "1": 702,
+      "2": 441,
+      "3": 1601,
+      "4": 696
     },
     "missingMultipleAnswerFormats": [],
-    "fourCorrectShareOfMultiple": 25.1,
+    "fourCorrectShareOfMultiple": 25.4,
     "idsUnique": true,
     "structuralErrors": [],
     "exactQuestionDuplicates": [],
@@ -429,7 +427,6 @@
       "gastro-adv-049",
       "pancreas-adv-062",
       "urologie-adv-079",
-      "psihiatrie-adv-028",
       "neurologie-adv-095",
       "reumatologie-adv-031-v2",
       "tromboembolism-adv-056-v2",

@@ -143,3 +143,8 @@ Fiecare temă rescrisă (versiunile `-v2`) a fost confruntată din nou cu pagini
 - Limita «până la Gușa»: p. 619–620 lipsesc din extrasul sursă. Tot conținutul de pe p. 618 (orbitopatia, rezistența la hormonii tiroidieni, fătul și boala Graves maternă) precedă titlul «Gușa» și rămâne în tematică.
 - P. 621: evaluarea nodulului (FNA, scintigrafie) și tratamentul gușii eutiroidiene se află după titlul «Gușa», dar pe o pagină inclusă în intervalul p. 621–622 al carcinomului. `-043-v2` este păstrat după regula intervalului de pagini.
 - Retrase fără înlocuitor (dubluri sau trivia numerică): 007 (inclus în 045/034/047/048), 008 (inclus în 049), 009 (inclus în 050), 013 (inclus în 041), 042 (pragul de 160/minut, trivia numerică), 051 (recapitulare de procente, inclusă în 039/054/038).
+
+### Tulburările psihice (Sinopsis, cap. 14)
+- Nu s-au găsit chei greșite în cei 52 de itemi confruntați cu p. 319–330.
+- P. 321, caseta «Pasul următor» despre sindromul neuroleptic malign: tratamentul include «un agonist dopaminergic cum ar fi dantrolenul». Dantrolenul este un relaxant muscular, iar Tabelul 14-2 (p. 320) listează corect bromocriptina și amantadina ca agoniști dopaminergici, cu dantrolenul separat. Niciun item nu testează această formulare.
+- Temele au fost redistribuite între ID-urile vechi, deoarece fiecare versiune nouă trebuie să înlocuiască un item retras: 005 → trăsăturile generale ale tulburărilor de personalitate, 030 → antipsihoticele atipice, 032 → diskinezia tardivă, 044 → tulburările factice, 047 → caseta SNM. Conținutul vechi al acestor ID-uri (dubluri: bipolar tip I, comorbiditățile și epidemiologia TOC, prazosinul, mecanismul litiului) este acoperit de alți itemi v2.

@@ -82983,5 +82983,4013 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-001",
+  "questionFingerprint": "61f886c71b40af68855d940a4c8d03a5eff6595d17b61036b3af9d4d60a38c84",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea criteriului temporal de 6 luni și a ierarhiei antipsihoticelor, inclusiv a clozapinei.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    319
+   ],
+   "pdfPages": [
+    97
+   ],
+   "section": "Tulburări psihotice — Schizofrenia"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Criteriul a două simptome o lună din 6, cu disfuncție >6 luni, este explicit.",
+    "evidenceLocation": "Sinopsis, p. 319, Tulburări psihotice — Schizofrenia"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Atipicele sunt citate ca primă linie de întreținere.",
+    "evidenceLocation": "Sinopsis, p. 319, Tulburări psihotice — Schizofrenia"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Clozapina este cel mai eficace, dar rezervată formelor refractare prin agranulocitoză.",
+    "evidenceLocation": "Sinopsis, p. 319, Tulburări psihotice — Schizofrenia"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Textul contrastează potența crescută (mai multe extrapiramidale, mai puține anticolinergice) cu cea redusă.",
+    "evidenceLocation": "Sinopsis, p. 319, Tulburări psihotice — Schizofrenia"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Predominanța simptomelor negative asociază prognostic mai prost.",
+    "evidenceLocation": "Sinopsis, p. 319, Tulburări psihotice — Schizofrenia"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T15:31:57.229Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul inversează prognosticul formelor cu simptome negative predominante."
+  },
+  "textbookExpressions": [
+   "agranulocitoză",
+   "Medicamente de primă linie"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Sinopsis (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-002",
+  "questionFingerprint": "07afc7af75daa103346a8bcea277d5470fde82d230be869816c5d7cd676d8cab",
+  "status": "source-checked",
+  "learningObjective": "Separarea schizofreniformei, a psihozei scurte și a schizoafectivei după durată și după relația cu dispoziția.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    320
+   ],
+   "pdfPages": [
+    98
+   ],
+   "section": "Tulburări psihotice — Alte tulburări psihotice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Intervalul 1–6 luni definește schizofreniforma.",
+    "evidenceLocation": "Sinopsis, p. 320, Tulburări psihotice — Alte tulburări psihotice"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Intervalul 1 zi–1 lună, fără simptomele negative între criterii, definește psihoza scurtă.",
+    "evidenceLocation": "Sinopsis, p. 320, Tulburări psihotice — Alte tulburări psihotice"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Disocierea psihozei de episodul afectiv este criteriul schizoafectivei.",
+    "evidenceLocation": "Sinopsis, p. 320, Tulburări psihotice — Alte tulburări psihotice"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Tulburarea delirantă nu întrunește criteriile de schizofrenie și nu afectează funcția în afara consecințelor delirului.",
+    "evidenceLocation": "Sinopsis, p. 320, Tulburări psihotice — Alte tulburări psihotice"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Peste 6 luni cu disfuncție este criteriul schizofreniei, nu al schizofreniformei.",
+    "evidenceLocation": "Sinopsis, p. 320, Tulburări psihotice — Alte tulburări psihotice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T15:31:57.229Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii lungesc schizofreniforma până la criteriul schizofreniei și atribuie delirantei dezorganizarea schizofrenă."
+  },
+  "textbookExpressions": [
+   "fără să depăşească 6 luni",
+   "fără a depăşi o lună"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Sinopsis (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-003",
+  "questionFingerprint": "f54d5c766d66fb724be87e6453b5c3009208212c9ef355d83fd2b008cae8ed44",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea pragului de 2 săptămâni, a recurenței de 50% și a ierarhiei subtipurilor.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    321
+   ],
+   "pdfPages": [
+    99
+   ],
+   "section": "Tulburări afective — Tulburarea depresivă majoră"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cele cinci simptome cu dispoziție sau anhedonie >2 săptămâni sunt criteriile din text.",
+    "evidenceLocation": "Sinopsis, p. 321, Tulburări afective — Tulburarea depresivă majoră"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Recurența de 50% este explicită.",
+    "evidenceLocation": "Sinopsis, p. 321, Tulburări afective — Tulburarea depresivă majoră"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Nota identifică forma atipică drept cel mai frecvent subtip.",
+    "evidenceLocation": "Sinopsis, p. 321, Tulburări afective — Tulburarea depresivă majoră"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "TEC este indicată tocmai în cazurile rezistente sau severe.",
+    "evidenceLocation": "Sinopsis, p. 321, Tulburări afective — Tulburarea depresivă majoră"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Fototerapia tratează forma cu ritmicitate sezonieră, nu pe cea psihotică.",
+    "evidenceLocation": "Sinopsis, p. 321, Tulburări afective — Tulburarea depresivă majoră"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T15:31:57.229Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii interzic TEC acolo unde textul o indică și mută fototerapia de pe forma sezonieră pe cea psihotică."
+  },
+  "textbookExpressions": [
+   "rata de recurenţă de 50%",
+   "simptome atipice"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Sinopsis (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-004",
+  "questionFingerprint": "44f95295479cc0168f9b29a56691d3e0cf101eb691568ce2c7c7495364dfe44e",
+  "status": "source-checked",
+  "learningObjective": "Identificarea litiului ca primă linie de întreținere și a reacțiilor adverse specifice, inclusiv teratogenitatea.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    323
+   ],
+   "pdfPages": [
+    101
+   ],
+   "section": "Tulburări afective — Tulburarea bipolară"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Litiul este frecvent prima linie de lungă durată; efectele adverse includ Ebstein, diabet insipid nefrogen și hipotiroidism.",
+    "evidenceLocation": "Sinopsis, p. 323, Tulburări afective — Tulburarea bipolară"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Valproatul este un stabilizator, dar textul nu îl scutește de teratogenitate și nu îl pune ca răspuns al acestei descrieri.",
+    "evidenceLocation": "Sinopsis, p. 323, Tulburări afective — Tulburarea bipolară"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Atipicele pot fi asociate; carbamazepina nu este unica opțiune.",
+    "evidenceLocation": "Sinopsis, p. 323, Tulburări afective — Tulburarea bipolară"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Benzodiazepinele nu sunt stabilizatorul de întreținere citat.",
+    "evidenceLocation": "Sinopsis, p. 323, Tulburări afective — Tulburarea bipolară"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "SSRI fără stabilizator pot induce manie.",
+    "evidenceLocation": "Sinopsis, p. 323, Tulburări afective — Tulburarea bipolară"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T15:31:57.229Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii propun monoterapii (SSRI, benzodiazepine) pe care textul le leagă de viraj maniacal sau de alt scop terapeutic."
+  },
+  "textbookExpressions": [
+   "Litiul este folosit frecvent",
+   "anomalia Ebstein"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Sinopsis (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-005",
+  "questionFingerprint": "43776df7a2607d7d88ee6834e832d675b19b401c9841a3fe50ed28dc074f6d26",
+  "status": "source-checked",
+  "learningObjective": "Separarea bipolarului I de II după prezența maniei versus hipomaniei și a depresiei majore.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    322,
+    323
+   ],
+   "pdfPages": [
+    100,
+    101
+   ],
+   "section": "Tulburări afective — Tulburarea bipolară"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Criteriul de cel puțin un episod maniacal pentru tipul I este explicit.",
+    "evidenceLocation": "Sinopsis, p. 322, 323, Tulburări afective — Tulburarea bipolară"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Tipul II cere hipomanie plus depresie majoră.",
+    "evidenceLocation": "Sinopsis, p. 322, 323, Tulburări afective — Tulburarea bipolară"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Durata de 4 zile fără afectare funcțională definește hipomania, nu mania.",
+    "evidenceLocation": "Sinopsis, p. 322, 323, Tulburări afective — Tulburarea bipolară"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Episoadele maniacale definesc tipul I, nu II.",
+    "evidenceLocation": "Sinopsis, p. 322, 323, Tulburări afective — Tulburarea bipolară"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Hipomania durează cel puțin 4 zile și nu produce afectare semnificativă a funcționării.",
+    "evidenceLocation": "Sinopsis, p. 322, 323, Tulburări afective — Tulburarea bipolară"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T15:31:57.229Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează mania/hipomania între tipurile I și II și lungesc hipomania până la criteriul maniei."
+  },
+  "textbookExpressions": [
+   "Tipul I",
+   "Tipul II"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Sinopsis (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-006",
+  "questionFingerprint": "e22a1e0ba29eb85c98b64566f1a2b4f5d05a456f1927887e32be90d943a1ad4b",
+  "status": "source-checked",
+  "learningObjective": "Corelarea duratei atacului cu tratamentul de fond (SSRI/SNRI) versus cel de moment (benzodiazepine).",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    323
+   ],
+   "pdfPages": [
+    101
+   ],
+   "section": "Tulburări anxioase — Tulburarea de panică"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Plafonul de 30 de minute și simptomele vegetative sunt explicite.",
+    "evidenceLocation": "Sinopsis, p. 323, Tulburări anxioase — Tulburarea de panică"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "SSRI și SNRI sunt tratamentul de lungă durată.",
+    "evidenceLocation": "Sinopsis, p. 323, Tulburări anxioase — Tulburarea de panică"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Benzodiazepinele sunt rezervate momentului atacului; alprazolamul are debut rapid.",
+    "evidenceLocation": "Sinopsis, p. 323, Tulburări anxioase — Tulburarea de panică"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Buspirona este citată pentru anxietatea cronică cu risc de abuz, nu ca salvare a atacului acut.",
+    "evidenceLocation": "Sinopsis, p. 323, Tulburări anxioase — Tulburarea de panică"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Diagnosticul cere recurență plus teamă persistentă sau evitare maladaptativă.",
+    "evidenceLocation": "Sinopsis, p. 323, Tulburări anxioase — Tulburarea de panică"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T15:31:57.229Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii mută buspirona pe atacul acut și permit diagnosticul după un episod izolat."
+  },
+  "textbookExpressions": [
+   "maximum 30 de minute",
+   "Benzodiazepinele"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Sinopsis (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-007",
+  "questionFingerprint": "5a4833cafce2658a18a2eeb9b8ce3d41660d9811d69f0cc3edace2f8fca48ce7",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea indexului terapeutic larg al benzodiazepinelor și a rolului flumazenilului.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    324
+   ],
+   "pdfPages": [
+    102
+   ],
+   "section": "Tulburări anxioase — Medicația anxiolitică"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Nota „De reținut” citează raportul >1.000 între doza letală și cea terapeutică.",
+    "evidenceLocation": "Sinopsis, p. 324, Tulburări anxioase — Medicația anxiolitică"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Flumazenilul este antagonistul citat.",
+    "evidenceLocation": "Sinopsis, p. 324, Tulburări anxioase — Medicația anxiolitică"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Indexul terapeutic îngust aparține ADT (supradoză la de 5 ori doza terapeutică), nu benzodiazepinelor.",
+    "evidenceLocation": "Sinopsis, p. 324, Tulburări anxioase — Medicația anxiolitică"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Naloxona este antagonist opioid, nu benzodiazepinic.",
+    "evidenceLocation": "Sinopsis, p. 324, Tulburări anxioase — Medicația anxiolitică"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Textul prezintă flumazenilul ca antidot, nu ca factor de toxicitate.",
+    "evidenceLocation": "Sinopsis, p. 324, Tulburări anxioase — Medicația anxiolitică"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T15:31:57.229Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii aplică toxicitatea ADT și antidotul opioidelor asupra benzodiazepinelor."
+  },
+  "textbookExpressions": [
+   "I.OOO ori",
+   "Flumazenilul"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Sinopsis (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-008",
+  "questionFingerprint": "f6a2025c3a0e5e7d57608459840c199a9d060f9eeb48859f65f7816ce88077c2",
+  "status": "source-checked",
+  "learningObjective": "Identificarea ferestrei de o lună care separă stresul acut de adaptare și de PTSD.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    325
+   ],
+   "pdfPages": [
+    103
+   ],
+   "section": "Tulburări legate de traumă — Tulburarea acută de stres"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Nota „De reținut” plasează debutul și remisiunea în prima lună.",
+    "evidenceLocation": "Sinopsis, p. 325, Tulburări legate de traumă — Tulburarea acută de stres"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Fereastra 3 luni / 6 luni definește tulburarea de adaptare.",
+    "evidenceLocation": "Sinopsis, p. 325, Tulburări legate de traumă — Tulburarea acută de stres"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Durata de cel puțin o lună este criteriul PTSD.",
+    "evidenceLocation": "Sinopsis, p. 325, Tulburări legate de traumă — Tulburarea acută de stres"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Debutul tardiv, peste un an, nu este descris pentru stresul acut.",
+    "evidenceLocation": "Sinopsis, p. 325, Tulburări legate de traumă — Tulburarea acută de stres"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Adaptarea se remite în 6 luni și nu este cronică prin definiție.",
+    "evidenceLocation": "Sinopsis, p. 325, Tulburări legate de traumă — Tulburarea acută de stres"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T15:31:57.229Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt ferestrele temporale reale ale adaptării și PTSD, ușor de permutat."
+  },
+  "textbookExpressions": [
+   "prima lună",
+   "se remite într-o lună"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Sinopsis (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-009",
+  "questionFingerprint": "13519c24f4c93a1177247bde014fed0ad979d2fd1a93ddb4347571ce31320c8b",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea conversiei, a simptomelor somatice, a tulburărilor factice și a simulării după motiv și insight afectiv.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    326
+   ],
+   "pdfPages": [
+    104
+   ],
+   "section": "Tulburări somatice — Conversie, factice, simulare"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Deficitele inexplicabile și „la belle indifférence” definesc conversia.",
+    "evidenceLocation": "Sinopsis, p. 326, Tulburări somatice — Conversie, factice, simulare"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Contrastul cu preocuparea intensă din tulburarea cu simptome somatice este explicit.",
+    "evidenceLocation": "Sinopsis, p. 326, Tulburări somatice — Conversie, factice, simulare"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Absența beneficiului secundar distinge facticele de simulare.",
+    "evidenceLocation": "Sinopsis, p. 326, Tulburări somatice — Conversie, factice, simulare"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Beneficiul și predominanța masculină sunt citate pentru malingering.",
+    "evidenceLocation": "Sinopsis, p. 326, Tulburări somatice — Conversie, factice, simulare"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Preocuparea de boală fără simptome semnificative definește tulburarea nosofobică, nu conversia.",
+    "evidenceLocation": "Sinopsis, p. 326, Tulburări somatice — Conversie, factice, simulare"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T15:31:57.229Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul atribuie conversiei criteriul nosofobiei, cele trei entități fiind definite pe aceeași pagină."
+  },
+  "textbookExpressions": [
+   "La belle indifference",
+   "beneficiu secundar"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Sinopsis (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-010",
+  "questionFingerprint": "b3cf4ab401d116f9d689785c03f8603c7407d433b4b608cbcf34b1a8cc014706",
+  "status": "source-checked",
+  "learningObjective": "Separarea anorexiei de bulimie după greutate, mortalitate și locul fluoxetinei.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    327
+   ],
+   "pdfPages": [
+    105
+   ],
+   "section": "Tulburări alimentare — Anorexia și bulimia"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Pragul <85% și semnele de înfometare sunt explicite.",
+    "evidenceLocation": "Sinopsis, p. 327, Tulburări alimentare — Anorexia și bulimia"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Mortalitatea de 6% pe 10 ani este din notă.",
+    "evidenceLocation": "Sinopsis, p. 327, Tulburări alimentare — Anorexia și bulimia"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Fluoxetina este citată pentru bulimie; farmacoterapia anorexiei nu și-a dovedit utilitatea.",
+    "evidenceLocation": "Sinopsis, p. 327, Tulburări alimentare — Anorexia și bulimia"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "În bulimie greutatea este în general normală, nu scăzută.",
+    "evidenceLocation": "Sinopsis, p. 327, Tulburări alimentare — Anorexia și bulimia"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Realimentarea produce hipofosfatemie, hipomagneziemie și hipocalcemie, cu risc de colaps cardiovascular.",
+    "evidenceLocation": "Sinopsis, p. 327, Tulburări alimentare — Anorexia și bulimia"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T15:31:57.229Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii atribuie bulimiei cașexia anorexiei și inversează tulburările ionice ale realimentării."
+  },
+  "textbookExpressions": [
+   "<85% din greutatea",
+   "Fluoxetină"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Sinopsis (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025 (tmp/exam-copies). Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-011",
+  "questionFingerprint": "e4e67b6cc7d303881e02ac2fa9ec0a5d30595fb9cf86804b01ac2b0cba4c5264",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea pragului de 6 luni, a celor trei simptome, a buspironei și a predominanței feminine duble.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    324
+   ],
+   "pdfPages": [
+    102
+   ],
+   "section": "Tulburări anxioase — Anxietatea generalizată"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Durata >6 luni cu afectare funcțională este explicită.",
+    "evidenceLocation": "Sinopsis, p. 324, Tulburări anxioase — Anxietatea generalizată"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Cele șase simptome, dintre care trei, sunt enumerate.",
+    "evidenceLocation": "Sinopsis, p. 324, Tulburări anxioase — Anxietatea generalizată"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Buspirona versus benzodiazepine în tratamentul cronic este citată.",
+    "evidenceLocation": "Sinopsis, p. 324, Tulburări anxioase — Anxietatea generalizată"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Dublarea riscului la femei este epidemiologia citată.",
+    "evidenceLocation": "Sinopsis, p. 324, Tulburări anxioase — Anxietatea generalizată"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Plafonul de 30 de minute definește atacul de panică.",
+    "evidenceLocation": "Sinopsis, p. 324, Tulburări anxioase — Anxietatea generalizată"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii importă durata atacului de panică și fototerapia depresiei sezoniere."
+  },
+  "textbookExpressions": [
+   ">6 luni",
+   "Buspirona"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Sinopsis (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-012",
+  "questionFingerprint": "d7ff86df850f12bbe5b29c6bc8e6bb28da257e944ed5b4affb487a9ab830ee99",
+  "status": "source-checked",
+  "learningObjective": "Separarea TOC ego-distonice de personalitatea obsesiv-compulsivă ego-sintonică.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    324
+   ],
+   "pdfPages": [
+    102
+   ],
+   "section": "TOC — Distincția de personalitatea obsesiv-compulsivă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Nota definește TOC ca ego-distonică.",
+    "evidenceLocation": "Sinopsis, p. 324, TOC — Distincția de personalitatea obsesiv-compulsivă"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Ego-sintonicul caracterizează TPOC, nu TOC.",
+    "evidenceLocation": "Sinopsis, p. 324, TOC — Distincția de personalitatea obsesiv-compulsivă"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Ticurile vocale țin de Tourette, nu înlocuiesc obsesiile.",
+    "evidenceLocation": "Sinopsis, p. 324, TOC — Distincția de personalitatea obsesiv-compulsivă"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Personalitatea antisocială are alte criterii.",
+    "evidenceLocation": "Sinopsis, p. 324, TOC — Distincția de personalitatea obsesiv-compulsivă"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Distrofina este irelevantă.",
+    "evidenceLocation": "Sinopsis, p. 324, TOC — Distincția de personalitatea obsesiv-compulsivă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Nota contrastează explicit ego-distonic versus ego-sintonic; distractorul principal este TPOC."
+  },
+  "textbookExpressions": [
+   "ego-DIStonice",
+   "TOC"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Sinopsis (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-013",
+  "questionFingerprint": "260d2acf010fbc1d07bb08caff1950afc919804571696f0e32b909b02ea4e746",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea duratei de cel puțin o lună și a modalităților de expunere, distinct de stresul acut.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    325
+   ],
+   "pdfPages": [
+    103
+   ],
+   "section": "Tulburări legate de traumă — PTSD"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Durata de cel puțin o lună este explicită.",
+    "evidenceLocation": "Sinopsis, p. 325, Tulburări legate de traumă — PTSD"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Cele trei modalități de expunere sunt citate.",
+    "evidenceLocation": "Sinopsis, p. 325, Tulburări legate de traumă — PTSD"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Fereastra de o lună debut–remisiune definește stresul acut, din notă.",
+    "evidenceLocation": "Sinopsis, p. 325, Tulburări legate de traumă — PTSD"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "O zi este criteriul psihozei scurte.",
+    "evidenceLocation": "Sinopsis, p. 325, Tulburări legate de traumă — PTSD"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Buspirona nu este criteriu diagnostic.",
+    "evidenceLocation": "Sinopsis, p. 325, Tulburări legate de traumă — PTSD"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Nota de pe aceeași pagină pune stresul acut în prima lună; distractorul mută PTSD pe acea fereastră."
+  },
+  "textbookExpressions": [
+   "cel puţin 1 lună",
+   "flashback-uri"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Sinopsis (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-014",
+  "questionFingerprint": "ad48d8b5506a5ad041c10f8e403412ef500440c396145a970073b3fca6085aa7",
+  "status": "source-checked",
+  "learningObjective": "Memorarea conținutului celor trei clustere, fără a muta borderline în A sau paranoid în C.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    329
+   ],
+   "pdfPages": [
+    107
+   ],
+   "section": "Tulburări de personalitate — Grupele A, B, C"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Schizoid, schizotipal, paranoid = A.",
+    "evidenceLocation": "Sinopsis, p. 329, Tulburări de personalitate — Grupele A, B, C"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Histrionic, narcisist, borderline, antisocial = B.",
+    "evidenceLocation": "Sinopsis, p. 329, Tulburări de personalitate — Grupele A, B, C"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Evitant, dependent, obsesiv-compulsiv = C.",
+    "evidenceLocation": "Sinopsis, p. 329, Tulburări de personalitate — Grupele A, B, C"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Borderline și antisocial sunt în B.",
+    "evidenceLocation": "Sinopsis, p. 329, Tulburări de personalitate — Grupele A, B, C"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Paranoid și schizotipal sunt în A.",
+    "evidenceLocation": "Sinopsis, p. 329, Tulburări de personalitate — Grupele A, B, C"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Mutarea unui tip peste cluster este capcana clasică a tabelului 14-5."
+  },
+  "textbookExpressions": [
+   "Grupul A",
+   "Grupul C"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Sinopsis (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-015",
+  "questionFingerprint": "2ec1abd50d67d991142abc89481b7ac0753d2d6dc2a0ad3883827bb20f430332",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea pragurilor de 18 ani (diagnostic) și 15 ani (conduită prealabilă).",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    328
+   ],
+   "pdfPages": [
+    106
+   ],
+   "section": "Tulburări de personalitate — Antisocială"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Vârsta >18 ani cu conduită înainte de 15 ani este din tabel.",
+    "evidenceLocation": "Sinopsis, p. 328, Tulburări de personalitate — Antisocială"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Debutul tardiv fără conduită nu îndeplinește criteriul.",
+    "evidenceLocation": "Sinopsis, p. 328, Tulburări de personalitate — Antisocială"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Simptomele negative țin de schizofrenie.",
+    "evidenceLocation": "Sinopsis, p. 328, Tulburări de personalitate — Antisocială"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "La belle indifférence caracterizează conversia.",
+    "evidenceLocation": "Sinopsis, p. 328, Tulburări de personalitate — Antisocială"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Pragul ponderal 85% este al anorexiei.",
+    "evidenceLocation": "Sinopsis, p. 328, Tulburări de personalitate — Antisocială"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Pragurile 15 și 18 ani sunt ușor de inversat; distractorii importă semne din conversie și anorexie."
+  },
+  "textbookExpressions": [
+   ">18 ani",
+   "15 ani"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Sinopsis (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-016",
+  "questionFingerprint": "925c4b78266aa618418ab1138360cc9280e5cbffa3f9315f7284d13c7b3d13ea",
+  "status": "source-checked",
+  "learningObjective": "Corelarea DT și a halucinațiilor tactile cu naltrexonă, disulfiram și benzodiazepinele de sevraj.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    329
+   ],
+   "pdfPages": [
+    107
+   ],
+   "section": "Abuzul de substanțe — Alcoolul"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Semnele de intoxicație sunt din tabel.",
+    "evidenceLocation": "Sinopsis, p. 329, Abuzul de substanțe — Alcoolul"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "DT și halucinațiile tactile sunt la sevraj.",
+    "evidenceLocation": "Sinopsis, p. 329, Abuzul de substanțe — Alcoolul"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Naltrexona și disulfiramul sunt tratamentul citat.",
+    "evidenceLocation": "Sinopsis, p. 329, Abuzul de substanțe — Alcoolul"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Benzodiazepinele previn DT.",
+    "evidenceLocation": "Sinopsis, p. 329, Abuzul de substanțe — Alcoolul"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Flumazenilul este antagonistul benzodiazepinelor, nu al alcoolului.",
+    "evidenceLocation": "Sinopsis, p. 329, Abuzul de substanțe — Alcoolul"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul aplică antidotul benzodiazepinelor asupra alcoolului, o confuzie de sevraj."
+  },
+  "textbookExpressions": [
+   "delirium",
+   "disulfiramul"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Sinopsis (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-017",
+  "questionFingerprint": "9dff2a8d7e569dd3e102937e109a1482cbcec999ffdb3eb1ead9aa8aacc17488",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea β-blocantelor situaționale și a SSRI, distinct de fobia specifică și de schizofrenie.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    324
+   ],
+   "pdfPages": [
+    102
+   ],
+   "section": "Tulburări anxioase — Fobia socială"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "β-blocantele pentru tahicardie în situații anxiogene sunt citate.",
+    "evidenceLocation": "Sinopsis, p. 324, Tulburări anxioase — Fobia socială"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "SSRI sunt descrise ca frecvent eficace.",
+    "evidenceLocation": "Sinopsis, p. 324, Tulburări anxioase — Fobia socială"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Fobia socială ține de evaluarea celorlalți, nu de un obiect anume.",
+    "evidenceLocation": "Sinopsis, p. 324, Tulburări anxioase — Fobia socială"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Litiul este al maniei.",
+    "evidenceLocation": "Sinopsis, p. 324, Tulburări anxioase — Fobia socială"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Criteriul de 6 luni cu simptome negative este al schizofreniei.",
+    "evidenceLocation": "Sinopsis, p. 324, Tulburări anxioase — Fobia socială"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii mută litiul și criteriile schizofreniei asupra fobiei sociale."
+  },
+  "textbookExpressions": [
+   "P-blocantele",
+   "SSRI"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Sinopsis (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-018",
+  "questionFingerprint": "8eb0fa9598ea235a31ab336c04c8950c5b46fedcf9d848acd50340429e66c306",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea recomandării de a evita chirurgia estetică inutilă.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    325
+   ],
+   "pdfPages": [
+    103
+   ],
+   "section": "Tulburări înrudite TOC — Dismorfia corporală"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "„De evitat efectuarea operațiilor inutile” este explicit.",
+    "evidenceLocation": "Sinopsis, p. 325, Tulburări înrudite TOC — Dismorfia corporală"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Enucleerea este a retinoblastomului.",
+    "evidenceLocation": "Sinopsis, p. 325, Tulburări înrudite TOC — Dismorfia corporală"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Pavlik este al displaziei de șold.",
+    "evidenceLocation": "Sinopsis, p. 325, Tulburări înrudite TOC — Dismorfia corporală"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Fototerapia este a depresiei sezoniere.",
+    "evidenceLocation": "Sinopsis, p. 325, Tulburări înrudite TOC — Dismorfia corporală"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Clozapina este rezervată psihozei refractare.",
+    "evidenceLocation": "Sinopsis, p. 325, Tulburări înrudite TOC — Dismorfia corporală"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Pacientul cere adesea chirurgie; textul o interzice ca tratament al distorsiunii perceptuale."
+  },
+  "textbookExpressions": [
+   "operaţiilor inutile",
+   "dermatolog"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Sinopsis (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-019",
+  "questionFingerprint": "70b80c991f73403114008b7cd6d1a1001cd0c8603c932aebf28c83f3dde5ed81",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea splitting-ului, a predominanței feminine și a tratamentului combinat, distinct de antisocială.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    328
+   ],
+   "pdfPages": [
+    106
+   ],
+   "section": "Tulburări de personalitate — Borderline"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Instabilitatea, abandonul și gândirea alb-negru sunt din tabel.",
+    "evidenceLocation": "Sinopsis, p. 328, Tulburări de personalitate — Borderline"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Predominanța la femei este citată.",
+    "evidenceLocation": "Sinopsis, p. 328, Tulburări de personalitate — Borderline"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Psihoterapia plus doze mici de antipsihotice/SSRI/stabilizatori este schema.",
+    "evidenceLocation": "Sinopsis, p. 328, Tulburări de personalitate — Borderline"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Criteriile 18/15 ani definesc forma antisocială.",
+    "evidenceLocation": "Sinopsis, p. 328, Tulburări de personalitate — Borderline"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Borderline este în grupul B, nu A.",
+    "evidenceLocation": "Sinopsis, p. 328, Tulburări de personalitate — Borderline"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii mută criteriile antisocialei și clusterul A asupra borderline, mai frecventă la femei."
+  },
+  "textbookExpressions": [
+   "alb şi negru",
+   "femei"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Sinopsis (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-020",
+  "questionFingerprint": "5c59f1095f297f148ca30dc4b5ab9543ced5fcd5d2a4745eace33f0201a03d33",
+  "status": "source-checked",
+  "learningObjective": "Reconstituirea celor patru itemi CAGE, distinct de alte scoruri clinice.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    329
+   ],
+   "pdfPages": [
+    107
+   ],
+   "section": "Abuzul de substanțe — Screening CAGE"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cut down este primul item.",
+    "evidenceLocation": "Sinopsis, p. 329, Abuzul de substanțe — Screening CAGE"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Annoyance este al doilea.",
+    "evidenceLocation": "Sinopsis, p. 329, Abuzul de substanțe — Screening CAGE"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Guilt și Eye-opener completează acronimul.",
+    "evidenceLocation": "Sinopsis, p. 329, Abuzul de substanțe — Screening CAGE"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Ticurile vocale țin de Tourette.",
+    "evidenceLocation": "Sinopsis, p. 329, Abuzul de substanțe — Screening CAGE"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Bishop este scor obstetrical.",
+    "evidenceLocation": "Sinopsis, p. 329, Abuzul de substanțe — Screening CAGE"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Acronimul CAGE este ușor de înlocuit cu alte scale memorabile (ticuri, Bishop)."
+  },
+  "textbookExpressions": [
+   "CAGE",
+   "Eye￾opener"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Sinopsis (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-021",
+  "questionFingerprint": "edb10af5e734110d9b21d4388c81ab862b2c63b855224bd2c7733c9fe46bf52f",
+  "status": "source-checked",
+  "learningObjective": "Identificarea triadei mioză–sedare–depresie respiratorie, distinct de simpatomimetice și PCP.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    330
+   ],
+   "pdfPages": [
+    108
+   ],
+   "section": "Abuzul de substanțe — Opioizi"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Mioza, vigilitatea scăzută și depresia respiratorie sunt din tabel.",
+    "evidenceLocation": "Sinopsis, p. 330, Abuzul de substanțe — Opioizi"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Midriaza cu tahicardie/HTA este a amfetaminelor.",
+    "evidenceLocation": "Sinopsis, p. 330, Abuzul de substanțe — Opioizi"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nistagmusul bidirecțional este al PCP.",
+    "evidenceLocation": "Sinopsis, p. 330, Abuzul de substanțe — Opioizi"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Conjunctivele injectate și apetitul țin de marijuana.",
+    "evidenceLocation": "Sinopsis, p. 330, Abuzul de substanțe — Opioizi"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Flashback-urile sunt ale halucinogenelor.",
+    "evidenceLocation": "Sinopsis, p. 330, Abuzul de substanțe — Opioizi"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Fiecare distractor este semnul-cheie al altei substanțe din același tabel."
+  },
+  "textbookExpressions": [
+   "Mioză",
+   "depresie respiratorie"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Sinopsis (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-022",
+  "questionFingerprint": "c2acf4208570bc254c82667b41d428c93534dcb0e23935d1a8626b1cc2c2735e",
+  "status": "source-checked",
+  "learningObjective": "Identificarea secvenței precontemplare–contemplare–pregătire–acțiune–menținere.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    330
+   ],
+   "pdfPages": [
+    108
+   ],
+   "section": "Abuzul de substanțe — Etapele schimbării"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Textul enumeră această succesiune de etape ale schimbării.",
+    "evidenceLocation": "Sinopsis, p. 330, Abuzul de substanțe — Etapele schimbării"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Enucleerea este tratamentul retinoblastomului.",
+    "evidenceLocation": "Sinopsis, p. 330, Abuzul de substanțe — Etapele schimbării"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Pavlik este al DDH.",
+    "evidenceLocation": "Sinopsis, p. 330, Abuzul de substanțe — Etapele schimbării"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Histerectomia nu este etapa schimbării comportamentale.",
+    "evidenceLocation": "Sinopsis, p. 330, Abuzul de substanțe — Etapele schimbării"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Inducția obstetricală nu descrie stadiile motivaționale.",
+    "evidenceLocation": "Sinopsis, p. 330, Abuzul de substanțe — Etapele schimbării"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt secvențe terapeutice reale din alte capitole Sinopsis, nu modelul schimbării."
+  },
+  "textbookExpressions": [
+   "etapele schimbării",
+   "contemplare"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Sinopsis (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-023",
+  "questionFingerprint": "ef878fabfd77cf6075054b59a3ac0bbccd3e3487f2842169cba4434a4c4960bf",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea SNM de sindromul serotoninergic, de intoxicația anticolinergică și de hipertermia malignă.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    320
+   ],
+   "pdfPages": [
+    98
+   ],
+   "section": "Tulburări psihotice — Sindromul neuroleptic malign"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Tabelul atribuie SNM blocanților D2, debutului progresiv, țevii de plumb și reflexelor scăzute.",
+    "evidenceLocation": "Sinopsis, p. 320, Tulburări psihotice — Sindromul neuroleptic malign"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Aceasta este descrierea sindromului serotoninergic.",
+    "evidenceLocation": "Sinopsis, p. 320, Tulburări psihotice — Sindromul neuroleptic malign"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Pielea uscată și fizostigmina definesc sindromul toxic anticolinergic.",
+    "evidenceLocation": "Sinopsis, p. 320, Tulburări psihotice — Sindromul neuroleptic malign"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Anestezicele volatile, succinil-colina și dantrolenul definesc hipertermia malignă.",
+    "evidenceLocation": "Sinopsis, p. 320, Tulburări psihotice — Sindromul neuroleptic malign"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Evoluția prelungită (zile până la săptămâni) caracterizează SNM, nu rezoluția rapidă.",
+    "evidenceLocation": "Sinopsis, p. 320, Tulburări psihotice — Sindromul neuroleptic malign"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Fiecare distractor este un rând real din tabelul 14-2, permutat pe SNM."
+  },
+  "textbookExpressions": [
+   "ţeavă de plumb",
+   "Ciproheptadină"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-024",
+  "questionFingerprint": "e712bfdcded14554636bedead847722e8aa6e717d6414cef1661d2e5c8bd08a9",
+  "status": "source-checked",
+  "learningObjective": "Asocierea toxicității QTc a ADT, a crizei hipertensive la IMAO și a profilului sexual/convulsivant al bupropionului.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    322
+   ],
+   "pdfPages": [
+    100
+   ],
+   "section": "Tulburări afective — Antidepresive"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Fatalitatea la 5× doză prin QTc este din tabel.",
+    "evidenceLocation": "Sinopsis, p. 322, Tulburări afective — Antidepresive"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Restricția de tiramină la IMAO este explicită.",
+    "evidenceLocation": "Sinopsis, p. 322, Tulburări afective — Antidepresive"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Absența disfuncției sexuale și scăderea pragului convulsivant sunt ale bupropionului.",
+    "evidenceLocation": "Sinopsis, p. 322, Tulburări afective — Antidepresive"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "SSRI cer 3-4 săptămâni și au risc de sindrom serotoninergic.",
+    "evidenceLocation": "Sinopsis, p. 322, Tulburări afective — Antidepresive"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Mirtazapina este indicată în depresia cu insomnie și/sau anorexie, nu în ADHD.",
+    "evidenceLocation": "Sinopsis, p. 322, Tulburări afective — Antidepresive"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii comprimă latența SSRI și permută indicația mirtazapinei cu cea a bupropionului."
+  },
+  "textbookExpressions": [
+   "intervalului QTc",
+   "tiramină"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-025",
+  "questionFingerprint": "67465e5b48d1aa1d03f00cc988e460d84fbc8a9ea9b4f30d41a8457a12c1e4dc",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea pragurilor de o săptămână versus 4 zile și a prezenței versus absenței disfuncției.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    322
+   ],
+   "pdfPages": [
+    100
+   ],
+   "section": "Tulburări afective — Manie și hipomanie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Durata de o săptămână cu disfuncție definește mania.",
+    "evidenceLocation": "Sinopsis, p. 322, Tulburări afective — Manie și hipomanie"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Cele 4 zile fără disfuncție semnificativă definesc hipomania.",
+    "evidenceLocation": "Sinopsis, p. 322, Tulburări afective — Manie și hipomanie"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Pragul de 2 ani este al distimiei/ciclotimiei.",
+    "evidenceLocation": "Sinopsis, p. 322, Tulburări afective — Manie și hipomanie"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "O săptămână cu disfuncție este mania, nu hipomania.",
+    "evidenceLocation": "Sinopsis, p. 322, Tulburări afective — Manie și hipomanie"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Plafonul de 30 de minute definește atacul de panică.",
+    "evidenceLocation": "Sinopsis, p. 322, Tulburări afective — Manie și hipomanie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii mută pragul de 2 ani al distimiei și durata atacului de panică pe mania/hipomanie."
+  },
+  "textbookExpressions": [
+   "cel puţin 4 zile",
+   "episod maniacal"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-026",
+  "questionFingerprint": "7f5564e02a031f17e597b700c2a992a493acc2cc8b79937ee84f6ad5aea2efad",
+  "status": "source-checked",
+  "learningObjective": "Separarea tipului I (manie necesară, depresia nu) de tipul II (hipomanie plus depresie).",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    322,
+    323
+   ],
+   "pdfPages": [
+    100,
+    101
+   ],
+   "section": "Tulburări afective — Bipolar tip I versus II"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Definiția tipului I este explicită.",
+    "evidenceLocation": "Sinopsis, p. 322, 323, Tulburări afective — Bipolar tip I versus II"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Aceasta este definiția tipului II.",
+    "evidenceLocation": "Sinopsis, p. 322, 323, Tulburări afective — Bipolar tip I versus II"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Aceasta este ciclotimia, de pe pagina următoare.",
+    "evidenceLocation": "Sinopsis, p. 322, 323, Tulburări afective — Bipolar tip I versus II"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Un episod depresiv izolat definește TDM, nu bipolarul I.",
+    "evidenceLocation": "Sinopsis, p. 322, 323, Tulburări afective — Bipolar tip I versus II"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Atacurile de 30 de minute definesc panica.",
+    "evidenceLocation": "Sinopsis, p. 322, 323, Tulburări afective — Bipolar tip I versus II"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt definițiile tipului II, ale ciclotimiei, ale TDM și ale panicii, alăturate în capitol."
+  },
+  "textbookExpressions": [
+   "Tipul I",
+   "episod maniacal"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-027",
+  "questionFingerprint": "79ff37bbb2b6ca8eb1d47ab77a61017eef67602608986f323d9227de6819392e",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea ferestrei de peste 2 ani și a absenței criteriilor complete de manie/depresie.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    323
+   ],
+   "pdfPages": [
+    101
+   ],
+   "section": "Tulburări afective — Ciclotimia"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Ciclurile ușoare >2 ani fără interval normal >2 luni sunt explicite.",
+    "evidenceLocation": "Sinopsis, p. 323, Tulburări afective — Ciclotimia"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Neîndeplinirea criteriilor complete, cu afectare funcțională, este citată.",
+    "evidenceLocation": "Sinopsis, p. 323, Tulburări afective — Ciclotimia"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Episodul maniacal complet definește bipolarul I, nu ciclotimia.",
+    "evidenceLocation": "Sinopsis, p. 323, Tulburări afective — Ciclotimia"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Flumazenilul este antagonistul benzodiazepinelor.",
+    "evidenceLocation": "Sinopsis, p. 323, Tulburări afective — Ciclotimia"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Cele 4 zile definesc hipomania.",
+    "evidenceLocation": "Sinopsis, p. 323, Tulburări afective — Ciclotimia"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii ridică ciclotimia la criteriul de manie și importă flumazenilul de pe pagina de anxiolitice."
+  },
+  "textbookExpressions": [
+   ">2 ani",
+   ">2 luni"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-028",
+  "questionFingerprint": "fdb5869e99f6fce9194ba0be9747ef515fcf94985084cc99799b69cc62db2b35",
+  "status": "source-checked",
+  "learningObjective": "Corelarea duratei de 30 de minute, a criteriului de recurență/evitare și a alprazolamului.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    323
+   ],
+   "pdfPages": [
+    101
+   ],
+   "section": "Tulburări anxioase — Panica"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Plafonul de 30 de minute și simptomele sunt explicite.",
+    "evidenceLocation": "Sinopsis, p. 323, Tulburări anxioase — Panica"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Recurența plus frica sau evitarea maladaptativă sunt criteriile.",
+    "evidenceLocation": "Sinopsis, p. 323, Tulburări anxioase — Panica"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Nota din tabel despre alprazolam este explicită.",
+    "evidenceLocation": "Sinopsis, p. 323, Tulburări anxioase — Panica"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Buspirona este anxiolitic; antidotul benzodiazepinelor este flumazenilul.",
+    "evidenceLocation": "Sinopsis, p. 323, Tulburări anxioase — Panica"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Fără frică de recurență nu se întrunește diagnosticul; 6 luni este fereastra GAD.",
+    "evidenceLocation": "Sinopsis, p. 323, Tulburări anxioase — Panica"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii substituie flumazenilul cu buspirona și mută pragul GAD de 6 luni pe panică."
+  },
+  "textbookExpressions": [
+   "30 de minute",
+   "Alprazolamul"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-029",
+  "questionFingerprint": "f046b06e25f683c044f49154b02f01982d786b8525d7ea5620644d32c60de223",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea debutului din copilărie, a leșinului vasovagal și a desensibilizării, distinct de fobia socială.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    324
+   ],
+   "pdfPages": [
+    102
+   ],
+   "section": "Tulburări anxioase — Fobia specifică"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Debutul din copilărie și evitarea obiectului sunt explicite.",
+    "evidenceLocation": "Sinopsis, p. 324, Tulburări anxioase — Fobia specifică"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Atacul de panică la confruntare și leșinul vasovagal sunt citați.",
+    "evidenceLocation": "Sinopsis, p. 324, Tulburări anxioase — Fobia specifică"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Desensibilizarea sistematică este tratamentul citat.",
+    "evidenceLocation": "Sinopsis, p. 324, Tulburări anxioase — Fobia specifică"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "β-blocantele sunt menționate la anxietatea socială ușoară, nu ca primă linie aici.",
+    "evidenceLocation": "Sinopsis, p. 324, Tulburări anxioase — Fobia specifică"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Cele trei simptome peste 6 luni definesc GAD.",
+    "evidenceLocation": "Sinopsis, p. 324, Tulburări anxioase — Fobia specifică"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii importă β-blocantul fobiei sociale și criteriile GAD asupra fobiei specifice."
+  },
+  "textbookExpressions": [
+   "desensibilizare sistematică",
+   "copilărie"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-030",
+  "questionFingerprint": "b51715c4b04d5c42902efdae542a6d07e2497bf449d7259ab79b465e0e718ff9",
+  "status": "source-checked",
+  "learningObjective": "Memorarea ponderilor de circa 70% (dispoziție) și circa 30% (ticuri/TPOC).",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    324
+   ],
+   "pdfPages": [
+    102
+   ],
+   "section": "TOC — Comorbidități"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cifrele ~70% și ~30% sunt explicite.",
+    "evidenceLocation": "Sinopsis, p. 324, TOC — Comorbidități"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Clozapina este a psihozei refractare, nu a TOC.",
+    "evidenceLocation": "Sinopsis, p. 324, TOC — Comorbidități"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Pragul ponderal 85% și lanugo sunt ale anorexiei.",
+    "evidenceLocation": "Sinopsis, p. 324, TOC — Comorbidități"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Delirium tremens ține de sevrajul alcoolic.",
+    "evidenceLocation": "Sinopsis, p. 324, TOC — Comorbidități"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Ebstein este al litiului.",
+    "evidenceLocation": "Sinopsis, p. 324, TOC — Comorbidități"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii importă comorbidități și tratamente din schizofrenie, anorexie, alcool și litiu."
+  },
+  "textbookExpressions": [
+   "dispoziţie afectivă",
+   "ticurile"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-031",
+  "questionFingerprint": "8c1b0dcbb98cdfd74cdcbfe383cbfbc86cdafead8897a31d8a745d5f889d3723",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea ferestrelor 3 luni (debut) și 6 luni (remisiune), distinct de stresul acut și de PTSD.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    325
+   ],
+   "pdfPages": [
+    103
+   ],
+   "section": "Tulburări legate de stres — Adaptarea"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Debutul în 3 luni este explicit, inclusiv în notă.",
+    "evidenceLocation": "Sinopsis, p. 325, Tulburări legate de stres — Adaptarea"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Remisiunea în 6 luni de la dispariția stresorului este citată.",
+    "evidenceLocation": "Sinopsis, p. 325, Tulburări legate de stres — Adaptarea"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Subtipurile depresie/anxietate/conduită sunt enumerate.",
+    "evidenceLocation": "Sinopsis, p. 325, Tulburări legate de stres — Adaptarea"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Fereastra de o lună definește stresul acut; PTSD cere cel puțin o lună, nu remisiune în prima lună.",
+    "evidenceLocation": "Sinopsis, p. 325, Tulburări legate de stres — Adaptarea"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Pragul de 2 ani este al tulburării depresive persistente.",
+    "evidenceLocation": "Sinopsis, p. 325, Tulburări legate de stres — Adaptarea"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii comprimă adaptarea pe fereastra de o lună a stresului acut sau o lungesc la distimie."
+  },
+  "textbookExpressions": [
+   "primele 3 luni",
+   "6 luni"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-032",
+  "questionFingerprint": "bd45ca0e3f36a980e0d43494f6431a8e71895ba3051cc3564972df7b04021be5",
+  "status": "source-checked",
+  "learningObjective": "Identificarea prazosinului ca antagonist α-1 pentru coșmaruri și hipervigilență.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    326
+   ],
+   "pdfPages": [
+    104
+   ],
+   "section": "Tulburări legate de traumă — Prazosinul"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Mecanismul α-1 și țintele (coșmaruri, alertă) sunt explicite.",
+    "evidenceLocation": "Sinopsis, p. 326, Tulburări legate de traumă — Prazosinul"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "TCC ± SSRI/SNRI este cadrul terapeutic în care se înscrie.",
+    "evidenceLocation": "Sinopsis, p. 326, Tulburări legate de traumă — Prazosinul"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Expunerea la traumă rămâne criteriul, nu un medicament.",
+    "evidenceLocation": "Sinopsis, p. 326, Tulburări legate de traumă — Prazosinul"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Antidotul benzodiazepinelor este flumazenilul.",
+    "evidenceLocation": "Sinopsis, p. 326, Tulburări legate de traumă — Prazosinul"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Fobia specifică se tratează prin desensibilizare, nu cu prazosin.",
+    "evidenceLocation": "Sinopsis, p. 326, Tulburări legate de traumă — Prazosinul"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii transformă prazosinul în criteriu diagnostic sau în antidot/anxiolitic de fobie."
+  },
+  "textbookExpressions": [
+   "Prazosin",
+   "coşmarurilor"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-033",
+  "questionFingerprint": "4cde01a4318ef2d3a605959a0f0709e5396cc48dc0317fb5e2a59b10e53f3d2b",
+  "status": "source-checked",
+  "learningObjective": "Separarea malingering-ului (beneficiu secundar) de factice (fără beneficiu) și recunoașterea Münchausen by proxy ca abuz.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    326
+   ],
+   "pdfPages": [
+    104
+   ],
+   "section": "Tulburări somatice — Simulare versus factice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Definiția, exemplele de beneficiu și predominanța masculină sunt din notă.",
+    "evidenceLocation": "Sinopsis, p. 326, Tulburări somatice — Simulare versus factice"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Absența beneficiului secundar diferențiază facticele.",
+    "evidenceLocation": "Sinopsis, p. 326, Tulburări somatice — Simulare versus factice"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Münchausen by proxy ca abuz de raportat este din pasul următor.",
+    "evidenceLocation": "Sinopsis, p. 326, Tulburări somatice — Simulare versus factice"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nota contrastează conversia (indiferență) cu simptomele somatice (afectare psihologică marcată).",
+    "evidenceLocation": "Sinopsis, p. 326, Tulburări somatice — Simulare versus factice"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "La belle indifférence caracterizează conversia.",
+    "evidenceLocation": "Sinopsis, p. 326, Tulburări somatice — Simulare versus factice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează indiferența conversiei cu afectarea din tulburarea cu simptome somatice."
+  },
+  "textbookExpressions": [
+   "Simularea premeditată",
+   "beneficiu secundar"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-034",
+  "questionFingerprint": "04f811f1de6a1f3e5ffb8e35009c448176bbd29f24a16195d3cf7b9df64b02fd",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea mortalității de 6%, a triadei electrolitice a realimentării și a predominanței feminine.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    327
+   ],
+   "pdfPages": [
+    105
+   ],
+   "section": "Tulburări alimentare — Anorexia: complicații"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cifra de 6% pe 10 ani este din notă.",
+    "evidenceLocation": "Sinopsis, p. 327, Tulburări alimentare — Anorexia: complicații"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Comutarea lipid–glucid și triada electrolitică sunt explicite.",
+    "evidenceLocation": "Sinopsis, p. 327, Tulburări alimentare — Anorexia: complicații"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Colapsul, rabdomioliza, confuzia și convulsiile sunt complicațiile citate.",
+    "evidenceLocation": "Sinopsis, p. 327, Tulburări alimentare — Anorexia: complicații"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "90% femei și osteoporoza sunt din textul clinic.",
+    "evidenceLocation": "Sinopsis, p. 327, Tulburări alimentare — Anorexia: complicații"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Textul precizează că terapia farmacologică nu și-a dovedit utilitatea; spitalizarea este frecvent necesară.",
+    "evidenceLocation": "Sinopsis, p. 327, Tulburări alimentare — Anorexia: complicații"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul inversează ierarhia: textul neagă utilitatea farmacoterapiei și cere adesea spitalizare."
+  },
+  "textbookExpressions": [
+   "6%",
+   "hipofosfatemie"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-035",
+  "questionFingerprint": "71a8faa75e7485570a4466993dbfa96b88f96ad4a5ba38704310a471b3ef588d",
+  "status": "source-checked",
+  "learningObjective": "Identificarea fluoxetinei ca unicul agent FDA citat pentru bulimie.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    327
+   ],
+   "pdfPages": [
+    105
+   ],
+   "section": "Tulburări alimentare — Bulimia"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Fluoxetina este numită explicit ca medicație aprobată de FDA.",
+    "evidenceLocation": "Sinopsis, p. 327, Tulburări alimentare — Bulimia"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Litiul este stabilizatorul maniei.",
+    "evidenceLocation": "Sinopsis, p. 327, Tulburări alimentare — Bulimia"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Clozapina este a psihozei refractare.",
+    "evidenceLocation": "Sinopsis, p. 327, Tulburări alimentare — Bulimia"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Metadona este a opioizilor.",
+    "evidenceLocation": "Sinopsis, p. 327, Tulburări alimentare — Bulimia"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Prazosinul este al coșmarurilor din PTSD.",
+    "evidenceLocation": "Sinopsis, p. 327, Tulburări alimentare — Bulimia"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Fiecare distractor este un medicament-cheie din alt capitol de psihiatrie, nu agentul FDA al bulimiei."
+  },
+  "textbookExpressions": [
+   "Fluoxetină",
+   "bulimie"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-036",
+  "questionFingerprint": "9fcebe0396f1b98304b72d4438f4cc3dd4890938c96d65acc6c55a70bcb59bc8",
+  "status": "source-checked",
+  "learningObjective": "Asocierea fiecărui tip cu descrierea sa de tabel, fără a muta criteriile antisociale pe evitant.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    328
+   ],
+   "pdfPages": [
+    106
+   ],
+   "section": "Tulburări de personalitate — Paranoidă, schizoidă, narcisică"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Neîncrederea și infidelitatea sunt rândul paranoidei.",
+    "evidenceLocation": "Sinopsis, p. 328, Tulburări de personalitate — Paranoidă, schizoidă, narcisică"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Detașarea și anhedonia sunt ale schizoidei.",
+    "evidenceLocation": "Sinopsis, p. 328, Tulburări de personalitate — Paranoidă, schizoidă, narcisică"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Grandiozitatea și lipsa empatiei sunt ale narcisicului.",
+    "evidenceLocation": "Sinopsis, p. 328, Tulburări de personalitate — Paranoidă, schizoidă, narcisică"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Agresivitatea, minciuna și pragul de 18 ani definesc antisociala.",
+    "evidenceLocation": "Sinopsis, p. 328, Tulburări de personalitate — Paranoidă, schizoidă, narcisică"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Dependentă este în grupul C, nu în A.",
+    "evidenceLocation": "Sinopsis, p. 328, Tulburări de personalitate — Paranoidă, schizoidă, narcisică"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii aplică criteriile antisocialei pe evitant și mută dependentul din C în A."
+  },
+  "textbookExpressions": [
+   "Neîncredere persistentă",
+   "Grandiozitate"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-037",
+  "questionFingerprint": "4347d8be3cd2742be8eb8ae797c4837fdd9b286a55d36e8f8de08465802b0b23",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea nistagmusului bidirecțional al PCP și a rolurilor distincte naloxonă versus naltrexonă versus metadonă.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    330
+   ],
+   "pdfPages": [
+    108
+   ],
+   "section": "Abuzul de substanțe — PCP și opioizi"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Nistagmusul vertical și orizontal plus agresivitatea sunt din tabel.",
+    "evidenceLocation": "Sinopsis, p. 330, Abuzul de substanțe — PCP și opioizi"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Izolarea, benzodiazepinele, antipsihoticele și acidul ascorbic sunt tratamentul citat.",
+    "evidenceLocation": "Sinopsis, p. 330, Abuzul de substanțe — PCP și opioizi"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Naloxona în supradoza cu depresie respiratorie este explicită.",
+    "evidenceLocation": "Sinopsis, p. 330, Abuzul de substanțe — PCP și opioizi"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Naltrexona anti-euforie și metadona de tratament sunt citate.",
+    "evidenceLocation": "Sinopsis, p. 330, Abuzul de substanțe — PCP și opioizi"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Naloxona este acută, nu de întreținere; flumazenilul este al benzodiazepinelor.",
+    "evidenceLocation": "Sinopsis, p. 330, Abuzul de substanțe — PCP și opioizi"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul inversează rolul acut al naloxonei cu întreținerea și atribuie flumazenilul PCP."
+  },
+  "textbookExpressions": [
+   "nistagmus",
+   "naloxona"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-038",
+  "questionFingerprint": "318c31655532416880ca2f57c80621625a456c79f118fb914fb839f76b76f78e",
+  "status": "source-checked",
+  "learningObjective": "Separarea profilului anticolinergic al potenței reduse de indicația de urgență și de EPS ale potenței ridicate.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    319
+   ],
+   "pdfPages": [
+    97
+   ],
+   "section": "Tulburări psihotice — Potență redusă versus ridicată"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Clorpromazina/tioridazina, blocarea D2, simptomele pozitive și clusterul anticolinergic sunt din tabel.",
+    "evidenceLocation": "Sinopsis, p. 319, Tulburări psihotice — Potență redusă versus ridicată"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Controlul de urgență al psihozei/agitației este al potenței ridicate.",
+    "evidenceLocation": "Sinopsis, p. 319, Tulburări psihotice — Potență redusă versus ridicată"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Lista EPS plus diskinezie, prolactină și SNM este a potenței ridicate.",
+    "evidenceLocation": "Sinopsis, p. 319, Tulburări psihotice — Potență redusă versus ridicată"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Ambele rânduri de potență clasică sunt plasate ca linia a 2-a de întreținere.",
+    "evidenceLocation": "Sinopsis, p. 319, Tulburări psihotice — Potență redusă versus ridicată"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Haloperidolul blochează D2, ca celelalte cu potență ridicată.",
+    "evidenceLocation": "Sinopsis, p. 319, Tulburări psihotice — Potență redusă versus ridicată"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul scoate haloperidolul de pe D2, restul fiind rânduri reale din tabelul 14-1."
+  },
+  "textbookExpressions": [
+   "clorpromazină",
+   "controlul de urgenţă"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-039",
+  "questionFingerprint": "6d6ba1088b4832efb56fe70ab1380309a91dad78c97281f18b909843985c7b50",
+  "status": "source-checked",
+  "learningObjective": "Separarea delirului izolat ≥1 lună, fără criterii complete de schizofrenie, de schizofreniformă, psihoza scurtă și schizoafectivă.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    320
+   ],
+   "pdfPages": [
+    98
+   ],
+   "section": "Tulburări psihotice — Tulburarea delirantă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Durata de o lună, absența criteriilor de schizofrenie și funcționarea păstrată sunt explicite.",
+    "evidenceLocation": "Sinopsis, p. 320, Tulburări psihotice — Tulburarea delirantă"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Criteriile complete peste 6 luni definesc schizofrenia.",
+    "evidenceLocation": "Sinopsis, p. 320, Tulburări psihotice — Tulburarea delirantă"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Fereastra o zi–o lună, fără simptome negative, este a psihozei scurte.",
+    "evidenceLocation": "Sinopsis, p. 320, Tulburări psihotice — Tulburarea delirantă"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Fereastra 1–6 luni este a schizofreniformei.",
+    "evidenceLocation": "Sinopsis, p. 320, Tulburări psihotice — Tulburarea delirantă"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Psihoza doar intra-episod afectiv este a TDM/maniei, nu a delirantei.",
+    "evidenceLocation": "Sinopsis, p. 320, Tulburări psihotice — Tulburarea delirantă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt ferestrele reale ale schizofreniei, psihozei scurte și schizofreniformei, mutate pe delirantă."
+  },
+  "textbookExpressions": [
+   "cel puţin o lună",
+   "nu întruneşte criteriile"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-040",
+  "questionFingerprint": "63c05bcc9f7cfb1de1c307711d97d8ed376759e9253c13f61aec2db9d096d210",
+  "status": "source-checked",
+  "learningObjective": "Maparea declanșatorilor, a pielii (transpirații versus uscată) și a antidoturilor ciproheptadină versus fizostigmină.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    320
+   ],
+   "pdfPages": [
+    98
+   ],
+   "section": "Tulburări psihotice — SS versus anticolinergic"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Declanșatorii, debutul abrupt, miocloniile și ciproheptadina sunt din rândul SS.",
+    "evidenceLocation": "Sinopsis, p. 320, Tulburări psihotice — SS versus anticolinergic"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Pielea uscată, „orb ca liliacul” și fizostigmina definesc SDA.",
+    "evidenceLocation": "Sinopsis, p. 320, Tulburări psihotice — SS versus anticolinergic"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Hipertermia malignă este declanșată de volatile și succinil-colină, cu rigor mortis și dantrolen.",
+    "evidenceLocation": "Sinopsis, p. 320, Tulburări psihotice — SS versus anticolinergic"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Pielea uscată și ileusul sunt ale SDA, nu ale SS (transpirații, zgomote intestinale crescute).",
+    "evidenceLocation": "Sinopsis, p. 320, Tulburări psihotice — SS versus anticolinergic"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Dantrolenul, nu fizostigmina, este al hipertermiei maligne.",
+    "evidenceLocation": "Sinopsis, p. 320, Tulburări psihotice — SS versus anticolinergic"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii permută rândurile SNM/SS/SDA/HM din același tabel 14-2."
+  },
+  "textbookExpressions": [
+   "Ciproheptadină",
+   "Fizostigmină"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-041",
+  "questionFingerprint": "98df7ac2fdcb7f10cd601460773ead15b234b599dc711b522a05f655ccbe948f",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea clusterului atipic (reactivitate, hiperfagie, membre de plumb) și a notei că este cel mai frecvent subtip.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    321
+   ],
+   "pdfPages": [
+    99
+   ],
+   "section": "Tulburări afective — Depresia atipică"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cele cinci trăsături atipice sunt enumerate.",
+    "evidenceLocation": "Sinopsis, p. 321, Tulburări afective — Depresia atipică"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Nota precizează că este cel mai frecvent subtip.",
+    "evidenceLocation": "Sinopsis, p. 321, Tulburări afective — Depresia atipică"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Fototerapia este a formei sezoniere, nu a celei atipice.",
+    "evidenceLocation": "Sinopsis, p. 321, Tulburări afective — Depresia atipică"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Fereastra de 4 săptămâni postpartum definește forma peripartum.",
+    "evidenceLocation": "Sinopsis, p. 321, Tulburări afective — Depresia atipică"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "TDM cere dispoziție depresivă sau anhedonie, inclusiv în forma atipică.",
+    "evidenceLocation": "Sinopsis, p. 321, Tulburări afective — Depresia atipică"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii mută fototerapia sezonieră și fereastra peripartum pe subtipul atipic."
+  },
+  "textbookExpressions": [
+   "membre de plumb",
+   "cel mai frecvent subtip"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-042",
+  "questionFingerprint": "1263eecc0ac213c5f7d06982b931c745c1c23fcaa5ac4df6f276e0b868d64d11",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea pragului de 2 ani și a dublei forme (TDM cronic versus depresie ușoară sub pragul de TDM).",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    321
+   ],
+   "pdfPages": [
+    99
+   ],
+   "section": "Tulburări afective — Depresia persistentă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Disforia plus două simptome peste 2 ani este criteriul.",
+    "evidenceLocation": "Sinopsis, p. 321, Tulburări afective — Depresia persistentă"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Includerea TDM cronic și a formei ușoare sub prag este explicită.",
+    "evidenceLocation": "Sinopsis, p. 321, Tulburări afective — Depresia persistentă"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Mania definește bipolarul I, nu distimia.",
+    "evidenceLocation": "Sinopsis, p. 321, Tulburări afective — Depresia persistentă"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "4 zile este hipomania.",
+    "evidenceLocation": "Sinopsis, p. 321, Tulburări afective — Depresia persistentă"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Flumazenilul este antagonistul benzodiazepinelor.",
+    "evidenceLocation": "Sinopsis, p. 321, Tulburări afective — Depresia persistentă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii mută mania, hipomania și flumazenilul pe distimie."
+  },
+  "textbookExpressions": [
+   ">2 ani",
+   "disforiei"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-043",
+  "questionFingerprint": "78547aaddc497cdf3d3225817df9688e0cdd63a3efeefd7afb95f87e54f5b013",
+  "status": "source-checked",
+  "learningObjective": "Listarea substanțelor și a bolilor care produc simptome depresive, plus hipoactivitatea monoaminelor.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    321
+   ],
+   "pdfPages": [
+    99
+   ],
+   "section": "Tulburări afective — Mimici ale TDM"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Lista de substanțe este explicită.",
+    "evidenceLocation": "Sinopsis, p. 321, Tulburări afective — Mimici ale TDM"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Lista de condiții medicale este citată.",
+    "evidenceLocation": "Sinopsis, p. 321, Tulburări afective — Mimici ale TDM"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Hipoactivitatea serotoninei, norepinefrinei și dopaminei este enunțată.",
+    "evidenceLocation": "Sinopsis, p. 321, Tulburări afective — Mimici ale TDM"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Textul descrie activitate scăzută, nu exces de serotonină.",
+    "evidenceLocation": "Sinopsis, p. 321, Tulburări afective — Mimici ale TDM"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Interferonul α este cauză de simptome depresive, nu tratament.",
+    "evidenceLocation": "Sinopsis, p. 321, Tulburări afective — Mimici ale TDM"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează hipoactivitatea monoaminelor și transformă interferonul din cauză în tratament."
+  },
+  "textbookExpressions": [
+   "interferonul a",
+   "hipotiroidismul"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-044",
+  "questionFingerprint": "88bc1c81189256936ba3d409ed04abb63c1851fe485bf4ee8a434cf21cd2bc7b",
+  "status": "source-checked",
+  "learningObjective": "Identificarea inozitoltrifosfatului ca mecanism propus, distinct de D2, SERT, GABA și α-1.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    323
+   ],
+   "pdfPages": [
+    101
+   ],
+   "section": "Tulburări afective — Mecanismul litiului"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Textul precizează că mecanismul este necunoscut, dar cel mai probabil implică inozitoltrifosfatul.",
+    "evidenceLocation": "Sinopsis, p. 323, Tulburări afective — Mecanismul litiului"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Blocarea D2 este a neurolepticelor.",
+    "evidenceLocation": "Sinopsis, p. 323, Tulburări afective — Mecanismul litiului"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Inhibarea recaptării serotoninei este a SSRI.",
+    "evidenceLocation": "Sinopsis, p. 323, Tulburări afective — Mecanismul litiului"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Flumazenilul antagonizează benzodiazepinele pe GABA, nu litiul.",
+    "evidenceLocation": "Sinopsis, p. 323, Tulburări afective — Mecanismul litiului"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Prazosinul este antagonist α-1 pentru coșmarurile din PTSD.",
+    "evidenceLocation": "Sinopsis, p. 323, Tulburări afective — Mecanismul litiului"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Toate distractoarele sunt mecanisme reale din capitol, mutate pe litiu."
+  },
+  "textbookExpressions": [
+   "inozitoltrifosfatului",
+   "mecanismul său de acţiune"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-045",
+  "questionFingerprint": "27353506f99c0d493f22662cc00c13ca60328c80c41627eb97cdb52141e70857",
+  "status": "source-checked",
+  "learningObjective": "Extragerea indicației SNRI în durerea neuropată, a priapismului trazodonei și a statutului european al sunătoarei.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    322
+   ],
+   "pdfPages": [
+    100
+   ],
+   "section": "Tulburări afective — SNRI, trazodonă, sunătoare"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Indicația de primă linie în depresie plus durere neuropată este din tabel.",
+    "evidenceLocation": "Sinopsis, p. 322, Tulburări afective — SNRI, trazodonă, sunătoare"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Insomnia semnificativă și priapismul sunt ale modulatorilor/trazodonei.",
+    "evidenceLocation": "Sinopsis, p. 322, Tulburări afective — SNRI, trazodonă, sunătoare"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Statutul european versus alternativa SUA este explicit.",
+    "evidenceLocation": "Sinopsis, p. 322, Tulburări afective — SNRI, trazodonă, sunătoare"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "SSRI cer 3-4 săptămâni și pot crește ideația suicidară la adolescenți.",
+    "evidenceLocation": "Sinopsis, p. 322, Tulburări afective — SNRI, trazodonă, sunătoare"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "ADHD și renunțarea la fumat sunt ale bupropionului; mirtazapina este pentru insomnie și/sau anorexie.",
+    "evidenceLocation": "Sinopsis, p. 322, Tulburări afective — SNRI, trazodonă, sunătoare"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii comprimă latența SSRI și permută indicația mirtazapinei cu cea a bupropionului."
+  },
+  "textbookExpressions": [
+   "durere neuro",
+   "priapism"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-046",
+  "questionFingerprint": "d80bb72afe688a2c9b85c22258d48f396dfd058b10530c4e4dfac83fc40307e3",
+  "status": "source-checked",
+  "learningObjective": "Corelarea riscului de switch maniacal cu clusterul advers renal-tiroidian-ponderal al litiului.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    323
+   ],
+   "pdfPages": [
+    101
+   ],
+   "section": "Tulburări afective — Switch maniacal și litiu"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Nota „Pasul următor” cere excluderea maniei înainte de antidepresiv.",
+    "evidenceLocation": "Sinopsis, p. 323, Tulburări afective — Switch maniacal și litiu"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Lista de efecte adverse, inclusiv NDI și hipotiroidism, este explicită.",
+    "evidenceLocation": "Sinopsis, p. 323, Tulburări afective — Switch maniacal și litiu"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Statutul de primă linie în întreținerea maniei este citat.",
+    "evidenceLocation": "Sinopsis, p. 323, Tulburări afective — Switch maniacal și litiu"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Stabilizatorii, nu antidepresivele singure, controlează mania.",
+    "evidenceLocation": "Sinopsis, p. 323, Tulburări afective — Switch maniacal și litiu"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Textul enumeră tocmai efectele renale și tiroidiene.",
+    "evidenceLocation": "Sinopsis, p. 323, Tulburări afective — Switch maniacal și litiu"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii transformă antidepresivul în tratament de întreținere al maniei și neagă toxicitatea litiului."
+  },
+  "textbookExpressions": [
+   "induce un episod maniacal",
+   "diabetul insipid nefrogen"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-047",
+  "questionFingerprint": "614d82c39aac9a11c68e1deb74dd77d3c045a7761bf33f27b37dcb18c01fa24e",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea triadei genetică–debut la 20 de ani–sex-ratio egal, distinctă de GAD și de personalitatea antisocială.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    324
+   ],
+   "pdfPages": [
+    102
+   ],
+   "section": "TOC — Epidemiologie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cele trei elemente epidemiologice sunt din notă.",
+    "evidenceLocation": "Sinopsis, p. 324, TOC — Epidemiologie"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Riscul dublu la femei aparține GAD.",
+    "evidenceLocation": "Sinopsis, p. 324, TOC — Epidemiologie"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Debutul în copilărie este al fobiei specifice.",
+    "evidenceLocation": "Sinopsis, p. 324, TOC — Epidemiologie"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Textul afirmă componenta genetică importantă.",
+    "evidenceLocation": "Sinopsis, p. 324, TOC — Epidemiologie"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Criteriul >18 ani cu conduită înainte de 15 este al personalității antisociale.",
+    "evidenceLocation": "Sinopsis, p. 324, TOC — Epidemiologie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii importă sex-ratio-ul GAD, vârsta fobiei și criteriul antisocial pe TOC."
+  },
+  "textbookExpressions": [
+   "20 de ani",
+   "prevalentă egală"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-048",
+  "questionFingerprint": "e0272caec6c7ace4c2a51e822ba3f88a7b1bd3744d5519ecefe2665b4b625be0",
+  "status": "source-checked",
+  "learningObjective": "Separarea colecționarismului (disconfort la discard, TCC țintită, greu de tratat) de dismorfie și anorexie.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    325
+   ],
+   "pdfPages": [
+    103
+   ],
+   "section": "Tulburări înrudite TOC — Acumularea"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Dificultatea de a arunca, disconfortul și dezordinea periculoasă sunt explicite.",
+    "evidenceLocation": "Sinopsis, p. 325, Tulburări înrudite TOC — Acumularea"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "TCC țintită și dificultatea terapeutică sunt citate.",
+    "evidenceLocation": "Sinopsis, p. 325, Tulburări înrudite TOC — Acumularea"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Enucleerea nu aparține capitolului; la dismorfie se evită operațiile inutile.",
+    "evidenceLocation": "Sinopsis, p. 325, Tulburări înrudite TOC — Acumularea"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "<85% cu lanugo definește anorexia.",
+    "evidenceLocation": "Sinopsis, p. 325, Tulburări înrudite TOC — Acumularea"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Ticurile și distincția ego-sinton/diston sunt ale TOC versus TPOC.",
+    "evidenceLocation": "Sinopsis, p. 325, Tulburări înrudite TOC — Acumularea"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii importă evitatea chirurgicală greșit transformată, anorexia și distincția TOC/TPOC."
+  },
+  "textbookExpressions": [
+   "arunca sau a împărţi",
+   "foarte dificil de tratat"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-049",
+  "questionFingerprint": "9681a7c215359efd844733f0f2ac920a403b7b6e748cd5a630a185b651c9e8a6",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea ratei de remisiune 40–50% după educare și a liniei a doua TCC/fizioterapie, distinct de simptome somatice și nosofobie.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    326
+   ],
+   "pdfPages": [
+    104
+   ],
+   "section": "Tulburări somatice — Conversia: tratament"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Deficitele inexplicabile și lista de simptome sunt explicite.",
+    "evidenceLocation": "Sinopsis, p. 326, Tulburări somatice — Conversia: tratament"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Remisiunea 40-50% după educare este citată.",
+    "evidenceLocation": "Sinopsis, p. 326, Tulburări somatice — Conversia: tratament"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "TCC, fizioterapia și SSRI/SNRI sunt linia a doua.",
+    "evidenceLocation": "Sinopsis, p. 326, Tulburări somatice — Conversia: tratament"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Afectarea psihologică intensă definește tulburarea cu simptome somatice, contrastată explicit cu conversia.",
+    "evidenceLocation": "Sinopsis, p. 326, Tulburări somatice — Conversia: tratament"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nosofobia este preocuparea de boală fără simptome semnificative.",
+    "evidenceLocation": "Sinopsis, p. 326, Tulburări somatice — Conversia: tratament"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii atribuie conversiei insight-ul din simptomele somatice și criteriul nosofobiei."
+  },
+  "textbookExpressions": [
+   "40-50% din cazuri",
+   "simptome neurologice funcţionale"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-050",
+  "questionFingerprint": "c862b47cfa1ce0252b848c2cb930f095688b2c3582ae9914633283e3ec272a70",
+  "status": "source-checked",
+  "learningObjective": "Separarea anxietății de boală fără simptome de conversie, simulare și distimie.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    326
+   ],
+   "pdfPages": [
+    104
+   ],
+   "section": "Tulburări somatice — Nosofobia"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Preocuparea fără simptome semnificative, plus verificările, este definiția.",
+    "evidenceLocation": "Sinopsis, p. 326, Tulburări somatice — Nosofobia"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Vizitele regulate, TCC și SSRI sunt tratamentul.",
+    "evidenceLocation": "Sinopsis, p. 326, Tulburări somatice — Nosofobia"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "La belle indifférence și deficitele motorii definesc conversia.",
+    "evidenceLocation": "Sinopsis, p. 326, Tulburări somatice — Nosofobia"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Beneficiul secundar definește simularea.",
+    "evidenceLocation": "Sinopsis, p. 326, Tulburări somatice — Nosofobia"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Pragul de 2 ani este al depresiei persistente.",
+    "evidenceLocation": "Sinopsis, p. 326, Tulburări somatice — Nosofobia"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii permută conversia, simularea și distimia pe nosofobie."
+  },
+  "textbookExpressions": [
+   "boală gravă",
+   "Vizite regulate"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-051",
+  "questionFingerprint": "27f5c1efdff52d5378e77cb2ad6d08393861b0efdce5202eb02570c609ebc104",
+  "status": "source-checked",
+  "learningObjective": "Contrastul binge eating (fără compensare, exces ponderal, TCC > farmacoterapie) cu anorexia și bulimia.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    327
+   ],
+   "pdfPages": [
+    105
+   ],
+   "section": "Tulburări alimentare — Binge eating"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Absența compensării este criteriul de diferențiere.",
+    "evidenceLocation": "Sinopsis, p. 327, Tulburări alimentare — Binge eating"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Frecvența ≥1/săptămână peste 3 luni și excesul ponderal sunt explicite.",
+    "evidenceLocation": "Sinopsis, p. 327, Tulburări alimentare — Binge eating"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Prioritatea psihoterapiei față de farmacoterapie este citată.",
+    "evidenceLocation": "Sinopsis, p. 327, Tulburări alimentare — Binge eating"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "<85% cu lanugo definește anorexia.",
+    "evidenceLocation": "Sinopsis, p. 327, Tulburări alimentare — Binge eating"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Compensarea definește bulimia, nu binge eating.",
+    "evidenceLocation": "Sinopsis, p. 327, Tulburări alimentare — Binge eating"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii aplică cașexia anorexiei și compensarea bulimiei pe binge eating."
+  },
+  "textbookExpressions": [
+   "fără comportamente compensatorii",
+   "o dată pe săptămână"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "psihiatrie-adv-052",
+  "questionFingerprint": "1cb9555fe8fdc87c59db8877692d9e199023b8c74a20e667616eb678fe758ffe",
+  "status": "source-checked",
+  "learningObjective": "Maparea a trei rânduri nefolosite din tabelul 14-5, plus coloana de tratament a histrionicului.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    328
+   ],
+   "pdfPages": [
+    106
+   ],
+   "section": "Tulburări de personalitate — Schizotipal, histrionic, TPOC"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Clusterul excentric al schizotipalului este din tabel.",
+    "evidenceLocation": "Sinopsis, p. 328, Tulburări de personalitate — Schizotipal, histrionic, TPOC"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Clusterul teatral al histrionicului este citat.",
+    "evidenceLocation": "Sinopsis, p. 328, Tulburări de personalitate — Schizotipal, histrionic, TPOC"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Clusterul perfecționist al TPOC este explicit.",
+    "evidenceLocation": "Sinopsis, p. 328, Tulburări de personalitate — Schizotipal, histrionic, TPOC"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Coloana de tratament a histrionicului precizează psihoterapia pe termen lung cu limite.",
+    "evidenceLocation": "Sinopsis, p. 328, Tulburări de personalitate — Schizotipal, histrionic, TPOC"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Conduita înainte de 15 ani și vârsta >18 definesc antisocialul, nu schizotipalul.",
+    "evidenceLocation": "Sinopsis, p. 328, Tulburări de personalitate — Schizotipal, histrionic, TPOC"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul aplică criteriile antisocialului pe schizotipal, restul fiind rânduri reale din tabel."
+  },
+  "textbookExpressions": [
+   "idei de referinţă",
+   "comportament seducător"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
  }
 ]
