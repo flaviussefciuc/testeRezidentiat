@@ -66,7 +66,7 @@ were found on that page. Cutoff-page and box checks for each topic are logged in
 
 ## Items relying on a Cadran / Figura / Tabel
 
-569 items, 186 resolved, 383 pending.
+569 items, 210 resolved, 359 pending.
 
 | Original ID | Topic | Status |
 |---|---|---|
@@ -210,30 +210,30 @@ were found on that page. Cutoff-page and box checks for each topic are logged in
 | diabet-adv-160 | diabet | pending (original still live) |
 | diabet-adv-161 | diabet | pending (original still live) |
 | diabet-adv-162 | diabet | pending (original still live) |
-| electroliti-adv-012 | electroliti | pending (original still live) |
-| electroliti-adv-013 | electroliti | pending (original still live) |
-| electroliti-adv-014 | electroliti | pending (original still live) |
-| electroliti-adv-017 | electroliti | pending (original still live) |
-| electroliti-adv-025 | electroliti | pending (original still live) |
-| electroliti-adv-030 | electroliti | pending (original still live) |
-| electroliti-adv-033 | electroliti | pending (original still live) |
-| electroliti-adv-035 | electroliti | pending (original still live) |
-| electroliti-adv-040 | electroliti | pending (original still live) |
-| electroliti-adv-050 | electroliti | pending (original still live) |
-| electroliti-adv-053 | electroliti | pending (original still live) |
-| electroliti-adv-058 | electroliti | pending (original still live) |
-| electroliti-adv-067 | electroliti | pending (original still live) |
-| electroliti-adv-071 | electroliti | pending (original still live) |
-| electroliti-adv-072 | electroliti | pending (original still live) |
-| electroliti-adv-073 | electroliti | pending (original still live) |
-| electroliti-adv-074 | electroliti | pending (original still live) |
-| electroliti-adv-076 | electroliti | pending (original still live) |
-| electroliti-adv-077 | electroliti | pending (original still live) |
-| electroliti-adv-083 | electroliti | pending (original still live) |
-| electroliti-adv-084 | electroliti | pending (original still live) |
-| electroliti-adv-085 | electroliti | pending (original still live) |
-| electroliti-adv-087 | electroliti | pending (original still live) |
-| electroliti-adv-088 | electroliti | pending (original still live) |
+| electroliti-adv-012 | electroliti | replaced by electroliti-adv-012-v2 (p. 176; expressions verified on the cited page) |
+| electroliti-adv-013 | electroliti | replaced by electroliti-adv-013-v2 (p. 172; expressions verified on the cited page) |
+| electroliti-adv-014 | electroliti | replaced by electroliti-adv-014-v2 (p. 172; expressions verified on the cited page) |
+| electroliti-adv-017 | electroliti | replaced by electroliti-adv-017-v2 (p. 175, 173; expressions verified on the cited page) |
+| electroliti-adv-025 | electroliti | replaced by electroliti-adv-025-v2 (p. 184; expressions verified on the cited page) |
+| electroliti-adv-030 | electroliti | replaced by electroliti-adv-030-v2 (p. 190, 189; expressions verified on the cited page) |
+| electroliti-adv-033 | electroliti | replaced by electroliti-adv-033-v2 (p. 181, 182; expressions verified on the cited page) |
+| electroliti-adv-035 | electroliti | replaced by electroliti-adv-035-v2 (p. 182; expressions verified on the cited page) |
+| electroliti-adv-040 | electroliti | replaced by electroliti-adv-040-v2 (p. 183; expressions verified on the cited page) |
+| electroliti-adv-050 | electroliti | replaced by electroliti-adv-050-v2 (p. 189, 188; expressions verified on the cited page) |
+| electroliti-adv-053 | electroliti | retired without replacement |
+| electroliti-adv-058 | electroliti | replaced by electroliti-adv-058-v2 (p. 179; expressions verified on the cited page) |
+| electroliti-adv-067 | electroliti | replaced by electroliti-adv-067-v2 (p. 190; expressions verified on the cited page) |
+| electroliti-adv-071 | electroliti | replaced by electroliti-adv-071-v2 (p. 172; expressions verified on the cited page) |
+| electroliti-adv-072 | electroliti | replaced by electroliti-adv-072-v2 (p. 172; expressions verified on the cited page) |
+| electroliti-adv-073 | electroliti | replaced by electroliti-adv-073-v2 (p. 190, 174; expressions verified on the cited page) |
+| electroliti-adv-074 | electroliti | retired without replacement |
+| electroliti-adv-076 | electroliti | replaced by electroliti-adv-076-v2 (p. 176; expressions verified on the cited page) |
+| electroliti-adv-077 | electroliti | replaced by electroliti-adv-077-v2 (p. 177; expressions verified on the cited page) |
+| electroliti-adv-083 | electroliti | replaced by electroliti-adv-083-v2 (p. 181; expressions verified on the cited page) |
+| electroliti-adv-084 | electroliti | replaced by electroliti-adv-084-v2 (p. 182; expressions verified on the cited page) |
+| electroliti-adv-085 | electroliti | replaced by electroliti-adv-085-v2 (p. 184; expressions verified on the cited page) |
+| electroliti-adv-087 | electroliti | replaced by electroliti-adv-087-v2 (p. 185; expressions verified on the cited page) |
+| electroliti-adv-088 | electroliti | replaced by electroliti-adv-088-v2 (p. 186; expressions verified on the cited page) |
 | endocrinologie-adv-012 | endocrinologie | replaced by endocrinologie-adv-012-v2 (p. 614; expressions verified on the cited page) |
 | endocrinologie-adv-021 | endocrinologie | replaced by endocrinologie-adv-021-v2 (p. 611; expressions verified on the cited page) |
 | endocrinologie-adv-022 | endocrinologie | replaced by endocrinologie-adv-022-v2 (p. 611; expressions verified on the cited page) |

@@ -166,3 +166,9 @@ Fiecare temă rescrisă (versiunile `-v2`) a fost confruntată din nou cu pagini
 ### Arsurile (Lawrence, cap. 10)
 - Nu s-au găsit chei greșite în cei 70 de itemi confruntați cu p. 108–123.
 - Retrase fără înlocuitor (dubluri sau trivia numerică): 004 (inclus în `-016-v2`), 009 (cifrele epidemiologice din SUA), 019 (inclus în `-043-v2`), 030 (cele trei perioade ale îngrijirii), 031 (enumerarea agenților), 033 și 054 (incluse în `-053-v2`), 038 (inclus în `-015-v2`), 055 (inclus în `-015-v2`), 056 (inclus în `-017-v2`), 062 (inclus în `-024-v2`), 063 (inclus în `-007-v2`).
+
+### Apa și electroliții (Kumar, cap. 9, p. 172–190)
+- **Cheie greșită corectată:** vechiul `-045` marca drept corectă afirmația «Pierderea de apă se limitează la plasma, similar coloizilor». Textul de pe p. 183 spune că pierderea de apă «este distribuită în mod egal între toate compartimentele hidrice». În `-045-v2`, această variantă este distractor.
+- Vechiul `-073` atribuia episoadele de stres termic ale agricultorilor din America Centrală (p. 173–174) contextului «subumplerii arteriale, alături de sarcină și vasodilatatoare». În text, ele ilustrează hipovolemia recurentă care duce la boală cronică de rinichi (nefropatia mezoamericană). Itemul a fost retras. ID-ul `-073-v2` testează acum tratamentul subacut al hiperkaliemiei.
+- **Contradicție internă:** Cadranul 9.6 (p. 179) plasează acțiunea tiazidelor pe co-transportul Na+-Cl− «în tubul contort proximal», iar textul de pe aceeași pagină și Fig. 9.9 o plasează în tubul contort distal. Itemii nu testează segmentul din cadran.
+- Retrase fără înlocuitor: 032 (inclus în `-014-v2`), 053 (cifrele de filtrare din Fig. 9.6).
