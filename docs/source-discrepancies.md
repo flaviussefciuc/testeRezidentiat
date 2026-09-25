@@ -217,3 +217,11 @@ Fiecare temă rescrisă (versiunile `-v2`) a fost confruntată din nou cu pagini
 - `urologie-adv-109`: enunțul combina două cazuri fără legătură (ruptura vezicală și cistita). Retras; conținutul este acoperit de `-027-v2` și `-079-v2`.
 - P. 647: aminoacizii din cistinurie apar în scanare ca «cisteina, ornitina, lizina şi arginina». Lista nu mai este testată.
 - Retrase fără înlocuitor (dubluri): 015 (inclus în `-046-v2`), 020 (inclus în `-072-v2`), 028 (inclus în `-079-v2`), 045 (inclus în `-101-v2`), 105 (inclus în `-023-v2`), 110 (inclus în `-029-v2`, `-080-v2`).
+
+### Boli hepatice (Kumar, cap. 34, p. 1275–1284; 1289–1303)
+- **Pagini lipsă din sursă:** scanarea conține din primul interval doar p. 1275 și p. 1284; p. 1276–1283 lipsesc. Niciun item nu citează aceste pagini.
+- `hepatologie-adv-022`: enunțul atribuia elastografiei (Fibroscan) pragurile <7,7 / 7,7–9,8 / ≥9,8. Pe p. 1289 acestea aparțin testului de fibroză hepatică ELF (biomarker seric); Fibroscan are pragul >25 kPa pentru hipertensiunea portală (p. 1290). Corectat în `-022-v2`.
+- `hepatologie-adv-036`: varianta dată ca adevărată («sindromul hepatopulmonar apare la 1–2% … răspunde la epoprostenol») descrie de fapt hipertensiunea porto-pulmonară (p. 1298). Corectat în `-036-v2`.
+- `hepatologie-adv-026`: criteriile Milan erau redate ca «trei leziuni <3 cm»; p. 1292 spune «mai puţin de trei leziuni mici (<3 cm) sau un nodul solitar mai mic de 5 cm». În `-v2` criteriile nu mai sunt testate cu acea formulare.
+- P. 1300, legenda Fig. 34.27: hepcidina degradează «exportatorul de fier transferina» (probabil ferroportina; textul de pe p. 1301 vorbește despre internalizarea ferroportinei). Același pasaj dă absorbția intestinală ca «1-2 g» de fier. Niciuna dintre cele două afirmații nu este testată.
+- Retrase fără înlocuitor (dubluri sau itemi slabi): 052 (inclus în `-018-v2`), 059 (inclus în `-096-v2`), 060 (inclus în `-003-v2`), 061 și 062/063 (incluse în `-020-v2`, `-019-v2`), 069 (inclus în `-024-v2`), 088 și 092 (incluse în `-014-v2`, `-090-v2`), 091 (inclus în `-054-v2`), 093 (inclus în `-002-v2`), 095 și 097 (incluse în `-017-v2`, `-058-v2`), 105 (inclus în `-026-v2`), 106 (măsuri adjuvante din figură), 115 (absorbția «1-2 g» din legendă).
