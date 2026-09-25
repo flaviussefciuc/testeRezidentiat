@@ -18,9 +18,9 @@ q('ati-adv-011',['Terapia precoce ghidată de obiective (ScvO2 >70%) în sepsisu
  [8,'Distractorii reflectă optimismul inițial infirmat.'],['early goal-directed therapy','>70%']),
 
 q('ati-adv-024',['Nitroglicerina în terapia intensivă:',
- ['este în doze mici predominant venodilatatoare','produce dilatație arterială la doze crescute','reduce rezistența vasculară pulmonară','se asociază cu intoxicația cu cianură la perfuzii prelungite','este un dilatator arterial pur la doze mici'],'ABC',224,'Terapia vasodilatatoare',
+ ['este în doze mici predominant venodilatatoare','produce dilatație arterială la doze crescute','crește rezistența vasculară pulmonară','se asociază cu intoxicația cu cianură la perfuzii prelungite','este un dilatator arterial pur la doze mici'],'AB',224,'Terapia vasodilatatoare',
  'Diferențierea nitroglicerinei de nitroprusiat.',
- ['În doze mici este predominant venodilatatoare.','La doze crescute dilată și arterele.','Reduce rezistența vasculară pulmonară.','Intoxicația cu cianură privește nitroprusiatul.','Este predominant venodilatatoare la doze mici.']],
+ ['În doze mici este predominant venodilatatoare.','La doze crescute dilată și arterele.','Nu: nitroglicerina reduce rezistența vasculară pulmonară.','Intoxicația cu cianură privește nitroprusiatul.','Este predominant venodilatatoare la doze mici.']],
  [8,'Distractorii preiau proprietăți ale nitroprusiatului.'],['venodilatator','rezistenţa vasculară pulmonară']),
 
 q('ati-adv-031',['Terapia vasodilatatoare și suportul mecanic al miocardului:',
@@ -30,9 +30,9 @@ q('ati-adv-031',['Terapia vasodilatatoare și suportul mecanic al miocardului:',
  [8,'Distractorii inversează indicația și certitudinea.'],['Nitroprusiatul','intra-aortic']),
 
 q('ati-adv-012',['Insuficiența respiratorie:',
- ['de tip I are PaO2 scăzută și PaCO2 normală sau scăzută','de tip II are PaO2 scăzută și PaCO2 ridicată','este prezentă practic la PaO2 sub 8 kPa','de tip II are drept cauză principală pneumonia','de tip I rezultă din hipoventilație alveolară'],'ABC',224,'Insuficiența respiratorie — Clasificare',
+ ['de tip I are PaO2 scăzută și PaCO2 normală sau scăzută','de tip II are PaO2 scăzută și PaCO2 ridicată','este prezentă practic la PaO2 sub 12 kPa','de tip II are drept cauză principală pneumonia','de tip I rezultă din hipoventilație alveolară'],'AB',224,'Insuficiența respiratorie — Clasificare',
  'Diferențierea tipurilor de insuficiență respiratorie.',
- ['Tipul I: PaO2 scăzută, PaCO2 normală sau scăzută.','Tipul II: PaO2 scăzută, PaCO2 ridicată.','Pragul practic este PaO2 <8 kPa sau PaCO2 >7 kPa.','Cea mai frecventă cauză de tip II este BPOC.','Tipul I rezultă din șunt sau dezechilibru V/Q.']],
+ ['Tipul I: PaO2 scăzută, PaCO2 normală sau scăzută.','Tipul II: PaO2 scăzută, PaCO2 ridicată.','Nu: pragul practic este PaO2 <8 kPa sau PaCO2 >7 kPa.','Cea mai frecventă cauză de tip II este BPOC.','Tipul I rezultă din șunt sau dezechilibru V/Q.']],
  [8,'Distractorii inversează mecanismele.'],['8 kPa','BPOC'],[225]),
 
 q('ati-adv-032',['Respirația paradoxală constă în:',
@@ -48,9 +48,9 @@ q('ati-adv-039',['Cel mai sensibil indicator clinic al creșterii dificultății
  [8,'Distractorii sunt indicatori reali, mai puțin sensibili.'],['Cel mai sensibil indicator','frecvenţei respiratorii']),
 
 q('ati-adv-033',['Pulsoximetria și proba de gaze sanguine:',
- ['SpO2 normală pe oxigen nu exclude retenția de CO2','pulsoximetria poate fi inexactă la perfuzie periferică scăzută','proba se analizează imediat sau se ține în apă cu gheață','bulele de aer din probă cresc PCO2','pulsoximetrele necesită calibrare înaintea fiecărei măsurători'],'ABC',225,'Monitorizarea',
+ ['SpO2 normală pe oxigen nu exclude retenția de CO2','pulsoximetria rămâne exactă la perfuzie periferică scăzută','proba se analizează imediat sau se ține în apă cu gheață','bulele de aer din probă cresc PCO2','pulsoximetrele necesită calibrare înaintea fiecărei măsurători'],'AC',225,'Monitorizarea',
  'Recunoașterea limitelor monitorizării oxigenării.',
- ['SpO2 normală pe oxigen nu exclude hipoventilația.','Perfuzia periferică scăzută dă valori inexacte.','Gheața previne metabolismul leucocitar.','Bulele scad PCO2.','Nu necesită calibrare.']],
+ ['SpO2 normală pe oxigen nu exclude hipoventilația.','Nu: perfuzia periferică scăzută dă valori inexacte.','Gheața previne metabolismul leucocitar.','Bulele scad PCO2.','Nu necesită calibrare.']],
  [8,'Distractorii inversează efectul bulelor și calibrarea.'],['retenţie de dioxid de carbon','apă cu gheaţă']),
 
 q('ati-adv-034',['Raportul PaO2/FiO2:',
@@ -90,9 +90,9 @@ q('ati-adv-030',['Conform Cadranului 10.14, complicațiile imediate ale intubaț
  [8,'Distractorii sunt complicații tardive.'],['capnografie','bronhie principală']),
 
 q('ati-adv-016',['Traheostomia și calea aeriană chirurgicală:',
- ['traheostomia percutanată are rată mai mică de infecție a plăgii','traheostomia chirurgicală se face la coagulare anormală','cricotiroidotomia este mai rapidă decât traheostomia clasică','traheostomia nu are mortalitate asociată','traheostomia percutanată se face doar în sala de operație'],'ABC',228,'Traheostomia',
+ ['traheostomia percutanată are rată mai mare de infecție a plăgii','traheostomia chirurgicală se face la coagulare anormală','cricotiroidotomia este mai rapidă decât traheostomia clasică','traheostomia nu are mortalitate asociată','traheostomia percutanată se face doar în sala de operație'],'BC',228,'Traheostomia',
  'Aplicarea indicațiilor traheostomiei.',
- ['Percutanat, infecția plăgii este mult mai rară.','Chirurgical, la factori anatomici sau coagulopatie.','Cricotiroidotomia este mai sigură și mai rapidă.','Are mortalitate mică, dar semnificativă.','Se face cel mai frecvent în ATI.']],
+ ['Nu: percutanat, infecția plăgii este mult mai rară.','Chirurgical, la factori anatomici sau coagulopatie.','Cricotiroidotomia este mai sigură și mai rapidă.','Are mortalitate mică, dar semnificativă.','Se face cel mai frecvent în ATI.']],
  [8,'Distractorii contrazic practica descrisă.'],['percutanată','cricotiroidotomie']),
 
 q('ati-adv-043',['Ventilația cu presiune pozitivă:',
@@ -120,9 +120,9 @@ q('ati-adv-025',['Ventilația mecanică controlată:',
  [8,'Distractorii inversează variabila presetată.'],['Ventilaţie cu volum controlat','presiune controlată']),
 
 q('ati-adv-026',['Presiunea pozitivă la sfârșitul expirului (PEEP):',
- ['reduce șuntul și crește PaO2','poate reduce debitul cardiac','se folosește la niveluri de 5–8 cmH2O la majoritatea ventilaților','crește constant aportul total de oxigen','se folosește uzual la 20–30 cmH2O'],'ABC',229,'Tehnici de suport respirator — PEEP',
+ ['reduce șuntul și crește PaO2','poate reduce debitul cardiac prin presiune intratoracică crescută','se folosește la 12–15 cmH2O la majoritatea ventilaților','crește constant aportul total de oxigen','se folosește uzual la 20–30 cmH2O'],'AB',229,'Tehnici de suport respirator — PEEP',
  'Aplicarea efectelor PEEP.',
- ['PEEP re-expandează alveolele și reduce șuntul.','Presiunea intratoracică crescută poate scădea debitul.','Nivelele de 5–8 cmH2O sunt uzuale.','Scăderea debitului poate reduce aportul de O2.','Nivelele uzuale sunt 5–8 cmH2O.']],
+ ['PEEP re-expandează alveolele și reduce șuntul.','Presiunea intratoracică crescută poate scădea debitul.','Nu: nivelele uzuale sunt 5–8 cmH2O.','Scăderea debitului poate reduce aportul de O2.','Nivelele uzuale sunt 5–8 cmH2O.']],
  [8,'Distractorii ignoră efectul hemodinamic.'],['5-8 cmH20','şuntul']),
 
 q('ati-adv-017',['Oxigenul nazal cu flux înalt (HFNO):',
@@ -168,9 +168,9 @@ q('ati-adv-036',['Conform Cadranului 10.16, ventilația non-invazivă:',
  [8,'Singurul distractor inversează o contraindicație.'],['44 nmol/L','Chirurgie facială']),
 
 q('ati-adv-037',['Polineuropatia bolilor critice, față de sindromul Guillain–Barré:',
- ['este o neuropatie axonală primară','are proteine LCR normale sau minim crescute','afectează rar nervii cranieni','este o neuropatie demielinizantă primară','are de obicei proteine LCR mult crescute'],'ABC',231,'Slăbiciunea neuromusculară a bolii critice',
+ ['este o neuropatie axonală primară','are proteine LCR normale sau minim crescute','afectează frecvent nervii cranieni','este o neuropatie demielinizantă primară','are de obicei proteine LCR mult crescute'],'AB',231,'Slăbiciunea neuromusculară a bolii critice',
  'Diferențierea polineuropatiei bolii critice de Guillain–Barré.',
- ['Este o neuropatie axonală primară.','Proteinele LCR sunt normale sau minim crescute.','Nervii cranieni sunt rar afectați.','Demielinizarea caracterizează Guillain–Barré.','Proteinele crescute caracterizează Guillain–Barré.']],
+ ['Este o neuropatie axonală primară.','Proteinele LCR sunt normale sau minim crescute.','Nu: nervii cranieni sunt rar afectați.','Demielinizarea caracterizează Guillain–Barré.','Proteinele crescute caracterizează Guillain–Barré.']],
  [8,'Distractorii preiau trăsăturile Guillain–Barré.'],['axonală primară','Guillain-Barre']),
 
 q('ati-adv-018',['Sevrajul de ventilația mecanică:',
@@ -210,8 +210,8 @@ q('ati-adv-038',['Măsurile adjuvante în ARDS:',
  [8,'Distractorii supraestimează steroizii și NO.'],['Pronaţia','responderi']),
 
 q('ati-adv-020',['Prognosticul ARDS:',
- ['majoritatea deceselor se datorează MODS și instabilității hemodinamice','mortalitatea a scăzut la 20–40%','mortalitatea este foarte mare în sepsisul intra-abdominal','majoritatea deceselor se datorează hipoxemiei refractare','mortalitatea este mai mare în ARDS primar prin pneumonie'],'ABC',233,'ARDS — Prognostic',
+ ['majoritatea deceselor se datorează MODS și instabilității hemodinamice','mortalitatea a rămas la ~60%, fără ameliorare recentă','mortalitatea este foarte mare în sepsisul intra-abdominal','majoritatea deceselor se datorează hipoxemiei refractare','mortalitatea este mai mare în ARDS primar prin pneumonie'],'AC',233,'ARDS — Prognostic',
  'Recunoașterea factorilor de prognostic în ARDS.',
- ['Decesele sunt în majoritate prin MODS și instabilitate hemodinamică.','Mortalitatea a scăzut de la ~60% la 20–40%.','Sepsisul intra-abdominal are mortalitate foarte mare.','Nu predomină deteriorarea schimbului de gaze.','ARDS primar are mortalitate mult mai scăzută.']],
+ ['Decesele sunt în majoritate prin MODS și instabilitate hemodinamică.','Nu: mortalitatea a scăzut de la ~60% la 20–40%.','Sepsisul intra-abdominal are mortalitate foarte mare.','Nu predomină deteriorarea schimbului de gaze.','ARDS primar are mortalitate mult mai scăzută.']],
  [8,'Distractorii inversează cauza decesului și etiologia.'],['MODS','20-40%']),
 ];
