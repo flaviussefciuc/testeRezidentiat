@@ -236,3 +236,10 @@ Fiecare temă rescrisă (versiunile `-v2`) a fost confruntată din nou cu pagini
 - P. 597: textul enumeră de două ori «sevraj alcoolic» printre situațiile care sugerează luxația posterioară de umăr (dublură de traducere); nu afectează cheile.
 - P. 612, Figura 28-37: «schimbările cele mai dramatice au loc în primii 2 ani», în timp ce textul de pe p. 610 spune «primii 3 ani de viaţă». `-087-v2` spune doar «în primii ani».
 - Retrase fără înlocuitor (dubluri): 058 (anteversia la naștere, inclusă în `-087-v2`), 064 (inclus în `-131-v2`), 068 (inclus în `-132-v2`), 080 (a doua convenție de angulație, perechea lui `-079-v2`), 100 (inclus în `-050-v2`), 110 (inclus în `-014-v2`).
+
+### ORL (Lawrence, cap. 27, p. 548–583)
+- Nu s-au găsit chei greșite în itemii confruntați cu p. 548–583.
+- `orl-adv-054`: enunțul se referea la mușchiul crico-aritenoidian posterior, dar variantele B și C descriau ceilalți mușchi intrinseci și pe cei extrinseci; `-054-v2` are enunțul «Mușchii laringelui».
+- `orl-adv-115`: enunțul («aerul inspirat ... are ca ținte optime») nu se potrivea cu varianta despre venele fără valve; `-115-v2` are enunțul «Nasul și sinusurile paranazale».
+- P. 563: textul spune «plexul Kisselbach», iar p. 561 spune «plexul Kiesselbach»; itemii folosesc forma corectă, Kiesselbach.
+- Retrase fără înlocuitor (dubluri): 029 (inclus în `-118-v2`), 109 (inclus în `-020-v2`), 110 (inclus în `-021-v2`), 119 (durata tratamentului, inclusă în `-030-v2`), 120 (diagnosticul micozei invazive, inclus în `-031-v2`).
