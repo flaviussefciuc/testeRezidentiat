@@ -211171,83 +211171,6 @@
   "reviewNotes": "Rescriere a infectii-chir-adv-031: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "endocrinologie-adv-021-v2",
-  "questionFingerprint": "6c466086bc57ed2689e0bffda3578339f1324f5ff8407d3e8b74ff5c240e5bc0",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea efectelor fiziologice ale hormonilor tiroidieni.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 21,
-   "printedPages": [
-    611
-   ],
-   "pdfPages": [
-    88
-   ],
-   "section": "Cadranul 21.25"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Cresc motilitatea intestinală.",
-    "evidenceLocation": "Kumar, p. 611, Cadranul 21.25"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Cresc 2,3-BPG, facilitând eliberarea O2.",
-    "evidenceLocation": "Kumar, p. 611, Cadranul 21.25"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Cresc ritmul și debitul cardiac.",
-    "evidenceLocation": "Kumar, p. 611, Cadranul 21.25"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Cresc sensibilitatea la catecolamine și receptorii β.",
-    "evidenceLocation": "Kumar, p. 611, Cadranul 21.25"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Scad receptorii α, nu β.",
-    "evidenceLocation": "Kumar, p. 611, Cadranul 21.25"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:31:32.002Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează efectele."
-  },
-  "textbookExpressions": [
-   "2,3-BPG",
-   "motilitatea intestinului"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a endocrinologie-adv-021: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "endocrinologie-adv-023-v2",
   "questionFingerprint": "ed48c24671f1be49f0c78c073f6ca102ac710e938b30dd689163dea717612de5",
   "status": "source-checked",
@@ -211485,160 +211408,6 @@
   "reviewNotes": "Rescriere a endocrinologie-adv-006: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "endocrinologie-adv-046-v2",
-  "questionFingerprint": "11d74e3b466479ab78905462cdb016f967431f0aabbc00bc9921e55b86a43bc3",
-  "status": "source-checked",
-  "learningObjective": "Interpretarea prevalenței și semnificației anticorpilor.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 21,
-   "printedPages": [
-    611
-   ],
-   "pdfPages": [
-    88
-   ],
-   "section": "Anticorpii anti-tiroidieni"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Până la 20% din populație, mai ales femei vârstnice.",
-    "evidenceLocation": "Kumar, p. 611, Anticorpii anti-tiroidieni"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Doar 10–20% dezvoltă hipotiroidism manifest.",
-    "evidenceLocation": "Kumar, p. 611, Anticorpii anti-tiroidieni"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Sunt frecvenți în populația normală.",
-    "evidenceLocation": "Kumar, p. 611, Anticorpii anti-tiroidieni"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "TRAb sunt specifici bolii Graves.",
-    "evidenceLocation": "Kumar, p. 611, Anticorpii anti-tiroidieni"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Doar 10–20% evoluează spre hipotiroidism.",
-    "evidenceLocation": "Kumar, p. 611, Anticorpii anti-tiroidieni"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:31:32.009Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii supraestimează semnificația anti-TPO."
-  },
-  "textbookExpressions": [
-   "20% din populaţia",
-   "10-20%"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a endocrinologie-adv-046: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "endocrinologie-adv-033-v2",
-  "questionFingerprint": "5be64f226e95adb931930063438006b2a7ee806db4a156985616d9f87e857976",
-  "status": "source-checked",
-  "learningObjective": "Fixarea epidemiologiei hipotiroidismului.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 21,
-   "printedPages": [
-    611
-   ],
-   "pdfPages": [
-    88
-   ],
-   "section": "Hipotiroidismul — Fiziopatologie"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Predomină net la femei.",
-    "evidenceLocation": "Kumar, p. 611, Hipotiroidismul — Fiziopatologie"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Este sub 0,1% la bărbați.",
-    "evidenceLocation": "Kumar, p. 611, Hipotiroidismul — Fiziopatologie"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Este de obicei primar.",
-    "evidenceLocation": "Kumar, p. 611, Hipotiroidismul — Fiziopatologie"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Prevalența depășește 2% la femei.",
-    "evidenceLocation": "Kumar, p. 611, Hipotiroidismul — Fiziopatologie"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Vârsta medie la diagnostic este ~60 de ani.",
-    "evidenceLocation": "Kumar, p. 611, Hipotiroidismul — Fiziopatologie"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:31:32.010Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează distribuția pe sexe și etiologia."
-  },
-  "textbookExpressions": [
-   "0,1%",
-   "60 de ani"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a endocrinologie-adv-033: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "endocrinologie-adv-034-v2",
   "questionFingerprint": "d37948a3289e14f533f1038aff9c2cd2f6fb8b3a38875da0e9c63869bf4451fb",
   "status": "source-checked",
@@ -211870,83 +211639,6 @@
   "reviewNotes": "Rescriere a endocrinologie-adv-024: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "endocrinologie-adv-048-v2",
-  "questionFingerprint": "1a1b77bc34814dfe983510b49257c983e7a449d1b329c1feccc86ec93c04fbd9",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea sindromului Pendred.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 21,
-   "printedPages": [
-    612
-   ],
-   "pdfPages": [
-    89
-   ],
-   "section": "Dishormonogeneza"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Defectul privește pendrina.",
-    "evidenceLocation": "Kumar, p. 612, Dishormonogeneza"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "RET privește carcinomul medular.",
-    "evidenceLocation": "Kumar, p. 612, Dishormonogeneza"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Deleția este pe cromozomul 7.",
-    "evidenceLocation": "Kumar, p. 612, Dishormonogeneza"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Surditatea este senzorială.",
-    "evidenceLocation": "Kumar, p. 612, Dishormonogeneza"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Asociază surditate senzorială.",
-    "evidenceLocation": "Kumar, p. 612, Dishormonogeneza"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:31:32.013Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii schimbă defectul genetic și tipul surdității."
-  },
-  "textbookExpressions": [
-   "pendrina",
-   "cromozomului 7"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a endocrinologie-adv-048: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "endocrinologie-adv-035-v2",
   "questionFingerprint": "afacc958b12ec63b7bd45b007622cd40c5bcd3a047ebdb79a83320e7db5fec91",
   "status": "source-checked",
@@ -212022,83 +211714,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a endocrinologie-adv-035: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "endocrinologie-adv-050-v2",
-  "questionFingerprint": "bf5e5939ee24c17389b7f34abe927d3919f672f33beb3a2f4050ca092ba63211",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea monitorizării tratamentului substitutiv.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 21,
-   "printedPages": [
-    613
-   ],
-   "pdfPages": [
-    90
-   ],
-   "section": "Monitorizarea"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Evaluarea se face după cel puțin 6 săptămâni.",
-    "evidenceLocation": "Kumar, p. 613, Monitorizarea"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "IPP scad absorbția.",
-    "evidenceLocation": "Kumar, p. 613, Monitorizarea"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Doza crește cu 25–50 µg pentru TSH 0,3–2,5 mU/L.",
-    "evidenceLocation": "Kumar, p. 613, Monitorizarea"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Fierul, calciul și IPP interferă cu absorbția.",
-    "evidenceLocation": "Kumar, p. 613, Monitorizarea"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "RCT nu au arătat beneficiu constant.",
-    "evidenceLocation": "Kumar, p. 613, Monitorizarea"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:31:32.015Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii contrazic datele despre combinație și IPP."
-  },
-  "textbookExpressions": [
-   "6 săptămâni",
-   "0,3-2,5"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a endocrinologie-adv-050: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "endocrinologie-adv-036-v2",
@@ -212871,85 +212486,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a endocrinologie-adv-027: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "endocrinologie-adv-041-v2",
-  "questionFingerprint": "889b4ac6dcb6b296f431cfe90cad22a4f97988b30c9a59db53bf6c545334b64a",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea tratamentului cu carbimazol.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 21,
-   "printedPages": [
-    616,
-    617
-   ],
-   "pdfPages": [
-    93,
-    94
-   ],
-   "section": "Medicația antitiroidiană"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Doza inițială uzuală este 20–40 mg/zi.",
-    "evidenceLocation": "Kumar, p. 616, 617, Medicația antitiroidiană"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Tiamazolul este metabolitul activ.",
-    "evidenceLocation": "Kumar, p. 616, 617, Medicația antitiroidiană"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Beneficiul apare după 10–20 de zile.",
-    "evidenceLocation": "Kumar, p. 616, 617, Medicația antitiroidiană"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Agranulocitoza apare la ~1 din 1.000.",
-    "evidenceLocation": "Kumar, p. 616, 617, Medicația antitiroidiană"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Doza este 20–40 mg.",
-    "evidenceLocation": "Kumar, p. 616, 617, Medicația antitiroidiană"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:31:32.022Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii schimbă doza și cinetica."
-  },
-  "textbookExpressions": [
-   "20-40 mg",
-   "tiamazolul"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a endocrinologie-adv-041: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "endocrinologie-adv-054-v2",
@@ -213959,85 +213495,6 @@
   "reviewNotes": "Rescriere a endocrinologie-adv-049: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "endocrinologie-adv-039-v2",
-  "questionFingerprint": "ef9bcd4618c2c9340829eddcdcdb457861d161f4eec178d8a7b30935d9980150",
-  "status": "source-checked",
-  "learningObjective": "Fixarea epidemiologiei hipertiroidismului.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 21,
-   "printedPages": [
-    614,
-    613
-   ],
-   "pdfPages": [
-    91,
-    90
-   ],
-   "section": "Hipertiroidismul"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Raportul pe sexe este 5:1.",
-    "evidenceLocation": "Kumar, p. 614, 613, Hipertiroidismul"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Cauza hipofizară este extrem de rară.",
-    "evidenceLocation": "Kumar, p. 614, 613, Hipertiroidismul"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Apare cel mai adesea între 20 și 40 de ani.",
-    "evidenceLocation": "Kumar, p. 614, 613, Hipertiroidismul"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Peste 99% sunt de cauză tiroidiană.",
-    "evidenceLocation": "Kumar, p. 614, 613, Hipertiroidismul"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Afectează 2–5% dintre femei.",
-    "evidenceLocation": "Kumar, p. 614, 613, Hipertiroidismul"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:32:24.442Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii contrazic etiologia și vârsta."
-  },
-  "textbookExpressions": [
-   "5:1",
-   ">99%"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a endocrinologie-adv-039: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "endocrinologie-adv-040-v2",
   "questionFingerprint": "22d2980836bb4fe93cac0559d255ffcdc3594aa558a724ec727ac1966ece80f8",
   "status": "source-checked",
@@ -214113,85 +213570,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a endocrinologie-adv-040: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "endocrinologie-adv-010-v2",
-  "questionFingerprint": "986e6c833f0ec32c559a2c3d2488e641db78df42dfecb7e9365ff44211cecc81",
-  "status": "source-checked",
-  "learningObjective": "Diferențierea semnelor oculare generale de orbitopatia Graves.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 21,
-   "printedPages": [
-    615,
-    618
-   ],
-   "pdfPages": [
-    92,
-    95
-   ],
-   "section": "Anamneză și examen obiectiv"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Orbitopatia apare și la eu- sau hipotiroidieni.",
-    "evidenceLocation": "Kumar, p. 615, 618, Anamneză și examen obiectiv"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Poate fi uneori unilaterală.",
-    "evidenceLocation": "Kumar, p. 615, 618, Anamneză și examen obiectiv"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Retracția palpebrală apare în orice hipertiroidism.",
-    "evidenceLocation": "Kumar, p. 615, 618, Anamneză și examen obiectiv"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Nu evoluează în paralel cu tirotoxicoza.",
-    "evidenceLocation": "Kumar, p. 615, 618, Anamneză și examen obiectiv"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Fumatul agravează orbitopatia.",
-    "evidenceLocation": "Kumar, p. 615, 618, Anamneză și examen obiectiv"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:32:24.444Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii leagă orbitopatia de biochimie."
-  },
-  "textbookExpressions": [
-   "retracţia palpebrală",
-   "fumători"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a endocrinologie-adv-010: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "endocrinologie-adv-005-v2",
@@ -214273,83 +213651,6 @@
   "reviewNotes": "Rescriere a endocrinologie-adv-005: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "endocrinologie-adv-028-v2",
-  "questionFingerprint": "b99aa993d5ea20d81a3483026b513f04025824cc68beda06a5c0e834df7f2736",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea protocolului de iod radioactiv.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 21,
-   "printedPages": [
-    617
-   ],
-   "pdfPages": [
-    94
-   ],
-   "section": "Iodul radioactiv"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Eutiroidismul apare în 2–3 luni.",
-    "evidenceLocation": "Kumar, p. 617, Iodul radioactiv"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Doza empirică este 400–550 MBq.",
-    "evidenceLocation": "Kumar, p. 617, Iodul radioactiv"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Antitiroidianul se oprește cu ≥4 zile înainte.",
-    "evidenceLocation": "Kumar, p. 617, Iodul radioactiv"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Doza este 400–550 MBq.",
-    "evidenceLocation": "Kumar, p. 617, Iodul radioactiv"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Este contraindicat în sarcină și alăptare.",
-    "evidenceLocation": "Kumar, p. 617, Iodul radioactiv"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:32:24.446Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii schimbă doza și contraindicația."
-  },
-  "textbookExpressions": [
-   "400-550",
-   "4 zile"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a endocrinologie-adv-028: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "endocrinologie-adv-032-v2",
   "questionFingerprint": "df2e9c2494162d2600813059be06b4d03003b23cd1e935252423f43370dc2514",
   "status": "source-checked",
@@ -214425,83 +213726,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a endocrinologie-adv-032: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "endocrinologie-adv-044-v2",
-  "questionFingerprint": "e4e5fde4fe7e09b7ca2745999801023f34cd2a6e354812bb4e96f4a33a3dee3e",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea carcinomului medular.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 21,
-   "printedPages": [
-    622
-   ],
-   "pdfPages": [
-    97
-   ],
-   "section": "Carcinomul medular"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Provine din celulele C.",
-    "evidenceLocation": "Kumar, p. 622, Carcinomul medular"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Provine din celulele C.",
-    "evidenceLocation": "Kumar, p. 622, Carcinomul medular"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Purtătorii MEN 2 fac tiroidectomie de la 5 ani.",
-    "evidenceLocation": "Kumar, p. 622, Carcinomul medular"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "~25% au mutație RET.",
-    "evidenceLocation": "Kumar, p. 622, Carcinomul medular"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Răspunde slab la tratament.",
-    "evidenceLocation": "Kumar, p. 622, Carcinomul medular"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:32:24.448Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii confundă originea și răspunsul."
-  },
-  "textbookExpressions": [
-   "RET",
-   "5 ani"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a endocrinologie-adv-044: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "endocrinologie-adv-043-v2",
@@ -269519,5 +268743,781 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a infectii-chir-adv-012: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "endocrinologie-adv-021-v2",
+  "questionFingerprint": "35b6d31f78929863b7829c40bf665edf9a6d3a6d72822beeed7656942626b776",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea efectelor fiziologice ale hormonilor tiroidieni.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    611
+   ],
+   "pdfPages": [
+    88
+   ],
+   "section": "Cadranul 21.25"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Cresc motilitatea intestinală.",
+    "evidenceLocation": "Kumar, p. 611, Cadranul 21.25"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: hormonii tiroidieni cresc 2,3-BPG, facilitând eliberarea O2.",
+    "evidenceLocation": "Kumar, p. 611, Cadranul 21.25"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Cresc ritmul și debitul cardiac.",
+    "evidenceLocation": "Kumar, p. 611, Cadranul 21.25"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Cresc sensibilitatea la catecolamine și receptorii β.",
+    "evidenceLocation": "Kumar, p. 611, Cadranul 21.25"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Scad receptorii α, nu β.",
+    "evidenceLocation": "Kumar, p. 611, Cadranul 21.25"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:22:20.140Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează efectele."
+  },
+  "textbookExpressions": [
+   "2,3-BPG",
+   "motilitatea intestinului"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a endocrinologie-adv-021: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "endocrinologie-adv-046-v2",
+  "questionFingerprint": "4a5315c7448c575726d456d7d09e8748967a35ce48bcd2c0cffe0f89ce96e076",
+  "status": "source-checked",
+  "learningObjective": "Interpretarea prevalenței și semnificației anticorpilor.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    611
+   ],
+   "pdfPages": [
+    88
+   ],
+   "section": "Anticorpii anti-tiroidieni"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Până la 20% din populație, mai ales femei vârstnice.",
+    "evidenceLocation": "Kumar, p. 611, Anticorpii anti-tiroidieni"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Doar 10–20% dezvoltă hipotiroidism manifest.",
+    "evidenceLocation": "Kumar, p. 611, Anticorpii anti-tiroidieni"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Sunt frecvenți în populația normală.",
+    "evidenceLocation": "Kumar, p. 611, Anticorpii anti-tiroidieni"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: TRAb sunt specifici bolii Graves.",
+    "evidenceLocation": "Kumar, p. 611, Anticorpii anti-tiroidieni"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Doar 10–20% evoluează spre hipotiroidism.",
+    "evidenceLocation": "Kumar, p. 611, Anticorpii anti-tiroidieni"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:22:20.143Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii supraestimează semnificația anti-TPO."
+  },
+  "textbookExpressions": [
+   "20% din populaţia",
+   "10-20%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a endocrinologie-adv-046: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "endocrinologie-adv-033-v2",
+  "questionFingerprint": "c37ae7cd8b0165c66d6d4b9e3f310026affc9e6d36f668d143d0251138907134",
+  "status": "source-checked",
+  "learningObjective": "Fixarea epidemiologiei hipotiroidismului.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    611
+   ],
+   "pdfPages": [
+    88
+   ],
+   "section": "Hipotiroidismul — Fiziopatologie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Predomină net la femei.",
+    "evidenceLocation": "Kumar, p. 611, Hipotiroidismul — Fiziopatologie"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Este sub 0,1% la bărbați.",
+    "evidenceLocation": "Kumar, p. 611, Hipotiroidismul — Fiziopatologie"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Este de obicei primar.",
+    "evidenceLocation": "Kumar, p. 611, Hipotiroidismul — Fiziopatologie"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Prevalența depășește 2% la femei.",
+    "evidenceLocation": "Kumar, p. 611, Hipotiroidismul — Fiziopatologie"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: vârsta medie la diagnostic este ~60 de ani.",
+    "evidenceLocation": "Kumar, p. 611, Hipotiroidismul — Fiziopatologie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:22:20.144Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează distribuția pe sexe și etiologia."
+  },
+  "textbookExpressions": [
+   "0,1%",
+   "60 de ani"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a endocrinologie-adv-033: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "endocrinologie-adv-048-v2",
+  "questionFingerprint": "3a4bb50d1f48b2d8f24b2a51747c3316b721e9e5d83df223550b31613a86c9eb",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea sindromului Pendred.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    612
+   ],
+   "pdfPages": [
+    89
+   ],
+   "section": "Dishormonogeneza"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Defectul privește pendrina.",
+    "evidenceLocation": "Kumar, p. 612, Dishormonogeneza"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "RET privește carcinomul medular.",
+    "evidenceLocation": "Kumar, p. 612, Dishormonogeneza"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: deleția este pe cromozomul 7.",
+    "evidenceLocation": "Kumar, p. 612, Dishormonogeneza"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Surditatea este senzorială.",
+    "evidenceLocation": "Kumar, p. 612, Dishormonogeneza"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Asociază surditate senzorială.",
+    "evidenceLocation": "Kumar, p. 612, Dishormonogeneza"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:22:20.145Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii schimbă defectul genetic și tipul surdității."
+  },
+  "textbookExpressions": [
+   "pendrina",
+   "cromozomului 7"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a endocrinologie-adv-048: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "endocrinologie-adv-050-v2",
+  "questionFingerprint": "267d8a655f5acdca983189cdac045d981649a1f388e6f4e6441c28c9cdf7011d",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea monitorizării tratamentului substitutiv.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    613
+   ],
+   "pdfPages": [
+    90
+   ],
+   "section": "Monitorizarea"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: evaluarea se face după cel puțin 6 săptămâni.",
+    "evidenceLocation": "Kumar, p. 613, Monitorizarea"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "IPP scad absorbția.",
+    "evidenceLocation": "Kumar, p. 613, Monitorizarea"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Doza crește cu 25–50 µg pentru TSH 0,3–2,5 mU/L.",
+    "evidenceLocation": "Kumar, p. 613, Monitorizarea"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Fierul, calciul și IPP interferă cu absorbția.",
+    "evidenceLocation": "Kumar, p. 613, Monitorizarea"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "RCT nu au arătat beneficiu constant.",
+    "evidenceLocation": "Kumar, p. 613, Monitorizarea"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:22:20.146Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii contrazic datele despre combinație și IPP."
+  },
+  "textbookExpressions": [
+   "6 săptămâni",
+   "0,3-2,5"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a endocrinologie-adv-050: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "endocrinologie-adv-039-v2",
+  "questionFingerprint": "6f6198d0fc1bd6cc1e8bea456e7b56787b51ef611fc384de75b86235dcd13069",
+  "status": "source-checked",
+  "learningObjective": "Fixarea epidemiologiei hipertiroidismului.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    614,
+    613
+   ],
+   "pdfPages": [
+    91,
+    90
+   ],
+   "section": "Hipertiroidismul"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: raportul pe sexe este 5:1.",
+    "evidenceLocation": "Kumar, p. 614, 613, Hipertiroidismul"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Cauza hipofizară este extrem de rară.",
+    "evidenceLocation": "Kumar, p. 614, 613, Hipertiroidismul"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Apare cel mai adesea între 20 și 40 de ani.",
+    "evidenceLocation": "Kumar, p. 614, 613, Hipertiroidismul"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Peste 99% sunt de cauză tiroidiană.",
+    "evidenceLocation": "Kumar, p. 614, 613, Hipertiroidismul"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Afectează 2–5% dintre femei.",
+    "evidenceLocation": "Kumar, p. 614, 613, Hipertiroidismul"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:22:20.147Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii contrazic etiologia și vârsta."
+  },
+  "textbookExpressions": [
+   "5:1",
+   ">99%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a endocrinologie-adv-039: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "endocrinologie-adv-010-v2",
+  "questionFingerprint": "0ba0b531666f58813ef8be89cbc8d0bcdce437807ab0048030ef53cd19dd7dc9",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea semnelor oculare generale de orbitopatia Graves.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    615,
+    618
+   ],
+   "pdfPages": [
+    92,
+    95
+   ],
+   "section": "Anamneză și examen obiectiv"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Orbitopatia apare și la eu- sau hipotiroidieni.",
+    "evidenceLocation": "Kumar, p. 615, 618, Anamneză și examen obiectiv"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Orbitopatia poate fi uneori unilaterală.",
+    "evidenceLocation": "Kumar, p. 615, 618, Anamneză și examen obiectiv"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Retracția palpebrală apare în orice hipertiroidism.",
+    "evidenceLocation": "Kumar, p. 615, 618, Anamneză și examen obiectiv"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu evoluează în paralel cu tirotoxicoza.",
+    "evidenceLocation": "Kumar, p. 615, 618, Anamneză și examen obiectiv"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Fumatul agravează orbitopatia.",
+    "evidenceLocation": "Kumar, p. 615, 618, Anamneză și examen obiectiv"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:22:20.149Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii leagă orbitopatia de biochimie."
+  },
+  "textbookExpressions": [
+   "retracţia palpebrală",
+   "fumători"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a endocrinologie-adv-010: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "endocrinologie-adv-041-v2",
+  "questionFingerprint": "fd9e318d1420e5f5d48cbbed55643e679748e621e02ff2f413ccd5d3a2dc5956",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea tratamentului cu carbimazol.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    616,
+    617
+   ],
+   "pdfPages": [
+    93,
+    94
+   ],
+   "section": "Medicația antitiroidiană"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Doza inițială uzuală este 20–40 mg/zi.",
+    "evidenceLocation": "Kumar, p. 616, 617, Medicația antitiroidiană"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Tiamazolul este metabolitul activ.",
+    "evidenceLocation": "Kumar, p. 616, 617, Medicația antitiroidiană"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Beneficiul apare după 10–20 de zile.",
+    "evidenceLocation": "Kumar, p. 616, 617, Medicația antitiroidiană"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: agranulocitoza apare la ~1 din 1.000.",
+    "evidenceLocation": "Kumar, p. 616, 617, Medicația antitiroidiană"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Doza este 20–40 mg.",
+    "evidenceLocation": "Kumar, p. 616, 617, Medicația antitiroidiană"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:22:20.151Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii schimbă doza și cinetica."
+  },
+  "textbookExpressions": [
+   "20-40 mg",
+   "tiamazolul"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a endocrinologie-adv-041: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "endocrinologie-adv-028-v2",
+  "questionFingerprint": "ef335bdb6f4c79c270657216eacebf4d32ff7f087febf1ed42f53658fb4856a8",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea protocolului de iod radioactiv.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    617
+   ],
+   "pdfPages": [
+    94
+   ],
+   "section": "Iodul radioactiv"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: eutiroidismul apare în 2–3 luni.",
+    "evidenceLocation": "Kumar, p. 617, Iodul radioactiv"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Doza empirică este 400–550 MBq.",
+    "evidenceLocation": "Kumar, p. 617, Iodul radioactiv"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Antitiroidianul se oprește cu ≥4 zile înainte.",
+    "evidenceLocation": "Kumar, p. 617, Iodul radioactiv"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Doza este 400–550 MBq.",
+    "evidenceLocation": "Kumar, p. 617, Iodul radioactiv"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Este contraindicat în sarcină și alăptare.",
+    "evidenceLocation": "Kumar, p. 617, Iodul radioactiv"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:22:20.152Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii schimbă doza și contraindicația."
+  },
+  "textbookExpressions": [
+   "400-550",
+   "4 zile"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a endocrinologie-adv-028: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "endocrinologie-adv-044-v2",
+  "questionFingerprint": "6ebdccfad065e454953414cdd860ce58bc41327c5090594bfbed5f09908f39db",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea carcinomului medular.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    622
+   ],
+   "pdfPages": [
+    97
+   ],
+   "section": "Carcinomul medular"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Provine din celulele C.",
+    "evidenceLocation": "Kumar, p. 622, Carcinomul medular"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Provine din celulele C.",
+    "evidenceLocation": "Kumar, p. 622, Carcinomul medular"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Purtătorii MEN 2 fac tiroidectomie de la 5 ani.",
+    "evidenceLocation": "Kumar, p. 622, Carcinomul medular"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: aproximativ 25% au mutație RET.",
+    "evidenceLocation": "Kumar, p. 622, Carcinomul medular"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Răspunde slab la tratament.",
+    "evidenceLocation": "Kumar, p. 622, Carcinomul medular"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:22:20.153Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii confundă originea și răspunsul."
+  },
+  "textbookExpressions": [
+   "RET",
+   "5 ani"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a endocrinologie-adv-044: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  }
 ]

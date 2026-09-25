@@ -7,9 +7,9 @@ const q=rewriter(RETIRED_ENDOCRINOLOGIE,(p:number)=>p<=618?p-523:p-525,{shuffle:
 
 export const ENDOCRINOLOGIE_V2=[
 q('endocrinologie-adv-021',['Conform Cadranului 21.25, hormonii tiroidieni:',
- ['cresc debitul cardiac','cresc numărul receptorilor β-adrenergici','cresc 2,3-BPG eritrocitar','scad numărul receptorilor β-adrenergici cardiaci','scad motilitatea intestinală'],'ABC',611,'Cadranul 21.25',
+ ['cresc debitul cardiac','cresc numărul receptorilor β-adrenergici','scad 2,3-BPG eritrocitar','scad numărul receptorilor β-adrenergici cardiaci','scad motilitatea intestinală'],'AB',611,'Cadranul 21.25',
  'Recunoașterea efectelor fiziologice ale hormonilor tiroidieni.',
- ['Cresc ritmul și debitul cardiac.','Cresc sensibilitatea la catecolamine și receptorii β.','Cresc 2,3-BPG, facilitând eliberarea O2.','Scad receptorii α, nu β.','Cresc motilitatea intestinală.']],
+ ['Cresc ritmul și debitul cardiac.','Cresc sensibilitatea la catecolamine și receptorii β.','Nu: hormonii tiroidieni cresc 2,3-BPG, facilitând eliberarea O2.','Scad receptorii α, nu β.','Cresc motilitatea intestinală.']],
  [8,'Distractorii inversează efectele.'],['2,3-BPG','motilitatea intestinului']),
 
 q('endocrinologie-adv-022',['Conform Cadranului 21.26, T3-toxicoza are:',
@@ -43,15 +43,15 @@ q('endocrinologie-adv-002',['Relația corectă dintre autoanticorpii tiroidieni 
  [8,'Distractorii permută țintele și efectul.'],['peroxidaza tiroidiană','ocazional blochează']),
 
 q('endocrinologie-adv-046',['Anticorpii anti-tiroidieni:',
- ['anti-TPO se găsesc la până la 20% din populația normală','doar 10–20% dintre purtătorii anti-TPO devin hipotiroidieni','TRAb sunt specifici bolii Graves','anti-TPO lipsesc la persoanele eutiroidiene','majoritatea purtătorilor anti-TPO devin hipotiroidieni'],'ABC',611,'Anticorpii anti-tiroidieni',
+ ['anti-TPO se găsesc la până la 20% din populația normală','doar 10–20% dintre purtătorii anti-TPO devin hipotiroidieni','TRAb sunt specifici tiroiditei Hashimoto','anti-TPO lipsesc la persoanele eutiroidiene','majoritatea purtătorilor anti-TPO devin hipotiroidieni'],'AB',611,'Anticorpii anti-tiroidieni',
  'Interpretarea prevalenței și semnificației anticorpilor.',
- ['Până la 20% din populație, mai ales femei vârstnice.','Doar 10–20% dezvoltă hipotiroidism manifest.','TRAb sunt specifici bolii Graves.','Sunt frecvenți în populația normală.','Doar 10–20% evoluează spre hipotiroidism.']],
+ ['Până la 20% din populație, mai ales femei vârstnice.','Doar 10–20% dezvoltă hipotiroidism manifest.','Nu: TRAb sunt specifici bolii Graves.','Sunt frecvenți în populația normală.','Doar 10–20% evoluează spre hipotiroidism.']],
  [8,'Distractorii supraestimează semnificația anti-TPO.'],['20% din populaţia','10-20%']),
 
 q('endocrinologie-adv-033',['Hipotiroidismul primar:',
- ['are prevalență în Marea Britanie de peste 2% la femei','are prevalență sub 0,1% la bărbați','se diagnostichează în medie în jurul vârstei de 60 de ani','are prevalență identică la cele două sexe','este de obicei secundar unei boli hipofizare'],'ABC',611,'Hipotiroidismul — Fiziopatologie',
+ ['are prevalență în Marea Britanie de peste 2% la femei','are prevalență sub 0,1% la bărbați','se diagnostichează în medie în jurul vârstei de 30 de ani','are prevalență identică la cele două sexe','este de obicei secundar unei boli hipofizare'],'AB',611,'Hipotiroidismul — Fiziopatologie',
  'Fixarea epidemiologiei hipotiroidismului.',
- ['Prevalența depășește 2% la femei.','Este sub 0,1% la bărbați.','Vârsta medie la diagnostic este ~60 de ani.','Predomină net la femei.','Este de obicei primar.']],
+ ['Prevalența depășește 2% la femei.','Este sub 0,1% la bărbați.','Nu: vârsta medie la diagnostic este ~60 de ani.','Predomină net la femei.','Este de obicei primar.']],
  [8,'Distractorii inversează distribuția pe sexe și etiologia.'],['0,1%','60 de ani']),
 
 q('endocrinologie-adv-045',['Hipotiroidismul atrofic autoimun:',
@@ -79,9 +79,9 @@ q('endocrinologie-adv-024',['Deficitul alimentar de iod:',
  [8,'Distractorii supraestimează succesul iodării.'],['guşă endemică','2 milioane']),
 
 q('endocrinologie-adv-048',['Sindromul Pendred:',
- ['asociază surditate senzorială','se datorează unei deleții pe cromozomul 7','afectează transportorul pendrina','se datorează unei mutații RET','produce surditate de conducere'],'ABC',612,'Dishormonogeneza',
+ ['asociază surditate senzorială','se datorează unei deleții pe cromozomul 21','afectează transportorul pendrina','se datorează unei mutații RET','produce surditate de conducere'],'AC',612,'Dishormonogeneza',
  'Recunoașterea sindromului Pendred.',
- ['Asociază surditate senzorială.','Deleția este pe cromozomul 7.','Defectul privește pendrina.','RET privește carcinomul medular.','Surditatea este senzorială.']],
+ ['Asociază surditate senzorială.','Nu: deleția este pe cromozomul 7.','Defectul privește pendrina.','RET privește carcinomul medular.','Surditatea este senzorială.']],
  [8,'Distractorii schimbă defectul genetic și tipul surdității.'],['pendrina','cromozomului 7']),
 
 q('endocrinologie-adv-049',['În hipotiroidismul primar pot apărea:',
@@ -97,9 +97,9 @@ q('endocrinologie-adv-035',['Tratamentul cu levotiroxină în hipotiroidismul pr
  [8,'Singurul distractor ignoră riscul cardiac.'],['25','100-150']),
 
 q('endocrinologie-adv-050',['Monitorizarea substituției cu levotiroxină:',
- ['se evaluează după cel puțin 6 săptămâni de doză constantă','în sarcină doza crește adesea cu 25–50 µg','fierul și calciul pot scădea absorbția tiroxinei','combinația T4+T3 are beneficiu constant asupra calității vieții','inhibitorii pompei de protoni cresc absorbția tiroxinei'],'ABC',613,'Monitorizarea',
+ ['se evaluează după cel puțin 1 săptămână de doză constantă','în sarcină doza crește adesea cu 25–50 µg','fierul și calciul pot scădea absorbția tiroxinei','combinația T4+T3 are beneficiu constant asupra calității vieții','inhibitorii pompei de protoni cresc absorbția tiroxinei'],'BC',613,'Monitorizarea',
  'Aplicarea monitorizării tratamentului substitutiv.',
- ['Evaluarea se face după cel puțin 6 săptămâni.','Doza crește cu 25–50 µg pentru TSH 0,3–2,5 mU/L.','Fierul, calciul și IPP interferă cu absorbția.','RCT nu au arătat beneficiu constant.','IPP scad absorbția.']],
+ ['Nu: evaluarea se face după cel puțin 6 săptămâni.','Doza crește cu 25–50 µg pentru TSH 0,3–2,5 mU/L.','Fierul, calciul și IPP interferă cu absorbția.','RCT nu au arătat beneficiu constant.','IPP scad absorbția.']],
  [8,'Distractorii contrazic datele despre combinație și IPP.'],['6 săptămâni','0,3-2,5']),
 
 q('endocrinologie-adv-036',['Hipotiroidismul de graniță (eutiroidismul compensat):',
@@ -121,9 +121,9 @@ q('endocrinologie-adv-038',['Hipotiroidismul congenital:',
  [8,'Distractorii umflă incidența și întârzie tratamentul.'],['3.500','Guthrie']),
 
 q('endocrinologie-adv-039',['Hipertiroidismul:',
- ['afectează 2–5% dintre femei','are raport femei:bărbați de 5:1','are cauză tiroidiană în peste 99% din cazuri','are frecvent o cauză hipofizară, prin exces de TSH','apare cel mai adesea după 70 de ani'],'ABC',614,'Hipertiroidismul',
+ ['afectează 2–5% dintre femei','are raport femei:bărbați de 1:1','are cauză tiroidiană în peste 99% din cazuri','are frecvent o cauză hipofizară, prin exces de TSH','apare cel mai adesea după 70 de ani'],'AC',614,'Hipertiroidismul',
  'Fixarea epidemiologiei hipertiroidismului.',
- ['Afectează 2–5% dintre femei.','Raportul pe sexe este 5:1.','Peste 99% sunt de cauză tiroidiană.','Cauza hipofizară este extrem de rară.','Apare cel mai adesea între 20 și 40 de ani.']],
+ ['Afectează 2–5% dintre femei.','Nu: raportul pe sexe este 5:1.','Peste 99% sunt de cauză tiroidiană.','Cauza hipofizară este extrem de rară.','Apare cel mai adesea între 20 și 40 de ani.']],
  [8,'Distractorii contrazic etiologia și vârsta.'],['5:1','>99%'],[613]),
 
 q('endocrinologie-adv-012',['Conform Cadranului 21.29, în diagnosticul tirotoxicozei:',
@@ -151,9 +151,9 @@ q('endocrinologie-adv-040',['Tirotoxicoza indusă de inhibitorii punctului de co
  [8,'Singurul distractor inversează frecvența.'],['15%','3 şi 12']),
 
 q('endocrinologie-adv-010',['Semnele oculare și orbitopatia Graves:',
- ['retracția palpebrală apare în orice hipertiroidism','orbitopatia apare și la eutiroidieni','orbitopatia este mai severă la fumători','severitatea oculară urmărește nivelul fT4','orbitopatia este strict bilaterală și simetrică'],'ABC',615,'Anamneză și examen obiectiv',
+ ['retracția palpebrală apare în orice hipertiroidism','orbitopatia apare și la eutiroidieni','orbitopatia este mai severă la fumători','severitatea oculară urmărește nivelul fT4','orbitopatia poate fi uneori unilaterală'],'ABCE',615,'Anamneză și examen obiectiv',
  'Diferențierea semnelor oculare generale de orbitopatia Graves.',
- ['Retracția palpebrală apare în orice hipertiroidism.','Orbitopatia apare și la eu- sau hipotiroidieni.','Fumatul agravează orbitopatia.','Nu evoluează în paralel cu tirotoxicoza.','Poate fi uneori unilaterală.']],
+ ['Retracția palpebrală apare în orice hipertiroidism.','Orbitopatia apare și la eu- sau hipotiroidieni.','Fumatul agravează orbitopatia.','Nu evoluează în paralel cu tirotoxicoza.','Orbitopatia poate fi uneori unilaterală.']],
  [8,'Distractorii leagă orbitopatia de biochimie.'],['retracţia palpebrală','fumători'],[618]),
 
 q('endocrinologie-adv-053',['La vârstnicul cu fibrilație atrială nou apărută, fără alte semne:',
@@ -181,9 +181,9 @@ q('endocrinologie-adv-027',['Beta-blocantele în hipertiroidism:',
  [8,'Distractorii contrazic rolul adjuvant.'],['propranolol','conversia periferică']),
 
 q('endocrinologie-adv-041',['Carbimazolul:',
- ['se începe de obicei cu 20–40 mg/zi','are ca metabolit activ tiamazolul','produce agranulocitoză la ~0,1%','are beneficiu clinic imediat, în primele 48 de ore','se începe de obicei cu 200 mg/zi'],'ABC',616,'Medicația antitiroidiană',
+ ['se începe de obicei cu 20–40 mg/zi','are ca metabolit activ tiamazolul','produce agranulocitoză la ~10%','are beneficiu clinic imediat, în primele 48 de ore','se începe de obicei cu 200 mg/zi'],'AB',616,'Medicația antitiroidiană',
  'Aplicarea tratamentului cu carbimazol.',
- ['Doza inițială uzuală este 20–40 mg/zi.','Tiamazolul este metabolitul activ.','Agranulocitoza apare la ~1 din 1.000.','Beneficiul apare după 10–20 de zile.','Doza este 20–40 mg.']],
+ ['Doza inițială uzuală este 20–40 mg/zi.','Tiamazolul este metabolitul activ.','Nu: agranulocitoza apare la ~1 din 1.000.','Beneficiul apare după 10–20 de zile.','Doza este 20–40 mg.']],
  [8,'Distractorii schimbă doza și cinetica.'],['20-40 mg','tiamazolul']),
 
 q('endocrinologie-adv-005',['Regimul „blocare și substituție” este contraindicat în sarcină deoarece:',
@@ -205,9 +205,9 @@ q('endocrinologie-adv-014',['Iodul radioactiv în hipertiroidism:',
  [8,'Distractorii inversează riscurile.'],['radioprotectoare','câteva luni']),
 
 q('endocrinologie-adv-028',['Protocolul iodului radioactiv 131I:',
- ['folosește de obicei 400–550 MBq','cere oprirea antitiroidianului cu ≥4 zile înainte','duce de regulă la eutiroidism în 2–3 luni','este permis în sarcină și în alăptare','folosește de obicei 50 MBq în doză unică'],'ABC',617,'Iodul radioactiv',
+ ['folosește de obicei 400–550 MBq','cere oprirea antitiroidianului cu ≥4 zile înainte','duce de regulă la eutiroidism în 2–3 zile','este permis în sarcină și în alăptare','folosește de obicei 50 MBq în doză unică'],'AB',617,'Iodul radioactiv',
  'Aplicarea protocolului de iod radioactiv.',
- ['Doza empirică este 400–550 MBq.','Antitiroidianul se oprește cu ≥4 zile înainte.','Eutiroidismul apare în 2–3 luni.','Este contraindicat în sarcină și alăptare.','Doza este 400–550 MBq.']],
+ ['Doza empirică este 400–550 MBq.','Antitiroidianul se oprește cu ≥4 zile înainte.','Nu: eutiroidismul apare în 2–3 luni.','Este contraindicat în sarcină și alăptare.','Doza este 400–550 MBq.']],
  [8,'Distractorii schimbă doza și contraindicația.'],['400-550','4 zile']),
 
 q('endocrinologie-adv-029',['Pregătirea preoperatorie pentru tiroidectomie:',
@@ -265,8 +265,8 @@ q('endocrinologie-adv-018',['Tiroglobulina după tratamentul cancerului tiroidia
  [8,'Singurul distractor inversează condiția.'],['tiroglobulina','rhTSH'],[622]),
 
 q('endocrinologie-adv-044',['Carcinomul medular tiroidian:',
- ['provine din celulele C (calcitonină)','are mutație RET la ~25% dintre pacienți','tiroidectomia profilactică se face de la 5 ani','răspunde bine la iodul radioactiv adjuvant','provine din epiteliul folicular tiroidian'],'ABC',622,'Carcinomul medular',
+ ['provine din celulele C (calcitonină)','are mutație RET la ~90% dintre pacienți','tiroidectomia profilactică se face de la 5 ani','răspunde bine la iodul radioactiv adjuvant','provine din epiteliul folicular tiroidian'],'AC',622,'Carcinomul medular',
  'Recunoașterea carcinomului medular.',
- ['Provine din celulele C.','~25% au mutație RET.','Purtătorii MEN 2 fac tiroidectomie de la 5 ani.','Răspunde slab la tratament.','Provine din celulele C.']],
+ ['Provine din celulele C.','Nu: aproximativ 25% au mutație RET.','Purtătorii MEN 2 fac tiroidectomie de la 5 ani.','Răspunde slab la tratament.','Provine din celulele C.']],
  [8,'Distractorii confundă originea și răspunsul.'],['RET','5 ani']),
 ];
