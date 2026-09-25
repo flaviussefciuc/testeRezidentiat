@@ -66,7 +66,7 @@ were found on that page. Cutoff-page and box checks for each topic are logged in
 
 ## Items relying on a Cadran / Figura / Tabel
 
-569 items, 155 resolved, 414 pending.
+569 items, 159 resolved, 410 pending.
 
 | Original ID | Topic | Status |
 |---|---|---|
@@ -250,10 +250,10 @@ were found on that page. Cutoff-page and box checks for each topic are logged in
 | epidemio-adv-022 | epidemio | retired without replacement |
 | esofag-adv-039 | esofag | replaced by esofag-adv-039-v2 (p. 152; expressions verified on the cited page) |
 | esofag-adv-070 | esofag | retired without replacement |
-| ficat-splina-adv-012 | ficat-splina | pending (original still live) |
-| ficat-splina-adv-044 | ficat-splina | pending (original still live) |
-| ficat-splina-adv-059 | ficat-splina | pending (original still live) |
-| ficat-splina-adv-062 | ficat-splina | pending (original still live) |
+| ficat-splina-adv-012 | ficat-splina | replaced by ficat-splina-adv-012-v2 (p. 333; expressions verified on the cited page) |
+| ficat-splina-adv-044 | ficat-splina | replaced by ficat-splina-adv-044-v2 (p. 333; expressions verified on the cited page) |
+| ficat-splina-adv-059 | ficat-splina | replaced by ficat-splina-adv-059-v2 (p. 337; expressions verified on the cited page) |
+| ficat-splina-adv-062 | ficat-splina | replaced by ficat-splina-adv-062-v2 (p. 339; expressions verified on the cited page) |
 | gastro-adv-008 | gastro | pending (original still live) |
 | gastro-adv-011 | gastro | pending (original still live) |
 | gastro-adv-013 | gastro | pending (original still live) |

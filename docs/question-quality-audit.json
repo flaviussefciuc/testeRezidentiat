@@ -10,13 +10,13 @@
   "live": {
     "count": 3435,
     "correctAnswerCounts": {
-      "1": 704,
-      "2": 426,
-      "3": 1607,
-      "4": 698
+      "1": 702,
+      "2": 415,
+      "3": 1621,
+      "4": 697
     },
     "missingMultipleAnswerFormats": [],
-    "fourCorrectShareOfMultiple": 25.6,
+    "fourCorrectShareOfMultiple": 25.5,
     "idsUnique": true,
     "structuralErrors": [],
     "exactQuestionDuplicates": [],
@@ -36,7 +36,8 @@
       "intestin-adv-024-v2",
       "vascular-adv-035-v2",
       "infectii-chir-adv-022-v2",
-      "endocrinologie-adv-038-v2"
+      "endocrinologie-adv-038-v2",
+      "ficat-splina-adv-054-v2"
     ],
     "topicCoverage": [
       {
@@ -200,13 +201,13 @@
   "draft": {
     "count": 3606,
     "correctAnswerCounts": {
-      "1": 748,
-      "2": 448,
-      "3": 1651,
-      "4": 759
+      "1": 746,
+      "2": 437,
+      "3": 1665,
+      "4": 758
     },
     "missingMultipleAnswerFormats": [],
-    "fourCorrectShareOfMultiple": 26.6,
+    "fourCorrectShareOfMultiple": 26.5,
     "idsUnique": true,
     "structuralErrors": [],
     "exactQuestionDuplicates": [],
@@ -247,7 +248,8 @@
       "intestin-adv-024-v2",
       "vascular-adv-035-v2",
       "infectii-chir-adv-022-v2",
-      "endocrinologie-adv-038-v2"
+      "endocrinologie-adv-038-v2",
+      "ficat-splina-adv-054-v2"
     ],
     "topicCoverage": [
       {
@@ -411,13 +413,13 @@
   "accepted": {
     "count": 3435,
     "correctAnswerCounts": {
-      "1": 704,
-      "2": 426,
-      "3": 1607,
-      "4": 698
+      "1": 702,
+      "2": 415,
+      "3": 1621,
+      "4": 697
     },
     "missingMultipleAnswerFormats": [],
-    "fourCorrectShareOfMultiple": 25.6,
+    "fourCorrectShareOfMultiple": 25.5,
     "idsUnique": true,
     "structuralErrors": [],
     "exactQuestionDuplicates": [],
@@ -437,7 +439,8 @@
       "intestin-adv-024-v2",
       "vascular-adv-035-v2",
       "infectii-chir-adv-022-v2",
-      "endocrinologie-adv-038-v2"
+      "endocrinologie-adv-038-v2",
+      "ficat-splina-adv-054-v2"
     ],
     "topicCoverage": [
       {
