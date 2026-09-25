@@ -6,15 +6,15 @@ const q=rewriter(RETIRED_ELECTROLITI,(p:number)=>p-149,{shuffle:true});
 
 export const ELECTROLITI_V2=[
 q('electroliti-adv-031',['La un bărbat sănătos de 70 kg:',
- ['apa totală a organismului este de aproximativ 42 L','lichidul intracelular reprezintă circa 28 L','plasma reprezintă circa 4,6 L, adică 4–5%','lichidul interstițial este de circa 28 L','apa totală reprezintă 40–50% din masa slabă'],'ABC',172,'Apa și electroliții',
+ ['apa totală a organismului este de aproximativ 42 L','lichidul intracelular reprezintă circa 28 L','plasma reprezintă circa 14 L, adică 20%','lichidul interstițial este de circa 28 L','apa totală reprezintă 40–50% din masa slabă'],'AB',172,'Apa și electroliții',
  'Fixarea compartimentelor hidrice ale organismului.',
- ['Apa totală este ~42 L.','Lichidul intracelular este ~28 L.','Plasma este ~4,6 L.','Interstițiul are ~9,4 L.','40–50% este valoarea la femei.']],
+ ['Apa totală este ~42 L.','Lichidul intracelular este ~28 L.','Nu: plasma este ~4,6 L, adică 4–5%.','Interstițiul are ~9,4 L.','40–50% este valoarea la femei.']],
  [8,'Distractorii permută volumele și sexul.'],['42 L','28 L']),
 
 q('electroliti-adv-014',['Distribuția apei între compartimente:',
- ['presiunea osmotică este principalul determinant','ureea traversează membranele, fiind osmotic inactivă','cantitatea totală de Na+ determină volumul extracelular','Na+ determină distribuția dintre interstițiu și plasmă','retenția ureei în insuficiența renală redistribuie apa'],'ABC',172,'Presiunea osmotică',
+ ['presiunea osmotică este principalul determinant','ureea traversează greu membranele, fiind osmotic activă','cantitatea totală de Na+ determină volumul extracelular','Na+ determină distribuția dintre interstițiu și plasmă','retenția ureei în insuficiența renală redistribuie apa'],'AC',172,'Presiunea osmotică',
  'Recunoașterea determinanților distribuției apei.',
- ['Presiunea osmotică este determinantul principal.','Ureea este osmotic inactivă.','Na+ total determină volumul extracelular.','Na+ traversează capilarul și nu contribuie la această distribuție.','Retenția ureei nu modifică distribuția apei.']],
+ ['Presiunea osmotică este determinantul principal.','Nu: ureea traversează membranele și este osmotic inactivă.','Na+ total determină volumul extracelular.','Na+ traversează capilarul și nu contribuie la această distribuție.','Retenția ureei nu modifică distribuția apei.']],
  [8,'Distractorii atribuie efecte osmotice greșite.'],['osmotic inactivă','presiunea osmotică']),
 
 q('electroliti-adv-071',['Conform Figurii 9.3, distribuția apei între vas și interstițiu:',
@@ -24,9 +24,9 @@ q('electroliti-adv-071',['Conform Figurii 9.3, distribuția apei între vas și 
  [8,'Distractorii inversează forțele Starling.'],['oncotică','limfatic']),
 
 q('electroliti-adv-013',['Distribuția unui litru de lichid administrat intravenos:',
- ['glucoza 5% se distribuie egal în toate compartimentele','salina 0,9% rămâne în compartimentul extracelular','coloidul rămâne în compartimentul vascular','glucoza 5% rămâne în compartimentul extracelular','salina 0,9% se distribuie egal în toate compartimentele'],'ABC',172,'Distribuția lichidelor de substituție',
+ ['glucoza 5% rămâne în compartimentul vascular','salina 0,9% rămâne în compartimentul extracelular','coloidul rămâne în compartimentul vascular','glucoza 5% rămâne în compartimentul extracelular','salina 0,9% se distribuie egal în toate compartimentele'],'BC',172,'Distribuția lichidelor de substituție',
  'Aplicarea distribuției soluțiilor intravenoase.',
- ['Glucoza este metabolizată, apa se distribuie egal.','Salina rămâne extracelular.','Coloidul rămâne vascular prin presiune oncotică.','Glucoza 5% se distribuie în toate compartimentele.','Salina rămâne extracelular.']],
+ ['Nu: glucoza este metabolizată, iar apa se distribuie egal în toate compartimentele.','Salina rămâne extracelular.','Coloidul rămâne vascular prin presiune oncotică.','Glucoza 5% se distribuie în toate compartimentele.','Salina rămâne extracelular.']],
  [8,'Distractorii permută glucoza și salina.'],['glucoză 5%','coloidală']),
 
 q('electroliti-adv-072',['Tratamentul corect al depleției de apă extracelulare, conform capitolului, este:',
@@ -66,9 +66,9 @@ q('electroliti-adv-018',['Sustragerea de la acțiunea mineralocorticoizilor:',
  [8,'Distractorii inversează situația din stările edematoase.'],['sindromul Conn','1,5-2 L']),
 
 q('electroliti-adv-012',['În ductul colector cortical:',
- ['celulele principale reprezintă aproximativ 65%','celulele principale au canale apicale de Na+ și K+','celulele intercalate manipulează H+ și HCO3−','celulele intercalate sunt sediul efectului ADH asupra apei','celulele intercalate transportă intens NaCl'],'ABC',176,'Reglarea excreției apei',
+ ['celulele principale reprezintă aproximativ 15%','celulele principale au canale apicale de Na+ și K+','celulele intercalate manipulează H+ și HCO3−','celulele intercalate sunt sediul efectului ADH asupra apei','celulele intercalate transportă intens NaCl'],'BC',176,'Reglarea excreției apei',
  'Diferențierea celulelor ductului colector.',
- ['Celulele principale sunt ~65%.','Au canale apicale de Na+ și K+.','Intercalatele manipulează H+ și HCO3−.','Efectul ADH apare în celulele principale.','Intercalatele nu transportă NaCl.']],
+ ['Nu: celulele principale sunt ~65%.','Au canale apicale de Na+ și K+.','Intercalatele manipulează H+ și HCO3−.','Efectul ADH apare în celulele principale.','Intercalatele nu transportă NaCl.']],
  [8,'Distractorii mută funcțiile între tipurile celulare.'],['65%','intercalate']),
 
 q('electroliti-adv-075',['Receptorii vasopresinei:',
@@ -96,9 +96,9 @@ q('electroliti-adv-047',['Pacientul cu diabet insipid central și acces liber la
  [8,'Distractorii ignoră rolul setei.'],['diabet insipid','poliurie']),
 
 q('electroliti-adv-037',['Osmoreglarea și reglarea volemică:',
- ['o încărcare cu apă este excretată în 4–6 ore','salina 0,9% crește ANP fără să modifice ADH','în SIADH, manipularea sodiului rămâne intactă','încărcarea cu apă crește ANP și suprimă aldosteronul','salina 0,9% suprimă ADH-ul osmotic'],'ABC',177,'Osmoreglarea versus reglarea volemică',
+ ['o încărcare cu apă este excretată în 24–48 de ore','salina 0,9% crește ANP fără să modifice ADH','în SIADH, manipularea sodiului rămâne intactă','încărcarea cu apă crește ANP și suprimă aldosteronul','salina 0,9% suprimă ADH-ul osmotic'],'BC',177,'Osmoreglarea versus reglarea volemică',
  'Separarea căilor de osmoreglare și de reglare volemică.',
- ['Apa este excretată în 4–6 ore prin inhibarea ADH.','Salina crește volumul fără a modifica osmolalitatea.','ANP și aldosteronul funcționează normal.','Apa nu modifică ANP sau SRAA.','ADH rămâne neschimbat.']],
+ ['Nu: apa este excretată în 4–6 ore prin inhibarea ADH.','Salina crește volumul fără a modifica osmolalitatea.','ANP și aldosteronul funcționează normal.','Apa nu modifică ANP sau SRAA.','ADH rămâne neschimbat.']],
  [8,'Distractorii amestecă cele două căi.'],['4-6 ore','izoosmotică']),
 
 q('electroliti-adv-054',['Ingestia de alune sărate fără apă:',
@@ -108,9 +108,9 @@ q('electroliti-adv-054',['Ingestia de alune sărate fără apă:',
  [8,'Singurul distractor inversează ADH.'],['alune sărate','setea']),
 
 q('electroliti-adv-055',['Edemul periferic prin expansiunea volumului extracelular:',
- ['devine clinic evident la expansiunea ECF cu ≥2 L','afectează întâi gleznele','apare în regiunea sacrată la imobilizați','afectează fața mai ales seara','apare după expansiunea ECF cu 500 mL'],'ABC',177,'Creșterea volumului extracelular',
+ ['devine clinic evident la expansiunea ECF cu ≥200 mL','afectează întâi gleznele','apare în regiunea sacrată la imobilizați','afectează fața mai ales seara','apare după expansiunea ECF cu 500 mL'],'BC',177,'Creșterea volumului extracelular',
  'Recunoașterea distribuției clinice a edemului.',
- ['Este necesară expansiunea cu cel puțin 2 L.','Gleznele sunt primele afectate.','Regiunea sacrată la imobilizați.','Fața este afectată mai ales dimineața.','Pragul este de cel puțin 2 L.']],
+ ['Nu: este necesară expansiunea cu cel puțin 2 L.','Gleznele sunt primele afectate.','Regiunea sacrată la imobilizați.','Fața este afectată mai ales dimineața.','Pragul este de cel puțin 2 L.']],
  [8,'Distractorii schimbă pragul și momentul.'],['2 L','gleznele']),
 
 q('electroliti-adv-019',['Mecanismele edemelor:',
@@ -150,9 +150,9 @@ q('electroliti-adv-069',['Edemele idiopatice:',
  [8,'Singurul distractor inversează variația posturală.'],['premenstrual','menopauză']),
 
 q('electroliti-adv-057',['Tratamentul expansiunii volemice:',
- ['aportul de sodiu se reduce ușor la ~100 mmol/zi','restricția de sodiu este utilă în rezistența la diuretice','diureticele sunt baza tratamentului','restricția sub 20 mmol/zi se obține ușor','repausul la pat înlocuiește diureticele'],'ABC',178,'Tratament',
+ ['aportul de sodiu se reduce drastic la ~10 mmol/zi','restricția de sodiu este utilă în rezistența la diuretice','diureticele sunt baza tratamentului','restricția sub 20 mmol/zi se obține ușor','repausul la pat înlocuiește diureticele'],'BC',178,'Tratament',
  'Aplicarea tratamentului expansiunii volemice.',
- ['~100 mmol (2 g) pe zi.','Restricția ajută la rezistența la diuretice.','Diureticele sunt baza tratamentului.','Sub 100 mmol este greu de obținut.','Are rareori valoare practică.']],
+ ['Nu: aportul se reduce ușor, la ~100 mmol (2 g) pe zi.','Restricția ajută la rezistența la diuretice.','Diureticele sunt baza tratamentului.','Sub 100 mmol este greu de obținut.','Are rareori valoare practică.']],
  [8,'Distractorii supraestimează restricția și repausul.'],['100 mmol','2 g']),
 
 q('electroliti-adv-080',['Acumularea de litri de lichid în pleură sau ascită, fără edeme evidente și fără creșterea PVC, definește:',
@@ -162,9 +162,9 @@ q('electroliti-adv-080',['Acumularea de litri de lichid în pleură sau ascită,
  [8,'Distractorii sunt alte entități edematoase.'],['spaţiul al treilea','ascită']),
 
 q('electroliti-adv-081',['Diureticele de ansă:',
- ['blochează NKCC2 în brațul gros ascendent','cresc capacitanța venoasă înaintea diurezei','produc hipercalciurie și risc de calculi','reduc excreția calciului, ca tiazidele','nu interferă cu excreția renală a litiului'],'ABC',178,'Diureticele de ansă',
+ ['blochează NKCC2 în brațul gros ascendent','cresc capacitanța venoasă înaintea diurezei','produc hipocalciurie, protejând de calculi','reduc excreția calciului, ca tiazidele','nu interferă cu excreția renală a litiului'],'AB',178,'Diureticele de ansă',
  'Recunoașterea mecanismului și efectelor diureticelor de ansă.',
- ['Blochează NKCC2.','Venodilatația precedă diureza.','Hipercalciuria crește riscul de calculi.','Cresc excreția calciului.','Interferă cu excreția litiului.']],
+ ['Blochează NKCC2.','Venodilatația precedă diureza.','Nu: produc hipercalciurie, cu risc de calculi.','Cresc excreția calciului.','Interferă cu excreția litiului.']],
  [8,'Distractorii preiau efectul tiazidelor și neagă interacțiunea.'],['capacitanţei venoase','hipercalciurie'],[179]),
 
 q('electroliti-adv-021',['Comparativ cu furosemidul oral, bumetanida orală are:',
@@ -174,9 +174,9 @@ q('electroliti-adv-021',['Comparativ cu furosemidul oral, bumetanida orală are:
  [8,'Distractorii sunt diferențe neconfirmate.'],['Bumetadina','biodisponibilitate']),
 
 q('electroliti-adv-082',['Diureticele tiazidice:',
- ['produc mai multă hiperuricemie și intoleranță la glucoză','pot produce hiponatremie','reduc excreția calciului','sunt mai puternice decât diureticele de ansă','cresc excreția urinară de calciu'],'ABC',179,'Diureticele tiazidice',
+ ['produc mai multă hiperuricemie și intoleranță la glucoză','pot produce hiponatremie','cresc excreția calciului','sunt mai puternice decât diureticele de ansă','cresc excreția urinară de calciu'],'AB',179,'Diureticele tiazidice',
  'Recunoașterea efectelor tiazidelor.',
- ['Retenția de urați și intoleranța la glucoză sunt mai mari.','Interferă cu excreția apei.','Reduc excreția calciului.','Sunt mai puțin puternice.','Reduc excreția calciului.']],
+ ['Retenția de urați și intoleranța la glucoză sunt mai mari.','Interferă cu excreția apei.','Nu: tiazidele reduc excreția calciului.','Sunt mai puțin puternice.','Reduc excreția calciului.']],
  [8,'Distractorii inversează potența și calciul.'],['hiponatremie','calciului']),
 
 q('electroliti-adv-022',['Diureticele economisitoare de potasiu:',
@@ -192,9 +192,9 @@ q('electroliti-adv-058',['Conform Cadranului 9.6:',
  [8,'Distractorii mută medicamentele între clase.'],['Metolazol','Acetazolamida']),
 
 q('electroliti-adv-023',['Rezistența la diuretice:',
- ['furosemidul se limitează la maximum 2 g/zi','albumina i.v. nu crește natriureza diureticului de ansă','metolazona plus ansă este utilă în ICC refractară','combinațiile de diuretice nu au efect aditiv','albumina i.v. potențează efectul natriuretic al ansei'],'ABC',180,'Rezistența la diuretice',
+ ['furosemidul se limitează la maximum 200 mg/zi','albumina i.v. nu crește natriureza diureticului de ansă','metolazona plus ansă este utilă în ICC refractară','combinațiile de diuretice nu au efect aditiv','albumina i.v. potențează efectul natriuretic al ansei'],'BC',180,'Rezistența la diuretice',
  'Aplicarea tratamentului rezistenței la diuretice.',
- ['Maxim 2 g/zi din cauza ototoxicității.','Albumina nu crește natriureza.','Metolazona depinde puțin de RFG.','Combinațiile sunt extrem de utile.','Albumina nu crește natriureza.']],
+ ['Nu: maximul este 2 g/zi, din cauza ototoxicității.','Albumina nu crește natriureza.','Metolazona depinde puțin de RFG.','Combinațiile sunt extrem de utile.','Albumina nu crește natriureza.']],
  [8,'Distractorii inversează efectul albuminei și al combinațiilor.'],['2 g','Metolazona']),
 
 q('electroliti-adv-015',['Inhibitorii SGLT2:',
@@ -264,9 +264,9 @@ q('electroliti-adv-046',['Studiile Na-IRM recente arată că:',
  [8,'Distractorii contrazic hipertonicitatea.'],['hipertone','extrarenale']),
 
 q('electroliti-adv-038',['Hiponatremia:',
- ['este cea mai comună anomalie biochimică la internați','apare la până la 35% dintre pacienții internați','poate fi falsă în hiperlipidemie','în hiperlipidemie are osmolalitate scăzută','se definește prin Na+ sub 125 mmol/L'],'ABC',183,'Hiponatremia',
+ ['este cea mai comună anomalie biochimică la internați','apare la până la 5% dintre pacienții internați','poate fi falsă în hiperlipidemie','în hiperlipidemie are osmolalitate scăzută','se definește prin Na+ sub 125 mmol/L'],'AC',183,'Hiponatremia',
  'Recunoașterea epidemiologiei și a pseudohiponatremiei.',
- ['Este cea mai comună anomalie.','Până la 35% dintre internați.','Pseudohiponatremia apare în hiperlipidemie.','Osmolalitatea este normală.','Pragul este 135 mmol/L.']],
+ ['Este cea mai comună anomalie.','Nu: apare la până la 35% dintre internați.','Pseudohiponatremia apare în hiperlipidemie.','Osmolalitatea este normală.','Pragul este 135 mmol/L.']],
  [8,'Distractorii schimbă pragul și osmolalitatea.'],['35%','hiperlipidemie']),
 
 q('electroliti-adv-039',['În pseudohiponatremia din hiperlipidemie:',
@@ -294,9 +294,9 @@ q('electroliti-adv-025',['Conform Cadranului 9.12:',
  [8,'Distractorii preiau valori din alte rânduri.'],['Suc pancreatic','Ileostomie']),
 
 q('electroliti-adv-059',['Hiponatremia postoperatorie:',
- ['apare la ~1% dintre pacienții operați','e cauzată frecvent de glucoză 5% în exces','predispune la encefalopatie femeile premenopauză','apare la 1 L de apă pe oră la rinichi normal','este prevenită de băuturile sportive izotone'],'ABC',184,'Hiponatremia cu euvolemie',
+ ['apare la ~20% dintre pacienții operați','e cauzată frecvent de glucoză 5% în exces','predispune la encefalopatie femeile premenopauză','apare la 1 L de apă pe oră la rinichi normal','este prevenită de băuturile sportive izotone'],'BC',184,'Hiponatremia cu euvolemie',
  'Recunoașterea hiponatremiei postoperatorii.',
- ['Apare la ~1%.','Glucoza 5% în exces este cauza iatrogenă comună.','ADH postoperator este de 40 de ori mai mare.','La rinichi normal este rară.','Aceste băuturi pot produce hiponatremie.']],
+ ['Nu: apare la ~1%.','Glucoza 5% în exces este cauza iatrogenă comună.','ADH postoperator este de 40 de ori mai mare.','La rinichi normal este rară.','Aceste băuturi pot produce hiponatremie.']],
  [8,'Distractorii exagerează aportul oral și protecția băuturilor.'],['1%','40 de ori']),
 
 q('electroliti-adv-070',['Băuturile „sportive izotone” pot produce hiponatremie deoarece:',
@@ -318,9 +318,9 @@ q('electroliti-adv-086',['Hiponatremia de diluție și encefalopatia hiponatremi
  [8,'Singurul distractor inversează grupul de risc.'],['125 mmol/L','Hipoxemia']),
 
 q('electroliti-adv-061',['Salina 3% în hiponatremia acută simptomatică:',
- ['urmărește creșterea Na+ cu 4–6 mmol/L în primele 4 ore','se indică la convulsii sau comă','1 mL/kg crește natremia cu ~1 mmol/L','se administrează până la Na+ 140 mmol/L','se dă în bolus rapid de 500 mmol'],'ABC',185,'Hiponatremia — tratament',
+ ['urmărește creșterea Na+ cu 15–20 mmol/L în primele 4 ore','se indică la convulsii sau comă','1 mL/kg crește natremia cu ~1 mmol/L','se administrează până la Na+ 140 mmol/L','se dă în bolus rapid de 500 mmol'],'BC',185,'Hiponatremia — tratament',
  'Aplicarea corecției cu salină hipertonă.',
- ['4–6 mmol/L în primele 4 ore.','Semnele neurologice severe o indică.','1 mL/kg ≈ 1 mmol/L.','Nu se corectează peste 125–130 mmol/L.','Administrarea este lentă.']],
+ ['Nu: ținta este 4–6 mmol/L în primele 4 ore.','Semnele neurologice severe o indică.','1 mL/kg ≈ 1 mmol/L.','Nu se corectează peste 125–130 mmol/L.','Administrarea este lentă.']],
  [8,'Distractorii supracorectează.'],['4-6','513']),
 
 q('electroliti-adv-060',['Pentru a evita demielinizarea osmotică, natremia nu trebuie să crească cu mai mult de:',
@@ -336,9 +336,9 @@ q('electroliti-adv-087',['Conform Cadranului 9.14:',
  [8,'Distractorii dublează limita zilnică.'],['500-700','1-2 ore']),
 
 q('electroliti-adv-027',['Sindromul de demielinizare osmotică:',
- ['are risc mai mare la alcoolici și malnutriți','are risc mai mare la hipokaliemici','are leziunile IRM vizibile după 2–3 săptămâni','apare prin corectarea prea lentă a hiponatremiei','are leziuni IRM vizibile din primele ore'],'ABC',185,'Sindromul de demielinizare osmotică',
+ ['are risc mai mare la alcoolici și malnutriți','are risc mai mare la hipokaliemici','are leziunile IRM vizibile în primele 24 de ore','apare prin corectarea prea lentă a hiponatremiei','are leziuni IRM vizibile din primele ore'],'AB',185,'Sindromul de demielinizare osmotică',
  'Recunoașterea SDO.',
- ['Alcoolismul și malnutriția cresc riscul.','Hipokaliemia crește riscul.','Leziunile apar după 2–3 săptămâni.','Apare prin corecție rapidă.','Leziunile apar tardiv.']],
+ ['Alcoolismul și malnutriția cresc riscul.','Hipokaliemia crește riscul.','Nu: leziunile apar după 2–3 săptămâni.','Apare prin corecție rapidă.','Leziunile apar tardiv.']],
  [8,'Distractorii inversează ritmul și momentul imagistic.'],['cirotici','2 sau 3 săptămâni']),
 
 q('electroliti-adv-062',['După corectarea cauzei reversibile, natremia poate crește prin diureză apoasă cu până la:',
@@ -354,7 +354,7 @@ q('electroliti-adv-063',['Antagoniștii vasopresinei (vaptanii):',
  [8,'Distractorii inversează calea și efectul pe sodiu.'],['tolvaptan','conivaptan']),
 
 q('electroliti-adv-026',['Hiponatremia hipervolemică:',
- ['apare în insuficiența cardiacă și hepatică','se asociază cu reabsorbția proximală avidă de sodiu','este agravată de diuretice','se tratează de primă intenție cu salină 0,9%','are o rată de filtrare glomerulară crescută'],'ABC',186,'Hiponatremia cu hipervolemie',
+ ['apare în insuficiența cardiacă și hepatică','se asociază cu reabsorbția proximală avidă de sodiu','este agravată de diuretice','se tratează de primă intenție cu salină 0,9%','are o rată de filtrare glomerulară redusă'],'ABCE',186,'Hiponatremia cu hipervolemie',
  'Recunoașterea hiponatremiei hipervolemice.',
  ['IC și insuficiența hepatică sunt cauze.','Reabsorbția proximală este avidă.','Diureticele agravează diluția.','Se tratează cu restricție.','RFG este redusă.']],
  [8,'Distractorii inversează RFG și tratamentul.'],['Insuficienţa cardiacă','apă liberă']),
@@ -378,9 +378,9 @@ q('electroliti-adv-064',['În diabetul insipid pituitar, administrarea desmopres
  [8,'Distractorii preiau răspunsul formei nefrogene.'],['desmopresinei','nefrogen']),
 
 q('electroliti-adv-065',['Intrarea potasiului în celule:',
- ['este stimulată de insulină','este stimulată de stimularea β-adrenergică','este scăzută de acidoză','este stimulată de stimularea α-adrenergică','este scăzută de teofilină'],'ABC',187,'Reglarea concentrației de potasiu',
+ ['este stimulată de insulină','este stimulată de stimularea β-adrenergică','este scăzută de acidoză','crește prin stimulare α-adrenergică','este stimulată de teofilină'],'ABCE',187,'Reglarea concentrației de potasiu',
  'Recunoașterea factorilor care deplasează potasiul.',
- ['Insulina stimulează intrarea.','β-stimularea stimulează intrarea.','Acidoza scade intrarea.','α-stimularea o scade.','Teofilina o stimulează.']],
+ ['Insulina stimulează intrarea.','β-stimularea stimulează intrarea.','Acidoza scade intrarea.','α-stimularea o scade.','Teofilina stimulează intrarea potasiului în celule.']],
  [8,'Distractorii inversează efectul α și al teofilinei.'],['insulină','teofilină']),
 
 q('electroliti-adv-048',['Majoritatea potasiului din organism (~3.500 mmol la adult) se află:',
@@ -390,7 +390,7 @@ q('electroliti-adv-048',['Majoritatea potasiului din organism (~3.500 mmol la ad
  [8,'Distractorii sunt compartimente minore.'],['3.500','intracelular']),
 
 q('electroliti-adv-049',['Manipularea renală a potasiului:',
- ['peste 90% din K+ filtrat se reabsoarbe proximal','ductul colector asigură majoritatea excreției','aldosteronul crește secreția de K+','acidoza crește secreția renală de potasiu','reabsorbția proximală a K+ este un proces activ'],'ABC',187,'Reglarea concentrației de potasiu',
+ ['peste 90% din K+ filtrat se reabsoarbe proximal și în ansă','ductul colector asigură majoritatea excreției','aldosteronul crește secreția de K+','acidoza crește secreția renală de potasiu','reabsorbția proximală a K+ este un proces activ'],'ABC',187,'Reglarea concentrației de potasiu',
  'Recunoașterea manipulării renale a potasiului.',
  ['Peste 90% se reabsoarbe proximal și în ansă.','Secreția celulelor principale asigură excreția.','Aldosteronul stimulează secreția.','Acidoza reduce secreția.','Este pasivă.']],
  [8,'Distractorii inversează acidoza și natura reabsorbției.'],['90%','aldosteron']),
@@ -407,7 +407,7 @@ q('electroliti-adv-020',['Cauze de hipokaliemie prin redistribuție celulară su
  ['β-agoniștii introduc K+ în celule.','Insulina introduce K+ în celule.','Eritropoieza nouă consumă K+.','Alcaloza introduce K+ în celule.','Acidoza scoate K+ din celule.']],
  [8,'Singurul distractor inversează direcția.'],['salbutamol','megaloblastice']),
 
-q('electroliti-adv-001',['Sindroamele Gitelman și Liddle:',
+q('electroliti-adv-001',['Sindroamele Gitelman, Bartter și Liddle:',
  ['Gitelman are hipocalciurie','Bartter are renină crescută','Liddle are renină și aldosteron scăzute','Liddle răspunde la spironolactonă','Gitelman are hipertensiune arterială'],'ABC',188,'Sindroamele Bartter, Gitelman și Liddle',
  'Diferențierea tubulopatiilor hipokaliemice.',
  ['Gitelman: hipocalciurie.','Bartter: renină crescută.','Liddle: renină și aldosteron scăzute.','Spironolactona este ineficientă în Liddle.','Gitelman are tensiune normală.']],
@@ -456,9 +456,9 @@ q('electroliti-adv-068',['Conform Figurii 9.12, pe măsură ce hiperkaliemia cre
  [8,'Distractorii inversează modificările ECG.'],['Unda T','sinusoidal']),
 
 q('electroliti-adv-067',['Tratamentul de urgență al hiperkaliemiei:',
- ['gluconatul de calciu protejează miocardul fără să scadă K+','insulina cu glucoză scade K+ cu ~1 mmol/L în 60 de minute','glucoza singură nu este recomandată la nediabetic','calciul scade potasiul seric cu ~1 mmol/L într-o oră','rășinile schimbătoare sunt superioare noilor chelatori'],'ABC',190,'Hiperkaliemia — tratament',
+ ['gluconatul de calciu protejează miocardul fără să scadă K+','insulina cu glucoză scade K+ cu ~5 mmol/L în 60 de minute','glucoza singură nu este recomandată la nediabetic','calciul scade potasiul seric cu ~1 mmol/L într-o oră','rășinile schimbătoare sunt superioare noilor chelatori'],'AC',190,'Hiperkaliemia — tratament',
  'Aplicarea tratamentului de urgență al hiperkaliemiei.',
- ['Calciul protejează membranele.','Insulina scade K+ cu 1 mmol/L în 60 de minute.','Glucoza singură nu atinge insulina necesară.','Calciul nu modifică potasiul.','Noii chelatori sunt superiori.']],
+ ['Calciul protejează membranele.','Nu: insulina scade K+ cu ~1 mmol/L în 60 de minute.','Glucoza singură nu atinge insulina necesară.','Calciul nu modifică potasiul.','Noii chelatori sunt superiori.']],
  [8,'Distractorii atribuie calciului efect hipokaliemiant.'],['gluconat de calciu','60 min']),
 
 q('electroliti-adv-073',['Tratamentul subacut și definitiv al hiperkaliemiei:',

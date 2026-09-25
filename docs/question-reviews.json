@@ -231018,160 +231018,6 @@
   "reviewNotes": "Rescriere a arsuri-adv-067: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "electroliti-adv-031-v2",
-  "questionFingerprint": "5df9d93cecc8401af5e8e71e9888ce5f57ff8221febfc2355735aca714f4f77d",
-  "status": "source-checked",
-  "learningObjective": "Fixarea compartimentelor hidrice ale organismului.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 9,
-   "printedPages": [
-    172
-   ],
-   "pdfPages": [
-    23
-   ],
-   "section": "Apa și electroliții"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Apa totală este ~42 L.",
-    "evidenceLocation": "Kumar, p. 172, Apa și electroliții"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Plasma este ~4,6 L.",
-    "evidenceLocation": "Kumar, p. 172, Apa și electroliții"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Lichidul intracelular este ~28 L.",
-    "evidenceLocation": "Kumar, p. 172, Apa și electroliții"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "40–50% este valoarea la femei.",
-    "evidenceLocation": "Kumar, p. 172, Apa și electroliții"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Interstițiul are ~9,4 L.",
-    "evidenceLocation": "Kumar, p. 172, Apa și electroliții"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:27:36.746Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii permută volumele și sexul."
-  },
-  "textbookExpressions": [
-   "42 L",
-   "28 L"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a electroliti-adv-031: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "electroliti-adv-014-v2",
-  "questionFingerprint": "bffc1668e43643b16971462b402f3e236db56a86636babb8d0eb8e876d99bedd",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea determinanților distribuției apei.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 9,
-   "printedPages": [
-    172
-   ],
-   "pdfPages": [
-    23
-   ],
-   "section": "Presiunea osmotică"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Presiunea osmotică este determinantul principal.",
-    "evidenceLocation": "Kumar, p. 172, Presiunea osmotică"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Retenția ureei nu modifică distribuția apei.",
-    "evidenceLocation": "Kumar, p. 172, Presiunea osmotică"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Ureea este osmotic inactivă.",
-    "evidenceLocation": "Kumar, p. 172, Presiunea osmotică"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Na+ total determină volumul extracelular.",
-    "evidenceLocation": "Kumar, p. 172, Presiunea osmotică"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Na+ traversează capilarul și nu contribuie la această distribuție.",
-    "evidenceLocation": "Kumar, p. 172, Presiunea osmotică"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:27:36.749Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii atribuie efecte osmotice greșite."
-  },
-  "textbookExpressions": [
-   "osmotic inactivă",
-   "presiunea osmotică"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a electroliti-adv-014: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "electroliti-adv-071-v2",
   "questionFingerprint": "d334c8d85fa1fb931011c5e374563b8047e85ff28b43e41081e3085890703df5",
   "status": "source-checked",
@@ -231247,83 +231093,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a electroliti-adv-071: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "electroliti-adv-013-v2",
-  "questionFingerprint": "5b75605f44a99725444ee97c535dd5ab06b1ce7eeb41c2b4b29b6a4a63233cfc",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea distribuției soluțiilor intravenoase.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 9,
-   "printedPages": [
-    172
-   ],
-   "pdfPages": [
-    23
-   ],
-   "section": "Distribuția lichidelor de substituție"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Coloidul rămâne vascular prin presiune oncotică.",
-    "evidenceLocation": "Kumar, p. 172, Distribuția lichidelor de substituție"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Salina rămâne extracelular.",
-    "evidenceLocation": "Kumar, p. 172, Distribuția lichidelor de substituție"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Glucoza 5% se distribuie în toate compartimentele.",
-    "evidenceLocation": "Kumar, p. 172, Distribuția lichidelor de substituție"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Salina rămâne extracelular.",
-    "evidenceLocation": "Kumar, p. 172, Distribuția lichidelor de substituție"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Glucoza este metabolizată, apa se distribuie egal.",
-    "evidenceLocation": "Kumar, p. 172, Distribuția lichidelor de substituție"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:27:36.750Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii permută glucoza și salina."
-  },
-  "textbookExpressions": [
-   "glucoză 5%",
-   "coloidală"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a electroliti-adv-013: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "electroliti-adv-072-v2",
@@ -231792,83 +231561,6 @@
   "reviewNotes": "Rescriere a electroliti-adv-018: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "electroliti-adv-012-v2",
-  "questionFingerprint": "38fc2aa59d59f0c7cdd8605c5345dd993d98e508270a3d588800f87e21767a80",
-  "status": "source-checked",
-  "learningObjective": "Diferențierea celulelor ductului colector.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 9,
-   "printedPages": [
-    176
-   ],
-   "pdfPages": [
-    27
-   ],
-   "section": "Reglarea excreției apei"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Intercalatele nu transportă NaCl.",
-    "evidenceLocation": "Kumar, p. 176, Reglarea excreției apei"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Celulele principale sunt ~65%.",
-    "evidenceLocation": "Kumar, p. 176, Reglarea excreției apei"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Au canale apicale de Na+ și K+.",
-    "evidenceLocation": "Kumar, p. 176, Reglarea excreției apei"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Efectul ADH apare în celulele principale.",
-    "evidenceLocation": "Kumar, p. 176, Reglarea excreției apei"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Intercalatele manipulează H+ și HCO3−.",
-    "evidenceLocation": "Kumar, p. 176, Reglarea excreției apei"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:27:36.755Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii mută funcțiile între tipurile celulare."
-  },
-  "textbookExpressions": [
-   "65%",
-   "intercalate"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a electroliti-adv-012: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "electroliti-adv-075-v2",
   "questionFingerprint": "c077695fcf6f89072206523371744ce336e41d8db3ed46b5048d92e2689ce8ee",
   "status": "source-checked",
@@ -232177,85 +231869,6 @@
   "reviewNotes": "Rescriere a electroliti-adv-047: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "electroliti-adv-037-v2",
-  "questionFingerprint": "82112f1b4e895359edb5966a8d80978940dc9b108da5cf77d359a0302a791b8f",
-  "status": "source-checked",
-  "learningObjective": "Separarea căilor de osmoreglare și de reglare volemică.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 9,
-   "printedPages": [
-    177,
-    176
-   ],
-   "pdfPages": [
-    28,
-    27
-   ],
-   "section": "Osmoreglarea versus reglarea volemică"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Apa nu modifică ANP sau SRAA.",
-    "evidenceLocation": "Kumar, p. 177, 176, Osmoreglarea versus reglarea volemică"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Salina crește volumul fără a modifica osmolalitatea.",
-    "evidenceLocation": "Kumar, p. 177, 176, Osmoreglarea versus reglarea volemică"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "ADH rămâne neschimbat.",
-    "evidenceLocation": "Kumar, p. 177, 176, Osmoreglarea versus reglarea volemică"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Apa este excretată în 4–6 ore prin inhibarea ADH.",
-    "evidenceLocation": "Kumar, p. 177, 176, Osmoreglarea versus reglarea volemică"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "ANP și aldosteronul funcționează normal.",
-    "evidenceLocation": "Kumar, p. 177, 176, Osmoreglarea versus reglarea volemică"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:27:36.760Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii amestecă cele două căi."
-  },
-  "textbookExpressions": [
-   "4-6 ore",
-   "izoosmotică"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a electroliti-adv-037: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "electroliti-adv-054-v2",
   "questionFingerprint": "efe07745950fd5628c5c41ac4096109ddf56aa1c732a67ee593631e790d8b0b4",
   "status": "source-checked",
@@ -232331,83 +231944,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a electroliti-adv-054: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "electroliti-adv-055-v2",
-  "questionFingerprint": "67000d7d799d3369a4d00adfc5d9f4d9db56794fc8c8d777c814fc8df7d43a66",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea distribuției clinice a edemului.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 9,
-   "printedPages": [
-    177
-   ],
-   "pdfPages": [
-    28
-   ],
-   "section": "Creșterea volumului extracelular"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Este necesară expansiunea cu cel puțin 2 L.",
-    "evidenceLocation": "Kumar, p. 177, Creșterea volumului extracelular"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Regiunea sacrată la imobilizați.",
-    "evidenceLocation": "Kumar, p. 177, Creșterea volumului extracelular"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Pragul este de cel puțin 2 L.",
-    "evidenceLocation": "Kumar, p. 177, Creșterea volumului extracelular"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Gleznele sunt primele afectate.",
-    "evidenceLocation": "Kumar, p. 177, Creșterea volumului extracelular"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Fața este afectată mai ales dimineața.",
-    "evidenceLocation": "Kumar, p. 177, Creșterea volumului extracelular"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:27:36.761Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii schimbă pragul și momentul."
-  },
-  "textbookExpressions": [
-   "2 L",
-   "gleznele"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a electroliti-adv-055: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "electroliti-adv-019-v2",
@@ -232797,83 +232333,6 @@
   "reviewNotes": "Rescriere a electroliti-adv-069: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "electroliti-adv-057-v2",
-  "questionFingerprint": "639628821fb9190b81a7b34d2fc4499e5b1a815f51e465b446d73064c35152a3",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea tratamentului expansiunii volemice.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 9,
-   "printedPages": [
-    178
-   ],
-   "pdfPages": [
-    29
-   ],
-   "section": "Tratament"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Diureticele sunt baza tratamentului.",
-    "evidenceLocation": "Kumar, p. 178, Tratament"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Sub 100 mmol este greu de obținut.",
-    "evidenceLocation": "Kumar, p. 178, Tratament"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Are rareori valoare practică.",
-    "evidenceLocation": "Kumar, p. 178, Tratament"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "~100 mmol (2 g) pe zi.",
-    "evidenceLocation": "Kumar, p. 178, Tratament"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Restricția ajută la rezistența la diuretice.",
-    "evidenceLocation": "Kumar, p. 178, Tratament"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:27:36.766Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii supraestimează restricția și repausul."
-  },
-  "textbookExpressions": [
-   "100 mmol",
-   "2 g"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a electroliti-adv-057: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "electroliti-adv-080-v2",
   "questionFingerprint": "d067e8e9949bd14678ab12da82906f2b8f2328e649748103e94382eb6961f790",
   "status": "source-checked",
@@ -233030,83 +232489,6 @@
   "reviewNotes": "Rescriere a electroliti-adv-021: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "electroliti-adv-082-v2",
-  "questionFingerprint": "407d43207cf73f073610c841afa050d40b09743bd0b56618657416d64128ad0e",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea efectelor tiazidelor.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 9,
-   "printedPages": [
-    179
-   ],
-   "pdfPages": [
-    30
-   ],
-   "section": "Diureticele tiazidice"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Retenția de urați și intoleranța la glucoză sunt mai mari.",
-    "evidenceLocation": "Kumar, p. 179, Diureticele tiazidice"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Sunt mai puțin puternice.",
-    "evidenceLocation": "Kumar, p. 179, Diureticele tiazidice"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Reduc excreția calciului.",
-    "evidenceLocation": "Kumar, p. 179, Diureticele tiazidice"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Reduc excreția calciului.",
-    "evidenceLocation": "Kumar, p. 179, Diureticele tiazidice"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Interferă cu excreția apei.",
-    "evidenceLocation": "Kumar, p. 179, Diureticele tiazidice"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:27:36.770Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează potența și calciul."
-  },
-  "textbookExpressions": [
-   "hiponatremie",
-   "calciului"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a electroliti-adv-082: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "electroliti-adv-022-v2",
   "questionFingerprint": "1f732e4551ce4fe0f4b0c271407614619a1f65efeefbd3f217150c8134b80552",
   "status": "source-checked",
@@ -233261,85 +232643,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a electroliti-adv-058: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "electroliti-adv-023-v2",
-  "questionFingerprint": "1b8b81089c60b4600fb48a5638a7877c94e50ae70df9d2feda36bbdc027382a4",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea tratamentului rezistenței la diuretice.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 9,
-   "printedPages": [
-    180,
-    186
-   ],
-   "pdfPages": [
-    31,
-    37
-   ],
-   "section": "Rezistența la diuretice"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Maxim 2 g/zi din cauza ototoxicității.",
-    "evidenceLocation": "Kumar, p. 180, 186, Rezistența la diuretice"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Albumina nu crește natriureza.",
-    "evidenceLocation": "Kumar, p. 180, 186, Rezistența la diuretice"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Albumina nu crește natriureza.",
-    "evidenceLocation": "Kumar, p. 180, 186, Rezistența la diuretice"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Metolazona depinde puțin de RFG.",
-    "evidenceLocation": "Kumar, p. 180, 186, Rezistența la diuretice"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Combinațiile sunt extrem de utile.",
-    "evidenceLocation": "Kumar, p. 180, 186, Rezistența la diuretice"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:27:36.772Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează efectul albuminei și al combinațiilor."
-  },
-  "textbookExpressions": [
-   "2 g",
-   "Metolazona"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a electroliti-adv-023: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "electroliti-adv-015-v2",
@@ -234041,83 +233344,6 @@
   "reviewNotes": "Rescriere a electroliti-adv-043: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "electroliti-adv-038-v2",
-  "questionFingerprint": "cefa8f30c7f39e0986f079be4341a4adce2936526730220fa6e066f6ad52940e",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea epidemiologiei și a pseudohiponatremiei.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 9,
-   "printedPages": [
-    183
-   ],
-   "pdfPages": [
-    34
-   ],
-   "section": "Hiponatremia"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Pragul este 135 mmol/L.",
-    "evidenceLocation": "Kumar, p. 183, Hiponatremia"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Pseudohiponatremia apare în hiperlipidemie.",
-    "evidenceLocation": "Kumar, p. 183, Hiponatremia"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Osmolalitatea este normală.",
-    "evidenceLocation": "Kumar, p. 183, Hiponatremia"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Până la 35% dintre internați.",
-    "evidenceLocation": "Kumar, p. 183, Hiponatremia"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Este cea mai comună anomalie.",
-    "evidenceLocation": "Kumar, p. 183, Hiponatremia"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:27:36.781Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii schimbă pragul și osmolalitatea."
-  },
-  "textbookExpressions": [
-   "35%",
-   "hiperlipidemie"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a electroliti-adv-038: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "electroliti-adv-039-v2",
   "questionFingerprint": "c5a951ff39f9d5dded16f6853d6ef015be52f6e09adb12123865b6bd84ea3776",
   "status": "source-checked",
@@ -234347,83 +233573,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a electroliti-adv-025: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "electroliti-adv-059-v2",
-  "questionFingerprint": "9f7fc7b1df451aa2fd3b2f25fa62c1c5e1a8beda24f6cf88d00573bf526af43f",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea hiponatremiei postoperatorii.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 9,
-   "printedPages": [
-    184
-   ],
-   "pdfPages": [
-    35
-   ],
-   "section": "Hiponatremia cu euvolemie"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Aceste băuturi pot produce hiponatremie.",
-    "evidenceLocation": "Kumar, p. 184, Hiponatremia cu euvolemie"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Apare la ~1%.",
-    "evidenceLocation": "Kumar, p. 184, Hiponatremia cu euvolemie"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "La rinichi normal este rară.",
-    "evidenceLocation": "Kumar, p. 184, Hiponatremia cu euvolemie"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "ADH postoperator este de 40 de ori mai mare.",
-    "evidenceLocation": "Kumar, p. 184, Hiponatremia cu euvolemie"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Glucoza 5% în exces este cauza iatrogenă comună.",
-    "evidenceLocation": "Kumar, p. 184, Hiponatremia cu euvolemie"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:27:36.784Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii exagerează aportul oral și protecția băuturilor."
-  },
-  "textbookExpressions": [
-   "1%",
-   "40 de ori"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a electroliti-adv-059: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "electroliti-adv-070-v2",
@@ -234657,83 +233806,6 @@
   "reviewNotes": "Rescriere a electroliti-adv-086: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "electroliti-adv-061-v2",
-  "questionFingerprint": "857fe0bebcc33307984f760c98f32c706e2fb509ead4aff953bf96f8ad5ce261",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea corecției cu salină hipertonă.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 9,
-   "printedPages": [
-    185
-   ],
-   "pdfPages": [
-    36
-   ],
-   "section": "Hiponatremia — tratament"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "4–6 mmol/L în primele 4 ore.",
-    "evidenceLocation": "Kumar, p. 185, Hiponatremia — tratament"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Semnele neurologice severe o indică.",
-    "evidenceLocation": "Kumar, p. 185, Hiponatremia — tratament"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "1 mL/kg ≈ 1 mmol/L.",
-    "evidenceLocation": "Kumar, p. 185, Hiponatremia — tratament"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Administrarea este lentă.",
-    "evidenceLocation": "Kumar, p. 185, Hiponatremia — tratament"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Nu se corectează peste 125–130 mmol/L.",
-    "evidenceLocation": "Kumar, p. 185, Hiponatremia — tratament"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:27:36.786Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii supracorectează."
-  },
-  "textbookExpressions": [
-   "4-6",
-   "513"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a electroliti-adv-061: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "electroliti-adv-060-v2",
   "questionFingerprint": "0c6485f670dce7db09f3ab2449eb6d11a5e03b2464612e4bca56dd1c3e92aa15",
   "status": "source-checked",
@@ -234888,83 +233960,6 @@
   "reviewNotes": "Rescriere a electroliti-adv-087: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "electroliti-adv-027-v2",
-  "questionFingerprint": "edbfc6e2602a55397d90b7fc45a1a6ff444b5365206761510d297c189458e53a",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea SDO.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 9,
-   "printedPages": [
-    185
-   ],
-   "pdfPages": [
-    36
-   ],
-   "section": "Sindromul de demielinizare osmotică"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Alcoolismul și malnutriția cresc riscul.",
-    "evidenceLocation": "Kumar, p. 185, Sindromul de demielinizare osmotică"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Hipokaliemia crește riscul.",
-    "evidenceLocation": "Kumar, p. 185, Sindromul de demielinizare osmotică"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Leziunile apar tardiv.",
-    "evidenceLocation": "Kumar, p. 185, Sindromul de demielinizare osmotică"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Apare prin corecție rapidă.",
-    "evidenceLocation": "Kumar, p. 185, Sindromul de demielinizare osmotică"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Leziunile apar după 2–3 săptămâni.",
-    "evidenceLocation": "Kumar, p. 185, Sindromul de demielinizare osmotică"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:27:36.788Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează ritmul și momentul imagistic."
-  },
-  "textbookExpressions": [
-   "cirotici",
-   "2 sau 3 săptămâni"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a electroliti-adv-027: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "electroliti-adv-062-v2",
   "questionFingerprint": "0c1ab566c35591fe70e83ce5bb9a8a819422b9c6e4ba15bcf2d7f6e8a2b74cba",
   "status": "source-checked",
@@ -235117,85 +234112,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a electroliti-adv-063: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "electroliti-adv-026-v2",
-  "questionFingerprint": "1cfed761e95485cf8987d6725fdd0e03f7e78c06fbe9d2c8bb1d7fe0eb67fabf",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea hiponatremiei hipervolemice.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 9,
-   "printedPages": [
-    186,
-    184
-   ],
-   "pdfPages": [
-    37,
-    35
-   ],
-   "section": "Hiponatremia cu hipervolemie"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "IC și insuficiența hepatică sunt cauze.",
-    "evidenceLocation": "Kumar, p. 186, 184, Hiponatremia cu hipervolemie"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Se tratează cu restricție.",
-    "evidenceLocation": "Kumar, p. 186, 184, Hiponatremia cu hipervolemie"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "RFG este redusă.",
-    "evidenceLocation": "Kumar, p. 186, 184, Hiponatremia cu hipervolemie"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Diureticele agravează diluția.",
-    "evidenceLocation": "Kumar, p. 186, 184, Hiponatremia cu hipervolemie"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Reabsorbția proximală este avidă.",
-    "evidenceLocation": "Kumar, p. 186, 184, Hiponatremia cu hipervolemie"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:27:36.790Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează RFG și tratamentul."
-  },
-  "textbookExpressions": [
-   "Insuficienţa cardiacă",
-   "apă liberă"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a electroliti-adv-026: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "electroliti-adv-088-v2",
@@ -235431,83 +234347,6 @@
   "reviewNotes": "Rescriere a electroliti-adv-064: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "electroliti-adv-065-v2",
-  "questionFingerprint": "bd6846a8d9ea2f53d0f909d2d2b7443f2ba86285899a173bc663648ce22a4d8a",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea factorilor care deplasează potasiul.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 9,
-   "printedPages": [
-    187
-   ],
-   "pdfPages": [
-    38
-   ],
-   "section": "Reglarea concentrației de potasiu"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "α-stimularea o scade.",
-    "evidenceLocation": "Kumar, p. 187, Reglarea concentrației de potasiu"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Insulina stimulează intrarea.",
-    "evidenceLocation": "Kumar, p. 187, Reglarea concentrației de potasiu"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Teofilina o stimulează.",
-    "evidenceLocation": "Kumar, p. 187, Reglarea concentrației de potasiu"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "β-stimularea stimulează intrarea.",
-    "evidenceLocation": "Kumar, p. 187, Reglarea concentrației de potasiu"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Acidoza scade intrarea.",
-    "evidenceLocation": "Kumar, p. 187, Reglarea concentrației de potasiu"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:27:36.793Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează efectul α și al teofilinei."
-  },
-  "textbookExpressions": [
-   "insulină",
-   "teofilină"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a electroliti-adv-065: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "electroliti-adv-048-v2",
   "questionFingerprint": "0551b87e678f485c9164fab81ddf0918fdd9018132f88230fd9e684af39096c4",
   "status": "source-checked",
@@ -235585,83 +234424,6 @@
   "reviewNotes": "Rescriere a electroliti-adv-048: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "electroliti-adv-049-v2",
-  "questionFingerprint": "64d221c2f60476fb78f63fa1877dcfacd5ef71b8e560249ef5023aabc698e18b",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea manipulării renale a potasiului.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 9,
-   "printedPages": [
-    187
-   ],
-   "pdfPages": [
-    38
-   ],
-   "section": "Reglarea concentrației de potasiu"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Aldosteronul stimulează secreția.",
-    "evidenceLocation": "Kumar, p. 187, Reglarea concentrației de potasiu"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Este pasivă.",
-    "evidenceLocation": "Kumar, p. 187, Reglarea concentrației de potasiu"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Acidoza reduce secreția.",
-    "evidenceLocation": "Kumar, p. 187, Reglarea concentrației de potasiu"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Peste 90% se reabsoarbe proximal și în ansă.",
-    "evidenceLocation": "Kumar, p. 187, Reglarea concentrației de potasiu"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Secreția celulelor principale asigură excreția.",
-    "evidenceLocation": "Kumar, p. 187, Reglarea concentrației de potasiu"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:27:36.800Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează acidoza și natura reabsorbției."
-  },
-  "textbookExpressions": [
-   "90%",
-   "aldosteron"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a electroliti-adv-049: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "electroliti-adv-089-v2",
   "questionFingerprint": "85b0840fe129ef96acf918989beb31cd5c46c2d6d128e7f3b2bab7a1e31f10b0",
   "status": "source-checked",
@@ -235737,83 +234499,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a electroliti-adv-089: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "electroliti-adv-001-v2",
-  "questionFingerprint": "52a8e0db34a0d60d5197d4f9939724a386f894367ba7a4267e756d22212b3ba0",
-  "status": "source-checked",
-  "learningObjective": "Diferențierea tubulopatiilor hipokaliemice.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 9,
-   "printedPages": [
-    188
-   ],
-   "pdfPages": [
-    39
-   ],
-   "section": "Sindroamele Bartter, Gitelman și Liddle"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Gitelman are tensiune normală.",
-    "evidenceLocation": "Kumar, p. 188, Sindroamele Bartter, Gitelman și Liddle"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Liddle: renină și aldosteron scăzute.",
-    "evidenceLocation": "Kumar, p. 188, Sindroamele Bartter, Gitelman și Liddle"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Bartter: renină crescută.",
-    "evidenceLocation": "Kumar, p. 188, Sindroamele Bartter, Gitelman și Liddle"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Spironolactona este ineficientă în Liddle.",
-    "evidenceLocation": "Kumar, p. 188, Sindroamele Bartter, Gitelman și Liddle"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Gitelman: hipocalciurie.",
-    "evidenceLocation": "Kumar, p. 188, Sindroamele Bartter, Gitelman și Liddle"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:27:36.802Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează tensiunea și răspunsul terapeutic."
-  },
-  "textbookExpressions": [
-   "Gitelman",
-   "Liddle"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a electroliti-adv-001: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "electroliti-adv-090-v2",
@@ -236286,83 +234971,6 @@
   "reviewNotes": "Rescriere a electroliti-adv-068: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "electroliti-adv-067-v2",
-  "questionFingerprint": "6c4b5419d97ecd2d7a0160c72f3fcdfa153552ff9f1fe5a0898690b3bee0350a",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea tratamentului de urgență al hiperkaliemiei.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 9,
-   "printedPages": [
-    190
-   ],
-   "pdfPages": [
-    41
-   ],
-   "section": "Hiperkaliemia — tratament"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Glucoza singură nu atinge insulina necesară.",
-    "evidenceLocation": "Kumar, p. 190, Hiperkaliemia — tratament"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Insulina scade K+ cu 1 mmol/L în 60 de minute.",
-    "evidenceLocation": "Kumar, p. 190, Hiperkaliemia — tratament"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Calciul protejează membranele.",
-    "evidenceLocation": "Kumar, p. 190, Hiperkaliemia — tratament"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Calciul nu modifică potasiul.",
-    "evidenceLocation": "Kumar, p. 190, Hiperkaliemia — tratament"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Noii chelatori sunt superiori.",
-    "evidenceLocation": "Kumar, p. 190, Hiperkaliemia — tratament"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:27:36.809Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii atribuie calciului efect hipokaliemiant."
-  },
-  "textbookExpressions": [
-   "gluconat de calciu",
-   "60 min"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a electroliti-adv-067: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "electroliti-adv-073-v2",
   "questionFingerprint": "78a554bb0f439e5a9054534583423c6696b8bc9fc58747b2e5ffd599968a1df1",
   "status": "source-checked",
@@ -236517,85 +235125,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a electroliti-adv-077: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "electroliti-adv-081-v2",
-  "questionFingerprint": "c0c721ddc3ccd722a8f0890594949a6ebea23d3d5272d2248a8035d59f382183",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea mecanismului și efectelor diureticelor de ansă.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 9,
-   "printedPages": [
-    178,
-    179
-   ],
-   "pdfPages": [
-    29,
-    30
-   ],
-   "section": "Diureticele de ansă"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Blochează NKCC2.",
-    "evidenceLocation": "Kumar, p. 178, 179, Diureticele de ansă"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Hipercalciuria crește riscul de calculi.",
-    "evidenceLocation": "Kumar, p. 178, 179, Diureticele de ansă"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Venodilatația precedă diureza.",
-    "evidenceLocation": "Kumar, p. 178, 179, Diureticele de ansă"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Interferă cu excreția litiului.",
-    "evidenceLocation": "Kumar, p. 178, 179, Diureticele de ansă"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Cresc excreția calciului.",
-    "evidenceLocation": "Kumar, p. 178, 179, Diureticele de ansă"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:27:56.820Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii preiau efectul tiazidelor și neagă interacțiunea."
-  },
-  "textbookExpressions": [
-   "capacitanţei venoase",
-   "hipercalciurie"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a electroliti-adv-081: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "electroliti-adv-045-v2",
@@ -269519,5 +268048,1476 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a arsuri-adv-010: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "electroliti-adv-031-v2",
+  "questionFingerprint": "98d8e9484ba8ef57e9b97d6094f6d730599f4bebabff8ace653b3bb58b6495b1",
+  "status": "source-checked",
+  "learningObjective": "Fixarea compartimentelor hidrice ale organismului.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 9,
+   "printedPages": [
+    172
+   ],
+   "pdfPages": [
+    23
+   ],
+   "section": "Apa și electroliții"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Apa totală este ~42 L.",
+    "evidenceLocation": "Kumar, p. 172, Apa și electroliții"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: plasma este ~4,6 L, adică 4–5%.",
+    "evidenceLocation": "Kumar, p. 172, Apa și electroliții"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Lichidul intracelular este ~28 L.",
+    "evidenceLocation": "Kumar, p. 172, Apa și electroliții"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "40–50% este valoarea la femei.",
+    "evidenceLocation": "Kumar, p. 172, Apa și electroliții"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Interstițiul are ~9,4 L.",
+    "evidenceLocation": "Kumar, p. 172, Apa și electroliții"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:27:16.051Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii permută volumele și sexul."
+  },
+  "textbookExpressions": [
+   "42 L",
+   "28 L"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a electroliti-adv-031: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "electroliti-adv-014-v2",
+  "questionFingerprint": "9737c9d9ae4dbdd445e3f993cbca6f99d470a8133035145228ae131602ae045e",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea determinanților distribuției apei.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 9,
+   "printedPages": [
+    172
+   ],
+   "pdfPages": [
+    23
+   ],
+   "section": "Presiunea osmotică"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Presiunea osmotică este determinantul principal.",
+    "evidenceLocation": "Kumar, p. 172, Presiunea osmotică"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Retenția ureei nu modifică distribuția apei.",
+    "evidenceLocation": "Kumar, p. 172, Presiunea osmotică"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: ureea traversează membranele și este osmotic inactivă.",
+    "evidenceLocation": "Kumar, p. 172, Presiunea osmotică"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Na+ total determină volumul extracelular.",
+    "evidenceLocation": "Kumar, p. 172, Presiunea osmotică"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Na+ traversează capilarul și nu contribuie la această distribuție.",
+    "evidenceLocation": "Kumar, p. 172, Presiunea osmotică"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:27:16.053Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii atribuie efecte osmotice greșite."
+  },
+  "textbookExpressions": [
+   "osmotic inactivă",
+   "presiunea osmotică"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a electroliti-adv-014: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "electroliti-adv-013-v2",
+  "questionFingerprint": "ff2cabe7c3a02e85750a746fd93e3b57fcd92d93f8ec07376f9e3dce47efdfea",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea distribuției soluțiilor intravenoase.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 9,
+   "printedPages": [
+    172
+   ],
+   "pdfPages": [
+    23
+   ],
+   "section": "Distribuția lichidelor de substituție"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Coloidul rămâne vascular prin presiune oncotică.",
+    "evidenceLocation": "Kumar, p. 172, Distribuția lichidelor de substituție"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Salina rămâne extracelular.",
+    "evidenceLocation": "Kumar, p. 172, Distribuția lichidelor de substituție"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Glucoza 5% se distribuie în toate compartimentele.",
+    "evidenceLocation": "Kumar, p. 172, Distribuția lichidelor de substituție"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Salina rămâne extracelular.",
+    "evidenceLocation": "Kumar, p. 172, Distribuția lichidelor de substituție"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: glucoza este metabolizată, iar apa se distribuie egal în toate compartimentele.",
+    "evidenceLocation": "Kumar, p. 172, Distribuția lichidelor de substituție"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:27:16.054Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii permută glucoza și salina."
+  },
+  "textbookExpressions": [
+   "glucoză 5%",
+   "coloidală"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a electroliti-adv-013: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "electroliti-adv-012-v2",
+  "questionFingerprint": "6bc55d251cc768bd4e125ff4c58227dd6bbadb68016498276c0c955a6336ec48",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea celulelor ductului colector.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 9,
+   "printedPages": [
+    176
+   ],
+   "pdfPages": [
+    27
+   ],
+   "section": "Reglarea excreției apei"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Intercalatele nu transportă NaCl.",
+    "evidenceLocation": "Kumar, p. 176, Reglarea excreției apei"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: celulele principale sunt ~65%.",
+    "evidenceLocation": "Kumar, p. 176, Reglarea excreției apei"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Au canale apicale de Na+ și K+.",
+    "evidenceLocation": "Kumar, p. 176, Reglarea excreției apei"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Efectul ADH apare în celulele principale.",
+    "evidenceLocation": "Kumar, p. 176, Reglarea excreției apei"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Intercalatele manipulează H+ și HCO3−.",
+    "evidenceLocation": "Kumar, p. 176, Reglarea excreției apei"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:27:16.056Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii mută funcțiile între tipurile celulare."
+  },
+  "textbookExpressions": [
+   "65%",
+   "intercalate"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a electroliti-adv-012: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "electroliti-adv-037-v2",
+  "questionFingerprint": "79d0586d29f0fba6be750beba42eef419342ac216cd55946c189a9d81efa3108",
+  "status": "source-checked",
+  "learningObjective": "Separarea căilor de osmoreglare și de reglare volemică.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 9,
+   "printedPages": [
+    177,
+    176
+   ],
+   "pdfPages": [
+    28,
+    27
+   ],
+   "section": "Osmoreglarea versus reglarea volemică"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Apa nu modifică ANP sau SRAA.",
+    "evidenceLocation": "Kumar, p. 177, 176, Osmoreglarea versus reglarea volemică"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Salina crește volumul fără a modifica osmolalitatea.",
+    "evidenceLocation": "Kumar, p. 177, 176, Osmoreglarea versus reglarea volemică"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "ADH rămâne neschimbat.",
+    "evidenceLocation": "Kumar, p. 177, 176, Osmoreglarea versus reglarea volemică"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: apa este excretată în 4–6 ore prin inhibarea ADH.",
+    "evidenceLocation": "Kumar, p. 177, 176, Osmoreglarea versus reglarea volemică"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "ANP și aldosteronul funcționează normal.",
+    "evidenceLocation": "Kumar, p. 177, 176, Osmoreglarea versus reglarea volemică"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:27:16.057Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii amestecă cele două căi."
+  },
+  "textbookExpressions": [
+   "4-6 ore",
+   "izoosmotică"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a electroliti-adv-037: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "electroliti-adv-055-v2",
+  "questionFingerprint": "f43e7f1bf7c6da0317a335fe5b7390fc7d5a240539c04bc560a291e06f8137e1",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea distribuției clinice a edemului.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 9,
+   "printedPages": [
+    177
+   ],
+   "pdfPages": [
+    28
+   ],
+   "section": "Creșterea volumului extracelular"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: este necesară expansiunea cu cel puțin 2 L.",
+    "evidenceLocation": "Kumar, p. 177, Creșterea volumului extracelular"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Regiunea sacrată la imobilizați.",
+    "evidenceLocation": "Kumar, p. 177, Creșterea volumului extracelular"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Pragul este de cel puțin 2 L.",
+    "evidenceLocation": "Kumar, p. 177, Creșterea volumului extracelular"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Gleznele sunt primele afectate.",
+    "evidenceLocation": "Kumar, p. 177, Creșterea volumului extracelular"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Fața este afectată mai ales dimineața.",
+    "evidenceLocation": "Kumar, p. 177, Creșterea volumului extracelular"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:27:16.058Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii schimbă pragul și momentul."
+  },
+  "textbookExpressions": [
+   "2 L",
+   "gleznele"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a electroliti-adv-055: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "electroliti-adv-057-v2",
+  "questionFingerprint": "3afb690c012fc4e332abf57df125638c986545d479e2dbb10b2f056c0922db7d",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea tratamentului expansiunii volemice.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 9,
+   "printedPages": [
+    178
+   ],
+   "pdfPages": [
+    29
+   ],
+   "section": "Tratament"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Diureticele sunt baza tratamentului.",
+    "evidenceLocation": "Kumar, p. 178, Tratament"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Sub 100 mmol este greu de obținut.",
+    "evidenceLocation": "Kumar, p. 178, Tratament"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Are rareori valoare practică.",
+    "evidenceLocation": "Kumar, p. 178, Tratament"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: aportul se reduce ușor, la ~100 mmol (2 g) pe zi.",
+    "evidenceLocation": "Kumar, p. 178, Tratament"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Restricția ajută la rezistența la diuretice.",
+    "evidenceLocation": "Kumar, p. 178, Tratament"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:27:16.059Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii supraestimează restricția și repausul."
+  },
+  "textbookExpressions": [
+   "100 mmol",
+   "2 g"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a electroliti-adv-057: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "electroliti-adv-081-v2",
+  "questionFingerprint": "40b6a0591fc6c57b94d39dab37fa7e7264078afe45dce5cc26bdcce65490ba96",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea mecanismului și efectelor diureticelor de ansă.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 9,
+   "printedPages": [
+    178,
+    179
+   ],
+   "pdfPages": [
+    29,
+    30
+   ],
+   "section": "Diureticele de ansă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Blochează NKCC2.",
+    "evidenceLocation": "Kumar, p. 178, 179, Diureticele de ansă"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: produc hipercalciurie, cu risc de calculi.",
+    "evidenceLocation": "Kumar, p. 178, 179, Diureticele de ansă"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Venodilatația precedă diureza.",
+    "evidenceLocation": "Kumar, p. 178, 179, Diureticele de ansă"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Interferă cu excreția litiului.",
+    "evidenceLocation": "Kumar, p. 178, 179, Diureticele de ansă"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Cresc excreția calciului.",
+    "evidenceLocation": "Kumar, p. 178, 179, Diureticele de ansă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:27:16.060Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii preiau efectul tiazidelor și neagă interacțiunea."
+  },
+  "textbookExpressions": [
+   "capacitanţei venoase",
+   "hipercalciurie"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a electroliti-adv-081: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "electroliti-adv-082-v2",
+  "questionFingerprint": "72c7ca8ac1b39d4560f33ae667abb9c93449357047615b9ac15fd9578a71cee0",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea efectelor tiazidelor.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 9,
+   "printedPages": [
+    179
+   ],
+   "pdfPages": [
+    30
+   ],
+   "section": "Diureticele tiazidice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Retenția de urați și intoleranța la glucoză sunt mai mari.",
+    "evidenceLocation": "Kumar, p. 179, Diureticele tiazidice"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Sunt mai puțin puternice.",
+    "evidenceLocation": "Kumar, p. 179, Diureticele tiazidice"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: tiazidele reduc excreția calciului.",
+    "evidenceLocation": "Kumar, p. 179, Diureticele tiazidice"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Reduc excreția calciului.",
+    "evidenceLocation": "Kumar, p. 179, Diureticele tiazidice"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Interferă cu excreția apei.",
+    "evidenceLocation": "Kumar, p. 179, Diureticele tiazidice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:27:16.061Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează potența și calciul."
+  },
+  "textbookExpressions": [
+   "hiponatremie",
+   "calciului"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a electroliti-adv-082: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "electroliti-adv-023-v2",
+  "questionFingerprint": "157daad44120d6b3a74cff27b25c7d009d1ac1ff8ef791e5447acaee47a4f749",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea tratamentului rezistenței la diuretice.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 9,
+   "printedPages": [
+    180,
+    186
+   ],
+   "pdfPages": [
+    31,
+    37
+   ],
+   "section": "Rezistența la diuretice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: maximul este 2 g/zi, din cauza ototoxicității.",
+    "evidenceLocation": "Kumar, p. 180, 186, Rezistența la diuretice"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Albumina nu crește natriureza.",
+    "evidenceLocation": "Kumar, p. 180, 186, Rezistența la diuretice"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Albumina nu crește natriureza.",
+    "evidenceLocation": "Kumar, p. 180, 186, Rezistența la diuretice"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Metolazona depinde puțin de RFG.",
+    "evidenceLocation": "Kumar, p. 180, 186, Rezistența la diuretice"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Combinațiile sunt extrem de utile.",
+    "evidenceLocation": "Kumar, p. 180, 186, Rezistența la diuretice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:27:16.062Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează efectul albuminei și al combinațiilor."
+  },
+  "textbookExpressions": [
+   "2 g",
+   "Metolazona"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a electroliti-adv-023: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "electroliti-adv-038-v2",
+  "questionFingerprint": "82fd9160f0fe82f642333e92c0980a27ec12f4aca84b6e5891223d76343db999",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea epidemiologiei și a pseudohiponatremiei.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 9,
+   "printedPages": [
+    183
+   ],
+   "pdfPages": [
+    34
+   ],
+   "section": "Hiponatremia"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Pragul este 135 mmol/L.",
+    "evidenceLocation": "Kumar, p. 183, Hiponatremia"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Pseudohiponatremia apare în hiperlipidemie.",
+    "evidenceLocation": "Kumar, p. 183, Hiponatremia"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Osmolalitatea este normală.",
+    "evidenceLocation": "Kumar, p. 183, Hiponatremia"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: apare la până la 35% dintre internați.",
+    "evidenceLocation": "Kumar, p. 183, Hiponatremia"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Este cea mai comună anomalie.",
+    "evidenceLocation": "Kumar, p. 183, Hiponatremia"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:27:16.064Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii schimbă pragul și osmolalitatea."
+  },
+  "textbookExpressions": [
+   "35%",
+   "hiperlipidemie"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a electroliti-adv-038: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "electroliti-adv-059-v2",
+  "questionFingerprint": "57c8f31f992b6597453b81e4769d219730f2073844c2516f348758344e0ca628",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea hiponatremiei postoperatorii.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 9,
+   "printedPages": [
+    184
+   ],
+   "pdfPages": [
+    35
+   ],
+   "section": "Hiponatremia cu euvolemie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Aceste băuturi pot produce hiponatremie.",
+    "evidenceLocation": "Kumar, p. 184, Hiponatremia cu euvolemie"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: apare la ~1%.",
+    "evidenceLocation": "Kumar, p. 184, Hiponatremia cu euvolemie"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "La rinichi normal este rară.",
+    "evidenceLocation": "Kumar, p. 184, Hiponatremia cu euvolemie"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "ADH postoperator este de 40 de ori mai mare.",
+    "evidenceLocation": "Kumar, p. 184, Hiponatremia cu euvolemie"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Glucoza 5% în exces este cauza iatrogenă comună.",
+    "evidenceLocation": "Kumar, p. 184, Hiponatremia cu euvolemie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:27:16.065Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii exagerează aportul oral și protecția băuturilor."
+  },
+  "textbookExpressions": [
+   "1%",
+   "40 de ori"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a electroliti-adv-059: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "electroliti-adv-061-v2",
+  "questionFingerprint": "63d477de1a99e53580eef0219e52510259e8b64cdeb123182a4c61bd6237fab8",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea corecției cu salină hipertonă.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 9,
+   "printedPages": [
+    185
+   ],
+   "pdfPages": [
+    36
+   ],
+   "section": "Hiponatremia — tratament"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: ținta este 4–6 mmol/L în primele 4 ore.",
+    "evidenceLocation": "Kumar, p. 185, Hiponatremia — tratament"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Semnele neurologice severe o indică.",
+    "evidenceLocation": "Kumar, p. 185, Hiponatremia — tratament"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "1 mL/kg ≈ 1 mmol/L.",
+    "evidenceLocation": "Kumar, p. 185, Hiponatremia — tratament"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Administrarea este lentă.",
+    "evidenceLocation": "Kumar, p. 185, Hiponatremia — tratament"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu se corectează peste 125–130 mmol/L.",
+    "evidenceLocation": "Kumar, p. 185, Hiponatremia — tratament"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:27:16.065Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii supracorectează."
+  },
+  "textbookExpressions": [
+   "4-6",
+   "513"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a electroliti-adv-061: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "electroliti-adv-027-v2",
+  "questionFingerprint": "4d24761280bd7bea0918d0438fb3a9f443aa614de2c15f554b1f90ae1fe540fc",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea SDO.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 9,
+   "printedPages": [
+    185
+   ],
+   "pdfPages": [
+    36
+   ],
+   "section": "Sindromul de demielinizare osmotică"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Alcoolismul și malnutriția cresc riscul.",
+    "evidenceLocation": "Kumar, p. 185, Sindromul de demielinizare osmotică"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Hipokaliemia crește riscul.",
+    "evidenceLocation": "Kumar, p. 185, Sindromul de demielinizare osmotică"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Leziunile apar tardiv.",
+    "evidenceLocation": "Kumar, p. 185, Sindromul de demielinizare osmotică"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Apare prin corecție rapidă.",
+    "evidenceLocation": "Kumar, p. 185, Sindromul de demielinizare osmotică"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: leziunile apar după 2–3 săptămâni.",
+    "evidenceLocation": "Kumar, p. 185, Sindromul de demielinizare osmotică"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:27:16.066Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează ritmul și momentul imagistic."
+  },
+  "textbookExpressions": [
+   "cirotici",
+   "2 sau 3 săptămâni"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a electroliti-adv-027: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "electroliti-adv-026-v2",
+  "questionFingerprint": "fbf8aa2e62a3e57c26853abd194e6cc6b060635eb7b0469d9d10da70cb277365",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea hiponatremiei hipervolemice.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 9,
+   "printedPages": [
+    186,
+    184
+   ],
+   "pdfPages": [
+    37,
+    35
+   ],
+   "section": "Hiponatremia cu hipervolemie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "IC și insuficiența hepatică sunt cauze.",
+    "evidenceLocation": "Kumar, p. 186, 184, Hiponatremia cu hipervolemie"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Se tratează cu restricție.",
+    "evidenceLocation": "Kumar, p. 186, 184, Hiponatremia cu hipervolemie"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "RFG este redusă.",
+    "evidenceLocation": "Kumar, p. 186, 184, Hiponatremia cu hipervolemie"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Diureticele agravează diluția.",
+    "evidenceLocation": "Kumar, p. 186, 184, Hiponatremia cu hipervolemie"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Reabsorbția proximală este avidă.",
+    "evidenceLocation": "Kumar, p. 186, 184, Hiponatremia cu hipervolemie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:27:16.067Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează RFG și tratamentul."
+  },
+  "textbookExpressions": [
+   "Insuficienţa cardiacă",
+   "apă liberă"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a electroliti-adv-026: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "electroliti-adv-049-v2",
+  "questionFingerprint": "d7ade1369ab27c28f7213ec0ecebd49283eddc0935f8941c250c31f835b619e7",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea manipulării renale a potasiului.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 9,
+   "printedPages": [
+    187
+   ],
+   "pdfPages": [
+    38
+   ],
+   "section": "Reglarea concentrației de potasiu"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Aldosteronul stimulează secreția.",
+    "evidenceLocation": "Kumar, p. 187, Reglarea concentrației de potasiu"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Este pasivă.",
+    "evidenceLocation": "Kumar, p. 187, Reglarea concentrației de potasiu"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Acidoza reduce secreția.",
+    "evidenceLocation": "Kumar, p. 187, Reglarea concentrației de potasiu"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Peste 90% se reabsoarbe proximal și în ansă.",
+    "evidenceLocation": "Kumar, p. 187, Reglarea concentrației de potasiu"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Secreția celulelor principale asigură excreția.",
+    "evidenceLocation": "Kumar, p. 187, Reglarea concentrației de potasiu"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:27:16.068Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează acidoza și natura reabsorbției."
+  },
+  "textbookExpressions": [
+   "90%",
+   "aldosteron"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a electroliti-adv-049: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "electroliti-adv-001-v2",
+  "questionFingerprint": "5b14247950906c20912e43e1b17d649193cc9d91f282f9c4e946ba631d891dbd",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea tubulopatiilor hipokaliemice.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 9,
+   "printedPages": [
+    188
+   ],
+   "pdfPages": [
+    39
+   ],
+   "section": "Sindroamele Bartter, Gitelman și Liddle"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Gitelman are tensiune normală.",
+    "evidenceLocation": "Kumar, p. 188, Sindroamele Bartter, Gitelman și Liddle"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Liddle: renină și aldosteron scăzute.",
+    "evidenceLocation": "Kumar, p. 188, Sindroamele Bartter, Gitelman și Liddle"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Bartter: renină crescută.",
+    "evidenceLocation": "Kumar, p. 188, Sindroamele Bartter, Gitelman și Liddle"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Spironolactona este ineficientă în Liddle.",
+    "evidenceLocation": "Kumar, p. 188, Sindroamele Bartter, Gitelman și Liddle"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Gitelman: hipocalciurie.",
+    "evidenceLocation": "Kumar, p. 188, Sindroamele Bartter, Gitelman și Liddle"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:27:16.069Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează tensiunea și răspunsul terapeutic."
+  },
+  "textbookExpressions": [
+   "Gitelman",
+   "Liddle"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a electroliti-adv-001: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "electroliti-adv-067-v2",
+  "questionFingerprint": "afb1956c6a423ebd9595d061c130461ead1ff4a112da702eb41a861f6cddcffc",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea tratamentului de urgență al hiperkaliemiei.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 9,
+   "printedPages": [
+    190
+   ],
+   "pdfPages": [
+    41
+   ],
+   "section": "Hiperkaliemia — tratament"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Glucoza singură nu atinge insulina necesară.",
+    "evidenceLocation": "Kumar, p. 190, Hiperkaliemia — tratament"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: insulina scade K+ cu ~1 mmol/L în 60 de minute.",
+    "evidenceLocation": "Kumar, p. 190, Hiperkaliemia — tratament"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Calciul protejează membranele.",
+    "evidenceLocation": "Kumar, p. 190, Hiperkaliemia — tratament"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Calciul nu modifică potasiul.",
+    "evidenceLocation": "Kumar, p. 190, Hiperkaliemia — tratament"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Noii chelatori sunt superiori.",
+    "evidenceLocation": "Kumar, p. 190, Hiperkaliemia — tratament"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:27:16.070Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii atribuie calciului efect hipokaliemiant."
+  },
+  "textbookExpressions": [
+   "gluconat de calciu",
+   "60 min"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a electroliti-adv-067: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "electroliti-adv-065-v2",
+  "questionFingerprint": "3b41f06f8abfbdbceeda71b91faa459a8d999b5873ab3de027804ae8daa1dc83",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea factorilor care deplasează potasiul.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 9,
+   "printedPages": [
+    187
+   ],
+   "pdfPages": [
+    38
+   ],
+   "section": "Reglarea concentrației de potasiu"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "α-stimularea o scade.",
+    "evidenceLocation": "Kumar, p. 187, Reglarea concentrației de potasiu"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Insulina stimulează intrarea.",
+    "evidenceLocation": "Kumar, p. 187, Reglarea concentrației de potasiu"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Teofilina stimulează intrarea potasiului în celule.",
+    "evidenceLocation": "Kumar, p. 187, Reglarea concentrației de potasiu"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "β-stimularea stimulează intrarea.",
+    "evidenceLocation": "Kumar, p. 187, Reglarea concentrației de potasiu"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Acidoza scade intrarea.",
+    "evidenceLocation": "Kumar, p. 187, Reglarea concentrației de potasiu"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:27:29.772Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează efectul α și al teofilinei."
+  },
+  "textbookExpressions": [
+   "insulină",
+   "teofilină"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a electroliti-adv-065: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  }
 ]
