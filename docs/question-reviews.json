@@ -182922,83 +182922,6 @@
   "reviewNotes": "Rescriere a reumatologie-adv-073: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "tromboembolism-adv-041-v2",
-  "questionFingerprint": "4c3bf67a29c786241c4c93d15ab82e3fe25ccc931410dc3d0223cc69398c9b88",
-  "status": "source-checked",
-  "learningObjective": "Diferențierea trombozei de hemostaza fiziologică.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 29,
-   "printedPages": [
-    1001
-   ],
-   "pdfPages": [
-    191
-   ],
-   "section": "Patogeneza trombozei"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Cheagul din afara endoteliului caracterizează hemostaza.",
-    "evidenceLocation": "Kumar, p. 1001, Patogeneza trombozei"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Trombii se formează pe perete și sunt atașați de el.",
-    "evidenceLocation": "Kumar, p. 1001, Patogeneza trombozei"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Formarea cheagului ca răspuns la leziune descrie hemostaza.",
-    "evidenceLocation": "Kumar, p. 1001, Patogeneza trombozei"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Tromboza produce o masă solidă în interiorul vasului.",
-    "evidenceLocation": "Kumar, p. 1001, Patogeneza trombozei"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Fragmentele (emboli) se pot desprinde și obstrua vasele din aval.",
-    "evidenceLocation": "Kumar, p. 1001, Patogeneza trombozei"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:07:11.765Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii descriu hemostaza fiziologică."
-  },
-  "textbookExpressions": [
-   "hemostaza fiziologică",
-   "embofl"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a tromboembolism-adv-041: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "tromboembolism-adv-001-v2",
   "questionFingerprint": "425cdaba7125672d3cb5bbd4071cd8e6f60251638ecf0e87fbd7a61abfae5cba",
   "status": "source-checked",
@@ -183309,237 +183232,6 @@
   "reviewNotes": "Rescriere a tromboembolism-adv-021: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "tromboembolism-adv-070-v2",
-  "questionFingerprint": "5ec1a378ade32f4dac7dd1c16bec473c8b743e538b102e7b696997cac42a55b3",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea modificărilor ECG de suprasolicitare dreaptă.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 29,
-   "printedPages": [
-    1003
-   ],
-   "pdfPages": [
-    193
-   ],
-   "section": "Investigații inițiale — ECG"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Figura 29.1 arată bloc de ramură dreaptă incomplet.",
-    "evidenceLocation": "Kumar, p. 1003, Investigații inițiale — ECG"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "T inversate apar în precordialele drepte V1–V4.",
-    "evidenceLocation": "Kumar, p. 1003, Investigații inițiale — ECG"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Suprasolicitarea VD inversează T în II, III, aVF.",
-    "evidenceLocation": "Kumar, p. 1003, Investigații inițiale — ECG"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Nu este aspectul citat.",
-    "evidenceLocation": "Kumar, p. 1003, Investigații inițiale — ECG"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Undele T sunt inversate, nu pozitive.",
-    "evidenceLocation": "Kumar, p. 1003, Investigații inițiale — ECG"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:07:11.773Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii descriu aspecte opuse suprasolicitării drepte."
-  },
-  "textbookExpressions": [
-   "V1-V4",
-   "bloc de ramură dreaptă"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a tromboembolism-adv-070: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "tromboembolism-adv-002-v2",
-  "questionFingerprint": "74e09281f86ff83747c70dadc566482a0d7f7be5633e0cc1b481a371bc900327",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea algoritmului diagnostic NICE în TVP.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 29,
-   "printedPages": [
-    1004
-   ],
-   "pdfPages": [
-    194
-   ],
-   "section": "Diagnosticul TVP și al EP"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "La scor probabil se face ultrasonografie proximală.",
-    "evidenceLocation": "Kumar, p. 1004, Diagnosticul TVP și al EP"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "D-dimerii crescuți la scor improbabil impun imagistică.",
-    "evidenceLocation": "Kumar, p. 1004, Diagnosticul TVP și al EP"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Rămâne o rată mică de eșec (<2% în 3 luni).",
-    "evidenceLocation": "Kumar, p. 1004, Diagnosticul TVP și al EP"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "La scor improbabil, următorul pas sunt D-dimerii.",
-    "evidenceLocation": "Kumar, p. 1004, Diagnosticul TVP și al EP"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "La scor probabil imagistica este necesară.",
-    "evidenceLocation": "Kumar, p. 1004, Diagnosticul TVP și al EP"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:07:11.774Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii supraestimează D-dimerii."
-  },
-  "textbookExpressions": [
-   "D-dimerilor",
-   "improbabil"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a tromboembolism-adv-002: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "tromboembolism-adv-044-v2",
-  "questionFingerprint": "5ef3380be1b50e86f824a97ffe60ede731b17c0e335050983d6b6d53e644e7aa",
-  "status": "source-checked",
-  "learningObjective": "Interpretarea D-dimerilor în TEV.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 29,
-   "printedPages": [
-    1004
-   ],
-   "pdfPages": [
-    194
-   ],
-   "section": "Măsurarea D-dimerilor"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Nu sunt specifici TEV.",
-    "evidenceLocation": "Kumar, p. 1004, Măsurarea D-dimerilor"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Sunt crescuți nespecific la vârstnici, în infecții, cancer și sarcină.",
-    "evidenceLocation": "Kumar, p. 1004, Măsurarea D-dimerilor"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Nivelurile crescute impun imagistică.",
-    "evidenceLocation": "Kumar, p. 1004, Măsurarea D-dimerilor"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "D-dimerii sunt produși de degradare a fibrinei.",
-    "evidenceLocation": "Kumar, p. 1004, Măsurarea D-dimerilor"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Importanța lor stă în valoarea predictivă negativă ridicată.",
-    "evidenceLocation": "Kumar, p. 1004, Măsurarea D-dimerilor"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:07:11.775Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii confundă valoarea predictivă negativă cu cea pozitivă."
-  },
-  "textbookExpressions": [
-   "degradare a fibrinei",
-   "predictivă negativă"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a tromboembolism-adv-044: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "tromboembolism-adv-072-v2",
   "questionFingerprint": "18b5540d8f4000a73c9d31ec469c5e0d1192b045eb03607fa6d79f9442e488cd",
   "status": "source-checked",
@@ -183773,320 +183465,6 @@
   "reviewNotes": "Rescriere a tromboembolism-adv-004: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "tromboembolism-adv-005-v2",
-  "questionFingerprint": "4a273b34bb886017c8b5b4d3a1ce21018131d52d9f7adde8200d3f203866d2ab",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea fazelor și a obiectivelor anticoagulării.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 29,
-   "printedPages": [
-    1006,
-    1007
-   ],
-   "pdfPages": [
-    196,
-    197
-   ],
-   "section": "Tratament — Fazele anticoagulării"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Anticoagulantele nu dizolvă trombul; ulterior se previne recurența.",
-    "evidenceLocation": "Kumar, p. 1006, 1007, Tratament — Fazele anticoagulării"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Faza acută durează 5–10 zile.",
-    "evidenceLocation": "Kumar, p. 1006, 1007, Tratament — Fazele anticoagulării"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Faza acută previne extinderea trombului și embolizarea.",
-    "evidenceLocation": "Kumar, p. 1006, 1007, Tratament — Fazele anticoagulării"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Faza acută durează 5–10 zile.",
-    "evidenceLocation": "Kumar, p. 1006, 1007, Tratament — Fazele anticoagulării"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Faza de menținere durează minimum 3 luni.",
-    "evidenceLocation": "Kumar, p. 1006, 1007, Tratament — Fazele anticoagulării"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:07:11.778Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează durata și obiectivul fazelor."
-  },
-  "textbookExpressions": [
-   "5-10 zile",
-   "minimum 3 luni"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a tromboembolism-adv-005: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "tromboembolism-adv-023-v2",
-  "questionFingerprint": "33b789c4ff1eb7a7b9538ec80eaff25104801f67cee2403f3468a57923eea5e5",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea selecției pentru tratament ambulator și definiția EP instabile.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 29,
-   "printedPages": [
-    1007,
-    1006
-   ],
-   "pdfPages": [
-    197,
-    196
-   ],
-   "section": "Îngrijirea în ambulatoriu"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "EP cu risc scăzut nu necesită internare prelungită.",
-    "evidenceLocation": "Kumar, p. 1007, 1006, Îngrijirea în ambulatoriu"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Șocul: TAS <90 mmHg sau scădere >40 mmHg peste 15 minute.",
-    "evidenceLocation": "Kumar, p. 1007, 1006, Îngrijirea în ambulatoriu"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "EP cu risc scăzut (PESI) poate fi tratată ambulator sau cu externare precoce.",
-    "evidenceLocation": "Kumar, p. 1007, 1006, Îngrijirea în ambulatoriu"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Mulți pacienți cu TVP pot fi îngrijiți ambulator.",
-    "evidenceLocation": "Kumar, p. 1007, 1006, Îngrijirea în ambulatoriu"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Pragul este TAS <90 mmHg.",
-    "evidenceLocation": "Kumar, p. 1007, 1006, Îngrijirea în ambulatoriu"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:07:11.779Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii exclud îngrijirea ambulatorie și deplasează pragul."
-  },
-  "textbookExpressions": [
-   "PESI",
-   "15 minute"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a tromboembolism-adv-023: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "tromboembolism-adv-006-v2",
-  "questionFingerprint": "ed1461c1331e01f1d827f07722c6672cac50b5d6e4c14ae1fa375a40e163e6a3",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea alegerii anticoagulantului în sarcină și alăptare.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 29,
-   "printedPages": [
-    1007,
-    1008
-   ],
-   "pdfPages": [
-    197,
-    198
-   ],
-   "section": "Situații speciale — Femeile gravide"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Warfarina este sigură doar până în săptămâna 6.",
-    "evidenceLocation": "Kumar, p. 1007, 1008, Situații speciale — Femeile gravide"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Warfarina produce embriopatie între săptămânile 6 și 12.",
-    "evidenceLocation": "Kumar, p. 1007, 1008, Situații speciale — Femeile gravide"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "LMWH nu traversează placenta și este tratamentul de elecție.",
-    "evidenceLocation": "Kumar, p. 1007, 1008, Situații speciale — Femeile gravide"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "DOAC traversează placenta și nu se folosesc în sarcină.",
-    "evidenceLocation": "Kumar, p. 1007, 1008, Situații speciale — Femeile gravide"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Warfarina și LMWH sunt sigure la alăptare.",
-    "evidenceLocation": "Kumar, p. 1007, 1008, Situații speciale — Femeile gravide"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:07:11.780Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii contrazic interdicțiile explicite."
-  },
-  "textbookExpressions": [
-   "hipoplazia nazală",
-   "6-a şi a 12-a"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a tromboembolism-adv-006: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "tromboembolism-adv-077-v2",
-  "questionFingerprint": "fd50340bf067d8b2dfac9dbbdefbb57b75713a47398a0bb4e4d82bfac7612ae5",
-  "status": "source-checked",
-  "learningObjective": "Fixarea claselor și a punctajelor PESI original.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 29,
-   "printedPages": [
-    1008
-   ],
-   "pdfPages": [
-    198
-   ],
-   "section": "Cadranul 29.5 — PESI original"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Clasa I: ≤65 de puncte, mortalitate 0–1,6%.",
-    "evidenceLocation": "Kumar, p. 1008, Cadranul 29.5 — PESI original"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Statusul mental alterat valorează +60 de puncte.",
-    "evidenceLocation": "Kumar, p. 1008, Cadranul 29.5 — PESI original"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Clasa V: >125 de puncte, mortalitate 10–24,5%.",
-    "evidenceLocation": "Kumar, p. 1008, Cadranul 29.5 — PESI original"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Peste 125 este clasa V.",
-    "evidenceLocation": "Kumar, p. 1008, Cadranul 29.5 — PESI original"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Statusul mental valorează +60.",
-    "evidenceLocation": "Kumar, p. 1008, Cadranul 29.5 — PESI original"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:07:11.781Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii permută clasele și punctajul."
-  },
-  "textbookExpressions": [
-   "+60 puncte",
-   "Clasa V"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a tromboembolism-adv-077: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "tromboembolism-adv-087-v2",
   "questionFingerprint": "ee9285a370703512ac8f1a4675cb31dff97352aefd2f754b97fba2446b993d81",
   "status": "source-checked",
@@ -184162,160 +183540,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a tromboembolism-adv-087: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "tromboembolism-adv-078-v2",
-  "questionFingerprint": "34cd85c759ec065888591121c208d4927d1f0f70aeb3bddbdc98f3774754e790",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea indicațiilor controversate și a limitelor filtrelor VCI.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 29,
-   "printedPages": [
-    1008
-   ],
-   "pdfPages": [
-    198
-   ],
-   "section": "Rolul trombolizei și filtrele VCI"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Filtrele recuperabile sunt preferate și se îndepărtează când anticoagularea devine sigură.",
-    "evidenceLocation": "Kumar, p. 1008, Rolul trombolizei și filtrele VCI"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Filtrele VCI nu reduc EP recurentă față de anticoagulare.",
-    "evidenceLocation": "Kumar, p. 1008, Rolul trombolizei și filtrele VCI"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Tromboliza nu este standard în EP intermediară.",
-    "evidenceLocation": "Kumar, p. 1008, Rolul trombolizei și filtrele VCI"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Rolul trombolizei în EP intermediară rămâne controversat.",
-    "evidenceLocation": "Kumar, p. 1008, Rolul trombolizei și filtrele VCI"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Filtrele recuperabile sunt preferate.",
-    "evidenceLocation": "Kumar, p. 1008, Rolul trombolizei și filtrele VCI"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:07:11.783Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii transformă controversele în reguli."
-  },
-  "textbookExpressions": [
-   "risc intermediar",
-   "recuperabile"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a tromboembolism-adv-078: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "tromboembolism-adv-008-v2",
-  "questionFingerprint": "d55343563aeb66098e5beb1a4b63cedd0a60b7c43ebf583f59e06f6fea18a3b6",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea indicațiilor și limitelor filtrelor VCI.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 29,
-   "printedPages": [
-    1008
-   ],
-   "pdfPages": [
-    198
-   ],
-   "section": "Abordări intervenționale — Filtrele VCI"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Nu reduc EP recurentă față de anticoagulare.",
-    "evidenceLocation": "Kumar, p. 1008, Abordări intervenționale — Filtrele VCI"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Se asociază independent cu risc crescut de TVP.",
-    "evidenceLocation": "Kumar, p. 1008, Abordări intervenționale — Filtrele VCI"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Anticoagularea se începe imediat ce devine sigură.",
-    "evidenceLocation": "Kumar, p. 1008, Abordări intervenționale — Filtrele VCI"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Filtrele nu împiedică în totalitate embolii.",
-    "evidenceLocation": "Kumar, p. 1008, Abordări intervenționale — Filtrele VCI"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Se folosesc la contraindicația anticoagulării sau risc major de sângerare.",
-    "evidenceLocation": "Kumar, p. 1008, Abordări intervenționale — Filtrele VCI"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:07:11.783Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii supraestimează eficiența filtrelor."
-  },
-  "textbookExpressions": [
-   "vena cava inferioară",
-   "risc crescut de TVP"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a tromboembolism-adv-008: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "tromboembolism-adv-054-v2",
@@ -185323,83 +184547,6 @@
   "reviewNotes": "Rescriere a tromboembolism-adv-028: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "tromboembolism-adv-012-v2",
-  "questionFingerprint": "16a438444de7e0697e5a328d6f56fcdce2709d3ae75e09de19fad6c3a8c2e965",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea mecanismului și a cronologiei HIT.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 29,
-   "printedPages": [
-    1015
-   ],
-   "pdfPages": [
-    205
-   ],
-   "section": "Trombocitopenia indusă de heparină"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "HIT are o tendință protrombotică.",
-    "evidenceLocation": "Kumar, p. 1015, Trombocitopenia indusă de heparină"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Apare de obicei la 5–14 zile.",
-    "evidenceLocation": "Kumar, p. 1015, Trombocitopenia indusă de heparină"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Debutul este la 5–14 zile.",
-    "evidenceLocation": "Kumar, p. 1015, Trombocitopenia indusă de heparină"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "HIT este mediată de IgG împotriva complexului heparină–FP4.",
-    "evidenceLocation": "Kumar, p. 1015, Trombocitopenia indusă de heparină"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Fără tratament, riscul de tromboză este de 50%.",
-    "evidenceLocation": "Kumar, p. 1015, Trombocitopenia indusă de heparină"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:07:11.803Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează consecința clinică și cronologia."
-  },
-  "textbookExpressions": [
-   "factorul 4 plachetar",
-   "5-14"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a tromboembolism-adv-012: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "tromboembolism-adv-085-v2",
   "questionFingerprint": "b3a077476662a555faa0cd2935d233d5fd3a4f676030900512674a608f25e8c8",
   "status": "source-checked",
@@ -186095,83 +185242,6 @@
   "reviewNotes": "Rescriere a tromboembolism-adv-020: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "tromboembolism-adv-043-v2",
-  "questionFingerprint": "cba6c53387bf11476b255ae1623cae6c024ff9d0cde0c0438b66c72f709c0e80",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea itemilor scorului Wells pentru TVP.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 29,
-   "printedPages": [
-    1004
-   ],
-   "pdfPages": [
-    194
-   ],
-   "section": "Cadranul 29.3 — Scorul Wells pentru TVP"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Gamba edemațiată cu cel puțin 3 cm este un item.",
-    "evidenceLocation": "Kumar, p. 1004, Cadranul 29.3 — Scorul Wells pentru TVP"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Hemoptizia aparține scorului Wells pentru EP.",
-    "evidenceLocation": "Kumar, p. 1004, Cadranul 29.3 — Scorul Wells pentru TVP"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Cancerul activ este un item.",
-    "evidenceLocation": "Kumar, p. 1004, Cadranul 29.3 — Scorul Wells pentru TVP"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Tahicardia aparține scorului Wells pentru EP.",
-    "evidenceLocation": "Kumar, p. 1004, Cadranul 29.3 — Scorul Wells pentru TVP"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Chirurgia majoră în ultimele 12 săptămâni este un item.",
-    "evidenceLocation": "Kumar, p. 1004, Cadranul 29.3 — Scorul Wells pentru TVP"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:10:52.753Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii sunt itemi reali ai scorului pentru EP."
-  },
-  "textbookExpressions": [
-   "12 săptămâni",
-   "3 cm"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a tromboembolism-adv-043: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "tromboembolism-adv-071-v2",
   "questionFingerprint": "66f2564a48388186ed5e82233842984152ae85fa2c804becb860c467aaed7b40",
   "status": "source-checked",
@@ -186247,83 +185317,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a tromboembolism-adv-071: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "tromboembolism-adv-003-v2",
-  "questionFingerprint": "f216253c9cdaa139b37a7d107c43d2f616a1ffadc106cd71c3cbe4fd0e1f28a3",
-  "status": "source-checked",
-  "learningObjective": "Compararea CTPA cu scintigrafia V/Q.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 29,
-   "printedPages": [
-    1005
-   ],
-   "pdfPages": [
-    195
-   ],
-   "section": "Examinarea imagistică a EP"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "CTPA este tehnica cea mai comună.",
-    "evidenceLocation": "Kumar, p. 1005, Examinarea imagistică a EP"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "CTPA este cea mai comună.",
-    "evidenceLocation": "Kumar, p. 1005, Examinarea imagistică a EP"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "EP se diagnostichează pe defecte de perfuzie cu ventilație normală.",
-    "evidenceLocation": "Kumar, p. 1005, Examinarea imagistică a EP"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Scintigrafia V/Q normală exclude EP.",
-    "evidenceLocation": "Kumar, p. 1005, Examinarea imagistică a EP"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "CTPA poate oferi diagnosticul alternativ.",
-    "evidenceLocation": "Kumar, p. 1005, Examinarea imagistică a EP"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:10:52.755Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează criteriul scintigrafic."
-  },
-  "textbookExpressions": [
-   "CTPA",
-   "ventilaţie-perfuzie"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a tromboembolism-adv-003: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "tromboembolism-adv-048-v2",
@@ -186403,85 +185396,6 @@
   "reviewNotes": "Rescriere a tromboembolism-adv-048: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "tromboembolism-adv-075-v2",
-  "questionFingerprint": "b1a2782bad5007d6267e230e493bfe675956454b058fa698235f14ce75501889",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea diagnosticului și tratamentului TVP de membru superior.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 29,
-   "printedPages": [
-    1006,
-    1010
-   ],
-   "pdfPages": [
-    196,
-    200
-   ],
-   "section": "TVP a membrului superior"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Anticoagularea durează cel puțin 3 luni, mai mult dacă cateterul rămâne.",
-    "evidenceLocation": "Kumar, p. 1006, 1010, TVP a membrului superior"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Pacienții cu durere și edem de braț necesită ultrasonografie.",
-    "evidenceLocation": "Kumar, p. 1006, 1010, TVP a membrului superior"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Se anticoagulează.",
-    "evidenceLocation": "Kumar, p. 1006, 1010, TVP a membrului superior"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Tratamentul urmează aceleași principii.",
-    "evidenceLocation": "Kumar, p. 1006, 1010, TVP a membrului superior"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Algoritmul nu este bine stabilit.",
-    "evidenceLocation": "Kumar, p. 1006, 1010, TVP a membrului superior"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:10:52.757Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii exclud tratamentul standard."
-  },
-  "textbookExpressions": [
-   "membrului superior",
-   "cateterul rămâne"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a tromboembolism-adv-075: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "tromboembolism-adv-051-v2",
   "questionFingerprint": "935dbc79238177ae947c929b669a471d097cd6b21c1389ee64da25d24b1e8107",
   "status": "source-checked",
@@ -186557,83 +185471,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a tromboembolism-adv-051: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "tromboembolism-adv-007-v2",
-  "questionFingerprint": "36985b0d056f44f501d2a752befdb23b0d99f445174728ae562b0648c31e12de",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea beneficiilor și riscurilor trombolizei în EP masivă.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 29,
-   "printedPages": [
-    1008
-   ],
-   "pdfPages": [
-    198
-   ],
-   "section": "Rolul trombolizei"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Riscul hemoragic este mai mare decât al anticoagulării.",
-    "evidenceLocation": "Kumar, p. 1008, Rolul trombolizei"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Poate salva viața în EP masivă.",
-    "evidenceLocation": "Kumar, p. 1008, Rolul trombolizei"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Tromboliticele dizolvă trombul.",
-    "evidenceLocation": "Kumar, p. 1008, Rolul trombolizei"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Tromboliza restabilește rapid perfuzia pulmonară.",
-    "evidenceLocation": "Kumar, p. 1008, Rolul trombolizei"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Riscul de hemoragie intracraniană este de 2%.",
-    "evidenceLocation": "Kumar, p. 1008, Rolul trombolizei"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:10:52.759Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează diferența dintre trombolitice și anticoagulante."
-  },
-  "textbookExpressions": [
-   "hemoragie intracraniană",
-   "restabilirea rapidă"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a tromboembolism-adv-007: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "tromboembolism-adv-079-v2",
@@ -269519,5 +268356,1168 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a reumatologie-adv-036: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "tromboembolism-adv-041-v2",
+  "questionFingerprint": "74fa9cec7c82e0bf6450426105c6e5d30032fb3cd589a3f51f36e0a6083407fc",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea trombozei de hemostaza fiziologică.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 29,
+   "printedPages": [
+    1001
+   ],
+   "pdfPages": [
+    191
+   ],
+   "section": "Patogeneza trombozei"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Cheagul din afara endoteliului caracterizează hemostaza.",
+    "evidenceLocation": "Kumar, p. 1001, Patogeneza trombozei"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Trombii se formează pe perete și sunt atașați de el.",
+    "evidenceLocation": "Kumar, p. 1001, Patogeneza trombozei"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Formarea cheagului ca răspuns la leziune descrie hemostaza.",
+    "evidenceLocation": "Kumar, p. 1001, Patogeneza trombozei"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Tromboza produce o masă solidă în interiorul vasului.",
+    "evidenceLocation": "Kumar, p. 1001, Patogeneza trombozei"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: fragmentele (emboli) se pot desprinde și obstrua vasele din aval.",
+    "evidenceLocation": "Kumar, p. 1001, Patogeneza trombozei"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:50:13.542Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii descriu hemostaza fiziologică."
+  },
+  "textbookExpressions": [
+   "hemostaza fiziologică",
+   "embofl"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a tromboembolism-adv-041: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "tromboembolism-adv-070-v2",
+  "questionFingerprint": "e0a89531d0a2723c78e66aa2d6b8e5bb888437702951fa7da1cac7bb24dea391",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea modificărilor ECG de suprasolicitare dreaptă.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 29,
+   "printedPages": [
+    1003
+   ],
+   "pdfPages": [
+    193
+   ],
+   "section": "Investigații inițiale — ECG"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Figura 29.1 arată bloc de ramură dreaptă incomplet.",
+    "evidenceLocation": "Kumar, p. 1003, Investigații inițiale — ECG"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "T inversate apar în precordialele drepte V1–V4.",
+    "evidenceLocation": "Kumar, p. 1003, Investigații inițiale — ECG"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Suprasolicitarea VD inversează T în II, III, aVF.",
+    "evidenceLocation": "Kumar, p. 1003, Investigații inițiale — ECG"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu este aspectul citat.",
+    "evidenceLocation": "Kumar, p. 1003, Investigații inițiale — ECG"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Tahicardia sinusală este modificarea cea mai frecventă.",
+    "evidenceLocation": "Kumar, p. 1003, Investigații inițiale — ECG"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:50:13.545Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii descriu aspecte opuse suprasolicitării drepte."
+  },
+  "textbookExpressions": [
+   "V1-V4",
+   "bloc de ramură dreaptă"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a tromboembolism-adv-070: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "tromboembolism-adv-002-v2",
+  "questionFingerprint": "34d5373f8065b4a1307bf50125d034db2a2a2ad0b81fb1562065df461c195673",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea algoritmului diagnostic NICE în TVP.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 29,
+   "printedPages": [
+    1004
+   ],
+   "pdfPages": [
+    194
+   ],
+   "section": "Diagnosticul TVP și al EP"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "La scor probabil se face ultrasonografie proximală.",
+    "evidenceLocation": "Kumar, p. 1004, Diagnosticul TVP și al EP"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "D-dimerii crescuți la scor improbabil impun imagistică.",
+    "evidenceLocation": "Kumar, p. 1004, Diagnosticul TVP și al EP"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Rămâne o rată mică de eșec (<2% în 3 luni).",
+    "evidenceLocation": "Kumar, p. 1004, Diagnosticul TVP și al EP"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "La scor improbabil, următorul pas sunt D-dimerii.",
+    "evidenceLocation": "Kumar, p. 1004, Diagnosticul TVP și al EP"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "D-dimerii normali au valoare predictivă negativă ridicată (eșec <2% în 3 luni).",
+    "evidenceLocation": "Kumar, p. 1004, Diagnosticul TVP și al EP"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:50:13.546Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii supraestimează D-dimerii."
+  },
+  "textbookExpressions": [
+   "D-dimerilor",
+   "improbabil"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a tromboembolism-adv-002: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "tromboembolism-adv-044-v2",
+  "questionFingerprint": "febfbb5af5e50ae8bbc7f8dd99f570782dc437fd24e4c8c709598ea48df8694d",
+  "status": "source-checked",
+  "learningObjective": "Interpretarea D-dimerilor în TEV.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 29,
+   "printedPages": [
+    1004
+   ],
+   "pdfPages": [
+    194
+   ],
+   "section": "Măsurarea D-dimerilor"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu sunt specifici TEV.",
+    "evidenceLocation": "Kumar, p. 1004, Măsurarea D-dimerilor"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Sunt crescuți nespecific la vârstnici, în infecții, cancer și sarcină.",
+    "evidenceLocation": "Kumar, p. 1004, Măsurarea D-dimerilor"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Nivelurile crescute impun imagistică.",
+    "evidenceLocation": "Kumar, p. 1004, Măsurarea D-dimerilor"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "D-dimerii sunt produși de degradare a fibrinei.",
+    "evidenceLocation": "Kumar, p. 1004, Măsurarea D-dimerilor"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Importanța lor stă în valoarea predictivă negativă ridicată.",
+    "evidenceLocation": "Kumar, p. 1004, Măsurarea D-dimerilor"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:50:13.547Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii confundă valoarea predictivă negativă cu cea pozitivă."
+  },
+  "textbookExpressions": [
+   "degradare a fibrinei",
+   "predictivă negativă"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a tromboembolism-adv-044: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "tromboembolism-adv-003-v2",
+  "questionFingerprint": "2b35241e1d9453695601f093591cfa62b39c201bd277d35148629b899f0c0b65",
+  "status": "source-checked",
+  "learningObjective": "Compararea CTPA cu scintigrafia V/Q.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 29,
+   "printedPages": [
+    1005
+   ],
+   "pdfPages": [
+    195
+   ],
+   "section": "Examinarea imagistică a EP"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "CTPA este tehnica cea mai comună.",
+    "evidenceLocation": "Kumar, p. 1005, Examinarea imagistică a EP"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "CTPA este cea mai comună.",
+    "evidenceLocation": "Kumar, p. 1005, Examinarea imagistică a EP"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "EP se diagnostichează pe defecte de perfuzie cu ventilație normală.",
+    "evidenceLocation": "Kumar, p. 1005, Examinarea imagistică a EP"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Scintigrafia V/Q normală exclude EP.",
+    "evidenceLocation": "Kumar, p. 1005, Examinarea imagistică a EP"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "CTPA poate oferi diagnosticul alternativ.",
+    "evidenceLocation": "Kumar, p. 1005, Examinarea imagistică a EP"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:50:13.548Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează criteriul scintigrafic."
+  },
+  "textbookExpressions": [
+   "CTPA",
+   "ventilaţie-perfuzie"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a tromboembolism-adv-003: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "tromboembolism-adv-075-v2",
+  "questionFingerprint": "de0699bd09c8fdd2d3543e519d8b3eee3fa6b97d63700f7b865e190befbbc9f2",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea diagnosticului și tratamentului TVP de membru superior.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 29,
+   "printedPages": [
+    1006,
+    1010
+   ],
+   "pdfPages": [
+    196,
+    200
+   ],
+   "section": "TVP a membrului superior"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Anticoagularea durează cel puțin 3 luni, mai mult dacă cateterul rămâne.",
+    "evidenceLocation": "Kumar, p. 1006, 1010, TVP a membrului superior"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Pacienții cu durere și edem de braț necesită ultrasonografie.",
+    "evidenceLocation": "Kumar, p. 1006, 1010, TVP a membrului superior"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Se anticoagulează.",
+    "evidenceLocation": "Kumar, p. 1006, 1010, TVP a membrului superior"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: tratamentul urmează aceleași principii ca TVP a membrului inferior.",
+    "evidenceLocation": "Kumar, p. 1006, 1010, TVP a membrului superior"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Algoritmul nu este bine stabilit.",
+    "evidenceLocation": "Kumar, p. 1006, 1010, TVP a membrului superior"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:50:13.549Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii exclud tratamentul standard."
+  },
+  "textbookExpressions": [
+   "membrului superior",
+   "cateterul rămâne"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a tromboembolism-adv-075: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "tromboembolism-adv-005-v2",
+  "questionFingerprint": "fb0cbdcddbf348665f3b4934fbdbb79ddfe407ff46e10c8a9b73548d3b5a8bb3",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea fazelor și a obiectivelor anticoagulării.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 29,
+   "printedPages": [
+    1006,
+    1007
+   ],
+   "pdfPages": [
+    196,
+    197
+   ],
+   "section": "Tratament — Fazele anticoagulării"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Anticoagulantele nu dizolvă trombul; ulterior se previne recurența.",
+    "evidenceLocation": "Kumar, p. 1006, 1007, Tratament — Fazele anticoagulării"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Faza acută durează 5–10 zile.",
+    "evidenceLocation": "Kumar, p. 1006, 1007, Tratament — Fazele anticoagulării"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: faza acută previne extinderea trombului și embolizarea; anticoagulantele nu dizolvă trombul.",
+    "evidenceLocation": "Kumar, p. 1006, 1007, Tratament — Fazele anticoagulării"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Faza acută durează 5–10 zile.",
+    "evidenceLocation": "Kumar, p. 1006, 1007, Tratament — Fazele anticoagulării"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Faza de menținere durează minimum 3 luni.",
+    "evidenceLocation": "Kumar, p. 1006, 1007, Tratament — Fazele anticoagulării"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:50:13.550Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează durata și obiectivul fazelor."
+  },
+  "textbookExpressions": [
+   "5-10 zile",
+   "minimum 3 luni"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a tromboembolism-adv-005: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "tromboembolism-adv-023-v2",
+  "questionFingerprint": "084dcafc4f68a18f42e6250d28903010f12bb9b707b75bd2059a786441a6f646",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea selecției pentru tratament ambulator și definiția EP instabile.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 29,
+   "printedPages": [
+    1007,
+    1006
+   ],
+   "pdfPages": [
+    197,
+    196
+   ],
+   "section": "Îngrijirea în ambulatoriu"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Șocul: TAS <90 mmHg sau scădere >40 mmHg peste 15 minute.",
+    "evidenceLocation": "Kumar, p. 1007, 1006, Îngrijirea în ambulatoriu"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Șocul: TAS <90 mmHg sau scădere >40 mmHg peste 15 minute.",
+    "evidenceLocation": "Kumar, p. 1007, 1006, Îngrijirea în ambulatoriu"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "EP cu risc scăzut (PESI) poate fi tratată ambulator sau cu externare precoce.",
+    "evidenceLocation": "Kumar, p. 1007, 1006, Îngrijirea în ambulatoriu"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Mulți pacienți cu TVP pot fi îngrijiți ambulator.",
+    "evidenceLocation": "Kumar, p. 1007, 1006, Îngrijirea în ambulatoriu"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Pragul este TAS <90 mmHg.",
+    "evidenceLocation": "Kumar, p. 1007, 1006, Îngrijirea în ambulatoriu"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:50:13.551Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii exclud îngrijirea ambulatorie și deplasează pragul."
+  },
+  "textbookExpressions": [
+   "PESI",
+   "15 minute"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a tromboembolism-adv-023: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "tromboembolism-adv-006-v2",
+  "questionFingerprint": "d6142852d714e760c9872a49a6e2aa9c47cbaf965305b62e607b165aa2853ddf",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea alegerii anticoagulantului în sarcină și alăptare.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 29,
+   "printedPages": [
+    1007,
+    1008
+   ],
+   "pdfPages": [
+    197,
+    198
+   ],
+   "section": "Situații speciale — Femeile gravide"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Warfarina este sigură doar până în săptămâna 6.",
+    "evidenceLocation": "Kumar, p. 1007, 1008, Situații speciale — Femeile gravide"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Warfarina produce embriopatie între săptămânile 6 și 12.",
+    "evidenceLocation": "Kumar, p. 1007, 1008, Situații speciale — Femeile gravide"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "LMWH nu traversează placenta și este tratamentul de elecție.",
+    "evidenceLocation": "Kumar, p. 1007, 1008, Situații speciale — Femeile gravide"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "DOAC traversează placenta și nu se folosesc în sarcină.",
+    "evidenceLocation": "Kumar, p. 1007, 1008, Situații speciale — Femeile gravide"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: warfarina și LMWH sunt sigure la alăptare.",
+    "evidenceLocation": "Kumar, p. 1007, 1008, Situații speciale — Femeile gravide"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:50:13.552Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii contrazic interdicțiile explicite."
+  },
+  "textbookExpressions": [
+   "hipoplazia nazală",
+   "6-a şi a 12-a"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a tromboembolism-adv-006: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "tromboembolism-adv-077-v2",
+  "questionFingerprint": "0db7e8af0ce64e077c22edfaa6d81304166bb640cea5b5e5e5c0913ca5204a8b",
+  "status": "source-checked",
+  "learningObjective": "Fixarea claselor și a punctajelor PESI original.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 29,
+   "printedPages": [
+    1008
+   ],
+   "pdfPages": [
+    198
+   ],
+   "section": "Cadranul 29.5 — PESI original"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Clasa I: ≤65 de puncte, mortalitate 0–1,6%.",
+    "evidenceLocation": "Kumar, p. 1008, Cadranul 29.5 — PESI original"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Statusul mental alterat valorează +60 de puncte.",
+    "evidenceLocation": "Kumar, p. 1008, Cadranul 29.5 — PESI original"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Clasa V: >125 de puncte, mortalitate 10–24,5%.",
+    "evidenceLocation": "Kumar, p. 1008, Cadranul 29.5 — PESI original"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Clasa V: >125 de puncte, mortalitate 10–24,5%.",
+    "evidenceLocation": "Kumar, p. 1008, Cadranul 29.5 — PESI original"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Statusul mental valorează +60.",
+    "evidenceLocation": "Kumar, p. 1008, Cadranul 29.5 — PESI original"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:50:13.553Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii permută clasele și punctajul."
+  },
+  "textbookExpressions": [
+   "+60 puncte",
+   "Clasa V"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a tromboembolism-adv-077: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "tromboembolism-adv-007-v2",
+  "questionFingerprint": "e7c41b1fdb4c1854aeded9f59fa7ef450e2c4663a025e823d413667d30af5d2f",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea beneficiilor și riscurilor trombolizei în EP masivă.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 29,
+   "printedPages": [
+    1008
+   ],
+   "pdfPages": [
+    198
+   ],
+   "section": "Rolul trombolizei"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Riscul hemoragic este mai mare decât al anticoagulării.",
+    "evidenceLocation": "Kumar, p. 1008, Rolul trombolizei"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Poate salva viața în EP masivă.",
+    "evidenceLocation": "Kumar, p. 1008, Rolul trombolizei"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Tromboliticele dizolvă trombul.",
+    "evidenceLocation": "Kumar, p. 1008, Rolul trombolizei"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Tromboliza restabilește rapid perfuzia pulmonară.",
+    "evidenceLocation": "Kumar, p. 1008, Rolul trombolizei"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: riscul de hemoragie intracraniană este de ~2%.",
+    "evidenceLocation": "Kumar, p. 1008, Rolul trombolizei"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:50:13.554Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează diferența dintre trombolitice și anticoagulante."
+  },
+  "textbookExpressions": [
+   "hemoragie intracraniană",
+   "restabilirea rapidă"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a tromboembolism-adv-007: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "tromboembolism-adv-078-v2",
+  "questionFingerprint": "e33272357eff772cf305d5b8008091b4b6f44383a24df787e0a33a9bee9ed849",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea indicațiilor controversate și a limitelor filtrelor VCI.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 29,
+   "printedPages": [
+    1008
+   ],
+   "pdfPages": [
+    198
+   ],
+   "section": "Rolul trombolizei și filtrele VCI"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Filtrele recuperabile sunt preferate și se îndepărtează când anticoagularea devine sigură.",
+    "evidenceLocation": "Kumar, p. 1008, Rolul trombolizei și filtrele VCI"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: filtrele VCI nu reduc EP recurentă față de anticoagulare.",
+    "evidenceLocation": "Kumar, p. 1008, Rolul trombolizei și filtrele VCI"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Tromboliza nu este standard în EP intermediară.",
+    "evidenceLocation": "Kumar, p. 1008, Rolul trombolizei și filtrele VCI"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Rolul trombolizei în EP intermediară rămâne controversat.",
+    "evidenceLocation": "Kumar, p. 1008, Rolul trombolizei și filtrele VCI"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Filtrele recuperabile sunt preferate.",
+    "evidenceLocation": "Kumar, p. 1008, Rolul trombolizei și filtrele VCI"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:50:13.554Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii transformă controversele în reguli."
+  },
+  "textbookExpressions": [
+   "risc intermediar",
+   "recuperabile"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a tromboembolism-adv-078: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "tromboembolism-adv-008-v2",
+  "questionFingerprint": "d0337afceed689bbd18bd00482ec1b96fb4263ac6187b7eb5955f328e6ec554a",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea indicațiilor și limitelor filtrelor VCI.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 29,
+   "printedPages": [
+    1008
+   ],
+   "pdfPages": [
+    198
+   ],
+   "section": "Abordări intervenționale — Filtrele VCI"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu reduc EP recurentă față de anticoagulare.",
+    "evidenceLocation": "Kumar, p. 1008, Abordări intervenționale — Filtrele VCI"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Se asociază independent cu risc crescut de TVP.",
+    "evidenceLocation": "Kumar, p. 1008, Abordări intervenționale — Filtrele VCI"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Se folosesc la contraindicația anticoagulării sau la risc major de sângerare.",
+    "evidenceLocation": "Kumar, p. 1008, Abordări intervenționale — Filtrele VCI"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Filtrele nu împiedică în totalitate embolii.",
+    "evidenceLocation": "Kumar, p. 1008, Abordări intervenționale — Filtrele VCI"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Se folosesc la contraindicația anticoagulării sau risc major de sângerare.",
+    "evidenceLocation": "Kumar, p. 1008, Abordări intervenționale — Filtrele VCI"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:50:13.555Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii supraestimează eficiența filtrelor."
+  },
+  "textbookExpressions": [
+   "vena cava inferioară",
+   "risc crescut de TVP"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a tromboembolism-adv-008: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "tromboembolism-adv-043-v2",
+  "questionFingerprint": "cf8175c27abe62c0f62df34b97f39a441b51b8ea76ba7a877b4c7e8db22fa1af",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea itemilor scorului Wells pentru TVP.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 29,
+   "printedPages": [
+    1004
+   ],
+   "pdfPages": [
+    194
+   ],
+   "section": "Cadranul 29.3 — Scorul Wells pentru TVP"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: itemul cere gamba edemațiată cu cel puțin 3 cm.",
+    "evidenceLocation": "Kumar, p. 1004, Cadranul 29.3 — Scorul Wells pentru TVP"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Hemoptizia aparține scorului Wells pentru EP.",
+    "evidenceLocation": "Kumar, p. 1004, Cadranul 29.3 — Scorul Wells pentru TVP"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Cancerul activ este un item.",
+    "evidenceLocation": "Kumar, p. 1004, Cadranul 29.3 — Scorul Wells pentru TVP"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Tahicardia aparține scorului Wells pentru EP.",
+    "evidenceLocation": "Kumar, p. 1004, Cadranul 29.3 — Scorul Wells pentru TVP"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Chirurgia majoră în ultimele 12 săptămâni este un item.",
+    "evidenceLocation": "Kumar, p. 1004, Cadranul 29.3 — Scorul Wells pentru TVP"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:50:30.600Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt itemi reali ai scorului pentru EP."
+  },
+  "textbookExpressions": [
+   "12 săptămâni",
+   "3 cm"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a tromboembolism-adv-043: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "tromboembolism-adv-012-v2",
+  "questionFingerprint": "7d7f9324a6a6d7843473bde22abdfe7374f0037c8b81e4a274d7053b0c5edeca",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea mecanismului și a cronologiei HIT.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 29,
+   "printedPages": [
+    1015
+   ],
+   "pdfPages": [
+    205
+   ],
+   "section": "Trombocitopenia indusă de heparină"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "HIT are o tendință protrombotică.",
+    "evidenceLocation": "Kumar, p. 1015, Trombocitopenia indusă de heparină"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Apare de obicei la 5–14 zile.",
+    "evidenceLocation": "Kumar, p. 1015, Trombocitopenia indusă de heparină"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Debutul este la 5–14 zile.",
+    "evidenceLocation": "Kumar, p. 1015, Trombocitopenia indusă de heparină"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "HIT este mediată de IgG împotriva complexului heparină–FP4.",
+    "evidenceLocation": "Kumar, p. 1015, Trombocitopenia indusă de heparină"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Fără tratament, riscul de tromboză este de 50%.",
+    "evidenceLocation": "Kumar, p. 1015, Trombocitopenia indusă de heparină"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:50:30.604Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează consecința clinică și cronologia."
+  },
+  "textbookExpressions": [
+   "factorul 4 plachetar",
+   "5-14"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a tromboembolism-adv-012: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  }
 ]
