@@ -227685,83 +227685,6 @@
   "reviewNotes": "Rescriere a arsuri-adv-032: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "arsuri-adv-010-v2",
-  "questionFingerprint": "c910e68019f9936e48d68a460a1e62acffb6c267ca323faf1699b4625eb00035",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea arsurii de grad II superficial.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 10,
-   "printedPages": [
-    109
-   ],
-   "pdfPages": [
-    51
-   ],
-   "section": "Arsurile de profunzime parțială"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Se albesc la presiune.",
-    "evidenceLocation": "Lawrence, p. 109, Arsurile de profunzime parțială"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Nervii din dermul profund sunt intacți.",
-    "evidenceLocation": "Lawrence, p. 109, Arsurile de profunzime parțială"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Dermul este umed și se albește.",
-    "evidenceLocation": "Lawrence, p. 109, Arsurile de profunzime parțială"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Descrie gradul II profund.",
-    "evidenceLocation": "Lawrence, p. 109, Arsurile de profunzime parțială"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Flictenele conțin lichid proteic extravazat.",
-    "evidenceLocation": "Lawrence, p. 109, Arsurile de profunzime parțială"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:19:03.559Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii preiau trăsăturile formelor profunde."
-  },
-  "textbookExpressions": [
-   "flictene destinse",
-   "dureros"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a arsuri-adv-010: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "arsuri-adv-051-v2",
   "questionFingerprint": "750e4568270b5f15b32075a912df9e52f3724693e4a5b4a80a0218fbaa8d5621",
   "status": "source-checked",
@@ -228232,85 +228155,6 @@
   "reviewNotes": "Rescriere a arsuri-adv-002: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "arsuri-adv-034-v2",
-  "questionFingerprint": "52a2c374cc7495cba57b8193350a091a2894728a43f9da1c28abe0bd5e330f7c",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea oxigenoterapiei hiperbare.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 10,
-   "printedPages": [
-    111,
-    110
-   ],
-   "pdfPages": [
-    53,
-    52
-   ],
-   "section": "Intoxicația cu CO"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Scurtează timpul de înjumătățire.",
-    "evidenceLocation": "Lawrence, p. 111, 110, Intoxicația cu CO"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Simptomele neurologice cer scădere rapidă.",
-    "evidenceLocation": "Lawrence, p. 111, 110, Intoxicația cu CO"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Se integrează cu celelalte priorități.",
-    "evidenceLocation": "Lawrence, p. 111, 110, Intoxicația cu CO"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "De la 80 la ~20 de minute.",
-    "evidenceLocation": "Lawrence, p. 111, 110, Intoxicația cu CO"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "PaO2 ajunge la 1.500 mm Hg.",
-    "evidenceLocation": "Lawrence, p. 111, 110, Intoxicația cu CO"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:19:03.566Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează efectul și prioritatea."
-  },
-  "textbookExpressions": [
-   "80 de minute",
-   "hiperbar"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a arsuri-adv-034: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "arsuri-adv-053-v2",
   "questionFingerprint": "a75ca64d06c0b1b6fc9db7a9429a6b52cdc5c165307621973ba6dfc11396add5",
   "status": "source-checked",
@@ -228696,162 +228540,6 @@
   "reviewNotes": "Rescriere a arsuri-adv-037: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "arsuri-adv-014-v2",
-  "questionFingerprint": "3adf0c7fe5d58930ac956ceaa467ef89dbe298b229d8b0fc51a97ae731d84c05",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea metodelor de estimare a %SCT.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 10,
-   "printedPages": [
-    112,
-    113
-   ],
-   "pdfPages": [
-    54,
-    55
-   ],
-   "section": "Evaluarea secundară"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Se face după evaluarea secundară.",
-    "evidenceLocation": "Lawrence, p. 112, 113, Evaluarea secundară"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Se folosește palma pacientului, ≈1%.",
-    "evidenceLocation": "Lawrence, p. 112, 113, Evaluarea secundară"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Palma pacientului ≈1% SCT.",
-    "evidenceLocation": "Lawrence, p. 112, 113, Evaluarea secundară"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Ambele metode sunt citate.",
-    "evidenceLocation": "Lawrence, p. 112, 113, Evaluarea secundară"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Doar gradele 2 și 3 se includ.",
-    "evidenceLocation": "Lawrence, p. 112, 113, Evaluarea secundară"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:19:03.570Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii schimbă referința și momentul."
-  },
-  "textbookExpressions": [
-   "regula lui 9",
-   "Lund"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a arsuri-adv-014: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "arsuri-adv-015-v2",
-  "questionFingerprint": "37d84bfcebdd764e13adc804b2d07d2694ba59d75eea51e292ee13d392cf3587",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea diagramei Lund și Browder.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 10,
-   "printedPages": [
-    113
-   ],
-   "pdfPages": [
-    55
-   ],
-   "section": "Figura 10-7"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Toracele anterior rămâne 13%.",
-    "evidenceLocation": "Lawrence, p. 113, Figura 10-7"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Capul: 19% la naștere.",
-    "evidenceLocation": "Lawrence, p. 113, Figura 10-7"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Capul: 7% la adult.",
-    "evidenceLocation": "Lawrence, p. 113, Figura 10-7"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Tendința este de supraevaluare.",
-    "evidenceLocation": "Lawrence, p. 113, Figura 10-7"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Coapsa: 5½% → 9½%.",
-    "evidenceLocation": "Lawrence, p. 113, Figura 10-7"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:19:03.570Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează tendința și constanța toracelui."
-  },
-  "textbookExpressions": [
-   "Lund",
-   "supraevalua"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a arsuri-adv-015: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "arsuri-adv-016-v2",
   "questionFingerprint": "7c72a360489d9e4b9f7203ec2676b60cac0b76c4d7383eaaec381b42a99fda5f",
   "status": "source-checked",
@@ -229004,85 +228692,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a arsuri-adv-039: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "arsuri-adv-017-v2",
-  "questionFingerprint": "5bfe64a44106eb8971bc07e127927b7583794e5cc9958f5e7cca57ca7cc6a3c0",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea principiilor resuscitării arsului.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 10,
-   "printedPages": [
-    114,
-    115
-   ],
-   "pdfPages": [
-    56,
-    57
-   ],
-   "section": "Perioada de resuscitare"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Nu oprește extravazarea.",
-    "evidenceLocation": "Lawrence, p. 114, 115, Perioada de resuscitare"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "≥10–15% SCT cer resuscitare formală.",
-    "evidenceLocation": "Lawrence, p. 114, 115, Perioada de resuscitare"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "≥15–20% SCT produc șoc post-combustional.",
-    "evidenceLocation": "Lawrence, p. 114, 115, Perioada de resuscitare"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Capilarele sunt permeabile la proteine.",
-    "evidenceLocation": "Lawrence, p. 114, 115, Perioada de resuscitare"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Cristaloizii izotoni sunt preferați.",
-    "evidenceLocation": "Lawrence, p. 114, 115, Perioada de resuscitare"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:19:03.573Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează permeabilitatea și efectul."
-  },
-  "textbookExpressions": [
-   "post-combustional",
-   "10-15%"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a arsuri-adv-017: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "arsuri-adv-003-v2",
@@ -229316,83 +228925,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a arsuri-adv-040: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "arsuri-adv-018-v2",
-  "questionFingerprint": "ea7337011746353fd6ffda86373e1e44cefcdd3e38dea3e166eaaf20c473420a",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea ajustării dinamice a resuscitării.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 10,
-   "printedPages": [
-    115
-   ],
-   "pdfPages": [
-    57
-   ],
-   "section": "Tabelul 10-3"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Rata crește cu 10–20%.",
-    "evidenceLocation": "Lawrence, p. 115, Tabelul 10-3"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Majoritatea experților nu folosesc diuretice.",
-    "evidenceLocation": "Lawrence, p. 115, Tabelul 10-3"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Diureticul nu este soluția.",
-    "evidenceLocation": "Lawrence, p. 115, Tabelul 10-3"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Rata se ajustează după răspuns.",
-    "evidenceLocation": "Lawrence, p. 115, Tabelul 10-3"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Rata scade cu 10–15%/oră.",
-    "evidenceLocation": "Lawrence, p. 115, Tabelul 10-3"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:19:03.575Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii folosesc diuretice și volume fixe."
-  },
-  "textbookExpressions": [
-   "10-20%",
-   "diuretic"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a arsuri-adv-018: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "arsuri-adv-005-v2",
@@ -229707,83 +229239,6 @@
   "reviewNotes": "Rescriere a arsuri-adv-008: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "arsuri-adv-020-v2",
-  "questionFingerprint": "343ce55b22adaa34e4921a6816406bed75f91474d19a9580d87e78decac89d22",
-  "status": "source-checked",
-  "learningObjective": "Diferențierea grefelor de grosime parțială și totală.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 10,
-   "printedPages": [
-    117
-   ],
-   "pdfPages": [
-    59
-   ],
-   "section": "Grefarea pielii"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Se recoltează eliptic inghinal sau din flanc.",
-    "evidenceLocation": "Lawrence, p. 117, Grefarea pielii"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Zona donatoare se vindecă în 7–14 zile.",
-    "evidenceLocation": "Lawrence, p. 117, Grefarea pielii"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Grosimea tipică este 0,1–0,38 mm.",
-    "evidenceLocation": "Lawrence, p. 117, Grefarea pielii"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Zona donatoare se închide primar.",
-    "evidenceLocation": "Lawrence, p. 117, Grefarea pielii"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Dermul superficial doar.",
-    "evidenceLocation": "Lawrence, p. 117, Grefarea pielii"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:19:03.580Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează închiderea și grosimea."
-  },
-  "textbookExpressions": [
-   "0,38",
-   "7-14 zile"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a arsuri-adv-020: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "arsuri-adv-058-v2",
   "questionFingerprint": "4e61d1aed43aab64c413fc4147d1472fbd155e98d2f4a2307189a5bbf59a81f1",
   "status": "source-checked",
@@ -229938,164 +229393,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a arsuri-adv-045: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "arsuri-adv-023-v2",
-  "questionFingerprint": "14f7a2fa3d642ea836d60d3d1201c5e40172fb2e35aa1998e55950263bfafacc",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea suportului nutrițional la ars.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 10,
-   "printedPages": [
-    118,
-    119
-   ],
-   "pdfPages": [
-    60,
-    61
-   ],
-   "section": "Suportul nutrițional"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Excreția de azot crește.",
-    "evidenceLocation": "Lawrence, p. 118, 119, Suportul nutrițional"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Nicio formulă nu e satisfăcătoare.",
-    "evidenceLocation": "Lawrence, p. 118, 119, Suportul nutrițional"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "1,5–2,0 g/kg/zi.",
-    "evidenceLocation": "Lawrence, p. 118, 119, Suportul nutrițional"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Enterala este net superioară.",
-    "evidenceLocation": "Lawrence, p. 118, 119, Suportul nutrițional"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Metabolismul poate depăși dublul normalului.",
-    "evidenceLocation": "Lawrence, p. 118, 119, Suportul nutrițional"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:19:03.584Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii supraestimează formulele și inversează azotul."
-  },
-  "textbookExpressions": [
-   "calorimetrie indirectă",
-   "1,5-2,0"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a arsuri-adv-023: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "arsuri-adv-029-v2",
-  "questionFingerprint": "3b072a8af088a1d036f3dee849b1ce33392e383b46a627619c8fb5135c60d1c4",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea principiilor reabilitării arsului.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 10,
-   "printedPages": [
-    119,
-    118
-   ],
-   "pdfPages": [
-    61,
-    60
-   ],
-   "section": "Faza de reabilitare"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Reabilitarea începe la momentul leziunii.",
-    "evidenceLocation": "Lawrence, p. 119, 118, Faza de reabilitare"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Nu se așteaptă închiderea.",
-    "evidenceLocation": "Lawrence, p. 119, 118, Faza de reabilitare"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Deformează mandibula; se folosesc măști rigide.",
-    "evidenceLocation": "Lawrence, p. 119, 118, Faza de reabilitare"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Remodelarea durează cel puțin un an.",
-    "evidenceLocation": "Lawrence, p. 119, 118, Faza de reabilitare"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Compresia previne hipertrofia.",
-    "evidenceLocation": "Lawrence, p. 119, 118, Faza de reabilitare"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:19:03.585Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii amână reabilitarea și preferă măștile elastice."
-  },
-  "textbookExpressions": [
-   "cicatricilor",
-   "un an"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a arsuri-adv-029: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "arsuri-adv-059-v2",
@@ -230329,83 +229626,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a arsuri-adv-060: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "arsuri-adv-047-v2",
-  "questionFingerprint": "ef64d228398317eb016f22869dfedbc8bd5bee21c3b5c903f15e0b76b18e8bc2",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea particularităților leziunii electrice.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 10,
-   "printedPages": [
-    119
-   ],
-   "pdfPages": [
-    61
-   ],
-   "section": "Arsuri electrice"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Țesuturile de lângă os rețin căldura.",
-    "evidenceLocation": "Lawrence, p. 119, Arsuri electrice"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Pielea poate fi puțin afectată.",
-    "evidenceLocation": "Lawrence, p. 119, Arsuri electrice"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Extensia poate fi imposibil de apreciat inițial.",
-    "evidenceLocation": "Lawrence, p. 119, Arsuri electrice"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Pragul este 1.000 V.",
-    "evidenceLocation": "Lawrence, p. 119, Arsuri electrice"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Mușchii superficiali pot părea intacți.",
-    "evidenceLocation": "Lawrence, p. 119, Arsuri electrice"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:19:03.588Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează distribuția leziunii."
-  },
-  "textbookExpressions": [
-   "joasă tensiune",
-   "oaselor"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a arsuri-adv-047: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "arsuri-adv-024-v2",
@@ -230947,83 +230167,6 @@
   "reviewNotes": "Rescriere a arsuri-adv-027: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "arsuri-adv-065-v2",
-  "questionFingerprint": "d9debe4c0e444bbeacc24fb403eb9f459a0bdd5d733ca280d4f0101b6655ccfd",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea particularităților analgezicelor și sedativelor.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 10,
-   "printedPages": [
-    121
-   ],
-   "pdfPages": [
-    63
-   ],
-   "section": "Tabelul 10-4"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Nu au efect analgezic suficient.",
-    "evidenceLocation": "Lawrence, p. 121, Tabelul 10-4"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Propofolul necesită suportul căilor respiratorii.",
-    "evidenceLocation": "Lawrence, p. 121, Tabelul 10-4"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Clonidina nu este agent unic.",
-    "evidenceLocation": "Lawrence, p. 121, Tabelul 10-4"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Ketamina dă delir și coșmaruri.",
-    "evidenceLocation": "Lawrence, p. 121, Tabelul 10-4"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Este mai puțin puternică.",
-    "evidenceLocation": "Lawrence, p. 121, Tabelul 10-4"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:19:03.593Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează potența și efectul analgezic."
-  },
-  "textbookExpressions": [
-   "Ketamină",
-   "Propofol"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a arsuri-adv-065: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "arsuri-adv-066-v2",
   "questionFingerprint": "0077803ad684ea7551aba1616855f7ce7916dea287e299beef90a01184d37edc",
   "status": "source-checked",
@@ -231099,83 +230242,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a arsuri-adv-066: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "arsuri-adv-049-v2",
-  "questionFingerprint": "9b75f8ea9a7173ed08909285c01a92de14dd5335a7bef707e70cf019717f55ac",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea pruritului post-arsură.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 10,
-   "printedPages": [
-    122
-   ],
-   "pdfPages": [
-    64
-   ],
-   "section": "Pruritul"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "50% au prurit moderat-sever.",
-    "evidenceLocation": "Lawrence, p. 122, Pruritul"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Poate persista 12 ani.",
-    "evidenceLocation": "Lawrence, p. 122, Pruritul"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Apare în 32% din arsurile <2% SCT.",
-    "evidenceLocation": "Lawrence, p. 122, Pruritul"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Doar 36% au raportat beneficiu.",
-    "evidenceLocation": "Lawrence, p. 122, Pruritul"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Persistă ani.",
-    "evidenceLocation": "Lawrence, p. 122, Pruritul"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:19:03.595Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii subestimează durata și rezistența la tratament."
-  },
-  "textbookExpressions": [
-   "12 ani",
-   "36%"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a arsuri-adv-049: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "arsuri-adv-050-v2",
@@ -269519,5 +268585,939 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a hematologie-adv-079: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "arsuri-adv-034-v2",
+  "questionFingerprint": "ef72ae8f490204e47c343e1c393ea181db2c4004f9af07cae277797b53822e97",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea oxigenoterapiei hiperbare.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 10,
+   "printedPages": [
+    111,
+    110
+   ],
+   "pdfPages": [
+    53,
+    52
+   ],
+   "section": "Intoxicația cu CO"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Scurtează timpul de înjumătățire.",
+    "evidenceLocation": "Lawrence, p. 111, 110, Intoxicația cu CO"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Simptomele neurologice cer scădere rapidă.",
+    "evidenceLocation": "Lawrence, p. 111, 110, Intoxicația cu CO"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Se integrează cu celelalte priorități.",
+    "evidenceLocation": "Lawrence, p. 111, 110, Intoxicația cu CO"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "De la 80 la ~20 de minute.",
+    "evidenceLocation": "Lawrence, p. 111, 110, Intoxicația cu CO"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: PaO2 ajunge la ~1.500 mm Hg.",
+    "evidenceLocation": "Lawrence, p. 111, 110, Intoxicația cu CO"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:26:11.328Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează efectul și prioritatea."
+  },
+  "textbookExpressions": [
+   "80 de minute",
+   "hiperbar"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a arsuri-adv-034: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "arsuri-adv-014-v2",
+  "questionFingerprint": "7d800a0fe1116de80992a82bd533328a975be4779993f11a1a701acb1bf66e6c",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea metodelor de estimare a %SCT.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 10,
+   "printedPages": [
+    112,
+    113
+   ],
+   "pdfPages": [
+    54,
+    55
+   ],
+   "section": "Evaluarea secundară"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Se face după evaluarea secundară.",
+    "evidenceLocation": "Lawrence, p. 112, 113, Evaluarea secundară"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Se folosește palma pacientului, ≈1%.",
+    "evidenceLocation": "Lawrence, p. 112, 113, Evaluarea secundară"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: palma pacientului ≈1% SCT.",
+    "evidenceLocation": "Lawrence, p. 112, 113, Evaluarea secundară"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Ambele metode sunt citate.",
+    "evidenceLocation": "Lawrence, p. 112, 113, Evaluarea secundară"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Doar gradele 2 și 3 se includ.",
+    "evidenceLocation": "Lawrence, p. 112, 113, Evaluarea secundară"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:26:11.330Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii schimbă referința și momentul."
+  },
+  "textbookExpressions": [
+   "regula lui 9",
+   "Lund"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a arsuri-adv-014: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "arsuri-adv-015-v2",
+  "questionFingerprint": "7258f9d138dadaee689dffd69e9cff3dc7efbd650292445955a0d445e9c770f7",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea diagramei Lund și Browder.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 10,
+   "printedPages": [
+    113
+   ],
+   "pdfPages": [
+    55
+   ],
+   "section": "Figura 10-7"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Toracele anterior rămâne 13%.",
+    "evidenceLocation": "Lawrence, p. 113, Figura 10-7"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Capul: 19% la naștere.",
+    "evidenceLocation": "Lawrence, p. 113, Figura 10-7"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: capul reprezintă 7% la adult; 19% este valoarea de la naștere.",
+    "evidenceLocation": "Lawrence, p. 113, Figura 10-7"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Tendința este de supraevaluare.",
+    "evidenceLocation": "Lawrence, p. 113, Figura 10-7"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Coapsa: 5½% → 9½%.",
+    "evidenceLocation": "Lawrence, p. 113, Figura 10-7"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:26:11.331Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează tendința și constanța toracelui."
+  },
+  "textbookExpressions": [
+   "Lund",
+   "supraevalua"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a arsuri-adv-015: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "arsuri-adv-017-v2",
+  "questionFingerprint": "7bf434035193492db2d0f867b8c31135185b827abac2765049e869bc6e812cbb",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea principiilor resuscitării arsului.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 10,
+   "printedPages": [
+    114,
+    115
+   ],
+   "pdfPages": [
+    56,
+    57
+   ],
+   "section": "Perioada de resuscitare"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu oprește extravazarea.",
+    "evidenceLocation": "Lawrence, p. 114, 115, Perioada de resuscitare"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: resuscitarea formală începe de la ≥10–15% SCT.",
+    "evidenceLocation": "Lawrence, p. 114, 115, Perioada de resuscitare"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "≥15–20% SCT produc șoc post-combustional.",
+    "evidenceLocation": "Lawrence, p. 114, 115, Perioada de resuscitare"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Capilarele sunt permeabile la proteine.",
+    "evidenceLocation": "Lawrence, p. 114, 115, Perioada de resuscitare"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Cristaloizii izotoni sunt preferați.",
+    "evidenceLocation": "Lawrence, p. 114, 115, Perioada de resuscitare"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:26:11.332Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează permeabilitatea și efectul."
+  },
+  "textbookExpressions": [
+   "post-combustional",
+   "10-15%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a arsuri-adv-017: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "arsuri-adv-018-v2",
+  "questionFingerprint": "be97f393373c086c0d203699528e12a982d0f891df09a44908b8f022e896d94f",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea ajustării dinamice a resuscitării.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 10,
+   "printedPages": [
+    115
+   ],
+   "pdfPages": [
+    57
+   ],
+   "section": "Tabelul 10-3"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: rata crește cu 10–20%.",
+    "evidenceLocation": "Lawrence, p. 115, Tabelul 10-3"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Majoritatea experților nu folosesc diuretice.",
+    "evidenceLocation": "Lawrence, p. 115, Tabelul 10-3"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Diureticul nu este soluția.",
+    "evidenceLocation": "Lawrence, p. 115, Tabelul 10-3"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Rata se ajustează după răspuns.",
+    "evidenceLocation": "Lawrence, p. 115, Tabelul 10-3"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Rata scade cu 10–15%/oră.",
+    "evidenceLocation": "Lawrence, p. 115, Tabelul 10-3"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:26:11.333Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii folosesc diuretice și volume fixe."
+  },
+  "textbookExpressions": [
+   "10-20%",
+   "diuretic"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a arsuri-adv-018: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "arsuri-adv-020-v2",
+  "questionFingerprint": "c0935960ebd541c257008f3e7b5f5ad6a2215902aab15884535e1dbfb6cd6892",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea grefelor de grosime parțială și totală.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 10,
+   "printedPages": [
+    117
+   ],
+   "pdfPages": [
+    59
+   ],
+   "section": "Grefarea pielii"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Se recoltează eliptic inghinal sau din flanc.",
+    "evidenceLocation": "Lawrence, p. 117, Grefarea pielii"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: zona donatoare se vindecă în 7–14 zile.",
+    "evidenceLocation": "Lawrence, p. 117, Grefarea pielii"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Grosimea tipică este 0,1–0,38 mm.",
+    "evidenceLocation": "Lawrence, p. 117, Grefarea pielii"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Zona donatoare se închide primar.",
+    "evidenceLocation": "Lawrence, p. 117, Grefarea pielii"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Dermul superficial doar.",
+    "evidenceLocation": "Lawrence, p. 117, Grefarea pielii"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:26:11.334Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează închiderea și grosimea."
+  },
+  "textbookExpressions": [
+   "0,38",
+   "7-14 zile"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a arsuri-adv-020: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "arsuri-adv-023-v2",
+  "questionFingerprint": "c3b0ddb375fcadbb972b25092e3499537003f18204d141f2f03c7a86629e9703",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea suportului nutrițional la ars.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 10,
+   "printedPages": [
+    118,
+    119
+   ],
+   "pdfPages": [
+    60,
+    61
+   ],
+   "section": "Suportul nutrițional"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Excreția de azot crește.",
+    "evidenceLocation": "Lawrence, p. 118, 119, Suportul nutrițional"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nicio formulă nu e satisfăcătoare.",
+    "evidenceLocation": "Lawrence, p. 118, 119, Suportul nutrițional"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: aportul proteic este 1,5–2,0 g/kg/zi.",
+    "evidenceLocation": "Lawrence, p. 118, 119, Suportul nutrițional"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Enterala este net superioară.",
+    "evidenceLocation": "Lawrence, p. 118, 119, Suportul nutrițional"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Metabolismul poate depăși dublul normalului.",
+    "evidenceLocation": "Lawrence, p. 118, 119, Suportul nutrițional"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:26:11.335Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii supraestimează formulele și inversează azotul."
+  },
+  "textbookExpressions": [
+   "calorimetrie indirectă",
+   "1,5-2,0"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a arsuri-adv-023: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "arsuri-adv-029-v2",
+  "questionFingerprint": "152cb3194979e746bc832d79f5b5cca2ccbff1889628c2bf76dea926bf6fa769",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea principiilor reabilitării arsului.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 10,
+   "printedPages": [
+    119,
+    118
+   ],
+   "pdfPages": [
+    61,
+    60
+   ],
+   "section": "Faza de reabilitare"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Reabilitarea începe la momentul leziunii.",
+    "evidenceLocation": "Lawrence, p. 119, 118, Faza de reabilitare"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu se așteaptă închiderea.",
+    "evidenceLocation": "Lawrence, p. 119, 118, Faza de reabilitare"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Deformează mandibula; se folosesc măști rigide.",
+    "evidenceLocation": "Lawrence, p. 119, 118, Faza de reabilitare"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: remodelarea durează cel puțin un an.",
+    "evidenceLocation": "Lawrence, p. 119, 118, Faza de reabilitare"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Compresia previne hipertrofia.",
+    "evidenceLocation": "Lawrence, p. 119, 118, Faza de reabilitare"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:26:11.337Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii amână reabilitarea și preferă măștile elastice."
+  },
+  "textbookExpressions": [
+   "cicatricilor",
+   "un an"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a arsuri-adv-029: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "arsuri-adv-047-v2",
+  "questionFingerprint": "7e51ffaf5680cf5dadf0045099cec2c79908ab75c7ac946d5acd6ff99f664a66",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea particularităților leziunii electrice.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 10,
+   "printedPages": [
+    119
+   ],
+   "pdfPages": [
+    61
+   ],
+   "section": "Arsuri electrice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Țesuturile de lângă os rețin căldura.",
+    "evidenceLocation": "Lawrence, p. 119, Arsuri electrice"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Pielea poate fi puțin afectată.",
+    "evidenceLocation": "Lawrence, p. 119, Arsuri electrice"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Extensia poate fi imposibil de apreciat inițial.",
+    "evidenceLocation": "Lawrence, p. 119, Arsuri electrice"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: pragul este 1.000 V.",
+    "evidenceLocation": "Lawrence, p. 119, Arsuri electrice"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Mușchii superficiali pot părea intacți.",
+    "evidenceLocation": "Lawrence, p. 119, Arsuri electrice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:26:11.338Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează distribuția leziunii."
+  },
+  "textbookExpressions": [
+   "joasă tensiune",
+   "oaselor"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a arsuri-adv-047: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "arsuri-adv-065-v2",
+  "questionFingerprint": "0706896274b90a49cf577c5dcf45a6ecf7121255f0c592d71e12efff80f23a06",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea particularităților analgezicelor și sedativelor.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 10,
+   "printedPages": [
+    121
+   ],
+   "pdfPages": [
+    63
+   ],
+   "section": "Tabelul 10-4"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu au efect analgezic suficient.",
+    "evidenceLocation": "Lawrence, p. 121, Tabelul 10-4"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Propofolul necesită suportul căilor respiratorii.",
+    "evidenceLocation": "Lawrence, p. 121, Tabelul 10-4"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Clonidina nu este agent unic.",
+    "evidenceLocation": "Lawrence, p. 121, Tabelul 10-4"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Ketamina dă delir și coșmaruri.",
+    "evidenceLocation": "Lawrence, p. 121, Tabelul 10-4"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Oxicodona este mai puțin puternică decât morfina.",
+    "evidenceLocation": "Lawrence, p. 121, Tabelul 10-4"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:26:11.339Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează potența și efectul analgezic."
+  },
+  "textbookExpressions": [
+   "Ketamină",
+   "Propofol"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a arsuri-adv-065: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "arsuri-adv-049-v2",
+  "questionFingerprint": "a71ec1e510efa4c3a907ab8e4c7665aba6d6353e3aeaf1dec3f7e7d0ca1d4698",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea pruritului post-arsură.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 10,
+   "printedPages": [
+    122
+   ],
+   "pdfPages": [
+    64
+   ],
+   "section": "Pruritul"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: ~50% au prurit moderat-sever.",
+    "evidenceLocation": "Lawrence, p. 122, Pruritul"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Poate persista 12 ani.",
+    "evidenceLocation": "Lawrence, p. 122, Pruritul"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Apare în 32% din arsurile <2% SCT.",
+    "evidenceLocation": "Lawrence, p. 122, Pruritul"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Doar 36% au raportat beneficiu.",
+    "evidenceLocation": "Lawrence, p. 122, Pruritul"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Persistă ani.",
+    "evidenceLocation": "Lawrence, p. 122, Pruritul"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:26:11.340Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii subestimează durata și rezistența la tratament."
+  },
+  "textbookExpressions": [
+   "12 ani",
+   "36%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a arsuri-adv-049: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "arsuri-adv-010-v2",
+  "questionFingerprint": "ff57c5e9ec8167822c71411838517ed65b652030a1be36296277c299f228b81e",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea arsurii de grad II superficial.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 10,
+   "printedPages": [
+    109
+   ],
+   "pdfPages": [
+    51
+   ],
+   "section": "Arsurile de profunzime parțială"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Se albesc la presiune.",
+    "evidenceLocation": "Lawrence, p. 109, Arsurile de profunzime parțială"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: nervii din dermul profund sunt intacți, iar arsura este foarte dureroasă.",
+    "evidenceLocation": "Lawrence, p. 109, Arsurile de profunzime parțială"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Dermul este umed și se albește.",
+    "evidenceLocation": "Lawrence, p. 109, Arsurile de profunzime parțială"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Descrie gradul II profund.",
+    "evidenceLocation": "Lawrence, p. 109, Arsurile de profunzime parțială"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Flictenele conțin lichid proteic extravazat.",
+    "evidenceLocation": "Lawrence, p. 109, Arsurile de profunzime parțială"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:26:26.869Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii preiau trăsăturile formelor profunde."
+  },
+  "textbookExpressions": [
+   "flictene destinse",
+   "dureros"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a arsuri-adv-010: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  }
 ]
