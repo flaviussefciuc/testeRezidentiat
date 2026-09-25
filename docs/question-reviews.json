@@ -169858,83 +169858,6 @@
   "reviewNotes": "Rescriere a hemostaza-adv-005: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "hemostaza-adv-006-v2",
-  "questionFingerprint": "d5f20c64d78888f2ed4e06b6889ede8818aaeecf5c9c327f1ffc96e86444647a",
-  "status": "source-checked",
-  "learningObjective": "Fixarea definițiilor componentelor triadei letale și a efectelor hipotermiei.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 4,
-   "printedPages": [
-    44
-   ],
-   "pdfPages": [
-    18
-   ],
-   "section": "Tulburări metabolice — Triada letală"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Hipotermia este definită ca temperatură centrală <35°C.",
-    "evidenceLocation": "Lawrence, p. 44, Tulburări metabolice — Triada letală"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Acidoza este definită prin pH <7,35.",
-    "evidenceLocation": "Lawrence, p. 44, Tulburări metabolice — Triada letală"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Hipotermia este observată la 50% dintre pacienții cu traumatisme la prezentare.",
-    "evidenceLocation": "Lawrence, p. 44, Tulburări metabolice — Triada letală"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Hipotermia poate fi prezentă la un pacient cu semne vitale normale.",
-    "evidenceLocation": "Lawrence, p. 44, Tulburări metabolice — Triada letală"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Hipotermia alterează funcția trombocitară și inhibă factorii de coagulare.",
-    "evidenceLocation": "Lawrence, p. 44, Tulburări metabolice — Triada letală"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:10:23.043Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Pragurile de pH și temperatură sunt apropiate; distractorul clinic inversează o afirmație explicită."
-  },
-  "textbookExpressions": [
-   "semne vitale",
-   "50% dintre pacienţii"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hemostaza-adv-006: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "hemostaza-adv-007-v2",
   "questionFingerprint": "e50c61eb7e21e900ac3beb8262dc7a64c47e7dd1a37141a924bbbb223673c6cb",
   "status": "source-checked",
@@ -170087,83 +170010,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a hemostaza-adv-008: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "hemostaza-adv-009-v2",
-  "questionFingerprint": "fbb3ec02e3257935069e7d6f23e858f9595812a3fb43dbc0f3ce1c0b514deba9",
-  "status": "source-checked",
-  "learningObjective": "Contrastarea incidenței și a fiziopatologiei hemofiliei A cu boala von Willebrand.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 4,
-   "printedPages": [
-    39
-   ],
-   "pdfPages": [
-    13
-   ],
-   "section": "Tabelul 4-2 — Tulburări congenitale ale hemostazei"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Incidența hemofiliei A: 25 la 100.000 de locuitori în SUA.",
-    "evidenceLocation": "Lawrence, p. 39, Tabelul 4-2 — Tulburări congenitale ale hemostazei"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Boala von Willebrand: 1% din populația SUA.",
-    "evidenceLocation": "Lawrence, p. 39, Tabelul 4-2 — Tulburări congenitale ale hemostazei"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Proporția de 1% aparține bolii von Willebrand.",
-    "evidenceLocation": "Lawrence, p. 39, Tabelul 4-2 — Tulburări congenitale ale hemostazei"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "În boala von Willebrand sunt reduse activitatea factorului VIII și cea a factorului von Willebrand.",
-    "evidenceLocation": "Lawrence, p. 39, Tabelul 4-2 — Tulburări congenitale ale hemostazei"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "În hemofilia A moleculele de factor VIII sunt prezente, cu activitate redusă sau absentă.",
-    "evidenceLocation": "Lawrence, p. 39, Tabelul 4-2 — Tulburări congenitale ale hemostazei"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:10:23.045Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Cifrele celor două boli sunt permutate, iar distractorul fiziopatologic confundă activitatea cu prezența moleculei."
-  },
-  "textbookExpressions": [
-   "25 la 100.000",
-   "din populaţia"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hemostaza-adv-009: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "hemostaza-adv-010-v2",
@@ -170474,85 +170320,6 @@
   "reviewNotes": "Rescriere a hemostaza-adv-013: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "hemostaza-adv-015-v2",
-  "questionFingerprint": "ae6408b0d03eb78b2a80a64d564de0086a48f548710190c12f2e35b81275ad87",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea frecvenței, mecanismului și conduitei în reacțiile febrile.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 4,
-   "printedPages": [
-    44,
-    45
-   ],
-   "pdfPages": [
-    18,
-    19
-   ],
-   "section": "Reacții imunologice de transfuzie — Reacțiile febrile"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Reacțiile febrile sunt cele mai frecvente reacții imunologice de transfuzie.",
-    "evidenceLocation": "Lawrence, p. 44, 45, Reacții imunologice de transfuzie — Reacțiile febrile"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Ele apar de obicei ca urmare a anticorpilor antileucocitari.",
-    "evidenceLocation": "Lawrence, p. 44, 45, Reacții imunologice de transfuzie — Reacțiile febrile"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Transfuzia trebuie oprită; antipireticele se dau preventiv, înaintea transfuziei.",
-    "evidenceLocation": "Lawrence, p. 44, 45, Reacții imunologice de transfuzie — Reacțiile febrile"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Transfuzia cu masă eritrocitară deleucocitată poate fi eficientă preventiv.",
-    "evidenceLocation": "Lawrence, p. 44, 45, Reacții imunologice de transfuzie — Reacțiile febrile"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Incompatibilitatea ABO este mecanismul reacției hemolitice acute.",
-    "evidenceLocation": "Lawrence, p. 44, 45, Reacții imunologice de transfuzie — Reacțiile febrile"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:10:23.049Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii preiau mecanismul reacției hemolitice și rolul preventiv al antipireticelor."
-  },
-  "textbookExpressions": [
-   "cele mai frecvente reacţii imunologice",
-   "Transfuzia trebuie oprită"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hemostaza-adv-015: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "hemostaza-adv-016-v2",
   "questionFingerprint": "ff4c665bc53a0da22c27a0dcb2a6c9b1db9a1d6e86b6316e004ba6ba814f8c0b",
   "status": "source-checked",
@@ -170784,85 +170551,6 @@
   "reviewNotes": "Rescriere a hemostaza-adv-018: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "hemostaza-adv-019-v2",
-  "questionFingerprint": "153df8adb58b2189a4cdcadc617b9d8dfc9e818844f3c2e6745c94151f11e847",
-  "status": "source-checked",
-  "learningObjective": "Contrastarea fibrinolizei primare cu fibrinoliza secundară din CID.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 4,
-   "printedPages": [
-    42,
-    41
-   ],
-   "pdfPages": [
-    16,
-    15
-   ],
-   "section": "Tulburări de sângerare cauzate de creșterea fibrinolizei"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Răspunsul la CID definește fibrinoliza secundară.",
-    "evidenceLocation": "Lawrence, p. 42, 41, Tulburări de sângerare cauzate de creșterea fibrinolizei"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Fibrinoliza primară apare obișnuit după terapia fibrinolitică cu activator tisular al plasminogenului.",
-    "evidenceLocation": "Lawrence, p. 42, 41, Tulburări de sângerare cauzate de creșterea fibrinolizei"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Timpul de înjumătățire al agenților litici este de minute; sângerarea se oprește rapid.",
-    "evidenceLocation": "Lawrence, p. 42, 41, Tulburări de sângerare cauzate de creșterea fibrinolizei"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Prostata este un organ bogat în urokinază.",
-    "evidenceLocation": "Lawrence, p. 42, 41, Tulburări de sângerare cauzate de creșterea fibrinolizei"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "EACA poate fi folosit în forma severă, cu atenție la riscul trombotic.",
-    "evidenceLocation": "Lawrence, p. 42, 41, Tulburări de sângerare cauzate de creșterea fibrinolizei"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:10:23.051Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii transferă trăsături ale fibrinolizei secundare și inversează cinetica agenților litici."
-  },
-  "textbookExpressions": [
-   "urokinază",
-   "evenimente trombotice"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hemostaza-adv-019: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "hemostaza-adv-020-v2",
   "questionFingerprint": "4764193409c74b79dbfade804c18b46fea27717000e95933a35cecfdf5442490",
   "status": "source-checked",
@@ -170940,85 +170628,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a hemostaza-adv-020: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "hemostaza-adv-021-v2",
-  "questionFingerprint": "e9dc6791d7bfcd7c7b55b9c8d3ec54df9af81c636544e005bced5bd9d9cdd485",
-  "status": "source-checked",
-  "learningObjective": "Interpretarea coagulopatiei hepatice și a efectelor duble ale dializei.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 4,
-   "printedPages": [
-    43,
-    42
-   ],
-   "pdfPages": [
-    17,
-    16
-   ],
-   "section": "Cazuri particulare — Afecțiuni hepatice și renale"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Bilirubina, amoniemia și transaminazele nu sunt măsurători utile ale coagulopatiei.",
-    "evidenceLocation": "Lawrence, p. 43, 42, Cazuri particulare — Afecțiuni hepatice și renale"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Măsurarea INR monitorizează funcția de sinteză hepatică.",
-    "evidenceLocation": "Lawrence, p. 43, 42, Cazuri particulare — Afecțiuni hepatice și renale"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Dezechilibrul dublu permite hemoragie, hipercoagulabilitate sau ambele simultan.",
-    "evidenceLocation": "Lawrence, p. 43, 42, Cazuri particulare — Afecțiuni hepatice și renale"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Dializa poate ajuta la corectarea problemelor, dar nu le poate elimina.",
-    "evidenceLocation": "Lawrence, p. 43, 42, Cazuri particulare — Afecțiuni hepatice și renale"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Contactul trombocitelor cu suprafețele sintetice crește riscul trombotic.",
-    "evidenceLocation": "Lawrence, p. 43, 42, Cazuri particulare — Afecțiuni hepatice și renale"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:10:23.053Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Cere recunoașterea paradoxurilor explicite: hemoragie plus tromboză și dializa cu efect dublu."
-  },
-  "textbookExpressions": [
-   "Măsurarea INR",
-   "dezechilibru dublu"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hemostaza-adv-021: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "hemostaza-adv-022-v2",
@@ -171251,83 +170860,6 @@
   "reviewNotes": "Rescriere a hemostaza-adv-024: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "hemostaza-adv-025-v2",
-  "questionFingerprint": "6408f367c5a42ec2b8993b25faa0dc182528055b9ba76e42c52379bee2d61f93",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea agenților hemostatici locali față de anticoagulantele sistemice cu denumire comercială.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 4,
-   "printedPages": [
-    40
-   ],
-   "pdfPages": [
-    14
-   ],
-   "section": "Complicații intraoperatorii — Agenți hemostatici locali"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Fondaparina este un inhibitor direct al factorului Xa.",
-    "evidenceLocation": "Lawrence, p. 40, Complicații intraoperatorii — Agenți hemostatici locali"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Celuloza oxidată (Surgicel) este listată.",
-    "evidenceLocation": "Lawrence, p. 40, Complicații intraoperatorii — Agenți hemostatici locali"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Colagenul microfibrilar (Avitene, Hemoten) este listat.",
-    "evidenceLocation": "Lawrence, p. 40, Complicații intraoperatorii — Agenți hemostatici locali"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "EACA topic este listat printre agenții locali.",
-    "evidenceLocation": "Lawrence, p. 40, Complicații intraoperatorii — Agenți hemostatici locali"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Bivalirudina este un inhibitor direct al trombinei.",
-    "evidenceLocation": "Lawrence, p. 40, Complicații intraoperatorii — Agenți hemostatici locali"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:10:23.056Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Toate variantele au denumiri comerciale din aceeași pagină; distractorii sunt anticoagulante."
-  },
-  "textbookExpressions": [
-   "Surgicel",
-   "Avitene"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hemostaza-adv-025: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "hemostaza-adv-026-v2",
   "questionFingerprint": "ae566bf793fb8b1840a93d68f1e385fb3e5538428b040a806b8344a54ec26397",
   "status": "source-checked",
@@ -171403,83 +170935,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a hemostaza-adv-026: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "hemostaza-adv-027-v2",
-  "questionFingerprint": "8aeda68130a8e6e23aabd2245d2349fc509da8986143487bc47e62301ccded75",
-  "status": "source-checked",
-  "learningObjective": "Diferențierea cauzelor de hemoragie postoperatorie și a ferestrelor lor temporale.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 4,
-   "printedPages": [
-    41
-   ],
-   "pdfPages": [
-    15
-   ],
-   "section": "Hemoragii postoperatorii"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Ficatul restant poate avea nevoie de 3–5 zile pentru a produce suficienți factori.",
-    "evidenceLocation": "Lawrence, p. 41, Hemoragii postoperatorii"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "50% din sângerările postoperatorii sunt cauzate de hemostaza necorespunzătoare intraoperatorie.",
-    "evidenceLocation": "Lawrence, p. 41, Hemoragii postoperatorii"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Heparina reziduală după bypass sau chirurgie vasculară periferică poate cauza hemoragii.",
-    "evidenceLocation": "Lawrence, p. 41, Hemoragii postoperatorii"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Deficitul de factor XIII produce sângerare întârziată, la 3–5 zile.",
-    "evidenceLocation": "Lawrence, p. 41, Hemoragii postoperatorii"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Deficitul de factori II, VII, IX, X apare la pacienții hrăniți insuficient care primesc antibiotice.",
-    "evidenceLocation": "Lawrence, p. 41, Hemoragii postoperatorii"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:10:23.057Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii plasează cauze reale în ferestre temporale greșite."
-  },
-  "textbookExpressions": [
-   "50% din sângerările",
-   "hrăniţi insuficient"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hemostaza-adv-027: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "hemostaza-adv-028-v2",
@@ -171713,83 +171168,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a hemostaza-adv-030: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "hemostaza-adv-031-v2",
-  "questionFingerprint": "44a7027e7261691684473fb906ee1e38f80e4142ff609170bd2a46795990498c",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea mecanismului, a pragului de volum și a conduitei în reacția hemolitică acută.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 4,
-   "printedPages": [
-    45
-   ],
-   "pdfPages": [
-    19
-   ],
-   "section": "Reacții imunologice — Reacția hemolitică acută"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Poate debuta rapid după administrarea a doar 50 mL de sânge.",
-    "evidenceLocation": "Lawrence, p. 45, Reacții imunologice — Reacția hemolitică acută"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Iradierea previne boala grefă contra gazdă.",
-    "evidenceLocation": "Lawrence, p. 45, Reacții imunologice — Reacția hemolitică acută"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Majoritatea reacțiilor apar prin eroare de scriere a grupului și transfuzie ABO incompatibilă.",
-    "evidenceLocation": "Lawrence, p. 45, Reacții imunologice — Reacția hemolitică acută"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Transfuzia trebuie oprită imediat.",
-    "evidenceLocation": "Lawrence, p. 45, Reacții imunologice — Reacția hemolitică acută"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Unii clinicieni recomandă manitol și/sau furosemid pentru menținerea diurezei.",
-    "evidenceLocation": "Lawrence, p. 45, Reacții imunologice — Reacția hemolitică acută"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:10:23.059Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează o măsură terapeutică și transferă prevenția GVHD."
-  },
-  "textbookExpressions": [
-   "50 mL de sânge",
-   "manito"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hemostaza-adv-031: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "hemostaza-adv-014-v2",
@@ -269519,5 +268897,627 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a esofag-adv-076: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "hemostaza-adv-006-v2",
+  "questionFingerprint": "9ba770cee2f5447fcb06964342e1856865f440752e8e846fdfdfb7a03d986a96",
+  "status": "source-checked",
+  "learningObjective": "Fixarea definițiilor componentelor triadei letale și a efectelor hipotermiei.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 4,
+   "printedPages": [
+    44
+   ],
+   "pdfPages": [
+    18
+   ],
+   "section": "Tulburări metabolice — Triada letală"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Hipotermia este definită ca temperatură centrală <35°C.",
+    "evidenceLocation": "Lawrence, p. 44, Tulburări metabolice — Triada letală"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Acidoza este definită prin pH <7,35.",
+    "evidenceLocation": "Lawrence, p. 44, Tulburări metabolice — Triada letală"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: hipotermia este observată la 50% dintre pacienți la prezentare.",
+    "evidenceLocation": "Lawrence, p. 44, Tulburări metabolice — Triada letală"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Hipotermia poate fi prezentă la un pacient cu semne vitale normale.",
+    "evidenceLocation": "Lawrence, p. 44, Tulburări metabolice — Triada letală"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Hipotermia alterează funcția trombocitară și inhibă factorii de coagulare.",
+    "evidenceLocation": "Lawrence, p. 44, Tulburări metabolice — Triada letală"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:40:53.880Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Pragurile de pH și temperatură sunt apropiate; distractorul clinic inversează o afirmație explicită."
+  },
+  "textbookExpressions": [
+   "semne vitale",
+   "50% dintre pacienţii"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a hemostaza-adv-006: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "hemostaza-adv-015-v2",
+  "questionFingerprint": "8ad5d43201f15c157518aa6ab7edf141a58902ced387c84ea62981a8e6369466",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea frecvenței, mecanismului și conduitei în reacțiile febrile.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 4,
+   "printedPages": [
+    44,
+    45
+   ],
+   "pdfPages": [
+    18,
+    19
+   ],
+   "section": "Reacții imunologice de transfuzie — Reacțiile febrile"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Reacțiile febrile sunt cele mai frecvente reacții imunologice de transfuzie.",
+    "evidenceLocation": "Lawrence, p. 44, 45, Reacții imunologice de transfuzie — Reacțiile febrile"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Ele apar de obicei ca urmare a anticorpilor antileucocitari.",
+    "evidenceLocation": "Lawrence, p. 44, 45, Reacții imunologice de transfuzie — Reacțiile febrile"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Transfuzia trebuie oprită; antipireticele se dau preventiv, înaintea transfuziei.",
+    "evidenceLocation": "Lawrence, p. 44, 45, Reacții imunologice de transfuzie — Reacțiile febrile"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: deleucocitarea previne reacția febrilă; iradierea previne boala grefă contra gazdă.",
+    "evidenceLocation": "Lawrence, p. 44, 45, Reacții imunologice de transfuzie — Reacțiile febrile"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Incompatibilitatea ABO este mecanismul reacției hemolitice acute.",
+    "evidenceLocation": "Lawrence, p. 44, 45, Reacții imunologice de transfuzie — Reacțiile febrile"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:40:53.883Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii preiau mecanismul reacției hemolitice și rolul preventiv al antipireticelor."
+  },
+  "textbookExpressions": [
+   "cele mai frecvente reacţii imunologice",
+   "Transfuzia trebuie oprită"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a hemostaza-adv-015: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "hemostaza-adv-019-v2",
+  "questionFingerprint": "4dcbd763c7576014e05e45a89891a239a903bd03c23a773bf7a879e81b523355",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea fibrinolizei primare cu fibrinoliza secundară din CID.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 4,
+   "printedPages": [
+    42,
+    41
+   ],
+   "pdfPages": [
+    16,
+    15
+   ],
+   "section": "Tulburări de sângerare cauzate de creșterea fibrinolizei"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Răspunsul la CID definește fibrinoliza secundară.",
+    "evidenceLocation": "Lawrence, p. 42, 41, Tulburări de sângerare cauzate de creșterea fibrinolizei"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Fibrinoliza primară apare obișnuit după terapia fibrinolitică cu activator tisular al plasminogenului.",
+    "evidenceLocation": "Lawrence, p. 42, 41, Tulburări de sângerare cauzate de creșterea fibrinolizei"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Timpul de înjumătățire al agenților litici este de minute; sângerarea se oprește rapid.",
+    "evidenceLocation": "Lawrence, p. 42, 41, Tulburări de sângerare cauzate de creșterea fibrinolizei"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Prostata este un organ bogat în urokinază.",
+    "evidenceLocation": "Lawrence, p. 42, 41, Tulburări de sângerare cauzate de creșterea fibrinolizei"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: EACA se folosește în forma severă, cu atenție la riscul trombotic.",
+    "evidenceLocation": "Lawrence, p. 42, 41, Tulburări de sângerare cauzate de creșterea fibrinolizei"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:40:53.885Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii transferă trăsături ale fibrinolizei secundare și inversează cinetica agenților litici."
+  },
+  "textbookExpressions": [
+   "urokinază",
+   "evenimente trombotice"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a hemostaza-adv-019: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "hemostaza-adv-021-v2",
+  "questionFingerprint": "552be6f472dd1f2a5a675f5098a3034c60164b473507f32e0b23bea6bdb07b26",
+  "status": "source-checked",
+  "learningObjective": "Interpretarea coagulopatiei hepatice și a efectelor duble ale dializei.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 4,
+   "printedPages": [
+    43,
+    42
+   ],
+   "pdfPages": [
+    17,
+    16
+   ],
+   "section": "Cazuri particulare — Afecțiuni hepatice și renale"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Bilirubina, amoniemia și transaminazele nu sunt măsurători utile ale coagulopatiei.",
+    "evidenceLocation": "Lawrence, p. 43, 42, Cazuri particulare — Afecțiuni hepatice și renale"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Măsurarea INR monitorizează funcția de sinteză hepatică.",
+    "evidenceLocation": "Lawrence, p. 43, 42, Cazuri particulare — Afecțiuni hepatice și renale"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Dezechilibrul dublu permite hemoragie, hipercoagulabilitate sau ambele simultan.",
+    "evidenceLocation": "Lawrence, p. 43, 42, Cazuri particulare — Afecțiuni hepatice și renale"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Dializa poate ajuta la corectarea problemelor, dar nu le poate elimina.",
+    "evidenceLocation": "Lawrence, p. 43, 42, Cazuri particulare — Afecțiuni hepatice și renale"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Contactul trombocitelor cu suprafețele sintetice crește riscul trombotic.",
+    "evidenceLocation": "Lawrence, p. 43, 42, Cazuri particulare — Afecțiuni hepatice și renale"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:40:53.886Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Cere recunoașterea paradoxurilor explicite: hemoragie plus tromboză și dializa cu efect dublu."
+  },
+  "textbookExpressions": [
+   "Măsurarea INR",
+   "dezechilibru dublu"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a hemostaza-adv-021: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "hemostaza-adv-027-v2",
+  "questionFingerprint": "8f9944f98eca9c5205c160e1ab18afb291a1514ce726ad78aa112f29ceb66b71",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea cauzelor de hemoragie postoperatorie și a ferestrelor lor temporale.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 4,
+   "printedPages": [
+    41
+   ],
+   "pdfPages": [
+    15
+   ],
+   "section": "Hemoragii postoperatorii"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Ficatul restant poate avea nevoie de 3–5 zile pentru a produce suficienți factori.",
+    "evidenceLocation": "Lawrence, p. 41, Hemoragii postoperatorii"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "50% din sângerările postoperatorii sunt cauzate de hemostaza necorespunzătoare intraoperatorie.",
+    "evidenceLocation": "Lawrence, p. 41, Hemoragii postoperatorii"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Heparina reziduală după bypass sau chirurgie vasculară periferică poate cauza hemoragii.",
+    "evidenceLocation": "Lawrence, p. 41, Hemoragii postoperatorii"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Deficitul de factor XIII produce sângerare întârziată, la 3–5 zile.",
+    "evidenceLocation": "Lawrence, p. 41, Hemoragii postoperatorii"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Deficitul de factori II, VII, IX, X apare la pacienții hrăniți insuficient care primesc antibiotice.",
+    "evidenceLocation": "Lawrence, p. 41, Hemoragii postoperatorii"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:40:53.887Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii plasează cauze reale în ferestre temporale greșite."
+  },
+  "textbookExpressions": [
+   "50% din sângerările",
+   "hrăniţi insuficient"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a hemostaza-adv-027: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "hemostaza-adv-031-v2",
+  "questionFingerprint": "353553474781d57fd73a744d92293e838ed6c9095d4e8501ebac3f91ec13246e",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea mecanismului, a pragului de volum și a conduitei în reacția hemolitică acută.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 4,
+   "printedPages": [
+    45
+   ],
+   "pdfPages": [
+    19
+   ],
+   "section": "Reacții imunologice — Reacția hemolitică acută"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Poate debuta rapid după administrarea a doar 50 mL de sânge.",
+    "evidenceLocation": "Lawrence, p. 45, Reacții imunologice — Reacția hemolitică acută"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Iradierea previne boala grefă contra gazdă.",
+    "evidenceLocation": "Lawrence, p. 45, Reacții imunologice — Reacția hemolitică acută"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Majoritatea reacțiilor apar prin eroare de scriere a grupului și transfuzie ABO incompatibilă.",
+    "evidenceLocation": "Lawrence, p. 45, Reacții imunologice — Reacția hemolitică acută"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Transfuzia trebuie oprită imediat.",
+    "evidenceLocation": "Lawrence, p. 45, Reacții imunologice — Reacția hemolitică acută"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Unii clinicieni recomandă manitol și/sau furosemid pentru menținerea diurezei.",
+    "evidenceLocation": "Lawrence, p. 45, Reacții imunologice — Reacția hemolitică acută"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:40:53.888Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează o măsură terapeutică și transferă prevenția GVHD."
+  },
+  "textbookExpressions": [
+   "50 mL de sânge",
+   "manito"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a hemostaza-adv-031: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "hemostaza-adv-009-v2",
+  "questionFingerprint": "a9a5aceef7d9b16c83e01aa6ed82a797056f898249eaf9f9260f55051e7e7864",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea incidenței și a fiziopatologiei hemofiliei A cu boala von Willebrand.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 4,
+   "printedPages": [
+    39
+   ],
+   "pdfPages": [
+    13
+   ],
+   "section": "Tabelul 4-2 — Tulburări congenitale ale hemostazei"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Incidența hemofiliei A: 25 la 100.000 de locuitori în SUA.",
+    "evidenceLocation": "Lawrence, p. 39, Tabelul 4-2 — Tulburări congenitale ale hemostazei"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Boala von Willebrand: 1% din populația SUA.",
+    "evidenceLocation": "Lawrence, p. 39, Tabelul 4-2 — Tulburări congenitale ale hemostazei"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Proporția de 1% aparține bolii von Willebrand.",
+    "evidenceLocation": "Lawrence, p. 39, Tabelul 4-2 — Tulburări congenitale ale hemostazei"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "În boala von Willebrand sunt reduse activitatea factorului VIII și cea a factorului von Willebrand.",
+    "evidenceLocation": "Lawrence, p. 39, Tabelul 4-2 — Tulburări congenitale ale hemostazei"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "În hemofilia A moleculele de factor VIII sunt prezente, cu activitate redusă sau absentă.",
+    "evidenceLocation": "Lawrence, p. 39, Tabelul 4-2 — Tulburări congenitale ale hemostazei"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:41:10.817Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Cifrele celor două boli sunt permutate, iar distractorul fiziopatologic confundă activitatea cu prezența moleculei."
+  },
+  "textbookExpressions": [
+   "25 la 100.000",
+   "din populaţia"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a hemostaza-adv-009: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "hemostaza-adv-025-v2",
+  "questionFingerprint": "2717471a0854caba47d3aea54480dae2efdbfac5f178513619ec376b0d8060a2",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea agenților hemostatici locali față de anticoagulantele sistemice cu denumire comercială.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 4,
+   "printedPages": [
+    40
+   ],
+   "pdfPages": [
+    14
+   ],
+   "section": "Complicații intraoperatorii — Agenți hemostatici locali"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Fondaparina este un inhibitor direct al factorului Xa.",
+    "evidenceLocation": "Lawrence, p. 40, Complicații intraoperatorii — Agenți hemostatici locali"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Celuloza oxidată (Surgicel) este listată.",
+    "evidenceLocation": "Lawrence, p. 40, Complicații intraoperatorii — Agenți hemostatici locali"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Colagenul microfibrilar (Avitene, Hemoten) este listat.",
+    "evidenceLocation": "Lawrence, p. 40, Complicații intraoperatorii — Agenți hemostatici locali"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "EACA topic este listat printre agenții locali.",
+    "evidenceLocation": "Lawrence, p. 40, Complicații intraoperatorii — Agenți hemostatici locali"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Bivalirudina este un inhibitor direct al trombinei.",
+    "evidenceLocation": "Lawrence, p. 40, Complicații intraoperatorii — Agenți hemostatici locali"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:41:10.820Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Toate variantele au denumiri comerciale din aceeași pagină; distractorii sunt anticoagulante."
+  },
+  "textbookExpressions": [
+   "Surgicel",
+   "Avitene"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a hemostaza-adv-025: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  }
 ]
