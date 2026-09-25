@@ -148,3 +148,8 @@ Fiecare temă rescrisă (versiunile `-v2`) a fost confruntată din nou cu pagini
 - Nu s-au găsit chei greșite în cei 52 de itemi confruntați cu p. 319–330.
 - P. 321, caseta «Pasul următor» despre sindromul neuroleptic malign: tratamentul include «un agonist dopaminergic cum ar fi dantrolenul». Dantrolenul este un relaxant muscular, iar Tabelul 14-2 (p. 320) listează corect bromocriptina și amantadina ca agoniști dopaminergici, cu dantrolenul separat. Niciun item nu testează această formulare.
 - Temele au fost redistribuite între ID-urile vechi, deoarece fiecare versiune nouă trebuie să înlocuiască un item retras: 005 → trăsăturile generale ale tulburărilor de personalitate, 030 → antipsihoticele atipice, 032 → diskinezia tardivă, 044 → tulburările factice, 047 → caseta SNM. Conținutul vechi al acestor ID-uri (dubluri: bipolar tip I, comorbiditățile și epidemiologia TOC, prazosinul, mecanismul litiului) este acoperit de alți itemi v2.
+
+### Hipertensiunea arterială (Kumar, cap. 31)
+- Nu s-au găsit chei greșite în cei 57 de itemi confruntați cu p. 1133–1145.
+- Retrase fără înlocuitor (dubluri sau trivia): 023 (SPRINT/NICE, inclus în `-021-v2`), 024 (ținta peste 80 de ani, inclusă în `-021-v2`), 026 (valorile din studiul Veterans Administration, trivia istorică), 053 (inclus în `-036-v2`), 059 (inclus în `-016-v2`).
+- Temele au fost redistribuite între ID-urile vechi: 027 → conduita în hipertensiunea de halat alb, 031 → afectarea renală hipertensivă, 033 → factorii dietetici, 048 → măsurarea TA în fibrilația atrială, 049 → hipotensiunea ortostatică, 052 → PATHWAY-2.

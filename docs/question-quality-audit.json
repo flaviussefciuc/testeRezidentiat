@@ -3,20 +3,20 @@
   "minimumEditorialDifficulty": 8,
   "baselineActive": 200,
   "targetAcceptedActive": 800,
-  "netAdditionalActive": 3240,
-  "additionalAccepted": 3440,
+  "netAdditionalActive": 3235,
+  "additionalAccepted": 3435,
   "remainingToTarget": 0,
   "publicationStatus": "Eligible for editorial publication decision",
   "live": {
-    "count": 3440,
+    "count": 3435,
     "correctAnswerCounts": {
-      "1": 702,
-      "2": 441,
-      "3": 1601,
-      "4": 696
+      "1": 704,
+      "2": 426,
+      "3": 1607,
+      "4": 698
     },
     "missingMultipleAnswerFormats": [],
-    "fourCorrectShareOfMultiple": 25.4,
+    "fourCorrectShareOfMultiple": 25.6,
     "idsUnique": true,
     "structuralErrors": [],
     "exactQuestionDuplicates": [],
@@ -85,7 +85,7 @@
       },
       {
         "id": "hta",
-        "count": 57
+        "count": 52
       },
       {
         "id": "gastro",
@@ -198,15 +198,15 @@
     ]
   },
   "draft": {
-    "count": 3613,
+    "count": 3606,
     "correctAnswerCounts": {
-      "1": 747,
-      "2": 463,
-      "3": 1645,
-      "4": 758
+      "1": 748,
+      "2": 448,
+      "3": 1651,
+      "4": 759
     },
     "missingMultipleAnswerFormats": [],
-    "fourCorrectShareOfMultiple": 26.4,
+    "fourCorrectShareOfMultiple": 26.6,
     "idsUnique": true,
     "structuralErrors": [],
     "exactQuestionDuplicates": [],
@@ -296,7 +296,7 @@
       },
       {
         "id": "hta",
-        "count": 59
+        "count": 52
       },
       {
         "id": "gastro",
@@ -409,15 +409,15 @@
     ]
   },
   "accepted": {
-    "count": 3440,
+    "count": 3435,
     "correctAnswerCounts": {
-      "1": 702,
-      "2": 441,
-      "3": 1601,
-      "4": 696
+      "1": 704,
+      "2": 426,
+      "3": 1607,
+      "4": 698
     },
     "missingMultipleAnswerFormats": [],
-    "fourCorrectShareOfMultiple": 25.4,
+    "fourCorrectShareOfMultiple": 25.6,
     "idsUnique": true,
     "structuralErrors": [],
     "exactQuestionDuplicates": [],
@@ -486,7 +486,7 @@
       },
       {
         "id": "hta",
-        "count": 57
+        "count": 52
       },
       {
         "id": "gastro",

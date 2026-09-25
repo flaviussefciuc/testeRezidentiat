@@ -86991,5 +86991,4412 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-001",
+  "questionFingerprint": "45f0fd218a724c137a1ffd4ee5ac9524f07a572030983b3a0cfa1dfbaab5f1e3",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea amploarei epidemiologice a hipertensiunii și a bazei de evidență pentru omologarea tratamentului ei.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1134,
+    1133
+   ],
+   "pdfPages": [
+    279,
+    278
+   ],
+   "section": "Introducere — Impactul hipertensiunii arteriale"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Textul indică TA crescută drept principalul factor de risc pentru mortalitate globală, înaintea fumatului.",
+    "evidenceLocation": "Kumar, p. 1134, 1133, Introducere — Impactul hipertensiunii arteriale"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Sunt enumerate explicit ca riscuri asociate hipertensiunii.",
+    "evidenceLocation": "Kumar, p. 1134, 1133, Introducere — Impactul hipertensiunii arteriale"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Omologarea se bazează pe reducerea susţinută a TA, nu pe ameliorarea simptomelor.",
+    "evidenceLocation": "Kumar, p. 1134, 1133, Introducere — Impactul hipertensiunii arteriale"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Hipertensiunea afectează o treime dintre adulţi, la nivel mondial.",
+    "evidenceLocation": "Kumar, p. 1134, 1133, Introducere — Impactul hipertensiunii arteriale"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Textul o descrie drept cea mai comună patologie cronică din ambulatorul medicului generalist (1 din 10 programări), nu drept cea mai frecventă prezentare de urgenţă.",
+    "evidenceLocation": "Kumar, p. 1134, 1133, Introducere — Impactul hipertensiunii arteriale"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-13T14:03:48.731Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii înlocuiesc baza reală de evidență (reducerea TA) cu una plauzibilă dar falsă (ameliorarea simptomelor) și extind o statistică de ambulator la un context de urgență nemenționat."
+  },
+  "textbookExpressions": [
+   "principalul factor de risc",
+   "1 din 10"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Kumar & Clark (tmp/source-books). Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-002",
+  "questionFingerprint": "02dde546cbf4c5d2ba2e1d38be96ef429ee0326f6647d324c7300d9131c48f22",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea celor patru întrebări-cheie ale evaluării clinice și înțelegerea limitelor unei determinări izolate a TA.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1134
+   ],
+   "pdfPages": [
+    279
+   ],
+   "section": "Abordarea clinică a pacientului hipertensiv; Măsurarea tensiunii arteriale"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cele patru întrebări-cheie structurează evaluarea clinică a pacientului hipertensiv.",
+    "evidenceLocation": "Kumar, p. 1134, Abordarea clinică a pacientului hipertensiv; Măsurarea tensiunii arteriale"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Aceasta este definiţia fiziologică a TA sistolice şi diastolice.",
+    "evidenceLocation": "Kumar, p. 1134, Abordarea clinică a pacientului hipertensiv; Măsurarea tensiunii arteriale"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Textul precizează opusul: o singură determinare ar putea să nu reprezinte cu fidelitate TA uzuală.",
+    "evidenceLocation": "Kumar, p. 1134, Abordarea clinică a pacientului hipertensiv; Măsurarea tensiunii arteriale"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "TA variază şi pe termen lung (sezonier), nu doar pe termen scurt.",
+    "evidenceLocation": "Kumar, p. 1134, Abordarea clinică a pacientului hipertensiv; Măsurarea tensiunii arteriale"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "În absenţa unei urgenţe, simptomele legate de TA crescută nu sunt o indicaţie pentru tratament; de fapt, terapia poate fi ea însăşi o cauză de simptome.",
+    "evidenceLocation": "Kumar, p. 1134, Abordarea clinică a pacientului hipertensiv; Măsurarea tensiunii arteriale"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-13T14:03:48.731Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Doi distractori inversează afirmații explicite din text (fidelitatea unei singure determinări, indicația de tratament pe bază de simptome)."
+  },
+  "textbookExpressions": [
+   "ar putea să nu reprezinte cu fidelitate",
+   "presiunea arterială maximă"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Kumar & Clark (tmp/source-books). Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-003",
+  "questionFingerprint": "8ee5067302e1e03a9e9cc162d01f59b690ded828914211cbef6ecc379981cef2",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea regulilor tehnice de măsurare corectă a TA și interpretarea diferenței sistematice dintre cabinet și domiciliu (efectul de halat alb).",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1135,
+    1134,
+    1136
+   ],
+   "pdfPages": [
+    280,
+    279,
+    281
+   ],
+   "section": "Măsurarea tensiunii arteriale — Determinarea la cabinet"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Braţul cu valoarea mai mare este folosit pentru măsurătorile ulterioare, când diferenţa depăşeşte 10 mmHg.",
+    "evidenceLocation": "Kumar, p. 1135, 1134, 1136, Măsurarea tensiunii arteriale — Determinarea la cabinet"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Acestea sunt cerinţele tehnice explicite pentru manşetă.",
+    "evidenceLocation": "Kumar, p. 1135, 1134, 1136, Măsurarea tensiunii arteriale — Determinarea la cabinet"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Aceasta este definiţia efectului de halat alb.",
+    "evidenceLocation": "Kumar, p. 1135, 1134, 1136, Măsurarea tensiunii arteriale — Determinarea la cabinet"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Textul indică opusul: metoda ascultatorie este preferată în fibrilaţia atrială, unde oscilometria este inexactă.",
+    "evidenceLocation": "Kumar, p. 1135, 1134, 1136, Măsurarea tensiunii arteriale — Determinarea la cabinet"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Practica stabilită cere cel puţin două măsurători consecutive, folosind media sau cea mai mică valoare.",
+    "evidenceLocation": "Kumar, p. 1135, 1134, 1136, Măsurarea tensiunii arteriale — Determinarea la cabinet"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-13T14:03:48.731Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Testează patru reguli tehnice concrete și inversează o excepție importantă (FA) unde metoda modernă, altfel preferată, devine inadecvată."
+  },
+  "textbookExpressions": [
+   "braţul cu TA mai mare",
+   "efect de halat alb"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Kumar & Clark (tmp/source-books). Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-004",
+  "questionFingerprint": "59de2d1d37f74d0ddc7f3e8fd720bcc16be14d2f732a0a31fc142c7f818b8dd3",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea celor patru fenotipuri de TA pe baza combinației cabinet/în afara cabinetului și clasificarea metodelor de măsurare după puterea predictivă.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1136
+   ],
+   "pdfPages": [
+    281
+   ],
+   "section": "Tipuri de hipertensiune arterială; Determinarea TA în ambulator"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Acesta este profilul hipertensiunii de halat alb, descris cu risc intermediar.",
+    "evidenceLocation": "Kumar, p. 1136, Tipuri de hipertensiune arterială; Determinarea TA în ambulator"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Acesta este profilul hipertensiunii mascate, descris cu risc intermediar.",
+    "evidenceLocation": "Kumar, p. 1136, Tipuri de hipertensiune arterială; Determinarea TA în ambulator"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Textul indică opusul: medicaţia nu este recomandată în halatul alb, din lipsă de dovezi clinice.",
+    "evidenceLocation": "Kumar, p. 1136, Tipuri de hipertensiune arterială; Determinarea TA în ambulator"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Media pe 24 de ore este descrisă ca mai predictivă decât cabinetul sau domiciliul.",
+    "evidenceLocation": "Kumar, p. 1136, Tipuri de hipertensiune arterială; Determinarea TA în ambulator"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "TA de domiciliu tinde să fie mai mică, nu mai mare, decât cea de cabinet.",
+    "evidenceLocation": "Kumar, p. 1136, Tipuri de hipertensiune arterială; Determinarea TA în ambulator"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-13T14:03:48.731Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Cere recunoașterea simultană a două fenotipuri cu tablou opus și a unei reguli terapeutice contraintuitive (halatul alb nu se tratează, în ciuda riscului)."
+  },
+  "textbookExpressions": [
+   "profile de risc cardiovascular",
+   "mai predictiv"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Kumar & Clark (tmp/source-books). Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-005",
+  "questionFingerprint": "b41350c2743ca029d14d5f81fddfecc0459ddf4a46453e9b4986597f76fc9ec5",
+  "status": "source-checked",
+  "learningObjective": "Înțelegerea mecanismului hemodinamic al hipertensiunii sistolice izolate și a limitei de siguranță pentru TA diastolică în tratamentul ei.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1136
+   ],
+   "pdfPages": [
+    281
+   ],
+   "section": "Tipuri de hipertensiune arterială — Hipertensiunea sistolică izolată"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Rigidizarea arterelor mari creşte TA sistolică şi reduce corespunzător TA diastolică.",
+    "evidenceLocation": "Kumar, p. 1136, Tipuri de hipertensiune arterială — Hipertensiunea sistolică izolată"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Creşterea presiunii pulsului dincolo de valoarea uzuală sub 50 mmHg este asociată cu injurie vasculară.",
+    "evidenceLocation": "Kumar, p. 1136, Tipuri de hipertensiune arterială — Hipertensiunea sistolică izolată"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Textul precizează că tratamentul este acelaşi ca cel pentru hipertensiunea mixtă.",
+    "evidenceLocation": "Kumar, p. 1136, Tipuri de hipertensiune arterială — Hipertensiunea sistolică izolată"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Reducerea sub acest prag poate afecta fluxul sanguin coronarian, dependent de presiunea diastolică.",
+    "evidenceLocation": "Kumar, p. 1136, Tipuri de hipertensiune arterială — Hipertensiunea sistolică izolată"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Insuficienţa aortică poate provoca, de asemenea, un fenotip sistolic izolat.",
+    "evidenceLocation": "Kumar, p. 1136, Tipuri de hipertensiune arterială — Hipertensiunea sistolică izolată"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-13T14:03:48.731Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează o regulă terapeutică (tratament diferit) și o excludere falsă a unei cauze valvulare alternative recunoscute de text."
+  },
+  "textbookExpressions": [
+   "injurie vasculară crescută",
+   "fluxul sanguin coronarian"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Kumar & Clark (tmp/source-books). Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-006",
+  "questionFingerprint": "b61d1903dc9c89cdeb5a58b1d673c4ea4cfde7dc1c733c33a6f0b943ee3d41f1",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea exactă a criteriilor de prag și de temporizare pentru diagnosticul hipotensiunii ortostatice.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1137
+   ],
+   "pdfPages": [
+    282
+   ],
+   "section": "Măsurarea tensiunii arteriale — Hipotensiunea ortostatică"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Acesta este pragul sistolic exact, la intervalul de timp specificat de 3 minute.",
+    "evidenceLocation": "Kumar, p. 1137, Măsurarea tensiunii arteriale — Hipotensiunea ortostatică"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Acesta este pragul diastolic exact, la același interval de 3 minute.",
+    "evidenceLocation": "Kumar, p. 1137, Măsurarea tensiunii arteriale — Hipotensiunea ortostatică"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Intervalul standardizat de 3 minute este parte a definiției, nu doar pragul numeric.",
+    "evidenceLocation": "Kumar, p. 1137, Măsurarea tensiunii arteriale — Hipotensiunea ortostatică"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Textul nu menționează un criteriu de frecvență cardiacă pentru acest diagnostic.",
+    "evidenceLocation": "Kumar, p. 1137, Măsurarea tensiunii arteriale — Hipotensiunea ortostatică"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Textul precizează că este de obicei asimptomatică.",
+    "evidenceLocation": "Kumar, p. 1137, Măsurarea tensiunii arteriale — Hipotensiunea ortostatică"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-13T14:03:48.731Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Necesită reținerea simultană a două praguri numerice și a intervalului de timp standardizat, fără de care pragurile singure sunt insuficiente."
+  },
+  "textbookExpressions": [
+   "3 minute",
+   "este asimptomatică"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Kumar & Clark (tmp/source-books). Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-007",
+  "questionFingerprint": "aa52726e7d354a94134e4a3a9e54b9fa12e2de22cfff4a165ba10f32eede8738",
+  "status": "source-checked",
+  "learningObjective": "Cuantificarea contribuției poligenice, de mediu și a factorilor de stil de viață la nivelul TA, și recunoașterea semnalelor de alarmă familiale.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1137
+   ],
+   "pdfPages": [
+    282
+   ],
+   "section": "Etiologia hipertensiunii arteriale"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Hipertensiunea primară este descrisă la până la 90% dintre pacienţi.",
+    "evidenceLocation": "Kumar, p. 1137, Etiologia hipertensiunii arteriale"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Terminologia „esenţială” este cea clasică; termenul actual preferat este „primară”.",
+    "evidenceLocation": "Kumar, p. 1137, Etiologia hipertensiunii arteriale"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Fiecare genă contribuie individual redus, dar combinat pot determina 60% din nivelul TA.",
+    "evidenceLocation": "Kumar, p. 1137, Etiologia hipertensiunii arteriale"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Textul indică opusul: un asemenea istoric ar trebui să determine o evaluare completă pentru cauze secundare.",
+    "evidenceLocation": "Kumar, p. 1137, Etiologia hipertensiunii arteriale"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Elementele de mediu şi stilul de viaţă sunt descrise ca mediind până la 40% din variabilitatea TA.",
+    "evidenceLocation": "Kumar, p. 1137, Etiologia hipertensiunii arteriale"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-13T14:03:48.731Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Reunește patru fapte cantitative și terminologice distincte, cu un singur distractor care inversează o regulă de alarmă clinică importantă."
+  },
+  "textbookExpressions": [
+   "preferată terminologiei clasice",
+   "0,5-1 mmHg"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Kumar & Clark (tmp/source-books). Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-008",
+  "questionFingerprint": "46dc52cc36f9f4ad984014a7518e2d6a85ed61256367e6dbc560b48b68c7a68b",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea frecvenței relative și a tabloului clinic caracteristic al principalelor cauze secundare de hipertensiune.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1138,
+    1139
+   ],
+   "pdfPages": [
+    283,
+    284
+   ],
+   "section": "Hipertensiunea arterială secundară"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cauzele secundare sunt prezente la 10% dintre pacienţi, proporţie mai mare sub 30 de ani.",
+    "evidenceLocation": "Kumar, p. 1138, 1139, Hipertensiunea arterială secundară"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Aceste trei cauze sunt considerate cele mai frecvente cauze de hipertensiune secundară.",
+    "evidenceLocation": "Kumar, p. 1138, 1139, Hipertensiunea arterială secundară"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Acesta este tabloul clinic clasic al feocromocitomului.",
+    "evidenceLocation": "Kumar, p. 1138, 1139, Hipertensiunea arterială secundară"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Textul indică opusul: potasiu scăzut şi raport aldosteron/renină crescut.",
+    "evidenceLocation": "Kumar, p. 1138, 1139, Hipertensiunea arterială secundară"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Textul precizează explicit că sarcina nu este de obicei considerată o cauză secundară.",
+    "evidenceLocation": "Kumar, p. 1138, 1139, Hipertensiunea arterială secundară"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-13T14:03:48.731Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează un raport biochimic caracteristic (K/aldosteron-renină) și extinde greșit o excepție explicită (sarcina) la statutul unei cauze secundare clasice."
+  },
+  "textbookExpressions": [
+   "hiperaldosteronismul primar",
+   "apneea obstructivă de somn"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Kumar & Clark (tmp/source-books). Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-009",
+  "questionFingerprint": "1bf2d24c2d4794f28ba5ee834cc5f20950368d0ec1aa9aaae877c077237c77fd",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea celor trei clase de retinopatie hipertensivă și a severității asocierii lor cu evenimentele cardiovasculare.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1140
+   ],
+   "pdfPages": [
+    285
+   ],
+   "section": "Leziunile organelor țintă induse de hipertensiune — Ochii"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Aceste semne definesc forma uşoară, cu asociere modestă.",
+    "evidenceLocation": "Kumar, p. 1140, Leziunile organelor țintă induse de hipertensiune — Ochii"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Aceste semne definesc forma moderată, cu asociere puternică.",
+    "evidenceLocation": "Kumar, p. 1140, Leziunile organelor țintă induse de hipertensiune — Ochii"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Forma severă adaugă edemul papilar la semnele formei moderate, cu cea mai puternică asociere.",
+    "evidenceLocation": "Kumar, p. 1140, Leziunile organelor țintă induse de hipertensiune — Ochii"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "O evaluare mai recentă a redus clasificarea de la patru la trei clase.",
+    "evidenceLocation": "Kumar, p. 1140, Leziunile organelor țintă induse de hipertensiune — Ochii"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Edemul papilar este semnul distinctiv al formei severe, nu al celei uşoare.",
+    "evidenceLocation": "Kumar, p. 1140, Leziunile organelor țintă induse de hipertensiune — Ochii"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-13T14:03:48.731Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Cere ordonarea corectă a semnelor pe trei trepte de severitate și cunoașterea revizuirii recente a clasificării originale în patru clase."
+  },
+  "textbookExpressions": [
+   "asociere puternică",
+   "edem papilar"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Kumar & Clark (tmp/source-books). Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-010",
+  "questionFingerprint": "2c36f5c7a78b0bca5dc96f28540970bae97635873a0e18d40f3b2bbbd8da611e",
+  "status": "source-checked",
+  "learningObjective": "Compararea sensibilității și specificității ECG față de imagistica cardiacă, și interpretarea corectă a scăderii tranzitorii a RFG la inițierea tratamentului.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1140
+   ],
+   "pdfPages": [
+    285
+   ],
+   "section": "Leziunile organelor țintă induse de hipertensiune — Cordul; Rinichii"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Aceasta este performanța diagnostică descrisă pentru criteriile ECG de hipertrofie ventriculară stângă.",
+    "evidenceLocation": "Kumar, p. 1140, Leziunile organelor țintă induse de hipertensiune — Cordul; Rinichii"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Imagistica cardiacă este descrisă ca mai sensibilă şi specifică decât ECG.",
+    "evidenceLocation": "Kumar, p. 1140, Leziunile organelor țintă induse de hipertensiune — Cordul; Rinichii"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Textul indică opusul: această reducere reflectă de obicei modificări hemodinamice intra-renale, nu o leziune intrinsecă, şi este de regulă permisă.",
+    "evidenceLocation": "Kumar, p. 1140, Leziunile organelor țintă induse de hipertensiune — Cordul; Rinichii"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "ECG este recomandat la toţi pacienţii hipertensivi, fiind ieftin şi disponibil pe scară largă.",
+    "evidenceLocation": "Kumar, p. 1140, Leziunile organelor țintă induse de hipertensiune — Cordul; Rinichii"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Textul indică opusul: ecocardiografia şi RMN cardiac sunt mai sensibile şi specifice decât ECG, nu mai puţin.",
+    "evidenceLocation": "Kumar, p. 1140, Leziunile organelor țintă induse de hipertensiune — Cordul; Rinichii"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-13T14:03:48.731Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează interpretarea unui semn de rutină (scăderea RFG) dintr-un fenomen hemodinamic tolerat într-o falsă alarmă de leziune renală progresivă."
+  },
+  "textbookExpressions": [
+   "toate au o sensibilitate",
+   "hemodinamice intra-renale"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Kumar & Clark (tmp/source-books). Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-011",
+  "questionFingerprint": "b33580fb1ef3327ce7ced5f4b369447c57afd3016b8a60262d3924b6d846a77a",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea reducerii TA obținute prin monoterapie față de tripla terapie la doză redusă, și cuantificarea beneficiilor cardiovasculare ale reducerii de 10/5 mmHg.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1140
+   ],
+   "pdfPages": [
+    285
+   ],
+   "section": "Tratament — Beneficiile reducerii tensiunii arteriale"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Reducerea de 10/5 mmHg este asociată cu o reducere de 15% a mortalităţii de toate cauzele.",
+    "evidenceLocation": "Kumar, p. 1140, Tratament — Beneficiile reducerii tensiunii arteriale"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Aceeaşi reducere este asociată cu o reducere de 35% a AVC.",
+    "evidenceLocation": "Kumar, p. 1140, Tratament — Beneficiile reducerii tensiunii arteriale"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Valoarea de 20/11 mmHg corespunde tripla terapie la jumătate de doză, nu monoterapiei standard, care reduce cu aproximativ 9/5 mmHg.",
+    "evidenceLocation": "Kumar, p. 1140, Tratament — Beneficiile reducerii tensiunii arteriale"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Aceasta este reducerea descrisă pentru trei medicamente la jumătate din doza standard.",
+    "evidenceLocation": "Kumar, p. 1140, Tratament — Beneficiile reducerii tensiunii arteriale"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Reducerea de 10/5 mmHg este asociată cu o reducere de 40% a insuficienţei cardiace.",
+    "evidenceLocation": "Kumar, p. 1140, Tratament — Beneficiile reducerii tensiunii arteriale"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-13T14:03:48.731Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Amestecă valorile numerice ale monoterapiei cu cele ale tripla terapie la doză redusă, o confuzie facilă fără citire atentă a celor două scenarii."
+  },
+  "textbookExpressions": [
+   "reducere de 10/5 mmHg",
+   "20/11 mmHg"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Kumar & Clark (tmp/source-books). Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-012",
+  "questionFingerprint": "5d3e3cb346393b525c65400d3f68701267ac6d9ba8098e7390e4ebec83f6ec63",
+  "status": "source-checked",
+  "learningObjective": "Reținerea magnitudinii comparative a efectului fiecărei modificări a stilului de viață asupra TA, conform Cadranului 31.4.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1142
+   ],
+   "pdfPages": [
+    287
+   ],
+   "section": "Tratament — Modificarea stilului de viață"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Exerciţiile cardiovasculare regulate reduc TA, în medie, cu 5 mmHg.",
+    "evidenceLocation": "Kumar, p. 1142, Tratament — Modificarea stilului de viață"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Modificarea dietetică descrisă reduce TA, în medie, cu 10 mmHg.",
+    "evidenceLocation": "Kumar, p. 1142, Tratament — Modificarea stilului de viață"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Reducerea sării sub 6 g/zi reduce TA, în medie, cu 5 mmHg.",
+    "evidenceLocation": "Kumar, p. 1142, Tratament — Modificarea stilului de viață"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Valoarea corectă este de 1 mmHg pentru fiecare kilogram pierdut, nu 10 mmHg.",
+    "evidenceLocation": "Kumar, p. 1142, Tratament — Modificarea stilului de viață"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Valoarea corectă pentru reducerea alcoolului sub 2 unităţi/zi este de 3 mmHg, nu 10 mmHg.",
+    "evidenceLocation": "Kumar, p. 1142, Tratament — Modificarea stilului de viață"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-13T14:03:48.731Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Doi distractori exagerează de zece ori valorile reale ale scăderii ponderale și ale reducerii alcoolului, sub aparența unor cifre plauzibile."
+  },
+  "textbookExpressions": [
+   "Exerciţii cardiovasculare regulate",
+   "1 mmHg/kg"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Kumar & Clark (tmp/source-books). Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-013",
+  "questionFingerprint": "654e73c960166a4f7cdf0debcf24dc2512ac5f4d102d8edba045302a14256228",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea algoritmului bazat pe vârstă și etnie ca surogat pentru activitatea reninei, și identificarea medicamentului de linia a patra susținut de dovezi.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1142
+   ],
+   "pdfPages": [
+    287
+   ],
+   "section": "Tratament — Tratamentul medicamentos; Studiul PATHWAY-2"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Nivelul scăzut al reninei explică răspunsul redus la IECA/ARA şi preferinţa pentru blocante de calciu în aceste grupuri.",
+    "evidenceLocation": "Kumar, p. 1142, Tratament — Tratamentul medicamentos; Studiul PATHWAY-2"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Aceasta este recomandarea explicită pentru pacienţii albi mai tineri.",
+    "evidenceLocation": "Kumar, p. 1142, Tratament — Tratamentul medicamentos; Studiul PATHWAY-2"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Textul indică opusul: ARA sunt mai bine tolerate decât IECA.",
+    "evidenceLocation": "Kumar, p. 1142, Tratament — Tratamentul medicamentos; Studiul PATHWAY-2"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "PATHWAY-2 arată opusul: spironolactona este preferată beta- sau alfa-blocantelor ca linia a patra.",
+    "evidenceLocation": "Kumar, p. 1142, Tratament — Tratamentul medicamentos; Studiul PATHWAY-2"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Pentru pacienţii albi mai tineri, prima linie recomandată este IECA sau ARA, nu blocantele de calciu.",
+    "evidenceLocation": "Kumar, p. 1142, Tratament — Tratamentul medicamentos; Studiul PATHWAY-2"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-13T14:03:48.731Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Inversează atât raportul de tolerabilitate IECA/ARA, cât și concluzia centrală a studiului PATHWAY-2 citat explicit în text."
+  },
+  "textbookExpressions": [
+   "mai bine tolerate",
+   "PATHWAY-2"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Kumar & Clark (tmp/source-books). Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-014",
+  "questionFingerprint": "41590cf8eb65ee6a4a35ff580bdc4c21d783f00dd602ed024c274572e55eeb05",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea conduitei preoperatorii pentru chirurgia electivă față de cea de urgență și recunoașterea efectului simpatic al inducției anestezice.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1143,
+    1144
+   ],
+   "pdfPages": [
+    288,
+    289
+   ],
+   "section": "Abordarea hipertensiunii arteriale în spital — Perioada perioperatorie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Hipertensiunea necontrolată este descrisă explicit ca motiv comun de anulare a chirurgiei elective.",
+    "evidenceLocation": "Kumar, p. 1143, 1144, Abordarea hipertensiunii arteriale în spital — Perioada perioperatorie"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Textul precizează explicit absența unor dovezi clare de beneficiu al reducerii bruşte preoperatorii.",
+    "evidenceLocation": "Kumar, p. 1143, 1144, Abordarea hipertensiunii arteriale în spital — Perioada perioperatorie"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Textul indică opusul: nu este un motiv pentru a întârzia o intervenţie de urgenţă.",
+    "evidenceLocation": "Kumar, p. 1143, 1144, Abordarea hipertensiunii arteriale în spital — Perioada perioperatorie"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Continuarea medicaţiei antihipertensive este de obicei necesară, cu excepţii precizate (ex. leziune renală acută).",
+    "evidenceLocation": "Kumar, p. 1143, 1144, Abordarea hipertensiunii arteriale în spital — Perioada perioperatorie"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Inducţia determină, de regulă, o creştere a TA cu 30 mmHg sau mai mult, nu o scădere.",
+    "evidenceLocation": "Kumar, p. 1143, 1144, Abordarea hipertensiunii arteriale în spital — Perioada perioperatorie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-13T14:03:48.731Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distinge conduita electivă de cea de urgență, o distincție pe care mulți ar simplifica-o greșit ca fiind identică."
+  },
+  "textbookExpressions": [
+   "motiv comun",
+   "cu 30 mmHg"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Kumar & Clark (tmp/source-books). Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-015",
+  "questionFingerprint": "d918ce76e895e3a86b0164290aaeddcd1190d6c14ee496bed7f5b1f387ee9c42",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea țintelor terapeutice specifice fiecărei urgențe hipertensive și recunoașterea situațiilor în care medicamentele cu durată scurtă de acțiune nu sunt indicate.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1145,
+    1144
+   ],
+   "pdfPages": [
+    290,
+    289
+   ],
+   "section": "Abordarea hipertensiunii arteriale în spital — Urgențele hipertensive"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Acestea sunt ținta de TAS şi de frecvenţă cardiacă specificate pentru disecţia acută de aortă.",
+    "evidenceLocation": "Kumar, p. 1145, 1144, Abordarea hipertensiunii arteriale în spital — Urgențele hipertensive"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Aceasta este ţinta specificată pentru edemul pulmonar acut.",
+    "evidenceLocation": "Kumar, p. 1145, 1144, Abordarea hipertensiunii arteriale în spital — Urgențele hipertensive"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Hipertensiunea malignă necesită o reducere graduală de 25% a TAM, nu o normalizare bruscă.",
+    "evidenceLocation": "Kumar, p. 1145, 1144, Abordarea hipertensiunii arteriale în spital — Urgențele hipertensive"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Acestea sunt ţintele specificate pentru pre-eclampsie.",
+    "evidenceLocation": "Kumar, p. 1145, 1144, Abordarea hipertensiunii arteriale în spital — Urgențele hipertensive"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Textul precizează opusul: aceste medicamente cu durată scurtă de acţiune nu îşi găsesc justificare pentru hipertensiunea necomplicată la pacienţii internaţi.",
+    "evidenceLocation": "Kumar, p. 1145, 1144, Abordarea hipertensiunii arteriale în spital — Urgențele hipertensive"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-13T14:03:48.731Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Reunește patru ținte terapeutice numerice distincte, specifice fiecărui sindrom, și inversează o regulă generală despre medicamentele cu durată scurtă de acțiune."
+  },
+  "textbookExpressions": [
+   "urgenţe hipertensive",
+   "nu îşi găsesc justificare"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Kumar & Clark (tmp/source-books). Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-016",
+  "questionFingerprint": "26357e8625ec2b281a7bbe09a0c8be748dc23abf2fda5f8d8c164a7106236f09",
+  "status": "source-checked",
+  "learningObjective": "Actualizarea poziției privind aspirina în prevenția primară, pe baza studiilor contemporane citate.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1142
+   ],
+   "pdfPages": [
+    287
+   ],
+   "section": "Tratament — Reducerea riscului cardiovascular total"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Textul precizează explicit că aspirina nu mai este recomandată la niciun grup, întrucât beneficiul este anulat de riscul hemoragic.",
+    "evidenceLocation": "Kumar, p. 1142, Tratament — Reducerea riscului cardiovascular total"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Pragul de 1%/an este folosit pentru statine, nu pentru recomandarea aspirinei.",
+    "evidenceLocation": "Kumar, p. 1142, Tratament — Reducerea riscului cardiovascular total"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Textul precizează că beneficiul nu s-a demonstrat nici la pacienţii diabetici.",
+    "evidenceLocation": "Kumar, p. 1142, Tratament — Reducerea riscului cardiovascular total"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Aspirina nu este descrisă ca parte de rutină a inițierii tratamentului antihipertensiv.",
+    "evidenceLocation": "Kumar, p. 1142, Tratament — Reducerea riscului cardiovascular total"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu există o asemenea recomandare specifică în text.",
+    "evidenceLocation": "Kumar, p. 1142, Tratament — Reducerea riscului cardiovascular total"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-13T14:03:48.731Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii reciclează praguri și grupuri populaționale reale din alte recomandări (statine, diabet) pentru a construi o afirmație plauzibilă dar nesusținută pentru aspirină."
+  },
+  "textbookExpressions": [
+   "nu mai este recomandată",
+   "beneficiile rezultate"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Kumar & Clark (tmp/source-books). Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-017",
+  "questionFingerprint": "a9ee2dde7fa12887d8168b41bb07e1446faf4f481aa29b3ba2877cc59d67a58e",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea definiției operaționale a hipertensiunii arteriale rezistente, distinctă de simpla lipsă de control sub monoterapie sau netratată.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1137
+   ],
+   "pdfPages": [
+    282
+   ],
+   "section": "Etiologia hipertensiunii arteriale — Hipertensiunea rezistentă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Aceasta este definiția explicită din text pentru hipertensiunea arterială rezistentă.",
+    "evidenceLocation": "Kumar, p. 1137, Etiologia hipertensiunii arteriale — Hipertensiunea rezistentă"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Lipsa de control sub un singur medicament nu corespunde definiției de rezistență.",
+    "evidenceLocation": "Kumar, p. 1137, Etiologia hipertensiunii arteriale — Hipertensiunea rezistentă"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Controlul prin stilul de viață singur nu implică rezistență la tratamentul medicamentos.",
+    "evidenceLocation": "Kumar, p. 1137, Etiologia hipertensiunii arteriale — Hipertensiunea rezistentă"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Acest tablou descrie hipertensiunea de halat alb, nu rezistența la tratament.",
+    "evidenceLocation": "Kumar, p. 1137, Etiologia hipertensiunii arteriale — Hipertensiunea rezistentă"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Absența oricărui tratament nu corespunde definiției de hipertensiune rezistentă.",
+    "evidenceLocation": "Kumar, p. 1137, Etiologia hipertensiunii arteriale — Hipertensiunea rezistentă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-13T14:03:48.731Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii propun tablouri clinice reale din alte secțiuni ale capitolului (halat alb, netratat) drept variante ale definiției de rezistență, ușor de confundat fără citire precisă."
+  },
+  "textbookExpressions": [
+   "hipertensiune arterială rezistentă",
+   "trei antihipertensive din clase diferite"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Kumar & Clark (tmp/source-books). Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-020",
+  "questionFingerprint": "051e8fe0ebc818ecf6b533447ca2fac7867ec4d4f8829e0540d64ae52264957d",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea pragurilor distincte sub/peste 80 de ani, a țintelor NICE 140/90 versus 150/90 și a validării măsurătorii de cabinet.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1135
+   ],
+   "pdfPages": [
+    280
+   ],
+   "section": "Figura 31.2 — Valori prag și ținte"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Perechea 140/90 cabinet și 135/85 extra-cabinet este a adulților sub 80 de ani.",
+    "evidenceLocation": "Kumar, p. 1135, Figura 31.2 — Valori prag și ținte"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "160/90 cabinet și 150/85 extra-cabinet sunt ale celor peste 80 de ani.",
+    "evidenceLocation": "Kumar, p. 1135, Figura 31.2 — Valori prag și ținte"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Țintele UK 140/90 și 150/90 completează figura.",
+    "evidenceLocation": "Kumar, p. 1135, Figura 31.2 — Valori prag și ținte"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Validarea cabinetului pentru trialuri este din același paragraf de măsurare.",
+    "evidenceLocation": "Kumar, p. 1135, Figura 31.2 — Valori prag și ținte"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Pragurile diferă după vârstă; 180/110 nu este pragul de diagnostic din figură.",
+    "evidenceLocation": "Kumar, p. 1135, Figura 31.2 — Valori prag și ținte"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul unifică pragurile celor două vârste la 180/110, anulând distincția centrală a figurii."
+  },
+  "textbookExpressions": [
+   ">140 sau >90",
+   ">160 sau >90"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Kumar & Clark (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-021",
+  "questionFingerprint": "270c561404a6990a6bb3b022b571212659b646b9f9c5977065f85e4a8b892cf0",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea țintei internaționale <130/80 (dacă e tolerată) de țintele NICE diferențiate după 80 de ani.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1135
+   ],
+   "pdfPages": [
+    280
+   ],
+   "section": "Figura 31.2 — Ținte UK versus internaționale"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "<130/80 la toți, dacă e tolerată, este trendul internațional din figură.",
+    "evidenceLocation": "Kumar, p. 1135, Figura 31.2 — Ținte UK versus internaționale"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Cele două ținte UK pe vârstă sunt alăturate.",
+    "evidenceLocation": "Kumar, p. 1135, Figura 31.2 — Ținte UK versus internaționale"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "NICE păstrează 140/90 și 150/90, nu 120/70.",
+    "evidenceLocation": "Kumar, p. 1135, Figura 31.2 — Ținte UK versus internaționale"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "160/90 este prag de diagnostic peste 80 de ani, nu țintă.",
+    "evidenceLocation": "Kumar, p. 1135, Figura 31.2 — Ținte UK versus internaționale"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "180/110 nu figurează ca țintă.",
+    "evidenceLocation": "Kumar, p. 1135, Figura 31.2 — Ținte UK versus internaționale"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii confundă pragul de diagnostic 160/90 cu ținta și atribuie NICE o țintă 120/70 pe care figura o rezervă trendului intern <130/80."
+  },
+  "textbookExpressions": [
+   "<130/80",
+   "<150/90"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Kumar & Clark (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-022",
+  "questionFingerprint": "3f7a49ec2eea99b3d70d0d10bc357fd13c0b563c273a200b4ed81da8e96a15a7",
+  "status": "source-checked",
+  "learningObjective": "Separarea diagnosticului 140/90 de rezerva farmacologică a gradului 2 și de fereastra 3-12 luni a gradului 1.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1138
+   ],
+   "pdfPages": [
+    283
+   ],
+   "section": "Valori de referință și ținte — Prag și grade"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "140 sau 90, oricare prima, este pragul din 1990.",
+    "evidenceLocation": "Kumar, p. 1138, Valori de referință și ținte — Prag și grade"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Rezervarea tratamentului pentru gradul 2 este explicită.",
+    "evidenceLocation": "Kumar, p. 1138, Valori de referință și ținte — Prag și grade"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Riscul >1%/an, leziunile țintă și 3-12 luni sunt conduita gradului 1.",
+    "evidenceLocation": "Kumar, p. 1138, Valori de referință și ținte — Prag și grade"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Textul rezervă imediatul farmacologic gradului 2 și grupurilor cu risc/leziuni.",
+    "evidenceLocation": "Kumar, p. 1138, Valori de referință și ținte — Prag și grade"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "140/90 este tocmai pragul acceptat din 1990.",
+    "evidenceLocation": "Kumar, p. 1138, Valori de referință și ținte — Prag și grade"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează gradul 1 versus 2 și mută pragul de diagnostic de la 140/90 la 180/110."
+  },
+  "textbookExpressions": [
+   "140 mmHg",
+   "3-12 luni"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Kumar & Clark (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-023",
+  "questionFingerprint": "1a3b6da96ad229bbd6fb02e2976da768a2de210364b611f285dc1754e2c8cea7",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea decalajului: evidența SPRINT pentru <130/80 adoptată internațional, încă nepreluată de NICE.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1138
+   ],
+   "pdfPages": [
+    283
+   ],
+   "section": "SPRINT versus NICE"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Contrastul internațional versus NICE este fraza din paragraf.",
+    "evidenceLocation": "Kumar, p. 1138, SPRINT versus NICE"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Relația este inversată: internaționalele au preluat, NICE încă nu.",
+    "evidenceLocation": "Kumar, p. 1138, SPRINT versus NICE"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "SPRINT susține <130/80, nu 150/90 la tineri.",
+    "evidenceLocation": "Kumar, p. 1138, SPRINT versus NICE"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Majoritatea ghidurilor internaționale reflectă <130/80.",
+    "evidenceLocation": "Kumar, p. 1138, SPRINT versus NICE"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "180/110 nu este ținta niciuneia.",
+    "evidenceLocation": "Kumar, p. 1138, SPRINT versus NICE"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează cine a adoptat <130/80 (internaționale versus NICE) după SPRINT."
+  },
+  "textbookExpressions": [
+   "SPRINT",
+   "130/80 mmHg"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Kumar & Clark (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-024",
+  "questionFingerprint": "d1d93e7af245800b4e901b90638e644deb303a0c3d9c3421e15828fdee117415",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea țintei NICE 150/90 la octogenari de tendința ESC/ESH <130/80 la vâstnicul fit, fără a substitui vârsta fragilității.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1138
+   ],
+   "pdfPages": [
+    283
+   ],
+   "section": "Hipertensiunea la peste 80 de ani"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Limitarea la gradul 2 este prima frază.",
+    "evidenceLocation": "Kumar, p. 1138, Hipertensiunea la peste 80 de ani"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "150/90 NICE este ținta laxă citată.",
+    "evidenceLocation": "Kumar, p. 1138, Hipertensiunea la peste 80 de ani"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "ESC/ESH <130/80 dacă e tolerată și avertismentul despre fragilitate încheie paragraful.",
+    "evidenceLocation": "Kumar, p. 1138, Hipertensiunea la peste 80 de ani"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Fragilitatea și riscul de căderi cer prudență, nu 110/60 de rutină.",
+    "evidenceLocation": "Kumar, p. 1138, Hipertensiunea la peste 80 de ani"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Sensurile NICE versus ESC sunt inversate.",
+    "evidenceLocation": "Kumar, p. 1138, Hipertensiunea la peste 80 de ani"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează NICE 150/90 și ESC 130/80 și impun 110/60 fragilului, contrar avertismentului despre căderi."
+  },
+  "textbookExpressions": [
+   "150/90 mmHg",
+   "peste 80 de ani"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Kumar & Clark (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-025",
+  "questionFingerprint": "5d5439ec27b7dcb74dbae4f26fef8f8a60d417eb474357cabf9d0ee1f01d1896",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea listei (alcool, OCP, AINS, steroizi, calcineurină, VEGF, venlafaxină), distinct de antihipertensivele și hipolipemiantele din același capitol.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1138
+   ],
+   "pdfPages": [
+    283
+   ],
+   "section": "Medicamente și droguri care cresc TA"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Alcoolul, stimulentele, OCP și AINS deschid lista.",
+    "evidenceLocation": "Kumar, p. 1138, Medicamente și droguri care cresc TA"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Corticosteroizii, calcineurina, VEGF și venlafaxina o închid.",
+    "evidenceLocation": "Kumar, p. 1138, Medicamente și droguri care cresc TA"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Statinele țin de riscul CV, nu de creșterea TA.",
+    "evidenceLocation": "Kumar, p. 1138, Medicamente și droguri care cresc TA"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "IECA/ARA scad TA.",
+    "evidenceLocation": "Kumar, p. 1138, Medicamente și droguri care cresc TA"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Amlodipina este antihipertensiv (edem, nu HTA de novo).",
+    "evidenceLocation": "Kumar, p. 1138, Medicamente și droguri care cresc TA"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii plasează IECA, amlodipina și statinele pe lista de substanțe care cresc TA."
+  },
+  "textbookExpressions": [
+   "venlafaxină",
+   "inhibitorii de calcineurină"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Kumar & Clark (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-026",
+  "questionFingerprint": "3f2c1cd7f160773cbe967faa59d1696e1a40b2f5b3f5beb1d42f70c255b2a25c",
+  "status": "source-checked",
+  "learningObjective": "Reținerea ferestrei diastolice 115-129 mmHg ca hipertensiune severă după standarde moderne, totuși prima demonstrație de beneficiu.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1138
+   ],
+   "pdfPages": [
+    283
+   ],
+   "section": "Veterans Administration Cooperation"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "115-129 mmHg diastolic, activ versus placebo și calificarea de severă modernă sunt din paragraf.",
+    "evidenceLocation": "Kumar, p. 1138, Veterans Administration Cooperation"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "120/70 nu a fost populația Veterans.",
+    "evidenceLocation": "Kumar, p. 1138, Veterans Administration Cooperation"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Studiul nu este un trial NICE la octogenari.",
+    "evidenceLocation": "Kumar, p. 1138, Veterans Administration Cooperation"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu este un studiu de halat alb.",
+    "evidenceLocation": "Kumar, p. 1138, Veterans Administration Cooperation"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "70-80 mmHg diastolic nu este pragul Veterans.",
+    "evidenceLocation": "Kumar, p. 1138, Veterans Administration Cooperation"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii mută populația Veterans de la 115-129 mmHg diastolic la praguri moderne de diagnostic sau de urgență."
+  },
+  "textbookExpressions": [
+   "115-129 mmHg",
+   "Veterans Administration"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Kumar & Clark (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-027",
+  "questionFingerprint": "4b984f69746438b5c209b3d3b94d2826ee5757156a3d52686df266bae4eb9293",
+  "status": "source-checked",
+  "learningObjective": "Reținerea ratei de control sub 50% ca problemă persistentă de sănătate publică.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1134
+   ],
+   "pdfPages": [
+    279
+   ],
+   "section": "Introducere — Controlul tensional"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Sub 50% este cifra din paragraf.",
+    "evidenceLocation": "Kumar, p. 1134, Introducere — Controlul tensional"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Centrul preocupărilor pe trei niveluri este explicit.",
+    "evidenceLocation": "Kumar, p. 1134, Introducere — Controlul tensional"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Textul spune sub 50%, nu peste 95%.",
+    "evidenceLocation": "Kumar, p. 1134, Introducere — Controlul tensional"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Majoritatea cazurilor sunt tratate în ambulator.",
+    "evidenceLocation": "Kumar, p. 1134, Introducere — Controlul tensional"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Costurile anuale depășesc 1 miliard de lire în UK.",
+    "evidenceLocation": "Kumar, p. 1134, Introducere — Controlul tensional"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii transformă eșecul de control sub 50% într-un succes de 95% sau într-o problemă doar de urgență."
+  },
+  "textbookExpressions": [
+   "sub 50%",
+   "valorilor ţintă"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Kumar & Clark (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-028",
+  "questionFingerprint": "192026a6f81ffa202b42f46f61fc0f61e7d30b1604a02922055c0e4cf1942fa1",
+  "status": "source-checked",
+  "learningObjective": "Asocierea rarității pediatrice, a alarmei sub 30 de ani, a costului >1 miliard £ și a predominanței ambulatorii.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1134
+   ],
+   "pdfPages": [
+    279
+   ],
+   "section": "Introducere — Vârstă și costuri"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Raritatea la copii/adolescenți este enunțată.",
+    "evidenceLocation": "Kumar, p. 1134, Introducere — Vârstă și costuri"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Evaluarea secundară sub 30 de ani este cerută.",
+    "evidenceLocation": "Kumar, p. 1134, Introducere — Vârstă și costuri"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "1 miliard de lire este cifra UK.",
+    "evidenceLocation": "Kumar, p. 1134, Introducere — Vârstă și costuri"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Ambulatorul ca loc principal și specialitatea pentru secundare/fenotipuri sunt din același paragraf.",
+    "evidenceLocation": "Kumar, p. 1134, Introducere — Vârstă și costuri"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Relația vârstă–cauze secundare este inversată.",
+    "evidenceLocation": "Kumar, p. 1134, Introducere — Vârstă și costuri"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul inversează alarma de cauză secundară sub 30 de ani, în timp ce celelalte opțiuni cer vârstă, cost și locul de tratament."
+  },
+  "textbookExpressions": [
+   "sub 30 de ani",
+   "1 miliard"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Kumar & Clark (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-029",
+  "questionFingerprint": "c7eba0fe57982abff98312a97f66b410ec91e7b02d39ec0a994a5b9044522857",
+  "status": "source-checked",
+  "learningObjective": "Perecherea semnelor (diferență de puls, IRA post-IECA, triadă pheo) cu testele specifice (angio aortă/renală, metanefrine), fără a amesteca rândurile.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1139
+   ],
+   "pdfPages": [
+    284
+   ],
+   "section": "Cadranul 31.2 — Cauze secundare"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Diferența de puls/TA și angio aortei sunt ale coarctației.",
+    "evidenceLocation": "Kumar, p. 1139, Cadranul 31.2 — Cauze secundare"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "IRA post-IECA, edemul flash și angio renală sunt ale stenozei.",
+    "evidenceLocation": "Kumar, p. 1139, Cadranul 31.2 — Cauze secundare"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Clinica, metanefrinele, MIBG și alfa-blocada sunt ale feocromocitomului.",
+    "evidenceLocation": "Kumar, p. 1139, Cadranul 31.2 — Cauze secundare"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Testele sunt inversate între coarctație și pheo.",
+    "evidenceLocation": "Kumar, p. 1139, Cadranul 31.2 — Cauze secundare"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Suprarenalectomia aparține aldosteronomului, nu stenozei renale.",
+    "evidenceLocation": "Kumar, p. 1139, Cadranul 31.2 — Cauze secundare"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii permută metanefrinele, diferența de puls și suprarenalectomia între trei rânduri vecine ale aceluiași cadran."
+  },
+  "textbookExpressions": [
+   "Coarctaţie de aortă",
+   "Metanefrine plasmatice"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Kumar & Clark (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-030",
+  "questionFingerprint": "052f0a4255a59f57228d469a945f333f16b90c9af9256fc4a8303e130ab9bd64",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea protecției hormonale premenopauză de egalizarea postmenopauză și de excesul din grupurile negre/afro-caraibiene.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1134,
+    1133
+   ],
+   "pdfPages": [
+    279,
+    278
+   ],
+   "section": "Introducere — Sex, etnie, urbanizare"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Protecția hormonală și valorile mai mici până la menopauză sunt din închiderea paginii precedente.",
+    "evidenceLocation": "Kumar & Clark, p. 1134, 1133, Introducere — Sex, etnie, urbanizare"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Egalizarea postmenopauză a prevalenței și a valorilor este fraza de deschidere.",
+    "evidenceLocation": "Kumar & Clark, p. 1134, 1133, Introducere — Sex, etnie, urbanizare"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Etnia neagră/afro-caraibiană și urbanizarea/imigrația completează epidemiologia.",
+    "evidenceLocation": "Kumar & Clark, p. 1134, 1133, Introducere — Sex, etnie, urbanizare"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Relația premenopauză este inversată.",
+    "evidenceLocation": "Kumar & Clark, p. 1134, 1133, Introducere — Sex, etnie, urbanizare"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Urbanizarea se asociază cu creștere, nu cu scădere, a TA.",
+    "evidenceLocation": "Kumar & Clark, p. 1134, 1133, Introducere — Sex, etnie, urbanizare"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează protecția premenopauză și transformă urbanizarea din factor de risc în protecție."
+  },
+  "textbookExpressions": [
+   "hormonii sexuali feminini",
+   "până la menopauză"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-031",
+  "questionFingerprint": "c60c2ea1ebd191ee9890c1b6fcc43aee7f9a4fb00bbbe3b6de237fd71ce37a96",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea consecinței clinice a relației continue: praguri mai joase plus decizie ghidată de riscul CV.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1133,
+    1134
+   ],
+   "pdfPages": [
+    278,
+    279
+   ],
+   "section": "Figura 31.1 — Relația continuă TA–CV"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Tendința către valori-limită mai mici și decizia după riscul CV sunt fraza de după figură.",
+    "evidenceLocation": "Kumar & Clark, p. 1133, 1134, Figura 31.1 — Relația continuă TA–CV"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Textul păstrează praguri, dar le coboară; nu așteaptă evenimentul.",
+    "evidenceLocation": "Kumar & Clark, p. 1133, 1134, Figura 31.1 — Relația continuă TA–CV"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Riscul CV global este tocmai instrumentul de decizie.",
+    "evidenceLocation": "Kumar & Clark, p. 1133, 1134, Figura 31.1 — Relația continuă TA–CV"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Relația este continuă, nu în trepte de 220/140.",
+    "evidenceLocation": "Kumar & Clark, p. 1133, 1134, Figura 31.1 — Relația continuă TA–CV"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Valorile-limită mai mici sunt tocmai tendința descrisă, nu un abandon.",
+    "evidenceLocation": "Kumar & Clark, p. 1133, 1134, Figura 31.1 — Relația continuă TA–CV"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii transformă relația continuă din Fig. 31.1 într-un prag unic 220/140 sau într-un tratament doar post-eveniment."
+  },
+  "textbookExpressions": [
+   "Fig. 31.1",
+   "riscului cardiovascular"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-032",
+  "questionFingerprint": "2b24982c40990c3fd6c9b8e5bbd00c1b254aabc06e494269a1bfd28798ce141d",
+  "status": "source-checked",
+  "learningObjective": "Perecherea semnelor (Epworth/Mallampati, centripet, K↓, IGF-1) cu testele specifice, fără a amesteca rândurile.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1139
+   ],
+   "pdfPages": [
+    284
+   ],
+   "section": "Cadranul 31.2 — OSA, Cushing, aldosteron, acromegalie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Epworth, Mallampati, oximetria/polisomnografia și CPAP sunt ale OSA.",
+    "evidenceLocation": "Kumar & Clark, p. 1139, Cadranul 31.2 — OSA, Cushing, aldosteron, acromegalie"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Fenotipul cushingoid și testul la dexametazonă sunt ale hipercortizolismului.",
+    "evidenceLocation": "Kumar & Clark, p. 1139, Cadranul 31.2 — OSA, Cushing, aldosteron, acromegalie"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "K scăzut, ARR crescut și laparoscopia unilaterală sunt ale aldosteronomului.",
+    "evidenceLocation": "Kumar & Clark, p. 1139, Cadranul 31.2 — OSA, Cushing, aldosteron, acromegalie"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "IGF-1 și rezecția pituitară sunt ale acromegaliei.",
+    "evidenceLocation": "Kumar & Clark, p. 1139, Cadranul 31.2 — OSA, Cushing, aldosteron, acromegalie"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Testele sunt permutate între cele patru rânduri.",
+    "evidenceLocation": "Kumar & Clark, p. 1139, Cadranul 31.2 — OSA, Cushing, aldosteron, acromegalie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul permută IGF-1, Epworth și CPAP între patru rânduri vecine ale aceluiași cadran."
+  },
+  "textbookExpressions": [
+   "scor Epworth",
+   "IGF-1 seric"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-033",
+  "questionFingerprint": "831070feb8ea8ab1e3dfc87e5848fbd36c47bb46ff38a56c63f5a77a73794626",
+  "status": "source-checked",
+  "learningObjective": "Reținerea sodiului urinar pe 24 de ore și a pragului de alcool <14 unități/săptămână.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1139
+   ],
+   "pdfPages": [
+    284
+   ],
+   "section": "Cadranul 31.2 — Stil de viață"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Excreția de Na pe 24 de ore ghidează consilierea alimentară.",
+    "evidenceLocation": "Kumar & Clark, p. 1139, Cadranul 31.2 — Stil de viață"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "<14 unități/săptămână este ținta de alcool din cadran.",
+    "evidenceLocation": "Kumar & Clark, p. 1139, Cadranul 31.2 — Stil de viață"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Reducerea, nu creșterea, alcoolului scade TA.",
+    "evidenceLocation": "Kumar & Clark, p. 1139, Cadranul 31.2 — Stil de viață"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Sodiul urinar este tocmai instrumentul de monitorizare a sării.",
+    "evidenceLocation": "Kumar & Clark, p. 1139, Cadranul 31.2 — Stil de viață"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Cadranul cere implicarea pacientului în decizia terapeutică.",
+    "evidenceLocation": "Kumar & Clark, p. 1139, Cadranul 31.2 — Stil de viață"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează pragul de alcool <14 U și anulează sodiul urinar ca ghid dietetic."
+  },
+  "textbookExpressions": [
+   "<14 unităţi",
+   "Excreţia sodiului în 24h"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-034",
+  "questionFingerprint": "81c628f6ea6bfd53d444948610f040fc48564d98c601d558001d8a52d628ca70",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea ferestrelor 140-159 / 160-179 / >180 și a echivalentelor extra-cabinet, plus sistolica izolată >140/<90.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1140
+   ],
+   "pdfPages": [
+    285
+   ],
+   "section": "Cadranul 31.3 — Grade de hipertensiune"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Perechea 140-159/90-99 și 135-149/85-94 este a gradului 1.",
+    "evidenceLocation": "Kumar & Clark, p. 1140, Cadranul 31.3 — Grade de hipertensiune"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "160-179/100-109 și 150-169/95-104 sunt ale gradului 2.",
+    "evidenceLocation": "Kumar & Clark, p. 1140, Cadranul 31.3 — Grade de hipertensiune"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": ">180/>110, extra-cabinet >170/>105 și sistolica izolată >140/<90 închid tabelul.",
+    "evidenceLocation": "Kumar & Clark, p. 1140, Cadranul 31.3 — Grade de hipertensiune"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "180/110 este hipertensiunea severă, nu gradul 1; 130/80 este TA normală.",
+    "evidenceLocation": "Kumar & Clark, p. 1140, Cadranul 31.3 — Grade de hipertensiune"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Sistolica izolată are sistolică înaltă cu diastolică <90, nu invers.",
+    "evidenceLocation": "Kumar & Clark, p. 1140, Cadranul 31.3 — Grade de hipertensiune"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează gradul 1 cu hipertensiunea severă și permută sistolică versus diastolică în forma izolată."
+  },
+  "textbookExpressions": [
+   "140-159",
+   "Hipertensiune sistolică izolată"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-035",
+  "questionFingerprint": "460ff7d93caecd8790a7ff27cb84a878f17575d25f94d2ccc02e26a3e1c55191",
+  "status": "source-checked",
+  "learningObjective": "Integrarea celor două treimi non-aderente, a pragului >6 luni și a pilulei combinate ESH/ESC.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1142
+   ],
+   "pdfPages": [
+    287
+   ],
+   "section": "Aderența — Combinații și monoterapie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Corelația slabă chestionar versus plasmă/urină este explicită.",
+    "evidenceLocation": "Kumar & Clark, p. 1142, Aderența — Combinații și monoterapie"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Cifra de până la două treimi este din același paragraf.",
+    "evidenceLocation": "Kumar & Clark, p. 1142, Aderența — Combinații și monoterapie"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": ">6 luni și abandonul monoterapiei inițiale sunt argumentul de risc.",
+    "evidenceLocation": "Kumar & Clark, p. 1142, Aderența — Combinații și monoterapie"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Pilula combinată ESH/ESC închide recomandarea.",
+    "evidenceLocation": "Kumar & Clark, p. 1142, Aderența — Combinații și monoterapie"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Textul dă până la două treimi non-aderenți, nu 95% aderenți.",
+    "evidenceLocation": "Kumar & Clark, p. 1142, Aderența — Combinații și monoterapie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul transformă eșecul de aderență (două treimi) într-un succes de 95% și reînvie monoterapia."
+  },
+  "textbookExpressions": [
+   "două treimi",
+   ">6 luni"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-036",
+  "questionFingerprint": "c2572bc3695302442c7f050caeb3bfc3c4dca4e9a94854f89cf78659d6553541",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea accesului endovascular pe artera renală și a celor trei forme de energie/neurotoxină.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1143
+   ],
+   "pdfPages": [
+    288
+   ],
+   "section": "Abordări viitoare — Denervare renală"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Radiofrecvența, ultrasunetele și alcoolul pe peretele arterei renale sunt tehnica citată.",
+    "evidenceLocation": "Kumar & Clark, p. 1143, Abordări viitoare — Denervare renală"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nervii vagi cervicali nu sunt ținta; procedura nu este primă linie universală.",
+    "evidenceLocation": "Kumar & Clark, p. 1143, Abordări viitoare — Denervare renală"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Stentarea carotidiană nu este metoda descrisă.",
+    "evidenceLocation": "Kumar & Clark, p. 1143, Abordări viitoare — Denervare renală"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Accesul este endovascular renal, nu iradiere hipotalamică.",
+    "evidenceLocation": "Kumar & Clark, p. 1143, Abordări viitoare — Denervare renală"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Spironolactona rămâne medicament oral de linia a patra, nu injectat arterial.",
+    "evidenceLocation": "Kumar & Clark, p. 1143, Abordări viitoare — Denervare renală"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii mută denervarea de pe artera renală pe vag, carotidă sau hipotalamus."
+  },
+  "textbookExpressions": [
+   "Denervarea simpatică renală",
+   "radio-frecvenţă"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-037",
+  "questionFingerprint": "ae191e77fb331a41cf86c351ab39e42654e03f4ca59d2a700b09f53149ea1ea2",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea profilelor tiazid (gută, uricemie) versus economisitor (RFGe <30, K >5,0), cu dozele indapamidă/spironolactonă.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1143
+   ],
+   "pdfPages": [
+    288
+   ],
+   "section": "Cadranul 31.6 — Diuretice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Lista de efecte și guta ca CI absolută sunt ale tiazid-like.",
+    "evidenceLocation": "Kumar & Clark, p. 1143, Cadranul 31.6 — Diuretice"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "RFGe <30 și K >5,0 sunt CI ale economisitoarelor; doza 25-50 mg este exemplul.",
+    "evidenceLocation": "Kumar & Clark, p. 1143, Cadranul 31.6 — Diuretice"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Guta contraindică tiazidul; hiperaldosteronismul este indicație specială a spironolactonei.",
+    "evidenceLocation": "Kumar & Clark, p. 1143, Cadranul 31.6 — Diuretice"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "120-480 mg este doza de verapamil, nu de indapamidă.",
+    "evidenceLocation": "Kumar & Clark, p. 1143, Cadranul 31.6 — Diuretice"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Hipertensiunea rezistentă este indicație specială; RFGe <30 este contraindicație.",
+    "evidenceLocation": "Kumar & Clark, p. 1143, Cadranul 31.6 — Diuretice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează guta și hiperaldosteronismul ca indicație versus contraindicație și mută doza de verapamil pe indapamidă."
+  },
+  "textbookExpressions": [
+   "Gută",
+   "K >5,0 mmol/L"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-038",
+  "questionFingerprint": "2c150a2d741b3ec4cd6f4c89ce553226d662ce361c51a54764dc5072d6f5463e",
+  "status": "source-checked",
+  "learningObjective": "Secvența +30 mmHg la inducție, scăderea din menținere și ținta postoperatorie <180/110, fără TOD acută.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1144
+   ],
+   "pdfPages": [
+    289
+   ],
+   "section": "Perioada perioperatorie — Intra- și postoperator"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Creșterea de 30 mmHg la inducție este cifra citată.",
+    "evidenceLocation": "Kumar & Clark, p. 1144, Perioada perioperatorie — Intra- și postoperator"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Scăderea din menținere și variațiile hipertensivului necontrolat completează intraoperatorul.",
+    "evidenceLocation": "Kumar & Clark, p. 1144, Perioada perioperatorie — Intra- și postoperator"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Durerea, omiterea medicației și <180/110 închid postoperatorul.",
+    "evidenceLocation": "Kumar & Clark, p. 1144, Perioada perioperatorie — Intra- și postoperator"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Sensurile inducție versus menținere sunt inversate; 90/60 nu este ținta.",
+    "evidenceLocation": "Kumar & Clark, p. 1144, Perioada perioperatorie — Intra- și postoperator"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Textul cere mai întâi excluderea problemelor de cale aeriană/oxigen, hipertensiunea intraoperatorie ținând cel mai frecvent de dozarea inadecvată a anestezicului.",
+    "evidenceLocation": "Kumar & Clark, p. 1144, Perioada perioperatorie — Intra- și postoperator"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează +30 mmHg de la inducție la menținere și coboară ținta postoperatorie la 90/60."
+  },
+  "textbookExpressions": [
+   "30 mmHg",
+   "180/110 mmHg"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-039",
+  "questionFingerprint": "4d12cc7c7faa40f2f4af2f49e89e76a4aa816ea01e1467205c58b888e703fc67",
+  "status": "source-checked",
+  "learningObjective": "Separarea pragului de îngrijorare 180/110 de interdicția vasodilatatoarelor scurte (NTG SL, nifedipină) în hipertensiunea necomplicată de salon.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1144
+   ],
+   "pdfPages": [
+    289
+   ],
+   "section": "Tensiunea arterială în salonul de spital"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Absența tratamentului imediat fără urgență/comorbiditate este prima regulă.",
+    "evidenceLocation": "Kumar & Clark, p. 1144, Tensiunea arterială în salonul de spital"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "180/110 și preferința pentru terapiile cronice versus NTG/nifedipină sunt din închidere.",
+    "evidenceLocation": "Kumar & Clark, p. 1144, Tensiunea arterială în salonul de spital"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Textul spune că NTG SL și nifedipina nu își găsesc justificare.",
+    "evidenceLocation": "Kumar & Clark, p. 1144, Tensiunea arterială în salonul de spital"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "140/90 nu este pragul de salon citat; vasodilatatorul scurt este evitat.",
+    "evidenceLocation": "Kumar & Clark, p. 1144, Tensiunea arterială în salonul de spital"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Acești precipitanți sunt tocmai lista din paragraf.",
+    "evidenceLocation": "Kumar & Clark, p. 1144, Tensiunea arterială în salonul de spital"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii transformă NTG SL/nifedipina din non-indicație în primă intenție la pragul de 140/90."
+  },
+  "textbookExpressions": [
+   "180/110 mmHg",
+   "nifedipina"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-040",
+  "questionFingerprint": "9355374c0350185f5db01fc02e7c68e5bb5234a1b21a0d169281b010fa26b878",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea ratei de creștere și a bazalei 90-110/60-70 a tinerei de pragul de 140/90 al pre-eclampsiei, versus 180/120 al urgenței clasice.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1144
+   ],
+   "pdfPages": [
+    289
+   ],
+   "section": "Urgențele hipertensive — Principii"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Rata de creștere versus valoarea absolută este teza de deschidere.",
+    "evidenceLocation": "Kumar & Clark, p. 1144, Urgențele hipertensive — Principii"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "90-110/60-70 și pre-eclampsia de la 140/90 sunt exemplul obstetrical.",
+    "evidenceLocation": "Kumar & Clark, p. 1144, Urgențele hipertensive — Principii"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Minoritatea cu TOD la >180/120 și indicația IV închid paragraful.",
+    "evidenceLocation": "Kumar & Clark, p. 1144, Urgențele hipertensive — Principii"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Bazala tinerei nu este 180/110; pre-eclampsia poate începe de la 140/90.",
+    "evidenceLocation": "Kumar & Clark, p. 1144, Urgențele hipertensive — Principii"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Textul spune opusul: rata contează, iar IV-ul este indicat în urgență.",
+    "evidenceLocation": "Kumar & Clark, p. 1144, Urgențele hipertensive — Principii"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii mută bazala tinerei la 180/110 și anulează importanța ratei de creștere."
+  },
+  "textbookExpressions": [
+   "90-110/60-70 mmHg",
+   "140/90 mmHg"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-041",
+  "questionFingerprint": "b7ff4075ad35eaaee16a187886e8305aef66b5c3854a5fad5604a25a4de41a7b",
+  "status": "source-checked",
+  "learningObjective": "Reținerea pachetului ≥3 clase, <30-40 de ani, TOD la TA normală și TA labilă, distinct de octogenarul cu țintă joasă.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1144
+   ],
+   "pdfPages": [
+    289
+   ],
+   "section": "Dirijarea către centre de specialitate"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "≥3 clase definește rezistența ca motiv de trimitere.",
+    "evidenceLocation": "Kumar & Clark, p. 1144, Dirijarea către centre de specialitate"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Fereastra <30-40 de ani și suflul abdominal sunt exemplele de secundar.",
+    "evidenceLocation": "Kumar & Clark, p. 1144, Dirijarea către centre de specialitate"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "TOD la TA normală este un rând separat.",
+    "evidenceLocation": "Kumar & Clark, p. 1144, Dirijarea către centre de specialitate"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Labilitatea și intoleranța închid lista.",
+    "evidenceLocation": "Kumar & Clark, p. 1144, Dirijarea către centre de specialitate"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Textul nu rezervă trimiterea octogenarului hipotensiv fără TOD.",
+    "evidenceLocation": "Kumar & Clark, p. 1144, Dirijarea către centre de specialitate"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Patru criterii reale de trimitere; distractorul inversează vârsta tânără și TOD-ul către octogenarul fără leziuni."
+  },
+  "textbookExpressions": [
+   "<30-40 ani",
+   "injurii ale organelor ţintă"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-042",
+  "questionFingerprint": "ea341d72f8b5060a6631468ff70044f7afe389bda51838fbed3c45b4d6c42a58",
+  "status": "source-checked",
+  "learningObjective": "Asocierea clinicii, a SEPR la RMN și a reducerii imediate cu 25% a TAM, distinct de ținta disecției.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1145
+   ],
+   "pdfPages": [
+    290
+   ],
+   "section": "Cadranul 31.7 — Encefalopatia hipertensivă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Clinica neurologică plus retinopatia sunt din rândul encefalopatiei.",
+    "evidenceLocation": "Kumar & Clark, p. 1145, Cadranul 31.7 — Encefalopatia hipertensivă"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "SEPR (edem de fosă posterioară) este investigația de elecție.",
+    "evidenceLocation": "Kumar & Clark, p. 1145, Cadranul 31.7 — Encefalopatia hipertensivă"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "25% TAM imediată cu labetalol/nicardipină este ținta.",
+    "evidenceLocation": "Kumar & Clark, p. 1145, Cadranul 31.7 — Encefalopatia hipertensivă"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Bandeleta și 100-120 mmHg sunt ale pre-eclampsiei, respectiv disecției.",
+    "evidenceLocation": "Kumar & Clark, p. 1145, Cadranul 31.7 — Encefalopatia hipertensivă"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "SEPR motivează reducerea, nu creșterea, TAM; labetalolul este terapia de primă intenție.",
+    "evidenceLocation": "Kumar & Clark, p. 1145, Cadranul 31.7 — Encefalopatia hipertensivă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii mută ținta 100-120 mmHg a disecției pe encefalopatie și inversează 25% (creștere versus scădere)."
+  },
+  "textbookExpressions": [
+   "SEPR",
+   "edem al fosei cerebrale posterioare"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-043",
+  "questionFingerprint": "212c01249aa9fe4f8c794c0ad815205dc4da5ff793e1d893339ddac97a681d40",
+  "status": "source-checked",
+  "learningObjective": "Separarea ferestrei „25% TAM în câteva ore” și a necrozei fibrinoide de ținta imediată 100-120 mmHg a disecției.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1145
+   ],
+   "pdfPages": [
+    290
+   ],
+   "section": "Cadranul 31.7 — Hipertensiunea malignă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Clinica vizuală/cefalee cu retinopatie este rândul de istoric/examen.",
+    "evidenceLocation": "Kumar & Clark, p. 1145, Cadranul 31.7 — Hipertensiunea malignă"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "25% în câteva ore, IV-ul și nota despre atenolol oral sunt din țintă/terapie.",
+    "evidenceLocation": "Kumar & Clark, p. 1145, Cadranul 31.7 — Hipertensiunea malignă"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Necroza fibrinoidă arteriolară explică IRA asociată.",
+    "evidenceLocation": "Kumar & Clark, p. 1145, Cadranul 31.7 — Hipertensiunea malignă"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "100-120 mmHg imediat este ținta disecției, nu a formei maligne.",
+    "evidenceLocation": "Kumar & Clark, p. 1145, Cadranul 31.7 — Hipertensiunea malignă"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Textul cere scădere graduală 25%, nu interzicerea scăderii.",
+    "evidenceLocation": "Kumar & Clark, p. 1145, Cadranul 31.7 — Hipertensiunea malignă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii aplică ținta de disecție (100-120 mmHg imediat) asupra formei maligne, unde cadranul cere 25% în câteva ore."
+  },
+  "textbookExpressions": [
+   "necrozei fibrinoide",
+   "câteva ore"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-044",
+  "questionFingerprint": "4c14c26b3a081645ebb0ce91e273006c4d519fdb658418552d9f4025d1136cd6",
+  "status": "source-checked",
+  "learningObjective": "Reținerea dozei de metildopa 250-500 mg × 3 (sarcină) și a hipertensiunii de rebound la întrerupere.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1143
+   ],
+   "pdfPages": [
+    288
+   ],
+   "section": "Cadranul 31.6 — Agenți centrali"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Doza 250-500 mg × 3 și indicația din sarcină sunt din rândul central.",
+    "evidenceLocation": "Kumar & Clark, p. 1143, Cadranul 31.6 — Agenți centrali"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Efectele (depresie, amețeli, uscăciune) și rebound-ul sunt din aceleași coloane.",
+    "evidenceLocation": "Kumar & Clark, p. 1143, Cadranul 31.6 — Agenți centrali"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "2,5-10 mg este doza de ramipril; metildopa este folosită în sarcină.",
+    "evidenceLocation": "Kumar & Clark, p. 1143, Cadranul 31.6 — Agenți centrali"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Tulburările de dispoziție și IC cu FE redusă sunt contraindicații, nu indicații; rebound-ul este notat.",
+    "evidenceLocation": "Kumar & Clark, p. 1143, Cadranul 31.6 — Agenți centrali"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Rebound-ul este atribuit agenților centrali, nu alfa-blocantelor.",
+    "evidenceLocation": "Kumar & Clark, p. 1143, Cadranul 31.6 — Agenți centrali"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii mută doza de ramipril pe metildopa și transformă contraindicațiile (dispoziție, IC) în indicații."
+  },
+  "textbookExpressions": [
+   "Metildopa 250-500",
+   "uscăciune bucală"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-045",
+  "questionFingerprint": "e96059cb2fa3461b66a359cb1c98ec8b17a13e9616335407a26bae489c4f9882",
+  "status": "source-checked",
+  "learningObjective": "Reținerea ordinii de 1 miliard de lire, a predominanței ambulatorii și a pragului <30 de ani pentru etiologia secundară.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1133
+   ],
+   "pdfPages": [
+    278
+   ],
+   "section": "Introducere — Costuri și filiere de îngrijire"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cifra de peste 1 miliard de lire este din paragraf.",
+    "evidenceLocation": "Kumar & Clark, p. 1133, Introducere — Costuri și filiere de îngrijire"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Ambulatoriul ca regulă și specialitatea pentru secundar/fenotipuri/intoleranțe sunt explicitate.",
+    "evidenceLocation": "Kumar & Clark, p. 1133, Introducere — Costuri și filiere de îngrijire"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Sub 30 de ani impune căutarea cauzei secundare.",
+    "evidenceLocation": "Kumar & Clark, p. 1133, Introducere — Costuri și filiere de îngrijire"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "1 miliard, nu 10.000; internațiile de rutină contrazic modelul ambulator.",
+    "evidenceLocation": "Kumar & Clark, p. 1133, Introducere — Costuri și filiere de îngrijire"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Textul cere evaluare atentă sub 30 de ani, nu amânare până la 80.",
+    "evidenceLocation": "Kumar & Clark, p. 1133, Introducere — Costuri și filiere de îngrijire"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii comprimă 1 miliard de lire la 10.000 și inversează regula vârstnic versus tânăr pentru screeningul secundar."
+  },
+  "textbookExpressions": [
+   "1 miliard",
+   "sub 30 de ani"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-046",
+  "questionFingerprint": "e480d5bce29f5ef7aa9297a74761cd19434b8fea85b25628d60ec89ddb91cf2a",
+  "status": "source-checked",
+  "learningObjective": "Reținerea schemei 2× dimineața + seara / 4-7 zile, a excluderii primei lecturi, a offset-ului 5/5 mmHg și a celor trei utilități clinice.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1136
+   ],
+   "pdfPages": [
+    281
+   ],
+   "section": "Măsurarea TA la domiciliu"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Perechea dimineață-înainte-de-tratament și seara, pe 4-7 zile, este protocolul.",
+    "evidenceLocation": "Kumar & Clark, p. 1136, Măsurarea TA la domiciliu"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Excluderea primei determinări și media restului definesc valoarea de domiciliu.",
+    "evidenceLocation": "Kumar & Clark, p. 1136, Măsurarea TA la domiciliu"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Offset-ul 5/5 mmHg mai mic și predictivitatea CV sunt explicitate.",
+    "evidenceLocation": "Kumar & Clark, p. 1136, Măsurarea TA la domiciliu"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Cele trei utilități (fenotipuri, decizie comună, monitorizare) deschid lista de indicații.",
+    "evidenceLocation": "Kumar & Clark, p. 1136, Măsurarea TA la domiciliu"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Se exclude prima lectură, nu se păstrează doar ea; domiciliul este mai mic, nu mai mare, decât cabinetul.",
+    "evidenceLocation": "Kumar & Clark, p. 1136, Măsurarea TA la domiciliu"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul inversează regula de a discard prima lectură și transformă offset-ul 5/5 mmHg într-o creștere de 20/15."
+  },
+  "textbookExpressions": [
+   "4-7 zile",
+   "5/5 mmHg"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-047",
+  "questionFingerprint": "d1e3b88861ab032c9a877562d6502c2e3765d8304f271204ff499f1fbfda3cec",
+  "status": "source-checked",
+  "learningObjective": "Separarea intervalelor 20-30 / 30-60 min, a rolului diagnostic UK și a offset-ului diurn 5-10/5 mmHg.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1136
+   ],
+   "pdfPages": [
+    281
+   ],
+   "section": "Determinarea TA în ambulator"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cadența 20-30 min ziua și 30-60 min noaptea este cea din text.",
+    "evidenceLocation": "Kumar & Clark, p. 1136, Determinarea TA în ambulator"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Superioritatea predictive și recomandarea UK de diagnostic sunt fraza centrală.",
+    "evidenceLocation": "Kumar & Clark, p. 1136, Determinarea TA în ambulator"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "5-10/5 mmHg mai mic diurn versus cabinet este offset-ul citat.",
+    "evidenceLocation": "Kumar & Clark, p. 1136, Determinarea TA în ambulator"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Măsurătorile sunt zeci pe 24 de ore, nu una; predictorul este superior cabinetului.",
+    "evidenceLocation": "Kumar & Clark, p. 1136, Determinarea TA în ambulator"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "UK recomandă ABPM la diagnostic; offset-ul nu este +30 mmHg.",
+    "evidenceLocation": "Kumar & Clark, p. 1136, Determinarea TA în ambulator"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează poziția NICE a ABPM (diagnostic versus abandon) și umflă offset-ul de la 5-10/5 la +30 mmHg."
+  },
+  "textbookExpressions": [
+   "20-30 de minute",
+   "5-10/5 mmHg"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-048",
+  "questionFingerprint": "0abe1e5f33a7688b26a898c057df3c9c524734893159162afa781f517f44740b",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea disocierii diagnostic (ABPM) versus titrare (cabinet, lipsă de trialuri extra-cabinet).",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1136
+   ],
+   "pdfPages": [
+    281
+   ],
+   "section": "Măsurarea TA la cabinet — Titrare versus diagnostic"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Justificarea pentru titrare și absența studiilor de prognostic cu extra-cabinet sunt fraza de după lista de limite.",
+    "evidenceLocation": "Kumar & Clark, p. 1136, Măsurarea TA la cabinet — Titrare versus diagnostic"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Trialurile de prognostic au folosit cabinetul, nu ABPM-ul, pentru titrare.",
+    "evidenceLocation": "Kumar & Clark, p. 1136, Măsurarea TA la cabinet — Titrare versus diagnostic"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Ghidurile nu o mai vor ca unică metodă diagnostică, dar o păstrează la titrare.",
+    "evidenceLocation": "Kumar & Clark, p. 1136, Măsurarea TA la cabinet — Titrare versus diagnostic"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "FA impune metoda auscultatorie, nu rezervarea cabinetului; titrarea rămâne de cabinet.",
+    "evidenceLocation": "Kumar & Clark, p. 1136, Măsurarea TA la cabinet — Titrare versus diagnostic"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Textul spune opusul: niciun studiu de prognostic nu a titrat extra-cabinet.",
+    "evidenceLocation": "Kumar & Clark, p. 1136, Măsurarea TA la cabinet — Titrare versus diagnostic"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii transformă absența trialurilor extra-cabinet într-un standard de titrare ABPM, inversând argumentul paragrafului."
+  },
+  "textbookExpressions": [
+   "niciun studiu de prognostic",
+   "titrarea medicamentelor"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-049",
+  "questionFingerprint": "9bc159ce4af99bceca82fab210d266c4a5c60a9a03a8ce2d4b288e57e3bd73f0",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea mecanismului mineralocorticoid al liquorice de evaluarea multimodală a TA oscilante în clinică de specialitate.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1137,
+    1138
+   ],
+   "pdfPages": [
+    282,
+    283
+   ],
+   "section": "Dieta — Liquorice; Tensiunea arterială oscilantă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Inhibiția enzimei care protejează receptorul mineralocorticoid de cortizol este mecanismul citat.",
+    "evidenceLocation": "Kumar & Clark, p. 1137, 1138, Dieta — Liquorice; Tensiunea arterială oscilantă"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Autonom/endocrin, ABPM plus domiciliu și clinica de specialitate definesc oscilantul.",
+    "evidenceLocation": "Kumar & Clark, p. 1137, 1138, Dieta — Liquorice; Tensiunea arterială oscilantă"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Liquorice crește, nu scade, TA; oscilantul nu este de rutină la medicul de familie.",
+    "evidenceLocation": "Kumar & Clark, p. 1137, 1138, Dieta — Liquorice; Tensiunea arterială oscilantă"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Textul numește liquorice, nu anasonul, și receptorul mineralocorticoid, nu glucocorticoid.",
+    "evidenceLocation": "Kumar & Clark, p. 1137, 1138, Dieta — Liquorice; Tensiunea arterială oscilantă"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "O singură măsurătoare de cabinet este tocmai inadecvată.",
+    "evidenceLocation": "Kumar & Clark, p. 1137, 1138, Dieta — Liquorice; Tensiunea arterială oscilantă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează efectul liquorice (creștere versus scădere a TA) și mută oscilantul din clinica de specialitate în cabinetul unic."
+  },
+  "textbookExpressions": [
+   "liquorice",
+   "receptorul mineralocorticoid"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-050",
+  "questionFingerprint": "7b6d7554aa531f313f7f9d6f6a9e80e1c329765cef8f063b4b1639f6388bf277",
+  "status": "source-checked",
+  "learningObjective": "Separarea vasodilatației de trimestrul II de remisiunea postnatală și de predispoziția ulterioară la HTA precoce.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1138
+   ],
+   "pdfPages": [
+    283
+   ],
+   "section": "Hipertensiunea arterială secundară — Sarcina"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Volumul crescut, vasodilatația și scăderea din trimestrul II deschid fiziologia.",
+    "evidenceLocation": "Kumar & Clark, p. 1138, Hipertensiunea arterială secundară — Sarcina"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Ameliorarea în câteva luni după naștere este evoluția uzuală.",
+    "evidenceLocation": "Kumar & Clark, p. 1138, Hipertensiunea arterială secundară — Sarcina"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Predispoziția la HTA mai precoce versus martore este avertismentul.",
+    "evidenceLocation": "Kumar & Clark, p. 1138, Hipertensiunea arterială secundară — Sarcina"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Sensul trimestrului II este inversat (scădere, nu creștere).",
+    "evidenceLocation": "Kumar & Clark, p. 1138, Hipertensiunea arterială secundară — Sarcina"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Remisiunea postnatală este frecventă; riscul ulterior de HTA există, nu lipsește.",
+    "evidenceLocation": "Kumar & Clark, p. 1138, Hipertensiunea arterială secundară — Sarcina"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează vasodilatația de trimestrul II într-o creștere tensională și neagă atât remisiunea postnatală cât și riscul ulterior."
+  },
+  "textbookExpressions": [
+   "trimestru",
+   "câteva luni de la naştere"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-051",
+  "questionFingerprint": "5fd105a0eb25837af5ff6ff123a30cb995e47a6455b8d5d1b9d19e2c70f2ba1f",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea scorului 8 (aderență bună) de 7 (aderență scăzută, control mai prost).",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1142
+   ],
+   "pdfPages": [
+    287
+   ],
+   "section": "Cadranul 31.5 — Scala Morisky"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "8 = aderență bună este fraza de interpretare.",
+    "evidenceLocation": "Kumar & Clark, p. 1142, Cadranul 31.5 — Scala Morisky"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "7 = aderență scăzută cu control mai prost completează.",
+    "evidenceLocation": "Kumar & Clark, p. 1142, Cadranul 31.5 — Scala Morisky"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Sensurile 8 versus 7 sunt inversate.",
+    "evidenceLocation": "Kumar & Clark, p. 1142, Cadranul 31.5 — Scala Morisky"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Scala este numerică, cu punctaj explicit.",
+    "evidenceLocation": "Kumar & Clark, p. 1142, Cadranul 31.5 — Scala Morisky"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu există un prag de 2 care să contraindice terapia.",
+    "evidenceLocation": "Kumar & Clark, p. 1142, Cadranul 31.5 — Scala Morisky"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează 8 (bun) versus 7 (scăzut), distincția unică a cadranului de interpretare."
+  },
+  "textbookExpressions": [
+   "scor de 8",
+   "Scorul de 7"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-052",
+  "questionFingerprint": "84863555ffe77cf38327f5ea9ac07932daf32e38c2f286308e16113d1881640e",
+  "status": "source-checked",
+  "learningObjective": "Reținerea ferestrelor losartan 25-100, amlodipină 5-10, verapamil 120-480 și doxazosin 1-8, fără a le permuta.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1143
+   ],
+   "pdfPages": [
+    288
+   ],
+   "section": "Cadranul 31.6 — Doze-exemplu ARA, BCC, alfa-blocant"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "25-100 mg este exemplul ARA (losartan).",
+    "evidenceLocation": "Kumar & Clark, p. 1143, Cadranul 31.6 — Doze-exemplu ARA, BCC, alfa-blocant"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "5-10 mg este exemplul BCC DHP (amlodipină).",
+    "evidenceLocation": "Kumar & Clark, p. 1143, Cadranul 31.6 — Doze-exemplu ARA, BCC, alfa-blocant"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "120-480 mg este al verapamilului non-DHP.",
+    "evidenceLocation": "Kumar & Clark, p. 1143, Cadranul 31.6 — Doze-exemplu ARA, BCC, alfa-blocant"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "1-8 mg este al doxazosinului.",
+    "evidenceLocation": "Kumar & Clark, p. 1143, Cadranul 31.6 — Doze-exemplu ARA, BCC, alfa-blocant"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Dozele sunt permutate între cele patru rânduri.",
+    "evidenceLocation": "Kumar & Clark, p. 1143, Cadranul 31.6 — Doze-exemplu ARA, BCC, alfa-blocant"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul permută cele patru ferestre de doză între losartan, amlodipină, verapamil și doxazosin."
+  },
+  "textbookExpressions": [
+   "Losartan 25-100",
+   "Doxazosin 1-8 mg"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-053",
+  "questionFingerprint": "04464478ab0fb871d43d328580a7d8074b2e56965b13d5a103af7f7ee813d0ad",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea efectului de ordinul monoterapiei, a incertitudinii de siguranță și a absenței trialurilor de evenimente, de iluzia înlocuirii medicamentelor.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1143
+   ],
+   "pdfPages": [
+    288
+   ],
+   "section": "Abordări viitoare — Limitele denervării"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Similaritatea cu monoterapia și persistenta nevoii de medicamente sunt din paragraf.",
+    "evidenceLocation": "Kumar & Clark, p. 1143, Abordări viitoare — Limitele denervării"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Noutatea și siguranța neclară (inclusiv artera renală) sunt recunoscute explicit.",
+    "evidenceLocation": "Kumar & Clark, p. 1143, Abordări viitoare — Limitele denervării"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Absența studiilor de prognostic non-farmacologic închide limita.",
+    "evidenceLocation": "Kumar & Clark, p. 1143, Abordări viitoare — Limitele denervării"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Textul spune că majoritatea vor necesita în continuare medicamente.",
+    "evidenceLocation": "Kumar & Clark, p. 1143, Abordări viitoare — Limitele denervării"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Siguranța pe termen lung și trialurile de deces lipsesc tocmai.",
+    "evidenceLocation": "Kumar & Clark, p. 1143, Abordări viitoare — Limitele denervării"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii transformă un efect de ordinul monoterapiei, fără date de prognostic, într-un substitut definitiv al politerapiei."
+  },
+  "textbookExpressions": [
+   "monoterapiei antihipertensive",
+   "nu există studii de prognostic"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-054",
+  "questionFingerprint": "28739549c1992ed6fa95cdecdfa70d1d14ef92029c22dcc374b914f643ddec68",
+  "status": "source-checked",
+  "learningObjective": "Perecherea nifedipină/amlodipină, labetalol și metildopa ca opțiuni de sarcină, distinct de IECA/ARA.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1143
+   ],
+   "pdfPages": [
+    288
+   ],
+   "section": "Cadranul 31.6 — Antihipertensive în sarcină"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Nota de sarcină de pe rândul BCC DHP este a nifedipinei/amlodipinei.",
+    "evidenceLocation": "Kumar & Clark, p. 1143, Cadranul 31.6 — Antihipertensive în sarcină"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Labetalolul este nota de sarcină a beta-blocantelor.",
+    "evidenceLocation": "Kumar & Clark, p. 1143, Cadranul 31.6 — Antihipertensive în sarcină"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Metildopa × 3 este nota de sarcină a agenților centrali.",
+    "evidenceLocation": "Kumar & Clark, p. 1143, Cadranul 31.6 — Antihipertensive în sarcină"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "IECA/ARA au contraindicație de stenoză renală bilaterală; nu sunt prima linie de sarcină.",
+    "evidenceLocation": "Kumar & Clark, p. 1143, Cadranul 31.6 — Antihipertensive în sarcină"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nifedipina este menționată pentru sarcină; guta contraindică tiazidul, nu metildopa.",
+    "evidenceLocation": "Kumar & Clark, p. 1143, Cadranul 31.6 — Antihipertensive în sarcină"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii mută IECA/ARA în prima linie de sarcină și inversează nota de sarcină a nifedipinei."
+  },
+  "textbookExpressions": [
+   "utiliza rea în sarcină",
+   "Labetalol utilizat în"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-055",
+  "questionFingerprint": "fb964aca51d37f00814db7671b62c22ebe36f65abdda449179fae762c3fab88c",
+  "status": "source-checked",
+  "learningObjective": "Reținerea ferestrei arbitrare de 24 de ore versus regula de a continua antihipertensivele, cu excepțiile de hipotensiune/IRA.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1144
+   ],
+   "pdfPages": [
+    289
+   ],
+   "section": "Perioada perioperatorie — IECA/ARA"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Temporizarea arbitrară 24 de ore și continuarea perioperatorie, cu excepțiile citate, sunt fraza din paragraf.",
+    "evidenceLocation": "Kumar & Clark, p. 1144, Perioada perioperatorie — IECA/ARA"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "14 zile și iodura țin de pregătirea tiroidectomiei, nu de HTA.",
+    "evidenceLocation": "Kumar & Clark, p. 1144, Perioada perioperatorie — IECA/ARA"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Doza nu se dublează pentru a pretinde inducția.",
+    "evidenceLocation": "Kumar & Clark, p. 1144, Perioada perioperatorie — IECA/ARA"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nifedipina sublinguală nu își găsește justificare în hipertensiunea necomplicată.",
+    "evidenceLocation": "Kumar & Clark, p. 1144, Perioada perioperatorie — IECA/ARA"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Medicația se continuă de obicei; 90/60 nu este ținta perioperatorie.",
+    "evidenceLocation": "Kumar & Clark, p. 1144, Perioada perioperatorie — IECA/ARA"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii înlocuiesc pauza arbitrară de 24 de ore cu 14 zile sau cu dublarea dozei, și reintroduc nifedipina sublinguală."
+  },
+  "textbookExpressions": [
+   "24 de ore preoperator",
+   "leziunilor renale acute"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-056",
+  "questionFingerprint": "c91ee5c55abcdecf60b35129a192409c8de556da708bd5e8440ae5dcb5744bba",
+  "status": "source-checked",
+  "learningObjective": "Perecherea ST/T + troponină de ținta TAS <140 mmHg cu NTG/labetalol, distinct de disecție și de pre-eclampsie.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1145
+   ],
+   "pdfPages": [
+    290
+   ],
+   "section": "Cadranul 31.7 — Sindrom coronarian acut"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Durerea toracică și diaforeza sunt rândul de istoric/examen.",
+    "evidenceLocation": "Kumar & Clark, p. 1145, Cadranul 31.7 — Sindrom coronarian acut"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "ECG ST/T și troponina sunt investigația de elecție.",
+    "evidenceLocation": "Kumar & Clark, p. 1145, Cadranul 31.7 — Sindrom coronarian acut"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "<140 mmHg imediat și NTG/labetalol sunt ținta/terapia.",
+    "evidenceLocation": "Kumar & Clark, p. 1145, Cadranul 31.7 — Sindrom coronarian acut"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "100-120 mmHg și 50-60/min sunt ale disecției.",
+    "evidenceLocation": "Kumar & Clark, p. 1145, Cadranul 31.7 — Sindrom coronarian acut"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Bandeleta și magneziul sunt ale pre-eclampsiei.",
+    "evidenceLocation": "Kumar & Clark, p. 1145, Cadranul 31.7 — Sindrom coronarian acut"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii aplică țintele disecției (100-120, 50-60) sau ale pre-eclampsiei (Mg) asupra SCA, unde cadranul cere TAS <140 cu NTG/labetalol."
+  },
+  "textbookExpressions": [
+   "TAS <140 mmHg",
+   "Troponină serică"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-057",
+  "questionFingerprint": "2677105f25acd81c7780e5509d710d820e6cca5762607e48470812c152dea7f3",
+  "status": "source-checked",
+  "learningObjective": "Reținerea asimetrei de puls/TA, a faldului la angio-CT/ETE și a vasodilatatorului doar după controlul FC, plus chirurgia precoce din Marfan.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1145
+   ],
+   "pdfPages": [
+    290
+   ],
+   "section": "Cadranul 31.7 — Disecție acută de aortă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Asimetria de puls/TA și faldul imagistic sunt rândurile de examen/investigație.",
+    "evidenceLocation": "Kumar & Clark, p. 1145, Cadranul 31.7 — Disecție acută de aortă"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Vasodilatatorul după controlul FC și chirurgia precoce Marfan sunt din note.",
+    "evidenceLocation": "Kumar & Clark, p. 1145, Cadranul 31.7 — Disecție acută de aortă"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "<140 mmHg fără controlul FC și magneziul sunt ale SCA, respectiv pre-eclampsiei.",
+    "evidenceLocation": "Kumar & Clark, p. 1145, Cadranul 31.7 — Disecție acută de aortă"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Atenololul oral suficient este nota formei maligne, nu a disecției.",
+    "evidenceLocation": "Kumar & Clark, p. 1145, Cadranul 31.7 — Disecție acută de aortă"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "SEPR este al encefalopatiei hipertensive.",
+    "evidenceLocation": "Kumar & Clark, p. 1145, Cadranul 31.7 — Disecție acută de aortă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii permută țintele SCA, magneziul de pre-eclampsie și SEPR pe rândul de disecție, unde cadranul cere controlul FC apoi vasodilatație."
+  },
+  "textbookExpressions": [
+   "faldul de disecţie",
+   "sindrom Marian"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-058",
+  "questionFingerprint": "9766c9001bf100ae080c15f2f86690cbf2db8bbcdcc737e22713580fbd138e02",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea secvenței aderență → stil de viață → cauze secundare când HTA devine brusc severă sau scapă de sub control.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1137
+   ],
+   "pdfPages": [
+    282
+   ],
+   "section": "Etiologia — Apariție bruscă sau agravare"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Secvența aderență, apoi stil de viață și secundar dacă aderă, este fraza din paragraf.",
+    "evidenceLocation": "Kumar & Clark, p. 1137, Etiologia — Apariție bruscă sau agravare"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Denervarea nu este primul pas al agravării bruște.",
+    "evidenceLocation": "Kumar & Clark, p. 1137, Etiologia — Apariție bruscă sau agravare"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Oprirea pe 6 luni nu este un test diagnostic citat.",
+    "evidenceLocation": "Kumar & Clark, p. 1137, Etiologia — Apariție bruscă sau agravare"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Aderența se evaluează prima; stenoza renală este doar una dintre cauzele secundare posibile.",
+    "evidenceLocation": "Kumar & Clark, p. 1137, Etiologia — Apariție bruscă sau agravare"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "ABPM rămâne util pentru fenotipuri, nu este contraindicat.",
+    "evidenceLocation": "Kumar & Clark, p. 1137, Etiologia — Apariție bruscă sau agravare"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sar peste aderență direct la denervare sau stenoză renală, inversând ordinea de gândire a paragrafului."
+  },
+  "textbookExpressions": [
+   "Apariţia bruscă",
+   "aderenţei la tratament"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hta-adv-059",
+  "questionFingerprint": "c5a5e45b1b7878d86712f4763ac51bcfb7b13a22b9944c15ac0c0593538a5518",
+  "status": "source-checked",
+  "learningObjective": "Separarea pragului >1%/an pentru statină de nuanța tânărului (vârsta în scor) și de abandonul aspirinei în prevenția primară.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1142
+   ],
+   "pdfPages": [
+    287
+   ],
+   "section": "Reducerea riscului cardiovascular total — Statine"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Dozele mici de statine puternice și pragul >1%/an deschid recomandarea.",
+    "evidenceLocation": "Kumar & Clark, p. 1142, Reducerea riscului cardiovascular total — Statine"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Nerespectarea pragului la tineri din cauza vârstei și perspectiva de durată completează.",
+    "evidenceLocation": "Kumar & Clark, p. 1142, Reducerea riscului cardiovascular total — Statine"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Aspirina nu mai este recomandată în prevenția primară; >1%/an este al statinelor, nu <0,1%.",
+    "evidenceLocation": "Kumar & Clark, p. 1142, Reducerea riscului cardiovascular total — Statine"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Pragul >1%/an este tocmai indicația, nu o contraindicație.",
+    "evidenceLocation": "Kumar & Clark, p. 1142, Reducerea riscului cardiovascular total — Statine"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Vârsta influențează puternic scorul; tinerii pot rămâne sub 1%/an.",
+    "evidenceLocation": "Kumar & Clark, p. 1142, Reducerea riscului cardiovascular total — Statine"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii mută pragul de 1%/an de pe statină pe aspirină sau îl transformă în contraindicație."
+  },
+  "textbookExpressions": [
+   "mai mare de 1% pe an",
+   "doze mici de statine"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
  }
 ]

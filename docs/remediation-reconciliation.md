@@ -66,7 +66,7 @@ were found on that page. Cutoff-page and box checks for each topic are logged in
 
 ## Items relying on a Cadran / Figura / Tabel
 
-569 items, 137 resolved, 432 pending.
+569 items, 155 resolved, 414 pending.
 
 | Original ID | Topic | Status |
 |---|---|---|
@@ -342,24 +342,24 @@ were found on that page. Cutoff-page and box checks for each topic are logged in
 | hiv-adv-034 | hiv | pending (original still live) |
 | hiv-adv-049 | hiv | pending (original still live) |
 | hiv-adv-088 | hiv | pending (original still live) |
-| hta-adv-012 | hta | pending (original still live) |
-| hta-adv-015 | hta | pending (original still live) |
-| hta-adv-020 | hta | pending (original still live) |
-| hta-adv-021 | hta | pending (original still live) |
-| hta-adv-029 | hta | pending (original still live) |
-| hta-adv-031 | hta | pending (original still live) |
-| hta-adv-032 | hta | pending (original still live) |
-| hta-adv-033 | hta | pending (original still live) |
-| hta-adv-034 | hta | pending (original still live) |
-| hta-adv-037 | hta | pending (original still live) |
-| hta-adv-042 | hta | pending (original still live) |
-| hta-adv-043 | hta | pending (original still live) |
-| hta-adv-044 | hta | pending (original still live) |
-| hta-adv-051 | hta | pending (original still live) |
-| hta-adv-052 | hta | pending (original still live) |
-| hta-adv-054 | hta | pending (original still live) |
-| hta-adv-056 | hta | pending (original still live) |
-| hta-adv-057 | hta | pending (original still live) |
+| hta-adv-012 | hta | replaced by hta-adv-012-v2 (p. 1142; expressions verified on the cited page) |
+| hta-adv-015 | hta | replaced by hta-adv-015-v2 (p. 1145, 1144; expressions verified on the cited page) |
+| hta-adv-020 | hta | replaced by hta-adv-020-v2 (p. 1135; expressions verified on the cited page) |
+| hta-adv-021 | hta | replaced by hta-adv-021-v2 (p. 1138, 1135; expressions verified on the cited page) |
+| hta-adv-029 | hta | replaced by hta-adv-029-v2 (p. 1139; expressions verified on the cited page) |
+| hta-adv-031 | hta | replaced by hta-adv-031-v2 (p. 1140, 1133, 1134; expressions verified on the cited page) |
+| hta-adv-032 | hta | replaced by hta-adv-032-v2 (p. 1139; expressions verified on the cited page) |
+| hta-adv-033 | hta | replaced by hta-adv-033-v2 (p. 1137, 1139; expressions verified on the cited page) |
+| hta-adv-034 | hta | replaced by hta-adv-034-v2 (p. 1140; expressions verified on the cited page) |
+| hta-adv-037 | hta | replaced by hta-adv-037-v2 (p. 1143; expressions verified on the cited page) |
+| hta-adv-042 | hta | replaced by hta-adv-042-v2 (p. 1145; expressions verified on the cited page) |
+| hta-adv-043 | hta | replaced by hta-adv-043-v2 (p. 1145; expressions verified on the cited page) |
+| hta-adv-044 | hta | replaced by hta-adv-044-v2 (p. 1143; expressions verified on the cited page) |
+| hta-adv-051 | hta | replaced by hta-adv-051-v2 (p. 1142; expressions verified on the cited page) |
+| hta-adv-052 | hta | replaced by hta-adv-052-v2 (p. 1142, 1143; expressions verified on the cited page) |
+| hta-adv-054 | hta | replaced by hta-adv-054-v2 (p. 1143; expressions verified on the cited page) |
+| hta-adv-056 | hta | replaced by hta-adv-056-v2 (p. 1145; expressions verified on the cited page) |
+| hta-adv-057 | hta | replaced by hta-adv-057-v2 (p. 1145; expressions verified on the cited page) |
 | infectii-chir-adv-001 | infectii-chir | replaced by infectii-chir-adv-001-v2 (p. 75; expressions verified on the cited page) |
 | infectii-chir-adv-003 | infectii-chir | replaced by infectii-chir-adv-003-v2 (p. 77; expressions verified on the cited page) |
 | infectii-chir-adv-010 | infectii-chir | replaced by infectii-chir-adv-010-v2 (p. 77; expressions verified on the cited page) |
