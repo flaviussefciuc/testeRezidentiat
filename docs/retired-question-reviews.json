@@ -79100,5 +79100,3888 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-001",
+  "questionFingerprint": "f7b0e010b1951dcc2f0ee32c28ed367d4a93e47e269e498a67e25901020d1b8d",
+  "status": "source-checked",
+  "learningObjective": "Distingerea modificării proteinei de transport de modificarea conversiei periferice.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    611,
+    615,
+    617
+   ],
+   "pdfPages": [
+    88,
+    92,
+    94
+   ],
+   "section": "Sarcina și contraceptivele orale; Medicamentele"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Ambele mecanisme sunt descrise; fT4 rămâne de regulă normală sub contraceptive.",
+    "evidenceLocation": "Kumar, p. 611, 615, 617, Sarcina și contraceptivele orale; Medicamentele; distincția verificată: Ambele mecanisme sunt descrise; fT4 rămâne de regulă normală sub contraceptive."
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Creșterea TBG modifică mai ales T4 totală; inhibarea conversiei crește, nu scade, raportul T4:T3.",
+    "evidenceLocation": "Kumar, p. 611, 615, 617, Sarcina și contraceptivele orale; Medicamentele; distincția verificată: Creșterea TBG modifică mai ales T4 totală; inhibarea conversiei crește, nu scade, raportul T4:T3."
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "TBG crește, iar amiodarona reduce conversia.",
+    "evidenceLocation": "Kumar, p. 611, 615, 617, Sarcina și contraceptivele orale; Medicamentele; distincția verificată: TBG crește, iar amiodarona reduce conversia."
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Primul mecanism este corect; conversia sub amiodaronă este redusă.",
+    "evidenceLocation": "Kumar, p. 611, 615, 617, Sarcina și contraceptivele orale; Medicamentele; distincția verificată: Primul mecanism este corect; conversia sub amiodaronă este redusă."
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Contraceptivele modifică TBG; stimularea receptorului TSH este discutată pentru HCG.",
+    "evidenceLocation": "Kumar, p. 611, 615, 617, Sarcina și contraceptivele orale; Medicamentele; distincția verificată: Contraceptivele modifică TBG; stimularea receptorului TSH este discutată pentru HCG."
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-13T07:06:53.189Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Perechi de mecanisme cu diferențe între hormon total, liber și raportul T4:T3; un singur profil izolat nu este suficient."
+  },
+  "textbookExpressions": [
+   "globulina de legare a tiroxinei",
+   "conversia T4 în T3"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-002",
+  "questionFingerprint": "aa5b008aa5a26e576a66afd0c254f95c240cd140cef39d037e230f50afe1d1da",
+  "status": "source-checked",
+  "learningObjective": "Asocierea autoanticorpului cu antigenul și diferențierea anticorpilor receptoriali stimulatori de cei blocanți.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    611
+   ],
+   "pdfPages": [
+    88
+   ],
+   "section": "Anticorpii anti-tiroidieni"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Țintele sunt inversate.",
+    "evidenceLocation": "Kumar, p. 611, Anticorpii anti-tiroidieni; distincția verificată: Țintele sunt inversate."
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "TPO este antigenul microzomal; TRAb au de obicei efect stimulator, uneori blocant.",
+    "evidenceLocation": "Kumar, p. 611, Anticorpii anti-tiroidieni; distincția verificată: TPO este antigenul microzomal; TRAb au de obicei efect stimulator, uneori blocant."
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Anticorpii anti-TPO nu sunt anticorpi anti-tiroglobulină.",
+    "evidenceLocation": "Kumar, p. 611, Anticorpii anti-tiroidieni; distincția verificată: Anticorpii anti-TPO nu sunt anticorpi anti-tiroglobulină."
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Efectul atribuit anti-TPO și frecvența efectelor TRAb nu corespund descrierii.",
+    "evidenceLocation": "Kumar, p. 611, Anticorpii anti-tiroidieni; distincția verificată: Efectul atribuit anti-TPO și frecvența efectelor TRAb nu corespund descrierii."
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Ținta TRAb este receptorul TSH, nu tiroglobulina.",
+    "evidenceLocation": "Kumar, p. 611, Anticorpii anti-tiroidieni; distincția verificată: Ținta TRAb este receptorul TSH, nu tiroglobulina."
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-13T07:06:53.189Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Toate alternativele combină antigene reale; trebuie cunoscute ținta și tipul funcțional al anticorpului."
+  },
+  "textbookExpressions": [
+   "peroxidaza tiroidiană",
+   "anticorpi IgG anti-receptor TSH"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-003",
+  "questionFingerprint": "fcfd91163a510c910e050656293f848c8e6336e2ea0cfc68a6043403cd6b8cc3",
+  "status": "source-checked",
+  "learningObjective": "Separarea contextului tiroidian de mecanismul excesului hormonal în AIT.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    615
+   ],
+   "pdfPages": [
+    92
+   ],
+   "section": "Tirotoxicoza indusă de amiodaronă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Tipurile sunt inversate.",
+    "evidenceLocation": "Kumar, p. 615, Tirotoxicoza indusă de amiodaronă; distincția verificată: Tipurile sunt inversate."
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Tipul II este distructiv, nu stimulat prin TRAb.",
+    "evidenceLocation": "Kumar, p. 615, Tirotoxicoza indusă de amiodaronă; distincția verificată: Tipul II este distructiv, nu stimulat prin TRAb."
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Aceasta este distincția dintre tipul I și tipul II din text.",
+    "evidenceLocation": "Kumar, p. 615, Tirotoxicoza indusă de amiodaronă; distincția verificată: Aceasta este distincția dintre tipul I și tipul II din text."
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Raportul T4:T3 poate fi crescut în ambele tipuri; mecanismele sunt greșit atribuite.",
+    "evidenceLocation": "Kumar, p. 615, Tirotoxicoza indusă de amiodaronă; distincția verificată: Raportul T4:T3 poate fi crescut în ambele tipuri; mecanismele sunt greșit atribuite."
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Tipul I este legat de excesul de sinteză indus de iod; tipul II nu este forma pe gușă multinodulară.",
+    "evidenceLocation": "Kumar, p. 615, Tirotoxicoza indusă de amiodaronă; distincția verificată: Tipul I este legat de excesul de sinteză indus de iod; tipul II nu este forma pe gușă multinodulară."
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-13T07:06:53.189Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Comparație cu trei dimensiuni: teren, mecanism și conversie; toate variantele folosesc mecanisme tiroidiene apropiate."
+  },
+  "textbookExpressions": [
+   "tiroidită distructivă",
+   "boala Graves preexistentă",
+   "raporturi T4:T3"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-005",
+  "questionFingerprint": "5939e6da42c66ce46300d04404a160658cc98734dcce10f3dbd535a2159059d2",
+  "status": "source-checked",
+  "learningObjective": "Corelarea transferului transplacentar diferit cu riscul de blocare fetală.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    616,
+    617,
+    618
+   ],
+   "pdfPages": [
+    93,
+    94,
+    95
+   ],
+   "section": "Regimul blocare și substituție"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Relația de transfer este inversată.",
+    "evidenceLocation": "Kumar, p. 616, 617, 618, Regimul blocare și substituție; distincția verificată: Relația de transfer este inversată."
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Antitiroidienele traversează placenta.",
+    "evidenceLocation": "Kumar, p. 616, 617, 618, Regimul blocare și substituție; distincția verificată: Antitiroidienele traversează placenta."
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Transferul tiroxinei este comparativ mai slab; proporțiile nu sunt echivalente.",
+    "evidenceLocation": "Kumar, p. 616, 617, 618, Regimul blocare și substituție; distincția verificată: Transferul tiroxinei este comparativ mai slab; proporțiile nu sunt echivalente."
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "TRAb pot traversa placenta și stimula tiroida fetală; nu sunt reținuți matern.",
+    "evidenceLocation": "Kumar, p. 616, 617, 618, Regimul blocare și substituție; distincția verificată: TRAb pot traversa placenta și stimula tiroida fetală; nu sunt reținuți matern."
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Diferența de pasaj explică riscul fetal în pofida eutiroidiei materne.",
+    "evidenceLocation": "Kumar, p. 616, 617, 618, Regimul blocare și substituție; distincția verificată: Diferența de pasaj explică riscul fetal în pofida eutiroidiei materne."
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-13T07:06:53.189Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Cere diferențierea efectelor materne și fetale și a transferului a trei categorii de molecule."
+  },
+  "textbookExpressions": [
+   "pasajul transplacentar al tiroxinei",
+   "blocare și substituție"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-006",
+  "questionFingerprint": "e8d04de802ec3e0a9a99e87ae8cf0c59cdba4668d00e6cbe77d30d677fed59b9",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea suprapunerii profilelor și a limitelor unui rezultat izolat.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    611,
+    613,
+    618
+   ],
+   "pdfPages": [
+    88,
+    90,
+    95
+   ],
+   "section": "Boala sistemică; Rezistența la hormonii tiroidieni"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Acesta este profilul descris în euthyroid sick syndrome.",
+    "evidenceLocation": "Kumar, p. 611, 613, 618, Boala sistemică; Rezistența la hormonii tiroidieni; distincția verificată: Acesta este profilul descris în euthyroid sick syndrome."
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Profilul se poate suprapune; contextul și reevaluarea după boala sistemică sunt necesare.",
+    "evidenceLocation": "Kumar, p. 611, 613, 618, Boala sistemică; Rezistența la hormonii tiroidieni; distincția verificată: Profilul se poate suprapune; contextul și reevaluarea după boala sistemică sunt necesare."
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Feedbackul poate necesita concentrații mai mari pentru același efect.",
+    "evidenceLocation": "Kumar, p. 611, 613, 618, Boala sistemică; Rezistența la hormonii tiroidieni; distincția verificată: Feedbackul poate necesita concentrații mai mari pentru același efect."
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Diferențialul include adenomul secretant și interferențele de laborator.",
+    "evidenceLocation": "Kumar, p. 611, 613, 618, Boala sistemică; Rezistența la hormonii tiroidieni; distincția verificată: Diferențialul include adenomul secretant și interferențele de laborator."
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Contraceptivele cresc TBG; rezistența hormonală privește răspunsul receptorial.",
+    "evidenceLocation": "Kumar, p. 611, 613, 618, Boala sistemică; Rezistența la hormonii tiroidieni; distincția verificată: Contraceptivele cresc TBG; rezistența hormonală privește răspunsul receptorial."
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-13T07:06:53.189Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Două profile biochimice aparent contradictorii trebuie integrate fără diagnostic printr-un singur test."
+  },
+  "textbookExpressions": [
+   "TSH bazal normal sau scăzut",
+   "interferențele măsurătorilor de laborator"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-007",
+  "questionFingerprint": "0c450ef41a90c94b531df41b60f569145ab3ab9e34b1b12348831c1d74f03b1c",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea arhitecturii glandulare și a evoluției în formele primare.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    612,
+    611
+   ],
+   "pdfPages": [
+    89,
+    88
+   ],
+   "section": "Tiroidite autoimune; Dishormonogeneza"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Aceste elemente sunt asociate în forma familială descrisă.",
+    "evidenceLocation": "Kumar, p. 612, 611, Tiroidite autoimune; Dishormonogeneza; distincția verificată: Aceste elemente sunt asociate în forma familială descrisă."
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Primele două elemente sunt corecte, dar poate exista Hashi-toxicoză inițială.",
+    "evidenceLocation": "Kumar, p. 612, 611, Tiroidite autoimune; Dishormonogeneza; distincția verificată: Primele două elemente sunt corecte, dar poate exista Hashi-toxicoză inițială."
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Pot apărea ambele faze secvențial; histologia este limfocitară.",
+    "evidenceLocation": "Kumar, p. 612, 611, Tiroidite autoimune; Dishormonogeneza; distincția verificată: Pot apărea ambele faze secvențial; histologia este limfocitară."
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Forma atrofică evoluează spre atrofie și fibroză; regenerarea cu gușă este descrisă în Hashimoto.",
+    "evidenceLocation": "Kumar, p. 612, 611, Tiroidite autoimune; Dishormonogeneza; distincția verificată: Forma atrofică evoluează spre atrofie și fibroză; regenerarea cu gușă este descrisă în Hashimoto."
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Defectul genetic este corect, dar bolnavii dezvoltă hipotiroidism cu gușă.",
+    "evidenceLocation": "Kumar, p. 612, 611, Tiroidite autoimune; Dishormonogeneza; distincția verificată: Defectul genetic este corect, dar bolnavii dezvoltă hipotiroidism cu gușă."
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-13T07:06:53.189Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Fiecare distractor păstrează etiologia corectă și schimbă un singur atribut evolutiv sau morfologic."
+  },
+  "textbookExpressions": [
+   "transportorul pendrina",
+   "tiroidită limfocitară",
+   "Hashi-toxicoza"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-008",
+  "questionFingerprint": "e31c8a841587357ae7e309b6ca1196ef83a4de99471268f0c7f7ab53bcd059c9",
+  "status": "source-checked",
+  "learningObjective": "Distingerea anomaliilor asociate de cele produse prin mecanisme diferite.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    613
+   ],
+   "pdfPages": [
+    90
+   ],
+   "section": "Investigarea hipotiroidismului primar"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Ambele cauze ale microcitozei sunt enumerate.",
+    "evidenceLocation": "Kumar, p. 613, Investigarea hipotiroidismului primar; distincția verificată: Ambele cauze ale microcitozei sunt enumerate."
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Macrocitoza poate reflecta anemia pernicioasă asociată; depleția de fier produce microcitoză.",
+    "evidenceLocation": "Kumar, p. 613, Investigarea hipotiroidismului primar; distincția verificată: Macrocitoza poate reflecta anemia pernicioasă asociată; depleția de fier produce microcitoză."
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Acesta este mecanismul hiponatremiei descris.",
+    "evidenceLocation": "Kumar, p. 613, Investigarea hipotiroidismului primar; distincția verificată: Acesta este mecanismul hiponatremiei descris."
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Creșterea CK este asociată miopatiei.",
+    "evidenceLocation": "Kumar, p. 613, Investigarea hipotiroidismului primar; distincția verificată: Creșterea CK este asociată miopatiei."
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Textul admite origine musculară și/sau hepatică.",
+    "evidenceLocation": "Kumar, p. 613, Investigarea hipotiroidismului primar; distincția verificată: Textul admite origine musculară și/sau hepatică."
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-13T07:06:53.189Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Toate constatările pot apărea în hipotiroidism; eroarea este în atribuirea mecanismului, nu în prezența manifestării."
+  },
+  "textbookExpressions": [
+   "eliminarea defectuoasă a apei libere",
+   "miopatie asociată",
+   "anemia pernicioasă"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-009",
+  "questionFingerprint": "314c551ba57557883128b021aa1dba212f75c2f43c9275adf707fc96826e8d5a",
+  "status": "source-checked",
+  "learningObjective": "Separarea răspunsului clinic întârziat, expunerii insuficiente și suprasubstituției.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    613
+   ],
+   "pdfPages": [
+    90
+   ],
+   "section": "Terapia de substituție; Monitorizarea"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Acesta este intervalul minim de doză constantă cerut în text.",
+    "evidenceLocation": "Kumar, p. 613, Terapia de substituție; Monitorizarea; distincția verificată: Acesta este intervalul minim de doză constantă cerut în text."
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Ameliorarea poate debuta după două săptămâni sau mai târziu, iar rezoluția completă poate dura luni.",
+    "evidenceLocation": "Kumar, p. 613, Terapia de substituție; Monitorizarea; distincția verificată: Ameliorarea poate debuta după două săptămâni sau mai târziu, iar rezoluția completă poate dura luni."
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Aceste medicamente pot interfera cu absorbția; se verifică și complianța și boala celiacă.",
+    "evidenceLocation": "Kumar, p. 613, Terapia de substituție; Monitorizarea; distincția verificată: Aceste medicamente pot interfera cu absorbția; se verifică și complianța și boala celiacă."
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Supresia completă trebuie evitată din cauza fibrilației atriale și osteoporozei.",
+    "evidenceLocation": "Kumar, p. 613, Terapia de substituție; Monitorizarea; distincția verificată: Supresia completă trebuie evitată din cauza fibrilației atriale și osteoporozei."
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Creșterea prea rapidă poate produce simptome tirotoxice chiar cu fT4 normală.",
+    "evidenceLocation": "Kumar, p. 613, Terapia de substituție; Monitorizarea; distincția verificată: Creșterea prea rapidă poate produce simptome tirotoxice chiar cu fT4 normală."
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-13T07:06:53.189Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Decizia depinde de timpul de la modificarea dozei, absorbție și diferența dintre interval normal și supresie."
+  },
+  "textbookExpressions": [
+   "doză constantă",
+   "compușii de calciu",
+   "supresia completă a TSH"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-010",
+  "questionFingerprint": "83a6076175445ce6699fc5ba90e80fa980e178bcaa2f5ff6c41dee704d1e0361",
+  "status": "source-checked",
+  "learningObjective": "Separarea semnelor adrenergice nespecifice de boala orbitală imună.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    618,
+    615
+   ],
+   "pdfPages": [
+    95,
+    92
+   ],
+   "section": "Orbitopatia Graves — Fiziopatologie; Tablou clinic"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Aceste două semne sunt descrise la p. 615 ca nespecifice Graves.",
+    "evidenceLocation": "Kumar, p. 618, 615, Orbitopatia Graves — Fiziopatologie; Tablou clinic; distincția verificată: Aceste două semne sunt descrise la p. 615 ca nespecifice Graves."
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Limitarea prin edem retro-orbital aparține răspunsului imun, nu simplei retracții palpebrale.",
+    "evidenceLocation": "Kumar, p. 618, 615, Orbitopatia Graves — Fiziopatologie; Tablou clinic; distincția verificată: Limitarea prin edem retro-orbital aparține răspunsului imun, nu simplei retracții palpebrale."
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Funcția tiroidiană și boala oculară nu sunt echivalente.",
+    "evidenceLocation": "Kumar, p. 618, 615, Orbitopatia Graves — Fiziopatologie; Tablou clinic; distincția verificată: Funcția tiroidiană și boala oculară nu sunt echivalente."
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Manifestările oculare nu evoluează în paralel cu tirotoxicoza biochimică.",
+    "evidenceLocation": "Kumar, p. 618, 615, Orbitopatia Graves — Fiziopatologie; Tablou clinic; distincția verificată: Manifestările oculare nu evoluează în paralel cu tirotoxicoza biochimică."
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Protruzia este de obicei bilaterală, dar poate fi unilaterală.",
+    "evidenceLocation": "Kumar, p. 618, 615, Orbitopatia Graves — Fiziopatologie; Tablou clinic; distincția verificată: Protruzia este de obicei bilaterală, dar poate fi unilaterală."
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-13T07:06:53.189Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distinge mecanisme oculare apropiate și disocierea dintre activitatea glandulară și orbitală."
+  },
+  "textbookExpressions": [
+   "inflamație retro-orbitală",
+   "edemul mușchilor extraoculari"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-012",
+  "questionFingerprint": "6c3727b63a7322eeb221eb5501857992c713ed307fb73b0dd90e3d6a530e3db6",
+  "status": "source-checked",
+  "learningObjective": "Combinarea scintigramei cu mecanismul și evoluția, nu doar cu TSH supresat.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    614
+   ],
+   "pdfPages": [
+    91
+   ],
+   "section": "Cadranul 21.29; Tiroidita de Quervain"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Captarea și serologia sunt concordante cu Graves.",
+    "evidenceLocation": "Kumar, p. 614, Cadranul 21.29; Tiroidita de Quervain; distincția verificată: Captarea și serologia sunt concordante cu Graves."
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Acesta este modelul nodular descris.",
+    "evidenceLocation": "Kumar, p. 614, Cadranul 21.29; Tiroidita de Quervain; distincția verificată: Acesta este modelul nodular descris."
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Markerii sunt crescuți, dar captarea este minimă în faza acută.",
+    "evidenceLocation": "Kumar, p. 614, Cadranul 21.29; Tiroidita de Quervain; distincția verificată: Markerii sunt crescuți, dar captarea este minimă în faza acută."
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Succesiunea este descrisă după câteva săptămâni.",
+    "evidenceLocation": "Kumar, p. 614, Cadranul 21.29; Tiroidita de Quervain; distincția verificată: Succesiunea este descrisă după câteva săptămâni."
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Antitiroidienele controlează excesul hormonal, dar induc rar rezoluția gușii toxice.",
+    "evidenceLocation": "Kumar, p. 614, Cadranul 21.29; Tiroidita de Quervain; distincția verificată: Antitiroidienele controlează excesul hormonal, dar induc rar rezoluția gușii toxice."
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-13T07:06:53.189Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Profile hormonale similare sunt diferențiate prin distribuția captării și probabilitatea remisiunii."
+  },
+  "textbookExpressions": [
+   "captare focală",
+   "captare minimă",
+   "hipotiroidism tranzitoriu"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-013",
+  "questionFingerprint": "eac5fe5e8f8bffcc64e9d6065e6e54cea19bfbf0a183e03b33c165d660702dd2",
+  "status": "source-checked",
+  "learningObjective": "Distingerea efectului de sinteză, conversiei periferice și recuperării axului TSH.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    616
+   ],
+   "pdfPages": [
+    93
+   ],
+   "section": "Medicația antitiroidiană; Regimuri de dozare"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Această relație farmacologică este descrisă.",
+    "evidenceLocation": "Kumar, p. 616, Medicația antitiroidiană; Regimuri de dozare; distincția verificată: Această relație farmacologică este descrisă."
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "PTU are acest efect suplimentar.",
+    "evidenceLocation": "Kumar, p. 616, Medicația antitiroidiană; Regimuri de dozare; distincția verificată: PTU are acest efect suplimentar."
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "T4 are un timp de înjumătățire de aproximativ șapte zile, ceea ce întârzie beneficiul.",
+    "evidenceLocation": "Kumar, p. 616, Medicația antitiroidiană; Regimuri de dozare; distincția verificată: T4 are un timp de înjumătățire de aproximativ șapte zile, ceea ce întârzie beneficiul."
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "TSH poate rămâne supresat luni după normalizarea hormonilor.",
+    "evidenceLocation": "Kumar, p. 616, Medicația antitiroidiană; Regimuri de dozare; distincția verificată: TSH poate rămâne supresat luni după normalizarea hormonilor."
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "La început se folosesc starea clinică și fT4/fT3, deoarece TSH poate rămâne supresat.",
+    "evidenceLocation": "Kumar, p. 616, Medicația antitiroidiană; Regimuri de dozare; distincția verificată: La început se folosesc starea clinică și fT4/fT3, deoarece TSH poate rămâne supresat."
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-13T07:06:53.189Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Solicită separarea a trei ritmuri de răspuns și a mecanismelor apropiate ale celor două medicamente."
+  },
+  "textbookExpressions": [
+   "metabolitul activ",
+   "conversia T4 în T3",
+   "TSH rămâne adeseori suprimat"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-014",
+  "questionFingerprint": "7260f2c95fdb518a9db87a6f7def22e9fd270f3dd63e7eb3191fd6f19e9de188",
+  "status": "source-checked",
+  "learningObjective": "Separarea protecției față de iradiere, răspunsului întârziat și evoluției tardive.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    617
+   ],
+   "pdfPages": [
+    94
+   ],
+   "section": "Iodul radioactiv; Supravegherea pe termen lung"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Textul distinge efectul radioprotector al PTU.",
+    "evidenceLocation": "Kumar, p. 617, Iodul radioactiv; Supravegherea pe termen lung; distincția verificată: Textul distinge efectul radioprotector al PTU."
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Distrugerea glandulară nu produce efect complet imediat.",
+    "evidenceLocation": "Kumar, p. 617, Iodul radioactiv; Supravegherea pe termen lung; distincția verificată: Distrugerea glandulară nu produce efect complet imediat."
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Hipotiroidismul tardiv justifică monitorizarea continuă.",
+    "evidenceLocation": "Kumar, p. 617, Iodul radioactiv; Supravegherea pe termen lung; distincția verificată: Hipotiroidismul tardiv justifică monitorizarea continuă."
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Agravarea orbitopatiei este mai frecventă după iod radioactiv.",
+    "evidenceLocation": "Kumar, p. 617, Iodul radioactiv; Supravegherea pe termen lung; distincția verificată: Agravarea orbitopatiei este mai frecventă după iod radioactiv."
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Hipotiroidismul se poate instala ulterior, inclusiv după eutiroidizare inițială.",
+    "evidenceLocation": "Kumar, p. 617, Iodul radioactiv; Supravegherea pe termen lung; distincția verificată: Hipotiroidismul se poate instala ulterior, inclusiv după eutiroidizare inițială."
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-13T07:06:53.189Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distincția între cele două antitiroidiene trebuie integrată cu răspunsul precoce, orbital și tardiv."
+  },
+  "textbookExpressions": [
+   "acțiune radioprotectoare",
+   "supravegherea pe termen lung"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-016",
+  "questionFingerprint": "bd03134e7c9147c814f6b90072ca09cf9860860b6e2aba8d7c6719f3d7581135",
+  "status": "source-checked",
+  "learningObjective": "Integrarea feedbackului central cu sensibilitatea tisulară neuniformă.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    618
+   ],
+   "pdfPages": [
+    95
+   ],
+   "section": "Rezistența la hormonii tiroidieni"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Aceasta este consecința mutațiilor receptorului descris.",
+    "evidenceLocation": "Kumar, p. 618, Rezistența la hormonii tiroidieni; distincția verificată: Aceasta este consecința mutațiilor receptorului descris."
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Concentrațiile crescute pot compensa rezistența.",
+    "evidenceLocation": "Kumar, p. 618, Rezistența la hormonii tiroidieni; distincția verificată: Concentrațiile crescute pot compensa rezistența."
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Unele țesuturi pot avea activitate receptorială normală și pot fi expuse excesiv.",
+    "evidenceLocation": "Kumar, p. 618, Rezistența la hormonii tiroidieni; distincția verificată: Unele țesuturi pot avea activitate receptorială normală și pot fi expuse excesiv."
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Ambele alternative sunt enumerate.",
+    "evidenceLocation": "Kumar, p. 618, Rezistența la hormonii tiroidieni; distincția verificată: Ambele alternative sunt enumerate."
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Relația descrisă este inversă: nivelurile necesare eutiroidismului central pot depăși necesarul unor țesuturi periferice sensibile.",
+    "evidenceLocation": "Kumar, p. 618, Rezistența la hormonii tiroidieni; distincția verificată: Relația descrisă este inversă: nivelurile necesare eutiroidismului central pot depăși necesarul unor țesuturi periferice sensibile."
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-13T07:06:53.190Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul reproduce un rezultat real de laborator, dar îi atribuie o echivalență tisulară falsă."
+  },
+  "textbookExpressions": [
+   "același efect intracelular",
+   "rezistență parțială la hormonii tiroidieni"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-018",
+  "questionFingerprint": "b796bb7bb358b302b7e3fd899dcefd4b2ab6c549b2af688f60042c4497fd624d",
+  "status": "source-checked",
+  "learningObjective": "Interpretarea markerului în funcție de stimularea TSH și interferența imunologică.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    621,
+    622
+   ],
+   "pdfPages": [
+    96,
+    97
+   ],
+   "section": "Carcinoamele papilare și foliculare — Monitorizare"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Tg este markerul de urmărire descris pentru tumorile diferențiate.",
+    "evidenceLocation": "Kumar, p. 621, 622, Carcinoamele papilare și foliculare — Monitorizare; distincția verificată: Tg este markerul de urmărire descris pentru tumorile diferențiate."
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Stimularea prin TSH crește sensibilitatea.",
+    "evidenceLocation": "Kumar, p. 621, 622, Carcinoamele papilare și foliculare — Monitorizare; distincția verificată: Stimularea prin TSH crește sensibilitatea."
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "rhTSH oferă această posibilitate.",
+    "evidenceLocation": "Kumar, p. 621, 622, Carcinoamele papilare și foliculare — Monitorizare; distincția verificată: rhTSH oferă această posibilitate."
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Interferența este precizată la p. 622.",
+    "evidenceLocation": "Kumar, p. 621, 622, Carcinoamele papilare și foliculare — Monitorizare; distincția verificată: Interferența este precizată la p. 622."
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Anti-Tg pot compromite interpretarea; rezultatele nu sunt echivalente.",
+    "evidenceLocation": "Kumar, p. 621, 622, Carcinoamele papilare și foliculare — Monitorizare; distincția verificată: Anti-Tg pot compromite interpretarea; rezultatele nu sunt echivalente."
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-13T07:06:53.190Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Un rezultat aparent liniștitor trebuie condiționat simultan de stimulare și de validitatea metodei."
+  },
+  "textbookExpressions": [
+   "TSH recombinant",
+   "anticorpii anti-Tg",
+   "marker tumoral post-ablație"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-021",
+  "questionFingerprint": "2223e8aed28e442ba3fd606695a597e8a565f3a2448d27c5b4645bbbc7945f35",
+  "status": "source-checked",
+  "learningObjective": "Integrarea efectelor CV (β↑/α↓), respiratorii, eritrocitare (2,3-BPG) și metabolice, distinct de profilul inversat.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    611
+   ],
+   "pdfPages": [
+    88
+   ],
+   "section": "Cadranul 21.25 — Efectele fiziologice ale hormonilor tiroidieni"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Perechea CV plus β↑/α↓ este din rândurile cardiovascular și simpatic.",
+    "evidenceLocation": "Kumar, p. 611, Cadranul 21.25 — Efectele fiziologice ale hormonilor tiroidieni"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Centrul respirator și motilitatea GI sunt două rânduri consecutive.",
+    "evidenceLocation": "Kumar, p. 611, Cadranul 21.25 — Efectele fiziologice ale hormonilor tiroidieni"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "2,3-BPG și metabolismul glucidic completează sângele și carbohidrații.",
+    "evidenceLocation": "Kumar, p. 611, Cadranul 21.25 — Efectele fiziologice ale hormonilor tiroidieni"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Lipidele, osul și mușchiul închid tabelul.",
+    "evidenceLocation": "Kumar, p. 611, Cadranul 21.25 — Efectele fiziologice ale hormonilor tiroidieni"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Profilul inversat (debit↓, α↑, β↓) contrazice cadranul.",
+    "evidenceLocation": "Kumar, p. 611, Cadranul 21.25 — Efectele fiziologice ale hormonilor tiroidieni"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Patru rânduri reale ale tabelului trebuie ținute împreună; distractorul inversează β versus α și soarta 2,3-BPG."
+  },
+  "textbookExpressions": [
+   "2,3-BPG",
+   "receptori β-adrenergici"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Kumar & Clark (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-022",
+  "questionFingerprint": "7354c2b732eee514a626269c4ed921fd240f00d9d877c9d4cf4efc453c13b10f",
+  "status": "source-checked",
+  "learningObjective": "Separarea T3-toxicozei (TSH↓, fT4 N, fT3↑) de tirotoxicoza clasică și de eutiroidismul compensat.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    611
+   ],
+   "pdfPages": [
+    88
+   ],
+   "section": "Cadranul 21.26 — T3 toxicoza"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Acesta este rândul „T3 Toxicoza” din tabel, cu analizele informative îngroșate.",
+    "evidenceLocation": "Kumar, p. 611, Cadranul 21.26 — T3 toxicoza"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Profilul descrie hipotiroidismul primar.",
+    "evidenceLocation": "Kumar, p. 611, Cadranul 21.26 — T3 toxicoza"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "TSH 5-10 cu hormoni liberi normali este eutiroidismul compensat.",
+    "evidenceLocation": "Kumar, p. 611, Cadranul 21.26 — T3 toxicoza"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Tirotoxicoza obișnuită are și fT4 crescută.",
+    "evidenceLocation": "Kumar, p. 611, Cadranul 21.26 — T3 toxicoza"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Acest amestec nu figurează în cadran.",
+    "evidenceLocation": "Kumar, p. 611, Cadranul 21.26 — T3 toxicoza"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt celelalte rânduri reale ale aceluiași tabel (hipotiroidism, compensat, tirotoxicoză clasică)."
+  },
+  "textbookExpressions": [
+   "T3 Toxicoza",
+   "<0.05mU/L"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Kumar & Clark (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-023",
+  "questionFingerprint": "3d561063a14ce3ee1df526cb301e40228eb0ee4a76acf34072efb9a8a8f2a1ab",
+  "status": "source-checked",
+  "learningObjective": "Reținerea ferestrei TSH 5-10 mU/L cu hormoni liberi normali, distinct de T3-toxicoză și de hipotiroidismul primar.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    611
+   ],
+   "pdfPages": [
+    88
+   ],
+   "section": "Cadranul 21.26 — Eutiroidism compensat"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Intervalul 5-10 mU/L este cel al rândului compensat.",
+    "evidenceLocation": "Kumar, p. 611, Cadranul 21.26 — Eutiroidism compensat"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Ambii hormoni liberi normali completează profilul.",
+    "evidenceLocation": "Kumar, p. 611, Cadranul 21.26 — Eutiroidism compensat"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "TSH supresat + fT3↑ este T3-toxicoza.",
+    "evidenceLocation": "Kumar, p. 611, Cadranul 21.26 — Eutiroidism compensat"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "TSH >10 cu fT4 scăzută este hipotiroidismul primar.",
+    "evidenceLocation": "Kumar, p. 611, Cadranul 21.26 — Eutiroidism compensat"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "TSH nedetectabil cu T4/T3 crescute este tirotoxicoza.",
+    "evidenceLocation": "Kumar, p. 611, Cadranul 21.26 — Eutiroidism compensat"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt rândurile vecine ale tabelului, cu TSH mutată cu o treaptă."
+  },
+  "textbookExpressions": [
+   "5-10mU/L",
+   "Eutiroidism compensat"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Kumar & Clark (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-024",
+  "questionFingerprint": "ebbbffaf304a95fc7de3bece578f9f11e839de668788ef5605847f12b97a6f5f",
+  "status": "source-checked",
+  "learningObjective": "Reținerea magnitudinii indiene (500 de milioane / 2 milioane cretinism) și a mecanismului TSH-gușă.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    612
+   ],
+   "pdfPages": [
+    89
+   ],
+   "section": "Deficitul de iod"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Gușa endemică masivă este cadrul epidemiologic.",
+    "evidenceLocation": "Kumar, p. 612, Deficitul de iod"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Eu-/hipotiroidismul proporțional cu deficitul și stimularea TSH sunt mecanismul.",
+    "evidenceLocation": "Kumar, p. 612, Deficitul de iod"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Cifrele 500 de milioane și 2 milioane sunt din închidere.",
+    "evidenceLocation": "Kumar, p. 612, Deficitul de iod"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Textul spune că iodarea are succes incomplet.",
+    "evidenceLocation": "Kumar, p. 612, Deficitul de iod"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Cifrele sunt inversate: 500 de milioane au deficit, 2 milioane cretinism.",
+    "evidenceLocation": "Kumar, p. 612, Deficitul de iod"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează 500 de milioane versus 2 milioane și neagă persistența problemei după iodarea sării."
+  },
+  "textbookExpressions": [
+   "500 de milioane",
+   "2 milioane"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Kumar & Clark (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-025",
+  "questionFingerprint": "431c58d3d2c42a233fb796ffbb83f60e5b360eca12a15dd57ee25d9ebb86bb17",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea tegumentelor calde hiperdinamice și a pachetului ocular/gușă/miopatie/scădere ponderală de mâinile reci umede ale anxietății.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    616
+   ],
+   "pdfPages": [
+    93
+   ],
+   "section": "Diagnostic diferențial — Anxietate versus hipertiroidism"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cei patru markeri pozitivi sunt lista din paragraf.",
+    "evidenceLocation": "Kumar, p. 616, Diagnostic diferențial — Anxietate versus hipertiroidism"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Contrastul cald versus rece-umed este fraza-cheie.",
+    "evidenceLocation": "Kumar, p. 616, Diagnostic diferențial — Anxietate versus hipertiroidism"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Mâinile reci umede sunt ale anxietății, nu ale hipertiroidismului.",
+    "evidenceLocation": "Kumar, p. 616, Diagnostic diferențial — Anxietate versus hipertiroidism"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Pierderea în greutate cu apetit păstrat/crescut este utilă pentru hipertiroidism.",
+    "evidenceLocation": "Kumar, p. 616, Diagnostic diferențial — Anxietate versus hipertiroidism"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Semnele oculare și gușa sunt tocmai markerii pozitivi.",
+    "evidenceLocation": "Kumar, p. 616, Diagnostic diferențial — Anxietate versus hipertiroidism"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează mâinile calde versus reci-umede, distincția centrală a paragrafului."
+  },
+  "textbookExpressions": [
+   "mâini reci şi umede",
+   "tegumente periferice calde"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Kumar & Clark (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-026",
+  "questionFingerprint": "5a13cdf5102f2fc43a0ecbae7ffd13df67a6f6beb001261704af25fb8034c5c7",
+  "status": "source-checked",
+  "learningObjective": "Integrarea TSH suprimat, a sensibilității T3 și a specificității 97-99% a TRAb, distinct de anti-TPO nespecifici.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    616,
+    611
+   ],
+   "pdfPages": [
+    93,
+    88
+   ],
+   "section": "Investigații — Hipertiroidism"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Pragul <0,05 mU/L și excepția de hipersecreție TSH sunt enunțate.",
+    "evidenceLocation": "Kumar, p. 616, 611, Investigații — Hipertiroidism"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Sensibilitatea superioară a T3 și confirmarea prin fT4/fT3 sunt din listă.",
+    "evidenceLocation": "Kumar, p. 616, 611, Investigații — Hipertiroidism"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "97-99% este specificitatea TRAb de generația a treia.",
+    "evidenceLocation": "Kumar, p. 616, 611, Investigații — Hipertiroidism"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Anti-TPO/Tg apar și la persoane fără patologie confirmată; specificitatea 97-99% este a TRAb.",
+    "evidenceLocation": "Kumar, p. 616, 611, Investigații — Hipertiroidism"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Textul cere confirmare biochimică înaintea tratamentului.",
+    "evidenceLocation": "Kumar, p. 616, 611, Investigații — Hipertiroidism"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii mută specificitatea 97-99% de pe TRAb pe anti-TPO și autorizează tratamentul fără laborator."
+  },
+  "textbookExpressions": [
+   "97-99%",
+   "T3 toxicoză"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Kumar & Clark (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-027",
+  "questionFingerprint": "ef6d98b64e0733c4cf88203c8f94c9d2ea34c647cab2209ac07100073808e059",
+  "status": "source-checked",
+  "learningObjective": "Reținerea preferinței pentru absența ISA (propranolol) și a interdicției de monoterapie, exceptând tiroidita subacută.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    616
+   ],
+   "pdfPages": [
+    93
+   ],
+   "section": "Beta-blocantele — Control simptomatic"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Controlul simptomatic rapid și scăderea conversiei sunt cele două efecte.",
+    "evidenceLocation": "Kumar, p. 616, Beta-blocantele — Control simptomatic"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Fără ISA, exemplul propranolol și excepția subacută sunt explicitate.",
+    "evidenceLocation": "Kumar, p. 616, Beta-blocantele — Control simptomatic"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Antitiroidienele, nu beta-blocantul, sunt terapia de fond a Graves.",
+    "evidenceLocation": "Kumar, p. 616, Beta-blocantele — Control simptomatic"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Textul preferă absența ISA.",
+    "evidenceLocation": "Kumar, p. 616, Beta-blocantele — Control simptomatic"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Scăderea conversiei T4→T3 este enunțată.",
+    "evidenceLocation": "Kumar, p. 616, Beta-blocantele — Control simptomatic"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează ISA versus non-ISA și transformă adjuvantul simptomatic în monoterapie a Graves."
+  },
+  "textbookExpressions": [
+   "activitate simpaticomimetică",
+   "tiroidita subacută"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Kumar & Clark (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-028",
+  "questionFingerprint": "88e400eb9b249fd4d47a2743b2c77ae234644a955c42c6d9893f6ee40dc7d4c8",
+  "status": "source-checked",
+  "learningObjective": "Reținerea dozei 400-550 MBq, a ferestrelor 4 zile / 3 zile, a eutiroidiei la 2-3 luni și a hipotiroidismului pe 20 de ani.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    617
+   ],
+   "pdfPages": [
+    94
+   ],
+   "section": "Iodul radioactiv — Protocol"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "400-550 MBq este doza empirică citată.",
+    "evidenceLocation": "Kumar, p. 617, Iodul radioactiv — Protocol"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Cele două ferestre 4 zile și 3 zile sunt protocolul.",
+    "evidenceLocation": "Kumar, p. 617, Iodul radioactiv — Protocol"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "2-3 luni, 75% pe termen scurt și hipotiroidismul pe 20 de ani sunt din supraveghere.",
+    "evidenceLocation": "Kumar, p. 617, Iodul radioactiv — Protocol"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Absența riscului neoplazic este enunțată.",
+    "evidenceLocation": "Kumar, p. 617, Iodul radioactiv — Protocol"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "50 MBq și continuarea ATD contrazic protocolul.",
+    "evidenceLocation": "Kumar, p. 617, Iodul radioactiv — Protocol"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul coboară doza de zece ori și anulează fereastra de întrerupere a antitiroidienelor."
+  },
+  "textbookExpressions": [
+   "400-550 MBq",
+   "2-3 luni"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Kumar & Clark (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-029",
+  "questionFingerprint": "f271e1ee391566d81fb2eef34c6e6b38c0f6a84ff13de4d93d18dd1b38be45c2",
+  "status": "source-checked",
+  "learningObjective": "Asocierea eutiroidiei, a ferestrei 10-14 zile și a iodurii 60 mg × 3 (Wolff–Chaikoff) ca reducători de vascularizație.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    617
+   ],
+   "pdfPages": [
+    94
+   ],
+   "section": "Tratamentul chirurgical — Pregătire"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Condiția eutiroidiană este prima frază.",
+    "evidenceLocation": "Kumar, p. 617, Tratamentul chirurgical — Pregătire"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "10-14 zile este fereastra de oprire a ATD.",
+    "evidenceLocation": "Kumar, p. 617, Tratamentul chirurgical — Pregătire"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "60 mg × 3 și Wolff–Chaikoff sunt schema de iodură.",
+    "evidenceLocation": "Kumar, p. 617, Tratamentul chirurgical — Pregătire"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Textul cere eutiroidie, nu operație pe tirotoxicoză.",
+    "evidenceLocation": "Kumar, p. 617, Tratamentul chirurgical — Pregătire"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Iodura reduce, nu crește, vascularizația.",
+    "evidenceLocation": "Kumar, p. 617, Tratamentul chirurgical — Pregătire"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează efectul iodurii asupra vascularizației și autorizează chirurgia pe tirotoxicoză necontrolată."
+  },
+  "textbookExpressions": [
+   "60 mg",
+   "Wolff-Chaikoff"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Kumar & Clark (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-030",
+  "questionFingerprint": "4312fbadf96841801877f4925a653dd1aee4cec4114494bd9788383593da80ed",
+  "status": "source-checked",
+  "learningObjective": "Reținerea cifrelor 1% (laringeu), ≤10% (hipocalcemie tranzitorie) și <1% (hipoparatiroidism permanent).",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    617
+   ],
+   "pdfPages": [
+    94
+   ],
+   "section": "Complicațiile tiroidectomiei"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "1% și verificarea corzilor sunt din listă.",
+    "evidenceLocation": "Kumar, p. 617, Complicațiile tiroidectomiei"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Maxim 10% și <1% sunt cifrele calciului.",
+    "evidenceLocation": "Kumar, p. 617, Complicațiile tiroidectomiei"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Sângerarea cu decompresie de urgență este prima complicație.",
+    "evidenceLocation": "Kumar, p. 617, Complicațiile tiroidectomiei"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "25% și 30% exagerează de un ordin de mărime.",
+    "evidenceLocation": "Kumar, p. 617, Complicațiile tiroidectomiei"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Hipocalcemia tranzitorie este tocmai complicația citată.",
+    "evidenceLocation": "Kumar, p. 617, Complicațiile tiroidectomiei"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii umflă 1% și 10% la 25–30% și neagă hipocalcemia tranzitorie din aceeași listă."
+  },
+  "textbookExpressions": [
+   "1% din cazuri",
+   "maxim 10%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Kumar & Clark (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-031",
+  "questionFingerprint": "9d0da251da183d07e709a23c085674c229dedb976384d73615f65ee857ae4a84",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea recurenței 1-3% apoi 1%/an și a hipotiroidismului 10% ale subtotalei de opțiunea cvasitotală cu hipotiroidism inevitabil.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    617
+   ],
+   "pdfPages": [
+    94
+   ],
+   "section": "Tehnica chirurgicală — Subtotală versus cvasitotală"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cifrele 1-3%, 1%/an și 10% sunt ale subtotalei.",
+    "evidenceLocation": "Kumar, p. 617, Tehnica chirurgicală — Subtotală versus cvasitotală"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Preferința pentru cvasitotală și hipotiroidismul inevitabil sunt concluzia.",
+    "evidenceLocation": "Kumar, p. 617, Tehnica chirurgicală — Subtotală versus cvasitotală"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Excizia nodulului unic este curativă.",
+    "evidenceLocation": "Kumar, p. 617, Tehnica chirurgicală — Subtotală versus cvasitotală"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Subtotala tocmai nu garantează eutiroidia.",
+    "evidenceLocation": "Kumar, p. 617, Tehnica chirurgicală — Subtotală versus cvasitotală"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Recurența nu este nulă, iar 90% în prima săptămână nu este cifra din text.",
+    "evidenceLocation": "Kumar, p. 617, Tehnica chirurgicală — Subtotală versus cvasitotală"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii transformă recurența 1-3% a subtotalei în zero și mută hipotiroidismul de la 10%/an la 90% în prima săptămână."
+  },
+  "textbookExpressions": [
+   "1-3%",
+   "cvasitotală"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Kumar & Clark (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-032",
+  "questionFingerprint": "f836eba86c02ca45e0e0e1a98ef2d07e4ee3c266daae3d02c4d619050666b0e6",
+  "status": "source-checked",
+  "learningObjective": "Reținerea mortalității de 10% și a pachetului propranolol + iodură + antitiroidian + corticoid.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    617
+   ],
+   "pdfPages": [
+    94
+   ],
+   "section": "Criza tiroidiană"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Tabloul, mortalitatea 10% și cele patru clase plus reechilibrarea sunt din paragraf.",
+    "evidenceLocation": "Kumar, p. 617, Criza tiroidiană"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Textul o descrie ca urgență cu mortalitate 10%, nu ca anxietate.",
+    "evidenceLocation": "Kumar, p. 617, Criza tiroidiană"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Mortalitatea citată este 10%, nu 90%; iodura face parte din tratament.",
+    "evidenceLocation": "Kumar, p. 617, Criza tiroidiană"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Tahicardia severă este cardinală.",
+    "evidenceLocation": "Kumar, p. 617, Criza tiroidiană"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Levotiroxina nu este terapia furtunii; corticosteroizii inhibă manifestările.",
+    "evidenceLocation": "Kumar, p. 617, Criza tiroidiană"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-15T16:48:55.672Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii umflă mortalitatea la 90% sau o reduc la anxietate și scot iodura/corticoidul din pachetul de urgență."
+  },
+  "textbookExpressions": [
+   "mortalitate de 10%",
+   "furtuna tiroidiană"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul extras local din Kumar & Clark (tmp/source-books). Stem formulat după tiparele caietelor de examen 2021–2025. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-033",
+  "questionFingerprint": "224e5e6afe063390390ab34161d0d69d56352dfc066e58fe7732a3583dd3929f",
+  "status": "source-checked",
+  "learningObjective": "Reținerea disocierii pe sexe (>2% versus <0,1%), a riscului pe viață 9%/1% și a vârstei mediane de 60 de ani.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    611
+   ],
+   "pdfPages": [
+    88
+   ],
+   "section": "Hipotiroidism — Epidemiologie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cifrele de prevalență UK pe sexe deschid paragraful.",
+    "evidenceLocation": "Kumar & Clark, p. 611, Hipotiroidism — Epidemiologie"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "9%, 1% și 60 de ani completează riscul pe viață.",
+    "evidenceLocation": "Kumar & Clark, p. 611, Hipotiroidism — Epidemiologie"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Intervalul 1-10% al formei subclinice este explicit.",
+    "evidenceLocation": "Kumar & Clark, p. 611, Hipotiroidism — Epidemiologie"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Textul dă disociere majoră pe sexe, nu 20% identic, și diagnostic la ~60 de ani.",
+    "evidenceLocation": "Kumar & Clark, p. 611, Hipotiroidism — Epidemiologie"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Hipofuncția este de obicei primară; cauza hipofizară este secundară.",
+    "evidenceLocation": "Kumar & Clark, p. 611, Hipotiroidism — Epidemiologie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii unifică prevalența pe sexe la 20% și inversează primar versus secundar."
+  },
+  "textbookExpressions": [
+   "peste 2% la femei",
+   "vârsta medie la diagnosticare"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-034",
+  "questionFingerprint": "645a6d613443a2eba7f7a661a96f7687aa0c3638ff8928e8afb955711bf99163",
+  "status": "source-checked",
+  "learningObjective": "Asocierea gușii cauciucate, a titrului TPO >1 000 UI/L și a Hashi-toxicozei, plus regresia gușii sub levotiroxină.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    612
+   ],
+   "pdfPages": [
+    89
+   ],
+   "section": "Tiroidita Hashimoto"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Demografia, regenerarea cu gușă și consistența cauciucată sunt din deschidere.",
+    "evidenceLocation": "Kumar & Clark, p. 612, Tiroidita Hashimoto"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": ">1 000 UI/L este titrul citat.",
+    "evidenceLocation": "Kumar & Clark, p. 612, Tiroidita Hashimoto"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Eu-/hipotiroidismul, faza toxică și regresia gușii completează.",
+    "evidenceLocation": "Kumar & Clark, p. 612, Tiroidita Hashimoto"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Consistența variază de la moale la dură, anti-TPO sunt înalți, Hashi-toxicoza este numită.",
+    "evidenceLocation": "Kumar & Clark, p. 612, Tiroidita Hashimoto"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Textul precizează reducerea gușii chiar fără hipotiroidism.",
+    "evidenceLocation": "Kumar & Clark, p. 612, Tiroidita Hashimoto"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii neagă titrul TPO înalt și Hashi-toxicoza, trăsăturile centrale ale paragrafului."
+  },
+  "textbookExpressions": [
+   ">1.000 UI/L",
+   "Hashi-toxicoza"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-035",
+  "questionFingerprint": "bdc22a449246a0e5b4d79b11c4c5cba1ae4932ac64fcbf4b26c20de2a97d8bd1",
+  "status": "source-checked",
+  "learningObjective": "Ierarhizarea 100 / 50 / 25 µg după vârstă și ischemie, plus întreținerea 100-150 µg fără supresie TSH.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    613
+   ],
+   "pdfPages": [
+    90
+   ],
+   "section": "Terapia de substituție — Doze"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "100 µg la tânărul apt este prima treaptă.",
+    "evidenceLocation": "Kumar & Clark, p. 613, Terapia de substituție — Doze"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "50→100 µg la 2-4 săptămâni este treapta intermediară.",
+    "evidenceLocation": "Kumar & Clark, p. 613, Terapia de substituție — Doze"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "25 µg și intervalul 3-4 săptămâni sunt ale ischemicului.",
+    "evidenceLocation": "Kumar & Clark, p. 613, Terapia de substituție — Doze"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "100-150 µg și avertismentul FA/osteoporoză închid monitorizarea.",
+    "evidenceLocation": "Kumar & Clark, p. 613, Terapia de substituție — Doze"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "300 µg și TSH nedetectabil contrazic prudența cardiacă și interdicția supresiei.",
+    "evidenceLocation": "Kumar & Clark, p. 613, Terapia de substituție — Doze"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul înlocuiește 25 µg la ischemic cu 300 µg și transformă supresia TSH din risc în țintă."
+  },
+  "textbookExpressions": [
+   "100 µg zilnic",
+   "25 µg zilnic"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-036",
+  "questionFingerprint": "d3c6aa426880715b1bafeb95dbb36434a86e3b1939bec7d0e74eb7b1a32d083c",
+  "status": "source-checked",
+  "learningObjective": "Separarea pragului TSH >10 mU/L (sau simptome/anticorpi/lipide) de retestarea la 3-6 luni a valorilor marginale.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    613
+   ],
+   "pdfPages": [
+    90
+   ],
+   "section": "Eutiroidismul compensat — Conduită"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Pragul >10 și cele trei indicații suplimentare sunt din prima frază.",
+    "evidenceLocation": "Kumar & Clark, p. 613, Eutiroidismul compensat — Conduită"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "3-6 luni, normalizarea și riscul la bărbați/anti-TPO sunt din a doua.",
+    "evidenceLocation": "Kumar & Clark, p. 613, Eutiroidismul compensat — Conduită"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Textul cere retestare, nu tratament imediat al valorii marginale.",
+    "evidenceLocation": "Kumar & Clark, p. 613, Eutiroidismul compensat — Conduită"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Simptomele vagi sub 10 mU/L răspund rar; proba terapeutică este tocmai pentru a infirma originea tiroidiană.",
+    "evidenceLocation": "Kumar & Clark, p. 613, Eutiroidismul compensat — Conduită"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Se impune normalizarea TSH în sarcină pentru făt.",
+    "evidenceLocation": "Kumar & Clark, p. 613, Eutiroidismul compensat — Conduită"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii transformă valoarea marginală într-o indicație imediată și lasă sarcina fără substituție."
+  },
+  "textbookExpressions": [
+   "peste 10 mU/L",
+   "3-6 luni mai târziu"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-037",
+  "questionFingerprint": "82e3c0b0ce986b8206843aa5335823175dd83827334274451290037e24725310",
+  "status": "source-checked",
+  "learningObjective": "Reținerea ferestrei 2,5-5 µg T3 la 8 ore și a interdicției bolusului mare IV.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    613
+   ],
+   "pdfPages": [
+    90
+   ],
+   "section": "Coma mixedematoasă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "2,5-5 µg la 8 ore și interdicția dozelor mari IV sunt fraza de tratament.",
+    "evidenceLocation": "Kumar & Clark, p. 613, Coma mixedematoasă"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Textul preferă T3 în doze mici, nu un bolus mare de T4.",
+    "evidenceLocation": "Kumar & Clark, p. 613, Coma mixedematoasă"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Dozele mari IV sunt explicit interzise; hidrocortizonul 100 mg la 8 ore face parte din măsurile suplimentare.",
+    "evidenceLocation": "Kumar & Clark, p. 613, Coma mixedematoasă"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Coma mixedematoasă nu urmează schema ambulatorie de 100 µg.",
+    "evidenceLocation": "Kumar & Clark, p. 613, Coma mixedematoasă"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Hormonul tiroidian este central; reîncălzirea este treptată.",
+    "evidenceLocation": "Kumar & Clark, p. 613, Coma mixedematoasă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii înlocuiesc 2,5-5 µg la 8 ore cu boluri de 100-300 µg, pe care textul le interzice."
+  },
+  "textbookExpressions": [
+   "2,5-5µ9",
+   "hidrocortizon 100 mg"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-038",
+  "questionFingerprint": "75a1db2295af6fbeb3d7fb96f03a973a5127e1445ae665c312beb7da5fcfd2c2",
+  "status": "source-checked",
+  "learningObjective": "Reținerea cifrei 1/3 500, a cretinismului și a ferestrei terapeutice din primele luni de viață.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    613
+   ],
+   "pdfPages": [
+    90
+   ],
+   "section": "Screening-ul hipotiroidismului"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "1 la 3 500 este incidența citată.",
+    "evidenceLocation": "Kumar & Clark, p. 613, Screening-ul hipotiroidismului"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Cretinismul ca sechelă netratată este explicit.",
+    "evidenceLocation": "Kumar & Clark, p. 613, Screening-ul hipotiroidismului"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Guthrie și inițierea T4 în primele luni închid prevenția.",
+    "evidenceLocation": "Kumar & Clark, p. 613, Screening-ul hipotiroidismului"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Screeningul vârstnicului este nerecomandat exceptând confuzia; litiul și amiodarona cer testare regulată.",
+    "evidenceLocation": "Kumar & Clark, p. 613, Screening-ul hipotiroidismului"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "1 la 50 exagerează incidența; fereastra utilă este în primele luni.",
+    "evidenceLocation": "Kumar & Clark, p. 613, Screening-ul hipotiroidismului"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii umflă incidența la 1/50 și anulează monitorizarea sub litiu/amiodaronă."
+  },
+  "textbookExpressions": [
+   "1 la 3.500",
+   "testul Guthrie"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-039",
+  "questionFingerprint": "cd8f4297ee682a0182c35699b042afbf32b4bcc54d2aa5bfdfd3353981c037d1",
+  "status": "source-checked",
+  "learningObjective": "Reținerea ferestrei 2-5% / 5:1 / 20-40 ani și a originii intrinsci >99%.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    614
+   ],
+   "pdfPages": [
+    91
+   ],
+   "section": "Hipertiroidismul — Epidemiologie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cifrele 2-5%, 5:1 și 20-40 de ani deschid paragraful.",
+    "evidenceLocation": "Kumar & Clark, p. 614, Hipertiroidismul — Epidemiologie"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": ">99% intrinsc versus hipofizar rar este fraza următoare.",
+    "evidenceLocation": "Kumar & Clark, p. 614, Hipertiroidismul — Epidemiologie"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Textul dă predominanță feminină 20-40 de ani, nu masculină peste 70.",
+    "evidenceLocation": "Kumar & Clark, p. 614, Hipertiroidismul — Epidemiologie"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Graves, gușa multinodulară toxică și nodulul solitar sunt cauzele frecvente.",
+    "evidenceLocation": "Kumar & Clark, p. 614, Hipertiroidismul — Epidemiologie"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Cauza hipofizară este extrem de rară.",
+    "evidenceLocation": "Kumar & Clark, p. 614, Hipertiroidismul — Epidemiologie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează sexul/vârsta și mută etiologia de la >99% intrinsc la hipofizar."
+  },
+  "textbookExpressions": [
+   "2-5% din toate femeile",
+   "raport pe sexe de 5:1"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-040",
+  "questionFingerprint": "92fd85f82a00eb7830894d64225e6b3374e4654f4de6a511fed70a7f6a4bee88",
+  "status": "source-checked",
+  "learningObjective": "Reținerea ierarhiei 15/9/1/<1% și a ferestrei 3-12 săptămâni, plus conduita simptomatică.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    615
+   ],
+   "pdfPages": [
+    92
+   ],
+   "section": "Tirotoxicoza indusă de imunoterapie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cele patru procente irAE sunt din listă.",
+    "evidenceLocation": "Kumar & Clark, p. 615, Tirotoxicoza indusă de imunoterapie"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "15% și 3-12 săptămâni definesc tiroidita ca cea mai frecventă.",
+    "evidenceLocation": "Kumar & Clark, p. 615, Tirotoxicoza indusă de imunoterapie"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Beta-blocant, analgezic și ATD ocazional sunt conduita.",
+    "evidenceLocation": "Kumar & Clark, p. 615, Tirotoxicoza indusă de imunoterapie"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Cifrele sunt inversate: tiroidita 15%, DZ1 <1%.",
+    "evidenceLocation": "Kumar & Clark, p. 615, Tirotoxicoza indusă de imunoterapie"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Fereastra este 3-12 săptămâni, nu 5 ani.",
+    "evidenceLocation": "Kumar & Clark, p. 615, Tirotoxicoza indusă de imunoterapie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează 15% (tiroidită) cu <1% (DZ1) și mută debutul la 5 ani."
+  },
+  "textbookExpressions": [
+   "tiroidită (15%)",
+   "3 și 12 săptămâni"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-041",
+  "questionFingerprint": "9d0c760064a79b69a469428772331f0368c8b64f2c27154c36a395b3f3b0f5de",
+  "status": "source-checked",
+  "learningObjective": "Integrarea dozei 20-40 mg, a agranulocitozei 0,1%, a latenței 10-20 zile și a substituirii PTU la toxicitate.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    616,
+    617
+   ],
+   "pdfPages": [
+    93,
+    94
+   ],
+   "section": "Cadranul 21.30 — Carbimazol"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "20-40 mg și tiamazolul ca metabolit activ sunt din cadran.",
+    "evidenceLocation": "Kumar & Clark, p. 616, 617, Cadranul 21.30 — Carbimazol"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "0,1% și avertismentul febră/disfagie sunt din textul de siguranță.",
+    "evidenceLocation": "Kumar & Clark, p. 616, 617, Cadranul 21.30 — Carbimazol"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "7 zile și 10-20 de zile explică latența clinică.",
+    "evidenceLocation": "Kumar & Clark, p. 616, 617, Cadranul 21.30 — Carbimazol"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Schimbarea preparatului la erupție/toxicitate este conduita de la începutul paginii următoare.",
+    "evidenceLocation": "Kumar & Clark, p. 616, 617, Cadranul 21.30 — Carbimazol"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "2 mg/săptămână și absența agranulocitozei contrazic cadranul; tiamazolul este metabolitul activ.",
+    "evidenceLocation": "Kumar & Clark, p. 616, 617, Cadranul 21.30 — Carbimazol"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul coboară doza la 2 mg și neagă agranulocitoza 0,1% din același cadran."
+  },
+  "textbookExpressions": [
+   "20-40 mg",
+   "agranulocitoză (0,1%)"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-042",
+  "questionFingerprint": "432a82d6d02df1d74e16840743df5de22dda99af832ca8c118f1dfa7c1a1a61e",
+  "status": "source-checked",
+  "learningObjective": "Reținerea pragului >160/min ca indicator de hipertiroidism fetal și a conduitei PTU/propranolol.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    618
+   ],
+   "pdfPages": [
+    95
+   ],
+   "section": "Fătul și boala Graves maternă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": ">160/min și PTU/propranolol sunt fraza din paragraf.",
+    "evidenceLocation": "Kumar & Clark, p. 618, Fătul și boala Graves maternă"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "IRA este absolut contraindicat în sarcină.",
+    "evidenceLocation": "Kumar & Clark, p. 618, Fătul și boala Graves maternă"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "90/min nu este pragul citat; PTU este tocmai tratamentul hipertiroidismului fetal.",
+    "evidenceLocation": "Kumar & Clark, p. 618, Fătul și boala Graves maternă"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "200/min nu este definit ca eutiroidie.",
+    "evidenceLocation": "Kumar & Clark, p. 618, Fătul și boala Graves maternă"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "TSI persistă și stimulează tiroida fetală; ritmul se monitorizează lunar.",
+    "evidenceLocation": "Kumar & Clark, p. 618, Fătul și boala Graves maternă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii mută pragul 160/min spre 90 sau 200 și reintroduc iodul radioactiv, contraindicat în sarcină."
+  },
+  "textbookExpressions": [
+   "160/minut",
+   "PTU"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-043",
+  "questionFingerprint": "4968fd39462802f751c25676a9673c3c8064fd3af6bfd30c5e799348f62fd67c",
+  "status": "source-checked",
+  "learningObjective": "Separarea riscului 5%, a fals-negativelor 5% și a malignității de 10% a nodulului rece.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    621
+   ],
+   "pdfPages": [
+    96
+   ],
+   "section": "Gușa — FNA și scintigrafie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "5% este riscul citat pentru nodulul solitar/dominant.",
+    "evidenceLocation": "Kumar & Clark, p. 621, Gușa — FNA și scintigrafie"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "5% fals-negativ și urmărirea sunt precizate.",
+    "evidenceLocation": "Kumar & Clark, p. 621, Gușa — FNA și scintigrafie"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Nodulul cald rar malign și 10% la cel rece, cu FNA dominantă, închid paragraful.",
+    "evidenceLocation": "Kumar & Clark, p. 621, Gușa — FNA și scintigrafie"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Doar 10% dintre nodulii reci sunt maligni; FNA este centrală.",
+    "evidenceLocation": "Kumar & Clark, p. 621, Gușa — FNA și scintigrafie"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Rata de 5% fals-negativ impune consiliere și urmărire.",
+    "evidenceLocation": "Kumar & Clark, p. 621, Gușa — FNA și scintigrafie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii transformă nodulul rece din risc 10% în confirmare 90% și anulează fals-negativul FNA."
+  },
+  "textbookExpressions": [
+   "risc de malignitate de 5%",
+   "10% din cazuri"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-044",
+  "questionFingerprint": "5193b320fa9919275ed688f5694bb20028c55c4c161db564cb5c6d1d43a7a9da",
+  "status": "source-checked",
+  "learningObjective": "Reținerea cifrei 25% RET și a tiroidectomiei profilactice de la 5 ani în MEN 2.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    622
+   ],
+   "pdfPages": [
+    97
+   ],
+   "section": "Carcinomul medular — Genetică"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "25% RET fără alte manifestări MEN 2 și screeningul familial sunt din deschidere.",
+    "evidenceLocation": "Kumar & Clark, p. 622, Carcinomul medular — Genetică"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Vârsta de 5 ani pentru tiroidectomia profilactică este explicită.",
+    "evidenceLocation": "Kumar & Clark, p. 622, Carcinomul medular — Genetică"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Mutația poate exista fără alte manifestări MEN 2; screeningul rămâne relevant.",
+    "evidenceLocation": "Kumar & Clark, p. 622, Carcinomul medular — Genetică"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Profilaxia este de la 5 ani, nu de la 50.",
+    "evidenceLocation": "Kumar & Clark, p. 622, Carcinomul medular — Genetică"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Textul citează beneficiu al vandetanibului/cabozantinibului în CMT avansat; chirurgia (totală + evidare) rămâne metoda uzuală.",
+    "evidenceLocation": "Kumar & Clark, p. 622, Carcinomul medular — Genetică"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T17:15:21.921Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii amână profilaxia de la 5 ani la 50 de ani și anulează relevanța RET fără fenotip MEN 2 complet."
+  },
+  "textbookExpressions": [
+   "25% dintre pacienţii",
+   "vârsta de 5 ani"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-045",
+  "questionFingerprint": "2a8dea7486ef93a2e548b0e43a2df3b55fd6f568e991d93b115842fe2fe2fd2d",
+  "status": "source-checked",
+  "learningObjective": "Reținerea statutului de cauză cea mai frecventă și a predominanței feminine de 6:1, cu creșterea incidenței la vârstă.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    611
+   ],
+   "pdfPages": [
+    88
+   ],
+   "section": "Hipotiroidismul atrofic autoimun"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Șase ori mai frecvent la femei, creșterea cu vârsta și asocierea autoimună sunt din paragraf.",
+    "evidenceLocation": "Kumar & Clark, p. 611, Hipotiroidismul atrofic autoimun"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Raportul 6:1 este în favoarea femeilor, nu a bărbaților.",
+    "evidenceLocation": "Kumar & Clark, p. 611, Hipotiroidismul atrofic autoimun"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Hipofuncția este de obicei primară tiroidiană, nu hipofizară.",
+    "evidenceLocation": "Kumar & Clark, p. 611, Hipotiroidismul atrofic autoimun"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Incidența crește, nu scade, cu vârsta.",
+    "evidenceLocation": "Kumar & Clark, p. 611, Hipotiroidismul atrofic autoimun"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Textul asociază explicit pernicioasa, vitiligo și alte insuficiențe endocrine.",
+    "evidenceLocation": "Kumar & Clark, p. 611, Hipotiroidismul atrofic autoimun"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează raportul 6:1 pe sexe și mută etiologia de la autoimun primar la hipofizar."
+  },
+  "textbookExpressions": [
+   "de şase ori mai frecventă",
+   "anemia pernicioasă"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-046",
+  "questionFingerprint": "cc79ba7101631e6630473691e028797b3ff7ba450e974a9422cccb15ba59fd10",
+  "status": "source-checked",
+  "learningObjective": "Separarea prevalenței de 20% a anti-TPO de rata de 10-20% de progresie și de rolul ocazional al TRAb blocanți.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    611
+   ],
+   "pdfPages": [
+    88
+   ],
+   "section": "Anticorpii anti-tiroidieni; Hipotiroidismul atrofic"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cei 20% din populația normală și TPO ca antigen microsomal sunt din listă.",
+    "evidenceLocation": "Kumar & Clark, p. 611, Anticorpii anti-tiroidieni; Hipotiroidismul atrofic"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Doar 10-20% dintre aceste femei/purtători dezvoltă hipotiroidism manifest.",
+    "evidenceLocation": "Kumar & Clark, p. 611, Anticorpii anti-tiroidieni; Hipotiroidismul atrofic"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Forma intermitentă cu TRAb blocanți este din paragraful atrofic.",
+    "evidenceLocation": "Kumar & Clark, p. 611, Anticorpii anti-tiroidieni; Hipotiroidismul atrofic"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Textul dă anti-TPO la eutiroidieni și progresie doar la 10-20%, nu la 90%.",
+    "evidenceLocation": "Kumar & Clark, p. 611, Anticorpii anti-tiroidieni; Hipotiroidismul atrofic"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "TRAb sunt descriși ca specifici pentru Graves.",
+    "evidenceLocation": "Kumar & Clark, p. 611, Anticorpii anti-tiroidieni; Hipotiroidismul atrofic"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii umflă progresia de la 10-20% la 90% și fac din TRAb un marker nespecific de Hashimoto."
+  },
+  "textbookExpressions": [
+   "până la 20%",
+   "10-20% dintre acestea"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-047",
+  "questionFingerprint": "8d1c9379e55bb144a0799bbf6560d2a81b10bf269875bd95b3fd8a5300e80b48",
+  "status": "source-checked",
+  "learningObjective": "Asocierea secvenței hiper/hipo, a histologiei limfocitare și a capcanei de depresie postnatală, plus riscul de permanență dacă se pozitivează anticorpii.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    612
+   ],
+   "pdfPages": [
+    89
+   ],
+   "section": "Tiroidita postpartum"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Tranzitoriul, secvența și limfocitele deschid definiția.",
+    "evidenceLocation": "Kumar & Clark, p. 612, Tiroidita postpartum"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Autolimitarea versus permanența la anticorpi pozitivi este fraza următoare.",
+    "evidenceLocation": "Kumar & Clark, p. 612, Tiroidita postpartum"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Confuzia cu depresia postnatală este avertismentul clinic.",
+    "evidenceLocation": "Kumar & Clark, p. 612, Tiroidita postpartum"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Granulomatoza virală este a tiroiditei De Quervain, nu postpartum.",
+    "evidenceLocation": "Kumar & Clark, p. 612, Tiroidita postpartum"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Textul cere tocmai testarea tiroidiană când tabloul mimează depresia.",
+    "evidenceLocation": "Kumar & Clark, p. 612, Tiroidita postpartum"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii mută entitatea pe De Quervain viral și anulează screeningul tiroidian din depresia postnatală."
+  },
+  "textbookExpressions": [
+   "Tiroidita postpartum",
+   "depresie postnatală"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-048",
+  "questionFingerprint": "dc9a71a907d93cb6dad5913f18dc6084cad2001498250cd025217d276acb87fe",
+  "status": "source-checked",
+  "learningObjective": "Reținerea perechii cromozom 7 / pendrină / surditate senzorială, distinct de RET și de surditatea de conducere.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    612
+   ],
+   "pdfPages": [
+    89
+   ],
+   "section": "Dishormonogeneza — Sindromul Pendred"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Deleția de cromozom 7 și pendrina sunt mecanismul citat.",
+    "evidenceLocation": "Kumar & Clark, p. 612, Dishormonogeneza — Sindromul Pendred"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Hipotiroidismul cu gușă este cadrul dishormonogenezei.",
+    "evidenceLocation": "Kumar & Clark, p. 612, Dishormonogeneza — Sindromul Pendred"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "RET ține de CMT/MEN 2, nu de Pendred.",
+    "evidenceLocation": "Kumar & Clark, p. 612, Dishormonogeneza — Sindromul Pendred"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Locusul citat este cromozomul 7, nu 21.",
+    "evidenceLocation": "Kumar & Clark, p. 612, Dishormonogeneza — Sindromul Pendred"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Surditatea este senzorială; gușa face parte din fenotip.",
+    "evidenceLocation": "Kumar & Clark, p. 612, Dishormonogeneza — Sindromul Pendred"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii mută defectul pe RET sau cromozomul 21 și transformă surditatea senzorială în una de conducere."
+  },
+  "textbookExpressions": [
+   "cromozomului 7",
+   "pendrina"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-049",
+  "questionFingerprint": "7fc03db53cc60917579c7440e029ae0a087dbffae088bdb8753bc9016da09bdc",
+  "status": "source-checked",
+  "learningObjective": "Integrarea celor trei tipuri de anemie, a AST/CK, a dislipidemiei și a hiponatremiei prin ADH.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    613
+   ],
+   "pdfPages": [
+    90
+   ],
+   "section": "Investigarea hipotiroidismului primar — Anomalii asociate"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Spectrul normo/macro/micro al anemiei este enumerat explicit.",
+    "evidenceLocation": "Kumar & Clark, p. 613, Investigarea hipotiroidismului primar — Anomalii asociate"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "AST și CK cu miopatie sunt rânduri consecutive.",
+    "evidenceLocation": "Kumar & Clark, p. 613, Investigarea hipotiroidismului primar — Anomalii asociate"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Perechea lipidică este un rând separat.",
+    "evidenceLocation": "Kumar & Clark, p. 613, Investigarea hipotiroidismului primar — Anomalii asociate"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Mecanismul ADH/apă liberă închide lista.",
+    "evidenceLocation": "Kumar & Clark, p. 613, Investigarea hipotiroidismului primar — Anomalii asociate"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Textul descrie anemie, nu poliglobulie, și enzime crescute, nu scăzute.",
+    "evidenceLocation": "Kumar & Clark, p. 613, Investigarea hipotiroidismului primar — Anomalii asociate"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-18T13:01:01.440Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul inversează anemia în poliglobulie și AST/CK din creștere în scădere."
+  },
+  "textbookExpressions": [
+   "creatin kinază",
+   "Hiponatremie"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-050",
+  "questionFingerprint": "c805d5689e0643dc4ae2f3bd1c3a4c7a85eaf9858d7ee4ed2eac880eeea0cfc2",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea creșterii 25-50 µg / TSH 0,3-2,5 din sarcină de interferențele de absorbție și de absența beneficiului T3 adjunct.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    613
+   ],
+   "pdfPages": [
+    90
+   ],
+   "section": "Monitorizarea; Sarcina; Combinația T4+T3"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "25-50 µg și fereastra 0,3-2,5 mU/L sunt ale sarcinii.",
+    "evidenceLocation": "Kumar & Clark, p. 613, Monitorizarea; Sarcina; Combinația T4+T3"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Fierul, calciul, IPP și celiaca sunt cauzele de TSH greu de normalizat.",
+    "evidenceLocation": "Kumar & Clark, p. 613, Monitorizarea; Sarcina; Combinația T4+T3"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Absența beneficiului constant T4+T3 este concluzia RCT.",
+    "evidenceLocation": "Kumar & Clark, p. 613, Monitorizarea; Sarcina; Combinația T4+T3"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "În sarcină doza crește, nu scade; TSH-ul se strânge în jos, nu peste 10.",
+    "evidenceLocation": "Kumar & Clark, p. 613, Monitorizarea; Sarcina; Combinația T4+T3"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "RCT-urile nu arată beneficiu constant al T3.",
+    "evidenceLocation": "Kumar & Clark, p. 613, Monitorizarea; Sarcina; Combinația T4+T3"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-18T13:06:57.473Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează titrarea din sarcină (creștere versus scădere) și transformă eșecul T4+T3 în superioritate."
+  },
+  "textbookExpressions": [
+   "25-50µg",
+   "0,3-2,5 mU/L"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-051",
+  "questionFingerprint": "aa80b1540843cf5894cd0bed3bd933727d58362e4fd0c4f26531b038fa042368",
+  "status": "source-checked",
+  "learningObjective": "Reținerea ponderii de 5% și a absenței remisiunii după antitiroidiene, distinct de Graves.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    614
+   ],
+   "pdfPages": [
+    91
+   ],
+   "section": "Adenomul/nodulul toxic solitar"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cei 5% și eșecul remisiunii după ATD sunt fraza din paragraf.",
+    "evidenceLocation": "Kumar & Clark, p. 614, Adenomul/nodulul toxic solitar"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "50% și remisiunea rapidă nu sunt ale nodulului toxic.",
+    "evidenceLocation": "Kumar & Clark, p. 614, Adenomul/nodulul toxic solitar"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": ">99% descrie originea tiroidiană intrinsecă a hipertiroidismului, nu ponderea adenomului.",
+    "evidenceLocation": "Kumar & Clark, p. 614, Adenomul/nodulul toxic solitar"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "1/3.500 este incidența hipotiroidismului congenital.",
+    "evidenceLocation": "Kumar & Clark, p. 614, Adenomul/nodulul toxic solitar"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Remisiunea după ATD este tocmai ceea ce textul neagă.",
+    "evidenceLocation": "Kumar & Clark, p. 614, Adenomul/nodulul toxic solitar"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-18T13:01:01.440Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii umflă 5% spre 50% sau >99% și transformă eșecul remisiunii în regulă."
+  },
+  "textbookExpressions": [
+   "aproximativ 5%",
+   "nu remite"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-052",
+  "questionFingerprint": "0bd6fd61f053ef5b01df4af98e79cbc368e863bb473dd2eb634f9fe32b69349f",
+  "status": "source-checked",
+  "learningObjective": "Asocierea febrei/VSH/captării nule de faza hipotiroidiană tardivă și de aspirină/prednisolonul scurt.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    614
+   ],
+   "pdfPages": [
+    91
+   ],
+   "section": "Tiroidita De Quervain"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Clinica virală (febră, durere, sensibilitate) definește faza acută.",
+    "evidenceLocation": "Kumar & Clark, p. 614, Tiroidita De Quervain"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "VSH/vâscozitatea și captarea suprimată sunt investigațiile.",
+    "evidenceLocation": "Kumar & Clark, p. 614, Tiroidita De Quervain"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Hipotiroidismul tranzitoriu după săptămâni este evoluția.",
+    "evidenceLocation": "Kumar & Clark, p. 614, Tiroidita De Quervain"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Aspirina și prednisolonul scurt sunt conduita.",
+    "evidenceLocation": "Kumar & Clark, p. 614, Tiroidita De Quervain"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Captarea crescută este a Graves; steroizii scurți sunt tocmai opțiunea din cazurile grave.",
+    "evidenceLocation": "Kumar & Clark, p. 614, Tiroidita De Quervain"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-18T13:01:01.440Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul aplică scintigrama Graves (captare difuză) și interzice steroizii, inversând două trăsături ale De Quervain."
+  },
+  "textbookExpressions": [
+   "Tiroidita De Quervain",
+   "captării în faza acută"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-053",
+  "questionFingerprint": "b82efea790b68088adf25df4959fd270406a2b724e9449d59fc9709a409ec723",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea FA ca prezentare oligosimptomatică la vârstnic și a obligației de a doza hormonii tiroidieni.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    615
+   ],
+   "pdfPages": [
+    92
+   ],
+   "section": "Hipertiroidismul la vârstnici — Fibrilația atrială"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "FA/tahicardie/ICC cu semne estompate și testele obligatorii în orice FA sunt fraza din paragraf.",
+    "evidenceLocation": "Kumar & Clark, p. 615, Hipertiroidismul la vârstnici — Fibrilația atrială"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Textul cere teste, nu ignorarea TSH.",
+    "evidenceLocation": "Kumar & Clark, p. 615, Hipertiroidismul la vârstnici — Fibrilația atrială"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "IRA fără confirmare biochimică este interzisă în general, nu doar la vârstnic.",
+    "evidenceLocation": "Kumar & Clark, p. 615, Hipertiroidismul la vârstnici — Fibrilația atrială"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "2 mg/săptămână nu este o doză de screening.",
+    "evidenceLocation": "Kumar & Clark, p. 615, Hipertiroidismul la vârstnici — Fibrilația atrială"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Ecografia nu înlocuiește testele funcționale în FA.",
+    "evidenceLocation": "Kumar & Clark, p. 615, Hipertiroidismul la vârstnici — Fibrilația atrială"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-18T13:01:01.440Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii anulează testarea tiroidiană obligatorie din FA, mesajul central al paragrafului geriatrie."
+  },
+  "textbookExpressions": [
+   "fibrilație atrială",
+   "Testele tiroidiene sunt obligatorii"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-054",
+  "questionFingerprint": "7a1e56b0dd185a2a40b41a4524f577ad393abab63a912294bcaf068a0ecb9897",
+  "status": "source-checked",
+  "learningObjective": "Reținerea ratei de 50% / 2 ani, a ferestrei 18 luni și a eșecului remisiunii la gușa nodulară voluminoasă.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    616,
+    617
+   ],
+   "pdfPages": [
+    93,
+    94
+   ],
+   "section": "Recidiva; Durata curei de ATD"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "50% și predominanța în primii 2 ani deschid prognosticul.",
+    "evidenceLocation": "Kumar & Clark, p. 616, 617, Recidiva; Durata curei de ATD"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "18 luni (6-24) este durata citată a titrării.",
+    "evidenceLocation": "Kumar & Clark, p. 616, 617, Recidiva; Durata curei de ATD"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Gușa nodulară voluminoasă și severitatea biochimică ca factori de recidivă închid paragraful.",
+    "evidenceLocation": "Kumar & Clark, p. 616, 617, Recidiva; Durata curei de ATD"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Textul dă ~50%, nu <5%; gușa nodulară mare nu remite medicamentos.",
+    "evidenceLocation": "Kumar & Clark, p. 616, 617, Recidiva; Durata curei de ATD"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Severitatea biochimică crește, nu scade, riscul de recidivă.",
+    "evidenceLocation": "Kumar & Clark, p. 616, 617, Recidiva; Durata curei de ATD"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii comprimă recidiva de la 50% la <5% și transformă gușa nodulară din indicație radicală în succes medicamentos."
+  },
+  "textbookExpressions": [
+   "În jur de 50%",
+   "18 luni"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-055",
+  "questionFingerprint": "25805390e30b073cec24e92d1d95314f69b9dc915e6532ca8b590c2e76da5d31",
+  "status": "source-checked",
+  "learningObjective": "Integrarea t½ TSI de 3 săptămâni, a profilului T4 crescut/TSH normal din rezistență și a cifrelor 15%/3% și 5-10% ale orbitopatiei.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    618
+   ],
+   "pdfPages": [
+    95
+   ],
+   "section": "Fătul; Rezistența la hormoni; Orbitopatia Graves"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cele 3 săptămâni și tabloul neonatal deschid paragraful de neonat.",
+    "evidenceLocation": "Kumar & Clark, p. 618, Fătul; Rezistența la hormoni; Orbitopatia Graves"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Mutațiile receptorului și profilul eutiroidian fără tratament definesc rezistența.",
+    "evidenceLocation": "Kumar & Clark, p. 618, Fătul; Rezistența la hormoni; Orbitopatia Graves"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Fumatul ca factor de severitate este explicit.",
+    "evidenceLocation": "Kumar & Clark, p. 618, Fătul; Rezistența la hormoni; Orbitopatia Graves"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "15% versus 3% și 5-10% pentru vedere închid orbitopatia.",
+    "evidenceLocation": "Kumar & Clark, p. 618, Fătul; Rezistența la hormoni; Orbitopatia Graves"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "TSI persistă; rezistența nu se tratează de rutină cu ATD; fumatul agravează, nu protejează.",
+    "evidenceLocation": "Kumar & Clark, p. 618, Fătul; Rezistența la hormoni; Orbitopatia Graves"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Patru cifre/mecanisme din aceeași pagină; distractorul inversează t½ TSI, indicația de tratament a rezistenței și rolul fumatului."
+  },
+  "textbookExpressions": [
+   "3 săptămâni",
+   "15% versus 3%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "endocrinologie-adv-056",
+  "questionFingerprint": "f5e22fd5422cfc5e4603050767f6e4bbeabf0d5ccbccec574dc9993ced0dc0a1",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea ponderilor 70%/20% și a schemei rhTSH 900 µg × 2/48 h de anaplastic și de oprirea T4 ca unică metodă de stimulare.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    621,
+    622
+   ],
+   "pdfPages": [
+    96,
+    97
+   ],
+   "section": "Cadranul 21.33; Urmărirea Tg cu rhTSH"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "70%, 20% și predominanța feminină >75% sunt din cadran/epidemiologie.",
+    "evidenceLocation": "Kumar & Clark, p. 621, 622, Cadranul 21.33; Urmărirea Tg cu rhTSH"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "900 µg, două doze în 48 de ore, fără oprirea T4, este protocolul de stimulare.",
+    "evidenceLocation": "Kumar & Clark, p. 621, 622, Cadranul 21.33; Urmărirea Tg cu rhTSH"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "<5% este al anaplasticului, nu al papilarului; chirurgia rămâne de elecție.",
+    "evidenceLocation": "Kumar & Clark, p. 621, 622, Cadranul 21.33; Urmărirea Tg cu rhTSH"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Raportul 70/20 este inversat; femeile sunt majoritare, nu scutite.",
+    "evidenceLocation": "Kumar & Clark, p. 621, 622, Cadranul 21.33; Urmărirea Tg cu rhTSH"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Doza citată este 900 µg × 2, tocmai pentru a evita oprirea T4.",
+    "evidenceLocation": "Kumar & Clark, p. 621, 622, Cadranul 21.33; Urmărirea Tg cu rhTSH"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Codex"
+  },
+  "reviewedAt": "2026-09-15T18:02:20.398Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează 70% papilar versus 20% folicular și comprimă rhTSH-ul de 900 µg la 25 µg după oprirea T4."
+  },
+  "textbookExpressions": [
+   "70%",
+   "900µg"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
  }
 ]

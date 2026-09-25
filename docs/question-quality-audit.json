@@ -3,20 +3,20 @@
   "minimumEditorialDifficulty": 8,
   "baselineActive": 200,
   "targetAcceptedActive": 800,
-  "netAdditionalActive": 3381,
-  "additionalAccepted": 3581,
+  "netAdditionalActive": 3240,
+  "additionalAccepted": 3440,
   "remainingToTarget": 0,
   "publicationStatus": "Eligible for editorial publication decision",
   "live": {
-    "count": 3581,
+    "count": 3440,
     "correctAnswerCounts": {
-      "1": 796,
-      "2": 630,
-      "3": 1399,
-      "4": 756
+      "1": 704,
+      "2": 453,
+      "3": 1596,
+      "4": 687
     },
     "missingMultipleAnswerFormats": [],
-    "fourCorrectShareOfMultiple": 27.1,
+    "fourCorrectShareOfMultiple": 25.1,
     "idsUnique": true,
     "structuralErrors": [],
     "exactQuestionDuplicates": [],
@@ -27,12 +27,22 @@
       "pancreas-adv-062",
       "urologie-adv-079",
       "psihiatrie-adv-028",
-      "neurologie-adv-095"
+      "neurologie-adv-095",
+      "reumatologie-adv-031-v2",
+      "tromboembolism-adv-056-v2",
+      "biliar-adv-058-v2",
+      "perioperator-adv-036-v2",
+      "intestin-adv-066-v2",
+      "intestin-adv-064-v2",
+      "intestin-adv-024-v2",
+      "vascular-adv-035-v2",
+      "infectii-chir-adv-022-v2",
+      "endocrinologie-adv-038-v2"
     ],
     "topicCoverage": [
       {
         "id": "sepsis",
-        "count": 75
+        "count": 68
       },
       {
         "id": "electroliti",
@@ -40,7 +50,7 @@
       },
       {
         "id": "ati",
-        "count": 37
+        "count": 35
       },
       {
         "id": "hematologie",
@@ -48,11 +58,11 @@
       },
       {
         "id": "reumatologie",
-        "count": 87
+        "count": 82
       },
       {
         "id": "endocrinologie",
-        "count": 50
+        "count": 44
       },
       {
         "id": "diabet",
@@ -68,7 +78,7 @@
       },
       {
         "id": "tromboembolism",
-        "count": 88
+        "count": 71
       },
       {
         "id": "cardiologie",
@@ -96,7 +106,7 @@
       },
       {
         "id": "perioperator",
-        "count": 40
+        "count": 39
       },
       {
         "id": "hemostaza",
@@ -104,11 +114,11 @@
       },
       {
         "id": "infectii-chir",
-        "count": 45
+        "count": 41
       },
       {
         "id": "trauma",
-        "count": 105
+        "count": 78
       },
       {
         "id": "arsuri",
@@ -116,19 +126,19 @@
       },
       {
         "id": "hernii",
-        "count": 64
+        "count": 57
       },
       {
         "id": "esofag",
-        "count": 86
+        "count": 60
       },
       {
         "id": "stomac",
-        "count": 96
+        "count": 84
       },
       {
         "id": "intestin",
-        "count": 71
+        "count": 61
       },
       {
         "id": "colon",
@@ -136,7 +146,7 @@
       },
       {
         "id": "biliar",
-        "count": 66
+        "count": 60
       },
       {
         "id": "pancreas",
@@ -148,7 +158,7 @@
       },
       {
         "id": "vascular",
-        "count": 66
+        "count": 62
       },
       {
         "id": "orl",
@@ -164,7 +174,7 @@
       },
       {
         "id": "dermato",
-        "count": 42
+        "count": 38
       },
       {
         "id": "pediatrie",
@@ -184,20 +194,20 @@
       },
       {
         "id": "epidemio",
-        "count": 24
+        "count": 21
       }
     ]
   },
   "draft": {
-    "count": 3763,
+    "count": 3613,
     "correctAnswerCounts": {
-      "1": 843,
-      "2": 652,
-      "3": 1445,
-      "4": 823
+      "1": 749,
+      "2": 475,
+      "3": 1640,
+      "4": 749
     },
     "missingMultipleAnswerFormats": [],
-    "fourCorrectShareOfMultiple": 28.2,
+    "fourCorrectShareOfMultiple": 26.2,
     "idsUnique": true,
     "structuralErrors": [],
     "exactQuestionDuplicates": [],
@@ -229,12 +239,22 @@
       "pancreas-adv-062",
       "urologie-adv-079",
       "psihiatrie-adv-028",
-      "neurologie-adv-095"
+      "neurologie-adv-095",
+      "reumatologie-adv-031-v2",
+      "tromboembolism-adv-056-v2",
+      "biliar-adv-058-v2",
+      "perioperator-adv-036-v2",
+      "intestin-adv-066-v2",
+      "intestin-adv-064-v2",
+      "intestin-adv-024-v2",
+      "vascular-adv-035-v2",
+      "infectii-chir-adv-022-v2",
+      "endocrinologie-adv-038-v2"
     ],
     "topicCoverage": [
       {
         "id": "sepsis",
-        "count": 95
+        "count": 88
       },
       {
         "id": "electroliti",
@@ -242,7 +262,7 @@
       },
       {
         "id": "ati",
-        "count": 57
+        "count": 55
       },
       {
         "id": "hematologie",
@@ -250,11 +270,11 @@
       },
       {
         "id": "reumatologie",
-        "count": 108
+        "count": 102
       },
       {
         "id": "endocrinologie",
-        "count": 76
+        "count": 64
       },
       {
         "id": "diabet",
@@ -270,7 +290,7 @@
       },
       {
         "id": "tromboembolism",
-        "count": 90
+        "count": 71
       },
       {
         "id": "cardiologie",
@@ -298,7 +318,7 @@
       },
       {
         "id": "perioperator",
-        "count": 40
+        "count": 39
       },
       {
         "id": "hemostaza",
@@ -306,11 +326,11 @@
       },
       {
         "id": "infectii-chir",
-        "count": 45
+        "count": 41
       },
       {
         "id": "trauma",
-        "count": 105
+        "count": 78
       },
       {
         "id": "arsuri",
@@ -318,19 +338,19 @@
       },
       {
         "id": "hernii",
-        "count": 64
+        "count": 57
       },
       {
         "id": "esofag",
-        "count": 86
+        "count": 60
       },
       {
         "id": "stomac",
-        "count": 96
+        "count": 84
       },
       {
         "id": "intestin",
-        "count": 71
+        "count": 61
       },
       {
         "id": "colon",
@@ -338,7 +358,7 @@
       },
       {
         "id": "biliar",
-        "count": 66
+        "count": 60
       },
       {
         "id": "pancreas",
@@ -350,7 +370,7 @@
       },
       {
         "id": "vascular",
-        "count": 66
+        "count": 62
       },
       {
         "id": "orl",
@@ -366,7 +386,7 @@
       },
       {
         "id": "dermato",
-        "count": 42
+        "count": 38
       },
       {
         "id": "pediatrie",
@@ -386,20 +406,20 @@
       },
       {
         "id": "epidemio",
-        "count": 24
+        "count": 21
       }
     ]
   },
   "accepted": {
-    "count": 3581,
+    "count": 3440,
     "correctAnswerCounts": {
-      "1": 796,
-      "2": 630,
-      "3": 1399,
-      "4": 756
+      "1": 704,
+      "2": 453,
+      "3": 1596,
+      "4": 687
     },
     "missingMultipleAnswerFormats": [],
-    "fourCorrectShareOfMultiple": 27.1,
+    "fourCorrectShareOfMultiple": 25.1,
     "idsUnique": true,
     "structuralErrors": [],
     "exactQuestionDuplicates": [],
@@ -410,12 +430,22 @@
       "pancreas-adv-062",
       "urologie-adv-079",
       "psihiatrie-adv-028",
-      "neurologie-adv-095"
+      "neurologie-adv-095",
+      "reumatologie-adv-031-v2",
+      "tromboembolism-adv-056-v2",
+      "biliar-adv-058-v2",
+      "perioperator-adv-036-v2",
+      "intestin-adv-066-v2",
+      "intestin-adv-064-v2",
+      "intestin-adv-024-v2",
+      "vascular-adv-035-v2",
+      "infectii-chir-adv-022-v2",
+      "endocrinologie-adv-038-v2"
     ],
     "topicCoverage": [
       {
         "id": "sepsis",
-        "count": 75
+        "count": 68
       },
       {
         "id": "electroliti",
@@ -423,7 +453,7 @@
       },
       {
         "id": "ati",
-        "count": 37
+        "count": 35
       },
       {
         "id": "hematologie",
@@ -431,11 +461,11 @@
       },
       {
         "id": "reumatologie",
-        "count": 87
+        "count": 82
       },
       {
         "id": "endocrinologie",
-        "count": 50
+        "count": 44
       },
       {
         "id": "diabet",
@@ -451,7 +481,7 @@
       },
       {
         "id": "tromboembolism",
-        "count": 88
+        "count": 71
       },
       {
         "id": "cardiologie",
@@ -479,7 +509,7 @@
       },
       {
         "id": "perioperator",
-        "count": 40
+        "count": 39
       },
       {
         "id": "hemostaza",
@@ -487,11 +517,11 @@
       },
       {
         "id": "infectii-chir",
-        "count": 45
+        "count": 41
       },
       {
         "id": "trauma",
-        "count": 105
+        "count": 78
       },
       {
         "id": "arsuri",
@@ -499,19 +529,19 @@
       },
       {
         "id": "hernii",
-        "count": 64
+        "count": 57
       },
       {
         "id": "esofag",
-        "count": 86
+        "count": 60
       },
       {
         "id": "stomac",
-        "count": 96
+        "count": 84
       },
       {
         "id": "intestin",
-        "count": 71
+        "count": 61
       },
       {
         "id": "colon",
@@ -519,7 +549,7 @@
       },
       {
         "id": "biliar",
-        "count": 66
+        "count": 60
       },
       {
         "id": "pancreas",
@@ -531,7 +561,7 @@
       },
       {
         "id": "vascular",
-        "count": 66
+        "count": 62
       },
       {
         "id": "orl",
@@ -547,7 +577,7 @@
       },
       {
         "id": "dermato",
-        "count": 42
+        "count": 38
       },
       {
         "id": "pediatrie",
@@ -567,7 +597,7 @@
       },
       {
         "id": "epidemio",
-        "count": 24
+        "count": 21
       }
     ]
   },

@@ -66,7 +66,7 @@ were found on that page. Cutoff-page and box checks for each topic are logged in
 
 ## Items relying on a Cadran / Figura / Tabel
 
-569 items, 118 resolved, 451 pending.
+569 items, 124 resolved, 445 pending.
 
 | Original ID | Topic | Status |
 |---|---|---|
@@ -234,12 +234,12 @@ were found on that page. Cutoff-page and box checks for each topic are logged in
 | electroliti-adv-085 | electroliti | pending (original still live) |
 | electroliti-adv-087 | electroliti | pending (original still live) |
 | electroliti-adv-088 | electroliti | pending (original still live) |
-| endocrinologie-adv-012 | endocrinologie | pending (original still live) |
-| endocrinologie-adv-021 | endocrinologie | pending (original still live) |
-| endocrinologie-adv-022 | endocrinologie | pending (original still live) |
-| endocrinologie-adv-023 | endocrinologie | pending (original still live) |
-| endocrinologie-adv-041 | endocrinologie | pending (original still live) |
-| endocrinologie-adv-056 | endocrinologie | pending (original still live) |
+| endocrinologie-adv-012 | endocrinologie | replaced by endocrinologie-adv-012-v2 (p. 614; expressions verified on the cited page) |
+| endocrinologie-adv-021 | endocrinologie | replaced by endocrinologie-adv-021-v2 (p. 611; expressions verified on the cited page) |
+| endocrinologie-adv-022 | endocrinologie | replaced by endocrinologie-adv-022-v2 (p. 611; expressions verified on the cited page) |
+| endocrinologie-adv-023 | endocrinologie | replaced by endocrinologie-adv-023-v2 (p. 611; expressions verified on the cited page) |
+| endocrinologie-adv-041 | endocrinologie | replaced by endocrinologie-adv-041-v2 (p. 616, 617; expressions verified on the cited page) |
+| endocrinologie-adv-056 | endocrinologie | replaced by endocrinologie-adv-056-v2 (p. 621, 622; expressions verified on the cited page) |
 | epidemio-adv-001 | epidemio | replaced by epidemio-adv-001-v2 (p. 333; expressions verified on the cited page) |
 | epidemio-adv-002 | epidemio | replaced by epidemio-adv-002-v2 (p. 333; expressions verified on the cited page) |
 | epidemio-adv-003 | epidemio | replaced by epidemio-adv-003-v2 (p. 334; expressions verified on the cited page) |

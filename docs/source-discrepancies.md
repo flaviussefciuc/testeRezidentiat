@@ -137,3 +137,9 @@ Fiecare temă rescrisă (versiunile `-v2`) a fost confruntată din nou cu pagini
 - Nu s-au găsit chei greșite în cei 45 de itemi confruntați cu p. 75–84.
 - P. 77: textul spune că febra medicamentoasă «este rar întâlnită» și se ia în calcul doar după excluderea altor cauze, iar Tabelul 8-4 o plasează «întotdeauna, cu condiția să fie excluse alte etiologii». Formulările sunt compatibile. Itemii testează doar raritatea ei, ca diagnostic de excludere.
 - Retrase fără înlocuitor (dubluri sau trivia numerică): 009 (proporția de 5% a infecțiilor nosocomiale), 014 (inclus în 038), 027 (inclus în 003), 045 (inclus în 013).
+
+### Endocrinologie — tiroida (Kumar, cap. 21)
+- Nu s-au găsit chei greșite în cei 50 de itemi confruntați cu p. 611–618 și 621–622.
+- Limita «până la Gușa»: p. 619–620 lipsesc din extrasul sursă. Tot conținutul de pe p. 618 (orbitopatia, rezistența la hormonii tiroidieni, fătul și boala Graves maternă) precedă titlul «Gușa» și rămâne în tematică.
+- P. 621: evaluarea nodulului (FNA, scintigrafie) și tratamentul gușii eutiroidiene se află după titlul «Gușa», dar pe o pagină inclusă în intervalul p. 621–622 al carcinomului. `-043-v2` este păstrat după regula intervalului de pagini.
+- Retrase fără înlocuitor (dubluri sau trivia numerică): 007 (inclus în 045/034/047/048), 008 (inclus în 049), 009 (inclus în 050), 013 (inclus în 041), 042 (pragul de 160/minut, trivia numerică), 051 (recapitulare de procente, inclusă în 039/054/038).
