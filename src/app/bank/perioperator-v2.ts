@@ -2,13 +2,13 @@ import {rewriter} from './rewrite-author';
 import {RETIRED_PERIOPERATOR} from './retired/perioperator';
 
 // Rewritten after the 2026-09-24 cue audit (Lawrence, cap. 1, p. 1–12).
-const q=rewriter(RETIRED_PERIOPERATOR,0,{shuffle:true});
+const q=rewriter(RETIRED_PERIOPERATOR,0,{shuffle:true,salt:'2'});
 
 export const PERIOPERATOR_V2=[
 q('perioperator-adv-001',['Screeningul de laborator preoperator la pacienții asimptomatici:',
- ['aduce costuri ridicate fără garanția beneficiului','are un prejudiciu potențial mai mare decât beneficiul','produce rezultate anormale ignorate în aproximativ 60%','se recomandă pentru definirea stării bazale','se repetă dacă analizele normale au sub 4 săptămâni'],'ABC',1,'Testele de screening preoperatorii',
+ ['aduce costuri ridicate fără garanția beneficiului','are un prejudiciu potențial mai mare decât beneficiul','produce rezultate anormale ignorate în aproximativ 5%','se recomandă pentru definirea stării bazale','se repetă dacă analizele normale au sub 4 săptămâni'],'AB',1,'Testele de screening preoperatorii',
  'Aplicarea principiilor screeningului preoperator selectiv.',
- ['Screeningul neselectiv aduce costuri fără garanția rezultatelor.','Prejudiciul potențial depășește beneficiul.','60% din rezultatele anormale sunt ignorate.','Obținerea stării bazale nu este recomandată.','Analizele normale din ultimele 4 săptămâni nu se repetă.']],
+ ['Screeningul neselectiv aduce costuri fără garanția rezultatelor.','Prejudiciul potențial depășește beneficiul.','Nu: aproximativ 60% din rezultatele anormale sunt ignorate.','Obținerea stării bazale nu este recomandată.','Analizele normale din ultimele 4 săptămâni nu se repetă.']],
  [8,'Distractorii contrazic recomandările explicite.'],['60% din rezultatele anormale','4 săptămâni']),
 
 q('perioperator-adv-009',['Screeningul de rutină al hemoglobinei preoperator se face la pacienții:',
@@ -18,9 +18,9 @@ q('perioperator-adv-009',['Screeningul de rutină al hemoglobinei preoperator se
  [8,'Distractorii modifică pragul sau generalizează testarea.'],['>500 mL','anemie de cauză necunoscută']),
 
 q('perioperator-adv-010',['Investigațiile preoperatorii țintite:',
- ['ionograma se recomandă și la vârstnici','sumarul de urină se face la simptome urinare','consultul de specialitate cuantifică riscul operator','consultul de specialitate contraindică operația','sumarul de urină se face de rutină'],'ABC',1,'Testele de screening și consulturile de specialitate',
+ ['ionograma se recomandă și la vârstnici','sumarul de urină se face la simptome urinare','consultul de specialitate cuantifică riscul operator','consultul de specialitate contraindică operația','sumarul de urină se face înaintea procedurilor urologice'],'ABCE',1,'Testele de screening și consulturile de specialitate',
  'Aplicarea indicațiilor investigațiilor țintite.',
- ['Vârstnicii au risc de deshidratare cronică.','Sumarul de urină se face la simptome, boală urinară cronică sau proceduri urologice.','Consultul stabilește riscul și pregătirea optimă.','Scopul consultului nu este de a contraindica operația.','Nu se face de rutină.']],
+ ['Vârstnicii au risc de deshidratare cronică.','Sumarul de urină se face la simptome, boală urinară cronică sau proceduri urologice.','Consultul stabilește riscul și pregătirea optimă.','Scopul consultului nu este de a contraindica operația.','Sumarul de urină se face la simptome, boală urinară cronică sau proceduri urologice.']],
  [8,'Distractorii contrazic scopul consultului și al testării.'],['deshidratare cro','sumarului de urină']),
 
 q('perioperator-adv-002',['Evaluarea cardiacă preoperatorie:',
@@ -30,15 +30,15 @@ q('perioperator-adv-002',['Evaluarea cardiacă preoperatorie:',
  [8,'Distractorii generalizează testarea cardiacă.'],['fibrinolitic','catecolamine']),
 
 q('perioperator-adv-003',['Riscul pulmonar perioperator:',
- ['complicațiile pulmonare apar la 2–9%','radiografia toracică de rutină nu este în general necesară','clasificarea ASA are 6 categorii','clasa ASA a fost creată pentru riscul operator','radiografia toracică precede orice laparotomie'],'ABC',2,'Evaluarea pulmonară',
+ ['complicațiile pulmonare apar la 2–9%','radiografia toracică de rutină nu este în general necesară','clasificarea ASA are 3 categorii','clasa ASA a fost creată pentru riscul operator','radiografia toracică precede orice laparotomie'],'AB',2,'Evaluarea pulmonară',
  'Aplicarea evaluării riscului pulmonar.',
- ['Incidența raportată este 2–9%.','Radiografia și probele funcționale nu sunt necesare de rutină.','ASA are 6 categorii, inclusiv donatorii de organe.','ASA nu a fost elaborată pentru prezicerea riscului operator.','Radiografia se indică în chirurgia intratoracică sau boala pulmonară activă.']],
+ ['Incidența raportată este 2–9%.','Radiografia și probele funcționale nu sunt necesare de rutină.','Nu: ASA are 6 categorii, inclusiv donatorii de organe.','ASA nu a fost elaborată pentru prezicerea riscului operator.','Radiografia se indică în chirurgia intratoracică sau boala pulmonară activă.']],
  [8,'Distractorii contrazic scopul clasificării ASA și al radiografiei.'],['2-9%','6 categorii']),
 
 q('perioperator-adv-011',['Disfuncția renală perioperatorie:',
- ['BRC presupune afectare renală de cel puțin 3 luni','cea mai frecventă cauză de IRA perioperatorie este NTA','riscul de IRA la pacienții chirurgicali este de aproximativ 1%','BRC în stadiu terminal indică un grad specific de filtrare','fracția de ejecție sub 50% este pragul de risc pentru IRA'],'ABC',2,'Pacientul cu disfuncție renală',
+ ['BRC presupune afectare renală de cel puțin 3 luni','cea mai frecventă cauză de IRA perioperatorie este NTA','riscul de IRA la pacienții chirurgicali este de aproximativ 20%','BRC în stadiu terminal indică un grad specific de filtrare','fracția de ejecție sub 50% este pragul de risc pentru IRA'],'AB',2,'Pacientul cu disfuncție renală',
  'Fixarea definițiilor și a riscului de IRA.',
- ['BRC presupune afectare de cel puțin 3 luni.','Necroza tubulară acută este cea mai frecventă cauză.','Riscul este de aproximativ 1%.','Stadiul terminal indică necesitatea dializei sau transplantului.','Pragul citat este fracția de ejecție <35%.']],
+ ['BRC presupune afectare de cel puțin 3 luni.','Necroza tubulară acută este cea mai frecventă cauză.','Nu: riscul este de aproximativ 1%.','Stadiul terminal indică necesitatea dializei sau transplantului.','Pragul citat este fracția de ejecție <35%.']],
  [8,'Distractorii schimbă definiția și pragul.'],['necroza','1,7 L/']),
 
 q('perioperator-adv-012',['Trombocitopatia din boala renală cronică poate fi gestionată preoperator cu:',
@@ -66,7 +66,7 @@ q('perioperator-adv-021',['Conform Tabelului 1-1, contraindică chirurgia electi
  [8,'Distractorii sunt situații în care chirurgia este posibilă.'],['Hepatita virală acută','Cardiomiopatia']),
 
 q('perioperator-adv-004',['Chirurgia electivă la pacientul cirotic:',
- ['este în general bine tolerată în clasa Child A','este posibilă cu pregătire în clasa Child B','este contraindicată în clasa Child C','este contraindicată în toate cazurile Child B','se evaluează prin MELD bazat pe albumină'],'ABC',3,'Pacientul cu disfuncție hepatică',
+ ['este în general bine tolerată în clasa Child A','este posibilă cu pregătire în clasa Child B','este contraindicată în clasa Child C','este contraindicată în toate cazurile Child B','se evaluează și prin MELD (bilirubină, creatinină, INR)'],'ABCE',3,'Pacientul cu disfuncție hepatică',
  'Aplicarea clasificării Child-Pugh la decizia chirurgicală.',
  ['Child A tolerează bine chirurgia electivă.','Child B este posibilă cu pregătire, cu excepții.','Child C contraindică chirurgia electivă.','Excepțiile Child B sunt rezecțiile hepatice extinse și chirurgia cardiacă.','MELD folosește bilirubina, creatinina și INR.']],
  [8,'Distractorii generalizează contraindicațiile.'],['Child A','Child C']),
@@ -84,7 +84,7 @@ q('perioperator-adv-032',['Scorul MELD:',
  [8,'Singurul distractor preia criteriile Child-Pugh.'],['creatininei','12-15']),
 
 q('perioperator-adv-025',['Controlul preoperator al ascitei:',
- ['include restricție sodată de maximum 2 g/zi','folosește spironolactonă asociată cu furosemid','poate include șunt porto-sistemic transjugular','include restricție sodată de 6–8 g/zi','se face prin drenaj intraoperator definitiv'],'ABC',4,'Pacientul cu disfuncție hepatică — Ascita',
+ ['include restricție sodată de maximum 2 g/zi','folosește spironolactonă asociată cu furosemid','poate include șunt porto-sistemic transjugular','include restricție sodată de 6–8 g/zi','se face prin drenaj intraoperator, cu efect definitiv'],'ABC',4,'Pacientul cu disfuncție hepatică — Ascita',
  'Aplicarea controlului preoperator al ascitei.',
  ['Restricția sodată este de maximum 2 g/zi.','Se asociază spironolactonă și furosemid.','TIPS este recomandat în controlul ascitei.','Restricția este de maximum 2 g/zi.','Ascita drenată se reacumulează în câteva zile.']],
  [8,'Distractorii contrazic restricția și evoluția ascitei.'],['2g/zi','spironolactonă'],[3]),
@@ -108,9 +108,9 @@ q('perioperator-adv-033',['La pacientul diabetic evaluat preoperator:',
  [8,'Singurul distractor inversează calibrul vaselor afectate.'],['clapotajul','fagocitară']),
 
 q('perioperator-adv-005',['Controlul glicemic perioperator:',
- ['urmărește o glicemie de 120–180 mg/dL','preferă valorile spre limita superioară a intervalului','nu exclude cetoacidoza la glicemii sub 250 mg/dL','folosește ca standard infuzia intravenoasă de insulină','urmărește o glicemie de 80–110 mg/dL'],'ABC',5,'Pacientul diabetic — Management',
+ ['urmărește o glicemie de 120–180 mg/dL','preferă valorile spre limita inferioară a intervalului','nu exclude cetoacidoza la glicemii sub 250 mg/dL','folosește ca standard infuzia intravenoasă de insulină','urmărește o glicemie de 80–110 mg/dL'],'AC',5,'Pacientul diabetic — Management',
  'Aplicarea țintelor glicemice perioperatorii.',
- ['Ținta este 120–180 mg/dL.','Limita superioară se preferă din cauza hipoglicemiei.','CAD depinde de absența insulinei, nu de glicemie.','Scala subcutanată este metoda standard.','Ținta este 120–180 mg/dL.']],
+ ['Ținta este 120–180 mg/dL.','Nu: limita superioară se preferă din cauza riscului de hipoglicemie.','CAD depinde de absența insulinei, nu de glicemie.','Scala subcutanată este metoda standard.','Ținta este 120–180 mg/dL.']],
  [8,'Distractorii schimbă ținta și metoda standard.'],['120-180','250 mg/']),
 
 q('perioperator-adv-023',['Managementul perioperator al insulinei:',
@@ -126,9 +126,9 @@ q('perioperator-adv-015',['Conform Tabelului 1-3, substituția glucocorticoidă:
  [8,'Distractorii mută intervențiile între categorii.'],['hidrocortizon IV','esofagogastrectomie']),
 
 q('perioperator-adv-006',['Chirurgia la pacienta gravidă:',
- ['se preferă, când este necesară, în al doilea trimestru','laparoscopia este sigură în trimestrul doi cu presiune redusă','volumul plasmatic crescut poate masca hipovolemia','se preferă, când este necesară, în primul trimestru','declanșarea travaliului se datorează în principal anesteziei'],'ABC',6,'Pacienta însărcinată',
+ ['se preferă, când este necesară, în al doilea trimestru','laparoscopia este sigură în trimestrul doi cu presiune redusă','volumul plasmatic scăzut accentuează hipovolemia','se preferă, când este necesară, în primul trimestru','declanșarea travaliului se datorează în principal anesteziei'],'AB',6,'Pacienta însărcinată',
  'Aplicarea principiilor chirurgiei în sarcină.',
- ['Trimestrul doi are cel mai mic risc de avort și travaliu prematur.','Laparoscopia se poate face cu presiune de insuflație redusă.','Volumul sanguin crescut poate masca pierderile.','Se preferă trimestrul doi.','Travaliul pare determinat de patologie, nu de anestezie.']],
+ ['Trimestrul doi are cel mai mic risc de avort și travaliu prematur.','Laparoscopia se poate face cu presiune de insuflație redusă.','Nu: volumul plasmatic crescut din sarcină poate masca hipovolemia.','Se preferă trimestrul doi.','Travaliul pare determinat de patologie, nu de anestezie.']],
  [8,'Distractorii schimbă trimestrul și cauza travaliului.'],['al doilea trimestru','presiunii']),
 
 q('perioperator-adv-035',['Modificările fiziologice din sarcină:',
@@ -156,9 +156,9 @@ q('perioperator-adv-036',['La gravida traumatizată:',
  [8,'Singurul distractor amână monitorizarea fetală.'],['anti-D','teratogen']),
 
 q('perioperator-adv-017',['Consimțământul informat:',
- ['este un proces, nu un moment','diferă de formularul de consimțământ','se obține adesea în mai multe sesiuni','se obține de regulă într-o singură discuție','exclude prezentarea opțiunii de a nu opera'],'ABC',7,'Consimțământul informat',
+ ['este un proces, nu un moment','se reduce la semnarea formularului','se obține adesea în mai multe sesiuni','se obține de regulă într-o singură discuție','exclude prezentarea opțiunii de a nu opera'],'AC',7,'Consimțământul informat',
  'Aplicarea conceptului de consimțământ informat.',
- ['Consimțământul este un proces, nu un moment.','Formularul consemnează rezultatul discuțiilor.','Adesea se obține în mai multe sesiuni.','Se obține adesea în mai multe sesiuni.','Opțiunea de a nu se opera trebuie discutată.']],
+ ['Consimțământul este un proces, nu un moment.','Nu: formularul doar consemnează rezultatul discuțiilor.','Adesea se obține în mai multe sesiuni.','Se obține adesea în mai multe sesiuni.','Opțiunea de a nu se opera trebuie discutată.']],
  [8,'Distractorii reduc consimțământul la o formalitate.'],['un proces','mai multe sesiuni'],[6]),
 
 q('perioperator-adv-027',['Când pacientul nu poate decide:',
@@ -168,9 +168,9 @@ q('perioperator-adv-027',['Când pacientul nu poate decide:',
  [8,'Distractorii confundă documentele și rolurile.'],['surrogate','directiva în avans']),
 
 q('perioperator-adv-037',['Foaia de observație:',
- ['are trei obiective principale','consemnează imediat postoperator pierderile sanguine și diureza','include în biletul de externare planul de urmărire','include în biletul de externare fiecare detaliu al spitalizării','permite copierea electronică fără riscuri'],'ABC',7,'Documentația',
+ ['are trei obiective principale','consemnează imediat postoperator pierderile sanguine și diureza','include în biletul de externare planul de urmărire','biletul de externare cuprinde fiecare detaliu','poate propaga informații false prin copiere'],'ABCE',7,'Documentația',
  'Aplicarea regulilor de documentare medicală.',
- ['Foaia are 3 obiective principale.','Se notează complicațiile, pierderile sanguine, refacerea volemică și diureza.','Biletul include planul de urmărire.','Biletul nu trebuie să menționeze fiecare detaliu.','Copierea poate propaga informații false.']],
+ ['Foaia are 3 obiective principale.','Se notează complicațiile, pierderile sanguine, refacerea volemică și diureza.','Biletul include planul de urmărire.','Biletul nu trebuie să menționeze fiecare detaliu.','Copierea electronică poate propaga informații false.']],
  [8,'Distractorii contrazic regulile de concizie și siguranță.'],['3 obiective','Biletul de externare']),
 
 q('perioperator-adv-038',['Înștiințarea medicului este cerută când drenajul toracic depășește:',
@@ -180,9 +180,9 @@ q('perioperator-adv-038',['Înștiințarea medicului este cerută când drenajul
  [8,'Distractorii includ pragul diurezei.'],['30 mL/oră','drenaj toracic']),
 
 q('perioperator-adv-018',['Sondele digestive perioperatorii:',
- ['sonda nazo-gastrică de tip sifon se folosește în aspirație continuă','sondele nazo-enterale de alimentație sunt moi, cu lumen subțire','poziția sondei de alimentație se confirmă sigur prin radiografie','auscultația epigastrică confirmă sigur poziția gastrică','sonda de tip sifon se folosește în aspirație intermitentă'],'ABC',8,'Sonde și tuburi de dren',
+ ['sonda nazo-gastrică de tip sifon se folosește în aspirație continuă','sondele nazo-enterale de alimentație sunt rigide, cu lumen larg','poziția sondei de alimentație se confirmă sigur prin radiografie','auscultația epigastrică confirmă sigur poziția gastrică','sonda de tip sifon se folosește în aspirație intermitentă'],'AC',8,'Sonde și tuburi de dren',
  'Aplicarea utilizării în siguranță a sondelor digestive.',
- ['Sonda de tip sifon se folosește în aspirație continuă.','Sondele de alimentație sunt moi, cu lumen subțire.','Radiografia sau palparea intraoperatorie confirmă poziția.','Auscultația poate fi înșelătoare.','Se folosește în aspirație continuă.']],
+ ['Sonda de tip sifon se folosește în aspirație continuă.','Nu: sondele de alimentație sunt moi, cu lumen subțire.','Radiografia sau palparea intraoperatorie confirmă poziția.','Auscultația poate fi înșelătoare.','Se folosește în aspirație continuă.']],
  [8,'Distractorii contrazic regulile de siguranță.'],['sifon','poate fi înşelătoare']),
 
 q('perioperator-adv-019',['Sondele și drenurile toracice și respiratorii:',
@@ -222,9 +222,9 @@ q('perioperator-adv-040',['Infecția plăgii chirurgicale:',
  [8,'Distractorii inversează rolul antibioticelor și semnificația drenajului.'],['un sfert','Drenajul prompt']),
 
 q('perioperator-adv-029',['Febra postoperatorie, conform ghidului SCCM:',
- ['se investighează la temperaturi de cel puțin 38,3°C','se evaluează întâi prin analiza circumstanțelor','impune examen fizic țintit înaintea testelor','impune culturi și imagistică de primă intenție','este o stare postoperatorie normală, fără investigații'],'ABC',10,'Febra',
+ ['se investighează de la 37,5°C','se evaluează întâi prin analiza circumstanțelor','impune examen fizic țintit înaintea testelor','impune culturi și imagistică de primă intenție','este o stare postoperatorie normală, fără investigații'],'BC',10,'Febra',
  'Aplicarea etapelor de evaluare a febrei postoperatorii.',
- ['Investigațiile încep la ≥38,3°C.','Primul pas este analiza circumstanțelor.','Al doilea pas este examenul fizic țintit.','Testele urmează abia după cei doi pași.','Nu este o stare normală.']],
+ ['Nu: investigațiile încep la ≥38,3°C.','Primul pas este analiza circumstanțelor.','Al doilea pas este examenul fizic țintit.','Testele urmează abia după cei doi pași.','Nu este o stare normală.']],
  [8,'Distractorii inversează ordinea evaluării.'],['38,3','examenul fizic']),
 
 q('perioperator-adv-008',['Conform National Quality Forum, reprezintă o situație care nu trebuie să aibă loc niciodată:',
@@ -234,8 +234,8 @@ q('perioperator-adv-008',['Conform National Quality Forum, reprezintă o situaț
  [8,'Distractorii sunt complicații postoperatorii reale.'],['partea greşită','National Quality Forum']),
 
 q('perioperator-adv-030',['Siguranța perioperatorie a pacientului:',
- ['raportul IOM estimează 44.000–98.000 de decese anuale prin erori','NSQIP oferă estimarea rezultatului ajustată la risc','campania 100.000 Lives a salvat aproximativ 122.000 de vieți','campania 100.000 Lives a promovat 12 strategii','NSQIP a fost dezvoltat de Joint Commission'],'ABC',11,'Siguranța perioperatorie',
+ ['raportul IOM estimează 44.000–98.000 de decese anuale prin erori','NSQIP oferă estimarea rezultatului ajustată la risc','campania 100.000 Lives a salvat aproximativ 12.000 de vieți','campania 100.000 Lives a promovat 12 strategii','NSQIP a fost dezvoltat de Joint Commission'],'AB',11,'Siguranța perioperatorie',
  'Fixarea inițiativelor de siguranță perioperatorie.',
- ['IOM estimează 44.000–98.000 de decese anuale.','NSQIP oferă estimări ajustate la risc.','Campania a salvat aproximativ 122.000 de vieți.','Campania a promovat 6 strategii.','NSQIP a fost dezvoltat de Department of Veterans Affairs.']],
+ ['IOM estimează 44.000–98.000 de decese anuale.','NSQIP oferă estimări ajustate la risc.','Nu: campania a salvat aproximativ 122.000 de vieți.','Campania a promovat 6 strategii.','NSQIP a fost dezvoltat de Department of Veterans Affairs.']],
  [8,'Distractorii schimbă numărul strategiilor și autorul.'],['44.000-98.000','NSQIP'],[12]),
 ];
