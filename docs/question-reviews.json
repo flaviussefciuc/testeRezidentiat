@@ -187641,85 +187641,6 @@
   "reviewNotes": "Rescriere a biliar-adv-036: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "biliar-adv-048-v2",
-  "questionFingerprint": "fb8666790c055d2ba3be0533995e0fc0d4d0179d7d972dc6b54f38b1586c32f8",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea măsurilor de prevenție a litiazei.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 16,
-   "printedPages": [
-    242,
-    243
-   ],
-   "pdfPages": [
-    154,
-    155
-   ],
-   "section": "Epidemiologia calculilor biliari"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Fibrele inhibă circuitul enterohepatic al acizilor biliari dehidroxilați.",
-    "evidenceLocation": "Lawrence, p. 242, 243, Epidemiologia calculilor biliari"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Scăderea ponderală rapidă predispune la calculi.",
-    "evidenceLocation": "Lawrence, p. 242, 243, Epidemiologia calculilor biliari"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Evitarea obezității este citată.",
-    "evidenceLocation": "Lawrence, p. 242, 243, Epidemiologia calculilor biliari"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Se recomandă alimente sărace în acizi grași saturați.",
-    "evidenceLocation": "Lawrence, p. 242, 243, Epidemiologia calculilor biliari"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Mesele regulate scad timpul de stocare a bilei.",
-    "evidenceLocation": "Lawrence, p. 242, 243, Epidemiologia calculilor biliari"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:21:14.905Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii sunt factori litogeni."
-  },
-  "textbookExpressions": [
-   "intervale regulate",
-   "fibre"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a biliar-adv-048: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "biliar-adv-044-v2",
   "questionFingerprint": "1d8b6383fff4b4f0ad3aaba1e820cc4b390d269f3ac3a55cdf8a5b8fb65f0803",
   "status": "source-checked",
@@ -187872,83 +187793,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a biliar-adv-037: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "biliar-adv-010-v2",
-  "questionFingerprint": "f86dbd03b125cab4ffa66f34674d279694f6563af9a3929aedd0a545a9b8fd38",
-  "status": "source-checked",
-  "learningObjective": "Diferențierea colicii biliare de colecistita acută.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 16,
-   "printedPages": [
-    244
-   ],
-   "pdfPages": [
-    156
-   ],
-   "section": "Anamneză și examen clinic"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Colica tipică este produsă de obstacol, fără inflamație sau infecție.",
-    "evidenceLocation": "Lawrence, p. 244, Anamneză și examen clinic"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Durerea durează 1–4 ore.",
-    "evidenceLocation": "Lawrence, p. 244, Anamneză și examen clinic"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Pacientul cu colică este neliniștit, agitat.",
-    "evidenceLocation": "Lawrence, p. 244, Anamneză și examen clinic"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Durerea somatică apare în colecistită.",
-    "evidenceLocation": "Lawrence, p. 244, Anamneză și examen clinic"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Febra însoțește colecistita, nu colica.",
-    "evidenceLocation": "Lawrence, p. 244, Anamneză și examen clinic"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:21:14.908Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii descriu colecistita."
-  },
-  "textbookExpressions": [
-   "1-4 ore",
-   "neliniştită"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a biliar-adv-010: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "biliar-adv-024-v2",
@@ -188182,83 +188026,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a biliar-adv-045: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "biliar-adv-011-v2",
-  "questionFingerprint": "0537a557b09df4d8447c49857304e2751ce084eb9f01cbe796d517625cc5f86c",
-  "status": "source-checked",
-  "learningObjective": "Interpretarea probelor biologice în obstacolul biliar.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 16,
-   "printedPages": [
-    244
-   ],
-   "pdfPages": [
-    156
-   ],
-   "section": "Analize de laborator"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Fracția conjugată crește în obstacol.",
-    "evidenceLocation": "Lawrence, p. 244, Analize de laborator"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Bilirubina conjugată hidrosolubilă se excretă în urină.",
-    "evidenceLocation": "Lawrence, p. 244, Analize de laborator"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Creșterea FA și GGT depășește creșterea aminotransferazelor.",
-    "evidenceLocation": "Lawrence, p. 244, Analize de laborator"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Malabsorbția vitaminei K prelungește timpul de protrombină.",
-    "evidenceLocation": "Lawrence, p. 244, Analize de laborator"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Urobilinogenul urinar scade.",
-    "evidenceLocation": "Lawrence, p. 244, Analize de laborator"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:21:14.911Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează excreția urinară."
-  },
-  "textbookExpressions": [
-   "malabsorbţiei",
-   "urobilinogenul"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a biliar-adv-011: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "biliar-adv-049-v2",
@@ -188569,160 +188336,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a biliar-adv-025: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "biliar-adv-013-v2",
-  "questionFingerprint": "4ab81b02217b64b900e49cd7457eb45fb013b97d9b66fbd6b398ebae17cd9049",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea rolului MRCP.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 16,
-   "printedPages": [
-    245
-   ],
-   "pdfPages": [
-    157
-   ],
-   "section": "Examinare imagistică"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Ecografia rămâne explorarea inițială de elecție.",
-    "evidenceLocation": "Lawrence, p. 245, Examinare imagistică"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Este de obicei investigația preliminară înaintea PTC sau ERCP.",
-    "evidenceLocation": "Lawrence, p. 245, Examinare imagistică"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "MRCP demonstrează calculii din CBP.",
-    "evidenceLocation": "Lawrence, p. 245, Examinare imagistică"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Extragerea calculilor este avantajul ERCP.",
-    "evidenceLocation": "Lawrence, p. 245, Examinare imagistică"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Nu este invazivă și nu iradiază.",
-    "evidenceLocation": "Lawrence, p. 245, Examinare imagistică"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:21:14.914Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii atribuie MRCP roluri ale ecografiei și ERCP."
-  },
-  "textbookExpressions": [
-   "MRCP",
-   "radiaţiilor"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a biliar-adv-013: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "biliar-adv-003-v2",
-  "questionFingerprint": "130a0f5d663ec5c00412da1fb6f7af646315d02e6f8ca61a1a6848d32dcfc3ac",
-  "status": "source-checked",
-  "learningObjective": "Interpretarea scintigrafiei HIDA.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 16,
-   "printedPages": [
-    246
-   ],
-   "pdfPages": [
-    158
-   ],
-   "section": "Examinare imagistică — HIDA"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Nutriția parenterală produce rezultate fals pozitive.",
-    "evidenceLocation": "Lawrence, p. 246, Examinare imagistică — HIDA"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Sensibilitatea este de 95–97%.",
-    "evidenceLocation": "Lawrence, p. 246, Examinare imagistică — HIDA"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Nevizualizarea colecistului după 4 ore indică obstrucția cisticului.",
-    "evidenceLocation": "Lawrence, p. 246, Examinare imagistică — HIDA"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "HIDA nu este utilă în identificarea calculilor.",
-    "evidenceLocation": "Lawrence, p. 246, Examinare imagistică — HIDA"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Colecistul normal apare în 30 de minute.",
-    "evidenceLocation": "Lawrence, p. 246, Examinare imagistică — HIDA"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:21:14.915Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii contrazic limitele HIDA."
-  },
-  "textbookExpressions": [
-   "30 de minute",
-   "95-97%"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a biliar-adv-003: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "biliar-adv-050-v2",
@@ -189343,83 +188956,6 @@
   "reviewNotes": "Rescriere a biliar-adv-034: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "biliar-adv-035-v2",
-  "questionFingerprint": "815d5ae67de1c175b127232e99d2dce9141826426cefe3972e4158b3cbcf58cd",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea tabloului colecistitei cronice.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 16,
-   "printedPages": [
-    248
-   ],
-   "pdfPages": [
-    160
-   ],
-   "section": "Colecistita cronică"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Durerea durează de la 30 de minute la câteva ore.",
-    "evidenceLocation": "Lawrence, p. 248, Colecistita cronică"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Este cea mai frecventă formă de litiază simptomatică.",
-    "evidenceLocation": "Lawrence, p. 248, Colecistita cronică"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Icterul nu apare prin obstrucția cisticului.",
-    "evidenceLocation": "Lawrence, p. 248, Colecistita cronică"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Semnele de iritație peritoneală lipsesc.",
-    "evidenceLocation": "Lawrence, p. 248, Colecistita cronică"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Febra și frisoanele sunt absente.",
-    "evidenceLocation": "Lawrence, p. 248, Colecistita cronică"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:21:14.922Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii descriu colecistita acută."
-  },
-  "textbookExpressions": [
-   "30 de minute",
-   "dispepsie"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a biliar-adv-035: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "biliar-adv-014-v2",
   "questionFingerprint": "2f8f18a4ac1f983d56160332055c687f4fa429a3e17f3b11f9f2b833637c869c",
   "status": "source-checked",
@@ -189961,83 +189497,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a biliar-adv-054: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "biliar-adv-055-v2",
-  "questionFingerprint": "f563807bff6f148fa9ecb863da065c5e96f0c4c72bfaee4fb118703be235072e",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea colangiografiei intraoperatorii și a antibioterapiei.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 16,
-   "printedPages": [
-    250
-   ],
-   "pdfPages": [
-    162
-   ],
-   "section": "Pancreatita acută biliară — Tratament"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Antibioticele sunt pentru formele severe și complicațiile septice.",
-    "evidenceLocation": "Lawrence, p. 250, Pancreatita acută biliară — Tratament"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Colangiografia confirmă absența calculilor din cale.",
-    "evidenceLocation": "Lawrence, p. 250, Pancreatita acută biliară — Tratament"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Colangiografia trebuie efectuată.",
-    "evidenceLocation": "Lawrence, p. 250, Pancreatita acută biliară — Tratament"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Colecistostomia poate fi primul gest.",
-    "evidenceLocation": "Lawrence, p. 250, Pancreatita acută biliară — Tratament"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Nu se administrează de rutină.",
-    "evidenceLocation": "Lawrence, p. 250, Pancreatita acută biliară — Tratament"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:21:14.928Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii generalizează antibioterapia și omit colangiografia."
-  },
-  "textbookExpressions": [
-   "Colangiografia intraoperatorie trebuie",
-   "complicaţiilor septice"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a biliar-adv-055: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "biliar-adv-006-v2",
@@ -190583,83 +190042,6 @@
   "reviewNotes": "Rescriere a biliar-adv-057: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "biliar-adv-018-v2",
-  "questionFingerprint": "33108a940ee4b4b597b81aba91852c36e515baf274203940da13cfcb78478fff",
-  "status": "source-checked",
-  "learningObjective": "Fixarea clasificării și epidemiologiei colangiocarcinomului.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 16,
-   "printedPages": [
-    253
-   ],
-   "pdfPages": [
-    165
-   ],
-   "section": "Afecțiunile maligne ale căilor biliare"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Intrahepaticul reprezintă 10%; distalul 40%.",
-    "evidenceLocation": "Lawrence, p. 253, Afecțiunile maligne ale căilor biliare"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Icterul este progresiv.",
-    "evidenceLocation": "Lawrence, p. 253, Afecțiunile maligne ale căilor biliare"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "50% sunt perihilare.",
-    "evidenceLocation": "Lawrence, p. 253, Afecțiunile maligne ale căilor biliare"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Forma extrahepatică este de departe cea mai frecventă.",
-    "evidenceLocation": "Lawrence, p. 253, Afecțiunile maligne ale căilor biliare"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Apare egal la ambele sexe.",
-    "evidenceLocation": "Lawrence, p. 253, Afecțiunile maligne ale căilor biliare"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:21:14.933Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii permută proporțiile și tipul icterului."
-  },
-  "textbookExpressions": [
-   "perihilar",
-   "ambele sexe"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a biliar-adv-018: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "biliar-adv-058-v2",
   "questionFingerprint": "d8421f4561152e8e5b70d362f24283159784e59a52fa7d303cee6d59312db103",
   "status": "source-checked",
@@ -191122,83 +190504,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a biliar-adv-022: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "biliar-adv-023-v2",
-  "questionFingerprint": "b68657e2bd922244e797039beac021213e72a8c23e03d3331a7b7684d1a9a16c",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea evoluției și tratamentului stricturii tardive.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 16,
-   "printedPages": [
-    254
-   ],
-   "pdfPages": [
-    166
-   ],
-   "section": "Leziunile și stricturile de cale biliară"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Rezultatele excelente apar la 70–90%.",
-    "evidenceLocation": "Lawrence, p. 254, Leziunile și stricturile de cale biliară"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Netratată poate duce la ciroză biliară și hipertensiune portală.",
-    "evidenceLocation": "Lawrence, p. 254, Leziunile și stricturile de cale biliară"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Nu este tratamentul citat.",
-    "evidenceLocation": "Lawrence, p. 254, Leziunile și stricturile de cale biliară"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Strictura produce icter obstructiv și angiocolită recurentă.",
-    "evidenceLocation": "Lawrence, p. 254, Leziunile și stricturile de cale biliară"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Se face derivația căii proximale pe ansă Roux-en-Y.",
-    "evidenceLocation": "Lawrence, p. 254, Leziunile și stricturile de cale biliară"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:21:14.938Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii subestimează rezultatele și schimbă tratamentul."
-  },
-  "textbookExpressions": [
-   "ciroză",
-   "70% până la"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a biliar-adv-023: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "biliar-adv-059-v2",
@@ -200888,83 +200193,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a trauma-adv-075: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "biliar-adv-051-v2",
-  "questionFingerprint": "2506d7b041d5617024d35120d1bede2eede607d8e3e1f70ed965af381733a3f7",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea principiului și a limitelor HIDA.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 16,
-   "printedPages": [
-    246
-   ],
-   "pdfPages": [
-    158
-   ],
-   "section": "Examinare imagistică — HIDA"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Hepatita poate da rezultate fals pozitive.",
-    "evidenceLocation": "Lawrence, p. 246, Examinare imagistică — HIDA"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Trasorul este excretat de ficat în bilă.",
-    "evidenceLocation": "Lawrence, p. 246, Examinare imagistică — HIDA"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "HIDA nu este utilă pentru calculii veziculari sau ai CBP.",
-    "evidenceLocation": "Lawrence, p. 246, Examinare imagistică — HIDA"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Se injectează un derivat de acid iminodiacetic marcat cu tehnețiu.",
-    "evidenceLocation": "Lawrence, p. 246, Examinare imagistică — HIDA"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Poate identifica fistule postoperatorii, dar este rar folosită în acest scop.",
-    "evidenceLocation": "Lawrence, p. 246, Examinare imagistică — HIDA"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:44:27.408Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii contrazic farmacocinetica și limitele."
-  },
-  "textbookExpressions": [
-   "iminodiacetic",
-   "fistule biliare postoperatorii"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a biliar-adv-051: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "intestin-adv-001-v2",
@@ -269519,5 +268747,777 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a tromboembolism-adv-012: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "biliar-adv-010-v2",
+  "questionFingerprint": "26b5b2b26ef3c9b2afbd216f156f6a4ebfe3bc31f5bb8291683d1024bb121f89",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea colicii biliare de colecistita acută.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    244
+   ],
+   "pdfPages": [
+    156
+   ],
+   "section": "Anamneză și examen clinic"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Colica tipică este produsă de obstacol, fără inflamație sau infecție.",
+    "evidenceLocation": "Lawrence, p. 244, Anamneză și examen clinic"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Durerea durează 1–4 ore.",
+    "evidenceLocation": "Lawrence, p. 244, Anamneză și examen clinic"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: colica biliară face pacientul agitat.",
+    "evidenceLocation": "Lawrence, p. 244, Anamneză și examen clinic"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Durerea somatică apare în colecistită.",
+    "evidenceLocation": "Lawrence, p. 244, Anamneză și examen clinic"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Febra însoțește colecistita, nu colica.",
+    "evidenceLocation": "Lawrence, p. 244, Anamneză și examen clinic"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:11:34.899Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii descriu colecistita."
+  },
+  "textbookExpressions": [
+   "1-4 ore",
+   "neliniştită"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a biliar-adv-010: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "biliar-adv-011-v2",
+  "questionFingerprint": "034b0bd880cd684d094e17ded9fc3f6a92b052a68db2af9acddfc04bcfeb8eb1",
+  "status": "source-checked",
+  "learningObjective": "Interpretarea probelor biologice în obstacolul biliar.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    244
+   ],
+   "pdfPages": [
+    156
+   ],
+   "section": "Analize de laborator"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Fracția conjugată crește în obstacol.",
+    "evidenceLocation": "Lawrence, p. 244, Analize de laborator"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Bilirubina conjugată hidrosolubilă se excretă în urină.",
+    "evidenceLocation": "Lawrence, p. 244, Analize de laborator"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Creșterea FA și GGT depășește creșterea aminotransferazelor.",
+    "evidenceLocation": "Lawrence, p. 244, Analize de laborator"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: INR-ul este adesea crescut.",
+    "evidenceLocation": "Lawrence, p. 244, Analize de laborator"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Urobilinogenul urinar scade.",
+    "evidenceLocation": "Lawrence, p. 244, Analize de laborator"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:11:34.910Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează excreția urinară."
+  },
+  "textbookExpressions": [
+   "malabsorbţiei",
+   "urobilinogenul"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a biliar-adv-011: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "biliar-adv-013-v2",
+  "questionFingerprint": "49c2fa8c599e44b69d82467da54c9ca25f99008ea17cb0c6a74d96e42ea1eec2",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea rolului MRCP.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    245
+   ],
+   "pdfPages": [
+    157
+   ],
+   "section": "Examinare imagistică"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Ecografia rămâne explorarea inițială de elecție.",
+    "evidenceLocation": "Lawrence, p. 245, Examinare imagistică"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: colangio-RM precede de obicei PTC sau ERCP.",
+    "evidenceLocation": "Lawrence, p. 245, Examinare imagistică"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "MRCP demonstrează calculii din CBP.",
+    "evidenceLocation": "Lawrence, p. 245, Examinare imagistică"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Extragerea calculilor este avantajul ERCP.",
+    "evidenceLocation": "Lawrence, p. 245, Examinare imagistică"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Nu este invazivă și nu iradiază.",
+    "evidenceLocation": "Lawrence, p. 245, Examinare imagistică"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:11:34.911Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii atribuie MRCP roluri ale ecografiei și ERCP."
+  },
+  "textbookExpressions": [
+   "MRCP",
+   "radiaţiilor"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a biliar-adv-013: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "biliar-adv-003-v2",
+  "questionFingerprint": "5c8a82ef449a16ed9cd611e47dd24a0614f78a3ec6b4d028552f9b4952ba7439",
+  "status": "source-checked",
+  "learningObjective": "Interpretarea scintigrafiei HIDA.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    246
+   ],
+   "pdfPages": [
+    158
+   ],
+   "section": "Examinare imagistică — HIDA"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nutriția parenterală produce rezultate fals pozitive.",
+    "evidenceLocation": "Lawrence, p. 246, Examinare imagistică — HIDA"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: sensibilitatea este de 95–97%.",
+    "evidenceLocation": "Lawrence, p. 246, Examinare imagistică — HIDA"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Nevizualizarea colecistului după 4 ore indică obstrucția cisticului.",
+    "evidenceLocation": "Lawrence, p. 246, Examinare imagistică — HIDA"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "HIDA nu este utilă în identificarea calculilor.",
+    "evidenceLocation": "Lawrence, p. 246, Examinare imagistică — HIDA"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Colecistul normal apare în 30 de minute.",
+    "evidenceLocation": "Lawrence, p. 246, Examinare imagistică — HIDA"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:11:34.912Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii contrazic limitele HIDA."
+  },
+  "textbookExpressions": [
+   "30 de minute",
+   "95-97%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a biliar-adv-003: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "biliar-adv-035-v2",
+  "questionFingerprint": "61750a0ac62ff9065c737675ff1b6d838aca63a555a9fe06cbfebe246ef64ea8",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea tabloului colecistitei cronice.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    248
+   ],
+   "pdfPages": [
+    160
+   ],
+   "section": "Colecistita cronică"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Durerea durează de la 30 de minute la câteva ore.",
+    "evidenceLocation": "Lawrence, p. 248, Colecistita cronică"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Este cea mai frecventă formă de litiază simptomatică.",
+    "evidenceLocation": "Lawrence, p. 248, Colecistita cronică"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: obstrucția cisticului nu produce icter.",
+    "evidenceLocation": "Lawrence, p. 248, Colecistita cronică"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Semnele de iritație peritoneală lipsesc.",
+    "evidenceLocation": "Lawrence, p. 248, Colecistita cronică"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Febra și frisoanele sunt absente.",
+    "evidenceLocation": "Lawrence, p. 248, Colecistita cronică"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:11:34.913Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii descriu colecistita acută."
+  },
+  "textbookExpressions": [
+   "30 de minute",
+   "dispepsie"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a biliar-adv-035: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "biliar-adv-018-v2",
+  "questionFingerprint": "36524f6a32b633092b57e166cd790ed1afd32311a20742e02fa4f47de9ac043a",
+  "status": "source-checked",
+  "learningObjective": "Fixarea clasificării și epidemiologiei colangiocarcinomului.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    253
+   ],
+   "pdfPages": [
+    165
+   ],
+   "section": "Afecțiunile maligne ale căilor biliare"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Intrahepaticul reprezintă 10%; distalul 40%.",
+    "evidenceLocation": "Lawrence, p. 253, Afecțiunile maligne ale căilor biliare"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Icterul este progresiv.",
+    "evidenceLocation": "Lawrence, p. 253, Afecțiunile maligne ale căilor biliare"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "50% sunt perihilare.",
+    "evidenceLocation": "Lawrence, p. 253, Afecțiunile maligne ale căilor biliare"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Forma extrahepatică este de departe cea mai frecventă.",
+    "evidenceLocation": "Lawrence, p. 253, Afecțiunile maligne ale căilor biliare"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: apare cu frecvență egală la ambele sexe.",
+    "evidenceLocation": "Lawrence, p. 253, Afecțiunile maligne ale căilor biliare"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:11:34.914Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii permută proporțiile și tipul icterului."
+  },
+  "textbookExpressions": [
+   "perihilar",
+   "ambele sexe"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a biliar-adv-018: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "biliar-adv-023-v2",
+  "questionFingerprint": "1667d1d26af7c2038797d2a70812920f273262c8118e53f5d91ffa42a05baa43",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea evoluției și tratamentului stricturii tardive.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    254
+   ],
+   "pdfPages": [
+    166
+   ],
+   "section": "Leziunile și stricturile de cale biliară"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Rezultatele excelente apar la 70–90%.",
+    "evidenceLocation": "Lawrence, p. 254, Leziunile și stricturile de cale biliară"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: strictura tardivă poate duce la ciroză biliară.",
+    "evidenceLocation": "Lawrence, p. 254, Leziunile și stricturile de cale biliară"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu este tratamentul citat.",
+    "evidenceLocation": "Lawrence, p. 254, Leziunile și stricturile de cale biliară"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Strictura produce icter obstructiv și angiocolită recurentă.",
+    "evidenceLocation": "Lawrence, p. 254, Leziunile și stricturile de cale biliară"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Se face derivația căii proximale pe ansă Roux-en-Y.",
+    "evidenceLocation": "Lawrence, p. 254, Leziunile și stricturile de cale biliară"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:11:34.915Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii subestimează rezultatele și schimbă tratamentul."
+  },
+  "textbookExpressions": [
+   "ciroză",
+   "70% până la"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a biliar-adv-023: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "biliar-adv-048-v2",
+  "questionFingerprint": "555edcd52209d1dc3d89b663450eaa0771550c0a108a9971f759c0924061021a",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea măsurilor de prevenție a litiazei.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    242,
+    243
+   ],
+   "pdfPages": [
+    154,
+    155
+   ],
+   "section": "Epidemiologia calculilor biliari"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Fibrele inhibă circuitul enterohepatic al acizilor biliari dehidroxilați.",
+    "evidenceLocation": "Lawrence, p. 242, 243, Epidemiologia calculilor biliari"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Scăderea ponderală rapidă predispune la calculi.",
+    "evidenceLocation": "Lawrence, p. 242, 243, Epidemiologia calculilor biliari"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Evitarea obezității este citată.",
+    "evidenceLocation": "Lawrence, p. 242, 243, Epidemiologia calculilor biliari"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Se recomandă alimente sărace în acizi grași saturați.",
+    "evidenceLocation": "Lawrence, p. 242, 243, Epidemiologia calculilor biliari"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: mesele la intervale regulate previn formarea calculilor.",
+    "evidenceLocation": "Lawrence, p. 242, 243, Epidemiologia calculilor biliari"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:11:51.704Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt factori litogeni."
+  },
+  "textbookExpressions": [
+   "intervale regulate",
+   "fibre"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a biliar-adv-048: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "biliar-adv-051-v2",
+  "questionFingerprint": "3e4c9089874869824455c3a2f8a60567c6deb8854226023cc3d9f4501f02cafa",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea principiului și a limitelor HIDA.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    246
+   ],
+   "pdfPages": [
+    158
+   ],
+   "section": "Examinare imagistică — HIDA"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Hepatita poate da rezultate fals pozitive.",
+    "evidenceLocation": "Lawrence, p. 246, Examinare imagistică — HIDA"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Trasorul este excretat de ficat în bilă.",
+    "evidenceLocation": "Lawrence, p. 246, Examinare imagistică — HIDA"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "HIDA nu este utilă pentru calculii veziculari sau ai CBP.",
+    "evidenceLocation": "Lawrence, p. 246, Examinare imagistică — HIDA"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Se injectează un derivat de acid iminodiacetic marcat cu tehnețiu.",
+    "evidenceLocation": "Lawrence, p. 246, Examinare imagistică — HIDA"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: HIDA poate identifica o fistulă biliară postoperatorie.",
+    "evidenceLocation": "Lawrence, p. 246, Examinare imagistică — HIDA"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:11:51.707Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii contrazic farmacocinetica și limitele."
+  },
+  "textbookExpressions": [
+   "iminodiacetic",
+   "fistule biliare postoperatorii"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a biliar-adv-051: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "biliar-adv-055-v2",
+  "questionFingerprint": "c41826dac638ce03502500f2f78d82d3b924cfecd91ef39a729040b6d1c3ef39",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea colangiografiei intraoperatorii și a antibioterapiei.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    250
+   ],
+   "pdfPages": [
+    162
+   ],
+   "section": "Pancreatita acută biliară — Tratament"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Antibioticele sunt pentru formele severe și complicațiile septice.",
+    "evidenceLocation": "Lawrence, p. 250, Pancreatita acută biliară — Tratament"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: colangiografia intraoperatorie este necesară la colecistectomie.",
+    "evidenceLocation": "Lawrence, p. 250, Pancreatita acută biliară — Tratament"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Colangiografia trebuie efectuată.",
+    "evidenceLocation": "Lawrence, p. 250, Pancreatita acută biliară — Tratament"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Colecistostomia poate fi primul gest.",
+    "evidenceLocation": "Lawrence, p. 250, Pancreatita acută biliară — Tratament"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu se administrează de rutină.",
+    "evidenceLocation": "Lawrence, p. 250, Pancreatita acută biliară — Tratament"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:11:51.709Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii generalizează antibioterapia și omit colangiografia."
+  },
+  "textbookExpressions": [
+   "Colangiografia intraoperatorie trebuie",
+   "complicaţiilor septice"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a biliar-adv-055: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  }
 ]
