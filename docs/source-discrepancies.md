@@ -173,3 +173,9 @@ Fiecare temă rescrisă (versiunile `-v2`) a fost confruntată din nou cu pagini
 - Vechiul `-073` atribuia episoadele de stres termic ale agricultorilor din America Centrală (p. 173–174) contextului «subumplerii arteriale, alături de sarcină și vasodilatatoare». În text, ele ilustrează hipovolemia recurentă care duce la boală cronică de rinichi (nefropatia mezoamericană). Itemul a fost retras. ID-ul `-073-v2` testează acum tratamentul subacut al hiperkaliemiei.
 - **Contradicție internă:** Cadranul 9.6 (p. 179) plasează acțiunea tiazidelor pe co-transportul Na+-Cl− «în tubul contort proximal», iar textul de pe aceeași pagină și Fig. 9.9 o plasează în tubul contort distal. Itemii nu testează segmentul din cadran.
 - Retrase fără înlocuitor: 032 (inclus în `-014-v2`), 053 (cifrele de filtrare din Fig. 9.6).
+
+### Pancreasul (Lawrence, cap. 17, p. 257–275)
+- Nu s-au găsit chei greșite în cei 89 de itemi confruntați cu p. 257–275. Vechiul `-085` (trunchiul celiac și arcadele) este rescris în `-085-v2` fără formularea ambiguă despre artera hepatică.
+- P. 273: textul dă pentru VIPom «un nivel seric al VIP <75-150 pg/mL» ca valoare diagnostică. Semnul este probabil inversat (hipersecreția definește tumora), așa că pragul nu este testat.
+- P. 269: afirmația că o rudă paternă cu cancer pancreatic conferă «un risc de 75%» nu are sursă și este neverosimilă. Nu se mai testează (vechiul `-057`).
+- Retrase fără înlocuitor (dubluri): 013 (inclus în `-070-v2`), 016 (inclus în `-002-v2`), 017 (stadializarea Balthazar), 033 (inclus în `-046-v2`), 036 (inclus în `-075-v2`), 067 (inclus în `-008-v2`), 068 (drenajul venos), 089 (teoriile durerii).

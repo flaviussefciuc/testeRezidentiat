@@ -40,9 +40,11 @@ function guessCM(o:string[]){
 export function metrics(bank:Question[]){
  const cs=bank.filter(q=>q.type==='CS'),cm=bank.filter(q=>q.type==='CM');
  const csLongest=cs.filter(q=>{const L=q.options.map(o=>o.length);return L[q.correct[0]]===Math.max(...L);}).length;
+ // Length rank of the CS key (0 = longest, 4 = shortest; ties count toward the extreme). Uniform is ~20% each.
+ const csRank=[0,0,0,0,0];cs.forEach(q=>{const L=q.options.map(o=>o.length),k=L[q.correct[0]];csRank[Math.min(4,L.filter(l=>l>k).length)]++;});
  const csGuess=cs.filter(q=>guessCS(q.options)===q.correct[0]).length;
- let cmHits=0,cmRandom=0;
- for(const q of cm){const m=guessCM(q.options);for(let i=0;i<5;i++)if(m[i]===q.correct.includes(i))cmHits++;const k=q.correct.length;cmRandom+=3*k/5+(5-k)*2/5;}
+ let cmHits=0,cmRandom=0,cmMark4=0;
+ for(const q of cm){const m=guessCM(q.options);for(let i=0;i<5;i++)if(m[i]===q.correct.includes(i))cmHits++;const k=q.correct.length;cmRandom+=3*k/5+(5-k)*2/5;cmMark4+=4*k/5+(5-k)/5;}
  const csAcc=cs.length?csGuess/cs.length:0,cmAcc=cm.length?cmHits/cm.length/5:0,cmRand=cm.length?cmRandom/cm.length/5:0.52;
  let absCN=0,absC=0,absIN=0,absI=0,low=0,n=0;const ow:number[]=[];
  for(const q of bank)q.options.forEach((o,i)=>{n++;ow.push(words(o));if(lowerStart(o))low++;if(q.correct.includes(i)){absCN++;if(ABSOLUTE.test(o))absC++;}else{absIN++;if(ABSOLUTE.test(o))absI++;}});
@@ -60,7 +62,10 @@ export function metrics(bank:Question[]){
   absoluteWordingCorrectPct:pct(absCN?absC/absCN:0),absoluteWordingIncorrectPct:pct(absIN?absI/absIN:0),
   optionMedianWords:ow[ow.length>>1]??0,lowercaseOptionPct:pct(n?low/n:0),
   csKeyPositionPct:csPos.map(x=>pct(cs.length?x/cs.length:0)),cmOptionCorrectPct:cmPos.map(x=>pct(cm.length?x/cm.length:0)),
-  cmCardinality:card,questionsWithCues:cued,questionsWithCuesPct:pct(bank.length?cued/bank.length:0),
+  cmCardinality:card,cmCardinalityPct:[2,3,4].map(k=>pct(cm.length?(card[k]??0)/cm.length:0)),
+  // Knowledge-free baseline under per-option scoring: mark 4 options at random.
+  cmMark4PerOptionPct:pct(cm.length?cmMark4/cm.length/5:0),
+  csKeyLengthRankPct:csRank.map(x=>pct(cs.length?x/cs.length:0)),questionsWithCues:cued,questionsWithCuesPct:pct(bank.length?cued/bank.length:0),
  };
 }
 export type CueMetrics=ReturnType<typeof metrics>;
@@ -76,6 +81,12 @@ export function gateFailures(m:CueMetrics,scope:'bank'|'topic'):string[]{
  if(m.lowercaseOptionPct<50-slack)f.push(`lowercase fragment options ${m.lowercaseOptionPct}% < ${50-slack}%`);
  if(m.cs>=(scope==='topic'?20:10)&&Math.max(...m.csKeyPositionPct)>35+slack)f.push(`CS key concentrated at one position (${m.csKeyPositionPct.join('/')})`);
  if(m.cm>=10&&Math.min(...m.cmOptionCorrectPct)<0.6*Math.max(...m.cmOptionCorrectPct))f.push(`CM correct positions unbalanced (${m.cmOptionCorrectPct.join('/')})`);
+ // A CM set dominated by one cardinality lets a blind candidate mark that many options.
+ if(m.cm>=10&&Math.min(...m.cmCardinalityPct)<20-slack)f.push(`CM cardinality 2/3/4 unbalanced (${m.cmCardinalityPct.join('/')})`);
+ if(m.cm&&m.cmMark4PerOptionPct>56+slack)f.push(`blind mark-4 CM ${m.cmMark4PerOptionPct}% > ${56+slack}%`);
+ // The key must not sit systematically at the extremes or in the middle of the length ranking.
+ if(m.cs>=(scope==='topic'?8:10)&&m.csKeyLengthRankPct[4]>30+slack)f.push(`CS correct-is-shortest ${m.csKeyLengthRankPct[4]}% > ${30+slack}%`);
+ if(scope==='bank'&&m.cs>=50&&(m.csKeyLengthRankPct[0]<10||m.csKeyLengthRankPct[4]<10||Math.max(...m.csKeyLengthRankPct)>35))f.push(`CS key length rank not spread (${m.csKeyLengthRankPct.join('/')})`);
  if(m.questionsWithCuesPct>10)f.push(`${m.questionsWithCuesPct}% questions carry a per-question cue > 10%`);
  return f;
 }
