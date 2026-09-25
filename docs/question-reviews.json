@@ -217134,85 +217134,6 @@
   "reviewNotes": "Rescriere a psihiatrie-adv-049: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "hta-adv-001-v2",
-  "questionFingerprint": "16553680bce08cb32fb19f7dfa231c2fae31bb8c784fcf14b753fb9f50e91192",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea importanței epidemiologice a hipertensiunii.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 31,
-   "printedPages": [
-    1133,
-    1134
-   ],
-   "pdfPages": [
-    278,
-    279
-   ],
-   "section": "Introducere"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Femeile au valori mai mici până la menopauză.",
-    "evidenceLocation": "Kumar, p. 1133, 1134, Introducere"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Depășește fumatul și bolile infecțioase ca factor de mortalitate.",
-    "evidenceLocation": "Kumar, p. 1133, 1134, Introducere"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Afectează o treime dintre adulți.",
-    "evidenceLocation": "Kumar, p. 1133, 1134, Introducere"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Este rară la copii și adolescenți.",
-    "evidenceLocation": "Kumar, p. 1133, 1134, Introducere"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Este factor de risc pentru FA, AVC, IMA și BCR terminală.",
-    "evidenceLocation": "Kumar, p. 1133, 1134, Introducere"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:55:03.409Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează distribuția pe vârstă și sex."
-  },
-  "textbookExpressions": [
-   "principalul factor de risc",
-   "fibrilaţia atrială"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hta-adv-001: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "hta-adv-030-v2",
   "questionFingerprint": "5dd8f2bf2ae9a32f264c9fcdd00098b7db929cad2001ae63ad4a9126f38b7ba8",
   "status": "source-checked",
@@ -217448,85 +217369,6 @@
   "reviewNotes": "Rescriere a hta-adv-002: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "hta-adv-003-v2",
-  "questionFingerprint": "66ac9874ca12a00374882963ecf412ccee94bb2548f70d81c065d64a2f635b38",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea tehnicii corecte de măsurare a TA.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 31,
-   "printedPages": [
-    1135,
-    1136
-   ],
-   "pdfPages": [
-    280,
-    281
-   ],
-   "section": "Măsurarea tensiunii arteriale"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Manșeta se plasează la nivelul inimii.",
-    "evidenceLocation": "Kumar, p. 1135, 1136, Măsurarea tensiunii arteriale"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Repaus de 5 minute, spatele sprijinit.",
-    "evidenceLocation": "Kumar, p. 1135, 1136, Măsurarea tensiunii arteriale"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "În FA se preferă metoda auscultatorie.",
-    "evidenceLocation": "Kumar, p. 1135, 1136, Măsurarea tensiunii arteriale"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Se folosesc cel puțin două măsurători.",
-    "evidenceLocation": "Kumar, p. 1135, 1136, Măsurarea tensiunii arteriale"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Manșeta acoperă ≥80% din circumferință.",
-    "evidenceLocation": "Kumar, p. 1135, 1136, Măsurarea tensiunii arteriale"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:55:03.416Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii schimbă poziția manșetei și metoda în FA."
-  },
-  "textbookExpressions": [
-   "5 minute",
-   "80% din circumferinţa"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hta-adv-003: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "hta-adv-027-v2",
   "questionFingerprint": "63c20c889c4e11caeb91369b693a227edd3061c0fbc59d7520b345bf1172487c",
   "status": "source-checked",
@@ -217681,83 +217523,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a hta-adv-046: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "hta-adv-047-v2",
-  "questionFingerprint": "74c1655d27a37c9d631025da50d11b97d5b72ff663840f947425f1d5d6d6a4cb",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea monitorizării ambulatorii a TA.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 31,
-   "printedPages": [
-    1136
-   ],
-   "pdfPages": [
-    281
-   ],
-   "section": "Determinarea TA în ambulator"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "În Marea Britanie înlocuiește cabinetul pentru diagnostic.",
-    "evidenceLocation": "Kumar, p. 1136, Determinarea TA în ambulator"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Media pe 24 h este mai predictivă decât cabinetul sau domiciliul.",
-    "evidenceLocation": "Kumar, p. 1136, Determinarea TA în ambulator"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "La 20–30 de minute ziua, la 30–60 noaptea.",
-    "evidenceLocation": "Kumar, p. 1136, Determinarea TA în ambulator"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Noaptea se măsoară la 30–60 de minute.",
-    "evidenceLocation": "Kumar, p. 1136, Determinarea TA în ambulator"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Valorile diurne sunt mai mici cu 5–10/5 mmHg.",
-    "evidenceLocation": "Kumar, p. 1136, Determinarea TA în ambulator"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:55:03.419Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează diferența și intervalul nocturn."
-  },
-  "textbookExpressions": [
-   "20-30 de minute",
-   "Marea Britanie"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hta-adv-047: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "hta-adv-005-v2",
@@ -217991,83 +217756,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a hta-adv-049: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "hta-adv-007-v2",
-  "questionFingerprint": "605f2b3b3098f7fcb247765b139b46dca61d6017a5612934a443f649d98c1183",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea bazei poligenice a hipertensiunii primare.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 31,
-   "printedPages": [
-    1137
-   ],
-   "pdfPages": [
-    282
-   ],
-   "section": "Etiologia hipertensiunii arteriale"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Combinate, genele determină 60%.",
-    "evidenceLocation": "Kumar, p. 1137, Etiologia hipertensiunii arteriale"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Până la 90% nu au o cauză identificabilă.",
-    "evidenceLocation": "Kumar, p. 1137, Etiologia hipertensiunii arteriale"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Termenul „primară” este preferat.",
-    "evidenceLocation": "Kumar, p. 1137, Etiologia hipertensiunii arteriale"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Mediul și stilul de viață mediază până la 40%.",
-    "evidenceLocation": "Kumar, p. 1137, Etiologia hipertensiunii arteriale"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Fiecare genă contribuie cu 0,5–1 mmHg.",
-    "evidenceLocation": "Kumar, p. 1137, Etiologia hipertensiunii arteriale"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:55:03.422Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează ponderea genetică și terminologia."
-  },
-  "textbookExpressions": [
-   "0,5-1 mmHg",
-   "60%"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hta-adv-007: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "hta-adv-017-v2",
@@ -218691,164 +218379,6 @@
   "reviewNotes": "Rescriere a hta-adv-009: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "hta-adv-010-v2",
-  "questionFingerprint": "aab760b31356609377fe510ca80a6bea39c29f6d800959fa517c2653490d68bb",
-  "status": "source-checked",
-  "learningObjective": "Interpretarea performanței ECG în HVS.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 31,
-   "printedPages": [
-    1140
-   ],
-   "pdfPages": [
-    285
-   ],
-   "section": "Leziunile organelor țintă — cordul"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Imagistica este mai sensibilă și specifică.",
-    "evidenceLocation": "Kumar, p. 1140, Leziunile organelor țintă — cordul"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Specificitatea este >90%.",
-    "evidenceLocation": "Kumar, p. 1140, Leziunile organelor țintă — cordul"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Sensibilitatea este modestă, 20–50%.",
-    "evidenceLocation": "Kumar, p. 1140, Leziunile organelor țintă — cordul"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "HVS este de obicei asimptomatică.",
-    "evidenceLocation": "Kumar, p. 1140, Leziunile organelor țintă — cordul"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Specificitatea, nu sensibilitatea, este >90%.",
-    "evidenceLocation": "Kumar, p. 1140, Leziunile organelor țintă — cordul"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:55:03.431Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează sensibilitatea și simptomatologia."
-  },
-  "textbookExpressions": [
-   "20-50%",
-   ">90%"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hta-adv-010: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "hta-adv-031-v2",
-  "questionFingerprint": "0b8c7187248219e3857416daec252d0ec8a11ba388d9254acb9ebbbaf3469b14",
-  "status": "source-checked",
-  "learningObjective": "Interpretarea funcției renale la inițierea tratamentului.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 31,
-   "printedPages": [
-    1140,
-    1133,
-    1134
-   ],
-   "pdfPages": [
-    285,
-    278,
-    279
-   ],
-   "section": "Leziunile organelor țintă — rinichii"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Boala renală este cauză și consecință.",
-    "evidenceLocation": "Kumar, p. 1140, 1133, 1134, Leziunile organelor țintă — rinichii"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Stadiile precoce se văd prin albuminurie.",
-    "evidenceLocation": "Kumar, p. 1140, 1133, 1134, Leziunile organelor țintă — rinichii"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Reducerea RFG cu până la 10% este permisă.",
-    "evidenceLocation": "Kumar, p. 1140, 1133, 1134, Leziunile organelor țintă — rinichii"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Urmărirea regulată este necesară.",
-    "evidenceLocation": "Kumar, p. 1140, 1133, 1134, Leziunile organelor țintă — rinichii"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Microalbuminuria/RAC detectează stadiile precoce.",
-    "evidenceLocation": "Kumar, p. 1140, 1133, 1134, Leziunile organelor țintă — rinichii"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:55:03.432Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii contrazic monitorizarea și semnul precoce."
-  },
-  "textbookExpressions": [
-   "10%",
-   "cauză, cât şi o consecinţă"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hta-adv-031: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "hta-adv-012-v2",
   "questionFingerprint": "e075a83ee7adb9eca62592e3e685745b65272b94770b846bc2d2e3244577bcb9",
   "status": "source-checked",
@@ -218926,85 +218456,6 @@
   "reviewNotes": "Rescriere a hta-adv-012: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "hta-adv-016-v2",
-  "questionFingerprint": "28b7a34c9cd35659dc7c98e30db73735a85475c706728ca2105fbeacebb7a52b",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea prevenției cardiovasculare globale.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 31,
-   "printedPages": [
-    1142,
-    1140
-   ],
-   "pdfPages": [
-    287,
-    285
-   ],
-   "section": "Tratament"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Sunt recomandate în prevenția primară la risc >1%/an.",
-    "evidenceLocation": "Kumar, p. 1142, 1140, Tratament"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Statinele se recomandă la risc >1%/an.",
-    "evidenceLocation": "Kumar, p. 1142, 1140, Tratament"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Pragul poate să nu fie atins la tineri.",
-    "evidenceLocation": "Kumar, p. 1142, 1140, Tratament"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Nici la diabetici nu există beneficiu net.",
-    "evidenceLocation": "Kumar, p. 1142, 1140, Tratament"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Hemoragiile anulează beneficiul aspirinei.",
-    "evidenceLocation": "Kumar, p. 1142, 1140, Tratament"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:55:03.434Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii restrâng statinele și extind aspirina."
-  },
-  "textbookExpressions": [
-   "statine puternice",
-   "aspirina în doze mici"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hta-adv-016: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "hta-adv-013-v2",
   "questionFingerprint": "d480f55f6c3e536e9c3c721178f6f0393130670644ce9217496bf05ac2a291cc",
   "status": "source-checked",
@@ -219080,83 +218531,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a hta-adv-013: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "hta-adv-035-v2",
-  "questionFingerprint": "386b537747b95c5a5c53577dcd8526661fc9ae5b390430628964506351a6b7ab",
-  "status": "source-checked",
-  "learningObjective": "Interpretarea datelor despre aderență.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 31,
-   "printedPages": [
-    1142
-   ],
-   "pdfPages": [
-    287
-   ],
-   "section": "Tratamentul medicamentos — aderența"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Reînnoirea rețetelor se corelează slab.",
-    "evidenceLocation": "Kumar, p. 1142, Tratamentul medicamentos — aderența"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Combinațiile într-o pilulă cresc aderența.",
-    "evidenceLocation": "Kumar, p. 1142, Tratamentul medicamentos — aderența"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Până la două treimi nu își iau medicația.",
-    "evidenceLocation": "Kumar, p. 1142, Tratamentul medicamentos — aderența"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Chestionarele se corelează slab cu dovezile obiective.",
-    "evidenceLocation": "Kumar, p. 1142, Tratamentul medicamentos — aderența"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Până la două treimi sunt non-aderenți.",
-    "evidenceLocation": "Kumar, p. 1142, Tratamentul medicamentos — aderența"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:55:03.437Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii supraestimează aderența și metodele indirecte."
-  },
-  "textbookExpressions": [
-   "două treimi",
-   "Morisky"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hta-adv-035: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "hta-adv-051-v2",
@@ -219854,83 +219228,6 @@
   "reviewNotes": "Rescriere a hta-adv-040: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "hta-adv-043-v2",
-  "questionFingerprint": "aae2dbc678c56286314ef523774e10602207b0bfbf050465a3638125b4e105ea",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea hipertensiunii maligne.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 31,
-   "printedPages": [
-    1145
-   ],
-   "pdfPages": [
-    290
-   ],
-   "section": "Cadranul 31.7"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Necroza fibrinoidă poate da IRA.",
-    "evidenceLocation": "Kumar, p. 1145, Cadranul 31.7"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Ținta este −25% în câteva ore.",
-    "evidenceLocation": "Kumar, p. 1145, Cadranul 31.7"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Retinopatia moderat-severă este tipică.",
-    "evidenceLocation": "Kumar, p. 1145, Cadranul 31.7"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "RMN este investigația encefalopatiei.",
-    "evidenceLocation": "Kumar, p. 1145, Cadranul 31.7"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Labetalol sau nicardipină i.v.",
-    "evidenceLocation": "Kumar, p. 1145, Cadranul 31.7"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:55:03.446Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii umflă ținta și preiau investigația encefalopatiei."
-  },
-  "textbookExpressions": [
-   "necrozei",
-   "atenololul"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hta-adv-043: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "hta-adv-029-v2",
   "questionFingerprint": "eacd3592d74039ed42a3d2cb22a28d1935ab63813b476e7296205b1497fd3c19",
   "status": "source-checked",
@@ -220551,83 +219848,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a hta-adv-042: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "hta-adv-057-v2",
-  "questionFingerprint": "7683aa8a89ca2b48dd59c7decb6596f99f536b1d6279528b6196fdcb00038120",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea conduitei în disecția de aortă.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 31,
-   "printedPages": [
-    1145
-   ],
-   "pdfPages": [
-    290
-   ],
-   "section": "Cadranul 31.7"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Diferența de puls sau TA între brațe.",
-    "evidenceLocation": "Kumar, p. 1145, Cadranul 31.7"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Angio-CT sau ETE arată faldul.",
-    "evidenceLocation": "Kumar, p. 1145, Cadranul 31.7"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "NTG și morfina tratează EPA.",
-    "evidenceLocation": "Kumar, p. 1145, Cadranul 31.7"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "FC la 50–60/min.",
-    "evidenceLocation": "Kumar, p. 1145, Cadranul 31.7"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Vasodilatatoarele se adaugă după controlul FC.",
-    "evidenceLocation": "Kumar, p. 1145, Cadranul 31.7"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:56:03.422Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii preiau tratamentul EPA și investigația encefalopatiei."
-  },
-  "textbookExpressions": [
-   "transesofagiană",
-   "înjunghiere"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hta-adv-057: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "hta-adv-056-v2",
@@ -269519,5 +268739,785 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a psihiatrie-adv-025: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "hta-adv-001-v2",
+  "questionFingerprint": "cd94be2a684803967bcfcb26d6a0c668c3e026a4ab6793b910889e583d61b20c",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea importanței epidemiologice a hipertensiunii.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1133,
+    1134
+   ],
+   "pdfPages": [
+    278,
+    279
+   ],
+   "section": "Introducere"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Femeile au valori mai mici până la menopauză.",
+    "evidenceLocation": "Kumar, p. 1133, 1134, Introducere"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Depășește fumatul și bolile infecțioase ca factor de mortalitate.",
+    "evidenceLocation": "Kumar, p. 1133, 1134, Introducere"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: afectează o treime dintre adulți.",
+    "evidenceLocation": "Kumar, p. 1133, 1134, Introducere"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Este rară la copii și adolescenți.",
+    "evidenceLocation": "Kumar, p. 1133, 1134, Introducere"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Este factor de risc pentru FA, AVC, IMA și BCR terminală.",
+    "evidenceLocation": "Kumar, p. 1133, 1134, Introducere"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:23:55.058Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează distribuția pe vârstă și sex."
+  },
+  "textbookExpressions": [
+   "principalul factor de risc",
+   "fibrilaţia atrială"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a hta-adv-001: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "hta-adv-003-v2",
+  "questionFingerprint": "22c800977498eb78281f810f587a842af6b61cc5411d502e65f9e25f3b6ad8e9",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea tehnicii corecte de măsurare a TA.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1135,
+    1136
+   ],
+   "pdfPages": [
+    280,
+    281
+   ],
+   "section": "Măsurarea tensiunii arteriale"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Manșeta se plasează la nivelul inimii.",
+    "evidenceLocation": "Kumar, p. 1135, 1136, Măsurarea tensiunii arteriale"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Repaus de 5 minute, spatele sprijinit.",
+    "evidenceLocation": "Kumar, p. 1135, 1136, Măsurarea tensiunii arteriale"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "În FA se preferă metoda auscultatorie.",
+    "evidenceLocation": "Kumar, p. 1135, 1136, Măsurarea tensiunii arteriale"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Se folosesc cel puțin două măsurători.",
+    "evidenceLocation": "Kumar, p. 1135, 1136, Măsurarea tensiunii arteriale"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: manșeta acoperă ≥80% din circumferință.",
+    "evidenceLocation": "Kumar, p. 1135, 1136, Măsurarea tensiunii arteriale"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:23:55.060Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii schimbă poziția manșetei și metoda în FA."
+  },
+  "textbookExpressions": [
+   "5 minute",
+   "80% din circumferinţa"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a hta-adv-003: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "hta-adv-047-v2",
+  "questionFingerprint": "1db9a7b0d56435d5ac128b4afb2a553fe7751c60f0d092ba9fec02eeea3375f7",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea monitorizării ambulatorii a TA.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1136
+   ],
+   "pdfPages": [
+    281
+   ],
+   "section": "Determinarea TA în ambulator"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "În Marea Britanie înlocuiește cabinetul pentru diagnostic.",
+    "evidenceLocation": "Kumar, p. 1136, Determinarea TA în ambulator"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Media pe 24 h este mai predictivă decât cabinetul sau domiciliul.",
+    "evidenceLocation": "Kumar, p. 1136, Determinarea TA în ambulator"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: ziua la 20–30 de minute, noaptea la 30–60.",
+    "evidenceLocation": "Kumar, p. 1136, Determinarea TA în ambulator"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Noaptea se măsoară la 30–60 de minute.",
+    "evidenceLocation": "Kumar, p. 1136, Determinarea TA în ambulator"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Valorile diurne sunt mai mici cu 5–10/5 mmHg.",
+    "evidenceLocation": "Kumar, p. 1136, Determinarea TA în ambulator"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:23:55.062Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează diferența și intervalul nocturn."
+  },
+  "textbookExpressions": [
+   "20-30 de minute",
+   "Marea Britanie"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a hta-adv-047: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "hta-adv-007-v2",
+  "questionFingerprint": "b4a910a9435c36ac1f8c2eeb7ff6989fd27860bc8926126e039a8d390528c174",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea bazei poligenice a hipertensiunii primare.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1137
+   ],
+   "pdfPages": [
+    282
+   ],
+   "section": "Etiologia hipertensiunii arteriale"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Combinate, genele determină 60%.",
+    "evidenceLocation": "Kumar, p. 1137, Etiologia hipertensiunii arteriale"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Până la 90% nu au o cauză identificabilă.",
+    "evidenceLocation": "Kumar, p. 1137, Etiologia hipertensiunii arteriale"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Termenul „primară” este preferat.",
+    "evidenceLocation": "Kumar, p. 1137, Etiologia hipertensiunii arteriale"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Mediul și stilul de viață mediază până la 40%.",
+    "evidenceLocation": "Kumar, p. 1137, Etiologia hipertensiunii arteriale"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: fiecare genă contribuie cu 0,5–1 mmHg.",
+    "evidenceLocation": "Kumar, p. 1137, Etiologia hipertensiunii arteriale"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:23:55.063Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează ponderea genetică și terminologia."
+  },
+  "textbookExpressions": [
+   "0,5-1 mmHg",
+   "60%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a hta-adv-007: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "hta-adv-010-v2",
+  "questionFingerprint": "1a7b71bc5d50bfdc1bd78cdb5dae75beeed7e455db28a921862314187c14c605",
+  "status": "source-checked",
+  "learningObjective": "Interpretarea performanței ECG în HVS.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1140
+   ],
+   "pdfPages": [
+    285
+   ],
+   "section": "Leziunile organelor țintă — cordul"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Imagistica este mai sensibilă și specifică.",
+    "evidenceLocation": "Kumar, p. 1140, Leziunile organelor țintă — cordul"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Specificitatea este >90%.",
+    "evidenceLocation": "Kumar, p. 1140, Leziunile organelor țintă — cordul"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: sensibilitatea este modestă, 20–50%.",
+    "evidenceLocation": "Kumar, p. 1140, Leziunile organelor țintă — cordul"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "HVS este de obicei asimptomatică.",
+    "evidenceLocation": "Kumar, p. 1140, Leziunile organelor țintă — cordul"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Specificitatea, nu sensibilitatea, este >90%.",
+    "evidenceLocation": "Kumar, p. 1140, Leziunile organelor țintă — cordul"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:23:55.064Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează sensibilitatea și simptomatologia."
+  },
+  "textbookExpressions": [
+   "20-50%",
+   ">90%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a hta-adv-010: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "hta-adv-031-v2",
+  "questionFingerprint": "d4b999cf83aebbb9ce47e1a2d44556b09c25a2e7fb43fa4db0cfd9eda3af3c4b",
+  "status": "source-checked",
+  "learningObjective": "Interpretarea funcției renale la inițierea tratamentului.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1140,
+    1133,
+    1134
+   ],
+   "pdfPages": [
+    285,
+    278,
+    279
+   ],
+   "section": "Leziunile organelor țintă — rinichii"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Boala renală este cauză și consecință.",
+    "evidenceLocation": "Kumar, p. 1140, 1133, 1134, Leziunile organelor țintă — rinichii"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Stadiile precoce se văd prin albuminurie.",
+    "evidenceLocation": "Kumar, p. 1140, 1133, 1134, Leziunile organelor țintă — rinichii"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: este permisă reducerea RFG cu până la 10%.",
+    "evidenceLocation": "Kumar, p. 1140, 1133, 1134, Leziunile organelor țintă — rinichii"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Urmărirea regulată este necesară.",
+    "evidenceLocation": "Kumar, p. 1140, 1133, 1134, Leziunile organelor țintă — rinichii"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Microalbuminuria/RAC detectează stadiile precoce.",
+    "evidenceLocation": "Kumar, p. 1140, 1133, 1134, Leziunile organelor țintă — rinichii"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:23:55.066Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii contrazic monitorizarea și semnul precoce."
+  },
+  "textbookExpressions": [
+   "10%",
+   "cauză, cât şi o consecinţă"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a hta-adv-031: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "hta-adv-016-v2",
+  "questionFingerprint": "b9e71890ac29098ee6bc914ed03bf3b73bf1d012a2374cd8873bc93200848ea1",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea prevenției cardiovasculare globale.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1142,
+    1140
+   ],
+   "pdfPages": [
+    287,
+    285
+   ],
+   "section": "Tratament"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Sunt recomandate în prevenția primară la risc >1%/an.",
+    "evidenceLocation": "Kumar, p. 1142, 1140, Tratament"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: statinele se recomandă la risc >1%/an.",
+    "evidenceLocation": "Kumar, p. 1142, 1140, Tratament"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Pragul poate să nu fie atins la tineri.",
+    "evidenceLocation": "Kumar, p. 1142, 1140, Tratament"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nici la diabetici nu există beneficiu net.",
+    "evidenceLocation": "Kumar, p. 1142, 1140, Tratament"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Hemoragiile anulează beneficiul aspirinei.",
+    "evidenceLocation": "Kumar, p. 1142, 1140, Tratament"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:23:55.067Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii restrâng statinele și extind aspirina."
+  },
+  "textbookExpressions": [
+   "statine puternice",
+   "aspirina în doze mici"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a hta-adv-016: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "hta-adv-035-v2",
+  "questionFingerprint": "17cac81992161e05e2e5257bbd7d9bdbef467e8c1aa97eca7adba363510d60b6",
+  "status": "source-checked",
+  "learningObjective": "Interpretarea datelor despre aderență.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1142
+   ],
+   "pdfPages": [
+    287
+   ],
+   "section": "Tratamentul medicamentos — aderența"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Reînnoirea rețetelor se corelează slab.",
+    "evidenceLocation": "Kumar, p. 1142, Tratamentul medicamentos — aderența"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Combinațiile într-o pilulă cresc aderența.",
+    "evidenceLocation": "Kumar, p. 1142, Tratamentul medicamentos — aderența"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: până la două treimi nu își iau medicația.",
+    "evidenceLocation": "Kumar, p. 1142, Tratamentul medicamentos — aderența"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Chestionarele se corelează slab cu dovezile obiective.",
+    "evidenceLocation": "Kumar, p. 1142, Tratamentul medicamentos — aderența"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Până la două treimi sunt non-aderenți.",
+    "evidenceLocation": "Kumar, p. 1142, Tratamentul medicamentos — aderența"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:23:55.068Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii supraestimează aderența și metodele indirecte."
+  },
+  "textbookExpressions": [
+   "două treimi",
+   "Morisky"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a hta-adv-035: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "hta-adv-043-v2",
+  "questionFingerprint": "2dcd8e6f1b443df4f48325b75bd642014e4c491ce999d036aef2fec06f4d394f",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea hipertensiunii maligne.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1145
+   ],
+   "pdfPages": [
+    290
+   ],
+   "section": "Cadranul 31.7"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Necroza fibrinoidă poate da IRA.",
+    "evidenceLocation": "Kumar, p. 1145, Cadranul 31.7"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Ținta este −25% în câteva ore.",
+    "evidenceLocation": "Kumar, p. 1145, Cadranul 31.7"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: retinopatia moderat-severă este tipică.",
+    "evidenceLocation": "Kumar, p. 1145, Cadranul 31.7"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "RMN este investigația encefalopatiei.",
+    "evidenceLocation": "Kumar, p. 1145, Cadranul 31.7"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Labetalol sau nicardipină i.v.",
+    "evidenceLocation": "Kumar, p. 1145, Cadranul 31.7"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:23:55.069Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii umflă ținta și preiau investigația encefalopatiei."
+  },
+  "textbookExpressions": [
+   "necrozei",
+   "atenololul"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a hta-adv-043: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "hta-adv-057-v2",
+  "questionFingerprint": "c0cdc9711d0c1bdf8ddfbb0d714e69725f494a92859c055b6502241396a2a43d",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea conduitei în disecția de aortă.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 31,
+   "printedPages": [
+    1145
+   ],
+   "pdfPages": [
+    290
+   ],
+   "section": "Cadranul 31.7"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Diferența de puls sau TA între brațe.",
+    "evidenceLocation": "Kumar, p. 1145, Cadranul 31.7"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Angio-CT sau ETE arată faldul.",
+    "evidenceLocation": "Kumar, p. 1145, Cadranul 31.7"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "NTG și morfina tratează EPA.",
+    "evidenceLocation": "Kumar, p. 1145, Cadranul 31.7"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: ținta FC este 50–60/min.",
+    "evidenceLocation": "Kumar, p. 1145, Cadranul 31.7"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Vasodilatatoarele se adaugă după controlul FC.",
+    "evidenceLocation": "Kumar, p. 1145, Cadranul 31.7"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:23:55.069Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii preiau tratamentul EPA și investigația encefalopatiei."
+  },
+  "textbookExpressions": [
+   "transesofagiană",
+   "înjunghiere"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a hta-adv-057: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  }
 ]

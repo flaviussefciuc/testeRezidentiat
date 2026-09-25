@@ -6,9 +6,9 @@ const q=rewriter(RETIRED_HTA,(p:number)=>p-855,{shuffle:true});
 
 export const HTA_V2=[
 q('hta-adv-001',['Hipertensiunea arterială:',
- ['este principalul factor de risc de mortalitate global','afectează aproximativ o treime dintre adulți','este un factor de risc pentru fibrilația atrială','este mai frecventă la femei înainte de menopauză','este frecventă la copii și adolescenți'],'ABC',1133,'Introducere',
+ ['este principalul factor de risc de mortalitate global','afectează aproximativ două treimi dintre adulți','este un factor de risc pentru fibrilația atrială','este mai frecventă la femei înainte de menopauză','este frecventă la copii și adolescenți'],'AC',1133,'Introducere',
  'Recunoașterea importanței epidemiologice a hipertensiunii.',
- ['Depășește fumatul și bolile infecțioase ca factor de mortalitate.','Afectează o treime dintre adulți.','Este factor de risc pentru FA, AVC, IMA și BCR terminală.','Femeile au valori mai mici până la menopauză.','Este rară la copii și adolescenți.']],
+ ['Depășește fumatul și bolile infecțioase ca factor de mortalitate.','Nu: afectează o treime dintre adulți.','Este factor de risc pentru FA, AVC, IMA și BCR terminală.','Femeile au valori mai mici până la menopauză.','Este rară la copii și adolescenți.']],
  [8,'Distractorii inversează distribuția pe vârstă și sex.'],['principalul factor de risc','fibrilaţia atrială'],[1134]),
 
 q('hta-adv-030',['Epidemiologia hipertensiunii arteriale:',
@@ -30,9 +30,9 @@ q('hta-adv-002',['Tensiunea arterială:',
  [8,'Distractorii inversează regula brațelor.'],['non-dominant','sezonier']),
 
 q('hta-adv-003',['Măsurarea corectă a TA la cabinet presupune:',
- ['repaus de 5 minute în poziție șezândă','manșeta să acopere cel puțin 80% din circumferința brațului','cel puțin două măsurători la fiecare evaluare','manșeta plasată deasupra nivelului inimii','metoda oscilometrică la pacientul cu fibrilație atrială'],'ABC',1135,'Măsurarea tensiunii arteriale',
+ ['repaus de 5 minute în poziție șezândă','manșeta să acopere cel puțin 40% din circumferința brațului','cel puțin două măsurători la fiecare evaluare','manșeta plasată deasupra nivelului inimii','metoda oscilometrică la pacientul cu fibrilație atrială'],'AC',1135,'Măsurarea tensiunii arteriale',
  'Aplicarea tehnicii corecte de măsurare a TA.',
- ['Repaus de 5 minute, spatele sprijinit.','Manșeta acoperă ≥80% din circumferință.','Se folosesc cel puțin două măsurători.','Manșeta se plasează la nivelul inimii.','În FA se preferă metoda auscultatorie.']],
+ ['Repaus de 5 minute, spatele sprijinit.','Nu: manșeta acoperă ≥80% din circumferință.','Se folosesc cel puțin două măsurători.','Manșeta se plasează la nivelul inimii.','În FA se preferă metoda auscultatorie.']],
  [8,'Distractorii schimbă poziția manșetei și metoda în FA.'],['5 minute','80% din circumferinţa'],[1136]),
 
 q('hta-adv-048',['La pacientul cu fibrilație atrială, TA se măsoară preferabil prin:',
@@ -60,9 +60,9 @@ q('hta-adv-046',['Măsurarea TA la domiciliu:',
  [8,'Singurul distractor inversează diferența față de cabinet.'],['4-7 zile','Prima determinare']),
 
 q('hta-adv-047',['Monitorizarea ambulatorie a TA pe 24 de ore:',
- ['măsoară TA la 20–30 de minute în perioada activă','este cel mai predictiv indicator pentru evenimentele CV','este recomandată în Marea Britanie pentru diagnostic','dă valori diurne cu 5–10/5 mmHg mai mari decât la cabinet','măsoară TA la 5 minute în timpul somnului'],'ABC',1136,'Determinarea TA în ambulator',
+ ['măsoară TA la 2–3 minute în perioada activă','este cel mai predictiv indicator pentru evenimentele CV','este recomandată în Marea Britanie pentru diagnostic','dă valori diurne cu 5–10/5 mmHg mai mari decât la cabinet','măsoară TA la 5 minute în timpul somnului'],'BC',1136,'Determinarea TA în ambulator',
  'Aplicarea monitorizării ambulatorii a TA.',
- ['La 20–30 de minute ziua, la 30–60 noaptea.','Media pe 24 h este mai predictivă decât cabinetul sau domiciliul.','În Marea Britanie înlocuiește cabinetul pentru diagnostic.','Valorile diurne sunt mai mici cu 5–10/5 mmHg.','Noaptea se măsoară la 30–60 de minute.']],
+ ['Nu: ziua la 20–30 de minute, noaptea la 30–60.','Media pe 24 h este mai predictivă decât cabinetul sau domiciliul.','În Marea Britanie înlocuiește cabinetul pentru diagnostic.','Valorile diurne sunt mai mici cu 5–10/5 mmHg.','Noaptea se măsoară la 30–60 de minute.']],
  [8,'Distractorii inversează diferența și intervalul nocturn.'],['20-30 de minute','Marea Britanie']),
 
 q('hta-adv-005',['Hipertensiunea sistolică izolată:',
@@ -84,9 +84,9 @@ q('hta-adv-049',['Hipotensiunea ortostatică:',
  [8,'Singurul distractor contrazice asocierea cu neuropatia autonomă.'],['boala Parkinson','asimptomatică']),
 
 q('hta-adv-007',['Etiologia hipertensiunii arteriale:',
- ['până la 90% dintre pacienți au hipertensiune primară','fiecare genă contribuie individual cu ~0,5–1 mmHg','genele combinate pot determina 60% din nivelul TA','factorii de mediu determină ~90% din nivelul TA','termenul „esențială” este preferat celui de „primară”'],'ABC',1137,'Etiologia hipertensiunii arteriale',
+ ['până la 90% dintre pacienți au hipertensiune primară','fiecare genă contribuie individual cu ~5–10 mmHg','genele combinate pot determina 60% din nivelul TA','factorii de mediu determină ~90% din nivelul TA','termenul „esențială” este preferat celui de „primară”'],'AC',1137,'Etiologia hipertensiunii arteriale',
  'Recunoașterea bazei poligenice a hipertensiunii primare.',
- ['Până la 90% nu au o cauză identificabilă.','Fiecare genă contribuie cu 0,5–1 mmHg.','Combinate, genele determină 60%.','Mediul și stilul de viață mediază până la 40%.','Termenul „primară” este preferat.']],
+ ['Până la 90% nu au o cauză identificabilă.','Nu: fiecare genă contribuie cu 0,5–1 mmHg.','Combinate, genele determină 60%.','Mediul și stilul de viață mediază până la 40%.','Termenul „primară” este preferat.']],
  [8,'Distractorii inversează ponderea genetică și terminologia.'],['0,5-1 mmHg','60%']),
 
 q('hta-adv-017',['Hipertensiunea arterială rezistentă se definește, de obicei, ca TA necontrolată în pofida:',
@@ -156,15 +156,15 @@ q('hta-adv-009',['Retinopatia hipertensivă, în clasificarea în trei clase:',
  [8,'Distractorii mută semne și asocieri între clase.'],['Keith-Wagener-Barker','edem papilar']),
 
 q('hta-adv-010',['Hipertrofia ventriculară stângă hipertensivă:',
- ['are criterii ECG cu sensibilitate de 20–50%','are criterii ECG cu specificitate >90%','este evaluată mai sensibil prin ecocardiografie și RMN','este de regulă simptomatică, cu dispnee de efort','are criterii ECG cu sensibilitate >90%'],'ABC',1140,'Leziunile organelor țintă — cordul',
+ ['are criterii ECG cu sensibilitate de 70–80%','are criterii ECG cu specificitate >90%','este evaluată mai sensibil prin ecocardiografie și RMN','este de regulă simptomatică, cu dispnee de efort','are criterii ECG cu sensibilitate >90%'],'BC',1140,'Leziunile organelor țintă — cordul',
  'Interpretarea performanței ECG în HVS.',
- ['Sensibilitatea este modestă, 20–50%.','Specificitatea este >90%.','Imagistica este mai sensibilă și specifică.','HVS este de obicei asimptomatică.','Specificitatea, nu sensibilitatea, este >90%.']],
+ ['Nu: sensibilitatea este modestă, 20–50%.','Specificitatea este >90%.','Imagistica este mai sensibilă și specifică.','HVS este de obicei asimptomatică.','Specificitatea, nu sensibilitatea, este >90%.']],
  [8,'Distractorii inversează sensibilitatea și simptomatologia.'],['20-50%','>90%']),
 
 q('hta-adv-031',['Afectarea renală hipertensivă:',
- ['se detectează precoce prin raportul albumină:creatinină','este atât cauză, cât și consecință a HTA','permite scăderea inițială a RFG cu până la 10%','contraindică urmărirea funcției renale după inițiere','se manifestă inițial prin scăderea RFG cu peste 25%'],'ABC',1140,'Leziunile organelor țintă — rinichii',
+ ['se detectează precoce prin raportul albumină:creatinină','este atât cauză, cât și consecință a HTA','permite scăderea inițială a RFG cu până la 40%','contraindică urmărirea funcției renale după inițiere','se manifestă inițial prin scăderea RFG cu peste 25%'],'AB',1140,'Leziunile organelor țintă — rinichii',
  'Interpretarea funcției renale la inițierea tratamentului.',
- ['Microalbuminuria/RAC detectează stadiile precoce.','Boala renală este cauză și consecință.','Reducerea RFG cu până la 10% este permisă.','Urmărirea regulată este necesară.','Stadiile precoce se văd prin albuminurie.']],
+ ['Microalbuminuria/RAC detectează stadiile precoce.','Boala renală este cauză și consecință.','Nu: este permisă reducerea RFG cu până la 10%.','Urmărirea regulată este necesară.','Stadiile precoce se văd prin albuminurie.']],
  [8,'Distractorii contrazic monitorizarea și semnul precoce.'],['10%','cauză, cât şi o consecinţă']),
 
 q('hta-adv-011',['O reducere a TA cu 10/5 mmHg se asociază cu scăderea:',
@@ -180,9 +180,9 @@ q('hta-adv-012',['Conform Cadranului 31.4, reduc TA în medie cu:',
  [8,'Singurul distractor umflă efectul alcoolului.'],['1 mmHg/kg','10 mmHg']),
 
 q('hta-adv-016',['Prevenția cardiovasculară la hipertensiv:',
- ['statinele se recomandă la risc CV total >1% pe an','la tineri se ia în calcul riscul pe durata vieții','aspirina nu mai este recomandată în prevenția primară','aspirina rămâne indicată la diabetici în prevenția primară','statinele se recomandă doar după un eveniment coronarian'],'ABC',1142,'Tratament',
+ ['statinele se recomandă la risc CV total >5% pe an','la tineri se ia în calcul riscul pe durata vieții','aspirina nu mai este recomandată în prevenția primară','aspirina rămâne indicată la diabetici în prevenția primară','statinele se recomandă doar după un eveniment coronarian'],'BC',1142,'Tratament',
  'Aplicarea prevenției cardiovasculare globale.',
- ['Statinele se recomandă la risc >1%/an.','Pragul poate să nu fie atins la tineri.','Hemoragiile anulează beneficiul aspirinei.','Nici la diabetici nu există beneficiu net.','Sunt recomandate în prevenția primară la risc >1%/an.']],
+ ['Nu: statinele se recomandă la risc >1%/an.','Pragul poate să nu fie atins la tineri.','Hemoragiile anulează beneficiul aspirinei.','Nici la diabetici nu există beneficiu net.','Sunt recomandate în prevenția primară la risc >1%/an.']],
  [8,'Distractorii restrâng statinele și extind aspirina.'],['statine puternice','aspirina în doze mici'],[1140]),
 
 q('hta-adv-013',['Conform ghidurilor NICE, alegerea terapiei inițiale:',
@@ -198,9 +198,9 @@ q('hta-adv-052',['Conform studiului PATHWAY-2, cel mai bun medicament de linia a
  [8,'Distractorii sunt comparatorii studiului.'],['PATHWAY-2','linia a patra']),
 
 q('hta-adv-035',['Aderența la tratamentul antihipertensiv:',
- ['până la două treimi dintre pacienți nu își iau medicația','chestionarele se corelează slab cu testele toxicologice','se îmbunătățește prin combinații într-o singură pilulă','se estimează fiabil prin rata de reînnoire a rețetelor','depășește 90% la pacienții din centrele de specialitate'],'ABC',1142,'Tratamentul medicamentos — aderența',
+ ['până la o zecime dintre pacienți nu își iau medicația','chestionarele se corelează slab cu testele toxicologice','se îmbunătățește prin combinații într-o singură pilulă','se estimează fiabil prin rata de reînnoire a rețetelor','depășește 90% la pacienții din centrele de specialitate'],'BC',1142,'Tratamentul medicamentos — aderența',
  'Interpretarea datelor despre aderență.',
- ['Până la două treimi nu își iau medicația.','Chestionarele se corelează slab cu dovezile obiective.','Combinațiile într-o pilulă cresc aderența.','Reînnoirea rețetelor se corelează slab.','Până la două treimi sunt non-aderenți.']],
+ ['Nu: până la două treimi nu își iau medicația.','Chestionarele se corelează slab cu dovezile obiective.','Combinațiile într-o pilulă cresc aderența.','Reînnoirea rețetelor se corelează slab.','Până la două treimi sunt non-aderenți.']],
  [8,'Distractorii supraestimează aderența și metodele indirecte.'],['două treimi','Morisky']),
 
 q('hta-adv-051',['Pe Scala Morisky-8, un scor de 7 sugerează:',
@@ -288,15 +288,15 @@ q('hta-adv-042',['Conform Cadranului 31.7, investigația de elecție în encefal
  [8,'Distractorii sunt investigațiile celorlalte urgențe.'],['SEPR','fosei cerebrale']),
 
 q('hta-adv-043',['Conform Cadranului 31.7, hipertensiunea malignă:',
- ['asociază retinopatie moderat-severă','poate produce injurie renală acută','se tratează cu labetalol sau nicardipină i.v.','necesită reducerea TAM cu 50% imediat','se confirmă prin RMN cerebral'],'ABC',1145,'Cadranul 31.7',
+ ['asociază retinopatie absentă sau minimă','poate produce injurie renală acută','se tratează cu labetalol sau nicardipină i.v.','necesită reducerea TAM cu 50% imediat','se confirmă prin RMN cerebral'],'BC',1145,'Cadranul 31.7',
  'Recunoașterea hipertensiunii maligne.',
- ['Retinopatia moderat-severă este tipică.','Necroza fibrinoidă poate da IRA.','Labetalol sau nicardipină i.v.','Ținta este −25% în câteva ore.','RMN este investigația encefalopatiei.']],
+ ['Nu: retinopatia moderat-severă este tipică.','Necroza fibrinoidă poate da IRA.','Labetalol sau nicardipină i.v.','Ținta este −25% în câteva ore.','RMN este investigația encefalopatiei.']],
  [8,'Distractorii umflă ținta și preiau investigația encefalopatiei.'],['necrozei','atenololul']),
 
 q('hta-adv-057',['Conform Cadranului 31.7, disecția acută de aortă:',
- ['poate asocia diferență de TA între membrele superioare','impune controlul frecvenței cardiace la 50–60/min','poate primi vasodilatatoare după controlul frecvenței','se tratează de primă intenție cu NTG și morfină','se confirmă prin RMN cerebral cu edem al fosei posterioare'],'ABC',1145,'Cadranul 31.7',
+ ['poate asocia diferență de TA între membrele superioare','impune controlul frecvenței cardiace la 90–100/min','poate primi vasodilatatoare după controlul frecvenței','se tratează de primă intenție cu NTG și morfină','se confirmă prin RMN cerebral cu edem al fosei posterioare'],'AC',1145,'Cadranul 31.7',
  'Aplicarea conduitei în disecția de aortă.',
- ['Diferența de puls sau TA între brațe.','FC la 50–60/min.','Vasodilatatoarele se adaugă după controlul FC.','NTG și morfina tratează EPA.','Angio-CT sau ETE arată faldul.']],
+ ['Diferența de puls sau TA între brațe.','Nu: ținta FC este 50–60/min.','Vasodilatatoarele se adaugă după controlul FC.','NTG și morfina tratează EPA.','Angio-CT sau ETE arată faldul.']],
  [8,'Distractorii preiau tratamentul EPA și investigația encefalopatiei.'],['transesofagiană','înjunghiere']),
 
 q('hta-adv-056',['Conform Cadranului 31.7, magneziul i.v. face parte din tratamentul:',
