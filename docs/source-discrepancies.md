@@ -225,3 +225,8 @@ Fiecare temă rescrisă (versiunile `-v2`) a fost confruntată din nou cu pagini
 - `hepatologie-adv-026`: criteriile Milan erau redate ca «trei leziuni <3 cm»; p. 1292 spune «mai puţin de trei leziuni mici (<3 cm) sau un nodul solitar mai mic de 5 cm». În `-v2` criteriile nu mai sunt testate cu acea formulare.
 - P. 1300, legenda Fig. 34.27: hepcidina degradează «exportatorul de fier transferina» (probabil ferroportina; textul de pe p. 1301 vorbește despre internalizarea ferroportinei). Același pasaj dă absorbția intestinală ca «1-2 g» de fier. Niciuna dintre cele două afirmații nu este testată.
 - Retrase fără înlocuitor (dubluri sau itemi slabi): 052 (inclus în `-018-v2`), 059 (inclus în `-096-v2`), 060 (inclus în `-003-v2`), 061 și 062/063 (incluse în `-020-v2`, `-019-v2`), 069 (inclus în `-024-v2`), 088 și 092 (incluse în `-014-v2`, `-090-v2`), 091 (inclus în `-054-v2`), 093 (inclus în `-002-v2`), 095 și 097 (incluse în `-017-v2`, `-058-v2`), 105 (inclus în `-026-v2`), 106 (măsuri adjuvante din figură), 115 (absorbția «1-2 g» din legendă).
+
+### Pediatrie (Sinopsis, cap. 10, p. 212–243)
+- Nu s-au găsit chei greșite în itemii confruntați cu p. 212–243.
+- `pediatrie-adv-118`: printre distractori figura «ligandul CD40 deficient produce IgM crescut și IgG scăzut». Afirmația este adevărată pentru sindromul hiper-IgM (p. 237), deci ambiguă ca distractor; a fost înlocuită în `-118-v2`.
+- Retrase fără înlocuitor (dubluri): 010 (petele Koplik, inclus în `-121-v2`), 076 și 116 (reflexul tonic al gâtului și cel de apucare, ambele dispar la 3 luni ca reflexul Moro din `-048-v2`).
