@@ -49,7 +49,7 @@ q('hemostaza-adv-007',['Leziunea pulmonară acută asociată transfuziei (LPAT) 
  [8,'Fiecare distractor descrie o altă complicație transfuzională reală sau o incidență deplasată cu un ordin de mărime.'],['noncardiogen','5.000 de transfuzii']),
 
 q('hemostaza-adv-008',['Tulburările preexistente ale hemostazei trebuie suspectate când hemoragia anormală apare:',
- ['la 3–5 zile postoperator','în primele 30 de minute ale intervenției','după primele 24 de ore postoperator','după transfuzia a peste 10 unități de MER','la 1–2 ore după începerea transfuziei'],'B',39,'Cauze de hemoragii chirurgicale excesive — Tulburări preexistente',
+ ['la 3–5 zile postoperator','în primele 30 de minute ale intervenției','după primele 24 de ore postoperator','după transfuzia a peste 10 unități MER','la 1–2 ore după începerea transfuziei'],'B',39,'Cauze de hemoragii chirurgicale excesive — Tulburări preexistente',
  'Recunoașterea ferestrei de 30 de minute ca indiciu de coagulopatie preexistentă.',
  ['Sângerarea la 3–5 zile evocă deficitul de factor XIII.','Textul: hemoragia anormală în primele 30 de minute ale intervenției sugerează o tulburare preexistentă.','Sângerarea tardivă nu este criteriul citat pentru tulburarea preexistentă.','Zece unități de MER definesc hemoragia masivă, nu o coagulopatie preexistentă.','Intervalul de 1–2 ore este fereastra de debut a LPAT.']],
  [8,'Toate variantele sunt intervale temporale reale din capitol, legate de alte entități.'],['primele 30 de','Tulburări preexistente']),

@@ -313,7 +313,7 @@ q('reumatologie-adv-007',['La pierderea răspunsului la blocanții TNF-α:',
  [8,'Distractorii inversează logica deciziei.'],['non-anti-TNF','anti-medicament']),
 
 q('reumatologie-adv-029',['La pacienții cu AR în remisiune susținută peste un an, este obișnuită:',
- ['reducerea dozei de DMARD','creșterea dozei de bDMARD','oprirea tuturor DMARD','trecerea la un inhibitor JAK','adăugarea unui glucocorticoid'],'A',447,'Schimbarea terapiilor DMARD — Tapering',
+ ['reducerea dozei de DMARD','creșterea dozei de bDMARD','oprirea completă a tuturor DMARD','trecerea la un inhibitor JAK','adăugarea unui glucocorticoid'],'A',447,'Schimbarea terapiilor DMARD — Tapering',
  'Aplicarea reducerii tratamentului în remisiunea susținută.',
  ['Se încearcă reducerea dozei sau prelungirea intervalului dintre administrări.','Nu este conduita citată.','Nu este conduita citată.','Nu este conduita citată.','Nu este conduita citată.']],
  [8,'Distractorii sunt modificări terapeutice reale, dar neindicate aici.'],['remisiunea susţinută','intervalului']),

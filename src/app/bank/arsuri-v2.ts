@@ -6,7 +6,7 @@ const q=rewriter(RETIRED_ARSURI,(p:number)=>p-58,{shuffle:true});
 
 export const ARSURI_V2=[
 q('arsuri-adv-001',['Arsurile epidermice (grad I):',
- ['se albesc la presiune și nu lasă cicatrice','au flictene destinse, cu conținut proteic','au escară avasculară, uscată și nedureroasă','au textură alb-cerată, cu durere redusă','necesită grefare în formele extensive'],'A',108,'Fiziopatologia leziunilor din arsură',
+ ['se albesc la presiune și nu lasă cicatrice','au flictene destinse, cu conținut proteic','au escară uscată, avasculară, nedureroasă','au textură alb-cerată, cu durere redusă','necesită grefare în formele extensive'],'A',108,'Fiziopatologia leziunilor din arsură',
  'Recunoașterea arsurii epidermice.',
  ['Hiperemia se albește, iar cicatrizarea din derm lipsește.','Descrie gradul II superficial.','Descrie gradul III.','Descrie gradul II profund.','Necesită doar tratament suportiv.']],
  [8,'Distractorii descriu celelalte grade de profunzime.'],['digitopresiune','epidermul'],[109]),

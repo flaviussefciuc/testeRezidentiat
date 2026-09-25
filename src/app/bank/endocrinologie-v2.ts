@@ -13,7 +13,7 @@ q('endocrinologie-adv-021',['Conform Cadranului 21.25, hormonii tiroidieni:',
  [8,'Distractorii inversează efectele.'],['2,3-BPG','motilitatea intestinului']),
 
 q('endocrinologie-adv-022',['Conform Cadranului 21.26, T3-toxicoza are:',
- ['TSH supresat, fT4 normală, fT3 crescută','TSH supresat, fT4 și fT3 ambele crescute','TSH crescut, fT4 scăzută, fT3 normală','TSH normal, fT4 crescută și fT3 scăzută','TSH ușor crescut, fT4 și fT3 normale'],'A',611,'Cadranul 21.26',
+ ['TSH supresat, fT4 normală, fT3 crescută','TSH supresat, fT4 și fT3 crescute','TSH crescut, fT4 scăzută, fT3 normală','TSH normal, fT4 crescută și fT3 scăzută','TSH ușor crescut, fT4 și fT3 normale'],'A',611,'Cadranul 21.26',
  'Interpretarea profilului hormonal în T3-toxicoză.',
  ['T3-toxicoza: TSH supresat, fT4 normală, fT3 crescută.','Descrie tirotoxicoza obișnuită.','Descrie hipotiroidismul primar.','Nu este profilul citat.','Descrie eutiroidismul compensat.']],
  [8,'Distractorii sunt celelalte profiluri din cadran.'],['T3 Toxicoza','Supresat']),

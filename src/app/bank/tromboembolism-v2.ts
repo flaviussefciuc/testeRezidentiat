@@ -54,7 +54,7 @@ q('tromboembolism-adv-068',['Gradul de creștere a riscului de TEV:',
  [8,'Distractorii mută factorii între categorii.'],['10-50 de ori','3-10 ori']),
 
 q('tromboembolism-adv-069',['Incidența TEV este cea mai mare la:',
- ['persoanele de descendență africană','persoanele de descendență asiatică','persoanele de descendență europeană','populația din estul Asiei','populația mediteraneeană'],'A',1002,'Epidemiologie — Etnia',
+ ['persoanele de descendență africană','persoanele de descendență asiatică','persoanele de origine europeană','populația din estul Asiei','populația mediteraneeană'],'A',1002,'Epidemiologie — Etnia',
  'Fixarea variației etnice a incidenței TEV.',
  ['Incidența cea mai mare este la descendența africană.','Asiaticii au incidența cea mai scăzută.','Populația albă are incidență intermediară.','Asiaticii au incidența cea mai scăzută.','Nu este grupul citat.']],
  [8,'Distractorii inversează ierarhia etnică.'],['descendenţă africană','asiatici']),

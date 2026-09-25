@@ -7,7 +7,7 @@ const q=rewriter(RETIRED_INTESTIN,(p:number)=>p<=199?p-78:p-82,{shuffle:true});
 
 export const INTESTIN_V2=[
 q('intestin-adv-001',['Hernia Richter:',
- ['poate fi ireductibilă fără ocluzie intestinală','este o hernie internă prin foseta paraduodenală','prinde întreaga circumferință a ansei','apare tipic după bypass gastric laparoscopic','se reduce ușor chiar după edemul peretelui'],'A',193,'Etiologia OIS — Cauze extrinseci',
+ ['poate fi ireductibilă fără ocluzie intestinală','este o hernie internă paraduodenală','prinde întreaga circumferință a ansei','apare tipic după bypass gastric laparoscopic','se reduce ușor chiar după edemul peretelui'],'A',193,'Etiologia OIS — Cauze extrinseci',
  'Recunoașterea particularității herniei Richter.',
  ['Este prinsă doar porțiunea antimezenterică, lumenul rămânând permeabil.','Descrie o hernie internă.','Este prinsă doar porțiunea antimezenterică.','Descrie hernia internă post-bypass.','Edemul face hernia ireductibilă.']],
  [8,'Distractorii descriu alte tipuri de hernii.'],['Richter','antimezenterică']),

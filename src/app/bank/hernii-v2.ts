@@ -36,7 +36,7 @@ q('hernii-adv-041',['Semnele care indică o hernie strangulată includ:',
  [8,'Singurul distractor este trăsătura herniei necomplicate.'],['vărsăturile incoercibile','necroza ţesutului subiacent'],[127]),
 
 q('hernii-adv-047',['Hernia cronic încarcerată, fără dovadă de strangulare, are indicație de:',
- ['intervenție de urgență în 4–6 ore','reducere sub sedare și externare','intervenție în regim programat','supraveghere fără intervenție','rezecție intestinală de principiu'],'C',127,'Tablou clinic — Hernia cronic încarcerată',
+ ['intervenție de urgență în 4–6 ore','reducere sub sedare și externare','intervenție în regim programat','supraveghere clinică fără intervenție','rezecție intestinală de principiu'],'C',127,'Tablou clinic — Hernia cronic încarcerată',
  'Alegerea momentului operator în hernia cronic încarcerată.',
  ['Fereastra de 4–6 ore privește hernia recent încarcerată.','După reducere, pacientul se internează și se monitorizează.','Indicația este intervenția în regim programat, în funcție de comorbidități.','Hernia încarcerată are indicație chirurgicală.','Rezecția se face doar la ischemie.']],
  [8,'Distractorii sunt conduite reale pentru alte forme de încarcerare.'],['cronic încarcerată','regim programat']),

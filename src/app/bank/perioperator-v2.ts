@@ -228,7 +228,7 @@ q('perioperator-adv-029',['Febra postoperatorie, conform ghidului SCCM:',
  [8,'Distractorii inversează ordinea evaluării.'],['38,3','examenul fizic']),
 
 q('perioperator-adv-008',['Conform National Quality Forum, reprezintă o situație care nu trebuie să aibă loc niciodată:',
- ['chirurgia pe partea greșită a corpului','febra postoperatorie de 38,3°C în prima zi','atelectazia segmentară postoperatorie','infecția superficială de plagă chirurgicală','necesitatea transfuziei intraoperatorii'],'A',11,'Tabelul 1-5',
+ ['chirurgia pe partea greșită a corpului','febra postoperatorie de 38,3°C în prima zi','atelectazia segmentară din primele zile postoperator','infecția superficială de plagă chirurgicală','necesitatea transfuziei intraoperatorii'],'A',11,'Tabelul 1-5',
  'Recunoașterea evenimentelor din lista National Quality Forum.',
  ['Chirurgia pe partea greșită este inclusă în Tabelul 1-5.','Este o complicație, nu un eveniment din listă.','Este o complicație, nu un eveniment din listă.','Este o complicație, nu un eveniment din listă.','Nu este inclusă în listă.']],
  [8,'Distractorii sunt complicații postoperatorii reale.'],['partea greşită','National Quality Forum']),

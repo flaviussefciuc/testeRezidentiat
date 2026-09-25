@@ -169935,83 +169935,6 @@
   "reviewNotes": "Rescriere a hemostaza-adv-007: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "hemostaza-adv-008-v2",
-  "questionFingerprint": "6f599adfa58061067b9d13db6b70558c6976bb0f7a1cf8ae98ac697b4bc4a6d9",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea ferestrei de 30 de minute ca indiciu de coagulopatie preexistentă.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 4,
-   "printedPages": [
-    39
-   ],
-   "pdfPages": [
-    13
-   ],
-   "section": "Cauze de hemoragii chirurgicale excesive — Tulburări preexistente"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Sângerarea la 3–5 zile evocă deficitul de factor XIII.",
-    "evidenceLocation": "Lawrence, p. 39, Cauze de hemoragii chirurgicale excesive — Tulburări preexistente"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Textul: hemoragia anormală în primele 30 de minute ale intervenției sugerează o tulburare preexistentă.",
-    "evidenceLocation": "Lawrence, p. 39, Cauze de hemoragii chirurgicale excesive — Tulburări preexistente"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Sângerarea tardivă nu este criteriul citat pentru tulburarea preexistentă.",
-    "evidenceLocation": "Lawrence, p. 39, Cauze de hemoragii chirurgicale excesive — Tulburări preexistente"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Zece unități de MER definesc hemoragia masivă, nu o coagulopatie preexistentă.",
-    "evidenceLocation": "Lawrence, p. 39, Cauze de hemoragii chirurgicale excesive — Tulburări preexistente"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Intervalul de 1–2 ore este fereastra de debut a LPAT.",
-    "evidenceLocation": "Lawrence, p. 39, Cauze de hemoragii chirurgicale excesive — Tulburări preexistente"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:10:23.044Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Toate variantele sunt intervale temporale reale din capitol, legate de alte entități."
-  },
-  "textbookExpressions": [
-   "primele 30 de",
-   "Tulburări preexistente"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hemostaza-adv-008: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "hemostaza-adv-010-v2",
   "questionFingerprint": "2d59d9e542d2daf7e321126475bbfb2e28269b08e686e7963c0ddac7e8c0a588",
   "status": "source-checked",
@@ -171322,83 +171245,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a esofag-adv-010: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "esofag-adv-031-v2",
-  "questionFingerprint": "ac1cfefdd978e3c266b9282819d66ceccb453d5edf79bd7779b59594d5745fce",
-  "status": "source-checked",
-  "learningObjective": "Corelarea celor cinci zone ecoendoscopice cu straturile histologice.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 12,
-   "printedPages": [
-    141
-   ],
-   "pdfPages": [
-    81
-   ],
-   "section": "Histologia esofagului — Ecoendoscopia"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Esofagul nu are seroasă.",
-    "evidenceLocation": "Lawrence, p. 141, Histologia esofagului — Ecoendoscopia"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Histologic sunt patru straturi, dar EUS distinge cinci zone.",
-    "evidenceLocation": "Lawrence, p. 141, Histologia esofagului — Ecoendoscopia"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "EUS: mucoasă superficială, mucoasă profundă, submucoasă, muscularis propria, adventice.",
-    "evidenceLocation": "Lawrence, p. 141, Histologia esofagului — Ecoendoscopia"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Nu există seroasă și nici șase zone.",
-    "evidenceLocation": "Lawrence, p. 141, Histologia esofagului — Ecoendoscopia"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Adventicea este a cincea zonă.",
-    "evidenceLocation": "Lawrence, p. 141, Histologia esofagului — Ecoendoscopia"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:20:54.250Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Diferența dintre patru straturi histologice și cinci zone EUS este discriminatorul."
-  },
-  "textbookExpressions": [
-   "cinci zone",
-   "mucoasa profundă"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a esofag-adv-031: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "esofag-adv-012-v2",
@@ -172712,85 +172558,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a esofag-adv-045: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "esofag-adv-004-v2",
-  "questionFingerprint": "e4c33b5f6acb6c017fdf4b1a1dfd28c02d16b9ce0ba5f491e27b80482a250dee",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea criteriului anatomic al herniei hiatale de tip II.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 12,
-   "printedPages": [
-    157,
-    158
-   ],
-   "pdfPages": [
-    89,
-    90
-   ],
-   "section": "Herniile hiatale — Clasificare"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Tipul II: prolaps gastric prin ligamentul frenoesofagian slăbit, cu joncțiunea intraabdominală.",
-    "evidenceLocation": "Lawrence, p. 157, 158, Herniile hiatale — Clasificare"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Alunecarea joncțiunii definește tipul I.",
-    "evidenceLocation": "Lawrence, p. 157, 158, Herniile hiatale — Clasificare"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Migrarea joncțiunii și a stomacului definește tipul III.",
-    "evidenceLocation": "Lawrence, p. 157, 158, Herniile hiatale — Clasificare"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Herniera altor organe definește tipul IV.",
-    "evidenceLocation": "Lawrence, p. 157, 158, Herniile hiatale — Clasificare"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Toate tipurile II–IV implică prolaps de stomac sau alte organe.",
-    "evidenceLocation": "Lawrence, p. 157, 158, Herniile hiatale — Clasificare"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:20:54.274Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Fiecare distractor descrie exact un alt tip de hernie hiatală."
-  },
-  "textbookExpressions": [
-   "paraesofagiană adevărată",
-   "ligament frenoeso"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a esofag-adv-004: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "esofag-adv-046-v2",
@@ -178900,83 +178667,6 @@
   "reviewNotes": "Rescriere a stomac-adv-087: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "stomac-adv-024-v2",
-  "questionFingerprint": "a8a3ea19e074f81c061e198e9998da85c5c97350e9d662d3ac6dda3958c319bb",
-  "status": "source-checked",
-  "learningObjective": "Fixarea scăderii ponderale după gastrectomia longitudinală.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 13,
-   "printedPages": [
-    187
-   ],
-   "pdfPages": [
-    110
-   ],
-   "section": "Gastrectomia longitudinală — Rezultate"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Nu este intervalul citat.",
-    "evidenceLocation": "Lawrence, p. 187, Gastrectomia longitudinală — Rezultate"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Media este 60–75% din GCE în primii 2 ani.",
-    "evidenceLocation": "Lawrence, p. 187, Gastrectomia longitudinală — Rezultate"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Nu este intervalul citat.",
-    "evidenceLocation": "Lawrence, p. 187, Gastrectomia longitudinală — Rezultate"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "20–55% corespunde bandării gastrice.",
-    "evidenceLocation": "Lawrence, p. 187, Gastrectomia longitudinală — Rezultate"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "70–90% corespunde DBP/DBP-SD.",
-    "evidenceLocation": "Lawrence, p. 187, Gastrectomia longitudinală — Rezultate"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:50:00.561Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii sunt intervalele reale ale altor proceduri."
-  },
-  "textbookExpressions": [
-   "60-75%",
-   "GCE"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a stomac-adv-024: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "stomac-adv-059-v2",
   "questionFingerprint": "6dade131ff5dc2d8b41d8d8aaa0b2e8b5d6ab47c95236e5e7016078ed9a12792",
   "status": "source-checked",
@@ -180600,83 +180290,6 @@
   "reviewNotes": "Rescriere a stomac-adv-086: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "stomac-adv-093-v2",
-  "questionFingerprint": "63f53507b95b3513d48fe29b13ef6037d49ad916659714d64edf4e880ebda8e3",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea poziției chirurgiei bariatrice între opțiunile terapeutice.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 13,
-   "printedPages": [
-    185
-   ],
-   "pdfPages": [
-    108
-   ],
-   "section": "Managementul obezității"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Indicația cere IMC ≥40 sau 35–40 cu comorbidități.",
-    "evidenceLocation": "Lawrence, p. 185, Managementul obezității"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Doar chirurgia a reușit scăderea ponderală semnificativă, fără recâștig.",
-    "evidenceLocation": "Lawrence, p. 185, Managementul obezității"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Pacienții necesită monitorizare pe viață.",
-    "evidenceLocation": "Lawrence, p. 185, Managementul obezității"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Modificarea comportamentului rămâne parte a tratamentului.",
-    "evidenceLocation": "Lawrence, p. 185, Managementul obezității"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Nu este susținut de text.",
-    "evidenceLocation": "Lawrence, p. 185, Managementul obezității"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:50:26.647Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii sunt generalizări greșite despre chirurgie."
-  },
-  "textbookExpressions": [
-   "recâştiga",
-   "chirurgia bariatrică"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a stomac-adv-093: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "reumatologie-adv-014-v2",
   "questionFingerprint": "3c0d7f949982471db757ba06b78323125ca15ab10421dd518d30c7094fc9b7e2",
   "status": "source-checked",
@@ -181218,83 +180831,6 @@
   "reviewNotes": "Rescriere a reumatologie-adv-067: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "reumatologie-adv-018-v2",
-  "questionFingerprint": "a1345d69f34b2a9fc1386b19b7b67e3b22b6daf1599025046bad3f1d8ca82040",
-  "status": "source-checked",
-  "learningObjective": "Fixarea pragului de clasificare ACR/EULAR 2010.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 18,
-   "printedPages": [
-    440
-   ],
-   "pdfPages": [
-    70
-   ],
-   "section": "Cadranul 18.28 — Criteriile ACR/EULAR 2010"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Nu este pragul citat.",
-    "evidenceLocation": "Kumar, p. 440, Cadranul 18.28 — Criteriile ACR/EULAR 2010"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Nu este pragul citat.",
-    "evidenceLocation": "Kumar, p. 440, Cadranul 18.28 — Criteriile ACR/EULAR 2010"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Clasificarea drept AR se face la ≥6 puncte.",
-    "evidenceLocation": "Kumar, p. 440, Cadranul 18.28 — Criteriile ACR/EULAR 2010"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "10 puncte este scorul maxim.",
-    "evidenceLocation": "Kumar, p. 440, Cadranul 18.28 — Criteriile ACR/EULAR 2010"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Nu este pragul citat.",
-    "evidenceLocation": "Kumar, p. 440, Cadranul 18.28 — Criteriile ACR/EULAR 2010"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:58:35.899Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii sunt praguri numerice apropiate."
-  },
-  "textbookExpressions": [
-   "6 puncte",
-   "ACR/EULAR 2010"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a reumatologie-adv-018: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "reumatologie-adv-043-v2",
   "questionFingerprint": "cc04ad2822d5c69c59236d955b9a678d2c046f03f79f7ae66ea2669880e57746",
   "status": "source-checked",
@@ -181603,83 +181139,6 @@
   "reviewNotes": "Rescriere a reumatologie-adv-003: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "reumatologie-adv-049-v2",
-  "questionFingerprint": "f7c0ccb8088ca5560615f7917f79222f74d3763e9fc66a1ebfa7a61eb2b8550e",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea prezentării inițiale a umărului reumatoid.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 18,
-   "printedPages": [
-    441
-   ],
-   "pdfPages": [
-    71
-   ],
-   "section": "Afectarea articulară — Umerii"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Nu este imitația citată.",
-    "evidenceLocation": "Kumar, p. 441, Afectarea articulară — Umerii"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Nu este imitația citată.",
-    "evidenceLocation": "Kumar, p. 441, Afectarea articulară — Umerii"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Nu este imitația citată.",
-    "evidenceLocation": "Kumar, p. 441, Afectarea articulară — Umerii"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Nu este imitația citată.",
-    "evidenceLocation": "Kumar, p. 441, Afectarea articulară — Umerii"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Simptomele inițiale imită tendinoza calotei rotatorilor, cu arc dureros.",
-    "evidenceLocation": "Kumar, p. 441, Afectarea articulară — Umerii"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:58:35.904Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii sunt afecțiuni reale ale umărului."
-  },
-  "textbookExpressions": [
-   "calo",
-   "arc dureros"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a reumatologie-adv-049: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "reumatologie-adv-024-v2",
   "questionFingerprint": "5edf883e6f931a94aa533d4a3ab2c30697e7fbb828577776be4596bad5880ba3",
   "status": "source-checked",
@@ -181911,83 +181370,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a reumatologie-adv-007: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "reumatologie-adv-029-v2",
-  "questionFingerprint": "8a25481989d2ebaf783ec83d7c5bca587d2909a0732b5a950e978482f51bc8bb",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea reducerii tratamentului în remisiunea susținută.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 18,
-   "printedPages": [
-    447
-   ],
-   "pdfPages": [
-    77
-   ],
-   "section": "Schimbarea terapiilor DMARD — Tapering"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Nu este conduita citată.",
-    "evidenceLocation": "Kumar, p. 447, Schimbarea terapiilor DMARD — Tapering"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Nu este conduita citată.",
-    "evidenceLocation": "Kumar, p. 447, Schimbarea terapiilor DMARD — Tapering"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Nu este conduita citată.",
-    "evidenceLocation": "Kumar, p. 447, Schimbarea terapiilor DMARD — Tapering"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Nu este conduita citată.",
-    "evidenceLocation": "Kumar, p. 447, Schimbarea terapiilor DMARD — Tapering"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Se încearcă reducerea dozei sau prelungirea intervalului dintre administrări.",
-    "evidenceLocation": "Kumar, p. 447, Schimbarea terapiilor DMARD — Tapering"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:58:35.923Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii sunt modificări terapeutice reale, dar neindicate aici."
-  },
-  "textbookExpressions": [
-   "remisiunea susţinută",
-   "intervalului"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a reumatologie-adv-029: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "reumatologie-adv-030-v2",
@@ -182452,83 +181834,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a reumatologie-adv-083: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "reumatologie-adv-062-v2",
-  "questionFingerprint": "29821f2ad1c05c7d8296ca0e37ca721170f7b4e386440ba46bfe44c4004efb83",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea efectului uricozuric al losartanului.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 18,
-   "printedPages": [
-    453
-   ],
-   "pdfPages": [
-    83
-   ],
-   "section": "Guta — Losartan"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Nu este mecanismul citat.",
-    "evidenceLocation": "Kumar, p. 453, Guta — Losartan"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Nu este efectul citat.",
-    "evidenceLocation": "Kumar, p. 453, Guta — Losartan"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Losartanul este uricozuric la hipertensivii cu gută și poate reduce riscul în sindromul metabolic.",
-    "evidenceLocation": "Kumar, p. 453, Guta — Losartan"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Febuxostatul este analogul non-purinic.",
-    "evidenceLocation": "Kumar, p. 453, Guta — Losartan"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Inhibitorii de xantin-oxidază sunt alopurinolul și febuxostatul.",
-    "evidenceLocation": "Kumar, p. 453, Guta — Losartan"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:58:35.939Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii descriu mecanismele altor hipouricemiante."
-  },
-  "textbookExpressions": [
-   "Losartanul",
-   "uricozuric"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a reumatologie-adv-062: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "reumatologie-adv-038-v2",
@@ -185007,83 +184312,6 @@
   "reviewNotes": "Rescriere a tromboembolism-adv-018: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "tromboembolism-adv-069-v2",
-  "questionFingerprint": "fd8c8aeafd951b772cbee28587855c755c762c5ca801f33f42e4fbb1cfc843d4",
-  "status": "source-checked",
-  "learningObjective": "Fixarea variației etnice a incidenței TEV.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 29,
-   "printedPages": [
-    1002
-   ],
-   "pdfPages": [
-    192
-   ],
-   "section": "Epidemiologie — Etnia"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Nu este grupul citat.",
-    "evidenceLocation": "Kumar, p. 1002, Epidemiologie — Etnia"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Asiaticii au incidența cea mai scăzută.",
-    "evidenceLocation": "Kumar, p. 1002, Epidemiologie — Etnia"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Incidența cea mai mare este la descendența africană.",
-    "evidenceLocation": "Kumar, p. 1002, Epidemiologie — Etnia"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Populația albă are incidență intermediară.",
-    "evidenceLocation": "Kumar, p. 1002, Epidemiologie — Etnia"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Asiaticii au incidența cea mai scăzută.",
-    "evidenceLocation": "Kumar, p. 1002, Epidemiologie — Etnia"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:10:52.751Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează ierarhia etnică."
-  },
-  "textbookExpressions": [
-   "descendenţă africană",
-   "asiatici"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a tromboembolism-adv-069: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "tromboembolism-adv-020-v2",
   "questionFingerprint": "fb294f772dd81b30979ede4b48b82746d69940b6dc9a9e6bc3690aec040013a6",
   "status": "source-checked",
@@ -187177,83 +186405,6 @@
   "reviewNotes": "Rescriere a tromboembolism-adv-034: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "biliar-adv-046-v2",
-  "questionFingerprint": "b43b2f300871834dcabcfa1385c2e1df48f36f7d0b35be4f551dcf907598e03b",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea originii embriologice a arborelui biliar.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 16,
-   "printedPages": [
-    242
-   ],
-   "pdfPages": [
-    154
-   ],
-   "section": "Anatomie"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Pancreasul dorsal nu este citat.",
-    "evidenceLocation": "Lawrence, p. 242, Anatomie"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Pancreasul dorsal nu este citat.",
-    "evidenceLocation": "Lawrence, p. 242, Anatomie"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Mugurii dau naștere ficatului, pancreasului ventral și veziculei biliare.",
-    "evidenceLocation": "Lawrence, p. 242, Anatomie"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Splina nu este citată.",
-    "evidenceLocation": "Lawrence, p. 242, Anatomie"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Duodenul nu este citat.",
-    "evidenceLocation": "Lawrence, p. 242, Anatomie"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:21:14.894Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii schimbă un singur organ."
-  },
-  "textbookExpressions": [
-   "proenteronului",
-   "pancreasul ventral"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a biliar-adv-046: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "biliar-adv-007-v2",
   "questionFingerprint": "27a104f5c94225bf6815a0ed864ff5429a0a569b91cd37a481dea4dceffc2c01",
   "status": "source-checked",
@@ -187870,83 +187021,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a biliar-adv-001: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "biliar-adv-045-v2",
-  "questionFingerprint": "f7b94336b60846d75f06fa95ec1d5203dfbb7ce03d09fb8450066b8909acafed",
-  "status": "source-checked",
-  "learningObjective": "Explicarea mecanismului pruritului în icterul obstructiv.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 16,
-   "printedPages": [
-    244
-   ],
-   "pdfPages": [
-    156
-   ],
-   "section": "Anamneză și examen clinic"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Nu este mecanismul citat.",
-    "evidenceLocation": "Lawrence, p. 244, Anamneză și examen clinic"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Nu este mecanismul citat.",
-    "evidenceLocation": "Lawrence, p. 244, Anamneză și examen clinic"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Pruritul se datorează concentrațiilor tisulare crescute de acizi biliari conjugați reabsorbiți.",
-    "evidenceLocation": "Lawrence, p. 244, Anamneză și examen clinic"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Nu este mecanismul citat.",
-    "evidenceLocation": "Lawrence, p. 244, Anamneză și examen clinic"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Nu este mecanismul citat.",
-    "evidenceLocation": "Lawrence, p. 244, Anamneză și examen clinic"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:21:14.911Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii sunt produși reali ai metabolismului biliar."
-  },
-  "textbookExpressions": [
-   "acizi biliari",
-   "reabsorbiţi din intestin"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a biliar-adv-045: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "biliar-adv-049-v2",
@@ -190658,83 +189732,6 @@
   "reviewNotes": "Rescriere a biliar-adv-043: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "biliar-adv-061-v2",
-  "questionFingerprint": "0a22282e2811c82e169dd48d4ada475dba24f15561171759f62c577c1a3fae05",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea îngrijirii postoperatorii după explorarea CBP.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 16,
-   "printedPages": [
-    255
-   ],
-   "pdfPages": [
-    167
-   ],
-   "section": "Colecistectomia deschisă și explorarea CBP"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Nu este momentul citat.",
-    "evidenceLocation": "Lawrence, p. 255, Colecistectomia deschisă și explorarea CBP"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Nu este momentul citat.",
-    "evidenceLocation": "Lawrence, p. 255, Colecistectomia deschisă și explorarea CBP"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Clamparea precede suprimarea.",
-    "evidenceLocation": "Lawrence, p. 255, Colecistectomia deschisă și explorarea CBP"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Drenajul se suprimă la 24–48 de ore după clamparea tubului în T.",
-    "evidenceLocation": "Lawrence, p. 255, Colecistectomia deschisă și explorarea CBP"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Tubul în T, nu drenajul, se menține 3 săptămâni.",
-    "evidenceLocation": "Lawrence, p. 255, Colecistectomia deschisă și explorarea CBP"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:21:14.940Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii schimbă reperul temporal."
-  },
-  "textbookExpressions": [
-   "Drenajul peritoneal",
-   "clampat"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a biliar-adv-061: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "biliar-adv-041-v2",
   "questionFingerprint": "bb8c02b84a87cc1bc9c0fdc046ea61fd55200b9accfa7efdf8b82b8fa27c6740",
   "status": "source-checked",
@@ -192662,162 +191659,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a trauma-adv-059: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "trauma-adv-025-v2",
-  "questionFingerprint": "4be60f61ef42421564d72e85a02368c6dc754b3927918161fb1148c298db4067",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea tratamentului imediat al pneumotoraxului deschis.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 9,
-   "printedPages": [
-    93,
-    94
-   ],
-   "pdfPages": [
-    36,
-    37
-   ],
-   "section": "Pneumotoraxul deschis"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Debridarea și închiderea se fac ulterior.",
-    "evidenceLocation": "Lawrence, p. 93, 94, Pneumotoraxul deschis"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Se aplică pneumotoraxului în tensiune.",
-    "evidenceLocation": "Lawrence, p. 93, 94, Pneumotoraxul deschis"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Pansamentul pe trei laturi creează o valvă unidirecțională.",
-    "evidenceLocation": "Lawrence, p. 93, 94, Pneumotoraxul deschis"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Nu este gestul imediat.",
-    "evidenceLocation": "Lawrence, p. 93, 94, Pneumotoraxul deschis"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Închiderea pe patru laturi poate crea tensiune.",
-    "evidenceLocation": "Lawrence, p. 93, 94, Pneumotoraxul deschis"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:36:00.331Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii sunt manevre toracice reale."
-  },
-  "textbookExpressions": [
-   "trei laturi",
-   "sucţiune"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a trauma-adv-025: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "trauma-adv-005-v2",
-  "questionFingerprint": "f210625c0a97ad418c69bc5e4be36c35b2570bfd559c2005756d638f80eb7e7c",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea definiției hemotoraxului masiv.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 9,
-   "printedPages": [
-    94
-   ],
-   "pdfPages": [
-    37
-   ],
-   "section": "Hemotoraxul masiv"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Debitul citat este 200 mL/oră.",
-    "evidenceLocation": "Lawrence, p. 94, Hemotoraxul masiv"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "≥1.500 mL în prima oră sau ≥200 mL/oră în primele 4 ore.",
-    "evidenceLocation": "Lawrence, p. 94, Hemotoraxul masiv"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Nu este pragul citat.",
-    "evidenceLocation": "Lawrence, p. 94, Hemotoraxul masiv"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Nu este pragul citat.",
-    "evidenceLocation": "Lawrence, p. 94, Hemotoraxul masiv"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Nu este pragul citat.",
-    "evidenceLocation": "Lawrence, p. 94, Hemotoraxul masiv"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:36:00.333Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii modifică volumul sau intervalul."
-  },
-  "textbookExpressions": [
-   "1.500 mL",
-   "200 mL"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a trauma-adv-005: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "trauma-adv-026-v2",
@@ -196232,83 +195073,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a trauma-adv-075: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "intestin-adv-001-v2",
-  "questionFingerprint": "1609101b0ea1c4b830dc215969d38abab117106a59e50c2a4184f7d54cd0cebf",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea particularității herniei Richter.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 14,
-   "printedPages": [
-    193
-   ],
-   "pdfPages": [
-    115
-   ],
-   "section": "Etiologia OIS — Cauze extrinseci"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Este prinsă doar porțiunea antimezenterică, lumenul rămânând permeabil.",
-    "evidenceLocation": "Lawrence, p. 193, Etiologia OIS — Cauze extrinseci"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Descrie hernia internă post-bypass.",
-    "evidenceLocation": "Lawrence, p. 193, Etiologia OIS — Cauze extrinseci"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Edemul face hernia ireductibilă.",
-    "evidenceLocation": "Lawrence, p. 193, Etiologia OIS — Cauze extrinseci"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Este prinsă doar porțiunea antimezenterică.",
-    "evidenceLocation": "Lawrence, p. 193, Etiologia OIS — Cauze extrinseci"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Descrie o hernie internă.",
-    "evidenceLocation": "Lawrence, p. 193, Etiologia OIS — Cauze extrinseci"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:52:31.025Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii descriu alte tipuri de hernii."
-  },
-  "textbookExpressions": [
-   "Richter",
-   "antimezenterică"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a intestin-adv-001: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "intestin-adv-002-v2",
@@ -213187,83 +211951,6 @@
   "reviewNotes": "Rescriere a endocrinologie-adv-018: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "endocrinologie-adv-022-v2",
-  "questionFingerprint": "99126e055982fb41b870d83d7ab22df2b9af67858a3df38fedccec932267a4cc",
-  "status": "source-checked",
-  "learningObjective": "Interpretarea profilului hormonal în T3-toxicoză.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 21,
-   "printedPages": [
-    611
-   ],
-   "pdfPages": [
-    88
-   ],
-   "section": "Cadranul 21.26"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Descrie tirotoxicoza obișnuită.",
-    "evidenceLocation": "Kumar, p. 611, Cadranul 21.26"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Nu este profilul citat.",
-    "evidenceLocation": "Kumar, p. 611, Cadranul 21.26"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "T3-toxicoza: TSH supresat, fT4 normală, fT3 crescută.",
-    "evidenceLocation": "Kumar, p. 611, Cadranul 21.26"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Descrie hipotiroidismul primar.",
-    "evidenceLocation": "Kumar, p. 611, Cadranul 21.26"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Descrie eutiroidismul compensat.",
-    "evidenceLocation": "Kumar, p. 611, Cadranul 21.26"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:32:24.436Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii sunt celelalte profiluri din cadran."
-  },
-  "textbookExpressions": [
-   "T3 Toxicoza",
-   "Supresat"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a endocrinologie-adv-022: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "endocrinologie-adv-002-v2",
   "questionFingerprint": "61f3688322e242ecf420d7ed27d51e64b775ba1c4550a3a44f1bf957b23accc1",
   "status": "source-checked",
@@ -227527,85 +226214,6 @@
   "reviewNotes": "Rescriere a hematologie-adv-076: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "arsuri-adv-001-v2",
-  "questionFingerprint": "fd3462ac3bbf0d8cece225da799794b01cc1b9503b4225bf93905f15c98a02d6",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea arsurii epidermice.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 10,
-   "printedPages": [
-    108,
-    109
-   ],
-   "pdfPages": [
-    50,
-    51
-   ],
-   "section": "Fiziopatologia leziunilor din arsură"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Necesită doar tratament suportiv.",
-    "evidenceLocation": "Lawrence, p. 108, 109, Fiziopatologia leziunilor din arsură"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Descrie gradul II superficial.",
-    "evidenceLocation": "Lawrence, p. 108, 109, Fiziopatologia leziunilor din arsură"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Descrie gradul III.",
-    "evidenceLocation": "Lawrence, p. 108, 109, Fiziopatologia leziunilor din arsură"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Descrie gradul II profund.",
-    "evidenceLocation": "Lawrence, p. 108, 109, Fiziopatologia leziunilor din arsură"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Hiperemia se albește, iar cicatrizarea din derm lipsește.",
-    "evidenceLocation": "Lawrence, p. 108, 109, Fiziopatologia leziunilor din arsură"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:19:03.556Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii descriu celelalte grade de profunzime."
-  },
-  "textbookExpressions": [
-   "digitopresiune",
-   "epidermul"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a arsuri-adv-001: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "arsuri-adv-032-v2",
   "questionFingerprint": "e7bc907745998ef485d026ac2cf61d97ab2fddedf4f3bd51a36dbb39c6ca242d",
   "status": "source-checked",
@@ -237996,83 +236604,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a hernii-adv-041: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "hernii-adv-047-v2",
-  "questionFingerprint": "751154a96eaa909aad7b8d31660d60574088325a72f5a02eeb1b9102459fa529",
-  "status": "source-checked",
-  "learningObjective": "Alegerea momentului operator în hernia cronic încarcerată.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 11,
-   "printedPages": [
-    127
-   ],
-   "pdfPages": [
-    68
-   ],
-   "section": "Tablou clinic — Hernia cronic încarcerată"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Fereastra de 4–6 ore privește hernia recent încarcerată.",
-    "evidenceLocation": "Lawrence, p. 127, Tablou clinic — Hernia cronic încarcerată"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "După reducere, pacientul se internează și se monitorizează.",
-    "evidenceLocation": "Lawrence, p. 127, Tablou clinic — Hernia cronic încarcerată"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Rezecția se face doar la ischemie.",
-    "evidenceLocation": "Lawrence, p. 127, Tablou clinic — Hernia cronic încarcerată"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Indicația este intervenția în regim programat, în funcție de comorbidități.",
-    "evidenceLocation": "Lawrence, p. 127, Tablou clinic — Hernia cronic încarcerată"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Hernia încarcerată are indicație chirurgicală.",
-    "evidenceLocation": "Lawrence, p. 127, Tablou clinic — Hernia cronic încarcerată"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:42:58.890Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii sunt conduite reale pentru alte forme de încarcerare."
-  },
-  "textbookExpressions": [
-   "cronic încarcerată",
-   "regim programat"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hernii-adv-047: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "hernii-adv-030-v2",
@@ -256343,83 +254874,6 @@
   "reviewNotes": "Rescriere a perioperator-adv-029: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "perioperator-adv-008-v2",
-  "questionFingerprint": "27a2b158636fcfcb0c44815e8cb0de7ba62195049a4d178ed2a60a2f2b31308f",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea evenimentelor din lista National Quality Forum.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 1,
-   "printedPages": [
-    11
-   ],
-   "pdfPages": [
-    11
-   ],
-   "section": "Tabelul 1-5"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Este o complicație, nu un eveniment din listă.",
-    "evidenceLocation": "Lawrence, p. 11, Tabelul 1-5"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Nu este inclusă în listă.",
-    "evidenceLocation": "Lawrence, p. 11, Tabelul 1-5"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Este o complicație, nu un eveniment din listă.",
-    "evidenceLocation": "Lawrence, p. 11, Tabelul 1-5"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Chirurgia pe partea greșită este inclusă în Tabelul 1-5.",
-    "evidenceLocation": "Lawrence, p. 11, Tabelul 1-5"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Este o complicație, nu un eveniment din listă.",
-    "evidenceLocation": "Lawrence, p. 11, Tabelul 1-5"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T06:12:54.700Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii sunt complicații postoperatorii reale."
-  },
-  "textbookExpressions": [
-   "partea greşită",
-   "National Quality Forum"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a perioperator-adv-008: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "perioperator-adv-030-v2",
   "questionFingerprint": "8b043c212529c1ecb9c343ae50368aaa77db0fdc365ac6e3b0958a9e783bc895",
   "status": "source-checked",
@@ -269519,5 +267973,1551 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a electroliti-adv-065: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "hemostaza-adv-008-v2",
+  "questionFingerprint": "83f7a6b203e10221fea874c399b52b3048ded35b215e421eff62df3b25d1d075",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea ferestrei de 30 de minute ca indiciu de coagulopatie preexistentă.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 4,
+   "printedPages": [
+    39
+   ],
+   "pdfPages": [
+    13
+   ],
+   "section": "Cauze de hemoragii chirurgicale excesive — Tulburări preexistente"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Sângerarea la 3–5 zile evocă deficitul de factor XIII.",
+    "evidenceLocation": "Lawrence, p. 39, Cauze de hemoragii chirurgicale excesive — Tulburări preexistente"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Textul: hemoragia anormală în primele 30 de minute ale intervenției sugerează o tulburare preexistentă.",
+    "evidenceLocation": "Lawrence, p. 39, Cauze de hemoragii chirurgicale excesive — Tulburări preexistente"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Sângerarea tardivă nu este criteriul citat pentru tulburarea preexistentă.",
+    "evidenceLocation": "Lawrence, p. 39, Cauze de hemoragii chirurgicale excesive — Tulburări preexistente"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Zece unități de MER definesc hemoragia masivă, nu o coagulopatie preexistentă.",
+    "evidenceLocation": "Lawrence, p. 39, Cauze de hemoragii chirurgicale excesive — Tulburări preexistente"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Intervalul de 1–2 ore este fereastra de debut a LPAT.",
+    "evidenceLocation": "Lawrence, p. 39, Cauze de hemoragii chirurgicale excesive — Tulburări preexistente"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:29:17.416Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Toate variantele sunt intervale temporale reale din capitol, legate de alte entități."
+  },
+  "textbookExpressions": [
+   "primele 30 de",
+   "Tulburări preexistente"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a hemostaza-adv-008: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "esofag-adv-031-v2",
+  "questionFingerprint": "95727324707db4abd84fdb62bd680037e4fc2ea180fb11029de88a643d241ff6",
+  "status": "source-checked",
+  "learningObjective": "Corelarea celor cinci zone ecoendoscopice cu straturile histologice.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 12,
+   "printedPages": [
+    141
+   ],
+   "pdfPages": [
+    81
+   ],
+   "section": "Histologia esofagului — Ecoendoscopia"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Esofagul nu are seroasă.",
+    "evidenceLocation": "Lawrence, p. 141, Histologia esofagului — Ecoendoscopia"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Histologic sunt patru straturi, dar EUS distinge cinci zone.",
+    "evidenceLocation": "Lawrence, p. 141, Histologia esofagului — Ecoendoscopia"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "EUS: mucoasă superficială, mucoasă profundă, submucoasă, muscularis propria, adventice.",
+    "evidenceLocation": "Lawrence, p. 141, Histologia esofagului — Ecoendoscopia"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu există seroasă și nici șase zone.",
+    "evidenceLocation": "Lawrence, p. 141, Histologia esofagului — Ecoendoscopia"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Adventicea este a cincea zonă.",
+    "evidenceLocation": "Lawrence, p. 141, Histologia esofagului — Ecoendoscopia"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:29:22.266Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Diferența dintre patru straturi histologice și cinci zone EUS este discriminatorul."
+  },
+  "textbookExpressions": [
+   "cinci zone",
+   "mucoasa profundă"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a esofag-adv-031: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "esofag-adv-004-v2",
+  "questionFingerprint": "f9c272bae8512a1dd2cfd35d39adaacaf1b5984614e295843f1920d465c3b55d",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea criteriului anatomic al herniei hiatale de tip II.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 12,
+   "printedPages": [
+    157,
+    158
+   ],
+   "pdfPages": [
+    89,
+    90
+   ],
+   "section": "Herniile hiatale — Clasificare"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Tipul II: prolaps gastric prin ligamentul frenoesofagian slăbit, cu joncțiunea intraabdominală.",
+    "evidenceLocation": "Lawrence, p. 157, 158, Herniile hiatale — Clasificare"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Alunecarea joncțiunii definește tipul I.",
+    "evidenceLocation": "Lawrence, p. 157, 158, Herniile hiatale — Clasificare"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Migrarea joncțiunii și a stomacului definește tipul III.",
+    "evidenceLocation": "Lawrence, p. 157, 158, Herniile hiatale — Clasificare"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Herniera altor organe definește tipul IV.",
+    "evidenceLocation": "Lawrence, p. 157, 158, Herniile hiatale — Clasificare"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Toate tipurile II–IV implică prolaps de stomac sau alte organe.",
+    "evidenceLocation": "Lawrence, p. 157, 158, Herniile hiatale — Clasificare"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:29:22.273Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Fiecare distractor descrie exact un alt tip de hernie hiatală."
+  },
+  "textbookExpressions": [
+   "paraesofagiană adevărată",
+   "ligament frenoeso"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a esofag-adv-004: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "stomac-adv-093-v2",
+  "questionFingerprint": "4fae24215fe2ce94cadca2fe1064ca6cdf7cf1681d349385a20616bacf3269a5",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea poziției chirurgiei bariatrice între opțiunile terapeutice.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 13,
+   "printedPages": [
+    185
+   ],
+   "pdfPages": [
+    108
+   ],
+   "section": "Managementul obezității"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Indicația cere IMC ≥40 sau 35–40 cu comorbidități.",
+    "evidenceLocation": "Lawrence, p. 185, Managementul obezității"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Doar chirurgia a reușit scăderea ponderală semnificativă, fără recâștig.",
+    "evidenceLocation": "Lawrence, p. 185, Managementul obezității"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Pacienții necesită monitorizare pe viață.",
+    "evidenceLocation": "Lawrence, p. 185, Managementul obezității"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Modificarea comportamentului rămâne parte a tratamentului.",
+    "evidenceLocation": "Lawrence, p. 185, Managementul obezității"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu este susținut de text.",
+    "evidenceLocation": "Lawrence, p. 185, Managementul obezității"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:29:26.469Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt generalizări greșite despre chirurgie."
+  },
+  "textbookExpressions": [
+   "recâştiga",
+   "chirurgia bariatrică"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a stomac-adv-093: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "stomac-adv-024-v2",
+  "questionFingerprint": "3ffd74ad74784f20d4d0c7bc799bef64d365ff1241969e4bd5580e6aa50457d7",
+  "status": "source-checked",
+  "learningObjective": "Fixarea scăderii ponderale după gastrectomia longitudinală.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 13,
+   "printedPages": [
+    187
+   ],
+   "pdfPages": [
+    110
+   ],
+   "section": "Gastrectomia longitudinală — Rezultate"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu este intervalul citat.",
+    "evidenceLocation": "Lawrence, p. 187, Gastrectomia longitudinală — Rezultate"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Media este 60–75% din GCE în primii 2 ani.",
+    "evidenceLocation": "Lawrence, p. 187, Gastrectomia longitudinală — Rezultate"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu este intervalul citat.",
+    "evidenceLocation": "Lawrence, p. 187, Gastrectomia longitudinală — Rezultate"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "20–55% corespunde bandării gastrice.",
+    "evidenceLocation": "Lawrence, p. 187, Gastrectomia longitudinală — Rezultate"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "70–90% corespunde DBP/DBP-SD.",
+    "evidenceLocation": "Lawrence, p. 187, Gastrectomia longitudinală — Rezultate"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:29:26.471Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt intervalele reale ale altor proceduri."
+  },
+  "textbookExpressions": [
+   "60-75%",
+   "GCE"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a stomac-adv-024: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "reumatologie-adv-029-v2",
+  "questionFingerprint": "1e00d43c0f8de8a6df6f0699ed15f9bb68bb20d7b08854d0b35e6b80548c4d8c",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea reducerii tratamentului în remisiunea susținută.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 18,
+   "printedPages": [
+    447
+   ],
+   "pdfPages": [
+    77
+   ],
+   "section": "Schimbarea terapiilor DMARD — Tapering"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu este conduita citată.",
+    "evidenceLocation": "Kumar, p. 447, Schimbarea terapiilor DMARD — Tapering"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu este conduita citată.",
+    "evidenceLocation": "Kumar, p. 447, Schimbarea terapiilor DMARD — Tapering"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu este conduita citată.",
+    "evidenceLocation": "Kumar, p. 447, Schimbarea terapiilor DMARD — Tapering"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu este conduita citată.",
+    "evidenceLocation": "Kumar, p. 447, Schimbarea terapiilor DMARD — Tapering"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Se încearcă reducerea dozei sau prelungirea intervalului dintre administrări.",
+    "evidenceLocation": "Kumar, p. 447, Schimbarea terapiilor DMARD — Tapering"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:29:30.351Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt modificări terapeutice reale, dar neindicate aici."
+  },
+  "textbookExpressions": [
+   "remisiunea susţinută",
+   "intervalului"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a reumatologie-adv-029: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "tromboembolism-adv-069-v2",
+  "questionFingerprint": "31ce1aa2f83c4410e485ab4121f4c5ed3cc77069ee1c3620f36272c5063a3665",
+  "status": "source-checked",
+  "learningObjective": "Fixarea variației etnice a incidenței TEV.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 29,
+   "printedPages": [
+    1002
+   ],
+   "pdfPages": [
+    192
+   ],
+   "section": "Epidemiologie — Etnia"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu este grupul citat.",
+    "evidenceLocation": "Kumar, p. 1002, Epidemiologie — Etnia"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Asiaticii au incidența cea mai scăzută.",
+    "evidenceLocation": "Kumar, p. 1002, Epidemiologie — Etnia"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Incidența cea mai mare este la descendența africană.",
+    "evidenceLocation": "Kumar, p. 1002, Epidemiologie — Etnia"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Populația albă are incidență intermediară.",
+    "evidenceLocation": "Kumar, p. 1002, Epidemiologie — Etnia"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Asiaticii au incidența cea mai scăzută.",
+    "evidenceLocation": "Kumar, p. 1002, Epidemiologie — Etnia"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:29:34.120Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează ierarhia etnică."
+  },
+  "textbookExpressions": [
+   "descendenţă africană",
+   "asiatici"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a tromboembolism-adv-069: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "biliar-adv-046-v2",
+  "questionFingerprint": "ea2dda872e93e3bbb6910d5ec9c2dd402c6fd8a6b7ec34886e5a08a576894a95",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea originii embriologice a arborelui biliar.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    242
+   ],
+   "pdfPages": [
+    154
+   ],
+   "section": "Anatomie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Pancreasul dorsal nu este citat.",
+    "evidenceLocation": "Lawrence, p. 242, Anatomie"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Pancreasul dorsal nu este citat.",
+    "evidenceLocation": "Lawrence, p. 242, Anatomie"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Mugurii dau naștere ficatului, pancreasului ventral și veziculei biliare.",
+    "evidenceLocation": "Lawrence, p. 242, Anatomie"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Splina nu este citată.",
+    "evidenceLocation": "Lawrence, p. 242, Anatomie"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Duodenul nu este citat.",
+    "evidenceLocation": "Lawrence, p. 242, Anatomie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:29:37.922Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii schimbă un singur organ."
+  },
+  "textbookExpressions": [
+   "proenteronului",
+   "pancreasul ventral"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a biliar-adv-046: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "biliar-adv-045-v2",
+  "questionFingerprint": "3c653a241ac7754363b63158f49ed9d0f0abf9891b83be0d01be4a3bd78da616",
+  "status": "source-checked",
+  "learningObjective": "Explicarea mecanismului pruritului în icterul obstructiv.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    244
+   ],
+   "pdfPages": [
+    156
+   ],
+   "section": "Anamneză și examen clinic"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu este mecanismul citat.",
+    "evidenceLocation": "Lawrence, p. 244, Anamneză și examen clinic"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu este mecanismul citat.",
+    "evidenceLocation": "Lawrence, p. 244, Anamneză și examen clinic"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Pruritul se datorează concentrațiilor tisulare crescute de acizi biliari conjugați reabsorbiți.",
+    "evidenceLocation": "Lawrence, p. 244, Anamneză și examen clinic"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu este mecanismul citat.",
+    "evidenceLocation": "Lawrence, p. 244, Anamneză și examen clinic"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu este mecanismul citat.",
+    "evidenceLocation": "Lawrence, p. 244, Anamneză și examen clinic"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:29:37.926Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt produși reali ai metabolismului biliar."
+  },
+  "textbookExpressions": [
+   "acizi biliari",
+   "reabsorbiţi din intestin"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a biliar-adv-045: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "biliar-adv-061-v2",
+  "questionFingerprint": "28af012371506ed022e6cd799fbdec45142d1378b44946ae54164466a29b9b8b",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea îngrijirii postoperatorii după explorarea CBP.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 16,
+   "printedPages": [
+    255
+   ],
+   "pdfPages": [
+    167
+   ],
+   "section": "Colecistectomia deschisă și explorarea CBP"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu este momentul citat.",
+    "evidenceLocation": "Lawrence, p. 255, Colecistectomia deschisă și explorarea CBP"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu este momentul citat.",
+    "evidenceLocation": "Lawrence, p. 255, Colecistectomia deschisă și explorarea CBP"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Clamparea precede suprimarea.",
+    "evidenceLocation": "Lawrence, p. 255, Colecistectomia deschisă și explorarea CBP"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Drenajul se suprimă la 24–48 de ore după clamparea tubului în T.",
+    "evidenceLocation": "Lawrence, p. 255, Colecistectomia deschisă și explorarea CBP"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Tubul în T, nu drenajul, se menține 3 săptămâni.",
+    "evidenceLocation": "Lawrence, p. 255, Colecistectomia deschisă și explorarea CBP"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:29:37.929Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii schimbă reperul temporal."
+  },
+  "textbookExpressions": [
+   "Drenajul peritoneal",
+   "clampat"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a biliar-adv-061: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "trauma-adv-025-v2",
+  "questionFingerprint": "f9c37e982c38268bdfafa49ac6e976cb358943db4128ccc30e514953b64548d4",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea tratamentului imediat al pneumotoraxului deschis.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 9,
+   "printedPages": [
+    93,
+    94
+   ],
+   "pdfPages": [
+    36,
+    37
+   ],
+   "section": "Pneumotoraxul deschis"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Debridarea și închiderea se fac ulterior.",
+    "evidenceLocation": "Lawrence, p. 93, 94, Pneumotoraxul deschis"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Se aplică pneumotoraxului în tensiune.",
+    "evidenceLocation": "Lawrence, p. 93, 94, Pneumotoraxul deschis"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Pansamentul pe trei laturi creează o valvă unidirecțională.",
+    "evidenceLocation": "Lawrence, p. 93, 94, Pneumotoraxul deschis"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu este gestul imediat.",
+    "evidenceLocation": "Lawrence, p. 93, 94, Pneumotoraxul deschis"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Închiderea pe patru laturi poate crea tensiune.",
+    "evidenceLocation": "Lawrence, p. 93, 94, Pneumotoraxul deschis"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:29:41.815Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt manevre toracice reale."
+  },
+  "textbookExpressions": [
+   "trei laturi",
+   "sucţiune"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a trauma-adv-025: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "trauma-adv-005-v2",
+  "questionFingerprint": "f797a5ae1f16a6894379b69a4bf129751c83ea7dcd411238c41f8857e2824d46",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea definiției hemotoraxului masiv.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 9,
+   "printedPages": [
+    94
+   ],
+   "pdfPages": [
+    37
+   ],
+   "section": "Hemotoraxul masiv"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Debitul citat este 200 mL/oră.",
+    "evidenceLocation": "Lawrence, p. 94, Hemotoraxul masiv"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "≥1.500 mL în prima oră sau ≥200 mL/oră în primele 4 ore.",
+    "evidenceLocation": "Lawrence, p. 94, Hemotoraxul masiv"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu este pragul citat.",
+    "evidenceLocation": "Lawrence, p. 94, Hemotoraxul masiv"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu este pragul citat.",
+    "evidenceLocation": "Lawrence, p. 94, Hemotoraxul masiv"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu este pragul citat.",
+    "evidenceLocation": "Lawrence, p. 94, Hemotoraxul masiv"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:29:41.818Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii modifică volumul sau intervalul."
+  },
+  "textbookExpressions": [
+   "1.500 mL",
+   "200 mL"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a trauma-adv-005: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "intestin-adv-001-v2",
+  "questionFingerprint": "14c611d1e92ff39446422ec28a1581b1fe35200033bbc2f48e3f84ac738992c4",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea particularității herniei Richter.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    193
+   ],
+   "pdfPages": [
+    115
+   ],
+   "section": "Etiologia OIS — Cauze extrinseci"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Este prinsă doar porțiunea antimezenterică, lumenul rămânând permeabil.",
+    "evidenceLocation": "Lawrence, p. 193, Etiologia OIS — Cauze extrinseci"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Descrie hernia internă post-bypass.",
+    "evidenceLocation": "Lawrence, p. 193, Etiologia OIS — Cauze extrinseci"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Edemul face hernia ireductibilă.",
+    "evidenceLocation": "Lawrence, p. 193, Etiologia OIS — Cauze extrinseci"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Este prinsă doar porțiunea antimezenterică.",
+    "evidenceLocation": "Lawrence, p. 193, Etiologia OIS — Cauze extrinseci"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Descrie o hernie internă.",
+    "evidenceLocation": "Lawrence, p. 193, Etiologia OIS — Cauze extrinseci"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:29:45.891Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii descriu alte tipuri de hernii."
+  },
+  "textbookExpressions": [
+   "Richter",
+   "antimezenterică"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a intestin-adv-001: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "endocrinologie-adv-022-v2",
+  "questionFingerprint": "87da531f138a3ade782270d925deef711706a345deb19fcf5f4a42aa7133f5b8",
+  "status": "source-checked",
+  "learningObjective": "Interpretarea profilului hormonal în T3-toxicoză.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 21,
+   "printedPages": [
+    611
+   ],
+   "pdfPages": [
+    88
+   ],
+   "section": "Cadranul 21.26"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Descrie tirotoxicoza obișnuită.",
+    "evidenceLocation": "Kumar, p. 611, Cadranul 21.26"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu este profilul citat.",
+    "evidenceLocation": "Kumar, p. 611, Cadranul 21.26"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "T3-toxicoza: TSH supresat, fT4 normală, fT3 crescută.",
+    "evidenceLocation": "Kumar, p. 611, Cadranul 21.26"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Descrie hipotiroidismul primar.",
+    "evidenceLocation": "Kumar, p. 611, Cadranul 21.26"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Descrie eutiroidismul compensat.",
+    "evidenceLocation": "Kumar, p. 611, Cadranul 21.26"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:29:49.753Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt celelalte profiluri din cadran."
+  },
+  "textbookExpressions": [
+   "T3 Toxicoza",
+   "Supresat"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a endocrinologie-adv-022: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "arsuri-adv-001-v2",
+  "questionFingerprint": "69abb70411578a3bf4a29cfbf3055a595d72d16a5ed20db19e0b3550a264a8ed",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea arsurii epidermice.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 10,
+   "printedPages": [
+    108,
+    109
+   ],
+   "pdfPages": [
+    50,
+    51
+   ],
+   "section": "Fiziopatologia leziunilor din arsură"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Necesită doar tratament suportiv.",
+    "evidenceLocation": "Lawrence, p. 108, 109, Fiziopatologia leziunilor din arsură"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Descrie gradul II superficial.",
+    "evidenceLocation": "Lawrence, p. 108, 109, Fiziopatologia leziunilor din arsură"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Descrie gradul III.",
+    "evidenceLocation": "Lawrence, p. 108, 109, Fiziopatologia leziunilor din arsură"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Descrie gradul II profund.",
+    "evidenceLocation": "Lawrence, p. 108, 109, Fiziopatologia leziunilor din arsură"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Hiperemia se albește, iar cicatrizarea din derm lipsește.",
+    "evidenceLocation": "Lawrence, p. 108, 109, Fiziopatologia leziunilor din arsură"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:29:54.296Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii descriu celelalte grade de profunzime."
+  },
+  "textbookExpressions": [
+   "digitopresiune",
+   "epidermul"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a arsuri-adv-001: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "hernii-adv-047-v2",
+  "questionFingerprint": "cd01977386695e7b818b3c8713a7ae82305d20c4ea626ad1d0a07844ad6ff880",
+  "status": "source-checked",
+  "learningObjective": "Alegerea momentului operator în hernia cronic încarcerată.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 11,
+   "printedPages": [
+    127
+   ],
+   "pdfPages": [
+    68
+   ],
+   "section": "Tablou clinic — Hernia cronic încarcerată"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Fereastra de 4–6 ore privește hernia recent încarcerată.",
+    "evidenceLocation": "Lawrence, p. 127, Tablou clinic — Hernia cronic încarcerată"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "După reducere, pacientul se internează și se monitorizează.",
+    "evidenceLocation": "Lawrence, p. 127, Tablou clinic — Hernia cronic încarcerată"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Rezecția se face doar la ischemie.",
+    "evidenceLocation": "Lawrence, p. 127, Tablou clinic — Hernia cronic încarcerată"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Indicația este intervenția în regim programat, în funcție de comorbidități.",
+    "evidenceLocation": "Lawrence, p. 127, Tablou clinic — Hernia cronic încarcerată"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Hernia încarcerată are indicație chirurgicală.",
+    "evidenceLocation": "Lawrence, p. 127, Tablou clinic — Hernia cronic încarcerată"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:29:58.716Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt conduite reale pentru alte forme de încarcerare."
+  },
+  "textbookExpressions": [
+   "cronic încarcerată",
+   "regim programat"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a hernii-adv-047: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "perioperator-adv-008-v2",
+  "questionFingerprint": "f74d22ef4f218f7016f22f7318fc044484055ac8d8edcb5f1e95c155f34ac8fc",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea evenimentelor din lista National Quality Forum.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    11
+   ],
+   "pdfPages": [
+    11
+   ],
+   "section": "Tabelul 1-5"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Este o complicație, nu un eveniment din listă.",
+    "evidenceLocation": "Lawrence, p. 11, Tabelul 1-5"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu este inclusă în listă.",
+    "evidenceLocation": "Lawrence, p. 11, Tabelul 1-5"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Este o complicație, nu un eveniment din listă.",
+    "evidenceLocation": "Lawrence, p. 11, Tabelul 1-5"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Chirurgia pe partea greșită este inclusă în Tabelul 1-5.",
+    "evidenceLocation": "Lawrence, p. 11, Tabelul 1-5"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Este o complicație, nu un eveniment din listă.",
+    "evidenceLocation": "Lawrence, p. 11, Tabelul 1-5"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:30:03.249Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt complicații postoperatorii reale."
+  },
+  "textbookExpressions": [
+   "partea greşită",
+   "National Quality Forum"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a perioperator-adv-008: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "reumatologie-adv-018-v2",
+  "questionFingerprint": "a1345d69f34b2a9fc1386b19b7b67e3b22b6daf1599025046bad3f1d8ca82040",
+  "status": "source-checked",
+  "learningObjective": "Fixarea pragului de clasificare ACR/EULAR 2010.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 18,
+   "printedPages": [
+    440
+   ],
+   "pdfPages": [
+    70
+   ],
+   "section": "Cadranul 18.28 — Criteriile ACR/EULAR 2010"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu este pragul citat.",
+    "evidenceLocation": "Kumar, p. 440, Cadranul 18.28 — Criteriile ACR/EULAR 2010"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu este pragul citat.",
+    "evidenceLocation": "Kumar, p. 440, Cadranul 18.28 — Criteriile ACR/EULAR 2010"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Clasificarea drept AR se face la ≥6 puncte.",
+    "evidenceLocation": "Kumar, p. 440, Cadranul 18.28 — Criteriile ACR/EULAR 2010"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "10 puncte este scorul maxim.",
+    "evidenceLocation": "Kumar, p. 440, Cadranul 18.28 — Criteriile ACR/EULAR 2010"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu este pragul citat.",
+    "evidenceLocation": "Kumar, p. 440, Cadranul 18.28 — Criteriile ACR/EULAR 2010"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:30:22.038Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt praguri numerice apropiate."
+  },
+  "textbookExpressions": [
+   "6 puncte",
+   "ACR/EULAR 2010"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a reumatologie-adv-018: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "reumatologie-adv-049-v2",
+  "questionFingerprint": "f7c0ccb8088ca5560615f7917f79222f74d3763e9fc66a1ebfa7a61eb2b8550e",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea prezentării inițiale a umărului reumatoid.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 18,
+   "printedPages": [
+    441
+   ],
+   "pdfPages": [
+    71
+   ],
+   "section": "Afectarea articulară — Umerii"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu este imitația citată.",
+    "evidenceLocation": "Kumar, p. 441, Afectarea articulară — Umerii"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu este imitația citată.",
+    "evidenceLocation": "Kumar, p. 441, Afectarea articulară — Umerii"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu este imitația citată.",
+    "evidenceLocation": "Kumar, p. 441, Afectarea articulară — Umerii"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu este imitația citată.",
+    "evidenceLocation": "Kumar, p. 441, Afectarea articulară — Umerii"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Simptomele inițiale imită tendinoza calotei rotatorilor, cu arc dureros.",
+    "evidenceLocation": "Kumar, p. 441, Afectarea articulară — Umerii"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:30:22.041Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt afecțiuni reale ale umărului."
+  },
+  "textbookExpressions": [
+   "calo",
+   "arc dureros"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a reumatologie-adv-049: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "reumatologie-adv-062-v2",
+  "questionFingerprint": "29821f2ad1c05c7d8296ca0e37ca721170f7b4e386440ba46bfe44c4004efb83",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea efectului uricozuric al losartanului.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 18,
+   "printedPages": [
+    453
+   ],
+   "pdfPages": [
+    83
+   ],
+   "section": "Guta — Losartan"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu este mecanismul citat.",
+    "evidenceLocation": "Kumar, p. 453, Guta — Losartan"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu este efectul citat.",
+    "evidenceLocation": "Kumar, p. 453, Guta — Losartan"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Losartanul este uricozuric la hipertensivii cu gută și poate reduce riscul în sindromul metabolic.",
+    "evidenceLocation": "Kumar, p. 453, Guta — Losartan"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Febuxostatul este analogul non-purinic.",
+    "evidenceLocation": "Kumar, p. 453, Guta — Losartan"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Inhibitorii de xantin-oxidază sunt alopurinolul și febuxostatul.",
+    "evidenceLocation": "Kumar, p. 453, Guta — Losartan"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:30:22.045Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii descriu mecanismele altor hipouricemiante."
+  },
+  "textbookExpressions": [
+   "Losartanul",
+   "uricozuric"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a reumatologie-adv-062: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  }
 ]

@@ -6,7 +6,7 @@ const q=rewriter(RETIRED_BILIAR,(p:number)=>p-88,{shuffle:true});
 
 export const BILIAR_V2=[
 q('biliar-adv-046',['Din cei trei muguri ai diverticulului proenteronului iau naștere:',
- ['ficatul, pancreasul ventral și vezicula biliară','ficatul, pancreasul dorsal și vezicula biliară','ficatul, pancreasul ventral și duodenul','ficatul, splina și vezicula biliară','pancreasul dorsal, pancreasul ventral și ficatul'],'A',242,'Anatomie',
+ ['ficatul, pancreasul ventral și vezicula biliară','ficatul, pancreasul dorsal și vezicula biliară','ficatul, pancreasul ventral și duodenul','ficatul, splina și vezicula biliară','ficatul și ambii muguri pancreatici'],'A',242,'Anatomie',
  'Recunoașterea originii embriologice a arborelui biliar.',
  ['Mugurii dau naștere ficatului, pancreasului ventral și veziculei biliare.','Pancreasul dorsal nu este citat.','Duodenul nu este citat.','Splina nu este citată.','Pancreasul dorsal nu este citat.']],
  [8,'Distractorii schimbă un singur organ.'],['proenteronului','pancreasul ventral']),
@@ -84,7 +84,7 @@ q('biliar-adv-001',['Semnul Courvoisier constă în:',
  [8,'Distractorii sunt semne biliare învecinate.'],['Courvoisier','fără sensibilitate la palpare']),
 
 q('biliar-adv-045',['La pacientul icteric, pruritul este atribuit:',
- ['acizilor biliari conjugați reabsorbiți','bilirubinei neconjugate depuse în tegumente','urobilinogenului reabsorbit din intestin','fosfatazei alcaline eliberate din căi','bilirubinei conjugate excretate în urină'],'A',244,'Anamneză și examen clinic',
+ ['acizilor biliari conjugați reabsorbiți','bilirubinei neconjugate depuse în tegumente','urobilinogenului reabsorbit din intestin','fosfatazei alcaline eliberate din căile biliare','bilirubinei conjugate excretate în urină'],'A',244,'Anamneză și examen clinic',
  'Explicarea mecanismului pruritului în icterul obstructiv.',
  ['Pruritul se datorează concentrațiilor tisulare crescute de acizi biliari conjugați reabsorbiți.','Nu este mecanismul citat.','Nu este mecanismul citat.','Nu este mecanismul citat.','Nu este mecanismul citat.']],
  [8,'Distractorii sunt produși reali ai metabolismului biliar.'],['acizi biliari','reabsorbiţi din intestin']),
@@ -348,7 +348,7 @@ q('biliar-adv-043',['Explorarea deschisă a CBP:',
  [8,'Distractorii mută indicațiile între categorii.'],['Kocher','microlitiaza']),
 
 q('biliar-adv-061',['Drenajul peritoneal după explorarea deschisă a CBP se suprimă:',
- ['la 24–48 de ore după clamparea tubului în T','odată cu suprimarea tubului în T','la 3 săptămâni după operație','înainte de clamparea tubului în T','la 24–48 de ore după operație, fără clampare'],'A',255,'Colecistectomia deschisă și explorarea CBP',
+ ['la 24–48 de ore după clamparea tubului în T','odată cu suprimarea tubului în T','la 3 săptămâni după operație','înainte de clamparea tubului în T','la 24–48 de ore postoperator, fără clampare'],'A',255,'Colecistectomia deschisă și explorarea CBP',
  'Aplicarea îngrijirii postoperatorii după explorarea CBP.',
  ['Drenajul se suprimă la 24–48 de ore după clamparea tubului în T.','Nu este momentul citat.','Tubul în T, nu drenajul, se menține 3 săptămâni.','Nu este momentul citat.','Clamparea precede suprimarea.']],
  [8,'Distractorii schimbă reperul temporal.'],['Drenajul peritoneal','clampat']),
