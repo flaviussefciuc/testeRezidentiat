@@ -203579,160 +203579,6 @@
   "reviewNotes": "Rescriere a epidemio-adv-001: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "epidemio-adv-002-v2",
-  "questionFingerprint": "b3d2a138820f18903117bf12ebd0d0ad9b4d62fc8939d4c82bea4d1dc0fa01bb",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea caracteristicilor studiilor de cohortă.",
-  "reference": {
-   "book": "Sinopsis",
-   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
-   "chapter": 15,
-   "printedPages": [
-    333
-   ],
-   "pdfPages": [
-    111
-   ],
-   "section": "Tabelul 15-1"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Bolile rare sunt dificil de studiat.",
-    "evidenceLocation": "Sinopsis, p. 333, Tabelul 15-1"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Concluzia lor este riscul relativ.",
-    "evidenceLocation": "Sinopsis, p. 333, Tabelul 15-1"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Pot fi prospective sau retrospective.",
-    "evidenceLocation": "Sinopsis, p. 333, Tabelul 15-1"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Sunt consumatoare de resurse financiare și de timp.",
-    "evidenceLocation": "Sinopsis, p. 333, Tabelul 15-1"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Descrie studiul transversal.",
-    "evidenceLocation": "Sinopsis, p. 333, Tabelul 15-1"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T22:06:02.853Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii preiau trăsături ale altor studii."
-  },
-  "textbookExpressions": [
-   "Risc relativ",
-   "prospective"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a epidemio-adv-002: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "epidemio-adv-013-v2",
-  "questionFingerprint": "0efdeba8a7bda1f5a0ab26510d373980602886677eac519fcdf64fae9beecbdc",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea caracteristicilor trialului clinic randomizat.",
-  "reference": {
-   "book": "Sinopsis",
-   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
-   "chapter": 15,
-   "printedPages": [
-    333
-   ],
-   "pdfPages": [
-    111
-   ],
-   "section": "Tabelul 15-1"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Este standardul de aur pentru testarea medicamentelor.",
-    "evidenceLocation": "Sinopsis, p. 333, Tabelul 15-1"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Poate fi controlat pentru mai mulți factori de confuzie.",
-    "evidenceLocation": "Sinopsis, p. 333, Tabelul 15-1"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Compară prospectiv cu placebo și terapiile existente.",
-    "evidenceLocation": "Sinopsis, p. 333, Tabelul 15-1"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Alocarea este randomizată, dublu-orb.",
-    "evidenceLocation": "Sinopsis, p. 333, Tabelul 15-1"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Descrie studiul transversal.",
-    "evidenceLocation": "Sinopsis, p. 333, Tabelul 15-1"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T22:06:02.854Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii contrazic avantajele trialului."
-  },
-  "textbookExpressions": [
-   "Standard de aur",
-   "randomizat"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a epidemio-adv-013: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "epidemio-adv-016-v2",
   "questionFingerprint": "653d1120ab3f13010b996b00c0e15d13dd8022331f2aec9dc8f942d9b0d129d9",
   "status": "source-checked",
@@ -204041,160 +203887,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a epidemio-adv-017: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "epidemio-adv-012-v2",
-  "questionFingerprint": "99e3d1df965f9b1a2a6f6ab9d90371fbbda7a8b4da8940ed7719b26534663013",
-  "status": "source-checked",
-  "learningObjective": "Diferențierea incidenței, prevalenței și ratei de fatalitate.",
-  "reference": {
-   "book": "Sinopsis",
-   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
-   "chapter": 15,
-   "printedPages": [
-    334
-   ],
-   "pdfPages": [
-    112
-   ],
-   "section": "Biostatistică — Rate de morbiditate"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Numitorul este numărul de cazuri.",
-    "evidenceLocation": "Sinopsis, p. 334, Biostatistică — Rate de morbiditate"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Incidența: cazuri noi / populația totală la risc.",
-    "evidenceLocation": "Sinopsis, p. 334, Biostatistică — Rate de morbiditate"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Prevalența: cazuri existente / populația totală.",
-    "evidenceLocation": "Sinopsis, p. 334, Biostatistică — Rate de morbiditate"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Fatalitatea: decese / numărul de cazuri din perioadă.",
-    "evidenceLocation": "Sinopsis, p. 334, Biostatistică — Rate de morbiditate"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Descrie prevalența.",
-    "evidenceLocation": "Sinopsis, p. 334, Biostatistică — Rate de morbiditate"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T22:06:02.857Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii permută numărătorul și numitorul."
-  },
-  "textbookExpressions": [
-   "populaţia totală la risc",
-   "Rata de fatalitate"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a epidemio-adv-012: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "epidemio-adv-004-v2",
-  "questionFingerprint": "0f7178c4df0cfdd1d4ea5e88bfc4379e3e0613ed20e446df13989876bb4ee149",
-  "status": "source-checked",
-  "learningObjective": "Interpretarea riscului relativ.",
-  "reference": {
-   "book": "Sinopsis",
-   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
-   "chapter": 15,
-   "printedPages": [
-    335
-   ],
-   "pdfPages": [
-    113
-   ],
-   "section": "Riscul bolii — Riscul relativ"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Caz-controlul oferă raportul cotelor.",
-    "evidenceLocation": "Sinopsis, p. 335, Riscul bolii — Riscul relativ"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Riscul relativ se determină prin studii de cohortă.",
-    "evidenceLocation": "Sinopsis, p. 335, Riscul bolii — Riscul relativ"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "RR >1 sugerează o relație pozitivă.",
-    "evidenceLocation": "Sinopsis, p. 335, Riscul bolii — Riscul relativ"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "RR <1 sugerează o relație negativă.",
-    "evidenceLocation": "Sinopsis, p. 335, Riscul bolii — Riscul relativ"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "RR = 1 nu sugerează nicio relație.",
-    "evidenceLocation": "Sinopsis, p. 335, Riscul bolii — Riscul relativ"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T22:06:02.858Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii confundă tipul de studiu și semnul relației."
-  },
-  "textbookExpressions": [
-   "studii de cohortă",
-   "nicio relaţie"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a epidemio-adv-004: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "epidemio-adv-018-v2",
@@ -204815,83 +204507,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a epidemio-adv-008: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "epidemio-adv-009-v2",
-  "questionFingerprint": "db6fc37a005fedf89d378e955eeb81af296609dd52dff8dfe99997946fdb88a2",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea criteriilor de competență.",
-  "reference": {
-   "book": "Sinopsis",
-   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
-   "chapter": 15,
-   "printedPages": [
-    337
-   ],
-   "pdfPages": [
-    115
-   ],
-   "section": "Etică — Competența"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Trebuie să își înțeleagă situația.",
-    "evidenceLocation": "Sinopsis, p. 337, Etică — Competența"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Trebuie să decidă în acord cu valorile anterioare.",
-    "evidenceLocation": "Sinopsis, p. 337, Etică — Competența"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Pacientul competent se poate răzgândi oricând.",
-    "evidenceLocation": "Sinopsis, p. 337, Etică — Competența"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Nu trebuie să aibă psihoză sau intoxicație curentă.",
-    "evidenceLocation": "Sinopsis, p. 337, Etică — Competența"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Acordul familiei nu este criteriu.",
-    "evidenceLocation": "Sinopsis, p. 337, Etică — Competența"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T22:06:02.863Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii nu sunt criterii de competență."
-  },
-  "textbookExpressions": [
-   "psihoză",
-   "valorile sale anterioare"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a epidemio-adv-009: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "epidemio-adv-024-v2",
@@ -269519,5 +269134,390 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a vascular-adv-008: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "epidemio-adv-002-v2",
+  "questionFingerprint": "0b9be1d0175dcb6f37824df11366e0477ff2505fc7e02ede18d702c67df82e43",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea caracteristicilor studiilor de cohortă.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 15,
+   "printedPages": [
+    333
+   ],
+   "pdfPages": [
+    111
+   ],
+   "section": "Tabelul 15-1"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Bolile rare sunt dificil de studiat.",
+    "evidenceLocation": "Sinopsis, p. 333, Tabelul 15-1"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Concluzia lor este riscul relativ.",
+    "evidenceLocation": "Sinopsis, p. 333, Tabelul 15-1"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Pot fi prospective sau retrospective.",
+    "evidenceLocation": "Sinopsis, p. 333, Tabelul 15-1"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: sunt consumatoare de resurse financiare și de timp.",
+    "evidenceLocation": "Sinopsis, p. 333, Tabelul 15-1"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Descrie studiul transversal.",
+    "evidenceLocation": "Sinopsis, p. 333, Tabelul 15-1"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:18:40.207Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii preiau trăsături ale altor studii."
+  },
+  "textbookExpressions": [
+   "Risc relativ",
+   "prospective"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a epidemio-adv-002: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "epidemio-adv-013-v2",
+  "questionFingerprint": "6a5d042cfaaa7fd88a40387f27406be3d702fa21f6c43816b6ecc13bba800984",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea caracteristicilor trialului clinic randomizat.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 15,
+   "printedPages": [
+    333
+   ],
+   "pdfPages": [
+    111
+   ],
+   "section": "Tabelul 15-1"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Este standardul de aur pentru testarea medicamentelor.",
+    "evidenceLocation": "Sinopsis, p. 333, Tabelul 15-1"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Poate fi controlat pentru mai mulți factori de confuzie.",
+    "evidenceLocation": "Sinopsis, p. 333, Tabelul 15-1"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: comparația cu placebo și terapiile existente este prospectivă.",
+    "evidenceLocation": "Sinopsis, p. 333, Tabelul 15-1"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Alocarea este randomizată, dublu-orb.",
+    "evidenceLocation": "Sinopsis, p. 333, Tabelul 15-1"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Descrie studiul transversal.",
+    "evidenceLocation": "Sinopsis, p. 333, Tabelul 15-1"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:18:40.209Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii contrazic avantajele trialului."
+  },
+  "textbookExpressions": [
+   "Standard de aur",
+   "randomizat"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a epidemio-adv-013: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "epidemio-adv-012-v2",
+  "questionFingerprint": "f6c614e12ba2def6a643798963c1acdde05419704a8ed3faf06b95a43bfee010",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea incidenței, prevalenței și ratei de fatalitate.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 15,
+   "printedPages": [
+    334
+   ],
+   "pdfPages": [
+    112
+   ],
+   "section": "Biostatistică — Rate de morbiditate"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Numitorul este numărul de cazuri.",
+    "evidenceLocation": "Sinopsis, p. 334, Biostatistică — Rate de morbiditate"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Incidența: cazuri noi / populația totală la risc.",
+    "evidenceLocation": "Sinopsis, p. 334, Biostatistică — Rate de morbiditate"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: prevalența raportează cazurile existente la populația totală.",
+    "evidenceLocation": "Sinopsis, p. 334, Biostatistică — Rate de morbiditate"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Fatalitatea: decese / numărul de cazuri din perioadă.",
+    "evidenceLocation": "Sinopsis, p. 334, Biostatistică — Rate de morbiditate"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Descrie prevalența.",
+    "evidenceLocation": "Sinopsis, p. 334, Biostatistică — Rate de morbiditate"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:18:40.210Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii permută numărătorul și numitorul."
+  },
+  "textbookExpressions": [
+   "populaţia totală la risc",
+   "Rata de fatalitate"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a epidemio-adv-012: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "epidemio-adv-004-v2",
+  "questionFingerprint": "4b59a9b7b59a1d0ca56eef1257b2599744ac32f35338ca3bf926df067abdc6ce",
+  "status": "source-checked",
+  "learningObjective": "Interpretarea riscului relativ.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 15,
+   "printedPages": [
+    335
+   ],
+   "pdfPages": [
+    113
+   ],
+   "section": "Riscul bolii — Riscul relativ"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Caz-controlul oferă raportul cotelor.",
+    "evidenceLocation": "Sinopsis, p. 335, Riscul bolii — Riscul relativ"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Riscul relativ se determină prin studii de cohortă.",
+    "evidenceLocation": "Sinopsis, p. 335, Riscul bolii — Riscul relativ"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "RR >1 sugerează o relație pozitivă.",
+    "evidenceLocation": "Sinopsis, p. 335, Riscul bolii — Riscul relativ"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "RR <1 sugerează o relație negativă.",
+    "evidenceLocation": "Sinopsis, p. 335, Riscul bolii — Riscul relativ"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: RR = 1 nu sugerează nicio relație.",
+    "evidenceLocation": "Sinopsis, p. 335, Riscul bolii — Riscul relativ"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:18:40.211Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii confundă tipul de studiu și semnul relației."
+  },
+  "textbookExpressions": [
+   "studii de cohortă",
+   "nicio relaţie"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a epidemio-adv-004: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "epidemio-adv-009-v2",
+  "questionFingerprint": "18471dd6bb45ee19a3490d54b8ff9b74022234892178ceca7cb9f60317db540f",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea criteriilor de competență.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 15,
+   "printedPages": [
+    337
+   ],
+   "pdfPages": [
+    115
+   ],
+   "section": "Etică — Competența"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Trebuie să își înțeleagă situația.",
+    "evidenceLocation": "Sinopsis, p. 337, Etică — Competența"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: trebuie să decidă în acord cu valorile sale anterioare.",
+    "evidenceLocation": "Sinopsis, p. 337, Etică — Competența"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Pacientul competent se poate răzgândi oricând.",
+    "evidenceLocation": "Sinopsis, p. 337, Etică — Competența"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Nu trebuie să aibă psihoză sau intoxicație curentă.",
+    "evidenceLocation": "Sinopsis, p. 337, Etică — Competența"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Acordul familiei nu este criteriu.",
+    "evidenceLocation": "Sinopsis, p. 337, Etică — Competența"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:18:40.212Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii nu sunt criterii de competență."
+  },
+  "textbookExpressions": [
+   "psihoză",
+   "valorile sale anterioare"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a epidemio-adv-009: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  }
 ]
