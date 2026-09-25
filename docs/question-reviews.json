@@ -196390,83 +196390,6 @@
   "reviewNotes": "Rescriere a intestin-adv-002: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "intestin-adv-008-v2",
-  "questionFingerprint": "2e81e52ff3666533aa82cc0da73452b9de1dac05c3dc9af69dfe0b6d88cf8c01",
-  "status": "source-checked",
-  "learningObjective": "Fixarea datelor despre aderențele postoperatorii.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 14,
-   "printedPages": [
-    193
-   ],
-   "pdfPages": [
-    115
-   ],
-   "section": "Etiologia OIS — Aderențele"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Laparoscopia produce mai puține aderențe.",
-    "evidenceLocation": "Lawrence, p. 193, Etiologia OIS — Aderențele"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Proporția citată este 3–9%.",
-    "evidenceLocation": "Lawrence, p. 193, Etiologia OIS — Aderențele"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "3–9% dezvoltă ulterior simptome de OIS.",
-    "evidenceLocation": "Lawrence, p. 193, Etiologia OIS — Aderențele"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Sunt prezente la cel puțin două treimi dintre operați.",
-    "evidenceLocation": "Lawrence, p. 193, Etiologia OIS — Aderențele"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Depășesc 90% după două sau mai multe intervenții.",
-    "evidenceLocation": "Lawrence, p. 193, Etiologia OIS — Aderențele"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:52:31.029Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii umflă riscul și inversează efectul laparoscopiei."
-  },
-  "textbookExpressions": [
-   "două treimi",
-   "3-9%"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a intestin-adv-008: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "intestin-adv-052-v2",
   "questionFingerprint": "b5a4f8e67a413f810f166c498ee98850ef2fc1743aedbbaf1fa4e089648de1f9",
   "status": "source-checked",
@@ -196619,237 +196542,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a intestin-adv-007: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "intestin-adv-009-v2",
-  "questionFingerprint": "13a7b2da68077efb9c2db8c66b71681049e6aa43ffda5215237d51b895376ad5",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea conduitei în OIS prin carcinomatoză.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 14,
-   "printedPages": [
-    194
-   ],
-   "pdfPages": [
-    116
-   ],
-   "section": "Etiologia OIS — Cauze extrinseci"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Aderențele sunt cauza principală.",
-    "evidenceLocation": "Lawrence, p. 194, Etiologia OIS — Cauze extrinseci"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Tratamentul paliativ rămâne indicat.",
-    "evidenceLocation": "Lawrence, p. 194, Etiologia OIS — Cauze extrinseci"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Procesul este adesea incurabil.",
-    "evidenceLocation": "Lawrence, p. 194, Etiologia OIS — Cauze extrinseci"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Se asociază de regulă cancerului ovarian sau de colon.",
-    "evidenceLocation": "Lawrence, p. 194, Etiologia OIS — Cauze extrinseci"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Procesul este adesea multifocal și poate fi incurabil.",
-    "evidenceLocation": "Lawrence, p. 194, Etiologia OIS — Cauze extrinseci"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:52:31.031Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii supraestimează curabilitatea și frecvența."
-  },
-  "textbookExpressions": [
-   "ovarian",
-   "paliativ"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a intestin-adv-009: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "intestin-adv-012-v2",
-  "questionFingerprint": "ea829d3d4eb40749b84eac3c56b03f3a9c81dbe0bef722305dc1138e6552fbd1",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea mecanismului și a riscului volvulusului.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 14,
-   "printedPages": [
-    194
-   ],
-   "pdfPages": [
-    116
-   ],
-   "section": "Etiologia OIS — Volvulusul"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "80% este rata ocluziei aderențiale parțiale.",
-    "evidenceLocation": "Lawrence, p. 194, Etiologia OIS — Volvulusul"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Mezenterul este adesea implicat.",
-    "evidenceLocation": "Lawrence, p. 194, Etiologia OIS — Volvulusul"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Formează o ansă închisă cu risc mare de strangulare.",
-    "evidenceLocation": "Lawrence, p. 194, Etiologia OIS — Volvulusul"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Răsucirea se produce de obicei în jurul axului mezenteric.",
-    "evidenceLocation": "Lawrence, p. 194, Etiologia OIS — Volvulusul"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Poate urma aderențelor, bridelor sau malrotațiilor.",
-    "evidenceLocation": "Lawrence, p. 194, Etiologia OIS — Volvulusul"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:52:31.033Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii confundă volvulusul cu ocluzia aderențială."
-  },
-  "textbookExpressions": [
-   "axului mezenteric",
-   "malrotaţiilor"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a intestin-adv-012: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "intestin-adv-011-v2",
-  "questionFingerprint": "9aa4b738651309f3b2f282a36ca7d074995ac25daf83e89e71d4192105e50c04",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea etiologiei și evoluției stricturilor.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 14,
-   "printedPages": [
-    194
-   ],
-   "pdfPages": [
-    116
-   ],
-   "section": "Etiologia OIS — Cauze intrinseci"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Strangularea este improbabilă.",
-    "evidenceLocation": "Lawrence, p. 194, Etiologia OIS — Cauze intrinseci"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Majoritatea stricturilor maligne necesită chirurgie.",
-    "evidenceLocation": "Lawrence, p. 194, Etiologia OIS — Cauze intrinseci"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Enterita postradioterapie este citată.",
-    "evidenceLocation": "Lawrence, p. 194, Etiologia OIS — Cauze intrinseci"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Boala Crohn este cea mai frecventă cauză benignă.",
-    "evidenceLocation": "Lawrence, p. 194, Etiologia OIS — Cauze intrinseci"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Ulcerele din consumul de AINS sunt citate.",
-    "evidenceLocation": "Lawrence, p. 194, Etiologia OIS — Cauze intrinseci"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:52:31.033Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează riscul și conduita."
-  },
-  "textbookExpressions": [
-   "postradioterapie",
-   "AINS"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a intestin-adv-011: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "intestin-adv-033-v2",
@@ -197158,83 +196850,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a intestin-adv-054: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "intestin-adv-053-v2",
-  "questionFingerprint": "5eed335bba8b41d34e0cc002de0a3ca4ca7bd24bbdc420db3cdef1e79216756a",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea semnelor de ocluzie după sediu.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 14,
-   "printedPages": [
-    195
-   ],
-   "pdfPages": [
-    117
-   ],
-   "section": "Tabelul 14-1"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Vărsăturile sunt mari, bilioase și dese.",
-    "evidenceLocation": "Lawrence, p. 195, Tabelul 14-1"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Distensia poate lipsi.",
-    "evidenceLocation": "Lawrence, p. 195, Tabelul 14-1"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Vărsăturile fecaloide apar în ocluzia distală.",
-    "evidenceLocation": "Lawrence, p. 195, Tabelul 14-1"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Durerea este colicativă, ameliorată de vărsătură.",
-    "evidenceLocation": "Lawrence, p. 195, Tabelul 14-1"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Distensia marcată apare distal.",
-    "evidenceLocation": "Lawrence, p. 195, Tabelul 14-1"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:52:31.037Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii preiau semnele ocluziei distale."
-  },
-  "textbookExpressions": [
-   "bilioase",
-   "ameliorată de"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a intestin-adv-053: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "intestin-adv-034-v2",
@@ -197547,83 +197162,6 @@
   "reviewNotes": "Rescriere a intestin-adv-027: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "intestin-adv-037-v2",
-  "questionFingerprint": "31f93e2464c62e5c540d086c4578fe5a9d5d87ca7317e783b230e7252f65a8d1",
-  "status": "source-checked",
-  "learningObjective": "Interpretarea analizelor în OIS.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 14,
-   "printedPages": [
-    197
-   ],
-   "pdfPages": [
-    119
-   ],
-   "section": "Examinările de laborator"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Alcaloza hipokalemică de contracție este frecventă.",
-    "evidenceLocation": "Lawrence, p. 197, Examinările de laborator"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Leucocitoza persistentă poate semnala ischemie.",
-    "evidenceLocation": "Lawrence, p. 197, Examinările de laborator"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Acidoza lactică poate semnala ischemie.",
-    "evidenceLocation": "Lawrence, p. 197, Examinările de laborator"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Infarctul poate exista fără acidoză.",
-    "evidenceLocation": "Lawrence, p. 197, Examinările de laborator"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Hiperamilazemia poate apărea în OIS.",
-    "evidenceLocation": "Lawrence, p. 197, Examinările de laborator"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:52:31.040Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii supraestimează valoarea de excludere a analizelor."
-  },
-  "textbookExpressions": [
-   "contracţie",
-   "acidoză"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a intestin-adv-037: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "intestin-adv-038-v2",
   "questionFingerprint": "c958c2459e96546528e45571d35c76f38fe32ed45e0cc874524e208fb22dbd3a",
   "status": "source-checked",
@@ -197701,83 +197239,6 @@
   "reviewNotes": "Rescriere a intestin-adv-038: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "intestin-adv-056-v2",
-  "questionFingerprint": "414f17e4b59e92b3bff8b05400a14d169d3753827125399c6b086f5c982db39d",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea efectelor decompresiei nazogastrice.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 14,
-   "printedPages": [
-    198
-   ],
-   "pdfPages": [
-    120
-   ],
-   "section": "Tratament — Decompresia"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Controlează vărsăturile.",
-    "evidenceLocation": "Lawrence, p. 198, Tratament — Decompresia"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Reduce cantitatea de lichid aspirabil.",
-    "evidenceLocation": "Lawrence, p. 198, Tratament — Decompresia"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Suprimă reflexul de vărsătură și deschide joncțiunea GE.",
-    "evidenceLocation": "Lawrence, p. 198, Tratament — Decompresia"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Riscul de microaspirație crește.",
-    "evidenceLocation": "Lawrence, p. 198, Tratament — Decompresia"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Deschide joncțiunea GE.",
-    "evidenceLocation": "Lawrence, p. 198, Tratament — Decompresia"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:52:31.042Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează efectul asupra joncțiunii GE."
-  },
-  "textbookExpressions": [
-   "microaspiraţie",
-   "joncţiunii gastroesofagiene"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a intestin-adv-056: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "intestin-adv-017-v2",
   "questionFingerprint": "62dedc55b305bccb2688e9443bca987185ace981fa485e9e5624370ece636096",
   "status": "source-checked",
@@ -197853,83 +197314,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a intestin-adv-017: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "intestin-adv-039-v2",
-  "questionFingerprint": "a221b2b2367b81d8c4ef98fbcaf9ae99fd4ca0c029f69dc856e9ab8525dd834e",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea conduitei în herniile încarcerate.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 14,
-   "printedPages": [
-    199
-   ],
-   "pdfPages": [
-    121
-   ],
-   "section": "Tratament — Herniile"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Herniile încarcerate se reduc dacă este posibil.",
-    "evidenceLocation": "Lawrence, p. 199, Tratament — Herniile"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Hernia se repară după remiterea obstrucției.",
-    "evidenceLocation": "Lawrence, p. 199, Tratament — Herniile"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Sacul se poate reduce cu conținutul compromis.",
-    "evidenceLocation": "Lawrence, p. 199, Tratament — Herniile"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Pacientul se monitorizează atent.",
-    "evidenceLocation": "Lawrence, p. 199, Tratament — Herniile"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Reducerea se încearcă dacă este posibilă.",
-    "evidenceLocation": "Lawrence, p. 199, Tratament — Herniile"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:52:31.044Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii contrazic repararea și indicația."
-  },
-  "textbookExpressions": [
-   "reducere în masă",
-   "unitate"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a intestin-adv-039: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "intestin-adv-057-v2",
@@ -198240,160 +197624,6 @@
   "reviewNotes": "Rescriere a intestin-adv-040: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "intestin-adv-059-v2",
-  "questionFingerprint": "1e87bd5e2c524559f005462ed864da68db8e93621694f8c25ed047ac4dd995f0",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea locului laparoscopiei în OIS.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 14,
-   "printedPages": [
-    199
-   ],
-   "pdfPages": [
-    121
-   ],
-   "section": "Tratament — Laparoscopia"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Succesul este documentat într-un număr modest de cazuri.",
-    "evidenceLocation": "Lawrence, p. 199, Tratament — Laparoscopia"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Abdomenul multiplu operat limitează tehnica.",
-    "evidenceLocation": "Lawrence, p. 199, Tratament — Laparoscopia"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Nu a înlocuit laparotomia.",
-    "evidenceLocation": "Lawrence, p. 199, Tratament — Laparoscopia"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Este utilă în ocluziile aderențiale necomplicate și proximale.",
-    "evidenceLocation": "Lawrence, p. 199, Tratament — Laparoscopia"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Distensia limitează accesul și manipularea.",
-    "evidenceLocation": "Lawrence, p. 199, Tratament — Laparoscopia"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:52:31.048Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii supraestimează indicațiile."
-  },
-  "textbookExpressions": [
-   "număr modest",
-   "ostil"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a intestin-adv-059: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "intestin-adv-019-v2",
-  "questionFingerprint": "b5c1fe7d429f58982ea77dcd789211bc2567989e0b4a86d31a9c89b09ea80918",
-  "status": "source-checked",
-  "learningObjective": "Fixarea mortalității și a rolului barierelor antiaderențiale.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 14,
-   "printedPages": [
-    199
-   ],
-   "pdfPages": [
-    121
-   ],
-   "section": "Complicații"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Mortalitatea este <1%.",
-    "evidenceLocation": "Lawrence, p. 199, Complicații"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Depășește 25% după strangulare sau perforație.",
-    "evidenceLocation": "Lawrence, p. 199, Complicații"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Nu s-a asociat cu scăderea ocluziei recurente.",
-    "evidenceLocation": "Lawrence, p. 199, Complicații"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Mortalitatea este <1% în OIS necomplicată.",
-    "evidenceLocation": "Lawrence, p. 199, Complicații"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Bariera reduce aderențele.",
-    "evidenceLocation": "Lawrence, p. 199, Complicații"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:52:31.048Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii supraestimează efectul barierei."
-  },
-  "textbookExpressions": [
-   "hialuronat",
-   "25%"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a intestin-adv-019: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "intestin-adv-004-v2",
   "questionFingerprint": "2ccead534cadcf0e74199003dcf57b7cdabb0c8c47183e5cea083de3c97a0996",
   "status": "source-checked",
@@ -198548,83 +197778,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a intestin-adv-029: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "intestin-adv-044-v2",
-  "questionFingerprint": "e9755a093452748b900e32709b2db23b3fa802435576371a97c26675d171add9",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea evoluției și a formelor clinice.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 14,
-   "printedPages": [
-    205
-   ],
-   "pdfPages": [
-    123
-   ],
-   "section": "Ischemia mezenterică acută — Tablou clinic"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Embolia are debut brusc.",
-    "evidenceLocation": "Lawrence, p. 205, Ischemia mezenterică acută — Tablou clinic"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Tromboza VMS are debut insidios.",
-    "evidenceLocation": "Lawrence, p. 205, Ischemia mezenterică acută — Tablou clinic"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Peritonita indică infarct și mortalitate mare.",
-    "evidenceLocation": "Lawrence, p. 205, Ischemia mezenterică acută — Tablou clinic"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Ischemia prelungită (>12 ore) poate produce necroză.",
-    "evidenceLocation": "Lawrence, p. 205, Ischemia mezenterică acută — Tablou clinic"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "IMNO se caracterizează prin instabilitate hemodinamică.",
-    "evidenceLocation": "Lawrence, p. 205, Ischemia mezenterică acută — Tablou clinic"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:52:31.051Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează debutul și prognosticul."
-  },
-  "textbookExpressions": [
-   "12 ore",
-   "insidios"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a intestin-adv-044: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "intestin-adv-028-v2",
@@ -200483,85 +199636,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a intestin-adv-055: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "intestin-adv-016-v2",
-  "questionFingerprint": "da38e616d7660b105e54826090c43b49aab47ec363669365e2d267d19b568e7d",
-  "status": "source-checked",
-  "learningObjective": "Diferențierea ileusului paralitic de OIS mecanică.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 14,
-   "printedPages": [
-    197,
-    198
-   ],
-   "pdfPages": [
-    119,
-    120
-   ],
-   "section": "Diagnosticul diferențial"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Radiografia arată dilatare difuză fără zonă de tranziție.",
-    "evidenceLocation": "Lawrence, p. 197, 198, Diagnosticul diferențial"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Deficitele de K, Ca, Mg și fosfat produc ileus.",
-    "evidenceLocation": "Lawrence, p. 197, 198, Diagnosticul diferențial"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Zona de tranziție caracterizează OIS mecanică.",
-    "evidenceLocation": "Lawrence, p. 197, 198, Diagnosticul diferențial"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Este cel mai frecvent diagnostic diferențial.",
-    "evidenceLocation": "Lawrence, p. 197, 198, Diagnosticul diferențial"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Aerul în sigmoid și rect ajută diferențierea.",
-    "evidenceLocation": "Lawrence, p. 197, 198, Diagnosticul diferențial"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:53:01.789Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii preiau semnele OIS mecanice."
-  },
-  "textbookExpressions": [
-   "hipotiroidismul",
-   "sigmoid distal"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a intestin-adv-016: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "intestin-adv-015-v2",
@@ -269519,5 +268593,931 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a trauma-adv-063: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "intestin-adv-008-v2",
+  "questionFingerprint": "2df1c870be969492f383ac1879d97e425b86fe08698ad5b904bd34978ef672d9",
+  "status": "source-checked",
+  "learningObjective": "Fixarea datelor despre aderențele postoperatorii.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    193
+   ],
+   "pdfPages": [
+    115
+   ],
+   "section": "Etiologia OIS — Aderențele"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Laparoscopia produce mai puține aderențe.",
+    "evidenceLocation": "Lawrence, p. 193, Etiologia OIS — Aderențele"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Proporția citată este 3–9%.",
+    "evidenceLocation": "Lawrence, p. 193, Etiologia OIS — Aderențele"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "3–9% dezvoltă ulterior simptome de OIS.",
+    "evidenceLocation": "Lawrence, p. 193, Etiologia OIS — Aderențele"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: apar la cel puțin două treimi după o laparotomie.",
+    "evidenceLocation": "Lawrence, p. 193, Etiologia OIS — Aderențele"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Depășesc 90% după două sau mai multe intervenții.",
+    "evidenceLocation": "Lawrence, p. 193, Etiologia OIS — Aderențele"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:14:46.098Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii umflă riscul și inversează efectul laparoscopiei."
+  },
+  "textbookExpressions": [
+   "două treimi",
+   "3-9%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a intestin-adv-008: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "intestin-adv-009-v2",
+  "questionFingerprint": "d2d26148229fbb0f4303a59543b4e327c5e8ecdc683c2c6c0a352a8405fbbb60",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea conduitei în OIS prin carcinomatoză.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    194
+   ],
+   "pdfPages": [
+    116
+   ],
+   "section": "Etiologia OIS — Cauze extrinseci"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Aderențele sunt cauza principală.",
+    "evidenceLocation": "Lawrence, p. 194, Etiologia OIS — Cauze extrinseci"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Tratamentul paliativ rămâne indicat.",
+    "evidenceLocation": "Lawrence, p. 194, Etiologia OIS — Cauze extrinseci"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Procesul este adesea incurabil.",
+    "evidenceLocation": "Lawrence, p. 194, Etiologia OIS — Cauze extrinseci"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Se asociază de regulă cancerului ovarian sau de colon.",
+    "evidenceLocation": "Lawrence, p. 194, Etiologia OIS — Cauze extrinseci"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: este adesea multifocală și incurabilă.",
+    "evidenceLocation": "Lawrence, p. 194, Etiologia OIS — Cauze extrinseci"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:14:46.101Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii supraestimează curabilitatea și frecvența."
+  },
+  "textbookExpressions": [
+   "ovarian",
+   "paliativ"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a intestin-adv-009: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "intestin-adv-012-v2",
+  "questionFingerprint": "f9eededd8dc8d204b340f3a35e83a4e485ec1c4367837cf68f2ca2d15a0a6054",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea mecanismului și a riscului volvulusului.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    194
+   ],
+   "pdfPages": [
+    116
+   ],
+   "section": "Etiologia OIS — Volvulusul"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "80% este rata ocluziei aderențiale parțiale.",
+    "evidenceLocation": "Lawrence, p. 194, Etiologia OIS — Volvulusul"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Mezenterul este adesea implicat.",
+    "evidenceLocation": "Lawrence, p. 194, Etiologia OIS — Volvulusul"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Formează o ansă închisă cu risc mare de strangulare.",
+    "evidenceLocation": "Lawrence, p. 194, Etiologia OIS — Volvulusul"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Răsucirea se produce de obicei în jurul axului mezenteric.",
+    "evidenceLocation": "Lawrence, p. 194, Etiologia OIS — Volvulusul"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: poate urma bridelor sau malrotațiilor congenitale.",
+    "evidenceLocation": "Lawrence, p. 194, Etiologia OIS — Volvulusul"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:14:46.102Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii confundă volvulusul cu ocluzia aderențială."
+  },
+  "textbookExpressions": [
+   "axului mezenteric",
+   "malrotaţiilor"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a intestin-adv-012: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "intestin-adv-053-v2",
+  "questionFingerprint": "f8e80771f1938ee471b589f1eae53d5ded0ca1f5fefe8e4e3aba310ed34f61ed",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea semnelor de ocluzie după sediu.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    195
+   ],
+   "pdfPages": [
+    117
+   ],
+   "section": "Tabelul 14-1"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Vărsăturile sunt mari, bilioase și dese.",
+    "evidenceLocation": "Lawrence, p. 195, Tabelul 14-1"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Distensia poate lipsi.",
+    "evidenceLocation": "Lawrence, p. 195, Tabelul 14-1"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Vărsăturile fecaloide apar în ocluzia distală.",
+    "evidenceLocation": "Lawrence, p. 195, Tabelul 14-1"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: durerea colicativă este ameliorată de vărsătură.",
+    "evidenceLocation": "Lawrence, p. 195, Tabelul 14-1"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Distensia marcată apare distal.",
+    "evidenceLocation": "Lawrence, p. 195, Tabelul 14-1"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:14:46.103Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii preiau semnele ocluziei distale."
+  },
+  "textbookExpressions": [
+   "bilioase",
+   "ameliorată de"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a intestin-adv-053: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "intestin-adv-037-v2",
+  "questionFingerprint": "c2834559c792d38c1e339eefa4841ce47a1fda1617c8f9ebf6afa646e5971de4",
+  "status": "source-checked",
+  "learningObjective": "Interpretarea analizelor în OIS.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    197
+   ],
+   "pdfPages": [
+    119
+   ],
+   "section": "Examinările de laborator"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: alcaloza hipokalemică de contracție este frecventă.",
+    "evidenceLocation": "Lawrence, p. 197, Examinările de laborator"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Leucocitoza persistentă poate semnala ischemie.",
+    "evidenceLocation": "Lawrence, p. 197, Examinările de laborator"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Acidoza lactică poate semnala ischemie.",
+    "evidenceLocation": "Lawrence, p. 197, Examinările de laborator"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Infarctul poate exista fără acidoză.",
+    "evidenceLocation": "Lawrence, p. 197, Examinările de laborator"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Hiperamilazemia poate apărea în OIS.",
+    "evidenceLocation": "Lawrence, p. 197, Examinările de laborator"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:14:46.104Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii supraestimează valoarea de excludere a analizelor."
+  },
+  "textbookExpressions": [
+   "contracţie",
+   "acidoză"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a intestin-adv-037: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "intestin-adv-016-v2",
+  "questionFingerprint": "46a87ed7afd2c5b61674e8447be073f9cd8c574e2d4c7581f38b508047c77a01",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea ileusului paralitic de OIS mecanică.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    197,
+    198
+   ],
+   "pdfPages": [
+    119,
+    120
+   ],
+   "section": "Diagnosticul diferențial"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Radiografia arată dilatare difuză fără zonă de tranziție.",
+    "evidenceLocation": "Lawrence, p. 197, 198, Diagnosticul diferențial"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Deficitele de K, Ca, Mg și fosfat produc ileus.",
+    "evidenceLocation": "Lawrence, p. 197, 198, Diagnosticul diferențial"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Zona de tranziție caracterizează OIS mecanică.",
+    "evidenceLocation": "Lawrence, p. 197, 198, Diagnosticul diferențial"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Este cel mai frecvent diagnostic diferențial.",
+    "evidenceLocation": "Lawrence, p. 197, 198, Diagnosticul diferențial"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: ileusul se recunoaște prin prezența aerului în sigmoid și rect.",
+    "evidenceLocation": "Lawrence, p. 197, 198, Diagnosticul diferențial"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:14:46.105Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii preiau semnele OIS mecanice."
+  },
+  "textbookExpressions": [
+   "hipotiroidismul",
+   "sigmoid distal"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a intestin-adv-016: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "intestin-adv-056-v2",
+  "questionFingerprint": "49e2ba0c2b1f3c57288e66578b4718cb32db7f142bcba9d0c4865e5bcc82a795",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea efectelor decompresiei nazogastrice.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    198
+   ],
+   "pdfPages": [
+    120
+   ],
+   "section": "Tratament — Decompresia"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Controlează vărsăturile.",
+    "evidenceLocation": "Lawrence, p. 198, Tratament — Decompresia"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: decompresia reduce volumul lichidelor care pot fi aspirate.",
+    "evidenceLocation": "Lawrence, p. 198, Tratament — Decompresia"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Suprimă reflexul de vărsătură și deschide joncțiunea GE.",
+    "evidenceLocation": "Lawrence, p. 198, Tratament — Decompresia"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Riscul de microaspirație crește.",
+    "evidenceLocation": "Lawrence, p. 198, Tratament — Decompresia"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Deschide joncțiunea GE.",
+    "evidenceLocation": "Lawrence, p. 198, Tratament — Decompresia"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:14:46.105Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează efectul asupra joncțiunii GE."
+  },
+  "textbookExpressions": [
+   "microaspiraţie",
+   "joncţiunii gastroesofagiene"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a intestin-adv-056: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "intestin-adv-039-v2",
+  "questionFingerprint": "889039c1febfd27513f6861d111d268f81f344becb324079e607cfbe90d3b876",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea conduitei în herniile încarcerate.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    199
+   ],
+   "pdfPages": [
+    121
+   ],
+   "section": "Tratament — Herniile"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Herniile încarcerate se reduc dacă este posibil.",
+    "evidenceLocation": "Lawrence, p. 199, Tratament — Herniile"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Hernia se repară după remiterea obstrucției.",
+    "evidenceLocation": "Lawrence, p. 199, Tratament — Herniile"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Sacul se poate reduce cu conținutul compromis.",
+    "evidenceLocation": "Lawrence, p. 199, Tratament — Herniile"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: reducerea impune monitorizare atentă ulterioară.",
+    "evidenceLocation": "Lawrence, p. 199, Tratament — Herniile"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Reducerea se încearcă dacă este posibilă.",
+    "evidenceLocation": "Lawrence, p. 199, Tratament — Herniile"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:14:46.106Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii contrazic repararea și indicația."
+  },
+  "textbookExpressions": [
+   "reducere în masă",
+   "unitate"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a intestin-adv-039: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "intestin-adv-019-v2",
+  "questionFingerprint": "86d5f2b11225fa9842d69eb8d340d3a3f753e409081c42013c1921f6ea3adf8b",
+  "status": "source-checked",
+  "learningObjective": "Fixarea mortalității și a rolului barierelor antiaderențiale.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    199
+   ],
+   "pdfPages": [
+    121
+   ],
+   "section": "Complicații"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Mortalitatea este <1%.",
+    "evidenceLocation": "Lawrence, p. 199, Complicații"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Depășește 25% după strangulare sau perforație.",
+    "evidenceLocation": "Lawrence, p. 199, Complicații"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu s-a asociat cu scăderea ocluziei recurente.",
+    "evidenceLocation": "Lawrence, p. 199, Complicații"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Mortalitatea este <1% în OIS necomplicată.",
+    "evidenceLocation": "Lawrence, p. 199, Complicații"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: bariera cu hialuronat reduce aderențele.",
+    "evidenceLocation": "Lawrence, p. 199, Complicații"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:14:46.107Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii supraestimează efectul barierei."
+  },
+  "textbookExpressions": [
+   "hialuronat",
+   "25%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a intestin-adv-019: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "intestin-adv-044-v2",
+  "questionFingerprint": "52eaff27cd011aac287ea6eaf2bdda3f67c6da87950e50a5a27a1570a7f535ac",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea evoluției și a formelor clinice.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    205
+   ],
+   "pdfPages": [
+    123
+   ],
+   "section": "Ischemia mezenterică acută — Tablou clinic"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Embolia are debut brusc.",
+    "evidenceLocation": "Lawrence, p. 205, Ischemia mezenterică acută — Tablou clinic"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Tromboza VMS are debut insidios.",
+    "evidenceLocation": "Lawrence, p. 205, Ischemia mezenterică acută — Tablou clinic"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Peritonita indică infarct și mortalitate mare.",
+    "evidenceLocation": "Lawrence, p. 205, Ischemia mezenterică acută — Tablou clinic"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: poate evolua spre necroză după peste 12 ore.",
+    "evidenceLocation": "Lawrence, p. 205, Ischemia mezenterică acută — Tablou clinic"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "IMNO se caracterizează prin instabilitate hemodinamică.",
+    "evidenceLocation": "Lawrence, p. 205, Ischemia mezenterică acută — Tablou clinic"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:14:46.108Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează debutul și prognosticul."
+  },
+  "textbookExpressions": [
+   "12 ore",
+   "insidios"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a intestin-adv-044: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "intestin-adv-011-v2",
+  "questionFingerprint": "966b6323e509fd3142fd7783330972191142cbca3e938e49dfa93a2042a605ff",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea etiologiei și evoluției stricturilor.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    194
+   ],
+   "pdfPages": [
+    116
+   ],
+   "section": "Etiologia OIS — Cauze intrinseci"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Strangularea este improbabilă.",
+    "evidenceLocation": "Lawrence, p. 194, Etiologia OIS — Cauze intrinseci"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Majoritatea stricturilor maligne necesită chirurgie.",
+    "evidenceLocation": "Lawrence, p. 194, Etiologia OIS — Cauze intrinseci"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: stricturile pot urma enteritei postradioterapie.",
+    "evidenceLocation": "Lawrence, p. 194, Etiologia OIS — Cauze intrinseci"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Boala Crohn este cea mai frecventă cauză benignă.",
+    "evidenceLocation": "Lawrence, p. 194, Etiologia OIS — Cauze intrinseci"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Ulcerele din consumul de AINS sunt citate.",
+    "evidenceLocation": "Lawrence, p. 194, Etiologia OIS — Cauze intrinseci"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:15:03.371Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează riscul și conduita."
+  },
+  "textbookExpressions": [
+   "postradioterapie",
+   "AINS"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a intestin-adv-011: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "intestin-adv-059-v2",
+  "questionFingerprint": "e6c1937ac88895fadba0fbd97580342e8a43471ef9b69d764835adff343133cb",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea locului laparoscopiei în OIS.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    199
+   ],
+   "pdfPages": [
+    121
+   ],
+   "section": "Tratament — Laparoscopia"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Succesul este documentat într-un număr modest de cazuri.",
+    "evidenceLocation": "Lawrence, p. 199, Tratament — Laparoscopia"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Abdomenul multiplu operat limitează tehnica.",
+    "evidenceLocation": "Lawrence, p. 199, Tratament — Laparoscopia"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu a înlocuit laparotomia.",
+    "evidenceLocation": "Lawrence, p. 199, Tratament — Laparoscopia"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Este utilă în ocluziile aderențiale necomplicate și proximale.",
+    "evidenceLocation": "Lawrence, p. 199, Tratament — Laparoscopia"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: laparoscopia este limitată de distensia intestinală.",
+    "evidenceLocation": "Lawrence, p. 199, Tratament — Laparoscopia"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:15:03.375Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii supraestimează indicațiile."
+  },
+  "textbookExpressions": [
+   "număr modest",
+   "ostil"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a intestin-adv-059: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  }
 ]
