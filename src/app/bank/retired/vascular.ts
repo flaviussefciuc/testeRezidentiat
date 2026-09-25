@@ -1,7 +1,7 @@
 import type {Question} from '../../models';
 
 // Frozen snapshot: never edit. Old attempts are scored against these exact versions.
-export const RETIRED_VASCULAR:Question[]=[
+export const RETIRED_VASCULAR:(Question&Record<string,unknown>)[]=[
  {
   "id": "vascular-adv-001",
   "topicId": "vascular",

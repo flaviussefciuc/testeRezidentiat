@@ -1,7 +1,7 @@
 import type {Question} from '../../models';
 
 // Frozen snapshot: never edit. Old attempts are scored against these exact versions.
-export const RETIRED_FICAT_SPLINA:Question[]=[
+export const RETIRED_FICAT_SPLINA:(Question&Record<string,unknown>)[]=[
  {
   "id": "ficat-splina-adv-001",
   "topicId": "ficat-splina",

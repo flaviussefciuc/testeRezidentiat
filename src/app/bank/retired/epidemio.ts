@@ -1,7 +1,7 @@
 import type {Question} from '../../models';
 
 // Frozen snapshot: never edit. Old attempts are scored against these exact versions.
-export const RETIRED_EPIDEMIO:Question[]=[
+export const RETIRED_EPIDEMIO:(Question&Record<string,unknown>)[]=[
  {
   "id": "epidemio-adv-001",
   "topicId": "epidemio",

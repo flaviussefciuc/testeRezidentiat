@@ -1,7 +1,7 @@
 import type {Question} from '../../models';
 
 // Frozen snapshot: never edit. Old attempts are scored against these exact versions.
-export const RETIRED_STOMAC:Question[]=[
+export const RETIRED_STOMAC:(Question&Record<string,unknown>)[]=[
  {
   "id": "stomac-adv-001",
   "topicId": "stomac",

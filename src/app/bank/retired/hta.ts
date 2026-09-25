@@ -1,7 +1,7 @@
 import type {Question} from '../../models';
 
 // Frozen snapshot: never edit. Old attempts are scored against these exact versions.
-export const RETIRED_HTA:Question[]=[
+export const RETIRED_HTA:(Question&Record<string,unknown>)[]=[
  {
   "id": "hta-adv-001",
   "topicId": "hta",

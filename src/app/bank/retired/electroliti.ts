@@ -1,7 +1,7 @@
 import type {Question} from '../../models';
 
 // Frozen snapshot: never edit. Old attempts are scored against these exact versions.
-export const RETIRED_ELECTROLITI:Question[]=[
+export const RETIRED_ELECTROLITI:(Question&Record<string,unknown>)[]=[
  {
   "id": "electroliti-adv-001",
   "topicId": "electroliti",

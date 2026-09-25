@@ -1,7 +1,7 @@
 import type {Question} from '../../models';
 
 // Frozen snapshot: never edit. Old attempts are scored against these exact versions.
-export const RETIRED_HERNII:Question[]=[
+export const RETIRED_HERNII:(Question&Record<string,unknown>)[]=[
  {
   "id": "hernii-adv-001",
   "topicId": "hernii",
