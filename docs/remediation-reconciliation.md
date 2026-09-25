@@ -66,7 +66,7 @@ were found on that page. Cutoff-page and box checks for each topic are logged in
 
 ## Items relying on a Cadran / Figura / Tabel
 
-569 items, 103 resolved, 466 pending.
+569 items, 107 resolved, 462 pending.
 
 | Original ID | Topic | Status |
 |---|---|---|
@@ -167,10 +167,10 @@ were found on that page. Cutoff-page and box checks for each topic are logged in
 | colon-adv-072 | colon | pending (original still live) |
 | colon-adv-090 | colon | pending (original still live) |
 | colon-adv-091 | colon | pending (original still live) |
-| dermato-adv-006 | dermato | pending (original still live) |
-| dermato-adv-022 | dermato | pending (original still live) |
-| dermato-adv-028 | dermato | pending (original still live) |
-| dermato-adv-037 | dermato | pending (original still live) |
+| dermato-adv-006 | dermato | replaced by dermato-adv-006-v2 (p. 199; expressions verified on the cited page) |
+| dermato-adv-022 | dermato | replaced by dermato-adv-022-v2 (p. 209; expressions verified on the cited page) |
+| dermato-adv-028 | dermato | replaced by dermato-adv-028-v2 (p. 206; expressions verified on the cited page) |
+| dermato-adv-037 | dermato | replaced by dermato-adv-037-v2 (p. 200; expressions verified on the cited page) |
 | diabet-adv-001 | diabet | pending (original still live) |
 | diabet-adv-002 | diabet | pending (original still live) |
 | diabet-adv-008 | diabet | pending (original still live) |

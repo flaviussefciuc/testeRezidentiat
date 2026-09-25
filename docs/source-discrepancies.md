@@ -128,3 +128,7 @@ Fiecare temă rescrisă (versiunile `-v2`) a fost confruntată din nou cu pagini
 - **Contradicție internă:** Cadranul 10.13 indică pentru ventilația protectivă pulmonară un volum curent de 6–8 ml/kg și o presiune maximă în căile respiratorii <35–40 cmH2O. Textul de pe p. 230 indică 4–8 ml/kg (ideal 6 ml/kg) și o presiune de platou ≤30 cmH2O. `-028-v2` folosește valorile din text.
 - P. 224: Cadranul 10.12, terapia vasodilatatoare și suportul mecanic al miocardului se află pe p. 224 înaintea titlului «Insuficiența respiratorie», care deschide intervalul p. 224–232 din tematică. Itemii 011, 023, 024 și 031 sunt păstrați după regula intervalului de pagini.
 - Retrase fără înlocuitor (dubluri): 010 (versiunea din `advanced-revisions.ts`, dublura lui 037) și 022 (inclus în 024 și 031).
+
+### Dermatologie (Sinopsis, cap. 9)
+- Nu s-au găsit chei greșite în cei 42 de itemi confruntați cu p. 196–209.
+- Retrase fără înlocuitor (dubluri sau trivia numerică): 015 (marginea de 0,5 cm, inclusă în `-042-v2`), 031 (inclus în `-016-v2`), 039 (inclus în `-027-v2`), 040 (inclus în `-029-v2`).
