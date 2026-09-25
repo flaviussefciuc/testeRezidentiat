@@ -220545,83 +220545,6 @@
   "reviewNotes": "Rescriere a ficat-splina-adv-019: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "ficat-splina-adv-035-v2",
-  "questionFingerprint": "89b55281530b7a6653f8c36671734e0fe530d310c21599431b833831418b0cda",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea organizării funcționale a ficatului.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 20,
-   "printedPages": [
-    317
-   ],
-   "pdfPages": [
-    187
-   ],
-   "section": "Fiziologia ficatului"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Regenerarea completă are loc la 50 de zile.",
-    "evidenceLocation": "Lawrence, p. 317, Fiziologia ficatului"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Vena de drenaj este centrală.",
-    "evidenceLocation": "Lawrence, p. 317, Fiziologia ficatului"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Kupffer: 80–90% din macrofagele fixe.",
-    "evidenceLocation": "Lawrence, p. 317, Fiziologia ficatului"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Lobulul hepatic este unitatea funcțională.",
-    "evidenceLocation": "Lawrence, p. 317, Fiziologia ficatului"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Ligamentul gastrohepatic merge la stomac și duoden.",
-    "evidenceLocation": "Lawrence, p. 317, Fiziologia ficatului"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:04:29.241Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează arhitectura lobulului și ligamentul."
-  },
-  "textbookExpressions": [
-   "lobulul",
-   "80-90%"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ficat-splina-adv-035: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "ficat-splina-adv-049-v2",
   "questionFingerprint": "71641ca2d80b7160838bb980897c2dec2c9c6e6613ab680a6dd1abe7de638624",
   "status": "source-checked",
@@ -221167,85 +221090,6 @@
   "reviewNotes": "Rescriere a ficat-splina-adv-037: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "ficat-splina-adv-006-v2",
-  "questionFingerprint": "8c38d493a2e807918fb89ff8778a373e1e4500c5085364bf64584b75c3848376",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea adenomului hepatic.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 20,
-   "printedPages": [
-    320,
-    321
-   ],
-   "pdfPages": [
-    190,
-    191
-   ],
-   "section": "Adenomul hepatic"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Apare la femeia de 30–50 de ani.",
-    "evidenceLocation": "Lawrence, p. 320, 321, Adenomul hepatic"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Majoritatea au expunere la estrogeni.",
-    "evidenceLocation": "Lawrence, p. 320, 321, Adenomul hepatic"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Nu conține celule Kupffer și nu captează.",
-    "evidenceLocation": "Lawrence, p. 320, 321, Adenomul hepatic"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Este solitar și neîncapsulat.",
-    "evidenceLocation": "Lawrence, p. 320, 321, Adenomul hepatic"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Este format din hepatocite fără triadă sau duct.",
-    "evidenceLocation": "Lawrence, p. 320, 321, Adenomul hepatic"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:04:29.247Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează captarea și structura."
-  },
-  "textbookExpressions": [
-   "neîncapsulate",
-   "30 şi 50 de ani"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ficat-splina-adv-006: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "ficat-splina-adv-051-v2",
   "questionFingerprint": "b4c4d1fe3bcd5c2ee9656b5e81c0d92909e5a76358618e75181f6fef963fd897",
   "status": "source-checked",
@@ -221321,83 +221165,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a ficat-splina-adv-051: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "ficat-splina-adv-021-v2",
-  "questionFingerprint": "5c6bd43d2de6d24e02720fd1a3dcd7ff436431df5d709b8bb4f0599f0c16473a",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea stratificării riscului în adenom.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 20,
-   "printedPages": [
-    321
-   ],
-   "pdfPages": [
-    191
-   ],
-   "section": "Adenomul hepatic"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Complicațiile sunt mai frecvente în sarcină.",
-    "evidenceLocation": "Lawrence, p. 321, Adenomul hepatic"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Creșterea sau sângerarea apar în 20–40%.",
-    "evidenceLocation": "Lawrence, p. 321, Adenomul hepatic"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Beta-catenina indică risc de malignizare.",
-    "evidenceLocation": "Lawrence, p. 321, Adenomul hepatic"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Peste 5 cm complicațiile sunt mai frecvente.",
-    "evidenceLocation": "Lawrence, p. 321, Adenomul hepatic"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Oprirea contraceptivelor poate duce la regresie.",
-    "evidenceLocation": "Lawrence, p. 321, Adenomul hepatic"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:04:29.248Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează factorii de risc."
-  },
-  "textbookExpressions": [
-   "beta-cateninei",
-   "regresie dimensională"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ficat-splina-adv-021: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "ficat-splina-adv-050-v2",
@@ -221477,83 +221244,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a ficat-splina-adv-050: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "ficat-splina-adv-007-v2",
-  "questionFingerprint": "1f3ef71637bc6292f89ab3cbbbd7c2d5abba227d2ec4f0fb306a037bd0e5117a",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea epidemiologiei CHC.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 20,
-   "printedPages": [
-    321
-   ],
-   "pdfPages": [
-    191
-   ],
-   "section": "Carcinomul hepatocelular"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Apare pe boală cronică în 70–80%.",
-    "evidenceLocation": "Lawrence, p. 321, Carcinomul hepatocelular"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "AFP este crescută la 60–80%.",
-    "evidenceLocation": "Lawrence, p. 321, Carcinomul hepatocelular"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Metastazele sunt cele mai frecvente tumori maligne hepatice.",
-    "evidenceLocation": "Lawrence, p. 321, Carcinomul hepatocelular"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Apare și la infectați VHB/VHC fără ciroză.",
-    "evidenceLocation": "Lawrence, p. 321, Carcinomul hepatocelular"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Reprezintă 90% din tumorile maligne primare.",
-    "evidenceLocation": "Lawrence, p. 321, Carcinomul hepatocelular"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:04:29.250Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii confundă primar cu total și restrâng contextul."
-  },
-  "textbookExpressions": [
-   "90% din tumorile",
-   "60-80%"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ficat-splina-adv-007: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "ficat-splina-adv-022-v2",
@@ -221785,83 +221475,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a ficat-splina-adv-038: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "ficat-splina-adv-008-v2",
-  "questionFingerprint": "7ef62ca874a27eb2634aac57cf10c4fb402e533a17a01b26ce7a4adc7ab6f05d",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea opțiunilor chirurgicale în CHC.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 20,
-   "printedPages": [
-    322
-   ],
-   "pdfPages": [
-    192
-   ],
-   "section": "Carcinomul hepatocelular — tratament"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Limitările sunt donatorii și costurile.",
-    "evidenceLocation": "Lawrence, p. 322, Carcinomul hepatocelular — tratament"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Transplantul elimină parenchimul cirotic restant.",
-    "evidenceLocation": "Lawrence, p. 322, Carcinomul hepatocelular — tratament"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Ciroza limitează regenerarea.",
-    "evidenceLocation": "Lawrence, p. 322, Carcinomul hepatocelular — tratament"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Până la 70% pe parenchim sănătos.",
-    "evidenceLocation": "Lawrence, p. 322, Carcinomul hepatocelular — tratament"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Regenerarea este mult limitată în ciroză.",
-    "evidenceLocation": "Lawrence, p. 322, Carcinomul hepatocelular — tratament"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:04:29.252Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii ignoră ciroza și limitările transplantului."
-  },
-  "textbookExpressions": [
-   "70% din volumul",
-   "rezecţia segmentară"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ficat-splina-adv-008: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "ficat-splina-adv-053-v2",
@@ -222249,241 +221862,6 @@
   "reviewNotes": "Rescriere a ficat-splina-adv-025: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "ficat-splina-adv-039-v2",
-  "questionFingerprint": "696732c05ddd6af0b4e85ee1d28bf5ed272b860f37f0257481b0fbfb0dc26d16",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea epidemiologiei și beneficiului rezecției metastazelor.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 20,
-   "printedPages": [
-    322,
-    323
-   ],
-   "pdfPages": [
-    192,
-    193
-   ],
-   "section": "Metastazele hepatice"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Tumorile neuroendocrine metastazează specific hepatic.",
-    "evidenceLocation": "Lawrence, p. 322, 323, Metastazele hepatice"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Sunt cele mai frecvente tumori maligne hepatice.",
-    "evidenceLocation": "Lawrence, p. 322, 323, Metastazele hepatice"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Sunt de obicei de origine GI.",
-    "evidenceLocation": "Lawrence, p. 322, 323, Metastazele hepatice"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "În cancerul colorectal: 55–65% la 5 ani.",
-    "evidenceLocation": "Lawrence, p. 322, 323, Metastazele hepatice"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "30–40% la autopsie.",
-    "evidenceLocation": "Lawrence, p. 322, 323, Metastazele hepatice"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:04:29.256Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii schimbă originea și indicația."
-  },
-  "textbookExpressions": [
-   "30-40%",
-   "55-65%"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ficat-splina-adv-039: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "ficat-splina-adv-040-v2",
-  "questionFingerprint": "bce828ed24983169087c4383f76cdf545ce28c31843f15b763761341a542cf37",
-  "status": "source-checked",
-  "learningObjective": "Selecția pacienților pentru rezecția metastazelor.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 20,
-   "printedPages": [
-    322,
-    323
-   ],
-   "pdfPages": [
-    192,
-    193
-   ],
-   "section": "Metastazele hepatice"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Chirurgii abordează și leziuni din ambii lobi.",
-    "evidenceLocation": "Lawrence, p. 322, 323, Metastazele hepatice"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Ablația este inferioară rezecției.",
-    "evidenceLocation": "Lawrence, p. 322, 323, Metastazele hepatice"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "CEA scăzut este favorabil.",
-    "evidenceLocation": "Lawrence, p. 322, 323, Metastazele hepatice"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Peste 1 an fără progresie este favorabil.",
-    "evidenceLocation": "Lawrence, p. 322, 323, Metastazele hepatice"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Recidiva apare la 60–70%.",
-    "evidenceLocation": "Lawrence, p. 322, 323, Metastazele hepatice"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:04:29.257Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează ierarhia și restrâng indicația."
-  },
-  "textbookExpressions": [
-   "60-70%",
-   "ambii lobi"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ficat-splina-adv-040: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "ficat-splina-adv-009-v2",
-  "questionFingerprint": "645252a6515659abd702df9cf62a753bcd3cd9f1b3de2aea80b01c7a85e2d561",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea și tratamentul chistului simplu.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 20,
-   "printedPages": [
-    323
-   ],
-   "pdfPages": [
-    193
-   ],
-   "section": "Chisturile hepatice"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Nu comunică cu arborele biliar.",
-    "evidenceLocation": "Lawrence, p. 323, Chisturile hepatice"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Când sunt multiple, sunt 3–4.",
-    "evidenceLocation": "Lawrence, p. 323, Chisturile hepatice"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Simptomele reapar de obicei după aspirație.",
-    "evidenceLocation": "Lawrence, p. 323, Chisturile hepatice"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Decorticarea este tratamentul standard.",
-    "evidenceLocation": "Lawrence, p. 323, Chisturile hepatice"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Apare la 10% dintre pacienți.",
-    "evidenceLocation": "Lawrence, p. 323, Chisturile hepatice"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:04:29.257Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii supraestimează aspirația și numărul."
-  },
-  "textbookExpressions": [
-   "10% dintre pacienţi",
-   "arborele biliar"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ficat-splina-adv-009: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "ficat-splina-adv-055-v2",
   "questionFingerprint": "668e3b0087e53aeee9c8d869f5284b4aecc5ded0a033610131465af946aa0d49",
   "status": "source-checked",
@@ -222713,160 +222091,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a ficat-splina-adv-027: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "ficat-splina-adv-028-v2",
-  "questionFingerprint": "94b4303ee0a2cb6ff07eed5bf550913c5a67f0f174848592e9d7f99384e60014",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea abcesului amebian.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 20,
-   "printedPages": [
-    324
-   ],
-   "pdfPages": [
-    194
-   ],
-   "section": "Abcesul amebian"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Apare la circa 10% dintre infectați.",
-    "evidenceLocation": "Lawrence, p. 324, Abcesul amebian"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Conținutul este steril, „pastă de anșoa”.",
-    "evidenceLocation": "Lawrence, p. 324, Abcesul amebian"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Nu necesită drenaj percutanat.",
-    "evidenceLocation": "Lawrence, p. 324, Abcesul amebian"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Răspunde foarte bine la metronidazol.",
-    "evidenceLocation": "Lawrence, p. 324, Abcesul amebian"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Anticorpii sunt prezenți la aproape toți.",
-    "evidenceLocation": "Lawrence, p. 324, Abcesul amebian"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:04:29.260Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii preiau conduita abcesului piogen."
-  },
-  "textbookExpressions": [
-   "pastă de anşoa",
-   "metronidazol"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ficat-splina-adv-028: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "ficat-splina-adv-010-v2",
-  "questionFingerprint": "d75e39b622b36587778d446929db5ad94f264e9a6b4ac53a671d4ce7afbbabc6",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea și diagnosticul chistului hidatic.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 20,
-   "printedPages": [
-    324
-   ],
-   "pdfPages": [
-    194
-   ],
-   "section": "Chistul hidatic"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Puncția se evită (însămânțare, anafilaxie).",
-    "evidenceLocation": "Lawrence, p. 324, Chistul hidatic"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Echinococcus granulosus sau multilocularis.",
-    "evidenceLocation": "Lawrence, p. 324, Chistul hidatic"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Serologia confirmă diagnosticul.",
-    "evidenceLocation": "Lawrence, p. 324, Chistul hidatic"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Două treimi apar în ficat.",
-    "evidenceLocation": "Lawrence, p. 324, Chistul hidatic"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Eozinofilia apare la o treime–jumătate.",
-    "evidenceLocation": "Lawrence, p. 324, Chistul hidatic"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:04:29.261Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează rolul puncției și eozinofiliei."
-  },
-  "textbookExpressions": [
-   "protoscolecşi",
-   "serologice"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ficat-splina-adv-010: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "ficat-splina-adv-041-v2",
@@ -223483,85 +222707,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a ficat-splina-adv-030: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "ficat-splina-adv-045-v2",
-  "questionFingerprint": "ff94ac0eef637316c1bc507fa9ffd5bdb99e2889018bc1e53c44d6f1887a9f32",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea rolului imun al splinei.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 20,
-   "printedPages": [
-    335,
-    334
-   ],
-   "pdfPages": [
-    197,
-    196
-   ],
-   "section": "Anatomia și fiziologia splinei"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "IgM scade.",
-    "evidenceLocation": "Lawrence, p. 335, 334, Anatomia și fiziologia splinei"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Splina hematologică nu este de obicei dureroasă.",
-    "evidenceLocation": "Lawrence, p. 335, 334, Anatomia și fiziologia splinei"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Trombocitoza pasageră urmează splenectomiei.",
-    "evidenceLocation": "Lawrence, p. 335, 334, Anatomia și fiziologia splinei"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Este cea mai mare sursă de IgM.",
-    "evidenceLocation": "Lawrence, p. 335, 334, Anatomia și fiziologia splinei"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Opsonina scade după splenectomie.",
-    "evidenceLocation": "Lawrence, p. 335, 334, Anatomia și fiziologia splinei"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:04:29.266Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează IgM și durerea."
-  },
-  "textbookExpressions": [
-   "imunoglobulină M",
-   "opsonină"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ficat-splina-adv-045: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "ficat-splina-adv-046-v2",
@@ -224267,83 +223412,6 @@
   "reviewNotes": "Rescriere a ficat-splina-adv-014: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "ficat-splina-adv-061-v2",
-  "questionFingerprint": "b7036c000e4aedc8fb4671b81e10dc80758ab70382004ac86782a4e999f94b58",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea indicației splenectomiei în talasemii.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 20,
-   "printedPages": [
-    338
-   ],
-   "pdfPages": [
-    200
-   ],
-   "section": "Anemia hemolitică — talasemiile"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Talasemicii au cel mai mare risc de OPSI.",
-    "evidenceLocation": "Lawrence, p. 338, Anemia hemolitică — talasemiile"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Alternativele sunt preferate.",
-    "evidenceLocation": "Lawrence, p. 338, Anemia hemolitică — talasemiile"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "În siclemie este rar indicată.",
-    "evidenceLocation": "Lawrence, p. 338, Anemia hemolitică — talasemiile"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Reduce transfuziile și disconfortul.",
-    "evidenceLocation": "Lawrence, p. 338, Anemia hemolitică — talasemiile"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Defectul de sinteză rămâne.",
-    "evidenceLocation": "Lawrence, p. 338, Anemia hemolitică — talasemiile"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:04:29.273Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii supraestimează efectul și extind indicația."
-  },
-  "textbookExpressions": [
-   "talasemia majoră",
-   "OPSI"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ficat-splina-adv-061: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "ficat-splina-adv-032-v2",
   "questionFingerprint": "f99322f867b0ede066a974d49ec092002797bb401a28c3cef63da8f571b567bd",
   "status": "source-checked",
@@ -224891,83 +223959,6 @@
   "reviewNotes": "Rescriere a ficat-splina-adv-056: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "ficat-splina-adv-017-v2",
-  "questionFingerprint": "4f59b19de735a9cf68bdbb63db456f18654b24d0ce365a40fc0c35092ce75b3e",
-  "status": "source-checked",
-  "learningObjective": "Interpretarea modificărilor hematologice postsplenectomie.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 20,
-   "printedPages": [
-    341
-   ],
-   "pdfPages": [
-    203
-   ],
-   "section": "Modificări hematologice"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Lipsa lor sugerează splina accesorie.",
-    "evidenceLocation": "Lawrence, p. 341, Modificări hematologice"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Leucocitele cresc cu 50%, revin în 5–7 zile.",
-    "evidenceLocation": "Lawrence, p. 341, Modificări hematologice"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Corpii Howell-Jolly apar pe frotiu.",
-    "evidenceLocation": "Lawrence, p. 341, Modificări hematologice"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Persistența sugerează infecție.",
-    "evidenceLocation": "Lawrence, p. 341, Modificări hematologice"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Trombocitoza apare la 50%.",
-    "evidenceLocation": "Lawrence, p. 341, Modificări hematologice"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:04:29.279Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează semnificația frotiului și a leucocitozei."
-  },
-  "textbookExpressions": [
-   "Howell-Jolly",
-   "5-7 zile"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ficat-splina-adv-017: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "ficat-splina-adv-033-v2",
   "questionFingerprint": "1aa039b326cce1f0344b161aaf757ca6613509ae130bab6dc6d09bb897bee528",
   "status": "source-checked",
@@ -225045,83 +224036,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a ficat-splina-adv-033: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "ficat-splina-adv-018-v2",
-  "questionFingerprint": "a3fc5b6042084b277aa1f3a35d6e3244d2b78351232c99ee9a19c74c8fe779e4",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea riscului de OPSI.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 20,
-   "printedPages": [
-    342
-   ],
-   "pdfPages": [
-    204
-   ],
-   "section": "Consecințe imunologice"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Pneumococul produce 75%.",
-    "evidenceLocation": "Lawrence, p. 342, Consecințe imunologice"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Copil: 2–4%; adult: 1–2%.",
-    "evidenceLocation": "Lawrence, p. 342, Consecințe imunologice"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Riscul este mai mare la copil.",
-    "evidenceLocation": "Lawrence, p. 342, Consecințe imunologice"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Riscul maxim este în bolile hematologice.",
-    "evidenceLocation": "Lawrence, p. 342, Consecințe imunologice"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Nu apare de obicei imediat postoperator.",
-    "evidenceLocation": "Lawrence, p. 342, Consecințe imunologice"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:04:29.281Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează momentul și vârsta."
-  },
-  "textbookExpressions": [
-   "Streptococcus pneumoniae",
-   "hematologice"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ficat-splina-adv-018: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "ficat-splina-adv-048-v2",
@@ -269519,5 +268433,1091 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a hta-adv-057: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "ficat-splina-adv-035-v2",
+  "questionFingerprint": "79da87e211324902cf7e1af7e24fba4e347fc0587cfb61e5732ab6a3b291aafe",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea organizării funcționale a ficatului.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 20,
+   "printedPages": [
+    317
+   ],
+   "pdfPages": [
+    187
+   ],
+   "section": "Fiziologia ficatului"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: regenerarea completă are loc la 50 de zile.",
+    "evidenceLocation": "Lawrence, p. 317, Fiziologia ficatului"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Vena de drenaj este centrală.",
+    "evidenceLocation": "Lawrence, p. 317, Fiziologia ficatului"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Kupffer: 80–90% din macrofagele fixe.",
+    "evidenceLocation": "Lawrence, p. 317, Fiziologia ficatului"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Lobulul hepatic este unitatea funcțională.",
+    "evidenceLocation": "Lawrence, p. 317, Fiziologia ficatului"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Ligamentul gastrohepatic merge la stomac și duoden.",
+    "evidenceLocation": "Lawrence, p. 317, Fiziologia ficatului"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:24:35.892Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează arhitectura lobulului și ligamentul."
+  },
+  "textbookExpressions": [
+   "lobulul",
+   "80-90%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a ficat-splina-adv-035: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "ficat-splina-adv-006-v2",
+  "questionFingerprint": "ecd21a0f479f2fae0b337efda132ca2dddf6d04cbd6dbc39c99a986bca97f13c",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea adenomului hepatic.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 20,
+   "printedPages": [
+    320,
+    321
+   ],
+   "pdfPages": [
+    190,
+    191
+   ],
+   "section": "Adenomul hepatic"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: apare la femeia de 30–50 de ani.",
+    "evidenceLocation": "Lawrence, p. 320, 321, Adenomul hepatic"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Majoritatea au expunere la estrogeni.",
+    "evidenceLocation": "Lawrence, p. 320, 321, Adenomul hepatic"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu conține celule Kupffer și nu captează.",
+    "evidenceLocation": "Lawrence, p. 320, 321, Adenomul hepatic"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Este solitar și neîncapsulat.",
+    "evidenceLocation": "Lawrence, p. 320, 321, Adenomul hepatic"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Este format din hepatocite fără triadă sau duct.",
+    "evidenceLocation": "Lawrence, p. 320, 321, Adenomul hepatic"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:24:35.895Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează captarea și structura."
+  },
+  "textbookExpressions": [
+   "neîncapsulate",
+   "30 şi 50 de ani"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a ficat-splina-adv-006: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "ficat-splina-adv-021-v2",
+  "questionFingerprint": "0e9a4626497bb0aade9216b5258f605b78a88da166a1cfd5a4d776846f443e31",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea stratificării riscului în adenom.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 20,
+   "printedPages": [
+    321
+   ],
+   "pdfPages": [
+    191
+   ],
+   "section": "Adenomul hepatic"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Complicațiile sunt mai frecvente în sarcină.",
+    "evidenceLocation": "Lawrence, p. 321, Adenomul hepatic"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: creșterea sau sângerarea apar în 20–40%.",
+    "evidenceLocation": "Lawrence, p. 321, Adenomul hepatic"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Beta-catenina indică risc de malignizare.",
+    "evidenceLocation": "Lawrence, p. 321, Adenomul hepatic"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Peste 5 cm complicațiile sunt mai frecvente.",
+    "evidenceLocation": "Lawrence, p. 321, Adenomul hepatic"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Oprirea contraceptivelor poate duce la regresie.",
+    "evidenceLocation": "Lawrence, p. 321, Adenomul hepatic"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:24:35.896Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează factorii de risc."
+  },
+  "textbookExpressions": [
+   "beta-cateninei",
+   "regresie dimensională"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a ficat-splina-adv-021: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "ficat-splina-adv-007-v2",
+  "questionFingerprint": "75e5b2a2d1bf14b4f6bea766b084d27f9eb6e053c133e89280f57ee555163879",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea epidemiologiei CHC.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 20,
+   "printedPages": [
+    321
+   ],
+   "pdfPages": [
+    191
+   ],
+   "section": "Carcinomul hepatocelular"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Apare pe boală cronică în 70–80%.",
+    "evidenceLocation": "Lawrence, p. 321, Carcinomul hepatocelular"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: AFP este crescută la 60–80%.",
+    "evidenceLocation": "Lawrence, p. 321, Carcinomul hepatocelular"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Metastazele sunt cele mai frecvente tumori maligne hepatice.",
+    "evidenceLocation": "Lawrence, p. 321, Carcinomul hepatocelular"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Apare și la infectați VHB/VHC fără ciroză.",
+    "evidenceLocation": "Lawrence, p. 321, Carcinomul hepatocelular"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Reprezintă 90% din tumorile maligne primare.",
+    "evidenceLocation": "Lawrence, p. 321, Carcinomul hepatocelular"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:24:35.896Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii confundă primar cu total și restrâng contextul."
+  },
+  "textbookExpressions": [
+   "90% din tumorile",
+   "60-80%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a ficat-splina-adv-007: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "ficat-splina-adv-008-v2",
+  "questionFingerprint": "11860c93eae341d492bb55e91ae84b95fd848bc33345f8e60ef484e163c119b2",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea opțiunilor chirurgicale în CHC.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 20,
+   "printedPages": [
+    322
+   ],
+   "pdfPages": [
+    192
+   ],
+   "section": "Carcinomul hepatocelular — tratament"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Limitările sunt donatorii și costurile.",
+    "evidenceLocation": "Lawrence, p. 322, Carcinomul hepatocelular — tratament"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Transplantul elimină parenchimul cirotic restant.",
+    "evidenceLocation": "Lawrence, p. 322, Carcinomul hepatocelular — tratament"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Ciroza limitează regenerarea.",
+    "evidenceLocation": "Lawrence, p. 322, Carcinomul hepatocelular — tratament"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: pe parenchim sănătos se poate rezeca până la 70%.",
+    "evidenceLocation": "Lawrence, p. 322, Carcinomul hepatocelular — tratament"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Regenerarea este mult limitată în ciroză.",
+    "evidenceLocation": "Lawrence, p. 322, Carcinomul hepatocelular — tratament"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:24:35.897Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii ignoră ciroza și limitările transplantului."
+  },
+  "textbookExpressions": [
+   "70% din volumul",
+   "rezecţia segmentară"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a ficat-splina-adv-008: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "ficat-splina-adv-039-v2",
+  "questionFingerprint": "04c63fe47accbee22c35d97283113a0cd250c2fd872f66cf5784c334efba07aa",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea epidemiologiei și beneficiului rezecției metastazelor.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 20,
+   "printedPages": [
+    322,
+    323
+   ],
+   "pdfPages": [
+    192,
+    193
+   ],
+   "section": "Metastazele hepatice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Tumorile neuroendocrine metastazează specific hepatic.",
+    "evidenceLocation": "Lawrence, p. 322, 323, Metastazele hepatice"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Sunt cele mai frecvente tumori maligne hepatice.",
+    "evidenceLocation": "Lawrence, p. 322, 323, Metastazele hepatice"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Sunt de obicei de origine GI.",
+    "evidenceLocation": "Lawrence, p. 322, 323, Metastazele hepatice"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "În cancerul colorectal: 55–65% la 5 ani.",
+    "evidenceLocation": "Lawrence, p. 322, 323, Metastazele hepatice"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: apar la 30–40% la autopsie.",
+    "evidenceLocation": "Lawrence, p. 322, 323, Metastazele hepatice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:24:35.899Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii schimbă originea și indicația."
+  },
+  "textbookExpressions": [
+   "30-40%",
+   "55-65%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a ficat-splina-adv-039: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "ficat-splina-adv-040-v2",
+  "questionFingerprint": "a95c3a0dabcb8c7d3e577282e5add91cbcdaed616076c8629d79d8ff32ce4fbe",
+  "status": "source-checked",
+  "learningObjective": "Selecția pacienților pentru rezecția metastazelor.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 20,
+   "printedPages": [
+    322,
+    323
+   ],
+   "pdfPages": [
+    192,
+    193
+   ],
+   "section": "Metastazele hepatice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Chirurgii abordează și leziuni din ambii lobi.",
+    "evidenceLocation": "Lawrence, p. 322, 323, Metastazele hepatice"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Ablația este inferioară rezecției.",
+    "evidenceLocation": "Lawrence, p. 322, 323, Metastazele hepatice"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "CEA scăzut este favorabil.",
+    "evidenceLocation": "Lawrence, p. 322, 323, Metastazele hepatice"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Peste 1 an fără progresie este favorabil.",
+    "evidenceLocation": "Lawrence, p. 322, 323, Metastazele hepatice"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: recidiva apare la 60–70%.",
+    "evidenceLocation": "Lawrence, p. 322, 323, Metastazele hepatice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:24:35.900Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează ierarhia și restrâng indicația."
+  },
+  "textbookExpressions": [
+   "60-70%",
+   "ambii lobi"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a ficat-splina-adv-040: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "ficat-splina-adv-009-v2",
+  "questionFingerprint": "800b67541117284aad00815ae7b05182fbafef93d827a478b810d7c89b5779ee",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea și tratamentul chistului simplu.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 20,
+   "printedPages": [
+    323
+   ],
+   "pdfPages": [
+    193
+   ],
+   "section": "Chisturile hepatice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Nu comunică cu arborele biliar.",
+    "evidenceLocation": "Lawrence, p. 323, Chisturile hepatice"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Când sunt multiple, sunt 3–4.",
+    "evidenceLocation": "Lawrence, p. 323, Chisturile hepatice"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Simptomele reapar de obicei după aspirație.",
+    "evidenceLocation": "Lawrence, p. 323, Chisturile hepatice"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Decorticarea este tratamentul standard.",
+    "evidenceLocation": "Lawrence, p. 323, Chisturile hepatice"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: apare la 10% dintre pacienți.",
+    "evidenceLocation": "Lawrence, p. 323, Chisturile hepatice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:24:35.900Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii supraestimează aspirația și numărul."
+  },
+  "textbookExpressions": [
+   "10% dintre pacienţi",
+   "arborele biliar"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a ficat-splina-adv-009: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "ficat-splina-adv-028-v2",
+  "questionFingerprint": "b4f842d8b830d7fdcd814fec3518bb45a003775d3a9703f1d17d9faee7051f53",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea abcesului amebian.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 20,
+   "printedPages": [
+    324
+   ],
+   "pdfPages": [
+    194
+   ],
+   "section": "Abcesul amebian"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: apare la circa 10% dintre infectați.",
+    "evidenceLocation": "Lawrence, p. 324, Abcesul amebian"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Conținutul este steril, „pastă de anșoa”.",
+    "evidenceLocation": "Lawrence, p. 324, Abcesul amebian"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu necesită drenaj percutanat.",
+    "evidenceLocation": "Lawrence, p. 324, Abcesul amebian"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Răspunde foarte bine la metronidazol.",
+    "evidenceLocation": "Lawrence, p. 324, Abcesul amebian"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Anticorpii sunt prezenți la aproape toți.",
+    "evidenceLocation": "Lawrence, p. 324, Abcesul amebian"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:24:35.901Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii preiau conduita abcesului piogen."
+  },
+  "textbookExpressions": [
+   "pastă de anşoa",
+   "metronidazol"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a ficat-splina-adv-028: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "ficat-splina-adv-010-v2",
+  "questionFingerprint": "c2e4bda3ead8880342506d46bb5f28eaf7c0f5985f7697a5ed5b20c208dcd133",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea și diagnosticul chistului hidatic.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 20,
+   "printedPages": [
+    324
+   ],
+   "pdfPages": [
+    194
+   ],
+   "section": "Chistul hidatic"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Puncția se evită (însămânțare, anafilaxie).",
+    "evidenceLocation": "Lawrence, p. 324, Chistul hidatic"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Echinococcus granulosus sau multilocularis.",
+    "evidenceLocation": "Lawrence, p. 324, Chistul hidatic"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Serologia confirmă diagnosticul.",
+    "evidenceLocation": "Lawrence, p. 324, Chistul hidatic"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: două treimi apar în ficat.",
+    "evidenceLocation": "Lawrence, p. 324, Chistul hidatic"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Eozinofilia apare la o treime–jumătate.",
+    "evidenceLocation": "Lawrence, p. 324, Chistul hidatic"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:24:35.902Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează rolul puncției și eozinofiliei."
+  },
+  "textbookExpressions": [
+   "protoscolecşi",
+   "serologice"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a ficat-splina-adv-010: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "ficat-splina-adv-045-v2",
+  "questionFingerprint": "44bb22b306d39e17f87c5ddfa4b7b52a0ddb164e049104703e9490274a502097",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea rolului imun al splinei.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 20,
+   "printedPages": [
+    335,
+    334
+   ],
+   "pdfPages": [
+    197,
+    196
+   ],
+   "section": "Anatomia și fiziologia splinei"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "IgM scade.",
+    "evidenceLocation": "Lawrence, p. 335, 334, Anatomia și fiziologia splinei"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Splina mărită din bolile hematologice nu este de obicei dureroasă.",
+    "evidenceLocation": "Lawrence, p. 335, 334, Anatomia și fiziologia splinei"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Trombocitoza pasageră urmează splenectomiei.",
+    "evidenceLocation": "Lawrence, p. 335, 334, Anatomia și fiziologia splinei"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Este cea mai mare sursă de IgM.",
+    "evidenceLocation": "Lawrence, p. 335, 334, Anatomia și fiziologia splinei"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Opsonina scade după splenectomie.",
+    "evidenceLocation": "Lawrence, p. 335, 334, Anatomia și fiziologia splinei"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:24:35.903Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează IgM și durerea."
+  },
+  "textbookExpressions": [
+   "imunoglobulină M",
+   "opsonină"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a ficat-splina-adv-045: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "ficat-splina-adv-061-v2",
+  "questionFingerprint": "e70cf67f672675b0e31f5e099913cd6155f7d024187b9a6c3f1d550ab116386f",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea indicației splenectomiei în talasemii.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 20,
+   "printedPages": [
+    338
+   ],
+   "pdfPages": [
+    200
+   ],
+   "section": "Anemia hemolitică — talasemiile"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Talasemicii au cel mai mare risc de OPSI.",
+    "evidenceLocation": "Lawrence, p. 338, Anemia hemolitică — talasemiile"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Alternativele sunt preferate.",
+    "evidenceLocation": "Lawrence, p. 338, Anemia hemolitică — talasemiile"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "În siclemie splenectomia este rar indicată.",
+    "evidenceLocation": "Lawrence, p. 338, Anemia hemolitică — talasemiile"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Reduce transfuziile și disconfortul.",
+    "evidenceLocation": "Lawrence, p. 338, Anemia hemolitică — talasemiile"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Defectul de sinteză rămâne.",
+    "evidenceLocation": "Lawrence, p. 338, Anemia hemolitică — talasemiile"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:24:35.904Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii supraestimează efectul și extind indicația."
+  },
+  "textbookExpressions": [
+   "talasemia majoră",
+   "OPSI"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a ficat-splina-adv-061: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "ficat-splina-adv-017-v2",
+  "questionFingerprint": "87b021ba03600446995008dcfe055f644cf044d52b8aa32473e87e2cd509e968",
+  "status": "source-checked",
+  "learningObjective": "Interpretarea modificărilor hematologice postsplenectomie.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 20,
+   "printedPages": [
+    341
+   ],
+   "pdfPages": [
+    203
+   ],
+   "section": "Modificări hematologice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Lipsa lor sugerează splina accesorie.",
+    "evidenceLocation": "Lawrence, p. 341, Modificări hematologice"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Leucocitele cresc cu 50%, revin în 5–7 zile.",
+    "evidenceLocation": "Lawrence, p. 341, Modificări hematologice"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Corpii Howell-Jolly apar pe frotiu.",
+    "evidenceLocation": "Lawrence, p. 341, Modificări hematologice"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Persistența sugerează infecție.",
+    "evidenceLocation": "Lawrence, p. 341, Modificări hematologice"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: trombocitoza apare la 50%.",
+    "evidenceLocation": "Lawrence, p. 341, Modificări hematologice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:24:35.906Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează semnificația frotiului și a leucocitozei."
+  },
+  "textbookExpressions": [
+   "Howell-Jolly",
+   "5-7 zile"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a ficat-splina-adv-017: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "ficat-splina-adv-018-v2",
+  "questionFingerprint": "78bfa5b3e40715fdf9b60599d11dc6bfaf9be1e813cb0bbb025656de76bb2282",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea riscului de OPSI.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 20,
+   "printedPages": [
+    342
+   ],
+   "pdfPages": [
+    204
+   ],
+   "section": "Consecințe imunologice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Pneumococul produce 75%.",
+    "evidenceLocation": "Lawrence, p. 342, Consecințe imunologice"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: riscul este de 2–4% la copil și 1–2% la adult.",
+    "evidenceLocation": "Lawrence, p. 342, Consecințe imunologice"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Riscul este mai mare la copil.",
+    "evidenceLocation": "Lawrence, p. 342, Consecințe imunologice"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Riscul maxim este în bolile hematologice.",
+    "evidenceLocation": "Lawrence, p. 342, Consecințe imunologice"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu apare de obicei imediat postoperator.",
+    "evidenceLocation": "Lawrence, p. 342, Consecințe imunologice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:24:35.906Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează momentul și vârsta."
+  },
+  "textbookExpressions": [
+   "Streptococcus pneumoniae",
+   "hematologice"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a ficat-splina-adv-018: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  }
 ]
