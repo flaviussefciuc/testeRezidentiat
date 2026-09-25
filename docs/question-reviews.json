@@ -182922,85 +182922,6 @@
   "reviewNotes": "Rescriere a reumatologie-adv-073: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "tromboembolism-adv-001-v2",
-  "questionFingerprint": "425cdaba7125672d3cb5bbd4071cd8e6f60251638ecf0e87fbd7a61abfae5cba",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea triadei Virchow la tromboza arterială și venoasă.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 29,
-   "printedPages": [
-    1002,
-    1001
-   ],
-   "pdfPages": [
-    192,
-    191
-   ],
-   "section": "Factorii care influențează tromboza"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Turbulența și disfuncția peretelui, prin plăci ateromatoase, sunt factori arteriali.",
-    "evidenceLocation": "Kumar, p. 1002, 1001, Factorii care influențează tromboza"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Ruptura plăcii este un factor arterial.",
-    "evidenceLocation": "Kumar, p. 1002, 1001, Factorii care influențează tromboza"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Componentele sunt fluxul, peretele și hipercoagulabilitatea.",
-    "evidenceLocation": "Kumar, p. 1002, 1001, Factorii care influențează tromboza"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Staza și hipercoagulabilitatea sunt mai relevante pentru tromboza venoasă.",
-    "evidenceLocation": "Kumar, p. 1002, 1001, Factorii care influențează tromboza"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Staza este relevantă pentru tromboza venoasă.",
-    "evidenceLocation": "Kumar, p. 1002, 1001, Factorii care influențează tromboza"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:07:11.768Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează ponderea componentelor între artere și vene."
-  },
-  "textbookExpressions": [
-   "Virchow",
-   "Staza şi hipercoagulabilitatea"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a tromboembolism-adv-001: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "tromboembolism-adv-019-v2",
   "questionFingerprint": "368989455ffa89b418225edcca80868f5b8fe275474bc298f3e0e2cb1d04c91c",
   "status": "source-checked",
@@ -269519,5 +269440,84 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a perioperator-adv-030: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "tromboembolism-adv-001-v2",
+  "questionFingerprint": "0ab50d70b56b3bc259061e4e0d8a8e2428434c6cd1afbab722523523018e0564",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea triadei Virchow la tromboza arterială și venoasă.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 29,
+   "printedPages": [
+    1002,
+    1001
+   ],
+   "pdfPages": [
+    192,
+    191
+   ],
+   "section": "Factorii care influențează tromboza"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Turbulența și disfuncția peretelui, prin plăci ateromatoase, sunt factori arteriali.",
+    "evidenceLocation": "Kumar, p. 1002, 1001, Factorii care influențează tromboza"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Ruptura plăcii este un factor arterial.",
+    "evidenceLocation": "Kumar, p. 1002, 1001, Factorii care influențează tromboza"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: componentele sunt fluxul, peretele și hipercoagulabilitatea.",
+    "evidenceLocation": "Kumar, p. 1002, 1001, Factorii care influențează tromboza"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Staza și hipercoagulabilitatea sunt mai relevante pentru tromboza venoasă.",
+    "evidenceLocation": "Kumar, p. 1002, 1001, Factorii care influențează tromboza"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Staza este relevantă pentru tromboza venoasă.",
+    "evidenceLocation": "Kumar, p. 1002, 1001, Factorii care influențează tromboza"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:13:27.170Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează ponderea componentelor între artere și vene."
+  },
+  "textbookExpressions": [
+   "Virchow",
+   "Staza şi hipercoagulabilitatea"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a tromboembolism-adv-001: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  }
 ]

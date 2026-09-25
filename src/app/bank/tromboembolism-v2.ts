@@ -24,7 +24,7 @@ q('tromboembolism-adv-066',['Trombii arteriali sunt descriși ca:',
  [8,'Distractorii descriu trombii venoși.'],['trombi albi','plăcilor ateromatoase']),
 
 q('tromboembolism-adv-001',['În triada lui Virchow:',
- ['staza și hipercoagulabilitatea sunt relevante pentru tromboza venoasă','turbulența și disfuncția parietală sunt factori ai trombozei arteriale','hemoliza este una dintre cele trei componente','staza este determinantul principal al trombozei arteriale','ruptura plăcii inițiază tromboza venoasă'],'AB',1002,'Factorii care influențează tromboza',
+ ['staza și hipercoagulabilitatea favorizează tromboza venoasă','turbulența și leziunea parietală favorizează tromboza arterială','hemoliza intravasculară este una dintre cele trei componente','staza este determinantul principal al trombozei arteriale','ruptura plăcii ateromatoase inițiază tromboza venoasă'],'AB',1002,'Factorii care influențează tromboza',
  'Aplicarea triadei Virchow la tromboza arterială și venoasă.',
  ['Staza și hipercoagulabilitatea sunt mai relevante pentru tromboza venoasă.','Turbulența și disfuncția peretelui, prin plăci ateromatoase, sunt factori arteriali.','Nu: componentele sunt fluxul, peretele și hipercoagulabilitatea.','Staza este relevantă pentru tromboza venoasă.','Ruptura plăcii este un factor arterial.']],
  [8,'Distractorii inversează ponderea componentelor între artere și vene.'],['Virchow','Staza şi hipercoagulabilitatea'],[1001]),
