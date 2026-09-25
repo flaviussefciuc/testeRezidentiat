@@ -191199,83 +191199,6 @@
   "reviewNotes": "Rescriere a trauma-adv-001: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "trauma-adv-047-v2",
-  "questionFingerprint": "9c14a678fa9634b9c4edc48b687beca6929b24a97aac5feeee09eeeb3c3b355a",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea evaluării clinice a căii aeriene.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 9,
-   "printedPages": [
-    87
-   ],
-   "pdfPages": [
-    30
-   ],
-   "section": "Evaluarea primară — Căile aeriene"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Manevrele se fac menținând imobilizarea cervicală.",
-    "evidenceLocation": "Lawrence, p. 87, Evaluarea primară — Căile aeriene"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Stridorul, răgușeala și durerea la vorbire pot indica leziune.",
-    "evidenceLocation": "Lawrence, p. 87, Evaluarea primară — Căile aeriene"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "La obnubilat limba obstruează parțial sau total glota.",
-    "evidenceLocation": "Lawrence, p. 87, Evaluarea primară — Căile aeriene"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Nu pot fi utilizate dacă există leziuni ale feței.",
-    "evidenceLocation": "Lawrence, p. 87, Evaluarea primară — Căile aeriene"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Vocea normală indică permeabilitate și conștiență.",
-    "evidenceLocation": "Lawrence, p. 87, Evaluarea primară — Căile aeriene"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:36:00.311Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii contrazic contraindicațiile explicite."
-  },
-  "textbookExpressions": [
-   "Stridorul",
-   "nazofaringiene"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a trauma-adv-047: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "trauma-adv-077-v2",
   "questionFingerprint": "6a98a78956bd009512ff1758e32d8841fd145ac9717c8919a6ffba3ab8e5be4c",
   "status": "source-checked",
@@ -191663,83 +191586,6 @@
   "reviewNotes": "Rescriere a trauma-adv-015: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "trauma-adv-050-v2",
-  "questionFingerprint": "df81c1909ea54e1551a393f8b3ca9ff88235be83af1822ccb5b8890791be7912",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea etapei E din ABCDE.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 9,
-   "printedPages": [
-    89
-   ],
-   "pdfPages": [
-    32
-   ],
-   "section": "Evaluarea primară — Expunerea"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Este ultimul pas.",
-    "evidenceLocation": "Lawrence, p. 89, Evaluarea primară — Expunerea"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Hipotermia exacerbează coagulopatia și acidoza.",
-    "evidenceLocation": "Lawrence, p. 89, Evaluarea primară — Expunerea"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Pacientul se acoperă apoi cu cearceafuri calde.",
-    "evidenceLocation": "Lawrence, p. 89, Evaluarea primară — Expunerea"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Hainele ude se îndepărtează.",
-    "evidenceLocation": "Lawrence, p. 89, Evaluarea primară — Expunerea"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Se înlătură toate hainele pentru examinarea completă.",
-    "evidenceLocation": "Lawrence, p. 89, Evaluarea primară — Expunerea"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:36:00.316Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează ordinea și conduita."
-  },
-  "textbookExpressions": [
-   "cearceafuri calde",
-   "coagulopatia şi acidoza"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a trauma-adv-050: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "trauma-adv-081-v2",
   "questionFingerprint": "e3d730cafce49708b007fe33bae667fe616454e2821f8c43aa6331ac15b8b853",
   "status": "source-checked",
@@ -191892,164 +191738,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a trauma-adv-051: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "trauma-adv-082-v2",
-  "questionFingerprint": "15acaef92daa318a02ac7910a005b5a747ae5374d1f58d6e97bf09e5534395ba",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea relațiilor PPC, FSC și PIC.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 9,
-   "printedPages": [
-    90,
-    89
-   ],
-   "pdfPages": [
-    33,
-    32
-   ],
-   "section": "Traumatismele cranio-cerebrale — Fiziologie"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "FSC = PPC/RVC.",
-    "evidenceLocation": "Lawrence, p. 90, 89, Traumatismele cranio-cerebrale — Fiziologie"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Autoreglarea este alterată sau abolită după leziune.",
-    "evidenceLocation": "Lawrence, p. 90, 89, Traumatismele cranio-cerebrale — Fiziologie"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "PPC = PAM − PIC.",
-    "evidenceLocation": "Lawrence, p. 90, 89, Traumatismele cranio-cerebrale — Fiziologie"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Volumul intracranian este fix.",
-    "evidenceLocation": "Lawrence, p. 90, 89, Traumatismele cranio-cerebrale — Fiziologie"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "FSC scade peste 20 mmHg.",
-    "evidenceLocation": "Lawrence, p. 90, 89, Traumatismele cranio-cerebrale — Fiziologie"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:36:00.319Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează efectul PIC."
-  },
-  "textbookExpressions": [
-   "PPC/RVC",
-   "autoreglare"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a trauma-adv-082: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "trauma-adv-003-v2",
-  "questionFingerprint": "f3cce5f9911c96bd15d4f1474529fc5154a28ebfae06489e892fbb78236c36e1",
-  "status": "source-checked",
-  "learningObjective": "Interpretarea semnelor clinice și imagistice.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 9,
-   "printedPages": [
-    90,
-    89
-   ],
-   "pdfPages": [
-    33,
-    32
-   ],
-   "section": "Traumatismele cranio-cerebrale — Examen clinic"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Semnul Battle este semn de fractură de bază.",
-    "evidenceLocation": "Lawrence, p. 90, 89, Traumatismele cranio-cerebrale — Examen clinic"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Hematomul epidural este convex, lenticular.",
-    "evidenceLocation": "Lawrence, p. 90, 89, Traumatismele cranio-cerebrale — Examen clinic"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Hipotensiunea este cea mai frecventă cauză de leziune secundară.",
-    "evidenceLocation": "Lawrence, p. 90, 89, Traumatismele cranio-cerebrale — Examen clinic"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Reflexul Cushing asociază creșterea PAM, bradicardie și scăderea frecvenței respiratorii.",
-    "evidenceLocation": "Lawrence, p. 90, 89, Traumatismele cranio-cerebrale — Examen clinic"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Hipotensiunea nu trebuie atribuită injuriei cerebrale.",
-    "evidenceLocation": "Lawrence, p. 90, 89, Traumatismele cranio-cerebrale — Examen clinic"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:36:00.320Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează forma și cauzalitatea."
-  },
-  "textbookExpressions": [
-   "Cushing",
-   "Battle"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a trauma-adv-003: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "trauma-adv-018-v2",
@@ -192435,83 +192123,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a trauma-adv-085: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "trauma-adv-086-v2",
-  "questionFingerprint": "cc5efd158ca01f274b89ff5c83c9e35161e3ffd3a072dc7aae15ad2280502519",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea distribuției leziunilor spinale.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 9,
-   "printedPages": [
-    91
-   ],
-   "pdfPages": [
-    34
-   ],
-   "section": "Leziunile coloanei vertebrale"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Tărgile nu mai sunt recomandate din cauza ulcerelor de presiune.",
-    "evidenceLocation": "Lawrence, p. 91, Leziunile coloanei vertebrale"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Măduva se termină la prima vertebră lombară.",
-    "evidenceLocation": "Lawrence, p. 91, Leziunile coloanei vertebrale"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Coloana cervicală este sediul cel mai frecvent.",
-    "evidenceLocation": "Lawrence, p. 91, Leziunile coloanei vertebrale"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Coloana toracică, stabilizată de coaste, se lezează mai rar.",
-    "evidenceLocation": "Lawrence, p. 91, Leziunile coloanei vertebrale"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "15% apar la joncțiunea toraco-lombară.",
-    "evidenceLocation": "Lawrence, p. 91, Leziunile coloanei vertebrale"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:36:00.324Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii contrazic stabilitatea toracică și ghidurile."
-  },
-  "textbookExpressions": [
-   "toraco-lombară",
-   "filum"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a trauma-adv-086: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "trauma-adv-054-v2",
@@ -193053,83 +192664,6 @@
   "reviewNotes": "Rescriere a trauma-adv-059: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "trauma-adv-090-v2",
-  "questionFingerprint": "0b7b8f4873867538f3cd78307320a891aeaabe3159c9d7fe4a1926a6b7e06cc6",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea investigațiilor imagistice ale coloanei.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 9,
-   "printedPages": [
-    93
-   ],
-   "pdfPages": [
-    36
-   ],
-   "section": "Leziunile coloanei vertebrale — Imagistică"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Radiografia poate omite până la 20% din leziunile osoase.",
-    "evidenceLocation": "Lawrence, p. 93, Leziunile coloanei vertebrale — Imagistică"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "CT este standardul de aur.",
-    "evidenceLocation": "Lawrence, p. 93, Leziunile coloanei vertebrale — Imagistică"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Reconstrucția 3D nu necesită iradiere suplimentară.",
-    "evidenceLocation": "Lawrence, p. 93, Leziunile coloanei vertebrale — Imagistică"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Protocoalele se aplică doar pacientului conștient, neintoxicat.",
-    "evidenceLocation": "Lawrence, p. 93, Leziunile coloanei vertebrale — Imagistică"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "IRM necesită pacient stabil și cooperant.",
-    "evidenceLocation": "Lawrence, p. 93, Leziunile coloanei vertebrale — Imagistică"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:36:00.330Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii extind nejustificat protocoalele."
-  },
-  "textbookExpressions": [
-   "standardul de aur",
-   "20%"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a trauma-adv-090: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "trauma-adv-025-v2",
   "questionFingerprint": "4be60f61ef42421564d72e85a02368c6dc754b3927918161fb1148c298db4067",
   "status": "source-checked",
@@ -193207,83 +192741,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a trauma-adv-025: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "trauma-adv-006-v2",
-  "questionFingerprint": "af20eb342ff79c48b98c2a9dea7a5c577ca0de64128fe687b7be8b56cd0dcfcd",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea diagnosticului și tratamentului tamponadei.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 9,
-   "printedPages": [
-    94
-   ],
-   "pdfPages": [
-    37
-   ],
-   "section": "Tamponada cardiacă"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Pericardiocenteza doar temporizează.",
-    "evidenceLocation": "Lawrence, p. 94, Tamponada cardiacă"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Triada Beck: zgomote slabe, turgescență jugulară, hipotensiune.",
-    "evidenceLocation": "Lawrence, p. 94, Tamponada cardiacă"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "FAST este metoda de diagnostic principală.",
-    "evidenceLocation": "Lawrence, p. 94, Tamponada cardiacă"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Scenariul tipic este lezarea ventriculului stâng.",
-    "evidenceLocation": "Lawrence, p. 94, Tamponada cardiacă"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Absența semnelor Kussmaul sau a pulsului paradoxal nu exclude diagnosticul.",
-    "evidenceLocation": "Lawrence, p. 94, Tamponada cardiacă"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:36:00.332Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii schimbă ventriculul și tratamentul definitiv."
-  },
-  "textbookExpressions": [
-   "Beck",
-   "Kussmaul"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a trauma-adv-006: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "trauma-adv-005-v2",
@@ -193596,85 +193053,6 @@
   "reviewNotes": "Rescriere a trauma-adv-028: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "trauma-adv-063-v2",
-  "questionFingerprint": "99c90d89f720a7c0a1cea3e0c00b2a0253055001d9bef9c97c9e77ee4d6c2d90",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea managementului fracturilor costale.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 9,
-   "printedPages": [
-    96,
-    95
-   ],
-   "pdfPages": [
-    39,
-    38
-   ],
-   "section": "Fracturile costale"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Tinerii cu 1–2 fracturi pot fi externați.",
-    "evidenceLocation": "Lawrence, p. 96, 95, Fracturile costale"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Fracturile multiple au prognostic mai prost la vârstnici.",
-    "evidenceLocation": "Lawrence, p. 96, 95, Fracturile costale"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "CT este rareori indicat în acest scop.",
-    "evidenceLocation": "Lawrence, p. 96, 95, Fracturile costale"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Scopul este evitarea imobilizării toracelui.",
-    "evidenceLocation": "Lawrence, p. 96, 95, Fracturile costale"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Sunt cea mai frecventă leziune toracică în trauma închisă.",
-    "evidenceLocation": "Lawrence, p. 96, 95, Fracturile costale"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:36:00.337Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii contrazic conduita analgetică."
-  },
-  "textbookExpressions": [
-   "antialgice orale",
-   "epidurală"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a trauma-adv-063: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "trauma-adv-029-v2",
   "questionFingerprint": "7ce7ef74fe91f03fb9d15a511dd8745c826e0a805de73506cd7024a2f3eb6f45",
   "status": "source-checked",
@@ -193827,85 +193205,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a trauma-adv-064: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "trauma-adv-030-v2",
-  "questionFingerprint": "7c1d9b652d1d19660a501f9864eb714a3f7d8c6c9458788df7f635e523be2485",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea investigațiilor în traumatismul abdominal.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 9,
-   "printedPages": [
-    97,
-    98
-   ],
-   "pdfPages": [
-    40,
-    41
-   ],
-   "section": "Instrumente adjuvante"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "FAST include incidența pericardică.",
-    "evidenceLocation": "Lawrence, p. 97, 98, Instrumente adjuvante"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "CT se rezervă pacientului stabil.",
-    "evidenceLocation": "Lawrence, p. 97, 98, Instrumente adjuvante"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Palparea poate fi înșelătoare.",
-    "evidenceLocation": "Lawrence, p. 97, 98, Instrumente adjuvante"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "CT este standardul de aur la stabil.",
-    "evidenceLocation": "Lawrence, p. 97, 98, Instrumente adjuvante"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "FAST a înlocuit lavajul peritoneal.",
-    "evidenceLocation": "Lawrence, p. 97, 98, Instrumente adjuvante"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:36:00.340Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii extind CT la instabil."
-  },
-  "textbookExpressions": [
-   "lavajul peritoneal",
-   "standardul de aur"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a trauma-adv-030: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "trauma-adv-066-v2",
@@ -195930,160 +195229,6 @@
   "reviewNotes": "Rescriere a trauma-adv-045: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "trauma-adv-079-v2",
-  "questionFingerprint": "62b00ed54cf06c7336251e727e7c3020ebbae1a8569aeaab27ccf0a2ba8d21d4",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea principiilor resuscitării hemoragice.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 9,
-   "printedPages": [
-    88
-   ],
-   "pdfPages": [
-    31
-   ],
-   "section": "Evaluarea primară — Circulația"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Compresia directă sau garoul controlează temporar hemoragia externă.",
-    "evidenceLocation": "Lawrence, p. 88, Evaluarea primară — Circulația"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Refacerea volumului începe cu cristaloide izotone.",
-    "evidenceLocation": "Lawrence, p. 88, Evaluarea primară — Circulația"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Hemoragia, nu tamponada, este cea mai comună cauză.",
-    "evidenceLocation": "Lawrence, p. 88, Evaluarea primară — Circulația"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Se începe cu cristaloide izotone.",
-    "evidenceLocation": "Lawrence, p. 88, Evaluarea primară — Circulația"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Masa eritrocitară, plasma și plachetele se dau 1:1:1.",
-    "evidenceLocation": "Lawrence, p. 88, Evaluarea primară — Circulația"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:36:33.719Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Singurul distractor schimbă tipul de soluție."
-  },
-  "textbookExpressions": [
-   "Ringer lactat",
-   "garoului"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a trauma-adv-079: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "trauma-adv-049-v2",
-  "questionFingerprint": "9516d332ca70be4e2728d503d6bbaf84ed5f6e69ffe42d3fae973dd8da5c2c5b",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea caracteristicilor hemoragiei de clasa III.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 9,
-   "printedPages": [
-    88
-   ],
-   "pdfPages": [
-    31
-   ],
-   "section": "Tabelul 9-1"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Clasa III: 30–40%.",
-    "evidenceLocation": "Lawrence, p. 88, Tabelul 9-1"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Frecvența cardiacă >120.",
-    "evidenceLocation": "Lawrence, p. 88, Tabelul 9-1"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Diureza este 5–15 mL/oră.",
-    "evidenceLocation": "Lawrence, p. 88, Tabelul 9-1"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Se folosesc cristaloide și sânge.",
-    "evidenceLocation": "Lawrence, p. 88, Tabelul 9-1"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "TA este scăzută în clasa III.",
-    "evidenceLocation": "Lawrence, p. 88, Tabelul 9-1"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:36:33.720Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Singurul distractor preia TA din clasele I–II."
-  },
-  "textbookExpressions": [
-   "1.500-2.000",
-   "5-15"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a trauma-adv-049: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "trauma-adv-016-v2",
   "questionFingerprint": "388a42d8b8effd196e3a08fbd8551623c136e70e451df8a84fd8ac857b94a75f",
   "status": "source-checked",
@@ -196621,83 +195766,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a trauma-adv-027: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "trauma-adv-070-v2",
-  "questionFingerprint": "b423007f48f23fe3f8e01959a7538ff41d9f6da97b97ac6204e55bc15200d570",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea managementului leziunilor renale.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 9,
-   "printedPages": [
-    100
-   ],
-   "pdfPages": [
-    43
-   ],
-   "section": "Leziuni specifice — Rinichi"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Nefrectomia se face la grad ≥IV sau hil interesat.",
-    "evidenceLocation": "Lawrence, p. 100, Leziuni specifice — Rinichi"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Contuziile necesită rareori chirurgie.",
-    "evidenceLocation": "Lawrence, p. 100, Leziuni specifice — Rinichi"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Leziunile penetrante sunt adesea autolimitate.",
-    "evidenceLocation": "Lawrence, p. 100, Leziuni specifice — Rinichi"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Rinichiul este protejat de poziție și fascia Gerota.",
-    "evidenceLocation": "Lawrence, p. 100, Leziuni specifice — Rinichi"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Foley se menține 7–10 zile.",
-    "evidenceLocation": "Lawrence, p. 100, Leziuni specifice — Rinichi"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T21:37:29.263Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Singurul distractor contrazice conduita conservatoare."
-  },
-  "textbookExpressions": [
-   "Gerota",
-   "hilul"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a trauma-adv-070: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "trauma-adv-008-v2",
@@ -269519,5 +268587,937 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a tromboembolism-adv-001: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "trauma-adv-047-v2",
+  "questionFingerprint": "5669bae201eee08964a9cc818a60c823b1035ae4d952c3cd172150c3fcd86fb3",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea evaluării clinice a căii aeriene.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 9,
+   "printedPages": [
+    87
+   ],
+   "pdfPages": [
+    30
+   ],
+   "section": "Evaluarea primară — Căile aeriene"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: ridicarea bărbiei se face cu imobilizarea coloanei cervicale.",
+    "evidenceLocation": "Lawrence, p. 87, Evaluarea primară — Căile aeriene"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Stridorul, răgușeala și durerea la vorbire pot indica leziune.",
+    "evidenceLocation": "Lawrence, p. 87, Evaluarea primară — Căile aeriene"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "La obnubilat limba obstruează parțial sau total glota.",
+    "evidenceLocation": "Lawrence, p. 87, Evaluarea primară — Căile aeriene"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu pot fi utilizate dacă există leziuni ale feței.",
+    "evidenceLocation": "Lawrence, p. 87, Evaluarea primară — Căile aeriene"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Vocea normală indică permeabilitate și conștiență.",
+    "evidenceLocation": "Lawrence, p. 87, Evaluarea primară — Căile aeriene"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:13:59.450Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii contrazic contraindicațiile explicite."
+  },
+  "textbookExpressions": [
+   "Stridorul",
+   "nazofaringiene"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a trauma-adv-047: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "trauma-adv-079-v2",
+  "questionFingerprint": "f819a8c4f47e6094a69df6167c27328bf51da1c619b62f9aa5cf5b2e9e8640a6",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea principiilor resuscitării hemoragice.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 9,
+   "printedPages": [
+    88
+   ],
+   "pdfPages": [
+    31
+   ],
+   "section": "Evaluarea primară — Circulația"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Compresia directă sau garoul controlează temporar hemoragia externă.",
+    "evidenceLocation": "Lawrence, p. 88, Evaluarea primară — Circulația"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Refacerea volumului începe cu cristaloide izotone.",
+    "evidenceLocation": "Lawrence, p. 88, Evaluarea primară — Circulația"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Hemoragia, nu tamponada, este cea mai comună cauză.",
+    "evidenceLocation": "Lawrence, p. 88, Evaluarea primară — Circulația"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Se începe cu cristaloide izotone.",
+    "evidenceLocation": "Lawrence, p. 88, Evaluarea primară — Circulația"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: în șocul sever raportul plasmă:trombocite:MER este 1:1:1.",
+    "evidenceLocation": "Lawrence, p. 88, Evaluarea primară — Circulația"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:13:59.454Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Singurul distractor schimbă tipul de soluție."
+  },
+  "textbookExpressions": [
+   "Ringer lactat",
+   "garoului"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a trauma-adv-079: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "trauma-adv-049-v2",
+  "questionFingerprint": "0b997cf1fea33bf4c18945849e5d5754022edc143cab6e8183f65409e7d558ab",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea caracteristicilor hemoragiei de clasa III.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 9,
+   "printedPages": [
+    88
+   ],
+   "pdfPages": [
+    31
+   ],
+   "section": "Tabelul 9-1"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Clasa III: 30–40%.",
+    "evidenceLocation": "Lawrence, p. 88, Tabelul 9-1"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Frecvența cardiacă >120.",
+    "evidenceLocation": "Lawrence, p. 88, Tabelul 9-1"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: în clasa III diureza este 5–15 mL/oră.",
+    "evidenceLocation": "Lawrence, p. 88, Tabelul 9-1"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Se folosesc cristaloide și sânge.",
+    "evidenceLocation": "Lawrence, p. 88, Tabelul 9-1"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "TA este scăzută în clasa III.",
+    "evidenceLocation": "Lawrence, p. 88, Tabelul 9-1"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:13:59.454Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Singurul distractor preia TA din clasele I–II."
+  },
+  "textbookExpressions": [
+   "1.500-2.000",
+   "5-15"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a trauma-adv-049: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "trauma-adv-050-v2",
+  "questionFingerprint": "bd7ceb2d0b098774e17df8f3f625a34016c2b82ab779099909f2e24be362898e",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea etapei E din ABCDE.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 9,
+   "printedPages": [
+    89
+   ],
+   "pdfPages": [
+    32
+   ],
+   "section": "Evaluarea primară — Expunerea"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Este ultimul pas.",
+    "evidenceLocation": "Lawrence, p. 89, Evaluarea primară — Expunerea"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Hipotermia exacerbează coagulopatia și acidoza.",
+    "evidenceLocation": "Lawrence, p. 89, Evaluarea primară — Expunerea"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: pacientul se acoperă apoi cu cearceafuri calde.",
+    "evidenceLocation": "Lawrence, p. 89, Evaluarea primară — Expunerea"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Hainele ude se îndepărtează.",
+    "evidenceLocation": "Lawrence, p. 89, Evaluarea primară — Expunerea"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Se înlătură toate hainele pentru examinarea completă.",
+    "evidenceLocation": "Lawrence, p. 89, Evaluarea primară — Expunerea"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:13:59.455Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează ordinea și conduita."
+  },
+  "textbookExpressions": [
+   "cearceafuri calde",
+   "coagulopatia şi acidoza"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a trauma-adv-050: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "trauma-adv-082-v2",
+  "questionFingerprint": "071cb70e8bfb02ca75551e9741f88dd6e10148714220e01762521f8b8951a323",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea relațiilor PPC, FSC și PIC.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 9,
+   "printedPages": [
+    90,
+    89
+   ],
+   "pdfPages": [
+    33,
+    32
+   ],
+   "section": "Traumatismele cranio-cerebrale — Fiziologie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "FSC = PPC/RVC.",
+    "evidenceLocation": "Lawrence, p. 90, 89, Traumatismele cranio-cerebrale — Fiziologie"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: autoreglarea este alterată după leziunile cerebrale.",
+    "evidenceLocation": "Lawrence, p. 90, 89, Traumatismele cranio-cerebrale — Fiziologie"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "PPC = PAM − PIC.",
+    "evidenceLocation": "Lawrence, p. 90, 89, Traumatismele cranio-cerebrale — Fiziologie"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Volumul intracranian este fix.",
+    "evidenceLocation": "Lawrence, p. 90, 89, Traumatismele cranio-cerebrale — Fiziologie"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "FSC scade peste 20 mmHg.",
+    "evidenceLocation": "Lawrence, p. 90, 89, Traumatismele cranio-cerebrale — Fiziologie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:13:59.456Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează efectul PIC."
+  },
+  "textbookExpressions": [
+   "PPC/RVC",
+   "autoreglare"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a trauma-adv-082: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "trauma-adv-003-v2",
+  "questionFingerprint": "f629f75b41d4e149fcb1c353a28bc1261d3e56c9f5bdc537cb8faf08bfe33a47",
+  "status": "source-checked",
+  "learningObjective": "Interpretarea semnelor clinice și imagistice.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 9,
+   "printedPages": [
+    90,
+    89
+   ],
+   "pdfPages": [
+    33,
+    32
+   ],
+   "section": "Traumatismele cranio-cerebrale — Examen clinic"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: semnul Battle sugerează fractură de bază de craniu.",
+    "evidenceLocation": "Lawrence, p. 90, 89, Traumatismele cranio-cerebrale — Examen clinic"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Hematomul epidural este convex, lenticular.",
+    "evidenceLocation": "Lawrence, p. 90, 89, Traumatismele cranio-cerebrale — Examen clinic"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Hipotensiunea este cea mai frecventă cauză de leziune secundară.",
+    "evidenceLocation": "Lawrence, p. 90, 89, Traumatismele cranio-cerebrale — Examen clinic"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Reflexul Cushing asociază creșterea PAM, bradicardie și scăderea frecvenței respiratorii.",
+    "evidenceLocation": "Lawrence, p. 90, 89, Traumatismele cranio-cerebrale — Examen clinic"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Hipotensiunea nu trebuie atribuită injuriei cerebrale.",
+    "evidenceLocation": "Lawrence, p. 90, 89, Traumatismele cranio-cerebrale — Examen clinic"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:13:59.457Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează forma și cauzalitatea."
+  },
+  "textbookExpressions": [
+   "Cushing",
+   "Battle"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a trauma-adv-003: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "trauma-adv-086-v2",
+  "questionFingerprint": "873f10e760433b207b7f4a4e1a1c31410cb8236a0f6403220e3a0324d6eeb2fc",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea distribuției leziunilor spinale.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 9,
+   "printedPages": [
+    91
+   ],
+   "pdfPages": [
+    34
+   ],
+   "section": "Leziunile coloanei vertebrale"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Tărgile nu mai sunt recomandate din cauza ulcerelor de presiune.",
+    "evidenceLocation": "Lawrence, p. 91, Leziunile coloanei vertebrale"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: măduva se termină la adult la nivelul L1.",
+    "evidenceLocation": "Lawrence, p. 91, Leziunile coloanei vertebrale"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Coloana cervicală este sediul cel mai frecvent.",
+    "evidenceLocation": "Lawrence, p. 91, Leziunile coloanei vertebrale"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Coloana toracică, stabilizată de coaste, se lezează mai rar.",
+    "evidenceLocation": "Lawrence, p. 91, Leziunile coloanei vertebrale"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "15% apar la joncțiunea toraco-lombară.",
+    "evidenceLocation": "Lawrence, p. 91, Leziunile coloanei vertebrale"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:13:59.458Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii contrazic stabilitatea toracică și ghidurile."
+  },
+  "textbookExpressions": [
+   "toraco-lombară",
+   "filum"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a trauma-adv-086: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "trauma-adv-090-v2",
+  "questionFingerprint": "d90cb54e99c1531df48000e1b7adae3b1ec5458ca9e5293bf846fc143b20768e",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea investigațiilor imagistice ale coloanei.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 9,
+   "printedPages": [
+    93
+   ],
+   "pdfPages": [
+    36
+   ],
+   "section": "Leziunile coloanei vertebrale — Imagistică"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Radiografia poate omite până la 20% din leziunile osoase.",
+    "evidenceLocation": "Lawrence, p. 93, Leziunile coloanei vertebrale — Imagistică"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "CT este standardul de aur.",
+    "evidenceLocation": "Lawrence, p. 93, Leziunile coloanei vertebrale — Imagistică"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Reconstrucția 3D nu necesită iradiere suplimentară.",
+    "evidenceLocation": "Lawrence, p. 93, Leziunile coloanei vertebrale — Imagistică"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Protocoalele se aplică doar pacientului conștient, neintoxicat.",
+    "evidenceLocation": "Lawrence, p. 93, Leziunile coloanei vertebrale — Imagistică"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: IRM necesită pacient stabil și cooperant.",
+    "evidenceLocation": "Lawrence, p. 93, Leziunile coloanei vertebrale — Imagistică"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:13:59.459Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii extind nejustificat protocoalele."
+  },
+  "textbookExpressions": [
+   "standardul de aur",
+   "20%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a trauma-adv-090: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "trauma-adv-006-v2",
+  "questionFingerprint": "ee1cf2151be3ea97220942a1dff0e978c4c9999bbaac5378facae7a841e9fb12",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea diagnosticului și tratamentului tamponadei.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 9,
+   "printedPages": [
+    94
+   ],
+   "pdfPages": [
+    37
+   ],
+   "section": "Tamponada cardiacă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Pericardiocenteza doar temporizează.",
+    "evidenceLocation": "Lawrence, p. 94, Tamponada cardiacă"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Triada Beck: zgomote slabe, turgescență jugulară, hipotensiune.",
+    "evidenceLocation": "Lawrence, p. 94, Tamponada cardiacă"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "FAST este metoda de diagnostic principală.",
+    "evidenceLocation": "Lawrence, p. 94, Tamponada cardiacă"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Scenariul tipic este lezarea ventriculului stâng.",
+    "evidenceLocation": "Lawrence, p. 94, Tamponada cardiacă"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: absența semnului Kussmaul nu exclude tamponada.",
+    "evidenceLocation": "Lawrence, p. 94, Tamponada cardiacă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:13:59.460Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii schimbă ventriculul și tratamentul definitiv."
+  },
+  "textbookExpressions": [
+   "Beck",
+   "Kussmaul"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a trauma-adv-006: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "trauma-adv-030-v2",
+  "questionFingerprint": "49340426281c2b52400129dc3b0f31c0b41f648094c60d4ed376b3c3a98e2d7c",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea investigațiilor în traumatismul abdominal.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 9,
+   "printedPages": [
+    97,
+    98
+   ],
+   "pdfPages": [
+    40,
+    41
+   ],
+   "section": "Instrumente adjuvante"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: FAST evaluează și pericardul.",
+    "evidenceLocation": "Lawrence, p. 97, 98, Instrumente adjuvante"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "CT se rezervă pacientului stabil.",
+    "evidenceLocation": "Lawrence, p. 97, 98, Instrumente adjuvante"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Palparea poate fi înșelătoare.",
+    "evidenceLocation": "Lawrence, p. 97, 98, Instrumente adjuvante"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "CT este standardul de aur la stabil.",
+    "evidenceLocation": "Lawrence, p. 97, 98, Instrumente adjuvante"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "FAST a înlocuit lavajul peritoneal.",
+    "evidenceLocation": "Lawrence, p. 97, 98, Instrumente adjuvante"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:13:59.461Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii extind CT la instabil."
+  },
+  "textbookExpressions": [
+   "lavajul peritoneal",
+   "standardul de aur"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a trauma-adv-030: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "trauma-adv-070-v2",
+  "questionFingerprint": "9603d49c34fb21e4d29291a31310f3e42db5a30abc3b14829b5fd2806d5fd4cc",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea managementului leziunilor renale.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 9,
+   "printedPages": [
+    100
+   ],
+   "pdfPages": [
+    43
+   ],
+   "section": "Leziuni specifice — Rinichi"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Nefrectomia se face la grad ≥IV sau hil interesat.",
+    "evidenceLocation": "Lawrence, p. 100, Leziuni specifice — Rinichi"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Contuziile necesită rareori chirurgie.",
+    "evidenceLocation": "Lawrence, p. 100, Leziuni specifice — Rinichi"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Leziunile penetrante sunt adesea autolimitate.",
+    "evidenceLocation": "Lawrence, p. 100, Leziuni specifice — Rinichi"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Rinichiul este protejat de poziție și fascia Gerota.",
+    "evidenceLocation": "Lawrence, p. 100, Leziuni specifice — Rinichi"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: Foley se menține 7–10 zile sau până la dispariția hematuriei.",
+    "evidenceLocation": "Lawrence, p. 100, Leziuni specifice — Rinichi"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:13:59.463Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Singurul distractor contrazice conduita conservatoare."
+  },
+  "textbookExpressions": [
+   "Gerota",
+   "hilul"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a trauma-adv-070: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "trauma-adv-063-v2",
+  "questionFingerprint": "5861eb8c4f5b8c6ac52e6ff7be8108644af440c1853155a27766daf92de2acf6",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea managementului fracturilor costale.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 9,
+   "printedPages": [
+    96,
+    95
+   ],
+   "pdfPages": [
+    39,
+    38
+   ],
+   "section": "Fracturile costale"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Tinerii cu 1–2 fracturi pot fi externați.",
+    "evidenceLocation": "Lawrence, p. 96, 95, Fracturile costale"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: prognosticul este mai prost la vârstnici.",
+    "evidenceLocation": "Lawrence, p. 96, 95, Fracturile costale"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "CT este rareori indicat în acest scop.",
+    "evidenceLocation": "Lawrence, p. 96, 95, Fracturile costale"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Scopul este evitarea imobilizării toracelui.",
+    "evidenceLocation": "Lawrence, p. 96, 95, Fracturile costale"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Sunt cea mai frecventă leziune toracică în trauma închisă.",
+    "evidenceLocation": "Lawrence, p. 96, 95, Fracturile costale"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:14:14.690Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii contrazic conduita analgetică."
+  },
+  "textbookExpressions": [
+   "antialgice orale",
+   "epidurală"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a trauma-adv-063: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  }
 ]
