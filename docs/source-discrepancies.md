@@ -243,3 +243,15 @@ Fiecare temă rescrisă (versiunile `-v2`) a fost confruntată din nou cu pagini
 - `orl-adv-115`: enunțul («aerul inspirat ... are ca ținte optime») nu se potrivea cu varianta despre venele fără valve; `-115-v2` are enunțul «Nasul și sinusurile paranazale».
 - P. 563: textul spune «plexul Kisselbach», iar p. 561 spune «plexul Kiesselbach»; itemii folosesc forma corectă, Kiesselbach.
 - Retrase fără înlocuitor (dubluri): 029 (inclus în `-118-v2`), 109 (inclus în `-020-v2`), 110 (inclus în `-021-v2`), 119 (durata tratamentului, inclusă în `-030-v2`), 120 (diagnosticul micozei invazive, inclus în `-031-v2`).
+
+### Pneumologie (Kumar, cap. 28, p. 949–961; 963–972; 975–982)
+- `pneumologie-adv-027` (cheie greșită): varianta «efectul lor este aditiv cu cel al BADLA» era marcată falsă, deși p. 953 spune «efectul lor este aditiv cu cel al BADLA»; iar «răspunsul clinic poate fi prezis înainte de inițiere» era marcată adevărată, deși textul spune «nu poate fi prezis care pacienţi vor avea un beneficiu». `-027-v2` are cheia corectată.
+- **În afara tematicii (retrase fără înlocuitor):** tematica 2026 enumeră pe titluri «Astmul», «BPOC (până la „Apneea în somn de tip obstructiv”)», «Pneumonia», «Tuberculoza (până la „Infecția cu micobacterii netuberculoase”)» și «Tumorile maligne (până la „Tumorile benigne”)». Au fost retrași itemii din secțiunile care nu aparțin acestor titluri, chiar dacă sunt tipăriți pe pagini din interval:
+  - apneea în somn (p. 961, după titlul-limită): 039, 120;
+  - tusea cronică (p. 949, înaintea titlului «Astmul»): 063, 103, 104;
+  - fumatul (p. 963, înaintea titlului «Pneumonia»): 014, 040, 079, 080, 121;
+  - afecțiunile pleurale și pneumotoracele (p. 972 după limita TB și p. 975 înaintea titlului «Neoplaziile»): 054, 055, 092, 093, 133, 134;
+  - tumorile benigne și bronșiectaziile (p. 982, după limită): 062, 142.
+  Niciuna dintre cele șase variante de examen din 2021–2025 nu conține întrebări din aceste secțiuni Kumar.
+- Micobacteriile netuberculoase (p. 972, după limită) au fost scoase din `-053-v2` (acum doar M. bovis) și din `-091-v2` (acum chimioprofilaxia ITBL).
+- Retrase ca dubluri: 012 (inclus în `-119-v2`), 107 (inclus în `-002-v2`), 126 (inclus în `-044-v2`).
