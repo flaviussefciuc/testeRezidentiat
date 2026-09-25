@@ -18,9 +18,9 @@ q('infectii-chir-adv-008',['Prevenția infecțiilor de plagă chirurgicală incl
  [8,'Singurul distractor contrazice regula tunderii.'],['tuns','alcool'],[76]),
 
 q('infectii-chir-adv-002',['Antibioterapia profilactică perioperatorie:',
- ['se administrează de regulă cu o oră înainte de incizie','cu vancomicină începe cu 120 de minute înainte de incizie','se continuă de obicei sub 24 de ore postoperator','este la fel de eficientă administrată după contaminare','se continuă 7 zile în intervențiile curate'],'ABC',76,'Antibioterapia perioperatorie',
+ ['se administrează de regulă cu o oră înainte de incizie','cu vancomicină începe cu 120 de minute înainte de incizie','se continuă de obicei 72 de ore postoperator','este la fel de eficientă administrată după contaminare','se continuă 7 zile în intervențiile curate'],'AB',76,'Antibioterapia perioperatorie',
  'Aplicarea momentului și duratei profilaxiei.',
- ['Doza se dă cu o oră înainte de incizie.','Fluorochinolonele și vancomicina încep cu 120 de minute înainte.','Durata este sub 24 de ore.','După contaminare antibioticele nu opresc infecția.','Prelungirea crește rezistența fără beneficiu.']],
+ ['Doza se dă cu o oră înainte de incizie.','Fluorochinolonele și vancomicina încep cu 120 de minute înainte.','Nu: durata este sub 24 de ore.','După contaminare antibioticele nu opresc infecția.','Prelungirea crește rezistența fără beneficiu.']],
  [8,'Distractorii contrazic principiile profilaxiei.'],['120','24 de ore']),
 
 q('infectii-chir-adv-026',['Dozele suplimentare de antibiotic și riscul de IPC:',
@@ -60,9 +60,9 @@ q('infectii-chir-adv-018',['Durata antibioterapiei și infecțiile nosocomiale:'
  [8,'Distractorii generalizează extensia și subestimează eșecul.'],['48 de','30%']),
 
 q('infectii-chir-adv-010',['Febra postoperatorie:',
- ['precoce se datorează de obicei atelectaziei','„Wind” corespunde zilelor 1–2','„Wound” corespunde zilelor 3–5','medicamentoasă este cauza cea mai frecventă','impune antibiotice înaintea identificării sursei'],'ABC',77,'Febra postoperatorie — Tabelul 8-4',
+ ['precoce se datorează de obicei atelectaziei','„Wind” corespunde zilelor 1–2','„Wound” corespunde zilelor 7–10','medicamentoasă este cauza cea mai frecventă','impune antibiotice înaintea identificării sursei'],'AB',77,'Febra postoperatorie — Tabelul 8-4',
  'Aplicarea celor 6 W ai febrei postoperatorii.',
- ['Creșterea precoce este de obicei prin atelectazie.','Wind: zilele 1–2.','Wound: zilele 3–5.','Febra medicamentoasă este rar întâlnită.','Antibioticele se încep doar la sursă identificată.']],
+ ['Creșterea precoce este de obicei prin atelectazie.','Wind: zilele 1–2.','Nu: Wound corespunde zilelor 3–5.','Febra medicamentoasă este rar întâlnită.','Antibioticele se încep doar la sursă identificată.']],
  [8,'Distractorii inversează frecvența și conduita.'],['atelectaziei','Wound']),
 
 q('infectii-chir-adv-011',['Infecțiile de loc operator și intra-abdominale:',
@@ -84,15 +84,15 @@ q('infectii-chir-adv-036',['După controlul sursei în infecția intra-abdominal
  [8,'Distractorii sunt durate plauzibile.'],['2 zile','leucocitozei']),
 
 q('infectii-chir-adv-012',['Efuziunile pleurale exudative inflamatorii:',
- ['au un pH lichidian sub 7,2','au glucoză sub 60 mg/dL','au LDH peste de trei ori nivelul seric','au un pH lichidian peste 7,5','au colorație Gram pozitivă la toți pacienții'],'ABC',78,'Empiemul',
+ ['au un pH lichidian acid, sub 7,2','au glucoză lichidiană sub 60 mg/dL','au LDH sub jumătate din nivelul seric','au un pH lichidian peste 7,5','au Gram pozitiv la toți pacienții'],'AB',78,'Empiemul',
  'Interpretarea lichidului pleural în empiem.',
- ['pH <7,2.','Glucoză <60 mg/dL.','LDH >3× seric.','pH-ul este acid.','O treime nu au germeni identificați.']],
+ ['pH <7,2.','Glucoză <60 mg/dL.','Nu: LDH depășește de trei ori nivelul seric.','pH-ul este acid.','O treime nu au germeni identificați.']],
  [8,'Distractorii inversează valorile.'],['7,2','60 mg/dL']),
 
 q('infectii-chir-adv-013',['Pneumonia asociată ventilatorului:',
- ['împreună cu pneumonia nosocomială reprezintă 22% din infecțiile din spital','apare la aproximativ 10% dintre pacienții ventilați','se tratează de obicei 7 zile cu antibiotic specific','apare la aproximativ 50% dintre pacienții ventilați','se tratează de obicei 21 de zile cu antibiotic specific'],'ABC',79,'Pneumonia asociată ventilației',
+ ['împreună cu pneumonia nosocomială reprezintă 22% din infecțiile din spital','apare la aproximativ 10% dintre pacienții ventilați','se tratează de obicei 14 zile cu antibiotic specific','apare la aproximativ 50% dintre pacienții ventilați','se tratează de obicei 21 de zile cu antibiotic specific'],'AB',79,'Pneumonia asociată ventilației',
  'Fixarea epidemiologiei și duratei tratamentului PAV.',
- ['Reprezintă 22%, cele mai frecvente nosocomiale.','Aproximativ 10% dintre ventilați.','7 zile sunt suficiente la majoritate.','Rata este de 10%.','7 zile sunt suficiente.']],
+ ['Reprezintă 22%, cele mai frecvente nosocomiale.','Aproximativ 10% dintre ventilați.','Nu: 7 zile sunt suficiente la majoritatea pacienților.','Rata este de 10%.','7 zile sunt suficiente.']],
  [8,'Distractorii umflă incidența și durata.'],['22%','7 zile']),
 
 q('infectii-chir-adv-037',['Diagnosticul și terapia empirică în PAV:',
@@ -174,9 +174,9 @@ q('infectii-chir-adv-022',['Abcesul mamar:',
  [8,'Singurul distractor contrazice recomandarea.'],['stafilococică','aspiraţia serială']),
 
 q('infectii-chir-adv-041',['Abcesul mamar — factori de risc și drenaj:',
- ['vârsta de gestație peste 41 de săptămâni crește riscul','drenajul chirurgical are rezultat cosmetic mai prost','tegumentul compromis impune drenaj chirurgical','prima sarcină scade riscul','drenajul chirurgical are cea mai mică rată de fistule'],'ABC',81,'Abcesul mamar',
+ ['vârsta de gestație peste 41 de săptămâni crește riscul','drenajul chirurgical are rezultat cosmetic mai bun','tegumentul compromis impune drenaj chirurgical','prima sarcină scade riscul','drenajul chirurgical are cea mai mică rată de fistule'],'AC',81,'Abcesul mamar',
  'Recunoașterea factorilor de risc și a dezavantajelor drenajului.',
- ['Gestația >41 de săptămâni este factor de risc.','Drenajul chirurgical are rezultat cosmetic mai prost.','Tegumentul compromis sau eșecul aspirației impun drenaj.','Prima sarcină crește riscul.','Drenajul are rată mai mare de fistule.']],
+ ['Gestația >41 de săptămâni este factor de risc.','Nu: drenajul chirurgical are rezultat cosmetic mai prost.','Tegumentul compromis sau eșecul aspirației impun drenaj.','Prima sarcină crește riscul.','Drenajul are rată mai mare de fistule.']],
  [8,'Distractorii inversează factorul și complicația.'],['41 de săptămâni','fistule']),
 
 q('infectii-chir-adv-024',['Abcesul perirectal extins deasupra planșeului pelvin poate fi fatal mai ales la:',
@@ -192,9 +192,9 @@ q('infectii-chir-adv-023',['Infecțiile mâinii:',
  [8,'Distractorii exagerează sau subestimează tratamentul.'],['Panariţiul','tecii'],[81]),
 
 q('infectii-chir-adv-042',['Infecțiile spațiilor profunde ale mâinii:',
- ['spațiul tenar ține policele în abducție','abcesul palmar șterge concavitatea palmei','necesită incizie și drenaj imediat','spațiul tenar ține policele în adducție forțată','abcesul palmar accentuează concavitatea palmei'],'ABC',82,'Infecțiile mâinii',
+ ['spațiul tenar ține policele în abducție','abcesul palmar șterge concavitatea palmei','se tratează inițial conservator, cu antibiotic','spațiul tenar ține policele în adducție forțată','abcesul palmar accentuează concavitatea palmei'],'AB',82,'Infecțiile mâinii',
  'Recunoașterea semnelor infecțiilor spațiilor profunde.',
- ['Policele este ținut în abducție.','Concavitatea palmară dispare.','Incizia și drenajul sunt imediate.','Policele este în abducție.','Concavitatea se pierde.']],
+ ['Policele este ținut în abducție.','Concavitatea palmară dispare.','Nu: incizia și drenajul sunt imediate.','Policele este în abducție.','Concavitatea se pierde.']],
  [8,'Distractorii inversează semnele.'],['abducţie','concavităţii']),
 
 q('infectii-chir-adv-033',['Mușcăturile mâinii:',
@@ -228,15 +228,15 @@ q('infectii-chir-adv-043',['Angiocolita obstructivă:',
  [8,'Singurul distractor inversează ordinea.'],['Reynold','sfincterotomie']),
 
 q('infectii-chir-adv-032',['Peritonita primară, comparativ cu cea secundară:',
- ['este de obicei monomicrobiană','este mai frecventă la alcoolicii cu ascită','apare fără întreruperea tractului digestiv','este de obicei polimicrobiană','apare prin catetere de dializă peritoneală'],'ABC',82,'Peritonita acută',
+ ['este de obicei monomicrobiană','este mai frecventă după perforația ulceroasă','apare fără întreruperea tractului digestiv','este de obicei polimicrobiană','apare prin catetere de dializă peritoneală'],'AC',82,'Peritonita acută',
  'Diferențierea peritonitei primare de cea secundară.',
- ['Primara este de obicei monomicrobiană.','Este frecventă la alcoolicii cu ascită și imunocompromiși.','Nu există întreruperea continuității GI.','Secundara este polimicrobiană.','Cateterele produc peritonită secundară.']],
+ ['Primara este de obicei monomicrobiană.','Nu: perforația produce peritonită secundară; primara apare la alcoolicii cu ascită.','Nu există întreruperea continuității GI.','Secundara este polimicrobiană.','Cateterele produc peritonită secundară.']],
  [8,'Distractorii preiau trăsăturile peritonitei secundare.'],['monomicrobiană','dializă peritoneală']),
 
 q('infectii-chir-adv-006',['Ulcerul gastroduodenal perforat:',
- ['arată pneumoperitoneu radiologic la ~80%','impune testarea pentru Helicobacter pylori','cu aclorhidrie impune terapie antifungică empirică','are CT mai puțin sensibil decât radiografia','arată pneumoperitoneu radiologic la ~30%'],'ABC',83,'Peritonita — Ulcerul perforat',
+ ['arată pneumoperitoneu radiologic la ~80%','impune testarea pentru Helicobacter pylori','cu aclorhidrie nu necesită acoperire antifungică','are CT mai puțin sensibil decât radiografia','arată pneumoperitoneu radiologic la ~30%'],'AB',83,'Peritonita — Ulcerul perforat',
  'Aplicarea diagnosticului și tratamentului ulcerului perforat.',
- ['Aproximativ 80% au pneumoperitoneu radiologic.','Toți se testează pentru H. pylori.','Aclorhidria impune antifungic empiric.','CT este mai sensibil.','Proporția este ~80%.']],
+ ['Aproximativ 80% au pneumoperitoneu radiologic.','Toți se testează pentru H. pylori.','Nu: aclorhidria impune terapie antifungică empirică.','CT este mai sensibil.','Proporția este ~80%.']],
  [8,'Distractorii inversează sensibilitatea și frecvența.'],['80%','aclorhidrie']),
 
 q('infectii-chir-adv-007',['Perforația apendiculară și cea colonică:',

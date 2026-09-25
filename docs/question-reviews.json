@@ -208770,83 +208770,6 @@
   "reviewNotes": "Rescriere a infectii-chir-adv-008: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "infectii-chir-adv-002-v2",
-  "questionFingerprint": "9f73b77b8afb5393c0a7161e3472e4118d90005c8f624a52ff4ba7129b3ce032",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea momentului și duratei profilaxiei.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 8,
-   "printedPages": [
-    76
-   ],
-   "pdfPages": [
-    21
-   ],
-   "section": "Antibioterapia perioperatorie"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Doza se dă cu o oră înainte de incizie.",
-    "evidenceLocation": "Lawrence, p. 76, Antibioterapia perioperatorie"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Prelungirea crește rezistența fără beneficiu.",
-    "evidenceLocation": "Lawrence, p. 76, Antibioterapia perioperatorie"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Fluorochinolonele și vancomicina încep cu 120 de minute înainte.",
-    "evidenceLocation": "Lawrence, p. 76, Antibioterapia perioperatorie"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "După contaminare antibioticele nu opresc infecția.",
-    "evidenceLocation": "Lawrence, p. 76, Antibioterapia perioperatorie"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Durata este sub 24 de ore.",
-    "evidenceLocation": "Lawrence, p. 76, Antibioterapia perioperatorie"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:24:42.593Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii contrazic principiile profilaxiei."
-  },
-  "textbookExpressions": [
-   "120",
-   "24 de ore"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a infectii-chir-adv-002: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "infectii-chir-adv-026-v2",
   "questionFingerprint": "a5ccad18eee6f77e9eec83f7b2c068e7a4caa3a2fd059b44f1ec93356f792d1d",
   "status": "source-checked",
@@ -209311,83 +209234,6 @@
   "reviewNotes": "Rescriere a infectii-chir-adv-018: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "infectii-chir-adv-010-v2",
-  "questionFingerprint": "df94204560d856d225c3fdd01fcd4d21c3ca32a214abcd579ce5da23d707998e",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea celor 6 W ai febrei postoperatorii.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 8,
-   "printedPages": [
-    77
-   ],
-   "pdfPages": [
-    22
-   ],
-   "section": "Febra postoperatorie — Tabelul 8-4"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Creșterea precoce este de obicei prin atelectazie.",
-    "evidenceLocation": "Lawrence, p. 77, Febra postoperatorie — Tabelul 8-4"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Antibioticele se încep doar la sursă identificată.",
-    "evidenceLocation": "Lawrence, p. 77, Febra postoperatorie — Tabelul 8-4"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Febra medicamentoasă este rar întâlnită.",
-    "evidenceLocation": "Lawrence, p. 77, Febra postoperatorie — Tabelul 8-4"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Wound: zilele 3–5.",
-    "evidenceLocation": "Lawrence, p. 77, Febra postoperatorie — Tabelul 8-4"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Wind: zilele 1–2.",
-    "evidenceLocation": "Lawrence, p. 77, Febra postoperatorie — Tabelul 8-4"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:24:42.598Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează frecvența și conduita."
-  },
-  "textbookExpressions": [
-   "atelectaziei",
-   "Wound"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a infectii-chir-adv-010: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "infectii-chir-adv-011-v2",
   "questionFingerprint": "cf781d3f50d579d23d5bac134b7400a32d3b8da8964834d18a428d6c58ca795b",
   "status": "source-checked",
@@ -209540,83 +209386,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a infectii-chir-adv-028: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "infectii-chir-adv-013-v2",
-  "questionFingerprint": "9b59e2d858b0a17dcb0fe6ab58d209cb9d163bb455d546df19de24213aebe526",
-  "status": "source-checked",
-  "learningObjective": "Fixarea epidemiologiei și duratei tratamentului PAV.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 8,
-   "printedPages": [
-    79
-   ],
-   "pdfPages": [
-    24
-   ],
-   "section": "Pneumonia asociată ventilației"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Reprezintă 22%, cele mai frecvente nosocomiale.",
-    "evidenceLocation": "Lawrence, p. 79, Pneumonia asociată ventilației"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Aproximativ 10% dintre ventilați.",
-    "evidenceLocation": "Lawrence, p. 79, Pneumonia asociată ventilației"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "7 zile sunt suficiente.",
-    "evidenceLocation": "Lawrence, p. 79, Pneumonia asociată ventilației"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "7 zile sunt suficiente la majoritate.",
-    "evidenceLocation": "Lawrence, p. 79, Pneumonia asociată ventilației"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Rata este de 10%.",
-    "evidenceLocation": "Lawrence, p. 79, Pneumonia asociată ventilației"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:24:42.600Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii umflă incidența și durata."
-  },
-  "textbookExpressions": [
-   "22%",
-   "7 zile"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a infectii-chir-adv-013: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "infectii-chir-adv-037-v2",
@@ -210237,160 +210006,6 @@
   "reviewNotes": "Rescriere a infectii-chir-adv-022: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "infectii-chir-adv-041-v2",
-  "questionFingerprint": "cc258ed03d71e437bdac688a80da9eb01d9a94a9615359e18937721b46b8d577",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea factorilor de risc și a dezavantajelor drenajului.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 8,
-   "printedPages": [
-    81
-   ],
-   "pdfPages": [
-    26
-   ],
-   "section": "Abcesul mamar"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Drenajul are rată mai mare de fistule.",
-    "evidenceLocation": "Lawrence, p. 81, Abcesul mamar"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Tegumentul compromis sau eșecul aspirației impun drenaj.",
-    "evidenceLocation": "Lawrence, p. 81, Abcesul mamar"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Drenajul chirurgical are rezultat cosmetic mai prost.",
-    "evidenceLocation": "Lawrence, p. 81, Abcesul mamar"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Prima sarcină crește riscul.",
-    "evidenceLocation": "Lawrence, p. 81, Abcesul mamar"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Gestația >41 de săptămâni este factor de risc.",
-    "evidenceLocation": "Lawrence, p. 81, Abcesul mamar"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:24:42.607Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează factorul și complicația."
-  },
-  "textbookExpressions": [
-   "41 de săptămâni",
-   "fistule"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a infectii-chir-adv-041: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "infectii-chir-adv-042-v2",
-  "questionFingerprint": "6ee96bb319c8f306abda4a90af72675a2b934a0226f9087fb93ea092c821f795",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea semnelor infecțiilor spațiilor profunde.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 8,
-   "printedPages": [
-    82
-   ],
-   "pdfPages": [
-    27
-   ],
-   "section": "Infecțiile mâinii"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Concavitatea se pierde.",
-    "evidenceLocation": "Lawrence, p. 82, Infecțiile mâinii"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Concavitatea palmară dispare.",
-    "evidenceLocation": "Lawrence, p. 82, Infecțiile mâinii"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Policele este în abducție.",
-    "evidenceLocation": "Lawrence, p. 82, Infecțiile mâinii"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Incizia și drenajul sunt imediate.",
-    "evidenceLocation": "Lawrence, p. 82, Infecțiile mâinii"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Policele este ținut în abducție.",
-    "evidenceLocation": "Lawrence, p. 82, Infecțiile mâinii"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:24:42.609Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează semnele."
-  },
-  "textbookExpressions": [
-   "abducţie",
-   "concavităţii"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a infectii-chir-adv-042: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "infectii-chir-adv-033-v2",
   "questionFingerprint": "470229b486b007aebaf6ba81917573b2d202c23b797b60bf9dc0fc636d05bc2d",
   "status": "source-checked",
@@ -210699,162 +210314,6 @@
   "reviewNotes": "Rescriere a infectii-chir-adv-043: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "infectii-chir-adv-032-v2",
-  "questionFingerprint": "e732ff94d0884e143a206e5b0d673e5321d83bcaa56df46cacf3b600d108bed0",
-  "status": "source-checked",
-  "learningObjective": "Diferențierea peritonitei primare de cea secundară.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 8,
-   "printedPages": [
-    82,
-    83
-   ],
-   "pdfPages": [
-    27,
-    28
-   ],
-   "section": "Peritonita acută"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Secundara este polimicrobiană.",
-    "evidenceLocation": "Lawrence, p. 82, 83, Peritonita acută"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Primara este de obicei monomicrobiană.",
-    "evidenceLocation": "Lawrence, p. 82, 83, Peritonita acută"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Cateterele produc peritonită secundară.",
-    "evidenceLocation": "Lawrence, p. 82, 83, Peritonita acută"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Nu există întreruperea continuității GI.",
-    "evidenceLocation": "Lawrence, p. 82, 83, Peritonita acută"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Este frecventă la alcoolicii cu ascită și imunocompromiși.",
-    "evidenceLocation": "Lawrence, p. 82, 83, Peritonita acută"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:24:42.613Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii preiau trăsăturile peritonitei secundare."
-  },
-  "textbookExpressions": [
-   "monomicrobiană",
-   "dializă peritoneală"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a infectii-chir-adv-032: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "infectii-chir-adv-006-v2",
-  "questionFingerprint": "6f78e8480865785d58f5ff5ed7299d8f0b48913c8e717dcedc9b1a4afbf56840",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea diagnosticului și tratamentului ulcerului perforat.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 8,
-   "printedPages": [
-    83
-   ],
-   "pdfPages": [
-    28
-   ],
-   "section": "Peritonita — Ulcerul perforat"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Proporția este ~80%.",
-    "evidenceLocation": "Lawrence, p. 83, Peritonita — Ulcerul perforat"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "CT este mai sensibil.",
-    "evidenceLocation": "Lawrence, p. 83, Peritonita — Ulcerul perforat"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Toți se testează pentru H. pylori.",
-    "evidenceLocation": "Lawrence, p. 83, Peritonita — Ulcerul perforat"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Aproximativ 80% au pneumoperitoneu radiologic.",
-    "evidenceLocation": "Lawrence, p. 83, Peritonita — Ulcerul perforat"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Aclorhidria impune antifungic empiric.",
-    "evidenceLocation": "Lawrence, p. 83, Peritonita — Ulcerul perforat"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:24:42.614Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează sensibilitatea și frecvența."
-  },
-  "textbookExpressions": [
-   "80%",
-   "aclorhidrie"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a infectii-chir-adv-006: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "infectii-chir-adv-007-v2",
   "questionFingerprint": "5dbe9932a6337ddd69a5ad784b8de8913bbe462d7bd210b23fd0f695d6461337",
   "status": "source-checked",
@@ -211088,83 +210547,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a infectii-chir-adv-036: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "infectii-chir-adv-012-v2",
-  "questionFingerprint": "163df53bd39872e4795d4900ea1fad7d7145e661f1055fdb7900dba8cfa06914",
-  "status": "source-checked",
-  "learningObjective": "Interpretarea lichidului pleural în empiem.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 8,
-   "printedPages": [
-    78
-   ],
-   "pdfPages": [
-    23
-   ],
-   "section": "Empiemul"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "pH <7,2.",
-    "evidenceLocation": "Lawrence, p. 78, Empiemul"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "LDH >3× seric.",
-    "evidenceLocation": "Lawrence, p. 78, Empiemul"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "pH-ul este acid.",
-    "evidenceLocation": "Lawrence, p. 78, Empiemul"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "O treime nu au germeni identificați.",
-    "evidenceLocation": "Lawrence, p. 78, Empiemul"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Glucoză <60 mg/dL.",
-    "evidenceLocation": "Lawrence, p. 78, Empiemul"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:25:16.644Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează valorile."
-  },
-  "textbookExpressions": [
-   "7,2",
-   "60 mg/dL"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a infectii-chir-adv-012: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "infectii-chir-adv-029-v2",
@@ -269519,5 +268901,623 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a dermato-adv-009: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "infectii-chir-adv-002-v2",
+  "questionFingerprint": "474d54a1fd47211900207563de7f904933f45aa88c2d0d65a26a89b9edcc2464",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea momentului și duratei profilaxiei.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 8,
+   "printedPages": [
+    76
+   ],
+   "pdfPages": [
+    21
+   ],
+   "section": "Antibioterapia perioperatorie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Doza se dă cu o oră înainte de incizie.",
+    "evidenceLocation": "Lawrence, p. 76, Antibioterapia perioperatorie"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Prelungirea crește rezistența fără beneficiu.",
+    "evidenceLocation": "Lawrence, p. 76, Antibioterapia perioperatorie"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Fluorochinolonele și vancomicina încep cu 120 de minute înainte.",
+    "evidenceLocation": "Lawrence, p. 76, Antibioterapia perioperatorie"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "După contaminare antibioticele nu opresc infecția.",
+    "evidenceLocation": "Lawrence, p. 76, Antibioterapia perioperatorie"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: durata este sub 24 de ore.",
+    "evidenceLocation": "Lawrence, p. 76, Antibioterapia perioperatorie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:21:30.482Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii contrazic principiile profilaxiei."
+  },
+  "textbookExpressions": [
+   "120",
+   "24 de ore"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a infectii-chir-adv-002: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "infectii-chir-adv-010-v2",
+  "questionFingerprint": "bc62605f3370ce511d65f0277983410f32854a3c0f39f05ebae91a3a9f4e20be",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea celor 6 W ai febrei postoperatorii.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 8,
+   "printedPages": [
+    77
+   ],
+   "pdfPages": [
+    22
+   ],
+   "section": "Febra postoperatorie — Tabelul 8-4"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Creșterea precoce este de obicei prin atelectazie.",
+    "evidenceLocation": "Lawrence, p. 77, Febra postoperatorie — Tabelul 8-4"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Antibioticele se încep doar la sursă identificată.",
+    "evidenceLocation": "Lawrence, p. 77, Febra postoperatorie — Tabelul 8-4"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Febra medicamentoasă este rar întâlnită.",
+    "evidenceLocation": "Lawrence, p. 77, Febra postoperatorie — Tabelul 8-4"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: Wound corespunde zilelor 3–5.",
+    "evidenceLocation": "Lawrence, p. 77, Febra postoperatorie — Tabelul 8-4"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Wind: zilele 1–2.",
+    "evidenceLocation": "Lawrence, p. 77, Febra postoperatorie — Tabelul 8-4"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:21:30.485Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează frecvența și conduita."
+  },
+  "textbookExpressions": [
+   "atelectaziei",
+   "Wound"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a infectii-chir-adv-010: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "infectii-chir-adv-013-v2",
+  "questionFingerprint": "6cdb3a33faf9f596071d2de3c3fb91294273b227fe13e7299dc7642741513280",
+  "status": "source-checked",
+  "learningObjective": "Fixarea epidemiologiei și duratei tratamentului PAV.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 8,
+   "printedPages": [
+    79
+   ],
+   "pdfPages": [
+    24
+   ],
+   "section": "Pneumonia asociată ventilației"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Reprezintă 22%, cele mai frecvente nosocomiale.",
+    "evidenceLocation": "Lawrence, p. 79, Pneumonia asociată ventilației"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Aproximativ 10% dintre ventilați.",
+    "evidenceLocation": "Lawrence, p. 79, Pneumonia asociată ventilației"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "7 zile sunt suficiente.",
+    "evidenceLocation": "Lawrence, p. 79, Pneumonia asociată ventilației"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: 7 zile sunt suficiente la majoritatea pacienților.",
+    "evidenceLocation": "Lawrence, p. 79, Pneumonia asociată ventilației"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Rata este de 10%.",
+    "evidenceLocation": "Lawrence, p. 79, Pneumonia asociată ventilației"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:21:30.486Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii umflă incidența și durata."
+  },
+  "textbookExpressions": [
+   "22%",
+   "7 zile"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a infectii-chir-adv-013: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "infectii-chir-adv-041-v2",
+  "questionFingerprint": "fd3b8206e2f7e755293c7a29faf1ffe6a6adbc1e474e08f1fd2d5382098b9e68",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea factorilor de risc și a dezavantajelor drenajului.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 8,
+   "printedPages": [
+    81
+   ],
+   "pdfPages": [
+    26
+   ],
+   "section": "Abcesul mamar"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Drenajul are rată mai mare de fistule.",
+    "evidenceLocation": "Lawrence, p. 81, Abcesul mamar"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Tegumentul compromis sau eșecul aspirației impun drenaj.",
+    "evidenceLocation": "Lawrence, p. 81, Abcesul mamar"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: drenajul chirurgical are rezultat cosmetic mai prost.",
+    "evidenceLocation": "Lawrence, p. 81, Abcesul mamar"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Prima sarcină crește riscul.",
+    "evidenceLocation": "Lawrence, p. 81, Abcesul mamar"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Gestația >41 de săptămâni este factor de risc.",
+    "evidenceLocation": "Lawrence, p. 81, Abcesul mamar"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:21:30.488Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează factorul și complicația."
+  },
+  "textbookExpressions": [
+   "41 de săptămâni",
+   "fistule"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a infectii-chir-adv-041: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "infectii-chir-adv-042-v2",
+  "questionFingerprint": "19607247555fbc53f7771c2e8a6eecaca6924ce0994ae98158a4f2bc0ecd13b6",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea semnelor infecțiilor spațiilor profunde.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 8,
+   "printedPages": [
+    82
+   ],
+   "pdfPages": [
+    27
+   ],
+   "section": "Infecțiile mâinii"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Concavitatea se pierde.",
+    "evidenceLocation": "Lawrence, p. 82, Infecțiile mâinii"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Concavitatea palmară dispare.",
+    "evidenceLocation": "Lawrence, p. 82, Infecțiile mâinii"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Policele este în abducție.",
+    "evidenceLocation": "Lawrence, p. 82, Infecțiile mâinii"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: incizia și drenajul sunt imediate.",
+    "evidenceLocation": "Lawrence, p. 82, Infecțiile mâinii"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Policele este ținut în abducție.",
+    "evidenceLocation": "Lawrence, p. 82, Infecțiile mâinii"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:21:30.489Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează semnele."
+  },
+  "textbookExpressions": [
+   "abducţie",
+   "concavităţii"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a infectii-chir-adv-042: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "infectii-chir-adv-032-v2",
+  "questionFingerprint": "ccee91720748642d5d85353651e44b44686e6c3aca668874e72cbcf748171c35",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea peritonitei primare de cea secundară.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 8,
+   "printedPages": [
+    82,
+    83
+   ],
+   "pdfPages": [
+    27,
+    28
+   ],
+   "section": "Peritonita acută"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Secundara este polimicrobiană.",
+    "evidenceLocation": "Lawrence, p. 82, 83, Peritonita acută"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Primara este de obicei monomicrobiană.",
+    "evidenceLocation": "Lawrence, p. 82, 83, Peritonita acută"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Cateterele produc peritonită secundară.",
+    "evidenceLocation": "Lawrence, p. 82, 83, Peritonita acută"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Nu există întreruperea continuității GI.",
+    "evidenceLocation": "Lawrence, p. 82, 83, Peritonita acută"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: perforația produce peritonită secundară; primara apare la alcoolicii cu ascită.",
+    "evidenceLocation": "Lawrence, p. 82, 83, Peritonita acută"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:21:30.490Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii preiau trăsăturile peritonitei secundare."
+  },
+  "textbookExpressions": [
+   "monomicrobiană",
+   "dializă peritoneală"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a infectii-chir-adv-032: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "infectii-chir-adv-006-v2",
+  "questionFingerprint": "93dd14d0df7b7a7fa3d5193523fcc6bca2dd5d1f613d7edfe225cf636a74918b",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea diagnosticului și tratamentului ulcerului perforat.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 8,
+   "printedPages": [
+    83
+   ],
+   "pdfPages": [
+    28
+   ],
+   "section": "Peritonita — Ulcerul perforat"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Proporția este ~80%.",
+    "evidenceLocation": "Lawrence, p. 83, Peritonita — Ulcerul perforat"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "CT este mai sensibil.",
+    "evidenceLocation": "Lawrence, p. 83, Peritonita — Ulcerul perforat"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Toți se testează pentru H. pylori.",
+    "evidenceLocation": "Lawrence, p. 83, Peritonita — Ulcerul perforat"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Aproximativ 80% au pneumoperitoneu radiologic.",
+    "evidenceLocation": "Lawrence, p. 83, Peritonita — Ulcerul perforat"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: aclorhidria impune terapie antifungică empirică.",
+    "evidenceLocation": "Lawrence, p. 83, Peritonita — Ulcerul perforat"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:21:30.491Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează sensibilitatea și frecvența."
+  },
+  "textbookExpressions": [
+   "80%",
+   "aclorhidrie"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a infectii-chir-adv-006: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "infectii-chir-adv-012-v2",
+  "questionFingerprint": "305021c31b1c3250a6d6aab6c915aa050d6f19e0b0fed0f679e0e5ec8f5dd4e4",
+  "status": "source-checked",
+  "learningObjective": "Interpretarea lichidului pleural în empiem.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 8,
+   "printedPages": [
+    78
+   ],
+   "pdfPages": [
+    23
+   ],
+   "section": "Empiemul"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "pH <7,2.",
+    "evidenceLocation": "Lawrence, p. 78, Empiemul"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: LDH depășește de trei ori nivelul seric.",
+    "evidenceLocation": "Lawrence, p. 78, Empiemul"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "pH-ul este acid.",
+    "evidenceLocation": "Lawrence, p. 78, Empiemul"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "O treime nu au germeni identificați.",
+    "evidenceLocation": "Lawrence, p. 78, Empiemul"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Glucoză <60 mg/dL.",
+    "evidenceLocation": "Lawrence, p. 78, Empiemul"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:21:45.216Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează valorile."
+  },
+  "textbookExpressions": [
+   "7,2",
+   "60 mg/dL"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a infectii-chir-adv-012: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  }
 ]
