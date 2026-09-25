@@ -179,3 +179,9 @@ Fiecare temă rescrisă (versiunile `-v2`) a fost confruntată din nou cu pagini
 - P. 273: textul dă pentru VIPom «un nivel seric al VIP <75-150 pg/mL» ca valoare diagnostică. Semnul este probabil inversat (hipersecreția definește tumora), așa că pragul nu este testat.
 - P. 269: afirmația că o rudă paternă cu cancer pancreatic conferă «un risc de 75%» nu are sursă și este neverosimilă. Nu se mai testează (vechiul `-057`).
 - Retrase fără înlocuitor (dubluri): 013 (inclus în `-070-v2`), 016 (inclus în `-002-v2`), 017 (stadializarea Balthazar), 033 (inclus în `-046-v2`), 036 (inclus în `-075-v2`), 067 (inclus în `-008-v2`), 068 (drenajul venos), 089 (teoriile durerii).
+
+### Afecțiunile ginecologice și mamare (Sinopsis, cap. 12, p. 273–292)
+- Nu s-au găsit chei greșite în cei 92 de itemi confruntați cu p. 273–292.
+- P. 277: textul numește scăderea ponderală «tratamentul de primă linie pentru bufeuri». Formularea este neobișnuită, dar itemul `-043-v2` o preia ca atare, iar distractorii sunt tratamentele citate pentru alte probleme ale menopauzei.
+- P. 280: dismenoreea primară apare «la începutul menstruaţiei», iar cea secundară «la mijlocul ciclului menstrual anterior». Distractorul din `-035-v2` inversează aceste momente.
+- Retrase fără înlocuitor (dubluri sau trivia numerică): 045 (inclus în `-073-v2`), 050 (inclus în `-072-v2`), 053 și 069 (stadiile Tanner, incluse în `-015-v2`), 068 (tabelul de dezvoltare), 074 (inclus în `-073-v2`), 086 (inclus în `-062-v2`).
