@@ -70,6 +70,7 @@ Fiecare temă rescrisă (versiunile `-v2`) a fost confruntată din nou cu pagini
 - P. 187: legenda Figurii 13-13 numește bypass-ul gastric «cea mai frecventă procedură bariatrică», în timp ce textul și Figura 13-11 arată gastrectomia longitudinală pe primul loc (125.496 față de 40.392 în 2016). Versiunile `-v2` urmează textul și datele numerice.
 - P. 180–181: textul plasează dumpingul precoce «la aproximativ 15 minute» și pe cel tardiv «la 3 ore», iar Tabelul 13-2 dă 15–30 de minute, respectiv 1–3 ore. Itemii folosesc intervalele din tabel, compatibile cu textul.
 - P. 182: proporția pacienților cu scaune dese după reconstrucție este ilizibilă în extras («unul din panu»); nu se folosește ca răspuns.
+- P. 168: textul numește artera gastroduodenală «prima ramură a arterei hepatice proprii». În anatomia standard, ea provine din artera hepatică comună. `-039-v2` nu testează originea exactă: variantele corecte sunt poziția retroduodenală și erodarea de către ulcerele posterioare, iar distractorul folosește artera splenică, greșită în ambele versiuni.
 - Retrase fără înlocuitor (trivia sau parafraze): 015, 029, 030, 055, 068, 071, 073, 075, 083, 088, 091, 092.
 
 ### Reumatologie (Kumar, cap. 18)
