@@ -171869,314 +171869,6 @@
   "reviewNotes": "Rescriere a hemostaza-adv-014: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "esofag-adv-001-v2",
-  "questionFingerprint": "18de8af38d1d7e57eec2b22c33928a37b395ba18c557a6bacecadac16546d79d",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea reperelor anatomice generale ale esofagului.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 12,
-   "printedPages": [
-    140
-   ],
-   "pdfPages": [
-    80
-   ],
-   "section": "Anatomia generală"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Esofagul are aproximativ 25 cm lungime.",
-    "evidenceLocation": "Lawrence, p. 140, Anatomia generală"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Începe la nivelul cartilajului cricoid (C6).",
-    "evidenceLocation": "Lawrence, p. 140, Anatomia generală"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Se termină chiar sub diafragm, la T11.",
-    "evidenceLocation": "Lawrence, p. 140, Anatomia generală"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Aorta coboară pe stânga, deci abordul este de cele mai multe ori prin toracotomie dreaptă.",
-    "evidenceLocation": "Lawrence, p. 140, Anatomia generală"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Arcul aortic este una dintre cele trei zone de îngustare.",
-    "evidenceLocation": "Lawrence, p. 140, Anatomia generală"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:20:54.244Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Vertebra de terminare și partea toracotomiei sunt deplasate față de text."
-  },
-  "textbookExpressions": [
-   "cartilajului cricoid",
-   "arcului aortic"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a esofag-adv-001: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "esofag-adv-007-v2",
-  "questionFingerprint": "9c39184efe6de9dded74ebfabc1e2c4fc0645f7cd3d300bfa2b72a4049fe6ece",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea lungimilor segmentare și a reperelor endoscopice ale esofagului.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 12,
-   "printedPages": [
-    140
-   ],
-   "pdfPages": [
-    80
-   ],
-   "section": "Anatomia generală — Segmente și repere endoscopice"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Esofagul cervical are 3–5 cm; 18–22 cm este esofagul toracic proximal și mijlociu.",
-    "evidenceLocation": "Lawrence, p. 140, Anatomia generală — Segmente și repere endoscopice"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Esofagul începe la aproximativ 15 cm de arcada dentară.",
-    "evidenceLocation": "Lawrence, p. 140, Anatomia generală — Segmente și repere endoscopice"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Traheea și atriul stâng sunt anterioare esofagului.",
-    "evidenceLocation": "Lawrence, p. 140, Anatomia generală — Segmente și repere endoscopice"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Esofagul abdominal distal are 3–6 cm.",
-    "evidenceLocation": "Lawrence, p. 140, Anatomia generală — Segmente și repere endoscopice"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Esofagul se termină la aproximativ 40 cm de arcada dentară.",
-    "evidenceLocation": "Lawrence, p. 140, Anatomia generală — Segmente și repere endoscopice"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:20:54.247Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Lungimile segmentelor sunt permutate între ele."
-  },
-  "textbookExpressions": [
-   "15 cm de arcada",
-   "18-22 cm"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a esofag-adv-007: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "esofag-adv-008-v2",
-  "questionFingerprint": "fbb17b611ac8c83e149f898aac46d3191206cebd1698572f93b9d87425ad787d",
-  "status": "source-checked",
-  "learningObjective": "Asocierea fiecărui segment esofagian cu sursa sa arterială.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 12,
-   "printedPages": [
-    140
-   ],
-   "pdfPages": [
-    80
-   ],
-   "section": "Vascularizația arterială"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Esofagul cervical este irigat de artera tiroidiană inferioară, din trunchiul tirocervical.",
-    "evidenceLocation": "Lawrence, p. 140, Vascularizația arterială"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Tiroidiana superioară nu este sursa citată.",
-    "evidenceLocation": "Lawrence, p. 140, Vascularizația arterială"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Esofagul toracic primește arterele bronșice și arterele esofagiene din aorta toracică.",
-    "evidenceLocation": "Lawrence, p. 140, Vascularizația arterială"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Esofagul distal este vascularizat de ramuri ale arterei gastrice stângi.",
-    "evidenceLocation": "Lawrence, p. 140, Vascularizația arterială"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Gastroepiploica dreaptă nu este citată ca sursă esofagiană.",
-    "evidenceLocation": "Lawrence, p. 140, Vascularizația arterială"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:20:54.248Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii sunt artere vecine ale acelorași regiuni."
-  },
-  "textbookExpressions": [
-   "tiroidiană inferioară",
-   "arterei gastrice stângi"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a esofag-adv-008: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "esofag-adv-009-v2",
-  "questionFingerprint": "e7120544650c0aa83a7110dd531395cfd112428cea2af57847a4918b7e94d07b",
-  "status": "source-checked",
-  "learningObjective": "Maparea drenajului venos și limfatic pe segmentele esofagului.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 12,
-   "printedPages": [
-    140
-   ],
-   "pdfPages": [
-    80
-   ],
-   "section": "Drenajul venos și limfatic"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Venele azygos și hemiazygos drenează esofagul toracic.",
-    "evidenceLocation": "Lawrence, p. 140, Drenajul venos și limfatic"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Vena coronariană gastrică și gastrica stângă se varsă în sistemul port.",
-    "evidenceLocation": "Lawrence, p. 140, Drenajul venos și limfatic"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Esofagul cervical drenează în ganglionii cervicali profunzi (jugulari).",
-    "evidenceLocation": "Lawrence, p. 140, Drenajul venos și limfatic"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Esofagul distal drenează în ganglionii celiaci, gastrici stângi și parahiatali.",
-    "evidenceLocation": "Lawrence, p. 140, Drenajul venos și limfatic"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "În hipertensiunea portală, plexul inferior face legătura porto-azygos, cu varice.",
-    "evidenceLocation": "Lawrence, p. 140, Drenajul venos și limfatic"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:20:54.248Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Stațiile limfatice sunt mutate între segmentele esofagului."
-  },
-  "textbookExpressions": [
-   "azygos",
-   "varicelor esofagiene"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a esofag-adv-009: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "esofag-adv-010-v2",
   "questionFingerprint": "3a2ce16ebe9493cac2bfe0faea0eadfcbb3c956c443de9ae690b2dc333ef0a6f",
   "status": "source-checked",
@@ -172406,83 +172098,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a esofag-adv-012: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "esofag-adv-011-v2",
-  "questionFingerprint": "7c6026641efac50b9b9db53d03a25ef46957294bbfdafeadbba14578238d3acf",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea presiunilor de repaus ale sfincterelor și a secvenței deglutiției.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 12,
-   "printedPages": [
-    142
-   ],
-   "pdfPages": [
-    82
-   ],
-   "section": "Fiziologia esofagiană"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "SES are 30–120 mm Hg în repaus.",
-    "evidenceLocation": "Lawrence, p. 142, Fiziologia esofagiană"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "SEI are 15–30 mm Hg în repaus.",
-    "evidenceLocation": "Lawrence, p. 142, Fiziologia esofagiană"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Deglutiția este inițiată voluntar de nucleul ambiguu, din bulb.",
-    "evidenceLocation": "Lawrence, p. 142, Fiziologia esofagiană"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "SEI se relaxează în anticiparea bolusului.",
-    "evidenceLocation": "Lawrence, p. 142, Fiziologia esofagiană"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "După pasajul bolusului, SEI revine la presiunea de repaus ridicată.",
-    "evidenceLocation": "Lawrence, p. 142, Fiziologia esofagiană"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:20:54.251Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Intervalul de presiune al SES este atribuit SEI."
-  },
-  "textbookExpressions": [
-   "30-120 mm Hg",
-   "nucleul ambiguu"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a esofag-adv-011: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "esofag-adv-030-v2",
@@ -172795,162 +172410,6 @@
   "reviewNotes": "Rescriere a esofag-adv-050: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "esofag-adv-018-v2",
-  "questionFingerprint": "097c534474d50fdd9322ac2d3b81e07d37961abf22e5a73c07f14e155795ed81",
-  "status": "source-checked",
-  "learningObjective": "Asocierea investigațiilor cu constatările din achalazie.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 12,
-   "printedPages": [
-    159
-   ],
-   "pdfPages": [
-    91
-   ],
-   "section": "Achalazia — Diagnostic"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Tranzitul baritat arată clasic semnul ciocului de pasăre.",
-    "evidenceLocation": "Lawrence, p. 159, Achalazia — Diagnostic"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Manometria arată eșecul relaxării SEI la deglutiție.",
-    "evidenceLocation": "Lawrence, p. 159, Achalazia — Diagnostic"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Endoscopia exclude alte cauze de obstrucție distală, precum carcinomul (pseudoachalazie).",
-    "evidenceLocation": "Lawrence, p. 159, Achalazia — Diagnostic"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Manometria arată absența contracțiilor peristaltice normale.",
-    "evidenceLocation": "Lawrence, p. 159, Achalazia — Diagnostic"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Precauția endoscopică pentru perforație privește diverticulul Zenker.",
-    "evidenceLocation": "Lawrence, p. 159, Achalazia — Diagnostic"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:20:54.260Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorul endoscopic este preluat de la diverticulul Zenker."
-  },
-  "textbookExpressions": [
-   "ciocului de pasăre",
-   "pseudoachalazie"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a esofag-adv-018: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "esofag-adv-051-v2",
-  "questionFingerprint": "0e87413ee50d66f9b3502bff059990cf32049bbd73bb34ddcd767d5ecba0d788",
-  "status": "source-checked",
-  "learningObjective": "Ierarhizarea opțiunilor terapeutice nechirurgicale în achalazie.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 12,
-   "printedPages": [
-    159,
-    160
-   ],
-   "pdfPages": [
-    91,
-    92
-   ],
-   "section": "Achalazia — Tratament"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Injectarea de toxină botulinică a avut succes limitat.",
-    "evidenceLocation": "Lawrence, p. 159, 160, Achalazia — Tratament"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Medicamentele nu oferă aproape niciodată ameliorare de durată.",
-    "evidenceLocation": "Lawrence, p. 159, 160, Achalazia — Tratament"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Din cauza riscului cumulativ de perforație, la tineri se preferă miotomia.",
-    "evidenceLocation": "Lawrence, p. 159, 160, Achalazia — Tratament"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Dilatarea pneumatică cu balon este cea mai eficientă intervenție nechirurgicală.",
-    "evidenceLocation": "Lawrence, p. 159, 160, Achalazia — Tratament"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Dilatațiile repetate cresc riscul cumulativ de perforație.",
-    "evidenceLocation": "Lawrence, p. 159, 160, Achalazia — Tratament"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:20:54.261Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează preferința pentru miotomie la tineri și rezultatul toxinei botulinice."
-  },
-  "textbookExpressions": [
-   "Dilatarea endoscopică pneumatică",
-   "riscului cumulativ de perforaţie"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a esofag-adv-051: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "esofag-adv-005-v2",
   "questionFingerprint": "53e2321a32c4668b0879f85401a57413941c3a55e2fd605dc026e3b1f685ba62",
   "status": "source-checked",
@@ -173184,83 +172643,6 @@
   "reviewNotes": "Rescriere a esofag-adv-053: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "esofag-adv-054-v2",
-  "questionFingerprint": "27f393e5b5c8470136a1a86c1925ae14d70a2359eba70f727e46274c50bb341a",
-  "status": "source-checked",
-  "learningObjective": "Contrastarea diverticulilor de tracțiune cu cei de pulsiune.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 12,
-   "printedPages": [
-    161
-   ],
-   "pdfPages": [
-    93
-   ],
-   "section": "Diverticulii esofagieni"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Diverticulii de tracțiune sunt de obicei mediotoracici.",
-    "evidenceLocation": "Lawrence, p. 161, Diverticulii esofagieni"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Diverticulii falși sunt cei de pulsiune.",
-    "evidenceLocation": "Lawrence, p. 161, Diverticulii esofagieni"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Ei se dezvoltă adesea de la o adenopatie inflamatorie care tracționează peretele.",
-    "evidenceLocation": "Lawrence, p. 161, Diverticulii esofagieni"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Diverticulii de pulsiune sunt mai frecvenți.",
-    "evidenceLocation": "Lawrence, p. 161, Diverticulii esofagieni"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Sunt diverticuli adevărați: implică toate straturile peretelui.",
-    "evidenceLocation": "Lawrence, p. 161, Diverticulii esofagieni"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:20:54.263Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii atribuie trăsăturile diverticulilor de pulsiune."
-  },
-  "textbookExpressions": [
-   "falşi diverticuli",
-   "adenopatie inflamatorie"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a esofag-adv-054: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "esofag-adv-055-v2",
   "questionFingerprint": "94a01490c6a9e6b9518775c00ebcbdb01985c81bc330d0decae0893f32d80971",
   "status": "source-checked",
@@ -173492,83 +172874,6 @@
   "reviewNotes": "Rescriere a esofag-adv-057: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "esofag-adv-020-v2",
-  "questionFingerprint": "25871fc53e1f7ad3530ee58552df9bb4af4f1f7954cb0d6729d8ad876ea635b4",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea sediului, diagnosticului și tratamentului leiomiomului.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 12,
-   "printedPages": [
-    162
-   ],
-   "pdfPages": [
-    94
-   ],
-   "section": "Leziuni esofagiene benigne — Leiomiomul"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Leiomiomul este cea mai frecventă tumoră benignă.",
-    "evidenceLocation": "Lawrence, p. 162, Leziuni esofagiene benigne — Leiomiomul"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Aspirația cu ac fin se evită: nu diferențiază leiomiomul de leiomiosarcom.",
-    "evidenceLocation": "Lawrence, p. 162, Leziuni esofagiene benigne — Leiomiomul"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Este localizat în stratul muscular.",
-    "evidenceLocation": "Lawrence, p. 162, Leziuni esofagiene benigne — Leiomiomul"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Leziunile simptomatice se enucleează, cu reaproximarea muscularei.",
-    "evidenceLocation": "Lawrence, p. 162, Leziuni esofagiene benigne — Leiomiomul"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Prognosticul este excelent, aproape fără recidivă.",
-    "evidenceLocation": "Lawrence, p. 162, Leziuni esofagiene benigne — Leiomiomul"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:20:54.265Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează rolul biopsiei și prognosticul."
-  },
-  "textbookExpressions": [
-   "leiomomul",
-   "enucleerea leziunii"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a esofag-adv-020: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "esofag-adv-058-v2",
   "questionFingerprint": "07145f0d0005ba46f58917c2836b42a510d5901cb923f09d528177934bc30596",
   "status": "source-checked",
@@ -173723,83 +173028,6 @@
   "reviewNotes": "Rescriere a esofag-adv-021: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "esofag-adv-022-v2",
-  "questionFingerprint": "64651221d8a0ef0bcb632221a467b2fdddc84380c44f3996a7160b0d7e5e227d",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea măsurilor inițiale și a celor evitate în ingestia caustică.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 12,
-   "printedPages": [
-    164
-   ],
-   "pdfPages": [
-    96
-   ],
-   "section": "Ingestia substanțelor caustice — Tratament"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Vărsăturile reexpun esofagul la substanța caustică.",
-    "evidenceLocation": "Lawrence, p. 164, Ingestia substanțelor caustice — Tratament"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Neutralizarea nu este recomandată: este ineficientă și potențial dăunătoare.",
-    "evidenceLocation": "Lawrence, p. 164, Ingestia substanțelor caustice — Tratament"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Algoritmul precizează: fără SNG.",
-    "evidenceLocation": "Lawrence, p. 164, Ingestia substanțelor caustice — Tratament"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Steroizii nu s-au dovedit eficienți în prevenirea stenozei.",
-    "evidenceLocation": "Lawrence, p. 164, Ingestia substanțelor caustice — Tratament"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Căile aeriene sunt prima prioritate.",
-    "evidenceLocation": "Lawrence, p. 164, Ingestia substanțelor caustice — Tratament"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:20:54.267Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii sunt măsuri intuitive, contrazise explicit de text."
-  },
-  "textbookExpressions": [
-   "Inducerea vărsăturilor",
-   "nu SNG"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a esofag-adv-022: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "esofag-adv-023-v2",
   "questionFingerprint": "e744d8b732e296a1d43dac2848de7dca0805071afffe2900c3f2981694609b0d",
   "status": "source-checked",
@@ -173875,243 +173103,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a esofag-adv-023: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "esofag-adv-024-v2",
-  "questionFingerprint": "ba3206c32f7c0e9535d5569e1989692c95fd10aca5df35abda42c49ab474f9fd",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea complicațiilor tardive și a particularităților reconstrucției.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 12,
-   "printedPages": [
-    164,
-    163
-   ],
-   "pdfPages": [
-    96,
-    95
-   ],
-   "section": "Ingestia substanțelor caustice — Complicații tardive"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Complicația pe termen lung este formarea stenozelor.",
-    "evidenceLocation": "Lawrence, p. 164, 163, Ingestia substanțelor caustice — Complicații tardive"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Crește riscul de cancer esofagian cu celule scuamoase.",
-    "evidenceLocation": "Lawrence, p. 164, 163, Ingestia substanțelor caustice — Complicații tardive"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Rezecția este dificilă din cauza fibrozei periesofagiene extinse.",
-    "evidenceLocation": "Lawrence, p. 164, 163, Ingestia substanțelor caustice — Complicații tardive"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Rezecția necesită frecvent interpoziție de colon, stomacul fiind adesea deteriorat.",
-    "evidenceLocation": "Lawrence, p. 164, 163, Ingestia substanțelor caustice — Complicații tardive"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Stomacul este frecvent deteriorat și nu este grefonul de elecție aici.",
-    "evidenceLocation": "Lawrence, p. 164, 163, Ingestia substanțelor caustice — Complicații tardive"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:20:54.268Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii aplică regula generală (stomacul ca grefon) unei situații care o contrazice."
-  },
-  "textbookExpressions": [
-   "interpoziţia de colon",
-   "celule scuamoase"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a esofag-adv-024: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "esofag-adv-059-v2",
-  "questionFingerprint": "ef6716fe7bb7067153e6a1e7b54e0df8d9e58b7cd9e045fab46a3daaa0463922",
-  "status": "source-checked",
-  "learningObjective": "Diferențierea leziunilor alcaline de cele acide și a momentului endoscopiei.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 12,
-   "printedPages": [
-    163,
-    164
-   ],
-   "pdfPages": [
-    95,
-    96
-   ],
-   "section": "Ingestia substanțelor caustice — Evaluare"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Alcalinele produc vătămare în toată grosimea peretelui.",
-    "evidenceLocation": "Lawrence, p. 163, 164, Ingestia substanțelor caustice — Evaluare"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Acizii produc adesea leziuni mai superficiale.",
-    "evidenceLocation": "Lawrence, p. 163, 164, Ingestia substanțelor caustice — Evaluare"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Endoscopia flexibilă se face precoce, în termen de 24 de ore.",
-    "evidenceLocation": "Lawrence, p. 163, 164, Ingestia substanțelor caustice — Evaluare"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Endoscopia precoce reduce la minimum riscul de perforație.",
-    "evidenceLocation": "Lawrence, p. 163, 164, Ingestia substanțelor caustice — Evaluare"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Edemul căilor aeriene se poate dezvolta rapid, impunând pregătirea intubației cu fibroscop.",
-    "evidenceLocation": "Lawrence, p. 163, 164, Ingestia substanțelor caustice — Evaluare"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:20:54.269Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează severitatea acid/alcalin și momentul endoscopiei."
-  },
-  "textbookExpressions": [
-   "produse alcaline",
-   "în termen de 24 de ore"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a esofag-adv-059: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "esofag-adv-072-v2",
-  "questionFingerprint": "41a37c1ddbb5d0380d3f3bce25afed9e6c985f46ae48e705d233f99a04bf040b",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea cauzei, a căii de extensie și a tratamentului perforației cervicale.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 12,
-   "printedPages": [
-    156,
-    157
-   ],
-   "pdfPages": [
-    88,
-    89
-   ],
-   "section": "Perforația esofagului cervical"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Majoritatea sunt cauzate de instrumentarea endoscopică, mai ales la cricofaringian.",
-    "evidenceLocation": "Lawrence, p. 156, 157, Perforația esofagului cervical"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Tranzitul baritat poate fi negativ în până la 20% din cazuri.",
-    "evidenceLocation": "Lawrence, p. 156, 157, Perforația esofagului cervical"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Spațiul retrovisceral conduce infecția spre mediastinul posterior.",
-    "evidenceLocation": "Lawrence, p. 156, 157, Perforația esofagului cervical"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Abordul este o incizie cervicală pe partea leziunii, cu drenaj și debridare.",
-    "evidenceLocation": "Lawrence, p. 156, 157, Perforația esofagului cervical"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Sutura primară se poate încerca, dar nu este necesară; majoritatea se vindecă prin drenaj.",
-    "evidenceLocation": "Lawrence, p. 156, 157, Perforația esofagului cervical"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:20:54.270Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii supraestimează valoarea bariului și necesitatea suturii."
-  },
-  "textbookExpressions": [
-   "spaţiul retrovisceral",
-   "sfincterului cricofaringian"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a esofag-adv-072: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "esofag-adv-073-v2",
@@ -174268,83 +173259,6 @@
   "reviewNotes": "Rescriere a esofag-adv-044: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "esofag-adv-074-v2",
-  "questionFingerprint": "2b892547cbbb5ea4da831a23effaece4110289168e6def165d280ccfabc25a3e",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea criteriilor tratamentului non-operator.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 12,
-   "printedPages": [
-    157
-   ],
-   "pdfPages": [
-    89
-   ],
-   "section": "Perforația esofagului toracic — Tratament conservator"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Managementul non-operator trebuie să fie excepția, nu regula.",
-    "evidenceLocation": "Lawrence, p. 157, Perforația esofagului toracic — Tratament conservator"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Criteriu: perforație limitată cervical sau mediastinal.",
-    "evidenceLocation": "Lawrence, p. 157, Perforația esofagului toracic — Tratament conservator"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Criteriu: pacient stabil clinic.",
-    "evidenceLocation": "Lawrence, p. 157, Perforația esofagului toracic — Tratament conservator"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Include antibiotice și drenaj nazo-gastric.",
-    "evidenceLocation": "Lawrence, p. 157, Perforația esofagului toracic — Tratament conservator"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Include alimentație enterală distal de leziune sau nutriție parenterală.",
-    "evidenceLocation": "Lawrence, p. 157, Perforația esofagului toracic — Tratament conservator"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:20:54.272Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii contrazic statutul de excepție și componentele tratamentului."
-  },
-  "textbookExpressions": [
-   "excepţia şi nu regula",
-   "drenaj nazo-gastric"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a esofag-adv-074: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "esofag-adv-045-v2",
   "questionFingerprint": "db6bd30ba169c035a08ff7140d2f6e9677e1b13ca40ecae0ba9e251383bbfce5",
   "status": "source-checked",
@@ -174420,83 +173334,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a esofag-adv-045: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "esofag-adv-076-v2",
-  "questionFingerprint": "44482db1f63f0934d13b4b6bf552ff3297a79ab9fd9e94aed6e6489e89be4c9c",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea componentelor excluderii esofagiene.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 12,
-   "printedPages": [
-    157
-   ],
-   "pdfPages": [
-    89
-   ],
-   "section": "Perforația esofagului toracic — Excluderea esofagiană"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Segmentul lezat se izolează prin suturi sau capse proximal și distal.",
-    "evidenceLocation": "Lawrence, p. 157, Perforația esofagului toracic — Excluderea esofagiană"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Drenajul cervical se face printr-o fistulă salivară.",
-    "evidenceLocation": "Lawrence, p. 157, Perforația esofagului toracic — Excluderea esofagiană"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Alimentația se face prin jejunostomie.",
-    "evidenceLocation": "Lawrence, p. 157, Perforația esofagului toracic — Excluderea esofagiană"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Reconstrucția se face ulterior, după recuperare.",
-    "evidenceLocation": "Lawrence, p. 157, Perforația esofagului toracic — Excluderea esofagiană"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Jejunostomia de alimentație și drenajul larg fac parte din procedură.",
-    "evidenceLocation": "Lawrence, p. 157, Perforația esofagului toracic — Excluderea esofagiană"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:20:54.273Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii înlocuiesc jejunostomia și amânarea reconstrucției."
-  },
-  "textbookExpressions": [
-   "fistulă salivară",
-   "jejunostomie de alimentaţie"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a esofag-adv-076: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "esofag-adv-004-v2",
@@ -175119,83 +173956,6 @@
   "reviewNotes": "Rescriere a esofag-adv-042: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "esofag-adv-069-v2",
-  "questionFingerprint": "6ff829a640e778d47313a0c3ba2034dfade36fc79b5bd942a0e5ff3613f001cd",
-  "status": "source-checked",
-  "learningObjective": "Compararea abordurilor Ivor Lewis și McKeown.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 12,
-   "printedPages": [
-    153
-   ],
-   "pdfPages": [
-    85
-   ],
-   "section": "Tehnici chirurgicale — Toracotomia"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Ivor Lewis este toracotomia dreaptă combinată cu laparotomia.",
-    "evidenceLocation": "Lawrence, p. 153, Tehnici chirurgicale — Toracotomia"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "În Ivor Lewis, anastomoza este în hemitoracele drept.",
-    "evidenceLocation": "Lawrence, p. 153, Tehnici chirurgicale — Toracotomia"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "McKeown adaugă incizia cervicală și anastomoza cervicală.",
-    "evidenceLocation": "Lawrence, p. 153, Tehnici chirurgicale — Toracotomia"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Rezecția proximală mai extinsă oferă margini mai largi.",
-    "evidenceLocation": "Lawrence, p. 153, Tehnici chirurgicale — Toracotomia"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Consecințele fistulei cervicale sunt mai puțin severe decât ale celei intratoracice.",
-    "evidenceLocation": "Lawrence, p. 153, Tehnici chirurgicale — Toracotomia"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:20:54.280Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează sediul anastomozei și gravitatea fistulei."
-  },
-  "textbookExpressions": [
-   "triplu abord",
-   "margini chirurgicale"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a esofag-adv-069: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "esofag-adv-066-v2",
   "questionFingerprint": "596e22ec15c368e39f01ed6aa732bfc5d7a67a9f857560f601978ac03ccfc981",
   "status": "source-checked",
@@ -175352,83 +174112,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a esofag-adv-015: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "esofag-adv-032-v2",
-  "questionFingerprint": "6ec4eacd7031a24a981f12c56f4d0d386947fa53c10b6a4ece44c190a2b12089",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea rezultatelor și a limitelor esofagectomiei laparoscopice.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 12,
-   "printedPages": [
-    155
-   ],
-   "pdfPages": [
-    87
-   ],
-   "section": "Tehnici chirurgicale — Abordul laparoscopic"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Rezultatele de supraviețuire sunt similare tehnicilor clasice.",
-    "evidenceLocation": "Lawrence, p. 155, Tehnici chirurgicale — Abordul laparoscopic"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Morbiditatea este redusă datorită inciziilor mai puțin invazive.",
-    "evidenceLocation": "Lawrence, p. 155, Tehnici chirurgicale — Abordul laparoscopic"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Curba de învățare este lungă.",
-    "evidenceLocation": "Lawrence, p. 155, Tehnici chirurgicale — Abordul laparoscopic"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Nu s-a demonstrat superioritatea oncologică a vreunei tehnici.",
-    "evidenceLocation": "Lawrence, p. 155, Tehnici chirurgicale — Abordul laparoscopic"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "În prezent, doar anumite centre efectuează esofagectomii laparoscopice de succes.",
-    "evidenceLocation": "Lawrence, p. 155, Tehnici chirurgicale — Abordul laparoscopic"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:20:54.282Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii exagerează beneficiul și inversează curba de învățare."
-  },
-  "textbookExpressions": [
-   "Curba de învăţare",
-   "morbiditate chirurgicală redusă"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a esofag-adv-032: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "esofag-adv-002-v2",
@@ -175662,85 +174345,6 @@
   "reviewNotes": "Rescriere a esofag-adv-026: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "esofag-adv-038-v2",
-  "questionFingerprint": "66466076abefa52c9d843a6a8cb14cb2846df4cb2e3ed11db7cbecbec2cf8a97",
-  "status": "source-checked",
-  "learningObjective": "Atribuirea rolului fiecărei investigații în cancerul esofagian.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 12,
-   "printedPages": [
-    152,
-    153
-   ],
-   "pdfPages": [
-    84,
-    85
-   ],
-   "section": "Carcinomul esofagian — Diagnostic"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "EUS definește profunzimea invaziei și localizează ganglionii pentru aspirație cu ac fin.",
-    "evidenceLocation": "Lawrence, p. 152, 153, Carcinomul esofagian — Diagnostic"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "CT nu poate distinge reacția inflamatorie de invazia tumorală.",
-    "evidenceLocation": "Lawrence, p. 152, 153, Carcinomul esofagian — Diagnostic"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Evaluarea endoscopică este necesară pentru confirmarea histologică.",
-    "evidenceLocation": "Lawrence, p. 152, 153, Carcinomul esofagian — Diagnostic"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Ficatul și plămânii sunt organele cel mai frecvent implicate.",
-    "evidenceLocation": "Lawrence, p. 152, 153, Carcinomul esofagian — Diagnostic"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Bronhoscopia se face în tumorile proximale și mediotoracice.",
-    "evidenceLocation": "Lawrence, p. 152, 153, Carcinomul esofagian — Diagnostic"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:20:54.285Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii contrazic rolul EUS și sediile metastatice citate."
-  },
-  "textbookExpressions": [
-   "invazia tumorală",
-   "bronhoscopia"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a esofag-adv-038: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "esofag-adv-039-v2",
   "questionFingerprint": "510e3aa43499b6186a139832a5cd0357da7fcea9513c5b335e95134313b57c03",
   "status": "source-checked",
@@ -175895,83 +174499,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a esofag-adv-016: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "esofag-adv-017-v2",
-  "questionFingerprint": "5b2c5568820de12693c0d83597b95b930c423b877c2284d49a95e5023e5dd66b",
-  "status": "source-checked",
-  "learningObjective": "Compararea modalităților paliative după rapiditate, durată și risc.",
-  "reference": {
-   "book": "Lawrence",
-   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
-   "chapter": 12,
-   "printedPages": [
-    156
-   ],
-   "pdfPages": [
-    88
-   ],
-   "section": "Carcinomul esofagian — Tratamentul paliativ"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Radiochimioterapia este mai durabilă, dar efectul apare după săptămâni.",
-    "evidenceLocation": "Lawrence, p. 156, Carcinomul esofagian — Tratamentul paliativ"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Dilatația dă ameliorare imediată, de obicei de scurtă durată.",
-    "evidenceLocation": "Lawrence, p. 156, Carcinomul esofagian — Tratamentul paliativ"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Datorită tehnicilor endoscopice, chirurgia este rar indicată pentru paliație.",
-    "evidenceLocation": "Lawrence, p. 156, Carcinomul esofagian — Tratamentul paliativ"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Intervențiile endoscopice au un risc mai mare de perforație.",
-    "evidenceLocation": "Lawrence, p. 156, Carcinomul esofagian — Tratamentul paliativ"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Laserul ghidat endoscopic are un risc ridicat de perforație.",
-    "evidenceLocation": "Lawrence, p. 156, Carcinomul esofagian — Tratamentul paliativ"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-24T20:20:54.287Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează rolul chirurgiei și riscul endoscopic."
-  },
-  "textbookExpressions": [
-   "câteva săptămâni",
-   "risc ridicat de perforaţie"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a esofag-adv-017: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "esofag-adv-071-v2",
@@ -269519,5 +268046,1478 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a electroliti-adv-041: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "esofag-adv-001-v2",
+  "questionFingerprint": "d99bb666d244047059af0fcf3bf9ec0484cf66e1dcd11ebe5a35284f32261dce",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea reperelor anatomice generale ale esofagului.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 12,
+   "printedPages": [
+    140
+   ],
+   "pdfPages": [
+    80
+   ],
+   "section": "Anatomia generală"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Esofagul are aproximativ 25 cm lungime.",
+    "evidenceLocation": "Lawrence, p. 140, Anatomia generală"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: începe la nivelul cartilajului cricoid (C6).",
+    "evidenceLocation": "Lawrence, p. 140, Anatomia generală"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Se termină chiar sub diafragm, la T11.",
+    "evidenceLocation": "Lawrence, p. 140, Anatomia generală"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Aorta coboară pe stânga, deci abordul este de cele mai multe ori prin toracotomie dreaptă.",
+    "evidenceLocation": "Lawrence, p. 140, Anatomia generală"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Arcul aortic este una dintre cele trei zone de îngustare.",
+    "evidenceLocation": "Lawrence, p. 140, Anatomia generală"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:39:59.282Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Vertebra de terminare și partea toracotomiei sunt deplasate față de text."
+  },
+  "textbookExpressions": [
+   "cartilajului cricoid",
+   "arcului aortic"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a esofag-adv-001: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "esofag-adv-008-v2",
+  "questionFingerprint": "df28cf005b7621d31f3d252125ff7c024ce1c8dec37f740ec058f23ee98909e7",
+  "status": "source-checked",
+  "learningObjective": "Asocierea fiecărui segment esofagian cu sursa sa arterială.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 12,
+   "printedPages": [
+    140
+   ],
+   "pdfPages": [
+    80
+   ],
+   "section": "Vascularizația arterială"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Esofagul cervical este irigat de artera tiroidiană inferioară, din trunchiul tirocervical.",
+    "evidenceLocation": "Lawrence, p. 140, Vascularizația arterială"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Esofagul toracic primește și arterele esofagiene din aorta toracică.",
+    "evidenceLocation": "Lawrence, p. 140, Vascularizația arterială"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Esofagul toracic primește arterele bronșice și arterele esofagiene din aorta toracică.",
+    "evidenceLocation": "Lawrence, p. 140, Vascularizația arterială"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Esofagul distal este vascularizat de ramuri ale arterei gastrice stângi.",
+    "evidenceLocation": "Lawrence, p. 140, Vascularizația arterială"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Gastroepiploica dreaptă nu este citată ca sursă esofagiană.",
+    "evidenceLocation": "Lawrence, p. 140, Vascularizația arterială"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:39:59.285Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt artere vecine ale acelorași regiuni."
+  },
+  "textbookExpressions": [
+   "tiroidiană inferioară",
+   "arterei gastrice stângi"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a esofag-adv-008: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "esofag-adv-009-v2",
+  "questionFingerprint": "87df656c8f7c1d99595042c76f58d39048ad959a7f72a6660eff25bfc06b2a92",
+  "status": "source-checked",
+  "learningObjective": "Maparea drenajului venos și limfatic pe segmentele esofagului.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 12,
+   "printedPages": [
+    140
+   ],
+   "pdfPages": [
+    80
+   ],
+   "section": "Drenajul venos și limfatic"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Venele azygos și hemiazygos drenează esofagul toracic.",
+    "evidenceLocation": "Lawrence, p. 140, Drenajul venos și limfatic"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Vena coronariană gastrică și gastrica stângă se varsă în sistemul port.",
+    "evidenceLocation": "Lawrence, p. 140, Drenajul venos și limfatic"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Esofagul cervical drenează în ganglionii cervicali profunzi (jugulari).",
+    "evidenceLocation": "Lawrence, p. 140, Drenajul venos și limfatic"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Esofagul distal drenează în ganglionii celiaci, gastrici stângi și parahiatali.",
+    "evidenceLocation": "Lawrence, p. 140, Drenajul venos și limfatic"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "În hipertensiunea portală, plexul inferior face legătura porto-azygos, cu varice.",
+    "evidenceLocation": "Lawrence, p. 140, Drenajul venos și limfatic"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:39:59.286Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Stațiile limfatice sunt mutate între segmentele esofagului."
+  },
+  "textbookExpressions": [
+   "azygos",
+   "varicelor esofagiene"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a esofag-adv-009: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "esofag-adv-011-v2",
+  "questionFingerprint": "9d12897a5e83ae28cc214a1adba5a717aaf1f3524322531128ec8515ea546749",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea presiunilor de repaus ale sfincterelor și a secvenței deglutiției.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 12,
+   "printedPages": [
+    142
+   ],
+   "pdfPages": [
+    82
+   ],
+   "section": "Fiziologia esofagiană"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "SES are 30–120 mm Hg în repaus.",
+    "evidenceLocation": "Lawrence, p. 142, Fiziologia esofagiană"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "SEI are 15–30 mm Hg în repaus.",
+    "evidenceLocation": "Lawrence, p. 142, Fiziologia esofagiană"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Deglutiția este inițiată voluntar de nucleul ambiguu, din bulb.",
+    "evidenceLocation": "Lawrence, p. 142, Fiziologia esofagiană"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: SEI se relaxează în anticiparea bolusului.",
+    "evidenceLocation": "Lawrence, p. 142, Fiziologia esofagiană"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "După pasajul bolusului, SEI revine la presiunea de repaus ridicată.",
+    "evidenceLocation": "Lawrence, p. 142, Fiziologia esofagiană"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:39:59.287Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Intervalul de presiune al SES este atribuit SEI."
+  },
+  "textbookExpressions": [
+   "30-120 mm Hg",
+   "nucleul ambiguu"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a esofag-adv-011: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "esofag-adv-018-v2",
+  "questionFingerprint": "0ccee278d9d849b1ae2aa03055e71e4f462cdda1b266067e3b186525a8c5b21a",
+  "status": "source-checked",
+  "learningObjective": "Asocierea investigațiilor cu constatările din achalazie.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 12,
+   "printedPages": [
+    159
+   ],
+   "pdfPages": [
+    91
+   ],
+   "section": "Achalazia — Diagnostic"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Tranzitul baritat arată clasic semnul ciocului de pasăre.",
+    "evidenceLocation": "Lawrence, p. 159, Achalazia — Diagnostic"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Manometria arată eșecul relaxării SEI la deglutiție.",
+    "evidenceLocation": "Lawrence, p. 159, Achalazia — Diagnostic"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: endoscopia exclude alte cauze de obstrucție (pseudoachalazia din carcinom).",
+    "evidenceLocation": "Lawrence, p. 159, Achalazia — Diagnostic"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Manometria arată absența contracțiilor peristaltice normale.",
+    "evidenceLocation": "Lawrence, p. 159, Achalazia — Diagnostic"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Precauția endoscopică pentru perforație privește diverticulul Zenker.",
+    "evidenceLocation": "Lawrence, p. 159, Achalazia — Diagnostic"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:39:59.288Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul endoscopic este preluat de la diverticulul Zenker."
+  },
+  "textbookExpressions": [
+   "ciocului de pasăre",
+   "pseudoachalazie"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a esofag-adv-018: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "esofag-adv-051-v2",
+  "questionFingerprint": "94e3ef2c80c142da072f2fcfe3d11dee372d9c8663ea0cca14ec1473a1fd42dd",
+  "status": "source-checked",
+  "learningObjective": "Ierarhizarea opțiunilor terapeutice nechirurgicale în achalazie.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 12,
+   "printedPages": [
+    159,
+    160
+   ],
+   "pdfPages": [
+    91,
+    92
+   ],
+   "section": "Achalazia — Tratament"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Injectarea de toxină botulinică a avut succes limitat.",
+    "evidenceLocation": "Lawrence, p. 159, 160, Achalazia — Tratament"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Medicamentele nu oferă aproape niciodată ameliorare de durată.",
+    "evidenceLocation": "Lawrence, p. 159, 160, Achalazia — Tratament"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Din cauza riscului cumulativ de perforație, la tineri se preferă miotomia.",
+    "evidenceLocation": "Lawrence, p. 159, 160, Achalazia — Tratament"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Dilatarea pneumatică cu balon este cea mai eficientă intervenție nechirurgicală.",
+    "evidenceLocation": "Lawrence, p. 159, 160, Achalazia — Tratament"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Dilatațiile repetate cresc riscul cumulativ de perforație.",
+    "evidenceLocation": "Lawrence, p. 159, 160, Achalazia — Tratament"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:39:59.289Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează preferința pentru miotomie la tineri și rezultatul toxinei botulinice."
+  },
+  "textbookExpressions": [
+   "Dilatarea endoscopică pneumatică",
+   "riscului cumulativ de perforaţie"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a esofag-adv-051: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "esofag-adv-054-v2",
+  "questionFingerprint": "3f059e699aa93c94da888fe7448c357fed78e53e0c561ec0041ca8b31c6689f3",
+  "status": "source-checked",
+  "learningObjective": "Contrastarea diverticulilor de tracțiune cu cei de pulsiune.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 12,
+   "printedPages": [
+    161
+   ],
+   "pdfPages": [
+    93
+   ],
+   "section": "Diverticulii esofagieni"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Diverticulii de tracțiune sunt de obicei mediotoracici.",
+    "evidenceLocation": "Lawrence, p. 161, Diverticulii esofagieni"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Diverticulii falși sunt cei de pulsiune.",
+    "evidenceLocation": "Lawrence, p. 161, Diverticulii esofagieni"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Ei se dezvoltă adesea de la o adenopatie inflamatorie care tracționează peretele.",
+    "evidenceLocation": "Lawrence, p. 161, Diverticulii esofagieni"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Diverticulii de pulsiune sunt mai frecvenți.",
+    "evidenceLocation": "Lawrence, p. 161, Diverticulii esofagieni"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Sunt diverticuli adevărați: implică toate straturile peretelui.",
+    "evidenceLocation": "Lawrence, p. 161, Diverticulii esofagieni"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:39:59.289Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii atribuie trăsăturile diverticulilor de pulsiune."
+  },
+  "textbookExpressions": [
+   "falşi diverticuli",
+   "adenopatie inflamatorie"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a esofag-adv-054: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "esofag-adv-020-v2",
+  "questionFingerprint": "20080ea2e26c15dcedc8742f510a567cbc0d2d82d128769dd959529eba8e5fd6",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea sediului, diagnosticului și tratamentului leiomiomului.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 12,
+   "printedPages": [
+    162
+   ],
+   "pdfPages": [
+    94
+   ],
+   "section": "Leziuni esofagiene benigne — Leiomiomul"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Leiomiomul este cea mai frecventă tumoră benignă.",
+    "evidenceLocation": "Lawrence, p. 162, Leziuni esofagiene benigne — Leiomiomul"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Aspirația cu ac fin se evită: nu diferențiază leiomiomul de leiomiosarcom.",
+    "evidenceLocation": "Lawrence, p. 162, Leziuni esofagiene benigne — Leiomiomul"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Este localizat în stratul muscular.",
+    "evidenceLocation": "Lawrence, p. 162, Leziuni esofagiene benigne — Leiomiomul"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: leziunile simptomatice se enucleează, cu reaproximarea muscularei.",
+    "evidenceLocation": "Lawrence, p. 162, Leziuni esofagiene benigne — Leiomiomul"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Prognosticul este excelent, aproape fără recidivă.",
+    "evidenceLocation": "Lawrence, p. 162, Leziuni esofagiene benigne — Leiomiomul"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:39:59.290Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează rolul biopsiei și prognosticul."
+  },
+  "textbookExpressions": [
+   "leiomomul",
+   "enucleerea leziunii"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a esofag-adv-020: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "esofag-adv-022-v2",
+  "questionFingerprint": "e8aab0420393cecfc8c517a3918e9267bbdb957fba5bd82cde0e940755c9e056",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea măsurilor inițiale și a celor evitate în ingestia caustică.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 12,
+   "printedPages": [
+    164
+   ],
+   "pdfPages": [
+    96
+   ],
+   "section": "Ingestia substanțelor caustice — Tratament"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Vărsăturile reexpun esofagul la substanța caustică.",
+    "evidenceLocation": "Lawrence, p. 164, Ingestia substanțelor caustice — Tratament"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Neutralizarea nu este recomandată: este ineficientă și potențial dăunătoare.",
+    "evidenceLocation": "Lawrence, p. 164, Ingestia substanțelor caustice — Tratament"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: algoritmul precizează evitarea SNG.",
+    "evidenceLocation": "Lawrence, p. 164, Ingestia substanțelor caustice — Tratament"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Steroizii nu s-au dovedit eficienți în prevenirea stenozei.",
+    "evidenceLocation": "Lawrence, p. 164, Ingestia substanțelor caustice — Tratament"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Căile aeriene sunt prima prioritate.",
+    "evidenceLocation": "Lawrence, p. 164, Ingestia substanțelor caustice — Tratament"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:39:59.291Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt măsuri intuitive, contrazise explicit de text."
+  },
+  "textbookExpressions": [
+   "Inducerea vărsăturilor",
+   "nu SNG"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a esofag-adv-022: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "esofag-adv-024-v2",
+  "questionFingerprint": "66f2c939ca550b45a60e36530a53c2ce3f596c7581bc397160486a2678f170be",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea complicațiilor tardive și a particularităților reconstrucției.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 12,
+   "printedPages": [
+    164,
+    163
+   ],
+   "pdfPages": [
+    96,
+    95
+   ],
+   "section": "Ingestia substanțelor caustice — Complicații tardive"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Complicația pe termen lung este formarea stenozelor.",
+    "evidenceLocation": "Lawrence, p. 164, 163, Ingestia substanțelor caustice — Complicații tardive"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Crește riscul de cancer esofagian cu celule scuamoase.",
+    "evidenceLocation": "Lawrence, p. 164, 163, Ingestia substanțelor caustice — Complicații tardive"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Rezecția este dificilă din cauza fibrozei periesofagiene extinse.",
+    "evidenceLocation": "Lawrence, p. 164, 163, Ingestia substanțelor caustice — Complicații tardive"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Rezecția necesită frecvent interpoziție de colon, stomacul fiind adesea deteriorat.",
+    "evidenceLocation": "Lawrence, p. 164, 163, Ingestia substanțelor caustice — Complicații tardive"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Stomacul este frecvent deteriorat și nu este grefonul de elecție aici.",
+    "evidenceLocation": "Lawrence, p. 164, 163, Ingestia substanțelor caustice — Complicații tardive"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:39:59.292Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii aplică regula generală (stomacul ca grefon) unei situații care o contrazice."
+  },
+  "textbookExpressions": [
+   "interpoziţia de colon",
+   "celule scuamoase"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a esofag-adv-024: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "esofag-adv-059-v2",
+  "questionFingerprint": "3ca24d088a85e371378299418ba4ff79ed25b60644b38db88a4868744f5532bf",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea leziunilor alcaline de cele acide și a momentului endoscopiei.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 12,
+   "printedPages": [
+    163,
+    164
+   ],
+   "pdfPages": [
+    95,
+    96
+   ],
+   "section": "Ingestia substanțelor caustice — Evaluare"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: alcalinele produc vătămare în toată grosimea peretelui.",
+    "evidenceLocation": "Lawrence, p. 163, 164, Ingestia substanțelor caustice — Evaluare"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Acizii produc adesea leziuni mai superficiale.",
+    "evidenceLocation": "Lawrence, p. 163, 164, Ingestia substanțelor caustice — Evaluare"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Endoscopia flexibilă se face precoce, în termen de 24 de ore.",
+    "evidenceLocation": "Lawrence, p. 163, 164, Ingestia substanțelor caustice — Evaluare"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Endoscopia precoce reduce la minimum riscul de perforație.",
+    "evidenceLocation": "Lawrence, p. 163, 164, Ingestia substanțelor caustice — Evaluare"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Edemul căilor aeriene se poate dezvolta rapid, impunând pregătirea intubației cu fibroscop.",
+    "evidenceLocation": "Lawrence, p. 163, 164, Ingestia substanțelor caustice — Evaluare"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:39:59.293Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează severitatea acid/alcalin și momentul endoscopiei."
+  },
+  "textbookExpressions": [
+   "produse alcaline",
+   "în termen de 24 de ore"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a esofag-adv-059: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "esofag-adv-074-v2",
+  "questionFingerprint": "07c672b8d5776c1fd0fef376fb3341b159a6eeac907b7a631116e10b593e8342",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea criteriilor tratamentului non-operator.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 12,
+   "printedPages": [
+    157
+   ],
+   "pdfPages": [
+    89
+   ],
+   "section": "Perforația esofagului toracic — Tratament conservator"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Managementul non-operator trebuie să fie excepția, nu regula.",
+    "evidenceLocation": "Lawrence, p. 157, Perforația esofagului toracic — Tratament conservator"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Criteriu: perforație limitată cervical sau mediastinal.",
+    "evidenceLocation": "Lawrence, p. 157, Perforația esofagului toracic — Tratament conservator"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: criteriul este pacientul stabil clinic.",
+    "evidenceLocation": "Lawrence, p. 157, Perforația esofagului toracic — Tratament conservator"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Include antibiotice și drenaj nazo-gastric.",
+    "evidenceLocation": "Lawrence, p. 157, Perforația esofagului toracic — Tratament conservator"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Include alimentație enterală distal de leziune sau nutriție parenterală.",
+    "evidenceLocation": "Lawrence, p. 157, Perforația esofagului toracic — Tratament conservator"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:39:59.293Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii contrazic statutul de excepție și componentele tratamentului."
+  },
+  "textbookExpressions": [
+   "excepţia şi nu regula",
+   "drenaj nazo-gastric"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a esofag-adv-074: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "esofag-adv-069-v2",
+  "questionFingerprint": "c073a2279e9cc7c3730cb124036e5263a57f5cafdc2c0bf443cf0203e924325d",
+  "status": "source-checked",
+  "learningObjective": "Compararea abordurilor Ivor Lewis și McKeown.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 12,
+   "printedPages": [
+    153
+   ],
+   "pdfPages": [
+    85
+   ],
+   "section": "Tehnici chirurgicale — Toracotomia"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Ivor Lewis este toracotomia dreaptă combinată cu laparotomia.",
+    "evidenceLocation": "Lawrence, p. 153, Tehnici chirurgicale — Toracotomia"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "În Ivor Lewis, anastomoza este în hemitoracele drept.",
+    "evidenceLocation": "Lawrence, p. 153, Tehnici chirurgicale — Toracotomia"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "McKeown adaugă incizia cervicală și anastomoza cervicală.",
+    "evidenceLocation": "Lawrence, p. 153, Tehnici chirurgicale — Toracotomia"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: rezecția proximală mai extinsă oferă margini mai largi.",
+    "evidenceLocation": "Lawrence, p. 153, Tehnici chirurgicale — Toracotomia"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Consecințele fistulei cervicale sunt mai puțin severe decât ale celei intratoracice.",
+    "evidenceLocation": "Lawrence, p. 153, Tehnici chirurgicale — Toracotomia"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:39:59.295Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează sediul anastomozei și gravitatea fistulei."
+  },
+  "textbookExpressions": [
+   "triplu abord",
+   "margini chirurgicale"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a esofag-adv-069: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "esofag-adv-032-v2",
+  "questionFingerprint": "d4ee314ce06c6978bcfa8763f3a20bed23d82a9ca77acacb306c5a1550bdf36d",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea rezultatelor și a limitelor esofagectomiei laparoscopice.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 12,
+   "printedPages": [
+    155
+   ],
+   "pdfPages": [
+    87
+   ],
+   "section": "Tehnici chirurgicale — Abordul laparoscopic"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Rezultatele de supraviețuire sunt similare tehnicilor clasice.",
+    "evidenceLocation": "Lawrence, p. 155, Tehnici chirurgicale — Abordul laparoscopic"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: morbiditatea este redusă datorită inciziilor mai puțin invazive.",
+    "evidenceLocation": "Lawrence, p. 155, Tehnici chirurgicale — Abordul laparoscopic"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Curba de învățare este lungă.",
+    "evidenceLocation": "Lawrence, p. 155, Tehnici chirurgicale — Abordul laparoscopic"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu s-a demonstrat superioritatea oncologică a vreunei tehnici.",
+    "evidenceLocation": "Lawrence, p. 155, Tehnici chirurgicale — Abordul laparoscopic"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "În prezent, doar anumite centre efectuează esofagectomii laparoscopice de succes.",
+    "evidenceLocation": "Lawrence, p. 155, Tehnici chirurgicale — Abordul laparoscopic"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:39:59.295Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii exagerează beneficiul și inversează curba de învățare."
+  },
+  "textbookExpressions": [
+   "Curba de învăţare",
+   "morbiditate chirurgicală redusă"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a esofag-adv-032: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "esofag-adv-038-v2",
+  "questionFingerprint": "fb5a1035ca5d69174ce31c3fa38c464e2e0d193904046f3ce5aab216916461d0",
+  "status": "source-checked",
+  "learningObjective": "Atribuirea rolului fiecărei investigații în cancerul esofagian.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 12,
+   "printedPages": [
+    152,
+    153
+   ],
+   "pdfPages": [
+    84,
+    85
+   ],
+   "section": "Carcinomul esofagian — Diagnostic"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "EUS definește profunzimea invaziei și localizează ganglionii pentru aspirație cu ac fin.",
+    "evidenceLocation": "Lawrence, p. 152, 153, Carcinomul esofagian — Diagnostic"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "CT nu poate distinge reacția inflamatorie de invazia tumorală.",
+    "evidenceLocation": "Lawrence, p. 152, 153, Carcinomul esofagian — Diagnostic"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Evaluarea endoscopică este necesară pentru confirmarea histologică.",
+    "evidenceLocation": "Lawrence, p. 152, 153, Carcinomul esofagian — Diagnostic"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Ficatul și plămânii sunt organele cel mai frecvent implicate.",
+    "evidenceLocation": "Lawrence, p. 152, 153, Carcinomul esofagian — Diagnostic"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Bronhoscopia se face în tumorile proximale și mediotoracice.",
+    "evidenceLocation": "Lawrence, p. 152, 153, Carcinomul esofagian — Diagnostic"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:39:59.297Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii contrazic rolul EUS și sediile metastatice citate."
+  },
+  "textbookExpressions": [
+   "invazia tumorală",
+   "bronhoscopia"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a esofag-adv-038: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "esofag-adv-017-v2",
+  "questionFingerprint": "c08c3756ba2e73e3a15b36cd5cefb0e275f638f4cfb31951ca6eef2f174b9281",
+  "status": "source-checked",
+  "learningObjective": "Compararea modalităților paliative după rapiditate, durată și risc.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 12,
+   "printedPages": [
+    156
+   ],
+   "pdfPages": [
+    88
+   ],
+   "section": "Carcinomul esofagian — Tratamentul paliativ"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Radiochimioterapia este mai durabilă, dar efectul apare după săptămâni.",
+    "evidenceLocation": "Lawrence, p. 156, Carcinomul esofagian — Tratamentul paliativ"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Dilatația dă ameliorare imediată, de obicei de scurtă durată.",
+    "evidenceLocation": "Lawrence, p. 156, Carcinomul esofagian — Tratamentul paliativ"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Datorită tehnicilor endoscopice, chirurgia este rar indicată pentru paliație.",
+    "evidenceLocation": "Lawrence, p. 156, Carcinomul esofagian — Tratamentul paliativ"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Intervențiile endoscopice au un risc mai mare de perforație.",
+    "evidenceLocation": "Lawrence, p. 156, Carcinomul esofagian — Tratamentul paliativ"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Laserul ghidat endoscopic are un risc ridicat de perforație.",
+    "evidenceLocation": "Lawrence, p. 156, Carcinomul esofagian — Tratamentul paliativ"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:39:59.298Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează rolul chirurgiei și riscul endoscopic."
+  },
+  "textbookExpressions": [
+   "câteva săptămâni",
+   "risc ridicat de perforaţie"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a esofag-adv-017: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "esofag-adv-007-v2",
+  "questionFingerprint": "204b36e92265d1ccee2efe9dfc1f62fa2b74bdf4dac7a189c9d9db768b9c22e8",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea lungimilor segmentare și a reperelor endoscopice ale esofagului.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 12,
+   "printedPages": [
+    140
+   ],
+   "pdfPages": [
+    80
+   ],
+   "section": "Anatomia generală — Segmente și repere endoscopice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Esofagul cervical are 3–5 cm; 18–22 cm este esofagul toracic proximal și mijlociu.",
+    "evidenceLocation": "Lawrence, p. 140, Anatomia generală — Segmente și repere endoscopice"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Esofagul începe la aproximativ 15 cm de arcada dentară.",
+    "evidenceLocation": "Lawrence, p. 140, Anatomia generală — Segmente și repere endoscopice"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Traheea și atriul stâng sunt anterioare esofagului.",
+    "evidenceLocation": "Lawrence, p. 140, Anatomia generală — Segmente și repere endoscopice"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Esofagul abdominal distal are 3–6 cm.",
+    "evidenceLocation": "Lawrence, p. 140, Anatomia generală — Segmente și repere endoscopice"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Esofagul se termină la aproximativ 40 cm de arcada dentară.",
+    "evidenceLocation": "Lawrence, p. 140, Anatomia generală — Segmente și repere endoscopice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:40:20.650Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Lungimile segmentelor sunt permutate între ele."
+  },
+  "textbookExpressions": [
+   "15 cm de arcada",
+   "18-22 cm"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a esofag-adv-007: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "esofag-adv-072-v2",
+  "questionFingerprint": "c630337e3f7b9fd306ef3bcda7dfb3d8f2c97b5dcb15c5b870e2ea10e9991a49",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea cauzei, a căii de extensie și a tratamentului perforației cervicale.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 12,
+   "printedPages": [
+    156,
+    157
+   ],
+   "pdfPages": [
+    88,
+    89
+   ],
+   "section": "Perforația esofagului cervical"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Majoritatea sunt cauzate de instrumentarea endoscopică, mai ales la cricofaringian.",
+    "evidenceLocation": "Lawrence, p. 156, 157, Perforația esofagului cervical"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Tranzitul baritat poate fi negativ în până la 20% din cazuri.",
+    "evidenceLocation": "Lawrence, p. 156, 157, Perforația esofagului cervical"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Spațiul retrovisceral conduce infecția spre mediastinul posterior.",
+    "evidenceLocation": "Lawrence, p. 156, 157, Perforația esofagului cervical"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Abordul este o incizie cervicală pe partea leziunii, cu drenaj și debridare.",
+    "evidenceLocation": "Lawrence, p. 156, 157, Perforația esofagului cervical"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Sutura primară se poate încerca, dar nu este necesară; majoritatea se vindecă prin drenaj.",
+    "evidenceLocation": "Lawrence, p. 156, 157, Perforația esofagului cervical"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:40:20.655Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii supraestimează valoarea bariului și necesitatea suturii."
+  },
+  "textbookExpressions": [
+   "spaţiul retrovisceral",
+   "sfincterului cricofaringian"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a esofag-adv-072: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "esofag-adv-076-v2",
+  "questionFingerprint": "12707eb35889fc2caa1edeb594505d0016123b869d96502034d0794f42e1fe1d",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea componentelor excluderii esofagiene.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 12,
+   "printedPages": [
+    157
+   ],
+   "pdfPages": [
+    89
+   ],
+   "section": "Perforația esofagului toracic — Excluderea esofagiană"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Segmentul lezat se izolează prin suturi sau capse proximal și distal.",
+    "evidenceLocation": "Lawrence, p. 157, Perforația esofagului toracic — Excluderea esofagiană"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Drenajul cervical se face printr-o fistulă salivară.",
+    "evidenceLocation": "Lawrence, p. 157, Perforația esofagului toracic — Excluderea esofagiană"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Alimentația se face prin jejunostomie.",
+    "evidenceLocation": "Lawrence, p. 157, Perforația esofagului toracic — Excluderea esofagiană"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Reconstrucția se face ulterior, după recuperare.",
+    "evidenceLocation": "Lawrence, p. 157, Perforația esofagului toracic — Excluderea esofagiană"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Jejunostomia de alimentație și drenajul larg fac parte din procedură.",
+    "evidenceLocation": "Lawrence, p. 157, Perforația esofagului toracic — Excluderea esofagiană"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T02:40:20.656Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii înlocuiesc jejunostomia și amânarea reconstrucției."
+  },
+  "textbookExpressions": [
+   "fistulă salivară",
+   "jejunostomie de alimentaţie"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a esofag-adv-076: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  }
 ]
