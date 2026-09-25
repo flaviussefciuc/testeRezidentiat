@@ -6,9 +6,9 @@ const q=rewriter(RETIRED_PSIHIATRIE,(p:number)=>p-222,{shuffle:true});
 
 export const PSIHIATRIE_V2=[
 q('psihiatrie-adv-001',['Schizofrenia:',
- ['debutează tipic în adolescența târzie sau la adultul tânăr','cere afectarea funcționării sociale peste 6 luni','are prognostic mai prost când predomină simptomele negative','cere un singur simptom caracteristic timp de o lună','are o rată mai mică la persoanele fără domiciliu'],'ABC',319,'Schizofrenia',
+ ['debutează tipic în adolescența târzie sau la adultul tânăr','cere afectarea funcționării sociale peste 2 săptămâni','are prognostic mai prost când predomină simptomele negative','cere un singur simptom caracteristic timp de o lună','are o rată mai mică la persoanele fără domiciliu'],'AC',319,'Schizofrenia',
  'Recunoașterea criteriilor și a prognosticului schizofreniei.',
- ['Debutul tipic este în adolescența târzie sau la adultul tânăr.','Funcționarea socială este afectată peste 6 luni.','Simptomele negative și suportul slab agravează prognosticul.','Sunt necesare cel puțin două simptome.','Rata este crescută la persoanele fără domiciliu.']],
+ ['Debutul tipic este în adolescența târzie sau la adultul tânăr.','Nu: funcționarea socială este afectată peste 6 luni.','Simptomele negative și suportul slab agravează prognosticul.','Sunt necesare cel puțin două simptome.','Rata este crescută la persoanele fără domiciliu.']],
  [8,'Distractorii reduc numărul de simptome și inversează factorul social.'],['adolescenţa târzie','6 luni'],[320]),
 
 q('psihiatrie-adv-038',['Conform Tabelului 14-1, neurolepticele cu potență ridicată:',
@@ -78,9 +78,9 @@ q('psihiatrie-adv-041',['Subtipurile tulburării depresive majore:',
  [8,'Singurul distractor inversează semnele vegetative.'],['fototerapie','membre de plumb']),
 
 q('psihiatrie-adv-042',['Tulburarea depresivă persistentă:',
- ['cere simptome depresive pe o perioadă de peste 2 ani','cere disforie plus cel puțin două alte simptome','poate include depresia majoră cronică','cere simptome depresive pe o perioadă de peste 6 luni','exclude pacienții care întrunesc criteriile de TDM'],'ABC',321,'Tulburarea depresivă persistentă',
+ ['cere simptome depresive pe o perioadă de peste 2 ani','cere disforie plus cel puțin cinci alte simptome','poate include depresia majoră cronică','cere simptome depresive pe o perioadă de peste 6 luni','exclude pacienții care întrunesc criteriile de TDM'],'AC',321,'Tulburarea depresivă persistentă',
  'Aplicarea criteriilor tulburării depresive persistente.',
- ['Durata este de peste 2 ani.','Disforia plus cel puțin două simptome.','Include depresia majoră cronică.','Durata este de peste 2 ani.','Poate include depresia majoră cronică.']],
+ ['Durata este de peste 2 ani.','Nu: sunt necesare disforia plus cel puțin două simptome.','Include depresia majoră cronică.','Durata este de peste 2 ani.','Poate include depresia majoră cronică.']],
  [8,'Distractorii scurtează durata și exclud TDM cronică.'],['disforiei','Depresia majoră cronică']),
 
 q('psihiatrie-adv-024',['Conform Tabelului 14-3:',
@@ -96,9 +96,9 @@ q('psihiatrie-adv-045',['Conform Tabelului 14-3, indicațiile antidepresivelor i
  [8,'Singurul distractor inversează locul IMAO.'],['insomnie semnificativă','renunţarea la fumat']),
 
 q('psihiatrie-adv-025',['Episodul hipomaniacal:',
- ['durează cel puțin 4 zile','cere trei sau mai multe simptome de manie','nu produce o afectare semnificativă a funcționării','durează cel puțin o săptămână','impune internare pentru afectarea funcționării'],'ABC',322,'Episodul hipomaniacal',
+ ['durează cel puțin 14 zile consecutive','cere trei sau mai multe simptome de manie','nu produce o afectare semnificativă a funcționării','durează cel puțin o săptămână, ca episodul maniacal','impune internare pentru afectarea funcționării'],'BC',322,'Episodul hipomaniacal',
  'Diferențierea hipomaniei de manie.',
- ['Durata minimă este de 4 zile.','Sunt necesare trei sau mai multe simptome de manie.','Funcționarea nu este afectat semnificativ.','O săptămână este durata episodului maniacal.','Funcționarea nu este afectată semnificativ.']],
+ ['Nu: durata minimă este de 4 zile.','Sunt necesare trei sau mai multe simptome de manie.','Funcționarea nu este afectat semnificativ.','O săptămână este durata episodului maniacal.','Funcționarea nu este afectată semnificativ.']],
  [8,'Distractorii preiau criteriile maniei.'],['cel puţin 4 zile','hipomaniacal']),
 
 q('psihiatrie-adv-026',['Tulburarea bipolară de tip II cere:',
@@ -126,9 +126,9 @@ q('psihiatrie-adv-027',['Tulburarea ciclotimică:',
  [8,'Distractorii contrazic excluderile din criterii.'],['Cicluri rapide','stabilizatori']),
 
 q('psihiatrie-adv-006',['Tulburarea de panică:',
- ['debutează tipic în adolescență','are atacuri care durează până la maximum 30 de minute','se tratează pe termen lung cu SSRI sau SNRI','are atacuri declanșate de un obiect fobic anume','se tratează pe termen lung cu benzodiazepine'],'ABC',323,'Tulburarea de panică',
+ ['debutează tipic în adolescență','are atacuri care durează tipic peste 2 ore','se tratează pe termen lung cu SSRI sau SNRI','are atacuri declanșate de un obiect fobic anume','se tratează pe termen lung cu benzodiazepine'],'AC',323,'Tulburarea de panică',
  'Recunoașterea și tratamentul tulburării de panică.',
- ['Debutul tipic este în adolescență.','Atacurile durează până la 30 de minute.','SSRI și SNRI sunt folosite pe termen lung.','Atacurile sunt spontane și imprevizibile.','Benzodiazepinele se folosesc pentru atacul de moment.']],
+ ['Debutul tipic este în adolescență.','Nu: atacurile durează până la 30 de minute.','SSRI și SNRI sunt folosite pe termen lung.','Atacurile sunt spontane și imprevizibile.','Benzodiazepinele se folosesc pentru atacul de moment.']],
  [8,'Distractorii confundă panica cu fobia și tratamentul acut.'],['30 de minute','adolescenţă']),
 
 q('psihiatrie-adv-028',['Conform Tabelului 14-4:',
@@ -144,9 +144,9 @@ q('psihiatrie-adv-007',['Antagonistul care poate anula efectele supradozei de be
  [8,'Distractorii sunt antidoturi din alte intoxicații.'],['Flumazenilul','doza letală']),
 
 q('psihiatrie-adv-011',['Tulburarea de anxietate generalizată:',
- ['cere anxietate excesivă pe o durată de peste 6 luni','afectează de două ori mai frecvent femeile','cere trei simptome, precum tensiunea musculară','se tratează de durată mai sigur cu benzodiazepine','cere anxietate excesivă peste 2 săptămâni'],'ABC',324,'Tulburarea anxietății generalizate',
+ ['cere anxietate excesivă pe o durată de peste 6 luni','afectează mai frecvent bărbații','cere trei simptome, precum tensiunea musculară','se tratează de durată mai sigur cu benzodiazepine','cere anxietate excesivă peste 2 săptămâni'],'AC',324,'Tulburarea anxietății generalizate',
  'Aplicarea criteriilor și tratamentului GAD.',
- ['Durata este de peste 6 luni.','Riscul femeilor este dublu.','Sunt necesare trei simptome.','Buspirona este mai sigură pe termen lung.','Durata este de peste 6 luni.']],
+ ['Durata este de peste 6 luni.','Nu: riscul femeilor este dublu.','Sunt necesare trei simptome.','Buspirona este mai sigură pe termen lung.','Durata este de peste 6 luni.']],
  [8,'Distractorii scurtează durata și inversează siguranța.'],['riscul femeilor','tensiune musculară'],[323]),
 
 q('psihiatrie-adv-017',['Tulburarea de anxietate socială:',
@@ -180,9 +180,9 @@ q('psihiatrie-adv-048',['Tratamentul tulburării de acumulare compulsivă, confo
  [8,'Distractorii sunt tratamente ale altor tulburări.'],['acumulare','foarte dificil de tratat']),
 
 q('psihiatrie-adv-031',['Tulburarea de adaptare:',
- ['debutează în primele 3 luni de la eveniment','se remite în 6 luni de la dispariția stresorului','poate asocia dispoziție depresivă sau anxietate','debutează în prima lună și se remite într-o lună','cere un eveniment cu amenințare cu moartea sau viol'],'ABC',325,'Tulburarea de adaptare',
+ ['debutează la peste 1 an de la eveniment','se remite în 6 luni de la dispariția stresorului','poate asocia dispoziție depresivă sau anxietate','debutează în prima lună și se remite într-o lună','cere un eveniment cu amenințare cu moartea sau viol'],'BC',325,'Tulburarea de adaptare',
  'Diferențierea tulburării de adaptare de stresul acut și PTSD.',
- ['Debutul este în primele 3 luni.','Remisiunea are loc în 6 luni.','Poate avea dispoziție depresivă, anxietate sau tulburări de conduită.','Descrie tulburarea acută de stres.','Descrie traumele din PTSD.']],
+ ['Nu: debutul este în primele 3 luni.','Remisiunea are loc în 6 luni.','Poate avea dispoziție depresivă, anxietate sau tulburări de conduită.','Descrie tulburarea acută de stres.','Descrie traumele din PTSD.']],
  [8,'Distractorii preiau criteriile stresului acut și PTSD.'],['primele 3 luni','dispoziţie depresivă']),
 
 q('psihiatrie-adv-008',['Tulburarea acută de stres se caracterizează prin:',
@@ -228,9 +228,9 @@ q('psihiatrie-adv-044',['Tulburările factice (sindromul Münchausen):',
  [8,'Singurul distractor contrazice limitarea investigațiilor.'],['insulină','abuz asupra copilului'],[327]),
 
 q('psihiatrie-adv-010',['Anorexia nervosa:',
- ['are greutatea corporală în general sub 85% din cea ideală','asociază amenoree, lanugo și bradicardie','are mortalitate pe 10 ani de 6%','răspunde bine la farmacoterapia de fond','asociază tahicardie și intoleranță la căldură'],'ABC',327,'Anorexia nervosa',
+ ['are greutatea corporală în general sub 85% din cea ideală','asociază amenoree, lanugo și bradicardie','are mortalitate pe 10 ani de 30%','răspunde bine la farmacoterapia de fond','asociază tahicardie și intoleranță la căldură'],'AB',327,'Anorexia nervosa',
  'Recunoașterea anorexiei nervosa.',
- ['Greutatea este în general <85% din cea ideală.','Amenoree, lanugo, bradicardie.','Mortalitatea pe 10 ani este 6%.','Farmacoterapia nu și-a dovedit utilitatea.','Apar bradicardie și intoleranță la frig.']],
+ ['Greutatea este în general <85% din cea ideală.','Amenoree, lanugo, bradicardie.','Nu: mortalitatea pe 10 ani este 6%.','Farmacoterapia nu și-a dovedit utilitatea.','Apar bradicardie și intoleranță la frig.']],
  [8,'Distractorii inversează semnele și eficacitatea medicației.'],['lanugo','6%']),
 
 q('psihiatrie-adv-034',['Sindromul de realimentare:',
@@ -240,9 +240,9 @@ q('psihiatrie-adv-034',['Sindromul de realimentare:',
  [8,'Distractorii inversează direcția metabolică și fosfatul.'],['hipofosfatemie','rabdomioliză']),
 
 q('psihiatrie-adv-035',['Bulimia nervosa:',
- ['are episoade săptămânale timp de peste 3 luni','poate crește amilaza serică prin parotidită','are ca medicație aprobată de FDA fluoxetina','asociază tipic o greutate corporală scăzută sub 85%','se tratează de primă linie cu litiu'],'ABC',327,'Bulimia nervosa',
+ ['are episoade săptămânale timp de peste 3 luni','poate crește amilaza serică prin parotidită','are ca medicație aprobată de FDA bupropionul','asociază tipic o greutate corporală scăzută sub 85%','se tratează de primă linie cu litiu'],'AB',327,'Bulimia nervosa',
  'Recunoașterea bulimiei nervosa.',
- ['Episoadele apar săptămânal peste 3 luni.','Inflamația parotidelor poate crește amilaza.','Fluoxetina este medicația aprobată.','Greutatea este în general normală.','Litiul nu este tratamentul citat.']],
+ ['Episoadele apar săptămânal peste 3 luni.','Inflamația parotidelor poate crește amilaza.','Nu: fluoxetina este medicația aprobată de FDA.','Greutatea este în general normală.','Litiul nu este tratamentul citat.']],
  [8,'Distractorii preiau greutatea din anorexie.'],['Fluoxetină','parotide']),
 
 q('psihiatrie-adv-051',['Tulburarea de alimentație compulsivă se deosebește de bulimie prin:',
@@ -270,9 +270,9 @@ q('psihiatrie-adv-052',['Grupul C al tulburărilor de personalitate include tipu
  [8,'Distractorii aparțin grupurilor A și B.'],['anxios sau temător','obsesiv-compulsiv']),
 
 q('psihiatrie-adv-019',['Conform Tabelului 14-5, tulburarea de personalitate borderline:',
- ['are frică de abandon și impulsivitate','este mai frecventă la femei','asociază gândire de tip „alb și negru”','cere tulburare de conduită înainte de 15 ani','este mai frecventă la bărbați'],'ABC',328,'Tabelul 14-5',
+ ['are frică de abandon și impulsivitate','este mai frecventă la femei','asociază convingeri bizare și gândire magică','cere tulburare de conduită înainte de 15 ani','este mai frecventă la bărbați'],'AB',328,'Tabelul 14-5',
  'Recunoașterea tulburării borderline.',
- ['Frica de abandon și impulsivitatea sunt citate.','Este mai frecventă la femei.','Gândirea „alb și negru” este citată.','Este criteriul antisocialului.','Antisocialul este mai frecvent la bărbați.']],
+ ['Frica de abandon și impulsivitatea sunt citate.','Este mai frecventă la femei.','Nu: convingerile bizare sunt schizotipale; borderline asociază gândirea „alb și negru”.','Este criteriul antisocialului.','Antisocialul este mai frecvent la bărbați.']],
  [8,'Distractorii preiau criteriile antisocialului.'],['frică de abandon','alb şi negru']),
 
 q('psihiatrie-adv-015',['Conform Tabelului 14-5, tulburarea de personalitate antisocială:',

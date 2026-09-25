@@ -213805,85 +213805,6 @@
   "reviewNotes": "Rescriere a endocrinologie-adv-043: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "psihiatrie-adv-001-v2",
-  "questionFingerprint": "7acb5ae92c2249c6f81b800fbb764ecce50fb3f697e8236e0d7b28c459d3b76f",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea criteriilor și a prognosticului schizofreniei.",
-  "reference": {
-   "book": "Sinopsis",
-   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
-   "chapter": 14,
-   "printedPages": [
-    319,
-    320
-   ],
-   "pdfPages": [
-    97,
-    98
-   ],
-   "section": "Schizofrenia"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Rata este crescută la persoanele fără domiciliu.",
-    "evidenceLocation": "Sinopsis, p. 319, 320, Schizofrenia"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Sunt necesare cel puțin două simptome.",
-    "evidenceLocation": "Sinopsis, p. 319, 320, Schizofrenia"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Simptomele negative și suportul slab agravează prognosticul.",
-    "evidenceLocation": "Sinopsis, p. 319, 320, Schizofrenia"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Debutul tipic este în adolescența târzie sau la adultul tânăr.",
-    "evidenceLocation": "Sinopsis, p. 319, 320, Schizofrenia"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Funcționarea socială este afectată peste 6 luni.",
-    "evidenceLocation": "Sinopsis, p. 319, 320, Schizofrenia"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:47:30.161Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii reduc numărul de simptome și inversează factorul social."
-  },
-  "textbookExpressions": [
-   "adolescenţa târzie",
-   "6 luni"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a psihiatrie-adv-001: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "psihiatrie-adv-038-v2",
   "questionFingerprint": "27167a8b56f13d70ff2908c19d1e181ccaa098e36b73d477c11712d8938ccfe7",
   "status": "source-checked",
@@ -214737,83 +214658,6 @@
   "reviewNotes": "Rescriere a psihiatrie-adv-041: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "psihiatrie-adv-042-v2",
-  "questionFingerprint": "04af518ca8f6f5bafe2ccdb256dca37095a507ab71d8d265aa3ca94f6c68248c",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea criteriilor tulburării depresive persistente.",
-  "reference": {
-   "book": "Sinopsis",
-   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
-   "chapter": 14,
-   "printedPages": [
-    321
-   ],
-   "pdfPages": [
-    99
-   ],
-   "section": "Tulburarea depresivă persistentă"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Disforia plus cel puțin două simptome.",
-    "evidenceLocation": "Sinopsis, p. 321, Tulburarea depresivă persistentă"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Poate include depresia majoră cronică.",
-    "evidenceLocation": "Sinopsis, p. 321, Tulburarea depresivă persistentă"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Durata este de peste 2 ani.",
-    "evidenceLocation": "Sinopsis, p. 321, Tulburarea depresivă persistentă"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Durata este de peste 2 ani.",
-    "evidenceLocation": "Sinopsis, p. 321, Tulburarea depresivă persistentă"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Include depresia majoră cronică.",
-    "evidenceLocation": "Sinopsis, p. 321, Tulburarea depresivă persistentă"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:47:30.172Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii scurtează durata și exclud TDM cronică."
-  },
-  "textbookExpressions": [
-   "disforiei",
-   "Depresia majoră cronică"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a psihiatrie-adv-042: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "psihiatrie-adv-024-v2",
   "questionFingerprint": "10963de8a7f7ebd3c31694ef3ee3c5cd169a04cc3dd5cf047d18c41658740153",
   "status": "source-checked",
@@ -214966,83 +214810,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a psihiatrie-adv-045: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "psihiatrie-adv-025-v2",
-  "questionFingerprint": "3d2427a01a45dd017b453407888aeba28ca26121090e6da57eb152d42c75aada",
-  "status": "source-checked",
-  "learningObjective": "Diferențierea hipomaniei de manie.",
-  "reference": {
-   "book": "Sinopsis",
-   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
-   "chapter": 14,
-   "printedPages": [
-    322
-   ],
-   "pdfPages": [
-    100
-   ],
-   "section": "Episodul hipomaniacal"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Durata minimă este de 4 zile.",
-    "evidenceLocation": "Sinopsis, p. 322, Episodul hipomaniacal"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Funcționarea nu este afectat semnificativ.",
-    "evidenceLocation": "Sinopsis, p. 322, Episodul hipomaniacal"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "O săptămână este durata episodului maniacal.",
-    "evidenceLocation": "Sinopsis, p. 322, Episodul hipomaniacal"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Sunt necesare trei sau mai multe simptome de manie.",
-    "evidenceLocation": "Sinopsis, p. 322, Episodul hipomaniacal"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Funcționarea nu este afectată semnificativ.",
-    "evidenceLocation": "Sinopsis, p. 322, Episodul hipomaniacal"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:47:30.173Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii preiau criteriile maniei."
-  },
-  "textbookExpressions": [
-   "cel puţin 4 zile",
-   "hipomaniacal"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a psihiatrie-adv-025: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "psihiatrie-adv-026-v2",
@@ -215355,83 +215122,6 @@
   "reviewNotes": "Rescriere a psihiatrie-adv-027: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "psihiatrie-adv-006-v2",
-  "questionFingerprint": "8d00de4a7a9a889b9709fcfd1df3e430c24f9c8bbad0248b5c71a7abfe03e9c2",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea și tratamentul tulburării de panică.",
-  "reference": {
-   "book": "Sinopsis",
-   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
-   "chapter": 14,
-   "printedPages": [
-    323
-   ],
-   "pdfPages": [
-    101
-   ],
-   "section": "Tulburarea de panică"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Debutul tipic este în adolescență.",
-    "evidenceLocation": "Sinopsis, p. 323, Tulburarea de panică"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Atacurile sunt spontane și imprevizibile.",
-    "evidenceLocation": "Sinopsis, p. 323, Tulburarea de panică"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Atacurile durează până la 30 de minute.",
-    "evidenceLocation": "Sinopsis, p. 323, Tulburarea de panică"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "SSRI și SNRI sunt folosite pe termen lung.",
-    "evidenceLocation": "Sinopsis, p. 323, Tulburarea de panică"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Benzodiazepinele se folosesc pentru atacul de moment.",
-    "evidenceLocation": "Sinopsis, p. 323, Tulburarea de panică"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:47:30.176Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii confundă panica cu fobia și tratamentul acut."
-  },
-  "textbookExpressions": [
-   "30 de minute",
-   "adolescenţă"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a psihiatrie-adv-006: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "psihiatrie-adv-028-v2",
   "questionFingerprint": "341fc3e01d4082d360cf5252f7a72cf8113b43ce43a0bc34d791dcd7a14bb7ba",
   "status": "source-checked",
@@ -215584,85 +215274,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a psihiatrie-adv-007: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "psihiatrie-adv-011-v2",
-  "questionFingerprint": "e6860fc9d9161f61b692534b9e637af88c479008f9205901a7d807484fd4217c",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea criteriilor și tratamentului GAD.",
-  "reference": {
-   "book": "Sinopsis",
-   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
-   "chapter": 14,
-   "printedPages": [
-    324,
-    323
-   ],
-   "pdfPages": [
-    102,
-    101
-   ],
-   "section": "Tulburarea anxietății generalizate"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Riscul femeilor este dublu.",
-    "evidenceLocation": "Sinopsis, p. 324, 323, Tulburarea anxietății generalizate"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Sunt necesare trei simptome.",
-    "evidenceLocation": "Sinopsis, p. 324, 323, Tulburarea anxietății generalizate"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Durata este de peste 6 luni.",
-    "evidenceLocation": "Sinopsis, p. 324, 323, Tulburarea anxietății generalizate"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Durata este de peste 6 luni.",
-    "evidenceLocation": "Sinopsis, p. 324, 323, Tulburarea anxietății generalizate"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Buspirona este mai sigură pe termen lung.",
-    "evidenceLocation": "Sinopsis, p. 324, 323, Tulburarea anxietății generalizate"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:47:30.178Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii scurtează durata și inversează siguranța."
-  },
-  "textbookExpressions": [
-   "riscul femeilor",
-   "tensiune musculară"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a psihiatrie-adv-011: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "psihiatrie-adv-017-v2",
@@ -216048,83 +215659,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a psihiatrie-adv-048: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "psihiatrie-adv-031-v2",
-  "questionFingerprint": "76bd1fc27a535fe01da1c0936f9dfcdc2dc3b339853e7cced892c0955b6f38df",
-  "status": "source-checked",
-  "learningObjective": "Diferențierea tulburării de adaptare de stresul acut și PTSD.",
-  "reference": {
-   "book": "Sinopsis",
-   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
-   "chapter": 14,
-   "printedPages": [
-    325
-   ],
-   "pdfPages": [
-    103
-   ],
-   "section": "Tulburarea de adaptare"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Descrie tulburarea acută de stres.",
-    "evidenceLocation": "Sinopsis, p. 325, Tulburarea de adaptare"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Poate avea dispoziție depresivă, anxietate sau tulburări de conduită.",
-    "evidenceLocation": "Sinopsis, p. 325, Tulburarea de adaptare"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Debutul este în primele 3 luni.",
-    "evidenceLocation": "Sinopsis, p. 325, Tulburarea de adaptare"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Descrie traumele din PTSD.",
-    "evidenceLocation": "Sinopsis, p. 325, Tulburarea de adaptare"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Remisiunea are loc în 6 luni.",
-    "evidenceLocation": "Sinopsis, p. 325, Tulburarea de adaptare"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:47:30.181Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii preiau criteriile stresului acut și PTSD."
-  },
-  "textbookExpressions": [
-   "primele 3 luni",
-   "dispoziţie depresivă"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a psihiatrie-adv-031: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "psihiatrie-adv-008-v2",
@@ -216593,83 +216127,6 @@
   "reviewNotes": "Rescriere a psihiatrie-adv-044: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "psihiatrie-adv-010-v2",
-  "questionFingerprint": "84798aaed96dff2b4e71b00ea7ed7adabf9b7a4b8894df8fd712bca98f49cd39",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea anorexiei nervosa.",
-  "reference": {
-   "book": "Sinopsis",
-   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
-   "chapter": 14,
-   "printedPages": [
-    327
-   ],
-   "pdfPages": [
-    105
-   ],
-   "section": "Anorexia nervosa"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Farmacoterapia nu și-a dovedit utilitatea.",
-    "evidenceLocation": "Sinopsis, p. 327, Anorexia nervosa"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Mortalitatea pe 10 ani este 6%.",
-    "evidenceLocation": "Sinopsis, p. 327, Anorexia nervosa"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Greutatea este în general <85% din cea ideală.",
-    "evidenceLocation": "Sinopsis, p. 327, Anorexia nervosa"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Apar bradicardie și intoleranță la frig.",
-    "evidenceLocation": "Sinopsis, p. 327, Anorexia nervosa"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Amenoree, lanugo, bradicardie.",
-    "evidenceLocation": "Sinopsis, p. 327, Anorexia nervosa"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:47:30.186Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează semnele și eficacitatea medicației."
-  },
-  "textbookExpressions": [
-   "lanugo",
-   "6%"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a psihiatrie-adv-010: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "psihiatrie-adv-034-v2",
   "questionFingerprint": "388b22871d982d54acb68fbc725a05ca5086c0d8e2c993c1f3db8631b7de88b1",
   "status": "source-checked",
@@ -216745,83 +216202,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a psihiatrie-adv-034: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "psihiatrie-adv-035-v2",
-  "questionFingerprint": "8f72d41931a633e857988d5df5827c93f569b313a10d59a8cf036c33c056e368",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea bulimiei nervosa.",
-  "reference": {
-   "book": "Sinopsis",
-   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
-   "chapter": 14,
-   "printedPages": [
-    327
-   ],
-   "pdfPages": [
-    105
-   ],
-   "section": "Bulimia nervosa"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Inflamația parotidelor poate crește amilaza.",
-    "evidenceLocation": "Sinopsis, p. 327, Bulimia nervosa"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Greutatea este în general normală.",
-    "evidenceLocation": "Sinopsis, p. 327, Bulimia nervosa"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Fluoxetina este medicația aprobată.",
-    "evidenceLocation": "Sinopsis, p. 327, Bulimia nervosa"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Litiul nu este tratamentul citat.",
-    "evidenceLocation": "Sinopsis, p. 327, Bulimia nervosa"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Episoadele apar săptămânal peste 3 luni.",
-    "evidenceLocation": "Sinopsis, p. 327, Bulimia nervosa"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:47:30.187Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii preiau greutatea din anorexie."
-  },
-  "textbookExpressions": [
-   "Fluoxetină",
-   "parotide"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a psihiatrie-adv-035: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "psihiatrie-adv-051-v2",
@@ -217134,83 +216514,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a psihiatrie-adv-052: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "psihiatrie-adv-019-v2",
-  "questionFingerprint": "449dcf9d72a42318fa4d82a3faa726d6d137cea4a5522a3e52b1470d1d729267",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea tulburării borderline.",
-  "reference": {
-   "book": "Sinopsis",
-   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
-   "chapter": 14,
-   "printedPages": [
-    328
-   ],
-   "pdfPages": [
-    106
-   ],
-   "section": "Tabelul 14-5"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Antisocialul este mai frecvent la bărbați.",
-    "evidenceLocation": "Sinopsis, p. 328, Tabelul 14-5"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Este mai frecventă la femei.",
-    "evidenceLocation": "Sinopsis, p. 328, Tabelul 14-5"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Este criteriul antisocialului.",
-    "evidenceLocation": "Sinopsis, p. 328, Tabelul 14-5"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Gândirea „alb și negru” este citată.",
-    "evidenceLocation": "Sinopsis, p. 328, Tabelul 14-5"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Frica de abandon și impulsivitatea sunt citate.",
-    "evidenceLocation": "Sinopsis, p. 328, Tabelul 14-5"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T01:47:30.190Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii preiau criteriile antisocialului."
-  },
-  "textbookExpressions": [
-   "frică de abandon",
-   "alb şi negru"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a psihiatrie-adv-019: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "psihiatrie-adv-015-v2",
@@ -269519,5 +268822,702 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a endocrinologie-adv-044: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "psihiatrie-adv-001-v2",
+  "questionFingerprint": "20a07c5ea4322bbc49eda3617e4dd908e4ffb3e89f7da124bc11f681550fc17f",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea criteriilor și a prognosticului schizofreniei.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    319,
+    320
+   ],
+   "pdfPages": [
+    97,
+    98
+   ],
+   "section": "Schizofrenia"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Rata este crescută la persoanele fără domiciliu.",
+    "evidenceLocation": "Sinopsis, p. 319, 320, Schizofrenia"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Sunt necesare cel puțin două simptome.",
+    "evidenceLocation": "Sinopsis, p. 319, 320, Schizofrenia"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Simptomele negative și suportul slab agravează prognosticul.",
+    "evidenceLocation": "Sinopsis, p. 319, 320, Schizofrenia"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Debutul tipic este în adolescența târzie sau la adultul tânăr.",
+    "evidenceLocation": "Sinopsis, p. 319, 320, Schizofrenia"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: funcționarea socială este afectată peste 6 luni.",
+    "evidenceLocation": "Sinopsis, p. 319, 320, Schizofrenia"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:23:11.659Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii reduc numărul de simptome și inversează factorul social."
+  },
+  "textbookExpressions": [
+   "adolescenţa târzie",
+   "6 luni"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a psihiatrie-adv-001: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "psihiatrie-adv-042-v2",
+  "questionFingerprint": "2c8cd66fcaaf03fc1dc3c10e11a9524075367fb6c989a2abd963120ec578a0b6",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea criteriilor tulburării depresive persistente.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    321
+   ],
+   "pdfPages": [
+    99
+   ],
+   "section": "Tulburarea depresivă persistentă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: sunt necesare disforia plus cel puțin două simptome.",
+    "evidenceLocation": "Sinopsis, p. 321, Tulburarea depresivă persistentă"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Poate include depresia majoră cronică.",
+    "evidenceLocation": "Sinopsis, p. 321, Tulburarea depresivă persistentă"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Durata este de peste 2 ani.",
+    "evidenceLocation": "Sinopsis, p. 321, Tulburarea depresivă persistentă"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Durata este de peste 2 ani.",
+    "evidenceLocation": "Sinopsis, p. 321, Tulburarea depresivă persistentă"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Include depresia majoră cronică.",
+    "evidenceLocation": "Sinopsis, p. 321, Tulburarea depresivă persistentă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:23:11.662Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii scurtează durata și exclud TDM cronică."
+  },
+  "textbookExpressions": [
+   "disforiei",
+   "Depresia majoră cronică"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a psihiatrie-adv-042: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "psihiatrie-adv-006-v2",
+  "questionFingerprint": "7e93277681b987408ba62a8ef281e7629339613a89f71af08badd84bb1aaf81c",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea și tratamentul tulburării de panică.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    323
+   ],
+   "pdfPages": [
+    101
+   ],
+   "section": "Tulburarea de panică"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Debutul tipic este în adolescență.",
+    "evidenceLocation": "Sinopsis, p. 323, Tulburarea de panică"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Atacurile sunt spontane și imprevizibile.",
+    "evidenceLocation": "Sinopsis, p. 323, Tulburarea de panică"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: atacurile durează până la 30 de minute.",
+    "evidenceLocation": "Sinopsis, p. 323, Tulburarea de panică"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "SSRI și SNRI sunt folosite pe termen lung.",
+    "evidenceLocation": "Sinopsis, p. 323, Tulburarea de panică"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Benzodiazepinele se folosesc pentru atacul de moment.",
+    "evidenceLocation": "Sinopsis, p. 323, Tulburarea de panică"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:23:11.664Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii confundă panica cu fobia și tratamentul acut."
+  },
+  "textbookExpressions": [
+   "30 de minute",
+   "adolescenţă"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a psihiatrie-adv-006: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "psihiatrie-adv-011-v2",
+  "questionFingerprint": "64769047fd6951c253e500f22cd06c2c089b84fcc08d89fe0d892d0e40cbed4d",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea criteriilor și tratamentului GAD.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    324,
+    323
+   ],
+   "pdfPages": [
+    102,
+    101
+   ],
+   "section": "Tulburarea anxietății generalizate"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: riscul femeilor este dublu.",
+    "evidenceLocation": "Sinopsis, p. 324, 323, Tulburarea anxietății generalizate"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Sunt necesare trei simptome.",
+    "evidenceLocation": "Sinopsis, p. 324, 323, Tulburarea anxietății generalizate"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Durata este de peste 6 luni.",
+    "evidenceLocation": "Sinopsis, p. 324, 323, Tulburarea anxietății generalizate"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Durata este de peste 6 luni.",
+    "evidenceLocation": "Sinopsis, p. 324, 323, Tulburarea anxietății generalizate"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Buspirona este mai sigură pe termen lung.",
+    "evidenceLocation": "Sinopsis, p. 324, 323, Tulburarea anxietății generalizate"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:23:11.665Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii scurtează durata și inversează siguranța."
+  },
+  "textbookExpressions": [
+   "riscul femeilor",
+   "tensiune musculară"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a psihiatrie-adv-011: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "psihiatrie-adv-031-v2",
+  "questionFingerprint": "7389309f899b51456061a5e7155da4e8a9da785b075b03c56936e0f08f773224",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea tulburării de adaptare de stresul acut și PTSD.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    325
+   ],
+   "pdfPages": [
+    103
+   ],
+   "section": "Tulburarea de adaptare"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Descrie tulburarea acută de stres.",
+    "evidenceLocation": "Sinopsis, p. 325, Tulburarea de adaptare"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Poate avea dispoziție depresivă, anxietate sau tulburări de conduită.",
+    "evidenceLocation": "Sinopsis, p. 325, Tulburarea de adaptare"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: debutul este în primele 3 luni.",
+    "evidenceLocation": "Sinopsis, p. 325, Tulburarea de adaptare"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Descrie traumele din PTSD.",
+    "evidenceLocation": "Sinopsis, p. 325, Tulburarea de adaptare"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Remisiunea are loc în 6 luni.",
+    "evidenceLocation": "Sinopsis, p. 325, Tulburarea de adaptare"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:23:11.666Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii preiau criteriile stresului acut și PTSD."
+  },
+  "textbookExpressions": [
+   "primele 3 luni",
+   "dispoziţie depresivă"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a psihiatrie-adv-031: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "psihiatrie-adv-010-v2",
+  "questionFingerprint": "ff95b6561ef3d28111f6e447bf34734d408c048337e8ef1af2aa8c4c3ce54770",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea anorexiei nervosa.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    327
+   ],
+   "pdfPages": [
+    105
+   ],
+   "section": "Anorexia nervosa"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Farmacoterapia nu și-a dovedit utilitatea.",
+    "evidenceLocation": "Sinopsis, p. 327, Anorexia nervosa"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: mortalitatea pe 10 ani este 6%.",
+    "evidenceLocation": "Sinopsis, p. 327, Anorexia nervosa"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Greutatea este în general <85% din cea ideală.",
+    "evidenceLocation": "Sinopsis, p. 327, Anorexia nervosa"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Apar bradicardie și intoleranță la frig.",
+    "evidenceLocation": "Sinopsis, p. 327, Anorexia nervosa"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Amenoree, lanugo, bradicardie.",
+    "evidenceLocation": "Sinopsis, p. 327, Anorexia nervosa"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:23:11.667Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează semnele și eficacitatea medicației."
+  },
+  "textbookExpressions": [
+   "lanugo",
+   "6%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a psihiatrie-adv-010: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "psihiatrie-adv-035-v2",
+  "questionFingerprint": "d81923cdc97a866e380bbeee8dbdf58a0bb1cb46760aa6cb61ef9f3ef1f029d9",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea bulimiei nervosa.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    327
+   ],
+   "pdfPages": [
+    105
+   ],
+   "section": "Bulimia nervosa"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Inflamația parotidelor poate crește amilaza.",
+    "evidenceLocation": "Sinopsis, p. 327, Bulimia nervosa"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Greutatea este în general normală.",
+    "evidenceLocation": "Sinopsis, p. 327, Bulimia nervosa"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: fluoxetina este medicația aprobată de FDA.",
+    "evidenceLocation": "Sinopsis, p. 327, Bulimia nervosa"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Litiul nu este tratamentul citat.",
+    "evidenceLocation": "Sinopsis, p. 327, Bulimia nervosa"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Episoadele apar săptămânal peste 3 luni.",
+    "evidenceLocation": "Sinopsis, p. 327, Bulimia nervosa"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:23:11.667Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii preiau greutatea din anorexie."
+  },
+  "textbookExpressions": [
+   "Fluoxetină",
+   "parotide"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a psihiatrie-adv-035: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "psihiatrie-adv-019-v2",
+  "questionFingerprint": "3d3efabcbbb6f978eabf0d010eb564edd9fc3734c9c6990fc6a92bf5d30b4d35",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea tulburării borderline.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    328
+   ],
+   "pdfPages": [
+    106
+   ],
+   "section": "Tabelul 14-5"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Antisocialul este mai frecvent la bărbați.",
+    "evidenceLocation": "Sinopsis, p. 328, Tabelul 14-5"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Este mai frecventă la femei.",
+    "evidenceLocation": "Sinopsis, p. 328, Tabelul 14-5"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Este criteriul antisocialului.",
+    "evidenceLocation": "Sinopsis, p. 328, Tabelul 14-5"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: convingerile bizare sunt schizotipale; borderline asociază gândirea „alb și negru”.",
+    "evidenceLocation": "Sinopsis, p. 328, Tabelul 14-5"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Frica de abandon și impulsivitatea sunt citate.",
+    "evidenceLocation": "Sinopsis, p. 328, Tabelul 14-5"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:23:11.668Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii preiau criteriile antisocialului."
+  },
+  "textbookExpressions": [
+   "frică de abandon",
+   "alb şi negru"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a psihiatrie-adv-019: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "psihiatrie-adv-025-v2",
+  "questionFingerprint": "6853495b0801bfafc79d41c7f79164c0e7409516f71cf02375e17bb064764b99",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea hipomaniei de manie.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    322
+   ],
+   "pdfPages": [
+    100
+   ],
+   "section": "Episodul hipomaniacal"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: durata minimă este de 4 zile.",
+    "evidenceLocation": "Sinopsis, p. 322, Episodul hipomaniacal"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Funcționarea nu este afectat semnificativ.",
+    "evidenceLocation": "Sinopsis, p. 322, Episodul hipomaniacal"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "O săptămână este durata episodului maniacal.",
+    "evidenceLocation": "Sinopsis, p. 322, Episodul hipomaniacal"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Sunt necesare trei sau mai multe simptome de manie.",
+    "evidenceLocation": "Sinopsis, p. 322, Episodul hipomaniacal"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Funcționarea nu este afectată semnificativ.",
+    "evidenceLocation": "Sinopsis, p. 322, Episodul hipomaniacal"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:23:24.934Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii preiau criteriile maniei."
+  },
+  "textbookExpressions": [
+   "cel puţin 4 zile",
+   "hipomaniacal"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a psihiatrie-adv-025: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  }
 ]
