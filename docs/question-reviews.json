@@ -224737,83 +224737,6 @@
   "reviewNotes": "Rescriere a hematologie-adv-037: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "hematologie-adv-050-v2",
-  "questionFingerprint": "39af032bf5712a24a234f017cc0341b7781da1bc52fccce6759a41119208b144",
-  "status": "source-checked",
-  "learningObjective": "Fixarea datelor despre aportul și absorbția fierului.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 16,
-   "printedPages": [
-    329
-   ],
-   "pdfPages": [
-    54
-   ],
-   "section": "Fierul — aportul dietetic"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Fierul heminic se absoarbe mai bine.",
-    "evidenceLocation": "Kumar, p. 329, Fierul — aportul dietetic"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Se absoarbe normal 10%.",
-    "evidenceLocation": "Kumar, p. 329, Fierul — aportul dietetic"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Fierul feros se absoarbe mai ușor.",
-    "evidenceLocation": "Kumar, p. 329, Fierul — aportul dietetic"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Dieta conține 15–20 mg.",
-    "evidenceLocation": "Kumar, p. 329, Fierul — aportul dietetic"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Absorbția crește la 20–30%.",
-    "evidenceLocation": "Kumar, p. 329, Fierul — aportul dietetic"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:12:12.663Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează formele de fier."
-  },
-  "textbookExpressions": [
-   "15-20 mg",
-   "20-30%"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hematologie-adv-050: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "hematologie-adv-051-v2",
   "questionFingerprint": "81d47c34f6ed4322426860bb41aef964629dee255aca94240586de349a449d9b",
   "status": "source-checked",
@@ -224893,83 +224816,6 @@
   "reviewNotes": "Rescriere a hematologie-adv-051: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "hematologie-adv-052-v2",
-  "questionFingerprint": "084d8206bca4868d44c16fb66556744bbc625cd56df56f22a9eff9687155dd72",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea rolului hepcidinei.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 16,
-   "printedPages": [
-    330
-   ],
-   "pdfPages": [
-    55
-   ],
-   "section": "Absorbția fierului"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "IL-6 stimulează hepcidina.",
-    "evidenceLocation": "Kumar, p. 330, Absorbția fierului"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Este o peptidă hepatică de 25 de aminoacizi.",
-    "evidenceLocation": "Kumar, p. 330, Absorbția fierului"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Scade efluxul de fier.",
-    "evidenceLocation": "Kumar, p. 330, Absorbția fierului"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Internalizează și degradează feroportina.",
-    "evidenceLocation": "Kumar, p. 330, Absorbția fierului"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Eritroferonul scade hepcidina.",
-    "evidenceLocation": "Kumar, p. 330, Absorbția fierului"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:12:12.665Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Singurul distractor inversează efectul."
-  },
-  "textbookExpressions": [
-   "eritroferon",
-   "feroportina"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hematologie-adv-052: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "hematologie-adv-008-v2",
   "questionFingerprint": "728d7982fa927732ad8635c1e74a4245d455acfe2175047278b3bbeeecb07390",
   "status": "source-checked",
@@ -225047,83 +224893,6 @@
   "reviewNotes": "Rescriere a hematologie-adv-008: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "hematologie-adv-053-v2",
-  "questionFingerprint": "ae78f7ffe28dd73207bc9e9d05337ca9cc0ade09b8e6cbb32e45fdce0de1cc12",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea transportului plasmatic al fierului.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 16,
-   "printedPages": [
-    330
-   ],
-   "pdfPages": [
-    55
-   ],
-   "section": "Transportul în sânge"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Saturația normală este de o treime.",
-    "evidenceLocation": "Kumar, p. 330, Transportul în sânge"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Fiecare moleculă leagă doi atomi de Fe3+.",
-    "evidenceLocation": "Kumar, p. 330, Transportul în sânge"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Transferina este sintetizată în ficat.",
-    "evidenceLocation": "Kumar, p. 330, Transportul în sânge"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Fierul seric are utilitate mică.",
-    "evidenceLocation": "Kumar, p. 330, Transportul în sânge"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Fierul provine din reciclarea macrofagică.",
-    "evidenceLocation": "Kumar, p. 330, Transportul în sânge"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:12:12.666Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii supraestimează fierul seric și schimbă sediul sintezei."
-  },
-  "textbookExpressions": [
-   "transferină",
-   "o treime"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hematologie-adv-053: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "hematologie-adv-022-v2",
   "questionFingerprint": "d468e9cfa85e57785db94f788a78e7e46278bb90737c208f083c4c489ac6b89f",
   "status": "source-checked",
@@ -225199,83 +224968,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a hematologie-adv-022: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "hematologie-adv-068-v2",
-  "questionFingerprint": "a76d39acd8970f613151b1e916acca34c610863f43d579123d11aab9991f6421",
-  "status": "source-checked",
-  "learningObjective": "Fixarea distribuției și pierderilor de fier.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 16,
-   "printedPages": [
-    330
-   ],
-   "pdfPages": [
-    55
-   ],
-   "section": "Depozitele de fier"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Două treimi circulă ca hemoglobină.",
-    "evidenceLocation": "Kumar, p. 330, Depozitele de fier"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Se pierd 0,5–1,0 mg/zi.",
-    "evidenceLocation": "Kumar, p. 330, Depozitele de fier"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Hemosiderina este insolubilă.",
-    "evidenceLocation": "Kumar, p. 330, Depozitele de fier"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Două treimi feritină, o treime hemosiderină.",
-    "evidenceLocation": "Kumar, p. 330, Depozitele de fier"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Peste 100 ml/lună duce de obicei la deficit.",
-    "evidenceLocation": "Kumar, p. 330, Depozitele de fier"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:12:12.668Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Singurul distractor confundă hemosiderina cu feritina."
-  },
-  "textbookExpressions": [
-   "hemosiderină",
-   "100 ml"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hematologie-adv-068: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "hematologie-adv-054-v2",
@@ -225509,83 +225201,6 @@
   "reviewNotes": "Rescriere a hematologie-adv-001: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "hematologie-adv-056-v2",
-  "questionFingerprint": "0f9798481500c8a271c8d81efc0baf822b8d741fd090d6f50812303f4d0e51b7",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea tratamentului oral cu fier.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 16,
-   "printedPages": [
-    332
-   ],
-   "pdfPages": [
-    57
-   ],
-   "section": "Deficitul de fier — tratament"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Răspunsul hematologic parenteral nu este mai rapid.",
-    "evidenceLocation": "Kumar, p. 332, Deficitul de fier — tratament"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Hb crește cu ~10 g/L pe săptămână.",
-    "evidenceLocation": "Kumar, p. 332, Deficitul de fier — tratament"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Taninurile inhibă absorbția.",
-    "evidenceLocation": "Kumar, p. 332, Deficitul de fier — tratament"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "200 mg sulfat feros = 60 mg fier elementar.",
-    "evidenceLocation": "Kumar, p. 332, Deficitul de fier — tratament"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Refacerea depozitelor poate dura 6 luni.",
-    "evidenceLocation": "Kumar, p. 332, Deficitul de fier — tratament"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:12:12.670Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează efectul ceaiului și al căii parenterale."
-  },
-  "textbookExpressions": [
-   "10 g/L",
-   "sulfatul feros"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hematologie-adv-056: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "hematologie-adv-071-v2",
   "questionFingerprint": "bba85c81c8ee83cad096e32656e7da7315483deb19afd187fa7c70f9a649411d",
   "status": "source-checked",
@@ -225742,83 +225357,6 @@
   "reviewNotes": "Rescriere a hematologie-adv-055: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "hematologie-adv-057-v2",
-  "questionFingerprint": "266fc40fefd38527c28662915b87a97b8df422c361ef39588457a64e5890caa5",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea anemiei din bolile cronice.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 16,
-   "printedPages": [
-    332
-   ],
-   "pdfPages": [
-    57
-   ],
-   "section": "Anemia din bolile cronice"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Răspunsul eritropoietinei este inadecvat.",
-    "evidenceLocation": "Kumar, p. 332, Anemia din bolile cronice"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Fierul este prezent în frotiul medular.",
-    "evidenceLocation": "Kumar, p. 332, Anemia din bolile cronice"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Pacienții nu răspund la fierul oral.",
-    "evidenceLocation": "Kumar, p. 332, Anemia din bolile cronice"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "CTLF este scăzută.",
-    "evidenceLocation": "Kumar, p. 332, Anemia din bolile cronice"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Hepcidina crescută sechestrează fierul.",
-    "evidenceLocation": "Kumar, p. 332, Anemia din bolile cronice"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:12:12.672Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii preiau profilul carenței marțiale."
-  },
-  "textbookExpressions": [
-   "hepcidină",
-   "eritropoietinei"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hematologie-adv-057: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "hematologie-adv-072-v2",
   "questionFingerprint": "a4c2bd900495535950b21059e3cd70f518912ed30182549f2b5912e5ec234a8f",
   "status": "source-checked",
@@ -225894,83 +225432,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a hematologie-adv-072: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "hematologie-adv-058-v2",
-  "questionFingerprint": "d869a69d246a8518f699804f1860a9a9748de6385abacb68ffed62a8cb7109c3",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea anemiei megaloblastice.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 16,
-   "printedPages": [
-    333
-   ],
-   "pdfPages": [
-    58
-   ],
-   "section": "Anemia megaloblastică"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Metamielocitele uriașe sunt frecvente.",
-    "evidenceLocation": "Kumar, p. 333, Anemia megaloblastică"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "VEM este de obicei >96 fL.",
-    "evidenceLocation": "Kumar, p. 333, Anemia megaloblastică"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "LDH crește prin eritropoieză ineficientă.",
-    "evidenceLocation": "Kumar, p. 333, Anemia megaloblastică"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Neutrofilele au șase sau mai mulți lobi.",
-    "evidenceLocation": "Kumar, p. 333, Anemia megaloblastică"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Eritropoieza este ineficientă.",
-    "evidenceLocation": "Kumar, p. 333, Anemia megaloblastică"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:12:12.673Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Singurul distractor contrazice eritropoieza ineficientă."
-  },
-  "textbookExpressions": [
-   "96 fL",
-   "metamielocitele"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hematologie-adv-058: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "hematologie-adv-010-v2",
@@ -226208,83 +225669,6 @@
   "reviewNotes": "Rescriere a hematologie-adv-059: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "hematologie-adv-060-v2",
-  "questionFingerprint": "b3f203f9734a97723d051362c01d0eeb594f84ca40e34360d491fea7fcb21073",
-  "status": "source-checked",
-  "learningObjective": "Interpretarea serologiei anemiei pernicioase.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 16,
-   "printedPages": [
-    334
-   ],
-   "pdfPages": [
-    59
-   ],
-   "section": "Anemia pernicioasă"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Apar la 10% dintre indivizii normali.",
-    "evidenceLocation": "Kumar, p. 334, Anemia pernicioasă"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Este mai frecventă la femei.",
-    "evidenceLocation": "Kumar, p. 334, Anemia pernicioasă"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Carcinomul gastric apare la 1–3%.",
-    "evidenceLocation": "Kumar, p. 334, Anemia pernicioasă"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Anti-parietali la 90%.",
-    "evidenceLocation": "Kumar, p. 334, Anemia pernicioasă"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Anti-FI la 50%, dar specifici.",
-    "evidenceLocation": "Kumar, p. 334, Anemia pernicioasă"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:12:12.677Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează sexul și specificitatea."
-  },
-  "textbookExpressions": [
-   "90%",
-   "Addison"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hematologie-adv-060: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "hematologie-adv-003-v2",
   "questionFingerprint": "a9bf2fbb54968b4e402aa7c03d5e7137d72a4cb7df87cc65d516501805e87f9b",
   "status": "source-checked",
@@ -226439,85 +225823,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a hematologie-adv-074: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "hematologie-adv-065-v2",
-  "questionFingerprint": "5c34895723714f32cf43d7d4b56ac9eb70bc4c836154dd8c47479f2938c82966",
-  "status": "source-checked",
-  "learningObjective": "Interpretarea testelor pentru deficitul de B12.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 16,
-   "printedPages": [
-    335,
-    328
-   ],
-   "pdfPages": [
-    60,
-    53
-   ],
-   "section": "Anemia pernicioasă — investigații"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "MMA și homocisteina cresc.",
-    "evidenceLocation": "Kumar, p. 335, 328, Anemia pernicioasă — investigații"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Sarcina și contraceptivele scad B12.",
-    "evidenceLocation": "Kumar, p. 335, 328, Anemia pernicioasă — investigații"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Testele de absorbție nu se mai fac.",
-    "evidenceLocation": "Kumar, p. 335, 328, Anemia pernicioasă — investigații"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "AP este posibilă și fără anti-FI.",
-    "evidenceLocation": "Kumar, p. 335, 328, Anemia pernicioasă — investigații"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "160 ng/L este limita inferioară.",
-    "evidenceLocation": "Kumar, p. 335, 328, Anemia pernicioasă — investigații"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:12:12.680Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii supraestimează testul de absorbție și serologia."
-  },
-  "textbookExpressions": [
-   "160 ng/L",
-   "metilmalonic"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hematologie-adv-065: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "hematologie-adv-016-v2",
@@ -226751,83 +226056,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a hematologie-adv-062: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "hematologie-adv-077-v2",
-  "questionFingerprint": "39eab6bbdc64285caf6b3b2ac2c01363e533d02426ee6043b583e668d75aa412",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea dozelor de acid folic.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 16,
-   "printedPages": [
-    336
-   ],
-   "pdfPages": [
-    61
-   ],
-   "section": "Tratamentul deficitului de folați"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "5 mg/zi după un copil cu DTN.",
-    "evidenceLocation": "Kumar, p. 336, Tratamentul deficitului de folați"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Profilaxia începe înainte de sarcină.",
-    "evidenceLocation": "Kumar, p. 336, Tratamentul deficitului de folați"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "400 µg/zi profilactic.",
-    "evidenceLocation": "Kumar, p. 336, Tratamentul deficitului de folați"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Bolile hematologice cronice primesc 5 mg.",
-    "evidenceLocation": "Kumar, p. 336, Tratamentul deficitului de folați"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "5 mg/zi circa 4 luni.",
-    "evidenceLocation": "Kumar, p. 336, Tratamentul deficitului de folați"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:12:12.683Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii schimbă doza și momentul."
-  },
-  "textbookExpressions": [
-   "400",
-   "tubului neural"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hematologie-adv-077: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "hematologie-adv-078-v2",
@@ -227136,85 +226364,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a hematologie-adv-041: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "hematologie-adv-029-v2",
-  "questionFingerprint": "fca7810c2f2fde0df5b89022514626692e72e08361768468c6708a900ef67f1b",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea AHAI la cald.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 16,
-   "printedPages": [
-    352,
-    351
-   ],
-   "pdfPages": [
-    63,
-    62
-   ],
-   "section": "Anemiile hemolitice autoimune „la cald”"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Doar C3d caracterizează forma la rece.",
-    "evidenceLocation": "Kumar, p. 352, 351, Anemiile hemolitice autoimune „la cald”"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Prednisonul induce remisiune la 80%.",
-    "evidenceLocation": "Kumar, p. 352, 351, Anemiile hemolitice autoimune „la cald”"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Jumătate sunt secundare, mai ales limfoproliferări.",
-    "evidenceLocation": "Kumar, p. 352, 351, Anemiile hemolitice autoimune „la cald”"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Forma la cald reprezintă 65%.",
-    "evidenceLocation": "Kumar, p. 352, 351, Anemiile hemolitice autoimune „la cald”"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Predomină IgG.",
-    "evidenceLocation": "Kumar, p. 352, 351, Anemiile hemolitice autoimune „la cald”"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:12:12.687Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Singurul distractor preia serologia formei la rece."
-  },
-  "textbookExpressions": [
-   "limfoproliferările",
-   "80%"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hematologie-adv-029: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "hematologie-adv-030-v2",
@@ -227683,85 +226832,6 @@
   "reviewNotes": "Rescriere a hematologie-adv-047: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "hematologie-adv-031-v2",
-  "questionFingerprint": "3af0ee530f1b938816a8dc916768e90d72c8e588070a93bb5f266e4107d13497",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea bolii hemolitice a nou-născutului.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 16,
-   "printedPages": [
-    353,
-    354
-   ],
-   "pdfPages": [
-    64,
-    65
-   ],
-   "section": "Boala hemolitică a nou-născutului"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Primele sarcini sunt rar afectate.",
-    "evidenceLocation": "Kumar, p. 353, 354, Boala hemolitică a nou-născutului"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Doar IgG trec transplacentar.",
-    "evidenceLocation": "Kumar, p. 353, 354, Boala hemolitică a nou-născutului"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Incompatibilitatea ABO este cea mai frecventă, ușoară.",
-    "evidenceLocation": "Kumar, p. 353, 354, Boala hemolitică a nou-născutului"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Icterul nuclear apare peste 250 µmol/L.",
-    "evidenceLocation": "Kumar, p. 353, 354, Boala hemolitică a nou-născutului"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Transfuziile sunt rareori necesare.",
-    "evidenceLocation": "Kumar, p. 353, 354, Boala hemolitică a nou-născutului"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:12:12.693Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează sarcina afectată și severitatea ABO."
-  },
-  "textbookExpressions": [
-   "transplacentar",
-   "ABO"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hematologie-adv-031: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "hematologie-adv-032-v2",
   "questionFingerprint": "3386e49192bddde74fd6e093e6d4dd8e55060a55e6e1518e40d112186d6c9aaf",
   "status": "source-checked",
@@ -227837,85 +226907,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a hematologie-adv-032: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "hematologie-adv-048-v2",
-  "questionFingerprint": "5a62ad5bcbedca1115b0449e90e193da07a0111b52780a4beafa2d8053e9e347",
-  "status": "source-checked",
-  "learningObjective": "Aplicarea profilaxiei anti-D.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 16,
-   "printedPages": [
-    354,
-    351
-   ],
-   "pdfPages": [
-    65,
-    62
-   ],
-   "section": "Prevenția imunizării RhD"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Kleihauer cuantifică eritrocitele fetale.",
-    "evidenceLocation": "Kumar, p. 354, 351, Prevenția imunizării RhD"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Mama nu trebuie să fie deja imunizată.",
-    "evidenceLocation": "Kumar, p. 354, 351, Prevenția imunizării RhD"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "500 UI i.m. în primele 72 de ore.",
-    "evidenceLocation": "Kumar, p. 354, 351, Prevenția imunizării RhD"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Mama trebuie să fie RhD-negativă.",
-    "evidenceLocation": "Kumar, p. 354, 351, Prevenția imunizării RhD"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "După 20 de săptămâni doza este 500 UI.",
-    "evidenceLocation": "Kumar, p. 354, 351, Prevenția imunizării RhD"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:12:12.694Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii schimbă statusul Rh și doza."
-  },
-  "textbookExpressions": [
-   "Kleihauer",
-   "72 de"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hematologie-adv-048: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "hematologie-adv-063-v2",
@@ -228072,85 +227063,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a hematologie-adv-049: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "hematologie-adv-079-v2",
-  "questionFingerprint": "4a45467a511bb50286becf5ce8004d9339665e6542bb3b0dcbc648af692fe8cc",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea evoluției HPN.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 16,
-   "printedPages": [
-    354,
-    355
-   ],
-   "pdfPages": [
-    65,
-    66
-   ],
-   "section": "Hemoglobinuria paroxistică nocturnă"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Clona poate dispărea.",
-    "evidenceLocation": "Kumar, p. 354, 355, Hemoglobinuria paroxistică nocturnă"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Mediana este 10–15 ani.",
-    "evidenceLocation": "Kumar, p. 354, 355, Hemoglobinuria paroxistică nocturnă"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Pierderile urinare dau deficit de fier.",
-    "evidenceLocation": "Kumar, p. 354, 355, Hemoglobinuria paroxistică nocturnă"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Evoluează spre aplazie sau leucemie acută.",
-    "evidenceLocation": "Kumar, p. 354, 355, Hemoglobinuria paroxistică nocturnă"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Micțiunile nocturne și prima urină sunt închise.",
-    "evidenceLocation": "Kumar, p. 354, 355, Hemoglobinuria paroxistică nocturnă"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:12:12.697Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Singurul distractor schimbă direcția de evoluție."
-  },
-  "textbookExpressions": [
-   "prima urină",
-   "deficit de fier"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hematologie-adv-079: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "hematologie-adv-064-v2",
@@ -228538,83 +227450,6 @@
   "reviewNotes": "Rescriere a hematologie-adv-070: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "hematologie-adv-073-v2",
-  "questionFingerprint": "546b26a2193d169f00119421b5c29f651b50b72edb9492a8ec8c9d50103987a2",
-  "status": "source-checked",
-  "learningObjective": "Fixarea aportului și depozitelor de B12.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 16,
-   "printedPages": [
-    334
-   ],
-   "pdfPages": [
-    59
-   ],
-   "section": "Vitamina B12"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Deficitul apare după 2 ani sau mai mult.",
-    "evidenceLocation": "Kumar, p. 334, Vitamina B12"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Gătirea nu o distruge de obicei.",
-    "evidenceLocation": "Kumar, p. 334, Vitamina B12"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Sursele sunt animale.",
-    "evidenceLocation": "Kumar, p. 334, Vitamina B12"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Se absorb 2–3 µg zilnic.",
-    "evidenceLocation": "Kumar, p. 334, Vitamina B12"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Nu se găsește în plante.",
-    "evidenceLocation": "Kumar, p. 334, Vitamina B12"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:12:30.060Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează efectul gătitului și sursa."
-  },
-  "textbookExpressions": [
-   "2-3 mg",
-   "5-30"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hematologie-adv-073: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "hematologie-adv-076-v2",
   "questionFingerprint": "4641a19acf9846dda0ee8fcd3bcebd325a778d997f90a4a141e3122a1f37611a",
   "status": "source-checked",
@@ -228690,83 +227525,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a hematologie-adv-076: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "hematologie-adv-042-v2",
-  "questionFingerprint": "f7cdd8ef16756b4812ec4a8f29cd79fd48c885d71e87f59f9dec55f533bde593",
-  "status": "source-checked",
-  "learningObjective": "Diferențierea testelor Coombs direct și indirect.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 16,
-   "printedPages": [
-    351
-   ],
-   "pdfPages": [
-    62
-   ],
-   "section": "Figura 16.26"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Proba de compatibilitate folosește testul indirect.",
-    "evidenceLocation": "Kumar, p. 351, Figura 16.26"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Detectează sensibilizarea in vivo.",
-    "evidenceLocation": "Kumar, p. 351, Figura 16.26"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "BHNN are DAT pozitiv.",
-    "evidenceLocation": "Kumar, p. 351, Figura 16.26"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Testul indirect detectează anticorpii din ser.",
-    "evidenceLocation": "Kumar, p. 351, Figura 16.26"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "AHAI are DAT pozitiv.",
-    "evidenceLocation": "Kumar, p. 351, Figura 16.26"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T02:12:30.062Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii descriu testul indirect."
-  },
-  "textbookExpressions": [
-   "in vivo",
-   "compatibilitate"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hematologie-adv-042: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "arsuri-adv-001-v2",
@@ -269519,5 +268277,1247 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a ficat-splina-adv-018: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "hematologie-adv-050-v2",
+  "questionFingerprint": "559bbe7e269896dbb109d0dddf4c6addd61d67c0154fb51b60799b6edfc39c7c",
+  "status": "source-checked",
+  "learningObjective": "Fixarea datelor despre aportul și absorbția fierului.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 16,
+   "printedPages": [
+    329
+   ],
+   "pdfPages": [
+    54
+   ],
+   "section": "Fierul — aportul dietetic"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Fierul heminic se absoarbe mai bine.",
+    "evidenceLocation": "Kumar, p. 329, Fierul — aportul dietetic"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: în mod normal se absoarbe ~10%.",
+    "evidenceLocation": "Kumar, p. 329, Fierul — aportul dietetic"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Fierul feros se absoarbe mai ușor.",
+    "evidenceLocation": "Kumar, p. 329, Fierul — aportul dietetic"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Dieta conține 15–20 mg.",
+    "evidenceLocation": "Kumar, p. 329, Fierul — aportul dietetic"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Absorbția crește la 20–30%.",
+    "evidenceLocation": "Kumar, p. 329, Fierul — aportul dietetic"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:25:30.677Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează formele de fier."
+  },
+  "textbookExpressions": [
+   "15-20 mg",
+   "20-30%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a hematologie-adv-050: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "hematologie-adv-052-v2",
+  "questionFingerprint": "e975f3da18d21e46ff9690b97d7254fb1b6d39c56351ccd8a40ff745c724b158",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea rolului hepcidinei.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 16,
+   "printedPages": [
+    330
+   ],
+   "pdfPages": [
+    55
+   ],
+   "section": "Absorbția fierului"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "IL-6 stimulează hepcidina.",
+    "evidenceLocation": "Kumar, p. 330, Absorbția fierului"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Este o peptidă hepatică de 25 de aminoacizi.",
+    "evidenceLocation": "Kumar, p. 330, Absorbția fierului"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Scade efluxul de fier.",
+    "evidenceLocation": "Kumar, p. 330, Absorbția fierului"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Internalizează și degradează feroportina.",
+    "evidenceLocation": "Kumar, p. 330, Absorbția fierului"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: eritroferonul scade hepcidina.",
+    "evidenceLocation": "Kumar, p. 330, Absorbția fierului"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:25:30.681Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Singurul distractor inversează efectul."
+  },
+  "textbookExpressions": [
+   "eritroferon",
+   "feroportina"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a hematologie-adv-052: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "hematologie-adv-053-v2",
+  "questionFingerprint": "a326ccb026a72a62d07f8373742058cae61ac7e948284ba3b59b56a6ae7d01fe",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea transportului plasmatic al fierului.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 16,
+   "printedPages": [
+    330
+   ],
+   "pdfPages": [
+    55
+   ],
+   "section": "Transportul în sânge"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: saturația normală este de o treime.",
+    "evidenceLocation": "Kumar, p. 330, Transportul în sânge"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Fiecare moleculă leagă doi atomi de Fe3+.",
+    "evidenceLocation": "Kumar, p. 330, Transportul în sânge"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Transferina este sintetizată în ficat.",
+    "evidenceLocation": "Kumar, p. 330, Transportul în sânge"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Fierul seric are utilitate mică.",
+    "evidenceLocation": "Kumar, p. 330, Transportul în sânge"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Fierul provine din reciclarea macrofagică.",
+    "evidenceLocation": "Kumar, p. 330, Transportul în sânge"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:25:30.682Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii supraestimează fierul seric și schimbă sediul sintezei."
+  },
+  "textbookExpressions": [
+   "transferină",
+   "o treime"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a hematologie-adv-053: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "hematologie-adv-068-v2",
+  "questionFingerprint": "2c77a9f925a4377d2cea72d0f9896c0bbc30eb4b3cea6a5d8f36b2672e6e49be",
+  "status": "source-checked",
+  "learningObjective": "Fixarea distribuției și pierderilor de fier.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 16,
+   "printedPages": [
+    330
+   ],
+   "pdfPages": [
+    55
+   ],
+   "section": "Depozitele de fier"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Două treimi circulă ca hemoglobină.",
+    "evidenceLocation": "Kumar, p. 330, Depozitele de fier"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: se pierd 0,5–1,0 mg/zi.",
+    "evidenceLocation": "Kumar, p. 330, Depozitele de fier"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Hemosiderina este insolubilă.",
+    "evidenceLocation": "Kumar, p. 330, Depozitele de fier"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Două treimi feritină, o treime hemosiderină.",
+    "evidenceLocation": "Kumar, p. 330, Depozitele de fier"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Peste 100 ml/lună duce de obicei la deficit.",
+    "evidenceLocation": "Kumar, p. 330, Depozitele de fier"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:25:30.683Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Singurul distractor confundă hemosiderina cu feritina."
+  },
+  "textbookExpressions": [
+   "hemosiderină",
+   "100 ml"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a hematologie-adv-068: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "hematologie-adv-056-v2",
+  "questionFingerprint": "5cdacd43d99c5e835d97d79cbfd1ee96a0a15477aa96248d269af52fb43a787c",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea tratamentului oral cu fier.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 16,
+   "printedPages": [
+    332
+   ],
+   "pdfPages": [
+    57
+   ],
+   "section": "Deficitul de fier — tratament"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Răspunsul hematologic parenteral nu este mai rapid.",
+    "evidenceLocation": "Kumar, p. 332, Deficitul de fier — tratament"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: Hb crește cu ~10 g/L pe săptămână.",
+    "evidenceLocation": "Kumar, p. 332, Deficitul de fier — tratament"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Taninurile inhibă absorbția.",
+    "evidenceLocation": "Kumar, p. 332, Deficitul de fier — tratament"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "200 mg sulfat feros = 60 mg fier elementar.",
+    "evidenceLocation": "Kumar, p. 332, Deficitul de fier — tratament"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Refacerea depozitelor poate dura 6 luni.",
+    "evidenceLocation": "Kumar, p. 332, Deficitul de fier — tratament"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:25:30.684Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează efectul ceaiului și al căii parenterale."
+  },
+  "textbookExpressions": [
+   "10 g/L",
+   "sulfatul feros"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a hematologie-adv-056: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "hematologie-adv-057-v2",
+  "questionFingerprint": "7fc2ff36a8af74f1ebc4466c521dfad878f9c905aea8c559d7f30d75bb80c8e3",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea anemiei din bolile cronice.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 16,
+   "printedPages": [
+    332
+   ],
+   "pdfPages": [
+    57
+   ],
+   "section": "Anemia din bolile cronice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Răspunsul eritropoietinei este inadecvat.",
+    "evidenceLocation": "Kumar, p. 332, Anemia din bolile cronice"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Fierul este prezent în frotiul medular.",
+    "evidenceLocation": "Kumar, p. 332, Anemia din bolile cronice"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Pacienții nu răspund la fierul oral.",
+    "evidenceLocation": "Kumar, p. 332, Anemia din bolile cronice"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "CTLF este scăzută.",
+    "evidenceLocation": "Kumar, p. 332, Anemia din bolile cronice"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: hepcidina este crescută și sechestrează fierul.",
+    "evidenceLocation": "Kumar, p. 332, Anemia din bolile cronice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:25:30.684Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii preiau profilul carenței marțiale."
+  },
+  "textbookExpressions": [
+   "hepcidină",
+   "eritropoietinei"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a hematologie-adv-057: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "hematologie-adv-058-v2",
+  "questionFingerprint": "f4e0a28fdd8a910c0cd1d3c48406dbd801c12b68909bd77c95ab2d0905148dd3",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea anemiei megaloblastice.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 16,
+   "printedPages": [
+    333
+   ],
+   "pdfPages": [
+    58
+   ],
+   "section": "Anemia megaloblastică"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Metamielocitele uriașe sunt frecvente.",
+    "evidenceLocation": "Kumar, p. 333, Anemia megaloblastică"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: VEM este de obicei >96 fL.",
+    "evidenceLocation": "Kumar, p. 333, Anemia megaloblastică"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "LDH crește prin eritropoieză ineficientă.",
+    "evidenceLocation": "Kumar, p. 333, Anemia megaloblastică"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Neutrofilele au șase sau mai mulți lobi.",
+    "evidenceLocation": "Kumar, p. 333, Anemia megaloblastică"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Eritropoieza este ineficientă.",
+    "evidenceLocation": "Kumar, p. 333, Anemia megaloblastică"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:25:30.685Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Singurul distractor contrazice eritropoieza ineficientă."
+  },
+  "textbookExpressions": [
+   "96 fL",
+   "metamielocitele"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a hematologie-adv-058: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "hematologie-adv-073-v2",
+  "questionFingerprint": "ff7a57f9584a76567f272288684cbec58912fe40d9e0671d4e426b870df0bcc4",
+  "status": "source-checked",
+  "learningObjective": "Fixarea aportului și depozitelor de B12.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 16,
+   "printedPages": [
+    334
+   ],
+   "pdfPages": [
+    59
+   ],
+   "section": "Vitamina B12"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: depozitele ajung ~2 ani; deficitul apare după 2 ani sau mai mult.",
+    "evidenceLocation": "Kumar, p. 334, Vitamina B12"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Gătirea nu o distruge de obicei.",
+    "evidenceLocation": "Kumar, p. 334, Vitamina B12"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Sursele sunt animale.",
+    "evidenceLocation": "Kumar, p. 334, Vitamina B12"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Se absorb 2–3 µg zilnic.",
+    "evidenceLocation": "Kumar, p. 334, Vitamina B12"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu se găsește în plante.",
+    "evidenceLocation": "Kumar, p. 334, Vitamina B12"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:25:30.686Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează efectul gătitului și sursa."
+  },
+  "textbookExpressions": [
+   "2-3 mg",
+   "5-30"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a hematologie-adv-073: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "hematologie-adv-060-v2",
+  "questionFingerprint": "5df98b3f95816b14f1f7d6bb9b0c874fd29aa576c434001af56c818d1a465b7e",
+  "status": "source-checked",
+  "learningObjective": "Interpretarea serologiei anemiei pernicioase.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 16,
+   "printedPages": [
+    334
+   ],
+   "pdfPages": [
+    59
+   ],
+   "section": "Anemia pernicioasă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Apar la 10% dintre indivizii normali.",
+    "evidenceLocation": "Kumar, p. 334, Anemia pernicioasă"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Este mai frecventă la femei.",
+    "evidenceLocation": "Kumar, p. 334, Anemia pernicioasă"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Carcinomul gastric apare la 1–3%.",
+    "evidenceLocation": "Kumar, p. 334, Anemia pernicioasă"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: anticorpii anti-parietali apar la ~90%.",
+    "evidenceLocation": "Kumar, p. 334, Anemia pernicioasă"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Anti-FI la 50%, dar specifici.",
+    "evidenceLocation": "Kumar, p. 334, Anemia pernicioasă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:25:30.687Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează sexul și specificitatea."
+  },
+  "textbookExpressions": [
+   "90%",
+   "Addison"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a hematologie-adv-060: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "hematologie-adv-065-v2",
+  "questionFingerprint": "488f1439ab751619be6825eb602e8e8b679480983ad06e0da8acc5a926e7f669",
+  "status": "source-checked",
+  "learningObjective": "Interpretarea testelor pentru deficitul de B12.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 16,
+   "printedPages": [
+    335,
+    328
+   ],
+   "pdfPages": [
+    60,
+    53
+   ],
+   "section": "Anemia pernicioasă — investigații"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: MMA și homocisteina cresc în deficit.",
+    "evidenceLocation": "Kumar, p. 335, 328, Anemia pernicioasă — investigații"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Sarcina și contraceptivele scad B12.",
+    "evidenceLocation": "Kumar, p. 335, 328, Anemia pernicioasă — investigații"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Testele de absorbție nu se mai fac.",
+    "evidenceLocation": "Kumar, p. 335, 328, Anemia pernicioasă — investigații"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "AP este posibilă și fără anti-FI.",
+    "evidenceLocation": "Kumar, p. 335, 328, Anemia pernicioasă — investigații"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "160 ng/L este limita inferioară.",
+    "evidenceLocation": "Kumar, p. 335, 328, Anemia pernicioasă — investigații"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:25:30.688Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii supraestimează testul de absorbție și serologia."
+  },
+  "textbookExpressions": [
+   "160 ng/L",
+   "metilmalonic"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a hematologie-adv-065: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "hematologie-adv-077-v2",
+  "questionFingerprint": "273f730a3de40c9ab36ba249bff7ecee50e2a37548c53050b3c4e170a9422709",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea dozelor de acid folic.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 16,
+   "printedPages": [
+    336
+   ],
+   "pdfPages": [
+    61
+   ],
+   "section": "Tratamentul deficitului de folați"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "5 mg/zi după un copil cu DTN.",
+    "evidenceLocation": "Kumar, p. 336, Tratamentul deficitului de folați"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Profilaxia începe înainte de sarcină.",
+    "evidenceLocation": "Kumar, p. 336, Tratamentul deficitului de folați"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: doza profilactică este 400 µg/zi.",
+    "evidenceLocation": "Kumar, p. 336, Tratamentul deficitului de folați"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Bolile hematologice cronice primesc 5 mg.",
+    "evidenceLocation": "Kumar, p. 336, Tratamentul deficitului de folați"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "5 mg/zi circa 4 luni.",
+    "evidenceLocation": "Kumar, p. 336, Tratamentul deficitului de folați"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:25:30.689Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii schimbă doza și momentul."
+  },
+  "textbookExpressions": [
+   "400",
+   "tubului neural"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a hematologie-adv-077: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "hematologie-adv-042-v2",
+  "questionFingerprint": "e25b9d1f706765ece7a9080bcc0e70428514e9241d46bd23914bba5333d6cd05",
+  "status": "source-checked",
+  "learningObjective": "Diferențierea testelor Coombs direct și indirect.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 16,
+   "printedPages": [
+    351
+   ],
+   "pdfPages": [
+    62
+   ],
+   "section": "Figura 16.26"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Proba de compatibilitate folosește testul indirect.",
+    "evidenceLocation": "Kumar, p. 351, Figura 16.26"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Detectează sensibilizarea in vivo.",
+    "evidenceLocation": "Kumar, p. 351, Figura 16.26"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: BHNN are DAT pozitiv.",
+    "evidenceLocation": "Kumar, p. 351, Figura 16.26"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Testul indirect detectează anticorpii din ser.",
+    "evidenceLocation": "Kumar, p. 351, Figura 16.26"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "AHAI are DAT pozitiv.",
+    "evidenceLocation": "Kumar, p. 351, Figura 16.26"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:25:30.689Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii descriu testul indirect."
+  },
+  "textbookExpressions": [
+   "in vivo",
+   "compatibilitate"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a hematologie-adv-042: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "hematologie-adv-029-v2",
+  "questionFingerprint": "a7546df451a53775cf127b9686ef5ff619d49b5c8102d8c472eaa6fcfda10d8c",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea AHAI la cald.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 16,
+   "printedPages": [
+    352,
+    351
+   ],
+   "pdfPages": [
+    63,
+    62
+   ],
+   "section": "Anemiile hemolitice autoimune „la cald”"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Doar C3d caracterizează forma la rece.",
+    "evidenceLocation": "Kumar, p. 352, 351, Anemiile hemolitice autoimune „la cald”"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: prednisonul induce remisiune la ~80%.",
+    "evidenceLocation": "Kumar, p. 352, 351, Anemiile hemolitice autoimune „la cald”"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Jumătate sunt secundare, mai ales limfoproliferări.",
+    "evidenceLocation": "Kumar, p. 352, 351, Anemiile hemolitice autoimune „la cald”"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Forma la cald reprezintă 65%.",
+    "evidenceLocation": "Kumar, p. 352, 351, Anemiile hemolitice autoimune „la cald”"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Predomină IgG.",
+    "evidenceLocation": "Kumar, p. 352, 351, Anemiile hemolitice autoimune „la cald”"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:25:30.690Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Singurul distractor preia serologia formei la rece."
+  },
+  "textbookExpressions": [
+   "limfoproliferările",
+   "80%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a hematologie-adv-029: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "hematologie-adv-031-v2",
+  "questionFingerprint": "067b9081bfc340277a547222889f3a07cb718f7cf57c4c69720967cf90742ddb",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea bolii hemolitice a nou-născutului.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 16,
+   "printedPages": [
+    353,
+    354
+   ],
+   "pdfPages": [
+    64,
+    65
+   ],
+   "section": "Boala hemolitică a nou-născutului"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Primele sarcini sunt rar afectate.",
+    "evidenceLocation": "Kumar, p. 353, 354, Boala hemolitică a nou-născutului"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Doar IgG trec transplacentar.",
+    "evidenceLocation": "Kumar, p. 353, 354, Boala hemolitică a nou-născutului"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Incompatibilitatea ABO este cea mai frecventă, ușoară.",
+    "evidenceLocation": "Kumar, p. 353, 354, Boala hemolitică a nou-născutului"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: icterul nuclear apare peste 250 µmol/L.",
+    "evidenceLocation": "Kumar, p. 353, 354, Boala hemolitică a nou-născutului"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Transfuziile sunt rareori necesare.",
+    "evidenceLocation": "Kumar, p. 353, 354, Boala hemolitică a nou-născutului"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:25:30.692Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează sarcina afectată și severitatea ABO."
+  },
+  "textbookExpressions": [
+   "transplacentar",
+   "ABO"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a hematologie-adv-031: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "hematologie-adv-048-v2",
+  "questionFingerprint": "4d6179bd2e3314f4d7c1d13d8b48688466a54c8c87f01faca1222ca08694f594",
+  "status": "source-checked",
+  "learningObjective": "Aplicarea profilaxiei anti-D.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 16,
+   "printedPages": [
+    354,
+    351
+   ],
+   "pdfPages": [
+    65,
+    62
+   ],
+   "section": "Prevenția imunizării RhD"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Kleihauer cuantifică eritrocitele fetale.",
+    "evidenceLocation": "Kumar, p. 354, 351, Prevenția imunizării RhD"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Mama nu trebuie să fie deja imunizată.",
+    "evidenceLocation": "Kumar, p. 354, 351, Prevenția imunizării RhD"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: 500 UI i.m. în primele 72 de ore.",
+    "evidenceLocation": "Kumar, p. 354, 351, Prevenția imunizării RhD"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Mama trebuie să fie RhD-negativă.",
+    "evidenceLocation": "Kumar, p. 354, 351, Prevenția imunizării RhD"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "După 20 de săptămâni doza este 500 UI.",
+    "evidenceLocation": "Kumar, p. 354, 351, Prevenția imunizării RhD"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:25:30.693Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii schimbă statusul Rh și doza."
+  },
+  "textbookExpressions": [
+   "Kleihauer",
+   "72 de"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a hematologie-adv-048: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "hematologie-adv-079-v2",
+  "questionFingerprint": "f28ea21c2a32b5ef59bb47ae7be24bf407f3a286bbaefd91ef84d7fa6ac6b784",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea evoluției HPN.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 16,
+   "printedPages": [
+    354,
+    355
+   ],
+   "pdfPages": [
+    65,
+    66
+   ],
+   "section": "Hemoglobinuria paroxistică nocturnă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Clona poate dispărea.",
+    "evidenceLocation": "Kumar, p. 354, 355, Hemoglobinuria paroxistică nocturnă"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: mediana este 10–15 ani.",
+    "evidenceLocation": "Kumar, p. 354, 355, Hemoglobinuria paroxistică nocturnă"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Pierderile urinare dau deficit de fier.",
+    "evidenceLocation": "Kumar, p. 354, 355, Hemoglobinuria paroxistică nocturnă"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Evoluează spre aplazie sau leucemie acută.",
+    "evidenceLocation": "Kumar, p. 354, 355, Hemoglobinuria paroxistică nocturnă"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Micțiunile nocturne și prima urină sunt închise.",
+    "evidenceLocation": "Kumar, p. 354, 355, Hemoglobinuria paroxistică nocturnă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T06:25:30.694Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Singurul distractor schimbă direcția de evoluție."
+  },
+  "textbookExpressions": [
+   "prima urină",
+   "deficit de fier"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a hematologie-adv-079: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  }
 ]

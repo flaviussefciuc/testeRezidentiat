@@ -54,9 +54,9 @@ q('hematologie-adv-037',['Conform Figurii 16.7, macrocitoza cu măduvă normobla
  [8,'Singurul distractor este megaloblastic.'],['Normoblastică','azatioprină']),
 
 q('hematologie-adv-050',['Fierul alimentar:',
- ['o dietă obișnuită conține 15–20 mg de fier pe zi','în mod normal se absoarbe ~10%','absorbția crește la 20–30% în sarcină','fierul feric (Fe3+) se absoarbe mai ușor','fierul non-heminic se absoarbe mai bine'],'ABC',329,'Fierul — aportul dietetic',
+ ['o dietă obișnuită conține 15–20 mg de fier pe zi','în mod normal se absoarbe ~50%','absorbția crește la 20–30% în sarcină','fierul feric (Fe3+) se absoarbe mai ușor','fierul non-heminic se absoarbe mai bine'],'AC',329,'Fierul — aportul dietetic',
  'Fixarea datelor despre aportul și absorbția fierului.',
- ['Dieta conține 15–20 mg.','Se absoarbe normal 10%.','Absorbția crește la 20–30%.','Fierul feros se absoarbe mai ușor.','Fierul heminic se absoarbe mai bine.']],
+ ['Dieta conține 15–20 mg.','Nu: în mod normal se absoarbe ~10%.','Absorbția crește la 20–30%.','Fierul feros se absoarbe mai ușor.','Fierul heminic se absoarbe mai bine.']],
  [8,'Distractorii inversează formele de fier.'],['15-20 mg','20-30%']),
 
 q('hematologie-adv-051',['Absorbția fierului:',
@@ -66,9 +66,9 @@ q('hematologie-adv-051',['Absorbția fierului:',
  [8,'Distractorii inversează hemocromatoza și sediul HCP1.'],['Aciditatea gastrică','supraîncărcarea fierului'],[329]),
 
 q('hematologie-adv-052',['Hepcidina:',
- ['este sintetizată în ficat','determină degradarea feroportinei','crește în inflamație, sub acțiunea IL-6','este scăzută de eritroferon','stimulează efluxul de fier în plasmă'],'ABCD',330,'Absorbția fierului',
+ ['este sintetizată în ficat','determină degradarea feroportinei','crește în inflamație, sub acțiunea IL-6','este crescută de eritroferon','stimulează efluxul de fier în plasmă'],'ABC',330,'Absorbția fierului',
  'Recunoașterea rolului hepcidinei.',
- ['Este o peptidă hepatică de 25 de aminoacizi.','Internalizează și degradează feroportina.','IL-6 stimulează hepcidina.','Eritroferonul scade hepcidina.','Scade efluxul de fier.']],
+ ['Este o peptidă hepatică de 25 de aminoacizi.','Internalizează și degradează feroportina.','IL-6 stimulează hepcidina.','Nu: eritroferonul scade hepcidina.','Scade efluxul de fier.']],
  [8,'Singurul distractor inversează efectul.'],['eritroferon','feroportina']),
 
 q('hematologie-adv-008',['În talasemie, absorbția excesivă a fierului se explică prin:',
@@ -78,9 +78,9 @@ q('hematologie-adv-008',['În talasemie, absorbția excesivă a fierului se expl
  [8,'Distractorii sunt mecanisme ale altor supraîncărcări.'],['eritroferon','talasemia']),
 
 q('hematologie-adv-053',['Transportul plasmatic al fierului:',
- ['transferina leagă doi atomi de fier feric','transferina este saturată normal cam o treime','fierul transportat provine mai ales din macrofage','fierul seric reflectă fidel depozitele de fier','transferina este sintetizată în măduva osoasă'],'ABC',330,'Transportul în sânge',
+ ['transferina leagă doi atomi de fier feric','transferina este saturată normal peste 90%','fierul transportat provine mai ales din macrofage','fierul seric reflectă fidel depozitele de fier','transferina este sintetizată în măduva osoasă'],'AC',330,'Transportul în sânge',
  'Recunoașterea transportului plasmatic al fierului.',
- ['Fiecare moleculă leagă doi atomi de Fe3+.','Saturația normală este de o treime.','Fierul provine din reciclarea macrofagică.','Fierul seric are utilitate mică.','Transferina este sintetizată în ficat.']],
+ ['Fiecare moleculă leagă doi atomi de Fe3+.','Nu: saturația normală este de o treime.','Fierul provine din reciclarea macrofagică.','Fierul seric are utilitate mică.','Transferina este sintetizată în ficat.']],
  [8,'Distractorii supraestimează fierul seric și schimbă sediul sintezei.'],['transferină','o treime']),
 
 q('hematologie-adv-022',['Sursa majoritară a fierului legat de transferină este:',
@@ -90,9 +90,9 @@ q('hematologie-adv-022',['Sursa majoritară a fierului legat de transferină est
  [8,'Distractorii sunt surse minore de fier.'],['reticuloendotelial','transferină']),
 
 q('hematologie-adv-068',['Depozitele și necesarul de fier:',
- ['două treimi din fier circulă ca hemoglobină','depozitele sunt două treimi feritină, o treime hemosiderină','pierderile zilnice sunt de 0,5–1 mg','pierderea menstruală peste 100 ml duce la deficit','hemosiderina este solubilă și ușor mobilizabilă'],'ABCD',330,'Depozitele de fier',
+ ['două treimi din fier circulă ca hemoglobină','depozitele sunt două treimi feritină, o treime hemosiderină','pierderile zilnice sunt de 5–10 mg','pierderea menstruală peste 100 ml duce la deficit','hemosiderina este solubilă și ușor mobilizabilă'],'ABD',330,'Depozitele de fier',
  'Fixarea distribuției și pierderilor de fier.',
- ['Două treimi circulă ca hemoglobină.','Două treimi feritină, o treime hemosiderină.','Se pierd 0,5–1,0 mg/zi.','Peste 100 ml/lună duce de obicei la deficit.','Hemosiderina este insolubilă.']],
+ ['Două treimi circulă ca hemoglobină.','Două treimi feritină, o treime hemosiderină.','Nu: se pierd 0,5–1,0 mg/zi.','Peste 100 ml/lună duce de obicei la deficit.','Hemosiderina este insolubilă.']],
  [8,'Singurul distractor confundă hemosiderina cu feritina.'],['hemosiderină','100 ml']),
 
 q('hematologie-adv-054',['Carența marțială se caracterizează prin:',
@@ -120,9 +120,9 @@ q('hematologie-adv-070',['Carența marțială foarte îndelungată poate produce
  [8,'Singurul distractor aparține siclemiei.'],['koilonichie','Plummer-Vinson']),
 
 q('hematologie-adv-056',['Tratamentul oral al carenței marțiale:',
- ['crește Hb cu ~10 g/L pe săptămână','folosește sulfatul feros, 200 mg cu 60 mg fier elementar','poate dura până la 6 luni','este favorizat de ceai, prin tanini','crește Hb mai lent decât fierul parenteral'],'ABC',332,'Deficitul de fier — tratament',
+ ['crește Hb cu ~50 g/L pe săptămână','folosește sulfatul feros, 200 mg cu 60 mg fier elementar','poate dura până la 6 luni','este favorizat de ceai, prin tanini','crește Hb mai lent decât fierul parenteral'],'BC',332,'Deficitul de fier — tratament',
  'Aplicarea tratamentului oral cu fier.',
- ['Hb crește cu ~10 g/L pe săptămână.','200 mg sulfat feros = 60 mg fier elementar.','Refacerea depozitelor poate dura 6 luni.','Taninurile inhibă absorbția.','Răspunsul hematologic parenteral nu este mai rapid.']],
+ ['Nu: Hb crește cu ~10 g/L pe săptămână.','200 mg sulfat feros = 60 mg fier elementar.','Refacerea depozitelor poate dura 6 luni.','Taninurile inhibă absorbția.','Răspunsul hematologic parenteral nu este mai rapid.']],
  [8,'Distractorii inversează efectul ceaiului și al căii parenterale.'],['10 g/L','sulfatul feros']),
 
 q('hematologie-adv-071',['Eșecul fierului oral se explică frecvent prin:',
@@ -138,9 +138,9 @@ q('hematologie-adv-055',['Fierul parenteral, comparativ cu cel oral:',
  [8,'Distractorii supraestimează calea parenterală.'],['parenteral','anafilactice']),
 
 q('hematologie-adv-057',['Anemia din bolile cronice:',
- ['se asociază cu hepcidină crescută','are răspuns inadecvat al eritropoietinei','nu răspunde la fierul oral','are CTLF crescută, ca deficitul de fier','are fier absent în macrofagele medulare'],'ABC',332,'Anemia din bolile cronice',
+ ['se asociază cu hepcidină scăzută','are răspuns inadecvat al eritropoietinei','nu răspunde la fierul oral','are CTLF crescută, ca deficitul de fier','are fier absent în macrofagele medulare'],'BC',332,'Anemia din bolile cronice',
  'Recunoașterea anemiei din bolile cronice.',
- ['Hepcidina crescută sechestrează fierul.','Răspunsul eritropoietinei este inadecvat.','Pacienții nu răspund la fierul oral.','CTLF este scăzută.','Fierul este prezent în frotiul medular.']],
+ ['Nu: hepcidina este crescută și sechestrează fierul.','Răspunsul eritropoietinei este inadecvat.','Pacienții nu răspund la fierul oral.','CTLF este scăzută.','Fierul este prezent în frotiul medular.']],
  [8,'Distractorii preiau profilul carenței marțiale.'],['hepcidină','eritropoietinei']),
 
 q('hematologie-adv-072',['Anemia sideroblastică:',
@@ -150,9 +150,9 @@ q('hematologie-adv-072',['Anemia sideroblastică:',
  [8,'Singurul distractor inversează depozitele.'],['Perls','piridoxină']),
 
 q('hematologie-adv-058',['Anemia megaloblastică:',
- ['are VEM de obicei peste 96 fL','are neutrofile hipersegmentate, cu ≥6 lobi','are LDH de obicei crescută','are metamielocite gigante în măduvă','are reticulocitoză marcată'],'ABCD',333,'Anemia megaloblastică',
+ ['are VEM de obicei sub 80 fL','are neutrofile hipersegmentate, cu ≥6 lobi','are LDH de obicei crescută','are metamielocite gigante în măduvă','are reticulocitoză marcată'],'BCD',333,'Anemia megaloblastică',
  'Recunoașterea anemiei megaloblastice.',
- ['VEM este de obicei >96 fL.','Neutrofilele au șase sau mai mulți lobi.','LDH crește prin eritropoieză ineficientă.','Metamielocitele uriașe sunt frecvente.','Eritropoieza este ineficientă.']],
+ ['Nu: VEM este de obicei >96 fL.','Neutrofilele au șase sau mai mulți lobi.','LDH crește prin eritropoieză ineficientă.','Metamielocitele uriașe sunt frecvente.','Eritropoieza este ineficientă.']],
  [8,'Singurul distractor contrazice eritropoieza ineficientă.'],['96 fL','metamielocitele']),
 
 q('hematologie-adv-010',['Mecanismul biochimic comun al deficitului de B12 și de folat este:',
@@ -168,9 +168,9 @@ q('hematologie-adv-021',['Reacțiile dependente de cobalamină sunt:',
  [8,'Distractorii permută coenzimele.'],['Deoxiadenosilcobalamina','succinil CoA'],[335]),
 
 q('hematologie-adv-073',['Vitamina B12:',
- ['se găsește în carne, pește, ouă și lapte','se absoarbe 2–3 µg din 5–30 µg ingerați zilnic','are depozite de 2–3 mg, suficiente ~2 ani','este distrusă de obicei prin gătirea alimentelor','se găsește în cantități mari în plante'],'ABC',334,'Vitamina B12',
+ ['se găsește în carne, pește, ouă și lapte','se absoarbe 2–3 µg din 5–30 µg ingerați zilnic','are depozite de 2–3 mg, suficiente ~2 săptămâni','este distrusă de obicei prin gătirea alimentelor','se găsește în cantități mari în plante'],'AB',334,'Vitamina B12',
  'Fixarea aportului și depozitelor de B12.',
- ['Sursele sunt animale.','Se absorb 2–3 µg zilnic.','Deficitul apare după 2 ani sau mai mult.','Gătirea nu o distruge de obicei.','Nu se găsește în plante.']],
+ ['Sursele sunt animale.','Se absorb 2–3 µg zilnic.','Nu: depozitele ajung ~2 ani; deficitul apare după 2 ani sau mai mult.','Gătirea nu o distruge de obicei.','Nu se găsește în plante.']],
  [8,'Distractorii inversează efectul gătitului și sursa.'],['2-3 mg','5-30']),
 
 q('hematologie-adv-059',['Absorbția și transportul vitaminei B12:',
@@ -180,9 +180,9 @@ q('hematologie-adv-059',['Absorbția și transportul vitaminei B12:',
  [8,'Distractorii inversează destinul factorului intrinsec și transportorii.'],['cubilina','holotranscobalamină']),
 
 q('hematologie-adv-060',['Anemia pernicioasă:',
- ['are anticorpi anti-celulă parietală la ~90% dintre pacienți','are anticorpi anti-factor intrinsec specifici, dar doar la ~50%','crește incidența carcinomului gastric','este mai frecventă la bărbați decât la femei','are anticorpi anti-parietali absenți la persoanele sănătoase'],'ABC',334,'Anemia pernicioasă',
+ ['are anticorpi anti-celulă parietală la ~10% dintre pacienți','are anticorpi anti-factor intrinsec specifici, dar doar la ~50%','crește incidența carcinomului gastric','este mai frecventă la bărbați decât la femei','are anticorpi anti-parietali absenți la persoanele sănătoase'],'BC',334,'Anemia pernicioasă',
  'Interpretarea serologiei anemiei pernicioase.',
- ['Anti-parietali la 90%.','Anti-FI la 50%, dar specifici.','Carcinomul gastric apare la 1–3%.','Este mai frecventă la femei.','Apar la 10% dintre indivizii normali.']],
+ ['Nu: anticorpii anti-parietali apar la ~90%.','Anti-FI la 50%, dar specifici.','Carcinomul gastric apare la 1–3%.','Este mai frecventă la femei.','Apar la 10% dintre indivizii normali.']],
  [8,'Distractorii inversează sexul și specificitatea.'],['90%','Addison']),
 
 q('hematologie-adv-003',['În anemia pernicioasă, anticorpii anti-celulă parietală și anti-factor intrinsec se compară astfel:',
@@ -198,9 +198,9 @@ q('hematologie-adv-074',['Anemia pernicioasă — tabloul clinic:',
  [8,'Distractorii schimbă sensibilitatea afectată și legătura cu anemia.'],['galben-lămâie','60 ng/L']),
 
 q('hematologie-adv-065',['Diagnosticul deficitului de vitamină B12:',
- ['B12 serică este de obicei sub 160 ng/L','sarcina și contraceptivele scad B12 serică','MMA și homocisteina cresc în deficit','testul de absorbție este încă de rutină','absența anti-FI exclude anemia pernicioasă'],'ABC',335,'Anemia pernicioasă — investigații',
+ ['B12 serică este de obicei sub 160 ng/L','sarcina și contraceptivele scad B12 serică','MMA și homocisteina scad în deficit','testul de absorbție este încă de rutină','absența anti-FI exclude anemia pernicioasă'],'AB',335,'Anemia pernicioasă — investigații',
  'Interpretarea testelor pentru deficitul de B12.',
- ['160 ng/L este limita inferioară.','Sarcina și contraceptivele scad B12.','MMA și homocisteina cresc.','Testele de absorbție nu se mai fac.','AP este posibilă și fără anti-FI.']],
+ ['160 ng/L este limita inferioară.','Sarcina și contraceptivele scad B12.','Nu: MMA și homocisteina cresc în deficit.','Testele de absorbție nu se mai fac.','AP este posibilă și fără anti-FI.']],
  [8,'Distractorii supraestimează testul de absorbție și serologia.'],['160 ng/L','metilmalonic']),
 
 q('hematologie-adv-016',['Folații:',
@@ -228,9 +228,9 @@ q('hematologie-adv-062',['Tratamentul cu hidroxicobalamină:',
  [8,'Singurul distractor contrazice ireversibilitatea.'],['5-6 mg','hipokaliemia']),
 
 q('hematologie-adv-077',['Acidul folic:',
- ['se dă 5 mg/zi circa 4 luni în deficit','se dă profilactic 400 µg/zi la începutul sarcinii','se dă 5 mg/zi după un copil cu defect de tub neural','se dă 400 µg/zi în bolile hematologice cronice','se dă 5 mg/zi doar după naștere'],'ABC',336,'Tratamentul deficitului de folați',
+ ['se dă 5 mg/zi circa 4 luni în deficit','se dă profilactic 40 µg/zi la începutul sarcinii','se dă 5 mg/zi după un copil cu defect de tub neural','se dă 400 µg/zi în bolile hematologice cronice','se dă 5 mg/zi doar după naștere'],'AC',336,'Tratamentul deficitului de folați',
  'Aplicarea dozelor de acid folic.',
- ['5 mg/zi circa 4 luni.','400 µg/zi profilactic.','5 mg/zi după un copil cu DTN.','Bolile hematologice cronice primesc 5 mg.','Profilaxia începe înainte de sarcină.']],
+ ['5 mg/zi circa 4 luni.','Nu: doza profilactică este 400 µg/zi.','5 mg/zi după un copil cu DTN.','Bolile hematologice cronice primesc 5 mg.','Profilaxia începe înainte de sarcină.']],
  [8,'Distractorii schimbă doza și momentul.'],['400','tubului neural']),
 
 q('hematologie-adv-078',['Macrocitoza cu măduvă normoblastică:',
@@ -258,15 +258,15 @@ q('hematologie-adv-041',['Anemia hemolitică dobândită non-imună poate fi pro
  [8,'Singurul distractor este o cauză imună.'],['dapsona','Arsurile extinse']),
 
 q('hematologie-adv-042',['Testul antiglobulinic direct:',
- ['detectează eritrocite sensibilizate in vivo','este pozitiv în anemia hemolitică autoimună','este pozitiv în boala hemolitică a nou-născutului','se folosește la proba de compatibilitate pretransfuzională','detectează aloanticorpi liberi în ser'],'ABC',351,'Figura 16.26',
+ ['detectează eritrocite sensibilizate in vivo','este pozitiv în anemia hemolitică autoimună','este negativ în boala hemolitică a nou-născutului','se folosește la proba de compatibilitate pretransfuzională','detectează aloanticorpi liberi în ser'],'AB',351,'Figura 16.26',
  'Diferențierea testelor Coombs direct și indirect.',
- ['Detectează sensibilizarea in vivo.','AHAI are DAT pozitiv.','BHNN are DAT pozitiv.','Proba de compatibilitate folosește testul indirect.','Testul indirect detectează anticorpii din ser.']],
+ ['Detectează sensibilizarea in vivo.','AHAI are DAT pozitiv.','Nu: BHNN are DAT pozitiv.','Proba de compatibilitate folosește testul indirect.','Testul indirect detectează anticorpii din ser.']],
  [8,'Distractorii descriu testul indirect.'],['in vivo','compatibilitate']),
 
 q('hematologie-adv-029',['Anemia hemolitică autoimună „la cald”:',
- ['reprezintă ~65% din AHAI','are anticorpi mai ales IgG','este secundară în ~50%, mai ales limfoproliferărilor','răspunde la prednison în ~80%','are Coombs pozitiv doar pentru C3d'],'ABCD',352,'Anemiile hemolitice autoimune „la cald”',
+ ['reprezintă ~65% din AHAI','are anticorpi mai ales IgG','este secundară în ~50%, mai ales limfoproliferărilor','răspunde la prednison în ~20%','are Coombs pozitiv doar pentru C3d'],'ABC',352,'Anemiile hemolitice autoimune „la cald”',
  'Recunoașterea AHAI la cald.',
- ['Forma la cald reprezintă 65%.','Predomină IgG.','Jumătate sunt secundare, mai ales limfoproliferări.','Prednisonul induce remisiune la 80%.','Doar C3d caracterizează forma la rece.']],
+ ['Forma la cald reprezintă 65%.','Predomină IgG.','Jumătate sunt secundare, mai ales limfoproliferări.','Nu: prednisonul induce remisiune la ~80%.','Doar C3d caracterizează forma la rece.']],
  [8,'Singurul distractor preia serologia formei la rece.'],['limfoproliferările','80%'],[351]),
 
 q('hematologie-adv-030',['AHAI la cald — investigații și tratament:',
@@ -306,9 +306,9 @@ q('hematologie-adv-047',['Diagnosticul anemiei hemolitice imune medicamentoase c
  [8,'Distractorii inversează criteriile.'],['reintroducerea','temporală']),
 
 q('hematologie-adv-031',['Boala hemolitică a nou-născutului:',
- ['este produsă de anticorpi IgG care traversează placenta','este cel mai des prin incompatibilitate ABO, ușoară','poate produce icter nuclear la bilirubină >250 µmol/L','afectează de regulă cel mai grav prima sarcină','prin incompatibilitate ABO necesită frecvent transfuzii'],'ABC',353,'Boala hemolitică a nou-născutului',
+ ['este produsă de anticorpi IgG care traversează placenta','este cel mai des prin incompatibilitate ABO, ușoară','poate produce icter nuclear la bilirubină >25 µmol/L','afectează de regulă cel mai grav prima sarcină','prin incompatibilitate ABO necesită frecvent transfuzii'],'AB',353,'Boala hemolitică a nou-născutului',
  'Recunoașterea bolii hemolitice a nou-născutului.',
- ['Doar IgG trec transplacentar.','Incompatibilitatea ABO este cea mai frecventă, ușoară.','Icterul nuclear apare peste 250 µmol/L.','Primele sarcini sunt rar afectate.','Transfuziile sunt rareori necesare.']],
+ ['Doar IgG trec transplacentar.','Incompatibilitatea ABO este cea mai frecventă, ușoară.','Nu: icterul nuclear apare peste 250 µmol/L.','Primele sarcini sunt rar afectate.','Transfuziile sunt rareori necesare.']],
  [8,'Distractorii inversează sarcina afectată și severitatea ABO.'],['transplacentar','ABO'],[354]),
 
 q('hematologie-adv-032',['Managementul bolii hemolitice a nou-născutului:',
@@ -318,9 +318,9 @@ q('hematologie-adv-032',['Managementul bolii hemolitice a nou-născutului:',
  [8,'Distractorii inversează metoda de rutină și solubilitatea.'],['cerebrale mijlocii','iradiat']),
 
 q('hematologie-adv-048',['Profilaxia anti-D:',
- ['se face cu 500 UI i.m. în 72 de ore postpartum','nu se face dacă mama are deja anti-D','se ajustează după testul Kleihauer','se face dacă mama și fătul sunt RhD-pozitivi','se face cu 250 UI după săptămâna 20'],'ABC',354,'Prevenția imunizării RhD',
+ ['se face cu 500 UI i.m. în 30 de zile postpartum','nu se face dacă mama are deja anti-D','se ajustează după testul Kleihauer','se face dacă mama și fătul sunt RhD-pozitivi','se face cu 250 UI după săptămâna 20'],'BC',354,'Prevenția imunizării RhD',
  'Aplicarea profilaxiei anti-D.',
- ['500 UI i.m. în primele 72 de ore.','Mama nu trebuie să fie deja imunizată.','Kleihauer cuantifică eritrocitele fetale.','Mama trebuie să fie RhD-negativă.','După 20 de săptămâni doza este 500 UI.']],
+ ['Nu: 500 UI i.m. în primele 72 de ore.','Mama nu trebuie să fie deja imunizată.','Kleihauer cuantifică eritrocitele fetale.','Mama trebuie să fie RhD-negativă.','După 20 de săptămâni doza este 500 UI.']],
  [8,'Distractorii schimbă statusul Rh și doza.'],['Kleihauer','72 de']),
 
 q('hematologie-adv-063',['Hemoglobinuria paroxistică nocturnă:',
@@ -336,9 +336,9 @@ q('hematologie-adv-049',['Eculizumabul:',
  [8,'Singurul distractor atribuie un efect medular.'],['Neisseria meningitidis','C5']),
 
 q('hematologie-adv-079',['Evoluția hemoglobinuriei paroxistice nocturne:',
- ['urina închisă apare tipic noaptea și dimineața','pierderile urinare pot produce deficit de fier','mediana supraviețuirii este 10–15 ani','clona HPN poate dispărea în timp','poate evolua spre policitemia vera'],'ABCD',354,'Hemoglobinuria paroxistică nocturnă',
+ ['urina închisă apare tipic noaptea și dimineața','pierderile urinare pot produce deficit de fier','mediana supraviețuirii este 1–2 ani','clona HPN poate dispărea în timp','poate evolua spre policitemia vera'],'ABD',354,'Hemoglobinuria paroxistică nocturnă',
  'Recunoașterea evoluției HPN.',
- ['Micțiunile nocturne și prima urină sunt închise.','Pierderile urinare dau deficit de fier.','Mediana este 10–15 ani.','Clona poate dispărea.','Evoluează spre aplazie sau leucemie acută.']],
+ ['Micțiunile nocturne și prima urină sunt închise.','Pierderile urinare dau deficit de fier.','Nu: mediana este 10–15 ani.','Clona poate dispărea.','Evoluează spre aplazie sau leucemie acută.']],
  [8,'Singurul distractor schimbă direcția de evoluție.'],['prima urină','deficit de fier'],[355]),
 
 q('hematologie-adv-064',['Anemia hemolitică mecanică apare în:',
