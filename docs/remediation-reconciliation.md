@@ -66,7 +66,7 @@ were found on that page. Cutoff-page and box checks for each topic are logged in
 
 ## Items relying on a Cadran / Figura / Tabel
 
-569 items, 107 resolved, 462 pending.
+569 items, 118 resolved, 451 pending.
 
 | Original ID | Topic | Status |
 |---|---|---|
@@ -360,17 +360,17 @@ were found on that page. Cutoff-page and box checks for each topic are logged in
 | hta-adv-054 | hta | pending (original still live) |
 | hta-adv-056 | hta | pending (original still live) |
 | hta-adv-057 | hta | pending (original still live) |
-| infectii-chir-adv-001 | infectii-chir | pending (original still live) |
-| infectii-chir-adv-003 | infectii-chir | pending (original still live) |
-| infectii-chir-adv-010 | infectii-chir | pending (original still live) |
-| infectii-chir-adv-012 | infectii-chir | pending (original still live) |
-| infectii-chir-adv-017 | infectii-chir | pending (original still live) |
-| infectii-chir-adv-019 | infectii-chir | pending (original still live) |
-| infectii-chir-adv-021 | infectii-chir | pending (original still live) |
-| infectii-chir-adv-027 | infectii-chir | pending (original still live) |
-| infectii-chir-adv-034 | infectii-chir | pending (original still live) |
-| infectii-chir-adv-035 | infectii-chir | pending (original still live) |
-| infectii-chir-adv-039 | infectii-chir | pending (original still live) |
+| infectii-chir-adv-001 | infectii-chir | replaced by infectii-chir-adv-001-v2 (p. 75; expressions verified on the cited page) |
+| infectii-chir-adv-003 | infectii-chir | replaced by infectii-chir-adv-003-v2 (p. 77; expressions verified on the cited page) |
+| infectii-chir-adv-010 | infectii-chir | replaced by infectii-chir-adv-010-v2 (p. 77; expressions verified on the cited page) |
+| infectii-chir-adv-012 | infectii-chir | replaced by infectii-chir-adv-012-v2 (p. 78; expressions verified on the cited page) |
+| infectii-chir-adv-017 | infectii-chir | replaced by infectii-chir-adv-017-v2 (p. 76; expressions verified on the cited page) |
+| infectii-chir-adv-019 | infectii-chir | replaced by infectii-chir-adv-019-v2 (p. 80, 79; expressions verified on the cited page) |
+| infectii-chir-adv-021 | infectii-chir | replaced by infectii-chir-adv-021-v2 (p. 81; expressions verified on the cited page) |
+| infectii-chir-adv-027 | infectii-chir | retired without replacement |
+| infectii-chir-adv-034 | infectii-chir | replaced by infectii-chir-adv-034-v2 (p. 81; expressions verified on the cited page) |
+| infectii-chir-adv-035 | infectii-chir | replaced by infectii-chir-adv-035-v2 (p. 80; expressions verified on the cited page) |
+| infectii-chir-adv-039 | infectii-chir | replaced by infectii-chir-adv-039-v2 (p. 80; expressions verified on the cited page) |
 | intestin-adv-016 | intestin | replaced by intestin-adv-016-v2 (p. 197, 198; expressions verified on the cited page) |
 | intestin-adv-050 | intestin | replaced by intestin-adv-050-v2 (p. 210; expressions verified on the cited page) |
 | intestin-adv-053 | intestin | replaced by intestin-adv-053-v2 (p. 195; expressions verified on the cited page) |

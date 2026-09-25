@@ -132,3 +132,8 @@ Fiecare temă rescrisă (versiunile `-v2`) a fost confruntată din nou cu pagini
 ### Dermatologie (Sinopsis, cap. 9)
 - Nu s-au găsit chei greșite în cei 42 de itemi confruntați cu p. 196–209.
 - Retrase fără înlocuitor (dubluri sau trivia numerică): 015 (marginea de 0,5 cm, inclusă în `-042-v2`), 031 (inclus în `-016-v2`), 039 (inclus în `-027-v2`), 040 (inclus în `-029-v2`).
+
+### Infecțiile chirurgicale (Lawrence, cap. 8)
+- Nu s-au găsit chei greșite în cei 45 de itemi confruntați cu p. 75–84.
+- P. 77: textul spune că febra medicamentoasă «este rar întâlnită» și se ia în calcul doar după excluderea altor cauze, iar Tabelul 8-4 o plasează «întotdeauna, cu condiția să fie excluse alte etiologii». Formulările sunt compatibile. Itemii testează doar raritatea ei, ca diagnostic de excludere.
+- Retrase fără înlocuitor (dubluri sau trivia numerică): 009 (proporția de 5% a infecțiilor nosocomiale), 014 (inclus în 038), 027 (inclus în 003), 045 (inclus în 013).
