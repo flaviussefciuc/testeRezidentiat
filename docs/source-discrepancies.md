@@ -204,10 +204,16 @@ Fiecare temă rescrisă (versiunile `-v2`) a fost confruntată din nou cu pagini
 - P. 300: textul notează pragurile testului de 3 ore cu «<!» (OCR pentru ≥). Itemul `-024-v2` testează doar dozele (50 g, 100 g) și regula celor două valori anormale.
 - Retrase fără înlocuitor (dubluri sau trivia numerică): 003 (aportul caloric), 004 (inclus în `-049-v2`, `-083-v2`), 009 (inclus în `-097-v2`), 015 (inclus în `-075-v2`), 018 (inclus în `-079-v2`), 020 (inclus în `-019-v2`), 021 (inclus în `-085-v2`), 022 (inclus în `-087-v2`), 023 (inclus în `-024-v2`), 029 (inclus în `-096-v2`), 031 (Braxton-Hicks), 041 (inclus în `-079-v2`), 042 (proporția tumorilor benigne), 043 (inclus în `-030-v2`), 050 (grupul cu risc nutrițional), 056 (inclus în `-053-v2`), 058 (inclus în `-057-v2`), 061 (inclus în `-093-v2`), 063 (inclus în `-093-v2`), 068 (inclus în `-067-v2`), 072 (versiunea cefalică externă), 076 (inclus în `-002-v2`), 080 (inclus în `-049-v2`), 084 (inclus în `-048-v2`), 086 (inclus în `-051-v2`), 090 (inclus în `-052-v2`), 092 (inclus în `-057-v2`), 098 (inclus în `-030-v2`), 099 (inclus în `-010-v2`), 100 (inclus în `-011-v2`), 103 (inclus în `-040-v2`).
 
-## Neurologie (Kumar cap. 26, p. 832–848; 869–872) — rescriere 2026-09-25
+### Neurologie (Kumar, cap. 26, p. 832–848; 869–872 până la «HIV-ul și neurologia»)
+- `neurologie-adv-031`: cheia marca drept falsă afirmația «Hipertensiunea este factorul de risc cel mai important al lacunelor» și drept adevărată «Sindroamele lacunare tipice includ afazie și neglijare vizuală». P. 841 spune «Hipertensiunea este factorul de risc cel mai important», iar sindroamele lacunare sunt «fără afectare corticală». Corectat în `-031-v2`.
+- `neurologie-adv-071`: enunțul întreba despre reabilitare, dar variantele A–B tratau chirurgia carotidiană (p. 845). În `-071-v2` toate variantele se referă la reabilitare.
+- Cadranul 26.33 (ABCD2): punctajul pe componente nu se poate citi din scanare (OCR «2 o 2 o»). În `-099-v2` au rămas doar pragurile <4 / >6 și parametrii din text; punctele pe componentă nu mai sunt testate.
+- `neurologie-adv-049` (nevralgia postherpetică, zona zoster) se află pe p. 872 după titlul «HIV-ul și neurologia», deci în afara bibliografiei; retras fără înlocuitor.
+- Retrase fără înlocuitor (dubluri ale altor itemi din temă): 003, 085, 087, 088, 095, 096, 097, 098, 101, 102, 103, 104, 105, 107, 108, 110, 113, 118, 119.
 
-- `neurologie-adv-031`: cheia marca „Hipertensiunea este factorul de risc cel mai important al lacunelor” ca falsă și „sindroamele lacunare tipice includ afazie și neglijare vizuală” ca adevărată. p. 841: „Hipertensiunea este factorul de risc cel mai important”, iar sindroamele lacunare sunt „fără afectare corticală”. Corectat în `-v2` (cheile inversate).
-- `neurologie-adv-071`: enunțul întreba despre reabilitare, dar variantele A–B tratau chirurgia carotidiană (p. 845). În `-v2` toate variantele țin de reabilitare.
-- `neurologie-adv-028`/`-099`: punctajul pe componente din Cadranul 26.33 (ABCD2) nu se poate citi din scanare (OCR „2 o 2 o”). Variantele despre „1 punct/2 puncte” au fost eliminate; au rămas doar pragurile <4 / >6 și parametrii, lizibili în text.
-- `neurologie-adv-049` (nevralgia postherpetică, zona zoster) este pe p. 872 după titlul „HIV-ul și neurologia”, adică după limita din bibliografie; retras fără înlocuire.
-- Retrase fără înlocuire, ca duplicate ale altor itemi din același subiect: 003, 085, 087, 088, 095, 096, 097, 098, 101, 102, 103, 104, 105, 107, 108, 110, 113, 118, 119.
+### Urologie (Lawrence, cap. 29, p. 635–674)
+- Nu s-au găsit chei greșite în itemii confruntați cu p. 635–674.
+- `urologie-adv-069`: enunțul («pacient diabetic febril, cu colecție renală pe CT») nu corespundea variantelor (gradele traumatismului renal). Retras; conținutul este acoperit de `-101-v2` și `-046-v2`.
+- `urologie-adv-109`: enunțul combina două cazuri fără legătură (ruptura vezicală și cistita). Retras; conținutul este acoperit de `-027-v2` și `-079-v2`.
+- P. 647: aminoacizii din cistinurie apar în scanare ca «cisteina, ornitina, lizina şi arginina». Lista nu mai este testată.
+- Retrase fără înlocuitor (dubluri): 015 (inclus în `-046-v2`), 020 (inclus în `-072-v2`), 028 (inclus în `-079-v2`), 045 (inclus în `-101-v2`), 105 (inclus în `-023-v2`), 110 (inclus în `-029-v2`, `-080-v2`).
