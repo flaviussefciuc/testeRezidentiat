@@ -230,3 +230,9 @@ Fiecare temă rescrisă (versiunile `-v2`) a fost confruntată din nou cu pagini
 - Nu s-au găsit chei greșite în itemii confruntați cu p. 212–243.
 - `pediatrie-adv-118`: printre distractori figura «ligandul CD40 deficient produce IgM crescut și IgG scăzut». Afirmația este adevărată pentru sindromul hiper-IgM (p. 237), deci ambiguă ca distractor; a fost înlocuită în `-118-v2`.
 - Retrase fără înlocuitor (dubluri): 010 (petele Koplik, inclus în `-121-v2`), 076 și 116 (reflexul tonic al gâtului și cel de apucare, ambele dispar la 3 luni ca reflexul Moro din `-048-v2`).
+
+### Ortopedie (Lawrence, cap. 28, p. 585–633)
+- Nu s-au găsit chei greșite în itemii confruntați cu p. 585–633.
+- P. 597: textul enumeră de două ori «sevraj alcoolic» printre situațiile care sugerează luxația posterioară de umăr (dublură de traducere); nu afectează cheile.
+- P. 612, Figura 28-37: «schimbările cele mai dramatice au loc în primii 2 ani», în timp ce textul de pe p. 610 spune «primii 3 ani de viaţă». `-087-v2` spune doar «în primii ani».
+- Retrase fără înlocuitor (dubluri): 058 (anteversia la naștere, inclusă în `-087-v2`), 064 (inclus în `-131-v2`), 068 (inclus în `-132-v2`), 080 (a doua convenție de angulație, perechea lui `-079-v2`), 100 (inclus în `-050-v2`), 110 (inclus în `-014-v2`).
