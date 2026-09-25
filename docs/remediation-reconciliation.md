@@ -66,24 +66,24 @@ were found on that page. Cutoff-page and box checks for each topic are logged in
 
 ## Items relying on a Cadran / Figura / Tabel
 
-569 items, 172 resolved, 397 pending.
+569 items, 186 resolved, 383 pending.
 
 | Original ID | Topic | Status |
 |---|---|---|
-| arsuri-adv-004 | arsuri | pending (original still live) |
-| arsuri-adv-016 | arsuri | pending (original still live) |
-| arsuri-adv-018 | arsuri | pending (original still live) |
-| arsuri-adv-019 | arsuri | pending (original still live) |
-| arsuri-adv-027 | arsuri | pending (original still live) |
-| arsuri-adv-033 | arsuri | pending (original still live) |
-| arsuri-adv-035 | arsuri | pending (original still live) |
-| arsuri-adv-039 | arsuri | pending (original still live) |
-| arsuri-adv-041 | arsuri | pending (original still live) |
-| arsuri-adv-051 | arsuri | pending (original still live) |
-| arsuri-adv-053 | arsuri | pending (original still live) |
-| arsuri-adv-054 | arsuri | pending (original still live) |
-| arsuri-adv-056 | arsuri | pending (original still live) |
-| arsuri-adv-065 | arsuri | pending (original still live) |
+| arsuri-adv-004 | arsuri | retired without replacement |
+| arsuri-adv-016 | arsuri | replaced by arsuri-adv-016-v2 (p. 114; expressions verified on the cited page) |
+| arsuri-adv-018 | arsuri | replaced by arsuri-adv-018-v2 (p. 115; expressions verified on the cited page) |
+| arsuri-adv-019 | arsuri | retired without replacement |
+| arsuri-adv-027 | arsuri | replaced by arsuri-adv-027-v2 (p. 121; expressions verified on the cited page) |
+| arsuri-adv-033 | arsuri | retired without replacement |
+| arsuri-adv-035 | arsuri | replaced by arsuri-adv-035-v2 (p. 111; expressions verified on the cited page) |
+| arsuri-adv-039 | arsuri | replaced by arsuri-adv-039-v2 (p. 114; expressions verified on the cited page) |
+| arsuri-adv-041 | arsuri | replaced by arsuri-adv-041-v2 (p. 115; expressions verified on the cited page) |
+| arsuri-adv-051 | arsuri | replaced by arsuri-adv-051-v2 (p. 109, 108; expressions verified on the cited page) |
+| arsuri-adv-053 | arsuri | replaced by arsuri-adv-053-v2 (p. 111; expressions verified on the cited page) |
+| arsuri-adv-054 | arsuri | retired without replacement |
+| arsuri-adv-056 | arsuri | retired without replacement |
+| arsuri-adv-065 | arsuri | replaced by arsuri-adv-065-v2 (p. 121; expressions verified on the cited page) |
 | ati-adv-016 | ati | replaced by ati-adv-016-v2 (p. 228; expressions verified on the cited page) |
 | ati-adv-019 | ati | replaced by ati-adv-019-v2 (p. 232; expressions verified on the cited page) |
 | ati-adv-023 | ati | replaced by ati-adv-023-v2 (p. 224; expressions verified on the cited page) |

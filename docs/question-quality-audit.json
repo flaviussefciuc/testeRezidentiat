@@ -3,20 +3,20 @@
   "minimumEditorialDifficulty": 8,
   "baselineActive": 200,
   "targetAcceptedActive": 800,
-  "netAdditionalActive": 3229,
-  "additionalAccepted": 3429,
+  "netAdditionalActive": 3216,
+  "additionalAccepted": 3416,
   "remainingToTarget": 0,
   "publicationStatus": "Eligible for editorial publication decision",
   "live": {
-    "count": 3429,
+    "count": 3416,
     "correctAnswerCounts": {
-      "1": 700,
-      "2": 402,
-      "3": 1622,
-      "4": 705
+      "1": 690,
+      "2": 389,
+      "3": 1630,
+      "4": 707
     },
     "missingMultipleAnswerFormats": [],
-    "fourCorrectShareOfMultiple": 25.8,
+    "fourCorrectShareOfMultiple": 25.9,
     "idsUnique": true,
     "structuralErrors": [],
     "exactQuestionDuplicates": [],
@@ -122,7 +122,7 @@
       },
       {
         "id": "arsuri",
-        "count": 70
+        "count": 57
       },
       {
         "id": "hernii",
@@ -199,15 +199,15 @@
     ]
   },
   "draft": {
-    "count": 3600,
+    "count": 3587,
     "correctAnswerCounts": {
-      "1": 744,
-      "2": 424,
-      "3": 1666,
-      "4": 766
+      "1": 734,
+      "2": 411,
+      "3": 1674,
+      "4": 768
     },
     "missingMultipleAnswerFormats": [],
-    "fourCorrectShareOfMultiple": 26.8,
+    "fourCorrectShareOfMultiple": 26.9,
     "idsUnique": true,
     "structuralErrors": [],
     "exactQuestionDuplicates": [],
@@ -334,7 +334,7 @@
       },
       {
         "id": "arsuri",
-        "count": 70
+        "count": 57
       },
       {
         "id": "hernii",
@@ -411,15 +411,15 @@
     ]
   },
   "accepted": {
-    "count": 3429,
+    "count": 3416,
     "correctAnswerCounts": {
-      "1": 700,
-      "2": 402,
-      "3": 1622,
-      "4": 705
+      "1": 690,
+      "2": 389,
+      "3": 1630,
+      "4": 707
     },
     "missingMultipleAnswerFormats": [],
-    "fourCorrectShareOfMultiple": 25.8,
+    "fourCorrectShareOfMultiple": 25.9,
     "idsUnique": true,
     "structuralErrors": [],
     "exactQuestionDuplicates": [],
@@ -525,7 +525,7 @@
       },
       {
         "id": "arsuri",
-        "count": 70
+        "count": 57
       },
       {
         "id": "hernii",

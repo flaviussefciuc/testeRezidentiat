@@ -162,3 +162,7 @@ Fiecare temă rescrisă (versiunile `-v2`) a fost confruntată din nou cu pagini
 ### Hematologie (Kumar, cap. 16)
 - Nu s-au găsit chei greșite în cei 65 de itemi confruntați cu p. 327–336 și 351–355. Aici sunt incluse și versiunile publicate în `advanced-revisions.ts` (001, 003, 006, 008, 010, 016, 021, 022), care sunt retrase odată cu subiectul.
 - Retrase fără înlocuitor (dubluri sau trivia numerică): 025 și 027 (incluse în `-078-v2`), 036 (durata de viață a eritrocitului, 120 de zile), 067 (inclus în `-050-v2` și `-051-v2`), 069 (numărul de absorbante pe zi), 075 (inclus în `-016-v2`).
+
+### Arsurile (Lawrence, cap. 10)
+- Nu s-au găsit chei greșite în cei 70 de itemi confruntați cu p. 108–123.
+- Retrase fără înlocuitor (dubluri sau trivia numerică): 004 (inclus în `-016-v2`), 009 (cifrele epidemiologice din SUA), 019 (inclus în `-043-v2`), 030 (cele trei perioade ale îngrijirii), 031 (enumerarea agenților), 033 și 054 (incluse în `-053-v2`), 038 (inclus în `-015-v2`), 055 (inclus în `-015-v2`), 056 (inclus în `-017-v2`), 062 (inclus în `-024-v2`), 063 (inclus în `-007-v2`).
