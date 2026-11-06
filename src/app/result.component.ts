@@ -10,16 +10,18 @@ import {CalibrationComponent} from './calibration.component';
 import {PaceChartComponent} from './pace-chart.component';
 import {AnalysisComponent} from './analysis.component';
 import {NoteComponent} from './note.component';
+import {TakeawaysComponent} from './takeaways.component';
 import {StemComponent} from './stem.component';
 import {insightOf,optionPoint,verdictOf,VERDICT_LABEL} from './insight';
 import {CONFIDENCE_LABEL} from './calibration';
 import type {Question} from './models';
 type Filter='all'|'wrong'|'confident';
-@Component({standalone:true,imports:[RouterLink,IconComponent,InsightComponent,CalibrationComponent,PaceChartComponent,AnalysisComponent,NoteComponent,StemComponent],template:`
+@Component({standalone:true,imports:[RouterLink,IconComponent,InsightComponent,CalibrationComponent,PaceChartComponent,AnalysisComponent,NoteComponent,StemComponent,TakeawaysComponent],template:`
 @if(attempt();as a){
 <div class="page-heading"><div><div class="eyebrow">ÎNCĂ UN PAS ÎNAINTE</div><h1>Ai terminat. Acum consolidează.</h1><p>{{date(a.completedAt)}} · {{a.mode==='exam'?'Simulare de examen':'Antrenament'}} · {{result().total}} grile · {{duration(a)}}</p></div><a routerLink="/teste" class="button primary">Un nou test<app-icon name="arrow"/></a></div>
 <section class="result-banner"><div class="score-circle"><strong>{{result().percent}}<small>%</small></strong><span>din punctaj</span></div><div><h2>{{result().points}} <span>/ {{result().max}} puncte</span></h2><p>{{result().correct}} răspunsuri complet corecte · {{result().total-result().correct}} de revizuit</p><p class="small">Punctajul măsoară acest test de antrenament, nu prezice rezultatul concursului.</p></div></section>
 <div class="notice"><span>{{store.user()?store.syncState():'Rezultat salvat în acest browser. Conectează-te înaintea următoarelor teste pentru sincronizare.'}}</span><a routerLink="/progres">Vezi progresul →</a></div>
+@if(loaded()){<app-takeaways [answers]="a.answers"/>}
 <app-analysis [answers]="a.answers"/>
 <app-calibration [answers]="a.answers"/>
 <app-pace-chart [answers]="a.answers"/>
