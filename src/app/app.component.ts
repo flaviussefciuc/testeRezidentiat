@@ -49,7 +49,7 @@ menu=signal(false);
  groups=[
   {label:'AZI',items:[{path:'/',label:'Privire de ansamblu',icon:'dashboard'},{path:'/plan',label:'Planul meu',icon:'calendar'},{path:'/strategie',label:'Strategia de examen',icon:'target'}]},
   {label:'EXERSEAZĂ',items:[{path:'/teste',label:'Teste și simulări',icon:'book'},{path:'/adevarat-fals',label:'Adevărat sau fals',icon:'spark'},{path:'/provocare',label:'Provocarea zilei',icon:'target'},{path:'/tiparit',label:'Test tipărit',icon:'printer'}]},
-  {label:'ÎNVAȚĂ',items:[{path:'/fise',label:'Fișe de recapitulare',icon:'sheet'},{path:'/recitire',label:'Pagini de recitit',icon:'bookmark'},{path:'/notite',label:'Notițele mele',icon:'pen'},{path:'/cauta',label:'Caută în bancă',icon:'search'}]},
+  {label:'ÎNVAȚĂ',items:[{path:'/fise',label:'Fișe de recapitulare',icon:'sheet'},{path:'/carduri',label:'Carduri rapide',icon:'refresh'},{path:'/recitire',label:'Pagini de recitit',icon:'bookmark'},{path:'/notite',label:'Notițele mele',icon:'pen'},{path:'/cauta',label:'Caută în bancă',icon:'search'}]},
   {label:'ANALIZĂ',items:[{path:'/progres',label:'Progresul meu',icon:'chart'},{path:'/bibliografie',label:'Tematică și resurse',icon:'leaf'}]},
  ];
  tabs=[{path:'/',label:'Azi',icon:'dashboard'},{path:'/plan',label:'Plan',icon:'calendar'},{path:'/teste',label:'Exersează',icon:'book'},{path:'/fise',label:'Învață',icon:'sheet'},{path:'/progres',label:'Progres',icon:'chart'}];

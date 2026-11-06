@@ -15,6 +15,7 @@ export const routes:Routes=[
  {path:'provocare',loadComponent:()=>import('./challenge.component').then(m=>m.ChallengePageComponent)},
  {path:'tiparit',loadComponent:()=>import('./paper.component').then(m=>m.PaperComponent)},
  {path:'strategie',loadComponent:()=>import('./strategy.component').then(m=>m.StrategyComponent)},
+ {path:'carduri',loadComponent:()=>import('./cards.component').then(m=>m.CardsComponent)},
  {path:'adevarat-fals',loadComponent:()=>import('./drill.component').then(m=>m.DrillComponent)},
  {path:'bibliografie',loadComponent:()=>import('./resources.component').then(m=>m.ResourcesComponent)},
  {path:'cont',loadComponent:()=>import('./auth.component').then(m=>m.AuthComponent)},
