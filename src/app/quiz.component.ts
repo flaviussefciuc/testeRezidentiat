@@ -11,7 +11,7 @@ import {CONFIDENCE_KEY,CONFIDENCE_LABEL,CONFIDENCE_LEVELS} from './calibration';
 import {IconComponent} from './icon.component';
 import {InsightComponent} from './insight.component';
 import {NoteComponent} from './note.component';
-import {shareQuestion} from './single.component';
+import {shareQuestion} from './share';
 import {Speech,speakable} from './speech';
 import {StemComponent} from './stem.component';
 import {isNegative} from './emphasis';

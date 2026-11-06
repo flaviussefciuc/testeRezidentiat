@@ -3,6 +3,7 @@ import {Router,RouterLink} from '@angular/router';
 import {Store} from './store';
 import {Planner} from './planner';
 import {IconComponent} from './icon.component';
+import {Ui} from './ui';
 
 const ONBOARDED='rezi:onboarded',NEWS_KEY='rezi:news-seen';
 export const NEWS_VERSION='2026-11-06';
@@ -42,16 +43,16 @@ export const NEWS=[
 export class WelcomeComponent {
  suppress=input(false);
  store=inject(Store);planner=inject(Planner);router=inject(Router);
- step=signal(0);dismissed=signal(false);forced=signal<'news'|null>(null);news=NEWS;
+ ui=inject(Ui);step=signal(0);dismissed=signal(false);news=NEWS;
  paces=[{n:60,hint:'~1 oră'},{n:100,hint:'~2 ore'},{n:150,hint:'~3 ore'},{n:200,hint:'~4 ore'}];
  mode=computed<'onboarding'|'news'|null>(()=>{
-  if(this.forced())return this.forced();
+  if(this.ui.news())return 'news';
   if(this.dismissed()||this.suppress()||!this.store.ready())return null;
   if(!this.store.attempts().length&&!read(ONBOARDED))return 'onboarding';
   if(this.store.attempts().length&&read(NEWS_KEY)!==NEWS_VERSION)return 'news';
   return null;
  });
- openNews(){this.forced.set('news');}
- close(){write(ONBOARDED,'1');write(NEWS_KEY,NEWS_VERSION);this.forced.set(null);this.dismissed.set(true);}
+ openNews(){this.ui.news.set(true);}
+ close(){write(ONBOARDED,'1');write(NEWS_KEY,NEWS_VERSION);this.ui.news.set(false);this.dismissed.set(true);}
  startPlan(){this.close();const d=this.planner.todayPlan();if(d?.items.length)this.planner.start(d.items[0].topicId,d.items[0].count);else void this.router.navigate(['/plan']);}
 }

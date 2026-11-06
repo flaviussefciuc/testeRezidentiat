@@ -13,13 +13,8 @@ import {isNegative} from './emphasis';
 import type {Question} from './models';
 
 const ACTIVE=new Set(LITE_ACTIVE.map(q=>q.id));
-export const shareUrl=(id:string)=>`${location.origin}/grila/${encodeURIComponent(id)}`;
-// Shares a question link with the system sheet when available, otherwise copies it.
-export async function shareQuestion(id:string,stem:string):Promise<string>{
- const url=shareUrl(id);
- try{if(navigator.share){await navigator.share({title:'Grilă Rezi',text:stem,url});return 'Trimis.';}}catch{/* cancelled */}
- try{await navigator.clipboard.writeText(url);return 'Link copiat.';}catch{return url;}
-}
+import {shareQuestion} from './share';
+export {shareQuestion};
 
 // One question on its own page: answer, check, read the explanation, share.
 @Component({standalone:true,imports:[RouterLink,IconComponent,InsightComponent,NoteComponent,StemComponent],template:`

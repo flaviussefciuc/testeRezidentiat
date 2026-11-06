@@ -12,7 +12,8 @@ import {insightOf,referenceLine} from './insight';
 import type {Question} from './models';
 
 const ACTIVE=new Set(LITE_ACTIVE.map(q=>q.id));
-export const fold=(s:string)=>s.toLocaleLowerCase('ro').normalize('NFD').replace(/\p{Diacritic}/gu,'');
+import {fold} from './text';
+export {fold};
 // Light Romanian stemming: "digoxina" also finds "digoxinei" and "digoxinului".
 const stem=(t:string)=>{if(t.length<5||/\d/.test(t))return t;const r=t.replace(/(ului|elor|ilor|iei|ele|ul|ei|ii|ia|le|a|e|i|u)$/,'');return r.length>=4?r:t;};
 interface Seg {t:string;hit:boolean}

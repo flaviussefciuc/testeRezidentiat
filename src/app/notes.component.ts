@@ -9,7 +9,7 @@ import {TOPICS} from './topics';
 import {IconComponent} from './icon.component';
 import {NoteComponent} from './note.component';
 import {insightOf,referenceLine} from './insight';
-import {fold} from './search.component';
+import {fold} from './text';
 import {ankiQuestions,download} from './anki';
 
 // All notes and saved questions, by chapter.

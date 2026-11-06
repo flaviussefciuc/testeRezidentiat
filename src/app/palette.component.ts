@@ -1,4 +1,4 @@
-import {Component,computed,ElementRef,HostListener,inject,signal,viewChild} from '@angular/core';
+import {Component,computed,effect,ElementRef,inject,signal,viewChild} from '@angular/core';
 import {Router} from '@angular/router';
 import {Store} from './store';
 import {Prefs} from './prefs';
@@ -6,7 +6,8 @@ import {Sessions} from './session';
 import {Planner} from './planner';
 import {TOPICS} from './topics';
 import {IconComponent} from './icon.component';
-import {fold} from './search.component';
+import {fold} from './text';
+import {Ui} from './ui';
 import {challengeIds,dayKey} from './challenge';
 import {LITE_ACTIVE} from './bank';
 
@@ -21,7 +22,8 @@ interface Command {id:string;label:string;hint:string;icon:string;run:()=>void}
 </section></div>}`})
 export class PaletteComponent {
  store=inject(Store);prefs=inject(Prefs);sessions=inject(Sessions);planner=inject(Planner);router=inject(Router);
- open=signal(false);query=signal('');active=signal(0);
+ ui=inject(Ui);open=this.ui.palette;query=signal('');active=signal(0);
+ private focusOnOpen=effect(()=>{if(this.open()){this.query.set('');this.active.set(0);setTimeout(()=>this.box()?.nativeElement.focus());}});
  box=viewChild<ElementRef<HTMLInputElement>>('box');
  private go(path:string,params?:Record<string,string>){void this.router.navigate([path],params?{queryParams:params}:{});}
  commands=computed<Command[]>(()=>{
@@ -64,7 +66,7 @@ export class PaletteComponent {
   const terms=q.split(/\s+/);
   return this.commands().map(c=>{const text=fold(c.label+' '+c.hint);if(!terms.every(t=>text.includes(t)))return null;const label=fold(c.label);return {c,score:(label.startsWith(terms[0])?3:0)+(label.includes(q)?2:0)+(c.id.startsWith('a-')?1:0)};}).filter((x):x is {c:Command;score:number}=>!!x).sort((a,b)=>b.score-a.score).slice(0,10).map(x=>x.c);
  });
- show(){this.open.set(true);this.query.set('');this.active.set(0);setTimeout(()=>this.box()?.nativeElement.focus());}
+ show(){this.open.set(true);}
  close(){this.open.set(false);}
  run(c:Command){this.close();c.run();}
  key(e:KeyboardEvent){
@@ -75,5 +77,4 @@ export class PaletteComponent {
   else if(e.key==='Escape'){e.preventDefault();this.close();}
   e.stopPropagation();
  }
- @HostListener('document:keydown',['$event']) onKey(e:KeyboardEvent){if((e.ctrlKey||e.metaKey)&&!e.altKey&&e.key.toLowerCase()==='k'){e.preventDefault();if(this.open())this.close();else this.show();}}
 }
