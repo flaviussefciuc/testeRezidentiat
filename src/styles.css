@@ -357,3 +357,6 @@ app-insight .insight{animation:reveal-in .3s .2s ease-out both}
 .score-circle{background:conic-gradient(var(--k-abc28e) calc(var(--p) * 1%),var(--k-e6ecdf) 0);border:0;position:relative;animation:ring-fill 1s ease-out both}.score-circle:before{content:'';position:absolute;inset:8px;border-radius:50%;background:var(--k-f7faef)}.score-circle>*{position:relative}
 .result-banner{position:relative;overflow:hidden}.confetti{position:absolute;left:50%;top:0;pointer-events:none}.confetti i{position:absolute;width:8px;height:12px;border-radius:2px;background:hsl(calc(var(--i) * 40) 70% 60%);animation:confetti-fall 1.6s calc(var(--i) * .03s) ease-out both}
 @media(prefers-reduced-motion:reduce){.answer.revealed,.answer[data-v],app-insight .insight,.plan-ring,.readiness-ring,.score-circle,.confetti i{animation:none!important}}
+
+/* Adaptive follow-ups after a miss. */
+.followup{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-top:12px;padding:12px 14px;border-radius:10px;border:1px dashed var(--k-cfe0bd);background:var(--k-f6faf0);font-size:13px;color:var(--k-3f5536)}.followup em{font-style:normal;font-weight:700;color:var(--k-4c7a2f);margin-left:auto}.followup .button{margin-left:auto}

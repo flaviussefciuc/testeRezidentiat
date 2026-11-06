@@ -3,7 +3,8 @@ import {PACE_SECONDS} from './pace';
 import {Router,RouterLink} from '@angular/router';
 import {Store} from './store';
 import {Prefs} from './prefs';
-import {Bank} from './bank';
+import {Bank,LITE_ACTIVE} from './bank';
+const ACTIVE_IDS=new Set(LITE_ACTIVE.map(q=>q.id));
 import {TOPICS} from './topics';
 import {score,maximum} from './scoring';
 import type {Confidence,Draft,Question,Why} from './models';
@@ -13,6 +14,8 @@ import {InsightComponent} from './insight.component';
 import {NoteComponent} from './note.component';
 import {shareQuestion} from './share';
 import {Speech,speakable} from './speech';
+import {splitSection} from './sheets';
+import {exact as isExactAnswer} from './scoring';
 import {StemComponent} from './stem.component';
 import {isNegative} from './emphasis';
 import {insightOf,optionPoint,verdictOf,VERDICT_LABEL} from './insight';
@@ -40,7 +43,8 @@ import {insightOf,optionPoint,verdictOf,VERDICT_LABEL} from './insight';
    </fieldset>
    @if(invalid()){<p class="selection-hint">{{q.type==='CS'?'Selectează un răspuns.':'Selectează între 2 și 4 răspunsuri. Altfel, punctajul este 0.'}}</p>}
    @if(!checked()){<div class="confidence-row" role="group" aria-label="Cât de sigur ești?"><span class="confidence-q">Cât de sigur ești?</span>@for(c of levels;track c){<button type="button" class="conf-chip" [class.on]="conf()===c" [attr.data-c]="c" [attr.aria-pressed]="conf()===c" (click)="setConf(c)">{{confLabel[c]}}<kbd>{{confKey[c]}}</kbd></button>}</div>}
-   @if(checked()){<app-insight [q]="q" [selected]="selected()" [confidence]="conf()" [askWhy]="true" [why]="d.why?.[q.id]" (whyChange)="setWhy(q.id,$event)"/>}
+   @if(checked()){<app-insight [q]="q" [selected]="selected()" [confidence]="conf()" [askWhy]="true" [why]="d.why?.[q.id]" (whyChange)="setWhy(q.id,$event)"/>
+   @if(!isExact(q)&&related(q).length){<div class="followup"><span><strong>Lucrează golul acum:</strong> {{related(q).length}} {{related(q).length===1?'grilă nevăzută':'grile nevăzute'}} din aceeași secțiune a manualului.</span>@if(added().has(q.id)){<em>Adăugate la finalul testului ✓</em>}@else{<button class="button secondary small-button" (click)="addRelated(q)">+ {{related(q).length}} în acest test</button>}</div>}}
    @if(!d.strict){<app-note [qid]="q.id" [compact]="!checked()"/>}
    <div class="quiz-actions"><button class="button secondary" (click)="go(d.index-1)" [disabled]="d.index===0">← Anterioara</button>@if(d.mode==='practice'&&!checked()){<button class="button primary" (click)="check()" [disabled]="invalid()">Verifică răspunsul<app-icon name="check"/></button>}@else if(d.index<d.questionIds.length-1){<button class="button primary" (click)="go(d.index+1)">Următoarea<app-icon name="arrow"/></button>}@else{<button class="button primary" (click)="confirm.set(true)">Finalizează testul<app-icon name="check"/></button>}</div>
    <div class="kbd-hint" aria-hidden="true"><span><kbd>A</kbd>–<kbd>E</kbd> alege</span><span><kbd>Shift</kbd>+<kbd>A</kbd>–<kbd>E</kbd> taie o variantă</span><span><kbd>Enter</kbd> {{d.mode==='practice'&&!checked()?'verifică':'continuă'}}</span><span><kbd>←</kbd> <kbd>→</kbd> navighează</span><span><kbd>S</kbd> <kbd>N</kbd> <kbd>G</kbd> încredere</span><span><kbd>F</kbd> marchează</span><button class="text-link" type="button" (click)="help.set(true)"><kbd>?</kbd> toate scurtăturile</button></div>
@@ -93,6 +97,18 @@ export class QuizComponent implements OnDestroy {
  // Focus mode hides the app chrome; it is a page-level class so the sidebar can react.
  private focusClass=effect(()=>document.documentElement.classList.toggle('quiz-focus',this.prefs.focus()));
  shared=signal('');speech=inject(Speech);negative=isNegative;
+ // Deliberate practice: after a miss, unseen questions from the same textbook heading can be
+ // appended to this session (at most two), so the gap is worked on while it is fresh.
+ added=signal(new Set<string>());
+ isExact(q:Question){return isExactAnswer(q,this.selected());}
+ related(q:Question):string[]{
+  const d=this.draft(),ref=insightOf(q).reference;if(!d||!ref)return [];
+  const head=splitSection(ref.section).head,inTest=new Set(d.questionIds),seen=new Set(this.store.attempts().flatMap(a=>a.answers.map(x=>x.questionId)));
+  const out:string[]=[];
+  for(const x of this.bank.byId().values()){if(out.length===2)break;if(x.topicId!==q.topicId||!ACTIVE_IDS.has(x.id)||inTest.has(x.id)||seen.has(x.id))continue;const r=insightOf(x).reference;if(r&&splitSection(r.section).head===head)out.push(x.id);}
+  return out;
+ }
+ addRelated(q:Question){const d=this.draft();if(!d)return;const ids=this.related(q);if(!ids.length)return;this.update({questionIds:[...d.questionIds,...ids]});this.added.update(s=>new Set(s).add(q.id));}
  // Reads the question and options; after checking, the verdicts and the reasons.
  listen(q:Question){
   if(this.speech.playing()){this.speech.stop();return;}
