@@ -8,6 +8,7 @@ export const routes:Routes=[
  {path:'fise',loadComponent:()=>import('./sheets.component').then(m=>m.SheetsComponent)},
  {path:'fise/:topic',loadComponent:()=>import('./sheets.component').then(m=>m.SheetsComponent)},
  {path:'recitire',loadComponent:()=>import('./reading.component').then(m=>m.ReadingComponent)},
+ {path:'cauta',loadComponent:()=>import('./search.component').then(m=>m.SearchComponent)},
  {path:'adevarat-fals',loadComponent:()=>import('./drill.component').then(m=>m.DrillComponent)},
  {path:'bibliografie',loadComponent:()=>import('./resources.component').then(m=>m.ResourcesComponent)},
  {path:'cont',loadComponent:()=>import('./auth.component').then(m=>m.AuthComponent)},
