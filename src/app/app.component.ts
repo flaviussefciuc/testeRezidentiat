@@ -19,4 +19,4 @@ import {Prefs} from './prefs';
 <main id="content"><router-outlet/></main>
 <footer>Rezi · Învață cu direcție.<span>Grile originale de antrenament · Fără afiliere cu Ministerul Sănătății</span></footer></div>
 `,})
-export class AppComponent {store=inject(Store);prefs=inject(Prefs);menu=signal(false);nav=[{path:'/',label:'Privire de ansamblu',icon:'dashboard'},{path:'/teste',label:'Antrenează-te',icon:'book'},{path:'/adevarat-fals',label:'Adevărat sau fals',icon:'spark'},{path:'/progres',label:'Progresul meu',icon:'chart'},{path:'/bibliografie',label:'Tematică și resurse',icon:'leaf'}];}
+export class AppComponent {store=inject(Store);prefs=inject(Prefs);menu=signal(false);nav=[{path:'/',label:'Privire de ansamblu',icon:'dashboard'},{path:'/teste',label:'Antrenează-te',icon:'book'},{path:'/fise',label:'Fișe de recapitulare',icon:'sheet'},{path:'/adevarat-fals',label:'Adevărat sau fals',icon:'spark'},{path:'/progres',label:'Progresul meu',icon:'chart'},{path:'/bibliografie',label:'Tematică și resurse',icon:'leaf'}];}
