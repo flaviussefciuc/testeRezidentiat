@@ -6,7 +6,7 @@ import {effect,Injectable,signal} from '@angular/core';
 const KEY='rezi:prefs';
 export const READING_STEPS=[0.92,1,1.12,1.25,1.4];
 export type Theme='auto'|'light'|'dark';
-interface Saved {read?:number;theme?:Theme}
+interface Saved {read?:number;theme?:Theme;focus?:boolean}
 function load():Saved{try{return JSON.parse(localStorage.getItem(KEY)??'{}')??{};}catch{return {};}}
 function save(patch:Saved){try{localStorage.setItem(KEY,JSON.stringify({...load(),...patch}));}catch{/* private mode: keep for this session only */}}
 const THEME_LABEL:Record<Theme,string>={auto:'automată (ca sistemul)',light:'luminoasă',dark:'întunecată'};
@@ -17,9 +17,11 @@ export class Prefs {
  private media=typeof matchMedia==='function'?matchMedia('(prefers-color-scheme: dark)'):null;
  private systemDark=signal(!!this.media?.matches);
  readonly read=signal<number>(READING_STEPS.includes(this.saved.read!)?this.saved.read!:1);
+ readonly focus=signal<boolean>(!!this.saved.focus);
  readonly theme=signal<Theme>(['auto','light','dark'].includes(this.saved.theme!)?this.saved.theme!:'auto');
  constructor(){
   this.media?.addEventListener('change',e=>this.systemDark.set(e.matches));
+  effect(()=>save({focus:this.focus()}));
   effect(()=>{const read=this.read();document.documentElement.style.setProperty('--read',String(read));save({read});});
   effect(()=>{
    const theme=this.theme(),dark=theme==='dark'||(theme==='auto'&&this.systemDark());
