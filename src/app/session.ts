@@ -36,6 +36,14 @@ export class Sessions {
   return LITE_ACTIVE.filter(q=>inTopics(q.id)&&(source==='all'||(source==='unseen'?!this.seen().has(q.id):this.wrong().has(q.id)))).length;
  }
 
+ // An open-ended tutor session: it starts with one question and grows as the student answers.
+ startAdaptive():boolean{
+  if(this.store.draft())return false;
+  const first=this.due()[0]??this.pool('unseen')[0]??this.pool('all')[0];if(!first)return false;
+  this.store.saveDraft({id:crypto.randomUUID(),owner:this.store.owner(),mode:'practice',startedAt:new Date().toISOString(),deadline:null,questionIds:[first],answers:{},checked:[],flagged:[],index:0,adaptive:true});
+  void this.router.navigate(['/test']);return true;
+ }
+
  // Starts a practice session; returns false when a test is already in progress.
  startPractice(ids:readonly string[]):boolean{
   ids=withoutSiblings(ids);

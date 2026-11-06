@@ -3,6 +3,7 @@ import {PACE_SECONDS} from './pace';
 import {Router,RouterLink} from '@angular/router';
 import {Store} from './store';
 import {Prefs} from './prefs';
+import {Sessions} from './session';
 import {Bank,LITE_ACTIVE} from './bank';
 const ACTIVE_IDS=new Set(LITE_ACTIVE.map(q=>q.id));
 import {TOPICS} from './topics';
@@ -23,7 +24,7 @@ import {insightOf,optionPoint,verdictOf,VERDICT_LABEL} from './insight';
 @if(!store.ready()){<div class="empty-state">Se încarcă sesiunea…</div>}
 @else if(draft();as d){
  @if(question();as q){
- <div class="quiz-top"><a routerLink="/teste" class="text-link">← Înapoi la antrenament</a><span class="badge" [class.peach]="d.mode==='exam'">{{d.mode==='exam'?'Simulare de examen':'Antrenament'}}</span>@if(d.strict){<span class="badge strict-badge" [title]="'Ieșiri din fereastră: '+(d.away?.count??0)">Condiții reale · {{d.away?.count??0}} ieșiri</span>}@if(pace();as p){<span class="pace-badge" [class.behind]="p.ahead<0" [title]="'Ritmul examenului: '+paceSeconds+' s pe grilă'">{{p.ahead<0?'În urmă':'În ritm'}} · {{p.ahead<0?'−':'+'}}{{p.minutes}} min</span>}<span class="timer" [class.error]="remaining()<300&&d.mode==='exam'"><app-icon name="clock"/>{{time()}}</span><button class="icon-button focus-toggle" (click)="toggleFocus()" [attr.aria-pressed]="prefs.focus()" [title]="prefs.focus()?'Ieși din modul concentrare (Z)':'Mod concentrare: doar grila (Z)'"><app-icon [name]="prefs.focus()?'expand':'focus'"/></button></div>
+ <div class="quiz-top"><a routerLink="/teste" class="text-link">← Înapoi la antrenament</a><span class="badge" [class.peach]="d.mode==='exam'">{{d.mode==='exam'?'Simulare de examen':d.adaptive?'Antrenor adaptiv':'Antrenament'}}</span>@if(d.adaptive&&nextReason()){<span class="adaptive-why">{{nextReason()}}</span>}@if(d.strict){<span class="badge strict-badge" [title]="'Ieșiri din fereastră: '+(d.away?.count??0)">Condiții reale · {{d.away?.count??0}} ieșiri</span>}@if(pace();as p){<span class="pace-badge" [class.behind]="p.ahead<0" [title]="'Ritmul examenului: '+paceSeconds+' s pe grilă'">{{p.ahead<0?'În urmă':'În ritm'}} · {{p.ahead<0?'−':'+'}}{{p.minutes}} min</span>}<span class="timer" [class.error]="remaining()<300&&d.mode==='exam'"><app-icon name="clock"/>{{time()}}</span><button class="icon-button focus-toggle" (click)="toggleFocus()" [attr.aria-pressed]="prefs.focus()" [title]="prefs.focus()?'Ieși din modul concentrare (Z)':'Mod concentrare: doar grila (Z)'"><app-icon [name]="prefs.focus()?'expand':'focus'"/></button></div>
  <div class="quiz-layout">
   <section class="panel question-panel" (touchstart)="touchStart($event)" (touchend)="touchEnd($event)">
    <div class="section-heading"><span class="eyebrow">ÎNTREBAREA {{d.index+1}} DIN {{d.questionIds.length}}</span><button class="icon-button" [class.flagged]="d.flagged.includes(q.id)" (click)="flag()" [attr.aria-label]="d.flagged.includes(q.id)?'Elimină marcajul':'Marchează pentru revizuire'" title="Marchează pentru revizuire (F)"><app-icon name="flag"/></button>@if(speech.supported&&!d.strict){<button class="icon-button" [class.on]="speech.playing()" (click)="listen(q)" [attr.aria-label]="speech.playing()?'Oprește citirea':'Ascultă grila'" [title]="speech.playing()?'Oprește citirea':'Ascultă grila (citire cu voce)'"><app-icon [name]="speech.playing()?'stop':'speaker'"/></button>}@if(checked()&&!d.strict){<button class="icon-button" (click)="share(q)" [title]="shared()||'Distribuie grila (link)'" aria-label="Distribuie grila"><app-icon name="share"/></button>}</div>
@@ -46,7 +47,7 @@ import {insightOf,optionPoint,verdictOf,VERDICT_LABEL} from './insight';
    @if(checked()){<app-insight [q]="q" [selected]="selected()" [confidence]="conf()" [askWhy]="true" [why]="d.why?.[q.id]" (whyChange)="setWhy(q.id,$event)"/>
    @if(!isExact(q)&&related(q).length){<div class="followup"><span><strong>Lucrează golul acum:</strong> {{related(q).length}} {{related(q).length===1?'grilă nevăzută':'grile nevăzute'}} din aceeași secțiune a manualului.</span>@if(added().has(q.id)){<em>Adăugate la finalul testului ✓</em>}@else{<button class="button secondary small-button" (click)="addRelated(q)">+ {{related(q).length}} în acest test</button>}</div>}}
    @if(!d.strict){<app-note [qid]="q.id" [compact]="!checked()"/>}
-   <div class="quiz-actions"><button class="button secondary" (click)="go(d.index-1)" [disabled]="d.index===0">← Anterioara</button>@if(d.mode==='practice'&&!checked()){<button class="button primary" (click)="check()" [disabled]="invalid()">Verifică răspunsul<app-icon name="check"/></button>}@else if(d.index<d.questionIds.length-1){<button class="button primary" (click)="go(d.index+1)">Următoarea<app-icon name="arrow"/></button>}@else{<button class="button primary" (click)="confirm.set(true)">Finalizează testul<app-icon name="check"/></button>}</div>
+   <div class="quiz-actions"><button class="button secondary" (click)="go(d.index-1)" [disabled]="d.index===0">← Anterioara</button>@if(d.mode==='practice'&&!checked()){<button class="button primary" (click)="check()" [disabled]="invalid()">Verifică răspunsul<app-icon name="check"/></button>}@else if(d.adaptive&&d.index===d.questionIds.length-1){<button class="button primary" (click)="nextAdaptive()">Următoarea grilă aleasă pentru tine<app-icon name="arrow"/></button>}@else if(d.index<d.questionIds.length-1){<button class="button primary" (click)="go(d.index+1)">Următoarea<app-icon name="arrow"/></button>}@else{<button class="button primary" (click)="confirm.set(true)">Finalizează testul<app-icon name="check"/></button>}</div>
    <div class="kbd-hint" aria-hidden="true"><span><kbd>A</kbd>–<kbd>E</kbd> alege</span><span><kbd>Shift</kbd>+<kbd>A</kbd>–<kbd>E</kbd> taie o variantă</span><span><kbd>Enter</kbd> {{d.mode==='practice'&&!checked()?'verifică':'continuă'}}</span><span><kbd>←</kbd> <kbd>→</kbd> navighează</span><span><kbd>S</kbd> <kbd>N</kbd> <kbd>G</kbd> încredere</span><span><kbd>F</kbd> marchează</span><button class="text-link" type="button" (click)="help.set(true)"><kbd>?</kbd> toate scurtăturile</button></div>
   </section>
   <aside class="panel navigator" [class.sheet-open]="navOpen()"><button class="sheet-close icon-button" (click)="navOpen.set(false)" aria-label="Închide harta testului"><app-icon name="close"/></button><h3>Parcursul tău</h3><div class="summary-row"><span>Cu răspuns</span><strong>{{answered()}} / {{d.questionIds.length}}</strong></div><div class="progress-track"><span [style.width.%]="answered()/d.questionIds.length*100"></span></div><div class="question-grid">@for(id of d.questionIds;track id;let i=$index){<button [class.current]="i===d.index" [class.done]="!!d.answers[id]?.length" [class.flagged]="d.flagged.includes(id)" [attr.aria-label]="'Întrebarea '+(i+1)+(d.flagged.includes(id)?', marcată':'')" (click)="go(i);navOpen.set(false)">{{i+1}}</button>}</div><div class="navigator-legend"><span>● Cu răspuns</span><span>⚑ De revizuit</span></div><button class="button secondary full sheet-btn" (click)="sheet.set('all');navOpen.set(false)"><app-icon name="sheet"/>Foaie de răspuns</button><button class="button secondary full" (click)="confirm.set(true)" [disabled]="busy()">Predă testul</button><p class="small muted">Răspunsurile se salvează pe acest dispozitiv. {{d.mode==='exam'?'Cronometrul continuă și dacă închizi pagina.':'Poți continua testul mai târziu.'}}</p></aside>
@@ -65,7 +66,7 @@ import {insightOf,optionPoint,verdictOf,VERDICT_LABEL} from './insight';
  }@else{<div class="empty-state" role="status">{{bank.error()||'Se încarcă grilele…'}}</div>}
 }@else{<div class="empty-state"><app-icon name="book"/><h2>Niciun test în desfășurare.</h2><p>Alege un antrenament și fă primul pas.</p><a routerLink="/teste" class="button primary">Alege un test →</a></div>}`})
 export class QuizComponent implements OnDestroy {
- store=inject(Store);router=inject(Router);bank=inject(Bank);prefs=inject(Prefs);navOpen=signal(false);sheet=signal<'all'|'blank'|'flag'|'void'|null>(null);draft=this.store.draft;now=signal(Date.now());confirm=signal(false);help=signal(false);busy=signal(false);error=signal('');letters=['A','B','C','D','E'];score=score;maximum=maximum;
+ store=inject(Store);router=inject(Router);bank=inject(Bank);prefs=inject(Prefs);sessions=inject(Sessions);navOpen=signal(false);sheet=signal<'all'|'blank'|'flag'|'void'|null>(null);draft=this.store.draft;now=signal(Date.now());confirm=signal(false);help=signal(false);busy=signal(false);error=signal('');letters=['A','B','C','D','E'];score=score;maximum=maximum;
  verdictLabel=VERDICT_LABEL;levels=CONFIDENCE_LEVELS;confLabel=CONFIDENCE_LABEL;confKey=CONFIDENCE_KEY;
  question=computed(()=>{const d=this.draft();return d?this.bank.byId().get(d.questionIds[d.index]):undefined;});
  info=computed(()=>this.question()?insightOf(this.question()!):null);
@@ -107,6 +108,24 @@ export class QuizComponent implements OnDestroy {
   const out:string[]=[];
   for(const x of this.bank.byId().values()){if(out.length===2)break;if(x.topicId!==q.topicId||!ACTIVE_IDS.has(x.id)||inTest.has(x.id)||seen.has(x.id))continue;const r=insightOf(x).reference;if(r&&splitSection(r.section).head===head)out.push(x.id);}
   return out;
+ }
+ // The adaptive tutor's next question: a related unseen one after a miss, then anything
+ // due for review, then unseen material from the weakest chapter (history plus this session).
+ nextReason=signal('');
+ nextAdaptive(){
+  const d=this.draft(),q=this.question();if(!d||!q)return;
+  const inTest=new Set(d.questionIds),missed=!isExactAnswer(q,d.answers[q.id]??[]);
+  let next:string|undefined,why='';
+  if(missed){next=this.related(q)[0];if(next)why='Aceeași secțiune ca grila greșită';}
+  if(!next){next=this.sessions.due().find(id=>!inTest.has(id));if(next)why='Scadentă la recapitulare';}
+  if(!next){
+   const answers=[...this.store.attempts().flatMap(a=>a.answers),...d.questionIds.map(id=>({questionId:id,selected:d.answers[id]??[]}))].filter(a=>a.selected.length);
+   const per=new Map<string,{n:number;ok:number}>();for(const a of answers){const x=this.bank.byId().get(a.questionId)??null;const t=x?.topicId;if(!x||!t)continue;const e=per.get(t)??{n:0,ok:0};e.n++;e.ok+=Number(isExactAnswer(x,a.selected));per.set(t,e);}
+   const ranked=TOPICS.map(t=>{const e=per.get(t.id);return {id:t.id,name:t.name,score:e&&e.n>=3?e.ok/e.n:0.5};}).sort((a,b)=>a.score-b.score);
+   for(const t of ranked){next=this.sessions.pool('unseen',[t.id]).find(id=>!inTest.has(id));if(next){why=`Capitolul tău cel mai slab acum: ${t.name}`;break;}}
+  }
+  if(!next)return;
+  this.nextReason.set(why);this.update({questionIds:[...d.questionIds,next]});this.go(d.index+1);
  }
  addRelated(q:Question){const d=this.draft();if(!d)return;const ids=this.related(q);if(!ids.length)return;this.update({questionIds:[...d.questionIds,...ids]});this.added.update(s=>new Set(s).add(q.id));}
  // Reads the question and options; after checking, the verdicts and the reasons.
@@ -160,6 +179,7 @@ export class QuizComponent implements OnDestroy {
  private primary(){
   const d=this.draft();if(!d)return;
   if(d.mode==='practice'&&!this.checked()){if(!this.invalid())this.check();return;}
+  if(d.adaptive&&d.index===d.questionIds.length-1){this.nextAdaptive();return;}
   if(d.index<d.questionIds.length-1)this.go(d.index+1);else this.confirm.set(true);
  }
  @HostListener('document:keydown',['$event']) onKey(e:KeyboardEvent){
