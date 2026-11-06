@@ -3,9 +3,10 @@ import type {Confidence,Question} from './models';
 import {CALIBRATION_MESSAGE,CONFIDENCE_LABEL,calibrationKind} from './calibration';
 import {score,maximum} from './scoring';
 import {insightOf,referenceLine} from './insight';
+import {ReportComponent} from './report.component';
 
 // The teaching card shown after an answer is checked (practice) or reviewed (results).
-@Component({selector:'app-insight',standalone:true,template:`
+@Component({selector:'app-insight',standalone:true,imports:[ReportComponent],template:`
 @if(q();as q){
 <section class="insight" aria-live="polite">
  <header class="insight-score" [class.perfect]="points()===max()" [class.zero]="points()===0">
@@ -23,6 +24,7 @@ import {insightOf,referenceLine} from './insight';
  @if(info().expressions.length){<div class="insight-block"><span class="insight-label">Termeni din manual</span><div class="term-row">@for(t of info().expressions;track t){<span class="term">{{t}}</span>}</div></div>}
  @if(info().reference;as r){<div class="insight-ref"><span class="ref-book">{{refLine()}}</span><span class="ref-section">{{r.section}}</span><span class="ref-pdf">{{r.edition}} · pagini PDF {{r.pdfPages.join(', ')}}</span><a [href]="q.source" target="_blank" rel="noopener noreferrer">Tematica oficială ↗</a></div>}
  @else{<a class="insight-link" [href]="q.source" target="_blank" rel="noopener noreferrer">Sursa și bibliografia capitolului ↗</a>}
+ <div class="insight-report"><app-report [q]="q" [selected]="selected()"/></div>
 </section>}`})
 export class InsightComponent {
  q=input<Question|undefined>();
