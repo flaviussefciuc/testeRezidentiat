@@ -12,6 +12,7 @@ import {IconComponent} from './icon.component';
 import {InsightComponent} from './insight.component';
 import {NoteComponent} from './note.component';
 import {shareQuestion} from './single.component';
+import {Speech,speakable} from './speech';
 import {insightOf,optionPoint,verdictOf,VERDICT_LABEL} from './insight';
 @Component({standalone:true,imports:[RouterLink,IconComponent,InsightComponent,NoteComponent],template:`
 @if(!store.ready()){<div class="empty-state">Se încarcă sesiunea…</div>}
@@ -20,7 +21,7 @@ import {insightOf,optionPoint,verdictOf,VERDICT_LABEL} from './insight';
  <div class="quiz-top"><a routerLink="/teste" class="text-link">← Înapoi la antrenament</a><span class="badge" [class.peach]="d.mode==='exam'">{{d.mode==='exam'?'Simulare de examen':'Antrenament'}}</span>@if(pace();as p){<span class="pace-badge" [class.behind]="p.ahead<0" [title]="'Ritmul examenului: '+paceSeconds+' s pe grilă'">{{p.ahead<0?'În urmă':'În ritm'}} · {{p.ahead<0?'−':'+'}}{{p.minutes}} min</span>}<span class="timer" [class.error]="remaining()<300&&d.mode==='exam'"><app-icon name="clock"/>{{time()}}</span><button class="icon-button focus-toggle" (click)="toggleFocus()" [attr.aria-pressed]="prefs.focus()" [title]="prefs.focus()?'Ieși din modul concentrare (Z)':'Mod concentrare: doar grila (Z)'"><app-icon [name]="prefs.focus()?'expand':'focus'"/></button></div>
  <div class="quiz-layout">
   <section class="panel question-panel" (touchstart)="touchStart($event)" (touchend)="touchEnd($event)">
-   <div class="section-heading"><span class="eyebrow">ÎNTREBAREA {{d.index+1}} DIN {{d.questionIds.length}}</span><button class="icon-button" [class.flagged]="d.flagged.includes(q.id)" (click)="flag()" [attr.aria-label]="d.flagged.includes(q.id)?'Elimină marcajul':'Marchează pentru revizuire'" title="Marchează pentru revizuire (F)"><app-icon name="flag"/></button>@if(checked()){<button class="icon-button" (click)="share(q)" [title]="shared()||'Distribuie grila (link)'" aria-label="Distribuie grila"><app-icon name="share"/></button>}</div>
+   <div class="section-heading"><span class="eyebrow">ÎNTREBAREA {{d.index+1}} DIN {{d.questionIds.length}}</span><button class="icon-button" [class.flagged]="d.flagged.includes(q.id)" (click)="flag()" [attr.aria-label]="d.flagged.includes(q.id)?'Elimină marcajul':'Marchează pentru revizuire'" title="Marchează pentru revizuire (F)"><app-icon name="flag"/></button>@if(speech.supported){<button class="icon-button" [class.on]="speech.playing()" (click)="listen(q)" [attr.aria-label]="speech.playing()?'Oprește citirea':'Ascultă grila'" [title]="speech.playing()?'Oprește citirea':'Ascultă grila (citire cu voce)'"><app-icon [name]="speech.playing()?'stop':'speaker'"/></button>}@if(checked()){<button class="icon-button" (click)="share(q)" [title]="shared()||'Distribuie grila (link)'" aria-label="Distribuie grila"><app-icon name="share"/></button>}</div>
    <div class="question-meta"><span class="badge">{{topic(q.topicId)}}</span><span>{{q.type==='CS'?'Complement simplu · un răspuns':'Complement multiplu · 2–4 răspunsuri'}}</span></div>
    <h1 class="question-stem">{{q.stem}}</h1>
    <fieldset class="answers"><legend class="sr-only">Alege răspunsurile</legend>
@@ -77,14 +78,21 @@ export class QuizComponent implements OnDestroy {
  private interval=setInterval(()=>{this.now.set(Date.now());const d=this.draft();if(d?.mode==='exam'&&d.deadline&&Date.now()>=d.deadline&&!this.busy())void this.finish();},1000);
  // Focus mode hides the app chrome; it is a page-level class so the sidebar can react.
  private focusClass=effect(()=>document.documentElement.classList.toggle('quiz-focus',this.prefs.focus()));
- shared=signal('');
+ shared=signal('');speech=inject(Speech);
+ // Reads the question and options; after checking, the verdicts and the reasons.
+ listen(q:Question){
+  if(this.speech.playing()){this.speech.stop();return;}
+  const parts=[{id:'stem',text:speakable(q.stem)},...this.order().map((i,pos)=>({id:'o'+pos,text:`Varianta ${this.letters[pos]}: ${speakable(q.options[i])}`}))];
+  if(this.checked()){const r=this.info()?.rationales;parts.push(...this.order().map((i,pos)=>({id:'r'+pos,text:`${this.letters[pos]}, ${q.correct.includes(i)?'adevărat':'fals'}. ${r?speakable(r[i]):''}`})));}
+  this.speech.play(parts);
+ }
  async share(q:Question){this.shared.set(await shareQuestion(q.id,q.stem));setTimeout(()=>this.shared.set(''),2500);}
  toggleFocus(){this.prefs.focus.set(!this.prefs.focus());}
  // Horizontal swipes on the question move between questions (phones).
  private touch:{x:number;y:number}|null=null;
  touchStart(e:TouchEvent){const t=e.touches[0];this.touch=t?{x:t.clientX,y:t.clientY}:null;}
  touchEnd(e:TouchEvent){const s=this.touch,t=e.changedTouches[0];this.touch=null;if(!s||!t)return;const dx=t.clientX-s.x,dy=t.clientY-s.y;if(Math.abs(dx)<70||Math.abs(dy)>Math.abs(dx)*0.6)return;const d=this.draft();if(d)this.go(d.index+(dx<0?1:-1));}
- ngOnDestroy(){document.documentElement.classList.remove('quiz-focus');clearInterval(this.interval);document.removeEventListener('visibilitychange',this.onVisibility);const p=this.timePatch();if(p)this.update(p);}topic(id:string){return TOPICS.find(t=>t.id===id)?.name;}
+ ngOnDestroy(){this.speech.stop();document.documentElement.classList.remove('quiz-focus');clearInterval(this.interval);document.removeEventListener('visibilitychange',this.onVisibility);const p=this.timePatch();if(p)this.update(p);}topic(id:string){return TOPICS.find(t=>t.id===id)?.name;}
  time(){let secs=this.draft()?.mode==='exam'?this.remaining():Math.max(0,Math.floor((this.now()-Date.parse(this.draft()?.startedAt??''))/1000));return [Math.floor(secs/3600),Math.floor(secs/60)%60,secs%60].map(v=>String(v).padStart(2,'0')).join(':');}
  private update(patch:Partial<Draft>){const d=this.draft();if(d&&d.owner===this.store.owner())this.store.saveDraft({...d,...patch});}
  choose(i:number){
@@ -108,7 +116,7 @@ export class QuizComponent implements OnDestroy {
  setConf(c:Confidence){if(this.checked()||this.busy())return;const d=this.draft(),q=this.question();if(!d||!q)return;const next={...(d.confidence??{})};if(next[q.id]===c)delete next[q.id];else next[q.id]=c;this.update({confidence:next});}
  check(){const d=this.draft(),q=this.question();if(d&&q&&!this.invalid()){this.update({...this.timePatch(),checked:[...d.checked,q.id]});this.enteredAt=null;}}
  flag(){const d=this.draft(),q=this.question();if(d&&q)this.update({flagged:d.flagged.includes(q.id)?d.flagged.filter(id=>id!==q.id):[...d.flagged,q.id]});}
- go(index:number){const d=this.draft();if(d&&index>=0&&index<d.questionIds.length&&index!==d.index){this.update({...this.timePatch(),index});const next=d.questionIds[index];this.enteredAt=d.mode==='practice'&&d.checked.includes(next)?null:Date.now();}}
+ go(index:number){if(this.speech.playing())this.speech.stop();const d=this.draft();if(d&&index>=0&&index<d.questionIds.length&&index!==d.index){this.update({...this.timePatch(),index});const next=d.questionIds[index];this.enteredAt=d.mode==='practice'&&d.checked.includes(next)?null:Date.now();}}
  // Enter does what the primary button says: check, then move on, then offer to finish.
  private primary(){
   const d=this.draft();if(!d)return;
