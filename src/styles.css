@@ -25,3 +25,13 @@
 .term-row{display:flex;flex-wrap:wrap;gap:6px}.term{background:#fff;border:1px solid #dfe6d6;border-radius:999px;padding:4px 10px;font-size:11.5px;color:#4b6343}
 .insight-ref{display:grid;gap:3px;padding:14px 18px;font-size:12px;color:#5d6b57}.ref-book{font-weight:700;color:#2f4a36;font-size:13px}.ref-pdf{font-size:10.5px;color:#8b977f}.insight-ref a,.insight-link{font-size:11px;text-decoration:underline;color:#58744b;margin-top:4px;display:inline-block}.insight-link{padding:14px 18px}
 @media(max-width:760px){.insight-score{flex-wrap:wrap;gap:10px}.insight-meter{margin-left:0}.why-text{font-size:12px}}
+
+/* Exam tools: cross out eliminated options, keyboard shortcuts. */
+.strike-btn{margin-left:auto;align-self:center;border:0;background:transparent;color:#9aa492;width:30px;height:30px;border-radius:7px;opacity:0;transition:opacity .15s,background .15s;font-size:13px;flex-shrink:0;display:grid;place-items:center}
+.answer:hover .strike-btn,.strike-btn:focus-visible,.answer.struck .strike-btn{opacity:1}.strike-btn:hover{background:#eef2e8;color:#5f7253}
+@media(hover:none){.strike-btn{opacity:.7}}
+.answer.struck{background:#f7f7f4;border-style:dashed}.answer.struck .answer-text{text-decoration:line-through;text-decoration-thickness:1.5px;text-decoration-color:#b46a59;color:#9aa196}.answer.struck .answer-letter{opacity:.5}
+.kbd-hint{display:flex;flex-wrap:wrap;align-items:center;gap:8px 18px;margin-top:16px;font-size:11px;color:#8b977f}.kbd-hint .text-link{font-size:11px}
+kbd{display:inline-block;font-family:inherit;font-size:10px;font-weight:650;line-height:1.5;border:1px solid #d6ddcd;border-bottom-width:2px;border-radius:5px;padding:0 6px;background:#fff;color:#4b6343;min-width:20px;text-align:center}
+@media(hover:none),(max-width:760px){.kbd-hint{display:none}}
+.shortcut-list{display:grid;grid-template-columns:auto 1fr;gap:12px 18px;align-items:center;margin:20px 0 6px;font-size:12.5px;color:#4f5f49}.shortcut-list>span:nth-child(odd){white-space:nowrap}
