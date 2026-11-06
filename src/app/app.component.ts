@@ -44,7 +44,7 @@ export class AppComponent {ui=inject(Ui);store=inject(Store);prefs=inject(Prefs)
  @HostListener('document:keydown',['$event']) onKey(e:KeyboardEvent){if((e.ctrlKey||e.metaKey)&&!e.altKey&&e.key.toLowerCase()==='k'){e.preventDefault();this.ui.palette.set(!this.ui.palette());return;}const t=e.target as HTMLElement|null;if(e.key!=='/'||e.ctrlKey||e.metaKey||e.altKey||t?.isContentEditable||['INPUT','TEXTAREA','SELECT'].includes(t?.tagName??''))return;const box=document.getElementById('top-search') as HTMLInputElement|null;if(box&&box.offsetParent){e.preventDefault();box.focus();}}
 menu=signal(false);
  groups=[
-  {label:'AZI',items:[{path:'/',label:'Privire de ansamblu',icon:'dashboard'},{path:'/plan',label:'Planul meu',icon:'calendar'}]},
+  {label:'AZI',items:[{path:'/',label:'Privire de ansamblu',icon:'dashboard'},{path:'/plan',label:'Planul meu',icon:'calendar'},{path:'/strategie',label:'Strategia de examen',icon:'target'}]},
   {label:'EXERSEAZĂ',items:[{path:'/teste',label:'Teste și simulări',icon:'book'},{path:'/adevarat-fals',label:'Adevărat sau fals',icon:'spark'},{path:'/provocare',label:'Provocarea zilei',icon:'target'},{path:'/tiparit',label:'Test tipărit',icon:'printer'}]},
   {label:'ÎNVAȚĂ',items:[{path:'/fise',label:'Fișe de recapitulare',icon:'sheet'},{path:'/recitire',label:'Pagini de recitit',icon:'bookmark'},{path:'/notite',label:'Notițele mele',icon:'pen'},{path:'/cauta',label:'Caută în bancă',icon:'search'}]},
   {label:'ANALIZĂ',items:[{path:'/progres',label:'Progresul meu',icon:'chart'},{path:'/bibliografie',label:'Tematică și resurse',icon:'leaf'}]},

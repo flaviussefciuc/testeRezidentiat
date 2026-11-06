@@ -23,7 +23,7 @@ const dayLabel=(t:number)=>new Date(t).toLocaleDateString('ro-RO',{weekday:'long
 <div class="section-heading lower-heading"><div><h3>Zilele următoare</h3><p>Fiecare zi continuă de unde a rămas cea precedentă.</p></div></div>
 <div class="plan-days">@for(d of upcoming();track d.start){
  <article class="panel plan-day" [class.eve]="d.reviewOnly"><span class="eyebrow">{{label(d.start)}}</span>
-  @if(d.reviewOnly){<h3>Recapitulare, fără material nou</h3><ul class="plan-eve"><li>Greșelile „sigure” și grilele scadente</li><li><a routerLink="/recitire">Paginile de recitit</a> rămase</li><li>O rundă scurtă de <a routerLink="/adevarat-fals">Adevărat sau fals</a></li><li>Culcă-te devreme: somnul consolidează ce ai învățat.</li></ul>}
+  @if(d.reviewOnly){<h3>Recapitulare, fără material nou</h3><ul class="plan-eve"><li>Greșelile „sigure” și grilele scadente</li><li><a routerLink="/recitire">Paginile de recitit</a> rămase</li><li>O rundă scurtă de <a routerLink="/adevarat-fals">Adevărat sau fals</a></li><li>Culcă-te devreme: somnul consolidează ce ai învățat.</li><li><a routerLink="/strategie">Strategia pentru ziua examenului</a></li></ul>}
   @else{<h3>{{d.total}} grile</h3><ul>@for(i of d.items;track i.topicId){<li><span>{{i.name}}</span><b>{{i.count}}</b></li>}@empty{<li>Zi liberă: banca este acoperită.</li>}</ul>}
  </article>}
  <article class="panel plan-day exam"><span class="eyebrow">DUMINICĂ, 15 NOIEMBRIE</span><h3>Ziua examenului</h3><p>Ai făcut tot ce se putea face. Mult succes!</p></article>
