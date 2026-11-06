@@ -3,6 +3,17 @@ import { createClient, type SupabaseClient, type User } from '@supabase/supabase
 import { cloudConfig } from './config.generated';
 import type { Attempt, Draft } from './models';
 
+function validAttempt(a:unknown):boolean{
+ const x=a as Attempt;
+ return !!x&&typeof x.id==='string'&&(x.mode==='practice'||x.mode==='exam')&&Array.isArray(x.answers)&&x.answers.length>=1&&x.answers.length<=200
+  &&x.answers.every(r=>r&&typeof r.questionId==='string'&&Array.isArray(r.selected)&&r.selected.every(n=>Number.isInteger(n)&&n>=0&&n<=4))
+  &&Number.isFinite(Date.parse(x.startedAt))&&Number.isFinite(Date.parse(x.completedAt))&&Date.parse(x.completedAt)>=Date.parse(x.startedAt);
+}
+async function derivedId(owner:string,id:string):Promise<string>{
+ const h=[...new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(owner+':'+id)))].map(b=>b.toString(16).padStart(2,'0')).join('');
+ return `${h.slice(0,8)}-${h.slice(8,12)}-4${h.slice(13,16)}-${(8+(parseInt(h[16],16)&3)).toString(16)}${h.slice(17,20)}-${h.slice(20,32)}`;
+}
+
 @Injectable({providedIn:'root'})
 export class Store {
  readonly user=signal<User|null>(null);
@@ -69,5 +80,24 @@ export class Store {
   finally{this.syncing=false;if(generation!==this.generation&&this.user())void this.sync();}
  }
  async signOut(){await this.client?.auth.signOut();}
+ // Sessions saved as a guest on this device, offered to the signed-in account.
+ guestAttempts():Attempt[]{if(this.owner()==='guest')return [];const list=this.read<Attempt[]>('rezi:attempts:guest',[]);return Array.isArray(list)?list.filter(validAttempt):[];}
+ clearGuest(){this.write('rezi:attempts:guest',[]);}
+ // Adds attempts from the guest space or a backup file. An attempt keeps its id when it
+ // already belongs to this account; otherwise it gets an id derived from the account and
+ // the original id, so importing twice never duplicates and two accounts never collide.
+ async importAttempts(list:unknown[]):Promise<number>{
+  const owner=this.owner(),known=new Set(this.attempts().map(a=>a.id)),fresh:Attempt[]=[];
+  for(const raw of list){
+   if(!validAttempt(raw))continue;
+   const a=raw as Attempt,id=a.userId===owner?a.id:await derivedId(owner,a.id);
+   if(known.has(id))continue;known.add(id);
+   fresh.push({...a,id,userId:owner,answers:a.answers.map(x=>({...x,selected:[...x.selected]}))});
+  }
+  if(!fresh.length)return 0;
+  this.attempts.update(items=>[...items,...fresh]);this.write(`rezi:attempts:${owner}`,this.attempts());
+  if(this.user()){this.pending=[...this.pending,...fresh];this.write(`rezi:pending:${owner}`,this.pending);await this.sync();}
+  return fresh.length;
+ }
  export(){const blob=new Blob([JSON.stringify({version:1,exportedAt:new Date().toISOString(),attempts:this.attempts()},null,2)],{type:'application/json'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='rezidentiat-rezultate.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),500);}
 }
