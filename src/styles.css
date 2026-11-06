@@ -341,3 +341,19 @@ mark{background:var(--k-f6e7a8);color:inherit;border-radius:3px;padding:0 2px}:r
 /* Strict exam conditions. */
 .strict-line{align-items:flex-start;padding:12px 14px;border:1px solid var(--k-e3e8dc);border-radius:10px;background:var(--k-fafbf7)}.strict-line span{line-height:1.5}.strict-badge{background:var(--k-ece6f6)!important;color:var(--k-4f3a75)!important}
 .strict-report{background:var(--k-fbf1d9);border-color:var(--k-ecd7a3);color:var(--k-6a4f12)}.strict-report.ok{background:var(--k-eef6e4);border-color:var(--k-cfe0bd);color:var(--k-2f5a1f)}
+
+/* Motion that explains (off with reduced motion or the no-animation setting). */
+
+@keyframes reveal-in{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+@keyframes pop{0%{transform:scale(1)}40%{transform:scale(1.025)}100%{transform:scale(1)}}
+@keyframes shake{0%,100%{transform:none}25%{transform:translateX(-3px)}75%{transform:translateX(3px)}}
+@keyframes ring-fill{from{--p:0}}
+@keyframes confetti-fall{0%{transform:translate3d(0,-20px,0) rotate(0);opacity:1}100%{transform:translate3d(calc((var(--i) - 9) * 14px),180px,0) rotate(540deg);opacity:0}}
+@property --p{syntax:'<number>';inherits:true;initial-value:0}
+.answer.revealed{animation:reveal-in .28s ease-out both}.answers .answer.revealed:nth-child(2){animation-delay:.04s}.answers .answer.revealed:nth-child(3){animation-delay:.08s}.answers .answer.revealed:nth-child(4){animation-delay:.12s}.answers .answer.revealed:nth-child(5){animation-delay:.16s}.answers .answer.revealed:nth-child(6){animation-delay:.2s}
+.answer[data-v=hit]{animation:reveal-in .28s ease-out both,pop .35s .3s ease-out}.answer[data-v=wrong]{animation:reveal-in .28s ease-out both,shake .3s .3s ease-in-out}
+app-insight .insight{animation:reveal-in .3s .2s ease-out both}
+.plan-ring,.readiness-ring{animation:ring-fill .9s ease-out both}
+.score-circle{background:conic-gradient(var(--k-abc28e) calc(var(--p) * 1%),var(--k-e6ecdf) 0);border:0;position:relative;animation:ring-fill 1s ease-out both}.score-circle:before{content:'';position:absolute;inset:8px;border-radius:50%;background:var(--k-f7faef)}.score-circle>*{position:relative}
+.result-banner{position:relative;overflow:hidden}.confetti{position:absolute;left:50%;top:0;pointer-events:none}.confetti i{position:absolute;width:8px;height:12px;border-radius:2px;background:hsl(calc(var(--i) * 40) 70% 60%);animation:confetti-fall 1.6s calc(var(--i) * .03s) ease-out both}
+@media(prefers-reduced-motion:reduce){.answer.revealed,.answer[data-v],app-insight .insight,.plan-ring,.readiness-ring,.score-circle,.confetti i{animation:none!important}}
