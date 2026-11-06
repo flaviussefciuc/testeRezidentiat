@@ -1,3 +1,13 @@
+# Audit de compoziție · 6 noiembrie 2026
+
+Banca activă are 3.220 de grile în toate cele 39 de capitole. Un audit automat al compoziției testelor (fără modificarea grilelor sau a recenziilor) a găsit:
+
+- **12 perechi de grile-surori**: același capitol și peste jumătate din cuvinte comune (de exemplu două rânduri ale tabelului TIMI sau CHA2DS2-VASc, scorul Wells pentru TVP și pentru EP). Servite împreună, una dezvăluie cheia celeilalte. `scripts/export-bank.ts` le detectează la fiecare construcție, iar antrenamentele, simulările și caietele tipărite nu le mai combină.
+- **Poziția cheii în ordinea stocată**: la CS, varianta corectă este pe poziția A în 25% din grile și pe E în 16%; la CM, variantele corecte sunt ușor mai frecvente pe primele poziții. Pe ecran variantele erau deja amestecate pentru fiecare test; caietele tipărite le amestecă acum după codul testului, iar baremul și introducerea răspunsurilor urmează noua ordine.
+- **Lungimea variantelor**: la CS, varianta cea mai lungă este corectă în 19% din grile (sub nivelul șansei, 20%), deci fără indiciu de lungime.
+
+Polaritatea enunțurilor (o singură grilă cu „cu EXCEPȚIA”) este evidențiată în interfață, iar exercițiul Adevărat sau fals exclude enunțurile cu polaritate inversată. Rapoartele trimise din aplicație ajung ca issue-uri cu eticheta `raport-grila`.
+
 # Revizuirea băncii · 13 septembrie 2026
 
 ## Situația curentă: 99 / 800 acceptate
