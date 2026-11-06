@@ -10,11 +10,12 @@ import {CalibrationComponent} from './calibration.component';
 import {PaceChartComponent} from './pace-chart.component';
 import {AnalysisComponent} from './analysis.component';
 import {NoteComponent} from './note.component';
+import {StemComponent} from './stem.component';
 import {insightOf,optionPoint,verdictOf,VERDICT_LABEL} from './insight';
 import {CONFIDENCE_LABEL} from './calibration';
 import type {Question} from './models';
 type Filter='all'|'wrong'|'confident';
-@Component({standalone:true,imports:[RouterLink,IconComponent,InsightComponent,CalibrationComponent,PaceChartComponent,AnalysisComponent,NoteComponent],template:`
+@Component({standalone:true,imports:[RouterLink,IconComponent,InsightComponent,CalibrationComponent,PaceChartComponent,AnalysisComponent,NoteComponent,StemComponent],template:`
 @if(attempt();as a){
 <div class="page-heading"><div><div class="eyebrow">ÎNCĂ UN PAS ÎNAINTE</div><h1>Ai terminat. Acum consolidează.</h1><p>{{date(a.completedAt)}} · {{a.mode==='exam'?'Simulare de examen':'Antrenament'}} · {{result().total}} grile · {{duration(a)}}</p></div><a routerLink="/teste" class="button primary">Un nou test<app-icon name="arrow"/></a></div>
 <section class="result-banner"><div class="score-circle"><strong>{{result().percent}}<small>%</small></strong><span>din punctaj</span></div><div><h2>{{result().points}} <span>/ {{result().max}} puncte</span></h2><p>{{result().correct}} răspunsuri complet corecte · {{result().total-result().correct}} de revizuit</p><p class="small">Punctajul măsoară acest test de antrenament, nu prezice rezultatul concursului.</p></div></section>
@@ -33,7 +34,7 @@ type Filter='all'|'wrong'|'confident';
  @if(!loaded()){<div class="empty-state" role="status">{{bank.error()||'Se încarcă grilele…'}}</div>}
  @for(item of review();track item.q.id;let index=$index){
  <details class="panel review-item" [open]="index===0">
-  <summary><span class="review-status" [class.wrong]="!exact(item.q,item.selected)">{{exact(item.q,item.selected)?'✓':'↻'}}</span><span><small>{{topic(item.q.topicId)}} · {{item.q.type}}@if(item.confidence){ · <b class="conf-tag" [attr.data-c]="item.confidence">{{confLabel[item.confidence]}}</b>}</small><strong>{{item.q.stem}}</strong></span><span class="review-score">{{score(item.q,item.selected)}} / {{maximum(item.q)}}</span></summary>
+  <summary><span class="review-status" [class.wrong]="!exact(item.q,item.selected)">{{exact(item.q,item.selected)?'✓':'↻'}}</span><span><small>{{topic(item.q.topicId)}} · {{item.q.type}}@if(item.confidence){ · <b class="conf-tag" [attr.data-c]="item.confidence">{{confLabel[item.confidence]}}</b>}</small><strong><app-stem [text]="item.q.stem"/></strong></span><span class="review-score">{{score(item.q,item.selected)}} / {{maximum(item.q)}}</span></summary>
   <div class="review-content">
    @for(option of item.q.options;track $index){<div class="answer revealed" [attr.data-v]="verdict(item.q,item.selected,$index)"><span class="answer-letter">{{item.q.correct.includes($index)?'✓':'✕'}}</span><span class="answer-body"><span class="answer-text">{{option}}</span><span class="answer-why"><span class="verdict">{{verdictLabel[verdict(item.q,item.selected,$index)]}}@if(point(item.q,item.selected,$index)!==null){<b>+{{point(item.q,item.selected,$index)}}</b>}</span>@if(rationales(item.q);as r){<span class="why-text">{{r[$index]}}</span>}</span></span></div>}
    @if(!item.selected.length){<p class="muted">Nu ai răspuns la această întrebare.</p>}

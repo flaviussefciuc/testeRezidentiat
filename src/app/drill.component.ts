@@ -5,6 +5,7 @@ import {Bank,LITE_ACTIVE} from './bank';
 import {Sessions} from './session';
 import {TOPICS} from './topics';
 import {IconComponent} from './icon.component';
+import {StemComponent} from './stem.component';
 import {factsOf,loadFactLog,pickFacts,recordFact,saveFactLog,type Fact,type FactLog} from './facts';
 
 type Phase='setup'|'run'|'done';
@@ -12,7 +13,7 @@ const ACTIVE=new Set(LITE_ACTIVE.map(q=>q.id));
 interface Result {fact:Fact;said:boolean;ok:boolean}
 
 // Rapid true/false review built from the verified option statements of the bank.
-@Component({standalone:true,imports:[FormsModule,IconComponent],template:`
+@Component({standalone:true,imports:[FormsModule,IconComponent,StemComponent],template:`
 @switch(phase()){
 @case('setup'){
 <div class="page-heading"><div><div class="eyebrow">RECAPITULARE FULGER</div><h1>Adevărat sau fals?</h1><p>Fiecare variantă din bancă este o afirmație verificată în manual. Decizi în câteva secunde și afli imediat de ce.</p></div></div>
@@ -31,7 +32,7 @@ interface Result {fact:Fact;said:boolean;ok:boolean}
 <div class="drill-top"><button class="text-link" (click)="phase.set('setup')">← Oprește runda</button><div class="drill-progress"><div class="progress-track"><span [style.width.%]="(index()+ (answered()?1:0))/deck().length*100"></span></div><span>{{index()+1}} / {{deck().length}}</span></div><span class="drill-streak" [class.hot]="streak()>=5">🔥 {{streak()}}</span></div>
 <section class="drill-card panel" [attr.data-state]="answered()?(lastOk()?'ok':'bad'):null">
  <span class="drill-topic">{{topicName(f.topicId)}}</span>
- <p class="drill-stem">{{f.stem}}</p>
+ <p class="drill-stem"><app-stem [text]="f.stem"/></p>
  <p class="drill-statement">{{f.text}}</p>
  @if(!answered()){<div class="drill-choices"><button class="drill-btn true" (click)="answer(true)"><kbd>A</kbd> Adevărat</button><button class="drill-btn false" (click)="answer(false)"><kbd>F</kbd> Fals</button></div>}
  @else{<div class="drill-feedback" aria-live="polite"><strong>{{lastOk()?'Corect':'Greșit'}} · afirmația este {{f.truth?'adevărată':'falsă'}}</strong><p>{{f.why}}</p><small>{{f.ref}}</small><button class="button primary" (click)="next()">{{isLast()?'Vezi rezultatul':'Următoarea'}} <kbd>Enter</kbd></button></div>}

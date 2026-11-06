@@ -13,8 +13,10 @@ import {InsightComponent} from './insight.component';
 import {NoteComponent} from './note.component';
 import {shareQuestion} from './single.component';
 import {Speech,speakable} from './speech';
+import {StemComponent} from './stem.component';
+import {isNegative} from './emphasis';
 import {insightOf,optionPoint,verdictOf,VERDICT_LABEL} from './insight';
-@Component({standalone:true,imports:[RouterLink,IconComponent,InsightComponent,NoteComponent],template:`
+@Component({standalone:true,imports:[RouterLink,IconComponent,InsightComponent,NoteComponent,StemComponent],template:`
 @if(!store.ready()){<div class="empty-state">Se încarcă sesiunea…</div>}
 @else if(draft();as d){
  @if(question();as q){
@@ -23,7 +25,7 @@ import {insightOf,optionPoint,verdictOf,VERDICT_LABEL} from './insight';
   <section class="panel question-panel" (touchstart)="touchStart($event)" (touchend)="touchEnd($event)">
    <div class="section-heading"><span class="eyebrow">ÎNTREBAREA {{d.index+1}} DIN {{d.questionIds.length}}</span><button class="icon-button" [class.flagged]="d.flagged.includes(q.id)" (click)="flag()" [attr.aria-label]="d.flagged.includes(q.id)?'Elimină marcajul':'Marchează pentru revizuire'" title="Marchează pentru revizuire (F)"><app-icon name="flag"/></button>@if(speech.supported){<button class="icon-button" [class.on]="speech.playing()" (click)="listen(q)" [attr.aria-label]="speech.playing()?'Oprește citirea':'Ascultă grila'" [title]="speech.playing()?'Oprește citirea':'Ascultă grila (citire cu voce)'"><app-icon [name]="speech.playing()?'stop':'speaker'"/></button>}@if(checked()){<button class="icon-button" (click)="share(q)" [title]="shared()||'Distribuie grila (link)'" aria-label="Distribuie grila"><app-icon name="share"/></button>}</div>
    <div class="question-meta"><span class="badge">{{topic(q.topicId)}}</span><span>{{q.type==='CS'?'Complement simplu · un răspuns':'Complement multiplu · 2–4 răspunsuri'}}</span></div>
-   <h1 class="question-stem">{{q.stem}}</h1>
+   @if(negative(q.stem)){<p class="polarity-chip" role="note">⚠ Întrebare negativă: se cere varianta falsă sau excepția.</p>}<h1 class="question-stem"><app-stem [text]="q.stem"/></h1>
    <fieldset class="answers"><legend class="sr-only">Alege răspunsurile</legend>
     @for(i of order();track i;let pos=$index){
     <label class="answer" [class.chosen]="selected().includes(i)" [class.struck]="!checked()&&struck().includes(i)" [class.revealed]="checked()" [attr.data-v]="checked()?verdict(q,i):null">
@@ -78,7 +80,7 @@ export class QuizComponent implements OnDestroy {
  private interval=setInterval(()=>{this.now.set(Date.now());const d=this.draft();if(d?.mode==='exam'&&d.deadline&&Date.now()>=d.deadline&&!this.busy())void this.finish();},1000);
  // Focus mode hides the app chrome; it is a page-level class so the sidebar can react.
  private focusClass=effect(()=>document.documentElement.classList.toggle('quiz-focus',this.prefs.focus()));
- shared=signal('');speech=inject(Speech);
+ shared=signal('');speech=inject(Speech);negative=isNegative;
  // Reads the question and options; after checking, the verdicts and the reasons.
  listen(q:Question){
   if(this.speech.playing()){this.speech.stop();return;}

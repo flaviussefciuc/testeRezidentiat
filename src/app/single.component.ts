@@ -8,6 +8,8 @@ import {InsightComponent} from './insight.component';
 import {NoteComponent} from './note.component';
 import {insightOf,optionPoint,verdictOf,VERDICT_LABEL} from './insight';
 import {splitSection} from './sheets';
+import {StemComponent} from './stem.component';
+import {isNegative} from './emphasis';
 import type {Question} from './models';
 
 const ACTIVE=new Set(LITE_ACTIVE.map(q=>q.id));
@@ -20,12 +22,12 @@ export async function shareQuestion(id:string,stem:string):Promise<string>{
 }
 
 // One question on its own page: answer, check, read the explanation, share.
-@Component({standalone:true,imports:[RouterLink,IconComponent,InsightComponent,NoteComponent],template:`
+@Component({standalone:true,imports:[RouterLink,IconComponent,InsightComponent,NoteComponent,StemComponent],template:`
 @if(question();as q){
 <div class="quiz-top"><a routerLink="/teste" class="text-link">← Teste</a><span class="badge">{{topicName(q.topicId)}}</span><span class="single-actions"><button class="button secondary small-button" (click)="share(q)"><app-icon name="share"/>{{shared()||'Distribuie'}}</button></span></div>
 <section class="panel question-panel single">
  <div class="question-meta"><span>{{q.type==='CS'?'Complement simplu · un răspuns':'Complement multiplu · 2–4 răspunsuri'}}</span>@if(section()){<span>· {{section()}}</span>}</div>
- <h1 class="question-stem">{{q.stem}}</h1>
+ @if(negative(q.stem)){<p class="polarity-chip" role="note">⚠ Întrebare negativă: se cere varianta falsă sau excepția.</p>}<h1 class="question-stem"><app-stem [text]="q.stem"/></h1>
  <fieldset class="answers"><legend class="sr-only">Alege răspunsurile</legend>
   @for(o of q.options;track $index;let i=$index){
   <label class="answer" [class.chosen]="selected().includes(i)" [class.revealed]="checked()" [attr.data-v]="checked()?verdict(q,i):null">
@@ -44,7 +46,7 @@ export class SingleComponent {
  id=input.required<string>();
  bank=inject(Bank);sessions=inject(Sessions);router=inject(Router);
  selected=signal<number[]>([]);checked=signal(false);shared=signal('');missing=signal(false);
- verdictLabel=VERDICT_LABEL;
+ verdictLabel=VERDICT_LABEL;negative=isNegative;
  private loader=effect(()=>{const id=this.id();this.selected.set([]);this.checked.set(false);this.shared.set('');this.missing.set(false);void this.bank.ensure([id]).then(()=>this.missing.set(!this.bank.byId().has(id))).catch(()=>{});});
  question=computed(()=>this.bank.byId().get(this.id()));
  rationales=computed(()=>this.question()?insightOf(this.question()!).rationales:null);
