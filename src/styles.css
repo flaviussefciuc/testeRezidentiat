@@ -321,3 +321,7 @@ mark{background:var(--k-f6e7a8);color:inherit;border-radius:3px;padding:0 2px}:r
 .takeaway-list{margin:0;padding-left:22px;display:grid;gap:16px}.takeaway-list>li{padding-left:4px}.takeaway-list>li::marker{font-weight:800;color:var(--k-a07a2c)}
 .takeaway-kind{display:block;font-size:10.5px;letter-spacing:1px;text-transform:uppercase;font-weight:800;color:var(--k-8a957f);margin-bottom:2px}.takeaway-list>li.sure .takeaway-kind{color:var(--k-a5503d)}
 .takeaway-list strong{display:block;font-size:calc(14.5px * var(--read));color:var(--k-2f4a36);margin-bottom:4px}.takeaway-stem{margin:0 0 6px;font-size:12.5px;color:var(--k-6f7a68)}.takeaway-trap{margin:6px 0 2px;font-size:13px;color:var(--k-7a5a12)}.takeaway-list small{color:var(--k-6f7a68);font-size:11.5px}
+
+/* Chapter map on results. */
+.chapter-map{margin-bottom:22px}.heading-chips{display:flex;flex-wrap:wrap;gap:6px}.heading-chip{display:inline-flex;align-items:center;gap:8px;padding:6px 10px;border-radius:999px;font-size:12.5px;border:1px solid var(--k-dbe2d3);background:var(--k-ffffff);color:var(--k-2f4a36)}.heading-chip b{font-size:11px;font-weight:700;opacity:.8}
+.heading-chip[data-r=ok]{background:var(--k-e3f0d6);border-color:var(--k-9fc285)}.heading-chip[data-r=partial]{background:var(--k-fbf1d9);border-color:var(--k-e2c780)}.heading-chip[data-r=zero]{background:var(--k-fbe5dc);border-color:var(--k-e0b2a5)}.heading-chip:hover{filter:brightness(.97)}

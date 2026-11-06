@@ -9,6 +9,7 @@ import {topicStats} from './scoring';
 import {IconComponent} from './icon.component';
 import {buildSheet,loadRead,saveRead,splitSection} from './sheets';
 import {Notes} from './notes';
+import {shuffled} from './scoring';
 import {Speech,speakable,type Segment} from './speech';
 import {effect,OnDestroy} from '@angular/core';
 
@@ -23,7 +24,7 @@ const fold=(s:string)=>s.toLocaleLowerCase('ro').normalize('NFD').replace(/\p{Di
  <a class="panel sheet-card" [routerLink]="['/fise',t.id]"><small>{{t.book}} · cap. {{t.chapter}} · p. {{t.pages}}</small><h3>{{t.name}}</h3><div class="sheet-meta"><span>{{t.count}} grile</span>@if(t.total){<span [class.low]="t.percent<60">{{t.percent}}% la teste</span>}@else{<span>neexersat</span>}</div><div class="progress-track"><span [style.width.%]="t.readPct"></span></div><small>{{t.readPct}}% din secțiuni citite</small></a>}
 </div>}
 @else{@if(topic();as t){
-<div class="page-heading sheet-heading"><div><a routerLink="/fise" class="text-link">← Toate fișele</a><div class="eyebrow">{{t.book}} · CAPITOLUL {{t.chapter}} · P. {{t.pages}}</div><h1>{{t.name}}</h1><p>{{sections().length}} secțiuni · {{itemCount()}} grile · {{readCount()}} secțiuni citite</p></div><div class="sheet-actions">@if(speech.supported){<button class="button secondary" (click)="listen()"><app-icon name="speaker"/>Ascultă fișa</button>}<button class="button secondary" (click)="print()"><app-icon name="download"/>Tipărește / PDF</button><button class="button primary" (click)="practice()" [disabled]="!!store.draft()">Exersează capitolul<app-icon name="arrow"/></button></div></div>
+<div class="page-heading sheet-heading"><div><a routerLink="/fise" class="text-link">← Toate fișele</a><div class="eyebrow">{{t.book}} · CAPITOLUL {{t.chapter}} · P. {{t.pages}}</div><h1>{{t.name}}</h1><p>{{sections().length}} secțiuni · {{itemCount()}} grile · {{readCount()}} secțiuni citite</p></div><div class="sheet-actions">@if(speech.supported){<button class="button secondary" (click)="listen()"><app-icon name="speaker"/>Ascultă fișa</button>}<button class="button secondary" (click)="print()"><app-icon name="download"/>Tipărește / PDF</button><button class="button secondary" (click)="diagnostic()" [disabled]="!!store.draft()||!sections().length" title="O grilă din fiecare secțiune a manualului"><app-icon name="target"/>Test de diagnostic · {{diagnosticSize()}} grile</button><button class="button primary" (click)="practice()" [disabled]="!!store.draft()">Exersează capitolul<app-icon name="arrow"/></button></div></div>
 <div class="sheet-tools"><label class="search-input"><app-icon name="search"/><input placeholder="Caută în fișă (ex. Wells, digoxină, Cadranul 30.17)…" [ngModel]="query()" (ngModelChange)="query.set($event)" aria-label="Caută în fișă"></label><label class="check-line"><input type="checkbox" [ngModel]="traps()" (ngModelChange)="traps.set($event)">Arată capcanele (variantele false și de ce)</label></div>
 @if(!ready()){<div class="empty-state" role="status">{{bank.error()||'Se încarcă fișa…'}}</div>}
 @for(s of visible();track s.key){
@@ -71,6 +72,16 @@ export class SheetsComponent implements OnDestroy {
  // Distinct textbook sections per chapter (for the share read).
  sectionCounts=computed(()=>{const m=new Map<string,Set<string>>();if(this.ready())for(const q of this.bank.byId().values()){const r=(q as {reference?:{section:string}}).reference;if(r&&ACTIVE.has(q.id))m.set(q.topicId,(m.get(q.topicId)??new Set()).add(splitSection(r.section).head));}return Object.fromEntries([...m].map(([k,v])=>[k,v.size])) as Record<string,number>;});
  toggleRead(key:string){const next={...this.read()};if(next[key])delete next[key];else next[key]=Date.now();this.read.set(next);saveRead(this.store.owner(),next);}
+ // A spread over every textbook heading: about 20–30 questions, at least one per heading
+ // (sampled evenly when a chapter has more than 30), several per heading in coarse chapters.
+ diagnosticPicks=computed(()=>{
+  const secs=this.sections();if(!secs.length)return [] as string[];
+  const n=Math.min(30,Math.max(20,secs.length)),chosen=secs.length>n?Array.from({length:n},(_,i)=>secs[Math.floor(i*secs.length/n)]):secs;
+  const per=Math.max(1,Math.ceil(n/chosen.length));
+  return chosen.flatMap(sec=>shuffled(sec.items).slice(0,per).map(i=>i.id)).slice(0,n);
+ });
+ diagnosticSize=computed(()=>this.diagnosticPicks().length);
+ diagnostic(){this.sessions.startPractice(this.diagnosticPicks());}
  practice(){this.sessions.startPractice(this.sections().flatMap(s=>s.items.map(i=>i.id)).slice(0,40));}
  practiceSection(items:{id:string}[]){this.sessions.startPractice(items.map(i=>i.id));}
  print(){this.traps.set(true);setTimeout(()=>window.print(),50);}
