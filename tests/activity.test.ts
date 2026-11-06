@@ -1,3 +1,5 @@
+// Days are local days; pin the students' timezone so the build server (UTC) agrees.
+process.env.TZ='Europe/Bucharest';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {dailyCounts,streak} from '../src/app/activity.ts';

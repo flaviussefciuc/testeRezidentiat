@@ -1,3 +1,5 @@
+// Days are local days; pin the students' timezone so the build server (UTC) agrees.
+process.env.TZ='Europe/Bucharest';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {buildPlan,type ChapterLoad} from '../src/app/plan.ts';
