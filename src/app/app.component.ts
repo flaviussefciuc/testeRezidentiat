@@ -43,7 +43,7 @@ export class AppComponent {store=inject(Store);prefs=inject(Prefs);router=inject
 menu=signal(false);
  groups=[
   {label:'AZI',items:[{path:'/',label:'Privire de ansamblu',icon:'dashboard'},{path:'/plan',label:'Planul meu',icon:'calendar'}]},
-  {label:'EXERSEAZĂ',items:[{path:'/teste',label:'Teste și simulări',icon:'book'},{path:'/adevarat-fals',label:'Adevărat sau fals',icon:'spark'}]},
+  {label:'EXERSEAZĂ',items:[{path:'/teste',label:'Teste și simulări',icon:'book'},{path:'/adevarat-fals',label:'Adevărat sau fals',icon:'spark'},{path:'/provocare',label:'Provocarea zilei',icon:'target'}]},
   {label:'ÎNVAȚĂ',items:[{path:'/fise',label:'Fișe de recapitulare',icon:'sheet'},{path:'/recitire',label:'Pagini de recitit',icon:'bookmark'},{path:'/notite',label:'Notițele mele',icon:'pen'},{path:'/cauta',label:'Caută în bancă',icon:'search'}]},
   {label:'ANALIZĂ',items:[{path:'/progres',label:'Progresul meu',icon:'chart'},{path:'/bibliografie',label:'Tematică și resurse',icon:'leaf'}]},
  ];
