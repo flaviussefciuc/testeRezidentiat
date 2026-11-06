@@ -42,8 +42,9 @@ export function shuffled<T>(items: readonly T[]): T[] {
  const copy=[...items];for(let i=copy.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[copy[i],copy[j]]=[copy[j],copy[i]];}return copy;
 }
 export function examQuestions<T extends Scorable>(bank: readonly T[], count=200): T[] {
- const singles=count/4,multiples=count-singles;
+ // The real format is one quarter single-choice; shorter simulations keep the ratio.
+ const singles=Math.round(count/4),multiples=count-singles;
  const cs=shuffled(bank.filter(q=>q.type==='CS')),cm=shuffled(bank.filter(q=>q.type==='CM'));
- if(!Number.isInteger(singles)||cs.length<singles||cm.length<multiples)throw new Error('Banca nu conține suficiente întrebări distincte pentru această simulare.');
+ if(count<4||cs.length<singles||cm.length<multiples)throw new Error('Banca nu conține suficiente întrebări distincte pentru această simulare.');
  return [...cs.slice(0,singles),...cm.slice(0,multiples)];
 }

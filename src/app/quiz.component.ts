@@ -1,4 +1,5 @@
 import {Component,computed,effect,HostListener,inject,OnDestroy,signal} from '@angular/core';
+import {PACE_SECONDS} from './pace';
 import {Router,RouterLink} from '@angular/router';
 import {Store} from './store';
 import {Bank} from './bank';
@@ -13,7 +14,7 @@ import {insightOf,optionPoint,verdictOf,VERDICT_LABEL} from './insight';
 @if(!store.ready()){<div class="empty-state">Se încarcă sesiunea…</div>}
 @else if(draft();as d){
  @if(question();as q){
- <div class="quiz-top"><a routerLink="/teste" class="text-link">← Înapoi la antrenament</a><span class="badge" [class.peach]="d.mode==='exam'">{{d.mode==='exam'?'Simulare de examen':'Antrenament'}}</span><span class="timer" [class.error]="remaining()<300&&d.mode==='exam'"><app-icon name="clock"/>{{time()}}</span></div>
+ <div class="quiz-top"><a routerLink="/teste" class="text-link">← Înapoi la antrenament</a><span class="badge" [class.peach]="d.mode==='exam'">{{d.mode==='exam'?'Simulare de examen':'Antrenament'}}</span>@if(pace();as p){<span class="pace-badge" [class.behind]="p.ahead<0" [title]="'Ritmul examenului: '+paceSeconds+' s pe grilă'">{{p.ahead<0?'În urmă':'În ritm'}} · {{p.ahead<0?'−':'+'}}{{p.minutes}} min</span>}<span class="timer" [class.error]="remaining()<300&&d.mode==='exam'"><app-icon name="clock"/>{{time()}}</span></div>
  <div class="quiz-layout">
   <section class="panel question-panel">
    <div class="section-heading"><span class="eyebrow">ÎNTREBAREA {{d.index+1}} DIN {{d.questionIds.length}}</span><button class="icon-button" [class.flagged]="d.flagged.includes(q.id)" (click)="flag()" [attr.aria-label]="d.flagged.includes(q.id)?'Elimină marcajul':'Marchează pentru revizuire'" title="Marchează pentru revizuire (F)"><app-icon name="flag"/></button></div>
@@ -59,8 +60,16 @@ export class QuizComponent implements OnDestroy {
  answered=computed(()=>Object.values(this.draft()?.answers??{}).filter(a=>a.length).length);
  remaining=computed(()=>Math.max(0,Math.ceil(((this.draft()?.deadline??this.now())-this.now())/1000)));
  order=computed(()=>{let seed=0;for(const c of (this.draft()?.id??'')+(this.question()?.id??''))seed=(Math.imul(seed,31)+c.charCodeAt(0))|0;const order=[0,1,2,3,4];for(let i=4;i>0;i--){seed=(Math.imul(seed,1664525)+1013904223)|0;const j=(seed>>>0)%(i+1);[order[i],order[j]]=[order[j],order[i]];}return order;});
+ paceSeconds=PACE_SECONDS;
+ // Simulations: compare answered questions with the exam pace (72 s per question).
+ pace=computed(()=>{const d=this.draft();if(!d||d.mode!=='exam')return null;const elapsed=(this.now()-Date.parse(d.startedAt))/1000;if(elapsed<300)return null;const ahead=this.answered()*PACE_SECONDS-elapsed;return {ahead,minutes:Math.round(Math.abs(ahead)/60)};});
+ // Visible time on each question, until it is checked (practice) or left (exam).
+ private enteredAt:number|null=Date.now();
+ private onVisibility=()=>{if(document.hidden){const p=this.timePatch();if(p)this.update(p);this.enteredAt=null;}else if(!this.checked())this.enteredAt=Date.now();};
+ private timePatch():Partial<Draft>|null{const d=this.draft(),q=this.question();if(!d||!q||this.enteredAt===null)return null;const slice=Math.min(10*60000,Date.now()-this.enteredAt);this.enteredAt=Date.now();return {times:{...(d.times??{}),[q.id]:(d.times?.[q.id]??0)+slice}};}
+ constructor(){document.addEventListener('visibilitychange',this.onVisibility);}
  private interval=setInterval(()=>{this.now.set(Date.now());const d=this.draft();if(d?.mode==='exam'&&d.deadline&&Date.now()>=d.deadline&&!this.busy())void this.finish();},1000);
- ngOnDestroy(){clearInterval(this.interval);}topic(id:string){return TOPICS.find(t=>t.id===id)?.name;}
+ ngOnDestroy(){clearInterval(this.interval);document.removeEventListener('visibilitychange',this.onVisibility);const p=this.timePatch();if(p)this.update(p);}topic(id:string){return TOPICS.find(t=>t.id===id)?.name;}
  time(){let secs=this.draft()?.mode==='exam'?this.remaining():Math.max(0,Math.floor((this.now()-Date.parse(this.draft()?.startedAt??''))/1000));return [Math.floor(secs/3600),Math.floor(secs/60)%60,secs%60].map(v=>String(v).padStart(2,'0')).join(':');}
  private update(patch:Partial<Draft>){const d=this.draft();if(d&&d.owner===this.store.owner())this.store.saveDraft({...d,...patch});}
  choose(i:number){
@@ -82,9 +91,9 @@ export class QuizComponent implements OnDestroy {
  }
  // Confidence is optional and locked once the answer has been checked.
  setConf(c:Confidence){if(this.checked()||this.busy())return;const d=this.draft(),q=this.question();if(!d||!q)return;const next={...(d.confidence??{})};if(next[q.id]===c)delete next[q.id];else next[q.id]=c;this.update({confidence:next});}
- check(){const d=this.draft(),q=this.question();if(d&&q&&!this.invalid())this.update({checked:[...d.checked,q.id]});}
+ check(){const d=this.draft(),q=this.question();if(d&&q&&!this.invalid()){this.update({...this.timePatch(),checked:[...d.checked,q.id]});this.enteredAt=null;}}
  flag(){const d=this.draft(),q=this.question();if(d&&q)this.update({flagged:d.flagged.includes(q.id)?d.flagged.filter(id=>id!==q.id):[...d.flagged,q.id]});}
- go(index:number){if(this.draft()&&index>=0&&index<this.draft()!.questionIds.length)this.update({index});}
+ go(index:number){const d=this.draft();if(d&&index>=0&&index<d.questionIds.length&&index!==d.index){this.update({...this.timePatch(),index});const next=d.questionIds[index];this.enteredAt=d.mode==='practice'&&d.checked.includes(next)?null:Date.now();}}
  // Enter does what the primary button says: check, then move on, then offer to finish.
  private primary(){
   const d=this.draft();if(!d)return;
@@ -111,5 +120,5 @@ export class QuizComponent implements OnDestroy {
   const level=({KeyS:'sure',KeyN:'unsure',KeyG:'guess'} as Record<string,Confidence>)[e.code];
   if(level){e.preventDefault();this.setConf(level);}
  }
- async finish(){const d=this.draft();if(!d||this.busy())return;this.busy.set(true);try{const completedAt=new Date(d.deadline&&Date.now()>d.deadline?d.deadline:Date.now()).toISOString();await this.store.addAttempt({id:d.id,userId:d.owner,mode:d.mode,startedAt:d.startedAt,completedAt,answers:d.questionIds.map(id=>({questionId:id,selected:d.answers[id]??[],...(d.confidence?.[id]?{confidence:d.confidence[id]}:{})}))});this.store.saveDraft(null);await this.router.navigate(['/rezultat',d.id]);}catch(e){this.error.set((e as Error).message);this.confirm.set(true);}finally{this.busy.set(false);}}
+ async finish(){const p=this.timePatch();if(p)this.update(p);const d=this.draft();if(!d||this.busy())return;this.busy.set(true);try{const completedAt=new Date(d.deadline&&Date.now()>d.deadline?d.deadline:Date.now()).toISOString();await this.store.addAttempt({id:d.id,userId:d.owner,mode:d.mode,startedAt:d.startedAt,completedAt,answers:d.questionIds.map(id=>({questionId:id,selected:d.answers[id]??[],...(d.confidence?.[id]?{confidence:d.confidence[id]}:{}),...(d.times?.[id]?{ms:Math.round(d.times[id])}:{})}))});this.store.saveDraft(null);await this.router.navigate(['/rezultat',d.id]);}catch(e){this.error.set((e as Error).message);this.confirm.set(true);}finally{this.busy.set(false);}}
 }
