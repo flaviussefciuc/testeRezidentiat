@@ -6,7 +6,7 @@ import {Prefs} from './prefs';
 import {Bank} from './bank';
 import {TOPICS} from './topics';
 import {score,maximum} from './scoring';
-import type {Confidence,Draft,Question} from './models';
+import type {Confidence,Draft,Question,Why} from './models';
 import {CONFIDENCE_KEY,CONFIDENCE_LABEL,CONFIDENCE_LEVELS} from './calibration';
 import {IconComponent} from './icon.component';
 import {InsightComponent} from './insight.component';
@@ -40,7 +40,7 @@ import {insightOf,optionPoint,verdictOf,VERDICT_LABEL} from './insight';
    </fieldset>
    @if(invalid()){<p class="selection-hint">{{q.type==='CS'?'Selectează un răspuns.':'Selectează între 2 și 4 răspunsuri. Altfel, punctajul este 0.'}}</p>}
    @if(!checked()){<div class="confidence-row" role="group" aria-label="Cât de sigur ești?"><span class="confidence-q">Cât de sigur ești?</span>@for(c of levels;track c){<button type="button" class="conf-chip" [class.on]="conf()===c" [attr.data-c]="c" [attr.aria-pressed]="conf()===c" (click)="setConf(c)">{{confLabel[c]}}<kbd>{{confKey[c]}}</kbd></button>}</div>}
-   @if(checked()){<app-insight [q]="q" [selected]="selected()" [confidence]="conf()"/>}
+   @if(checked()){<app-insight [q]="q" [selected]="selected()" [confidence]="conf()" [askWhy]="true" [why]="d.why?.[q.id]" (whyChange)="setWhy(q.id,$event)"/>}
    <app-note [qid]="q.id" [compact]="!checked()"/>
    <div class="quiz-actions"><button class="button secondary" (click)="go(d.index-1)" [disabled]="d.index===0">← Anterioara</button>@if(d.mode==='practice'&&!checked()){<button class="button primary" (click)="check()" [disabled]="invalid()">Verifică răspunsul<app-icon name="check"/></button>}@else if(d.index<d.questionIds.length-1){<button class="button primary" (click)="go(d.index+1)">Următoarea<app-icon name="arrow"/></button>}@else{<button class="button primary" (click)="confirm.set(true)">Finalizează testul<app-icon name="check"/></button>}</div>
    <div class="kbd-hint" aria-hidden="true"><span><kbd>A</kbd>–<kbd>E</kbd> alege</span><span><kbd>Shift</kbd>+<kbd>A</kbd>–<kbd>E</kbd> taie o variantă</span><span><kbd>Enter</kbd> {{d.mode==='practice'&&!checked()?'verifică':'continuă'}}</span><span><kbd>←</kbd> <kbd>→</kbd> navighează</span><span><kbd>S</kbd> <kbd>N</kbd> <kbd>G</kbd> încredere</span><span><kbd>F</kbd> marchează</span><button class="text-link" type="button" (click)="help.set(true)"><kbd>?</kbd> toate scurtăturile</button></div>
@@ -130,6 +130,8 @@ export class QuizComponent implements OnDestroy {
   if(on&&this.selected().includes(i))patch.answers={...d.answers,[q.id]:this.selected().filter(v=>v!==i)};
   this.update(patch);
  }
+ // The student's own reason for a miss, recorded with the answer.
+ setWhy(qid:string,w:Why|null){const d=this.draft();if(!d)return;const next={...(d.why??{})};if(w)next[qid]=w;else delete next[qid];this.update({why:next});}
  // Confidence is optional and locked once the answer has been checked.
  setConf(c:Confidence){if(this.checked()||this.busy())return;const d=this.draft(),q=this.question();if(!d||!q)return;const next={...(d.confidence??{})};if(next[q.id]===c)delete next[q.id];else next[q.id]=c;this.update({confidence:next});}
  check(){const d=this.draft(),q=this.question();if(d&&q&&!this.invalid()){this.update({...this.timePatch(),checked:[...d.checked,q.id]});this.enteredAt=null;}}
@@ -164,5 +166,5 @@ export class QuizComponent implements OnDestroy {
   const level=({KeyS:'sure',KeyN:'unsure',KeyG:'guess'} as Record<string,Confidence>)[e.code];
   if(level){e.preventDefault();this.setConf(level);}
  }
- async finish(){const p=this.timePatch();if(p)this.update(p);const d=this.draft();if(!d||this.busy())return;this.busy.set(true);try{const completedAt=new Date(d.deadline&&Date.now()>d.deadline?d.deadline:Date.now()).toISOString();await this.store.addAttempt({id:d.id,userId:d.owner,mode:d.mode,startedAt:d.startedAt,completedAt,answers:d.questionIds.map(id=>({questionId:id,selected:d.answers[id]??[],...(d.confidence?.[id]?{confidence:d.confidence[id]}:{}),...(d.times?.[id]?{ms:Math.round(d.times[id])}:{})}))});this.store.saveDraft(null);await this.router.navigate(['/rezultat',d.id]);}catch(e){this.error.set((e as Error).message);this.confirm.set(true);}finally{this.busy.set(false);}}
+ async finish(){const p=this.timePatch();if(p)this.update(p);const d=this.draft();if(!d||this.busy())return;this.busy.set(true);try{const completedAt=new Date(d.deadline&&Date.now()>d.deadline?d.deadline:Date.now()).toISOString();await this.store.addAttempt({id:d.id,userId:d.owner,mode:d.mode,startedAt:d.startedAt,completedAt,answers:d.questionIds.map(id=>({questionId:id,selected:d.answers[id]??[],...(d.confidence?.[id]?{confidence:d.confidence[id]}:{}),...(d.times?.[id]?{ms:Math.round(d.times[id])}:{}),...(d.why?.[id]?{why:d.why[id]}:{})}))});this.store.saveDraft(null);await this.router.navigate(['/rezultat',d.id]);}catch(e){this.error.set((e as Error).message);this.confirm.set(true);}finally{this.busy.set(false);}}
 }

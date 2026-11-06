@@ -1,5 +1,6 @@
-import {Component,computed,input} from '@angular/core';
-import type {Confidence,Question} from './models';
+import {Component,computed,input,output} from '@angular/core';
+import type {Confidence,Question,Why} from './models';
+import {WHY_OPTIONS} from './why';
 import {CALIBRATION_MESSAGE,CONFIDENCE_LABEL,calibrationKind} from './calibration';
 import {score,maximum} from './scoring';
 import {insightOf,referenceLine} from './insight';
@@ -17,6 +18,7 @@ import {ReportComponent} from './report.component';
   </div>
   @if(q.type==='CM'){<div class="insight-meter" aria-hidden="true">@for(p of pips();track $index){<i [class.on]="p"></i>}</div>}
  </header>
+ @if(askWhy()&&points()!==max()){<div class="insight-block why"><span class="insight-label">De ce n-a ieșit complet corect?</span><div class="why-row">@for(o of whyOptions;track o.id){<button type="button" class="conf-chip" [class.on]="why()===o.id" [attr.aria-pressed]="why()===o.id" (click)="whyChange.emit(why()===o.id?null:o.id)">{{o.label}}</button>}</div></div>}
  @if(confidence();as c){<div class="insight-block calib" [attr.data-k]="kind()"><span class="insight-label">Ai marcat: {{confLabel[c]}}</span><p>{{message()}}</p></div>}
  @if(info().objective){<div class="insight-block"><span class="insight-label">Ce verifică grila</span><p>{{info().objective}}</p></div>}
  @if(info().trap){<div class="insight-block trap"><span class="insight-label">Unde este capcana</span><p>{{info().trap}}</p></div>}
@@ -30,6 +32,7 @@ export class InsightComponent {
  q=input<Question|undefined>();
  selected=input<number[]>([]);
  confidence=input<Confidence|undefined>();
+ askWhy=input(false);why=input<Why|undefined>();whyChange=output<Why|null>();whyOptions=WHY_OPTIONS;
  confLabel=CONFIDENCE_LABEL;
  kind=computed(()=>{const c=this.confidence();return c?calibrationKind(c,this.points()===this.max()):null;});
  message=computed(()=>{const k=this.kind();return k?CALIBRATION_MESSAGE[k]:'';});
