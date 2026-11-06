@@ -1,5 +1,5 @@
 import {Injectable,signal} from '@angular/core';
-import {BANK_VERSION,INDEX,TOPIC_ORDER} from './bank-index.generated';
+import {BANK_VERSION,INDEX,SIBLINGS,TOPIC_ORDER} from './bank-index.generated';
 import type {Question} from './models';
 import {decodeEntry,type Lite} from './bank-codec';
 export type {Lite};
@@ -10,6 +10,10 @@ export const LITE:Lite[]=Object.entries(INDEX).map(([id,v])=>decodeEntry(TOPIC_O
 export const LITE_ACTIVE:Lite[]=LITE.filter(q=>q.active);
 export const LITE_BY_ID=new Map(LITE.map(q=>[q.id,q]));
 export const EXAM_AVAILABLE=LITE_ACTIVE.filter(q=>q.type==='CS').length>=50&&LITE_ACTIVE.filter(q=>q.type==='CM').length>=150;
+// Questions that must not appear in the same session (see scripts/export-bank.ts).
+export const SIBLING_OF=new Map<string,Set<string>>();
+for(const [a,b] of SIBLINGS){SIBLING_OF.set(a,(SIBLING_OF.get(a)??new Set()).add(b));SIBLING_OF.set(b,(SIBLING_OF.get(b)??new Set()).add(a));}
+export function withoutSiblings(ids:readonly string[]):string[]{const kept:string[]=[],taken=new Set<string>();for(const id of ids){const sib=SIBLING_OF.get(id);if(sib&&[...sib].some(s=>taken.has(s)))continue;kept.push(id);taken.add(id);}return kept;}
 export function activeCount(topicId:string){return LITE_ACTIVE.filter(q=>q.topicId===topicId).length;}
 
 // Full question text, fetched on demand and cached for the lifetime of the page.

@@ -57,3 +57,8 @@ test('history compares weekly weighted scores and latest answer determines revie
  assert.equal(topicStats(attempts,[cs],'a').percent,50);
  assert.equal(summarize([{questionId:'cs',selected:[]}],[cs]).points,0);
 });
+test('simulations never contain two sibling questions',()=>{
+ const fixture=[...Array.from({length:60},(_,i)=>({...cs,id:'cs-'+i})),...Array.from({length:170},(_,i)=>({...cm,id:'cm-'+i}))];
+ const siblings=new Map<string,Set<string>>([['cm-1',new Set(['cm-2'])],['cm-2',new Set(['cm-1'])]]);
+ for(let k=0;k<30;k++){const ids=new Set(examQuestions(fixture,200,siblings).map(q=>q.id));assert.ok(!(ids.has('cm-1')&&ids.has('cm-2')));assert.equal(ids.size,200);}
+});

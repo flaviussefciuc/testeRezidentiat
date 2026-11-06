@@ -3,7 +3,7 @@ import {FormsModule} from '@angular/forms';
 import {ActivatedRoute,Router,RouterLink} from '@angular/router';
 import {Store} from './store';
 import {TOPICS} from './topics';
-import {LITE_ACTIVE as QUESTIONS,EXAM_AVAILABLE} from './bank';
+import {LITE_ACTIVE as QUESTIONS,EXAM_AVAILABLE,SIBLING_OF} from './bank';
 import {examQuestions} from './scoring';
 import {Sessions,SOURCE_LABEL,type Source} from './session';
 import {SIM_FORMATS,simMinutes} from './pace';
@@ -18,5 +18,5 @@ export class PracticeComponent {store=inject(Store);router=inject(Router);route=
  visibleTopics=computed(()=>TOPICS.filter(t=>(this.book()==='Toate'||t.book===this.book())&&t.name.toLocaleLowerCase('ro').normalize('NFD').replace(/\p{Diacritic}/gu,'').includes(this.search().toLocaleLowerCase('ro').normalize('NFD').replace(/\p{Diacritic}/gu,''))));
  available=computed(()=>QUESTIONS);
  pool=computed(()=>this.sessions.pool(this.source(),this.selected()));counts=computed(()=>Object.fromEntries(this.sources.map(s=>[s,this.sessions.count(s,this.selected())])) as Record<Source,number>);actualCount(){return Math.min(this.count,this.pool().length);}countFor(id:string){return this.available().filter(q=>q.topicId===id).length;}toggle(id:string){this.selected.update(a=>a.includes(id)?a.filter(x=>x!==id):[...a,id]);}
- start(){try{if(this.store.draft())return;if(this.mode()==='practice'){this.sessions.startPractice(this.pool().slice(0,this.count));return;}if(!this.examAvailable)return;const qs=examQuestions(QUESTIONS,this.sim());this.store.saveDraft({id:crypto.randomUUID(),owner:this.store.owner(),mode:'exam',startedAt:new Date().toISOString(),deadline:Date.now()+simMinutes(this.sim())*60000,questionIds:qs.map(q=>q.id),answers:{},checked:[],flagged:[],index:0});void this.router.navigate(['/test']);}catch(e){this.error.set((e as Error).message);}}
+ start(){try{if(this.store.draft())return;if(this.mode()==='practice'){this.sessions.startPractice(this.pool().slice(0,this.count));return;}if(!this.examAvailable)return;const qs=examQuestions(QUESTIONS,this.sim(),SIBLING_OF);this.store.saveDraft({id:crypto.randomUUID(),owner:this.store.owner(),mode:'exam',startedAt:new Date().toISOString(),deadline:Date.now()+simMinutes(this.sim())*60000,questionIds:qs.map(q=>q.id),answers:{},checked:[],flagged:[],index:0});void this.router.navigate(['/test']);}catch(e){this.error.set((e as Error).message);}}
 }

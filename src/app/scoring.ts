@@ -41,10 +41,13 @@ export function wrongIds(attempts: Attempt[], bank: readonly Scorable[]) {
 export function shuffled<T>(items: readonly T[]): T[] {
  const copy=[...items];for(let i=copy.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[copy[i],copy[j]]=[copy[j],copy[i]];}return copy;
 }
-export function examQuestions<T extends Scorable>(bank: readonly T[], count=200): T[] {
+export function examQuestions<T extends Scorable>(bank: readonly T[], count=200, siblings?: ReadonlyMap<string,ReadonlySet<string>>): T[] {
  // The real format is one quarter single-choice; shorter simulations keep the ratio.
  const singles=Math.round(count/4),multiples=count-singles;
  const cs=shuffled(bank.filter(q=>q.type==='CS')),cm=shuffled(bank.filter(q=>q.type==='CM'));
  if(count<4||cs.length<singles||cm.length<multiples)throw new Error('Banca nu conține suficiente întrebări distincte pentru această simulare.');
- return [...cs.slice(0,singles),...cm.slice(0,multiples)];
+ // Skip a question whose sibling (same table, shared options) is already in the test.
+ const taken=new Set<string>();
+ const take=(list:T[],n:number)=>{const out:T[]=[];for(const q of list){if(out.length===n)break;const sib=siblings?.get(q.id);if(sib&&[...sib].some(s=>taken.has(s)))continue;out.push(q);taken.add(q.id);}if(out.length<n)throw new Error('Banca nu conține suficiente întrebări distincte pentru această simulare.');return out;};
+ return [...take(cs,singles),...take(cm,multiples)];
 }

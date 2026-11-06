@@ -1,7 +1,7 @@
 import {computed,inject,Injectable} from '@angular/core';
 import {Router} from '@angular/router';
 import {Store} from './store';
-import {LITE_ACTIVE,LITE_BY_ID} from './bank';
+import {LITE_ACTIVE,LITE_BY_ID,withoutSiblings} from './bank';
 import {memories,dueIds,dueSoon,retained} from './srs';
 import {shuffled,wrongIds} from './scoring';
 
@@ -38,6 +38,7 @@ export class Sessions {
 
  // Starts a practice session; returns false when a test is already in progress.
  startPractice(ids:readonly string[]):boolean{
+  ids=withoutSiblings(ids);
   if(!ids.length||this.store.draft())return false;
   this.store.saveDraft({id:crypto.randomUUID(),owner:this.store.owner(),mode:'practice',startedAt:new Date().toISOString(),deadline:null,questionIds:shuffled(ids),answers:{},checked:[],flagged:[],index:0});
   void this.router.navigate(['/test']);
