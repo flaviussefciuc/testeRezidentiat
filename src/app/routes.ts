@@ -5,6 +5,7 @@ export const routes:Routes=[
  {path:'test',loadComponent:()=>import('./quiz.component').then(m=>m.QuizComponent)},
  {path:'progres',loadComponent:()=>import('./progress.component').then(m=>m.ProgressComponent)},
  {path:'rezultat/:id',loadComponent:()=>import('./result.component').then(m=>m.ResultComponent)},
+ {path:'adevarat-fals',loadComponent:()=>import('./drill.component').then(m=>m.DrillComponent)},
  {path:'bibliografie',loadComponent:()=>import('./resources.component').then(m=>m.ResourcesComponent)},
  {path:'cont',loadComponent:()=>import('./auth.component').then(m=>m.AuthComponent)},
  {path:'**',redirectTo:''}
