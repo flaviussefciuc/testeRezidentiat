@@ -10,11 +10,12 @@ import {IconComponent} from './icon.component';
 import {NoteComponent} from './note.component';
 import {insightOf,referenceLine} from './insight';
 import {fold} from './search.component';
+import {ankiQuestions,download} from './anki';
 
 // All notes and saved questions, by chapter.
 @Component({standalone:true,imports:[FormsModule,RouterLink,IconComponent,NoteComponent],template:`
 <div class="page-heading"><div><div class="eyebrow">COLECȚIA TA</div><h1>Notițele mele.</h1><p>Grilele salvate cu ☆ și tot ce ți-ai notat, grupate pe capitole. Rămân pe acest dispozitiv.</p></div>
- <div class="sheet-actions"><button class="button secondary" (click)="exportMd()" [disabled]="!items().length"><app-icon name="download"/>Descarcă (.md)</button><button class="button primary" (click)="practice()" [disabled]="!items().length||!!store.draft()">Exersează colecția<app-icon name="arrow"/></button></div></div>
+ <div class="sheet-actions"><button class="button secondary" (click)="exportMd()" [disabled]="!items().length"><app-icon name="download"/>Descarcă (.md)</button><button class="button secondary" (click)="anki()" [disabled]="!items().length||!ready()" title="Fișier pentru Anki: File → Import"><app-icon name="download"/>Anki</button><button class="button primary" (click)="practice()" [disabled]="!items().length||!!store.draft()">Exersează colecția<app-icon name="arrow"/></button></div></div>
 <div class="sheet-tools"><label class="search-input"><app-icon name="search"/><input placeholder="Caută în notițe și grile…" [ngModel]="query()" (ngModelChange)="query.set($event)" aria-label="Caută în notițe"></label>
  <div class="segmented" role="group" aria-label="Filtru"><button [class.on]="filter()==='all'" (click)="filter.set('all')">Toate <span>{{items().length}}</span></button><button [class.on]="filter()==='notes'" (click)="filter.set('notes')">Cu notiță <span>{{noteCount()}}</span></button><button [class.on]="filter()==='saved'" (click)="filter.set('saved')">Salvate <span>{{savedCount()}}</span></button></div></div>
 @if(!items().length){<div class="empty-state"><app-icon name="bookmark"/><h2>Colecția ta este goală.</h2><p>În timpul unui test, apasă ☆ Salvează sau ✎ Adaugă o notiță sub orice grilă.</p><a routerLink="/teste" class="button primary">Începe un test →</a></div>}
@@ -42,6 +43,8 @@ export class NotesComponent {
   return TOPICS.map(t=>({topic:t.id,name:t.name,items:rows.filter(r=>r.topic===t.id).sort((a,b)=>b.at-a.at)})).filter(g=>g.items.length);
  });
  practice(){this.sessions.startPractice(this.items().slice(0,60));}
+ // Notes go on the back of the card, after the explanation.
+ anki(){const qs=this.items().map(id=>this.bank.byId().get(id)).filter((q):q is NonNullable<typeof q>=>!!q);download(ankiQuestions(qs,'Rezi::Colecția mea',id=>this.notes.note(id)),'rezi-colectie-anki.txt');}
  exportMd(){
   const lines=['# Notițele mele · Rezi',''];
   for(const g of this.groups()){lines.push(`## ${g.name}`,'');for(const i of g.items){lines.push(`### ${i.stem}`);for(const t of i.truths)lines.push(`- ✓ ${t}`);const n=this.notes.note(i.id);if(n)lines.push('',`> ${n.replace(/\n/g,'\n> ')}`);lines.push(`_${i.ref}_`,'');}}

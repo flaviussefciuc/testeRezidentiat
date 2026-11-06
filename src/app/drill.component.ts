@@ -6,6 +6,7 @@ import {Sessions} from './session';
 import {TOPICS} from './topics';
 import {IconComponent} from './icon.component';
 import {StemComponent} from './stem.component';
+import {ankiFacts,download} from './anki';
 import {factsOf,loadFactLog,pickFacts,recordFact,saveFactLog,type Fact,type FactLog} from './facts';
 
 type Phase='setup'|'run'|'done';
@@ -41,7 +42,7 @@ interface Result {fact:Fact;said:boolean;ok:boolean}
 <div class="page-heading"><div><div class="eyebrow">RUNDĂ ÎNCHEIATĂ</div><h1>{{correct()}} din {{results().length}} corecte.</h1><p>{{verdict()}}</p></div><button class="button primary" (click)="start()">Încă o rundă<app-icon name="refresh"/></button></div>
 <div class="stats-grid three"><article class="stat"><span class="stat-icon mint"><app-icon name="target"/></span><div><span>Acuratețe</span><strong>{{accuracy()}}%</strong><small>{{correct()}} / {{results().length}} afirmații</small></div></article><article class="stat"><span class="stat-icon peach"><app-icon name="spark"/></span><div><span>Cea mai lungă serie</span><strong>{{best()}}</strong><small>răspunsuri corecte la rând</small></div></article><article class="stat"><span class="stat-icon lavender"><app-icon name="clock"/></span><div><span>Ritm</span><strong>{{pace()}} s</strong><small>în medie pe afirmație</small></div></article></div>
 @if(missed().length){
-<div class="section-heading lower-heading"><div><h3>De reținut ({{missed().length}})</h3><p>Afirmațiile greșite revin primele în runda următoare.</p></div><button class="button secondary" (click)="practiceMissed()" [disabled]="!!store.draft()">Rezolvă grilele complete<app-icon name="arrow"/></button></div>
+<div class="section-heading lower-heading"><div><h3>De reținut ({{missed().length}})</h3><p>Afirmațiile greșite revin primele în runda următoare.</p></div><div class="sheet-actions"><button class="button secondary" (click)="anki()" title="Fișier pentru Anki: File → Import"><app-icon name="download"/>Anki</button><button class="button secondary" (click)="practiceMissed()" [disabled]="!!store.draft()">Rezolvă grilele complete<app-icon name="arrow"/></button></div></div>
 <div class="review-list">@for(r of missed();track r.fact.key){<article class="panel drill-miss"><small>{{topicName(r.fact.topicId)}} · {{r.fact.stem}}</small><strong>{{r.fact.text}}</strong><span class="verdict-line" [class.t]="r.fact.truth">Este {{r.fact.truth?'ADEVĂRAT':'FALS'}} · tu ai spus {{r.said?'adevărat':'fals'}}</span><p>{{r.fact.why}}</p><small class="muted">{{r.fact.ref}}</small></article>}</div>}
 @else{<div class="empty-state"><h3>Nicio greșeală. Excelent!</h3><p>Încearcă o rundă mai lungă sau alt capitol.</p></div>}
 }}`})
@@ -83,6 +84,7 @@ export class DrillComponent {
   if(this.index()<this.deck().length-1){this.index.update(i=>i+1);this.answered.set(false);}
   else{this.finishedAt=Date.now();this.phase.set('done');}
  }
+ anki(){download(ankiFacts(this.missed().map(r=>r.fact)),'rezi-adevarat-fals-anki.txt');}
  practiceMissed(){this.sessions.startPractice([...new Set(this.missed().map(r=>r.fact.qid))]);}
  @HostListener('document:keydown',['$event']) onKey(e:KeyboardEvent){
   if(this.phase()!=='run'||e.ctrlKey||e.metaKey||e.altKey)return;

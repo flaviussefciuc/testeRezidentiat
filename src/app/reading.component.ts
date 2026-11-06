@@ -6,13 +6,14 @@ import {Sessions} from './session';
 import {TOPICS} from './topics';
 import {IconComponent} from './icon.component';
 import {loadReread,readingList,saveReread,type ReadingPage} from './reading';
+import {ankiQuestions,download} from './anki';
 
 const ACTIVE=new Set(LITE_ACTIVE.map(q=>q.id));
 type View='todo'|'done';
 
 // A personal reading list: the textbook pages behind the latest mistakes.
 @Component({standalone:true,imports:[RouterLink,IconComponent],template:`
-<div class="page-heading"><div><div class="eyebrow">ÎNVAȚĂ DIN GREȘELI, DIRECT DIN MANUAL</div><h1>Pagini de recitit.</h1><p>Fiecare grilă greșită la ultima încercare, mutată pe pagina din carte de unde vine. Recitești pagina, apoi verifici cu grilele ei.</p></div>@if(todo().length){<button class="button primary" (click)="practiceAll()" [disabled]="!!store.draft()">Exersează {{todoQuestions()}} grile<app-icon name="arrow"/></button>}</div>
+<div class="page-heading"><div><div class="eyebrow">ÎNVAȚĂ DIN GREȘELI, DIRECT DIN MANUAL</div><h1>Pagini de recitit.</h1><p>Fiecare grilă greșită la ultima încercare, mutată pe pagina din carte de unde vine. Recitești pagina, apoi verifici cu grilele ei.</p></div>@if(pages().length){<div class="sheet-actions"><button class="button secondary" (click)="anki()" title="Fișier pentru Anki: File → Import"><app-icon name="download"/>Anki ({{ankiCount()}} carduri)</button>@if(todo().length){<button class="button primary" (click)="practiceAll()" [disabled]="!!store.draft()">Exersează {{todoQuestions()}} grile<app-icon name="arrow"/></button>}</div>}</div>
 @if(!ready()){<div class="empty-state" role="status">{{bank.error()||'Se încarcă referințele…'}}</div>}
 @else if(!pages().length){<div class="empty-state"><app-icon name="book"/><h2>Nicio pagină de recitit.</h2><p>Paginile apar aici după ce greșești o grilă. Începe un test.</p><a routerLink="/teste" class="button primary">Alege un test →</a></div>}
 @else{
@@ -48,5 +49,7 @@ export class ReadingComponent {
  topicName(id:string){return TOPICS.find(t=>t.id===id)?.name??'';}
  toggle(p:ReadingPage){const next={...this.marks()};if(this.isDone(p))delete next[p.key];else next[p.key]=Date.now();this.marks.set(next);saveReread(this.store.owner(),next);}
  practice(p:ReadingPage){this.sessions.startPractice(p.misses.map(m=>m.id));}
+ ankiCount=computed(()=>this.pages().reduce((n,p)=>n+p.misses.length,0));
+ anki(){const qs=this.pages().flatMap(p=>p.misses.map(m=>this.bank.byId().get(m.id)!)).filter(Boolean);download(ankiQuestions(qs,'Rezi::Greșeli'),'rezi-greseli-anki.txt');}
  practiceAll(){this.sessions.startPractice(this.todo().flatMap(p=>p.misses.map(m=>m.id)).slice(0,40));}
 }
