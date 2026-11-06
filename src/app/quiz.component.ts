@@ -4,7 +4,8 @@ import {Store} from './store';
 import {Bank} from './bank';
 import {TOPICS} from './topics';
 import {score,maximum} from './scoring';
-import type {Draft,Question} from './models';
+import type {Confidence,Draft,Question} from './models';
+import {CONFIDENCE_KEY,CONFIDENCE_LABEL,CONFIDENCE_LEVELS} from './calibration';
 import {IconComponent} from './icon.component';
 import {InsightComponent} from './insight.component';
 import {insightOf,optionPoint,verdictOf,VERDICT_LABEL} from './insight';
@@ -31,19 +32,20 @@ import {insightOf,optionPoint,verdictOf,VERDICT_LABEL} from './insight';
     </label>}
    </fieldset>
    @if(invalid()){<p class="selection-hint">{{q.type==='CS'?'Selectează un răspuns.':'Selectează între 2 și 4 răspunsuri. Altfel, punctajul este 0.'}}</p>}
-   @if(checked()){<app-insight [q]="q" [selected]="selected()"/>}
+   @if(!checked()){<div class="confidence-row" role="group" aria-label="Cât de sigur ești?"><span class="confidence-q">Cât de sigur ești?</span>@for(c of levels;track c){<button type="button" class="conf-chip" [class.on]="conf()===c" [attr.data-c]="c" [attr.aria-pressed]="conf()===c" (click)="setConf(c)">{{confLabel[c]}}<kbd>{{confKey[c]}}</kbd></button>}</div>}
+   @if(checked()){<app-insight [q]="q" [selected]="selected()" [confidence]="conf()"/>}
    <div class="quiz-actions"><button class="button secondary" (click)="go(d.index-1)" [disabled]="d.index===0">← Anterioara</button>@if(d.mode==='practice'&&!checked()){<button class="button primary" (click)="check()" [disabled]="invalid()">Verifică răspunsul<app-icon name="check"/></button>}@else if(d.index<d.questionIds.length-1){<button class="button primary" (click)="go(d.index+1)">Următoarea<app-icon name="arrow"/></button>}@else{<button class="button primary" (click)="confirm.set(true)">Finalizează testul<app-icon name="check"/></button>}</div>
-   <div class="kbd-hint" aria-hidden="true"><span><kbd>A</kbd>–<kbd>E</kbd> alege</span><span><kbd>Shift</kbd>+<kbd>A</kbd>–<kbd>E</kbd> taie o variantă</span><span><kbd>Enter</kbd> {{d.mode==='practice'&&!checked()?'verifică':'continuă'}}</span><span><kbd>←</kbd> <kbd>→</kbd> navighează</span><span><kbd>F</kbd> marchează</span><button class="text-link" type="button" (click)="help.set(true)"><kbd>?</kbd> toate scurtăturile</button></div>
+   <div class="kbd-hint" aria-hidden="true"><span><kbd>A</kbd>–<kbd>E</kbd> alege</span><span><kbd>Shift</kbd>+<kbd>A</kbd>–<kbd>E</kbd> taie o variantă</span><span><kbd>Enter</kbd> {{d.mode==='practice'&&!checked()?'verifică':'continuă'}}</span><span><kbd>←</kbd> <kbd>→</kbd> navighează</span><span><kbd>S</kbd> <kbd>N</kbd> <kbd>G</kbd> încredere</span><span><kbd>F</kbd> marchează</span><button class="text-link" type="button" (click)="help.set(true)"><kbd>?</kbd> toate scurtăturile</button></div>
   </section>
   <aside class="panel navigator"><h3>Parcursul tău</h3><div class="summary-row"><span>Cu răspuns</span><strong>{{answered()}} / {{d.questionIds.length}}</strong></div><div class="progress-track"><span [style.width.%]="answered()/d.questionIds.length*100"></span></div><div class="question-grid">@for(id of d.questionIds;track id;let i=$index){<button [class.current]="i===d.index" [class.done]="!!d.answers[id]?.length" [class.flagged]="d.flagged.includes(id)" [attr.aria-label]="'Întrebarea '+(i+1)+(d.flagged.includes(id)?', marcată':'')" (click)="go(i)">{{i+1}}</button>}</div><div class="navigator-legend"><span>● Cu răspuns</span><span>⚑ De revizuit</span></div><button class="button secondary full" (click)="confirm.set(true)" [disabled]="busy()">Predă testul</button><p class="small muted">Răspunsurile se salvează pe acest dispozitiv. {{d.mode==='exam'?'Cronometrul continuă și dacă închizi pagina.':'Poți continua testul mai târziu.'}}</p></aside>
  </div>
  @if(confirm()){<div class="modal-backdrop"><section class="modal" role="dialog" aria-modal="true" aria-labelledby="finish-title"><span class="stat-icon mint"><app-icon name="check"/></span><h2 id="finish-title">Predai testul?</h2><p>Ai completat {{answered()}} din {{d.questionIds.length}} de grile. Întrebările fără răspuns primesc 0 puncte.</p><p>După predare, răspunsurile nu mai pot fi modificate.</p><div class="modal-actions"><button class="button secondary" (click)="confirm.set(false)" [disabled]="busy()">Continuă testul</button><button class="button primary" (click)="finish()" [disabled]="busy()">{{busy()?'Se salvează…':'Predă și vezi rezultatul'}}</button></div>@if(error()){<p class="error" role="alert">{{error()}}</p>}</section></div>}
- @if(help()){<div class="modal-backdrop" (click)="help.set(false)"><section class="modal" role="dialog" aria-modal="true" aria-labelledby="keys-title" (click)="$event.stopPropagation()"><h2 id="keys-title">Scurtături de tastatură</h2><p>Rezolvă fără mouse, ca la foaia de răspuns: alegi, tai variantele eliminate și treci mai departe.</p><div class="shortcut-list"><span><kbd>A</kbd>–<kbd>E</kbd> sau <kbd>1</kbd>–<kbd>5</kbd></span><span>Alege sau deselectează varianta</span><span><kbd>Shift</kbd> + <kbd>A</kbd>–<kbd>E</kbd></span><span>Taie varianta pe care ai exclus-o (o poți readuce oricând)</span><span><kbd>Enter</kbd></span><span>Verifică răspunsul, apoi treci la următoarea grilă</span><span><kbd>←</kbd> / <kbd>→</kbd></span><span>Grila anterioară / următoare</span><span><kbd>F</kbd></span><span>Marchează grila pentru revizuire</span><span><kbd>?</kbd> / <kbd>Esc</kbd></span><span>Deschide / închide acest panou</span></div><div class="modal-actions"><button class="button primary" (click)="help.set(false)">Am înțeles</button></div></section></div>}
+ @if(help()){<div class="modal-backdrop" (click)="help.set(false)"><section class="modal" role="dialog" aria-modal="true" aria-labelledby="keys-title" (click)="$event.stopPropagation()"><h2 id="keys-title">Scurtături de tastatură</h2><p>Rezolvă fără mouse, ca la foaia de răspuns: alegi, tai variantele eliminate și treci mai departe.</p><div class="shortcut-list"><span><kbd>A</kbd>–<kbd>E</kbd> sau <kbd>1</kbd>–<kbd>5</kbd></span><span>Alege sau deselectează varianta</span><span><kbd>Shift</kbd> + <kbd>A</kbd>–<kbd>E</kbd></span><span>Taie varianta pe care ai exclus-o (o poți readuce oricând)</span><span><kbd>Enter</kbd></span><span>Verifică răspunsul, apoi treci la următoarea grilă</span><span><kbd>←</kbd> / <kbd>→</kbd></span><span>Grila anterioară / următoare</span><span><kbd>S</kbd> / <kbd>N</kbd> / <kbd>G</kbd></span><span>Sigur / Nesigur / Ghicesc: cât de sigur ești pe răspuns</span><span><kbd>F</kbd></span><span>Marchează grila pentru revizuire</span><span><kbd>?</kbd> / <kbd>Esc</kbd></span><span>Deschide / închide acest panou</span></div><div class="modal-actions"><button class="button primary" (click)="help.set(false)">Am înțeles</button></div></section></div>}
  }@else{<div class="empty-state" role="status">{{bank.error()||'Se încarcă grilele…'}}</div>}
 }@else{<div class="empty-state"><app-icon name="book"/><h2>Niciun test în desfășurare.</h2><p>Alege un antrenament și fă primul pas.</p><a routerLink="/teste" class="button primary">Alege un test →</a></div>}`})
 export class QuizComponent implements OnDestroy {
  store=inject(Store);router=inject(Router);bank=inject(Bank);draft=this.store.draft;now=signal(Date.now());confirm=signal(false);help=signal(false);busy=signal(false);error=signal('');letters=['A','B','C','D','E'];score=score;maximum=maximum;
- verdictLabel=VERDICT_LABEL;
+ verdictLabel=VERDICT_LABEL;levels=CONFIDENCE_LEVELS;confLabel=CONFIDENCE_LABEL;confKey=CONFIDENCE_KEY;
  question=computed(()=>{const d=this.draft();return d?this.bank.byId().get(d.questionIds[d.index]):undefined;});
  info=computed(()=>this.question()?insightOf(this.question()!):null);
  verdict(q:Question,i:number){return verdictOf(q,this.selected(),i);}
@@ -51,6 +53,7 @@ export class QuizComponent implements OnDestroy {
  private loader=effect(()=>{const d=this.draft();if(d)void this.bank.ensure(d.questionIds).catch(()=>{});});
  selected=computed(()=>this.draft()?.answers[this.question()?.id??'']??[]);
  struck=computed(()=>this.draft()?.struck?.[this.question()?.id??'']??[]);
+ conf=computed(()=>this.draft()?.confidence?.[this.question()?.id??'']);
  checked=computed(()=>this.draft()?.mode==='practice'&&!!this.draft()?.checked.includes(this.question()?.id??''));
  invalid=computed(()=>this.question()?.type==='CS'?this.selected().length!==1:this.selected().length<2||this.selected().length>4);
  answered=computed(()=>Object.values(this.draft()?.answers??{}).filter(a=>a.length).length);
@@ -77,6 +80,8 @@ export class QuizComponent implements OnDestroy {
   if(on&&this.selected().includes(i))patch.answers={...d.answers,[q.id]:this.selected().filter(v=>v!==i)};
   this.update(patch);
  }
+ // Confidence is optional and locked once the answer has been checked.
+ setConf(c:Confidence){if(this.checked()||this.busy())return;const d=this.draft(),q=this.question();if(!d||!q)return;const next={...(d.confidence??{})};if(next[q.id]===c)delete next[q.id];else next[q.id]=c;this.update({confidence:next});}
  check(){const d=this.draft(),q=this.question();if(d&&q&&!this.invalid())this.update({checked:[...d.checked,q.id]});}
  flag(){const d=this.draft(),q=this.question();if(d&&q)this.update({flagged:d.flagged.includes(q.id)?d.flagged.filter(id=>id!==q.id):[...d.flagged,q.id]});}
  go(index:number){if(this.draft()&&index>=0&&index<this.draft()!.questionIds.length)this.update({index});}
@@ -102,7 +107,9 @@ export class QuizComponent implements OnDestroy {
   if(e.key==='ArrowLeft'){e.preventDefault();this.go(d.index-1);return;}
   // Native radio groups would silently change the answer on arrow keys.
   if((e.key==='ArrowUp'||e.key==='ArrowDown')&&tag==='INPUT'){e.preventDefault();return;}
-  if(e.code==='KeyF'){e.preventDefault();this.flag();}
+  if(e.code==='KeyF'){e.preventDefault();this.flag();return;}
+  const level=({KeyS:'sure',KeyN:'unsure',KeyG:'guess'} as Record<string,Confidence>)[e.code];
+  if(level){e.preventDefault();this.setConf(level);}
  }
- async finish(){const d=this.draft();if(!d||this.busy())return;this.busy.set(true);try{const completedAt=new Date(d.deadline&&Date.now()>d.deadline?d.deadline:Date.now()).toISOString();await this.store.addAttempt({id:d.id,userId:d.owner,mode:d.mode,startedAt:d.startedAt,completedAt,answers:d.questionIds.map(id=>({questionId:id,selected:d.answers[id]??[]}))});this.store.saveDraft(null);await this.router.navigate(['/rezultat',d.id]);}catch(e){this.error.set((e as Error).message);this.confirm.set(true);}finally{this.busy.set(false);}}
+ async finish(){const d=this.draft();if(!d||this.busy())return;this.busy.set(true);try{const completedAt=new Date(d.deadline&&Date.now()>d.deadline?d.deadline:Date.now()).toISOString();await this.store.addAttempt({id:d.id,userId:d.owner,mode:d.mode,startedAt:d.startedAt,completedAt,answers:d.questionIds.map(id=>({questionId:id,selected:d.answers[id]??[],...(d.confidence?.[id]?{confidence:d.confidence[id]}:{})}))});this.store.saveDraft(null);await this.router.navigate(['/rezultat',d.id]);}catch(e){this.error.set((e as Error).message);this.confirm.set(true);}finally{this.busy.set(false);}}
 }
