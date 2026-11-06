@@ -302,3 +302,10 @@ mark{background:var(--k-f6e7a8);color:inherit;border-radius:3px;padding:0 2px}:r
 .paper-entry .sheet-rows{max-height:none}.paper-time{max-width:260px;margin-top:16px}
 :root[data-theme=dark] .booklet{filter:none}
 @media print{.paper-head,.sheet-actions{display:none!important}.booklet{border:0;padding:0;max-width:none;font-size:12pt}.booklet-grid,.booklet-key{break-before:page}}
+
+/* Command palette. */
+.palette-backdrop{align-items:start;padding-top:12vh}.palette{width:min(620px,100%);background:var(--k-ffffff);border-radius:14px;box-shadow:0 30px 90px var(--k-142b2240);overflow:hidden;border:1px solid var(--k-e3e8dc)}
+.palette-input{display:flex;align-items:center;gap:10px;padding:14px 16px;border-bottom:1px solid var(--k-edf0e7);color:var(--k-6f7a68)}.palette-input input{flex:1;border:0;outline:none;background:transparent;font-size:16px;color:inherit}
+.palette-list{list-style:none;margin:0;padding:6px;max-height:50vh;overflow:auto}.palette-list li{display:flex;align-items:center;gap:12px;padding:10px 12px;border-radius:9px;cursor:pointer;color:var(--k-2f4a36)}.palette-list li.on{background:var(--k-eef6e4)}.palette-list li span{flex:1;font-size:14px}.palette-list li small{font-size:11.5px;color:var(--k-6f7a68)}.palette-list app-icon{width:18px;height:18px;color:var(--k-5d8c41)}
+.palette-empty{color:var(--k-6f7a68)!important;font-size:13px;cursor:default!important}.palette-foot{margin:0;padding:8px 16px;border-top:1px solid var(--k-edf0e7);font-size:11.5px;color:var(--k-6f7a68);display:flex;gap:6px;align-items:center}
+.palette-btn kbd{font-size:10px}@media(max-width:1020px){.palette-btn{display:none}}
