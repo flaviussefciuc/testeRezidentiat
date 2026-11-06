@@ -9,11 +9,12 @@ import {InsightComponent} from './insight.component';
 import {CalibrationComponent} from './calibration.component';
 import {PaceChartComponent} from './pace-chart.component';
 import {AnalysisComponent} from './analysis.component';
+import {NoteComponent} from './note.component';
 import {insightOf,optionPoint,verdictOf,VERDICT_LABEL} from './insight';
 import {CONFIDENCE_LABEL} from './calibration';
 import type {Question} from './models';
 type Filter='all'|'wrong'|'confident';
-@Component({standalone:true,imports:[RouterLink,IconComponent,InsightComponent,CalibrationComponent,PaceChartComponent,AnalysisComponent],template:`
+@Component({standalone:true,imports:[RouterLink,IconComponent,InsightComponent,CalibrationComponent,PaceChartComponent,AnalysisComponent,NoteComponent],template:`
 @if(attempt();as a){
 <div class="page-heading"><div><div class="eyebrow">ÎNCĂ UN PAS ÎNAINTE</div><h1>Ai terminat. Acum consolidează.</h1><p>{{date(a.completedAt)}} · {{a.mode==='exam'?'Simulare de examen':'Antrenament'}} · {{result().total}} grile · {{duration(a)}}</p></div><a routerLink="/teste" class="button primary">Un nou test<app-icon name="arrow"/></a></div>
 <section class="result-banner"><div class="score-circle"><strong>{{result().percent}}<small>%</small></strong><span>din punctaj</span></div><div><h2>{{result().points}} <span>/ {{result().max}} puncte</span></h2><p>{{result().correct}} răspunsuri complet corecte · {{result().total-result().correct}} de revizuit</p><p class="small">Punctajul măsoară acest test de antrenament, nu prezice rezultatul concursului.</p></div></section>
@@ -37,6 +38,7 @@ type Filter='all'|'wrong'|'confident';
    @for(option of item.q.options;track $index){<div class="answer revealed" [attr.data-v]="verdict(item.q,item.selected,$index)"><span class="answer-letter">{{item.q.correct.includes($index)?'✓':'✕'}}</span><span class="answer-body"><span class="answer-text">{{option}}</span><span class="answer-why"><span class="verdict">{{verdictLabel[verdict(item.q,item.selected,$index)]}}@if(point(item.q,item.selected,$index)!==null){<b>+{{point(item.q,item.selected,$index)}}</b>}</span>@if(rationales(item.q);as r){<span class="why-text">{{r[$index]}}</span>}</span></span></div>}
    @if(!item.selected.length){<p class="muted">Nu ai răspuns la această întrebare.</p>}
    <app-insight [q]="item.q" [selected]="item.selected" [confidence]="item.confidence"/>
+   <app-note [qid]="item.q.id"/>
   </div>
  </details>}
  @empty{@if(loaded()){<div class="empty-state"><h3>{{filter()==='all'?'Nicio grilă în acest test.':'Nicio grilă în această categorie.'}}</h3><p>Continuă cu un alt set de grile.</p></div>}}

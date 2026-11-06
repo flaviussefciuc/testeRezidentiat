@@ -10,6 +10,7 @@ export const routes:Routes=[
  {path:'recitire',loadComponent:()=>import('./reading.component').then(m=>m.ReadingComponent)},
  {path:'cauta',loadComponent:()=>import('./search.component').then(m=>m.SearchComponent)},
  {path:'plan',loadComponent:()=>import('./plan.component').then(m=>m.PlanComponent)},
+ {path:'notite',loadComponent:()=>import('./notes.component').then(m=>m.NotesComponent)},
  {path:'adevarat-fals',loadComponent:()=>import('./drill.component').then(m=>m.DrillComponent)},
  {path:'bibliografie',loadComponent:()=>import('./resources.component').then(m=>m.ResourcesComponent)},
  {path:'cont',loadComponent:()=>import('./auth.component').then(m=>m.AuthComponent)},

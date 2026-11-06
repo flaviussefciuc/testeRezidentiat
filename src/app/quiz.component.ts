@@ -10,8 +10,9 @@ import type {Confidence,Draft,Question} from './models';
 import {CONFIDENCE_KEY,CONFIDENCE_LABEL,CONFIDENCE_LEVELS} from './calibration';
 import {IconComponent} from './icon.component';
 import {InsightComponent} from './insight.component';
+import {NoteComponent} from './note.component';
 import {insightOf,optionPoint,verdictOf,VERDICT_LABEL} from './insight';
-@Component({standalone:true,imports:[RouterLink,IconComponent,InsightComponent],template:`
+@Component({standalone:true,imports:[RouterLink,IconComponent,InsightComponent,NoteComponent],template:`
 @if(!store.ready()){<div class="empty-state">Se încarcă sesiunea…</div>}
 @else if(draft();as d){
  @if(question();as q){
@@ -36,6 +37,7 @@ import {insightOf,optionPoint,verdictOf,VERDICT_LABEL} from './insight';
    @if(invalid()){<p class="selection-hint">{{q.type==='CS'?'Selectează un răspuns.':'Selectează între 2 și 4 răspunsuri. Altfel, punctajul este 0.'}}</p>}
    @if(!checked()){<div class="confidence-row" role="group" aria-label="Cât de sigur ești?"><span class="confidence-q">Cât de sigur ești?</span>@for(c of levels;track c){<button type="button" class="conf-chip" [class.on]="conf()===c" [attr.data-c]="c" [attr.aria-pressed]="conf()===c" (click)="setConf(c)">{{confLabel[c]}}<kbd>{{confKey[c]}}</kbd></button>}</div>}
    @if(checked()){<app-insight [q]="q" [selected]="selected()" [confidence]="conf()"/>}
+   <app-note [qid]="q.id" [compact]="!checked()"/>
    <div class="quiz-actions"><button class="button secondary" (click)="go(d.index-1)" [disabled]="d.index===0">← Anterioara</button>@if(d.mode==='practice'&&!checked()){<button class="button primary" (click)="check()" [disabled]="invalid()">Verifică răspunsul<app-icon name="check"/></button>}@else if(d.index<d.questionIds.length-1){<button class="button primary" (click)="go(d.index+1)">Următoarea<app-icon name="arrow"/></button>}@else{<button class="button primary" (click)="confirm.set(true)">Finalizează testul<app-icon name="check"/></button>}</div>
    <div class="kbd-hint" aria-hidden="true"><span><kbd>A</kbd>–<kbd>E</kbd> alege</span><span><kbd>Shift</kbd>+<kbd>A</kbd>–<kbd>E</kbd> taie o variantă</span><span><kbd>Enter</kbd> {{d.mode==='practice'&&!checked()?'verifică':'continuă'}}</span><span><kbd>←</kbd> <kbd>→</kbd> navighează</span><span><kbd>S</kbd> <kbd>N</kbd> <kbd>G</kbd> încredere</span><span><kbd>F</kbd> marchează</span><button class="text-link" type="button" (click)="help.set(true)"><kbd>?</kbd> toate scurtăturile</button></div>
   </section>

@@ -8,6 +8,7 @@ import {TOPICS} from './topics';
 import {topicStats} from './scoring';
 import {IconComponent} from './icon.component';
 import {buildSheet,loadRead,saveRead,splitSection} from './sheets';
+import {Notes} from './notes';
 
 const ACTIVE=new Set(LITE_ACTIVE.map(q=>q.id));
 const fold=(s:string)=>s.toLocaleLowerCase('ro').normalize('NFD').replace(/\p{Diacritic}/gu,'');
@@ -31,6 +32,7 @@ const fold=(s:string)=>s.toLocaleLowerCase('ro').normalize('NFD').replace(/\p{Di
   @if(item.detail){<span class="sheet-detail">{{item.detail}} · p. {{item.pages.join(', ')}}</span>}
   <p class="sheet-stem">{{item.stem}}</p>
   <ul class="sheet-truths">@for(x of item.truths;track x){<li>{{x}}</li>}</ul>
+  @if(notes.note(item.id)){<p class="sheet-note">✎ {{notes.note(item.id)}}</p>}
   @if(traps()){<ul class="sheet-traps">@for(x of item.traps;track x.text){<li><span>{{x.text}}</span><small>{{x.why}}</small></li>}</ul>}
  </div>}
 </section>}
@@ -38,7 +40,7 @@ const fold=(s:string)=>s.toLocaleLowerCase('ro').normalize('NFD').replace(/\p{Di
 }@else{<div class="empty-state"><h2>Capitolul nu există.</h2><a routerLink="/fise" class="button secondary">Toate fișele</a></div>}}`})
 export class SheetsComponent {
  topicId=input<string|undefined>(undefined,{alias:'topic'});
- store=inject(Store);bank=inject(Bank);sessions=inject(Sessions);
+ store=inject(Store);bank=inject(Bank);sessions=inject(Sessions);notes=inject(Notes);
  query=signal('');traps=signal(false);ready=signal(false);
  read=signal<Record<string,number>>(loadRead(this.store.owner()));
  constructor(){void this.bank.active().then(()=>this.ready.set(true)).catch(()=>{});}
