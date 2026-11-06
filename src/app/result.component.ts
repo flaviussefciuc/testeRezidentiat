@@ -24,6 +24,7 @@ type Filter='all'|'wrong'|'confident';
 <div class="notice"><span>{{store.user()?store.syncState():'Rezultat salvat în acest browser. Conectează-te înaintea următoarelor teste pentru sincronizare.'}}</span><a routerLink="/progres">Vezi progresul →</a></div>
 @if(loaded()){<app-takeaways [answers]="a.answers"/><app-chapter-map [answers]="a.answers"/>}
 <app-analysis [answers]="a.answers"/>
+@if(away();as w){<div class="notice strict-report" [class.ok]="!w.count"><span>@if(w.count){<strong>Condiții reale:</strong> ai ieșit din fereastra testului de {{w.count}} {{w.count===1?'dată':'ori'}}, în total {{awayMinutes(w.ms)}}. La examen nu există pauze: exersează să rămâi în test până la final.}@else{<strong>Condiții reale:</strong> ai rămas în test de la început până la final. Exact ca la examen.}</span></div>}
 <app-calibration [answers]="a.answers"/>
 <app-pace-chart [answers]="a.answers"/>
 <div class="section-heading review-heading"><h3>Revizuiește răspunsurile</h3>
@@ -56,6 +57,8 @@ export class ResultComponent {
  result=computed(()=>summarize(this.attempt()?.answers??[],LITE));
  loaded=computed(()=>(this.attempt()?.answers??[]).every(a=>this.bank.byId().has(a.questionId)||!LITE_BY_ID.has(a.questionId)));
  private loader=effect(()=>{const a=this.attempt();if(a)void this.bank.ensure(a.answers.map(x=>x.questionId)).catch(()=>{});});
+ away=computed(()=>{try{const v=localStorage.getItem('rezi:away:'+this.id);return v?JSON.parse(v) as {count:number;ms:number}:null;}catch{return null;}});
+ awayMinutes(ms:number){const s=Math.round(ms/1000);return s<60?`${s} s`:`${Math.round(s/60)} min`;}
  confidentMisses=computed(()=>(this.attempt()?.answers??[]).filter(a=>{const q=LITE_BY_ID.get(a.questionId);return q&&a.confidence==='sure'&&a.selected.length&&!exact(q,a.selected);}).length);
  review=computed(()=>(this.attempt()?.answers??[]).flatMap(a=>{
   const q=this.bank.byId().get(a.questionId);if(!q)return[];
