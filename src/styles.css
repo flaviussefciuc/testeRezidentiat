@@ -112,3 +112,11 @@ kbd{display:inline-block;font-family:inherit;font-size:10px;font-weight:650;line
 @media print{.sidebar,.topbar,footer,.skip,.sheet-tools,.sheet-actions,.sheet-section-actions,.sheet-heading .text-link{display:none!important}.shell{margin:0!important}main{padding:0!important;max-width:none!important}body,:root{background:var(--k-ffffff)!important}main *{color:var(--k-111111)!important;background:transparent!important;box-shadow:none!important}.sheet-section{border:0!important;padding:6px 0!important;break-inside:auto}.sheet-item{break-inside:avoid}.sheet-traps li span{text-decoration:line-through}}
 .sheet-detail{display:block;font-size:11px;font-weight:700;letter-spacing:.4px;text-transform:uppercase;color:var(--k-8a957f);margin-bottom:3px}
 .search-input input{background:transparent;color:inherit}
+
+/* Reading list of textbook pages. */
+.reading-tabs{margin-bottom:16px}.reading-list{display:grid;gap:12px}
+.reading-page{display:grid;grid-template-columns:120px minmax(0,1fr) auto;gap:20px;align-items:start;padding:20px 22px}.reading-page.sure{border-left:4px solid var(--k-d7a395)}
+.reading-ref{display:grid;gap:4px}.reading-page-no{font-family:'Manrope',sans-serif;font-size:26px;font-weight:750;color:var(--k-2c4a33);letter-spacing:-.5px}.reading-book{font-size:11.5px;color:var(--k-6f7a68);font-weight:600}
+.reading-body h3{margin:0 0 2px;font-size:16px}.reading-body>small{color:var(--k-6f7a68);font-size:12px}.reading-body ul{margin:10px 0 0;padding-left:18px;display:grid;gap:4px}.reading-body li{font-size:calc(13.5px * var(--read));color:var(--k-3f5536);line-height:1.55}.reading-body li.sure{color:var(--k-8f3f2d)}.reading-body li.sure::marker{content:'● '}
+.reading-actions{display:grid;gap:10px;justify-items:end}
+@media(max-width:760px){.reading-page{grid-template-columns:1fr;gap:10px}.reading-actions{justify-items:start;grid-auto-flow:column;align-items:center}}
