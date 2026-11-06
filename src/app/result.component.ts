@@ -39,6 +39,7 @@ type Filter='all'|'wrong'|'confident';
    @if(!item.selected.length){<p class="muted">Nu ai răspuns la această întrebare.</p>}
    <app-insight [q]="item.q" [selected]="item.selected" [confidence]="item.confidence"/>
    <app-note [qid]="item.q.id"/>
+   <a class="text-link review-open" [routerLink]="['/grila',item.q.id]">Deschide grila separat (link de distribuit) →</a>
   </div>
  </details>}
  @empty{@if(loaded()){<div class="empty-state"><h3>{{filter()==='all'?'Nicio grilă în acest test.':'Nicio grilă în această categorie.'}}</h3><p>Continuă cu un alt set de grile.</p></div>}}

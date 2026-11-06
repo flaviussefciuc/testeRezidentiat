@@ -11,6 +11,7 @@ import {CONFIDENCE_KEY,CONFIDENCE_LABEL,CONFIDENCE_LEVELS} from './calibration';
 import {IconComponent} from './icon.component';
 import {InsightComponent} from './insight.component';
 import {NoteComponent} from './note.component';
+import {shareQuestion} from './single.component';
 import {insightOf,optionPoint,verdictOf,VERDICT_LABEL} from './insight';
 @Component({standalone:true,imports:[RouterLink,IconComponent,InsightComponent,NoteComponent],template:`
 @if(!store.ready()){<div class="empty-state">Se încarcă sesiunea…</div>}
@@ -19,7 +20,7 @@ import {insightOf,optionPoint,verdictOf,VERDICT_LABEL} from './insight';
  <div class="quiz-top"><a routerLink="/teste" class="text-link">← Înapoi la antrenament</a><span class="badge" [class.peach]="d.mode==='exam'">{{d.mode==='exam'?'Simulare de examen':'Antrenament'}}</span>@if(pace();as p){<span class="pace-badge" [class.behind]="p.ahead<0" [title]="'Ritmul examenului: '+paceSeconds+' s pe grilă'">{{p.ahead<0?'În urmă':'În ritm'}} · {{p.ahead<0?'−':'+'}}{{p.minutes}} min</span>}<span class="timer" [class.error]="remaining()<300&&d.mode==='exam'"><app-icon name="clock"/>{{time()}}</span><button class="icon-button focus-toggle" (click)="toggleFocus()" [attr.aria-pressed]="prefs.focus()" [title]="prefs.focus()?'Ieși din modul concentrare (Z)':'Mod concentrare: doar grila (Z)'"><app-icon [name]="prefs.focus()?'expand':'focus'"/></button></div>
  <div class="quiz-layout">
   <section class="panel question-panel" (touchstart)="touchStart($event)" (touchend)="touchEnd($event)">
-   <div class="section-heading"><span class="eyebrow">ÎNTREBAREA {{d.index+1}} DIN {{d.questionIds.length}}</span><button class="icon-button" [class.flagged]="d.flagged.includes(q.id)" (click)="flag()" [attr.aria-label]="d.flagged.includes(q.id)?'Elimină marcajul':'Marchează pentru revizuire'" title="Marchează pentru revizuire (F)"><app-icon name="flag"/></button></div>
+   <div class="section-heading"><span class="eyebrow">ÎNTREBAREA {{d.index+1}} DIN {{d.questionIds.length}}</span><button class="icon-button" [class.flagged]="d.flagged.includes(q.id)" (click)="flag()" [attr.aria-label]="d.flagged.includes(q.id)?'Elimină marcajul':'Marchează pentru revizuire'" title="Marchează pentru revizuire (F)"><app-icon name="flag"/></button>@if(checked()){<button class="icon-button" (click)="share(q)" [title]="shared()||'Distribuie grila (link)'" aria-label="Distribuie grila"><app-icon name="share"/></button>}</div>
    <div class="question-meta"><span class="badge">{{topic(q.topicId)}}</span><span>{{q.type==='CS'?'Complement simplu · un răspuns':'Complement multiplu · 2–4 răspunsuri'}}</span></div>
    <h1 class="question-stem">{{q.stem}}</h1>
    <fieldset class="answers"><legend class="sr-only">Alege răspunsurile</legend>
@@ -76,6 +77,8 @@ export class QuizComponent implements OnDestroy {
  private interval=setInterval(()=>{this.now.set(Date.now());const d=this.draft();if(d?.mode==='exam'&&d.deadline&&Date.now()>=d.deadline&&!this.busy())void this.finish();},1000);
  // Focus mode hides the app chrome; it is a page-level class so the sidebar can react.
  private focusClass=effect(()=>document.documentElement.classList.toggle('quiz-focus',this.prefs.focus()));
+ shared=signal('');
+ async share(q:Question){this.shared.set(await shareQuestion(q.id,q.stem));setTimeout(()=>this.shared.set(''),2500);}
  toggleFocus(){this.prefs.focus.set(!this.prefs.focus());}
  // Horizontal swipes on the question move between questions (phones).
  private touch:{x:number;y:number}|null=null;
