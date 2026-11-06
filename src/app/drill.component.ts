@@ -7,7 +7,7 @@ import {TOPICS} from './topics';
 import {IconComponent} from './icon.component';
 import {StemComponent} from './stem.component';
 import {ankiFacts,download} from './anki';
-import {factsOf,loadFactLog,pickFacts,recordFact,saveFactLog,type Fact,type FactLog} from './facts';
+import {dueFacts,factsOf,loadFactLog,pickFacts,recordFact,saveFactLog,type Fact,type FactLog} from './facts';
 
 type Phase='setup'|'run'|'done';
 const ACTIVE=new Set(LITE_ACTIVE.map(q=>q.id));
@@ -22,12 +22,12 @@ interface Result {fact:Fact;said:boolean;ok:boolean}
  <section class="panel">
   <div class="drill-pitch"><div><strong>{{factCount()|| '…'}}</strong><span>afirmații verificate</span></div><div><strong>~6 s</strong><span>pe afirmație</span></div><div><strong>{{logSize()}}</strong><span>deja exersate de tine</span></div></div>
   <label class="field-label">Capitol<select [ngModel]="topic()" (ngModelChange)="topic.set($event)"><option value="">Toate capitolele</option>@for(b of books;track b){<optgroup [label]="b">@for(t of topicsOf(b);track t.id){<option [value]="t.id">{{t.name}}</option>}</optgroup>}</select></label>
-  <label class="field-label">Afirmații din<select [ngModel]="from()" (ngModelChange)="from.set($event)"><option value="all">Toată banca (întâi cele greșite data trecută, apoi cele noi)</option><option value="wrong">Grilele pe care le-ai greșit la ultima încercare ({{sessions.wrong().size}})</option></select></label>
+  <label class="field-label">Afirmații din<select [ngModel]="from()" (ngModelChange)="from.set($event)"><option value="all">Toată banca (întâi cele scadente, apoi cele noi)</option><option value="due">Scadente azi: afirmațiile de recapitulat ({{dueCount()}})</option><option value="wrong">Grilele pe care le-ai greșit la ultima încercare ({{sessions.wrong().size}})</option></select></label>
   <label class="field-label">Lungimea rundei<select [ngModel]="size()" (ngModelChange)="size.set(+$event)"><option [ngValue]="20">20 de afirmații · ~2 minute</option><option [ngValue]="40">40 de afirmații · ~4 minute</option><option [ngValue]="80">80 de afirmații · ~8 minute</option></select></label>
   <button class="button primary full" (click)="start()" [disabled]="!ready()||!pool().length">{{ready()?'Începe runda':'Se încarcă afirmațiile…'}}<app-icon name="arrow"/></button>
   @if(ready()&&!pool().length){<p class="small muted">Nu există afirmații pentru această selecție.</p>}
  </section>
- <aside class="panel drill-how"><span class="eyebrow">CUM FUNCȚIONEAZĂ</span><ol><li>Citești începutul grilei și o variantă.</li><li>Alegi <kbd>A</kbd> Adevărat sau <kbd>F</kbd> Fals (sau <kbd>←</kbd> / <kbd>→</kbd>).</li><li>Vezi justificarea din manual și treci mai departe cu <kbd>Enter</kbd>.</li></ol><p class="small muted">Afirmațiile greșite revin primele în rundele următoare. Rezultatele rămân pe acest dispozitiv.</p></aside>
+ <aside class="panel drill-how"><span class="eyebrow">CUM FUNCȚIONEAZĂ</span><ol><li>Citești începutul grilei și o variantă.</li><li>Alegi <kbd>A</kbd> Adevărat sau <kbd>F</kbd> Fals (sau <kbd>←</kbd> / <kbd>→</kbd>).</li><li>Vezi justificarea din manual și treci mai departe cu <kbd>Enter</kbd>.</li></ol><p class="small muted">Fiecare afirmație are propriul program de recapitulare: revine a doua zi dacă ai greșit-o, apoi după 2, 4, 7 și 12 zile cât timp o știi. Rezultatele rămân pe acest dispozitiv.</p></aside>
 </div>}
 @case('run'){@if(current();as f){
 <div class="drill-top"><button class="text-link" (click)="phase.set('setup')">← Oprește runda</button><div class="drill-progress"><div class="progress-track"><span [style.width.%]="(index()+ (answered()?1:0))/deck().length*100"></span></div><span>{{index()+1}} / {{deck().length}}</span></div><span class="drill-streak" [class.hot]="streak()>=5">🔥 {{streak()}}</span></div>
@@ -49,7 +49,7 @@ interface Result {fact:Fact;said:boolean;ok:boolean}
 export class DrillComponent {
  store=inject(Store);bank=inject(Bank);sessions=inject(Sessions);
  books=['Kumar & Clark','Lawrence','Sinopsis'];
- phase=signal<Phase>('setup');topic=signal('');from=signal<'all'|'wrong'>('all');size=signal(20);
+ phase=signal<Phase>('setup');topic=signal('');from=signal<'all'|'wrong'|'due'>('all');size=signal(20);
  ready=signal(false);
  private log:FactLog=loadFactLog(this.store.owner());
  logSize=signal(Object.keys(this.log).length);
@@ -58,7 +58,9 @@ export class DrillComponent {
  constructor(){void this.bank.active().then(()=>this.ready.set(true)).catch(()=>{});}
  allFacts=computed(()=>this.ready()?[...this.bank.byId().values()].filter(q=>ACTIVE.has(q.id)).flatMap(q=>factsOf(q)):[]);
  factCount=computed(()=>this.allFacts().length);
- pool=computed(()=>{const t=this.topic(),wrong=this.sessions.wrong(),from=this.from();return this.allFacts().filter(f=>(!t||f.topicId===t)&&(from==='all'||wrong.has(f.qid)));});
+ logVersion=signal(0);
+ dueCount=computed(()=>{this.logVersion();const t=this.topic();return dueFacts(this.allFacts().filter(f=>!t||f.topicId===t),this.log).length;});
+ pool=computed(()=>{this.logVersion();const t=this.topic(),wrong=this.sessions.wrong(),from=this.from();const base=this.allFacts().filter(f=>!t||f.topicId===t);if(from==='due')return dueFacts(base,this.log);return base.filter(f=>from==='all'||wrong.has(f.qid));});
  current=computed(()=>this.deck()[this.index()]);
  isLast=computed(()=>this.index()===this.deck().length-1);
  correct=computed(()=>this.results().filter(r=>r.ok).length);
@@ -77,7 +79,7 @@ export class DrillComponent {
   const ok=said===f.truth;
   this.results.update(r=>[...r,{fact:f,said,ok}]);this.lastOk.set(ok);this.answered.set(true);
   this.streak.set(ok?this.streak()+1:0);this.best.set(Math.max(this.best(),this.streak()));
-  recordFact(this.log,f.key,ok);saveFactLog(this.store.owner(),this.log);this.logSize.set(Object.keys(this.log).length);
+  recordFact(this.log,f.key,ok);saveFactLog(this.store.owner(),this.log);this.logSize.set(Object.keys(this.log).length);this.logVersion.update(v=>v+1);
  }
  next(){
   if(!this.answered())return;
