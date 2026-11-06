@@ -7,11 +7,12 @@ import {WelcomeComponent} from './welcome.component';
 import {StreakChipComponent} from './streak-chip.component';
 import {NavBadgeComponent} from './nav-badge.component';
 import {DisplayComponent} from './display.component';
+import {OfflineComponent} from './offline.component';
 import {PaletteComponent} from './palette.component';
 import {IconComponent} from './icon.component';
 import {Store} from './store';
 import {Prefs} from './prefs';
-@Component({selector:'app-root',standalone:true,imports:[RouterLink,RouterLinkActive,RouterOutlet,IconComponent,WelcomeComponent,PaletteComponent,StreakChipComponent,NavBadgeComponent,DisplayComponent],template:`
+@Component({selector:'app-root',standalone:true,imports:[RouterLink,RouterLinkActive,RouterOutlet,IconComponent,WelcomeComponent,PaletteComponent,StreakChipComponent,NavBadgeComponent,DisplayComponent,OfflineComponent],template:`
 <a class="skip" href="#content">Sari la conținut</a>
 <aside class="sidebar" [class.mobile-open]="menu()">
  <a routerLink="/" class="brand" (click)="menu.set(false)"><span class="brand-mark">r<span>•</span></span><span>rezi<span class="brand-dot">.</span><small>UN PAS MAI APROAPE</small></span></a>
@@ -21,6 +22,7 @@ import {Prefs} from './prefs';
  @for(item of g.items;track item.path){<a [routerLink]="item.path" routerLinkActive="active" [routerLinkActiveOptions]="{exact:item.path==='/' }" (click)="menu.set(false)"><app-icon [name]="item.icon"/><span class="nav-label">{{item.label}}</span>@defer(on idle){<app-nav-badge [path]="item.path"/>}</a>}}
  </nav>
  <button class="news-link" (click)="ui.news.set(true);menu.set(false)"><app-icon name="spark"/>Ce e nou în Rezi</button>
+ @defer(on idle){<app-offline/>}
  @if(installable()){<button class="install-app" (click)="install()"><app-icon name="download"/><span><strong>Instalează aplicația</strong><small>Funcționează și fără internet</small></span></button>}
  <a class="profile" routerLink="/cont" (click)="menu.set(false)"><span class="avatar"><app-icon name="user"/></span><span><strong>{{store.user() ? 'Contul meu' : 'Bine ai venit'}}</strong><small>{{store.user() ? 'Progres sincronizat' : 'Conectează-te pentru sincronizare'}}</small></span><app-icon name="chevron"/></a>
 </aside>
