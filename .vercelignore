@@ -7,3 +7,5 @@ tmp
 .env*
 supabase
 src/app/config.generated.ts
+src/app/bank-index.generated.ts
+public/bank

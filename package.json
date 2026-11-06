@@ -4,8 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "node scripts/config.mjs && ng serve --host 127.0.0.1",
-    "build": "node scripts/config.mjs && ng build",
+    "start": "node scripts/config.mjs && node --import tsx scripts/export-bank.ts && ng serve --host 127.0.0.1",
+    "build": "node scripts/config.mjs && node --import tsx scripts/export-bank.ts && ng build",
     "test": "node --import tsx --test tests/*.test.ts",
     "check": "npm test && npm run build",
     "audit:questions": "node --import tsx scripts/audit-question-quality.ts",

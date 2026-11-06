@@ -7,6 +7,8 @@ dist/
 !.env.example
 tmp/
 src/app/config.generated.ts
+src/app/bank-index.generated.ts
+public/bank/
 *.log
 out-tsc/
 .claude/
