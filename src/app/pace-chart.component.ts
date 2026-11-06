@@ -10,7 +10,7 @@ import {PACE_SECONDS} from './pace';
 <section class="panel pace">
  <div class="section-heading"><div><h3>Ritmul tău</h3><p>Secunde pe grilă, în ordinea testului. Linia punctată este ritmul examenului ({{pace}} s).</p></div>
   <div class="activity-stats"><div><strong>{{avg()}} s</strong><span>în medie</span></div><div><strong>{{over()}}%</strong><span>peste {{pace}} s</span></div><div><strong>{{wrongAvg()}} s</strong><span>pe cele greșite</span></div></div></div>
- <div class="pace-plot" (mouseleave)="hover.set(null)">
+ <div class="pace-plot" (mouseleave)="hover.set(null)" tabindex="0" role="region" aria-label="Timpul pe grilă (derulează orizontal)">
   <svg [attr.viewBox]="'0 0 '+width()+' 160'" preserveAspectRatio="none" role="img" [attr.aria-label]="'Timp pe grilă: medie '+avg()+' secunde, '+over()+'% peste ritmul examenului'">
    @for(b of bars();track b.i){<rect class="pace-bar" [class.bad]="!b.ok" [attr.x]="b.i*step()+1" [attr.y]="160-b.h" [attr.width]="step()-2" [attr.height]="b.h" rx="2" (mouseenter)="hover.set(b)"/>}
    <line class="pace-line" x1="0" [attr.x2]="width()" [attr.y1]="160-paceY()" [attr.y2]="160-paceY()"/>

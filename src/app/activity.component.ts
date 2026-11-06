@@ -13,7 +13,7 @@ const WEEKDAYS=['Lu','Ma','Mi','Jo','Vi','Sâ','Du'];
 <section class="panel activity">
  <div class="section-heading"><div><h3>Activitatea ta</h3><p>Grile rezolvate pe zi, până la ziua examenului. O zi intră în serie de la 10 grile.</p></div>
   <div class="activity-stats"><div><strong>{{s().current}}</strong><span>zile la rând</span></div><div><strong>{{s().best}}</strong><span>cea mai lungă serie</span></div><div><strong>{{s().today}}</strong><span>azi / {{planner.perDay()}}</span></div></div></div>
- <div class="heat-wrap" (mouseleave)="hover.set(null)">
+ <div class="heat-wrap" (mouseleave)="hover.set(null)" tabindex="0" role="region" aria-label="Calendarul activității (derulează orizontal)">
   <div class="heat-days" aria-hidden="true">@for(w of weekdays;track w){<span>{{w}}</span>}</div>
   <div class="heat-grid" role="img" [attr.aria-label]="'Calendar de activitate: '+total()+' grile în ultimele zece săptămâni'">
    @for(c of cells();track c.t){<i class="heat-cell" [attr.data-l]="c.level" [class.future]="c.future" [class.today]="c.today" [class.exam]="c.exam" (mouseenter)="hover.set(c)" (focus)="hover.set(c)" tabindex="-1"></i>}
