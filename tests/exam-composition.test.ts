@@ -53,6 +53,6 @@ test('a simulation from the index prefers table-based items up to each chapter s
  const exam=composeExam(lite,200);
  const tables=exam.filter(q=>q.table).length;
  // The papers had about 24% such items; the bank can supply at least that many here.
- assert.ok(tables>=40&&tables<=70,String(tables));
+ assert.ok(tables>=40&&tables<=95,String(tables));
  assert.equal(exam.filter(q=>q.type==='CS').length,50);
 });

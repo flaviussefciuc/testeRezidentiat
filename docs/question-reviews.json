@@ -254560,5 +254560,1468 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a pneumologie-adv-139: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "ortopedie-p26-001",
+  "questionFingerprint": "5f972dd7865428601280399aee8ea64241ac314f11ac80cfaf2bc33810b0967d",
+  "status": "edition-checked",
+  "learningObjective": "Legarea traiectului fracturii de mecanismul lezional.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 28,
+   "printedPages": [
+    587
+   ],
+   "pdfPages": [
+    259
+   ],
+   "section": "Traumatismele"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: traiectul oblic apare la compresie axială combinată cu încovoiere; torsiunea dă traiect spiroid.",
+    "evidenceLocation": "Lawrence, p. 587, Traumatismele"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: cominuția indică energie înaltă.",
+    "evidenceLocation": "Lawrence, p. 587, Traumatismele"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Încovoierea (tensiune pe o corticală) produce traiectul transvers.",
+    "evidenceLocation": "Lawrence, p. 587, Traumatismele"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: fractura în lemn verde este a copilului, cu periost gros și os elastic.",
+    "evidenceLocation": "Lawrence, p. 587, Traumatismele"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Torsiunea produce traiectul spiroid.",
+    "evidenceLocation": "Lawrence, p. 587, Traumatismele"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-07T13:53:33.681Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii schimbă mecanismul sau vârsta."
+  },
+  "textbookExpressions": [
+   "spiroidă",
+   "cominutivă"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ortopedie-p26-002",
+  "questionFingerprint": "fc3ecd12f96bbe608e23684d7bc40b378f39426cdd8abb4fc4eaec73a9ff313a",
+  "status": "edition-checked",
+  "learningObjective": "Particularitățile fracturilor pediatrice.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 28,
+   "printedPages": [
+    588
+   ],
+   "pdfPages": [
+    260
+   ],
+   "section": "Patologia pediatrică"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: pseudartroza este rară la copil.",
+    "evidenceLocation": "Lawrence, p. 588, Patologia pediatrică"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: majoritatea se tratează ortopedic (reducere și imobilizare).",
+    "evidenceLocation": "Lawrence, p. 588, Patologia pediatrică"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Remodelarea corectează angulări care la adult ar rămâne.",
+    "evidenceLocation": "Lawrence, p. 588, Patologia pediatrică"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Periostul gros al copilului este un manșon care stabilizează și grăbește vindecarea.",
+    "evidenceLocation": "Lawrence, p. 588, Patologia pediatrică"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Tasarea corticalei metafizare dă o fractură stabilă, care se vindecă rapid.",
+    "evidenceLocation": "Lawrence, p. 588, Patologia pediatrică"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-07T13:53:33.683Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează frecvența pseudartrozei și a chirurgiei."
+  },
+  "textbookExpressions": [
+   "periost",
+   "remodelare"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ortopedie-p26-003",
+  "questionFingerprint": "471bacbcbbc57b1ec526e335a88ded9894616bc2e2c2a41a74a1a7a25ede9ee7",
+  "status": "edition-checked",
+  "learningObjective": "Tipurile Gustilo și consecințele lor terapeutice.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 28,
+   "printedPages": [
+    591
+   ],
+   "pdfPages": [
+    263
+   ],
+   "section": "Traumatismele"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Definiția tipului I.",
+    "evidenceLocation": "Lawrence, p. 591, Traumatismele"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: antibioticul se administrează cât mai devreme, la prezentare, împreună cu profilaxia antitetanică.",
+    "evidenceLocation": "Lawrence, p. 591, Traumatismele"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "IIIB: pierdere extinsă de părți moi, deperiostare, acoperire prin lambou.",
+    "evidenceLocation": "Lawrence, p. 591, Traumatismele"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "IIIC: leziune arterială ce necesită reparare, indiferent de mărimea plăgii.",
+    "evidenceLocation": "Lawrence, p. 591, Traumatismele"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: tipul II are plaga între 1 și 10 cm, fără leziuni extinse de părți moi; peste 10 cm sau energia înaltă înseamnă tipul III.",
+    "evidenceLocation": "Lawrence, p. 591, Traumatismele"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-07T13:53:33.683Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii deplasează pragurile de mărime și momentul antibioticului."
+  },
+  "textbookExpressions": [
+   "Gustilo",
+   "fracturile deschise"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ortopedie-p26-004",
+  "questionFingerprint": "6fe53226d5a7376d6da6e881cc67b0fb436ed704c173e2677e59a7c548e3a7ec",
+  "status": "edition-checked",
+  "learningObjective": "Cauzele întârzierii de consolidare și ale pseudartrozei.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 28,
+   "printedPages": [
+    594
+   ],
+   "pdfPages": [
+    266
+   ],
+   "section": "Traumatismele"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Zonele cu vascularizație terminală (scafoid, talus, col femural) consolidează greu și fac necroză avasculară.",
+    "evidenceLocation": "Lawrence, p. 594, Traumatismele"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: contactul și stabilitatea fragmentelor favorizează consolidarea; distracția o întârzie.",
+    "evidenceLocation": "Lawrence, p. 594, Traumatismele"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: încărcarea controlată stimulează formarea calusului; imobilizarea insuficientă sau distracția îl împiedică.",
+    "evidenceLocation": "Lawrence, p. 594, Traumatismele"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Infecția întreține resorbția și împiedică formarea calusului.",
+    "evidenceLocation": "Lawrence, p. 594, Traumatismele"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Nicotina reduce perfuzia și întârzie consolidarea.",
+    "evidenceLocation": "Lawrence, p. 594, Traumatismele"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-07T13:53:33.683Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează efectul contactului și al încărcării."
+  },
+  "textbookExpressions": [
+   "consolidare",
+   "pseudartroză"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ortopedie-p26-005",
+  "questionFingerprint": "ca13a04c05c0fd168484ef48fb6d111ba85cd9f29421f8b8d109ab2d038ce6f2",
+  "status": "edition-checked",
+  "learningObjective": "Luxația anterioară față de cea posterioară de umăr.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 28,
+   "printedPages": [
+    595
+   ],
+   "pdfPages": [
+    267
+   ],
+   "section": "Traumatismele"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: convulsiile și electrocutarea produc luxația posterioară.",
+    "evidenceLocation": "Lawrence, p. 595, Traumatismele"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Poziția tipică; luxația posterioară ține brațul în adducție și rotație internă.",
+    "evidenceLocation": "Lawrence, p. 595, Traumatismele"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Aproape toate luxațiile de umăr sunt anterioare.",
+    "evidenceLocation": "Lawrence, p. 595, Traumatismele"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: radiografia înaintea reducerii exclude fractura asociată și documentează tipul luxației.",
+    "evidenceLocation": "Lawrence, p. 595, Traumatismele"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: Hill-Sachs este o înfundare a capului humeral; leziunea glenei este Bankart.",
+    "evidenceLocation": "Lawrence, p. 595, Traumatismele"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-07T13:53:33.683Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii schimbă leziunea și direcția luxației."
+  },
+  "textbookExpressions": [
+   "Hill-Sachs",
+   "luxația"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ortopedie-p26-006",
+  "questionFingerprint": "16259c462702cf1db2070f215ea80f9354e93ac0030a57272a040feaf8ba77fb",
+  "status": "edition-checked",
+  "learningObjective": "Gradele Garden.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 28,
+   "printedPages": [
+    598
+   ],
+   "pdfPages": [
+    270
+   ],
+   "section": "Traumatismele"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Gradul IV: completă, total deplasată.",
+    "evidenceLocation": "Lawrence, p. 598, Traumatismele"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: termenul descrie localizarea traiectului, nu gradul de deplasare.",
+    "evidenceLocation": "Lawrence, p. 598, Traumatismele"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: gradul I este incompletă, angrenată în valgus.",
+    "evidenceLocation": "Lawrence, p. 598, Traumatismele"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: gradul III este completă, parțial deplasată.",
+    "evidenceLocation": "Lawrence, p. 598, Traumatismele"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: gradul II este completă, fără deplasare.",
+    "evidenceLocation": "Lawrence, p. 598, Traumatismele"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-07T13:53:33.683Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt gradele vecine."
+  },
+  "textbookExpressions": [
+   "Garden",
+   "col femural"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ortopedie-p26-007",
+  "questionFingerprint": "2f80ca2b2c8cc709c67da3e684f700d5d9f3d9f3d649c583489b9274fbbc2dad",
+  "status": "edition-checked",
+  "learningObjective": "Tratamentul și complicațiile fracturii diafizare de femur.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 28,
+   "printedPages": [
+    598
+   ],
+   "pdfPages": [
+    270
+   ],
+   "section": "Traumatismele"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: gipsul pelvipedios este tratamentul copilului mic.",
+    "evidenceLocation": "Lawrence, p. 598, Traumatismele"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Tija centromedulară permite mobilizarea precoce.",
+    "evidenceLocation": "Lawrence, p. 598, Traumatismele"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: o fractură închisă de femur pierde 1–1,5 l de sânge.",
+    "evidenceLocation": "Lawrence, p. 598, Traumatismele"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Triada clasică: hipoxemie, confuzie, peteșii.",
+    "evidenceLocation": "Lawrence, p. 598, Traumatismele"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Stabilizarea în primele 24 de ore scade embolia grăsoasă și SDRA.",
+    "evidenceLocation": "Lawrence, p. 598, Traumatismele"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-07T13:53:33.683Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii schimbă volumul pierdut și tratamentul."
+  },
+  "textbookExpressions": [
+   "tija centromedulară",
+   "embolie grăsoasă"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ortopedie-p26-008",
+  "questionFingerprint": "419b41a76b9711bdfd76f5a3f8888ac8b1d8d0c3055edc32b95d0ac76cf987e0",
+  "status": "edition-checked",
+  "learningObjective": "Diagnosticul și tratamentul sindromului de compartiment.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 28,
+   "printedPages": [
+    597
+   ],
+   "pdfPages": [
+    269
+   ],
+   "section": "Amputația și sindromul de compartiment"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Fasciotomia decomprimă toate compartimentele afectate.",
+    "evidenceLocation": "Lawrence, p. 597, Amputația și sindromul de compartiment"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Presiunea compartimentală depășește presiunea capilară cu mult înaintea presiunii arteriale.",
+    "evidenceLocation": "Lawrence, p. 597, Amputația și sindromul de compartiment"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: lipsa pulsului este un semn tardiv; așteptarea lui înseamnă necroză musculară.",
+    "evidenceLocation": "Lawrence, p. 597, Amputația și sindromul de compartiment"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Peste 30 mmHg sau la mai puțin de 30 mmHg de presiunea diastolică.",
+    "evidenceLocation": "Lawrence, p. 597, Amputația și sindromul de compartiment"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Durerea disproporționată și la întinderea pasivă apar primele.",
+    "evidenceLocation": "Lawrence, p. 597, Amputația și sindromul de compartiment"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-07T13:53:33.684Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul face din puls criteriu de diagnostic."
+  },
+  "textbookExpressions": [
+   "fasciotomia",
+   "compartiment"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ortopedie-p26-009",
+  "questionFingerprint": "015249240d091447c2f35bb9b93163909b57398cea0d88ec43c59f7fdc87d29c",
+  "status": "edition-checked",
+  "learningObjective": "Leziunea LIA față de leziunea meniscală.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 28,
+   "printedPages": [
+    606
+   ],
+   "pdfPages": [
+    278
+   ],
+   "section": "Leziuni sportive"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Sângerarea intraarticulară este rapidă.",
+    "evidenceLocation": "Lawrence, p. 606, Leziuni sportive"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: blocajul este semnul rupturii de menisc.",
+    "evidenceLocation": "Lawrence, p. 606, Leziuni sportive"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: revărsatul tardiv sugerează leziunea meniscală; în ruptura LIA hemartroza apare în câteva ore.",
+    "evidenceLocation": "Lawrence, p. 606, Leziuni sportive"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Mecanism fără contact, cu pivotare pe piciorul fixat.",
+    "evidenceLocation": "Lawrence, p. 606, Leziuni sportive"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Lachman depășește ca sensibilitate testul sertarului anterior.",
+    "evidenceLocation": "Lawrence, p. 606, Leziuni sportive"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-07T13:53:33.684Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii atribuie LIA semnele meniscului."
+  },
+  "textbookExpressions": [
+   "Lachman",
+   "hemartroza"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ortopedie-p26-010",
+  "questionFingerprint": "02ada6f6e3d8e25d1fcf8283a4eb5450a7cd603e834d260a876b451af3685b33",
+  "status": "edition-checked",
+  "learningObjective": "Tendonul afectat și examenul clinic al coafei.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 28,
+   "printedPages": [
+    607
+   ],
+   "pdfPages": [
+    279
+   ],
+   "section": "Leziuni sportive"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: coafa nu implică nervul radial; leziunea nervoasă tipică a umărului este a nervului axilar, în luxație.",
+    "evidenceLocation": "Lawrence, p. 607, Leziuni sportive"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Supraspinosul trece prin spațiul subacromial și se rupe primul.",
+    "evidenceLocation": "Lawrence, p. 607, Leziuni sportive"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: subscapularul este rar primul afectat.",
+    "evidenceLocation": "Lawrence, p. 607, Leziuni sportive"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: forma degenerativă apare după 40 de ani, pe tendon uzat.",
+    "evidenceLocation": "Lawrence, p. 607, Leziuni sportive"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Arcul dureros median este semnul conflictului subacromial.",
+    "evidenceLocation": "Lawrence, p. 607, Leziuni sportive"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-07T13:53:33.684Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii schimbă tendonul, vârsta și nervul."
+  },
+  "textbookExpressions": [
+   "supraspinosului",
+   "coafei rotatorilor"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ortopedie-p26-011",
+  "questionFingerprint": "47316045bf7fc850a6c0246bc527b246df36b214c0bfab75f370c76c6382f771",
+  "status": "edition-checked",
+  "learningObjective": "Localizarea, agenții și evoluția osteomielitei la copil.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 28,
+   "printedPages": [
+    616
+   ],
+   "pdfPages": [
+    288
+   ],
+   "section": "Bolile infecțioase"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Vascularizația metafizară lentă favorizează însămânțarea.",
+    "evidenceLocation": "Lawrence, p. 616, Bolile infecțioase"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Salmonella este caracteristică la siclemici.",
+    "evidenceLocation": "Lawrence, p. 616, Bolile infecțioase"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Stafilococul auriu domină la toate vârstele.",
+    "evidenceLocation": "Lawrence, p. 616, Bolile infecțioase"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: tratamentul durează 4–6 săptămâni.",
+    "evidenceLocation": "Lawrence, p. 616, Bolile infecțioase"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: radiografia se modifică după 10–14 zile; IRM arată precoce edemul medular.",
+    "evidenceLocation": "Lawrence, p. 616, Bolile infecțioase"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-07T13:53:33.684Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii scurtează timpii radiologic și terapeutic."
+  },
+  "textbookExpressions": [
+   "osteomielita",
+   "Salmonella"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ortopedie-p26-012",
+  "questionFingerprint": "a5808062c0d298c964c5ef51472c9243ea693a926a651dc7da3c9d59a54d8ee8",
+  "status": "edition-checked",
+  "learningObjective": "Interpretarea lichidului articular.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 28,
+   "printedPages": [
+    617
+   ],
+   "pdfPages": [
+    289
+   ],
+   "section": "Bolile infecțioase"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Peste 50.000 cu neutrofile peste 75% este lichid septic până la proba contrarie.",
+    "evidenceLocation": "Lawrence, p. 617, Bolile infecțioase"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: cristalele definesc guta, care poate coexista, dar nu artrita septică.",
+    "evidenceLocation": "Lawrence, p. 617, Bolile infecțioase"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: glucoza din lichid scade în infecție.",
+    "evidenceLocation": "Lawrence, p. 617, Bolile infecțioase"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: 2.000–50.000 este lichid inflamator (artrită reumatoidă, gută).",
+    "evidenceLocation": "Lawrence, p. 617, Bolile infecțioase"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: sub 2.000 este lichid neinflamator (artroză).",
+    "evidenceLocation": "Lawrence, p. 617, Bolile infecțioase"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-07T13:53:33.684Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt celelalte clase de lichid sinovial."
+  },
+  "textbookExpressions": [
+   "lichidul sinovial",
+   "artrita septică"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ortopedie-p26-013",
+  "questionFingerprint": "b15156673902c7d6bcfc716d13bb7759c0363303d5f9524ae9a3b83f7f27a66a",
+  "status": "edition-checked",
+  "learningObjective": "Guta față de pseudogută la microscopia în lumină polarizată.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 28,
+   "printedPages": [
+    620
+   ],
+   "pdfPages": [
+    292
+   ],
+   "section": "Bolile inflamatorii și necroza osoasă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: romboidale, pozitive, sunt cristalele de pirofosfat (pseudogută).",
+    "evidenceLocation": "Lawrence, p. 620, Bolile inflamatorii și necroza osoasă"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: hidroxiapatita nu se vede în lumină polarizată.",
+    "evidenceLocation": "Lawrence, p. 620, Bolile inflamatorii și necroza osoasă"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: pirofosfatul definește pseudoguta, cu condrocalcinoză la genunchi.",
+    "evidenceLocation": "Lawrence, p. 620, Bolile inflamatorii și necroza osoasă"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: cristalele de colesterol apar în revărsate cronice.",
+    "evidenceLocation": "Lawrence, p. 620, Bolile inflamatorii și necroza osoasă"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Uratul monosodic: ace cu birefringență negativă.",
+    "evidenceLocation": "Lawrence, p. 620, Bolile inflamatorii și necroza osoasă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-07T13:53:33.684Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt cristalele pseudogutei."
+  },
+  "textbookExpressions": [
+   "birefringență",
+   "urat"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ortopedie-p26-014",
+  "questionFingerprint": "fabceabe4b9257a9efceb8201436087fe10d00844929deb7beace6ce8bd86ac8",
+  "status": "edition-checked",
+  "learningObjective": "Cauzele, diagnosticul și tratamentul necrozei avasculare.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 28,
+   "printedPages": [
+    621
+   ],
+   "pdfPages": [
+    293
+   ],
+   "section": "Bolile inflamatorii și necroza osoasă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: radiografia este normală la început; semnul semilunei apare la colaps subcondral.",
+    "evidenceLocation": "Lawrence, p. 621, Bolile inflamatorii și necroza osoasă"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Cele mai frecvente cauze netraumatice.",
+    "evidenceLocation": "Lawrence, p. 621, Bolile inflamatorii și necroza osoasă"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: forajul decompresiv se face în stadiile precoce, înaintea colapsului; după colaps se discută artroplastia.",
+    "evidenceLocation": "Lawrence, p. 621, Bolile inflamatorii și necroza osoasă"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Hemoglobinopatiile și decompresia bruscă produc infarct osos.",
+    "evidenceLocation": "Lawrence, p. 621, Bolile inflamatorii și necroza osoasă"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "IRM arată necroza înaintea oricărei modificări radiografice.",
+    "evidenceLocation": "Lawrence, p. 621, Bolile inflamatorii și necroza osoasă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-07T13:53:33.685Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează momentul forajului și al radiografiei."
+  },
+  "textbookExpressions": [
+   "necroza avasculară",
+   "corticoterapia"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ortopedie-p26-015",
+  "questionFingerprint": "39ec162285081ea708478078fc0b3cb3ae1c31f085555261c97e8892fe9b99fa",
+  "status": "edition-checked",
+  "learningObjective": "Rădăcina afectată de hernia posterolaterală.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 28,
+   "printedPages": [
+    623
+   ],
+   "pdfPages": [
+    295
+   ],
+   "section": "Coloana vertebrală"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Hernia posterolaterală L5–S1 comprimă rădăcina care traversează, S1: reflex ahilian, flexia plantară, marginea laterală a piciorului.",
+    "evidenceLocation": "Lawrence, p. 623, Coloana vertebrală"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: S2 nu este rădăcina traversantă la acest nivel.",
+    "evidenceLocation": "Lawrence, p. 623, Coloana vertebrală"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: L4 este afectată de hernia L3–L4 (reflex rotulian).",
+    "evidenceLocation": "Lawrence, p. 623, Coloana vertebrală"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: L5 este afectată de hernia L4–L5 (extensia halucelui).",
+    "evidenceLocation": "Lawrence, p. 623, Coloana vertebrală"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: L3 este afectată de hernia L2–L3.",
+    "evidenceLocation": "Lawrence, p. 623, Coloana vertebrală"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-07T13:53:33.685Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt rădăcinile vecine."
+  },
+  "textbookExpressions": [
+   "hernia de disc",
+   "rădăcina"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ortopedie-p26-016",
+  "questionFingerprint": "bce3edbddc1728eee3b2463e6cc68a3959b24c97694e6fc4fcc3d2437cab2270",
+  "status": "edition-checked",
+  "learningObjective": "Recunoașterea urgenței de coadă de cal.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 28,
+   "printedPages": [
+    624
+   ],
+   "pdfPages": [
+    296
+   ],
+   "section": "Coloana vertebrală"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Dermatoamele sacrate sunt interesate.",
+    "evidenceLocation": "Lawrence, p. 624, Coloana vertebrală"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Vezica neurogenă cu retenție este semnul care schimbă prognosticul.",
+    "evidenceLocation": "Lawrence, p. 624, Coloana vertebrală"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: hipotonia sfincterului anal face parte din sindrom.",
+    "evidenceLocation": "Lawrence, p. 624, Coloana vertebrală"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Decompresia în primele 24–48 de ore condiționează recuperarea sfincteriană.",
+    "evidenceLocation": "Lawrence, p. 624, Coloana vertebrală"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: leziunea este de neuron motor periferic, cu hiporeflexie.",
+    "evidenceLocation": "Lawrence, p. 624, Coloana vertebrală"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-07T13:53:33.685Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii dau semne de neuron motor central."
+  },
+  "textbookExpressions": [
+   "coadă de cal",
+   "perineală"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ortopedie-p26-017",
+  "questionFingerprint": "f0664bc3a1ec175a7e07bd41341115f2b377164a8a5c6c82a152a321a1203f62",
+  "status": "edition-checked",
+  "learningObjective": "Vârsta și investigația fiecărei afecțiuni a șoldului pediatric.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 28,
+   "printedPages": [
+    611
+   ],
+   "pdfPages": [
+    283
+   ],
+   "section": "Patologia pediatrică"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Manevrele depistează șoldul luxabil sau luxat.",
+    "evidenceLocation": "Lawrence, p. 611, Patologia pediatrică"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: epifizioliza este a adolescentului, adesea obez.",
+    "evidenceLocation": "Lawrence, p. 611, Patologia pediatrică"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: sub 6 luni, ecografia; capul femural nu este osificat.",
+    "evidenceLocation": "Lawrence, p. 611, Patologia pediatrică"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: hamul Pavlik este tratamentul primelor 6 luni.",
+    "evidenceLocation": "Lawrence, p. 611, Patologia pediatrică"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Necroza avasculară idiopatică a copilului de vârstă școlară mică.",
+    "evidenceLocation": "Lawrence, p. 611, Patologia pediatrică"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-07T13:53:33.685Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii schimbă vârstele și investigația."
+  },
+  "textbookExpressions": [
+   "Ortolani",
+   "Perthes"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ortopedie-p26-018",
+  "questionFingerprint": "b5601c73bf73b951bda8b383621161861ce197aceb54e9dc867a25730a142f1d",
+  "status": "edition-checked",
+  "learningObjective": "Pragurile scorului T.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 28,
+   "printedPages": [
+    628
+   ],
+   "pdfPages": [
+    300
+   ],
+   "section": "Bolile metabolice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: −1 este limita osteopeniei.",
+    "evidenceLocation": "Lawrence, p. 628, Bolile metabolice"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: peste −1 este densitate normală.",
+    "evidenceLocation": "Lawrence, p. 628, Bolile metabolice"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: fractura de fragilitate definește osteoporoza severă, fără un prag separat de −3,5.",
+    "evidenceLocation": "Lawrence, p. 628, Bolile metabolice"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Scorul T de −2,5 sau mai mic definește osteoporoza.",
+    "evidenceLocation": "Lawrence, p. 628, Bolile metabolice"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: între −1 și −2,5 este osteopenie.",
+    "evidenceLocation": "Lawrence, p. 628, Bolile metabolice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-07T13:53:33.685Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt celelalte praguri densitometrice."
+  },
+  "textbookExpressions": [
+   "scorul T",
+   "osteoporoză"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ortopedie-p26-019",
+  "questionFingerprint": "df04669682b5742d2a2682786e5b8e841f9b177b935b9ab6d7540da69fa74a2c",
+  "status": "edition-checked",
+  "learningObjective": "Sarcomul Ewing față de osteosarcom și de osteomielită.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 28,
+   "printedPages": [
+    631
+   ],
+   "pdfPages": [
+    303
+   ],
+   "section": "Tumorile osoase"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "A doua tumoră malignă osoasă a copilului.",
+    "evidenceLocation": "Lawrence, p. 631, Tumorile osoase"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: la vârstnic domină metastazele, mielomul și condrosarcomul.",
+    "evidenceLocation": "Lawrence, p. 631, Tumorile osoase"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Tabloul inflamator întârzie diagnosticul.",
+    "evidenceLocation": "Lawrence, p. 631, Tumorile osoase"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Translocația definește tumora.",
+    "evidenceLocation": "Lawrence, p. 631, Tumorile osoase"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Localizare diafizară, spre deosebire de osteosarcomul metafizar.",
+    "evidenceLocation": "Lawrence, p. 631, Tumorile osoase"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-07T13:53:33.685Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul mută tumora la altă vârstă."
+  },
+  "textbookExpressions": [
+   "Ewing",
+   "diafiza"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
  }
 ]

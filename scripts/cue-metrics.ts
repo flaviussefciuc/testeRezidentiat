@@ -81,8 +81,9 @@ export function gateFailures(m:CueMetrics,scope:'bank'|'topic'):string[]{
  if(m.lowercaseOptionPct<50-slack)f.push(`lowercase fragment options ${m.lowercaseOptionPct}% < ${50-slack}%`);
  if(m.cs>=(scope==='topic'?20:10)&&Math.max(...m.csKeyPositionPct)>35+slack)f.push(`CS key concentrated at one position (${m.csKeyPositionPct.join('/')})`);
  if(m.cm>=10&&Math.min(...m.cmOptionCorrectPct)<0.6*Math.max(...m.cmOptionCorrectPct))f.push(`CM correct positions unbalanced (${m.cmOptionCorrectPct.join('/')})`);
- // A CM set dominated by one cardinality lets a blind candidate mark that many options.
- if(m.cm>=10&&Math.min(...m.cmCardinalityPct)<20-slack)f.push(`CM cardinality 2/3/4 unbalanced (${m.cmCardinalityPct.join('/')})`);
+ // A CM set dominated by one cardinality lets a blind candidate mark that many options. The
+ // 2025 paper itself was 27/58/15, so the floor is 10% per key size and 70% for the largest.
+ if(m.cm>=10&&(Math.min(...m.cmCardinalityPct)<10-slack/2||Math.max(...m.cmCardinalityPct)>70+slack))f.push(`CM cardinality 2/3/4 unbalanced (${m.cmCardinalityPct.join('/')})`);
  if(m.cm&&m.cmMark4PerOptionPct>56+slack)f.push(`blind mark-4 CM ${m.cmMark4PerOptionPct}% > ${56+slack}%`);
  // The key must not sit systematically at the extremes or in the middle of the length ranking.
  if(m.cs>=(scope==='topic'?8:10)&&m.csKeyLengthRankPct[4]>30+slack)f.push(`CS correct-is-shortest ${m.csKeyLengthRankPct[4]}% > ${30+slack}%`);

@@ -8,11 +8,11 @@ import {questionFingerprint,reviewErrors,REVIEW_CHECKS} from '../scripts/questio
 import {checkSet} from '../scripts/check-set.ts';
 
 const row=(stem:string,options:string[],key:string,page:number):[any,string,string[]]=>[[stem,options,key,page,'Fracturile de șold','Clasificarea Garden.',['da','da','nu: altfel','nu: altfel','nu: altfel']],'Distractorii schimbă gradul.',['Garden']];
-const sample=()=>set2026('ortopedie',[row('Clasificarea Garden a fracturilor de col femural:',['gradul I este o fractură incompletă, angrenată în valgus','gradul IV este o fractură completă, total deplasată','gradul II este deplasată parțial, angrenată în varus','gradul III este o fractură incompletă, fără deplasare','se aplică fracturilor trohanteriene instabile'],'AB',598)]);
+const sample=()=>set2026('ortopedie',[row('Clasificarea Garden a fracturilor de col femural:',['gradul I este o fractură incompletă, angrenată în valgus','gradul IV este o fractură completă, total deplasată','gradul II este deplasată parțial, angrenată în varus','gradul III este o fractură incompletă, fără deplasare','se aplică fracturilor trohanteriene instabile'],'AB',598)],901);
 
 test('a 2026 set gets stable ids, the chapter book and edition, PDF pages from the chapter offset, and the edition mark',()=>{
  const [q]=sample();
- assert.equal(q.id,'ortopedie-p26-001');
+ assert.equal(q.id,'ortopedie-p26-901');
  assert.equal(q.reference.book,'Lawrence');assert.equal(q.reference.chapter,28);
  assert.deepEqual(q.reference.printedPages,[598]);assert.deepEqual(q.reference.pdfPages,[PDF_PAGE.ortopedie(598)]);
  assert.equal(q.verification,'edition');assert.equal(q.difficulty.score,8);
