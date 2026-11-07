@@ -5,6 +5,10 @@ import {Sessions} from './session';
 import {TOPICS} from './topics';
 import {topicStats} from './scoring';
 import {buildPlan,EXAM_DATE,loadPerDay,savePerDay,startOfDay,type ChapterLoad} from './plan';
+import {chapterQuotas} from './exam-composition';
+
+// Points a chapter carries in a 200-question paper (4 per CS, 5 per CM), from the 2023–2025 quotas.
+const EXAM_POINTS=new Map(chapterQuotas(200).map(q=>[q.topicId,q.cs*4+q.cm*5]));
 
 // The plan is computed from progress up to the start of today, so today's quotas stay put
 // while the student works; today's answers are counted separately as progress.
@@ -18,7 +22,7 @@ export class Planner {
  private before=computed(()=>this.store.attempts().filter(a=>Date.parse(a.completedAt)<this.today));
  readonly loads=computed<ChapterLoad[]>(()=>{
   const seen=new Set(this.before().flatMap(a=>a.answers.filter(x=>x.selected.length).map(x=>x.questionId)));
-  return TOPICS.map(t=>{const ids=LITE_ACTIVE.filter(q=>q.topicId===t.id),s=topicStats(this.before(),LITE,t.id);return {topicId:t.id,name:t.name,size:ids.length,unseen:ids.filter(q=>!seen.has(q.id)).length,answered:s.answered,percent:s.percent};});
+  return TOPICS.map(t=>{const ids=LITE_ACTIVE.filter(q=>q.topicId===t.id),s=topicStats(this.before(),LITE,t.id);return {topicId:t.id,name:t.name,size:ids.length,unseen:ids.filter(q=>!seen.has(q.id)).length,answered:s.answered,percent:s.percent,weight:EXAM_POINTS.get(t.id)??ids.length};});
  });
  readonly plan=computed(()=>buildPlan(this.loads(),this.perDay()));
  readonly todayPlan=computed(()=>{const d=this.plan().days[0];return d&&d.start===this.today?d:null;});

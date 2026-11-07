@@ -10,7 +10,7 @@ export const NEWS_VERSION='2026-11-06';
 const read=(k:string)=>{try{return localStorage.getItem(k);}catch{return null;}};
 const write=(k:string,v:string)=>{try{localStorage.setItem(k,v);}catch{/* storage unavailable */}};
 export const NEWS=[
- {icon:'calendar',title:'Planul până la examen',text:'Capitolele împărțite pe zilele rămase, după mărime și după cât de bine le stăpânești.',path:'/plan'},
+ {icon:'calendar',title:'Planul până la examen',text:'Capitolele împărțite pe zilele rămase, după punctele pe care le aduc la examen și după cât de bine le stăpânești.',path:'/plan'},
  {icon:'check',title:'Explicații pe fiecare variantă',text:'După verificare, fiecare variantă spune de ce e adevărată sau falsă, cu pagina din manual.',path:'/teste'},
  {icon:'refresh',title:'Recapitulare programată',text:'Grilele revin exact când ești pe cale să le uiți. Marchează cât de sigur ești (S/N/G).',path:'/teste'},
  {icon:'spark',title:'Adevărat sau fals',text:'16.000 de afirmații verificate, în runde de câteva minute.',path:'/adevarat-fals'},

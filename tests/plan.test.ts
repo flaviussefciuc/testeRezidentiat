@@ -26,3 +26,10 @@ test('on the exam eve only the review day remains',()=>{
  const plan=buildPlan([ch('a',100,100)],50,Date.parse('2026-11-14T10:00:00+02:00'),exam);
  assert.equal(plan.days.length,1);assert.ok(plan.days[0].reviewOnly);assert.equal(plan.capacity,0);
 });
+test('a chapter weight (exam points) outranks the bank size when both are given',()=>{
+ // Same bank size and the same weakness: the chapter with more points at the exam gets more of the day.
+ const plan=buildPlan([{...ch('ortho',120,120),weight:52},{...ch('nefro',120,120),weight:38},{...ch('diabet',120,120),weight:33}],30,now,exam);
+ const total=(id:string)=>plan.days.flatMap(d=>d.items).filter(i=>i.topicId===id).reduce((n,i)=>n+i.count,0);
+ assert.ok(total('ortho')>total('nefro')&&total('nefro')>total('diabet'),[total('ortho'),total('nefro'),total('diabet')].join('/'));
+ assert.equal(total('ortho')+total('nefro')+total('diabet'),240);
+});

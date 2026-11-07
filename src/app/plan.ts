@@ -1,9 +1,11 @@
 // Study plan until the exam. New material is spread over the days before the exam eve,
-// which is kept for review only. Each chapter's share of the capacity grows with its size
-// and with how weak the student is in it; it never exceeds the questions not yet seen.
+// which is kept for review only. Each chapter's share of the capacity grows with its weight
+// (the points it carries at the exam, from the 2023–2025 papers; the bank size when no
+// weight is given) and with how weak the student is in it; it never exceeds the questions
+// not yet seen.
 export const EXAM_DATE=new Date('2026-11-15T00:00:00+02:00');
 const DAY=86400000;
-export interface ChapterLoad {topicId:string;name:string;size:number;unseen:number;answered:number;percent:number}
+export interface ChapterLoad {topicId:string;name:string;size:number;unseen:number;answered:number;percent:number;weight?:number}
 export interface PlanItem {topicId:string;name:string;count:number}
 export interface DayPlan {start:number;items:PlanItem[];total:number;reviewOnly:boolean}
 export interface Plan {days:DayPlan[];capacity:number;planned:number;unseen:number;needPerDay:number}
@@ -11,23 +13,24 @@ export interface Plan {days:DayPlan[];capacity:number;planned:number;unseen:numb
 export const startOfDay=(t:number)=>{const d=new Date(t);d.setHours(0,0,0,0);return d.getTime();};
 // Unpractised chapters weigh like a weak one; mastered chapters still get a little time.
 export const weakness=(c:ChapterLoad)=>c.answered?Math.max(0.5,1.5-c.percent/100):1.2;
+const weightOf=(c:ChapterLoad)=>c.weight??c.size;
 
 export function buildPlan(chapters:ChapterLoad[],perDay:number,now=Date.now(),exam=EXAM_DATE.getTime()):Plan{
  const today=startOfDay(now),eve=startOfDay(exam-DAY);
  const newDays:number[]=[];for(let d=today;d<eve;d+=DAY)newDays.push(d);
  const capacity=newDays.length*perDay,unseen=chapters.reduce((n,c)=>n+c.unseen,0);
- // Water-filling: share capacity by size × weakness, cap at the unseen count, repeat with the rest.
+ // Water-filling: share capacity by weight × weakness, cap at the unseen count, repeat with the rest.
  const quota=new Map<string,number>(chapters.map(c=>[c.topicId,0]));
  let left=Math.min(capacity,unseen),open=chapters.filter(c=>c.unseen>0);
  while(left>0&&open.length){
-  const weight=open.reduce((n,c)=>n+c.size*weakness(c),0);let used=0;
-  for(const c of open){const room=c.unseen-quota.get(c.topicId)!,give=Math.min(room,Math.max(1,Math.floor(left*c.size*weakness(c)/weight)));quota.set(c.topicId,quota.get(c.topicId)!+give);used+=give;if(used>=left)break;}
+  const weight=open.reduce((n,c)=>n+weightOf(c)*weakness(c),0);let used=0;
+  for(const c of open){const room=c.unseen-quota.get(c.topicId)!,give=Math.min(room,Math.max(1,Math.floor(left*weightOf(c)*weakness(c)/weight)));quota.set(c.topicId,quota.get(c.topicId)!+give);used+=give;if(used>=left)break;}
   left-=used;open=open.filter(c=>quota.get(c.topicId)!<c.unseen);
  }
  // Interleave: each chapter's quota is cut into chunks of about a third of a day, and the
  // chunks are dealt round by round, weakest chapters first. A day then mixes ~3 chapters
  // and a chapter comes back on later days instead of filling one day.
- const order=[...chapters].filter(c=>quota.get(c.topicId)!>0).sort((a,b)=>weakness(b)-weakness(a)||b.size-a.size);
+ const order=[...chapters].filter(c=>quota.get(c.topicId)!>0).sort((a,b)=>weakness(b)-weakness(a)||weightOf(b)-weightOf(a));
  const size=Math.max(15,Math.round(perDay/3)),chunks:{c:ChapterLoad;n:number;round:number;rank:number}[]=[];
  order.forEach((c,rank)=>{let q=quota.get(c.topicId)!,round=0;while(q>0){const n=Math.min(size,q);chunks.push({c,n,round:round++,rank});q-=n;}});
  chunks.sort((a,b)=>a.round-b.round||a.rank-b.rank);

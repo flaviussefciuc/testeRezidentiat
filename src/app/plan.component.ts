@@ -9,7 +9,7 @@ import {IconComponent} from './icon.component';
 const dayLabel=(t:number)=>new Date(t).toLocaleDateString('ro-RO',{weekday:'long',day:'numeric',month:'long'});
 
 @Component({standalone:true,imports:[FormsModule,RouterLink,IconComponent],template:`
-<div class="page-heading"><div><div class="eyebrow">{{planner.daysLeft}} {{planner.daysLeft===1?'ZI':'ZILE'}} PÂNĂ LA EXAMEN</div><h1>Planul tău până pe 15 noiembrie.</h1><p>Capitolele în care ești mai slab și cele mai mari primesc mai mult timp. Planul se recalculează în fiecare dimineață după progresul tău.</p></div>
+<div class="page-heading"><div><div class="eyebrow">{{planner.daysLeft}} {{planner.daysLeft===1?'ZI':'ZILE'}} PÂNĂ LA EXAMEN</div><h1>Planul tău până pe 15 noiembrie.</h1><p>Capitolele în care ești mai slab și cele care aduc mai multe puncte la examen (după caietele 2023–2025: cardiologia ~90 de puncte, ortopedia ~52) primesc mai mult timp. Planul se recalculează în fiecare dimineață după progresul tău.</p></div>
  <label class="field-label plan-capacity">Cât poți rezolva pe zi?<select [ngModel]="planner.perDay()" (ngModelChange)="planner.setPerDay(+$event)">@for(n of capacities;track n){<option [ngValue]="n">{{n}} grile noi pe zi</option>}</select></label></div>
 @if(plan();as p){
 <div class="notice plan-forecast"><span>În ritmul ales vezi <strong>{{p.planned}}</strong> din cele {{p.unseen}} grile încă nevăzute ({{coverage()}}%). @if(p.planned<p.unseen){Pentru toată banca ar fi nevoie de ~{{p.needPerDay}} pe zi; planul prioritizează capitolele slabe și pe cele mari.}@else{Acoperi toată banca înainte de examen.}</span></div>

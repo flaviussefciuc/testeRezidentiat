@@ -19,7 +19,7 @@ Aplicație Angular SPA în limba română pentru pregătirea concursului de rezi
 - Fișe de recapitulare pe capitole (în ordinea paginilor, cu capcane, test de diagnostic, tipărire și citire cu voce), pagini de recitit generate din greșeli, notițe și colecție personală, căutare în bancă, export Anki.
 
 **Planificare și analiză**
-- Planul până la examen pe zile, ponderat după mărimea capitolelor și punctele slabe; seria zilnică și calendarul activității; harta tematicii; indicele de pregătire (progres în bancă, nu predicție).
+- Planul până la examen pe zile, ponderat după punctele pe care fiecare capitol le-a avut în caietele 2023–2025 și după punctele slabe; seria zilnică și calendarul activității; harta tematicii; indicele de pregătire (progres în bancă, nu predicție).
 - Rezultate cu lecțiile de reținut, harta capitolului, unde s-au dus punctele (omisiuni, bifări greșite, CM anulate), obiceiul de marcare la CM, calibrarea încrederii, ritmul pe grilă și motivele greșelilor; raport săptămânal, jaloane și strategia personalizată pentru ziua examenului.
 
 **Experiență**
