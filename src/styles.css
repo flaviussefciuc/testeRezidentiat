@@ -378,3 +378,5 @@ app-insight .insight{animation:reveal-in .3s .2s ease-out both}
 
 /* QA pass: contrast on tinted surfaces. */
 .notice{color:var(--k-4f5d44)}.segmented button.on span{color:var(--k-4a5641)}.book-rust{background:var(--k-7c5d4c)}
+/* Predicția 2026 */
+.predict-table td.num{text-align:right;white-space:nowrap}.predict-table td.num small,.predict-table td>small{display:block;color:var(--muted);font-size:11px}.predict-table td.low strong{color:var(--error)}.predict-table td.pages{min-width:220px;max-width:340px}.predict-table td.actions{white-space:nowrap}.predict-table td.actions .text-link{margin-left:10px}.page-chip{display:inline-flex;align-items:baseline;gap:2px;margin:2px 4px 2px 0;padding:2px 7px;border-radius:6px;background:var(--soft);font-size:12px;font-weight:600}.page-chip small{display:inline;font-size:10px;color:var(--muted)}.page-chip.gap{background:transparent;border:1px dashed var(--border);color:var(--muted)}.mtile-exam{display:block;font-size:11px;color:var(--muted)}.heading-links{display:flex;gap:14px;flex-wrap:wrap}

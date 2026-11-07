@@ -61,5 +61,18 @@ export function composeExam<T extends Scorable>(bank:readonly T[],count=200,sibl
   const before=cmOut.length;cmShort=pick(rest,cmShort,cmOut);for(const q of cmOut.slice(before))have[q.correct.length-2]++;
  }
  if(csShort||cmShort||csOut.length!==singles||cmOut.length!==multiples)throw new Error('Banca nu conține suficiente întrebări distincte pentru această simulare.');
+ // 3. Repair the key-size split: swap an item of an over-represented size for one of an
+ //    under-represented size from the same chapter, so the chapter quotas hold.
+ for(let guard=0;guard<multiples;guard++){
+  const over=have.findIndex((n,i)=>n>want[i]),under=have.findIndex((n,i)=>n<want[i]);
+  if(over<0||under<0)break;
+  let swapped=false;
+  for(const out of shuffled(cmOut.filter(q=>q.correct.length===over+2))){
+   const repl=shuffled(cm.filter(q=>q.topicId===out.topicId&&q.correct.length===under+2)).find(free);
+   if(!repl)continue;
+   cmOut[cmOut.indexOf(out)]=repl;taken.delete(out.id);taken.add(repl.id);have[over]--;have[under]++;swapped=true;break;
+  }
+  if(!swapped)break;
+ }
  return [...shuffled(csOut),...shuffled(cmOut)];
 }

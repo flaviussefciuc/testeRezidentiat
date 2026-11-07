@@ -32,7 +32,7 @@ test('a full simulation from the live bank matches the chapter quotas and the 20
   const per:Record<string,number>={};for(const q of exam)per[q.topicId]=(per[q.topicId]??0)+1;
   for(const quota of chapterQuotas(200))assert.equal(per[quota.topicId]??0,quota.cs+quota.cm,quota.topicId);
   const sizes=[2,3,4].map(n=>exam.filter(q=>q.type==='CM'&&q.correct.length===n).length);
-  sizes.forEach((n,i)=>assert.ok(Math.abs(n-EXAM_CM_CARDINALITY[i])<=4,`key size ${i+2}: ${n} vs ${EXAM_CM_CARDINALITY[i]}`));
+  sizes.forEach((n,i)=>assert.ok(Math.abs(n-EXAM_CM_CARDINALITY[i])<=1,`key size ${i+2}: ${n} vs ${EXAM_CM_CARDINALITY[i]}`));
  }
  // Shorter formats scale the same composition.
  assert.equal(composeExam(QUESTIONS,52).length,52);
