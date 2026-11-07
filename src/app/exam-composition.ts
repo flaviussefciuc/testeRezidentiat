@@ -44,10 +44,19 @@ export function composeExam<T extends Scorable>(bank:readonly T[],count=200,sibl
  const want=cardinalityTargets(multiples);
  const have=[0,0,0];
  let csShort=0,cmShort=0;
+ // Items built on a table, box or figure made about a quarter of the 2023–2024 papers;
+ // each chapter gets its own share of them first, when the index marks them.
+ const isTable=(q:T)=>(q as {table?:boolean}).table===true;
+ const tableFirst=(list:T[],n:number)=>{const t=list.filter(isTable),o=list.filter(q=>!isTable(q));return [...t.slice(0,n),...shuffled([...t.slice(n),...o])];};
+ const overallTable=0.24;
  for(const quota of quotas){
-  const mine=shuffled(cs.filter(q=>q.topicId===quota.topicId));
+  const share=weights.find(w=>w.topicId===quota.topicId)?.tableShare??overallTable;
+  let tables=Math.round(share*(quota.cs+quota.cm));
+  const mine=tableFirst(shuffled(cs.filter(q=>q.topicId===quota.topicId)),tables);
+  const csBefore=csOut.length;
   csShort+=pick(mine,quota.cs,csOut);
-  const mineCm=shuffled(cm.filter(q=>q.topicId===quota.topicId));
+  tables=Math.max(0,tables-csOut.slice(csBefore).filter(isTable).length);
+  const mineCm=tableFirst(shuffled(cm.filter(q=>q.topicId===quota.topicId)),tables);
   // Prefer the key sizes still under target, then anything from the chapter.
   const ranked=[...mineCm].sort((a,b)=>(have[b.correct.length-2]<want[b.correct.length-2]?1:0)-(have[a.correct.length-2]<want[a.correct.length-2]?1:0));
   const before=cmOut.length;

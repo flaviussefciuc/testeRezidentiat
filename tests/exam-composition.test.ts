@@ -3,6 +3,8 @@ import assert from 'node:assert/strict';
 import {QUESTIONS,EXAM_AVAILABLE} from '../src/app/questions.ts';
 import {apportion,chapterQuotas,cardinalityTargets,composeExam} from '../src/app/exam-composition.ts';
 import {EXAM_WEIGHTS,EXAM_CM_CARDINALITY} from '../src/app/exam-weights.ts';
+import {TOPICS} from '../src/app/topics.ts';
+import {decodeEntry,encodeEntry,fromTable} from '../src/app/bank-codec.ts';
 
 const cs={id:'cs',topicId:'a',type:'CS' as const,correct:[0]},cm={id:'cm',topicId:'a',type:'CM' as const,correct:[0,1]};
 
@@ -44,4 +46,13 @@ test('chapters outside the weights are filled from the whole bank, siblings neve
  for(let k=0;k<20;k++){const ids=new Set(composeExam(fixture,200,siblings).map(q=>q.id));assert.equal(ids.size,200);assert.ok(!(ids.has('cm-1')&&ids.has('cm-2')));}
  assert.throws(()=>composeExam([cs,cm]));
  assert.equal(EXAM_WEIGHTS.length,39);
+});
+test('a simulation from the index prefers table-based items up to each chapter share',{skip:!EXAM_AVAILABLE},()=>{
+ const order=TOPICS.map(t=>t.id);
+ const lite=QUESTIONS.map(q=>decodeEntry(order,q.id,encodeEntry(order,q,true,fromTable(q as any))));
+ const exam=composeExam(lite,200);
+ const tables=exam.filter(q=>q.table).length;
+ // The papers had about 24% such items; the bank can supply at least that many here.
+ assert.ok(tables>=40&&tables<=70,String(tables));
+ assert.equal(exam.filter(q=>q.type==='CS').length,50);
 });

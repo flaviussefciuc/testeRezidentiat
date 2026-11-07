@@ -5,8 +5,8 @@ import {LITE_ACTIVE,LITE_BY_ID,withoutSiblings} from './bank';
 import {memories,dueIds,dueSoon,retained} from './srs';
 import {shuffled,wrongIds} from './scoring';
 
-export type Source='all'|'unseen'|'wrong'|'due';
-export const SOURCE_LABEL:Record<Source,string>={all:'Toate grilele',unseen:'Doar grile nevăzute',wrong:'Greșite la ultima încercare',due:'Scadente azi (recapitulare programată)'};
+export type Source='all'|'unseen'|'wrong'|'due'|'table';
+export const SOURCE_LABEL:Record<Source,string>={all:'Toate grilele',unseen:'Doar grile nevăzute',wrong:'Greșite la ultima încercare',due:'Scadente azi (recapitulare programată)',table:'Din tabele, cadrane și clasificări'};
 const ACTIVE_IDS=new Set(LITE_ACTIVE.map(q=>q.id));
 
 // Shared study state derived from the history, and one way to start a session.
@@ -26,14 +26,14 @@ export class Sessions {
   const inTopics=(id:string)=>!topics||topics.includes(LITE_BY_ID.get(id)!.topicId);
   if(source==='due')return this.due().filter(inTopics);
   const base=LITE_ACTIVE.filter(q=>inTopics(q.id));
-  const ids=source==='unseen'?base.filter(q=>!this.seen().has(q.id)):source==='wrong'?base.filter(q=>this.wrong().has(q.id)):base;
+  const ids=source==='unseen'?base.filter(q=>!this.seen().has(q.id)):source==='wrong'?base.filter(q=>this.wrong().has(q.id)):source==='table'?base.filter(q=>q.table):base;
   return shuffled(ids.map(q=>q.id));
  }
 
  count(source:Source,topics?:readonly string[]):number{
   const inTopics=(id:string)=>!topics||topics.includes(LITE_BY_ID.get(id)!.topicId);
   if(source==='due')return this.due().filter(inTopics).length;
-  return LITE_ACTIVE.filter(q=>inTopics(q.id)&&(source==='all'||(source==='unseen'?!this.seen().has(q.id):this.wrong().has(q.id)))).length;
+  return LITE_ACTIVE.filter(q=>inTopics(q.id)&&(source==='all'||(source==='unseen'?!this.seen().has(q.id):source==='wrong'?this.wrong().has(q.id):q.table))).length;
  }
 
  // An open-ended tutor session: it starts with one question and grows as the student answers.
