@@ -24,7 +24,7 @@ import {ReportComponent} from './report.component';
  @if(info().trap){<div class="insight-block trap"><span class="insight-label">Unde este capcana</span><p>{{info().trap}}</p></div>}
  @if(!info().rationales){<div class="insight-block"><span class="insight-label">Explicație</span><p class="pre">{{q.explanation}}</p></div>}
  @if(info().expressions.length){<div class="insight-block"><span class="insight-label">Termeni din manual</span><div class="term-row">@for(t of info().expressions;track t){<span class="term">{{t}}</span>}</div></div>}
- @if(info().reference;as r){<div class="insight-ref"><span class="ref-book">{{refLine()}}</span><span class="ref-section">{{r.section}}</span><span class="ref-pdf">{{r.edition}} · pagini PDF {{r.pdfPages.join(', ')}}</span><a [href]="q.source" target="_blank" rel="noopener noreferrer">Tematica oficială ↗</a></div>}
+ @if(info().reference;as r){<div class="insight-ref"><span class="ref-book">{{refLine()}}</span><span class="ref-section">{{r.section}}</span><span class="ref-pdf">{{r.edition}} · pagini PDF {{r.pdfPages.join(', ')}}</span>@if(info().verification==='edition'){<span class="ref-pdf" title="Cheia și justificările au fost verificate față de ediția cerută și față de grilele confruntate cu textul de pe aceleași pagini; expresiile din manual urmează să fie confruntate cu textul român.">Set 2026 · verificată pe ediție, în așteptarea confruntării cu textul</span>}<a [href]="q.source" target="_blank" rel="noopener noreferrer">Tematica oficială ↗</a></div>}
  @else{<a class="insight-link" [href]="q.source" target="_blank" rel="noopener noreferrer">Sursa și bibliografia capitolului ↗</a>}
  <div class="insight-report"><app-report [q]="q" [selected]="selected()"/></div>
 </section>}`})

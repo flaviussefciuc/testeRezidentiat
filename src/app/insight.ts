@@ -8,10 +8,13 @@ export interface Insight {
  trap: string|null;
  reference: {book:string;edition:string;chapter:number;pages:number[];pdfPages:number[];section:string}|null;
  expressions: string[];
+ // 'text': wording confronted with the Romanian extract; 'edition': checked against the
+ // required edition and the chapter's text-checked questions, wording confrontation pending.
+ verification: 'text'|'edition'|null;
 }
 
 export function insightOf(q:Question):Insight {
- const s=q as Question&{optionRationales?:string[];learningObjective?:string;reference?:{book:string;edition:string;chapter:number;printedPages:number[];pdfPages:number[];section:string};textbookExpressions?:string[]};
+ const s=q as Question&{optionRationales?:string[];learningObjective?:string;reference?:{book:string;edition:string;chapter:number;printedPages:number[];pdfPages:number[];section:string};textbookExpressions?:string[];verification?:'text'|'edition'};
  const r=s.reference;
  return {
   rationales:Array.isArray(s.optionRationales)&&s.optionRationales.length===q.options.length?s.optionRationales:null,
@@ -19,6 +22,7 @@ export function insightOf(q:Question):Insight {
   trap:q.difficulty?.reason?.trim()||null,
   reference:r?{book:r.book,edition:r.edition,chapter:r.chapter,pages:r.printedPages,pdfPages:r.pdfPages,section:r.section}:null,
   expressions:Array.isArray(s.textbookExpressions)?s.textbookExpressions.filter(e=>e.trim()):[],
+  verification:s.verification==='edition'?'edition':r?'text':null,
  };
 }
 

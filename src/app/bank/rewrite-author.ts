@@ -12,7 +12,7 @@ function seededOrder(id:string):number[]{
  for(let i=4;i>0;i--){const j=Math.floor(next()*(i+1));[order[i],order[j]]=[order[j],order[i]];}
  return order;
 }
-function shuffleRow(id:string,salt:string,[stem,options,key,page,section,objective,rationales]:SourceRow):SourceRow{
+export function shuffleRow(id:string,salt:string,[stem,options,key,page,section,objective,rationales]:SourceRow):SourceRow{
  const order=seededOrder(id+salt),correct=new Set([...key].map(c=>'ABCDE'.indexOf(c)));
  const newKey=order.map((from,to)=>correct.has(from)?'ABCDE'[to]:'').join('');
  return [stem,order.map(i=>options[i]),newKey,page,section,objective,order.map(i=>rationales[i])];

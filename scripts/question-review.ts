@@ -10,7 +10,7 @@ export const REVIEW_CHECKS=['withinIncludedSyllabusPages','contextResolvesAmbigu
 export function questionFingerprint(q:Question):string {
  const s=q as SourcedQuestion;
  const advanced=q as AdvancedQuestion;
- return createHash('sha256').update(JSON.stringify({id:q.id,topicId:q.topicId,type:q.type,stem:q.stem,options:q.options,correct:q.correct,explanation:q.explanation,source:q.source,reference:s.reference??null,learningObjective:s.learningObjective??null,optionRationales:s.optionRationales??null,...(advanced.difficulty?{difficulty:advanced.difficulty,textbookExpressions:advanced.textbookExpressions,replaces:advanced.replaces??null}:{})})).digest('hex');
+ return createHash('sha256').update(JSON.stringify({id:q.id,topicId:q.topicId,type:q.type,stem:q.stem,options:q.options,correct:q.correct,explanation:q.explanation,source:q.source,reference:s.reference??null,learningObjective:s.learningObjective??null,optionRationales:s.optionRationales??null,...(advanced.difficulty?{difficulty:advanced.difficulty,textbookExpressions:advanced.textbookExpressions,replaces:advanced.replaces??null}:{}),...((q as any).verification?{verification:(q as any).verification}:{})})).digest('hex');
 }
 
 export function reviewErrors(q:Question,review:any):string[]{
@@ -18,7 +18,11 @@ export function reviewErrors(q:Question,review:any):string[]{
  const sourced=q as SourcedQuestion;
  const topic=TOPICS.find(t=>t.id===q.topicId);
  if(review?.questionId!==q.id||review?.questionFingerprint!==questionFingerprint(q))errors.push('Review does not match the exact question version');
- if(!['source-checked','clinician-reviewed'].includes(review?.status))errors.push('No completed source review');
+ // 'edition-checked': key and rationales checked against the required edition and the chapter's
+ // source-checked questions, Romanian wording not yet confirmed on the local extract.
+ if(!['source-checked','clinician-reviewed','edition-checked'].includes(review?.status))errors.push('No completed source review');
+ if(review?.status==='edition-checked'&&(q as any).verification!=='edition')errors.push('Edition-level review needs a question marked verification:edition');
+ if(review?.status!=='edition-checked'&&(q as any).verification==='edition')errors.push('A question marked verification:edition cannot claim a text-level review');
  if(!review?.reviewer?.name||!['ai','clinician'].includes(review?.reviewer?.kind)||!Number.isFinite(Date.parse(review?.reviewedAt)))errors.push('Missing reviewer provenance');
  if(review?.status==='clinician-reviewed'&&review?.reviewer?.kind!=='clinician')errors.push('AI review cannot be labelled clinician review');
  if(!review?.learningObjective||review.learningObjective!==sourced.learningObjective)errors.push('Missing or changed learning objective');
@@ -32,11 +36,12 @@ export function reviewErrors(q:Question,review:any):string[]{
  if(!Array.isArray(review?.options)||review.options.length!==5||new Set(review.options.map((o:any)=>o.index)).size!==5||!review.options.every((o:any)=>Number.isInteger(o.index)&&o.index>=0&&o.index<5&&o.verdict===(q.correct.includes(o.index)?'correct':'incorrect')&&o.rationale?.trim()&&o.rationale===sourced.optionRationales?.[o.index]&&o.evidenceLocation?.trim()))errors.push('Incomplete or mismatched option review');
  if(!REVIEW_CHECKS.every(k=>review?.checks?.[k]===true))errors.push('Editorial checks incomplete');
  if(!Array.isArray(review?.unresolvedIssues)||review.unresolvedIssues.length)errors.push('Unresolved issues remain');
- if(q.id.includes('-adv-')){
+ if(q.id.includes('-adv-')||'difficulty' in q){
   const advanced=q as AdvancedQuestion;
   errors.push(...advancedEligibilityErrors(advanced));
   if(JSON.stringify(review?.difficulty)!==JSON.stringify(advanced.difficulty))errors.push('Difficulty assessment differs from question');
-  if(JSON.stringify(review?.textbookExpressions)!==JSON.stringify(advanced.textbookExpressions)||review?.textbookWordingReviewed!==true)errors.push('Textbook wording review incomplete');
+  const wordingOk=review?.status==='edition-checked'?review?.textbookWordingReviewed===false:review?.textbookWordingReviewed===true;
+  if(JSON.stringify(review?.textbookExpressions)!==JSON.stringify(advanced.textbookExpressions)||!wordingOk)errors.push('Textbook wording review incomplete');
  }
  return errors;
 }
