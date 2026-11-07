@@ -7,18 +7,19 @@ Aplicație Angular SPA în limba română pentru pregătirea concursului de rezi
 ## Ce oferă
 
 **Grilele**
-- 3.220 de grile active în toate cele 39 de capitole ale tematicii 2026 (613 CS, 2.607 CM), fiecare confruntată cu pagina din ediția română a bibliografiei și legată de o recenzie editorială cu amprentă exactă (`docs/question-reviews.json`).
+- 3.239 de grile active în toate cele 39 de capitole ale tematicii 2026, fiecare cu o recenzie editorială cu amprentă exactă (`docs/question-reviews.json`): 3.220 confruntate cu pagina din ediția română a bibliografiei și, din noiembrie 2026, seturile „2026” scrise pentru paginile cerute în caietele 2023–2025, verificate pe ediția cerută și marcate ca atare până la confruntarea cu textul.
 - După verificare, fiecare variantă își afișează verdictul (adevărat/fals, bifat/omis), punctul obținut la CM și justificarea din manual; cardul explicativ adaugă obiectivul grilei, capcana urmărită de distractori, termenii din manual și pagina.
 - Negațiile și calificativele decisive din enunț sunt evidențiate; grilele negative au un avertisment explicit.
 - Testele nu combină grile-surori și amestecă variantele; orice grilă poate fi raportată editorilor (issue GitHub precompletat, eticheta `raport-grila`).
 
 **Moduri de lucru**
-- Antrenament pe capitole și surse (toate, nevăzute, greșite, scadente), antrenor adaptiv fără număr fix de grile, simulări de 200/100/52 de grile cu antrenor de ritm (72 s/grilă), foaie de răspuns și condiții reale de examen.
+- Antrenament pe capitole și surse (toate, nevăzute, greșite, scadente, din tabele și clasificări), antrenor adaptiv fără număr fix de grile, simulări de 200/100/52 de grile compuse ca în caietele 2023–2025 (ponderea capitolelor, 2/3/4 răspunsuri la CM ca în 2025, grile din tabele), cu antrenor de ritm (72 s/grilă), foaie de răspuns și condiții reale de examen.
 - Recapitulare programată (Leitner) calculată din istoricul răspunsurilor, cu marcarea încrederii (Sigur/Nesigur/Ghicesc).
 - Adevărat sau fals: ~16.000 de afirmații verificate, cu propria recapitulare programată; carduri rapide; provocarea zilei (aceleași 10 grile pentru toți); teste tipărite cu cod, barem și corectare din foaia de răspuns.
 - Fișe de recapitulare pe capitole (în ordinea paginilor, cu capcane, test de diagnostic, tipărire și citire cu voce), pagini de recitit generate din greșeli, notițe și colecție personală, căutare în bancă, export Anki.
 
 **Planificare și analiză**
+- Predicția 2026: cele 600 de grile ale caietelor 2023–2025 atribuite pe capitol și pagină (`public/exam-history.json`), cu numărul așteptat de grile, punctele în joc, adâncimea băncii și paginile cerute repetat, pe care se poate exersa direct.
 - Planul până la examen pe zile, ponderat după punctele pe care fiecare capitol le-a avut în caietele 2023–2025 și după punctele slabe; seria zilnică și calendarul activității; harta tematicii; indicele de pregătire (progres în bancă, nu predicție).
 - Rezultate cu lecțiile de reținut, harta capitolului, unde s-au dus punctele (omisiuni, bifări greșite, CM anulate), obiceiul de marcare la CM, calibrarea încrederii, ritmul pe grilă și motivele greșelilor; raport săptămânal, jaloane și strategia personalizată pentru ziua examenului.
 
@@ -53,7 +54,7 @@ Migrarea din `supabase/migrations/202609110001_attempts.sql` creează rezultate 
 
 Configurează `SUPABASE_URL` și `SUPABASE_PUBLISHABLE_KEY` în Vercel. În Supabase → Authentication → URL Configuration, setează Site URL la `https://testerezidentiat.vercel.app` și adaugă `https://testerezidentiat.vercel.app/cont` în Redirect URLs.
 
-Fiecare push pe `main` construiește două proiecte Vercel (`testerezidentiat` și `teste-rezidentiat`). Pe planul Hobby limita este de 100 de deploy-uri pe zi; după atingerea ei, deploy-urile apar ca „rate limited” și trebuie repornite (Redeploy sau un push nou) după 24 de ore.
+Fiecare push pe `main` construiește două proiecte Vercel (`testerezidentiat` și `teste-rezidentiat`). Pe planul Hobby, contul are o limită de 100 de deploy-uri care se reîncarcă treptat (aproximativ unul la 14 minute, nu o resetare la 24 de ore); după atingerea ei, deploy-urile apar ca „rate limited” și trebuie repornite (Redeploy sau un commit gol) când limita permite din nou. De aceea schimbările se publică în loturi de câteva commit-uri, nu la fiecare commit.
 
 `node scripts/verify-cloud.mjs` verifică autentificarea, sincronizarea și izolarea datelor cu două conturi temporare, eliminate la final.
 
