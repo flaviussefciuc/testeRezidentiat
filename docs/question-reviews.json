@@ -224747,7 +224747,7 @@
  },
  {
   "questionId": "ortopedie-adv-002-v2",
-  "questionFingerprint": "0843de31354a72f8836ddd19db558184c2d5b6047d7a911408051e9e3318797b",
+  "questionFingerprint": "91364d2f279b089352cd26cc3d8c4baeadb2c596a71f7e1d87a8cd7558a67fe0",
   "status": "source-checked",
   "learningObjective": "Epidemiologia patologiei musculoscheletale.",
   "reference": {
@@ -224772,7 +224772,7 @@
    {
     "index": 1,
     "verdict": "correct",
-    "rationale": "40%.",
+    "rationale": "Aproximativ 40% dintre prezentările la camera de gardă sunt musculoscheletale.",
     "evidenceLocation": "Lawrence, p. 585, Traumatismele"
    },
    {
@@ -224808,7 +224808,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.025Z",
+  "reviewedAt": "2026-11-08T12:02:17.365Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -224820,7 +224820,8 @@
    "Dorsalgia"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-002: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-002: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-003-v2",
@@ -224901,7 +224902,7 @@
  },
  {
   "questionId": "ortopedie-adv-005-v2",
-  "questionFingerprint": "ac8823208f10d2592d97c08a4a859280d2c4efec39a7fc97332bcf75d0b6d2f4",
+  "questionFingerprint": "070ff1af239915266deffc829cd83406d754d8560b1b4f2c897e33c831750547",
   "status": "source-checked",
   "learningObjective": "Traiectul fracturii.",
   "reference": {
@@ -224926,7 +224927,7 @@
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: încărcarea verticală produce fracturi prin compresie sau impactare, nu un traiect transversal.",
     "evidenceLocation": "Lawrence, p. 586, Traumatismele"
    },
    {
@@ -224962,7 +224963,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.027Z",
+  "reviewedAt": "2026-11-08T12:02:17.367Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -224973,11 +224974,12 @@
    "energie redusă"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-005: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-005: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-008-v2",
-  "questionFingerprint": "844aaf6044ea76e5114d47cbd67e5d9ecc01f4c4565aeb2b16fd78ee346a0355",
+  "questionFingerprint": "89fdc29d346bfc9b13ead63c2863a03e174110c6c8c5568cae36cc2e99532b13",
   "status": "source-checked",
   "learningObjective": "Principiile radiografiei în fracturi.",
   "reference": {
@@ -225004,7 +225006,7 @@
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: sunt necesare două incidențe perpendiculare (anteroposterioară și de profil).",
     "evidenceLocation": "Lawrence, p. 588, 590, Traumatismele"
    },
    {
@@ -225040,7 +225042,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.028Z",
+  "reviewedAt": "2026-11-08T12:02:17.367Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -225052,11 +225054,12 @@
    "articulaţia proximală"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-008: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-008: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-009-v2",
-  "questionFingerprint": "3c8bee9f0ba2d399b1889cfdc065ae2968aeab63f943916602b5c5bf087913fe",
+  "questionFingerprint": "423ab2f693a2f4cf6e03e451ee36be8ba729edcdfe85f93c1554dfeba57e41fc",
   "status": "source-checked",
   "learningObjective": "Embolia grăsoasă.",
   "reference": {
@@ -225087,7 +225090,7 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: nu există un test de laborator specific; diagnosticul este clinic.",
     "evidenceLocation": "Lawrence, p. 590, Traumatismele"
    },
    {
@@ -225117,7 +225120,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.029Z",
+  "reviewedAt": "2026-11-08T12:02:17.367Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -225129,11 +225132,12 @@
    "diagnostic clinic"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-009: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-009: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-010-v2",
-  "questionFingerprint": "545912c6e057a0c587e452b082cc0e132f3d285ea2240d854569d5ac1b0391b0",
+  "questionFingerprint": "6d8c879d4ab9a393693adbd3421d8c896cd67bea446b63caec49459c956ba077",
   "status": "source-checked",
   "learningObjective": "Imobilizarea fracturii.",
   "reference": {
@@ -225152,7 +225156,7 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: imobilizarea corectă cuprinde articulațiile adiacente.",
     "evidenceLocation": "Lawrence, p. 590, Traumatismele"
    },
    {
@@ -225164,19 +225168,19 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: sunt suficiente articulațiile supraiacentă și subiacentă.",
     "evidenceLocation": "Lawrence, p. 590, Traumatismele"
    },
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: atela imobilizează și articulațiile de deasupra și de dedesubtul fracturii.",
     "evidenceLocation": "Lawrence, p. 590, Traumatismele"
    },
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: se imobilizează ambele articulații, proximală și distală.",
     "evidenceLocation": "Lawrence, p. 590, Traumatismele"
    }
   ],
@@ -225194,7 +225198,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.029Z",
+  "reviewedAt": "2026-11-08T12:02:17.367Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -225205,7 +225209,8 @@
    "supraiacente"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-010: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-010: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-011-v2",
@@ -225286,7 +225291,7 @@
  },
  {
   "questionId": "ortopedie-adv-013-v2",
-  "questionFingerprint": "0c9695a4573298ec16d70a634152b9635f694016338f214cde839b7e6733ae43",
+  "questionFingerprint": "8237592587e7e741c69c68e7dc4ebe2608380fae0d7e2d89580b41bd7a2584d0",
   "status": "source-checked",
   "learningObjective": "Indicațiile reducerii deschise.",
   "reference": {
@@ -225317,19 +225322,19 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: fractura de scafoid nedeplasată se tratează prin imobilizare gipsată.",
     "evidenceLocation": "Lawrence, p. 591, Traumatismele"
    },
    {
     "index": 3,
     "verdict": "correct",
-    "rationale": "Eșec.",
+    "rationale": "Eșecul reducerii închise este o indicație de reducere deschisă.",
     "evidenceLocation": "Lawrence, p. 591, Traumatismele"
    },
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: indicația depinde de deplasare și de eșecul reducerii închise, nu de traiect.",
     "evidenceLocation": "Lawrence, p. 591, Traumatismele"
    }
   ],
@@ -225347,7 +225352,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.031Z",
+  "reviewedAt": "2026-11-08T12:02:17.367Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -225359,11 +225364,12 @@
    "intra-articular"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-013: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-013: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-015-v2",
-  "questionFingerprint": "8f667ede1ea6d8b92c09bfbef4bd1864f922ee196ee11666191081eb122d6468",
+  "questionFingerprint": "6b85d464e28889396ec9bcc52de6adf5cb05baa69df693d3b36df0a664ad4618",
   "status": "source-checked",
   "learningObjective": "Indicațiile fixării externe.",
   "reference": {
@@ -225406,7 +225412,7 @@
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: fractura de scafoid nedeplasată se imobilizează gipsat.",
     "evidenceLocation": "Lawrence, p. 594, Traumatismele"
    }
   ],
@@ -225424,7 +225430,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.032Z",
+  "reviewedAt": "2026-11-08T12:02:17.368Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -225436,11 +225442,12 @@
    "pelvine instabile"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-015: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-015: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-016-v2",
-  "questionFingerprint": "bfc0a7273180188b13490678f9e7a1d754c5e1ea4614cce5ee50b94f93d72825",
+  "questionFingerprint": "50971e20a4ab4f27d6ecaf217f47d12068246e528b9156404d84cf7b2f8d8e03",
   "status": "source-checked",
   "learningObjective": "Complicații locale versus sistemice.",
   "reference": {
@@ -225459,13 +225466,13 @@
    {
     "index": 0,
     "verdict": "correct",
-    "rationale": "Locală.",
+    "rationale": "Întârzierea în consolidare este o complicație locală a vindecării.",
     "evidenceLocation": "Lawrence, p. 594, Traumatismele"
    },
    {
     "index": 1,
     "verdict": "correct",
-    "rationale": "Locală.",
+    "rationale": "Calusul vicios, consolidarea în poziție greșită, este o complicație locală.",
     "evidenceLocation": "Lawrence, p. 594, Traumatismele"
    },
    {
@@ -225483,7 +225490,7 @@
    {
     "index": 4,
     "verdict": "correct",
-    "rationale": "Locală.",
+    "rationale": "Pseudartroza, lipsa consolidării, este o complicație locală.",
     "evidenceLocation": "Lawrence, p. 594, Traumatismele"
    }
   ],
@@ -225501,7 +225508,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.032Z",
+  "reviewedAt": "2026-11-08T12:02:17.368Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -225513,11 +225520,12 @@
    "Calusul"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-016: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-016: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-019-v2",
-  "questionFingerprint": "3b02a174a85160d91936a7b492a2b4919007527065628367bc1fed4c3968b8f3",
+  "questionFingerprint": "c76326b4f290ee5e2f8aac293d93601a6b2167c04a506af5de969fa7915ba629",
   "status": "source-checked",
   "learningObjective": "Poziția în luxația de șold.",
   "reference": {
@@ -225536,19 +225544,19 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: luxația posterioară ține membrul în flexie, adducție și rotație internă.",
     "evidenceLocation": "Lawrence, p. 595, Traumatismele"
    },
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: abducția și rotația externă caracterizează luxația anterioară.",
     "evidenceLocation": "Lawrence, p. 595, Traumatismele"
    },
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: extensia, abducția și rotația externă sugerează luxația anterioară.",
     "evidenceLocation": "Lawrence, p. 595, Traumatismele"
    },
    {
@@ -225560,7 +225568,7 @@
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: membrul are o poziție vicioasă caracteristică: flexie, adducție, rotație internă.",
     "evidenceLocation": "Lawrence, p. 595, Traumatismele"
    }
   ],
@@ -225578,7 +225586,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.033Z",
+  "reviewedAt": "2026-11-08T12:02:17.368Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -225589,11 +225597,12 @@
    "adducţie şi rotaţie internă"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-019: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-019: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-021-v2",
-  "questionFingerprint": "ce3a45113b57141e9f70c7b0d7757d1108d29976dd4c6545a4676678d1263924",
+  "questionFingerprint": "ad2323c62eec4ddda016b72aca05858b41dd965a77359df0ab7fd025195e1ac7",
   "status": "source-checked",
   "learningObjective": "Fractura Colles.",
   "reference": {
@@ -225620,7 +225629,7 @@
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: reducerea se face în flexie palmară și deviație ulnară.",
     "evidenceLocation": "Lawrence, p. 595, 596, Traumatismele"
    },
    {
@@ -225656,7 +225665,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.034Z",
+  "reviewedAt": "2026-11-08T12:02:17.368Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -225668,11 +225677,12 @@
    "deviaţie ulnară"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-021: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-021: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-023-v2",
-  "questionFingerprint": "a58381ab69ba7ae696f98a8b4b47a659d3decf1da0b5e4feca9c5969570bbd70",
+  "questionFingerprint": "b74fe668b0a33b51fdd4b5f62fb3e5c18668aa1ddcdb0b077d0f550ea4678141",
   "status": "source-checked",
   "learningObjective": "Complicațiile fracturii supracondiliene.",
   "reference": {
@@ -225705,7 +225715,7 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: sindromul de compartiment poate exista cu puls radial prezent.",
     "evidenceLocation": "Lawrence, p. 596, 600, Traumatismele"
    },
    {
@@ -225717,7 +225727,7 @@
    {
     "index": 4,
     "verdict": "correct",
-    "rationale": ">2 ore.",
+    "rationale": "Ischemia de peste 2 ore poate produce leziuni musculare și nervoase permanente.",
     "evidenceLocation": "Lawrence, p. 596, 600, Traumatismele"
    }
   ],
@@ -225735,7 +225745,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.035Z",
+  "reviewedAt": "2026-11-08T12:02:17.368Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -225747,7 +225757,8 @@
    "2 ore"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-023: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-023: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-024-v2",
@@ -225830,7 +225841,7 @@
  },
  {
   "questionId": "ortopedie-adv-025-v2",
-  "questionFingerprint": "8822d8f7e20281d19f51ae82fd2b30062e09e73935c143cec90de41325d6663b",
+  "questionFingerprint": "5039fa48d3ecdf8ccc89b081437fc6e7f158794249a076a0049d0e3fab7f2bca",
   "status": "source-checked",
   "learningObjective": "Fracturile de șold.",
   "reference": {
@@ -225849,7 +225860,7 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: fractura intertrohanteriană este extracapsulară, cu vascularizație bună; necroza ține de fractura de col.",
     "evidenceLocation": "Lawrence, p. 598, Traumatismele"
    },
    {
@@ -225891,7 +225902,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.037Z",
+  "reviewedAt": "2026-11-08T12:02:17.369Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -225903,11 +225914,12 @@
    "extracapsular"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-025: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-025: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-026-v2",
-  "questionFingerprint": "e56a7a6c912ed727ff48ce53bb50515fd6613f2af05bb731c00bfa8b2d517ed3",
+  "questionFingerprint": "41b359f586caffee39d6e69f7abb392ea4cbfc121287e9b03d0f07d3e70127c5",
   "status": "source-checked",
   "learningObjective": "Hemoragia în fractura femurală.",
   "reference": {
@@ -225926,25 +225938,25 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: pierderea este de 1–3 unități de sânge, suficientă pentru șoc.",
     "evidenceLocation": "Lawrence, p. 598, Traumatismele"
    },
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: pierderea este de 1–3 unități de sânge, cu risc de șoc.",
     "evidenceLocation": "Lawrence, p. 598, Traumatismele"
    },
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: fractura închisă de femur pierde 1–3 unități de sânge.",
     "evidenceLocation": "Lawrence, p. 598, Traumatismele"
    },
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: pierderea obișnuită este de 1–3 unități.",
     "evidenceLocation": "Lawrence, p. 598, Traumatismele"
    },
    {
@@ -225968,7 +225980,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.037Z",
+  "reviewedAt": "2026-11-08T12:02:17.369Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -225979,11 +225991,12 @@
    "1-3 unităţi"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-026: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-026: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-027-v2",
-  "questionFingerprint": "067319741bf19221e109e6c2c8cde57b5401d689fdb37dfb2f9eecd2569f3bfe",
+  "questionFingerprint": "1cf4f59249386462a5afb27f8ca0c58dbc78a41a4d20704010a99b2bc5a25101",
   "status": "source-checked",
   "learningObjective": "Complicațiile luxației de șold.",
   "reference": {
@@ -226008,7 +226021,7 @@
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: nervul amenințat în luxația posterioară este sciaticul.",
     "evidenceLocation": "Lawrence, p. 598, Traumatismele"
    },
    {
@@ -226026,7 +226039,7 @@
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: întârzierea peste 8–12 ore crește riscul de necroză avasculară; reducerea se face de urgență.",
     "evidenceLocation": "Lawrence, p. 598, Traumatismele"
    }
   ],
@@ -226044,7 +226057,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.038Z",
+  "reviewedAt": "2026-11-08T12:02:17.369Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -226056,11 +226069,12 @@
    "8-12 ore"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-027: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-027: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-028-v2",
-  "questionFingerprint": "d4a9d2ea98707852008dae89a25303ba62fa352723c88706a6abd593101dbad2",
+  "questionFingerprint": "385c852becf7bc19b5f40957a44210c694f65c5560321367bd56b3f5db28342e",
   "status": "source-checked",
   "learningObjective": "Fracturile de tibie.",
   "reference": {
@@ -226079,7 +226093,7 @@
    {
     "index": 0,
     "verdict": "correct",
-    "rationale": "9 ori.",
+    "rationale": "Fracturile diafizare de tibie sunt de aproximativ 9 ori mai frecvente decât cele femurale.",
     "evidenceLocation": "Lawrence, p. 598, Traumatismele"
    },
    {
@@ -226121,7 +226135,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.038Z",
+  "reviewedAt": "2026-11-08T12:02:17.369Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -226133,7 +226147,8 @@
    "disproporţionat"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-028: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-028: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-031-v2",
@@ -226214,7 +226229,7 @@
  },
  {
   "questionId": "ortopedie-adv-032-v2",
-  "questionFingerprint": "f7d6b51c574c5d96092ef1a3181b43d62e890d9d096992a83119cc180f390c07",
+  "questionFingerprint": "403378d07c6efe50dbb2863b400d5505c4c83b1432729d993a9e55bc75e73e2e",
   "status": "source-checked",
   "learningObjective": "Diagnosticul sindromului de compartiment.",
   "reference": {
@@ -226253,7 +226268,7 @@
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: paloarea și dispariția pulsului sunt semne tardive; gipsul se desface la apariția durerii.",
     "evidenceLocation": "Lawrence, p. 600, 601, Amputația și sindromul de compartiment"
    },
    {
@@ -226277,7 +226292,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.040Z",
+  "reviewedAt": "2026-11-08T12:02:17.369Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -226289,11 +226304,12 @@
    "30---40"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-032: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-032: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-037-v2",
-  "questionFingerprint": "05e716f834ed2794875281ced0d402fc6e6979e0218549d82175a8fb70fc93a9",
+  "questionFingerprint": "58f3216f983f6604e1e42ce0449f43b2be0e4ee5dbdb02e52e0c10c4dd4a2a7d",
   "status": "source-checked",
   "learningObjective": "Meniscul.",
   "reference": {
@@ -226314,7 +226330,7 @@
    {
     "index": 0,
     "verdict": "correct",
-    "rationale": "40–60%.",
+    "rationale": "Meniscurile transmit 40–60% din greutatea care traversează genunchiul.",
     "evidenceLocation": "Lawrence, p. 606, 607, Leziuni sportive"
    },
    {
@@ -226356,7 +226372,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.042Z",
+  "reviewedAt": "2026-11-08T12:02:17.369Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -226368,7 +226384,8 @@
    "McMurray"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-037: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-037: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-038-v2",
@@ -226451,7 +226468,7 @@
  },
  {
   "questionId": "ortopedie-adv-039-v2",
-  "questionFingerprint": "c288aeca369fda1860118980eac64a62f4a3d5740729b6f1dca41f63fe848071",
+  "questionFingerprint": "ef03177484571ee3afcc8e4ab149a9d4f2edd4098d25457da77b405b49e73318",
   "status": "source-checked",
   "learningObjective": "Ruptura tendonului Ahilean.",
   "reference": {
@@ -226472,25 +226489,25 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: entorsa talofibulară se testează prin sertarul anterior al gleznei.",
     "evidenceLocation": "Lawrence, p. 608, 609, Leziuni sportive"
    },
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: miozita osificantă nu suprimă flexia plantară la strângerea gambei.",
     "evidenceLocation": "Lawrence, p. 608, 609, Leziuni sportive"
    },
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: ruptura tibialului posterior produce picior plat dobândit, nu un test Thompson pozitiv.",
     "evidenceLocation": "Lawrence, p. 608, 609, Leziuni sportive"
    },
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: fractura de stres nu întrerupe continuitatea tendonului ahilean.",
     "evidenceLocation": "Lawrence, p. 608, 609, Leziuni sportive"
    },
    {
@@ -226514,7 +226531,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.045Z",
+  "reviewedAt": "2026-11-08T12:02:17.370Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -226525,7 +226542,8 @@
    "Thompson"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-039: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-039: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-040-v2",
@@ -226608,7 +226626,7 @@
  },
  {
   "questionId": "ortopedie-adv-041-v2",
-  "questionFingerprint": "49aef6bd1df74a8daa244997849f8634674a02e1d74f328a92d659890dc8a691",
+  "questionFingerprint": "8f217cc33ee28c5ff78c17b5598daf469048e1dd6c7e6ab76b16ccc36021cceb",
   "status": "source-checked",
   "learningObjective": "Afecțiunile șoldului la copil.",
   "reference": {
@@ -226645,7 +226663,7 @@
    {
     "index": 3,
     "verdict": "correct",
-    "rationale": "~33%.",
+    "rationale": "Epifizioliza este bilaterală la aproximativ o treime dintre copii.",
     "evidenceLocation": "Lawrence, p. 614, Patologia pediatrică"
    },
    {
@@ -226669,7 +226687,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.047Z",
+  "reviewedAt": "2026-11-08T12:02:17.370Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -226681,7 +226699,8 @@
    "obturator"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-041: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-041: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-043-v2",
@@ -227153,7 +227172,7 @@
  },
  {
   "questionId": "ortopedie-adv-050-v2",
-  "questionFingerprint": "f9d3b171ccba405232ed45891e775851932bde61d75eaeb097276712e0898425",
+  "questionFingerprint": "4d397a1c5ab5f8d624976353f2ab794e018528d88a7b7112baf75d072dd36882",
   "status": "source-checked",
   "learningObjective": "Tipurile de mers.",
   "reference": {
@@ -227174,19 +227193,19 @@
    {
     "index": 0,
     "verdict": "correct",
-    "rationale": "60%.",
+    "rationale": "Faza de sprijin ocupă aproximativ 60% din ciclul mersului.",
     "evidenceLocation": "Lawrence, p. 633, 632, Mersul"
    },
    {
     "index": 1,
     "verdict": "correct",
-    "rationale": "40%.",
+    "rationale": "Faza de balansare ocupă aproximativ 40% din ciclu.",
     "evidenceLocation": "Lawrence, p. 633, 632, Mersul"
    },
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: mersul Trendelenburg rezultă din insuficiența abductorilor șoldului (fesierul mijlociu și mic).",
     "evidenceLocation": "Lawrence, p. 633, 632, Mersul"
    },
    {
@@ -227216,7 +227235,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.053Z",
+  "reviewedAt": "2026-11-08T12:02:17.370Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -227228,11 +227247,12 @@
    "60% din ciclu"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-050: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-050: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-052-v2",
-  "questionFingerprint": "c00ebbbd24d92ccc377cb9329d8aa8a647e25c5b72645ba566189cbb9e11b66b",
+  "questionFingerprint": "a4e0c46dee527b4627a8e6d6c057669419cebaa84da89da03d803b51dcd9b2bc",
   "status": "source-checked",
   "learningObjective": "Recuperarea după fractură.",
   "reference": {
@@ -227277,7 +227297,7 @@
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: articulațiile neimobilizate se mobilizează precoce, pentru a preveni redoarea.",
     "evidenceLocation": "Lawrence, p. 592, 593, Traumatismele"
    }
   ],
@@ -227295,7 +227315,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.054Z",
+  "reviewedAt": "2026-11-08T12:02:17.370Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -227307,11 +227327,12 @@
    "poziţie funcţională"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-052: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-052: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-054-v2",
-  "questionFingerprint": "d019a88ad8cfba9cd8b63ec77bb7a1d56b2d5cb59b8e508ed8fdc8dd0593a17c",
+  "questionFingerprint": "6750cd4c2e3a11e412a0f9c08f1924e3bc618656c54f8c501e7bf7c5ccfe5c57",
   "status": "source-checked",
   "learningObjective": "Sindromul de compartiment cronic.",
   "reference": {
@@ -227342,7 +227363,7 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: în sindromul de compartiment de efort presiunea revine lent la normal după efort.",
     "evidenceLocation": "Lawrence, p. 604, Leziuni sportive"
    },
    {
@@ -227372,7 +227393,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.061Z",
+  "reviewedAt": "2026-11-08T12:02:17.371Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -227384,7 +227405,8 @@
    "scad lent"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-054: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-054: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-055-v2",
@@ -227465,7 +227487,7 @@
  },
  {
   "questionId": "ortopedie-adv-056-v2",
-  "questionFingerprint": "3adb12d79908e1643a66b067cffb151d5de6f3b222b4e3a5ea5b180011f4d533",
+  "questionFingerprint": "698d6a8e81ad2dc35b826a4cb93fd567cc1476581597e0f718b3c9d8d8e1e7b3",
   "status": "source-checked",
   "learningObjective": "Turf toe.",
   "reference": {
@@ -227486,19 +227508,19 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: miozita osificantă apare după contuzii musculare.",
     "evidenceLocation": "Lawrence, p. 609, 610, Leziuni sportive"
    },
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: spondiloliza este fractura de stres a pars interarticularis lombare.",
     "evidenceLocation": "Lawrence, p. 609, 610, Leziuni sportive"
    },
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: fractura boxerului este a colului metacarpianului 5.",
     "evidenceLocation": "Lawrence, p. 609, 610, Leziuni sportive"
    },
    {
@@ -227510,7 +227532,7 @@
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: degetul Mallet este avulsia extensorului de la falanga distală.",
     "evidenceLocation": "Lawrence, p. 609, 610, Leziuni sportive"
    }
   ],
@@ -227528,7 +227550,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.062Z",
+  "reviewedAt": "2026-11-08T12:02:17.371Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -227539,11 +227561,12 @@
    "hallux rigidus"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-056: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-056: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-059-v2",
-  "questionFingerprint": "b13cbec9447b82eb81503afd8a9a256c8f326fa826ed714dea00a48632fa1390",
+  "questionFingerprint": "06ba720fec7e468ef13193efd05f5852f6064cdd9cea6d2a94926f2d43d480e9",
   "status": "source-checked",
   "learningObjective": "Aliniamentul membrelor la copil.",
   "reference": {
@@ -227574,7 +227597,7 @@
    {
     "index": 2,
     "verdict": "correct",
-    "rationale": "20°.",
+    "rationale": "Sugarii au un genu varum fiziologic de aproximativ 20°.",
     "evidenceLocation": "Lawrence, p. 611, Patologia pediatrică"
    },
    {
@@ -227604,7 +227627,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.063Z",
+  "reviewedAt": "2026-11-08T12:02:17.371Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -227616,11 +227639,12 @@
    "7"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-059: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-059: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-060-v2",
-  "questionFingerprint": "008249d41b7c55d61c5314f6563de04dd9c8a65d8a114b929c9cd1966407c58e",
+  "questionFingerprint": "72e401fafc91803ad4d98df2afde2e150cc199d1b7fdc91dff73f99f86c3bbb4",
   "status": "source-checked",
   "learningObjective": "Diformitățile piciorului.",
   "reference": {
@@ -227641,7 +227665,7 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: piciorul scobit sugerează o boală neuromusculară, precum Charcot-Marie-Tooth.",
     "evidenceLocation": "Lawrence, p. 611, 613, Patologia pediatrică"
    },
    {
@@ -227653,7 +227677,7 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: piciorul plat flexibil nu necesită tratament chirurgical.",
     "evidenceLocation": "Lawrence, p. 611, 613, Patologia pediatrică"
    },
    {
@@ -227683,7 +227707,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.064Z",
+  "reviewedAt": "2026-11-08T12:02:17.371Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -227695,11 +227719,12 @@
    "unire congenitală"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-060: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-060: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-062-v2",
-  "questionFingerprint": "1abd201d782e612bceecb2933662d8898d69406475c5da965dd6762278912a25",
+  "questionFingerprint": "232a2c9d49480bd89ed277b1c3724da940702b4e4368be63c38fb6a6c075cb2f",
   "status": "source-checked",
   "learningObjective": "Tipurile de scolioză.",
   "reference": {
@@ -227718,7 +227743,7 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: rotația vertebrală fixă caracterizează scolioza structurală.",
     "evidenceLocation": "Lawrence, p. 615, Patologia pediatrică"
    },
    {
@@ -227760,7 +227785,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.064Z",
+  "reviewedAt": "2026-11-08T12:02:17.371Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -227772,11 +227797,12 @@
    "se apleacă înainte"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-062: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-062: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-065-v2",
-  "questionFingerprint": "6f3ebfe5f1e9bde01aa8bd8408094563863f474d8665f592a94ab46b5b9b577e",
+  "questionFingerprint": "89e0e7680f9a7d7cea4ddb4439f1ce8701610d6f627c085199474a2589be4ca6",
   "status": "source-checked",
   "learningObjective": "Patologia artritei reumatoide.",
   "reference": {
@@ -227803,7 +227829,7 @@
    {
     "index": 1,
     "verdict": "correct",
-    "rationale": "Pannus.",
+    "rationale": "Pannusul sinovial invadează și distruge cartilajul articular.",
     "evidenceLocation": "Lawrence, p. 620, 619, Bolile inflamatorii și necroza osoasă"
    },
    {
@@ -227839,7 +227865,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.065Z",
+  "reviewedAt": "2026-11-08T12:02:17.371Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -227851,7 +227877,8 @@
    "poliserozită"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-065: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-065: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-067-v2",
@@ -227932,7 +227959,7 @@
  },
  {
   "questionId": "ortopedie-adv-070-v2",
-  "questionFingerprint": "77d6cfbe6735d08c9ccb61ac47af88d367c115aa5d4681b09ca10dfa13e9d722",
+  "questionFingerprint": "30e1aa8505b1227e3980cec01a67388cb4720903421912bc286640c89d1828c9",
   "status": "source-checked",
   "learningObjective": "Structura osului.",
   "reference": {
@@ -227957,7 +227984,7 @@
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: matricea osoasă este colagen de tip I; tipul II este al cartilajului.",
     "evidenceLocation": "Lawrence, p. 627, Bolile metabolice"
    },
    {
@@ -227969,7 +227996,7 @@
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: osul conține aproximativ 70% mineral și 30% matrice.",
     "evidenceLocation": "Lawrence, p. 627, Bolile metabolice"
    },
    {
@@ -227993,7 +228020,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.067Z",
+  "reviewedAt": "2026-11-08T12:02:17.372Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -228005,11 +228032,12 @@
    "70%"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-070: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-070: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-072-v2",
-  "questionFingerprint": "eeeebbc59aeb750a9e3f95ac2794fc2930314e20bc645b072f49042079f621e0",
+  "questionFingerprint": "f498d3099bd8485c3dd19c33a85c0c391a6aa399cc7df17e4d4923cfa0abfb8f",
   "status": "source-checked",
   "learningObjective": "Hiperparatiroidismul.",
   "reference": {
@@ -228046,7 +228074,7 @@
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: forma primară se datorează adenomului sau hiperplaziei paratiroidiene; deficitul de vitamina D produce osteomalacie.",
     "evidenceLocation": "Lawrence, p. 628, Bolile metabolice"
    },
    {
@@ -228070,7 +228098,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.067Z",
+  "reviewedAt": "2026-11-08T12:02:17.372Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -228082,7 +228110,8 @@
    "adenom"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-072: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-072: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-074-v2",
@@ -228165,7 +228194,7 @@
  },
  {
   "questionId": "ortopedie-adv-075-v2",
-  "questionFingerprint": "9abf7e752bc6ac624056eaa3bf1800850ddc173ed09b4654c72679e0bd9bbc13",
+  "questionFingerprint": "d6c95225c8e4cea743b36777a21145ca6e492efcd627fe7e7e262b5139c41546",
   "status": "source-checked",
   "learningObjective": "Degetul schiorului.",
   "reference": {
@@ -228186,7 +228215,7 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: flexia plantară a gleznei ține de tricepsul sural.",
     "evidenceLocation": "Lawrence, p. 607, 608, Leziuni sportive"
    },
    {
@@ -228198,19 +228227,19 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: stabilitatea anterioară a talusului ține de ligamentul talofibular anterior.",
     "evidenceLocation": "Lawrence, p. 607, 608, Leziuni sportive"
    },
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: ligamentul descris aparține policelui, nu halucelui.",
     "evidenceLocation": "Lawrence, p. 607, 608, Leziuni sportive"
    },
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: extensia articulației interfalangiene distale depinde de tendonul extensor terminal.",
     "evidenceLocation": "Lawrence, p. 607, 608, Leziuni sportive"
    }
   ],
@@ -228228,7 +228257,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.069Z",
+  "reviewedAt": "2026-11-08T12:02:17.372Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -228239,7 +228268,8 @@
    "opoziţie"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-075: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-075: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-077-v2",
@@ -228320,7 +228350,7 @@
  },
  {
   "questionId": "ortopedie-adv-078-v2",
-  "questionFingerprint": "5c12b23b4db1109d4a73968039ced3793c203ef68d0b448cdbde5b66b9ec78af",
+  "questionFingerprint": "c3761d68abe30f26357feeece318dc0e58bbf6de58c57b9c41366835ad642821",
   "status": "source-checked",
   "learningObjective": "Descrierea deplasării.",
   "reference": {
@@ -228345,13 +228375,13 @@
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: prin convenție se descrie fragmentul distal față de cel proximal.",
     "evidenceLocation": "Lawrence, p. 587, Traumatismele"
    },
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: deplasarea se descrie în cel puțin două planuri; contactul real rezultă din ambele.",
     "evidenceLocation": "Lawrence, p. 587, Traumatismele"
    },
    {
@@ -228363,7 +228393,7 @@
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: angulația se descrie în planurile coronal și sagital.",
     "evidenceLocation": "Lawrence, p. 587, Traumatismele"
    }
   ],
@@ -228381,7 +228411,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.071Z",
+  "reviewedAt": "2026-11-08T12:02:17.373Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -228393,11 +228423,12 @@
    "fragmentul distal"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-078: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-078: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-079-v2",
-  "questionFingerprint": "dca022f8de2b0986ac42979d18abd993d1439f5fbf1b7d39ea64e93af3a9781d",
+  "questionFingerprint": "efcd5e53f326b7596fde1b975fb967ff009ff84b5b1977664a846428b763f193",
   "status": "source-checked",
   "learningObjective": "Convențiile de angulație.",
   "reference": {
@@ -228416,31 +228447,31 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: orientarea anterior–posterior ține de planul sagital.",
     "evidenceLocation": "Lawrence, p. 589, Traumatismele"
    },
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: vârful angulației este opus direcției fragmentului distal, deci medial.",
     "evidenceLocation": "Lawrence, p. 589, Traumatismele"
    },
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: vârful angulației este medial.",
     "evidenceLocation": "Lawrence, p. 589, Traumatismele"
    },
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: în planul coronal vârful este medial sau lateral, nu anterior.",
     "evidenceLocation": "Lawrence, p. 589, Traumatismele"
    },
    {
     "index": 4,
     "verdict": "correct",
-    "rationale": "Medial.",
+    "rationale": "Când fragmentul distal este angulat lateral, vârful unghiului este orientat medial.",
     "evidenceLocation": "Lawrence, p. 589, Traumatismele"
    }
   ],
@@ -228458,7 +228489,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.071Z",
+  "reviewedAt": "2026-11-08T12:02:17.373Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -228469,11 +228500,12 @@
    "antero-posterioară"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-079: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-079: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-081-v2",
-  "questionFingerprint": "5a882c43d3a888917caf59908224f6afce0f84dc5204baf3cf2c72caa829fc42",
+  "questionFingerprint": "d88b6bd8137b5afc9e8c0585f905fa0101f76f95e5968d6a0d752cffbd4eb232",
   "status": "source-checked",
   "learningObjective": "Luxația posterioară de umăr.",
   "reference": {
@@ -228506,7 +228538,7 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: rotația internă blocată este tocmai semnul luxației posterioare.",
     "evidenceLocation": "Lawrence, p. 597, 596, Traumatismele"
    },
    {
@@ -228518,7 +228550,7 @@
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: luxația se reduce după confirmarea radiologică, fără a aștepta artroscopia.",
     "evidenceLocation": "Lawrence, p. 597, 596, Traumatismele"
    }
   ],
@@ -228536,7 +228568,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.072Z",
+  "reviewedAt": "2026-11-08T12:02:17.373Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -228548,11 +228580,12 @@
    "epilepsie"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-081: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-081: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-082-v2",
-  "questionFingerprint": "0a2ff982c0fbfa5d38c6d10b1dabf948c4d025dc72a313fb5f7252fbca171c71",
+  "questionFingerprint": "063fc1edaa54ace712e49a56b1cb0e309e5cf2a0a010fa304701780c885e79b6",
   "status": "source-checked",
   "learningObjective": "Epidemiologia fracturilor de șold.",
   "reference": {
@@ -228571,31 +228604,31 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: valoarea supraestimează; proporția este de circa 33%.",
     "evidenceLocation": "Lawrence, p. 597, Traumatismele"
    },
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: proporția este de circa o treime.",
     "evidenceLocation": "Lawrence, p. 597, Traumatismele"
    },
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: proporția este de circa 33%.",
     "evidenceLocation": "Lawrence, p. 597, Traumatismele"
    },
    {
     "index": 3,
     "verdict": "correct",
-    "rationale": "33%.",
+    "rationale": "Fracturile de șold prin energie minimă reprezintă aproximativ o treime din internările ortopedice.",
     "evidenceLocation": "Lawrence, p. 597, Traumatismele"
    },
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: proporția este de circa o treime.",
     "evidenceLocation": "Lawrence, p. 597, Traumatismele"
    }
   ],
@@ -228613,7 +228646,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.072Z",
+  "reviewedAt": "2026-11-08T12:02:17.373Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -228624,11 +228657,12 @@
    "circa 33%"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-082: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-082: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-083-v2",
-  "questionFingerprint": "ee14faf3f5415a328e45bf79b8ea4d346ea6704e669d4e62148e082f81f2bb16",
+  "questionFingerprint": "9eb62e59fa9327f400bbf17abc85b84f80ce098ad02356713663b901858900a9",
   "status": "source-checked",
   "learningObjective": "Fasceita plantară.",
   "reference": {
@@ -228659,7 +228693,7 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: tratamentul inițial este conservator; chirurgia se rezervă eșecului.",
     "evidenceLocation": "Lawrence, p. 603, Leziuni sportive"
    },
    {
@@ -228689,7 +228723,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.072Z",
+  "reviewedAt": "2026-11-08T12:02:17.373Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -228701,7 +228735,8 @@
    "nonoperativ"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-083: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-083: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-084-v2",
@@ -228782,7 +228817,7 @@
  },
  {
   "questionId": "ortopedie-adv-086-v2",
-  "questionFingerprint": "fac1a8c0275e736bd1d2753d0e1a08bd3ecfdf28b186ccd646a3fc989379762f",
+  "questionFingerprint": "2025e75b0343be4e628c64f89e6f2ec049c0d8f63ac2db7a4aadcf9a48f32acf",
   "status": "source-checked",
   "learningObjective": "Ligamentele genunchiului.",
   "reference": {
@@ -228801,13 +228836,13 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: LIA împiedică translația anterioară a tibiei; cea posterioară ține de LIP.",
     "evidenceLocation": "Lawrence, p. 605, Leziuni sportive"
    },
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: colateralul medial este principalul stabilizator în valgus, nu doar în flexie.",
     "evidenceLocation": "Lawrence, p. 605, Leziuni sportive"
    },
    {
@@ -228843,7 +228878,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.073Z",
+  "reviewedAt": "2026-11-08T12:02:17.373Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -228855,7 +228890,8 @@
    "translaţia posterioară"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-086: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-086: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-089-v2",
@@ -229013,7 +229049,7 @@
  },
  {
   "questionId": "ortopedie-adv-092-v2",
-  "questionFingerprint": "2fd410b8f62208e0d6b96d79810329c6645396fd29402b72371bc4967409d6e5",
+  "questionFingerprint": "0d64b03329c321fdd2c7f0888797722af75e5421f2af21f2942d976c415cbe04",
   "status": "source-checked",
   "learningObjective": "Osteonecroza.",
   "reference": {
@@ -229056,7 +229092,7 @@
    {
     "index": 4,
     "verdict": "correct",
-    "rationale": "IRM.",
+    "rationale": "IRM este explorarea cea mai sensibilă pentru osteonecroză, înaintea modificărilor radiografice.",
     "evidenceLocation": "Lawrence, p. 621, Bolile inflamatorii și necroza osoasă"
    }
   ],
@@ -229074,7 +229110,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.076Z",
+  "reviewedAt": "2026-11-08T12:02:17.374Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -229086,11 +229122,12 @@
    "Gaucher"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-092: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-092: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-094-v2",
-  "questionFingerprint": "3e840abc670c128d0fc762a9cdf3a8b5fa353b8ff91a4bf996cfb0f21ce61a0e",
+  "questionFingerprint": "fb0a1207f2fc4295489d0bed08375b0eeefb319e44e37d531e6fe9650aa6980e",
   "status": "source-checked",
   "learningObjective": "Epidemiologia lombalgiei.",
   "reference": {
@@ -229111,31 +229148,31 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: proporția este mai mare, de circa 80%.",
     "evidenceLocation": "Lawrence, p. 622, 623, Coloana vertebrală"
    },
    {
     "index": 1,
     "verdict": "correct",
-    "rationale": "80%.",
+    "rationale": "Aproximativ 80% dintre adulți au un episod de lombalgie care le limitează activitatea.",
     "evidenceLocation": "Lawrence, p. 622, 623, Coloana vertebrală"
    },
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: lombalgia afectează aproximativ 80% dintre adulți.",
     "evidenceLocation": "Lawrence, p. 622, 623, Coloana vertebrală"
    },
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: proporția este de circa 80%.",
     "evidenceLocation": "Lawrence, p. 622, 623, Coloana vertebrală"
    },
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: proporția citată este de circa 80%.",
     "evidenceLocation": "Lawrence, p. 622, 623, Coloana vertebrală"
    }
   ],
@@ -229153,7 +229190,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.078Z",
+  "reviewedAt": "2026-11-08T12:02:17.374Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -229164,11 +229201,12 @@
    "Optzeci la sută"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-094: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-094: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-095-v2",
-  "questionFingerprint": "8a4d8dde2001162b60cc361ef721f6e8105a80a2a698bf23faad49d86cac6810",
+  "questionFingerprint": "7941da0044fa91b5315ea67bd965139d2798cd8e061d048201a33458e379b240",
   "status": "source-checked",
   "learningObjective": "Anatomia funcțională a coloanei.",
   "reference": {
@@ -229199,7 +229237,7 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: inelul periferic este annulus fibrosus; nucleus pulposus este central.",
     "evidenceLocation": "Lawrence, p. 622, Coloana vertebrală"
    },
    {
@@ -229229,7 +229267,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.078Z",
+  "reviewedAt": "2026-11-08T12:02:17.374Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -229241,7 +229279,8 @@
    "plan sagital"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-095: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-095: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-096-v2",
@@ -229322,7 +229361,7 @@
  },
  {
   "questionId": "ortopedie-adv-097-v2",
-  "questionFingerprint": "e0f57d3d41667865ab94485163dda0e274d9cc940a0818863df66922decf3797",
+  "questionFingerprint": "f38f2778fa29fbdfe1fdad444fd1e33f57bbce1ad2fff1a2c9b038f4fdf9a91f",
   "status": "source-checked",
   "learningObjective": "Laboratorul în tumorile osoase.",
   "reference": {
@@ -229353,7 +229392,7 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: PSA se recoltează înaintea tușeului rectal, care îl poate crește.",
     "evidenceLocation": "Lawrence, p. 631, Tumorile osoase"
    },
    {
@@ -229365,7 +229404,7 @@
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: electroforeza proteinelor se face la suspiciunea de mielom.",
     "evidenceLocation": "Lawrence, p. 631, Tumorile osoase"
    }
   ],
@@ -229383,7 +229422,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.079Z",
+  "reviewedAt": "2026-11-08T12:02:17.374Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -229395,11 +229434,12 @@
    "electroforeza"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-097: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-097: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-098-v2",
-  "questionFingerprint": "c7f5ca5f87553e2a38a61922c9a9fa394d498b2de45b0019d3fffa38bb11c797",
+  "questionFingerprint": "1644f0562128f6bacd74871974b34f2c071ce793ccd560afd6a1d1a919565fc8",
   "status": "source-checked",
   "learningObjective": "Imagistica tumorilor osoase.",
   "reference": {
@@ -229424,7 +229464,7 @@
    {
     "index": 1,
     "verdict": "correct",
-    "rationale": "IRM.",
+    "rationale": "IRM evaluează extinderea intramedulară și în părțile moi.",
     "evidenceLocation": "Lawrence, p. 632, Tumorile osoase"
    },
    {
@@ -229436,7 +229476,7 @@
    {
     "index": 3,
     "verdict": "correct",
-    "rationale": "CT.",
+    "rationale": "CT-ul toracic este preferat pentru depistarea metastazelor pulmonare mici.",
     "evidenceLocation": "Lawrence, p. 632, Tumorile osoase"
    },
    {
@@ -229460,7 +229500,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.080Z",
+  "reviewedAt": "2026-11-08T12:02:17.374Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -229472,11 +229512,12 @@
    "înainte de a recurge"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-098: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-098: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-099-v2",
-  "questionFingerprint": "36906b94b754a5ac180082c6feefd8137c8c0c8a8fa5ffdcd3b334d91b8f0d8f",
+  "questionFingerprint": "4f60fb528eabc152ede2efc41cfa983d06d6e54f1294607603bbdfab58ad2226",
   "status": "source-checked",
   "learningObjective": "Riscul de fractură patologică.",
   "reference": {
@@ -229495,31 +229536,31 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: fixarea se face mai devreme, de la 50%.",
     "evidenceLocation": "Lawrence, p. 632, Tumorile osoase"
    },
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: pragul citat este de 50%.",
     "evidenceLocation": "Lawrence, p. 632, Tumorile osoase"
    },
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: pragul este de 50%; la valori mari fractura este iminentă.",
     "evidenceLocation": "Lawrence, p. 632, Tumorile osoase"
    },
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: pragul este de 50% din diametrul corticalei.",
     "evidenceLocation": "Lawrence, p. 632, Tumorile osoase"
    },
    {
     "index": 4,
     "verdict": "correct",
-    "rationale": ">50%.",
+    "rationale": "Osteosinteza profilactică se indică dacă leziunea distruge peste 50% din corticală.",
     "evidenceLocation": "Lawrence, p. 632, Tumorile osoase"
    }
   ],
@@ -229537,7 +229578,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.080Z",
+  "reviewedAt": "2026-11-08T12:02:17.374Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -229548,11 +229589,12 @@
    "peste 50%"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-099: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-099: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-101-v2",
-  "questionFingerprint": "67c035c8e5c96b2c410476133b447180e4265b4345a3503cef0b6b5c7fd601c0",
+  "questionFingerprint": "09da459547561aefc915f987314f3c2433496a599e01733ea74d47bdabc0df10",
   "status": "source-checked",
   "learningObjective": "Lombalgia.",
   "reference": {
@@ -229583,19 +229625,19 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: doar 1–2% necesită chirurgie.",
     "evidenceLocation": "Lawrence, p. 623, Coloana vertebrală"
    },
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: la 80–90% dintre pacienți cauza rămâne necunoscută; herniile de disc sunt o minoritate.",
     "evidenceLocation": "Lawrence, p. 623, Coloana vertebrală"
    },
    {
     "index": 4,
     "verdict": "correct",
-    "rationale": "<10%.",
+    "rationale": "Mai puțin de 10% dintre pacienți au sciatică.",
     "evidenceLocation": "Lawrence, p. 623, Coloana vertebrală"
    }
   ],
@@ -229613,7 +229655,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.081Z",
+  "reviewedAt": "2026-11-08T12:02:17.374Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -229625,7 +229667,8 @@
    "1-2%"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-101: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-101: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-103-v2",
@@ -229706,7 +229749,7 @@
  },
  {
   "questionId": "ortopedie-adv-105-v2",
-  "questionFingerprint": "8409173da02aeb48dd0f5a73755d2a39e2c9b08a569b580327ca7d6f0208098a",
+  "questionFingerprint": "8c325e219137e4c950f55e955764573dca4855a7926e704234ffabbb1a23a4ca",
   "status": "source-checked",
   "learningObjective": "Managementul artritelor.",
   "reference": {
@@ -229725,7 +229768,7 @@
    {
     "index": 0,
     "verdict": "correct",
-    "rationale": "Echipă.",
+    "rationale": "Tratamentul artritei reumatoide avansate este multidisciplinar, inclusiv cu terapeut ocupațional.",
     "evidenceLocation": "Lawrence, p. 621, Bolile inflamatorii și necroza osoasă"
    },
    {
@@ -229767,7 +229810,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.082Z",
+  "reviewedAt": "2026-11-08T12:02:17.375Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -229779,11 +229822,12 @@
    "anti-TNF"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-105: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-105: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-107-v2",
-  "questionFingerprint": "731d215500b82866e71fe5fd5fdf92934ff1b8f6b3b1023735d7a9ff858ae734",
+  "questionFingerprint": "c6b4d71f32fc3fca0ed09eb9db2c3e53d5a45655e5f9b0d90fd865a77bb3b1ef",
   "status": "source-checked",
   "learningObjective": "Tipurile de tracțiune.",
   "reference": {
@@ -229804,7 +229848,7 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: la copilul mic se preferă tracțiunea transtegumentară.",
     "evidenceLocation": "Lawrence, p. 591, 593, Traumatismele"
    },
    {
@@ -229846,7 +229890,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.083Z",
+  "reviewedAt": "2026-11-08T12:02:17.375Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -229858,11 +229902,12 @@
    "ortostsatism"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-107: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-107: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-108-v2",
-  "questionFingerprint": "d65e082a6d86f2b9de7abf6cb8107422a13e37b9bdf1653ad120b0fecac3d2e9",
+  "questionFingerprint": "eba61dc85fb52f5787b92a872353ca9cd925bacf299fb58512aeb93961803e45",
   "status": "source-checked",
   "learningObjective": "Fixarea internă.",
   "reference": {
@@ -229895,7 +229940,7 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: implantul doar menține poziția; dacă osul nu se consolidează, implantul cedează.",
     "evidenceLocation": "Lawrence, p. 591, 592, Traumatismele"
    },
    {
@@ -229925,7 +229970,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.084Z",
+  "reviewedAt": "2026-11-08T12:02:17.375Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -229937,11 +229982,12 @@
    "orificiilor şuruburilor"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-108: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-108: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-111-v2",
-  "questionFingerprint": "2f6b1763b6d84a83f3f5577bbbd4975e2a53f95842ffc31a81bf0979ec7920fa",
+  "questionFingerprint": "dc7c0837efa3362623854d93e850382844b457d7ef84910eb2fdef3fa5dbce4f",
   "status": "source-checked",
   "learningObjective": "Fixarea externă.",
   "reference": {
@@ -229978,7 +230024,7 @@
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: fractura de scafoid nedeplasată se imobilizează gipsat.",
     "evidenceLocation": "Lawrence, p. 594, Traumatismele"
    },
    {
@@ -230002,7 +230048,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.085Z",
+  "reviewedAt": "2026-11-08T12:02:17.375Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -230014,11 +230060,12 @@
    "Fracturi infectate"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-111: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-111: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-113-v2",
-  "questionFingerprint": "daf070720054a374bfc2265fb3662863da49bfa9a53111651285621e6600da04",
+  "questionFingerprint": "86e9b43618dd44261f6ba1aaba06012640a4fb250cde749d63600ec22b5d97c4",
   "status": "source-checked",
   "learningObjective": "Fractura de olecran.",
   "reference": {
@@ -230049,13 +230096,13 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: fractura Colles este a radiusului distal; olecranul deplasat se fixează chirurgical.",
     "evidenceLocation": "Lawrence, p. 596, Traumatismele"
    },
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: supinația reduce pronația dureroasă a cotului; fractura de olecran deplasată se operează.",
     "evidenceLocation": "Lawrence, p. 596, Traumatismele"
    },
    {
@@ -230079,7 +230126,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.086Z",
+  "reviewedAt": "2026-11-08T12:02:17.375Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -230091,11 +230138,12 @@
    "extensiei active"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-113: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-113: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-117-v2",
-  "questionFingerprint": "ed507b3dfba453810b9daabcc03107c9cda1409e7491e052257a582734870feb",
+  "questionFingerprint": "e20b654bfe27e9b665f631b579b447b9fc926efdd0504998f41a7d8df5acf19f",
   "status": "source-checked",
   "learningObjective": "Traumatismele coloanei.",
   "reference": {
@@ -230120,19 +230168,19 @@
    {
     "index": 1,
     "verdict": "correct",
-    "rationale": "Ileus.",
+    "rationale": "Fracturile prin compresiune toraco-lombare pot produce ileus paralitic.",
     "evidenceLocation": "Lawrence, p. 599, Coloana vertebrală"
    },
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: la paraplegic leziunile abdominale nu dau durere, de aceea examinarea viscerelor este esențială.",
     "evidenceLocation": "Lawrence, p. 599, Coloana vertebrală"
    },
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: ileusul impune repaus digestiv și decompresie nazogastrică.",
     "evidenceLocation": "Lawrence, p. 599, Coloana vertebrală"
    },
    {
@@ -230156,7 +230204,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.087Z",
+  "reviewedAt": "2026-11-08T12:02:17.375Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -230168,11 +230216,12 @@
    "claviculei"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-117: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-117: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-118-v2",
-  "questionFingerprint": "8a03d2f8f435eb36e10d84bf9da7603d03bd92005175bf3679668e05289ab0a7",
+  "questionFingerprint": "069279e6ea7e8f3b630e6bf461474a7fa2ac3f435509a2ae2f3a4a8b4282b552",
   "status": "source-checked",
   "learningObjective": "Reimplantarea.",
   "reference": {
@@ -230191,31 +230240,31 @@
    {
     "index": 0,
     "verdict": "correct",
-    "rationale": "50%.",
+    "rationale": "Mișcările păstrează aproximativ 50% din funcția normală.",
     "evidenceLocation": "Lawrence, p. 600, Amputația și sindromul de compartiment"
    },
    {
     "index": 1,
     "verdict": "correct",
-    "rationale": "85%.",
+    "rationale": "Aproximativ 85% dintre degetele reimplantate rămân viabile.",
     "evidenceLocation": "Lawrence, p. 600, Amputația și sindromul de compartiment"
    },
    {
     "index": 2,
     "verdict": "correct",
-    "rationale": "Copii.",
+    "rationale": "La copii reimplantarea are șanse mari de reușită la orice nivel.",
     "evidenceLocation": "Lawrence, p. 600, Amputația și sindromul de compartiment"
    },
    {
     "index": 3,
     "verdict": "correct",
-    "rationale": "2 ani.",
+    "rationale": "Degetele reimplantate rămân intolerante la frig cel puțin 2 ani.",
     "evidenceLocation": "Lawrence, p. 600, Amputația și sindromul de compartiment"
    },
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: segmentul amputat se păstrează la rece, învelit în tifon umed, fără contact direct cu gheața.",
     "evidenceLocation": "Lawrence, p. 600, Amputația și sindromul de compartiment"
    }
   ],
@@ -230233,7 +230282,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.088Z",
+  "reviewedAt": "2026-11-08T12:02:17.376Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -230245,11 +230294,12 @@
    "intolerante la frig"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-118: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-118: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-119-v2",
-  "questionFingerprint": "5630bead9fcce35b6006a554f3a2af21a510f64c6edcfb9dba2c15cc1669a857",
+  "questionFingerprint": "70ba3b8840b012c2775a629d237caf3f18cf5b7a65c317845d2371dbba887179",
   "status": "source-checked",
   "learningObjective": "Cotul tenismenului.",
   "reference": {
@@ -230280,7 +230330,7 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: epicondilita medială privește flexorii; cea laterală, extensorii pumnului.",
     "evidenceLocation": "Lawrence, p. 602, Leziuni sportive"
    },
    {
@@ -230292,7 +230342,7 @@
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: tratamentul este întâi conservator; chirurgia se rezervă eșecului.",
     "evidenceLocation": "Lawrence, p. 602, Leziuni sportive"
    }
   ],
@@ -230310,7 +230360,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.088Z",
+  "reviewedAt": "2026-11-08T12:02:17.376Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -230322,11 +230372,12 @@
    "epicondilul lateral"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-119: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-119: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-121-v2",
-  "questionFingerprint": "4a0b70ea104ebb16f4bfda61604fbf8783c5426e6df5d0c35b068c1609414796",
+  "questionFingerprint": "689ff8f29277bfd787e35e1379d131b9add3d4008347034a9870c90cdf162075",
   "status": "source-checked",
   "learningObjective": "Sindromul de stres tibial.",
   "reference": {
@@ -230347,7 +230398,7 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: compartimentul implicat este cel anterior.",
     "evidenceLocation": "Lawrence, p. 603, 604, Leziuni sportive"
    },
    {
@@ -230359,13 +230410,13 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: la alergătorul recreațional este afectat compartimentul anterior.",
     "evidenceLocation": "Lawrence, p. 603, 604, Leziuni sportive"
    },
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: la alergătorul recreațional durerea este în compartimentul anterior.",
     "evidenceLocation": "Lawrence, p. 603, 604, Leziuni sportive"
    },
    {
@@ -230389,7 +230440,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.090Z",
+  "reviewedAt": "2026-11-08T12:02:17.376Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -230400,11 +230451,12 @@
    "alergătorii recreaţionali"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-121: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-121: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-123-v2",
-  "questionFingerprint": "69187e69e5e9fbeb15a73f6c0cc78f72946c5f3211aeeea76812398540aa62c7",
+  "questionFingerprint": "b9b49c31a442e477c41de9990fa25e54278eea5cc3ad8641daadbddea79625e3",
   "status": "source-checked",
   "learningObjective": "Tehnica examinării.",
   "reference": {
@@ -230423,31 +230475,31 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: poziția testului este flexia de 35°.",
     "evidenceLocation": "Lawrence, p. 607, Leziuni sportive"
    },
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: testul se face în flexie de 35°.",
     "evidenceLocation": "Lawrence, p. 607, Leziuni sportive"
    },
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: flexia testului este de 35°.",
     "evidenceLocation": "Lawrence, p. 607, Leziuni sportive"
    },
    {
     "index": 3,
     "verdict": "correct",
-    "rationale": "35°.",
+    "rationale": "Stabilitatea colateralului ulnar se testează cu articulația metacarpofalangiană în flexie de circa 35°.",
     "evidenceLocation": "Lawrence, p. 607, Leziuni sportive"
    },
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: testul se face în flexie de 35° a articulației metacarpofalangiene.",
     "evidenceLocation": "Lawrence, p. 607, Leziuni sportive"
    }
   ],
@@ -230465,7 +230517,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.090Z",
+  "reviewedAt": "2026-11-08T12:02:17.376Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -230476,7 +230528,8 @@
    "35"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-123: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-123: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-124-v2",
@@ -230559,7 +230612,7 @@
  },
  {
   "questionId": "ortopedie-adv-125-v2",
-  "questionFingerprint": "c63894ee882d38f439bb720549adc5225fde9330580759f2c0d64057c36ecf52",
+  "questionFingerprint": "7b063c5f2e4013378c1dec85b6b59b1ff3d34685a294bd3610dd1992f6eaa96f",
   "status": "source-checked",
   "learningObjective": "Genu varum patologic.",
   "reference": {
@@ -230590,7 +230643,7 @@
    {
     "index": 2,
     "verdict": "correct",
-    "rationale": "Blount.",
+    "rationale": "Afectarea cartilajului metafizar medial al tibiei este boala Blount.",
     "evidenceLocation": "Lawrence, p. 611, Patologia pediatrică"
    },
    {
@@ -230620,7 +230673,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.092Z",
+  "reviewedAt": "2026-11-08T12:02:17.376Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -230632,11 +230685,12 @@
    "vitamina D"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-125: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-125: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-128-v2",
-  "questionFingerprint": "2e15128b61633d700b634ffcf2400e5856555e4e76ca07b0d879fa512d75d589",
+  "questionFingerprint": "aa35828d66ae500056aa96966c47b9755f564d0ee877e22f8c5894f7908369ab",
   "status": "source-checked",
   "learningObjective": "Talipes equinovarus.",
   "reference": {
@@ -230657,7 +230711,7 @@
    {
     "index": 0,
     "verdict": "correct",
-    "rationale": "Băieți.",
+    "rationale": "Piciorul strâmb este de două ori mai frecvent la băieți.",
     "evidenceLocation": "Lawrence, p. 614, 615, Patologia pediatrică"
    },
    {
@@ -230669,13 +230723,13 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: piciorul strâmb este de două ori mai frecvent la băieți.",
     "evidenceLocation": "Lawrence, p. 614, 615, Patologia pediatrică"
    },
    {
     "index": 3,
     "verdict": "correct",
-    "rationale": "Triada.",
+    "rationale": "Deformarea asociază equinus, varus și adducție.",
     "evidenceLocation": "Lawrence, p. 614, 615, Patologia pediatrică"
    },
    {
@@ -230699,7 +230753,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.093Z",
+  "reviewedAt": "2026-11-08T12:02:17.376Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -230711,11 +230765,12 @@
    "1/1"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-128: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-128: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-129-v2",
-  "questionFingerprint": "d94ae205d78483820c78235dad909467289378616abfdc3a89173266c3007108",
+  "questionFingerprint": "e7d4bc9ab0f807339bb2700628bc1d8cc88b9fd6ee8b3086f536f68a8a241a43",
   "status": "source-checked",
   "learningObjective": "Fasceita necrozantă.",
   "reference": {
@@ -230752,7 +230807,7 @@
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: scorul LRINEC include leucocitele, glicemia, PCR, creatinina, natremia și hemoglobina.",
     "evidenceLocation": "Lawrence, p. 618, Bolile infecțioase"
    },
    {
@@ -230776,7 +230831,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.093Z",
+  "reviewedAt": "2026-11-08T12:02:17.377Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -230788,11 +230843,12 @@
    "apă murdară"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-129: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-129: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-131-v2",
-  "questionFingerprint": "fd2fc884c8909f8cd25d469e8d113dbb68d9dd7801c45dada135c8bc767e6abe",
+  "questionFingerprint": "15354d2dd5cc5a510298e00d0bc3975ffdfe6f5e67079bea1615640bf4eeeff0",
   "status": "source-checked",
   "learningObjective": "Chirurgia artrozei.",
   "reference": {
@@ -230817,7 +230873,7 @@
    {
     "index": 1,
     "verdict": "correct",
-    "rationale": ">90%.",
+    "rationale": "Artroplastia totală reduce durerea la peste 90% dintre pacienți.",
     "evidenceLocation": "Lawrence, p. 620, Bolile inflamatorii și necroza osoasă"
    },
    {
@@ -230853,7 +230909,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:20:17.094Z",
+  "reviewedAt": "2026-11-08T12:02:17.377Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -230865,7 +230921,8 @@
    "foarte activi"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-131: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-131: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-001-v2",
@@ -231023,7 +231080,7 @@
  },
  {
   "questionId": "ortopedie-adv-014-v2",
-  "questionFingerprint": "939133997238c7652bd8ae8c9b5a03cb8558ebf80a20bafcc380384ecfbd7326",
+  "questionFingerprint": "3edfb956dda380a8ff6108e719fd38839c6357c02ddbfcba0c89b4de1f945ad8",
   "status": "source-checked",
   "learningObjective": "Fixarea internă.",
   "reference": {
@@ -231048,7 +231105,7 @@
    {
     "index": 1,
     "verdict": "correct",
-    "rationale": "Eșec.",
+    "rationale": "Eșecul metodelor non-operatorii este o indicație de fixare internă.",
     "evidenceLocation": "Lawrence, p. 594, Traumatismele"
    },
    {
@@ -231084,7 +231141,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:22:12.849Z",
+  "reviewedAt": "2026-11-08T12:02:17.368Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -231096,11 +231153,12 @@
    "paraplegici"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-014: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-014: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-018-v2",
-  "questionFingerprint": "d75617f15a23dfefc2ae6c42890e14a34eae5597a2bd9dc42fd13ca9ac3b3bb3",
+  "questionFingerprint": "91303a2f1169d13b78f1beb524b872dfac6e2eda574b1139f1f763c1d28dcbd8",
   "status": "source-checked",
   "learningObjective": "Conduita în inegalitatea membrelor.",
   "reference": {
@@ -231119,7 +231177,7 @@
    {
     "index": 0,
     "verdict": "correct",
-    "rationale": "1–2 cm.",
+    "rationale": "O scurtare de 1–2 cm se compensează cu o talpă înălțată.",
     "evidenceLocation": "Lawrence, p. 594, Patologia pediatrică"
    },
    {
@@ -231131,7 +231189,7 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: scurtările mici se tolerează sau se compensează cu talpă; peste 2 cm se discută epifiziodeza.",
     "evidenceLocation": "Lawrence, p. 594, Patologia pediatrică"
    },
    {
@@ -231143,7 +231201,7 @@
    {
     "index": 4,
     "verdict": "correct",
-    "rationale": "<1 cm.",
+    "rationale": "O scurtare sub 1 cm este bine tolerată, fără tratament.",
     "evidenceLocation": "Lawrence, p. 594, Patologia pediatrică"
    }
   ],
@@ -231161,7 +231219,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:22:12.850Z",
+  "reviewedAt": "2026-11-08T12:02:17.368Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -231173,11 +231231,12 @@
    "talpă groasă"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-018: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-018: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-020-v2",
-  "questionFingerprint": "9f44a7a20b863205111644c1dae52b01d08141bcedb72b9340f677f77cd58756",
+  "questionFingerprint": "c441534e64dc2c8eb98a63179e28ce96574c69d06d73594972f8590d556417f5",
   "status": "source-checked",
   "learningObjective": "Fractura de scafoid.",
   "reference": {
@@ -231202,7 +231261,7 @@
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: fractura de scafoid se imobilizează gipsat, chiar dacă radiografia inițială este normală.",
     "evidenceLocation": "Lawrence, p. 595, Traumatismele"
    },
    {
@@ -231238,7 +231297,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:22:12.851Z",
+  "reviewedAt": "2026-11-08T12:02:17.368Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -231250,11 +231309,12 @@
    "abducţie"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-020: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-020: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-033-v2",
-  "questionFingerprint": "75865085bcf3c43adaf96e378ec0e77041e7389d0793c547ad66795724c483ac",
+  "questionFingerprint": "674aa052be9c6696976ac7b04295894ac5a06099b09b0fe26cbb5961748008d2",
   "status": "source-checked",
   "learningObjective": "Diagnosticul fracturii de stres.",
   "reference": {
@@ -231285,7 +231345,7 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: radiografia are aproximativ 70% rezultate fals-negative la debut.",
     "evidenceLocation": "Lawrence, p. 601, Leziuni sportive"
    },
    {
@@ -231315,7 +231375,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:22:12.853Z",
+  "reviewedAt": "2026-11-08T12:02:17.369Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -231327,11 +231387,12 @@
    "pirofosfat"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-033: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-033: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-035-v2",
-  "questionFingerprint": "d36b6884a9021f0672c3459d0d20b333332d16d18351d4e4635687236b423063",
+  "questionFingerprint": "9f0285e71a863f5c364fbf8bd57082e8fa2c60781bfdfc4b40c3ddaef3bb7e10",
   "status": "source-checked",
   "learningObjective": "Gradele entorselor.",
   "reference": {
@@ -231350,19 +231411,19 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: ruptura completă definește gradul III; gradul I are leziuni microscopice.",
     "evidenceLocation": "Lawrence, p. 604, Leziuni sportive"
    },
    {
     "index": 1,
     "verdict": "correct",
-    "rationale": "Totală.",
+    "rationale": "Gradul III înseamnă ruptura completă a ligamentului, cu instabilitate.",
     "evidenceLocation": "Lawrence, p. 604, Leziuni sportive"
    },
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: gradul II are laxitate, dar cu punct final ferm la testare.",
     "evidenceLocation": "Lawrence, p. 604, Leziuni sportive"
    },
    {
@@ -231392,7 +231453,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:22:12.854Z",
+  "reviewedAt": "2026-11-08T12:02:17.369Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -231404,11 +231465,12 @@
    "gradul III"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-035: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-035: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-042-v2",
-  "questionFingerprint": "81bb0aaa86c97bcca9542bee76b82931aac08023b6b74cbfe43cd77dc27defd9",
+  "questionFingerprint": "86d4e3c690e8a10693d0e2974e4155f38a006818dbc0316f2eca4d908432311c",
   "status": "source-checked",
   "learningObjective": "Tipurile de scolioză.",
   "reference": {
@@ -231451,7 +231513,7 @@
    {
     "index": 4,
     "verdict": "correct",
-    "rationale": "9 ori.",
+    "rationale": "Scolioza idiopatică semnificativă afectează fetele de aproximativ 9 ori mai des.",
     "evidenceLocation": "Lawrence, p. 615, Patologia pediatrică"
    }
   ],
@@ -231469,7 +231531,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:22:12.856Z",
+  "reviewedAt": "2026-11-08T12:02:17.370Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -231481,11 +231543,12 @@
    "cardio-pulmonară"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-042: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-042: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-047-v2",
-  "questionFingerprint": "d9ffed75a0dc0b2783c50244e3f1316261e10f59d4b575de7fb249803528dffa",
+  "questionFingerprint": "27886439d9b8b9b5e47826afc85f814ec4463f001900101aa3f1a420ca8584c9",
   "status": "source-checked",
   "learningObjective": "Hernia de disc lombară.",
   "reference": {
@@ -231512,7 +231575,7 @@
    {
     "index": 1,
     "verdict": "correct",
-    "rationale": "L5.",
+    "rationale": "Hernia de disc L4–L5 comprimă rădăcina L5.",
     "evidenceLocation": "Lawrence, p. 623, 625, Coloana vertebrală"
    },
    {
@@ -231548,7 +231611,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:22:12.857Z",
+  "reviewedAt": "2026-11-08T12:02:17.370Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -231560,11 +231623,12 @@
    "coadă de cal"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-047: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-047: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-053-v2",
-  "questionFingerprint": "2eda5aa5631f1e953ac952482f235fc57ec9c1e48392701498240dccaf2df296",
+  "questionFingerprint": "377ba4aa3ada6504f1abc663624e5b119f093cb65a8af71c1096ba7f2056a35a",
   "status": "source-checked",
   "learningObjective": "Leziunile vasculare în luxații.",
   "reference": {
@@ -231583,7 +231647,7 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: evaluarea vasculară se repetă seriat după reducere.",
     "evidenceLocation": "Lawrence, p. 595, Traumatismele"
    },
    {
@@ -231595,19 +231659,19 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: leziunea intimei poate produce un tromb progresiv, cu ocluzie tardivă.",
     "evidenceLocation": "Lawrence, p. 595, Traumatismele"
    },
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: luxația se reduce de urgență; evaluarea vasculară urmează.",
     "evidenceLocation": "Lawrence, p. 595, Traumatismele"
    },
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: pulsul poate fi inițial simetric; trombul progresează în timp.",
     "evidenceLocation": "Lawrence, p. 595, Traumatismele"
    }
   ],
@@ -231625,7 +231689,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:22:12.858Z",
+  "reviewedAt": "2026-11-08T12:02:17.371Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -231636,11 +231700,12 @@
    "intimei"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-053: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-053: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-057-v2",
-  "questionFingerprint": "121955f3e0012970396b46b9a02b20145950faeb18b0d7a48723648eaac2d799",
+  "questionFingerprint": "fb6bb1aa5154bfb867d4423420b4736e3c8427c629468e21d50759d31f5ec763",
   "status": "source-checked",
   "learningObjective": "Miozita osificantă.",
   "reference": {
@@ -231671,7 +231736,7 @@
    {
     "index": 2,
     "verdict": "correct",
-    "rationale": "AINS.",
+    "rationale": "Miozita osificantă este autolimitată și se tratează conservator, cu AINS.",
     "evidenceLocation": "Lawrence, p. 610, Leziuni sportive"
    },
    {
@@ -231701,7 +231766,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:22:12.859Z",
+  "reviewedAt": "2026-11-08T12:02:17.371Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -231713,11 +231778,12 @@
    "18 luni"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-057: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-057: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-071-v2",
-  "questionFingerprint": "0fae279f1982321e44bfc4b39b76577bf547d7b435ae04378066b52ce6c08595",
+  "questionFingerprint": "8e105e7fcfaac3707915f9d3f722c0c4305bffed15a21d8bc7d7e9bf07e58b35",
   "status": "source-checked",
   "learningObjective": "Semnul radiologic al osteomalaciei.",
   "reference": {
@@ -231736,13 +231802,13 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: impactarea platoului tibial este o fractură traumatică, nu o zonă Looser.",
     "evidenceLocation": "Lawrence, p. 628, Bolile metabolice"
    },
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: zonele Looser apar la colul femural și la ramurile pubiene, nu la scafoid.",
     "evidenceLocation": "Lawrence, p. 628, Bolile metabolice"
    },
    {
@@ -231754,13 +231820,13 @@
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: zonele Looser apar tipic la colul femural și la ramurile pubiene.",
     "evidenceLocation": "Lawrence, p. 628, Bolile metabolice"
    },
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: defectul pars interarticularis este spondiloliza.",
     "evidenceLocation": "Lawrence, p. 628, Bolile metabolice"
    }
   ],
@@ -231778,7 +231844,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:22:12.862Z",
+  "reviewedAt": "2026-11-08T12:02:17.372Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -231789,11 +231855,12 @@
    "Looser"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-071: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-071: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-087-v2",
-  "questionFingerprint": "7e70fb80f8804068769dcba3ce1dd2d108c857a33a6ba9108446ef71aa6076d8",
+  "questionFingerprint": "e0a0ad0d9235e199e17956e8593db32e653e75415e48b2b29a106ecb7123b8f1",
   "status": "source-checked",
   "learningObjective": "Anteversia femurală.",
   "reference": {
@@ -231814,13 +231881,13 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: modificarea are loc mai ales în primii ani, în perioada de creștere.",
     "evidenceLocation": "Lawrence, p. 610, 612, Patologia pediatrică"
    },
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: anteversia scade de la circa 40° la naștere la circa 10° la adult.",
     "evidenceLocation": "Lawrence, p. 610, 612, Patologia pediatrică"
    },
    {
@@ -231838,7 +231905,7 @@
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: colul adult are o anteversie de circa 10°.",
     "evidenceLocation": "Lawrence, p. 610, 612, Patologia pediatrică"
    }
   ],
@@ -231856,7 +231923,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:22:12.865Z",
+  "reviewedAt": "2026-11-08T12:02:17.373Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -231868,11 +231935,12 @@
    "10"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-087: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-087: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-088-v2",
-  "questionFingerprint": "5595501d165bf9e2785c8879255267e7c2970725b81a691599d43009f700a1c3",
+  "questionFingerprint": "84b2630c52e6d773c1ff1fa9afe574382cabe7df272cbf439f86cfd0dbf54909",
   "status": "source-checked",
   "learningObjective": "Diformitățile rotaționale ale piciorului.",
   "reference": {
@@ -231893,7 +231961,7 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: piciorul scobit cu degete în gheară sugerează o boală neuromusculară.",
     "evidenceLocation": "Lawrence, p. 610, 612, Patologia pediatrică"
    },
    {
@@ -231911,13 +231979,13 @@
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: în adducția metatarsienelor marginea laterală este convexă, iar cea medială concavă.",
     "evidenceLocation": "Lawrence, p. 610, 612, Patologia pediatrică"
    },
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: 10° este anteversia normală a adultului.",
     "evidenceLocation": "Lawrence, p. 610, 612, Patologia pediatrică"
    }
   ],
@@ -231935,7 +232003,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:22:12.866Z",
+  "reviewedAt": "2026-11-08T12:02:17.373Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -231946,11 +232014,12 @@
    "margine laterală convexă"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-088: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-088: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-091-v2",
-  "questionFingerprint": "cbe8cd1f12f7ca4d62e21ba4289c74a8935f3b53610d8e030a5e3a8e15f261e1",
+  "questionFingerprint": "e34761acbcf9d5a03281f4e396fecc1b251ba52a6113bc04abf6e1b9f71ef3c4",
   "status": "source-checked",
   "learningObjective": "Artritele cu cristale.",
   "reference": {
@@ -231969,7 +232038,7 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: cristalele romboidale, pozitiv birefringente, sunt de pirofosfat (pseudogută).",
     "evidenceLocation": "Lawrence, p. 621, Bolile inflamatorii și necroza osoasă"
    },
    {
@@ -231981,7 +232050,7 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: cristalele de urat, negativ birefringente, definesc guta.",
     "evidenceLocation": "Lawrence, p. 621, Bolile inflamatorii și necroza osoasă"
    },
    {
@@ -232011,7 +232080,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:22:12.867Z",
+  "reviewedAt": "2026-11-08T12:02:17.373Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -232023,11 +232092,12 @@
    "pirofosfat"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-091: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-091: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-102-v2",
-  "questionFingerprint": "ca1ed36bc9b6fc0407221a5d31be83842691db92357105fc5a40de85c4b05786",
+  "questionFingerprint": "4761025fee97ce53a864beabda3d2fc3b26a719913f6610dd28642fdc38b8391",
   "status": "source-checked",
   "learningObjective": "Evoluția lombalgiei.",
   "reference": {
@@ -232046,13 +232116,13 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: 1–2% este proporția celor care necesită chirurgie.",
     "evidenceLocation": "Lawrence, p. 623, Coloana vertebrală"
    },
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: 50% se ameliorează în 2 săptămâni și 90% în 3 luni, fără chirurgie.",
     "evidenceLocation": "Lawrence, p. 623, Coloana vertebrală"
    },
    {
@@ -232064,13 +232134,13 @@
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: 90% se ameliorează în 3 luni.",
     "evidenceLocation": "Lawrence, p. 623, Coloana vertebrală"
    },
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: ameliorarea este mai lentă: 50% în 2 săptămâni, 90% în 3 luni.",
     "evidenceLocation": "Lawrence, p. 623, Coloana vertebrală"
    }
   ],
@@ -232088,7 +232158,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:22:12.868Z",
+  "reviewedAt": "2026-11-08T12:02:17.374Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -232099,11 +232169,12 @@
    "90% în 3 luni"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-102: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-102: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-104-v2",
-  "questionFingerprint": "a14b00d335b07539524bdec0e6ba7b920ed963ebe78ebdb1e2bfe2aaed16f97c",
+  "questionFingerprint": "251558e7587419c495a5206843e31ed8dc811e6e7119af700b55b9982f609e94",
   "status": "source-checked",
   "learningObjective": "Lombalgia mecanică.",
   "reference": {
@@ -232140,7 +232211,7 @@
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: durerea lombară mecanică se tratează conservator; peste 80% se rezolvă în 6 săptămâni.",
     "evidenceLocation": "Lawrence, p. 623, Coloana vertebrală"
    },
    {
@@ -232164,7 +232235,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:22:12.869Z",
+  "reviewedAt": "2026-11-08T12:02:17.374Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -232176,11 +232247,12 @@
    "6 săptămâni"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-104: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-104: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-106-v2",
-  "questionFingerprint": "acc1a5638ba4e2b04eaf4469890120e7d5d0cfcafb51d0b4d3173cc60ab14092",
+  "questionFingerprint": "092cab73aa2e0a942b2592127f47f5ae18b3b21a4fb336539a792924aab92b94",
   "status": "source-checked",
   "learningObjective": "Antibioterapia fracturilor deschise.",
   "reference": {
@@ -232199,7 +232271,7 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: plăgile contaminate din gospodărie primesc aminoglicozid și metronidazol, pentru Gram-negativi și anaerobi.",
     "evidenceLocation": "Lawrence, p. 591, Traumatismele"
    },
    {
@@ -232211,19 +232283,19 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: antifungicele nu fac parte din profilaxia de rutină.",
     "evidenceLocation": "Lawrence, p. 591, Traumatismele"
    },
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: profilaxia este intravenoasă: cefalosporină, aminoglicozid și metronidazol.",
     "evidenceLocation": "Lawrence, p. 591, Traumatismele"
    },
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: heparina este tromboprofilaxie și nu acoperă contaminarea plăgii.",
     "evidenceLocation": "Lawrence, p. 591, Traumatismele"
    }
   ],
@@ -232241,7 +232313,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:22:12.870Z",
+  "reviewedAt": "2026-11-08T12:02:17.375Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -232252,7 +232324,8 @@
    "aminoglicozide şi metronidazol"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-106: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-106: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-109-v2",
@@ -232333,7 +232406,7 @@
  },
  {
   "questionId": "ortopedie-adv-116-v2",
-  "questionFingerprint": "60ed854097c16764b0b306d9744d913a9408f0588c53e26a7c479c820d396f7b",
+  "questionFingerprint": "c8eb5a6bf8f52773483ad5262d674417c5c6561d325d604cc76c546694529283",
   "status": "source-checked",
   "learningObjective": "Fracturile de gleznă.",
   "reference": {
@@ -232364,7 +232437,7 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: inversiunea (adducția) produce traiect transversal pe maleola laterală; maleola medială se rupe transversal prin abducție.",
     "evidenceLocation": "Lawrence, p. 599, Traumatismele"
    },
    {
@@ -232394,7 +232467,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:22:12.872Z",
+  "reviewedAt": "2026-11-08T12:02:17.375Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -232406,7 +232479,8 @@
    "trimaleolară"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-116: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-116: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-122-v2",
@@ -232487,7 +232561,7 @@
  },
  {
   "questionId": "ortopedie-adv-126-v2",
-  "questionFingerprint": "8962198a26c7b45e50ab45e7008472c78c6432c0f77fe7c43c63c07a7c750bc7",
+  "questionFingerprint": "44d900ac04a5cc4e775931476d98d2536c10d4853b6cb8e93f2a7fc41c2ceb28",
   "status": "source-checked",
   "learningObjective": "Evoluția bolii Perthes.",
   "reference": {
@@ -232512,7 +232586,7 @@
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: hamul Pavlik se folosește în displazia de dezvoltare a șoldului.",
     "evidenceLocation": "Lawrence, p. 614, Patologia pediatrică"
    },
    {
@@ -232524,7 +232598,7 @@
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: boala Perthes apare mai ales la băieți, între 4 și 8 ani.",
     "evidenceLocation": "Lawrence, p. 614, Patologia pediatrică"
    },
    {
@@ -232548,7 +232622,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:22:12.874Z",
+  "reviewedAt": "2026-11-08T12:02:17.376Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -232560,11 +232634,12 @@
    "revascularizare"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-126: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-126: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-127-v2",
-  "questionFingerprint": "f114c5438f2aa31f4926c59e0c62838c854fcbf1d7320e336b7a6018abee889d",
+  "questionFingerprint": "4a4a14efc67ea01f9f33b38c18eb0d4f0f2071abcbeabe40cca6be93ab9713db",
   "status": "source-checked",
   "learningObjective": "Osgood-Schlatter.",
   "reference": {
@@ -232589,13 +232664,13 @@
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: boala Osgood-Schlatter este autolimitată și se tratează conservator.",
     "evidenceLocation": "Lawrence, p. 614, Patologia pediatrică"
    },
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: tratamentul este conservator; boala se vindecă la închiderea cartilajelor.",
     "evidenceLocation": "Lawrence, p. 614, Patologia pediatrică"
    },
    {
@@ -232625,7 +232700,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:22:12.875Z",
+  "reviewedAt": "2026-11-08T12:02:17.376Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -232637,11 +232712,12 @@
    "îngenunchiere"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-127: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-127: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-130-v2",
-  "questionFingerprint": "91e17275e8d8c5caee6f9658f77d57858389d47113670b0c051c7f4dbec2b4e0",
+  "questionFingerprint": "bc61e4a761e6b82e94220d9fb69e0b1c13a48d2e89cf1caef6d4ba96a3aacd0a",
   "status": "source-checked",
   "learningObjective": "Tratamentul artrozei.",
   "reference": {
@@ -232678,7 +232754,7 @@
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: cartilajul articular nu are inervație; durerea provine din os, sinovială și capsulă.",
     "evidenceLocation": "Lawrence, p. 619, Bolile inflamatorii și necroza osoasă"
    },
    {
@@ -232702,7 +232778,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:22:12.875Z",
+  "reviewedAt": "2026-11-08T12:02:17.377Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -232714,11 +232790,12 @@
    "acetaminofen"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-130: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-130: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-132-v2",
-  "questionFingerprint": "fbfb7c4c566f8fb60c5d5d8c1be82df28323df6ad9e7afbc90d2a694b791ecff",
+  "questionFingerprint": "381ad2cad39b189f95b714f0521b0cddb48dabc8910788599d244c045663196e",
   "status": "source-checked",
   "learningObjective": "Radiculopatia cervicală.",
   "reference": {
@@ -232737,7 +232814,7 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu: C8.",
+    "rationale": "Nu: hipoestezia marginii ulnare și a degetului 5 ține de C8.",
     "evidenceLocation": "Lawrence, p. 626, Coloana vertebrală"
    },
    {
@@ -232755,7 +232832,7 @@
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu: C5.",
+    "rationale": "Nu: reflexul bicipital depinde de C5; C6 diminuează reflexul brahioradial.",
     "evidenceLocation": "Lawrence, p. 626, Coloana vertebrală"
    },
    {
@@ -232779,7 +232856,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:22:12.876Z",
+  "reviewedAt": "2026-11-08T12:02:17.377Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -232791,11 +232868,12 @@
    "tricipital"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-132: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-132: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-134-v2",
-  "questionFingerprint": "408ce4d27b7c11a13c08d4dad3f3af685c64b2276dc9d45c6999330f80e48119",
+  "questionFingerprint": "acdd4afcd4e55212e160db3f1707e5c45de33349873f8085521fcd99153cc771",
   "status": "source-checked",
   "learningObjective": "Fracturile osteoporotice.",
   "reference": {
@@ -232814,7 +232892,7 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: fracturile osteoporotice tipice sunt ale vertebrelor, șoldului, humerusului proximal și radiusului distal.",
     "evidenceLocation": "Lawrence, p. 627, Bolile metabolice"
    },
    {
@@ -232826,19 +232904,19 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: fracturile diafizare cer energie mare; osteoporoza dă fracturi metafizare.",
     "evidenceLocation": "Lawrence, p. 627, Bolile metabolice"
    },
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: aceste fracturi sunt de obicei produse de energie mare.",
     "evidenceLocation": "Lawrence, p. 627, Bolile metabolice"
    },
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: fracturile tipice ale osteoporozei sunt vertebrale, de șold, de humerus și de radius distal.",
     "evidenceLocation": "Lawrence, p. 627, Bolile metabolice"
    }
   ],
@@ -232856,7 +232934,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:22:12.878Z",
+  "reviewedAt": "2026-11-08T12:02:17.386Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -232867,11 +232945,12 @@
    "humerusului"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-134: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-134: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-135-v2",
-  "questionFingerprint": "cb61e8b7be27cffb0eec3dce3db19463c4ed585f4257004186b6d6516a6d477f",
+  "questionFingerprint": "705437aefcf2a9a41216f20f84daea438047e7671bc373149d443e01f6fdc579",
   "status": "source-checked",
   "learningObjective": "Rahitismul.",
   "reference": {
@@ -232890,7 +232969,7 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: zonele Looser caracterizează osteomalacia adultului, cu fize închise.",
     "evidenceLocation": "Lawrence, p. 628, Bolile metabolice"
    },
    {
@@ -232902,19 +232981,19 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: spiculii „în raze de soare” sugerează osteosarcomul.",
     "evidenceLocation": "Lawrence, p. 628, Bolile metabolice"
    },
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: aspectul „în bulb de ceapă” sugerează sarcomul Ewing.",
     "evidenceLocation": "Lawrence, p. 628, Bolile metabolice"
    },
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: osteofitele și chisturile subcondrale sunt semnele artrozei.",
     "evidenceLocation": "Lawrence, p. 628, Bolile metabolice"
    }
   ],
@@ -232932,7 +233011,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:22:12.878Z",
+  "reviewedAt": "2026-11-08T12:02:17.386Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -232943,7 +233022,8 @@
    "formă de cupă"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-135: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-135: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-004-v2",
@@ -233100,7 +233180,7 @@
  },
  {
   "questionId": "ortopedie-adv-017-v2",
-  "questionFingerprint": "caaa6d85a512c2d401ea290f9e885fa77cd68d95f18c9b3acc0584ced8bd5310",
+  "questionFingerprint": "847a5070f3faf4d8fafdcd406be420e4b53a918c44cead1c5384ff236ef5bacc",
   "status": "source-checked",
   "learningObjective": "Osteonecroza post-traumatică.",
   "reference": {
@@ -233125,25 +233205,25 @@
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: aceste oase au vascularizație bună și nu fac tipic osteonecroză.",
     "evidenceLocation": "Lawrence, p. 594, Traumatismele"
    },
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: riscul de osteonecroză post-traumatică privește capul femural, scafoidul și talusul.",
     "evidenceLocation": "Lawrence, p. 594, Traumatismele"
    },
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: aceste oase au vascularizație bogată; osteonecroza afectează oasele acoperite extins de cartilaj.",
     "evidenceLocation": "Lawrence, p. 594, Traumatismele"
    },
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: oasele vulnerabile sunt capul femural, scafoidul și talusul.",
     "evidenceLocation": "Lawrence, p. 594, Traumatismele"
    }
   ],
@@ -233161,7 +233241,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:23:10.923Z",
+  "reviewedAt": "2026-11-08T12:02:17.368Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -233172,11 +233252,12 @@
    "capul femural"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-017: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-017: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-029-v2",
-  "questionFingerprint": "7d20c3a541016167fc754751792721d01b41884d4026618e265a5154b1069086",
+  "questionFingerprint": "f1c8bcbd7a0b262ab6654c18f4f64966ca16142fdd404e5e61123bd074629213",
   "status": "source-checked",
   "learningObjective": "Congruența articulară a gleznei.",
   "reference": {
@@ -233195,31 +233276,31 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: reducerea este de circa 40%, de aceea se cere reducere anatomică.",
     "evidenceLocation": "Lawrence, p. 599, Traumatismele"
    },
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: valoarea supraestimează; reducerea este de circa 40%.",
     "evidenceLocation": "Lawrence, p. 599, Traumatismele"
    },
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: chiar 1 mm reduce contactul cu circa 40%.",
     "evidenceLocation": "Lawrence, p. 599, Traumatismele"
    },
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: reducerea contactului este de circa 40%.",
     "evidenceLocation": "Lawrence, p. 599, Traumatismele"
    },
    {
     "index": 4,
     "verdict": "correct",
-    "rationale": "40%.",
+    "rationale": "O deplasare de 1 mm reduce contactul articular al gleznei cu aproximativ 40%.",
     "evidenceLocation": "Lawrence, p. 599, Traumatismele"
    }
   ],
@@ -233237,7 +233318,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:23:10.925Z",
+  "reviewedAt": "2026-11-08T12:02:17.369Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -233248,7 +233329,8 @@
    "suprafaţa de contact"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-029: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-029: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-034-v2",
@@ -233329,7 +233411,7 @@
  },
  {
   "questionId": "ortopedie-adv-036-v2",
-  "questionFingerprint": "3c9064f3195847d1b48f1392e14f32b571c8b239b776cd787c994ebf6e55eda6",
+  "questionFingerprint": "7e3930d1e01970313cd28e1b1ffbc6334a8274844b0b9d80106e5d480d603078",
   "status": "source-checked",
   "learningObjective": "Leziunile LIA.",
   "reference": {
@@ -233348,7 +233430,7 @@
    {
     "index": 0,
     "verdict": "correct",
-    "rationale": "70%.",
+    "rationale": "Aproximativ 70% dintre hemartrozele posttraumatice ale genunchiului au leziune de LIA.",
     "evidenceLocation": "Lawrence, p. 606, Leziuni sportive"
    },
    {
@@ -233390,7 +233472,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:23:10.927Z",
+  "reviewedAt": "2026-11-08T12:02:17.369Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -233402,11 +233484,12 @@
    "Lachman"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-036: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-036: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-051-v2",
-  "questionFingerprint": "f6bcbf91983c65b67abd196bdcf779b92fde3a56a3c78f95abeb244594f45627",
+  "questionFingerprint": "d14f6d878e7baf7552a4af1c2a72a473ab6b6eaf6aa7b7ef8999f19b6462fb18",
   "status": "source-checked",
   "learningObjective": "Evaluarea vindecării.",
   "reference": {
@@ -233425,7 +233508,7 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: scintigrafia rămâne pozitivă mult timp; criteriul radiologic este trabecularea prin focar.",
     "evidenceLocation": "Lawrence, p. 593, Traumatismele"
    },
    {
@@ -233437,13 +233520,13 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: zonele Looser sunt pseudofracturile osteomalaciei.",
     "evidenceLocation": "Lawrence, p. 593, Traumatismele"
    },
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: calusul moale nu este vizibil radiologic; vindecarea se vede când trabeculele traversează focarul.",
     "evidenceLocation": "Lawrence, p. 593, Traumatismele"
    },
    {
@@ -233467,7 +233550,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:23:10.928Z",
+  "reviewedAt": "2026-11-08T12:02:17.370Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -233478,11 +233561,12 @@
    "trabecule osoase distincte"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-051: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-051: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-061-v2",
-  "questionFingerprint": "acc35f5250bf3f7b845556d0bd87d962706cf2a4d3f82b6a9e8e7ff3dd8e823c",
+  "questionFingerprint": "08f553c6694b62ff96b38fd195c795028e7f89e2be2f3f829d6f21a3309b5730",
   "status": "source-checked",
   "learningObjective": "Tratamentul piciorului strâmb.",
   "reference": {
@@ -233503,13 +233587,13 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: fasciotomia se face în sindromul de compartiment.",
     "evidenceLocation": "Lawrence, p. 614, 615, Patologia pediatrică"
    },
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: hamul Pavlik se folosește în displazia de dezvoltare a șoldului.",
     "evidenceLocation": "Lawrence, p. 614, 615, Patologia pediatrică"
    },
    {
@@ -233521,13 +233605,13 @@
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: epifiziodeza corectează inegalitatea de lungime, nu piciorul strâmb.",
     "evidenceLocation": "Lawrence, p. 614, 615, Patologia pediatrică"
    },
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: diformitatea persistentă după gipsuri se corectează chirurgical.",
     "evidenceLocation": "Lawrence, p. 614, 615, Patologia pediatrică"
    }
   ],
@@ -233545,7 +233629,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:23:10.929Z",
+  "reviewedAt": "2026-11-08T12:02:17.371Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -233556,11 +233640,12 @@
    "posteromedial"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-061: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-061: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-063-v2",
-  "questionFingerprint": "c60889c51ded112c8a0d860c29d297eb4fb744e55b70437c4d075a3816b40219",
+  "questionFingerprint": "325682235a6461ab9488ff3a771871604d2d9a631845122afa7e704010db9ae9",
   "status": "source-checked",
   "learningObjective": "Osteotomia de realiniere.",
   "reference": {
@@ -233579,25 +233664,25 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: meniscectomia agravează artroza.",
     "evidenceLocation": "Lawrence, p. 620, Bolile inflamatorii și necroza osoasă"
    },
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: artrodeza sacrifică mobilitatea; la tânăr osteotomia corectează axul și păstrează articulația.",
     "evidenceLocation": "Lawrence, p. 620, Bolile inflamatorii și necroza osoasă"
    },
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: la tânăr se preferă osteotomia, care amână artroplastia.",
     "evidenceLocation": "Lawrence, p. 620, Bolile inflamatorii și necroza osoasă"
    },
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: fasciotomia nu corectează axul genunchiului.",
     "evidenceLocation": "Lawrence, p. 620, Bolile inflamatorii și necroza osoasă"
    },
    {
@@ -233621,7 +233706,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:23:10.930Z",
+  "reviewedAt": "2026-11-08T12:02:17.371Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -233632,11 +233717,12 @@
    "osteotomie tibială"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-063: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-063: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-066-v2",
-  "questionFingerprint": "44aaf133941648f33058d65b7e2e8cd816b23e7104537dc458b9362ce9cd9fe0",
+  "questionFingerprint": "3a88b86fc85c3cedceb36592eb73aab4999e078c137b9c0b8fb5714e4ca5bb33",
   "status": "source-checked",
   "learningObjective": "Manifestările radiculare lombare.",
   "reference": {
@@ -233655,7 +233741,7 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu: L4.",
+    "rationale": "Nu: reflexul rotulian depinde de L4.",
     "evidenceLocation": "Lawrence, p. 624, Coloana vertebrală"
    },
    {
@@ -233667,7 +233753,7 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu: L4.",
+    "rationale": "Nu: fața medială a gambei și a gleznei ține de L4.",
     "evidenceLocation": "Lawrence, p. 624, Coloana vertebrală"
    },
    {
@@ -233679,7 +233765,7 @@
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu: S1.",
+    "rationale": "Nu: reflexul achilean depinde de S1.",
     "evidenceLocation": "Lawrence, p. 624, Coloana vertebrală"
    }
   ],
@@ -233697,7 +233783,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:23:10.931Z",
+  "reviewedAt": "2026-11-08T12:02:17.371Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -233708,11 +233794,12 @@
    "Hipoestezie picior dorsal"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-066: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-066: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-069-v2",
-  "questionFingerprint": "878cc3c203a1a779379c35100fbcf2acdcc7a5e02e773888afdd87a2965212bc",
+  "questionFingerprint": "0f937b5bd15f5ea13af5355557d56b1382289f64d1411a4971badf3244ad5083",
   "status": "source-checked",
   "learningObjective": "Instabilitatea cervicală reumatoidă.",
   "reference": {
@@ -233731,25 +233818,25 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: radiografia în flexie-extensie se face înaintea oricărei intubări, nu doar la pacienții cu deficit.",
     "evidenceLocation": "Lawrence, p. 627, Coloana vertebrală"
    },
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: criteriul este intubația anestezică, nu vârsta.",
     "evidenceLocation": "Lawrence, p. 627, Coloana vertebrală"
    },
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: indicația este evaluarea instabilității cervicale înaintea intubației.",
     "evidenceLocation": "Lawrence, p. 627, Coloana vertebrală"
    },
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: evaluarea se face înaintea intubației, pentru a preveni leziunea medulară.",
     "evidenceLocation": "Lawrence, p. 627, Coloana vertebrală"
    },
    {
@@ -233773,7 +233860,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:23:10.931Z",
+  "reviewedAt": "2026-11-08T12:02:17.372Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -233784,7 +233871,8 @@
    "intubării"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-069: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-069: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-073-v2",
@@ -233867,7 +233955,7 @@
  },
  {
   "questionId": "ortopedie-adv-093-v2",
-  "questionFingerprint": "be09d59bc87a350ee658d9e3a88ce77278122b0b44ae77cb90f3fab44339daa9",
+  "questionFingerprint": "d798d1f5608e6dd33982ecf56e0aa21560607445eef9a08a94b4be35a2da9bb8",
   "status": "source-checked",
   "learningObjective": "Tratamentul osteonecrozei.",
   "reference": {
@@ -233898,7 +233986,7 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: decompresia centrală scade presiunea intraosoasă.",
     "evidenceLocation": "Lawrence, p. 622, Bolile inflamatorii și necroza osoasă"
    },
    {
@@ -233910,7 +233998,7 @@
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: încărcarea poate produce colapsul capului femural; se recomandă descărcarea.",
     "evidenceLocation": "Lawrence, p. 622, Bolile inflamatorii și necroza osoasă"
    }
   ],
@@ -233928,7 +234016,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:23:10.935Z",
+  "reviewedAt": "2026-11-08T12:02:17.374Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -233940,11 +234028,12 @@
    "revascularizare"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-093: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-093: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-112-v2",
-  "questionFingerprint": "7aeb53af9b1c50df612adfd7edd83d9447895460d836582eadc944d150f6e8be",
+  "questionFingerprint": "621c99aa986e5c53b0f6063e20e8b79bd8c0cf3e1760f57177a9eee2f0188b19",
   "status": "source-checked",
   "learningObjective": "Artroza post-traumatică.",
   "reference": {
@@ -233963,25 +234052,25 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: coxartroza apare de regulă după 10–20 de ani.",
     "evidenceLocation": "Lawrence, p. 594, Traumatismele"
    },
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: coxartroza post-traumatică apare de regulă după 10–20 de ani.",
     "evidenceLocation": "Lawrence, p. 594, Traumatismele"
    },
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: artroza este o complicație tardivă, la 10–20 de ani.",
     "evidenceLocation": "Lawrence, p. 594, Traumatismele"
    },
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: intervalul obișnuit este de 10–20 de ani.",
     "evidenceLocation": "Lawrence, p. 594, Traumatismele"
    },
    {
@@ -234005,7 +234094,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:23:10.936Z",
+  "reviewedAt": "2026-11-08T12:02:17.375Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -234016,11 +234105,12 @@
    "coxartroză"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-112: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-112: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-114-v2",
-  "questionFingerprint": "7accfd1aee0429a7da39f632520098897f29121df0f339008a81977499a60ceb",
+  "questionFingerprint": "e452fbfc18180a7ec96da25dd6ec87f636ef1561a6e49a1133948b15c1c44dc6",
   "status": "source-checked",
   "learningObjective": "Sindromul de revascularizare.",
   "reference": {
@@ -234045,25 +234135,25 @@
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: embolia grăsoasă urmează fracturilor oaselor lungi, nu reperfuziei.",
     "evidenceLocation": "Lawrence, p. 596, Amputația și sindromul de compartiment"
    },
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: osteonecroza scafoidului urmează fracturii de scafoid.",
     "evidenceLocation": "Lawrence, p. 596, Amputația și sindromul de compartiment"
    },
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: calusul vicios este o complicație a consolidării, nu a reperfuziei.",
     "evidenceLocation": "Lawrence, p. 596, Amputația și sindromul de compartiment"
    },
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: ischemia de peste 8 ore produce necroză musculară, cu hiperpotasemie și mioglobinurie la reperfuzie.",
     "evidenceLocation": "Lawrence, p. 596, Amputația și sindromul de compartiment"
    }
   ],
@@ -234081,7 +234171,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:23:10.937Z",
+  "reviewedAt": "2026-11-08T12:02:17.375Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -234092,7 +234182,8 @@
    "hiperpotasemie"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-114: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-114: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-115-v2",
@@ -234173,7 +234264,7 @@
  },
  {
   "questionId": "ortopedie-adv-133-v2",
-  "questionFingerprint": "ec6119290632c61af349f1dade0eac1a986f4aeeb724ef73f41379e08071dd50",
+  "questionFingerprint": "fddcc348108bffaa414019ce5e367b23e101b904a50d9717616a858f6671b688",
   "status": "source-checked",
   "learningObjective": "Modelele cervicale reumatoide.",
   "reference": {
@@ -234206,19 +234297,19 @@
    {
     "index": 2,
     "verdict": "correct",
-    "rationale": "Flexie.",
+    "rationale": "Subluxația atlanto-axială apare de obicei în flexie.",
     "evidenceLocation": "Lawrence, p. 626, 627, Coloana vertebrală"
    },
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: subluxația C1–C2 apare de obicei în flexie.",
     "evidenceLocation": "Lawrence, p. 626, 627, Coloana vertebrală"
    },
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: impactarea odontoidului poate comprima trunchiul cerebral și măduva.",
     "evidenceLocation": "Lawrence, p. 626, 627, Coloana vertebrală"
    }
   ],
@@ -234236,7 +234327,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:23:10.940Z",
+  "reviewedAt": "2026-11-08T12:02:17.386Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -234248,7 +234339,8 @@
    "subaxială"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-133: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-133: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-030-v2",
@@ -234329,7 +234421,7 @@
  },
  {
   "questionId": "ortopedie-adv-012-v2",
-  "questionFingerprint": "ed79b77a83305d96a4ccca2927e6f0025fc43d9afe43e82da8f84905a9e49e65",
+  "questionFingerprint": "ca5f04b7432e2582e5ae13da40234f36abac21b6961d1b09befdc9b8c63a22c7",
   "status": "source-checked",
   "learningObjective": "Etapele vindecării.",
   "reference": {
@@ -234372,7 +234464,7 @@
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: calusul moale se formează între 2 zile și 6 săptămâni; după luni urmează calusul dur și remodelarea.",
     "evidenceLocation": "Lawrence, p. 591, Traumatismele"
    }
   ],
@@ -234390,7 +234482,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:24:02.170Z",
+  "reviewedAt": "2026-11-08T12:02:17.367Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -234401,11 +234493,12 @@
    "2 zile - 6 săptămâni"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-012: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-012: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-022-v2",
-  "questionFingerprint": "cafc76bbe96107889bad5cb785945d0345779830a7f4e39b22231a7d86bbd8f1",
+  "questionFingerprint": "c52baf826ae17cf7ff09463c245424157d0a2167543af2b3e8a5fc090023bab5",
   "status": "source-checked",
   "learningObjective": "Pronația dureroasă.",
   "reference": {
@@ -234424,19 +234517,19 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: reducerea se obține imediat, prin flexie și supinație.",
     "evidenceLocation": "Lawrence, p. 596, Traumatismele"
    },
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: pronația dureroasă este subluxația capului radial, nu o artrită.",
     "evidenceLocation": "Lawrence, p. 596, Traumatismele"
    },
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: nu este o fractură; subluxația se reduce printr-o manevră simplă.",
     "evidenceLocation": "Lawrence, p. 596, Traumatismele"
    },
    {
@@ -234448,7 +234541,7 @@
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: tratamentul este reducerea prin flexia cotului și supinație, fără gips.",
     "evidenceLocation": "Lawrence, p. 596, Traumatismele"
    }
   ],
@@ -234466,7 +234559,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:24:02.173Z",
+  "reviewedAt": "2026-11-08T12:02:17.368Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -234477,11 +234570,12 @@
    "ligamentului inelar"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-022: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-022: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-076-v2",
-  "questionFingerprint": "fa8ae781af65c85f32a7c2715dc446d1dd4c1d54fcc534d85db059468921fba6",
+  "questionFingerprint": "4c4cd129fce6f3d95d5fbc2367e8ed45abc6c82a111b33752aa99e6a4a57073e",
   "status": "source-checked",
   "learningObjective": "Fractura în lemn verde.",
   "reference": {
@@ -234500,19 +234594,19 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: la copil fractura se completează și se imobilizează, fără osteosinteză.",
     "evidenceLocation": "Lawrence, p. 587, Traumatismele"
    },
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: fasciotomia tratează sindromul de compartiment.",
     "evidenceLocation": "Lawrence, p. 587, Traumatismele"
    },
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: artrodeza nu are indicație în fractura în lemn verde.",
     "evidenceLocation": "Lawrence, p. 587, Traumatismele"
    },
    {
@@ -234524,7 +234618,7 @@
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: corticala intactă păstrează angulația; fractura se completează pentru a permite reducerea.",
     "evidenceLocation": "Lawrence, p. 587, Traumatismele"
    }
   ],
@@ -234542,7 +234636,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:24:02.177Z",
+  "reviewedAt": "2026-11-08T12:02:17.372Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -234553,11 +234647,12 @@
    "lemn verde"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-076: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-076: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-085-v2",
-  "questionFingerprint": "7b20ca8d9941eb076481364ed8e7fa7d9f0f82912823ec71c337eeb2df4c4175",
+  "questionFingerprint": "80752d8335b99452caccc81a9bc295f7f38d3a58d5016e3100554d1db395e87b",
   "status": "source-checked",
   "learningObjective": "Testul sertarului anterior.",
   "reference": {
@@ -234576,19 +234671,19 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: sertarul anterior testează ligamentul talofibular anterior; deltoidul stabilizează medial.",
     "evidenceLocation": "Lawrence, p. 605, Leziuni sportive"
    },
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: testul se adresează gleznei, nu genunchiului.",
     "evidenceLocation": "Lawrence, p. 605, Leziuni sportive"
    },
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: leziunea fasciei plantare nu produce sertar anterior.",
     "evidenceLocation": "Lawrence, p. 605, Leziuni sportive"
    },
    {
@@ -234600,7 +234695,7 @@
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: testul sertarului anterior al gleznei nu evaluează genunchiul.",
     "evidenceLocation": "Lawrence, p. 605, Leziuni sportive"
    }
   ],
@@ -234618,7 +234713,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:24:02.178Z",
+  "reviewedAt": "2026-11-08T12:02:17.373Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -234629,11 +234724,12 @@
    "translaţia anterioară excesivă"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-085: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-085: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-120-v2",
-  "questionFingerprint": "f84e4956e1ceced1f75927a3fd8d9384192d419d68fdbeabfcf626519c12e2b7",
+  "questionFingerprint": "6b2af1139958e8b0b40a30151cb08543b121f9742009a3eefdaf59a2bff0bfe6",
   "status": "source-checked",
   "learningObjective": "Biomecanica alergării.",
   "reference": {
@@ -234658,25 +234754,25 @@
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: pe o milă piciorul atinge solul de 800–2.000 de ori.",
     "evidenceLocation": "Lawrence, p. 601, Leziuni sportive"
    },
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: piciorul atinge solul de 800–2.000 de ori pe milă.",
     "evidenceLocation": "Lawrence, p. 601, Leziuni sportive"
    },
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: valoarea supraestimează; numărul este de 800–2.000.",
     "evidenceLocation": "Lawrence, p. 601, Leziuni sportive"
    },
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: numărul de impacturi pe milă este de 800–2.000.",
     "evidenceLocation": "Lawrence, p. 601, Leziuni sportive"
    }
   ],
@@ -234694,7 +234790,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:24:02.180Z",
+  "reviewedAt": "2026-11-08T12:02:17.376Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -234705,7 +234801,8 @@
    "800-2.000"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ortopedie-adv-120: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a ortopedie-adv-120: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "orl-adv-001-v2",
