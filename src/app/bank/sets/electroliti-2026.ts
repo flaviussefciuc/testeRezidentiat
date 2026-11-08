@@ -1,0 +1,62 @@
+import {set2026} from '../set-author';
+
+// Set 2026 · Echilibrul acido-bazic (Kumar & Clark, cap. 9). Pages 195–202 belong to the
+// syllabus but were missing from the local extract, so the bank had no acid–base question,
+// while the 2023–2025 papers asked 199 (twice), 200 and 201. These items cover the section at
+// edition level; the page of each follows the order of the section and is to be confirmed:
+// physiology and compensation (195–196), respiratory disorders (197), metabolic acidosis and
+// the anion gap (198–199), renal tubular acidosis (200), metabolic alkalosis (201).
+const F='Echilibrul acido-bazic — fiziologie',I='Tulburările acido-bazice — interpretare',R='Tulburările acido-bazice respiratorii',MA='Acidoza metabolică',RTA='Acidozele tubulare renale',AL='Alcaloza metabolică';
+
+export const ELECTROLITI_2026=set2026('electroliti',[
+[['Sistemul tampon bicarbonat–acid carbonic:',
+ ['pH-ul depinde de raportul dintre bicarbonat și PaCO2','rinichii regenerează bicarbonatul și excretă H+ ca amoniu','plămânii elimină CO2 și reglează componenta respiratorie','bicarbonatul plasmatic este reglat în principal pulmonar','acidoza crește excreția urinară de bicarbonat'],'ABC',195,F,
+ 'Rolul plămânului și al rinichiului în tamponul bicarbonat (ecuația Henderson-Hasselbalch).',
+ ['Ecuația Henderson-Hasselbalch leagă pH-ul de raportul bicarbonat/PaCO2, nu de valorile izolate.','Rinichiul reabsoarbe și regenerează bicarbonatul, excretând acid ca amoniu și aciditate titrabilă.','Ventilația elimină CO2, deci controlează rapid componenta respiratorie.','Nu: bicarbonatul este reglat renal; plămânul reglează PaCO2.','Nu: în acidoză rinichiul reține bicarbonatul și crește excreția de acid.']],
+ 'Distractorii inversează rolurile plămânului și rinichiului.',['Henderson-Hasselbalch','bicarbonat']],
+[['Compensarea tulburărilor acido-bazice:',
+ ['acidoza metabolică este compensată prin hiperventilație, cu PaCO2 scăzută','acidoza respiratorie cronică este compensată renal, prin creșterea bicarbonatului','compensarea respiratorie se instalează în minute până la ore','compensarea readuce de regulă pH-ul complet la normal','compensarea renală a acidozei respiratorii se instalează în minute'],'ABC',196,I,
+ 'Sensul și viteza compensării respiratorii și renale.',
+ ['Scăderea pH-ului stimulează ventilația; PaCO2 scade proporțional cu scăderea bicarbonatului.','Hipercapnia cronică determină rinichiul să rețină bicarbonat.','Ventilația se adaptează rapid, în minute până la ore.','Nu: compensarea este de regulă incompletă; un pH normal cu valori anormale sugerează o tulburare mixtă.','Nu: compensarea renală durează zile.']],
+ 'Distractorii supraestimează compensarea și viteza ei renală.',['compensare','hiperventilație']],
+[['pH 7,30, PaCO2 4,0 kPa (30 mmHg) și HCO3− 14 mmol/L indică:',
+ ['acidoză metabolică compensată respirator','acidoză respiratorie, cu compensare metabolică','alcaloză respiratorie, cu compensare renală','alcaloză metabolică, cu hipoventilație compensatorie','acidoză mixtă, metabolică și respiratorie, fără compensare'],'A',196,I,
+ 'Interpretarea gazometriei: tulburarea primară și compensarea.',
+ ['pH-ul scăzut cu bicarbonat scăzut definește acidoza metabolică; PaCO2 scăzută (≈ 1,5 × 14 + 8 mmHg) este compensarea așteptată.','Nu: în acidoza respiratorie PaCO2 este crescută.','Nu: alcaloza ar avea pH crescut.','Nu: alcaloza metabolică are pH și bicarbonat crescute.','Nu: în acidoza mixtă PaCO2 ar fi normală sau crescută, nu scăzută.']],
+ 'Distractorii schimbă tulburarea primară sau confundă compensarea cu o tulburare mixtă.',['gazometrie','compensare']],
+[['Cauzele tulburărilor acido-bazice respiratorii:',
+ ['BPOC decompensată: acidoză respiratorie','supradozajul de opioide: acidoză respiratorie','criza de anxietate cu hiperventilație: alcaloză respiratorie','embolia pulmonară: tipic acidoză respiratorie','intoxicația cu salicilați, precoce: acidoză respiratorie'],'ABC',197,R,
+ 'Cauzele acidozei respiratorii (hipoventilație) și ale alcalozei respiratorii (hiperventilație).',
+ ['Hipoventilația alveolară din BPOC decompensată reține CO2.','Deprimarea centrului respirator de către opioide produce hipercapnie.','Hiperventilația anxioasă scade PaCO2.','Nu: embolia pulmonară produce de obicei hiperventilație, cu alcaloză respiratorie.','Nu: salicilații stimulează inițial centrul respirator (alcaloză respiratorie), apoi produc acidoză metabolică.']],
+ 'Distractorii atribuie hiperventilației tulburarea opusă.',['acidoză respiratorie','alcaloză respiratorie']],
+[['Clasificarea acidozelor metabolice după gaura anionică:',
+ ['cetoacidoza diabetică: gaură anionică crescută','diareea profuză: gaură anionică normală (hipercloremică)','acidoza tubulară renală: gaură anionică normală','intoxicația cu etilenglicol: gaură anionică normală','acidoza lactică: gaură anionică normală'],'ABC',198,MA,
+ 'Separarea acidozelor cu gaură anionică crescută (acizi adăugați) de cele hipercloremice (pierdere de bicarbonat).',
+ ['Cetoacizii adaugă anioni nemăsurați: gaura anionică crește.','Pierderea digestivă de bicarbonat este înlocuită de clor: acidoză hipercloremică.','Pierderea renală de bicarbonat sau excreția acidă deficitară dă acidoză hipercloremică.','Nu: metaboliții etilenglicolului (glicolat, oxalat) cresc gaura anionică.','Nu: lactatul este un anion nemăsurat, deci gaura anionică crește.']],
+ 'Distractorii mută acizii adăugați în categoria hipercloremică.',['gaura anionică','hipercloremică']],
+[['Tabloul clinic și tratamentul acidozei metabolice:',
+ ['respirația Kussmaul, profundă, este răspunsul compensator','tratamentul de bază este al cauzei (insulină și fluide în cetoacidoză)','hipopotasemia este regula în acidoza acută','bicarbonatul intravenos se administrează de rutină în acidoza lactică','acidoza metabolică produce tipic hipoventilație'],'AB',199,MA,
+ 'Semnul clinic al compensării și principiul tratamentului acidozei metabolice.',
+ ['Hiperventilația profundă (Kussmaul) scade PaCO2 și limitează scăderea pH-ului.','Corectarea cauzei (insulină, fluide, perfuzie tisulară) rezolvă acidoza.','Nu: acidoza deplasează potasiul din celule și tinde să crească potasemia.','Nu: bicarbonatul nu este de rutină; beneficiul lui în acidoza lactică este nedovedit.','Nu: acidoza metabolică produce hiperventilație compensatorie.']],
+ 'Distractorii inversează efectul asupra potasiului și ventilației.',['Kussmaul','bicarbonat']],
+[['Acidoza lactică de tip B, fără hipoperfuzie tisulară, apare caracteristic în:',
+ ['tratamentul cu metformin','șocul septic cu hipotensiune','șocul cardiogen după infarct','hemoragia digestivă masivă','intoxicația cu monoxid de carbon'],'A',199,MA,
+ 'Deosebirea acidozei lactice de tip A (hipoxie tisulară) de tipul B.',
+ ['Metforminul inhibă gluconeogeneza din lactat și poate produce acidoză lactică fără hipoperfuzie, mai ales când se acumulează.','Nu: șocul septic produce hipoperfuzie tisulară: tip A.','Nu: șocul cardiogen produce hipoperfuzie tisulară: tip A.','Nu: hemoragia masivă produce hipoperfuzie tisulară: tip A.','Nu: monoxidul de carbon produce hipoxie tisulară: tip A.']],
+ 'Distractorii sunt cauze de acidoză lactică de tip A.',['acidoza lactică','metformin']],
+[['Clasificarea acidozelor tubulare renale:',
+ ['tipul 1 (distal): urină cu pH peste 5,5, nefrocalcinoză și litiază','tipul 2 (proximal): pierdere de bicarbonat, eventual sindrom Fanconi','tipul 4: hiperpotasemie, prin hipoaldosteronism','tipul 1 (distal): hipopotasemie, prin pierdere renală de K+','tipul 4: hipopotasemie severă, cu pierdere renală de potasiu'],'ABCD',200,RTA,
+ 'Tipurile 1, 2 și 4 de acidoză tubulară renală și potasemia fiecăruia.',
+ ['Rinichiul nu acidifică urina sub 5,5; hipercalciuria și urina alcalină favorizează nefrocalcinoza.','Tubul proximal nu reabsoarbe bicarbonatul; se poate asocia cu sindromul Fanconi.','Deficitul sau rezistența la aldosteron scad secreția de K+ și H+: acidoză cu hiperpotasemie.','Tipul distal clasic se însoțește de hipopotasemie.','Nu: tipul 4 se caracterizează prin hiperpotasemie.']],
+ 'Distractorul inversează potasemia tipului 4.',['acidoza tubulară renală','hiperpotasemie']],
+[['Alcaloza metabolică sensibilă la clor (cu clor urinar scăzut) apare în:',
+ ['vărsăturile prelungite','aspirația nazogastrică','hiperaldosteronismul primar','sindromul Cushing','sindromul Bartter'],'AB',201,AL,
+ 'Clasificarea alcalozei metabolice după răspunsul la clor și clorul urinar.',
+ ['Pierderea de HCl și depleția volemică cresc reabsorbția de bicarbonat; clorul urinar este scăzut, iar serul fiziologic corectează alcaloza.','Aspirația nazogastrică pierde acid gastric, ca vărsăturile.','Nu: excesul de mineralocorticoizi produce alcaloză rezistentă la clor, cu clor urinar crescut.','Nu: excesul de cortizol acționează mineralocorticoid; alcaloza este rezistentă la clor.','Nu: tubulopatia Bartter pierde clor urinar; alcaloza este rezistentă la clor.']],
+ 'Distractorii sunt cauzele rezistente la clor.',['alcaloza metabolică','clor urinar']],
+[['Tratamentul alcalozei metabolice prin vărsături, cu depleție volemică, constă în:',
+ ['ser fiziologic și corectarea potasemiei','bicarbonat de sodiu intravenos, în perfuzie lentă','restricție de lichide și sare','diuretic de ansă (furosemid)','clorură de amoniu de primă intenție'],'A',201,AL,
+ 'Corectarea alcalozei sensibile la clor.',
+ ['Serul fiziologic refac volemia și aportul de clor, permițând rinichiului să excrete bicarbonatul; potasiul se corectează în paralel.','Nu: bicarbonatul ar agrava alcaloza.','Nu: depleția volemică întreține alcaloza; restricția o agravează.','Nu: diureticul de ansă accentuează pierderea de volum, clor și potasiu.','Nu: clorura de amoniu este o măsură excepțională, nu de primă intenție.']],
+ 'Distractorii agravează depleția sau alcaloza.',['ser fiziologic','hipopotasemie']],
+]);

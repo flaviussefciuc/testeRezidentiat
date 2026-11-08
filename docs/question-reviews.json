@@ -267511,5 +267511,775 @@
   ],
   "textbookWordingReviewed": false,
   "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "electroliti-p26-001",
+  "questionFingerprint": "d8f9c6bad978263cdd3b4580b80e72cba6cd8895d3af515e5b584bcd4068322f",
+  "status": "edition-checked",
+  "learningObjective": "Rolul plămânului și al rinichiului în tamponul bicarbonat (ecuația Henderson-Hasselbalch).",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 9,
+   "printedPages": [
+    195
+   ],
+   "pdfPages": [
+    46
+   ],
+   "section": "Echilibrul acido-bazic — fiziologie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: în acidoză rinichiul reține bicarbonatul și crește excreția de acid.",
+    "evidenceLocation": "Kumar, p. 195, Echilibrul acido-bazic — fiziologie"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Ecuația Henderson-Hasselbalch leagă pH-ul de raportul bicarbonat/PaCO2, nu de valorile izolate.",
+    "evidenceLocation": "Kumar, p. 195, Echilibrul acido-bazic — fiziologie"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Ventilația elimină CO2, deci controlează rapid componenta respiratorie.",
+    "evidenceLocation": "Kumar, p. 195, Echilibrul acido-bazic — fiziologie"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: bicarbonatul este reglat renal; plămânul reglează PaCO2.",
+    "evidenceLocation": "Kumar, p. 195, Echilibrul acido-bazic — fiziologie"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Rinichiul reabsoarbe și regenerează bicarbonatul, excretând acid ca amoniu și aciditate titrabilă.",
+    "evidenceLocation": "Kumar, p. 195, Echilibrul acido-bazic — fiziologie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:46:41.774Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează rolurile plămânului și rinichiului."
+  },
+  "textbookExpressions": [
+   "Henderson-Hasselbalch",
+   "bicarbonat"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "electroliti-p26-002",
+  "questionFingerprint": "8481e05d533fe1ada7f1a157512b3215ec68977ffaaf1ebea51f4c647af97dfd",
+  "status": "edition-checked",
+  "learningObjective": "Sensul și viteza compensării respiratorii și renale.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 9,
+   "printedPages": [
+    196
+   ],
+   "pdfPages": [
+    47
+   ],
+   "section": "Tulburările acido-bazice — interpretare"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Ventilația se adaptează rapid, în minute până la ore.",
+    "evidenceLocation": "Kumar, p. 196, Tulburările acido-bazice — interpretare"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: compensarea este de regulă incompletă; un pH normal cu valori anormale sugerează o tulburare mixtă.",
+    "evidenceLocation": "Kumar, p. 196, Tulburările acido-bazice — interpretare"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Hipercapnia cronică determină rinichiul să rețină bicarbonat.",
+    "evidenceLocation": "Kumar, p. 196, Tulburările acido-bazice — interpretare"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Scăderea pH-ului stimulează ventilația; PaCO2 scade proporțional cu scăderea bicarbonatului.",
+    "evidenceLocation": "Kumar, p. 196, Tulburările acido-bazice — interpretare"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: compensarea renală durează zile.",
+    "evidenceLocation": "Kumar, p. 196, Tulburările acido-bazice — interpretare"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:46:41.775Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii supraestimează compensarea și viteza ei renală."
+  },
+  "textbookExpressions": [
+   "compensare",
+   "hiperventilație"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "electroliti-p26-003",
+  "questionFingerprint": "52de5dc9b5bab1b18c73e26db394807056097f023ea3fdf9e797fc6cce1d27ee",
+  "status": "edition-checked",
+  "learningObjective": "Interpretarea gazometriei: tulburarea primară și compensarea.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 9,
+   "printedPages": [
+    196
+   ],
+   "pdfPages": [
+    47
+   ],
+   "section": "Tulburările acido-bazice — interpretare"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: în acidoza mixtă PaCO2 ar fi normală sau crescută, nu scăzută.",
+    "evidenceLocation": "Kumar, p. 196, Tulburările acido-bazice — interpretare"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: alcaloza metabolică are pH și bicarbonat crescute.",
+    "evidenceLocation": "Kumar, p. 196, Tulburările acido-bazice — interpretare"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: alcaloza ar avea pH crescut.",
+    "evidenceLocation": "Kumar, p. 196, Tulburările acido-bazice — interpretare"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "pH-ul scăzut cu bicarbonat scăzut definește acidoza metabolică; PaCO2 scăzută (≈ 1,5 × 14 + 8 mmHg) este compensarea așteptată.",
+    "evidenceLocation": "Kumar, p. 196, Tulburările acido-bazice — interpretare"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: în acidoza respiratorie PaCO2 este crescută.",
+    "evidenceLocation": "Kumar, p. 196, Tulburările acido-bazice — interpretare"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:46:41.775Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii schimbă tulburarea primară sau confundă compensarea cu o tulburare mixtă."
+  },
+  "textbookExpressions": [
+   "gazometrie",
+   "compensare"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "electroliti-p26-004",
+  "questionFingerprint": "00d923d7445e8a55432a6aa8f138f71d01f07f36d6520219ab51f8f75a64e9d5",
+  "status": "edition-checked",
+  "learningObjective": "Cauzele acidozei respiratorii (hipoventilație) și ale alcalozei respiratorii (hiperventilație).",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 9,
+   "printedPages": [
+    197
+   ],
+   "pdfPages": [
+    48
+   ],
+   "section": "Tulburările acido-bazice respiratorii"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: salicilații stimulează inițial centrul respirator (alcaloză respiratorie), apoi produc acidoză metabolică.",
+    "evidenceLocation": "Kumar, p. 197, Tulburările acido-bazice respiratorii"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: embolia pulmonară produce de obicei hiperventilație, cu alcaloză respiratorie.",
+    "evidenceLocation": "Kumar, p. 197, Tulburările acido-bazice respiratorii"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Hipoventilația alveolară din BPOC decompensată reține CO2.",
+    "evidenceLocation": "Kumar, p. 197, Tulburările acido-bazice respiratorii"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Deprimarea centrului respirator de către opioide produce hipercapnie.",
+    "evidenceLocation": "Kumar, p. 197, Tulburările acido-bazice respiratorii"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Hiperventilația anxioasă scade PaCO2.",
+    "evidenceLocation": "Kumar, p. 197, Tulburările acido-bazice respiratorii"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:46:41.775Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii atribuie hiperventilației tulburarea opusă."
+  },
+  "textbookExpressions": [
+   "acidoză respiratorie",
+   "alcaloză respiratorie"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "electroliti-p26-005",
+  "questionFingerprint": "4e1b22e60daeca556490724dd138ae1d6bdb77d740bfc972bbd380d499df2a08",
+  "status": "edition-checked",
+  "learningObjective": "Separarea acidozelor cu gaură anionică crescută (acizi adăugați) de cele hipercloremice (pierdere de bicarbonat).",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 9,
+   "printedPages": [
+    198
+   ],
+   "pdfPages": [
+    49
+   ],
+   "section": "Acidoza metabolică"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: lactatul este un anion nemăsurat, deci gaura anionică crește.",
+    "evidenceLocation": "Kumar, p. 198, Acidoza metabolică"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Pierderea digestivă de bicarbonat este înlocuită de clor: acidoză hipercloremică.",
+    "evidenceLocation": "Kumar, p. 198, Acidoza metabolică"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Pierderea renală de bicarbonat sau excreția acidă deficitară dă acidoză hipercloremică.",
+    "evidenceLocation": "Kumar, p. 198, Acidoza metabolică"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: metaboliții etilenglicolului (glicolat, oxalat) cresc gaura anionică.",
+    "evidenceLocation": "Kumar, p. 198, Acidoza metabolică"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Cetoacizii adaugă anioni nemăsurați: gaura anionică crește.",
+    "evidenceLocation": "Kumar, p. 198, Acidoza metabolică"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:46:41.776Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii mută acizii adăugați în categoria hipercloremică."
+  },
+  "textbookExpressions": [
+   "gaura anionică",
+   "hipercloremică"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "electroliti-p26-006",
+  "questionFingerprint": "d770be2b5203cf8c75abb884908c99f1e0aa00ac60b1733b14cf8be262ebc986",
+  "status": "edition-checked",
+  "learningObjective": "Semnul clinic al compensării și principiul tratamentului acidozei metabolice.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 9,
+   "printedPages": [
+    199
+   ],
+   "pdfPages": [
+    50
+   ],
+   "section": "Acidoza metabolică"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: bicarbonatul nu este de rutină; beneficiul lui în acidoza lactică este nedovedit.",
+    "evidenceLocation": "Kumar, p. 199, Acidoza metabolică"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Hiperventilația profundă (Kussmaul) scade PaCO2 și limitează scăderea pH-ului.",
+    "evidenceLocation": "Kumar, p. 199, Acidoza metabolică"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Corectarea cauzei (insulină, fluide, perfuzie tisulară) rezolvă acidoza.",
+    "evidenceLocation": "Kumar, p. 199, Acidoza metabolică"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: acidoza deplasează potasiul din celule și tinde să crească potasemia.",
+    "evidenceLocation": "Kumar, p. 199, Acidoza metabolică"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: acidoza metabolică produce hiperventilație compensatorie.",
+    "evidenceLocation": "Kumar, p. 199, Acidoza metabolică"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:46:41.776Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează efectul asupra potasiului și ventilației."
+  },
+  "textbookExpressions": [
+   "Kussmaul",
+   "bicarbonat"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "electroliti-p26-007",
+  "questionFingerprint": "fab318930dfebfcb69e0510b98ba93678298d3f138fd6c7f27a07aa244da6d23",
+  "status": "edition-checked",
+  "learningObjective": "Deosebirea acidozei lactice de tip A (hipoxie tisulară) de tipul B.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 9,
+   "printedPages": [
+    199
+   ],
+   "pdfPages": [
+    50
+   ],
+   "section": "Acidoza metabolică"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: șocul septic produce hipoperfuzie tisulară: tip A.",
+    "evidenceLocation": "Kumar, p. 199, Acidoza metabolică"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Metforminul inhibă gluconeogeneza din lactat și poate produce acidoză lactică fără hipoperfuzie, mai ales când se acumulează.",
+    "evidenceLocation": "Kumar, p. 199, Acidoza metabolică"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: șocul cardiogen produce hipoperfuzie tisulară: tip A.",
+    "evidenceLocation": "Kumar, p. 199, Acidoza metabolică"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: monoxidul de carbon produce hipoxie tisulară: tip A.",
+    "evidenceLocation": "Kumar, p. 199, Acidoza metabolică"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: hemoragia masivă produce hipoperfuzie tisulară: tip A.",
+    "evidenceLocation": "Kumar, p. 199, Acidoza metabolică"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:46:41.776Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt cauze de acidoză lactică de tip A."
+  },
+  "textbookExpressions": [
+   "acidoza lactică",
+   "metformin"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "electroliti-p26-008",
+  "questionFingerprint": "cb82d177f8b25605108d2fd72986b0c3eeb867e581e1ceb1a107402a21f43def",
+  "status": "edition-checked",
+  "learningObjective": "Tipurile 1, 2 și 4 de acidoză tubulară renală și potasemia fiecăruia.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 9,
+   "printedPages": [
+    200
+   ],
+   "pdfPages": [
+    51
+   ],
+   "section": "Acidozele tubulare renale"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: tipul 4 se caracterizează prin hiperpotasemie.",
+    "evidenceLocation": "Kumar, p. 200, Acidozele tubulare renale"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Deficitul sau rezistența la aldosteron scad secreția de K+ și H+: acidoză cu hiperpotasemie.",
+    "evidenceLocation": "Kumar, p. 200, Acidozele tubulare renale"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Tubul proximal nu reabsoarbe bicarbonatul; se poate asocia cu sindromul Fanconi.",
+    "evidenceLocation": "Kumar, p. 200, Acidozele tubulare renale"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Rinichiul nu acidifică urina sub 5,5; hipercalciuria și urina alcalină favorizează nefrocalcinoza.",
+    "evidenceLocation": "Kumar, p. 200, Acidozele tubulare renale"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Tipul distal clasic se însoțește de hipopotasemie.",
+    "evidenceLocation": "Kumar, p. 200, Acidozele tubulare renale"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:46:41.776Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul inversează potasemia tipului 4."
+  },
+  "textbookExpressions": [
+   "acidoza tubulară renală",
+   "hiperpotasemie"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "electroliti-p26-009",
+  "questionFingerprint": "e5042d55720095248ec2b4efcf902756cc9eb2ac8f9825fe7ca17e30d6a291f9",
+  "status": "edition-checked",
+  "learningObjective": "Clasificarea alcalozei metabolice după răspunsul la clor și clorul urinar.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 9,
+   "printedPages": [
+    201
+   ],
+   "pdfPages": [
+    52
+   ],
+   "section": "Alcaloza metabolică"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Pierderea de HCl și depleția volemică cresc reabsorbția de bicarbonat; clorul urinar este scăzut, iar serul fiziologic corectează alcaloza.",
+    "evidenceLocation": "Kumar, p. 201, Alcaloza metabolică"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: excesul de mineralocorticoizi produce alcaloză rezistentă la clor, cu clor urinar crescut.",
+    "evidenceLocation": "Kumar, p. 201, Alcaloza metabolică"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: excesul de cortizol acționează mineralocorticoid; alcaloza este rezistentă la clor.",
+    "evidenceLocation": "Kumar, p. 201, Alcaloza metabolică"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: tubulopatia Bartter pierde clor urinar; alcaloza este rezistentă la clor.",
+    "evidenceLocation": "Kumar, p. 201, Alcaloza metabolică"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Aspirația nazogastrică pierde acid gastric, ca vărsăturile.",
+    "evidenceLocation": "Kumar, p. 201, Alcaloza metabolică"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:46:41.776Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt cauzele rezistente la clor."
+  },
+  "textbookExpressions": [
+   "alcaloza metabolică",
+   "clor urinar"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "electroliti-p26-010",
+  "questionFingerprint": "22e440418196662d5c4541393d6bffa3f077a3f8dcceccff38e7640a92b9d423",
+  "status": "edition-checked",
+  "learningObjective": "Corectarea alcalozei sensibile la clor.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 9,
+   "printedPages": [
+    201
+   ],
+   "pdfPages": [
+    52
+   ],
+   "section": "Alcaloza metabolică"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: diureticul de ansă accentuează pierderea de volum, clor și potasiu.",
+    "evidenceLocation": "Kumar, p. 201, Alcaloza metabolică"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: depleția volemică întreține alcaloza; restricția o agravează.",
+    "evidenceLocation": "Kumar, p. 201, Alcaloza metabolică"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: clorura de amoniu este o măsură excepțională, nu de primă intenție.",
+    "evidenceLocation": "Kumar, p. 201, Alcaloza metabolică"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: bicarbonatul ar agrava alcaloza.",
+    "evidenceLocation": "Kumar, p. 201, Alcaloza metabolică"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Serul fiziologic refac volemia și aportul de clor, permițând rinichiului să excrete bicarbonatul; potasiul se corectează în paralel.",
+    "evidenceLocation": "Kumar, p. 201, Alcaloza metabolică"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:46:41.776Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii agravează depleția sau alcaloza."
+  },
+  "textbookExpressions": [
+   "ser fiziologic",
+   "hipopotasemie"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
  }
 ]
