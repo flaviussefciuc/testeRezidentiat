@@ -268681,5 +268681,775 @@
   ],
   "textbookWordingReviewed": false,
   "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "pancreas-p26-001",
+  "questionFingerprint": "2d257af07b213bafb1607c0ace93d78a427bc5e7efd282d962c273b5b27161b5",
+  "status": "edition-checked",
+  "learningObjective": "Separarea criteriilor Ranson de la internare de cele evaluate în următoarele 48 de ore.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 17,
+   "printedPages": [
+    264
+   ],
+   "pdfPages": [
+    175
+   ],
+   "section": "Pancreatita acută"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Hipoxemia sub 60 mmHg este un criteriu al primelor 48 de ore.",
+    "evidenceLocation": "Lawrence, p. 264, Pancreatita acută"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: vârsta peste 55 de ani este un criteriu de la internare.",
+    "evidenceLocation": "Lawrence, p. 264, Pancreatita acută"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Scăderea hematocritului cu peste 10% este un criteriu al primelor 48 de ore.",
+    "evidenceLocation": "Lawrence, p. 264, Pancreatita acută"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Hipocalcemia sub 8 mg/dl este un criteriu al primelor 48 de ore.",
+    "evidenceLocation": "Lawrence, p. 264, Pancreatita acută"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: leucocitoza peste 16.000/mm³ este un criteriu de la internare.",
+    "evidenceLocation": "Lawrence, p. 264, Pancreatita acută"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T12:05:55.440Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt criteriile de la internare."
+  },
+  "textbookExpressions": [
+   "Ranson",
+   "48 de ore"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "pancreas-p26-002",
+  "questionFingerprint": "c0d6b2191e9db5a2248e75b7431b1b024f6d9bb0afcdd2593121bad285a288cd",
+  "status": "edition-checked",
+  "learningObjective": "Coloana biliară a criteriilor Ranson, cu praguri mai mari decât coloana non-biliară.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 17,
+   "printedPages": [
+    264
+   ],
+   "pdfPages": [
+    175
+   ],
+   "section": "Pancreatita acută"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: 55 de ani este pragul de vârstă al pancreatitei non-biliare.",
+    "evidenceLocation": "Lawrence, p. 264, Pancreatita acută"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "În pancreatita biliară pragul de vârstă este 70 de ani.",
+    "evidenceLocation": "Lawrence, p. 264, Pancreatita acută"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "În pancreatita biliară pragul leucocitar este 18.000/mm³.",
+    "evidenceLocation": "Lawrence, p. 264, Pancreatita acută"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: 350 UI/l este pragul LDH al coloanei non-biliare; în pancreatita biliară pragul este mai mare.",
+    "evidenceLocation": "Lawrence, p. 264, Pancreatita acută"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: 16.000/mm³ este pragul leucocitar al pancreatitei non-biliare.",
+    "evidenceLocation": "Lawrence, p. 264, Pancreatita acută"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T12:05:55.441Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt pragurile coloanei non-biliare."
+  },
+  "textbookExpressions": [
+   "Ranson",
+   "biliară"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "pancreas-p26-003",
+  "questionFingerprint": "e2cc103bdd5aa403ee6dbd866a8858436c555d8bf195d2f546567634578f9d1f",
+  "status": "edition-checked",
+  "learningObjective": "Momentul celor două evaluări din scorul Ranson.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 17,
+   "printedPages": [
+    264
+   ],
+   "pdfPages": [
+    175
+   ],
+   "section": "Pancreatita acută"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: fereastra scorului Ranson este de 48 de ore.",
+    "evidenceLocation": "Lawrence, p. 264, Pancreatita acută"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: scorul se completează în primele 48 de ore.",
+    "evidenceLocation": "Lawrence, p. 264, Pancreatita acută"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: evaluarea a doua cuprinde primele 48 de ore.",
+    "evidenceLocation": "Lawrence, p. 264, Pancreatita acută"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: evaluarea a doua se face în primele 48 de ore.",
+    "evidenceLocation": "Lawrence, p. 264, Pancreatita acută"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Cinci criterii se evaluează la internare, iar restul în primele 48 de ore.",
+    "evidenceLocation": "Lawrence, p. 264, Pancreatita acută"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T12:05:55.441Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii schimbă fereastra de evaluare."
+  },
+  "textbookExpressions": [
+   "Ranson",
+   "48 de ore"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "vascular-p26-001",
+  "questionFingerprint": "266c3e6c9f7a762a532e878b633c14faf9a04a4ad512cafa4768a9acb15dc975",
+  "status": "edition-checked",
+  "learningObjective": "Diferențierea ulcerului venos de cel arterial după sediu, durere și poziție.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    540
+   ],
+   "pdfPages": [
+    219
+   ],
+   "section": "Insuficiența venoasă cronică"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Hipertensiunea venoasă afectează zona supramaleolară medială, cu hiperpigmentare și lipodermatoscleroză.",
+    "evidenceLocation": "Lawrence, p. 540, Insuficiența venoasă cronică"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Ulcerul venos este superficial, cu margini neregulate și durere moderată.",
+    "evidenceLocation": "Lawrence, p. 540, Insuficiența venoasă cronică"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Ridicarea membrului scade presiunea venoasă și edemul.",
+    "evidenceLocation": "Lawrence, p. 540, Insuficiența venoasă cronică"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: durerea calmată de atârnarea membrului este a ischemiei arteriale.",
+    "evidenceLocation": "Lawrence, p. 540, Insuficiența venoasă cronică"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: ulcerul de pe degete și călcâi, cu margini nete, este arterial.",
+    "evidenceLocation": "Lawrence, p. 540, Insuficiența venoasă cronică"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T12:05:57.029Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii descriu ulcerul arterial."
+  },
+  "textbookExpressions": [
+   "ulcer venos",
+   "hiperpigmentare"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "vascular-p26-002",
+  "questionFingerprint": "cc637bdd57f9aa59affae56288f273dc36f359f6f7b6edea02bb4d1520e97f4a",
+  "status": "edition-checked",
+  "learningObjective": "Indicațiile filtrului de venă cavă, alternativă la anticoagulare doar în situații precise.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 26,
+   "printedPages": [
+    538
+   ],
+   "pdfPages": [
+    217
+   ],
+   "section": "Tromboza venoasă profundă — Tratament"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: tromboza izolată a gambei nu este o indicație de filtru.",
+    "evidenceLocation": "Lawrence, p. 538, Tromboza venoasă profundă — Tratament"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "O hemoragie sub anticoagulare care impune oprirea tratamentului justifică filtrul.",
+    "evidenceLocation": "Lawrence, p. 538, Tromboza venoasă profundă — Tratament"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: filtrul nu înlocuiește anticoagularea la pacientul care o poate primi.",
+    "evidenceLocation": "Lawrence, p. 538, Tromboza venoasă profundă — Tratament"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Când anticoagularea nu se poate face, filtrul previne embolia pulmonară.",
+    "evidenceLocation": "Lawrence, p. 538, Tromboza venoasă profundă — Tratament"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Recidiva emboliei sub anticoagulare corectă este o indicație clasică.",
+    "evidenceLocation": "Lawrence, p. 538, Tromboza venoasă profundă — Tratament"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T12:05:57.031Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii transformă filtrul într-o alternativă de rutină."
+  },
+  "textbookExpressions": [
+   "filtru de venă cavă",
+   "anticoagulare"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "neurologie-p26-001",
+  "questionFingerprint": "ff8420db642d7af4013b275dc10a983097bed757fdace9db0e22653bdcba079d",
+  "status": "edition-checked",
+  "learningObjective": "Deosebirea simptomelor vertebro-bazilare de cele carotidiene în AIT.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 26,
+   "printedPages": [
+    839
+   ],
+   "pdfPages": [
+    143
+   ],
+   "section": "Accidentul vascular cerebral"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: neglijarea spațială indică lobul parietal drept, din teritoriul carotidian.",
+    "evidenceLocation": "Kumar, p. 839, Accidentul vascular cerebral"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Trunchiul cerebral și cerebelul produc diplopie, vertij și disartrie.",
+    "evidenceLocation": "Kumar, p. 839, Accidentul vascular cerebral"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: amauroza fugace monoculară ține de artera oftalmică, ram al carotidei interne.",
+    "evidenceLocation": "Kumar, p. 839, Accidentul vascular cerebral"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: afazia indică emisferul dominant, irigat de artera cerebrală medie (teritoriu carotidian).",
+    "evidenceLocation": "Kumar, p. 839, Accidentul vascular cerebral"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Ataxia și deficitul motor bilateral indică trunchiul cerebral.",
+    "evidenceLocation": "Kumar, p. 839, Accidentul vascular cerebral"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T12:05:58.605Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt simptome din teritoriul carotidian."
+  },
+  "textbookExpressions": [
+   "vertebro-bazilar",
+   "amauroză fugace"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "neurologie-p26-002",
+  "questionFingerprint": "8ab0c158534e053606386e6ba3dd2e9304691104cede221e690c8ec3170cf549",
+  "status": "edition-checked",
+  "learningObjective": "Definiția tisulară a AIT și urgența investigării.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 26,
+   "printedPages": [
+    839
+   ],
+   "pdfPages": [
+    143
+   ],
+   "section": "Accidentul vascular cerebral"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: AIT impune investigare urgentă (carotide, ritm, factori de risc).",
+    "evidenceLocation": "Kumar, p. 839, Accidentul vascular cerebral"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: simptomele care durează zile corespund unui accident vascular constituit.",
+    "evidenceLocation": "Kumar, p. 839, Accidentul vascular cerebral"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Riscul de AVC este cel mai mare în primele zile după AIT, de aceea evaluarea este urgentă.",
+    "evidenceLocation": "Kumar, p. 839, Accidentul vascular cerebral"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Majoritatea episoadelor durează minute, mult sub o oră.",
+    "evidenceLocation": "Kumar, p. 839, Accidentul vascular cerebral"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Definiția actuală cere absența infarctului la imagistică.",
+    "evidenceLocation": "Kumar, p. 839, Accidentul vascular cerebral"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T12:05:58.606Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii prelungesc durata și minimalizează riscul."
+  },
+  "textbookExpressions": [
+   "atac ischemic tranzitoriu",
+   "ABCD2"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "hiv-p26-001",
+  "questionFingerprint": "1c0107ee74ec76a8ca4b104e0fa03fe26b7b1a041d53ddc14dc3ed8c03192453",
+  "status": "edition-checked",
+  "learningObjective": "Cauzele citopeniilor din infecția HIV: boala însăși și medicamentele.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 37,
+   "printedPages": [
+    1431
+   ],
+   "pdfPages": [
+    372
+   ],
+   "section": "HIV — Complicații hematologice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Zidovudina este mielotoxică și produce macrocitoză și anemie.",
+    "evidenceLocation": "Kumar, p. 1431, HIV — Complicații hematologice"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Anemia apare la majoritatea pacienților și devine mai frecventă în stadiile avansate.",
+    "evidenceLocation": "Kumar, p. 1431, HIV — Complicații hematologice"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Co-trimoxazolul și ganciclovirul sunt cauze medicamentoase frecvente de neutropenie.",
+    "evidenceLocation": "Kumar, p. 1431, HIV — Complicații hematologice"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: zidovudina produce macrocitoză, nu microcitoză.",
+    "evidenceLocation": "Kumar, p. 1431, HIV — Complicații hematologice"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: medicamentele (co-trimoxazol, ganciclovir, zidovudină) sunt cauze frecvente de neutropenie.",
+    "evidenceLocation": "Kumar, p. 1431, HIV — Complicații hematologice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T12:06:00.173Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează tipul anemiei și ignoră cauzele medicamentoase."
+  },
+  "textbookExpressions": [
+   "zidovudină",
+   "neutropenie"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "reumatologie-p26-001",
+  "questionFingerprint": "a287596c532e19e0c1875cd2623deb7de2dce11bb2768a3244491e430fe61795",
+  "status": "edition-checked",
+  "learningObjective": "Sensibilitatea și specificitatea autoanticorpilor din LES.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 18,
+   "printedPages": [
+    457
+   ],
+   "pdfPages": [
+    85
+   ],
+   "section": "Lupus eritematos sistemic"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: ANA negativi fac diagnosticul de LES puțin probabil.",
+    "evidenceLocation": "Kumar, p. 457, Lupus eritematos sistemic"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "ANA sunt foarte sensibili: un rezultat negativ face diagnosticul puțin probabil.",
+    "evidenceLocation": "Kumar, p. 457, Lupus eritematos sistemic"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: anticorpii anti-histone caracterizează lupusul indus medicamentos.",
+    "evidenceLocation": "Kumar, p. 457, Lupus eritematos sistemic"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Anti-Ro traversează placenta și pot produce lupus neonatal și bloc atrioventricular congenital.",
+    "evidenceLocation": "Kumar, p. 457, Lupus eritematos sistemic"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Anti-ADN dublu catenar sunt specifici LES și urmăresc activitatea, mai ales renală.",
+    "evidenceLocation": "Kumar, p. 457, Lupus eritematos sistemic"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T12:06:01.770Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii confundă sensibilitatea cu specificitatea și lupusul medicamentos cu cel idiopatic."
+  },
+  "textbookExpressions": [
+   "anticorpi antinucleari",
+   "anti-ADN"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "reumatologie-p26-002",
+  "questionFingerprint": "20fe733fb55a58b10fae19bc01405bc9c274388e445273e484f3fb72cb70463a",
+  "status": "edition-checked",
+  "learningObjective": "Recunoașterea lupusului indus medicamentos și deosebirea lui de LES idiopatic.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 18,
+   "printedPages": [
+    457
+   ],
+   "pdfPages": [
+    85
+   ],
+   "section": "Lupus eritematos sistemic"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: afectarea renală și neurologică este rară, spre deosebire de LES idiopatic.",
+    "evidenceLocation": "Kumar, p. 457, Lupus eritematos sistemic"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Boala se remite de regulă după oprirea medicamentului.",
+    "evidenceLocation": "Kumar, p. 457, Lupus eritematos sistemic"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Hidralazina și procainamida sunt cauzele clasice, legate de acetilarea lentă.",
+    "evidenceLocation": "Kumar, p. 457, Lupus eritematos sistemic"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Anticorpii anti-histone sunt prezenți la majoritatea pacienților.",
+    "evidenceLocation": "Kumar, p. 457, Lupus eritematos sistemic"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Izoniazida și minociclina sunt alte cauze cunoscute.",
+    "evidenceLocation": "Kumar, p. 457, Lupus eritematos sistemic"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T12:06:01.771Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul atribuie formei medicamentoase afectarea renală a LES."
+  },
+  "textbookExpressions": [
+   "lupus indus medicamentos",
+   "hidralazină"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
  }
 ]
