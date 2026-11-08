@@ -6055,5 +6055,158 @@ export const RETIRED_HEPATOLOGIE:(Question&Record<string,unknown>)[]=[
    "nu există simptome",
    "Grăsimile dispar"
   ]
+ },
+ {
+  "id": "hepatologie-adv-026-v2",
+  "topicId": "hepatologie",
+  "type": "CM",
+  "stem": "Transplantul hepatic — indicații și donator:",
+  "options": [
+   "donatorul trebuie să fie compatibil ABO",
+   "Child C, MELD ≥20 sau UKELD ≥49 justifică trimiterea",
+   "în PBC, bilirubina persistent >100 µmol/L este reper",
+   "ficatul donat se poate conserva pe gheață cel mult 4 ore",
+   "donatorii sub 50 de ani oferă grefe mai bune"
+  ],
+  "correct": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "explanation": "donatorul trebuie să fie compatibil ABO — Incorect: Compatibilitate ABO, fără HLA.\n\nChild C, MELD ≥20 sau UKELD ≥49 justifică trimiterea — Corect: Child C, MELD ≥20, UKELD ≥49.\n\nîn PBC, bilirubina persistent >100 µmol/L este reper — Corect: Bilirubina >100 µmol/L.\n\nficatul donat se poate conserva pe gheață cel mult 4 ore — Corect: Nu: până la 20 de ore.\n\ndonatorii sub 50 de ani oferă grefe mai bune — Corect: <50 de ani.\n\nReferință: Kumar & Clark, Medicină clinică, ediția a 10-a, text român, cap. 34, p. 1292, Transplantul hepatic (pagini PDF: 319).",
+  "source": "https://rezidentiat.ms.ro/20261115/tematici/rezidentiat-M-2026.pdf",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 34,
+   "printedPages": [
+    1292
+   ],
+   "pdfPages": [
+    319
+   ],
+   "section": "Transplantul hepatic"
+  },
+  "learningObjective": "Criterii de trimitere și calitatea grefei.",
+  "optionRationales": [
+   "Compatibilitate ABO, fără HLA.",
+   "Child C, MELD ≥20, UKELD ≥49.",
+   "Bilirubina >100 µmol/L.",
+   "Nu: până la 20 de ore.",
+   "<50 de ani."
+  ],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii schimbă durata și compatibilitatea."
+  },
+  "textbookExpressions": [
+   "UKELD",
+   "până la 20 de ore"
+  ],
+  "replaces": "hepatologie-adv-026"
+ },
+ {
+  "id": "hepatologie-adv-029-v2",
+  "topicId": "hepatologie",
+  "type": "CM",
+  "stem": "Hemoragia variceală acută:",
+  "options": [
+   "somatostatina este prima alegere față de terlipresină",
+   "varicele gastrice se tratează cel mai bine cu cianoacrilat",
+   "15–20% din sângerări provin din varice gastrice",
+   "hemostaza endoscopică se obține la 80–90%",
+   "endoscopia se face ideal sub anestezie generală"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explanation": "somatostatina este prima alegere față de terlipresină — Corect: Nu: rezervată contraindicațiilor la terlipresină.\n\nvaricele gastrice se tratează cel mai bine cu cianoacrilat — Corect: Injectarea de cianoacrilat.\n\n15–20% din sângerări provin din varice gastrice — Corect: 15–20%, mortalitate până la 40%.\n\nhemostaza endoscopică se obține la 80–90% — Corect: 80–90%.\n\nendoscopia se face ideal sub anestezie generală — Incorect: Suport respirator adecvat.\n\nReferință: Kumar & Clark, Medicină clinică, ediția a 10-a, text român, cap. 34, p. 1294, Complicațiile cirozei (pagini PDF: 321).",
+  "source": "https://rezidentiat.ms.ro/20261115/tematici/rezidentiat-M-2026.pdf",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 34,
+   "printedPages": [
+    1294
+   ],
+   "pdfPages": [
+    321
+   ],
+   "section": "Complicațiile cirozei"
+  },
+  "learningObjective": "Terapia endoscopică.",
+  "optionRationales": [
+   "Nu: rezervată contraindicațiilor la terlipresină.",
+   "Injectarea de cianoacrilat.",
+   "15–20%, mortalitate până la 40%.",
+   "80–90%.",
+   "Suport respirator adecvat."
+  ],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează prioritățile."
+  },
+  "textbookExpressions": [
+   "cianoacrilat",
+   "80-90%"
+  ],
+  "replaces": "hepatologie-adv-029"
+ },
+ {
+  "id": "hepatologie-adv-031-v2",
+  "topicId": "hepatologie",
+  "type": "CM",
+  "stem": "TIPS și profilaxia primară:",
+  "options": [
+   "fără profilaxie, resângerarea este 60–80% la 2 ani",
+   "beta-blocantele reduc prima sângerare cu ~50%",
+   "TIPS „preventiv” în 72 de ore aduce beneficiu mai ales în Child C",
+   "beta-blocantele pot crește supraviețuirea",
+   "TIPS scade riscul de encefalopatie"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   4
+  ],
+  "explanation": "fără profilaxie, resângerarea este 60–80% la 2 ani — Corect: 60–80% la 2 ani.\n\nbeta-blocantele reduc prima sângerare cu ~50% — Corect: ~50%.\n\nTIPS „preventiv” în 72 de ore aduce beneficiu mai ales în Child C — Corect: Beneficiu de supraviețuire în Child C.\n\nbeta-blocantele pot crește supraviețuirea — Incorect: Pot crește supraviețuirea.\n\nTIPS scade riscul de encefalopatie — Corect: Nu: crește riscul.\n\nReferință: Kumar & Clark, Medicină clinică, ediția a 10-a, text român, cap. 34, p. 1295, Complicațiile cirozei (pagini PDF: 322).",
+  "source": "https://rezidentiat.ms.ro/20261115/tematici/rezidentiat-M-2026.pdf",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 34,
+   "printedPages": [
+    1295
+   ],
+   "pdfPages": [
+    322
+   ],
+   "section": "Complicațiile cirozei"
+  },
+  "learningObjective": "Rolul TIPS și al beta-blocantelor.",
+  "optionRationales": [
+   "60–80% la 2 ani.",
+   "~50%.",
+   "Beneficiu de supraviețuire în Child C.",
+   "Pot crește supraviețuirea.",
+   "Nu: crește riscul."
+  ],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează efectele."
+  },
+  "textbookExpressions": [
+   "671 de pacienţi",
+   "cost-eficiente"
+  ],
+  "replaces": "hepatologie-adv-031"
  }
 ];

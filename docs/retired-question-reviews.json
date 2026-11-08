@@ -220525,5 +220525,236 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hepatologie-adv-029-v2",
+  "questionFingerprint": "31e822c7d721d77b1388707ab9a0be73476000e00aa8eeacd31c8b3de3265a97",
+  "status": "source-checked",
+  "learningObjective": "Terapia endoscopică.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 34,
+   "printedPages": [
+    1294
+   ],
+   "pdfPages": [
+    321
+   ],
+   "section": "Complicațiile cirozei"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Nu: rezervată contraindicațiilor la terlipresină.",
+    "evidenceLocation": "Kumar, p. 1294, Complicațiile cirozei"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Injectarea de cianoacrilat.",
+    "evidenceLocation": "Kumar, p. 1294, Complicațiile cirozei"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "15–20%, mortalitate până la 40%.",
+    "evidenceLocation": "Kumar, p. 1294, Complicațiile cirozei"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "80–90%.",
+    "evidenceLocation": "Kumar, p. 1294, Complicațiile cirozei"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Suport respirator adecvat.",
+    "evidenceLocation": "Kumar, p. 1294, Complicațiile cirozei"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T13:59:22.612Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează prioritățile."
+  },
+  "textbookExpressions": [
+   "cianoacrilat",
+   "80-90%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a hepatologie-adv-029: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "hepatologie-adv-031-v2",
+  "questionFingerprint": "e50a8c8bea4cc9cbef27f14f554da5d9217621757848f5e340121f9d76ecbe29",
+  "status": "source-checked",
+  "learningObjective": "Rolul TIPS și al beta-blocantelor.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 34,
+   "printedPages": [
+    1295
+   ],
+   "pdfPages": [
+    322
+   ],
+   "section": "Complicațiile cirozei"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "60–80% la 2 ani.",
+    "evidenceLocation": "Kumar, p. 1295, Complicațiile cirozei"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "~50%.",
+    "evidenceLocation": "Kumar, p. 1295, Complicațiile cirozei"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Beneficiu de supraviețuire în Child C.",
+    "evidenceLocation": "Kumar, p. 1295, Complicațiile cirozei"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Pot crește supraviețuirea.",
+    "evidenceLocation": "Kumar, p. 1295, Complicațiile cirozei"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Nu: crește riscul.",
+    "evidenceLocation": "Kumar, p. 1295, Complicațiile cirozei"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T13:59:22.614Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează efectele."
+  },
+  "textbookExpressions": [
+   "671 de pacienţi",
+   "cost-eficiente"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a hepatologie-adv-031: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "hepatologie-adv-026-v2",
+  "questionFingerprint": "d3520d8b7b322580f25bf6603ab079ff37a66b543b05c0297d670dc55349121d",
+  "status": "source-checked",
+  "learningObjective": "Criterii de trimitere și calitatea grefei.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 34,
+   "printedPages": [
+    1292
+   ],
+   "pdfPages": [
+    319
+   ],
+   "section": "Transplantul hepatic"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Compatibilitate ABO, fără HLA.",
+    "evidenceLocation": "Kumar, p. 1292, Transplantul hepatic"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Child C, MELD ≥20, UKELD ≥49.",
+    "evidenceLocation": "Kumar, p. 1292, Transplantul hepatic"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Bilirubina >100 µmol/L.",
+    "evidenceLocation": "Kumar, p. 1292, Transplantul hepatic"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Nu: până la 20 de ore.",
+    "evidenceLocation": "Kumar, p. 1292, Transplantul hepatic"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "<50 de ani.",
+    "evidenceLocation": "Kumar, p. 1292, Transplantul hepatic"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T14:01:01.954Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii schimbă durata și compatibilitatea."
+  },
+  "textbookExpressions": [
+   "UKELD",
+   "până la 20 de ore"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a hepatologie-adv-026: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  }
 ]

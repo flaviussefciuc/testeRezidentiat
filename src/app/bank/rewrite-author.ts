@@ -23,11 +23,12 @@ export function shuffleRow(id:string,salt:string,[stem,options,key,page,section,
 // chapter; the row itself is authored and re-checked against the cited page.
 // With {shuffle:true} the authored option order is permuted deterministically; an optional
 // salt re-seeds the permutation (used to balance key positions in small chapters).
-export function rewriter(retired:Question[],pdfOffset:number|((page:number)=>number),opts:{shuffle?:boolean;salt?:string}={}){
+// {version:3} publishes a correction of a retired -v2 (oldId 'x-v2' → id 'x-v3', replaces 'x-v2').
+export function rewriter(retired:Question[],pdfOffset:number|((page:number)=>number),opts:{shuffle?:boolean;salt?:string;version?:number}={}){
  return (oldId:string,row:SourceRow,rating:[score:number,reason:string],expressions:string[],related?:number[]):AdvancedQuestion=>{
   const old=retired.find(q=>q.id===oldId) as SourcedQuestion|undefined;
   if(!old)throw new Error(`Rewrite target ${oldId} is not retired`);
-  const r=old.reference,id=`${oldId}-v2`;
+  const r=old.reference,id=`${oldId.replace(/-v\d+$/,'')}-v${opts.version??2}`;
   return advancedQuestion(old.topicId,r.chapter,pdfOffset,id,opts.shuffle?shuffleRow(id,opts.salt??'',row):row,rating,expressions,oldId,related??r.printedPages.filter(p=>p!==row[3]),r.book,r.edition);
  };
 }

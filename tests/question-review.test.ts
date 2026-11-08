@@ -116,3 +116,20 @@ test('rewritten versions replace a retired question and carry no answer cue',()=
   }
  }
 });
+test('no answer key contradicts its own option rationale',()=>{
+ // Rationales of false options begin with "Nu:"; a keyed-true option must never carry one.
+ // The rewritten chapters and the 2026 sets follow the convention in both directions.
+ const STRICT=new Set(['pancreas','gineco','gastro','colon','obstetrica','neurologie','urologie','hepatologie','pediatrie','ortopedie','orl','pneumologie']);
+ const problems:string[]=[];
+ for(const q of SOURCE_CHECKED_QUESTIONS as any[]){
+  if(!q.optionRationales)continue;
+  const except=/excep[țt]ia/i.test(q.stem);
+  q.options.forEach((o:string,i:number)=>{
+   const r=q.optionRationales[i].trim(),keyed=q.correct.includes(i);
+   if(keyed&&/^nu\s*:/i.test(r))problems.push(`${q.id}: "${o}" is keyed true but its rationale says "${r}"`);
+   const strict=/-p26-/.test(q.id)||(STRICT.has(q.topicId)&&/-v\d+$/.test(q.id));
+   if(strict&&!except&&!keyed&&!/^nu\b/i.test(r))problems.push(`${q.id}: "${o}" is keyed false but its rationale does not say why ("${r}")`);
+  });
+ }
+ assert.deepEqual(problems,[]);
+});

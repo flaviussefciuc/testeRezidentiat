@@ -16,7 +16,8 @@ const dir='src/app/bank/retired';
 const constName=(t:string)=>'RETIRED_'+t.toUpperCase().replace(/[^A-Z0-9]/g,'_');
 const file=`${dir}/${topic}.ts`;
 const header=`import type {Question} from '../../models';\n\n// Frozen snapshot: never edit. Old attempts are scored against these exact versions.\nexport const ${constName(topic)}:(Question&Record<string,unknown>)[]=`;
-const existing:any[]=existsSync(file)?JSON.parse(readFileSync(file,'utf8').slice(header.length).replace(/;\s*$/,'')):[];
+// Checkouts with core.autocrlf have CRLF line endings; the header is compared in LF form.
+const existing:any[]=existsSync(file)?JSON.parse(readFileSync(file,'utf8').replace(/\r\n/g,'\n').slice(header.length).replace(/;\s*$/,'')):[];
 const byId=new Map(existing.map(q=>[q.id,q]));
 for(const q of live){
  const prev=byId.get(q.id);

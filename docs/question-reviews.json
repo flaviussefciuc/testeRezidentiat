@@ -208857,83 +208857,6 @@
   "reviewNotes": "Rescriere a hepatologie-adv-027: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "hepatologie-adv-029-v2",
-  "questionFingerprint": "31e822c7d721d77b1388707ab9a0be73476000e00aa8eeacd31c8b3de3265a97",
-  "status": "source-checked",
-  "learningObjective": "Terapia endoscopică.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 34,
-   "printedPages": [
-    1294
-   ],
-   "pdfPages": [
-    321
-   ],
-   "section": "Complicațiile cirozei"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Nu: rezervată contraindicațiilor la terlipresină.",
-    "evidenceLocation": "Kumar, p. 1294, Complicațiile cirozei"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Injectarea de cianoacrilat.",
-    "evidenceLocation": "Kumar, p. 1294, Complicațiile cirozei"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "15–20%, mortalitate până la 40%.",
-    "evidenceLocation": "Kumar, p. 1294, Complicațiile cirozei"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "80–90%.",
-    "evidenceLocation": "Kumar, p. 1294, Complicațiile cirozei"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Suport respirator adecvat.",
-    "evidenceLocation": "Kumar, p. 1294, Complicațiile cirozei"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T13:59:22.612Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează prioritățile."
-  },
-  "textbookExpressions": [
-   "cianoacrilat",
-   "80-90%"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-029: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "hepatologie-adv-030-v2",
   "questionFingerprint": "573f9cfdce909b6b8f013d411364a7d802c548de552a15b8c29ea211d1838edd",
   "status": "source-checked",
@@ -209011,83 +208934,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a hepatologie-adv-030: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "hepatologie-adv-031-v2",
-  "questionFingerprint": "e50a8c8bea4cc9cbef27f14f554da5d9217621757848f5e340121f9d76ecbe29",
-  "status": "source-checked",
-  "learningObjective": "Rolul TIPS și al beta-blocantelor.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 34,
-   "printedPages": [
-    1295
-   ],
-   "pdfPages": [
-    322
-   ],
-   "section": "Complicațiile cirozei"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "60–80% la 2 ani.",
-    "evidenceLocation": "Kumar, p. 1295, Complicațiile cirozei"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "~50%.",
-    "evidenceLocation": "Kumar, p. 1295, Complicațiile cirozei"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Beneficiu de supraviețuire în Child C.",
-    "evidenceLocation": "Kumar, p. 1295, Complicațiile cirozei"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Pot crește supraviețuirea.",
-    "evidenceLocation": "Kumar, p. 1295, Complicațiile cirozei"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "Nu: crește riscul.",
-    "evidenceLocation": "Kumar, p. 1295, Complicațiile cirozei"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T13:59:22.614Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează efectele."
-  },
-  "textbookExpressions": [
-   "671 de pacienţi",
-   "cost-eficiente"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-031: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "hepatologie-adv-032-v2",
@@ -213030,83 +212876,6 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a hepatologie-adv-025: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
-  "questionId": "hepatologie-adv-026-v2",
-  "questionFingerprint": "d3520d8b7b322580f25bf6603ab079ff37a66b543b05c0297d670dc55349121d",
-  "status": "source-checked",
-  "learningObjective": "Criterii de trimitere și calitatea grefei.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 34,
-   "printedPages": [
-    1292
-   ],
-   "pdfPages": [
-    319
-   ],
-   "section": "Transplantul hepatic"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Compatibilitate ABO, fără HLA.",
-    "evidenceLocation": "Kumar, p. 1292, Transplantul hepatic"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Child C, MELD ≥20, UKELD ≥49.",
-    "evidenceLocation": "Kumar, p. 1292, Transplantul hepatic"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Bilirubina >100 µmol/L.",
-    "evidenceLocation": "Kumar, p. 1292, Transplantul hepatic"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Nu: până la 20 de ore.",
-    "evidenceLocation": "Kumar, p. 1292, Transplantul hepatic"
-   },
-   {
-    "index": 4,
-    "verdict": "correct",
-    "rationale": "<50 de ani.",
-    "evidenceLocation": "Kumar, p. 1292, Transplantul hepatic"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T14:01:01.954Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii schimbă durata și compatibilitatea."
-  },
-  "textbookExpressions": [
-   "UKELD",
-   "până la 20 de ore"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-026: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
   "questionId": "hepatologie-adv-028-v2",
@@ -265571,5 +265340,251 @@
   ],
   "textbookWordingReviewed": false,
   "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "hepatologie-adv-026-v3",
+  "questionFingerprint": "2062185443fd1fab518e00964613c93f08c0408447e2b4b39a3a81afb6d1c996",
+  "status": "source-checked",
+  "learningObjective": "Criterii de trimitere și calitatea grefei.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 34,
+   "printedPages": [
+    1292
+   ],
+   "pdfPages": [
+    319
+   ],
+   "section": "Transplantul hepatic"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Este necesară compatibilitatea ABO; compatibilitatea HLA nu este cerută.",
+    "evidenceLocation": "Kumar, p. 1292, Transplantul hepatic"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Ciroza Child C, MELD ≥20 sau UKELD ≥49, cu simptome debilitante, justifică evaluarea pentru transplant.",
+    "evidenceLocation": "Kumar, p. 1292, Transplantul hepatic"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "În ciroza biliară primară, bilirubina constant peste 100 µmol/L este reperul de trimitere.",
+    "evidenceLocation": "Kumar, p. 1292, Transplantul hepatic"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: ficatul donat se poate conserva pe gheață până la 20 de ore.",
+    "evidenceLocation": "Kumar, p. 1292, Transplantul hepatic"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Donatorii sub 50 de ani oferă o grefă de calitate superioară.",
+    "evidenceLocation": "Kumar, p. 1292, Transplantul hepatic"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:41:42.020Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul scurtează durata de conservare a grefei."
+  },
+  "textbookExpressions": [
+   "UKELD",
+   "până la 20 de ore"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Corecție de cheie a hepatologie-adv-026-v2: cheia ABCD marca drept adevărată conservarea grefei «cel mult 4 ore», deși justificarea ei spune «până la 20 de ore» (p. 1292; versiunea inițială citează conservarea până la 20 de ore), și drept falsă compatibilitatea ABO, pe care justificarea o susține; cheia corectă este ABCE.",
+  "keyCorrection": {
+   "replaces": "hepatologie-adv-026-v2",
+   "date": "2026-11-08",
+   "note": "cheia ABCD marca drept adevărată conservarea grefei «cel mult 4 ore», deși justificarea ei spune «până la 20 de ore» (p. 1292; versiunea inițială citează conservarea până la 20 de ore), și drept falsă compatibilitatea ABO, pe care justificarea o susține; cheia corectă este ABCE."
+  }
+ },
+ {
+  "questionId": "hepatologie-adv-029-v3",
+  "questionFingerprint": "7d08ef5d9d3ad78ccf16b13deb33249a6b7015740329e05fbd0693636482c7b7",
+  "status": "source-checked",
+  "learningObjective": "Terapia endoscopică și locul somatostatinei față de terlipresină.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 34,
+   "printedPages": [
+    1294
+   ],
+   "pdfPages": [
+    321
+   ],
+   "section": "Complicațiile cirozei"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Endoscopia se face ideal sub anestezie, cu protecția căilor aeriene.",
+    "evidenceLocation": "Kumar, p. 1294, Complicațiile cirozei"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Hemostaza endoscopică se obține la 80–90% dintre pacienți.",
+    "evidenceLocation": "Kumar, p. 1294, Complicațiile cirozei"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Varicele gastrice se tratează cel mai bine prin injectare de cianoacrilat.",
+    "evidenceLocation": "Kumar, p. 1294, Complicațiile cirozei"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Varicele gastrice dau 15–20% din sângerări, cu mortalitate de până la 40%.",
+    "evidenceLocation": "Kumar, p. 1294, Complicațiile cirozei"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: terlipresina are dovezile de reducere a mortalității; somatostatina este rezervată contraindicațiilor la terlipresină.",
+    "evidenceLocation": "Kumar, p. 1294, Complicațiile cirozei"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:41:42.021Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul inversează prioritatea terlipresină–somatostatină."
+  },
+  "textbookExpressions": [
+   "cianoacrilat",
+   "80-90%"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Corecție de cheie a hepatologie-adv-029-v2: cheia ABCD marca drept adevărat că somatostatina este prima alegere, deși justificarea spune că este rezervată contraindicațiilor la terlipresină (p. 1294, confirmat de versiunea inițială), și drept falsă endoscopia ideal sub anestezie, susținută de text («preferabil sub anestezie»); cheia corectă este ABCE.",
+  "keyCorrection": {
+   "replaces": "hepatologie-adv-029-v2",
+   "date": "2026-11-08",
+   "note": "cheia ABCD marca drept adevărat că somatostatina este prima alegere, deși justificarea spune că este rezervată contraindicațiilor la terlipresină (p. 1294, confirmat de versiunea inițială), și drept falsă endoscopia ideal sub anestezie, susținută de text («preferabil sub anestezie»); cheia corectă este ABCE."
+  }
+ },
+ {
+  "questionId": "hepatologie-adv-031-v3",
+  "questionFingerprint": "a89100070301f40cb79d637f1a4b78980341cf6ed1789110167e4f7bcff7ee68",
+  "status": "source-checked",
+  "learningObjective": "Rolul TIPS și al beta-blocantelor.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 34,
+   "printedPages": [
+    1295
+   ],
+   "pdfPages": [
+    322
+   ],
+   "section": "Complicațiile cirozei"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "TIPS „preventiv”, în primele 72 de ore, are beneficiu de supraviețuire mai ales la pacienții Child C.",
+    "evidenceLocation": "Kumar, p. 1295, Complicațiile cirozei"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: șuntul ocolește ficatul și crește riscul de encefalopatie hepatică.",
+    "evidenceLocation": "Kumar, p. 1295, Complicațiile cirozei"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Beta-blocantele neselective pot crește supraviețuirea și sunt cost-eficiente.",
+    "evidenceLocation": "Kumar, p. 1295, Complicațiile cirozei"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Fără profilaxie, riscul de resângerare este 60–80% la 2 ani.",
+    "evidenceLocation": "Kumar, p. 1295, Complicațiile cirozei"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Beta-blocantele neselective reduc sângerarea digestivă superioară cu aproximativ 50%.",
+    "evidenceLocation": "Kumar, p. 1295, Complicațiile cirozei"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:41:42.022Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul inversează efectul TIPS asupra encefalopatiei."
+  },
+  "textbookExpressions": [
+   "671 de pacienţi",
+   "cost-eficiente"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Corecție de cheie a hepatologie-adv-031-v2: cheia ABCD marca drept adevărat că TIPS scade riscul de encefalopatie, deși justificarea spune că îl crește, și drept fals că beta-blocantele pot crește supraviețuirea, afirmație citată de text (p. 1295, confirmat de versiunea inițială); cheia corectă este ABCE.",
+  "keyCorrection": {
+   "replaces": "hepatologie-adv-031-v2",
+   "date": "2026-11-08",
+   "note": "cheia ABCD marca drept adevărat că TIPS scade riscul de encefalopatie, deși justificarea spune că îl crește, și drept fals că beta-blocantele pot crește supraviețuirea, afirmație citată de text (p. 1295, confirmat de versiunea inițială); cheia corectă este ABCE."
+  }
  }
 ]

@@ -3,6 +3,10 @@ import {RETIRED_HEPATOLOGIE} from './retired/hepatologie';
 
 // Rewritten after the 2026-09-24 cue audit (Kumar, cap. 34, p. 1275–1284; 1289–1303).
 const q=rewriter(RETIRED_HEPATOLOGIE,(p:number)=>p===1275?313:p<=1284?p-970:p-973,{shuffle:true});
+// 2026-11-08: -026, -029 and -031 were keyed ABCD although their own rationales mark the
+// 4th option false and the 5th true; the -v2 versions are frozen in retired/ and these -v3
+// corrections replace them (the original source-checked rows confirm the corrected keys).
+const q3=rewriter(RETIRED_HEPATOLOGIE,(p:number)=>p===1275?313:p<=1284?p-970:p-973,{shuffle:true,version:3});
 
 const H='Hepatita',C='Ciroza hepatică',T='Transplantul hepatic',HP='Complicațiile cirozei',B='Colangita biliară și sclerozantă',M='Boli hepatice metabolice',A='Boala hepatică alcoolică';
 
@@ -132,11 +136,11 @@ q('hepatologie-adv-025',['Scorul MELD:',
  'Componentele și interpretarea MELD.',
  ['Bilirubină, creatinină, INR.','Împărțire la 17.','97% la 1 an.','70% la 1 an.','Nu: acestea sunt în Child-Pugh.']],
  [8,'Distractorul confundă MELD cu Child-Pugh.'],['se împarte cu 17','Scor 30-40']),
-q('hepatologie-adv-026',['Transplantul hepatic — indicații și donator:',
- ['Child C, MELD ≥20 sau UKELD ≥49 justifică trimiterea','în PBC, bilirubina persistent >100 µmol/L este reper','donatorii sub 50 de ani oferă grefe mai bune','ficatul donat se poate conserva pe gheață cel mult 4 ore','donatorul trebuie să fie compatibil ABO'],'ABCD',1292,T,
+q3('hepatologie-adv-026-v2',['Transplantul hepatic — indicații și donator:',
+ ['Child C, MELD ≥20 sau UKELD ≥49 justifică trimiterea','în PBC, bilirubina persistent >100 µmol/L este reper','donatorii sub 50 de ani oferă grefe mai bune','ficatul donat se poate conserva pe gheață cel mult 4 ore','donatorul trebuie să fie compatibil ABO'],'ABCE',1292,T,
  'Criterii de trimitere și calitatea grefei.',
- ['Child C, MELD ≥20, UKELD ≥49.','Bilirubina >100 µmol/L.','<50 de ani.','Nu: până la 20 de ore.','Compatibilitate ABO, fără HLA.']],
- [8,'Distractorii schimbă durata și compatibilitatea.'],['UKELD','până la 20 de ore']),
+ ['Ciroza Child C, MELD ≥20 sau UKELD ≥49, cu simptome debilitante, justifică evaluarea pentru transplant.','În ciroza biliară primară, bilirubina constant peste 100 µmol/L este reperul de trimitere.','Donatorii sub 50 de ani oferă o grefă de calitate superioară.','Nu: ficatul donat se poate conserva pe gheață până la 20 de ore.','Este necesară compatibilitatea ABO; compatibilitatea HLA nu este cerută.']],
+ [8,'Distractorul scurtează durata de conservare a grefei.'],['UKELD','până la 20 de ore']),
 q('hepatologie-adv-027',['Operația de transplant hepatic și evoluția:',
  ['operația durează aproximativ 8 ore','supraviețuirea este ~90% la 1 an','majoritatea deceselor apar după primul an','mortalitatea operatorie este ridicată','imunosupresia se oprește după 1 an'],'AB',1292,T,
  'Rezultatele transplantului.',
@@ -147,21 +151,21 @@ q('hepatologie-adv-028',['Hipertensiunea portală și varicele:',
  'Hemodinamica și istoria naturală a varicelor.',
  ['5–8 mmHg.','>10–12 mmHg.','90% în 10 ani, o treime sângeră.','15–25% general, 50% Child C.','Nu: ~30% dacă sunt căutate.']],
  [8,'Distractorul subestimează varicele rectale.'],['Varicele rectale','10-12 mmHg']),
-q('hepatologie-adv-029',['Hemoragia variceală acută:',
- ['15–20% din sângerări provin din varice gastrice','varicele gastrice se tratează cel mai bine cu cianoacrilat','hemostaza endoscopică se obține la 80–90%','somatostatina este prima alegere față de terlipresină','endoscopia se face ideal sub anestezie generală'],'ABCD',1294,HP,
- 'Terapia endoscopică.',
- ['15–20%, mortalitate până la 40%.','Injectarea de cianoacrilat.','80–90%.','Nu: rezervată contraindicațiilor la terlipresină.','Suport respirator adecvat.']],
- [8,'Distractorii inversează prioritățile.'],['cianoacrilat','80-90%']),
+q3('hepatologie-adv-029-v2',['Hemoragia variceală acută:',
+ ['15–20% din sângerări provin din varice gastrice','varicele gastrice se tratează cel mai bine cu cianoacrilat','hemostaza endoscopică se obține la 80–90%','somatostatina este prima alegere față de terlipresină','endoscopia se face ideal sub anestezie'],'ABCE',1294,HP,
+ 'Terapia endoscopică și locul somatostatinei față de terlipresină.',
+ ['Varicele gastrice dau 15–20% din sângerări, cu mortalitate de până la 40%.','Varicele gastrice se tratează cel mai bine prin injectare de cianoacrilat.','Hemostaza endoscopică se obține la 80–90% dintre pacienți.','Nu: terlipresina are dovezile de reducere a mortalității; somatostatina este rezervată contraindicațiilor la terlipresină.','Endoscopia se face ideal sub anestezie, cu protecția căilor aeriene.']],
+ [8,'Distractorul inversează prioritatea terlipresină–somatostatină.'],['cianoacrilat','80-90%']),
 q('hepatologie-adv-030',['Tamponada cu balon și stentul Danis:',
  ['sonda Sengstaken rămâne pe loc cel mult 12 ore','balonul obține hemostaza în până la 90%','stentul Danis se îndepărtează la 24 de ore','balonul esofagian se umflă primul','stentul Danis împiedică deglutiția'],'AB',1295,HP,
  'Măsurile de salvare în sângerarea refractară.',
  ['Maxim 12 ore.','Până la 90%, cu complicații grave.','Nu: la 7 zile.','Nu: întâi balonul gastric.','Nu: nu afectează deglutiția.']],
  [8,'Distractorii inversează tehnica.'],['12 ore','7 zile']),
-q('hepatologie-adv-031',['TIPS și profilaxia primară:',
- ['TIPS „preventiv” în 72 de ore aduce beneficiu mai ales în Child C','fără profilaxie, resângerarea este 60–80% la 2 ani','beta-blocantele reduc prima sângerare cu ~50%','TIPS scade riscul de encefalopatie','beta-blocantele pot crește supraviețuirea'],'ABCD',1295,HP,
+q3('hepatologie-adv-031-v2',['TIPS și profilaxia primară:',
+ ['TIPS „preventiv” în 72 de ore aduce beneficiu mai ales în Child C','fără profilaxie, resângerarea este 60–80% la 2 ani','beta-blocantele reduc prima sângerare cu ~50%','TIPS scade riscul de encefalopatie hepatică după procedură','beta-blocantele pot crește supraviețuirea'],'ABCE',1295,HP,
  'Rolul TIPS și al beta-blocantelor.',
- ['Beneficiu de supraviețuire în Child C.','60–80% la 2 ani.','~50%.','Nu: crește riscul.','Pot crește supraviețuirea.']],
- [8,'Distractorii inversează efectele.'],['671 de pacienţi','cost-eficiente']),
+ ['TIPS „preventiv”, în primele 72 de ore, are beneficiu de supraviețuire mai ales la pacienții Child C.','Fără profilaxie, riscul de resângerare este 60–80% la 2 ani.','Beta-blocantele neselective reduc sângerarea digestivă superioară cu aproximativ 50%.','Nu: șuntul ocolește ficatul și crește riscul de encefalopatie hepatică.','Beta-blocantele neselective pot crește supraviețuirea și sunt cost-eficiente.']],
+ [8,'Distractorul inversează efectul TIPS asupra encefalopatiei.'],['671 de pacienţi','cost-eficiente']),
 q('hepatologie-adv-032',['Fiziopatologia și analiza ascitei:',
  ['excreția urinară de sodiu depășește rar 5 mmol/24 h','SAAG >11 g/L sugerează hipertensiune portală','neutrofilele >250/mm³ sugerează PBS','SAAG <11 g/L se asociază neoplaziei peritoneale','pierderea extrarenală de sodiu este ~300 mmol/24 h'],'ABCD',1296,HP,
  'Bilanțul sodic și gradientul albumină ser–ascită.',
