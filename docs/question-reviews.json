@@ -202459,7 +202459,7 @@
  },
  {
   "questionId": "urologie-adv-059-v2",
-  "questionFingerprint": "68085397d551f4ae29a64ea3ebb375e67a82257fe1b3e0dbdce3a751edcb7713",
+  "questionFingerprint": "fe92c8478dee85646961f548a40466c6ec6f85401c42735090a3d70a66a3231d",
   "status": "source-checked",
   "learningObjective": "Prognosticul non-seminomului avansat.",
   "reference": {
@@ -202478,7 +202478,7 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: rezultatul raportat este de peste 70%, nu aproape de vindecarea tuturor pacienților.",
     "evidenceLocation": "Lawrence, p. 671, Testiculele, infertilitatea și disfuncția erectilă"
    },
    {
@@ -202490,19 +202490,19 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: supraviețuirea la 5 ani depășește 70%.",
     "evidenceLocation": "Lawrence, p. 671, Testiculele, infertilitatea și disfuncția erectilă"
    },
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: valoarea subestimează rezultatul; supraviețuirea depășește 70%.",
     "evidenceLocation": "Lawrence, p. 671, Testiculele, infertilitatea și disfuncția erectilă"
    },
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: chimioterapia cu platină vindecă majoritatea pacienților; supraviețuirea la 5 ani depășește 70%.",
     "evidenceLocation": "Lawrence, p. 671, Testiculele, infertilitatea și disfuncția erectilă"
    }
   ],
@@ -202520,7 +202520,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T13:50:31.677Z",
+  "reviewedAt": "2026-11-08T11:54:44.764Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -202531,7 +202531,8 @@
    "depăşeşte 70%"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a urologie-adv-059: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a urologie-adv-059: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "urologie-adv-060-v2",
@@ -202693,7 +202694,7 @@
  },
  {
   "questionId": "urologie-adv-063-v2",
-  "questionFingerprint": "a5aeb9e180fccd336889614ff224d34d67e2340368a3f4cfa91874dc68df4fc2",
+  "questionFingerprint": "73b329bd4278a22a2eadcc10267b900aa99e78dc6afe611719222123234d1aa9",
   "status": "source-checked",
   "learningObjective": "Vascularizația prostatei.",
   "reference": {
@@ -202712,13 +202713,13 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: artera rușinoasă externă irigă tegumentele scrotului și ale penisului, nu prostata.",
     "evidenceLocation": "Lawrence, p. 635, Prostata"
    },
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: artera mezenterică inferioară irigă colonul stâng și rectul superior.",
     "evidenceLocation": "Lawrence, p. 635, Prostata"
    },
    {
@@ -202736,7 +202737,7 @@
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: artera epigastrică inferioară irigă peretele abdominal anterior.",
     "evidenceLocation": "Lawrence, p. 635, Prostata"
    }
   ],
@@ -202754,7 +202755,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T13:50:31.680Z",
+  "reviewedAt": "2026-11-08T11:54:44.767Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -202765,7 +202766,8 @@
    "arterei hipogastrice"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a urologie-adv-063: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a urologie-adv-063: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "urologie-adv-064-v2",
@@ -202846,7 +202848,7 @@
  },
  {
   "questionId": "urologie-adv-065-v2",
-  "questionFingerprint": "459359968aecf521249c39a4b7cf77e4135c9ec756940eee7a80444f20866da8",
+  "questionFingerprint": "e959c2ac12e05921801ff1a0e23d39db389f2d714eb0dd97f78a992e67f91e56",
   "status": "source-checked",
   "learningObjective": "Pragul PSA pentru metastaze osoase.",
   "reference": {
@@ -202865,19 +202867,19 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: 4 ng/mL este un prag de investigare, nu pragul sub care metastazele osoase sunt rare.",
     "evidenceLocation": "Lawrence, p. 639, Prostata"
    },
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: pragul citat este 20 ng/mL.",
     "evidenceLocation": "Lawrence, p. 639, Prostata"
    },
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: pragul sub care metastazele osoase sunt rare este 20 ng/mL.",
     "evidenceLocation": "Lawrence, p. 639, Prostata"
    },
    {
@@ -202889,7 +202891,7 @@
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: peste 20 ng/mL metastazele osoase devin mai frecvente.",
     "evidenceLocation": "Lawrence, p. 639, Prostata"
    }
   ],
@@ -202907,7 +202909,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T13:50:31.681Z",
+  "reviewedAt": "2026-11-08T11:54:44.767Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -202918,7 +202920,8 @@
    "PSA <20 ng/mL"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a urologie-adv-065: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a urologie-adv-065: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "urologie-adv-066-v2",
@@ -203076,7 +203079,7 @@
  },
  {
   "questionId": "urologie-adv-068-v2",
-  "questionFingerprint": "a433ebb4f167e147bac75a4a1785644d6b12970242a093249455924448dc278a",
+  "questionFingerprint": "f546e30175d15c0842e0a6527fe3e7b89f468932e757be738c06820a9b404150",
   "status": "source-checked",
   "learningObjective": "Diagnosticul stenozei JPU.",
   "reference": {
@@ -203095,13 +203098,13 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: ecografia arată hidronefroza, dar nu dovedește obstrucția funcțională.",
     "evidenceLocation": "Lawrence, p. 643, Rinichii"
    },
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: arteriografia poate arăta un vas polar, dar nu stabilește obstrucția funcțională.",
     "evidenceLocation": "Lawrence, p. 643, Rinichii"
    },
    {
@@ -203113,13 +203116,13 @@
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: urografia sugerează obstacolul, dar renografia diuretică îl confirmă funcțional.",
     "evidenceLocation": "Lawrence, p. 643, Rinichii"
    },
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: este o explorare invazivă, folosită eventual preoperator, nu pentru diagnostic.",
     "evidenceLocation": "Lawrence, p. 643, Rinichii"
    }
   ],
@@ -203137,7 +203140,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T13:50:31.683Z",
+  "reviewedAt": "2026-11-08T11:54:44.767Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -203148,11 +203151,12 @@
    "renografie Lasix"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a urologie-adv-068: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a urologie-adv-068: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "urologie-adv-070-v2",
-  "questionFingerprint": "8476ad090d163b6b492cd2f5b37506daf95c82cd3909d48c240f450a149b9494",
+  "questionFingerprint": "4932617474912aa68febb7166b05a425ecd0223e551302d5ce2ba3e53da9550f",
   "status": "source-checked",
   "learningObjective": "Epidemiologia și clinica CRCC.",
   "reference": {
@@ -203189,7 +203193,7 @@
    {
     "index": 3,
     "verdict": "correct",
-    "rationale": "2:1.",
+    "rationale": "Carcinomul renal este de aproximativ două ori mai frecvent la bărbați.",
     "evidenceLocation": "Lawrence, p. 645, Rinichii"
    },
    {
@@ -203213,7 +203217,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T13:50:31.683Z",
+  "reviewedAt": "2026-11-08T11:54:44.767Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -203225,7 +203229,8 @@
    "pseudocapsulă"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a urologie-adv-070: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a urologie-adv-070: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "urologie-adv-071-v2",
@@ -204308,7 +204313,7 @@
  },
  {
   "questionId": "urologie-adv-088-v2",
-  "questionFingerprint": "f94a10434db6d73ed0097bc640f6612957c80e5c890d920c49366b7cbfb9873d",
+  "questionFingerprint": "313532045ad567349c2f242da0b812c26b4f9d9f21092165f8be1ee74bfe08e8",
   "status": "source-checked",
   "learningObjective": "Anomaliile testiculare.",
   "reference": {
@@ -204333,7 +204338,7 @@
    {
     "index": 1,
     "verdict": "correct",
-    "rationale": "3–5%.",
+    "rationale": "Anorhidia explică 3–5% dintre testiculele nepalpabile.",
     "evidenceLocation": "Lawrence, p. 669, Testiculele, infertilitatea și disfuncția erectilă"
    },
    {
@@ -204369,7 +204374,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T13:50:31.694Z",
+  "reviewedAt": "2026-11-08T11:54:44.768Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -204381,7 +204386,8 @@
    "ligatura înaltă"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a urologie-adv-088: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a urologie-adv-088: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "urologie-adv-089-v2",
@@ -204538,7 +204544,7 @@
  },
  {
   "questionId": "urologie-adv-092-v2",
-  "questionFingerprint": "39dc2757bccf3424fa8059968a23c239da9e7879ed4b396f623a45917c8b4fc5",
+  "questionFingerprint": "efb112ee02fa0211d883eb686fef696221a121541171cff98bd282286f60ed17",
   "status": "source-checked",
   "learningObjective": "Fiziologia prostatei.",
   "reference": {
@@ -204557,31 +204563,31 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: cea mai mare parte a ejaculatului provine din veziculele seminale; prostata dă circa 20%.",
     "evidenceLocation": "Lawrence, p. 635, Prostata"
    },
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: prostata contribuie cu circa 20% din volum.",
     "evidenceLocation": "Lawrence, p. 635, Prostata"
    },
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: contribuția prostatei este de circa 20%.",
     "evidenceLocation": "Lawrence, p. 635, Prostata"
    },
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: prostata contribuie cu circa 20%; cea mai mare parte vine din veziculele seminale.",
     "evidenceLocation": "Lawrence, p. 635, Prostata"
    },
    {
     "index": 4,
     "verdict": "correct",
-    "rationale": "~20%.",
+    "rationale": "Secrețiile prostatice formează circa 20% din volumul ejaculatului.",
     "evidenceLocation": "Lawrence, p. 635, Prostata"
    }
   ],
@@ -204599,7 +204605,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T13:50:31.696Z",
+  "reviewedAt": "2026-11-08T11:54:44.768Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -204610,7 +204616,8 @@
    "20% din volumul ejaculatului"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a urologie-adv-092: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a urologie-adv-092: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "urologie-adv-093-v2",
@@ -205000,7 +205007,7 @@
  },
  {
   "questionId": "urologie-adv-098-v2",
-  "questionFingerprint": "4b9f2f42e55e5f74bec211231f81441c74162e9f4c20275196baaab8c009bfca",
+  "questionFingerprint": "7433c2fa187bfc1ac7b75533c78c1347e984f4919a8bf77c8993e33ae9d55bb7",
   "status": "source-checked",
   "learningObjective": "Aborduri moderne și boala avansată.",
   "reference": {
@@ -205019,7 +205026,7 @@
    {
     "index": 0,
     "verdict": "correct",
-    "rationale": "~90%.",
+    "rationale": "Aproximativ 90% dintre prostatectomiile radicale se efectuează minim invaziv.",
     "evidenceLocation": "Lawrence, p. 641, Prostata"
    },
    {
@@ -205061,7 +205068,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T13:50:31.705Z",
+  "reviewedAt": "2026-11-08T11:54:44.768Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -205073,7 +205080,8 @@
    "rezistent la castrare"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a urologie-adv-098: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a urologie-adv-098: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "urologie-adv-099-v2",
@@ -205154,7 +205162,7 @@
  },
  {
   "questionId": "urologie-adv-100-v2",
-  "questionFingerprint": "7e3240df2e73960504f2383d48824aacaa6bceefb93ee6bd47ed382aa2a37fa8",
+  "questionFingerprint": "bbb16841db93b42554d2cb698e2a2410b38adc4c06436bbfa7728d54603c6e73",
   "status": "source-checked",
   "learningObjective": "Tratamentul rinichiului în potcoavă.",
   "reference": {
@@ -205173,7 +205181,7 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: embolizarea ar distruge parenchim renal funcțional.",
     "evidenceLocation": "Lawrence, p. 643, Rinichii"
    },
    {
@@ -205185,19 +205193,19 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: rinichii sunt funcționali; se secționează doar istmul care îi unește.",
     "evidenceLocation": "Lawrence, p. 643, Rinichii"
    },
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: stentul este o măsură temporară, nu corecția anomaliei.",
     "evidenceLocation": "Lawrence, p. 643, Rinichii"
    },
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: pieloplastia se asociază simfiziotomiei doar când există stenoză de joncțiune.",
     "evidenceLocation": "Lawrence, p. 643, Rinichii"
    }
   ],
@@ -205215,7 +205223,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T13:50:31.706Z",
+  "reviewedAt": "2026-11-08T11:54:44.769Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -205226,7 +205234,8 @@
    "istmului"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a urologie-adv-100: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a urologie-adv-100: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "urologie-adv-101-v2",
@@ -205614,7 +205623,7 @@
  },
  {
   "questionId": "urologie-adv-111-v2",
-  "questionFingerprint": "cce6269dddc57a3f2b60cdbec2fee99a06417fdd95f31b1a8d8dfebf285a7706",
+  "questionFingerprint": "669c9ef4141c974677b92be0234ec98ab875ef982c277c73558e2804afb28792",
   "status": "source-checked",
   "learningObjective": "Secvența micțiunii.",
   "reference": {
@@ -205639,7 +205648,7 @@
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: micțiunea normală începe cu relaxarea sfincterului extern; presa abdominală nu este necesară.",
     "evidenceLocation": "Lawrence, p. 656, Vezica urinară"
    },
    {
@@ -205675,7 +205684,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T13:50:31.710Z",
+  "reviewedAt": "2026-11-08T11:54:44.769Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -205686,7 +205695,8 @@
    "Micţiunea normală"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a urologie-adv-111: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a urologie-adv-111: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "urologie-adv-112-v2",
@@ -205844,7 +205854,7 @@
  },
  {
   "questionId": "urologie-adv-115-v2",
-  "questionFingerprint": "af03dc4bb1693eafdf36626834f8d7a51fcd6580603b5a45cb86796757236409",
+  "questionFingerprint": "b05b62b3ada8bb4b3e7dfdab79e65861412914302a005cdaaa17d97cf5c66344",
   "status": "source-checked",
   "learningObjective": "Prognosticul cancerului penian.",
   "reference": {
@@ -205863,31 +205873,31 @@
    {
     "index": 0,
     "verdict": "correct",
-    "rationale": "70–80%.",
+    "rationale": "După penectomia parțială, vindecarea la 5 ani este de 70–80%.",
     "evidenceLocation": "Lawrence, p. 662, Penisul"
    },
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: rezultatul este mult mai bun, de 70–80%.",
     "evidenceLocation": "Lawrence, p. 662, Penisul"
    },
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: vindecarea la 5 ani atinge 70–80%.",
     "evidenceLocation": "Lawrence, p. 662, Penisul"
    },
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: vindecarea la 5 ani este de 70–80%.",
     "evidenceLocation": "Lawrence, p. 662, Penisul"
    },
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: valoarea supraestimează; vindecarea este de 70–80%.",
     "evidenceLocation": "Lawrence, p. 662, Penisul"
    }
   ],
@@ -205905,7 +205915,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T13:50:31.712Z",
+  "reviewedAt": "2026-11-08T11:54:44.769Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -205916,7 +205926,8 @@
    "70-80%"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a urologie-adv-115: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a urologie-adv-115: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "urologie-adv-117-v2",
@@ -205997,7 +206008,7 @@
  },
  {
   "questionId": "urologie-adv-118-v2",
-  "questionFingerprint": "f2ebb7500bf27e2d7ecb0fea79ea373b9959fde05a3cb17ef9397886afc6292e",
+  "questionFingerprint": "af34a4232ab046e62734ab9b58b1da8e48ec73b5ee64434e9f72b916482ca0b3",
   "status": "source-checked",
   "learningObjective": "Anatomia glandelor uretrale.",
   "reference": {
@@ -206016,7 +206027,7 @@
    {
     "index": 0,
     "verdict": "correct",
-    "rationale": "~10%.",
+    "rationale": "Leziunile uretrei prostatomembranoase apar la circa 10% dintre fracturile pelvine.",
     "evidenceLocation": "Lawrence, p. 664, Uretra"
    },
    {
@@ -206058,7 +206069,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T13:50:31.714Z",
+  "reviewedAt": "2026-11-08T11:54:44.769Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -206070,7 +206081,8 @@
    "aproximativ 10%"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a urologie-adv-118: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a urologie-adv-118: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "urologie-adv-119-v2",
@@ -208083,7 +208095,7 @@
  },
  {
   "questionId": "hepatologie-adv-014-v2",
-  "questionFingerprint": "3b37aeeb4188f5b42ce8adf5dfb0b8833a45cedec17ba8b92a3a9e42f0a4a3f9",
+  "questionFingerprint": "00151c3366905740953508017a7fdc5252b8562d8b0fb73217b04ba722faa58f",
   "status": "source-checked",
   "learningObjective": "Leziunile histologice ale hepatitei.",
   "reference": {
@@ -208108,7 +208120,7 @@
    {
     "index": 1,
     "verdict": "correct",
-    "rationale": "Zona 3.",
+    "rationale": "Necroza hepatocitară este de obicei maximă în zona 3, centrolobulară.",
     "evidenceLocation": "Kumar, p. 1275, Hepatita"
    },
    {
@@ -208144,7 +208156,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T13:59:22.603Z",
+  "reviewedAt": "2026-11-08T11:54:44.770Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -208156,7 +208168,8 @@
    "apoptozei"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-014: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-014: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-015-v2",
@@ -208237,7 +208250,7 @@
  },
  {
   "questionId": "hepatologie-adv-016-v2",
-  "questionFingerprint": "49ebea5983d5574babe8bfbcb8790ca7329fb56e8bfe11d33a45b9ae52726a90",
+  "questionFingerprint": "4cb2e705154e734a3be41c578ec6886548868aec9166ee288729a07a2f38ca72",
   "status": "source-checked",
   "learningObjective": "Eficiența DAA și regimul de salvare.",
   "reference": {
@@ -208268,7 +208281,7 @@
    {
     "index": 2,
     "verdict": "correct",
-    "rationale": ">95%.",
+    "rationale": "Regimurile cu antivirale cu acțiune directă elimină virusul la peste 95% dintre pacienți.",
     "evidenceLocation": "Kumar, p. 1284, Hepatita"
    },
    {
@@ -208298,7 +208311,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T13:59:22.604Z",
+  "reviewedAt": "2026-11-08T11:54:44.770Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -208310,7 +208323,8 @@
    "2030"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-016: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-016: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-017-v2",
@@ -208391,7 +208405,7 @@
  },
  {
   "questionId": "hepatologie-adv-018-v2",
-  "questionFingerprint": "3c5f32bf8071a06bea09c0c62f55510d8dcbebc2c96f7269a1f9e0b85fa31e24",
+  "questionFingerprint": "5cff456eadb473c7ba78fbc6c10161748ec7d07180a901c3c469a51facf289df",
   "status": "source-checked",
   "learningObjective": "Cauzele hepatitei acute.",
   "reference": {
@@ -208412,7 +208426,7 @@
    {
     "index": 0,
     "verdict": "correct",
-    "rationale": "Toxice.",
+    "rationale": "Toxinele, precum Amanita phalloides și tetraclorura de carbon, produc necroză hepatică acută.",
     "evidenceLocation": "Kumar, p. 1275, 1284, Hepatita"
    },
    {
@@ -208454,7 +208468,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T13:59:22.606Z",
+  "reviewedAt": "2026-11-08T11:54:44.770Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -208466,7 +208480,8 @@
    "Coxiella"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-018: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-018: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-019-v2",
@@ -209094,7 +209109,7 @@
  },
  {
   "questionId": "hepatologie-adv-034-v2",
-  "questionFingerprint": "6a3e2bf3735f7bf517128862564a2f2d05091fc38c6d1d53011777dd49d9b371",
+  "questionFingerprint": "cf464ed086d74fc9884136adac3c8e62b4e20169e82b30bf3a7d599c8e83ab90",
   "status": "source-checked",
   "learningObjective": "Prognosticul și profilaxia PBS.",
   "reference": {
@@ -209125,7 +209140,7 @@
    {
     "index": 2,
     "verdict": "correct",
-    "rationale": "10–15%.",
+    "rationale": "Un episod de peritonită bacteriană spontană are o mortalitate de 10–15%.",
     "evidenceLocation": "Kumar, p. 1297, Complicațiile cirozei"
    },
    {
@@ -209155,7 +209170,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T13:59:22.617Z",
+  "reviewedAt": "2026-11-08T11:54:44.771Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -209167,7 +209182,8 @@
    "10-15%"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-034: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-034: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-035-v2",
@@ -209408,7 +209424,7 @@
  },
  {
   "questionId": "hepatologie-adv-038-v2",
-  "questionFingerprint": "ff4aebd817263b21fed9073d86d989d8f2ba6739f4dc05496bfb1aa4df57bcf5",
+  "questionFingerprint": "c346a206752cb7f9997b5a06c64ca72ea00e646311d41a7f052537000530510c",
   "status": "source-checked",
   "learningObjective": "Diagnosticul PBC.",
   "reference": {
@@ -209439,13 +209455,13 @@
    {
     "index": 2,
     "verdict": "correct",
-    "rationale": "~40%.",
+    "rationale": "Biopsia arată granuloame la aproximativ 40% dintre pacienți.",
     "evidenceLocation": "Kumar, p. 1299, Colangita biliară și sclerozantă"
    },
    {
     "index": 3,
     "verdict": "correct",
-    "rationale": ">95%.",
+    "rationale": "Anticorpii antimitocondriali, determinați prin ELISA, sunt prezenți la peste 95% dintre pacienți.",
     "evidenceLocation": "Kumar, p. 1299, Colangita biliară și sclerozantă"
    },
    {
@@ -209469,7 +209485,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T13:59:22.620Z",
+  "reviewedAt": "2026-11-08T11:54:44.771Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -209481,7 +209497,8 @@
    "40% din biopsii"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-038: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-038: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-039-v2",
@@ -209562,7 +209579,7 @@
  },
  {
   "questionId": "hepatologie-adv-042-v2",
-  "questionFingerprint": "5c9f0aece900d5f09b11a4115207f6845ec8877f22784d6b21a9df0645ebd093",
+  "questionFingerprint": "d9ed9da5455ab67fe79e8453bbd6d45fd87f456d41da55f76d59075b3e65b91a",
   "status": "source-checked",
   "learningObjective": "Tipurile genetice de hemocromatoză.",
   "reference": {
@@ -209581,7 +209598,7 @@
    {
     "index": 0,
     "verdict": "correct",
-    "rationale": "85–90%.",
+    "rationale": "Între 85% și 90% dintre pacienți sunt homozigoți pentru mutația C282Y.",
     "evidenceLocation": "Kumar, p. 1300, Boli hepatice metabolice"
    },
    {
@@ -209623,7 +209640,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T13:59:22.622Z",
+  "reviewedAt": "2026-11-08T11:54:44.771Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -209635,11 +209652,12 @@
    "1 din 400"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-042: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-042: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-045-v2",
-  "questionFingerprint": "8d008207cc9b07a5f282559dd7729a06dc6822489a07bc47d03550dcafe94f48",
+  "questionFingerprint": "5f55c66945e9ceb97dc755a22e4d34b8c7e7455ec0c634fce35ed766757147ff",
   "status": "source-checked",
   "learningObjective": "Screeningul familial și riscul oncologic.",
   "reference": {
@@ -209666,7 +209684,7 @@
    {
     "index": 1,
     "verdict": "correct",
-    "rationale": "~30%.",
+    "rationale": "Aproximativ 30% dintre pacienții cu ciroză fac carcinom hepatocelular.",
     "evidenceLocation": "Kumar, p. 1302, 1301, Boli hepatice metabolice"
    },
    {
@@ -209702,7 +209720,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T13:59:22.624Z",
+  "reviewedAt": "2026-11-08T11:54:44.772Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -209714,11 +209732,12 @@
    "saturaţiei transferinei"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-045: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-045: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-046-v2",
-  "questionFingerprint": "970497a2dcd51ab86c5c7dfd657272ddfacf5dbdd52d86dbb44881aff6b8b48a",
+  "questionFingerprint": "efc3e4490ad7eebc6982ac799bfed2c64d9e68cfa92c0f1c69a460ef2cab2a7e",
   "status": "source-checked",
   "learningObjective": "Mutații, cuprurie și chelatori.",
   "reference": {
@@ -209749,7 +209768,7 @@
    {
     "index": 2,
     "verdict": "correct",
-    "rationale": "~10%.",
+    "rationale": "Penicilamina are reacții adverse grave la aproximativ 10% dintre pacienți.",
     "evidenceLocation": "Kumar, p. 1302, Boli hepatice metabolice"
    },
    {
@@ -209779,7 +209798,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T13:59:22.625Z",
+  "reviewedAt": "2026-11-08T11:54:44.772Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -209791,7 +209810,8 @@
    "100-1000"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-046: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-046: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-047-v2",
@@ -209874,7 +209894,7 @@
  },
  {
   "questionId": "hepatologie-adv-048-v2",
-  "questionFingerprint": "e0c4408a1ca4217ab6f11f79d4a7bfc2f22b3292c7ca839ece28b22dc357b75c",
+  "questionFingerprint": "33999759908f309bac5ce4bbcd7555c9287e8b3c3e12afeee36f4874e2bec3f7",
   "status": "source-checked",
   "learningObjective": "Evoluția deficitului de α1-AT.",
   "reference": {
@@ -209913,13 +209933,13 @@
    {
     "index": 3,
     "verdict": "correct",
-    "rationale": "75%.",
+    "rationale": "Trei sferturi dintre adulții cu fenotip PiZZ au probleme respiratorii.",
     "evidenceLocation": "Kumar, p. 1302, 1303, Boli hepatice metabolice"
    },
    {
     "index": 4,
     "verdict": "correct",
-    "rationale": "~5%.",
+    "rationale": "Aproximativ 5% dintre ei decedează prin boală hepatică.",
     "evidenceLocation": "Kumar, p. 1302, 1303, Boli hepatice metabolice"
    }
   ],
@@ -209937,7 +209957,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T13:59:22.627Z",
+  "reviewedAt": "2026-11-08T11:54:44.772Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -209949,7 +209969,8 @@
    "riscul este mic"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-048: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-048: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-049-v2",
@@ -210030,7 +210051,7 @@
  },
  {
   "questionId": "hepatologie-adv-050-v2",
-  "questionFingerprint": "96e28390345eae68e3db0e48edfdf876fb824c06db9d71e8d5e043300e93229c",
+  "questionFingerprint": "59fa948a0df61ace0599a0d02ce25dfc040f4b475572f8da53579f59186c499c",
   "status": "source-checked",
   "learningObjective": "Topografia steatozei alcoolice.",
   "reference": {
@@ -210049,31 +210070,31 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: grăsimea se acumulează în hepatocite, nu în spațiile porte.",
     "evidenceLocation": "Kumar, p. 1303, Boala hepatică alcoolică"
    },
    {
     "index": 1,
     "verdict": "correct",
-    "rationale": "Zona 3.",
+    "rationale": "În ficatul gras alcoolic grăsimea se depune în principal în hepatocitele din zona 3.",
     "evidenceLocation": "Kumar, p. 1303, Boala hepatică alcoolică"
    },
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: zona 3 este cea mai afectată.",
     "evidenceLocation": "Kumar, p. 1303, Boala hepatică alcoolică"
    },
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: depunerea predomină în zona 3, centrolobulară, nu periportal.",
     "evidenceLocation": "Kumar, p. 1303, Boala hepatică alcoolică"
    },
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: steatoza este hepatocitară, nu în celulele Kupffer.",
     "evidenceLocation": "Kumar, p. 1303, Boala hepatică alcoolică"
    }
   ],
@@ -210091,7 +210112,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T13:59:22.628Z",
+  "reviewedAt": "2026-11-08T11:54:44.772Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -210102,7 +210123,8 @@
    "în principal în zona 3"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-050: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-050: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-053-v2",
@@ -210337,7 +210359,7 @@
  },
  {
   "questionId": "hepatologie-adv-056-v2",
-  "questionFingerprint": "e70b3a83c34e74ae4253e0074484b1470234f00215714c6446076bdbbeb83d63",
+  "questionFingerprint": "fc4fdb730858cee96eecda06885002b62d34662bb71a43a6e859adf737cc5df8",
   "status": "source-checked",
   "learningObjective": "Etiologia rară a hepatitei cronice.",
   "reference": {
@@ -210374,7 +210396,7 @@
    {
     "index": 3,
     "verdict": "correct",
-    "rationale": "Toxine.",
+    "rationale": "Ingestia de toxine poate întreține o hepatită cronică.",
     "evidenceLocation": "Kumar, p. 1275, Hepatita"
    },
    {
@@ -210398,7 +210420,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T13:59:22.637Z",
+  "reviewedAt": "2026-11-08T11:54:44.772Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -210410,7 +210432,8 @@
    "amiloidoza"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-056: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-056: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-058-v2",
@@ -210645,7 +210668,7 @@
  },
  {
   "questionId": "hepatologie-adv-068-v2",
-  "questionFingerprint": "a68012e317acd3ecf752c6930786d24f3efb1dd6ca36e9605a28b64fd674f2a2",
+  "questionFingerprint": "8c842ed6fdb9480140c6a1eaa75d38e5b08bc14ac513c91090d60e781f1a3f54",
   "status": "source-checked",
   "learningObjective": "Prognosticul pe clase.",
   "reference": {
@@ -210676,7 +210699,7 @@
    {
     "index": 2,
     "verdict": "correct",
-    "rationale": "82%.",
+    "rationale": "În clasa Child A supraviețuirea la 1 an este de 82%.",
     "evidenceLocation": "Kumar, p. 1291, Ciroza hepatică"
    },
    {
@@ -210688,7 +210711,7 @@
    {
     "index": 4,
     "verdict": "correct",
-    "rationale": "62%.",
+    "rationale": "În clasa Child B supraviețuirea la 1 an este de 62%.",
     "evidenceLocation": "Kumar, p. 1291, Ciroza hepatică"
    }
   ],
@@ -210706,7 +210729,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T13:59:22.639Z",
+  "reviewedAt": "2026-11-08T11:54:44.773Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -210718,11 +210741,12 @@
    "42% la 1 an"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-068: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-068: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-071-v2",
-  "questionFingerprint": "83f394195daf8399230cce8a977a06d7974900eb1303bb69b33b4eadf8489fb6",
+  "questionFingerprint": "03462f1690b44af6e130221e6a2880c2d5760e528b51b9e4999cff8b40162ddb",
   "status": "source-checked",
   "learningObjective": "Selecția pentru transplant.",
   "reference": {
@@ -210759,7 +210783,7 @@
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: transplantul se oferă pacienților motivați, care au oprit consumul de alcool.",
     "evidenceLocation": "Kumar, p. 1292, Transplantul hepatic"
    },
    {
@@ -210783,7 +210807,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T13:59:22.640Z",
+  "reviewedAt": "2026-11-08T11:54:44.773Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -210795,7 +210819,8 @@
    "înalt selectaţi"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-071: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-071: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-075-v2",
@@ -210876,7 +210901,7 @@
  },
  {
   "questionId": "hepatologie-adv-076-v2",
-  "questionFingerprint": "c448c59fca53d75814d1ee628004259813c2e06a26f08220aabcc51ac37869ca",
+  "questionFingerprint": "a7f0257fd53e15ab74b60ee26fa9a595bdc4029db732cb2efe4ec053793c36b4",
   "status": "source-checked",
   "learningObjective": "Semnele clinice ale ascitei.",
   "reference": {
@@ -210895,7 +210920,7 @@
    {
     "index": 0,
     "verdict": "correct",
-    "rationale": "PBS.",
+    "rationale": "Durerea abdominală severă la un pacient cu ascită sugerează peritonita bacteriană spontană.",
     "evidenceLocation": "Kumar, p. 1296, Complicațiile cirozei"
    },
    {
@@ -210937,7 +210962,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T13:59:22.642Z",
+  "reviewedAt": "2026-11-08T11:54:44.773Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -210949,11 +210974,12 @@
    "partea dreaptă"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-076: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-076: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-077-v2",
-  "questionFingerprint": "1c7c9285e8b2dee2848ffabff749a7514cb713f655861b70668dc77b37173b74",
+  "questionFingerprint": "05f1471c71acb2906e731d333903e98dceca94fc9e667c41b2b60b88f2f299b1",
   "status": "source-checked",
   "learningObjective": "Analiza lichidului de ascită.",
   "reference": {
@@ -210972,7 +210998,7 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: biopsia peritoneală nu face parte din paracenteza diagnostică de rutină.",
     "evidenceLocation": "Kumar, p. 1296, Complicațiile cirozei"
    },
    {
@@ -210990,7 +211016,7 @@
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: peritonita bacteriană spontană se diagnostichează prin neutrofilele din ascită (peste 250/mm³) și culturi.",
     "evidenceLocation": "Kumar, p. 1296, Complicațiile cirozei"
    },
    {
@@ -211014,7 +211040,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T13:59:22.642Z",
+  "reviewedAt": "2026-11-08T11:54:44.773Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -211026,11 +211052,12 @@
    "ascitei pancreatice"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-077: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-077: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-079-v2",
-  "questionFingerprint": "8c7cc2eaca3d90d0ae08342304e7d1a1c0186720eb976da2ff4fe467ac5c70a0",
+  "questionFingerprint": "f5159350efbac69891b11d74a92c1749156572f237e3b1c0706d78713ac43eb3",
   "status": "source-checked",
   "learningObjective": "Epidemiologia și tratamentul PBS.",
   "reference": {
@@ -211061,7 +211088,7 @@
    {
     "index": 2,
     "verdict": "correct",
-    "rationale": "18%.",
+    "rationale": "Peritonita bacteriană spontană apare la până la 18% dintre pacienții decompensați.",
     "evidenceLocation": "Kumar, p. 1297, Complicațiile cirozei"
    },
    {
@@ -211073,7 +211100,7 @@
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: germenii sunt de obicei Gram-negativi enterici (E. coli, Klebsiella) și enterococi.",
     "evidenceLocation": "Kumar, p. 1297, Complicațiile cirozei"
    }
   ],
@@ -211091,7 +211118,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T13:59:22.643Z",
+  "reviewedAt": "2026-11-08T11:54:44.773Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -211103,11 +211130,12 @@
    "Klebsiella"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-079: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-079: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-081-v2",
-  "questionFingerprint": "070385cb040d494bf367e710d5bea7f7a1f6530b1d955afc26e8987bddf6ede9",
+  "questionFingerprint": "c6015d07b0fc474e0a998ea4f46803c6039390f61083d162bcbc43e860d19f44",
   "status": "source-checked",
   "learningObjective": "Fiziopatologia și tratamentul HRS.",
   "reference": {
@@ -211138,7 +211166,7 @@
    {
     "index": 2,
     "verdict": "correct",
-    "rationale": "~50%.",
+    "rationale": "Terlipresina asociată cu albumină ameliorează funcția renală la aproximativ jumătate dintre pacienți.",
     "evidenceLocation": "Kumar, p. 1298, Complicațiile cirozei"
    },
    {
@@ -211168,7 +211196,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T13:59:22.644Z",
+  "reviewedAt": "2026-11-08T11:54:44.773Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -211180,11 +211208,12 @@
    "50% din cazuri"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-081: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-081: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-083-v2",
-  "questionFingerprint": "96ae36ed767b8769f424c52bd98fc01ff095019a5e358dd4c0be82db1997ea33",
+  "questionFingerprint": "9cb6cc22a6460f08deb92ed45111c36d5c3723a23ccef6973bf2d33b6301b4b4",
   "status": "source-checked",
   "learningObjective": "Manifestările extrahepatice ale PBC.",
   "reference": {
@@ -211209,7 +211238,7 @@
    {
     "index": 1,
     "verdict": "correct",
-    "rationale": "70%.",
+    "rationale": "Keratoconjunctivita sicca apare la aproximativ 70% dintre pacienți.",
     "evidenceLocation": "Kumar, p. 1299, Colangita biliară și sclerozantă"
    },
    {
@@ -211245,7 +211274,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T13:59:22.646Z",
+  "reviewedAt": "2026-11-08T11:54:44.774Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -211257,7 +211286,8 @@
    "xantelasmă"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-083: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-083: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-084-v2",
@@ -211340,7 +211370,7 @@
  },
  {
   "questionId": "hepatologie-adv-085-v2",
-  "questionFingerprint": "328ba5769b8807b95e8603e3faa096076e81eca1a97bc9cc1877e3b60f7352ed",
+  "questionFingerprint": "b53a27cb62c4c957392b20d3cb019dc66f94c0b2e784070def63c3845bbd5b59",
   "status": "source-checked",
   "learningObjective": "Diagnosticul diferențial al granuloamelor.",
   "reference": {
@@ -211359,7 +211389,7 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: hepatita alcoolică produce steatoză, corpi Mallory și infiltrat neutrofilic, nu granuloame.",
     "evidenceLocation": "Kumar, p. 1299, Colangita biliară și sclerozantă"
    },
    {
@@ -211371,7 +211401,7 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: hemocromatoza produce depunere de fier, nu granuloame.",
     "evidenceLocation": "Kumar, p. 1299, Colangita biliară și sclerozantă"
    },
    {
@@ -211401,7 +211431,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T13:59:22.648Z",
+  "reviewedAt": "2026-11-08T11:54:44.774Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -211413,7 +211443,8 @@
    "sarcoidoză"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-085: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-085: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-086-v2",
@@ -211494,7 +211525,7 @@
  },
  {
   "questionId": "hepatologie-adv-089-v2",
-  "questionFingerprint": "880c85211ee5605c7df882f3c145b5b7189fea406d9c5f4962645114f12c8b43",
+  "questionFingerprint": "87aa3d945b383ca68fe421186ac566e56e795497ccaba7363df4ba99266bd251",
   "status": "source-checked",
   "learningObjective": "Epidemiologia globală.",
   "reference": {
@@ -211519,13 +211550,13 @@
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: deficitul de alfa-1-antitripsină este o cauză rară.",
     "evidenceLocation": "Kumar, p. 1275, Hepatita"
    },
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: cauza principală mondială este hepatita virală cronică (B și C).",
     "evidenceLocation": "Kumar, p. 1275, Hepatita"
    },
    {
@@ -211537,7 +211568,7 @@
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: hemocromatoza este o cauză rară la nivel mondial.",
     "evidenceLocation": "Kumar, p. 1275, Hepatita"
    }
   ],
@@ -211555,7 +211586,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T13:59:22.649Z",
+  "reviewedAt": "2026-11-08T11:54:44.774Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -211566,11 +211597,12 @@
    "Hepatita cronică virală"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-089: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-089: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-099-v2",
-  "questionFingerprint": "3a747d4bd34950c33d097d3a29bd39ce6f3baa4366eb3f1bbaa61ed45d765093",
+  "questionFingerprint": "1a0cb1ce03fcae00c4f5cfa41846b8075be97403b2f062304844559e9ea4969b",
   "status": "source-checked",
   "learningObjective": "Etiologia rară a cirozei.",
   "reference": {
@@ -211595,7 +211627,7 @@
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: virusul A nu produce boală cronică, deci nici ciroză.",
     "evidenceLocation": "Kumar, p. 1289, Ciroza hepatică"
    },
    {
@@ -211613,7 +211645,7 @@
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: la imunocompetenți virusul E nu cronicizează; cronicizarea apare la imunodeprimați.",
     "evidenceLocation": "Kumar, p. 1289, Ciroza hepatică"
    }
   ],
@@ -211631,7 +211663,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T13:59:22.651Z",
+  "reviewedAt": "2026-11-08T11:54:44.774Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -211643,11 +211675,12 @@
    "Budd-Chiari"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-099: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-099: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-100-v2",
-  "questionFingerprint": "2cdd07d2aa6f02cd2248f2ba8c4c8de9496251e4b5422e81d299bb6caba6f4fd",
+  "questionFingerprint": "0c533c3886aa2e2ba01392c4409b8b4fef503220a15fdc3de598897a0e736245",
   "status": "source-checked",
   "learningObjective": "Rezoluție și regresie.",
   "reference": {
@@ -211672,7 +211705,7 @@
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: ciroza constituită poate regresa parțial, dar nu revine la normal.",
     "evidenceLocation": "Kumar, p. 1289, Ciroza hepatică"
    },
    {
@@ -211708,7 +211741,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T13:59:22.652Z",
+  "reviewedAt": "2026-11-08T11:54:44.774Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -211720,7 +211753,8 @@
    "celule stern"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-100: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-100: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-101-v2",
@@ -211801,7 +211835,7 @@
  },
  {
   "questionId": "hepatologie-adv-103-v2",
-  "questionFingerprint": "aaf1f219fbfee144bfe5f7e16e3e88984465e89d2c57345f4cdc19a8d0ef2c1c",
+  "questionFingerprint": "785bfe18c7b802064388ef2c89cc3228efb58c13a9d0a3f8e5d4acf006ddcd5d",
   "status": "source-checked",
   "learningObjective": "Parametrii Child-Pugh.",
   "reference": {
@@ -211826,7 +211860,7 @@
    {
     "index": 1,
     "verdict": "correct",
-    "rationale": "<28: 3.",
+    "rationale": "Albumina sub 28 g/L primește 3 puncte.",
     "evidenceLocation": "Kumar, p. 1291, Ciroza hepatică"
    },
    {
@@ -211844,7 +211878,7 @@
    {
     "index": 4,
     "verdict": "correct",
-    "rationale": "<34: 1.",
+    "rationale": "Bilirubina sub 34 µmol/L primește 1 punct.",
     "evidenceLocation": "Kumar, p. 1291, Ciroza hepatică"
    }
   ],
@@ -211862,7 +211896,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T13:59:22.653Z",
+  "reviewedAt": "2026-11-08T11:54:44.775Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -211874,11 +211908,12 @@
    "4-6"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-103: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-103: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-104-v2",
-  "questionFingerprint": "4fb5e01646aca483d5434b2519dcf35ba3361c75ab0b1364876bdfd54a03efd4",
+  "questionFingerprint": "be3cad880b7f232422c8bcc1fda0d93bbfd8ea0efcd70d5168cecee19680222b",
   "status": "source-checked",
   "learningObjective": "Indicațiile transplantului.",
   "reference": {
@@ -211897,7 +211932,7 @@
    {
     "index": 0,
     "verdict": "correct",
-    "rationale": "IHA.",
+    "rationale": "Insuficiența hepatică acută, de orice cauză, este o indicație de transplant.",
     "evidenceLocation": "Kumar, p. 1292, Transplantul hepatic"
    },
    {
@@ -211939,7 +211974,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T13:59:22.653Z",
+  "reviewedAt": "2026-11-08T11:54:44.775Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -211951,11 +211986,12 @@
    "imunoglobulină"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-104: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-104: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-110-v2",
-  "questionFingerprint": "329c21c562f5da8616ce18bb8f5e77bdfb7942e3e44bf8e88907a1dd123caecf",
+  "questionFingerprint": "af61bd5cfbb096c7699f8d91e864cffe2ff87cbbee0be2c91897356549d58058",
   "status": "source-checked",
   "learningObjective": "Etiologia și evaluarea.",
   "reference": {
@@ -211998,7 +212034,7 @@
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: ciroza biliară secundară apare după luni de obstrucție biliară.",
     "evidenceLocation": "Kumar, p. 1300, Colangita biliară și sclerozantă"
    }
   ],
@@ -212016,7 +212052,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T13:59:22.654Z",
+  "reviewedAt": "2026-11-08T11:54:44.775Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -212028,11 +212064,12 @@
    "MRCP"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-110: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-110: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-111-v2",
-  "questionFingerprint": "955b47da7d0cb44cde9ad4cd4a3b7c6b05fc1777dd41b34f5f766f13160a37dd",
+  "questionFingerprint": "50c6c69324ebc8200598ecfab52805f0a5b256a0aa7a37e0b0f538bbd964adc4",
   "status": "source-checked",
   "learningObjective": "Genele hemocromatozei.",
   "reference": {
@@ -212069,7 +212106,7 @@
    {
     "index": 3,
     "verdict": "correct",
-    "rationale": "HJV.",
+    "rationale": "Tipul 2A, juvenil, implică gena hemojuvelinei (HJV).",
     "evidenceLocation": "Kumar, p. 1300, Boli hepatice metabolice"
    },
    {
@@ -212093,7 +212130,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T13:59:22.655Z",
+  "reviewedAt": "2026-11-08T11:54:44.775Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -212105,11 +212142,12 @@
    "TfR2"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-111: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-111: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-112-v2",
-  "questionFingerprint": "53c9d6b59aaa6a60c44ce66682edd1ee7475868342f04edf535f5539dfe697ca",
+  "questionFingerprint": "73f608af2487312dd7e477e2d7087872aa129ae28e25a318e64a1e22422d95d9",
   "status": "source-checked",
   "learningObjective": "Reglarea absorbției fierului.",
   "reference": {
@@ -212136,7 +212174,7 @@
    {
     "index": 1,
     "verdict": "correct",
-    "rationale": "Ficat.",
+    "rationale": "Hepcidina este sintetizată în ficat.",
     "evidenceLocation": "Kumar, p. 1301, 1300, Boli hepatice metabolice"
    },
    {
@@ -212172,7 +212210,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T13:59:22.656Z",
+  "reviewedAt": "2026-11-08T11:54:44.775Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -212184,7 +212222,8 @@
    "deficit de fier"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-112: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-112: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-113-v2",
@@ -212265,7 +212304,7 @@
  },
  {
   "questionId": "hepatologie-adv-114-v2",
-  "questionFingerprint": "1db967e1c2557c617864dba8a0ea4ae7a431e042896a1ff27a710582d0f0904b",
+  "questionFingerprint": "55075e3730aae5d75f7b87c67d0017425863f3e9e12e9dafb4c76d3bb3d07589",
   "status": "source-checked",
   "learningObjective": "Riscul oncologic.",
   "reference": {
@@ -212284,7 +212323,7 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: odată instalată ciroza, riscul de HCC persistă și după flebotomie.",
     "evidenceLocation": "Kumar, p. 1301, Boli hepatice metabolice"
    },
    {
@@ -212302,13 +212341,13 @@
    {
     "index": 3,
     "verdict": "correct",
-    "rationale": "Vital.",
+    "rationale": "Diagnosticul precoce este esențial: tratamentul început înaintea cirozei previne complicațiile.",
     "evidenceLocation": "Kumar, p. 1301, Boli hepatice metabolice"
    },
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: heterozigoții nu acumulează fier semnificativ; HCC apare mai ales la homozigoții cu ciroză.",
     "evidenceLocation": "Kumar, p. 1301, Boli hepatice metabolice"
    }
   ],
@@ -212326,7 +212365,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T13:59:22.657Z",
+  "reviewedAt": "2026-11-08T11:54:44.775Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -212338,11 +212377,12 @@
    "Diagnosticul precoce"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-114: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-114: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-116-v2",
-  "questionFingerprint": "2c6e8481f310e5017a7be234965572e1a8d687c92dec9cfa7e994c2070fb8a41",
+  "questionFingerprint": "0fa3cee43ce8b8b28f84504e75bceefe3b24cf315c13f05c730b389c68355c3b",
   "status": "source-checked",
   "learningObjective": "Fiziopatologia bolii Wilson.",
   "reference": {
@@ -212379,7 +212419,7 @@
    {
     "index": 3,
     "verdict": "correct",
-    "rationale": ">80%.",
+    "rationale": "Ceruloplasmina serică este scăzută la peste 80% dintre pacienți.",
     "evidenceLocation": "Kumar, p. 1302, Boli hepatice metabolice"
    },
    {
@@ -212403,7 +212443,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T13:59:22.657Z",
+  "reviewedAt": "2026-11-08T11:54:44.775Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -212415,11 +212455,12 @@
    "30.000"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-116: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-116: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-118-v2",
-  "questionFingerprint": "057926fd9c0a3afc6327861464c1e9991c78698455ed35e1b4bc34f015e0b08e",
+  "questionFingerprint": "ec003d45a23a8eed7b2434181682d745b8e82cf9eb05678fb9444d962e6f5625",
   "status": "source-checked",
   "learningObjective": "Biopsia în boala Wilson.",
   "reference": {
@@ -212456,7 +212497,7 @@
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: pragul diagnostic este de 250 µg/g greutate uscată.",
     "evidenceLocation": "Kumar, p. 1302, Boli hepatice metabolice"
    },
    {
@@ -212480,7 +212521,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T13:59:22.658Z",
+  "reviewedAt": "2026-11-08T11:54:44.775Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -212491,7 +212532,8 @@
    "250 µgig"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-118: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-118: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-119-v2",
@@ -212572,7 +212614,7 @@
  },
  {
   "questionId": "hepatologie-adv-122-v2",
-  "questionFingerprint": "8d7f598e57925645eab6ce98e5e432485e62844bdc9d91d3d1aa606e2ebf6220",
+  "questionFingerprint": "70859cd9c7795e78edbe995dd63e94d565cdf7b533ee3c80976ad739dd98b570",
   "status": "source-checked",
   "learningObjective": "Clinica steatozei alcoolice.",
   "reference": {
@@ -212591,13 +212633,13 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: steatoza simplă nu distruge hepatocitele și este reversibilă la oprirea alcoolului.",
     "evidenceLocation": "Kumar, p. 1303, Boala hepatică alcoolică"
    },
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: grăsimea dispare după oprirea consumului de alcool.",
     "evidenceLocation": "Kumar, p. 1303, Boala hepatică alcoolică"
    },
    {
@@ -212633,7 +212675,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T13:59:22.660Z",
+  "reviewedAt": "2026-11-08T11:54:44.776Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -212645,7 +212687,8 @@
    "hepatomegalia"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-122: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-122: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-002-v2",
@@ -213573,7 +213616,7 @@
  },
  {
   "questionId": "hepatologie-adv-078-v2",
-  "questionFingerprint": "a920307d36106e098e44117a7b0788500415c6af80a9b61f39c64d909134c0ba",
+  "questionFingerprint": "520dff14d88348e26e8e85b77fd136413f44d381a7f7118cca4c1d358ce4df15",
   "status": "source-checked",
   "learningObjective": "Tratamentul ascitei refractare.",
   "reference": {
@@ -213616,7 +213659,7 @@
    {
     "index": 4,
     "verdict": "correct",
-    "rationale": "LTAD.",
+    "rationale": "Drenajul abdominal de lungă durată se folosește la pacienții în stadiu terminal.",
     "evidenceLocation": "Kumar, p. 1297, Complicațiile cirozei"
    }
   ],
@@ -213634,7 +213677,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:01:01.966Z",
+  "reviewedAt": "2026-11-08T11:54:44.773Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -213646,7 +213689,8 @@
    "ante finem"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-078: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-078: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-087-v2",
@@ -213727,7 +213771,7 @@
  },
  {
   "questionId": "hepatologie-adv-090-v2",
-  "questionFingerprint": "bb87cb0ee19f688341c449f6a2982b115702a145a6471b0a91f3cdcf37ad1b4d",
+  "questionFingerprint": "0bb9fe722800f08de5fb7b82e5c95d2702ae1d23f4d4b636ffa5f3faffae63cd",
   "status": "source-checked",
   "learningObjective": "Grading și staging.",
   "reference": {
@@ -213752,7 +213796,7 @@
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: severitatea se apreciază histologic, nu după bilirubină.",
     "evidenceLocation": "Kumar, p. 1275, Hepatita"
    },
    {
@@ -213764,7 +213808,7 @@
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: severitatea se judecă histologic, după necroinflamație (grading) și fibroză (staging).",
     "evidenceLocation": "Kumar, p. 1275, Hepatita"
    },
    {
@@ -213788,7 +213832,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:01:01.968Z",
+  "reviewedAt": "2026-11-08T11:54:44.774Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -213800,11 +213844,12 @@
    "staging"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-090: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-090: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-098-v2",
-  "questionFingerprint": "0bbcee9770c13bfed5f9edc62b485d5f2074925220eb309dafaa48acf528d1be",
+  "questionFingerprint": "36aae2ac564c63f6b0735740f7060f5c450cc5a725317bddcf49f20cd362f7ee",
   "status": "source-checked",
   "learningObjective": "Definiția morfologică a cirozei.",
   "reference": {
@@ -213829,13 +213874,13 @@
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: arhitectura lobulară se pierde, fiind înlocuită de noduli separați prin septe fibroase.",
     "evidenceLocation": "Kumar, p. 1289, Ciroza hepatică"
    },
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: fibroza și nodulii distorsionează circulația și duc la hipertensiune portală.",
     "evidenceLocation": "Kumar, p. 1289, Ciroza hepatică"
    },
    {
@@ -213865,7 +213910,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:01:01.968Z",
+  "reviewedAt": "2026-11-08T11:54:44.774Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -213877,11 +213922,12 @@
    "difuz alterată"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-098: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-098: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-102-v2",
-  "questionFingerprint": "8491a8c207342131071584e51df5f90fd989c0181687803da11a097b2d21ab08",
+  "questionFingerprint": "6b7bb0bad2c84168cd7a212a72fc05200f6d634bfa4e3c2f5d3d85774045e205",
   "status": "source-checked",
   "learningObjective": "Calitatea biopsiei.",
   "reference": {
@@ -213900,7 +213946,7 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: biopsia trebuie să aibă lungime adecvată și suficiente spații porte complete.",
     "evidenceLocation": "Kumar, p. 1290, Ciroza hepatică"
    },
    {
@@ -213912,7 +213958,7 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: imunocitochimia identifică antigenele virale și ductele biliare.",
     "evidenceLocation": "Kumar, p. 1290, Ciroza hepatică"
    },
    {
@@ -213942,7 +213988,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:01:01.969Z",
+  "reviewedAt": "2026-11-08T11:54:44.774Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -213954,11 +214000,12 @@
    "imunocitochimice"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-102: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-102: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-108-v2",
-  "questionFingerprint": "896f3106e786ce82b1aae9faf2c22923406cf620c8047f173c0123114975a106",
+  "questionFingerprint": "51c8ac81932011e63792ed8810ed7754d0f0bfa09a795f19230257c963024694",
   "status": "source-checked",
   "learningObjective": "Histologia PSC.",
   "reference": {
@@ -213983,7 +214030,7 @@
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: steatoza ține de alcool sau de bolile metabolice, nu de colangita sclerozantă.",
     "evidenceLocation": "Kumar, p. 1300, Colangita biliară și sclerozantă"
    },
    {
@@ -214019,7 +214066,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:01:01.970Z",
+  "reviewedAt": "2026-11-08T11:54:44.775Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -214031,7 +214078,8 @@
    "cicatricial"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-108: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-108: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-109-v2",
@@ -214189,7 +214237,7 @@
  },
  {
   "questionId": "hepatologie-adv-121-v2",
-  "questionFingerprint": "b8fd499f0b1d4aba36e7f2f835f0ff5928c23cb9b8219286ef9abf597495add0",
+  "questionFingerprint": "d638398f033c669938e2e5df5c0cfe970d884989ea52be8b97458b4ba4bb4855",
   "status": "source-checked",
   "learningObjective": "Semnificația corpusculilor Mallory.",
   "reference": {
@@ -214208,7 +214256,7 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: sunt sugestivi, dar apar și în boala Wilson și în ciroza biliară primară.",
     "evidenceLocation": "Kumar, p. 1303, Boala hepatică alcoolică"
    },
    {
@@ -214250,7 +214298,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:01:01.972Z",
+  "reviewedAt": "2026-11-08T11:54:44.776Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -214262,7 +214310,8 @@
    "sugestivi"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-121: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-121: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-020-v2",
@@ -214343,7 +214392,7 @@
  },
  {
   "questionId": "hepatologie-adv-043-v2",
-  "questionFingerprint": "41276cf85f28d09ce16ac536de15fbb6fb783075de2f5736aa725a8b8dce9d90",
+  "questionFingerprint": "478281e51bd47d74f9e527addff8e0048184f438895ee0bacae7047398e029af",
   "status": "source-checked",
   "learningObjective": "Parametrii fierului.",
   "reference": {
@@ -214362,7 +214411,7 @@
    {
     "index": 0,
     "verdict": "correct",
-    "rationale": ">45%.",
+    "rationale": "Saturația transferinei depășește 45%.",
     "evidenceLocation": "Kumar, p. 1301, Boli hepatice metabolice"
    },
    {
@@ -214404,7 +214453,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:01:34.455Z",
+  "reviewedAt": "2026-11-08T11:54:44.771Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -214416,7 +214465,8 @@
    ">45%"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-043: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-043: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-074-v2",
@@ -214653,7 +214703,7 @@
  },
  {
   "questionId": "hepatologie-adv-013-v2",
-  "questionFingerprint": "771245831259452ca1508019e82f1abf8001d480c95752d876b94501188846c6",
+  "questionFingerprint": "62702d2d4ebae186b585bfd0892d8a3ba46220fdf611d38524f991f8d6c5e5b8",
   "status": "source-checked",
   "learningObjective": "Definiția hepatitei cronice.",
   "reference": {
@@ -214672,7 +214722,7 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: hepatita cronică se definește prin durata de cel puțin 6 luni, nu prin ore.",
     "evidenceLocation": "Kumar, p. 1275, Hepatita"
    },
    {
@@ -214714,7 +214764,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:01:59.802Z",
+  "reviewedAt": "2026-11-08T11:54:44.770Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -214725,11 +214775,12 @@
    "6 luni sau mai mult"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-013: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-013: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-021-v2",
-  "questionFingerprint": "66f60fbc9d16f1858baf03d4136fab1ccda84bd765653ade5b50eaa6b7577de0",
+  "questionFingerprint": "e8d87afb9e5fea78945e40ba9bcff2ae017caa3d739f6765e8f9e66f93cb85d8",
   "status": "source-checked",
   "learningObjective": "Indicatorii funcției hepatice.",
   "reference": {
@@ -214748,13 +214799,13 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: transaminazele reflectă leziunea hepatocitară, nu capacitatea de sinteză.",
     "evidenceLocation": "Kumar, p. 1289, Ciroza hepatică"
    },
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: GGT izolat crescută indică inducție enzimatică sau colestază, nu funcția hepatică.",
     "evidenceLocation": "Kumar, p. 1289, Ciroza hepatică"
    },
    {
@@ -214766,7 +214817,7 @@
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: feritina scăzută indică deficit de fier, nu funcția hepatică.",
     "evidenceLocation": "Kumar, p. 1289, Ciroza hepatică"
    },
    {
@@ -214790,7 +214841,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:01:59.806Z",
+  "reviewedAt": "2026-11-08T11:54:44.770Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -214801,11 +214852,12 @@
    "<28 g/L"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-021: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-021: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-096-v2",
-  "questionFingerprint": "52c7e1d2bdbaf4ea8aeee65934b397363ff6c449f38848095b59c146f6835323",
+  "questionFingerprint": "3bb4b29e3233c8eff91aa5e6bfd14742767178e40a284493e2b2e60069d41b15",
   "status": "source-checked",
   "learningObjective": "Hepatitele non-A–E.",
   "reference": {
@@ -214824,7 +214876,7 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: nu au fost documentați ca patogeni umani.",
     "evidenceLocation": "Kumar, p. 1284, Hepatita"
    },
    {
@@ -214836,7 +214888,7 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: nu sunt documentați drept virusuri hepatotrope patogene.",
     "evidenceLocation": "Kumar, p. 1284, Hepatita"
    },
    {
@@ -214848,7 +214900,7 @@
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: nu există dovezi că produc boală hepatică.",
     "evidenceLocation": "Kumar, p. 1284, Hepatita"
    }
   ],
@@ -214866,7 +214918,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:01:59.811Z",
+  "reviewedAt": "2026-11-08T11:54:44.774Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -214877,11 +214929,12 @@
    "non-A-E"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-096: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-096: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-044-v2",
-  "questionFingerprint": "4c552fdf717ee6fd773727b6767587c684a11d7a7f58fe40262175fba75cd1d8",
+  "questionFingerprint": "7e9d2146a939a678cf19709ae269e4a41c7db97d16cad69e891c13664b7ccd80",
   "status": "source-checked",
   "learningObjective": "Regimul de flebotomie.",
   "reference": {
@@ -214900,13 +214953,13 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: se fac două flebotomii de 500 ml pe săptămână, uneori până la 2 ani.",
     "evidenceLocation": "Kumar, p. 1301, Boli hepatice metabolice"
    },
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: flebotomia se face de două ori pe săptămână, câte 500 ml, până la epuizarea depozitelor.",
     "evidenceLocation": "Kumar, p. 1301, Boli hepatice metabolice"
    },
    {
@@ -214918,13 +214971,13 @@
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: volumul unei sesiuni este de 500 ml, de două ori pe săptămână.",
     "evidenceLocation": "Kumar, p. 1301, Boli hepatice metabolice"
    },
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: ritmul este de două flebotomii de 500 ml pe săptămână.",
     "evidenceLocation": "Kumar, p. 1301, Boli hepatice metabolice"
    }
   ],
@@ -214942,7 +214995,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:02:20.234Z",
+  "reviewedAt": "2026-11-08T11:54:44.772Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -214953,11 +215006,12 @@
    "de două ori pe săptămână"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-044: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-044: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-094-v2",
-  "questionFingerprint": "a56d1dcc9e1320ed4f04f3623e34b750e0e88261f171a918e57896eca5dba69a",
+  "questionFingerprint": "beb3d65734f3ce07e06dd08dd1d4b18a98815006d23e67c71f897292d83597a4",
   "status": "source-checked",
   "learningObjective": "Specificitatea histologiei.",
   "reference": {
@@ -214982,7 +215036,7 @@
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: majoritatea modificărilor histologice sunt nespecifice.",
     "evidenceLocation": "Kumar, p. 1275, Hepatita"
    },
    {
@@ -214994,13 +215048,13 @@
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: etiologia se stabilește serologic; histologia este în mare parte nespecifică.",
     "evidenceLocation": "Kumar, p. 1275, Hepatita"
    },
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: hepatocitele prezintă balonizare, necroză și corpi apoptotici.",
     "evidenceLocation": "Kumar, p. 1275, Hepatita"
    }
   ],
@@ -215018,7 +215072,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:02:20.239Z",
+  "reviewedAt": "2026-11-08T11:54:44.774Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -215029,11 +215083,12 @@
    "nespecifice"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-094: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-094: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-107-v2",
-  "questionFingerprint": "070b5679b15be2f471c776f75a93bc1d6341d6231f516732405cb0769f1f2f6a",
+  "questionFingerprint": "1f2f7cd8782d5495d73eab7d5da2291ff29b67c0f73c521c287ce9e841ad85ad",
   "status": "source-checked",
   "learningObjective": "Alegerea benzodiazepinei.",
   "reference": {
@@ -215052,13 +215107,13 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: benzodiazepinele cu durată scurtă (lorazepam, oxazepam) sunt preferate în sevraj.",
     "evidenceLocation": "Kumar, p. 1294, Complicațiile cirozei"
    },
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: tratamentul de elecție este o benzodiazepină cu durată scurtă de acțiune.",
     "evidenceLocation": "Kumar, p. 1294, Complicațiile cirozei"
    },
    {
@@ -215070,7 +215125,7 @@
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: benzodiazepinele cu acțiune lungă se acumulează în boala hepatică avansată.",
     "evidenceLocation": "Kumar, p. 1294, Complicațiile cirozei"
    },
    {
@@ -215094,7 +215149,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:02:20.241Z",
+  "reviewedAt": "2026-11-08T11:54:44.775Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -215105,11 +215160,12 @@
    "lorazepam"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-107: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-107: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-067-v2",
-  "questionFingerprint": "6656e63c71c9d9c883d6de97abd7337eb9707ca7147ed88c3ac0ccd4f879db97",
+  "questionFingerprint": "4711f5c6f3946bf4daa0d8c8855c2cb9e9f62a97126c5f89b1a03f8aa84df636",
   "status": "source-checked",
   "learningObjective": "Managementul cirozei compensate.",
   "reference": {
@@ -215148,7 +215204,7 @@
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: pacienții cu ciroză compensată pot duce o viață normală.",
     "evidenceLocation": "Kumar, p. 1290, 1291, Ciroza hepatică"
    },
    {
@@ -215172,7 +215228,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:03:14.390Z",
+  "reviewedAt": "2026-11-08T11:54:44.773Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -215184,7 +215240,8 @@
    "regreseze"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-067: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a hepatologie-adv-067: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "hepatologie-adv-120-v2",
