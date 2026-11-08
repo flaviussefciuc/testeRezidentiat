@@ -260027,5 +260027,1391 @@
   ],
   "textbookWordingReviewed": false,
   "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "colon-p26-001",
+  "questionFingerprint": "01e149afd12ad6d300b572ca0b962372b41f442659ef9d1223836dbf4a8c92fa",
+  "status": "edition-checked",
+  "learningObjective": "Originea celor trei artere hemoroidale.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 15,
+   "printedPages": [
+    218
+   ],
+   "pdfPages": [
+    135
+   ],
+   "section": "Anatomie și fiziologie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: iliaca internă dă hemoroidala mijlocie; superioara vine din mezenterica inferioară.",
+    "evidenceLocation": "Lawrence, p. 218, Anatomie și fiziologie"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Mezenterica inferioară se continuă cu hemoroidala superioară, de aceea vena omonimă drenează în sistemul port.",
+    "evidenceLocation": "Lawrence, p. 218, Anatomie și fiziologie"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Hemoroidala mijlocie vine din iliaca internă, cu drenaj venos sistemic.",
+    "evidenceLocation": "Lawrence, p. 218, Anatomie și fiziologie"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: hemoroidala inferioară provine din artera rușinoasă internă, ram al iliacei interne.",
+    "evidenceLocation": "Lawrence, p. 218, Anatomie și fiziologie"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: mezenterica superioară nu irigă rectul; hemoroidala mijlocie vine din iliaca internă.",
+    "evidenceLocation": "Lawrence, p. 218, Anatomie și fiziologie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:26.827Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii permută originile celor trei artere hemoroidale."
+  },
+  "textbookExpressions": [
+   "hemoroidală superioară",
+   "iliacă internă"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "colon-p26-002",
+  "questionFingerprint": "f6be074db12475d529c85f269f535e92fa7b2ca527ab286ad06d058aff120840",
+  "status": "edition-checked",
+  "learningObjective": "Acoperirea peritoneală și planurile fasciale ale rectului.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 15,
+   "printedPages": [
+    218
+   ],
+   "pdfPages": [
+    135
+   ],
+   "section": "Anatomie și fiziologie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Fascia Waldeyer pleacă de la S4 și separă rectul de sacru.",
+    "evidenceLocation": "Lawrence, p. 218, Anatomie și fiziologie"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Treimea inferioară este complet extraperitoneală; cele două treimi superioare au peritoneu anterior.",
+    "evidenceLocation": "Lawrence, p. 218, Anatomie și fiziologie"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Fascia Denonvilliers este planul fascial anterior al rectului.",
+    "evidenceLocation": "Lawrence, p. 218, Anatomie și fiziologie"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: treimea inferioară a rectului este extraperitoneală, sub reflexia peritoneală.",
+    "evidenceLocation": "Lawrence, p. 218, Anatomie și fiziologie"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Rectul nu are mezenter adevărat; „mezorectul” este grăsimea perirectală cu ganglionii ei.",
+    "evidenceLocation": "Lawrence, p. 218, Anatomie și fiziologie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:26.828Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul extinde acoperirea peritoneală la treimea inferioară."
+  },
+  "textbookExpressions": [
+   "Waldeyer",
+   "Denonvilliers"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "colon-p26-003",
+  "questionFingerprint": "1651bf25846a2b0c661403c8b38b5a249f8ad74d9a6e8f68fd7325f6d6d01ec9",
+  "status": "edition-checked",
+  "learningObjective": "Patogeneza, tabloul clinic și explorarea de elecție în diverticulita acută.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 15,
+   "printedPages": [
+    223
+   ],
+   "pdfPages": [
+    138
+   ],
+   "section": "Afecțiuni benigne colonice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "CT-ul confirmă diagnosticul și identifică complicațiile (abces, perforație).",
+    "evidenceLocation": "Lawrence, p. 223, Afecțiuni benigne colonice"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Coprolitul obstruează coletul diverticulului, cu inflamație și micro- sau macroperforație.",
+    "evidenceLocation": "Lawrence, p. 223, Afecțiuni benigne colonice"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Febra și leucocitoza o deosebesc de boala diverticulară simptomatică necomplicată.",
+    "evidenceLocation": "Lawrence, p. 223, Afecțiuni benigne colonice"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: sigmoidul este sediul obișnuit, deci durerea este în stânga; diverticulii drepți sunt tipici asiaticilor.",
+    "evidenceLocation": "Lawrence, p. 223, Afecțiuni benigne colonice"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: bariul se evită când se suspectează perforația; CT-ul este explorarea de elecție.",
+    "evidenceLocation": "Lawrence, p. 223, Afecțiuni benigne colonice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:26.829Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii schimbă explorarea de elecție și sediul durerii."
+  },
+  "textbookExpressions": [
+   "coprolit",
+   "leucocitoză"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "colon-p26-004",
+  "questionFingerprint": "33dcc716ed230f8a4b0dc78efc8ea85d0d53565bc50da5ee92783f5fe6c0edc0",
+  "status": "edition-checked",
+  "learningObjective": "Măsurile suportive și medicamentele de evitat în pseudo-ocluzia colonică.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 15,
+   "printedPages": [
+    230
+   ],
+   "pdfPages": [
+    143
+   ],
+   "section": "Ocluzia și volvulusul colonului"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Decompresia proximală și distală, cu repaus digestiv, rezolvă 70–90% din cazuri.",
+    "evidenceLocation": "Lawrence, p. 230, Ocluzia și volvulusul colonului"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: laxativele osmotice și stimulantele pot accentua dilatația.",
+    "evidenceLocation": "Lawrence, p. 230, Ocluzia și volvulusul colonului"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: narcoticele și anticolinergicele se reduc la minimum, pentru că deprimă motilitatea.",
+    "evidenceLocation": "Lawrence, p. 230, Ocluzia și volvulusul colonului"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: mobilizarea pacientului este una dintre măsurile suportive.",
+    "evidenceLocation": "Lawrence, p. 230, Ocluzia și volvulusul colonului"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Dezechilibrele electrolitice întrețin pseudo-ocluzia; corectarea lor face parte din prima linie.",
+    "evidenceLocation": "Lawrence, p. 230, Ocluzia și volvulusul colonului"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:26.829Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt măsurile care agravează dilatația."
+  },
+  "textbookExpressions": [
+   "Laxativele orale",
+   "70-90%"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "colon-p26-005",
+  "questionFingerprint": "1e7097fd31068af443776699041655ae9f4a9a831eae9d04f121a71f66872cfd",
+  "status": "edition-checked",
+  "learningObjective": "Componentele operației Hartmann și indicația ei în urgență.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 15,
+   "printedPages": [
+    224
+   ],
+   "pdfPages": [
+    139
+   ],
+   "section": "Afecțiuni benigne colonice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: drenajul percutan se adresează abcesului peste 5 cm, nu perforației libere.",
+    "evidenceLocation": "Lawrence, p. 224, Afecțiuni benigne colonice"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: colostomia de derivație fără rezecție lasă pe loc segmentul perforat.",
+    "evidenceLocation": "Lawrence, p. 224, Afecțiuni benigne colonice"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Hartmann: rezecția sigmoidului, colostomie terminală și bont rectal închis, refacerea continuității fiind amânată.",
+    "evidenceLocation": "Lawrence, p. 224, Afecțiuni benigne colonice"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: anastomoza primară se evită în peritonita fecaloidă; ea este soluția electivă.",
+    "evidenceLocation": "Lawrence, p. 224, Afecțiuni benigne colonice"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: proctocolectomia totală este operația colitei ulcerative, nu a perforației diverticulare.",
+    "evidenceLocation": "Lawrence, p. 224, Afecțiuni benigne colonice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:26.829Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt celelalte soluții chirurgicale ale capitolului."
+  },
+  "textbookExpressions": [
+   "Hartmann",
+   "bont rectal"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "colon-p26-006",
+  "questionFingerprint": "df3f55b1807b851f113181868586975fd67485589db8bc2eebd7ff1c49f4c275",
+  "status": "edition-checked",
+  "learningObjective": "Rândurile diaree, perforație, histologie, stenoze și răspuns medical din tabelul comparativ CU–BC.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 15,
+   "printedPages": [
+    228
+   ],
+   "pdfPages": [
+    141
+   ],
+   "section": "Afecțiuni benigne colonice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "În CU diareea este severă, cu sânge; în BC este mai puțin severă și rar sangvinolentă.",
+    "evidenceLocation": "Lawrence, p. 228, Afecțiuni benigne colonice"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "BC perforează localizat, frecvent; perforația liberă este neobișnuită în CU.",
+    "evidenceLocation": "Lawrence, p. 228, Afecțiuni benigne colonice"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Granuloamele și inflamația transmurală sunt ale BC; CU are abcese criptice.",
+    "evidenceLocation": "Lawrence, p. 228, Afecțiuni benigne colonice"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Stenozele sunt frecvente în BC și neobișnuite în CU.",
+    "evidenceLocation": "Lawrence, p. 228, Afecțiuni benigne colonice"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: răspunsul medical inițial peste 80% este al CU; în BC este mai puțin predictibil.",
+    "evidenceLocation": "Lawrence, p. 228, Afecțiuni benigne colonice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:26.829Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul atribuie BC răspunsul medical înalt al CU."
+  },
+  "textbookExpressions": [
+   "granuloame",
+   "stricturi"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "colon-p26-007",
+  "questionFingerprint": "f1913e9795984535a22aec9cdee6b2a4b368ea9552726220db7bae2823ba02d2",
+  "status": "edition-checked",
+  "learningObjective": "Semnul radiologic al volvulusului la clisma cu Gastrografin.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 15,
+   "printedPages": [
+    229
+   ],
+   "pdfPages": [
+    142
+   ],
+   "section": "Ocluzia și volvulusul colonului"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: boala Crohn dă semnul corzii pe intestinul subțire.",
+    "evidenceLocation": "Lawrence, p. 229, Ocluzia și volvulusul colonului"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: diverticulita se diagnostichează prin CT, nu prin clismă în faza acută.",
+    "evidenceLocation": "Lawrence, p. 229, Ocluzia și volvulusul colonului"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: în sindromul Ogilvie colonul este dilatat difuz, fără obstacol mecanic.",
+    "evidenceLocation": "Lawrence, p. 229, Ocluzia și volvulusul colonului"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: cancerul stenozant dă o stenoză neregulată, cu margini abrupte.",
+    "evidenceLocation": "Lawrence, p. 229, Ocluzia și volvulusul colonului"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Capătul efilat în „cioc de pasăre” marchează locul torsiunii.",
+    "evidenceLocation": "Lawrence, p. 229, Ocluzia și volvulusul colonului"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:26.829Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt celelalte cauze de ocluzie sau dilatație colonică."
+  },
+  "textbookExpressions": [
+   "cioc de pasăre",
+   "Gastrografin"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "colon-p26-008",
+  "questionFingerprint": "7989dc90d69ea9066b453367f4c53a196a87863af12889e8d141a4360231a03d",
+  "status": "edition-checked",
+  "learningObjective": "Semnele radiologice care deosebesc volvulusul cecal de cel sigmoidian.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 15,
+   "printedPages": [
+    230
+   ],
+   "pdfPages": [
+    143
+   ],
+   "section": "Ocluzia și volvulusul colonului"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: „boaba de cafea” cu originea în pelvis este a volvulusului sigmoidian.",
+    "evidenceLocation": "Lawrence, p. 230, Ocluzia și volvulusul colonului"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Obstacolul este proximal, deci intestinul subțire se destinde.",
+    "evidenceLocation": "Lawrence, p. 230, Ocluzia și volvulusul colonului"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Colonul distal de torsiune este colabat, fără gaz.",
+    "evidenceLocation": "Lawrence, p. 230, Ocluzia și volvulusul colonului"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: colonul distal este aplatizat; destins este intestinul subțire.",
+    "evidenceLocation": "Lawrence, p. 230, Ocluzia și volvulusul colonului"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Cecul torsionat migrează spre stânga și în sus.",
+    "evidenceLocation": "Lawrence, p. 230, Ocluzia și volvulusul colonului"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:26.829Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii transferă semnele volvulusului sigmoidian."
+  },
+  "textbookExpressions": [
+   "cadranul inferior drept",
+   "volvulus"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "colon-p26-009",
+  "questionFingerprint": "c89cf4fc26a649fa03c49c99f6c0fd8cb84a062516e58e17492889270675891d",
+  "status": "edition-checked",
+  "learningObjective": "Individualizarea rezecției elective față de vechea regulă a celor două atacuri.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 15,
+   "printedPages": [
+    224
+   ],
+   "pdfPages": [
+    139
+   ],
+   "section": "Afecțiuni benigne colonice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: regula sigmoidectomiei după două atacuri a fost înlocuită de abordarea individualizată.",
+    "evidenceLocation": "Lawrence, p. 224, Afecțiuni benigne colonice"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: electiv se face rezecție sigmoidiană cu anastomoză; Hartmann este operația de urgență în perforația liberă.",
+    "evidenceLocation": "Lawrence, p. 224, Afecțiuni benigne colonice"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Localizarea sigmoidiană în 95% din cazuri face din sigmoidectomie operația electivă.",
+    "evidenceLocation": "Lawrence, p. 224, Afecțiuni benigne colonice"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Episoadele ulterioare nu sunt, de regulă, mai grave decât primul.",
+    "evidenceLocation": "Lawrence, p. 224, Afecțiuni benigne colonice"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Un episod la 3 ani poate rămâne conservator; episoade numeroase într-un an orientează spre rezecție.",
+    "evidenceLocation": "Lawrence, p. 224, Afecțiuni benigne colonice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:26.829Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii aplică regula abandonată a două atacuri și procedura de urgență în electiv."
+  },
+  "textbookExpressions": [
+   "95% dintre cazuri",
+   "sigmoidectomie"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "colon-p26-010",
+  "questionFingerprint": "4d09871d1aed02a51ab0c62221edbb552f895301cc886a05fc3b364f686cd310",
+  "status": "edition-checked",
+  "learningObjective": "Genetica, ponderea și tratamentul PAF, față de HNPCC.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 15,
+   "printedPages": [
+    231
+   ],
+   "pdfPages": [
+    144
+   ],
+   "section": "Polipii și cancerul colorectal"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: genele de reparare a ADN-ului (MSH2) țin de HNPCC.",
+    "evidenceLocation": "Lawrence, p. 231, Polipii și cancerul colorectal"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "PAF este transmisă prin mutația genei APC.",
+    "evidenceLocation": "Lawrence, p. 231, Polipii și cancerul colorectal"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: PAF explică ~1% din cancerele colorectale; 5% este ponderea HNPCC.",
+    "evidenceLocation": "Lawrence, p. 231, Polipii și cancerul colorectal"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: polipoza înseamnă sute–mii de adenoame; forma „nonpolipozică” este HNPCC.",
+    "evidenceLocation": "Lawrence, p. 231, Polipii și cancerul colorectal"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Adenoamele tapetează întregul colon, așa că se practică colectomia totală (eventual cu rezervor ileo-anal).",
+    "evidenceLocation": "Lawrence, p. 231, Polipii și cancerul colorectal"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:26.829Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii transferă caracterele HNPCC asupra PAF."
+  },
+  "textbookExpressions": [
+   "genei APC",
+   "colectomia totală"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "colon-p26-011",
+  "questionFingerprint": "6289165dac40fbf77ef78c4eea8b3d69c4dd45b48e1586ce64dc92c12fbfb49e",
+  "status": "edition-checked",
+  "learningObjective": "Frecvența tumorilor metacrone, față de cele sincrone și de alte procente ale capitolului.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 15,
+   "printedPages": [
+    232
+   ],
+   "pdfPages": [
+    145
+   ],
+   "section": "Polipii și cancerul colorectal"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: valoarea supraestimează mult riscul; metacronele apar la 3–5%, de aceea colonoscopia de supraveghere continuă după rezecție.",
+    "evidenceLocation": "Lawrence, p. 232, Polipii și cancerul colorectal"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Tumorile metacrone apar la 3–5%; cele sincrone, la 5% dintre pacienți.",
+    "evidenceLocation": "Lawrence, p. 232, Polipii și cancerul colorectal"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: 5% este frecvența tumorilor sincrone; metacronele apar la 3–5%.",
+    "evidenceLocation": "Lawrence, p. 232, Polipii și cancerul colorectal"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: valoarea nu descrie tumorile metacrone, al căror risc este de 3–5%.",
+    "evidenceLocation": "Lawrence, p. 232, Polipii și cancerul colorectal"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: 1% este ponderea PAF între cancerele colorectale.",
+    "evidenceLocation": "Lawrence, p. 232, Polipii și cancerul colorectal"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:26.830Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii deplasează procentul tumorilor metacrone."
+  },
+  "textbookExpressions": [
+   "sincrone",
+   "metacrone"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "colon-p26-012",
+  "questionFingerprint": "0bd143634b429c181e5cd30a036feab6c320c9aa4309da522a485f640438c43b",
+  "status": "edition-checked",
+  "learningObjective": "Simptomele cancerului de colon drept în tabelul 15-4, față de colonul stâng și rect.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 15,
+   "printedPages": [
+    233
+   ],
+   "pdfPages": [
+    146
+   ],
+   "section": "Polipii și cancerul colorectal"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Leziunile exofitice drepte sângerează ocult; conținutul lichid permite evoluția asimptomatică până la anemie.",
+    "evidenceLocation": "Lawrence, p. 233, Polipii și cancerul colorectal"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: scaunele creionate și obstrucția parțială țin de colonul stâng, cu lumen îngust și scaun format.",
+    "evidenceLocation": "Lawrence, p. 233, Polipii și cancerul colorectal"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: rectoragia macroscopică este semnul cancerului stâng și rectal.",
+    "evidenceLocation": "Lawrence, p. 233, Polipii și cancerul colorectal"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Masa palpabilă este un semn al tumorilor drepte, voluminoase.",
+    "evidenceLocation": "Lawrence, p. 233, Polipii și cancerul colorectal"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: tenesmele apar în cancerul rectal avansat.",
+    "evidenceLocation": "Lawrence, p. 233, Polipii și cancerul colorectal"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:26.830Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii transferă simptomele colonului stâng și ale rectului."
+  },
+  "textbookExpressions": [
+   "deficit de fier",
+   "Tenesmele"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "colon-p26-013",
+  "questionFingerprint": "fa408c7d7807670c7eefd6b724891dc9696a2182d99377e03f6724184fdd222f",
+  "status": "edition-checked",
+  "learningObjective": "Categoriile T și N și gruparea pe stadii din stadializarea TNM.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 15,
+   "printedPages": [
+    234
+   ],
+   "pdfPages": [
+    147
+   ],
+   "section": "Polipii și cancerul colorectal"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "T1 submucoasă, T2 musculara proprie, T3 dincolo de musculara proprie, T4 peritoneul visceral sau organele vecine.",
+    "evidenceLocation": "Lawrence, p. 234, Polipii și cancerul colorectal"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: T1 se limitează la submucoasă; musculara proprie este T2.",
+    "evidenceLocation": "Lawrence, p. 234, Polipii și cancerul colorectal"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "N1 înseamnă 1–3 ganglioni; N2, 4 sau mai mulți.",
+    "evidenceLocation": "Lawrence, p. 234, Polipii și cancerul colorectal"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Stadiul III este boala ganglionară; de aceea stadiul 3 de colon primește chimioterapie adjuvantă.",
+    "evidenceLocation": "Lawrence, p. 234, Polipii și cancerul colorectal"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: stadiul II este T3–T4 fără ganglioni; ganglionii pozitivi definesc stadiul III.",
+    "evidenceLocation": "Lawrence, p. 234, Polipii și cancerul colorectal"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:26.830Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii decalează categoriile T și stadiile cu o treaptă."
+  },
+  "textbookExpressions": [
+   "TNM",
+   "ganglionilor"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "colon-p26-014",
+  "questionFingerprint": "a0a0ea2ec809404170d646870cacc0839141073b87729217ffdeaa1f56aacb41",
+  "status": "edition-checked",
+  "learningObjective": "Factorii favorizanți, rolul fiziologic și tromboza externă a hemoroizilor.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 15,
+   "printedPages": [
+    236
+   ],
+   "pdfPages": [
+    149
+   ],
+   "section": "Canalul anal și rectul"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: hemoroizii interni sunt acoperiți de mucoasă fără receptori de durere, de aceea sângerarea lor este nedureroasă.",
+    "evidenceLocation": "Lawrence, p. 236, Canalul anal și rectul"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Umplerea rapidă cu sânge oferă o barieră suplimentară împotriva scurgerii de gaze și fecale.",
+    "evidenceLocation": "Lawrence, p. 236, Canalul anal și rectul"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: hemoroizii asimptomatici nu necesită tratament.",
+    "evidenceLocation": "Lawrence, p. 236, Canalul anal și rectul"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Sarcina, ascita, tumorile, hipertensiunea portală și diareea excesivă pot declanșa simptomele.",
+    "evidenceLocation": "Lawrence, p. 236, Canalul anal și rectul"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Tromboza externă dă durere acută și o masă în tensiune la marginea anală.",
+    "evidenceLocation": "Lawrence, p. 236, Canalul anal și rectul"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:26.830Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează inervația internilor și indicația la asimptomatici."
+  },
+  "textbookExpressions": [
+   "liniei pectinee",
+   "albastră-violacee"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "colon-p26-015",
+  "questionFingerprint": "469486ddedf914e7438d36210fb0d0d9558c790ca4e7ef6e32aaa2d27a5c372a",
+  "status": "edition-checked",
+  "learningObjective": "Tratamentul prolapsului mucos față de cel al prolapsului rectal complet.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 15,
+   "printedPages": [
+    236
+   ],
+   "pdfPages": [
+    149
+   ],
+   "section": "Canalul anal și rectul"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: sfincterotomia internă laterală tratează fisura anală cronică.",
+    "evidenceLocation": "Lawrence, p. 236, Canalul anal și rectul"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: rectopexia se adresează prolapsului rectal complet, cu pliuri concentrice.",
+    "evidenceLocation": "Lawrence, p. 236, Canalul anal și rectul"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: rezecția sigmoidiană cu rectopexie este operația abdominală a prolapsului complet, cu recurență sub 5%.",
+    "evidenceLocation": "Lawrence, p. 236, Canalul anal și rectul"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Prolapsul de mucoasă și cel hemoroidal se tratează prin hemoroidectomie.",
+    "evidenceLocation": "Lawrence, p. 236, Canalul anal și rectul"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: rezecția perineală este rezervată prolapsului complet la pacienții cu risc crescut.",
+    "evidenceLocation": "Lawrence, p. 236, Canalul anal și rectul"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:26.830Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt operațiile prolapsului rectal adevărat."
+  },
+  "textbookExpressions": [
+   "rectopexie",
+   "hemoroidectomie"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "colon-p26-016",
+  "questionFingerprint": "ce14722f1fa89b3d404387699227e58cc375c63f7ecb24d16c1584c078db2ca7",
+  "status": "edition-checked",
+  "learningObjective": "Corespondența dintre tipul de abces și traiectul fistulei în clasificarea fistulelor perianale.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 15,
+   "printedPages": [
+    238
+   ],
+   "pdfPages": [
+    151
+   ],
+   "section": "Canalul anal și rectul"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: fistula intersfincteriană urmează abcesului perianal.",
+    "evidenceLocation": "Lawrence, p. 238, Canalul anal și rectul"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Abcesul supralevator lasă o fistulă suprasfincteriană.",
+    "evidenceLocation": "Lawrence, p. 238, Canalul anal și rectul"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: fistula transsfincteriană urmează abcesului ischiorectal.",
+    "evidenceLocation": "Lawrence, p. 238, Canalul anal și rectul"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: fistula extrasfincteriană ocolește complexul sfincterian și se deschide în rect.",
+    "evidenceLocation": "Lawrence, p. 238, Canalul anal și rectul"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: fistula submucoasă este superficială și nu provine dintr-un abces supralevator.",
+    "evidenceLocation": "Lawrence, p. 238, Canalul anal și rectul"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:26.830Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt celelalte traiecte ale clasificării."
+  },
+  "textbookExpressions": [
+   "LIFT",
+   "ischio-rectal"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "colon-p26-017",
+  "questionFingerprint": "e1e4777a1018171d916f8116de98df43652c7b6ac8ac84a5379f69b0ef484741",
+  "status": "edition-checked",
+  "learningObjective": "Semnele de cronicizare ale fisurii și rezultatele sfincterotomiei interne laterale.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 15,
+   "printedPages": [
+    238
+   ],
+   "pdfPages": [
+    151
+   ],
+   "section": "Canalul anal și rectul"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: operația de elecție este sfincterotomia internă laterală, cu vindecare la 95–98%.",
+    "evidenceLocation": "Lawrence, p. 238, Canalul anal și rectul"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Fibrele albicioase ale sfincterului intern devin vizibile în planșeul fisurii.",
+    "evidenceLocation": "Lawrence, p. 238, Canalul anal și rectul"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: incontinența după sfincterotomia internă laterală apare la 5–10%.",
+    "evidenceLocation": "Lawrence, p. 238, Canalul anal și rectul"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Marisca santinelă și papila hipertrofică însoțesc fisura cronică.",
+    "evidenceLocation": "Lawrence, p. 238, Canalul anal și rectul"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "După circa 8 săptămâni fisura este considerată cronică.",
+    "evidenceLocation": "Lawrence, p. 238, Canalul anal și rectul"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:26.830Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii schimbă sfincterul secționat și rata de incontinență."
+  },
+  "textbookExpressions": [
+   "95-98%",
+   "mariscă santinelă"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "colon-p26-018",
+  "questionFingerprint": "396bd8ba8a349a27f02e45c9b6bdd7b93725c3aa1d9c8879bb6b0c145b3248bc",
+  "status": "edition-checked",
+  "learningObjective": "Locul protocolului Nigro și al rezecției abdomino-perineale în cancerul anal.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 15,
+   "printedPages": [
+    240
+   ],
+   "pdfPages": [
+    153
+   ],
+   "section": "Canalul anal și rectul"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Mitomicina-C, 5-FU și radioterapia externă formează protocolul Nigro.",
+    "evidenceLocation": "Lawrence, p. 240, Canalul anal și rectul"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Radiochimioterapia Nigro este tratamentul inițial după confirmarea histologică și bilanțul de extensie.",
+    "evidenceLocation": "Lawrence, p. 240, Canalul anal și rectul"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: răspunsul complet se obține la aproximativ 80% dintre pacienți.",
+    "evidenceLocation": "Lawrence, p. 240, Canalul anal și rectul"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Amputația rectului rămâne soluția de salvare la non-responderi și la recidivă.",
+    "evidenceLocation": "Lawrence, p. 240, Canalul anal și rectul"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: rezecția abdomino-perineală nu este de primă intenție; ea urmează eșecului radiochimioterapiei.",
+    "evidenceLocation": "Lawrence, p. 240, Canalul anal și rectul"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:26.830Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează ordinea radiochimioterapie–chirurgie și rata de răspuns."
+  },
+  "textbookExpressions": [
+   "mitomicină",
+   "protocolul Nigro"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
  }
 ]
