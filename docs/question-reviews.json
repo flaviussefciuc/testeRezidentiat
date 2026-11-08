@@ -257409,5 +257409,1391 @@
   ],
   "textbookWordingReviewed": false,
   "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "orl-p26-001",
+  "questionFingerprint": "f976c6ef2b1460efaf4f0ca4b59fa434540b988e0d0438ef59e0f1f226accfce",
+  "status": "edition-checked",
+  "learningObjective": "Interpretarea lateralizării testului Weber.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 27,
+   "printedPages": [
+    553
+   ],
+   "pdfPages": [
+    226
+   ],
+   "section": "Urechea, sistemul vestibular și nervul facial"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Sunetul lateralizează spre urechea cu hipoacuzie de conducere sau spre urechea sănătoasă în hipoacuzia neurosenzorială a celeilalte.",
+    "evidenceLocation": "Lawrence, p. 553, Urechea, sistemul vestibular și nervul facial"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: regula este inversă; conducerea lateralizează ipsilateral, neurosenzoriala contralateral.",
+    "evidenceLocation": "Lawrence, p. 553, Urechea, sistemul vestibular și nervul facial"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: o hipoacuzie simetrică nu lateralizează; testele cu diapazonul sunt utile mai ales în hipoacuzia pură, unilaterală.",
+    "evidenceLocation": "Lawrence, p. 553, Urechea, sistemul vestibular și nervul facial"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: conducerea stângă ar lateraliza Weber spre stânga, cu Rinne negativ stâng.",
+    "evidenceLocation": "Lawrence, p. 553, Urechea, sistemul vestibular și nervul facial"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: în neurosenzoriala dreaptă, Weber lateralizează spre stânga.",
+    "evidenceLocation": "Lawrence, p. 553, Urechea, sistemul vestibular și nervul facial"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:23.133Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează partea și tipul hipoacuziei."
+  },
+  "textbookExpressions": [
+   "Weber",
+   "512 Hz"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "orl-p26-002",
+  "questionFingerprint": "db5a48b3b3e00e28d8ed32ffdac9dbf12065ca62b5e6b311adef5c42f11ba969",
+  "status": "edition-checked",
+  "learningObjective": "Semnificația celor trei curbe timpanometrice din Figura 27-8.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 27,
+   "printedPages": [
+    555
+   ],
+   "pdfPages": [
+    228
+   ],
+   "section": "Urechea, sistemul vestibular și nervul facial"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: curba plată este patologică; funcția tubară normală dă vârf la presiune zero.",
+    "evidenceLocation": "Lawrence, p. 555, Urechea, sistemul vestibular și nervul facial"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Urechea medie normală se mobilizează cel mai bine la presiunea atmosferică.",
+    "evidenceLocation": "Lawrence, p. 555, Urechea, sistemul vestibular și nervul facial"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Lichidul, perforația sau dopul de cerumen suprimă mobilitatea membranei: curbă plată.",
+    "evidenceLocation": "Lawrence, p. 555, Urechea, sistemul vestibular și nervul facial"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Când trompa nu aerisește urechea medie, presiunea din casa timpanului scade și vârful se deplasează spre valori negative.",
+    "evidenceLocation": "Lawrence, p. 555, Urechea, sistemul vestibular și nervul facial"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: lichidul dă o curbă plată; vârful deplasat negativ înseamnă presiune negativă, nu efuziune.",
+    "evidenceLocation": "Lawrence, p. 555, Urechea, sistemul vestibular și nervul facial"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:23.135Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii schimbă semnificația curbelor între ele."
+  },
+  "textbookExpressions": [
+   "timpanogramă plată",
+   "efuziune"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "orl-p26-003",
+  "questionFingerprint": "4d26a066d4d3bb73343d4f04d0afcb247eec3c40c12a69fc2f400fcc04c0c9b9",
+  "status": "edition-checked",
+  "learningObjective": "Rubrica otogenică a Tabelului 27-2, față de durerea reflectată.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 27,
+   "printedPages": [
+    555
+   ],
+   "pdfPages": [
+    228
+   ],
+   "section": "Urechea, sistemul vestibular și nervul facial"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Infecția conductului auditiv este cauza otogenică tipică de otalgie.",
+    "evidenceLocation": "Lawrence, p. 555, Urechea, sistemul vestibular și nervul facial"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Mastoidita figurează în rubrica otogenică a tabelului.",
+    "evidenceLocation": "Lawrence, p. 555, Urechea, sistemul vestibular și nervul facial"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: sindromul Eagle este o cauză non-otogenică, de durere oro-facială reflectată.",
+    "evidenceLocation": "Lawrence, p. 555, Urechea, sistemul vestibular și nervul facial"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: articulația temporo-mandibulară dă otalgie reflectată, accentuată la masticație.",
+    "evidenceLocation": "Lawrence, p. 555, Urechea, sistemul vestibular și nervul facial"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Herpesul zoster otic este listat printre cauzele otogenice.",
+    "evidenceLocation": "Lawrence, p. 555, Urechea, sistemul vestibular și nervul facial"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:23.135Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt cauzele reflectate ale aceluiași tabel."
+  },
+  "textbookExpressions": [
+   "sindromul Eagle",
+   "temporo-mandibulare"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "orl-p26-004",
+  "questionFingerprint": "13fba0a2c51b449173d6063917113f95e44a03b89709d7dd4c96fcc7d4f12863",
+  "status": "edition-checked",
+  "learningObjective": "Complicațiile OMA față de alte boli otice.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 27,
+   "printedPages": [
+    558
+   ],
+   "pdfPages": [
+    231
+   ],
+   "section": "Urechea, sistemul vestibular și nervul facial"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: osteomielita bazei craniului la diabetic este otita externă necrotizantă (Pseudomonas aeruginosa).",
+    "evidenceLocation": "Lawrence, p. 558, Urechea, sistemul vestibular și nervul facial"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Urechea medie comunică cu celulele mastoidiene, pe care infecția le poate cuprinde.",
+    "evidenceLocation": "Lawrence, p. 558, Urechea, sistemul vestibular și nervul facial"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Pareza facială din OMA cere miringotomie largă, cu antibioterapie topică și sistemică.",
+    "evidenceLocation": "Lawrence, p. 558, Urechea, sistemul vestibular și nervul facial"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: otoscleroza este o boală a osului labirintic, cu predispoziție genetică, nu o complicație infecțioasă.",
+    "evidenceLocation": "Lawrence, p. 558, Urechea, sistemul vestibular și nervul facial"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Extensia intracraniană este complicația cea mai gravă a infecției urechii medii.",
+    "evidenceLocation": "Lawrence, p. 558, Urechea, sistemul vestibular și nervul facial"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:23.135Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii atribuie OMA complicațiile altor boli otice."
+  },
+  "textbookExpressions": [
+   "90 mg/kgc/zi",
+   "timpanostomie"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "orl-p26-005",
+  "questionFingerprint": "80c47a77002d3bf0e2f7aa4f623f18378809a982cc27b8c5c10443bd3d496ff7",
+  "status": "edition-checked",
+  "learningObjective": "Semnele OMA față de otita externă, otita seroasă și fistula de LCR.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 27,
+   "printedPages": [
+    558
+   ],
+   "pdfPages": [
+    231
+   ],
+   "section": "Urechea, sistemul vestibular și nervul facial"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: otoreea apoasă post-traumatică sugerează fistulă de LCR.",
+    "evidenceLocation": "Lawrence, p. 558, Urechea, sistemul vestibular și nervul facial"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: durerea la mobilizarea pavilionului și a tragusului este semnul otitei externe.",
+    "evidenceLocation": "Lawrence, p. 558, Urechea, sistemul vestibular și nervul facial"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: timpanul retractat, cu lichid seros și fără semne de infecție, descrie otita medie seroasă.",
+    "evidenceLocation": "Lawrence, p. 558, Urechea, sistemul vestibular și nervul facial"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Infecția bacteriană a urechii medii dă otalgie, febră și un timpan bombat, hiperemic, cu mobilitate redusă.",
+    "evidenceLocation": "Lawrence, p. 558, Urechea, sistemul vestibular și nervul facial"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Lichidul purulent din urechea medie blochează transmisia sunetului.",
+    "evidenceLocation": "Lawrence, p. 558, Urechea, sistemul vestibular și nervul facial"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:23.135Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii descriu otita externă, otita seroasă și fistula de LCR."
+  },
+  "textbookExpressions": [
+   "Streptococcus pneumoniae",
+   "Moraxella catarrhalis"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "orl-p26-006",
+  "questionFingerprint": "0d938ecee8d1a26fa431d8023d7000cdbfd3758d7c02e60d51fb30bdd744da07",
+  "status": "edition-checked",
+  "learningObjective": "Factorii de risc ai OME din Tabelul 27-7.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 27,
+   "printedPages": [
+    559
+   ],
+   "pdfPages": [
+    232
+   ],
+   "section": "Urechea, sistemul vestibular și nervul facial"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: tabelul listează sexul masculin.",
+    "evidenceLocation": "Lawrence, p. 559, Urechea, sistemul vestibular și nervul facial"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: factorul de risc listat este hrănirea cu biberonul, nu alăptarea.",
+    "evidenceLocation": "Lawrence, p. 559, Urechea, sistemul vestibular și nervul facial"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: frecventarea creșei, deci colectivitatea, este factorul de risc.",
+    "evidenceLocation": "Lawrence, p. 559, Urechea, sistemul vestibular și nervul facial"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Infecția recentă de tract respirator superior este unul dintre cei șase factori ai tabelului.",
+    "evidenceLocation": "Lawrence, p. 559, Urechea, sistemul vestibular și nervul facial"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: numărul crescut de frați în casă este factorul listat.",
+    "evidenceLocation": "Lawrence, p. 559, Urechea, sistemul vestibular și nervul facial"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:23.135Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt inversul factorilor din tabel."
+  },
+  "textbookExpressions": [
+   "Hrănire cu biberonul",
+   "Fumatul în casă"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "orl-p26-007",
+  "questionFingerprint": "8b8a47cfe654e4acb637befbab7feeb73d0fa42b9037225b349b8a3e1782aa72",
+  "status": "edition-checked",
+  "learningObjective": "Mecanismul și tratamentul VPPB față de neuronită și Ménière.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 27,
+   "printedPages": [
+    559
+   ],
+   "pdfPages": [
+    232
+   ],
+   "section": "Urechea, sistemul vestibular și nervul facial"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: vertijul sever de zile, cu ameliorare în săptămâni, este neuronita vestibulară; VPPB dă episoade de secunde până la minute.",
+    "evidenceLocation": "Lawrence, p. 559, Urechea, sistemul vestibular și nervul facial"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: vertijul de ore, cu hipoacuzie fluctuantă și plenitudine auriculară, este boala Ménière.",
+    "evidenceLocation": "Lawrence, p. 559, Urechea, sistemul vestibular și nervul facial"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Repoziționarea otoconiilor prin manevra Epley rezolvă majoritatea cazurilor; procedurile distructive rămân pentru cazurile refractare.",
+    "evidenceLocation": "Lawrence, p. 559, Urechea, sistemul vestibular și nervul facial"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: decompresia sacului endolimfatic este chirurgia bolii Ménière refractare la regim hiposodat și diuretice.",
+    "evidenceLocation": "Lawrence, p. 559, Urechea, sistemul vestibular și nervul facial"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Canalolitiaza: otoconiile desprinse plutesc în endolimfă și declanșează vertij la schimbarea poziției capului.",
+    "evidenceLocation": "Lawrence, p. 559, Urechea, sistemul vestibular și nervul facial"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:23.135Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii descriu neuronita vestibulară și boala Ménière."
+  },
+  "textbookExpressions": [
+   "Dix-Hallpike",
+   "canalo-litiază"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "orl-p26-008",
+  "questionFingerprint": "6d3f6b49eb79b6c86bc9ae8d234f1efe18d3d8470ff525103f523f2cbcc525d4",
+  "status": "edition-checked",
+  "learningObjective": "Treptele tratamentului epistaxisului anterior față de gesturile sângerării posterioare.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 27,
+   "printedPages": [
+    563
+   ],
+   "pdfPages": [
+    236
+   ],
+   "section": "Nasul și sinusurile paranazale"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: etmoidalele anterioare se leagă pentru sângerarea antero-superioară refractară, nu ca prim gest.",
+    "evidenceLocation": "Lawrence, p. 563, Nasul și sinusurile paranazale"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Majoritatea sângerărilor anterioare, din plexul Kiesselbach, se opresc la compresiune directă.",
+    "evidenceLocation": "Lawrence, p. 563, Nasul și sinusurile paranazale"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: ligatura sau embolizarea maxilarei interne se rezervă sângerării posterioare refractare la tamponament.",
+    "evidenceLocation": "Lawrence, p. 563, Nasul și sinusurile paranazale"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "După anestezie și vasoconstricție topică, punctul sângerând vizibil se cauterizează chimic.",
+    "evidenceLocation": "Lawrence, p. 563, Nasul și sinusurile paranazale"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: tamponamentul posterior se face când sângele continuă să curgă în faringe după un tamponament anterior corect.",
+    "evidenceLocation": "Lawrence, p. 563, Nasul și sinusurile paranazale"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:23.135Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii aduc în prima linie gesturile sângerării posterioare."
+  },
+  "textbookExpressions": [
+   "azotat de argint",
+   "tamponament nazal anterior"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "orl-p26-009",
+  "questionFingerprint": "64822070af049c110384ecd3fc01d0bfe15ca9091be6b0fe29e5f30547038317",
+  "status": "edition-checked",
+  "learningObjective": "Rinita medicamentoasă față de celelalte rinite non-infecțioase.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 27,
+   "printedPages": [
+    564
+   ],
+   "pdfPages": [
+    237
+   ],
+   "section": "Nasul și sinusurile paranazale"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: rinita atrofică este o degenerare a mucoasei, cu cruste, nu un fenomen de rebound.",
+    "evidenceLocation": "Lawrence, p. 564, Nasul și sinusurile paranazale"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: rinita alergică este mediată de IgE, cu teste cutanate adesea pozitive.",
+    "evidenceLocation": "Lawrence, p. 564, Nasul și sinusurile paranazale"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: rinita vasomotorie dă rinoree apoasă la variații de temperatură, umiditate sau mirosuri.",
+    "evidenceLocation": "Lawrence, p. 564, Nasul și sinusurile paranazale"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Utilizarea prelungită a decongestionantelor topice produce congestie de rebound și dependență.",
+    "evidenceLocation": "Lawrence, p. 564, Nasul și sinusurile paranazale"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: rinita hormonală apare în sarcină, premenstrual sau sub contraceptive orale.",
+    "evidenceLocation": "Lawrence, p. 564, Nasul și sinusurile paranazale"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:23.136Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt celelalte rinite non-infecțioase."
+  },
+  "textbookExpressions": [
+   "imunoglobulinele E",
+   "Cromoglicatul de sodiu"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "orl-p26-010",
+  "questionFingerprint": "fe74cb082307a9a0fcc04f1811ba856d8901152282b0d2ef08950a44dc691a04",
+  "status": "edition-checked",
+  "learningObjective": "Indicațiile infecțioase, obstructive și neoplazice din Tabelul 27-9.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 27,
+   "printedPages": [
+    568
+   ],
+   "pdfPages": [
+    241
+   ],
+   "section": "Cavitatea orală și faringele"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: indicația infecțioasă cere amigdalite recurente, de exemplu 6 episoade într-un an.",
+    "evidenceLocation": "Lawrence, p. 568, Cavitatea orală și faringele"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Mărirea asimetrică ridică suspiciunea de neoplazie și impune tonsilectomie diagnostică.",
+    "evidenceLocation": "Lawrence, p. 568, Cavitatea orală și faringele"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: faringita virală fără hipertrofie nu este indicație chirurgicală.",
+    "evidenceLocation": "Lawrence, p. 568, Cavitatea orală și faringele"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Hipertrofia cu obstrucția căii aeriene în somn este indicația obstructivă.",
+    "evidenceLocation": "Lawrence, p. 568, Cavitatea orală și faringele"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Abcesul periamigdalian figurează printre indicațiile infecțioase.",
+    "evidenceLocation": "Lawrence, p. 568, Cavitatea orală și faringele"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:23.136Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii coboară pragul de recurență sau schimbă boala."
+  },
+  "textbookExpressions": [
+   "Centor",
+   "deviația uvulei"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "orl-p26-011",
+  "questionFingerprint": "9105b438d569a9d90b5ade88d9fa557943c0794f6dc472f0fcbfda30e875eeff",
+  "status": "edition-checked",
+  "learningObjective": "Cele patru criterii Centor.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 27,
+   "printedPages": [
+    568
+   ],
+   "pdfPages": [
+    241
+   ],
+   "section": "Cavitatea orală și faringele"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Febra este unul dintre cele patru criterii.",
+    "evidenceLocation": "Lawrence, p. 568, Cavitatea orală și faringele"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Absența tusei deosebește faringita streptococică de cea virală.",
+    "evidenceLocation": "Lawrence, p. 568, Cavitatea orală și faringele"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: rinoreea și conjunctivita sugerează etiologia virală și nu fac parte din criterii.",
+    "evidenceLocation": "Lawrence, p. 568, Cavitatea orală și faringele"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Exsudatul amigdalian este criteriu Centor.",
+    "evidenceLocation": "Lawrence, p. 568, Cavitatea orală și faringele"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Adenopatia cervicală anterioară dureroasă este criteriu Centor.",
+    "evidenceLocation": "Lawrence, p. 568, Cavitatea orală și faringele"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:23.136Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul adaugă semnele virozei."
+  },
+  "textbookExpressions": [
+   "criterii Centor",
+   "6 episoade într-un an"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "orl-p26-012",
+  "questionFingerprint": "a02245df9cc63c44e35ca08b2227e23db0a05092219c08622b9141e63df02e5c",
+  "status": "edition-checked",
+  "learningObjective": "Nivelul leziunii și tipul de stridor din Tabelul 27-10.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 27,
+   "printedPages": [
+    573
+   ],
+   "pdfPages": [
+    246
+   ],
+   "section": "Laringele"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Îngustarea subglotică fixă se aude în ambii timpi respiratori.",
+    "evidenceLocation": "Lawrence, p. 573, Laringele"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Edemul subglotic al crupului dă stridor bifazic, cu tuse lătrătoare.",
+    "evidenceLocation": "Lawrence, p. 573, Laringele"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Leziunea vasculară subglotică produce stridor bifazic în primul an de viață.",
+    "evidenceLocation": "Lawrence, p. 573, Laringele"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: laringomalacia, supraglotică, dă stridor inspirator, agravat în decubit dorsal.",
+    "evidenceLocation": "Lawrence, p. 573, Laringele"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: epiglotita este o cauză supraglotică de stridor inspirator.",
+    "evidenceLocation": "Lawrence, p. 573, Laringele"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:23.136Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt cauzele supraglotice, inspiratorii."
+  },
+  "textbookExpressions": [
+   "Laringomalacia",
+   "epinefrina racemică"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "orl-p26-013",
+  "questionFingerprint": "920d03d7e0d1cd5185707ab2d3098c020ee1a7ca27c53c4c5b9bf954c0139d44",
+  "status": "edition-checked",
+  "learningObjective": "Investigația de elecție în laringomalacie.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 27,
+   "printedPages": [
+    573
+   ],
+   "pdfPages": [
+    246
+   ],
+   "section": "Laringele"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: leziunea este dinamică; sub anestezie cu relaxare musculară colapsul inspirator nu se mai produce.",
+    "evidenceLocation": "Lawrence, p. 573, Laringele"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Colapsul structurilor supraglotice în inspir se vede la laringoscopia flexibilă, cu copilul respirând spontan.",
+    "evidenceLocation": "Lawrence, p. 573, Laringele"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: CT arată stenoze fixe, nu colapsul dinamic al laringomalaciei.",
+    "evidenceLocation": "Lawrence, p. 573, Laringele"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: îngustarea subglotică „în turlă gotică” este semnul radiologic al crupului.",
+    "evidenceLocation": "Lawrence, p. 573, Laringele"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: polisomnografia definește apneea de somn, nu laringomalacia.",
+    "evidenceLocation": "Lawrence, p. 573, Laringele"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:23.136Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt investigațiile altor cauze de stridor."
+  },
+  "textbookExpressions": [
+   "supraglotoplastie",
+   "decubit dorsal"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "orl-p26-014",
+  "questionFingerprint": "f4d5d2a21b2f74ffa3a123cd3db7c1fc62911ffc6b1daa75c067c6446b2cb61a",
+  "status": "edition-checked",
+  "learningObjective": "Simptomul de debut și drenajul limfatic după etajul laringian.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 27,
+   "printedPages": [
+    576
+   ],
+   "pdfPages": [
+    249
+   ],
+   "section": "Laringele"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Supraglota are limfatice bogate; chiar leziunile mici, fără adenopatii palpabile, impun tratamentul ganglionilor cervicali.",
+    "evidenceLocation": "Lawrence, p. 576, Laringele"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Glota are drenaj limfatic sărac, de aceea adenopatia este tardivă.",
+    "evidenceLocation": "Lawrence, p. 576, Laringele"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: drenajul limfatic bilateral bogat caracterizează supraglota, nu glota.",
+    "evidenceLocation": "Lawrence, p. 576, Laringele"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: tumora supraglotică se manifestă tardiv, prin disfagie, odinofagie sau otalgie reflectată; disfonia apare târziu.",
+    "evidenceLocation": "Lawrence, p. 576, Laringele"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Orice neregularitate a corzii vocale modifică vocea, deci tumora glotică se manifestă devreme.",
+    "evidenceLocation": "Lawrence, p. 576, Laringele"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:23.136Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii schimbă etajul laringian al simptomului și al limfaticelor."
+  },
+  "textbookExpressions": [
+   "spațiului paraglotic",
+   "Laringectomia totală"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "orl-p26-015",
+  "questionFingerprint": "9df89acb4b138b646e317336b0e008064d009091f3151eb474c7fdc2f88bf7ba",
+  "status": "edition-checked",
+  "learningObjective": "Etiologia, vârsta și evoluția papilomatozei față de hemangiomul subglotic.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 27,
+   "printedPages": [
+    576
+   ],
+   "pdfPages": [
+    249
+   ],
+   "section": "Laringele"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: regresia până la 4 ani este a hemangiomului subglotic; papilomul regresează, eventual, la pubertate.",
+    "evidenceLocation": "Lawrence, p. 576, Laringele"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Evoluția poate fi spre regresie la pubertate.",
+    "evidenceLocation": "Lawrence, p. 576, Laringele"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Traheostomia poate însămânța traheea și se rezervă obstrucției severe.",
+    "evidenceLocation": "Lawrence, p. 576, Laringele"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Forma juvenilă apare la copilul mic, de obicei sub 5 ani.",
+    "evidenceLocation": "Lawrence, p. 576, Laringele"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Papiloamele scuamoase sunt induse de HPV, multiple și recidivante.",
+    "evidenceLocation": "Lawrence, p. 576, Laringele"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:23.136Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul transferă evoluția hemangiomului."
+  },
+  "textbookExpressions": [
+   "ablația laser",
+   "ribavirină"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "orl-p26-016",
+  "questionFingerprint": "9a9b1377cff459237f991475fb5bb6d78607ea92baf9ac45e73976ab65653151",
+  "status": "edition-checked",
+  "learningObjective": "Sediul, tabloul și tratamentul sialolitiazei.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 27,
+   "printedPages": [
+    579
+   ],
+   "pdfPages": [
+    252
+   ],
+   "section": "Regiunea cervicală și glandele salivare"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cei mai mulți calculi se formează în glanda submandibulară și în canalul Wharton.",
+    "evidenceLocation": "Lawrence, p. 579, Regiunea cervicală și glandele salivare"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: infecția stafilococică definește sialadenita acută supurativă; calculul este obstructiv.",
+    "evidenceLocation": "Lawrence, p. 579, Regiunea cervicală și glandele salivare"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: parotida este sediul cel mai frecvent al tumorilor salivare, nu al calculilor.",
+    "evidenceLocation": "Lawrence, p. 579, Regiunea cervicală și glandele salivare"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Obstrucția canalului la stimularea salivației dă durere și tumefacție postprandială.",
+    "evidenceLocation": "Lawrence, p. 579, Regiunea cervicală și glandele salivare"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: calculul distal se extrage transoral; excizia glandei se rezervă calculilor intraglandulari sau recidivelor.",
+    "evidenceLocation": "Lawrence, p. 579, Regiunea cervicală și glandele salivare"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:23.137Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii confundă litiaza cu tumorile și cu sialadenita."
+  },
+  "textbookExpressions": [
+   "Wharton",
+   "sialadenita acută"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "orl-p26-017",
+  "questionFingerprint": "bbb57967a445e66870b09016f4e7f65453dd22971d41756b8e70b6cdf56b2527",
+  "status": "edition-checked",
+  "learningObjective": "Semnele de malignitate și tratamentul tumorilor parotidiene.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 27,
+   "printedPages": [
+    579
+   ],
+   "pdfPages": [
+    252
+   ],
+   "section": "Regiunea cervicală și glandele salivare"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: enucleerea lasă prelungiri tumorale și duce la recidivă; se face parotidectomie superficială.",
+    "evidenceLocation": "Lawrence, p. 579, Regiunea cervicală și glandele salivare"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Nervul facial traversează glanda; pareza lui indică invazia malignă.",
+    "evidenceLocation": "Lawrence, p. 579, Regiunea cervicală și glandele salivare"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Carcinomul adenoid chistic se extinde de-a lungul nervilor, cu recidive tardive.",
+    "evidenceLocation": "Lawrence, p. 579, Regiunea cervicală și glandele salivare"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: Warthin este benignă (bărbați fumători, coada parotidei); cea mai frecventă malignă este carcinomul mucoepidermoid.",
+    "evidenceLocation": "Lawrence, p. 579, Regiunea cervicală și glandele salivare"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Excizia cu țesut glandular normal în jur și disecția nervului facial evită recidiva.",
+    "evidenceLocation": "Lawrence, p. 579, Regiunea cervicală și glandele salivare"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:23.137Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii schimbă tehnica și natura tumorii."
+  },
+  "textbookExpressions": [
+   "carcinomul chistic adenoid",
+   "adenoame pleomorfe"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "orl-p26-018",
+  "questionFingerprint": "1e798ca2cffcf08495603e8c8922a83efc1c5a5765cb01b577135ff67975d28a",
+  "status": "edition-checked",
+  "learningObjective": "Coloana branhială a Tabelului 27-11 față de chistul tireoglos.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 27,
+   "printedPages": [
+    581
+   ],
+   "pdfPages": [
+    254
+   ],
+   "section": "Regiunea cervicală și glandele salivare"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Tractul se îndepărtează în întregime, prin incizii etajate.",
+    "evidenceLocation": "Lawrence, p. 581, Regiunea cervicală și glandele salivare"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: operația Sistrunk, cu corpul hioidului, este tratamentul chistului tireoglos.",
+    "evidenceLocation": "Lawrence, p. 581, Regiunea cervicală și glandele salivare"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: ascensionarea la protruzia limbii și la deglutiție este semnul chistului tireoglos, atașat de hioid.",
+    "evidenceLocation": "Lawrence, p. 581, Regiunea cervicală și glandele salivare"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Resturile branhiale apar pe fața laterală a gâtului, anterior de SCM, nu pe linia mediană.",
+    "evidenceLocation": "Lawrence, p. 581, Regiunea cervicală și glandele salivare"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Fistula branhială este congenitală; fistula tireoglosă nu este, ci urmează infecției sau rezecției incomplete.",
+    "evidenceLocation": "Lawrence, p. 581, Regiunea cervicală și glandele salivare"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:23.137Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii transferă trăsăturile chistului tireoglos."
+  },
+  "textbookExpressions": [
+   "Operația Sistrunk",
+   "protruzia limbii"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
  }
 ]
