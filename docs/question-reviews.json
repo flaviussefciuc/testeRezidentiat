@@ -266587,5 +266587,929 @@
   ],
   "textbookWordingReviewed": false,
   "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "hepatologie-p26-001",
+  "questionFingerprint": "70edf084a403c0a19de763a31fbdddd6af7aeac83002a3012c61576191bb0ab3",
+  "status": "edition-checked",
+  "learningObjective": "Transmiterea, diagnosticul și evoluția hepatitei A.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 34,
+   "printedPages": [
+    1276
+   ],
+   "pdfPages": [
+    314
+   ],
+   "section": "Hepatita virală A"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "VHA, virus ARN eliminat prin materii fecale, se transmite prin apă și alimente contaminate.",
+    "evidenceLocation": "Kumar, p. 1276, Hepatita virală A"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "IgM anti-VHA confirmă infecția acută; IgG anti-VHA indică infecție veche sau vaccinare.",
+    "evidenceLocation": "Kumar, p. 1276, Hepatita virală A"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: virusul A nu produce hepatită cronică.",
+    "evidenceLocation": "Kumar, p. 1276, Hepatita virală A"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Infecția se vindecă fără stare de purtător cronic; forma fulminantă este rară.",
+    "evidenceLocation": "Kumar, p. 1276, Hepatita virală A"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: transmiterea parenterală caracterizează virusurile B, C și D.",
+    "evidenceLocation": "Kumar, p. 1276, Hepatita virală A"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:44:38.810Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii atribuie virusului A trăsăturile virusurilor parenterale."
+  },
+  "textbookExpressions": [
+   "virusul hepatitei A",
+   "IgM"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "hepatologie-p26-002",
+  "questionFingerprint": "417d235fa5d515f4f2b76eb8b1716db71098b8ba6b71cbf24c8d6af80826d6c8",
+  "status": "edition-checked",
+  "learningObjective": "Structura virusului B și căile lui de transmitere.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 34,
+   "printedPages": [
+    1277
+   ],
+   "pdfPages": [
+    315
+   ],
+   "section": "Hepatita virală B"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "În zonele endemice transmiterea perinatală, de la mama infectată, este calea dominantă.",
+    "evidenceLocation": "Kumar, p. 1277, Hepatita virală B"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: VHB se transmite și pe cale sexuală.",
+    "evidenceLocation": "Kumar, p. 1277, Hepatita virală B"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "VHB este un hepadnavirus cu ADN parțial dublu catenar.",
+    "evidenceLocation": "Kumar, p. 1277, Hepatita virală B"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: virusul D este cel defectiv, care are nevoie de AgHBs; VHB nu depinde de alt virus.",
+    "evidenceLocation": "Kumar, p. 1277, Hepatita virală B"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: transmiterea fecal-orală este a virusurilor A și E; VHB se transmite parenteral, sexual și vertical.",
+    "evidenceLocation": "Kumar, p. 1277, Hepatita virală B"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:44:38.811Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii transferă virusului B trăsăturile virusurilor D, A și E."
+  },
+  "textbookExpressions": [
+   "hepadnavirus",
+   "transmitere verticală"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "hepatologie-p26-003",
+  "questionFingerprint": "f25e974cd5a91820b22c0fd95d56df9705bda69d8cd7660d2ce631a90beb447b",
+  "status": "edition-checked",
+  "learningObjective": "Interpretarea markerilor serologici ai infecției cu VHB.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 34,
+   "printedPages": [
+    1279
+   ],
+   "pdfPages": [
+    317
+   ],
+   "section": "Hepatita virală B"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: anti-HBc apare numai după contactul cu virusul; vaccinul nu îl induce.",
+    "evidenceLocation": "Kumar, p. 1279, Hepatita virală B"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Antigenul de suprafață circulă cât timp virusul se replică, în infecția acută sau cronică.",
+    "evidenceLocation": "Kumar, p. 1279, Hepatita virală B"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Anticorpii IgM anti-core apar în infecția acută, inclusiv în fereastra în care AgHBs a dispărut.",
+    "evidenceLocation": "Kumar, p. 1279, Hepatita virală B"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: anti-HBs indică imunitate (vindecare sau vaccinare), nu infecție în curs.",
+    "evidenceLocation": "Kumar, p. 1279, Hepatita virală B"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Vaccinul conține doar AgHBs, deci induce anti-HBs fără anti-HBc.",
+    "evidenceLocation": "Kumar, p. 1279, Hepatita virală B"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:44:38.811Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii confundă anticorpii de protecție cu markerii de infecție."
+  },
+  "textbookExpressions": [
+   "AgHBs",
+   "anti-HBc"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "hepatologie-p26-004",
+  "questionFingerprint": "eb856a0f4826e7e68fb5c77988d0e0916911ab2a9961b74687638295da0bebc2",
+  "status": "edition-checked",
+  "learningObjective": "Recunoașterea profilului serologic al infecției vindecate.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 34,
+   "printedPages": [
+    1279
+   ],
+   "pdfPages": [
+    317
+   ],
+   "section": "Hepatita virală B"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: vaccinarea induce doar anti-HBs; anti-HBc este negativ.",
+    "evidenceLocation": "Kumar, p. 1279, Hepatita virală B"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: purtătorul inactiv are AgHBs prezent.",
+    "evidenceLocation": "Kumar, p. 1279, Hepatita virală B"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: în infecția cronică AgHBs persistă, iar anti-HBs lipsește.",
+    "evidenceLocation": "Kumar, p. 1279, Hepatita virală B"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Anti-HBc arată contactul cu virusul, iar anti-HBs fără AgHBs arată vindecarea cu imunitate.",
+    "evidenceLocation": "Kumar, p. 1279, Hepatita virală B"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: în fereastra imunologică AgHBs și anti-HBs lipsesc, iar anti-HBc este de tip IgM.",
+    "evidenceLocation": "Kumar, p. 1279, Hepatita virală B"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:44:38.811Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt celelalte profiluri serologice ale infecției cu VHB."
+  },
+  "textbookExpressions": [
+   "anti-HBs",
+   "anti-HBc"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "hepatologie-p26-005",
+  "questionFingerprint": "6888f4d3a24bdc15be7dfdf2392b1b8c423ae56a935e08c3e8610c8543f0758a",
+  "status": "edition-checked",
+  "learningObjective": "Semnificația AgHBe ca marker de replicare și infecțiozitate.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 34,
+   "printedPages": [
+    1279
+   ],
+   "pdfPages": [
+    317
+   ],
+   "section": "Hepatita virală B"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "AgHBe se corelează cu replicarea activă și cu infecțiozitatea mare, de exemplu cu transmiterea perinatală.",
+    "evidenceLocation": "Kumar, p. 1279, Hepatita virală B"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: vaccinarea induce doar anti-HBs.",
+    "evidenceLocation": "Kumar, p. 1279, Hepatita virală B"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: coinfecția D se recunoaște prin anticorpii anti-VHD sau ARN-VHD.",
+    "evidenceLocation": "Kumar, p. 1279, Hepatita virală B"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: infecția vindecată are AgHBs negativ, cu anti-HBs și anti-HBc.",
+    "evidenceLocation": "Kumar, p. 1279, Hepatita virală B"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: seroconversia înseamnă dispariția AgHBe și apariția anti-HBe.",
+    "evidenceLocation": "Kumar, p. 1279, Hepatita virală B"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:44:38.812Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii confundă AgHBe cu markerii seroconversiei și ai imunității."
+  },
+  "textbookExpressions": [
+   "AgHBe",
+   "anti-HBe"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "hepatologie-p26-006",
+  "questionFingerprint": "67047cc7dff0b29be713254f946e840cf2c5a682cd5a36aee57f322e1da2e5c2",
+  "status": "edition-checked",
+  "learningObjective": "Factorii care determină cronicizarea și complicațiile infecției cu VHB.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 34,
+   "printedPages": [
+    1280
+   ],
+   "pdfPages": [
+    310
+   ],
+   "section": "Hepatita virală B"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Mutațiile precore opresc sinteza AgHBe, dar replicarea continuă: hepatită activă AgHBe-negativă.",
+    "evidenceLocation": "Kumar, p. 1280, Hepatita virală B"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: la adultul imunocompetent infecția se vindecă de regulă; cronicizarea este rară.",
+    "evidenceLocation": "Kumar, p. 1280, Hepatita virală B"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: purtătorul inactiv are ADN-VHB scăzut și transaminaze normale.",
+    "evidenceLocation": "Kumar, p. 1280, Hepatita virală B"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "ADN-ul viral integrat în genomul hepatocitar poate induce carcinom hepatocelular chiar fără ciroză.",
+    "evidenceLocation": "Kumar, p. 1280, Hepatita virală B"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Infecția perinatală cronicizează la majoritatea nou-născuților, cea de la adult la mai puțin de 10%.",
+    "evidenceLocation": "Kumar, p. 1280, Hepatita virală B"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:44:38.812Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează relația vârstă–cronicizare și profilul purtătorului inactiv."
+  },
+  "textbookExpressions": [
+   "carcinom hepatocelular",
+   "precore"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "hepatologie-p26-007",
+  "questionFingerprint": "561efb302a90dbacc029dc7d77e709789c985d12f1eaf144ac3db7d8d187f7bf",
+  "status": "edition-checked",
+  "learningObjective": "Clasele de antivirale, limitele lor și profilaxia infecției cu VHB.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 34,
+   "printedPages": [
+    1281
+   ],
+   "pdfPages": [
+    311
+   ],
+   "section": "Hepatita virală B"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Entecavirul și tenofovirul suprimă durabil replicarea, cu barieră genetică înaltă la rezistență.",
+    "evidenceLocation": "Kumar, p. 1281, Hepatita virală B"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: ADN-ul circular închis covalent persistă în nucleu; tratamentul suprimă replicarea, dar rar vindecă infecția.",
+    "evidenceLocation": "Kumar, p. 1281, Hepatita virală B"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Vaccinul recombinant (AgHBs) induce anticorpi anti-HBs protectori.",
+    "evidenceLocation": "Kumar, p. 1281, Hepatita virală B"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Interferonul pegilat, cu durată limitată, se folosește la pacienți selectați, fără ciroză decompensată.",
+    "evidenceLocation": "Kumar, p. 1281, Hepatita virală B"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Imunoprofilaxia activă și pasivă la naștere previne transmiterea verticală.",
+    "evidenceLocation": "Kumar, p. 1281, Hepatita virală B"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:44:38.812Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul atribuie antiviralelor o eradicare pe care nu o realizează."
+  },
+  "textbookExpressions": [
+   "tenofovir",
+   "entecavir"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "hepatologie-p26-008",
+  "questionFingerprint": "898fb359a536a9c2dcb63fb390de0e6df5ddee5cbf5237ba494cfa05d3d3afca",
+  "status": "edition-checked",
+  "learningObjective": "Dependența virusului D de VHB: coinfecție versus suprainfecție.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 34,
+   "printedPages": [
+    1282
+   ],
+   "pdfPages": [
+    312
+   ],
+   "section": "Hepatita virală D"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "La purtătorul cronic de VHB, suprainfecția cu VHD devine cronică la majoritatea și accelerează evoluția spre ciroză.",
+    "evidenceLocation": "Kumar, p. 1282, Hepatita virală D"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: replicarea virusului D cere prezența AgHBs.",
+    "evidenceLocation": "Kumar, p. 1282, Hepatita virală D"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Virusul D folosește AgHBs ca înveliș; fără VHB nu se poate replica.",
+    "evidenceLocation": "Kumar, p. 1282, Hepatita virală D"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: prevenind infecția B, vaccinarea anti-VHB previne și infecția D.",
+    "evidenceLocation": "Kumar, p. 1282, Hepatita virală D"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Coinfecția acută B–D se vindecă de obicei, deși riscul de formă fulminantă este mai mare.",
+    "evidenceLocation": "Kumar, p. 1282, Hepatita virală D"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:44:38.812Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii ignoră dependența virusului D de AgHBs."
+  },
+  "textbookExpressions": [
+   "virusul hepatitei D",
+   "AgHBs"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "hepatologie-p26-009",
+  "questionFingerprint": "ffd5936c166cf5543c660eecf88262b6b762353b5787bc8aef346ed894dc3d43",
+  "status": "edition-checked",
+  "learningObjective": "Istoria naturală și căile de transmitere ale hepatitei C.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 34,
+   "printedPages": [
+    1283
+   ],
+   "pdfPages": [
+    313
+   ],
+   "section": "Hepatita virală C"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Hepatita C acută trece de regulă neobservată, de aceea boala se descoperă tardiv.",
+    "evidenceLocation": "Kumar, p. 1283, Hepatita virală C"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Aproximativ trei sferturi dintre cei infectați rămân cu viremie cronică.",
+    "evidenceLocation": "Kumar, p. 1283, Hepatita virală C"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: nu există vaccin împotriva virusului C.",
+    "evidenceLocation": "Kumar, p. 1283, Hepatita virală C"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: transmiterea fecal-orală este a virusurilor A și E.",
+    "evidenceLocation": "Kumar, p. 1283, Hepatita virală C"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: transmiterea este mai ales parenterală (droguri injectabile, transfuzii vechi); transmiterea sexuală este rară.",
+    "evidenceLocation": "Kumar, p. 1283, Hepatita virală C"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:44:38.812Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii schimbă calea de transmitere și atribuie virusului C un vaccin."
+  },
+  "textbookExpressions": [
+   "virusul hepatitei C",
+   "droguri injectabile"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "hepatologie-p26-010",
+  "questionFingerprint": "4eca31596a5f95d1ea5fccb0bff17b847387b540cbc86373c607493a8120eb17",
+  "status": "edition-checked",
+  "learningObjective": "Manifestările extrahepatice ale hepatitei C, deosebite de cele ale hepatitei B.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 34,
+   "printedPages": [
+    1283
+   ],
+   "pdfPages": [
+    313
+   ],
+   "section": "Hepatita virală C"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: poliarterita nodoasă clasică se asociază cu hepatita B.",
+    "evidenceLocation": "Kumar, p. 1283, Hepatita virală C"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Stimularea cronică a limfocitelor B crește riscul de limfom non-Hodgkin.",
+    "evidenceLocation": "Kumar, p. 1283, Hepatita virală C"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Porfiria cutanată tardivă este frecventă la pacienții cu VHC.",
+    "evidenceLocation": "Kumar, p. 1283, Hepatita virală C"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Glomerulonefrita membranoproliferativă se asociază cu crioglobulinemia.",
+    "evidenceLocation": "Kumar, p. 1283, Hepatita virală C"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Crioglobulinele mixte (vasculită, purpură, artralgii) sunt manifestarea extrahepatică tipică.",
+    "evidenceLocation": "Kumar, p. 1283, Hepatita virală C"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:44:38.813Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul atribuie hepatitei C vasculita hepatitei B."
+  },
+  "textbookExpressions": [
+   "crioglobulinemie",
+   "porfiria cutanată tardivă"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "hepatologie-p26-011",
+  "questionFingerprint": "47a9be79d9a9e356af5514505cd838dfb45e9e808183c13f526181747a1e8813",
+  "status": "edition-checked",
+  "learningObjective": "Diferența dintre contactul cu virusul (anticorpi) și infecția activă (ARN viral).",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 34,
+   "printedPages": [
+    1283
+   ],
+   "pdfPages": [
+    313
+   ],
+   "section": "Hepatita virală C"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: genotipul se determină după confirmarea viremiei, pentru alegerea tratamentului.",
+    "evidenceLocation": "Kumar, p. 1283, Hepatita virală C"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "ARN-VHC detectabil confirmă viremia, deci infecția activă.",
+    "evidenceLocation": "Kumar, p. 1283, Hepatita virală C"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: biopsia evaluează inflamația și fibroza, nu infecția activă.",
+    "evidenceLocation": "Kumar, p. 1283, Hepatita virală C"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: transaminazele pot fi normale în hepatita C cronică.",
+    "evidenceLocation": "Kumar, p. 1283, Hepatita virală C"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: anticorpii arată contactul cu virusul și persistă și după vindecarea spontană sau terapeutică.",
+    "evidenceLocation": "Kumar, p. 1283, Hepatita virală C"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:44:38.813Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii confundă markerul de contact cu cel de replicare."
+  },
+  "textbookExpressions": [
+   "ARN-VHC",
+   "anti-VHC"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "hepatologie-p26-012",
+  "questionFingerprint": "97c3c345f26a24ef00f1e609da2f0dafa56967b7c612fab7668ed7480ac670fd",
+  "status": "edition-checked",
+  "learningObjective": "Clasificarea cauzelor hipertensiunii portale după sediul obstacolului.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 34,
+   "printedPages": [
+    1293
+   ],
+   "pdfPages": [
+    320
+   ],
+   "section": "Complicațiile cirozei"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Tromboza venei porte este cauza prehepatică clasică.",
+    "evidenceLocation": "Kumar, p. 1293, Complicațiile cirozei"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Obstrucția venelor hepatice (Budd-Chiari) este o cauză posthepatică.",
+    "evidenceLocation": "Kumar, p. 1293, Complicațiile cirozei"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: tromboza venei porte este prehepatică.",
+    "evidenceLocation": "Kumar, p. 1293, Complicațiile cirozei"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: sindromul Budd-Chiari (venele hepatice) este posthepatic.",
+    "evidenceLocation": "Kumar, p. 1293, Complicațiile cirozei"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Ciroza este cauza intrahepatică cea mai frecventă.",
+    "evidenceLocation": "Kumar, p. 1293, Complicațiile cirozei"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:44:38.813Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii mută cauzele între etajele clasificării."
+  },
+  "textbookExpressions": [
+   "tromboza venei porte",
+   "Budd-Chiari"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
  }
 ]
