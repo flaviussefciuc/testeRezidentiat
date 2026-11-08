@@ -296,7 +296,7 @@ q('psihiatrie-adv-016',['Sevrajul alcoolic:',
 q('psihiatrie-adv-020',['Chestionarul CAGE evaluează:',
  ['dorința de a reduce consumul','frustrarea față de sugestia altora de a opri','vinovăția legată de consum','consumul dimineața, la trezire','toleranța la doze tot mai mari'],'ABCD',329,'Chestionarul CAGE',
  'Aplicarea chestionarului CAGE.',
- ['Cut down.','Annoyance.','Guilt.','Eye-opener.','Toleranța nu face parte din CAGE.']],
+ ['C (Cut down): dorința sau încercarea de a reduce consumul.','A (Annoyance): iritarea când alții critică sau cer oprirea consumului.','G (Guilt): vinovăția legată de consumul de alcool.','E (Eye-opener): băutura dimineața, la trezire, pentru a calma tremorul sau neliniștea.','Toleranța nu face parte din CAGE.']],
  [8,'Singurul distractor este un criteriu al tulburării de consum.'],['CAGE','Eye']),
 
 q('psihiatrie-adv-021',['Intoxicația cu opioizi se caracterizează prin:',

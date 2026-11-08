@@ -133,3 +133,10 @@ test('no answer key contradicts its own option rationale',()=>{
  }
  assert.deepEqual(problems,[]);
 });
+test('every option rationale explains itself (no bare "Nu." outside the chapters still being rewritten)',()=>{
+ // Chapters whose rewritten rationales still contain bare answers; remove a chapter once fixed.
+ const PENDING=new Set(['ortopedie','orl','pediatrie','hepatologie','urologie']);
+ const BARE=/^(nu|da|corect|incorect|fals|adevărat|criteriu)[.!]?$/i;
+ const bare=(SOURCE_CHECKED_QUESTIONS as any[]).filter(q=>!PENDING.has(q.topicId)&&q.optionRationales?.some((r:string)=>BARE.test(r.trim())||r.trim().length<8)).map(q=>q.id);
+ assert.deepEqual(bare,[]);
+});
