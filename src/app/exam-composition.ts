@@ -30,7 +30,9 @@ export function chapterQuotas(count:number,weights=EXAM_WEIGHTS):ChapterQuota[]{
 export function cardinalityTargets(multiples:number,split=EXAM_CM_CARDINALITY):number[]{return apportion(split,multiples);}
 
 /** A full simulation: chapter quotas, then CM key sizes, then the sibling rule. */
-export function composeExam<T extends Scorable>(bank:readonly T[],count=200,siblings?:ReadonlyMap<string,ReadonlySet<string>>,weights=EXAM_WEIGHTS):T[]{
+// {askedFirst:true} is the «caiet probabil»: inside every chapter quota, questions citing a page
+// that the 2023–2025 papers asked come first (they carry the index's asked flag).
+export function composeExam<T extends Scorable>(bank:readonly T[],count=200,siblings?:ReadonlyMap<string,ReadonlySet<string>>,weights=EXAM_WEIGHTS,opts:{askedFirst?:boolean}={}):T[]{
  const singles=Math.round(count/4),multiples=count-singles;
  const cs=bank.filter(q=>q.type==='CS'),cm=bank.filter(q=>q.type==='CM');
  if(count<4||cs.length<singles||cm.length<multiples)throw new Error('Banca nu conține suficiente întrebări distincte pentru această simulare.');
@@ -47,7 +49,8 @@ export function composeExam<T extends Scorable>(bank:readonly T[],count=200,sibl
  // Items built on a table, box or figure made about a quarter of the 2023–2024 papers;
  // each chapter gets its own share of them first, when the index marks them.
  const isTable=(q:T)=>(q as {table?:boolean}).table===true;
- const tableFirst=(list:T[],n:number)=>{const t=list.filter(isTable),o=list.filter(q=>!isTable(q));return [...t.slice(0,n),...shuffled([...t.slice(n),...o])];};
+ const isAsked=(q:T)=>(q as {asked?:boolean}).asked===true;
+ const tableFirst=(list:T[],n:number)=>{const t=list.filter(isTable),o=list.filter(q=>!isTable(q));const ordered=[...t.slice(0,n),...shuffled([...t.slice(n),...o])];return opts.askedFirst?[...ordered.filter(isAsked),...ordered.filter(q=>!isAsked(q))]:ordered;};
  const overallTable=0.24;
  for(const quota of quotas){
   const share=weights.find(w=>w.topicId===quota.topicId)?.tableShare??overallTable;

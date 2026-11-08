@@ -7,13 +7,14 @@ import {summarize} from '../src/app/scoring.ts';
 
 test('the browser index keeps the topic, type and key of every saved question version',()=>{
  const order=TOPICS.map(t=>t.id),active=new Set(QUESTIONS.map(q=>q.id));
- const lite=QUESTION_HISTORY.map(q=>decodeEntry(order,q.id,encodeEntry(order,q,active.has(q.id),fromTable(q as any))));
+ const lite=QUESTION_HISTORY.map((q,i)=>decodeEntry(order,q.id,encodeEntry(order,q,active.has(q.id),fromTable(q as any),i%3===0)));
  QUESTION_HISTORY.forEach((q,i)=>{
   assert.equal(lite[i].topicId,q.topicId,q.id);
   assert.equal(lite[i].type,q.type,q.id);
   assert.deepEqual(lite[i].correct,[...q.correct].sort((a,b)=>a-b),q.id);
   assert.equal(lite[i].active,active.has(q.id),q.id);
   assert.equal(lite[i].table,fromTable(q as any),q.id);
+  assert.equal(lite[i].asked,i%3===0,q.id);
  });
  // Scoring from the index must equal scoring from the full questions.
  const answers=QUESTION_HISTORY.flatMap(q=>[{questionId:q.id,selected:q.correct},{questionId:q.id,selected:[0,1]},{questionId:q.id,selected:[2]}]);

@@ -56,3 +56,14 @@ test('a simulation from the index prefers table-based items up to each chapter s
  assert.ok(tables>=40&&tables<=95,String(tables));
  assert.equal(exam.filter(q=>q.type==='CS').length,50);
 });
+test('the «caiet probabil» fills each chapter quota from the pages the papers asked first',{skip:!EXAM_AVAILABLE},()=>{
+ const order=TOPICS.map(t=>t.id);
+ const asked=new Map(EXAM_WEIGHTS.map(w=>[w.topicId,new Set(w.pages.map(([p])=>p))]));
+ const onAsked=(q:any)=>q.reference.printedPages.some((p:number)=>asked.get(q.topicId)!.has(p));
+ const lite=QUESTIONS.map(q=>decodeEntry(order,q.id,encodeEntry(order,q,true,fromTable(q as any),onAsked(q))));
+ assert.deepEqual(lite.map(l=>l.asked),QUESTIONS.map(onAsked));
+ const share=(exam:typeof lite)=>exam.filter(q=>q.asked).length/exam.length;
+ const plain=composeExam(lite,200),probable=composeExam(lite,200,undefined,undefined,{askedFirst:true});
+ assert.equal(probable.length,200);assert.equal(probable.filter(q=>q.type==='CS').length,50);
+ assert.ok(share(probable)>share(plain)&&share(probable)>0.85,`${share(plain)} → ${share(probable)}`);
+});

@@ -13,7 +13,7 @@ Aplicație Angular SPA în limba română pentru pregătirea concursului de rezi
 - Testele nu combină grile-surori și amestecă variantele; orice grilă poate fi raportată editorilor (issue GitHub precompletat, eticheta `raport-grila`).
 
 **Moduri de lucru**
-- Antrenament pe capitole și surse (toate, nevăzute, greșite, scadente, din tabele și clasificări), antrenor adaptiv fără număr fix de grile, simulări de 200/100/52 de grile compuse ca în caietele 2023–2025 (ponderea capitolelor, 2/3/4 răspunsuri la CM ca în 2025, grile din tabele), cu antrenor de ritm (72 s/grilă), foaie de răspuns și condiții reale de examen.
+- Antrenament pe capitole și surse (toate, nevăzute, greșite, scadente, din tabele și clasificări, de pe paginile cerute în 2023–2025), antrenor adaptiv fără număr fix de grile, simulări de 200/100/52 de grile compuse ca în caietele 2023–2025 (ponderea capitolelor, 2/3/4 răspunsuri la CM ca în 2025, grile din tabele), opțional ca «caiet probabil» (în fiecare capitol, întâi grilele de pe paginile cerute în 2023–2025), cu antrenor de ritm (72 s/grilă), foaie de răspuns și condiții reale de examen.
 - Recapitulare programată (Leitner) calculată din istoricul răspunsurilor, cu marcarea încrederii (Sigur/Nesigur/Ghicesc).
 - Adevărat sau fals: ~16.000 de afirmații verificate, cu propria recapitulare programată; carduri rapide; provocarea zilei (aceleași 10 grile pentru toți); teste tipărite cu cod, barem și corectare din foaia de răspuns.
 - Fișe de recapitulare pe capitole (în ordinea paginilor, cu capcane, test de diagnostic, tipărire și citire cu voce), pagini de recitit generate din greșeli, notițe și colecție personală, căutare în bancă, export Anki.
