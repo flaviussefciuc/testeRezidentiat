@@ -261413,5 +261413,1545 @@
   ],
   "textbookWordingReviewed": false,
   "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "pediatrie-p26-001",
+  "questionFingerprint": "34a28282090758e05edebe80f5dabe479c8c29d6276b9d315077aa3a3af4a7dc",
+  "status": "edition-checked",
+  "learningObjective": "Clasificarea defectelor congenitale în cianogene și necianogene, după tabelul cardiopatiilor.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 10,
+   "printedPages": [
+    214
+   ],
+   "pdfPages": [
+    19
+   ],
+   "section": "Cardiologie pediatrică"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: șunt stânga-dreapta, necianogen; adesea asimptomatic, cu dedublare largă și fixă a Z2.",
+    "evidenceLocation": "Sinopsis, p. 214, Cardiologie pediatrică"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Aorta pleacă din ventriculul drept: circulațiile sunt în paralel și cianoza apare imediat după naștere.",
+    "evidenceLocation": "Sinopsis, p. 214, Cardiologie pediatrică"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Venele pulmonare se varsă în circulația venoasă sistemică; sângele oxigenat ajunge în stânga printr-un DSA, cu cianoză și detresă neonatală.",
+    "evidenceLocation": "Sinopsis, p. 214, Cardiologie pediatrică"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Fără comunicare atriu drept–ventricul drept, sângele ajunge în plămâni prin defectele septale și canal; cianoza este precoce.",
+    "evidenceLocation": "Sinopsis, p. 214, Cardiologie pediatrică"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: șunt aortă → arteră pulmonară, necianogen, cu suflu continuu; cianoza ar apărea tardiv, prin inversarea șuntului.",
+    "evidenceLocation": "Sinopsis, p. 214, Cardiologie pediatrică"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:34.955Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt șunturile stânga-dreapta, necianogene."
+  },
+  "textbookExpressions": [
+   "transpoziția marilor vase",
+   "atrezia de tricuspidă"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "pediatrie-p26-002",
+  "questionFingerprint": "e6899f33a67a62467752dcecf5f446d8d57df0cbca054666bece53f265f9d18c",
+  "status": "edition-checked",
+  "learningObjective": "Criteriile clinice ale bolii Kawasaki față de purpura Henoch-Schönlein și reumatismul articular acut.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 10,
+   "printedPages": [
+    215
+   ],
+   "pdfPages": [
+    20
+   ],
+   "section": "Cardiologie pediatrică"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: poliartrita migratorie este un criteriu Jones al reumatismului articular acut; Kawasaki poate da artralgii, dar ele nu intră în criterii.",
+    "evidenceLocation": "Sinopsis, p. 215, Cardiologie pediatrică"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Modificările mucoasei orale: buze roșii, fisurate, limbă zmeurie, eritem faringian.",
+    "evidenceLocation": "Sinopsis, p. 215, Cardiologie pediatrică"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: purpura palpabilă declivă este semnul purpurei Henoch-Schönlein; în Kawasaki erupția este polimorfă, nepurpurică.",
+    "evidenceLocation": "Sinopsis, p. 215, Cardiologie pediatrică"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Modificările extremităților: eritem palmo-plantar, edem indurat, apoi descuamare periunghială.",
+    "evidenceLocation": "Sinopsis, p. 215, Cardiologie pediatrică"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Injecția conjunctivală bilaterală, fără exsudat, este unul dintre cele cinci criterii care însoțesc febra de cel puțin 5 zile.",
+    "evidenceLocation": "Sinopsis, p. 215, Cardiologie pediatrică"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:34.957Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii împrumută semnele altor vasculite și artrite ale copilului."
+  },
+  "textbookExpressions": [
+   "boala Kawasaki",
+   "conjunctivită"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "pediatrie-p26-003",
+  "questionFingerprint": "2a0709b08782fb322689ac4f1dd16120f6180d74d86ff775ffa535d3c1175f4b",
+  "status": "edition-checked",
+  "learningObjective": "Tetrada clinică a purpurei Henoch-Schönlein față de purpura trombocitopenică imună și boala Kawasaki.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 10,
+   "printedPages": [
+    215
+   ],
+   "pdfPages": [
+    20
+   ],
+   "section": "Cardiologie pediatrică"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Durerea abdominală colicativă (uneori cu hemoragie digestivă sau invaginație) face parte din tetradă, alături de artralgii.",
+    "evidenceLocation": "Sinopsis, p. 215, Cardiologie pediatrică"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: trombocitele sunt normale în purpura Henoch-Schönlein (purpură vasculară); trombocitopenia definește purpura trombocitopenică imună.",
+    "evidenceLocation": "Sinopsis, p. 215, Cardiologie pediatrică"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: febra prelungită cu adenopatie cervicală aparține bolii Kawasaki; purpura Henoch-Schönlein urmează adesea unei infecții respiratorii.",
+    "evidenceLocation": "Sinopsis, p. 215, Cardiologie pediatrică"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Vasculita IgA a vaselor mici dă purpură palpabilă declivă, pe fese și membrele inferioare.",
+    "evidenceLocation": "Sinopsis, p. 215, Cardiologie pediatrică"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Nefrita cu hematurie, uneori proteinurie, este manifestarea care dictează prognosticul la distanță.",
+    "evidenceLocation": "Sinopsis, p. 215, Cardiologie pediatrică"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:34.957Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii mută boala spre purpura trombocitopenică imună și Kawasaki."
+  },
+  "textbookExpressions": [
+   "Henoch-Schönlein",
+   "IgA"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "pediatrie-p26-004",
+  "questionFingerprint": "9f91ebdaac2da0e1bd761a7e996196f319add17525b867c49529d4294a9c3d53",
+  "status": "edition-checked",
+  "learningObjective": "Recunoașterea crupului și tratamentul lui, față de epiglotită și pertussis.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 10,
+   "printedPages": [
+    215
+   ],
+   "pdfPages": [
+    20
+   ],
+   "section": "Probleme pulmonare"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: crupul este viral (parainfluenza) și se tratează cu aer umidifiat, steroizi și epinefrină; intubația și antibioticele i.v. sunt pentru epiglotită.",
+    "evidenceLocation": "Sinopsis, p. 215, Probleme pulmonare"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Obstrucția subglotică dă tuse lătrătoare, stridor inspirator și răgușeală, mai intense noaptea.",
+    "evidenceLocation": "Sinopsis, p. 215, Probleme pulmonare"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Corticosteroidul scade edemul laringian; epinefrina racemică în aerosoli se adaugă în formele moderate-severe.",
+    "evidenceLocation": "Sinopsis, p. 215, Probleme pulmonare"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: accesele paroxistice urmate de „whoop” definesc faza paroxistică a pertussisului.",
+    "evidenceLocation": "Sinopsis, p. 215, Probleme pulmonare"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: trepiedul, salivația și disfagia cu febră înaltă sunt tabloul epiglotitei.",
+    "evidenceLocation": "Sinopsis, p. 215, Probleme pulmonare"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:34.957Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii împrumută epiglotita și pertussisul."
+  },
+  "textbookExpressions": [
+   "crupul",
+   "parainfluenza"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "pediatrie-p26-005",
+  "questionFingerprint": "0023d0737ddecdf79db4d5bc33182a00cb4dfb20f6b812876a3e126c6da77654",
+  "status": "edition-checked",
+  "learningObjective": "Tratamentul suportiv al bronșiolitei și profilaxia cu palivizumab.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 10,
+   "printedPages": [
+    217
+   ],
+   "pdfPages": [
+    22
+   ],
+   "section": "Probleme pulmonare"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Boala virală (VSR) se autolimitează; oxigenul, hidratarea și aspirarea secrețiilor nazale sunt baza tratamentului.",
+    "evidenceLocation": "Sinopsis, p. 217, Probleme pulmonare"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: corticosteroizii nu modifică evoluția bronșiolitei; nici bronhodilatatoarele nu se recomandă de rutină.",
+    "evidenceLocation": "Sinopsis, p. 217, Probleme pulmonare"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: majoritatea cazurilor se tratează ambulator; se spitalizează sugarii cu hipoxemie, deshidratare sau risc de apnee.",
+    "evidenceLocation": "Sinopsis, p. 217, Probleme pulmonare"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: etiologia este virală; antibioticele nu au indicație fără o suprainfecție bacteriană dovedită.",
+    "evidenceLocation": "Sinopsis, p. 217, Probleme pulmonare"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Anticorpul monoclonal anti-VSR se administrează lunar, în sezon, prematurilor și sugarilor cu boală pulmonară cronică sau cardiopatie.",
+    "evidenceLocation": "Sinopsis, p. 217, Probleme pulmonare"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:34.957Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii tratează o boală virală autolimitată ca pe o pneumonie bacteriană."
+  },
+  "textbookExpressions": [
+   "bronșiolita",
+   "virusul sincițial respirator"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "pediatrie-p26-006",
+  "questionFingerprint": "65c66ad29f4ff20d8eaf58f80181fe4d8f9531704284cf8cb9332cb6802d7a3d",
+  "status": "edition-checked",
+  "learningObjective": "Tabloul multisistemic al fibrozei chistice.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 10,
+   "printedPages": [
+    218
+   ],
+   "pdfPages": [
+    23
+   ],
+   "section": "Probleme pulmonare"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: situs inversus cu bronșiectazii și sinuzite definește diskinezia ciliară primară (Kartagener), nu fibroza chistică.",
+    "evidenceLocation": "Sinopsis, p. 218, Probleme pulmonare"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Obstrucția ductelor pancreatice duce la malabsorbția grăsimilor și a vitaminelor A, D, E, K.",
+    "evidenceLocation": "Sinopsis, p. 218, Probleme pulmonare"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Absența bilaterală a canalelor deferente face majoritatea bărbaților infertili.",
+    "evidenceLocation": "Sinopsis, p. 218, Probleme pulmonare"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Mucusul gros favorizează colonizarea cronică cu Pseudomonas aeruginosa și S. aureus, cu bronșiectazii.",
+    "evidenceLocation": "Sinopsis, p. 218, Probleme pulmonare"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Secrețiile vâscoase obstruează ileonul terminal; ileusul meconial este adesea prima manifestare.",
+    "evidenceLocation": "Sinopsis, p. 218, Probleme pulmonare"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:34.957Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul mută boala la diskinezia ciliară primară."
+  },
+  "textbookExpressions": [
+   "fibroza chistică",
+   "Pseudomonas"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "pediatrie-p26-007",
+  "questionFingerprint": "7352871a78c414f61a513db1beb0de4da0fd140e3319e773ab4a1bb4afe5e60a",
+  "status": "edition-checked",
+  "learningObjective": "Investigația de primă linie în stenoza pilorică hipertrofică.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 10,
+   "printedPages": [
+    219
+   ],
+   "pdfPages": [
+    24
+   ],
+   "section": "Tulburări gastro-intestinale"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: endoscopia nu este necesară; diagnosticul este clinic și ecografic.",
+    "evidenceLocation": "Sinopsis, p. 219, Tulburări gastro-intestinale"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: tranzitul baritat (semnul „sforii”) este de a doua linie, când ecografia este neconcludentă.",
+    "evidenceLocation": "Sinopsis, p. 219, Tulburări gastro-intestinale"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Ecografia arată pilorul îngroșat și alungit și confirmă diagnosticul fără iradiere.",
+    "evidenceLocation": "Sinopsis, p. 219, Tulburări gastro-intestinale"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: clisma cu aer este diagnosticul și tratamentul invaginației, nu al stenozei pilorice.",
+    "evidenceLocation": "Sinopsis, p. 219, Tulburări gastro-intestinale"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: radiografia simplă poate arăta stomacul dilatat, dar nu confirmă hipertrofia pilorului.",
+    "evidenceLocation": "Sinopsis, p. 219, Tulburări gastro-intestinale"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:34.957Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii schimbă investigația cu cea a altor urgențe digestive ale sugarului."
+  },
+  "textbookExpressions": [
+   "stenoza pilorică",
+   "ecografie"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "pediatrie-p26-008",
+  "questionFingerprint": "f89e151d1aa05fc5d1e22f43378d1038dbb84c195b75c9f2b7bfee945dffceed",
+  "status": "edition-checked",
+  "learningObjective": "Patogenia, prezentarea și tratamentul bolii Hirschsprung.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 10,
+   "printedPages": [
+    220
+   ],
+   "pdfPages": [
+    25
+   ],
+   "section": "Tulburări gastro-intestinale"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Rezecția segmentului aganglionar, cu anastomoza colonului normal inervat, este curativă.",
+    "evidenceLocation": "Sinopsis, p. 220, Tulburări gastro-intestinale"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: clisma cu aer reduce invaginația; în Hirschsprung clisma baritată arată zona de tranziție, dar tratamentul este chirurgical.",
+    "evidenceLocation": "Sinopsis, p. 220, Tulburări gastro-intestinale"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Lipsa migrării celulelor crestei neurale lasă colonul distal fără plexuri mienteric și submucos; segmentul nu se relaxează.",
+    "evidenceLocation": "Sinopsis, p. 220, Tulburări gastro-intestinale"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Întârzierea eliminării meconiului peste 48 de ore, distensia abdominală și vărsăturile bilioase sugerează diagnosticul.",
+    "evidenceLocation": "Sinopsis, p. 220, Tulburări gastro-intestinale"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: prematuritatea și alimentația enterală sunt factorii de risc ai enterocolitei necrotice; Hirschsprung se asociază cu sindromul Down.",
+    "evidenceLocation": "Sinopsis, p. 220, Tulburări gastro-intestinale"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:34.958Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii mută boala la enterocolita necrotică și la invaginație."
+  },
+  "textbookExpressions": [
+   "Hirschsprung",
+   "meconiu"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "pediatrie-p26-009",
+  "questionFingerprint": "cfce8309c1ebd9e2dededdde67f653843b9287b6658efe79c34429a01f342f9d",
+  "status": "edition-checked",
+  "learningObjective": "Recunoașterea clinică a invaginației și punctele ei de plecare.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 10,
+   "printedPages": [
+    220
+   ],
+   "pdfPages": [
+    25
+   ],
+   "section": "Tulburări gastro-intestinale"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Telescoparea ileonului în colon dă colici intermitente, cu plâns și flexia membrelor inferioare.",
+    "evidenceLocation": "Sinopsis, p. 220, Tulburări gastro-intestinale"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Diverticulul Meckel, polipii, limfomul sau purpura Henoch-Schönlein pot constitui punctul de plecare.",
+    "evidenceLocation": "Sinopsis, p. 220, Tulburări gastro-intestinale"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: pneumatoza intestinală (aer în peretele intestinal) este semnul enterocolitei necrotice a prematurului.",
+    "evidenceLocation": "Sinopsis, p. 220, Tulburări gastro-intestinale"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Segmentul invaginat se palpează ca o masă alungită, de obicei în hipocondrul sau flancul drept.",
+    "evidenceLocation": "Sinopsis, p. 220, Tulburări gastro-intestinale"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: vărsăturile nebilioase în jet, postprandiale, sunt ale stenozei pilorice; în invaginație vărsăturile devin bilioase.",
+    "evidenceLocation": "Sinopsis, p. 220, Tulburări gastro-intestinale"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:34.958Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii împrumută semnele stenozei pilorice și ale enterocolitei necrotice."
+  },
+  "textbookExpressions": [
+   "invaginația",
+   "Meckel"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "pediatrie-p26-010",
+  "questionFingerprint": "3d427efcc2917c549377d1eb1bfb83a42529a7d32f6ce2e07c62253e549e5a76",
+  "status": "edition-checked",
+  "learningObjective": "Fototerapia, exsanguinotransfuzia și icterul nuclear (kernicterus).",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 10,
+   "printedPages": [
+    221
+   ],
+   "pdfPages": [
+    26
+   ],
+   "section": "Tulburări gastro-intestinale"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Bilirubina liberă traversează bariera hemato-encefalică și se depune în nucleii bazali: hipotonie, letargie, convulsii, apoi paralizie cerebrală coreoatetozică și surditate.",
+    "evidenceLocation": "Sinopsis, p. 221, Tulburări gastro-intestinale"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: fototerapia acționează pe bilirubina neconjugată; hiperbilirubinemia conjugată (atrezie biliară) cere diagnostic etiologic și tratament chirurgical.",
+    "evidenceLocation": "Sinopsis, p. 221, Tulburări gastro-intestinale"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Lumina albastră izomerizează bilirubina neconjugată din piele în forme hidrosolubile, eliminate fără conjugare hepatică.",
+    "evidenceLocation": "Sinopsis, p. 221, Tulburări gastro-intestinale"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: icterul prin lapte matern este benign; alăptarea se continuă (o întrerupere scurtă poate fi cel mult diagnostică).",
+    "evidenceLocation": "Sinopsis, p. 221, Tulburări gastro-intestinale"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Exsanguinotransfuzia scade rapid bilirubina când fototerapia nu este suficientă sau apar semne de encefalopatie bilirubinică.",
+    "evidenceLocation": "Sinopsis, p. 221, Tulburări gastro-intestinale"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:34.958Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii aplică fototerapia bilirubinei conjugate și opresc alăptarea."
+  },
+  "textbookExpressions": [
+   "fototerapie",
+   "bilirubină"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "pediatrie-p26-011",
+  "questionFingerprint": "12c7a1ef8273520aa113a0f8d956f25a5845b4eb19098738b21e27879acba2f3",
+  "status": "edition-checked",
+  "learningObjective": "Diagnosticul diverticulului Meckel prin scintigrafie cu tehnețiu.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 10,
+   "printedPages": [
+    221
+   ],
+   "pdfPages": [
+    26
+   ],
+   "section": "Tulburări gastro-intestinale"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: colonoscopia nu ajunge la ileonul distal, unde se află diverticulul (circa 60 cm de valva ileocecală).",
+    "evidenceLocation": "Sinopsis, p. 221, Tulburări gastro-intestinale"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: arteriografia este rezervată hemoragiilor masive cu scintigrafie neconcludentă.",
+    "evidenceLocation": "Sinopsis, p. 221, Tulburări gastro-intestinale"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: tranzitul baritat vizualizează rar diverticulul și maschează scintigrafia.",
+    "evidenceLocation": "Sinopsis, p. 221, Tulburări gastro-intestinale"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: ecografia nu identifică de obicei diverticulul; este investigația invaginației și a stenozei pilorice.",
+    "evidenceLocation": "Sinopsis, p. 221, Tulburări gastro-intestinale"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Pertechnetatul de tehnețiu-99m este captat de mucoasa gastrică ectopică din diverticul (scanarea Meckel).",
+    "evidenceLocation": "Sinopsis, p. 221, Tulburări gastro-intestinale"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:34.958Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt investigațiile altor hemoragii și urgențe digestive."
+  },
+  "textbookExpressions": [
+   "diverticulul Meckel",
+   "60 cm"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "pediatrie-p26-012",
+  "questionFingerprint": "e7f32b1de890b28caf0b7215dd52296f759f5543d5847d3fc4fdfb9a3b97512d",
+  "status": "edition-checked",
+  "learningObjective": "Clasificarea glicogenozelor din tabel: enzima deficitară și tabloul fiecărui tip.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 10,
+   "printedPages": [
+    223
+   ],
+   "pdfPages": [
+    28
+   ],
+   "section": "Endocrinologie și metabolism"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: glicemia este normală în boala Pompe; hipoglicemia severă à jeun este a bolii von Gierke.",
+    "evidenceLocation": "Sinopsis, p. 223, Endocrinologie și metabolism"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: insuficiența cardiacă din primul an este a bolii Pompe; McArdle debutează mai târziu, cu simptome musculare la efort.",
+    "evidenceLocation": "Sinopsis, p. 223, Endocrinologie și metabolism"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Deficitul de α-glucozidază lizozomală (tip II) acumulează glicogen în lizozomi: cardiomegalie, hipotonie, deces precoce fără substituție enzimatică.",
+    "evidenceLocation": "Sinopsis, p. 223, Endocrinologie și metabolism"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Deficitul de glucozo-6-fosfatază (tip I) blochează eliberarea glucozei hepatice: hipoglicemie severă à jeun, hepatomegalie, acidoză lactică.",
+    "evidenceLocation": "Sinopsis, p. 223, Endocrinologie și metabolism"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Deficitul de fosforilază musculară (tip V) împiedică glicogenoliza în mușchi: crampe și intoleranță la efort, mioglobinurie.",
+    "evidenceLocation": "Sinopsis, p. 223, Endocrinologie și metabolism"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:34.958Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii schimbă tabloul între tipurile de glicogenoză."
+  },
+  "textbookExpressions": [
+   "von Gierke",
+   "McArdle"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "pediatrie-p26-013",
+  "questionFingerprint": "43d0b8e1b01d5532007e9185f64b6e91159481bbc019a0b1d51f197eedbeb9c9",
+  "status": "edition-checked",
+  "learningObjective": "Tipurile clasificării Salter-Harris ale fracturilor cartilajului de creștere.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 10,
+   "printedPages": [
+    228
+   ],
+   "pdfPages": [
+    33
+   ],
+   "section": "Ortopedie pediatrică"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: traiectul prin metafiză, fiză și epifiză este tipul IV.",
+    "evidenceLocation": "Sinopsis, p. 228, Ortopedie pediatrică"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Tipul III traversează fiza și epifiza: fractură intraarticulară, care cere reducere anatomică.",
+    "evidenceLocation": "Sinopsis, p. 228, Ortopedie pediatrică"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: zdrobirea (compresia) fizei este tipul V, cu risc mare de oprire a creșterii.",
+    "evidenceLocation": "Sinopsis, p. 228, Ortopedie pediatrică"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: decolarea pură prin fiză este tipul I.",
+    "evidenceLocation": "Sinopsis, p. 228, Ortopedie pediatrică"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: fiza și metafiza sunt interesate în tipul II, cel mai frecvent.",
+    "evidenceLocation": "Sinopsis, p. 228, Ortopedie pediatrică"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:34.958Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt tipurile vecine ale clasificării."
+  },
+  "textbookExpressions": [
+   "Salter-Harris",
+   "zdrobire"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "pediatrie-p26-014",
+  "questionFingerprint": "8d5ab85a156795de58e9222b27750bcac69306246dfece64cc80f7617d43757e",
+  "status": "edition-checked",
+  "learningObjective": "Semnele osoase ale rahitismului față de osteogeneza imperfectă.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 10,
+   "printedPages": [
+    229
+   ],
+   "pdfPages": [
+    34
+   ],
+   "section": "Ortopedie pediatrică"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: sclerele albastre și fracturile repetate sunt ale osteogenezei imperfecte (defect de colagen tip I).",
+    "evidenceLocation": "Sinopsis, p. 229, Ortopedie pediatrică"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Lipsa mineralizării cartilajului de creștere lărgește joncțiunile condro-costale (rozariul rahitic) și metafizele pumnului și gleznei.",
+    "evidenceLocation": "Sinopsis, p. 229, Ortopedie pediatrică"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: radiografia arată cartilaje de creștere lărgite și metafize evazate, cu margini neregulate („în cupă”).",
+    "evidenceLocation": "Sinopsis, p. 229, Ortopedie pediatrică"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Oasele moi se încurbează sub greutatea corpului odată cu mersul; apare și craniotabesul.",
+    "evidenceLocation": "Sinopsis, p. 229, Ortopedie pediatrică"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: fontanelele se închid tardiv în rahitism, iar craniul este moale (craniotabes).",
+    "evidenceLocation": "Sinopsis, p. 229, Ortopedie pediatrică"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:34.959Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează semnele și mută boala la osteogeneza imperfectă."
+  },
+  "textbookExpressions": [
+   "rahitism",
+   "osteomalacie"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "pediatrie-p26-015",
+  "questionFingerprint": "20e9b7b6e9fb0c582e928f29934a8b7390a93aa40d3355e708941738d595eba1",
+  "status": "edition-checked",
+  "learningObjective": "Semnele clinice și tratamentul distrofiei Duchenne față de forma Becker.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 10,
+   "printedPages": [
+    229
+   ],
+   "pdfPages": [
+    34
+   ],
+   "section": "Neurologie pediatrică"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Mușchiul degenerat este înlocuit cu grăsime și țesut fibros; slăbiciunea proximală dă mers legănat și semn Gower.",
+    "evidenceLocation": "Sinopsis, p. 229, Neurologie pediatrică"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: slăbiciunea este proximală (centuri), cu debut la 2–5 ani; debutul distal sugerează alte miopatii sau neuropatii.",
+    "evidenceLocation": "Sinopsis, p. 229, Neurologie pediatrică"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Prednisonul (sau deflazacortul) încetinește declinul forței și prelungește mersul; restul tratamentului este suportiv.",
+    "evidenceLocation": "Sinopsis, p. 229, Neurologie pediatrică"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: distrofina este absentă în Duchenne; distrofina redusă sau anormală definește forma Becker, mai ușoară.",
+    "evidenceLocation": "Sinopsis, p. 229, Neurologie pediatrică"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: pierderea mersului survine în jurul vârstei de 12 ani; decesul, prin insuficiență respiratorie sau cardiomiopatie, în a doua–a treia decadă.",
+    "evidenceLocation": "Sinopsis, p. 229, Neurologie pediatrică"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:34.959Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii împrumută forma Becker și inversează topografia slăbiciunii."
+  },
+  "textbookExpressions": [
+   "Duchenne",
+   "distrofină"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "pediatrie-p26-016",
+  "questionFingerprint": "d5836c84ca46819f8add4f28a4d982c9a1b9ee49eb582c524c4010ba0bbf8bf6",
+  "status": "edition-checked",
+  "learningObjective": "Rândul de 2 ani al tabelului reperelor de dezvoltare, față de rândul de 3 ani.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 10,
+   "printedPages": [
+    232
+   ],
+   "pdfPages": [
+    37
+   ],
+   "section": "Dezvoltare și sănătate"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: copierea cercului este reperul grafic de la 3 ani; la 2 ani copiază o linie.",
+    "evidenceLocation": "Sinopsis, p. 232, Dezvoltare și sănătate"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: tricicleta este reperul de la 3 ani.",
+    "evidenceLocation": "Sinopsis, p. 232, Dezvoltare și sănătate"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "La 2 ani copilul aleargă, lovește mingea și urcă și coboară scările, încă fără alternarea picioarelor.",
+    "evidenceLocation": "Sinopsis, p. 232, Dezvoltare și sănătate"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Turnul din 6 cuburi este reperul motor fin de la 2 ani (4 cuburi la 18 luni, 9 cuburi la 3 ani).",
+    "evidenceLocation": "Sinopsis, p. 232, Dezvoltare și sănătate"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "La 2 ani vocabularul are circa 50 de cuvinte și apar propozițiile din două cuvinte.",
+    "evidenceLocation": "Sinopsis, p. 232, Dezvoltare și sănătate"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:34.959Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt reperele rândului următor (3 ani)."
+  },
+  "textbookExpressions": [
+   "cuburi",
+   "zâmbet social"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "pediatrie-p26-017",
+  "questionFingerprint": "08c0c2dd5a3d1d5bec71591b2b46bed3172669c508ae2514974103cff8f3df44",
+  "status": "edition-checked",
+  "learningObjective": "Vârstele reperelor motorii și grafice din tabelul dezvoltării.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 10,
+   "printedPages": [
+    232
+   ],
+   "pdfPages": [
+    37
+   ],
+   "section": "Dezvoltare și sănătate"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: la 6 ani reperele sunt mai avansate (desenarea unei persoane, scrierea numelui).",
+    "evidenceLocation": "Sinopsis, p. 232, Dezvoltare și sănătate"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: la 18 luni copilul merge bine și construiește un turn din 4 cuburi.",
+    "evidenceLocation": "Sinopsis, p. 232, Dezvoltare și sănătate"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "La 4 ani sare într-un picior și copiază o cruce; limbajul este inteligibil în întregime.",
+    "evidenceLocation": "Sinopsis, p. 232, Dezvoltare și sănătate"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: la 5 ani sare alternativ (țopăie), copiază un triunghi și își leagă șireturile.",
+    "evidenceLocation": "Sinopsis, p. 232, Dezvoltare și sănătate"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: la 3 ani merge cu tricicleta și copiază un cerc.",
+    "evidenceLocation": "Sinopsis, p. 232, Dezvoltare și sănătate"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:34.959Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt vârstele vecine din tabel."
+  },
+  "textbookExpressions": [
+   "cuburi",
+   "primele cuvinte"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "pediatrie-p26-018",
+  "questionFingerprint": "dbbaf63482e65357a7b25a0adde900a1588ff49182659f5caec8c9928ac38dbc",
+  "status": "edition-checked",
+  "learningObjective": "Vârsta primei doze de ROR din tabelul vaccinărilor de rutină.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 10,
+   "printedPages": [
+    233
+   ],
+   "pdfPages": [
+    38
+   ],
+   "section": "Dezvoltare și sănătate"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "ROR (vaccin viu atenuat) se administrează la 12–15 luni, după dispariția anticorpilor materni, odată cu varicela; a doua doză la 4–6 ani.",
+    "evidenceLocation": "Sinopsis, p. 233, Dezvoltare și sănătate"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: la 6 luni se continuă seriile DTaP, IPV, Hib și pneumococic.",
+    "evidenceLocation": "Sinopsis, p. 233, Dezvoltare și sănătate"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: la naștere se administrează prima doză de vaccin hepatitic B.",
+    "evidenceLocation": "Sinopsis, p. 233, Dezvoltare și sănătate"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: la 4–6 ani se administrează a doua doză de ROR, nu prima, alături de rapelurile DTaP și IPV.",
+    "evidenceLocation": "Sinopsis, p. 233, Dezvoltare și sănătate"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: la 2 luni începe seria DTaP, IPV, Hib, pneumococic și rotavirus.",
+    "evidenceLocation": "Sinopsis, p. 233, Dezvoltare și sănătate"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:34.959Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt vârstele celorlalte vaccinuri din schemă."
+  },
+  "textbookExpressions": [
+   "ROR",
+   "rotavirus"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "pediatrie-p26-019",
+  "questionFingerprint": "8937e3b69bbbbf124e8a56832635e40cc88f6463f33daa99e953cc42556a92ed",
+  "status": "edition-checked",
+  "learningObjective": "Leziunile cutanate, osoase și craniene care sugerează abuzul.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 10,
+   "printedPages": [
+    237
+   ],
+   "pdfPages": [
+    42
+   ],
+   "section": "Dezvoltare și sănătate"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Imersia forțată în apă fierbinte dă arsuri cu limită netă, simetrice, pe mâini, picioare sau fese.",
+    "evidenceLocation": "Sinopsis, p. 237, Dezvoltare și sănătate"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Fractura spiroidă cere torsiune; la sugarul care nu merge nu are mecanism accidental plauzibil.",
+    "evidenceLocation": "Sinopsis, p. 237, Dezvoltare și sănătate"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: echimozele pe proeminențele osoase anterioare (frunte, tibie, genunchi) sunt tipice căderilor copilului mic care merge.",
+    "evidenceLocation": "Sinopsis, p. 237, Dezvoltare și sănătate"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Leziuni repetate, de vârste diferite, în zone protejate (fese, spate, trunchi), neexplicate de istoric.",
+    "evidenceLocation": "Sinopsis, p. 237, Dezvoltare și sănătate"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Scuturarea sugarului rupe venele-punte și vasele retiniene: hematom subdural cu hemoragii retiniene.",
+    "evidenceLocation": "Sinopsis, p. 237, Dezvoltare și sănătate"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:34.959Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul descrie echimozele accidentale ale copilului care merge."
+  },
+  "textbookExpressions": [
+   "hemoragii retiniene",
+   "leziunea craniană"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "pediatrie-p26-020",
+  "questionFingerprint": "c25984ece463b75dbb69d65be49fe8f309a01475a54fa3076973c2da38f3ee5d",
+  "status": "edition-checked",
+  "learningObjective": "Clasificarea imunodeficiențelor din tabel pe linii: B, T, combinate, fagocitare.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 10,
+   "printedPages": [
+    237
+   ],
+   "pdfPages": [
+    42
+   ],
+   "section": "Patologii imune"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Deleția 22q11 lasă timusul hipoplazic: deficit de limfocite T, cu infecții virale și fungice, hipocalcemie și anomalii cardiace.",
+    "evidenceLocation": "Sinopsis, p. 237, Patologii imune"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: Wiskott-Aldrich este o imunodeficiență combinată (B și T, gena WASP), cu eczemă și trombocitopenie; complementul este normal.",
+    "evidenceLocation": "Sinopsis, p. 237, Patologii imune"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: deficitul de adeziune leucocitară este un defect al fagocitelor (integrine), cu întârzierea detașării bontului ombilical; limfocitele B sunt normale.",
+    "evidenceLocation": "Sinopsis, p. 237, Patologii imune"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Mutația tirozin-kinazei Bruton blochează maturarea limfocitelor B: imunoglobuline absente, infecții bacteriene după 6 luni.",
+    "evidenceLocation": "Sinopsis, p. 237, Patologii imune"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Deficitul de NADPH-oxidază împiedică neutrofilele să distrugă microbii fagocitați (bacterii catalază-pozitive, Aspergillus).",
+    "evidenceLocation": "Sinopsis, p. 237, Patologii imune"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:34.960Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii mută bolile pe altă linie celulară."
+  },
+  "textbookExpressions": [
+   "DiGeorge",
+   "Wiskott-Aldrich"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
  }
 ]
