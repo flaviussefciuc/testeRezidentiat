@@ -256023,5 +256023,1391 @@
   ],
   "textbookWordingReviewed": false,
   "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "urologie-p26-001",
+  "questionFingerprint": "fee3360b32e1bf60ac6da42ff133f1846b990b7396eb83a524197a6ece1fc230",
+  "status": "edition-checked",
+  "learningObjective": "Indicațiile absolute ale chirurgiei (TURP) în HBP față de supraveghere.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 29,
+   "printedPages": [
+    637
+   ],
+   "pdfPages": [
+    308
+   ],
+   "section": "Prostata"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Hematuria macroscopică recurentă de origine prostatică este indicație clasică.",
+    "evidenceLocation": "Lawrence, p. 637, Prostata"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: simptomele ușoare se supraveghează (așteptare vigilentă) sau se tratează medicamentos.",
+    "evidenceLocation": "Lawrence, p. 637, Prostata"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Infecțiile recurente întreținute de reziduul postmicțional sunt indicație operatorie.",
+    "evidenceLocation": "Lawrence, p. 637, Prostata"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Retenția refractară la tratamentul medical sau repetată impune dezobstrucția chirurgicală.",
+    "evidenceLocation": "Lawrence, p. 637, Prostata"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Litiaza vezicală este consecința stazei și se rezolvă odată cu obstrucția.",
+    "evidenceLocation": "Lawrence, p. 637, Prostata"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:21.197Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul transferă indicația operatorie la forma ușoară."
+  },
+  "textbookExpressions": [
+   "α-blocante",
+   "TURP"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "urologie-p26-002",
+  "questionFingerprint": "e04738630295f359779da6deee98709e9ccfdffb61decba70d57ebd6e5d6804b",
+  "status": "edition-checked",
+  "learningObjective": "Categoriile T ale stadializării TNM în cancerul de prostată.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 29,
+   "printedPages": [
+    639
+   ],
+   "pdfPages": [
+    310
+   ],
+   "section": "Prostata"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: T1 este nepalpabil; tumora palpabilă limitată la un lob este T2a–T2b.",
+    "evidenceLocation": "Lawrence, p. 639, Prostata"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "T2 este palpabil la tușeu, dar nu depășește capsula prostatică.",
+    "evidenceLocation": "Lawrence, p. 639, Prostata"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "T3a depășește capsula, T3b invadează veziculele seminale.",
+    "evidenceLocation": "Lawrence, p. 639, Prostata"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: T4 este invazia structurilor adiacente (sfincter extern, rect, vezică, perete pelvin); metastazele osoase sunt M1b.",
+    "evidenceLocation": "Lawrence, p. 639, Prostata"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "T1 este nepalpabil și invizibil imagistic; T1c se descoperă prin biopsia indicată de PSA.",
+    "evidenceLocation": "Lawrence, p. 639, Prostata"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:21.205Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii deplasează criteriile între T1, T2 și M."
+  },
+  "textbookExpressions": [
+   "PSA",
+   "Gleason"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "urologie-p26-003",
+  "questionFingerprint": "eaad4dee5a5c4fa01673d0589ee61eb6a949dc5802fca59fd7d0110a89c4c24c",
+  "status": "edition-checked",
+  "learningObjective": "Gradele clasificării traumatismelor renale (Figura 29-11).",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 29,
+   "printedPages": [
+    644
+   ],
+   "pdfPages": [
+    315
+   ],
+   "section": "Rinichii"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: gradul V este rinichiul zdrobit sau avulsia pediculului vascular.",
+    "evidenceLocation": "Lawrence, p. 644, Rinichii"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: gradul IV interesează sistemul colector (extravazare) sau vasele segmentare.",
+    "evidenceLocation": "Lawrence, p. 644, Rinichii"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Gradul I: contuzie sau hematom subcapsular neexpansiv, fără lacerație parenchimatoasă.",
+    "evidenceLocation": "Lawrence, p. 644, Rinichii"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: gradul III este lacerația corticală peste 1 cm, fără extravazare.",
+    "evidenceLocation": "Lawrence, p. 644, Rinichii"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: gradul II este lacerația corticală sub 1 cm, fără extravazare urinară.",
+    "evidenceLocation": "Lawrence, p. 644, Rinichii"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:21.205Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt gradele vecine ale clasificării."
+  },
+  "textbookExpressions": [
+   "Figura 29-11",
+   "lacerație"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "urologie-p26-004",
+  "questionFingerprint": "478ca7211e197e2201c6611a38b3cb4e108c65a5164edc3153062a42b5a0247f",
+  "status": "edition-checked",
+  "learningObjective": "Sindroamele paraneoplazice ale CRCC: eritrocitoză, hipercalcemie, hipertensiune.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 29,
+   "printedPages": [
+    645
+   ],
+   "pdfPages": [
+    316
+   ],
+   "section": "Rinichii"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Eritropoietina tumorală produce policitemie (eritrocitoză) la o parte din pacienți.",
+    "evidenceLocation": "Lawrence, p. 645, Rinichii"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Hipercalcemia apare prin substanță PTH-like, chiar fără metastaze osoase.",
+    "evidenceLocation": "Lawrence, p. 645, Rinichii"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Secreția de renină de către tumoră sau ischemia parenchimului produce hipertensiune.",
+    "evidenceLocation": "Lawrence, p. 645, Rinichii"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: carcinomul renal produce hipercalcemie; hipocalcemia nu este sindrom paraneoplazic al său.",
+    "evidenceLocation": "Lawrence, p. 645, Rinichii"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: hipoglicemia prin insulină caracterizează insulinomul, nu carcinomul renal.",
+    "evidenceLocation": "Lawrence, p. 645, Rinichii"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:21.205Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează sensul tulburării metabolice."
+  },
+  "textbookExpressions": [
+   "carcinomul renal cu celule clare",
+   "triada clasică"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "urologie-p26-005",
+  "questionFingerprint": "a092a4039cf0f59449dd76947ea13f99f1cd69cb882b8311996104761902bb1b",
+  "status": "edition-checked",
+  "learningObjective": "Clasele de medicamente ale deprivării androgenice și durata răspunsului.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 29,
+   "printedPages": [
+    641
+   ],
+   "pdfPages": [
+    312
+   ],
+   "section": "Prostata"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: testiculele produc peste 90% din androgeni; suprarenalele sub 10%.",
+    "evidenceLocation": "Lawrence, p. 641, Prostata"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Agoniștii LHRH suprimă LH și testosteronul la niveluri de castrare (castrare chimică).",
+    "evidenceLocation": "Lawrence, p. 641, Prostata"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Antiandrogenii blochează competitiv receptorul androgenic, inclusiv pentru androgenii suprarenalieni.",
+    "evidenceLocation": "Lawrence, p. 641, Prostata"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: răspunsul durează în medie 18–24 de luni, apoi boala devine rezistentă la castrare.",
+    "evidenceLocation": "Lawrence, p. 641, Prostata"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: bicalutamida este antiandrogen nesteroidian oral; leuprolida și goserelina sunt analogi LHRH depozit.",
+    "evidenceLocation": "Lawrence, p. 641, Prostata"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:21.205Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii confundă clasele de medicamente și durata răspunsului."
+  },
+  "textbookExpressions": [
+   "LHRH",
+   "orhidectomie"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "urologie-p26-006",
+  "questionFingerprint": "a16fc1aeb2725b069892b8f0d6e59df6b9b63b8d9132d0158fc082bdf8d91fc2",
+  "status": "edition-checked",
+  "learningObjective": "Recunoașterea angiomiolipomului renal și asocierea sa cu scleroza tuberoasă.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 29,
+   "printedPages": [
+    645
+   ],
+   "pdfPages": [
+    316
+   ],
+   "section": "Rinichii"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: adenomul renal este o leziune epitelială mică, fără componentă grăsoasă.",
+    "evidenceLocation": "Lawrence, p. 645, Rinichii"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: nefroblastomul este tumora renală malignă a copilului.",
+    "evidenceLocation": "Lawrence, p. 645, Rinichii"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: chistul simplu are conținut lichidian, perete subțire, fără componentă solidă.",
+    "evidenceLocation": "Lawrence, p. 645, Rinichii"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: oncocitomul este o tumoră benignă epitelială, fără grăsime, greu de diferențiat preoperator de CRCC.",
+    "evidenceLocation": "Lawrence, p. 645, Rinichii"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Angiomiolipomul este un hamartom (grăsime, mușchi neted, vase); grăsimea apare neagră pe CT; frecvent în scleroza tuberoasă.",
+    "evidenceLocation": "Lawrence, p. 645, Rinichii"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:21.205Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt celelalte leziuni renale benigne sau ale copilului."
+  },
+  "textbookExpressions": [
+   "angiomiolipom",
+   "chist simplu"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "urologie-p26-007",
+  "questionFingerprint": "91c6c54590e9c8336a0c3121270ad07fc93c305dada752a61aef08c68aa005ee",
+  "status": "edition-checked",
+  "learningObjective": "Clasificarea calculilor urinari după compoziție, cauză și radioopacitate.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 29,
+   "printedPages": [
+    647
+   ],
+   "pdfPages": [
+    318
+   ],
+   "section": "Rinichii"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Struvitul precipită în urina alcalinizată de germenii ureazo-pozitivi (Proteus) și dă calculi coraliformi.",
+    "evidenceLocation": "Lawrence, p. 647, Rinichii"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Cistinuria este o tulburare ereditară a transportului tubular de aminoacizi.",
+    "evidenceLocation": "Lawrence, p. 647, Rinichii"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: calculii de acid uric sunt radiotransparenți pe radiografie, dar vizibili pe CT.",
+    "evidenceLocation": "Lawrence, p. 647, Rinichii"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Calculii calcici (oxalat, mai rar fosfat) reprezintă majoritatea calculilor.",
+    "evidenceLocation": "Lawrence, p. 647, Rinichii"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: struvitul se formează în urina alcalină; acidul uric precipită în urina acidă.",
+    "evidenceLocation": "Lawrence, p. 647, Rinichii"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:21.206Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează radioopacitatea și pH-ul urinar."
+  },
+  "textbookExpressions": [
+   "struvit",
+   "acid uric"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "urologie-p26-008",
+  "questionFingerprint": "1df7beb5afdda4a2c736b471a7599195fb37048ec460d74322e78ae7d8586f4e",
+  "status": "edition-checked",
+  "learningObjective": "Indicațiile clasice ale intervenției în litiaza urinară față de expectativă.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 29,
+   "printedPages": [
+    647
+   ],
+   "pdfPages": [
+    318
+   ],
+   "section": "Rinichii"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Calculul staționar, fără progresie, nu se va elimina spontan și se tratează activ.",
+    "evidenceLocation": "Lawrence, p. 647, Rinichii"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Obstrucția cu infecție este urgență: drenaj prin stent ureteral sau nefrostomie, apoi tratarea calculului.",
+    "evidenceLocation": "Lawrence, p. 647, Rinichii"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: microhematuria reziduală după eliminarea calculului nu este indicație de intervenție.",
+    "evidenceLocation": "Lawrence, p. 647, Rinichii"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: calculii sub 5 mm se elimină spontan în majoritatea cazurilor; se supraveghează.",
+    "evidenceLocation": "Lawrence, p. 647, Rinichii"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Colica refractară la analgezice impune dezobstrucție.",
+    "evidenceLocation": "Lawrence, p. 647, Rinichii"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:21.206Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii fac din situații de expectativă indicații operatorii."
+  },
+  "textbookExpressions": [
+   "colica renală",
+   "acid uric"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "urologie-p26-009",
+  "questionFingerprint": "93cc2a86be1eda56210cfe3bf899343cbb94023ff34e2b62d447e81c16bd7be6",
+  "status": "edition-checked",
+  "learningObjective": "Gradele I–V ale clasificării internaționale a refluxului vezico-ureteral.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 29,
+   "printedPages": [
+    650
+   ],
+   "pdfPages": [
+    321
+   ],
+   "section": "Vezica urinară"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Gradul III: dilatație ușoară/moderată a ureterului și bazinetului, cu aplatizare discretă a fornixurilor caliceale.",
+    "evidenceLocation": "Lawrence, p. 650, Vezica urinară"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Gradul V: dilatație și tortuozitate marcate, calice deformate, fără impresiuni papilare.",
+    "evidenceLocation": "Lawrence, p. 650, Vezica urinară"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: gradul II opacifiază ureterul, bazinetul și calicele fără dilatație; tortuozitatea cu dilatație marcată este gradul V.",
+    "evidenceLocation": "Lawrence, p. 650, Vezica urinară"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Gradul I: refluxul opacifiază ureterul nedilatat, fără a atinge bazinetul.",
+    "evidenceLocation": "Lawrence, p. 650, Vezica urinară"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: gradul IV are dilatație moderată a ureterului, bazinetului și calicelor, cu ștergerea unghiurilor fornixurilor; refluxul care nu atinge bazinetul este gradul I.",
+    "evidenceLocation": "Lawrence, p. 650, Vezica urinară"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:21.206Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii atribuie gradelor mici semnele gradelor mari și invers."
+  },
+  "textbookExpressions": [
+   "reflux vezico-ureteral",
+   "CUGM"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "urologie-p26-010",
+  "questionFingerprint": "aed6ccc854ab82dcaca9fb38c50b68591f0bc22c47a12483ef887822a2f7a906",
+  "status": "edition-checked",
+  "learningObjective": "Principiile tratamentului conservator și indicațiile chirurgiei în RVU primar.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 29,
+   "printedPages": [
+    651
+   ],
+   "pdfPages": [
+    322
+   ],
+   "section": "Vezica urinară"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Infecțiile sub profilaxie, lipsa remisiunii și cicatricile renale noi indică corecția chirurgicală.",
+    "evidenceLocation": "Lawrence, p. 651, Vezica urinară"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: cateterizarea intermitentă aparține vezicii neurologice; refluxul primar se tratează prin profilaxie sau corecție.",
+    "evidenceLocation": "Lawrence, p. 651, Vezica urinară"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: injectarea endoscopică se adresează gradelor II–IV; gradul V necesită de obicei reimplantare.",
+    "evidenceLocation": "Lawrence, p. 651, Vezica urinară"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: remisiunea spontană caracterizează gradele I–II; gradele IV–V se remit rar.",
+    "evidenceLocation": "Lawrence, p. 651, Vezica urinară"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Profilaxia continuă menține urina sterilă până la remisiunea spontană, frecventă la gradele mici.",
+    "evidenceLocation": "Lawrence, p. 651, Vezica urinară"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:21.206Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii schimbă gradele și transferă tratamentul vezicii neurologice."
+  },
+  "textbookExpressions": [
+   "Deflux",
+   "reimplantare"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "urologie-p26-011",
+  "questionFingerprint": "f8e8d4f1c3a0a5bebc86aa8473dbe1f88f930afa6825f174aa96efae447d032c",
+  "status": "edition-checked",
+  "learningObjective": "Tabloul clinic și aspectul cistoscopic ale cistitei interstițiale.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 29,
+   "printedPages": [
+    655
+   ],
+   "pdfPages": [
+    326
+   ],
+   "section": "Vezica urinară"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Hidrodistensia sub anestezie evidențiază hemoragii submucoase punctiforme (glomerulații) și, uneori, ulcerul Hunner.",
+    "evidenceLocation": "Lawrence, p. 655, Vezica urinară"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: uroculturile sunt negative și antibioticele nu ameliorează simptomele; tratamentul este prin instilații și medicație orală.",
+    "evidenceLocation": "Lawrence, p. 655, Vezica urinară"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Boala afectează mai ales femeile de vârstă medie.",
+    "evidenceLocation": "Lawrence, p. 655, Vezica urinară"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Durerea suprapubiană la umplere, ameliorată de golire, cu polakiurie și nicturie, este tipică.",
+    "evidenceLocation": "Lawrence, p. 655, Vezica urinară"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: capacitatea vezicală este redusă, prin fibroză și durere la umplere.",
+    "evidenceLocation": "Lawrence, p. 655, Vezica urinară"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:21.206Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii transferă trăsăturile cistitei bacteriene."
+  },
+  "textbookExpressions": [
+   "cistita interstițială",
+   "sulfoxid de dimetil"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "urologie-p26-012",
+  "questionFingerprint": "2028b12393794bcfd1ab70526341d52abf4dd97ea6f44892efc3f542099d9aa0",
+  "status": "edition-checked",
+  "learningObjective": "Recunoașterea fistulei entero-vezicale prin pneumaturie și fecalurie.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 29,
+   "printedPages": [
+    655
+   ],
+   "pdfPages": [
+    326
+   ],
+   "section": "Vezica urinară"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: pierderea continuă de urină sugerează fistula vezico-vaginală.",
+    "evidenceLocation": "Lawrence, p. 655, Vezica urinară"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: durerea suprapubiană calmată de micțiune caracterizează cistita interstițială.",
+    "evidenceLocation": "Lawrence, p. 655, Vezica urinară"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: polakiuria nocturnă nedureroasă este simptomul tuberculozei urinare.",
+    "evidenceLocation": "Lawrence, p. 655, Vezica urinară"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: hematuria nedureroasă este semnul de alarmă al carcinomului vezical.",
+    "evidenceLocation": "Lawrence, p. 655, Vezica urinară"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Eliminarea de gaz (și materii fecale) prin uretră traduce comunicarea intestin–vezică.",
+    "evidenceLocation": "Lawrence, p. 655, Vezica urinară"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:21.207Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt simptomele-cheie ale altor afecțiuni vezicale."
+  },
+  "textbookExpressions": [
+   "fistula entero-vezicală",
+   "diverticulită"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "urologie-p26-013",
+  "questionFingerprint": "f1e599fcda6651bc63a6d0632d54cfbbf3f41c1e413b0c0fcfa23874e134ce7d",
+  "status": "edition-checked",
+  "learningObjective": "Diferențierea tipurilor de incontinență după mecanism și tratament.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 29,
+   "printedPages": [
+    656
+   ],
+   "pdfPages": [
+    327
+   ],
+   "section": "Vezica urinară"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: incontinența prin prea-plin apare la retenția cronică, cu vezică destinsă și reziduu mare.",
+    "evidenceLocation": "Lawrence, p. 656, Vezica urinară"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: incontinența continuă sugerează fistulă (vezico-vaginală) sau ureter ectopic, nu instabilitate.",
+    "evidenceLocation": "Lawrence, p. 656, Vezica urinară"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: anticolinergicele tratează imperiozitatea; incontinența de efort se tratează prin exerciții, suspensie sau bandeletă.",
+    "evidenceLocation": "Lawrence, p. 656, Vezica urinară"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Imperiozitatea urmată de pierdere traduce contracții detrusoriene neinhibate (vezică instabilă).",
+    "evidenceLocation": "Lawrence, p. 656, Vezica urinară"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Pierderea la efort traduce incompetența sfincteriană sau hipermobilitatea uretrală, fără contracție detrusoriană.",
+    "evidenceLocation": "Lawrence, p. 656, Vezica urinară"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:21.207Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii schimbă mecanismul și tratamentul între tipuri."
+  },
+  "textbookExpressions": [
+   "instabilitatea detrusorului",
+   "oxibutinină"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "urologie-p26-014",
+  "questionFingerprint": "4b901db0865c1992adab1e6b5db66e569d8f05eed484a78f87cdc2fed4754e8e",
+  "status": "edition-checked",
+  "learningObjective": "Categoriile T ale stadializării carcinomului vezical și pragul invaziei musculare.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 29,
+   "printedPages": [
+    659
+   ],
+   "pdfPages": [
+    330
+   ],
+   "section": "Vezica urinară"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: Tis este carcinomul in situ plat, intraepitelial, de grad înalt; tumora papilară neinvazivă este Ta.",
+    "evidenceLocation": "Lawrence, p. 659, Vezica urinară"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "T2: invazia detrusorului (superficială T2a, profundă T2b).",
+    "evidenceLocation": "Lawrence, p. 659, Vezica urinară"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Ta: carcinom papilar neinvaziv, limitat la uroteliu.",
+    "evidenceLocation": "Lawrence, p. 659, Vezica urinară"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "T3: depășirea mușchiului în grăsimea perivezicală (microscopic T3a, macroscopic T3b).",
+    "evidenceLocation": "Lawrence, p. 659, Vezica urinară"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "T1: invazia țesutului conjunctiv subepitelial, fără atingerea mușchiului.",
+    "evidenceLocation": "Lawrence, p. 659, Vezica urinară"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:21.207Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul confundă carcinomul in situ cu tumora papilară."
+  },
+  "textbookExpressions": [
+   "BCG",
+   "cistectomie"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "urologie-p26-015",
+  "questionFingerprint": "9a435054da984158704413044b82d277d949e8fabfb730cdb2acbd09e35540c4",
+  "status": "edition-checked",
+  "learningObjective": "Bilanțul standard al hematuriei: cistoscopie, citologie, imagistica tractului superior.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 29,
+   "printedPages": [
+    659
+   ],
+   "pdfPages": [
+    330
+   ],
+   "section": "Vezica urinară"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Cistoscopia vizualizează direct uroteliul vezical și permite biopsia sau rezecția.",
+    "evidenceLocation": "Lawrence, p. 659, Vezica urinară"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: ecografia poate rata tumorile mici sau plate; cistoscopia rămâne necesară.",
+    "evidenceLocation": "Lawrence, p. 659, Vezica urinară"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Citologia are sensibilitate bună pentru leziunile de grad înalt și CIS, dar slabă pentru tumorile de grad scăzut.",
+    "evidenceLocation": "Lawrence, p. 659, Vezica urinară"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: fumatul și vârsta cresc riscul de carcinom urotelial; hematuria impune bilanț complet.",
+    "evidenceLocation": "Lawrence, p. 659, Vezica urinară"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Urografia CT (sau UIV) caută tumorile uroteliale ale tractului superior și alte cauze.",
+    "evidenceLocation": "Lawrence, p. 659, Vezica urinară"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:21.207Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii fac din imagistica normală sau din factorii de risc motive de a nu investiga."
+  },
+  "textbookExpressions": [
+   "carcinom vezical",
+   "hematurie"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "urologie-p26-016",
+  "questionFingerprint": "c17fcbef8cf8e919ba48624f0ba331b2e2b87ca0830fa6ebd17dde720ed08dc4",
+  "status": "edition-checked",
+  "learningObjective": "Varicocelul secundar: semnificația varicocelului drept sau necompresibil la adult.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 29,
+   "printedPages": [
+    670
+   ],
+   "pdfPages": [
+    341
+   ],
+   "section": "Testiculele, infertilitatea și disfuncția erectilă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: hernia inghinală se reduce în decubit și nu are aspect de „sac de râme”.",
+    "evidenceLocation": "Lawrence, p. 670, Testiculele, infertilitatea și disfuncția erectilă"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Varicocelul drept izolat, cu debut recent la adult, sau care nu se golește în decubit sugerează obstrucția venei spermatice de o masă retroperitoneală.",
+    "evidenceLocation": "Lawrence, p. 670, Testiculele, infertilitatea și disfuncția erectilă"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: hidrocelul comunicant este o colecție lichidiană care transiluminează, nu un pachet venos.",
+    "evidenceLocation": "Lawrence, p. 670, Testiculele, infertilitatea și disfuncția erectilă"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: spermatocelul este un chist transiluminabil, situat deasupra testiculului.",
+    "evidenceLocation": "Lawrence, p. 670, Testiculele, infertilitatea și disfuncția erectilă"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: torsiunea dă durere acută, cu testicul ascensionat, nu dilatații venoase.",
+    "evidenceLocation": "Lawrence, p. 670, Testiculele, infertilitatea și disfuncția erectilă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:21.207Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt celelalte mase scrotale."
+  },
+  "textbookExpressions": [
+   "varicocel",
+   "sac de râme"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "urologie-p26-017",
+  "questionFingerprint": "28acc0c3eab4d106eb846f01e25ea8fceeb8ed4e9ed86f1f408c4865bd7b93ea",
+  "status": "edition-checked",
+  "learningObjective": "Stadiile I–III ale tumorilor testiculare și stația ganglionară retroperitoneală.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 29,
+   "printedPages": [
+    671
+   ],
+   "pdfPages": [
+    342
+   ],
+   "section": "Testiculele, infertilitatea și disfuncția erectilă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: adenopatia retroperitoneală voluminoasă este stadiul IIc; stadiul III înseamnă boală supradiafragmatică sau viscerală.",
+    "evidenceLocation": "Lawrence, p. 671, Testiculele, infertilitatea și disfuncția erectilă"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: metastazele viscerale (pulmonare, hepatice) definesc stadiul III.",
+    "evidenceLocation": "Lawrence, p. 671, Testiculele, infertilitatea și disfuncția erectilă"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: limfaticele testiculului drenează în ganglionii preaortici și precavi, nu în cei inghinali.",
+    "evidenceLocation": "Lawrence, p. 671, Testiculele, infertilitatea și disfuncția erectilă"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Stadiul II: metastaze în ganglionii retroperitoneali, subîmpărțit după dimensiune (IIa sub 2 cm, IIb 2–5 cm, IIc peste 5 cm).",
+    "evidenceLocation": "Lawrence, p. 671, Testiculele, infertilitatea și disfuncția erectilă"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Stadiul I: boală limitată la testicul (și cordon), fără metastaze ganglionare sau viscerale.",
+    "evidenceLocation": "Lawrence, p. 671, Testiculele, infertilitatea și disfuncția erectilă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:21.207Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii mută metastazele între stadii și stații ganglionare."
+  },
+  "textbookExpressions": [
+   "seminom",
+   "radioterapie"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "urologie-p26-018",
+  "questionFingerprint": "4ed837bf5cae6afcb77db994edda09bb236cbab72832fd8d887c306d2b1e739c",
+  "status": "edition-checked",
+  "learningObjective": "Interpretarea FSH și locul varicocelului în infertilitatea masculină.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 29,
+   "printedPages": [
+    672
+   ],
+   "pdfPages": [
+    343
+   ],
+   "section": "Testiculele, infertilitatea și disfuncția erectilă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: varicocelul este predominant stâng (circa 90%), prin drenajul venei spermatice stângi în vena renală stângă.",
+    "evidenceLocation": "Lawrence, p. 672, Testiculele, infertilitatea și disfuncția erectilă"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: în obstrucție FSH-ul este normal; FSH-ul crescut indică insuficiență testiculară.",
+    "evidenceLocation": "Lawrence, p. 672, Testiculele, infertilitatea și disfuncția erectilă"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "FSH-ul crescut reflectă lipsa feedback-ului tubular: insuficiență testiculară cu spermatogeneză compromisă, prognostic rezervat.",
+    "evidenceLocation": "Lawrence, p. 672, Testiculele, infertilitatea și disfuncția erectilă"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Spermatogeneza intactă (FSH normal, volum normal) cu azoospermie indică obstrucție; se continuă cu vasografie și biopsie testiculară.",
+    "evidenceLocation": "Lawrence, p. 672, Testiculele, infertilitatea și disfuncția erectilă"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Varicocelul (dilatarea plexului pampiniform) este cauza corectabilă cea mai frecventă; ligatura ameliorează spermograma.",
+    "evidenceLocation": "Lawrence, p. 672, Testiculele, infertilitatea și disfuncția erectilă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:21.207Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează semnificația FSH-ului și partea varicocelului."
+  },
+  "textbookExpressions": [
+   "fructoză",
+   "TRUS"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
  }
 ]
