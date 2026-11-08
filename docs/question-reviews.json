@@ -270805,5 +270805,1160 @@
   ],
   "textbookWordingReviewed": false,
   "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ati-p26-001",
+  "questionFingerprint": "5a4842a9150cfa68e84ad57d86e15306f6c8d7272f8634a8015665fc45372d23",
+  "status": "edition-checked",
+  "learningObjective": "Clasificarea insuficienței respiratorii: încadrarea cauzelor în tipul II (hipoventilație alveolară) față de tipul I.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 10,
+   "printedPages": [
+    225
+   ],
+   "pdfPages": [
+    43
+   ],
+   "section": "Insuficiența respiratorie — Clasificare"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "BPOC este cea mai frecventă cauză de insuficiență de tip II, cu hipoxemie și PaCO2 crescută.",
+    "evidenceLocation": "Kumar, p. 225, Insuficiența respiratorie — Clasificare"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: edemul pulmonar produce tipic insuficiență de tip I, prin șunt, cu PaCO2 normală sau scăzută.",
+    "evidenceLocation": "Kumar, p. 225, Insuficiența respiratorie — Clasificare"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Slăbiciunea musculaturii respiratorii produce hipoventilație, deci insuficiență de tip II.",
+    "evidenceLocation": "Kumar, p. 225, Insuficiența respiratorie — Clasificare"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: pneumonia este o cauză tipică de tip I, prin dezechilibru V/Q și șunt.",
+    "evidenceLocation": "Kumar, p. 225, Insuficiența respiratorie — Clasificare"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Deprimarea centrului respirator reduce ventilația alveolară, iar PaCO2 crește.",
+    "evidenceLocation": "Kumar, p. 225, Insuficiența respiratorie — Clasificare"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T12:53:36.806Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt cauze de tip I, prin șunt sau dezechilibru V/Q."
+  },
+  "textbookExpressions": [
+   "BPOC",
+   "insuficienţă ventilatorie"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ati-p26-002",
+  "questionFingerprint": "ee4456a8e050d5e19f727002d88081b2721101ed59bda353660337101ad4f03d",
+  "status": "edition-checked",
+  "learningObjective": "Aplicarea pragurilor practice (PaO2 <8 kPa, PaCO2 >7 kPa) pentru tipul insuficienței respiratorii.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 10,
+   "printedPages": [
+    225
+   ],
+   "pdfPages": [
+    43
+   ],
+   "section": "Insuficiența respiratorie — Clasificare"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: PaO2 de 7 kPa (aproximativ 52 mmHg) este o hipoxemie importantă.",
+    "evidenceLocation": "Kumar, p. 225, Insuficiența respiratorie — Clasificare"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: tipul I are PaCO2 normală sau scăzută, nu 8,5 kPa.",
+    "evidenceLocation": "Kumar, p. 225, Insuficiența respiratorie — Clasificare"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: hiperventilația ar scădea PaCO2; PaCO2 crescută indică hipoventilație.",
+    "evidenceLocation": "Kumar, p. 225, Insuficiența respiratorie — Clasificare"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "PaO2 sub 8 kPa cu PaCO2 peste 7 kPa înseamnă hipoxemie cu hipercapnie: tipul II, prin ventilație alveolară insuficientă.",
+    "evidenceLocation": "Kumar, p. 225, Insuficiența respiratorie — Clasificare"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: PaO2 de 7 kPa este sub pragul practic de 8 kPa, deci criteriul este îndeplinit.",
+    "evidenceLocation": "Kumar, p. 225, Insuficiența respiratorie — Clasificare"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T12:53:36.807Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii ignoră pragurile practice de 8 kPa și 7 kPa."
+  },
+  "textbookExpressions": [
+   "8 kPa",
+   "retenţie de dioxid de carbon"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ati-p26-003",
+  "questionFingerprint": "5fb6660f58e4774422a513211440fab3bc2c6d7c264848152a7ccf8ca09cb972",
+  "status": "edition-checked",
+  "learningObjective": "Interpretarea unei scăderi bruște a CO2 end-tidal la pacientul ventilat.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 10,
+   "printedPages": [
+    225
+   ],
+   "pdfPages": [
+    43
+   ],
+   "section": "Monitorizarea — Capnografia"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: producția crescută de CO2 crește CO2 end-tidal.",
+    "evidenceLocation": "Kumar, p. 225, Monitorizarea — Capnografia"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Capnografia detectează canula dislocată: gazul alveolar nu mai ajunge la senzor.",
+    "evidenceLocation": "Kumar, p. 225, Monitorizarea — Capnografia"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Debitul scăzut reduce aportul de CO2 la plămân; capnografia semnalează scăderea bruscă a debitului.",
+    "evidenceLocation": "Kumar, p. 225, Monitorizarea — Capnografia"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Capnografia detectează canula blocată: fluxul expirator se oprește.",
+    "evidenceLocation": "Kumar, p. 225, Monitorizarea — Capnografia"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: hipoventilația crește CO2 end-tidal, în paralel cu PaCO2.",
+    "evidenceLocation": "Kumar, p. 225, Monitorizarea — Capnografia"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T12:53:36.808Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii cresc CO2 end-tidal, nu îl scad."
+  },
+  "textbookExpressions": [
+   "end-tidal",
+   "intubaţiei traheale"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ati-p26-004",
+  "questionFingerprint": "b67c09f3be70bb83348053e66adb29aa2f062b45b6b3789fa8d66fbbe308ab18",
+  "status": "edition-checked",
+  "learningObjective": "Recunoașterea germenilor obișnuiți ai pneumoniei asociate ventilatorului.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 10,
+   "printedPages": [
+    228
+   ],
+   "pdfPages": [
+    46
+   ],
+   "section": "Pneumonia asociată ventilatorului"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Klebsiella și E. coli sunt bacili Gram-negativi aerobi citați.",
+    "evidenceLocation": "Kumar, p. 228, Pneumonia asociată ventilatorului"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Acinetobacter figurează între bacilii Gram-negativi citați.",
+    "evidenceLocation": "Kumar, p. 228, Pneumonia asociată ventilatorului"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "S. aureus, inclusiv MRSA, completează lista germenilor obișnuiți.",
+    "evidenceLocation": "Kumar, p. 228, Pneumonia asociată ventilatorului"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: Mycoplasma produce pneumonie atipică comunitară, nu VAP.",
+    "evidenceLocation": "Kumar, p. 228, Pneumonia asociată ventilatorului"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Bacilii Gram-negativi aerobi, ca Pseudomonas, sunt germenii tipici ai VAP.",
+    "evidenceLocation": "Kumar, p. 228, Pneumonia asociată ventilatorului"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T12:53:36.808Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul este un agent al pneumoniei comunitare atipice."
+  },
+  "textbookExpressions": [
+   "Pseudomonas",
+   "Acinetobacter"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ati-p26-005",
+  "questionFingerprint": "4b69cb9dc1018a4436083c76bdf18c07c6a40f7fc819630a0e10062b8afaa6f6",
+  "status": "edition-checked",
+  "learningObjective": "Conduita la intubația esofagiană și bronșică selectivă, conform Cadranului 10.14.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 10,
+   "printedPages": [
+    228
+   ],
+   "pdfPages": [
+    46
+   ],
+   "section": "Cadranul 10.14"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Canula esofagiană impune extragere imediată, ventilație pe mască cu balon-rezervor și reinserție.",
+    "evidenceLocation": "Kumar, p. 228, Cadranul 10.14"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: intubația bronșică selectivă interesează de obicei bronhia principală dreaptă.",
+    "evidenceLocation": "Kumar, p. 228, Cadranul 10.14"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: canula esofagiană se îndepărtează imediat, indiferent de SpO2 momentană.",
+    "evidenceLocation": "Kumar, p. 228, Cadranul 10.14"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Intubația unei bronhii principale se evită verificând expansiunea ambilor plămâni și poziția pe radiografie.",
+    "evidenceLocation": "Kumar, p. 228, Cadranul 10.14"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: intubația esofagiană se recunoaște prin absența curbelor capnografice.",
+    "evidenceLocation": "Kumar, p. 228, Cadranul 10.14"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T12:53:36.808Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii amână extragerea, schimbă bronhia și inversează semnul capnografic."
+  },
+  "textbookExpressions": [
+   "absenţa curbelor de capnografie",
+   "bronhie principală"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ati-p26-006",
+  "questionFingerprint": "5aae1eb995bc6dd6e4703bf0e1fe5ee25c40294ee7750692768aa05839d67af0",
+  "status": "edition-checked",
+  "learningObjective": "Alegerea căii aeriene chirurgicale de urgență când intubația nu poate ocoli obstrucția.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 10,
+   "printedPages": [
+    228
+   ],
+   "pdfPages": [
+    46
+   ],
+   "section": "Traheostomia"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: traheostomia percutanată este o procedură programată, mai lentă decât cricotiroidotomia.",
+    "evidenceLocation": "Kumar, p. 228, Traheostomia"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: traheostomia clasică este mai lentă și mai dificilă decât cricotiroidotomia.",
+    "evidenceLocation": "Kumar, p. 228, Traheostomia"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: VNI nu ocolește obstrucția căilor aeriene superioare.",
+    "evidenceLocation": "Kumar, p. 228, Traheostomia"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Cricotiroidotomia este mai sigură, mai rapidă și mai ușor de realizat decât traheostomia clasică.",
+    "evidenceLocation": "Kumar, p. 228, Traheostomia"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: HFNO nu ocolește obstrucția căilor aeriene superioare.",
+    "evidenceLocation": "Kumar, p. 228, Traheostomia"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T12:53:36.808Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt căi aeriene programate sau suport care nu ocolește obstrucția."
+  },
+  "textbookExpressions": [
+   "cricotiroidotomie",
+   "percutanată"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ati-p26-007",
+  "questionFingerprint": "059ad709e9877c1043394d01a439165d562194c6a91a62090235f86fd4d551fd",
+  "status": "edition-checked",
+  "learningObjective": "Recunoașterea avantajelor traheostomiei la pacientul ventilat prelungit.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 10,
+   "printedPages": [
+    228
+   ],
+   "pdfPages": [
+    46
+   ],
+   "section": "Traheostomia"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Traheostoma este mai bine tolerată, deci necesarul de sedare scade.",
+    "evidenceLocation": "Kumar, p. 228, Traheostomia"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: canula de traheostomie, mai scurtă, reduce spațiul mort.",
+    "evidenceLocation": "Kumar, p. 228, Traheostomia"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Traheostomia facilitează gestionarea secrețiilor bronșice excesive.",
+    "evidenceLocation": "Kumar, p. 228, Traheostomia"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: stenoza traheală rămâne o complicație tardivă posibilă.",
+    "evidenceLocation": "Kumar, p. 228, Traheostomia"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Pacientul tolerează mai bine traheostoma decât canula translaringiană.",
+    "evidenceLocation": "Kumar, p. 228, Traheostomia"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T12:53:36.808Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează efectul asupra spațiului mort și neagă riscul de stenoză."
+  },
+  "textbookExpressions": [
+   "traheostomie",
+   "dilatare percutanată"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ati-p26-008",
+  "questionFingerprint": "4c5d7dda1bed37b9c51f31112a69abfdf85987201482d8804e381519cf85f00b",
+  "status": "edition-checked",
+  "learningObjective": "Recunoașterea tabloului clinic al polineuropatiei bolii critice.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 10,
+   "printedPages": [
+    231
+   ],
+   "pdfPages": [
+    49
+   ],
+   "section": "Slăbiciunea neuromusculară a bolii critice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: afectarea este predominant motorie și, în mai mică măsură, senzitivă.",
+    "evidenceLocation": "Kumar, p. 231, Slăbiciunea neuromusculară a bolii critice"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Se manifestă adesea ca dificultate de sevraj de ventilator.",
+    "evidenceLocation": "Kumar, p. 231, Slăbiciunea neuromusculară a bolii critice"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Slăbiciunea este flască, cu reflexe osteotendinoase diminuate sau absente.",
+    "evidenceLocation": "Kumar, p. 231, Slăbiciunea neuromusculară a bolii critice"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Apare la pacienții critici cu sepsis și insuficiență multiplă de organ.",
+    "evidenceLocation": "Kumar, p. 231, Slăbiciunea neuromusculară a bolii critice"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: nervii cranieni sunt rar afectați.",
+    "evidenceLocation": "Kumar, p. 231, Slăbiciunea neuromusculară a bolii critice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T12:53:36.809Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii atribuie afectarea nervilor cranieni și predominanța senzitivă."
+  },
+  "textbookExpressions": [
+   "neuropatie axonală primară",
+   "nervii cranieni sunt rar afectaţi"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ati-p26-009",
+  "questionFingerprint": "c43fd76e94a51ca3a269a4cd4b67997e3a90d911b7647596e37461d2e8bb98e9",
+  "status": "edition-checked",
+  "learningObjective": "Indicațiile VNI din Cadranul 10.16, dincolo de BPOC și edemul pulmonar cardiogen.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 10,
+   "printedPages": [
+    231
+   ],
+   "pdfPages": [
+    49
+   ],
+   "section": "Cadranul 10.16"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: chirurgia facială sau a căilor aeriene superioare este contraindicație.",
+    "evidenceLocation": "Kumar, p. 231, Cadranul 10.16"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: nivelul scăzut al conștienței este contraindicație.",
+    "evidenceLocation": "Kumar, p. 231, Cadranul 10.16"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Apneea obstructivă în somn figurează între indicații.",
+    "evidenceLocation": "Kumar, p. 231, Cadranul 10.16"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Insuficiența hipercapnică din bolile neuromusculare sau din deformările peretelui toracic este indicație.",
+    "evidenceLocation": "Kumar, p. 231, Cadranul 10.16"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: incapacitatea de a proteja căile aeriene este contraindicație.",
+    "evidenceLocation": "Kumar, p. 231, Cadranul 10.16"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T12:53:36.809Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt contraindicațiile aceluiași cadran."
+  },
+  "textbookExpressions": [
+   "pH < 7,35",
+   "Chirurgie facială"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ati-p26-010",
+  "questionFingerprint": "241dfee1c679229f33925ef2f915c3cfddbdd72ba767e70d6d52b1f98d166584",
+  "status": "edition-checked",
+  "learningObjective": "Criteriile Berlin de diagnostic și clasificarea severității ARDS.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 10,
+   "printedPages": [
+    232
+   ],
+   "pdfPages": [
+    50
+   ],
+   "section": "ARDS — Definiție și etiologie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Opacitățile pulmonare bilaterale fac parte din definiție.",
+    "evidenceLocation": "Kumar, p. 232, ARDS — Definiție și etiologie"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Forma severă are PaO2/FiO2 ≤100 mmHg, cu mortalitate prezisă de 45%.",
+    "evidenceLocation": "Kumar, p. 232, ARDS — Definiție și etiologie"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Forma moderată are PaO2/FiO2 între 100 și 200 mmHg.",
+    "evidenceLocation": "Kumar, p. 232, ARDS — Definiție și etiologie"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: originea non-cardiacă cere presiune de ocluzie <18 mmHg sau indici cardiaci normali.",
+    "evidenceLocation": "Kumar, p. 232, ARDS — Definiție și etiologie"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Hipoxemia se încadrează după raportul PaO2/FiO2 ≤300 mmHg, cu PEEP sau CPAP de cel puțin 5 cmH2O.",
+    "evidenceLocation": "Kumar, p. 232, ARDS — Definiție și etiologie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T12:53:36.809Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Singurul distractor inversează criteriul originii non-cardiace."
+  },
+  "textbookExpressions": [
+   "Berlin",
+   "<18 mmHg"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ati-p26-011",
+  "questionFingerprint": "56275742997ef3b97ea74a33206e42478a40886789eaafcbd8983bf62122c8d4",
+  "status": "edition-checked",
+  "learningObjective": "Separarea cauzelor frecvente de cele mai puțin frecvente din Cadranul 10.17.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 10,
+   "printedPages": [
+    232
+   ],
+   "pdfPages": [
+    50
+   ],
+   "section": "Cadranul 10.17"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Aspirația conținutului gastric este o cauză directă frecventă.",
+    "evidenceLocation": "Kumar, p. 232, Cadranul 10.17"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Pneumonia este o cauză directă frecventă.",
+    "evidenceLocation": "Kumar, p. 232, Cadranul 10.17"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: embolia cu lichid amniotic este o cauză directă mai puțin frecventă.",
+    "evidenceLocation": "Kumar, p. 232, Cadranul 10.17"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: supradozajul de droguri (heroină, barbiturice) este o cauză indirectă mai puțin frecventă.",
+    "evidenceLocation": "Kumar, p. 232, Cadranul 10.17"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Sepsisul este cauza indirectă frecventă și, de departe, cel mai frecvent factor predispozant.",
+    "evidenceLocation": "Kumar, p. 232, Cadranul 10.17"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T12:53:36.809Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt cauze reale, dar mai puțin frecvente, ale aceluiași cadran."
+  },
+  "textbookExpressions": [
+   "Pneumonie",
+   "Aspiraţia conţinutului gastric"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ati-p26-012",
+  "questionFingerprint": "f6d51b9449cdf0cbbf08e7a604efd227b495c0f11ab3770bce85e946f55feb27",
+  "status": "edition-checked",
+  "learningObjective": "Relația sepsis–ARDS: proporția pacienților cu sepsis sever care dezvoltă ARDS.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 10,
+   "printedPages": [
+    232
+   ],
+   "pdfPages": [
+    50
+   ],
+   "section": "ARDS — Definiție și etiologie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: circa 10% este proporția internărilor în ATI care îndeplinesc definiția Berlin.",
+    "evidenceLocation": "Kumar, p. 232, ARDS — Definiție și etiologie"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Sepsisul este de departe cel mai frecvent factor predispozant; 20–40% dintre pacienții cu sepsis sever dezvoltă ARDS.",
+    "evidenceLocation": "Kumar, p. 232, ARDS — Definiție și etiologie"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: 45% este mortalitatea prezisă a ARDS sever.",
+    "evidenceLocation": "Kumar, p. 232, ARDS — Definiție și etiologie"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: 27% este mortalitatea prezisă a ARDS ușor.",
+    "evidenceLocation": "Kumar, p. 232, ARDS — Definiție și etiologie"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: circa 60% era mortalitatea ARDS acum două decenii, nu incidența în sepsis.",
+    "evidenceLocation": "Kumar, p. 232, ARDS — Definiție și etiologie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T12:53:36.810Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt alte procente din capitolul despre ARDS."
+  },
+  "textbookExpressions": [
+   "10% din internările",
+   "Berlin"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ati-p26-013",
+  "questionFingerprint": "a1560d797afa1b842f94618e40095c8b120d9cfd39fe6d28cfa3719da7d4a324",
+  "status": "edition-checked",
+  "learningObjective": "Calculul și interpretarea indicelui de respirație rapidă superficială înainte de extubare.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 10,
+   "printedPages": [
+    232
+   ],
+   "pdfPages": [
+    50
+   ],
+   "section": "Extubarea"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: pragul favorabil citat este 100, nu 150.",
+    "evidenceLocation": "Kumar, p. 232, Extubarea"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Indicele = frecvența / volumul curent în litri = 30/0,25 = 120; doar valorile sub 100 prezic relativ bine reușita extubării.",
+    "evidenceLocation": "Kumar, p. 232, Extubarea"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: volumul curent se exprimă în litri, nu în mililitri.",
+    "evidenceLocation": "Kumar, p. 232, Extubarea"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: 7,5 L/min este ventilația-minut (frecvență × volum), nu raportul.",
+    "evidenceLocation": "Kumar, p. 232, Extubarea"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: tusea eficientă este o precondiție suplimentară și nu face favorabil un indice de 120.",
+    "evidenceLocation": "Kumar, p. 232, Extubarea"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T12:53:36.810Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii schimbă pragul, unitatea sau operația."
+  },
+  "textbookExpressions": [
+   "mai mic de 100",
+   "extubării"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ati-p26-014",
+  "questionFingerprint": "d430135ec265d235fd246afffc7ee9659468a567fc5e804319be96840d1885da",
+  "status": "edition-checked",
+  "learningObjective": "Separarea intervențiilor care reduc mortalitatea în ARDS de cele care ameliorează doar oxigenarea sau funcția pulmonară.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 10,
+   "printedPages": [
+    233
+   ],
+   "pdfPages": [
+    51
+   ],
+   "section": "ARDS — Tratament"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: steroizii pot ameliora funcția pulmonară, dar nu par să îmbunătățească evoluția.",
+    "evidenceLocation": "Kumar, p. 233, ARDS — Tratament"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Ventilația protectivă (4–8 mL/kg greutate ideală, ideal 6 mL/kg, Pplat sub 30 cmH2O) limitează leziunile induse de ventilator și reduce mortalitatea.",
+    "evidenceLocation": "Kumar, p. 233, ARDS — Tratament"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: oxidul nitric ameliorează oxigenarea la responderi, fără creșterea dovedită a supraviețuirii.",
+    "evidenceLocation": "Kumar, p. 233, ARDS — Tratament"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: HFO nu aduce beneficiu de mortalitate la adult; un trial sugerează chiar creșterea ei.",
+    "evidenceLocation": "Kumar, p. 233, ARDS — Tratament"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Pronația precoce, pe perioade prelungite, are beneficiu substanțial de mortalitate.",
+    "evidenceLocation": "Kumar, p. 233, ARDS — Tratament"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T12:53:36.810Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii ameliorează oxigenarea sau funcția pulmonară, nu supraviețuirea."
+  },
+  "textbookExpressions": [
+   "Pronaţia",
+   "responderi"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ati-p26-015",
+  "questionFingerprint": "b4838d8d391ec0c63b7d41f06316b90e3a78bb7a536f30f9ee3c3788a0f54f55",
+  "status": "edition-checked",
+  "learningObjective": "Mijloacele prin care se obține balanța hidrică negativă care limitează edemul pulmonar din ARDS.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 10,
+   "printedPages": [
+    233
+   ],
+   "pdfPages": [
+    51
+   ],
+   "section": "ARDS — Tratament"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Hemofiltrarea se folosește dacă restricția și diureticele nu reușesc.",
+    "evidenceLocation": "Kumar, p. 233, ARDS — Tratament"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Diureticele cresc eliminarea renală de apă și sodiu.",
+    "evidenceLocation": "Kumar, p. 233, ARDS — Tratament"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: pronația redistribuie densitățile dependente și reduce șuntul, fără a elimina lichid.",
+    "evidenceLocation": "Kumar, p. 233, ARDS — Tratament"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Restricția aportului de lichide contribuie la balanța negativă.",
+    "evidenceLocation": "Kumar, p. 233, ARDS — Tratament"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: PEEP redistribuie lichidul alveolar spre interstițiul perivascular, fără a-l elimina.",
+    "evidenceLocation": "Kumar, p. 233, ARDS — Tratament"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T12:53:36.810Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii redistribuie lichidul sau ventilația, fără a-l elimina."
+  },
+  "textbookExpressions": [
+   "balanţe negative",
+   "hemofiltrare"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
  }
 ]
