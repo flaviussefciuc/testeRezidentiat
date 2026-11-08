@@ -262953,5 +262953,1237 @@
   ],
   "textbookWordingReviewed": false,
   "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "intestin-p26-001",
+  "questionFingerprint": "658830e4d68ea8c1299a42cb066ca6ed9afd42ce3d415b98b16e78df42091160",
+  "status": "edition-checked",
+  "learningObjective": "Încadrarea cauzelor de OIS în clasificarea extrinsec–intrinsec–intraluminal.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    194
+   ],
+   "pdfPages": [
+    116
+   ],
+   "section": "Etiologia OIS"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: compresia D3 între AMS și aortă este o cauză extrinsecă.",
+    "evidenceLocation": "Lawrence, p. 194, Etiologia OIS"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Calculul migrat printr-o fistulă bilio-digestivă obstruează lumenul, mai ales la vârstnic.",
+    "evidenceLocation": "Lawrence, p. 194, Etiologia OIS"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: stricturile Crohn sunt leziuni ale peretelui, deci cauze intrinseci.",
+    "evidenceLocation": "Lawrence, p. 194, Etiologia OIS"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Herniile externe și interne (paraduodenale, după bypass gastric) comprimă ansa din exterior.",
+    "evidenceLocation": "Lawrence, p. 194, Etiologia OIS"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: carcinomatoza comprimă ansele din exterior și este o cauză extrinsecă.",
+    "evidenceLocation": "Lawrence, p. 194, Etiologia OIS"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:36.818Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii mută cauzele între cele trei categorii."
+  },
+  "textbookExpressions": [
+   "intraluminale",
+   "carcinomatoza"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "intestin-p26-002",
+  "questionFingerprint": "5fca259c37a42c634cabe68a8cc360213a774652b6adbce05e2609302f0d9f5e",
+  "status": "edition-checked",
+  "learningObjective": "Diferențierea trombozei de embolie în clasificarea etiologică a ischemiei mezenterice acute.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    204
+   ],
+   "pdfPages": [
+    122
+   ],
+   "section": "Ischemia mezenterică acută — Fiziopatologie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Tot teritoriul AMS: intestin subțire distal de Treitz, cec, colon ascendent și transvers proximal.",
+    "evidenceLocation": "Lawrence, p. 204, Ischemia mezenterică acută — Fiziopatologie"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: originea cardiacă (fibrilație atrială) caracterizează embolia AMS.",
+    "evidenceLocation": "Lawrence, p. 204, Ischemia mezenterică acută — Fiziopatologie"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: la originea colicei medii se oprește embolul; tromboza începe la originea AMS.",
+    "evidenceLocation": "Lawrence, p. 204, Ischemia mezenterică acută — Fiziopatologie"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Tromboza se grefează pe o stenoză aterosclerotică veche a originii AMS.",
+    "evidenceLocation": "Lawrence, p. 204, Ischemia mezenterică acută — Fiziopatologie"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Ocluzia la origine prinde întregul teritoriu, spre deosebire de embolul oprit mai distal.",
+    "evidenceLocation": "Lawrence, p. 204, Ischemia mezenterică acută — Fiziopatologie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:36.820Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii atribuie trombozei trăsăturile emboliei."
+  },
+  "textbookExpressions": [
+   "originea AMS",
+   "colice medii"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "intestin-p26-003",
+  "questionFingerprint": "5bda106b734e348434689fcfa234e22cea069faf7ed3284e0d79f8e0de69b052",
+  "status": "edition-checked",
+  "learningObjective": "Terenul formei non-ocluzive în clasificarea etiologică a ischemiei mezenterice acute.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    205
+   ],
+   "pdfPages": [
+    123
+   ],
+   "section": "Ischemia mezenterică acută — Fiziopatologie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: hipercoagulabilitatea produce tromboza venei mezenterice superioare.",
+    "evidenceLocation": "Lawrence, p. 205, Ischemia mezenterică acută — Fiziopatologie"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: volvulusul produce strangulare mecanică în ansă închisă, nu ischemie non-ocluzivă.",
+    "evidenceLocation": "Lawrence, p. 205, Ischemia mezenterică acută — Fiziopatologie"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Hipoperfuzia splanhnică cu vasospasm apare în șoc, insuficiență cardiacă și la dializați.",
+    "evidenceLocation": "Lawrence, p. 205, Ischemia mezenterică acută — Fiziopatologie"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: sursa cardiacă de emboli (fibrilația atrială) definește embolia AMS.",
+    "evidenceLocation": "Lawrence, p. 205, Ischemia mezenterică acută — Fiziopatologie"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: angina intestinală cronică precede tromboza AMS pe stenoză aterosclerotică.",
+    "evidenceLocation": "Lawrence, p. 205, Ischemia mezenterică acută — Fiziopatologie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:36.820Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt terenurile celorlalte etiologii ale ischemiei mezenterice."
+  },
+  "textbookExpressions": [
+   "non-ocluzivă",
+   "vasospasm"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "intestin-p26-004",
+  "questionFingerprint": "6def8d7e2c6f546609956a945b0af6307a33109ebe488e2b3d32279f048fc33f",
+  "status": "edition-checked",
+  "learningObjective": "Ierarhia investigațiilor în ischemia mezenterică acută: etalon versus primă intenție.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    205
+   ],
+   "pdfPages": [
+    123
+   ],
+   "section": "Ischemia mezenterică acută — Tablou clinic"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Arteriografia rămâne etalonul și permite administrarea de papaverină pe cateter.",
+    "evidenceLocation": "Lawrence, p. 205, Ischemia mezenterică acută — Tablou clinic"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: CT-ul de înaltă rezoluție a înlocuit arteriografia ca investigație de primă intenție, nu ca etalon.",
+    "evidenceLocation": "Lawrence, p. 205, Ischemia mezenterică acută — Tablou clinic"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: nicio analiză de laborator nu stabilește diagnosticul.",
+    "evidenceLocation": "Lawrence, p. 205, Ischemia mezenterică acută — Tablou clinic"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: radiografia simplă este nespecifică în ischemia precoce.",
+    "evidenceLocation": "Lawrence, p. 205, Ischemia mezenterică acută — Tablou clinic"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: ecografia Doppler nu este etalonul; standardul rămâne arteriografia.",
+    "evidenceLocation": "Lawrence, p. 205, Ischemia mezenterică acută — Tablou clinic"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:36.820Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul principal confundă investigația de primă intenție cu etalonul."
+  },
+  "textbookExpressions": [
+   "arteriografia",
+   "standardul de aur"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "intestin-p26-005",
+  "questionFingerprint": "06f4776dfd857c7b62ccb9afcfa168242f9803587391961c3043c7ba81190c6f",
+  "status": "edition-checked",
+  "learningObjective": "Sediile carcinoidelor digestive și amploarea rezecției pentru cele ileale.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    207
+   ],
+   "pdfPages": [
+    125
+   ],
+   "section": "Tumorile carcinoide"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: ileonul, nu jejunul, este segmentul cel mai afectat.",
+    "evidenceLocation": "Lawrence, p. 207, Tumorile carcinoide"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Intestinul subțire este a doua localizare, ileonul fiind segmentul preferat.",
+    "evidenceLocation": "Lawrence, p. 207, Tumorile carcinoide"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Până la 30% dintre pacienți au tumori multiple, de căutat la explorare.",
+    "evidenceLocation": "Lawrence, p. 207, Tumorile carcinoide"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: pentru carcinoidul ileal se recomandă hemicolectomia dreaptă, cu drenajul limfatic.",
+    "evidenceLocation": "Lawrence, p. 207, Tumorile carcinoide"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Apendicele este primul sediu al carcinoidelor digestive (40–50%).",
+    "evidenceLocation": "Lawrence, p. 207, Tumorile carcinoide"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:36.821Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii schimbă segmentul și amploarea rezecției."
+  },
+  "textbookExpressions": [
+   "multicentric",
+   "hemicolectomia dreaptă"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "intestin-p26-006",
+  "questionFingerprint": "0bc0ce487c652fe89b2b8154f9edbe54ce9774e9ef6944f3057a60173e29a351",
+  "status": "edition-checked",
+  "learningObjective": "Epidemiologia și prezentarea tumorilor maligne ale intestinului subțire.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    207
+   ],
+   "pdfPages": [
+    125
+   ],
+   "section": "Tumorile maligne — Adenocarcinoamele"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Tumorile periampulare dau icter nedureros, rar pancreatită; aproape jumătate se diagnostichează intraoperator.",
+    "evidenceLocation": "Lawrence, p. 207, Tumorile maligne — Adenocarcinoamele"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: adenocarcinomul reprezintă aproximativ jumătate din maligne; limfomul 10–15%.",
+    "evidenceLocation": "Lawrence, p. 207, Tumorile maligne — Adenocarcinoamele"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: terapiile adjuvante au eficacitate puțin dovedită; supraviețuirea la 5 ani rămâne 10–30%.",
+    "evidenceLocation": "Lawrence, p. 207, Tumorile maligne — Adenocarcinoamele"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Malignele intestinului subțire sunt doar 2% din neoplaziile digestive, ușor mai frecvente la bărbați.",
+    "evidenceLocation": "Lawrence, p. 207, Tumorile maligne — Adenocarcinoamele"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: adenocarcinomul este cel mai frecvent în duoden, incidența scăzând spre distal.",
+    "evidenceLocation": "Lawrence, p. 207, Tumorile maligne — Adenocarcinoamele"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:36.821Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează ierarhia histologică și gradientul topografic."
+  },
+  "textbookExpressions": [
+   "periampulare",
+   "icter nedureros"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "intestin-p26-007",
+  "questionFingerprint": "01797a23adc32f9b88e9e87a15512d67eaa6fd9d92dc4ba9e23b5786fe66cdb1",
+  "status": "edition-checked",
+  "learningObjective": "Leziunile cardiace din figura sindromului carcinoid: valvele inimii drepte.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    208
+   ],
+   "pdfPages": [
+    126
+   ],
+   "section": "Sindromul carcinoid"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: valvele mitrală și aortică (inima stângă) nu sunt ținta caracteristică.",
+    "evidenceLocation": "Lawrence, p. 208, Sindromul carcinoid"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Serotonina lezează valvele inimii drepte: stenoză pulmonară și insuficiență tricuspidiană.",
+    "evidenceLocation": "Lawrence, p. 208, Sindromul carcinoid"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: stenozele mitrală și aortică nu fac parte din tablou.",
+    "evidenceLocation": "Lawrence, p. 208, Sindromul carcinoid"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: afectarea inimii stângi nu este caracteristică; sunt lezate valvele drepte.",
+    "evidenceLocation": "Lawrence, p. 208, Sindromul carcinoid"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: leziunile mitrale și aortice nu aparțin sindromului carcinoid.",
+    "evidenceLocation": "Lawrence, p. 208, Sindromul carcinoid"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:36.821Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii mută leziunea pe valvele inimii stângi."
+  },
+  "textbookExpressions": [
+   "bronhospasm",
+   "tricuspidian"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "intestin-p26-008",
+  "questionFingerprint": "7e1ac79e476861fb8dee6be6b2a054c52c682a4a919bf6185de3007c552f9680",
+  "status": "edition-checked",
+  "learningObjective": "Principiile chirurgicale și sistemice ale tratamentului GIST.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    209
+   ],
+   "pdfPages": [
+    127
+   ],
+   "section": "Tumorile stromale gastrointestinale"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: GIST-urile metastazează rar limfatic; limfadenectomia de rutină nu este indicată.",
+    "evidenceLocation": "Lawrence, p. 209, Tumorile stromale gastrointestinale"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Imatinibul (inhibitor de tirozin-kinază anti c-kit) este prima linie; sunitinibul urmează la eșec.",
+    "evidenceLocation": "Lawrence, p. 209, Tumorile stromale gastrointestinale"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: după excizie, aproximativ 50% recidivează în primii 2 ani.",
+    "evidenceLocation": "Lawrence, p. 209, Tumorile stromale gastrointestinale"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: GIST-urile răspund slab la citostaticele clasice; terapia sistemică este imatinibul.",
+    "evidenceLocation": "Lawrence, p. 209, Tumorile stromale gastrointestinale"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Excizia largă cu margini negative este tratamentul tumorii localizate.",
+    "evidenceLocation": "Lawrence, p. 209, Tumorile stromale gastrointestinale"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:36.821Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii împrumută chimioterapia limfomului și limfadenectomia carcinoidului."
+  },
+  "textbookExpressions": [
+   "imatinib",
+   "c-kit"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "intestin-p26-009",
+  "questionFingerprint": "3ebe966b934fd106377bd01d3f681f39fb600d024a0dc5cb0aa0500c6c9e8f9c",
+  "status": "edition-checked",
+  "learningObjective": "Urgențele, imagistica și confirmarea diagnostică în limfomul intestinal.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    209
+   ],
+   "pdfPages": [
+    127
+   ],
+   "section": "Limfomul"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: vârful de incidență este în decadele a cincea și a șasea.",
+    "evidenceLocation": "Lawrence, p. 209, Limfomul"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: limfoamele intestinului subțire sunt în marea majoritate non-Hodgkin.",
+    "evidenceLocation": "Lawrence, p. 209, Limfomul"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Adenopatia mezenterică pe CT este frecventă, dar nespecifică.",
+    "evidenceLocation": "Lawrence, p. 209, Limfomul"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Până la o pătrime dintre pacienți se prezintă cu perforație, hemoragie, ocluzie sau invaginație.",
+    "evidenceLocation": "Lawrence, p. 209, Limfomul"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Biopsia (endoscopică sau chirurgicală) stabilește tipul histologic.",
+    "evidenceLocation": "Lawrence, p. 209, Limfomul"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:36.821Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii schimbă vârsta și tipul histologic."
+  },
+  "textbookExpressions": [
+   "invagina",
+   "liză tumorală"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "intestin-p26-010",
+  "questionFingerprint": "4a7f08e1604c2ac15a34afc748ccb307612a29472860146fbdeb1700867ce3c2",
+  "status": "edition-checked",
+  "learningObjective": "Originea embriologică și anatomia diverticulului Meckel.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    209
+   ],
+   "pdfPages": [
+    127
+   ],
+   "section": "Diverticulul Meckel"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Persistența porțiunii intestinale a ductului vitelin lasă diverticulul pe ileon.",
+    "evidenceLocation": "Lawrence, p. 209, Diverticulul Meckel"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Marginea antimezenterică a ileonului, de obicei la cel mult 60 cm de valva ileocecală.",
+    "evidenceLocation": "Lawrence, p. 209, Diverticulul Meckel"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Conține mucoasă, musculară și seroasă, spre deosebire de diverticulii falși (de pulsiune).",
+    "evidenceLocation": "Lawrence, p. 209, Diverticulul Meckel"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: se află de obicei la cel mult 60 cm de valva ileocecală (regula lui 2).",
+    "evidenceLocation": "Lawrence, p. 209, Diverticulul Meckel"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: mucoasa gastrică este cea mai frecventă (~50%); pancreatica este a doua.",
+    "evidenceLocation": "Lawrence, p. 209, Diverticulul Meckel"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:36.821Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii confundă distanța de valvă și tipul de mucoasă heterotopică."
+  },
+  "textbookExpressions": [
+   "antimezenterică",
+   "regula lui 2"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "intestin-p26-011",
+  "questionFingerprint": "a18b23ee93a727f9ff8117b337ed1b8a0c1fde8b6516485ede8cd86a415625a5",
+  "status": "edition-checked",
+  "learningObjective": "Mecanismele complicațiilor și scintigrafia în diverticulul Meckel.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    210
+   ],
+   "pdfPages": [
+    128
+   ],
+   "section": "Diverticulul Meckel — Tablou clinic"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: acidul mucoasei gastrice ectopice ulcerează ileonul adiacent, de unde provine hemoragia.",
+    "evidenceLocation": "Lawrence, p. 210, Diverticulul Meckel — Tablou clinic"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Stimularea mucoasei gastrice ectopice crește sensibilitatea, deși rar este necesară.",
+    "evidenceLocation": "Lawrence, p. 210, Diverticulul Meckel — Tablou clinic"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: hernia Littre este diverticulul încarcerat într-o hernie inghinală, femurală sau ombilicală.",
+    "evidenceLocation": "Lawrence, p. 210, Diverticulul Meckel — Tablou clinic"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: pertechnetatul se fixează în mucoasa gastrică ectopică (~90% diagnostic).",
+    "evidenceLocation": "Lawrence, p. 210, Diverticulul Meckel — Tablou clinic"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Volvulusul în jurul benzii mezodiverticulare și invaginația sunt mecanisme de ocluzie.",
+    "evidenceLocation": "Lawrence, p. 210, Diverticulul Meckel — Tablou clinic"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:36.821Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii schimbă sediul ulcerului, mucoasa detectată și tipul herniei."
+  },
+  "textbookExpressions": [
+   "cimetidin",
+   "Littre"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "intestin-p26-012",
+  "questionFingerprint": "d132c7983c17bb75bdab8397c5108e86d84d6dcd56a7378f2b5d3a8def4c83e9",
+  "status": "edition-checked",
+  "learningObjective": "Pragurile de dependență de nutriția parenterală și consecințele rezecției ileale.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    211
+   ],
+   "pdfPages": [
+    129
+   ],
+   "section": "Sindromul intestinului scurt"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Fără colon și valvă ileocecală, sub 100 cm de intestin restant apare de regulă dependența de nutriție parenterală.",
+    "evidenceLocation": "Lawrence, p. 211, Sindromul intestinului scurt"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Colonul și valva ileocecală competentă cresc absorbția și încetinesc tranzitul; pragul coboară la ~60 cm.",
+    "evidenceLocation": "Lawrence, p. 211, Sindromul intestinului scurt"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: colonul restant și valva ileocecală reduc necesarul; pragul coboară de la 100 la 60 cm.",
+    "evidenceLocation": "Lawrence, p. 211, Sindromul intestinului scurt"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Ileonul terminal este sediul absorbției B12 și al recuperării sărurilor biliare, pierdute definitiv.",
+    "evidenceLocation": "Lawrence, p. 211, Sindromul intestinului scurt"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: vitamina B12 se absoarbe în ileonul terminal, nu în jejun.",
+    "evidenceLocation": "Lawrence, p. 211, Sindromul intestinului scurt"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:36.822Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii ignoră rolul colonului și mută absorbția B12 în jejun."
+  },
+  "textbookExpressions": [
+   "Sindromul intestinului scurt",
+   "vitaminei B12"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "intestin-p26-013",
+  "questionFingerprint": "5d972b67520c7e37f44b23aca211f45f23ac603f14582c60d097988e656225e4",
+  "status": "edition-checked",
+  "learningObjective": "Lanțul obstrucție–distensie–ischemie–infecție și particularitățile copilului mic.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    211
+   ],
+   "pdfPages": [
+    129
+   ],
+   "section": "Apendicita acută — Fiziopatologie"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Secreția continuă de mucus în lumenul obstruat crește presiunea și stânjenește drenajul venos.",
+    "evidenceLocation": "Lawrence, p. 211, Apendicita acută — Fiziopatologie"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: gangrena și perforația apar în până la 20% din cazuri; 60% este proporția hiperplaziei limfoide.",
+    "evidenceLocation": "Lawrence, p. 211, Apendicita acută — Fiziopatologie"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Fără oment dezvoltat, perforația la copilul mic nu se blochează și dă peritonită generalizată.",
+    "evidenceLocation": "Lawrence, p. 211, Apendicita acută — Fiziopatologie"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Peretele ischemic este invadat de flora colonică, cu inflamație transmurală și gangrenă.",
+    "evidenceLocation": "Lawrence, p. 211, Apendicita acută — Fiziopatologie"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: pileflebita este propagarea infecției în sistemul venos port, cu aer portal sau abcese hepatice.",
+    "evidenceLocation": "Lawrence, p. 211, Apendicita acută — Fiziopatologie"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:36.822Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii permută procentele și calea de propagare."
+  },
+  "textbookExpressions": [
+   "pileflebit",
+   "oment"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "intestin-p26-014",
+  "questionFingerprint": "dabf72abef9f945da30f2cf760bd5cbc70d0b9156f96e1fa3ef6ebbaf02541d2",
+  "status": "edition-checked",
+  "learningObjective": "Explicarea migrării durerii: viscerală periombilicală, apoi somatică în fosa iliacă dreaptă.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    212
+   ],
+   "pdfPages": [
+    130
+   ],
+   "section": "Apendicita acută — Tablou clinic"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: iritarea peritoneului parietal dă durerea somatică localizată ulterior în fosa iliacă dreaptă.",
+    "evidenceLocation": "Lawrence, p. 212, Apendicita acută — Tablou clinic"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: cecul nu este destins în apendicita necomplicată.",
+    "evidenceLocation": "Lawrence, p. 212, Apendicita acută — Tablou clinic"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: iritarea obturatorului intern de un apendice pelvin explică semnul obturatorului.",
+    "evidenceLocation": "Lawrence, p. 212, Apendicita acută — Tablou clinic"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Distensia apendicelui activează aferențele viscerale ale mezenteronului, proiectate periombilical.",
+    "evidenceLocation": "Lawrence, p. 212, Apendicita acută — Tablou clinic"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: iritarea iliopsoasului de un apendice retrocecal explică semnul psoasului, nu durerea inițială.",
+    "evidenceLocation": "Lawrence, p. 212, Apendicita acută — Tablou clinic"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:36.822Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii atribuie durerii inițiale mecanismele semnelor tardive."
+  },
+  "textbookExpressions": [
+   "Rovsing",
+   "cadranul inferior drept"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "intestin-p26-015",
+  "questionFingerprint": "7a45ffe76214f5dc52794b1967361691c611c640fd8f134ee410f1531ba2b322",
+  "status": "edition-checked",
+  "learningObjective": "Opțiunile operatorii, conduita în abcesul constituit și apendicectomia incidentală.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    213
+   ],
+   "pdfPages": [
+    131
+   ],
+   "section": "Apendicita acută — Evaluare și tratament"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Apendicele cu aspect normal se extirpă, evitând confuzia diagnostică ulterioară; se caută altă cauză (Meckel, ileon terminal, anexe).",
+    "evidenceLocation": "Lawrence, p. 213, Apendicita acută — Evaluare și tratament"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: apendicectomia incidentală are beneficiu minim și a căzut în dizgrație.",
+    "evidenceLocation": "Lawrence, p. 213, Apendicita acută — Evaluare și tratament"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Abcesul bine delimitat, la prezentare tardivă, se drenează percutanat sub antibiotice.",
+    "evidenceLocation": "Lawrence, p. 213, Apendicita acută — Evaluare și tratament"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "După remisiunea inflamației, apendicectomia electivă (de interval) se face la 6–8 săptămâni.",
+    "evidenceLocation": "Lawrence, p. 213, Apendicita acută — Evaluare și tratament"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Ambele căi de abord sunt standard, alegerea depinzând de pacient și de chirurg.",
+    "evidenceLocation": "Lawrence, p. 213, Apendicita acută — Evaluare și tratament"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:36.822Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul readuce practica abandonată a apendicectomiei incidentale."
+  },
+  "textbookExpressions": [
+   "apendicectomi",
+   "incidental"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "intestin-p26-016",
+  "questionFingerprint": "5a0904c31221ec3516a26319b7f7db5affaf3a5bd1aba47cc8007ee4e24d2811",
+  "status": "edition-checked",
+  "learningObjective": "Tipurile de tumori apendiculare, localizarea carcinoidului și tratamentul adenocarcinomului.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 14,
+   "printedPages": [
+    213
+   ],
+   "pdfPages": [
+    131
+   ],
+   "section": "Tumorile apendicelui"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Majoritatea sunt găsite întâmplător, la examenul histologic al piesei de apendicectomie.",
+    "evidenceLocation": "Lawrence, p. 213, Tumorile apendicelui"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Majoritatea carcinoidelor apendiculare se găsesc la vârf, departe de bază.",
+    "evidenceLocation": "Lawrence, p. 213, Tumorile apendicelui"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: pseudomixomul peritoneal („burta de jeleu”) urmează perforației mucocelului sau a carcinomului mucinos, nu carcinoidului.",
+    "evidenceLocation": "Lawrence, p. 213, Tumorile apendicelui"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Adenocarcinomul se tratează ca un cancer de colon drept, cu hemicolectomie dreaptă; vindecarea la 5 ani este 50–60%.",
+    "evidenceLocation": "Lawrence, p. 213, Tumorile apendicelui"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Carcinoidul este tumora apendiculară cea mai frecventă.",
+    "evidenceLocation": "Lawrence, p. 213, Tumorile apendicelui"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:36.822Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul atribuie carcinoidului complicația leziunilor mucinoase."
+  },
+  "textbookExpressions": [
+   "carcinoid",
+   "apendicectomi"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
  }
 ]
