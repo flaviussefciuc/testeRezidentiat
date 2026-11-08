@@ -3,7 +3,7 @@
 // options, key, reference, objective, difficulty and textbook expressions stayed exactly
 // as reviewed. The earlier source check of the key still stands; the new record keeps the
 // old status and evidence, carries the new rationales and says when and why they changed.
-// Usage: node --import tsx scripts/record-rationale-revisions.ts [topicId,...]
+// Usage: node --import tsx scripts/record-rationale-revisions.ts [topicId,...] [--note "<what changed>"]
 import {readFileSync,writeFileSync} from 'node:fs';
 import {QUESTIONS} from '../src/app/questions.ts';
 import {questionFingerprint,reviewErrors} from './question-review.ts';
@@ -12,7 +12,10 @@ import type {SourcedQuestion} from '../src/app/bank/source-author.ts';
 import type {AdvancedQuestion} from '../src/app/bank/advanced-author.ts';
 
 const BARE=/^(nu|da|corect|incorect|fals|adevărat|criteriu)[.!]?$/i;
-const topics=process.argv[2]?.split(',');
+const topics=process.argv[2]?.startsWith('--')?undefined:process.argv[2]?.split(',');
+const noteAt=process.argv.indexOf('--note');
+// What changed in the rationales; the default describes the November 2026 replacement of bare "Nu." answers.
+const what=noteAt>0?process.argv[noteAt+1]:'cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată';
 const reviews=JSON.parse(readFileSync('docs/question-reviews.json','utf8'));
 const byId=new Map<string,any>(reviews.map((r:any)=>[r.questionId,r]));
 const same=(a:unknown,b:unknown)=>JSON.stringify(a)===JSON.stringify(b);
@@ -29,7 +32,7 @@ for(const q of QUESTIONS as (SourcedQuestion&Partial<AdvancedQuestion>)[]){
  const cues=questionCues(q);if(cues.length){problems.push(`${q.id}: ${cues.join('; ')}`);continue;}
  const next={...r,questionFingerprint:questionFingerprint(q),options:r.options.map((o:any)=>({...o,rationale:q.optionRationales[o.index]})),reviewedAt:new Date().toISOString(),
   rationalesRevisedAt:new Date().toISOString().slice(0,10),
-  reviewNotes:`${r.reviewNotes??''} Justificările opțiunilor au fost rescrise la ${new Date().toISOString().slice(0,10)} (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.`.trim()};
+  reviewNotes:`${r.reviewNotes??''} Justificările opțiunilor au fost rescrise la ${new Date().toISOString().slice(0,10)} (${what}); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.`.trim()};
  byId.set(q.id,next);updated++;
 }
 writeFileSync('docs/question-reviews.json',JSON.stringify(reviews.map((r:any)=>byId.get(r.questionId)??r),null,1)+'\n');
