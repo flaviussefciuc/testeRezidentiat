@@ -271965,5 +271965,1160 @@
    "date": "2026-11-08",
    "note": "Versiunea v2 nota drept falsă opțiunea „deplasarea mediastinului spre partea sănătoasă”, pe baza unui pasaj care plasează deplasarea de partea pneumotoracelui; în pneumotoracele în tensiune mediastinul este împins spre partea opusă (fiziologie standard, ediția engleză: away from the affected side). Conform regulii din source-discrepancies (un pasaj contestat nu validează o cheie), opțiunea a fost înlocuită cu un distractor necontestat din același pasaj: murmurul vezicular este diminuat, nu intensificat. Celelalte opțiuni, enunțul, referința și expresiile sunt neschimbate."
   }
+ },
+ {
+  "questionId": "infectii-chir-p26-001",
+  "questionFingerprint": "fe750f386681e639b05b859b03df659616f7fa31d1e5deb3ca7a99f862a4e30a",
+  "status": "edition-checked",
+  "learningObjective": "Clasificarea factorilor din Tabelul 8-1 în factori locali și sistemici.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 8,
+   "printedPages": [
+    75
+   ],
+   "pdfPages": [
+    20
+   ],
+   "section": "Patogenia infecțiilor"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Tabelul 8-1 trece obezitatea la factorii locali, alături de hematom și contaminare.",
+    "evidenceLocation": "Lawrence, p. 75, Patogenia infecțiilor"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Corpul străin din plagă este un factor local de risc.",
+    "evidenceLocation": "Lawrence, p. 75, Patogenia infecțiilor"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: malnutriția este factor sistemic, ca alcoolismul și corticoterapia.",
+    "evidenceLocation": "Lawrence, p. 75, Patogenia infecțiilor"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Țesutul necrotic este factor local, fiind lipsit de celule de apărare.",
+    "evidenceLocation": "Lawrence, p. 75, Patogenia infecțiilor"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: diabetul este factor sistemic, ca vârsta înaintată și șocul.",
+    "evidenceLocation": "Lawrence, p. 75, Patogenia infecțiilor"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T12:58:06.613Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Obezitatea pare sistemică, dar tabelul o trece la factorii locali."
+  },
+  "textbookExpressions": [
+   "obezitatea",
+   "corpul străin"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "infectii-chir-p26-002",
+  "questionFingerprint": "1ad77e302625f0e3c27c3efbb143f35d328c9226f02ad638ccdfd446a7fa25cc",
+  "status": "edition-checked",
+  "learningObjective": "Mecanismele hematomului, țesutului devitalizat și oxigenării deficitare în infecția plăgii.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 8,
+   "printedPages": [
+    75
+   ],
+   "pdfPages": [
+    20
+   ],
+   "section": "Patogenia infecțiilor"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: țesutul devitalizat rămâne un mediu propice, lipsit de celule de apărare.",
+    "evidenceLocation": "Lawrence, p. 75, Patogenia infecțiilor"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Hematomul este un mediu bogat în fier, care potențează multiplicarea bacteriană.",
+    "evidenceLocation": "Lawrence, p. 75, Patogenia infecțiilor"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: oxigenarea ineficientă crește, nu scade, riscul de infecție.",
+    "evidenceLocation": "Lawrence, p. 75, Patogenia infecțiilor"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Țesuturile devitalizate favorizează infecția prin absența celulelor de apărare.",
+    "evidenceLocation": "Lawrence, p. 75, Patogenia infecțiilor"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Oxigenarea ineficientă a zonei contaminate crește riscul de infecție.",
+    "evidenceLocation": "Lawrence, p. 75, Patogenia infecțiilor"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T12:58:06.615Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează rolul hipoxiei și al țesutului devitalizat."
+  },
+  "textbookExpressions": [
+   "hematoamele",
+   "țesuturile devitalizate"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "infectii-chir-p26-003",
+  "questionFingerprint": "a7ec0628c158958aab2c179d55594798bcd0355bb5bc54e64586b3a3a82703ea",
+  "status": "edition-checked",
+  "learningObjective": "Clasificarea plăgilor din Tabelul 8-3: sursa contaminării în clasa curat-contaminată.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 8,
+   "printedPages": [
+    77
+   ],
+   "pdfPages": [
+    22
+   ],
+   "section": "Tabelul 8-3"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: flora Gram-pozitivă din sală, de la echipă sau de pe tegument contaminează plaga curată.",
+    "evidenceLocation": "Lawrence, p. 77, Tabelul 8-3"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: contaminarea macroscopică, de exemplu cu conținut digestiv, definește plaga contaminată.",
+    "evidenceLocation": "Lawrence, p. 77, Tabelul 8-3"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: dobândirea nosocomială ține de clasificarea după modul de dobândire, nu de clasa plăgii.",
+    "evidenceLocation": "Lawrence, p. 77, Tabelul 8-3"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Plaga curat-contaminată implică colonizarea endogenă a pacientului.",
+    "evidenceLocation": "Lawrence, p. 77, Tabelul 8-3"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: infecția deja constituită definește plaga murdară.",
+    "evidenceLocation": "Lawrence, p. 77, Tabelul 8-3"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T12:58:06.615Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt sursele celorlalte clase ale tabelului."
+  },
+  "textbookExpressions": [
+   "curat-contaminate",
+   "endogenă"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "infectii-chir-p26-004",
+  "questionFingerprint": "31e2c7ba9b67935c8470b183c94fb9a7387e54f0a8d093495054b67edebcc91a",
+  "status": "edition-checked",
+  "learningObjective": "Încadrarea intervențiilor tipice în clasele de contaminare ale plăgii.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 8,
+   "printedPages": [
+    77
+   ],
+   "pdfPages": [
+    22
+   ],
+   "section": "Tabelul 8-3"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Rezecția intestinului infarctat este tot plagă murdară, cu infecție în 40–50%.",
+    "evidenceLocation": "Lawrence, p. 77, Tabelul 8-3"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Cura herniei inghinale este exemplul de plagă curată, cu infecție în ~3%.",
+    "evidenceLocation": "Lawrence, p. 77, Tabelul 8-3"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Rezecția electivă de colon este plagă curat-contaminată, cu infecție în 5–15%.",
+    "evidenceLocation": "Lawrence, p. 77, Tabelul 8-3"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: contaminarea macroscopică cu conținut digestiv definește plaga contaminată (15–40%).",
+    "evidenceLocation": "Lawrence, p. 77, Tabelul 8-3"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Drenajul unui abces intra-abdominal, cu infecție constituită, este plagă murdară.",
+    "evidenceLocation": "Lawrence, p. 77, Tabelul 8-3"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T12:58:06.615Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul urcă plaga contaminată la clasa murdară."
+  },
+  "textbookExpressions": [
+   "curat-contaminate",
+   "intestinului infarctat"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "infectii-chir-p26-005",
+  "questionFingerprint": "136d0434cd623d27a96c735838fe0d012303bdc415f016d314280494e77d8746",
+  "status": "edition-checked",
+  "learningObjective": "Incidența infecțiilor nosocomiale, distinctă de celelalte procente ale capitolului.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 8,
+   "printedPages": [
+    77
+   ],
+   "pdfPages": [
+    22
+   ],
+   "section": "Infecțiile nosocomiale"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Se estimează că 5% dintre pacienții spitalizați dobândesc cel puțin o infecție nosocomială.",
+    "evidenceLocation": "Lawrence, p. 77, Infecțiile nosocomiale"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: 22% este ponderea pneumoniei nosocomiale și a PAV în totalul infecțiilor din spital.",
+    "evidenceLocation": "Lawrence, p. 77, Infecțiile nosocomiale"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: aproximativ 10% este rata PAV la pacienții ventilați mecanic.",
+    "evidenceLocation": "Lawrence, p. 77, Infecțiile nosocomiale"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: până la 30% dintre infecțiile de cateter primesc tratament antimicrobian inadecvat.",
+    "evidenceLocation": "Lawrence, p. 77, Infecțiile nosocomiale"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: aproximativ 3% este frecvența infecției în plăgile curate.",
+    "evidenceLocation": "Lawrence, p. 77, Infecțiile nosocomiale"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T12:58:06.615Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt alte procente din același capitol."
+  },
+  "textbookExpressions": [
+   "infecția nosocomială",
+   "5%"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "infectii-chir-p26-006",
+  "questionFingerprint": "5499dfbbeb9f02b00120a4ab1b7778b2878a9582aba57ece8fb63ddae7bc9c2f",
+  "status": "edition-checked",
+  "learningObjective": "Pragurile culturilor cantitative în PAV și în infecția urinară postoperatorie.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 8,
+   "printedPages": [
+    79
+   ],
+   "pdfPages": [
+    24
+   ],
+   "section": "Pneumonia asociată ventilației"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: 1.000/mL este pragul periajului; urocultura cere clasic peste 100.000/mL.",
+    "evidenceLocation": "Lawrence, p. 79, Pneumonia asociată ventilației"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Lavajul bronhoalveolar este pozitiv de la ≥10⁴ UFC/mL.",
+    "evidenceLocation": "Lawrence, p. 79, Pneumonia asociată ventilației"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Periajul bronșic protejat este pozitiv de la ≥10³ UFC/mL.",
+    "evidenceLocation": "Lawrence, p. 79, Pneumonia asociată ventilației"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: ≥10⁴ UFC/mL este pragul lavajului; periajul are pragul ≥10³.",
+    "evidenceLocation": "Lawrence, p. 79, Pneumonia asociată ventilației"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: ≥10³ UFC/mL este pragul periajului; lavajul cere ≥10⁴.",
+    "evidenceLocation": "Lawrence, p. 79, Pneumonia asociată ventilației"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T12:58:06.616Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii permută pragurile periajului și lavajului."
+  },
+  "textbookExpressions": [
+   "periajul bronșic",
+   "lavaj bronhoalveolar"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "infectii-chir-p26-007",
+  "questionFingerprint": "cb6bea1cf9ac21ea8017247fee6d30cb19e1faa45f728190f247a9952384e251",
+  "status": "edition-checked",
+  "learningObjective": "Elementele clinice și de laborator care susțin suspiciunea de INTM.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 8,
+   "printedPages": [
+    79
+   ],
+   "pdfPages": [
+    24
+   ],
+   "section": "Infecțiile necrozante de țesuturi moi"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Epidermoliza și decolorarea tegumentului se adaugă durerii disproporționate și edemului.",
+    "evidenceLocation": "Lawrence, p. 79, Infecțiile necrozante de țesuturi moi"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: modificarea sodiului asociată INTM este hiponatremia.",
+    "evidenceLocation": "Lawrence, p. 79, Infecțiile necrozante de țesuturi moi"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: eritemul care dispare la digitopresiune indică celulita simplă.",
+    "evidenceLocation": "Lawrence, p. 79, Infecțiile necrozante de țesuturi moi"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Hiponatremia, alături de leucocitoză, susține suspiciunea de INTM.",
+    "evidenceLocation": "Lawrence, p. 79, Infecțiile necrozante de țesuturi moi"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Leucocitoza poate susține suspiciunea clinică de INTM.",
+    "evidenceLocation": "Lawrence, p. 79, Infecțiile necrozante de țesuturi moi"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T12:58:06.616Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează natremia și descriu celulita simplă."
+  },
+  "textbookExpressions": [
+   "hiponatremia",
+   "leucocitoza"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "infectii-chir-p26-008",
+  "questionFingerprint": "9495689f3447efe5415c2e8d6f208fecc2d7ec7f493d8d267d558714d2a909fb",
+  "status": "edition-checked",
+  "learningObjective": "Recunoașterea INTM după semnele precoce și debridarea chirurgicală ca tratament decisiv.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 8,
+   "printedPages": [
+    80
+   ],
+   "pdfPages": [
+    25
+   ],
+   "section": "Infecțiile necrozante de țesuturi moi"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: oxigenul hiperbar este adjuvant, nu substitut al debridării.",
+    "evidenceLocation": "Lawrence, p. 80, Infecțiile necrozante de țesuturi moi"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: emfizemul apare doar la 39%; absența lui nu exclude INTM.",
+    "evidenceLocation": "Lawrence, p. 80, Infecțiile necrozante de țesuturi moi"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: incizia și drenajul tratează furunculul; INTM cere debridare radicală.",
+    "evidenceLocation": "Lawrence, p. 80, Infecțiile necrozante de țesuturi moi"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: antibioterapia cu spectru larg însoțește debridarea, nu o înlocuiește.",
+    "evidenceLocation": "Lawrence, p. 80, Infecțiile necrozante de țesuturi moi"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Semnele precoce de INTM impun explorare și debridare chirurgicală agresivă.",
+    "evidenceLocation": "Lawrence, p. 80, Infecțiile necrozante de țesuturi moi"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T12:58:06.616Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii amână debridarea sau o înlocuiesc cu adjuvanți."
+  },
+  "textbookExpressions": [
+   "39%",
+   "debridare"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "infectii-chir-p26-009",
+  "questionFingerprint": "8f0d6cb9c3507dd6d13f80321de63caac1817705f9cf598289f3fece1063a228",
+  "status": "edition-checked",
+  "learningObjective": "Tabelul 8-5: etiologia, sediul și tratamentul celulitei și al hidrosadenitei.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 8,
+   "printedPages": [
+    80
+   ],
+   "pdfPages": [
+    25
+   ],
+   "section": "Tabelul 8-5"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Tabelul 8-5 atribuie celulita streptococului.",
+    "evidenceLocation": "Lawrence, p. 80, Tabelul 8-5"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Hidrosadenita implică glandele sudoripare apocrine, de obicei axilar și inghinal.",
+    "evidenceLocation": "Lawrence, p. 80, Tabelul 8-5"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: striurile de-a lungul limfaticelor definesc limfangita.",
+    "evidenceLocation": "Lawrence, p. 80, Tabelul 8-5"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: celulita primește antibiotice sistemice și îngrijire locală; incizia și drenajul sunt ale furunculului.",
+    "evidenceLocation": "Lawrence, p. 80, Tabelul 8-5"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Zonele extinse de hidrosadenită cer excizie largă și grefare.",
+    "evidenceLocation": "Lawrence, p. 80, Tabelul 8-5"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T12:58:06.616Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii transferă tratamentul furunculului și semnul limfangitei."
+  },
+  "textbookExpressions": [
+   "Celulită",
+   "Hidrosadenită"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "infectii-chir-p26-010",
+  "questionFingerprint": "20dc9c86c28859fb8bed5d3e938a0e44894603d97d52b61d43a88d675b9e58e8",
+  "status": "edition-checked",
+  "learningObjective": "Poarta de intrare, evoluția și diagnosticul diferențial al gangrenei gazoase.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 8,
+   "printedPages": [
+    80
+   ],
+   "pdfPages": [
+    25
+   ],
+   "section": "Mionecroza clostridiană"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: poate apărea încă din prima zi postoperator.",
+    "evidenceLocation": "Lawrence, p. 80, Mionecroza clostridiană"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Mionecroza clostridiană poate apărea după plăgi prin înțepare.",
+    "evidenceLocation": "Lawrence, p. 80, Mionecroza clostridiană"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Colorația Gram din lichidul flictenelor ajută diferențierea de streptococul de grup A.",
+    "evidenceLocation": "Lawrence, p. 80, Mionecroza clostridiană"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Necroza și crepitațiile avansează rapid, de unde numele de gangrenă gazoasă.",
+    "evidenceLocation": "Lawrence, p. 80, Mionecroza clostridiană"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: este produsă de clostridii; furunculul este stafilococic.",
+    "evidenceLocation": "Lawrence, p. 80, Mionecroza clostridiană"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T12:58:06.616Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii întârzie debutul și schimbă germenul."
+  },
+  "textbookExpressions": [
+   "gangrena gazoasă",
+   "clostridiană"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "infectii-chir-p26-011",
+  "questionFingerprint": "3f33fb9ed6f37d1c01e7c44301067a616383743adb448ffe668ead561755a7e0",
+  "status": "edition-checked",
+  "learningObjective": "Prodromul, ordinea descendentă a spasmelor și riscul respirator în tetanos.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 8,
+   "printedPages": [
+    80
+   ],
+   "pdfPages": [
+    25
+   ],
+   "section": "Tetanosul"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: incubația durează 3–21 de zile.",
+    "evidenceLocation": "Lawrence, p. 80, Tetanosul"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: spasmele generalizate apar în 24 de ore de la debutul simptomelor.",
+    "evidenceLocation": "Lawrence, p. 80, Tetanosul"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: spasmele sunt descendente, începând cu rigiditatea maseterului.",
+    "evidenceLocation": "Lawrence, p. 80, Tetanosul"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Spasmele tonice pot produce stop respirator.",
+    "evidenceLocation": "Lawrence, p. 80, Tetanosul"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "După incubație apar neliniștea și cefaleea, urmate de spasme.",
+    "evidenceLocation": "Lawrence, p. 80, Tetanosul"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T12:58:06.617Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează ordinea spasmelor și permută intervalele."
+  },
+  "textbookExpressions": [
+   "maseterului",
+   "3-21 de zile"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "infectii-chir-p26-012",
+  "questionFingerprint": "3b79bd30b5815f0e47ea0c0ff002d404bca0a74edc5a117adfa9d4f72242489f",
+  "status": "edition-checked",
+  "learningObjective": "Tabelul 8-6: trăsăturile plăgilor predispuse la tetanos.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 8,
+   "printedPages": [
+    81
+   ],
+   "pdfPages": [
+    26
+   ],
+   "section": "Tetanosul"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Contaminanții (pământ, fecale, salivă) fac plaga predispusă.",
+    "evidenceLocation": "Lawrence, p. 81, Tetanosul"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: adâncimea de cel mult 1 cm caracterizează plaga fără predispoziție.",
+    "evidenceLocation": "Lawrence, p. 81, Tetanosul"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Vechimea peste 6 ore face plaga predispusă la tetanos.",
+    "evidenceLocation": "Lawrence, p. 81, Tetanosul"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: plaga liniară, produsă de o suprafață ascuțită, nu este predispusă.",
+    "evidenceLocation": "Lawrence, p. 81, Tetanosul"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Zdrobirea, avulsia și arsura sunt mecanisme ale plăgilor predispuse.",
+    "evidenceLocation": "Lawrence, p. 81, Tetanosul"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T12:58:06.617Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii descriu plăgile fără predispoziție la tetanos."
+  },
+  "textbookExpressions": [
+   "zdrobire",
+   "avulsie"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "infectii-chir-p26-013",
+  "questionFingerprint": "08447f9484c74781a94749a8f3decffbfc6f59b137493e8a4235d0451d4800ae",
+  "status": "edition-checked",
+  "learningObjective": "Tabelele 8-6 și 8-7 aplicate la o plagă predispusă, la pacientul complet vaccinat.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 8,
+   "printedPages": [
+    81
+   ],
+   "pdfPages": [
+    26
+   ],
+   "section": "Tabelul 8-7"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: pragul de 10 ani privește plăgile curate minore; aici pragul este de 5 ani.",
+    "evidenceLocation": "Lawrence, p. 81, Tabelul 8-7"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Plaga zdrobită și contaminată intră la „celelalte plăgi”; la ≥3 doze, rapelul se face după peste 5 ani, fără IGT.",
+    "evidenceLocation": "Lawrence, p. 81, Tabelul 8-7"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: la ≥3 doze nu se administrează IGT; protecția se reface prin rapel.",
+    "evidenceLocation": "Lawrence, p. 81, Tabelul 8-7"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: IGT se adaugă la istoric necunoscut sau sub trei doze.",
+    "evidenceLocation": "Lawrence, p. 81, Tabelul 8-7"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: schema primară este completă; nu se reia, se face rapel.",
+    "evidenceLocation": "Lawrence, p. 81, Tabelul 8-7"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T12:58:06.617Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Capcana este pragul de 10 ani, valabil pentru plaga curată minoră."
+  },
+  "textbookExpressions": [
+   "Tdap",
+   "> 5 ani"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "infectii-chir-p26-014",
+  "questionFingerprint": "c6c8588af587ff9538a3c83ec2be867df6de0d9f993968817cdcc5ffd707e829",
+  "status": "edition-checked",
+  "learningObjective": "Recunoașterea factorilor de risc ai abcesului mamar.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 8,
+   "printedPages": [
+    81
+   ],
+   "pdfPages": [
+    26
+   ],
+   "section": "Abcesul mamar"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Alăptarea este contextul tipic al abcesului mamar.",
+    "evidenceLocation": "Lawrence, p. 81, Abcesul mamar"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: factorul listat este vârsta de gestație peste 41 de săptămâni.",
+    "evidenceLocation": "Lawrence, p. 81, Abcesul mamar"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Fumatul figurează printre factorii de risc.",
+    "evidenceLocation": "Lawrence, p. 81, Abcesul mamar"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Vârsta maternă peste 30 de ani este factor de risc.",
+    "evidenceLocation": "Lawrence, p. 81, Abcesul mamar"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Obezitatea crește riscul de abces mamar.",
+    "evidenceLocation": "Lawrence, p. 81, Abcesul mamar"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T12:58:06.617Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul inversează pragul vârstei de gestație."
+  },
+  "textbookExpressions": [
+   "alăptarea",
+   "fumatul"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "infectii-chir-p26-015",
+  "questionFingerprint": "46a08f6482bb898f63d976193640ccfec0b220c9b6f3b3ed5b7460e8ac53a578",
+  "status": "edition-checked",
+  "learningObjective": "Acoperirea antimicrobiană în ulcerul perforat cu aclorhidrie medicamentoasă.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 8,
+   "printedPages": [
+    83
+   ],
+   "pdfPages": [
+    28
+   ],
+   "section": "Peritonita — Ulcerul perforat"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Aclorhidria, endogenă sau medicamentoasă, impune terapie antifungică empirică.",
+    "evidenceLocation": "Lawrence, p. 83, Peritonita — Ulcerul perforat"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Antibioterapia perioperatorie acoperă germenii aerobi și anaerobi.",
+    "evidenceLocation": "Lawrence, p. 83, Peritonita — Ulcerul perforat"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: clindamicina antitoxinică se adaugă în INTM cu suspiciune de streptococ de grup A.",
+    "evidenceLocation": "Lawrence, p. 83, Peritonita — Ulcerul perforat"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: Pseudomonas se acoperă în PAV după 5 zile de spitalizare, în SDRA sau imunodepresie.",
+    "evidenceLocation": "Lawrence, p. 83, Peritonita — Ulcerul perforat"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: penicilina în doze mari este tratamentul mionecrozei clostridiene.",
+    "evidenceLocation": "Lawrence, p. 83, Peritonita — Ulcerul perforat"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T12:58:06.617Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii transferă scheme din alte infecții ale capitolului."
+  },
+  "textbookExpressions": [
+   "aclorhidrie",
+   "antifungică"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
  }
 ]
