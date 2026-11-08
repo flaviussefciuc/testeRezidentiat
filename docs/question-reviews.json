@@ -265586,5 +265586,1006 @@
    "date": "2026-11-08",
    "note": "cheia ABCD marca drept adevărat că TIPS scade riscul de encefalopatie, deși justificarea spune că îl crește, și drept fals că beta-blocantele pot crește supraviețuirea, afirmație citată de text (p. 1295, confirmat de versiunea inițială); cheia corectă este ABCE."
   }
+ },
+ {
+  "questionId": "gineco-p26-001",
+  "questionFingerprint": "150fe55afce35a4bcf60ea9e3cead91270df7f4d4aa0716f1beeca65e43d0add",
+  "status": "edition-checked",
+  "learningObjective": "Ordinea evenimentelor pubertare la fete: telarhă, pubarhă, puseu de creștere, menarhă.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 12,
+   "printedPages": [
+    274
+   ],
+   "pdfPages": [
+    52
+   ],
+   "section": "Fiziologia ciclului menstrual"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: menarha este un eveniment tardiv, la circa 2–3 ani după telarhă.",
+    "evidenceLocation": "Sinopsis, p. 274, Fiziologia ciclului menstrual"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: pubertatea debutează cu telarha; menarha apare spre finalul ei.",
+    "evidenceLocation": "Sinopsis, p. 274, Fiziologia ciclului menstrual"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: după menarhă creșterea încetinește; puseul de creștere o precede.",
+    "evidenceLocation": "Sinopsis, p. 274, Fiziologia ciclului menstrual"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Vârful vitezei de creștere apare înaintea menarhei.",
+    "evidenceLocation": "Sinopsis, p. 274, Fiziologia ciclului menstrual"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Mugurele mamar apare de obicei primul, urmat de pilozitatea pubiană.",
+    "evidenceLocation": "Sinopsis, p. 274, Fiziologia ciclului menstrual"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:42:22.773Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează ordinea evenimentelor pubertare."
+  },
+  "textbookExpressions": [
+   "Tanner",
+   "menarha"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "gineco-p26-002",
+  "questionFingerprint": "febc578e0ed56b95d5383c36381c74b0b1c4338da1fecf0999b291bec343a5be",
+  "status": "edition-checked",
+  "learningObjective": "Efectele protectoare ale contraceptivelor combinate, deosebite de riscurile lor.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 12,
+   "printedPages": [
+    278
+   ],
+   "pdfPages": [
+    56
+   ],
+   "section": "Contracepția"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Componenta progestativă protejează endometrul și scade riscul de cancer endometrial.",
+    "evidenceLocation": "Sinopsis, p. 278, Contracepția"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Endometrul subțire și ciclurile regulate reduc dismenoreea și menoragia.",
+    "evidenceLocation": "Sinopsis, p. 278, Contracepția"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: estrogenul crește riscul de tromboembolism venos, mai ales la fumătoare.",
+    "evidenceLocation": "Sinopsis, p. 278, Contracepția"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Suprimarea ovulației reduce riscul de cancer ovarian, efect care persistă ani după oprire.",
+    "evidenceLocation": "Sinopsis, p. 278, Contracepția"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: contraceptivele orale cresc riscul de adenom hepatic.",
+    "evidenceLocation": "Sinopsis, p. 278, Contracepția"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:42:22.775Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii prezintă riscurile drept beneficii."
+  },
+  "textbookExpressions": [
+   "contraceptivele orale",
+   "cancer ovarian"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "gineco-p26-003",
+  "questionFingerprint": "a4764013c1f80664cd4717767615f36ccf63cab03ebc4526bc5a6d2ac8c8a8e4",
+  "status": "edition-checked",
+  "learningObjective": "Clasificarea cauzelor de amenoree primară după cariotip, gonadotropi și organele genitale.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 12,
+   "printedPages": [
+    279
+   ],
+   "pdfPages": [
+    57
+   ],
+   "section": "Tulburările ciclului menstrual"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: Kallmann este un deficit de GnRH, cu FSH și LH scăzute (hipogonadism hipogonadotrop).",
+    "evidenceLocation": "Sinopsis, p. 279, Tulburările ciclului menstrual"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Ovarele normale produc estrogeni (sâni dezvoltați), dar uterul și vaginul superior lipsesc.",
+    "evidenceLocation": "Sinopsis, p. 279, Tulburările ciclului menstrual"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: agenezia mülleriană are cariotip 46,XX și ovare normale; 46,XY cu testicule este insensibilitatea la androgeni.",
+    "evidenceLocation": "Sinopsis, p. 279, Tulburările ciclului menstrual"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Disgenezia gonadală (ovare „în bandeletă”) lasă FSH-ul crescut: hipogonadism hipergonadotrop.",
+    "evidenceLocation": "Sinopsis, p. 279, Tulburările ciclului menstrual"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Testiculele produc testosteron convertit periferic în estrogen (sâni), dar receptorii androgenici nefuncționali lasă pilozitatea redusă și vaginul orb.",
+    "evidenceLocation": "Sinopsis, p. 279, Tulburările ciclului menstrual"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:42:22.775Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii schimbă nivelul gonadotropilor și cariotipul."
+  },
+  "textbookExpressions": [
+   "Turner",
+   "agenezia mülleriană"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "gineco-p26-004",
+  "questionFingerprint": "09400e1c411978406fc9a40ac9a2573e24cd82a434e1057f4bfcd1fc2d6992c4",
+  "status": "edition-checked",
+  "learningObjective": "Cauza uterină de amenoree secundară și semnificația testului cu estrogen și progesteron.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 12,
+   "printedPages": [
+    280
+   ],
+   "pdfPages": [
+    58
+   ],
+   "section": "Tulburările ciclului menstrual"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: în insuficiența ovariană endometrul este normal și sângerează după estrogen și progesteron.",
+    "evidenceLocation": "Sinopsis, p. 280, Tulburările ciclului menstrual"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: sindromul Sheehan este o insuficiență hipofizară după hemoragia postpartum; endometrul răspunde la hormonii exogeni.",
+    "evidenceLocation": "Sinopsis, p. 280, Tulburările ciclului menstrual"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: în SOPC endometrul este estrogenizat și sângerează chiar la testul cu progesteron.",
+    "evidenceLocation": "Sinopsis, p. 280, Tulburările ciclului menstrual"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: în hiperprolactinemie endometrul este normal și sângerează după estrogen și progesteron.",
+    "evidenceLocation": "Sinopsis, p. 280, Tulburările ciclului menstrual"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Sinechiile intrauterine după chiuretaj împiedică răspunsul endometrului: estrogenul și progesteronul exogene nu produc sângerare.",
+    "evidenceLocation": "Sinopsis, p. 280, Tulburările ciclului menstrual"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:42:22.775Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt cauze hormonale, cu endometru funcțional."
+  },
+  "textbookExpressions": [
+   "Asherman",
+   "chiuretaj"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "gineco-p26-005",
+  "questionFingerprint": "d49835a454cd0e8312c62f02c334946d4d6fe49c2c008f8cc327f27a3dfc7c77",
+  "status": "edition-checked",
+  "learningObjective": "Cele trei criterii Rotterdam (sunt suficiente două), față de anomaliile frecvente, dar necriteriale.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 12,
+   "printedPages": [
+    282
+   ],
+   "pdfPages": [
+    60
+   ],
+   "section": "Tulburările ciclului menstrual"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Ciclurile rare sau absente (anovulația cronică) sunt primul criteriu.",
+    "evidenceLocation": "Sinopsis, p. 282, Tulburările ciclului menstrual"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: rezistența la insulină este frecventă și se tratează cu metformin, dar nu este criteriu de diagnostic.",
+    "evidenceLocation": "Sinopsis, p. 282, Tulburările ciclului menstrual"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Hirsutismul, acneea sau androgenii serici crescuți definesc al doilea criteriu.",
+    "evidenceLocation": "Sinopsis, p. 282, Tulburările ciclului menstrual"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: raportul LH/FSH crescut este frecvent, dar nu face parte din criteriile Rotterdam.",
+    "evidenceLocation": "Sinopsis, p. 282, Tulburările ciclului menstrual"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Ovarele cu foliculi mici multipli la ecografie sunt al treilea criteriu; diagnosticul cere două din trei.",
+    "evidenceLocation": "Sinopsis, p. 282, Tulburările ciclului menstrual"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:42:22.775Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii transformă anomalii asociate în criterii."
+  },
+  "textbookExpressions": [
+   "Rotterdam",
+   "hiperandrogenism"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "gineco-p26-006",
+  "questionFingerprint": "00bc609a1cdf88e91191d92b41e009103635ac50d3294dc988b145e040c5adf8",
+  "status": "edition-checked",
+  "learningObjective": "Diferențierea vaginitelor din tabel după aspectul microscopic.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 12,
+   "printedPages": [
+    282
+   ],
+   "pdfPages": [
+    60
+   ],
+   "section": "Infecțiile ginecologice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: celulele „clue” sunt ale vaginozei bacteriene; candidoza arată pseudohife.",
+    "evidenceLocation": "Sinopsis, p. 282, Infecțiile ginecologice"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Celulele epiteliale acoperite de cocobacili (Gardnerella) definesc vaginoza bacteriană.",
+    "evidenceLocation": "Sinopsis, p. 282, Infecțiile ginecologice"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: trichomoniaza arată protozoare flagelate; pseudohifele sunt ale candidozei.",
+    "evidenceLocation": "Sinopsis, p. 282, Infecțiile ginecologice"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "KOH lizează celulele și lasă vizibile pseudohifele și levurile de Candida.",
+    "evidenceLocation": "Sinopsis, p. 282, Infecțiile ginecologice"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Protozoarele flagelate, mobile, se văd pe preparatul umed cu ser fiziologic.",
+    "evidenceLocation": "Sinopsis, p. 282, Infecțiile ginecologice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:42:22.775Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii mută aspectul microscopic la altă vaginită."
+  },
+  "textbookExpressions": [
+   "celule „clue”",
+   "pseudohife"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "gineco-p26-007",
+  "questionFingerprint": "d6e3ca77377d14789b6fd2bfad3b8cf3cd35e32ddece6ceaf5cd8d3dc8563706",
+  "status": "edition-checked",
+  "learningObjective": "Vaginita transmisă sexual, la care se tratează și partenerul.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 12,
+   "printedPages": [
+    282
+   ],
+   "pdfPages": [
+    60
+   ],
+   "section": "Infecțiile ginecologice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: vaginita atrofică ține de deficitul estrogenic din postmenopauză.",
+    "evidenceLocation": "Sinopsis, p. 282, Infecțiile ginecologice"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: secreția fiziologică, dominată de lactobacili, nu se tratează.",
+    "evidenceLocation": "Sinopsis, p. 282, Infecțiile ginecologice"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Trichomonas vaginalis se transmite sexual; partenerul se tratează simultan cu metronidazol.",
+    "evidenceLocation": "Sinopsis, p. 282, Infecțiile ginecologice"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: vaginoza bacteriană este un dezechilibru al florei, fără tratamentul partenerului.",
+    "evidenceLocation": "Sinopsis, p. 282, Infecțiile ginecologice"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: candidoza nu este considerată infecție cu transmitere sexuală; partenerul nu se tratează de rutină.",
+    "evidenceLocation": "Sinopsis, p. 282, Infecțiile ginecologice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:42:22.776Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt vaginitele netransmise sexual."
+  },
+  "textbookExpressions": [
+   "metronidazol",
+   "Trichomonas"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "gineco-p26-008",
+  "questionFingerprint": "df7490592341e70b4568c2e33aa18eaaa531346c40d6ecac495a390ccb0fd363",
+  "status": "edition-checked",
+  "learningObjective": "Diferențierea ulcerațiilor genitale după prezența durerii.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 12,
+   "printedPages": [
+    285
+   ],
+   "pdfPages": [
+    63
+   ],
+   "section": "Infecțiile cu transmitere sexuală"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: leziunea primară a limfogranulomatozei este o papulă nedureroasă, trecătoare; durerea vine din adenopatia ulterioară.",
+    "evidenceLocation": "Sinopsis, p. 285, Infecțiile cu transmitere sexuală"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: șancrul sifilitic este nedureros, indurat, cu margini netede.",
+    "evidenceLocation": "Sinopsis, p. 285, Infecțiile cu transmitere sexuală"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Veziculele herpetice grupate se ulcerează și sunt dureroase.",
+    "evidenceLocation": "Sinopsis, p. 285, Infecțiile cu transmitere sexuală"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: granulomul inghinal dă ulcerații nedureroase, cu aspect „de carne de vită”.",
+    "evidenceLocation": "Sinopsis, p. 285, Infecțiile cu transmitere sexuală"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Șancrul moale este un ulcer dureros, cu margini neregulate și fund murdar, cu adenopatie dureroasă.",
+    "evidenceLocation": "Sinopsis, p. 285, Infecțiile cu transmitere sexuală"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:42:22.776Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt ulcerațiile nedureroase."
+  },
+  "textbookExpressions": [
+   "șancrul moale",
+   "herpes"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "gineco-p26-009",
+  "questionFingerprint": "30713a0b18e6fcd53b5528e121f702255e0501a8a63d6abc90e1c1fe6393faed",
+  "status": "edition-checked",
+  "learningObjective": "Cauza, riscul evolutiv și tratamentul hiperplaziei endometriale.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 12,
+   "printedPages": [
+    286
+   ],
+   "pdfPages": [
+    64
+   ],
+   "section": "Neoplasmele ginecologice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Progestativele induc transformarea secretorie și regresia hiperplaziei fără atipii.",
+    "evidenceLocation": "Sinopsis, p. 286, Neoplasmele ginecologice"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Atipiile citologice marchează leziunea cu risc mare de carcinom endometrial.",
+    "evidenceLocation": "Sinopsis, p. 286, Neoplasmele ginecologice"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Estrogenii neopuși (anovulație, obezitate, terapie estrogenică fără progestativ) stimulează proliferarea endometrului.",
+    "evidenceLocation": "Sinopsis, p. 286, Neoplasmele ginecologice"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: hiperplazia cu atipii progresează frecvent; tratamentul de elecție este histerectomia.",
+    "evidenceLocation": "Sinopsis, p. 286, Neoplasmele ginecologice"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: progesteronul se opune proliferării; hiperplazia apare când lipsește.",
+    "evidenceLocation": "Sinopsis, p. 286, Neoplasmele ginecologice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:42:22.776Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează rolul progesteronului și evoluția formei atipice."
+  },
+  "textbookExpressions": [
+   "hiperplazia endometrială",
+   "progestative"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "gineco-p26-010",
+  "questionFingerprint": "bec0e4a2e909a204236fdffed302326ff1fbd98de3e9dba5208cb809e301d1e9",
+  "status": "edition-checked",
+  "learningObjective": "Asocierea tumorilor ovariene cu markerii lor serici.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 12,
+   "printedPages": [
+    288
+   ],
+   "pdfPages": [
+    66
+   ],
+   "section": "Neoplasmele ginecologice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Tumorile de granuloasă secretă estrogen și inhibină.",
+    "evidenceLocation": "Sinopsis, p. 288, Neoplasmele ginecologice"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Coriocarcinomul secretă gonadotropină corionică.",
+    "evidenceLocation": "Sinopsis, p. 288, Neoplasmele ginecologice"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Tumora de sinus endodermal (de sac vitelin) secretă α-fetoproteină.",
+    "evidenceLocation": "Sinopsis, p. 288, Neoplasmele ginecologice"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Disgerminomul crește LDH (uneori și hCG).",
+    "evidenceLocation": "Sinopsis, p. 288, Neoplasmele ginecologice"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: tumorile epiteliale seroase se urmăresc prin CA-125, nu prin AFP.",
+    "evidenceLocation": "Sinopsis, p. 288, Neoplasmele ginecologice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:42:22.776Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul atribuie AFP unei tumori epiteliale."
+  },
+  "textbookExpressions": [
+   "disgerminom",
+   "CA-125"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "gineco-p26-011",
+  "questionFingerprint": "9ba5bbb65ac4d420db8f5892b7b330172aa96aabd03f82337ac452fb816f9aa8",
+  "status": "edition-checked",
+  "learningObjective": "Recunoașterea sindromului Meigs.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 12,
+   "printedPages": [
+    288
+   ],
+   "pdfPages": [
+    66
+   ],
+   "section": "Neoplasmele ginecologice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: pseudomixomul peritoneal înseamnă ascită gelatinoasă, din tumori mucinoase.",
+    "evidenceLocation": "Sinopsis, p. 288, Neoplasmele ginecologice"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: sindromul Sheehan este necroza hipofizară după hemoragia postpartum.",
+    "evidenceLocation": "Sinopsis, p. 288, Neoplasmele ginecologice"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Fibromul ovarian benign se poate însoți de ascită și hidrotorax, care dispar după excizia tumorii.",
+    "evidenceLocation": "Sinopsis, p. 288, Neoplasmele ginecologice"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: tumora Krukenberg este o metastază ovariană bilaterală a unui cancer gastric (celule în inel cu pecete).",
+    "evidenceLocation": "Sinopsis, p. 288, Neoplasmele ginecologice"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: sindromul Asherman înseamnă sinechii intrauterine după chiuretaj.",
+    "evidenceLocation": "Sinopsis, p. 288, Neoplasmele ginecologice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:42:22.777Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt alte sindroame eponime ale ginecologiei."
+  },
+  "textbookExpressions": [
+   "Meigs",
+   "fibrom"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "gineco-p26-012",
+  "questionFingerprint": "7b48d2dff921c4a1e5fcdbc1b552c25eca64e14fd80fa8c28352560489d4963f",
+  "status": "edition-checked",
+  "learningObjective": "Separarea leziunilor cu risc crescut de leziunile benigne fără risc.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 12,
+   "printedPages": [
+    291
+   ],
+   "pdfPages": [
+    69
+   ],
+   "section": "Afecțiunile sânului"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Carcinomul lobular in situ este un marker de risc crescut pentru ambii sâni.",
+    "evidenceLocation": "Sinopsis, p. 291, Afecțiunile sânului"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Un cancer mamar anterior crește riscul unui al doilea cancer, ipsilateral sau contralateral.",
+    "evidenceLocation": "Sinopsis, p. 291, Afecțiunile sânului"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: modificările fibrochistice neproliferative nu cresc riscul; riscul apare la hiperplazia atipică.",
+    "evidenceLocation": "Sinopsis, p. 291, Afecțiunile sânului"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Hiperplazia cu atipii crește de câteva ori riscul de carcinom invaziv.",
+    "evidenceLocation": "Sinopsis, p. 291, Afecțiunile sânului"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: fibroadenomul simplu nu crește semnificativ riscul de cancer.",
+    "evidenceLocation": "Sinopsis, p. 291, Afecțiunile sânului"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:42:22.777Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt leziunile benigne fără risc."
+  },
+  "textbookExpressions": [
+   "hiperplazie atipică",
+   "carcinomul lobular in situ"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "gineco-p26-013",
+  "questionFingerprint": "05aac94c85aa289dce7866774d946c9341c261fcd115180caa346e0c64654941",
+  "status": "edition-checked",
+  "learningObjective": "Mecanismul, indicația și efectele adverse ale tamoxifenului (modulator selectiv al receptorilor estrogenici).",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 12,
+   "printedPages": [
+    292
+   ],
+   "pdfPages": [
+    70
+   ],
+   "section": "Afecțiunile sânului"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Efectul antagonist estrogenic din sân reduce recidiva tumorilor cu receptori hormonali pozitivi.",
+    "evidenceLocation": "Sinopsis, p. 292, Afecțiunile sânului"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: ca și estrogenii, tamoxifenul crește riscul de tromboză venoasă.",
+    "evidenceLocation": "Sinopsis, p. 292, Afecțiunile sânului"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: beneficiul apare în tumorile cu receptori estrogenici pozitivi; tumorile negative nu răspund.",
+    "evidenceLocation": "Sinopsis, p. 292, Afecțiunile sânului"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Efectul agonist pe endometru crește riscul de hiperplazie și de cancer endometrial.",
+    "evidenceLocation": "Sinopsis, p. 292, Afecțiunile sânului"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: efectul agonist pe os protejează densitatea minerală la postmenopauză.",
+    "evidenceLocation": "Sinopsis, p. 292, Afecțiunile sânului"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:42:22.777Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii ignoră efectul agonist parțial și indicația pe receptori."
+  },
+  "textbookExpressions": [
+   "tamoxifen",
+   "receptori"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
  }
 ]
