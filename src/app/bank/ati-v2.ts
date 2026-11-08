@@ -3,6 +3,9 @@ import {RETIRED_ATI} from './retired/ati';
 
 // Rewritten after the 2026-09-24 cue audit (Kumar, cap. 10, p. 224–233).
 const q=rewriter(RETIRED_ATI,(p:number)=>p-182,{shuffle:true});
+// ati-adv-042-v3 (November 2026): the v2 keyed "mediastinal shift towards the healthy side" as false on a
+// passage that places the shift on the side of the pneumothorax; the item no longer tests that direction.
+const q3=rewriter(RETIRED_ATI,(p:number)=>p-182,{shuffle:true,version:3});
 
 export const ATI_V2=[
 q('ati-adv-023',['Conform Cadranului 10.12, au risc perioperator de insuficiență multiplă de organ:',
@@ -101,10 +104,10 @@ q('ati-adv-043',['Ventilația cu presiune pozitivă:',
  ['Presiunea pozitivă împiedică întoarcerea venoasă.','Capilarele întinse cresc rezistența vasculară pulmonară.','Supradistensia produce leziuni pulmonare asociate ventilatorului.','Riscul este crescut în boala distructivă, astm și fracturi costale.','Nu: volumele mari pot distruge membrana.']],
  [8,'Singurul distractor contrazice leziunea prin volum.'],['barotraumă','10-12 ml/kg']),
 
-q('ati-adv-042',['Pneumotoracele în tensiune la pacientul ventilat se recunoaște prin:',
- ['creșterea inexplicabilă a presiunii în căile aeriene','hipotensiune și tahicardie','hipersonoritatea unui hemitorace','deplasarea mediastinului spre partea sănătoasă','scăderea presiunii în căile aeriene'],'ABC',228,'Complicațiile ventilației — Pneumotoracele',
+q3('ati-adv-042-v2',['Pneumotoracele în tensiune la pacientul ventilat se recunoaște prin:',
+ ['creșterea inexplicabilă a presiunii în căile aeriene','hipotensiune și tahicardie','hipersonoritatea unui hemitorace','murmur vezicular intensificat pe partea afectată','scăderea presiunii în căile aeriene'],'ABC',228,'Complicațiile ventilației — Pneumotoracele',
  'Recunoașterea pneumotoracelui în tensiune la ventilat.',
- ['Presiunea în căile aeriene crește inexplicabil.','Apar hipotensiune și tahicardie.','Un hemitorace este hipersonor.','Nu: textul citează deplasarea de partea pneumotoracelui.','Nu: presiunea crește.']],
+ ['Presiunea în căile aeriene crește inexplicabil.','Apar hipotensiune și tahicardie.','Un hemitorace este hipersonor.','Nu: pe partea pneumotoracelui murmurul vezicular este de obicei diminuat, nu intensificat.','Nu: presiunea crește.']],
  [8,'Distractorii inversează semnele.'],['hipersonoritatea','presiunii în căile aeri']),
 
 q('ati-adv-027',['Reducerea pneumoniei asociate ventilatorului include:',

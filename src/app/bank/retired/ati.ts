@@ -1801,5 +1801,55 @@ export const RETIRED_ATI:(Question&Record<string,unknown>)[]=[
    "Pneumonie",
    "Aspiraţia conţinutului gastric"
   ]
+ },
+ {
+  "id": "ati-adv-042-v2",
+  "topicId": "ati",
+  "type": "CM",
+  "stem": "Pneumotoracele în tensiune la pacientul ventilat se recunoaște prin:",
+  "options": [
+   "hipotensiune și tahicardie",
+   "deplasarea mediastinului spre partea sănătoasă",
+   "hipersonoritatea unui hemitorace",
+   "creșterea inexplicabilă a presiunii în căile aeriene",
+   "scăderea presiunii în căile aeriene"
+  ],
+  "correct": [
+   0,
+   2,
+   3
+  ],
+  "explanation": "hipotensiune și tahicardie — Corect: Apar hipotensiune și tahicardie.\n\ndeplasarea mediastinului spre partea sănătoasă — Incorect: Nu: textul citează deplasarea de partea pneumotoracelui.\n\nhipersonoritatea unui hemitorace — Corect: Un hemitorace este hipersonor.\n\ncreșterea inexplicabilă a presiunii în căile aeriene — Corect: Presiunea în căile aeriene crește inexplicabil.\n\nscăderea presiunii în căile aeriene — Incorect: Nu: presiunea crește.\n\nReferință: Kumar & Clark, Medicină clinică, ediția a 10-a, text român, cap. 10, p. 228, Complicațiile ventilației — Pneumotoracele (pagini PDF: 46).",
+  "source": "https://rezidentiat.ms.ro/20261115/tematici/rezidentiat-M-2026.pdf",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 10,
+   "printedPages": [
+    228
+   ],
+   "pdfPages": [
+    46
+   ],
+   "section": "Complicațiile ventilației — Pneumotoracele"
+  },
+  "learningObjective": "Recunoașterea pneumotoracelui în tensiune la ventilat.",
+  "optionRationales": [
+   "Apar hipotensiune și tahicardie.",
+   "Nu: textul citează deplasarea de partea pneumotoracelui.",
+   "Un hemitorace este hipersonor.",
+   "Presiunea în căile aeriene crește inexplicabil.",
+   "Nu: presiunea crește."
+  ],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează semnele."
+  },
+  "textbookExpressions": [
+   "hipersonoritatea",
+   "presiunii în căile aeri"
+  ],
+  "replaces": "ati-adv-042"
  }
 ];

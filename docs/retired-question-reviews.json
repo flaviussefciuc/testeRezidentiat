@@ -220756,5 +220756,83 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Rescriere a hepatologie-adv-026: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+ },
+ {
+  "questionId": "ati-adv-042-v2",
+  "questionFingerprint": "f75080c828701e7f64f37dd6479b917e9524f2864c21b0cadade9b10485bac7e",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea pneumotoracelui în tensiune la ventilat.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 10,
+   "printedPages": [
+    228
+   ],
+   "pdfPages": [
+    46
+   ],
+   "section": "Complicațiile ventilației — Pneumotoracele"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Apar hipotensiune și tahicardie.",
+    "evidenceLocation": "Kumar, p. 228, Complicațiile ventilației — Pneumotoracele"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: textul citează deplasarea de partea pneumotoracelui.",
+    "evidenceLocation": "Kumar, p. 228, Complicațiile ventilației — Pneumotoracele"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Un hemitorace este hipersonor.",
+    "evidenceLocation": "Kumar, p. 228, Complicațiile ventilației — Pneumotoracele"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Presiunea în căile aeriene crește inexplicabil.",
+    "evidenceLocation": "Kumar, p. 228, Complicațiile ventilației — Pneumotoracele"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: presiunea crește.",
+    "evidenceLocation": "Kumar, p. 228, Complicațiile ventilației — Pneumotoracele"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T12:26:02.619Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează semnele."
+  },
+  "textbookExpressions": [
+   "hipersonoritatea",
+   "presiunii în căile aeri"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a ati-adv-042: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (justificările opțiunilor false marcate cu „Nu:”, ca în restul băncii, fără altă modificare a textului); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  }
 ]

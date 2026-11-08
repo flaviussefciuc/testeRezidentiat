@@ -96770,84 +96770,6 @@
   "rationalesRevisedAt": "2026-11-08"
  },
  {
-  "questionId": "ati-adv-042-v2",
-  "questionFingerprint": "f75080c828701e7f64f37dd6479b917e9524f2864c21b0cadade9b10485bac7e",
-  "status": "source-checked",
-  "learningObjective": "Recunoașterea pneumotoracelui în tensiune la ventilat.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 10,
-   "printedPages": [
-    228
-   ],
-   "pdfPages": [
-    46
-   ],
-   "section": "Complicațiile ventilației — Pneumotoracele"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "Apar hipotensiune și tahicardie.",
-    "evidenceLocation": "Kumar, p. 228, Complicațiile ventilației — Pneumotoracele"
-   },
-   {
-    "index": 1,
-    "verdict": "incorrect",
-    "rationale": "Nu: textul citează deplasarea de partea pneumotoracelui.",
-    "evidenceLocation": "Kumar, p. 228, Complicațiile ventilației — Pneumotoracele"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "Un hemitorace este hipersonor.",
-    "evidenceLocation": "Kumar, p. 228, Complicațiile ventilației — Pneumotoracele"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Presiunea în căile aeriene crește inexplicabil.",
-    "evidenceLocation": "Kumar, p. 228, Complicațiile ventilației — Pneumotoracele"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Nu: presiunea crește.",
-    "evidenceLocation": "Kumar, p. 228, Complicațiile ventilației — Pneumotoracele"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-11-08T12:26:02.619Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează semnele."
-  },
-  "textbookExpressions": [
-   "hipersonoritatea",
-   "presiunii în căile aeri"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a ati-adv-042: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (justificările opțiunilor false marcate cu „Nu:”, ca în restul băncii, fără altă modificare a textului); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
-  "rationalesRevisedAt": "2026-11-08"
- },
- {
   "questionId": "ati-adv-017-v2",
   "questionFingerprint": "208f73ed5b83d18fae9d260f09904c60cc8f31be985c77fdd80ce080ce17535a",
   "status": "source-checked",
@@ -246316,7 +246238,7 @@
  },
  {
   "questionId": "orl-adv-092-v2",
-  "questionFingerprint": "ca6b97bd971c02cd7dbf49af1df83b8aab16330d035971909f042608d344ce1a",
+  "questionFingerprint": "48d2a5cad1eaffb30aa645ffe63086e7f2bed82b70a025d53ca4993b858edaf7",
   "status": "source-checked",
   "learningObjective": "Granuloamele de proces vocal.",
   "reference": {
@@ -246353,7 +246275,7 @@
    {
     "index": 3,
     "verdict": "correct",
-    "rationale": "Tiroaritenoidian, cricotiroidian lateral.",
+    "rationale": "În granuloamele refractare toxina botulinică se injectează în adductori: tiroaritenoidianul și cricoaritenoidianul lateral.",
     "evidenceLocation": "Lawrence, p. 575, Laringele"
    },
    {
@@ -246377,7 +246299,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-11-08T12:47:22.378Z",
+  "reviewedAt": "2026-11-08T12:57:19.432Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -246389,7 +246311,7 @@
    "hemajul"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a orl-adv-092: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă. Justificările opțiunilor au fost rescrise la 2026-11-08 (explicațiile telegrafice (sub 30 de caractere) rescrise într-o propoziție care enunță faptul, din enunț, opțiuni și justificările existente, fără date noi); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "reviewNotes": "Rescriere a orl-adv-092: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă. Justificările opțiunilor au fost rescrise la 2026-11-08 (explicațiile telegrafice (sub 30 de caractere) rescrise într-o propoziție care enunță faptul, din enunț, opțiuni și justificările existente, fără date noi); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă. Justificările opțiunilor au fost rescrise la 2026-11-08 (justificarea opțiunii C corectată: mușchiul adductor este cricoaritenoidianul lateral (nu „cricotiroidian lateral”)); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
   "rationalesRevisedAt": "2026-11-08"
  },
  {
@@ -271960,5 +271882,88 @@
   ],
   "textbookWordingReviewed": false,
   "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ati-adv-042-v3",
+  "questionFingerprint": "284f839b0bcda00be7149e135f468c2b63f872b38380ddce4ea06fd1683b16f9",
+  "status": "source-checked",
+  "learningObjective": "Recunoașterea pneumotoracelui în tensiune la ventilat.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 10,
+   "printedPages": [
+    228
+   ],
+   "pdfPages": [
+    46
+   ],
+   "section": "Complicațiile ventilației — Pneumotoracele"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Presiunea în căile aeriene crește inexplicabil.",
+    "evidenceLocation": "Kumar, p. 228, Complicațiile ventilației — Pneumotoracele"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Apar hipotensiune și tahicardie.",
+    "evidenceLocation": "Kumar, p. 228, Complicațiile ventilației — Pneumotoracele"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: presiunea crește.",
+    "evidenceLocation": "Kumar, p. 228, Complicațiile ventilației — Pneumotoracele"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: pe partea pneumotoracelui murmurul vezicular este de obicei diminuat, nu intensificat.",
+    "evidenceLocation": "Kumar, p. 228, Complicațiile ventilației — Pneumotoracele"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Un hemitorace este hipersonor.",
+    "evidenceLocation": "Kumar, p. 228, Complicațiile ventilației — Pneumotoracele"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T12:56:24.948Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează semnele."
+  },
+  "textbookExpressions": [
+   "hipersonoritatea",
+   "presiunii în căile aeri"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Corecție de cheie a ati-adv-042-v2: Versiunea v2 nota drept falsă opțiunea „deplasarea mediastinului spre partea sănătoasă”, pe baza unui pasaj care plasează deplasarea de partea pneumotoracelui; în pneumotoracele în tensiune mediastinul este împins spre partea opusă (fiziologie standard, ediția engleză: away from the affected side). Conform regulii din source-discrepancies (un pasaj contestat nu validează o cheie), opțiunea a fost înlocuită cu un distractor necontestat din același pasaj: murmurul vezicular este diminuat, nu intensificat. Celelalte opțiuni, enunțul, referința și expresiile sunt neschimbate.",
+  "rationalesRevisedAt": "2026-11-08",
+  "keyCorrection": {
+   "replaces": "ati-adv-042-v2",
+   "date": "2026-11-08",
+   "note": "Versiunea v2 nota drept falsă opțiunea „deplasarea mediastinului spre partea sănătoasă”, pe baza unui pasaj care plasează deplasarea de partea pneumotoracelui; în pneumotoracele în tensiune mediastinul este împins spre partea opusă (fiziologie standard, ediția engleză: away from the affected side). Conform regulii din source-discrepancies (un pasaj contestat nu validează o cheie), opțiunea a fost înlocuită cu un distractor necontestat din același pasaj: murmurul vezicular este diminuat, nu intensificat. Celelalte opțiuni, enunțul, referința și expresiile sunt neschimbate."
+  }
  }
 ]
