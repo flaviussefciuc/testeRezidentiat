@@ -264185,5 +264185,1391 @@
   ],
   "textbookWordingReviewed": false,
   "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "obstetrica-p26-001",
+  "questionFingerprint": "e41dc2a4241ea983ca268c558c5740c17a119cf67fc272b4b0140a085e877c94",
+  "status": "edition-checked",
+  "learningObjective": "Rândurile cardiovascular și hematologic din Tabelul 13-1: ce crește și ce scade în sarcină.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 13,
+   "printedPages": [
+    296
+   ],
+   "pdfPages": [
+    74
+   ],
+   "section": "Fiziologia sarcinii"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Volumul plasmatic crește cu ~50%, mai mult decât masa eritrocitară (~30%).",
+    "evidenceLocation": "Sinopsis, p. 296, Fiziologia sarcinii"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Rezistența vasculară sistemică scade (progesteron, circulația uteroplacentară), de aceea TA scade ușor la mijlocul sarcinii.",
+    "evidenceLocation": "Sinopsis, p. 296, Fiziologia sarcinii"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: masa eritrocitară crește (~30%), dar mai puțin decât volumul plasmatic (~50%); hematocritul scade prin diluție, nu prin scăderea eritrocitelor.",
+    "evidenceLocation": "Sinopsis, p. 296, Fiziologia sarcinii"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: fibrinogenul și factorii de coagulare cresc, iar sarcina este o stare de hipercoagulabilitate.",
+    "evidenceLocation": "Sinopsis, p. 296, Fiziologia sarcinii"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Frecvența cardiacă crește și contribuie, împreună cu volumul-bătaie, la creșterea debitului cardiac cu 40%.",
+    "evidenceLocation": "Sinopsis, p. 296, Fiziologia sarcinii"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:38.646Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează sensul modificărilor din tabel."
+  },
+  "textbookExpressions": [
+   "Tabelul 13-1",
+   "debitul cardiac"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "obstetrica-p26-002",
+  "questionFingerprint": "9007940e2e327900d6b3ad49fda6c3793c96face7576df4d26a469f6e43308ba",
+  "status": "edition-checked",
+  "learningObjective": "Aplicarea regulii Naegele: prima zi a ultimei menstruații + 7 zile − 3 luni (+ 1 an).",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 13,
+   "printedPages": [
+    295
+   ],
+   "pdfPages": [
+    73
+   ],
+   "section": "Fiziologia sarcinii"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: 17 august rezultă din scăderea a 2 luni; regula scade 3 luni.",
+    "evidenceLocation": "Sinopsis, p. 295, Fiziologia sarcinii"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: 10 iulie omite adăugarea celor 7 zile.",
+    "evidenceLocation": "Sinopsis, p. 295, Fiziologia sarcinii"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: 3 iulie rezultă din scăderea a 7 zile; regula adaugă 7 zile.",
+    "evidenceLocation": "Sinopsis, p. 295, Fiziologia sarcinii"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: 24 iulie adaugă 14 zile, confundând regula cu decalajul de 2 săptămâni dintre vârsta gestațională și cea embrionară.",
+    "evidenceLocation": "Sinopsis, p. 295, Fiziologia sarcinii"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "10 octombrie + 7 zile = 17 octombrie; − 3 luni = 17 iulie, anul următor.",
+    "evidenceLocation": "Sinopsis, p. 295, Fiziologia sarcinii"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:38.648Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii greșesc semnul sau mărimea corecțiilor."
+  },
+  "textbookExpressions": [
+   "Naegele",
+   "ultimei menstruații"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "obstetrica-p26-003",
+  "questionFingerprint": "4fbf93b7bd74bd146ba7ea2b3be531182c1cd4ed8e9f370d746a7914184a2e41",
+  "status": "edition-checked",
+  "learningObjective": "Momentul fiecărei investigații din Tabelul 13-3: prima vizită, 24–28 de săptămâni, 28 de săptămâni, sfârșitul trimestrului III.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 13,
+   "printedPages": [
+    298
+   ],
+   "pdfPages": [
+    76
+   ],
+   "section": "Îngrijirea prenatală"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Grupul sanguin, Rh-ul și screeningul anticorpilor se fac la prima vizită, pentru a identifica gravidele Rh-negative și izoimunizarea.",
+    "evidenceLocation": "Sinopsis, p. 298, Îngrijirea prenatală"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: cultura pentru streptococul de grup B se recoltează la sfârșitul sarcinii (32–37 de săptămâni), nu la 28.",
+    "evidenceLocation": "Sinopsis, p. 298, Îngrijirea prenatală"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Serologiile pentru sifilis, HIV și hepatita B (AgHBs) fac parte din bilanțul primei vizite, împreună cu hemoleucograma, titrul rubeolic și urocultura.",
+    "evidenceLocation": "Sinopsis, p. 298, Îngrijirea prenatală"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: la 24–28 de săptămâni se face screeningul cu 50 g (1 oră); testul cu 100 g (3 ore) urmează unui screening pozitiv.",
+    "evidenceLocation": "Sinopsis, p. 298, Îngrijirea prenatală"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Gravida Rh-negativă neimunizată primește imunoglobulină anti-D la 28 de săptămâni și în 72 de ore după nașterea unui copil Rh-pozitiv.",
+    "evidenceLocation": "Sinopsis, p. 298, Îngrijirea prenatală"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:38.648Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii mută investigațiile la alt moment al sarcinii."
+  },
+  "textbookExpressions": [
+   "Tabelul 13-3",
+   "Rh"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "obstetrica-p26-004",
+  "questionFingerprint": "979641ad885993adfa532e91949d6eeb99b905ad3144d35ba975fbc5b9423fe3",
+  "status": "edition-checked",
+  "learningObjective": "Tabelul 13-5: profilul trisomiei 18 față de trisomia 21 și de defectele de tub neural.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 13,
+   "printedPages": [
+    299
+   ],
+   "pdfPages": [
+    77
+   ],
+   "section": "Îngrijirea prenatală"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: în trisomia 18 AFP este scăzută; AFP crescută indică defect de tub neural.",
+    "evidenceLocation": "Sinopsis, p. 299, Îngrijirea prenatală"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: în trisomia 18 hCG este scăzut; hCG crescut aparține trisomiei 21.",
+    "evidenceLocation": "Sinopsis, p. 299, Îngrijirea prenatală"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: AFP crescută izolat, cu ceilalți markeri normali, indică defect de tub neural (sau de perete abdominal).",
+    "evidenceLocation": "Sinopsis, p. 299, Îngrijirea prenatală"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: AFP și estriolul scăzute, cu hCG și inhibină A crescute, sunt profilul trisomiei 21.",
+    "evidenceLocation": "Sinopsis, p. 299, Îngrijirea prenatală"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Trisomia 18: toți cei patru markeri sunt scăzuți (AFP, hCG, estriol și inhibină A).",
+    "evidenceLocation": "Sinopsis, p. 299, Îngrijirea prenatală"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:38.648Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii împrumută un marker din trisomia 21 sau din defectele de tub neural."
+  },
+  "textbookExpressions": [
+   "Tabelul 13-5",
+   "inhibina A"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "obstetrica-p26-005",
+  "questionFingerprint": "2167e3316afa7da09f86412a0a7f094f1835b88956889f3e4b65cf5fdce59dd2",
+  "status": "edition-checked",
+  "learningObjective": "Criteriile care transformă preeclampsia în preeclampsie cu semne severe, față de pragurile diagnostice.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 13,
+   "printedPages": [
+    301
+   ],
+   "pdfPages": [
+    79
+   ],
+   "section": "Complicațiile medicale ale sarcinii"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: pragul de severitate al trombocitopeniei este sub 100.000/mm³.",
+    "evidenceLocation": "Sinopsis, p. 301, Complicațiile medicale ale sarcinii"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "TA ≥160/110 mmHg definește forma severă (pragul diagnostic al preeclampsiei este 140/90).",
+    "evidenceLocation": "Sinopsis, p. 301, Complicațiile medicale ale sarcinii"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Edemul pulmonar este un semn de severitate.",
+    "evidenceLocation": "Sinopsis, p. 301, Complicațiile medicale ale sarcinii"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: 300 mg/24 h este pragul diagnostic al proteinuriei, nu un criteriu de severitate.",
+    "evidenceLocation": "Sinopsis, p. 301, Complicațiile medicale ale sarcinii"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Tulburările cerebrale sau vizuale nou apărute (cefalee, scotoame) sunt semne severe și prodrom al eclampsiei.",
+    "evidenceLocation": "Sinopsis, p. 301, Complicațiile medicale ale sarcinii"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:38.648Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii folosesc pragurile diagnostice drept criterii de severitate."
+  },
+  "textbookExpressions": [
+   "preeclampsie",
+   "HELLP"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "obstetrica-p26-006",
+  "questionFingerprint": "380120471bbc5ef01eb632229e91261afd3d49fcf0df187587f85c5bf92dad6b",
+  "status": "edition-checked",
+  "learningObjective": "Asocierile teratogen – malformație din Tabelul 13-7.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 13,
+   "printedPages": [
+    303
+   ],
+   "pdfPages": [
+    81
+   ],
+   "section": "Complicațiile medicale ale sarcinii"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Talidomida produce defecte de reducere a membrelor (focomelie).",
+    "evidenceLocation": "Sinopsis, p. 303, Complicațiile medicale ale sarcinii"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: anomaliile renale și oligoamniosul aparțin IECA; fenitoina dă sindromul hidantoinic fetal (hipoplazie unghială, dismorfism facial).",
+    "evidenceLocation": "Sinopsis, p. 303, Complicațiile medicale ale sarcinii"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: colorarea dinților este efectul tetraciclinei; fluorochinolonele afectează cartilajul.",
+    "evidenceLocation": "Sinopsis, p. 303, Complicațiile medicale ale sarcinii"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Izotretinoinul produce anomalii craniofaciale, cardiace și ale SNC și avort spontan.",
+    "evidenceLocation": "Sinopsis, p. 303, Complicațiile medicale ale sarcinii"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Warfarina produce anomalii osoase și cartilaginoase (hipoplazie nazală, epifize punctate) și ale SNC.",
+    "evidenceLocation": "Sinopsis, p. 303, Complicațiile medicale ale sarcinii"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:38.648Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii atribuie efectul altui medicament din tabel."
+  },
+  "textbookExpressions": [
+   "Tabelul 13-7",
+   "talidomida"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "obstetrica-p26-007",
+  "questionFingerprint": "d36235d4945b36b60d0b96abfb2f57c782e406cb05ce5b137df686780faf2494",
+  "status": "edition-checked",
+  "learningObjective": "Manifestările și conduita din Tabelul 13-8 pentru CMV, hepatita B, streptococul de grup B, sifilis și herpes.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 13,
+   "printedPages": [
+    304
+   ],
+   "pdfPages": [
+    82
+   ],
+   "section": "Complicațiile medicale ale sarcinii"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Infecția congenitală cu CMV produce microcefalie, calcificări periventriculare și hipoacuzie neurosenzorială.",
+    "evidenceLocation": "Sinopsis, p. 304, Complicațiile medicale ale sarcinii"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: sifilisul se tratează cu penicilină G, singura care previne sifilisul congenital; eritromicina nu este de elecție.",
+    "evidenceLocation": "Sinopsis, p. 304, Complicațiile medicale ale sarcinii"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Nou-născutul mamei cu AgHBs pozitiv primește imunoglobulină specifică și prima doză de vaccin în primele ore de viață.",
+    "evidenceLocation": "Sinopsis, p. 304, Complicațiile medicale ale sarcinii"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: leziunile herpetice active la naștere impun cezariana, pentru a evita herpesul neonatal.",
+    "evidenceLocation": "Sinopsis, p. 304, Complicațiile medicale ale sarcinii"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Colonizarea cu streptococ de grup B impune penicilină sau ampicilină intravenos în travaliu.",
+    "evidenceLocation": "Sinopsis, p. 304, Complicațiile medicale ale sarcinii"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:38.648Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii schimbă antibioticul și calea nașterii."
+  },
+  "textbookExpressions": [
+   "Tabelul 13-8",
+   "streptococ"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "obstetrica-p26-008",
+  "questionFingerprint": "dd1dedeb91ca585ade848a2a6ec139689b06e7e27a79b8c48fb7db6b30b3c71c",
+  "status": "edition-checked",
+  "learningObjective": "Tipurile de avort spontan: starea colului, eliminarea de țesut și viabilitatea.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 13,
+   "printedPages": [
+    306
+   ],
+   "pdfPages": [
+    84
+   ],
+   "section": "Complicațiile obstetricale ale sarcinii"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Avortul incomplet: o parte din produsul de concepție a fost eliminată, colul rămâne deschis; necesită evacuare (misoprostol sau chiuretaj).",
+    "evidenceLocation": "Sinopsis, p. 306, Complicațiile obstetricale ale sarcinii"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Amenințarea de avort: sângerare cu col închis și sarcină viabilă; conduita este expectativă.",
+    "evidenceLocation": "Sinopsis, p. 306, Complicațiile obstetricale ale sarcinii"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: sarcina oprită în evoluție are făt neviabil reținut, cu col închis și fără eliminare de țesut.",
+    "evidenceLocation": "Sinopsis, p. 306, Complicațiile obstetricale ale sarcinii"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Avortul complet: întregul produs de concepție a fost eliminat, colul s-a închis, sângerarea scade.",
+    "evidenceLocation": "Sinopsis, p. 306, Complicațiile obstetricale ale sarcinii"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: iminența de avort are colul deschis, fără eliminare de țesut încă; colul închis fără țesut eliminat este amenințarea de avort.",
+    "evidenceLocation": "Sinopsis, p. 306, Complicațiile obstetricale ale sarcinii"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:38.649Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii schimbă starea colului între tipuri vecine."
+  },
+  "textbookExpressions": [
+   "avort incomplet",
+   "misoprostol"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "obstetrica-p26-009",
+  "questionFingerprint": "e7ea5faa9e131578e692907c478787ee5f3bc4ceabe3111dd66be5163baede12",
+  "status": "edition-checked",
+  "learningObjective": "Consecințele oligoamniosului (hipoplazie pulmonară, deformări ale membrelor, compresia cordonului) față de cauzele lui.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 13,
+   "printedPages": [
+    307
+   ],
+   "pdfPages": [
+    85
+   ],
+   "section": "Complicațiile obstetricale ale sarcinii"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: macrosomia este consecința diabetului matern, care se asociază cu polihidramnios.",
+    "evidenceLocation": "Sinopsis, p. 307, Complicațiile obstetricale ale sarcinii"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: hidropsul fetal apare în anemia fetală (parvovirus B19, izoimunizare), nu în oligoamnios.",
+    "evidenceLocation": "Sinopsis, p. 307, Complicațiile obstetricale ale sarcinii"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: atrezia esofagiană este o cauză de polihidramnios (fătul nu înghite lichidul).",
+    "evidenceLocation": "Sinopsis, p. 307, Complicațiile obstetricale ale sarcinii"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: agenezia renală este o cauză a oligoamniosului (secvența Potter), nu o consecință.",
+    "evidenceLocation": "Sinopsis, p. 307, Complicațiile obstetricale ale sarcinii"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Lipsa lichidului împiedică dezvoltarea pulmonară: hipoplazie pulmonară, alături de contracturi ale membrelor și compresie de cordon.",
+    "evidenceLocation": "Sinopsis, p. 307, Complicațiile obstetricale ale sarcinii"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:38.649Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii confundă cauzele cu consecințele sau trec la polihidramnios."
+  },
+  "textbookExpressions": [
+   "oligoamnios",
+   "indexul lichidului amniotic"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "obstetrica-p26-010",
+  "questionFingerprint": "22d245a879b1ea99ce8d8b1925ac3b531eb2e37ff453f44c12e2cad2a2c4c89d",
+  "status": "edition-checked",
+  "learningObjective": "Etiologia RCIU simetrice (insultă precoce) față de cea asimetrică (insuficiență placentară tardivă).",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 13,
+   "printedPages": [
+    307
+   ],
+   "pdfPages": [
+    85
+   ],
+   "section": "Complicațiile obstetricale ale sarcinii"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: forma simetrică începe devreme în sarcină; debutul tardiv caracterizează forma asimetrică.",
+    "evidenceLocation": "Sinopsis, p. 307, Complicațiile obstetricale ale sarcinii"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Infecțiile congenitale (TORCH) din primul trimestru produc RCIU simetrică.",
+    "evidenceLocation": "Sinopsis, p. 307, Complicațiile obstetricale ale sarcinii"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: hipertensiunea cronică lucrează prin insuficiență placentară, deci dă forma asimetrică.",
+    "evidenceLocation": "Sinopsis, p. 307, Complicațiile obstetricale ale sarcinii"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Insulta precoce, globală (aneuploidii) reduce proporțional dimensiunile fetale, inclusiv craniul.",
+    "evidenceLocation": "Sinopsis, p. 307, Complicațiile obstetricale ale sarcinii"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: insuficiența placentară acționează tardiv și produce RCIU asimetrică, cu cruțarea craniului.",
+    "evidenceLocation": "Sinopsis, p. 307, Complicațiile obstetricale ale sarcinii"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:38.649Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii atribuie formei simetrice cauzele și momentul formei asimetrice."
+  },
+  "textbookExpressions": [
+   "RCIU",
+   "insuficiența placentară"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "obstetrica-p26-011",
+  "questionFingerprint": "c6264e6277a6399375fe7374f787759c0c373207c313d5c1eebb9ef9e44043b9",
+  "status": "edition-checked",
+  "learningObjective": "Clasele de tocolitice și limitele tocolizei (48 de ore pentru corticosteroizi, până la 34 de săptămâni).",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 13,
+   "printedPages": [
+    308
+   ],
+   "pdfPages": [
+    86
+   ],
+   "section": "Complicațiile obstetricale ale sarcinii"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: terbutalina este un agonist β-adrenergic (relaxează miometrul); un β-blocant nu este tocolitic.",
+    "evidenceLocation": "Sinopsis, p. 308, Complicațiile obstetricale ale sarcinii"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: tocoliza se face ~48 de ore, pentru a permite corticosteroizii, și nu după 34 de săptămâni.",
+    "evidenceLocation": "Sinopsis, p. 308, Complicațiile obstetricale ale sarcinii"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Indometacinul inhibă sinteza prostaglandinelor care declanșează contracțiile.",
+    "evidenceLocation": "Sinopsis, p. 308, Complicațiile obstetricale ale sarcinii"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: misoprostolul (PGE1) este uterotonic, folosit pentru maturarea colului, inducție și hemoragia postpartum.",
+    "evidenceLocation": "Sinopsis, p. 308, Complicațiile obstetricale ale sarcinii"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Nifedipina relaxează miometrul blocând canalele de calciu.",
+    "evidenceLocation": "Sinopsis, p. 308, Complicațiile obstetricale ale sarcinii"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:38.649Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează clasa farmacologică sau prelungesc tocoliza."
+  },
+  "textbookExpressions": [
+   "travaliul prematur",
+   "tocolitic"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "obstetrica-p26-012",
+  "questionFingerprint": "825b4761c249abc83bd0e228ef77bfea715fbe8a0af98b421ca3461349ed7954",
+  "status": "edition-checked",
+  "learningObjective": "Factorii de risc ai placentei previa față de cei ai dezlipirii de placentă.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 13,
+   "printedPages": [
+    309
+   ],
+   "pdfPages": [
+    87
+   ],
+   "section": "Complicațiile obstetricale ale sarcinii"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Multiparitatea, vârsta avansată, sarcina multiplă, fumatul și o placentă previa anterioară sunt factori de risc.",
+    "evidenceLocation": "Sinopsis, p. 309, Complicațiile obstetricale ale sarcinii"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: hipertensiunea și preeclampsia sunt factori de risc pentru dezlipirea de placentă.",
+    "evidenceLocation": "Sinopsis, p. 309, Complicațiile obstetricale ale sarcinii"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Cicatricea uterină (cezariană, chiuretaje) favorizează implantarea joasă și, în plus, placenta accreta.",
+    "evidenceLocation": "Sinopsis, p. 309, Complicațiile obstetricale ale sarcinii"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: traumatismul abdominal declanșează dezlipirea de placentă; sediul placentei se stabilește la implantare.",
+    "evidenceLocation": "Sinopsis, p. 309, Complicațiile obstetricale ale sarcinii"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: riscul crește cu paritatea și cu vârsta, nu la nulipara tânără.",
+    "evidenceLocation": "Sinopsis, p. 309, Complicațiile obstetricale ale sarcinii"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:38.649Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii împrumută factorii de risc ai dezlipirii de placentă."
+  },
+  "textbookExpressions": [
+   "placenta previa",
+   "cezariană"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "obstetrica-p26-013",
+  "questionFingerprint": "90f7ddb8768ae01661f29e648fe5598d4a88faa9b48bcfddd731d03120192589",
+  "status": "edition-checked",
+  "learningObjective": "Gradele de invazie placentară (accreta, increta, percreta), factorii de risc și tratamentul.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 13,
+   "printedPages": [
+    309
+   ],
+   "pdfPages": [
+    87
+   ],
+   "section": "Complicațiile obstetricale ale sarcinii"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: riscul crește cu cezariana anterioară și cu placenta previa (cicatrice și inserție joasă).",
+    "evidenceLocation": "Sinopsis, p. 309, Complicațiile obstetricale ale sarcinii"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Accreta: placenta aderă direct la miometru, în lipsa deciduei bazale, fără invazie.",
+    "evidenceLocation": "Sinopsis, p. 309, Complicațiile obstetricale ale sarcinii"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: încercarea de extragere manuală produce hemoragie masivă; tratamentul este de regulă histerectomia la cezariană.",
+    "evidenceLocation": "Sinopsis, p. 309, Complicațiile obstetricale ale sarcinii"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Percreta: vilozitățile străbat miometrul și seroasa, putând invada vezica urinară.",
+    "evidenceLocation": "Sinopsis, p. 309, Complicațiile obstetricale ale sarcinii"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Increta: vilozitățile pătrund în grosimea miometrului.",
+    "evidenceLocation": "Sinopsis, p. 309, Complicațiile obstetricale ale sarcinii"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:38.649Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii schimbă factorii de risc și tratamentul."
+  },
+  "textbookExpressions": [
+   "placenta accreta",
+   "miometru"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "obstetrica-p26-014",
+  "questionFingerprint": "47dfa60d911a609075e46e96da8db05cebbd6f6f24992c903d369f46262b62ee",
+  "status": "edition-checked",
+  "learningObjective": "Factorii de risc ai dezlipirii de placentă și decizia de naștere.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 13,
+   "printedPages": [
+    310
+   ],
+   "pdfPages": [
+    88
+   ],
+   "section": "Complicațiile obstetricale ale sarcinii"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: hematomul retroplacentar scapă frecvent ecografiei; diagnosticul este clinic.",
+    "evidenceLocation": "Sinopsis, p. 310, Complicațiile obstetricale ale sarcinii"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Vasospasmul indus de cocaină și traumatismul abdominal (accident rutier) pot declanșa dezlipirea.",
+    "evidenceLocation": "Sinopsis, p. 310, Complicațiile obstetricale ale sarcinii"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: cezariana anterioară este factor de risc pentru placenta previa și accreta, nu pentru dezlipire.",
+    "evidenceLocation": "Sinopsis, p. 310, Complicațiile obstetricale ale sarcinii"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Hipertensiunea cronică și preeclampsia sunt principalii factori de risc.",
+    "evidenceLocation": "Sinopsis, p. 310, Complicațiile obstetricale ale sarcinii"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: suferința fetală sau instabilitatea maternă impun nașterea de urgență, de regulă prin cezariană; tocoliza nu are loc aici.",
+    "evidenceLocation": "Sinopsis, p. 310, Complicațiile obstetricale ale sarcinii"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:38.649Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii împrumută factorii de risc ai placentei previa și temporizează nașterea."
+  },
+  "textbookExpressions": [
+   "dezlipirea prematură de placentă",
+   "CID"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "obstetrica-p26-015",
+  "questionFingerprint": "9de09e5914a99f3755cc795c8e127136653e6a208e665c7dc4f9c37ef1220efd",
+  "status": "edition-checked",
+  "learningObjective": "Componentele scorului Bishop (dilatație, ștergere, stație, consistență, poziție) și rolul lui înaintea inducției.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 13,
+   "printedPages": [
+    312
+   ],
+   "pdfPages": [
+    90
+   ],
+   "section": "Travaliul și nașterea"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: contracțiile nu fac parte din scor; scorul descrie maturitatea colului înaintea inducției, iar un scor mare prezice reușita nașterii vaginale.",
+    "evidenceLocation": "Sinopsis, p. 312, Travaliul și nașterea"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Ștergerea (scurtarea) colului este o componentă a scorului.",
+    "evidenceLocation": "Sinopsis, p. 312, Travaliul și nașterea"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Stația prezentației față de spinele ischiatice intră în scor.",
+    "evidenceLocation": "Sinopsis, p. 312, Travaliul și nașterea"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Dilatația colului este o componentă a scorului.",
+    "evidenceLocation": "Sinopsis, p. 312, Travaliul și nașterea"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Consistența colului (fermă, medie, moale) intră în scor, alături de poziția lui.",
+    "evidenceLocation": "Sinopsis, p. 312, Travaliul și nașterea"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:38.649Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul introduce un parametru al travaliului, nu al colului."
+  },
+  "textbookExpressions": [
+   "scorul Bishop",
+   "oxitocin"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "obstetrica-p26-016",
+  "questionFingerprint": "01a6588d0f2375c1dd1c3d2335d40e1a89431d86894ceb99d4798a88d11d2cac",
+  "status": "edition-checked",
+  "learningObjective": "Duratele normale ale travaliului: faza latentă la nulipare și multipare, stadiul al treilea, limitele stadiilor.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 13,
+   "printedPages": [
+    313
+   ],
+   "pdfPages": [
+    91
+   ],
+   "section": "Travaliul și nașterea"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Faza latentă este prelungită peste 20 de ore la nulipare.",
+    "evidenceLocation": "Sinopsis, p. 313, Travaliul și nașterea"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "La multipare, faza latentă prelungită depășește 14 ore.",
+    "evidenceLocation": "Sinopsis, p. 313, Travaliul și nașterea"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Stadiul al treilea (nașterea placentei) durează normal sub 30 de minute; peste 30 de minute înseamnă retenție placentară.",
+    "evidenceLocation": "Sinopsis, p. 313, Travaliul și nașterea"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: faza activă începe la 6 cm; dilatația de 4 cm aparține încă fazei latente.",
+    "evidenceLocation": "Sinopsis, p. 313, Travaliul și nașterea"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: stadiul al doilea se încheie cu nașterea fătului; nașterea placentei încheie stadiul al treilea.",
+    "evidenceLocation": "Sinopsis, p. 313, Travaliul și nașterea"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:38.650Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii mută pragurile de dilatație și limitele stadiilor."
+  },
+  "textbookExpressions": [
+   "faza latentă",
+   "nulipare"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "obstetrica-p26-017",
+  "questionFingerprint": "8fa917b0b949c850bf9c1445444cb778196e32ac0bf00ab51ce7d8fb064aae70",
+  "status": "edition-checked",
+  "learningObjective": "Definiția, cauzele și factorii de risc ai hemoragiei postpartum.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 13,
+   "printedPages": [
+    315
+   ],
+   "pdfPages": [
+    93
+   ],
+   "section": "Travaliul și nașterea"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Supradistensia uterină (sarcină multiplă, polihidramnios, macrosomie) epuizează contractilitatea miometrului.",
+    "evidenceLocation": "Sinopsis, p. 315, Travaliul și nașterea"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Hemoragia postpartum înseamnă peste 500 mL după naștere vaginală și peste 1.000 mL după cezariană.",
+    "evidenceLocation": "Sinopsis, p. 315, Travaliul și nașterea"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Travaliul prelungit, oxitocina în travaliu și corioamniotita predispun la atonie.",
+    "evidenceLocation": "Sinopsis, p. 315, Travaliul și nașterea"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: atonia uterină este cauza cea mai frecventă; coagulopatia este rară.",
+    "evidenceLocation": "Sinopsis, p. 315, Travaliul și nașterea"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Cele patru mecanisme: tonus (atonie), țesut (resturi placentare), traumatism (lacerații, ruptură, inversiune) și trombină (coagulopatie).",
+    "evidenceLocation": "Sinopsis, p. 315, Travaliul și nașterea"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:38.650Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul schimbă cauza cea mai frecventă."
+  },
+  "textbookExpressions": [
+   "hemoragia postpartum",
+   "atonia uterină"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "obstetrica-p26-018",
+  "questionFingerprint": "1b0a5c9fed996eac116ff5137e062ff6e620354abddbff9645c07796a21eebfc",
+  "status": "edition-checked",
+  "learningObjective": "Secvența terapeutică a atoniei uterine: masaj și oxitocină, apoi celelalte uterotonice, apoi măsurile invazive.",
+  "reference": {
+   "book": "Sinopsis",
+   "edition": "Sinopsis de medicină, ediția pentru rezidențiat MG 2025",
+   "chapter": 13,
+   "printedPages": [
+    315
+   ],
+   "pdfPages": [
+    93
+   ],
+   "section": "Travaliul și nașterea"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: embolizarea este o măsură de linia a doua, la paciente stabile, după eșecul uterotonicelor.",
+    "evidenceLocation": "Sinopsis, p. 315, Travaliul și nașterea"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Masajul uterin bimanual și oxitocina i.v. sunt prima măsură; urmează metilergometrina, carboprostul sau misoprostolul.",
+    "evidenceLocation": "Sinopsis, p. 315, Travaliul și nașterea"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: ligatura arterelor uterine este o măsură chirurgicală după eșecul uterotonicelor.",
+    "evidenceLocation": "Sinopsis, p. 315, Travaliul și nașterea"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: histerectomia este ultima soluție, în hemoragia refractară.",
+    "evidenceLocation": "Sinopsis, p. 315, Travaliul și nașterea"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: tamponamentul cu balon urmează uterotonicelor, nu le precede.",
+    "evidenceLocation": "Sinopsis, p. 315, Travaliul și nașterea"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-08T11:27:38.650Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt treptele ulterioare ale algoritmului."
+  },
+  "textbookExpressions": [
+   "oxitocina",
+   "atonie"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
  }
 ]
