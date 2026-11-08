@@ -215712,7 +215712,7 @@
  },
  {
   "questionId": "pediatrie-adv-006-v2",
-  "questionFingerprint": "31fdc92c4f2656a62c73354a5e3165915f4d675a54b4a73047010e6dc8d7d066",
+  "questionFingerprint": "4713526def90a6b35cdc154a6e5ed8fddf259b6f6c0b759d21ed3f16fab4950b",
   "status": "source-checked",
   "learningObjective": "Pertussisul la sugar.",
   "reference": {
@@ -215755,7 +215755,7 @@
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: vărsătura posttusivă apare în faza paroxistică; la sugarul mic apneea poate fi singurul semn.",
     "evidenceLocation": "Sinopsis, p. 217, Probleme pulmonare"
    }
   ],
@@ -215773,7 +215773,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.711Z",
+  "reviewedAt": "2026-11-08T11:56:49.248Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -215784,7 +215784,8 @@
    "Apneea poate fi singura"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-006: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-006: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-007-v2",
@@ -215867,7 +215868,7 @@
  },
  {
   "questionId": "pediatrie-adv-009-v2",
-  "questionFingerprint": "2156d978297c367dea076a3c5887ffb81b6cba74d618cfaa2ff38468853ce24f",
+  "questionFingerprint": "95986aca8e5289fb71a3f1477ba39279a645b8b48f7a42e0adfd444a779de593",
   "status": "source-checked",
   "learningObjective": "Regula celor 2 și malrotația.",
   "reference": {
@@ -215892,7 +215893,7 @@
    {
     "index": 1,
     "verdict": "correct",
-    "rationale": "~60 cm.",
+    "rationale": "Diverticulul se află de obicei la circa 60 cm de valva ileocecală.",
     "evidenceLocation": "Sinopsis, p. 221, Tulburări gastro-intestinale"
    },
    {
@@ -215904,7 +215905,7 @@
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: diverticulul Meckel este de două ori mai frecvent la băieți.",
     "evidenceLocation": "Sinopsis, p. 221, Tulburări gastro-intestinale"
    },
    {
@@ -215928,7 +215929,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.713Z",
+  "reviewedAt": "2026-11-08T11:56:49.250Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -215940,7 +215941,8 @@
    "vărsături bilioase"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-009: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-009: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-012-v2",
@@ -216100,7 +216102,7 @@
  },
  {
   "questionId": "pediatrie-adv-015-v2",
-  "questionFingerprint": "7ae8cd594c3258e7e0f67c3a133487b323fee731eb6b7e3a009cb691928fe2f7",
+  "questionFingerprint": "02a8a32c526ab479d6cc8ce9f9f114d0dbc69102dc73147e118c006067153408",
   "status": "source-checked",
   "learningObjective": "Epidemiologia cardiopatiilor congenitale.",
   "reference": {
@@ -216119,13 +216121,13 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: persistența canalului arterial este mai rară decât defectul septal ventricular.",
     "evidenceLocation": "Sinopsis, p. 212, Cardiologie pediatrică"
    },
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: transpoziția este cea mai frecventă cauză de cianoză la nou-născut, dar nu cea mai frecventă cardiopatie.",
     "evidenceLocation": "Sinopsis, p. 212, Cardiologie pediatrică"
    },
    {
@@ -216137,13 +216139,13 @@
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: tetralogia Fallot este cardiopatia cianogenă cea mai frecventă, nu cardiopatia cea mai frecventă în general.",
     "evidenceLocation": "Sinopsis, p. 212, Cardiologie pediatrică"
    },
    {
     "index": 4,
     "verdict": "correct",
-    "rationale": "DSV.",
+    "rationale": "Defectul septal ventricular este cea mai frecventă cardiopatie congenitală.",
     "evidenceLocation": "Sinopsis, p. 212, Cardiologie pediatrică"
    }
   ],
@@ -216161,7 +216163,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.715Z",
+  "reviewedAt": "2026-11-08T11:56:49.250Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -216172,11 +216174,12 @@
    "Cel mai frecvent defect cardiac"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-015: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-015: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-017-v2",
-  "questionFingerprint": "ad296c75ceb68e97e64c02eb6c7513af92c12a6501af5e545bb090a096f90619",
+  "questionFingerprint": "d7b702e470a7bcb3e3916b6e0c672099abf66f8d1d104c8a4fa6af25a0850210",
   "status": "source-checked",
   "learningObjective": "Transpoziția marilor vase.",
   "reference": {
@@ -216207,7 +216210,7 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: în transpoziție canalul trebuie menținut deschis cu prostaglandină E; închiderea lui agravează cianoza.",
     "evidenceLocation": "Sinopsis, p. 214, Cardiologie pediatrică"
    },
    {
@@ -216237,7 +216240,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.716Z",
+  "reviewedAt": "2026-11-08T11:56:49.250Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -216249,11 +216252,12 @@
    "prostaglandină E"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-017: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-017: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-018-v2",
-  "questionFingerprint": "63079b5b2ac379289bc7d1ea7e5a543c1f0d28d963afc722b05ac325693935e4",
+  "questionFingerprint": "f6b9d2898977e44e03eb5cd7adfdba634d9ee32c78173324b40683edf8570047",
   "status": "source-checked",
   "learningObjective": "Criterii și tratament.",
   "reference": {
@@ -216284,7 +216288,7 @@
    {
     "index": 2,
     "verdict": "correct",
-    "rationale": "25%.",
+    "rationale": "Fără tratament, vasculita coronariană (anevrismele) apare la circa 25% dintre copii.",
     "evidenceLocation": "Sinopsis, p. 215, Cardiologie pediatrică"
    },
    {
@@ -216314,7 +216318,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.716Z",
+  "reviewedAt": "2026-11-08T11:56:49.250Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -216326,7 +216330,8 @@
    "25% dintre pacienţi"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-018: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-018: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-020-v2",
@@ -216409,7 +216414,7 @@
  },
  {
   "questionId": "pediatrie-adv-021-v2",
-  "questionFingerprint": "d2a511179ed6f1105001bb2bf6cf265b2f08f38d0a438a38179998fb3d7f4552",
+  "questionFingerprint": "30da263f205d46cd33e0c4a27f2e86b5429bdcd36b9c253681b173dede9fff3b",
   "status": "source-checked",
   "learningObjective": "Canalul AV comun.",
   "reference": {
@@ -216440,7 +216445,7 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: defectele de canal atrioventricular sunt șunturi stânga–dreapta, nedependente de canalul arterial.",
     "evidenceLocation": "Sinopsis, p. 215, Cardiologie pediatrică"
    },
    {
@@ -216470,7 +216475,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.718Z",
+  "reviewedAt": "2026-11-08T11:56:49.250Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -216482,11 +216487,12 @@
    "deviaţie axială stângă"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-021: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-021: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-023-v2",
-  "questionFingerprint": "0abba52c9a808ff0779ff62cbd487fbccdccd9b98449d64bf955e60c7352acf2",
+  "questionFingerprint": "fa51f20b33373d6c71f300109ac8d3d07f3255e032d4329a78d82e9cdcd156f2",
   "status": "source-checked",
   "learningObjective": "Diagnosticul FC.",
   "reference": {
@@ -216513,7 +216519,7 @@
    {
     "index": 1,
     "verdict": "correct",
-    "rationale": "DNaza.",
+    "rationale": "DNaza recombinantă scindează ADN-ul din secreții și le scade vâscozitatea.",
     "evidenceLocation": "Sinopsis, p. 219, 218, Probleme pulmonare"
    },
    {
@@ -216549,7 +216555,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.719Z",
+  "reviewedAt": "2026-11-08T11:56:49.250Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -216561,7 +216567,8 @@
    "dezoxiribonucleaza"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-023: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-023: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-024-v2",
@@ -216719,7 +216726,7 @@
  },
  {
   "questionId": "pediatrie-adv-026-v2",
-  "questionFingerprint": "3eff35977013317063eb1a438322d140b37aff2f3ca693ed2593b9a8e52f8994",
+  "questionFingerprint": "63484f0ecc7c3696e4f35b7e3d05e6ce0436f39ef524180e6e3bae42adf29ac5",
   "status": "source-checked",
   "learningObjective": "Diagnosticul bolii Hirschsprung.",
   "reference": {
@@ -216738,7 +216745,7 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: ecografia pilorului diagnostichează stenoza pilorică.",
     "evidenceLocation": "Sinopsis, p. 220, Tulburări gastro-intestinale"
    },
    {
@@ -216750,19 +216757,19 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: testul sudorii diagnostichează fibroza chistică.",
     "evidenceLocation": "Sinopsis, p. 220, Tulburări gastro-intestinale"
    },
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: scanarea cu techneţiu diagnostichează diverticulul Meckel.",
     "evidenceLocation": "Sinopsis, p. 220, Tulburări gastro-intestinale"
    },
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: tranzitul gastric nu explorează colonul distal; diagnosticul cere biopsie rectală.",
     "evidenceLocation": "Sinopsis, p. 220, Tulburări gastro-intestinale"
    }
   ],
@@ -216780,7 +216787,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.720Z",
+  "reviewedAt": "2026-11-08T11:56:49.251Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -216791,7 +216798,8 @@
    "absenţa ganglionilor"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-026: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-026: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-027-v2",
@@ -216872,7 +216880,7 @@
  },
  {
   "questionId": "pediatrie-adv-029-v2",
-  "questionFingerprint": "a075b03df615ebb142c6d36fb68d2b43ce871cc27c1291bf37a8d1603bf72799",
+  "questionFingerprint": "fab6a4abb388309f07c916b440ed27283cc81a1057185d50f375b639e96f1ce9",
   "status": "source-checked",
   "learningObjective": "Tumora Wilms versus neuroblastom.",
   "reference": {
@@ -216893,7 +216901,7 @@
    {
     "index": 0,
     "verdict": "correct",
-    "rationale": "<4 ani.",
+    "rationale": "Tumora Wilms este o tumoră renală malignă a copilului mic, de obicei sub 4 ani.",
     "evidenceLocation": "Sinopsis, p. 221, 222, Probleme genitourinare"
    },
    {
@@ -216935,7 +216943,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.722Z",
+  "reviewedAt": "2026-11-08T11:56:49.251Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -216947,7 +216955,8 @@
    "nefrectomie"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-029: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-029: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-031-v2",
@@ -217106,7 +217115,7 @@
  },
  {
   "questionId": "pediatrie-adv-033-v2",
-  "questionFingerprint": "d952dc1f16e952868faa31c939c2e6bd2f52ec2dc39bb1a4ec05986d676c6376",
+  "questionFingerprint": "00605ee40cab7839150724075ca9fbbd717ab6697a7587f6ecd36702615c8744",
   "status": "source-checked",
   "learningObjective": "Neuroblastomul.",
   "reference": {
@@ -217143,7 +217152,7 @@
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: markerii urinari sunt acidul vanilmandelic și cel homovanilic.",
     "evidenceLocation": "Sinopsis, p. 224, Hematologie și oncologie"
    },
    {
@@ -217167,7 +217176,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.724Z",
+  "reviewedAt": "2026-11-08T11:56:49.251Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -217179,7 +217188,8 @@
    "vanilmandelic"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-033: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-033: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-035-v2",
@@ -217337,7 +217347,7 @@
  },
  {
   "questionId": "pediatrie-adv-037-v2",
-  "questionFingerprint": "e8cac8e90adb0097423b1dbce75270e42ff844bd23df31dc0f4cef80a687c3d3",
+  "questionFingerprint": "374589ccff58b3f5fdbcb794d9156b12336713a7577b0f80439532edd5921748",
   "status": "source-checked",
   "learningObjective": "Screeningul și prevenția DTN.",
   "reference": {
@@ -217374,13 +217384,13 @@
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: diagnosticul prenatal se bazează pe AFP crescută și ecografie; testul sudorii este al fibrozei chistice.",
     "evidenceLocation": "Sinopsis, p. 226, Neurologie pediatrică"
    },
    {
     "index": 4,
     "verdict": "correct",
-    "rationale": "Folat.",
+    "rationale": "Suplimentarea cu acid folic înainte de concepție scade riscul de defecte de tub neural.",
     "evidenceLocation": "Sinopsis, p. 226, Neurologie pediatrică"
    }
   ],
@@ -217398,7 +217408,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.725Z",
+  "reviewedAt": "2026-11-08T11:56:49.251Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -217410,11 +217420,12 @@
    "folat"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-037: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-037: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-038-v2",
-  "questionFingerprint": "048699e2d92ac151a82d636063c0937455beb20121c7aa83c693b1a361e655fa",
+  "questionFingerprint": "79b8a3625f6bf79e92232847381ea4a953c723fc7c2c49f6ddca7fe7ffaaff0f",
   "status": "source-checked",
   "learningObjective": "Tipurile de paralizie cerebrală.",
   "reference": {
@@ -217445,19 +217456,19 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: placa neuromusculară nu este afectată; leziunea este cerebrală.",
     "evidenceLocation": "Sinopsis, p. 226, Neurologie pediatrică"
    },
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: lezarea cerebelului produce forma ataxică.",
     "evidenceLocation": "Sinopsis, p. 226, Neurologie pediatrică"
    },
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: paralizia cerebrală este o leziune a creierului imatur, nu a nervilor periferici.",
     "evidenceLocation": "Sinopsis, p. 226, Neurologie pediatrică"
    }
   ],
@@ -217475,7 +217486,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.726Z",
+  "reviewedAt": "2026-11-08T11:56:49.251Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -217486,11 +217497,12 @@
    "tracturilor piramidale"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-038: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-038: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-040-v2",
-  "questionFingerprint": "97c7de33e99b941788984ff6aeb5836618f40cc67c17639263945f0c265f1541",
+  "questionFingerprint": "5e70006bbb62c3fce5d698ff834198aafce0b3646d386cf6ba6d19fcb6cb3db6",
   "status": "source-checked",
   "learningObjective": "Epifizioliza.",
   "reference": {
@@ -217523,7 +217535,7 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: hamul Pavlik tratează displazia de dezvoltare a șoldului la sugar.",
     "evidenceLocation": "Sinopsis, p. 227, 228, Ortopedie pediatrică"
    },
    {
@@ -217553,7 +217565,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.727Z",
+  "reviewedAt": "2026-11-08T11:56:49.252Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -217565,11 +217577,12 @@
    "fixare profilac"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-040: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-040: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-041-v2",
-  "questionFingerprint": "d5d20fb08540e702aa94d7614dc1392e7fc4fc9869a8b51250c0f985c015ce5f",
+  "questionFingerprint": "b1e9a310c42a4272fb76983d21795fc751bcdbb4762cf8dff72bb8b19165ac47",
   "status": "source-checked",
   "learningObjective": "Definiția bolii Perthes.",
   "reference": {
@@ -217606,7 +217619,7 @@
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: boala Perthes este necroza avasculară a epifizei femurale, nu o fractură.",
     "evidenceLocation": "Sinopsis, p. 228, Ortopedie pediatrică"
    },
    {
@@ -217630,7 +217643,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.728Z",
+  "reviewedAt": "2026-11-08T11:56:49.252Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -217641,7 +217654,8 @@
    "NAV a epifizei"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-041: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-041: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-042-v2",
@@ -217722,7 +217736,7 @@
  },
  {
   "questionId": "pediatrie-adv-043-v2",
-  "questionFingerprint": "077f2d6b3028197f34c0e18cf325a6c712a103b9cd47bfa7b2527cd18e65858b",
+  "questionFingerprint": "63379b15da9a410cf5eefd7f3e801513bc58c6a37caa401800c3039a0265c73b",
   "status": "source-checked",
   "learningObjective": "Duchenne versus Becker.",
   "reference": {
@@ -217755,7 +217769,7 @@
    {
     "index": 2,
     "verdict": "correct",
-    "rationale": "Gower.",
+    "rationale": "Slăbiciunea musculaturii proximale face copilul să se ridice de pe sol sprijinindu-și mâinile pe coapse (manevra Gower).",
     "evidenceLocation": "Sinopsis, p. 229, 230, Neurologie pediatrică"
    },
    {
@@ -217785,7 +217799,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.729Z",
+  "reviewedAt": "2026-11-08T11:56:49.252Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -217797,7 +217811,8 @@
    "distrofină"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-043: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-043: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-044-v2",
@@ -217878,7 +217893,7 @@
  },
  {
   "questionId": "pediatrie-adv-045-v2",
-  "questionFingerprint": "1c9a02b5ac6fa45ec8a799d721270c1f1fe127e1e5d9c523686644997e543903",
+  "questionFingerprint": "0f741787399bc05a8c4b6775b9fed41f26af785eb044aa28b1b486206cf3413b",
   "status": "source-checked",
   "learningObjective": "Sensibilitatea parametrilor de creștere.",
   "reference": {
@@ -217903,25 +217918,25 @@
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: înălțimea scade după greutate.",
     "evidenceLocation": "Sinopsis, p. 231, Dezvoltare și sănătate"
    },
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: stadiul Tanner descrie pubertatea, nu deficitul de creștere al sugarului.",
     "evidenceLocation": "Sinopsis, p. 231, Dezvoltare și sănătate"
    },
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: secvența clasică este greutatea, apoi înălțimea, apoi circumferința craniană.",
     "evidenceLocation": "Sinopsis, p. 231, Dezvoltare și sănătate"
    },
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: circumferința craniană este afectată ultima.",
     "evidenceLocation": "Sinopsis, p. 231, Dezvoltare și sănătate"
    }
   ],
@@ -217939,7 +217954,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.730Z",
+  "reviewedAt": "2026-11-08T11:56:49.252Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -217950,7 +217965,8 @@
    "Greutatea este cea mai sensibilă"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-045: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-045: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-046-v2",
@@ -218033,7 +218049,7 @@
  },
  {
   "questionId": "pediatrie-adv-048-v2",
-  "questionFingerprint": "0cffd2c05b4b32904bb48655d6963a36301aaa4c88377a5653f43198db6523b1",
+  "questionFingerprint": "ffe3c8d96610b9812b5506ddffa77adb0055bd6cf4e7461d3a1af028493305aa",
   "status": "source-checked",
   "learningObjective": "Reflexele arhaice.",
   "reference": {
@@ -218052,31 +218068,31 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: reflexul Moro dispare tipic la 3 luni.",
     "evidenceLocation": "Sinopsis, p. 233, Dezvoltare și sănătate"
    },
    {
     "index": 1,
     "verdict": "correct",
-    "rationale": "3 luni.",
+    "rationale": "Reflexul Moro dispare de obicei în jurul vârstei de 3 luni.",
     "evidenceLocation": "Sinopsis, p. 233, Dezvoltare și sănătate"
    },
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: dispariția are loc la 3 luni.",
     "evidenceLocation": "Sinopsis, p. 233, Dezvoltare și sănătate"
    },
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: dispare mult mai devreme, la 3 luni.",
     "evidenceLocation": "Sinopsis, p. 233, Dezvoltare și sănătate"
    },
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: persistența lui la 9 luni ar fi patologică; dispare la 3 luni.",
     "evidenceLocation": "Sinopsis, p. 233, Dezvoltare și sănătate"
    }
   ],
@@ -218094,7 +218110,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.731Z",
+  "reviewedAt": "2026-11-08T11:56:49.252Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -218105,11 +218121,12 @@
    "Moro"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-048: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-048: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-049-v2",
-  "questionFingerprint": "f559bbad295d47a8b05cab603f65d9cf999b1cff8aa4ecfaef2316dea5e52319",
+  "questionFingerprint": "13e7d5063dbe5eb7604a37c9e197643327f83fd93a6eec7f3212c14d754e8d51",
   "status": "source-checked",
   "learningObjective": "Trisomia 21.",
   "reference": {
@@ -218142,7 +218159,7 @@
    {
     "index": 2,
     "verdict": "correct",
-    "rationale": "~1/700.",
+    "rationale": "Sindromul Down apare la aproximativ 1 din 700 de nașteri.",
     "evidenceLocation": "Sinopsis, p. 240, 239, Patologii genetice"
    },
    {
@@ -218172,7 +218189,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.732Z",
+  "reviewedAt": "2026-11-08T11:56:49.252Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -218184,11 +218201,12 @@
    "plică simiană"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-049: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-049: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-051-v2",
-  "questionFingerprint": "51dc14d3fafc5bfde51474153dbbac0391fd6d105a26660dddb56bf7b1cba819",
+  "questionFingerprint": "19731413eee788f77c4a34b8abacf862ff4fd39fcd354d0e73ee803110aa15a3",
   "status": "source-checked",
   "learningObjective": "Cronologia conjunctivitei neonatale.",
   "reference": {
@@ -218207,7 +218225,7 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: conjunctivita gonococică apare în zilele 2–7.",
     "evidenceLocation": "Sinopsis, p. 241, Boli infecțioase"
    },
    {
@@ -218249,7 +218267,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.733Z",
+  "reviewedAt": "2026-11-08T11:56:49.252Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -218261,11 +218279,12 @@
    "eritromicină"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-051: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-051: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-052-v2",
-  "questionFingerprint": "968dff51037c7b7d0cede36b97d10018ddc464a53a2dd1c6643e8c8c8fdb7f16",
+  "questionFingerprint": "78847da45be3b8bab2dc7959b546d1aa218f26f6d7b4766c08996c469471d8bf",
   "status": "source-checked",
   "learningObjective": "Etiologia exantemelor.",
   "reference": {
@@ -218290,13 +218309,13 @@
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: virusul rujeolic produce rujeola.",
     "evidenceLocation": "Sinopsis, p. 242, Boli infecțioase"
    },
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: virusul rubeolic produce rubeola.",
     "evidenceLocation": "Sinopsis, p. 242, Boli infecțioase"
    },
    {
@@ -218326,7 +218345,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.733Z",
+  "reviewedAt": "2026-11-08T11:56:49.252Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -218337,7 +218356,8 @@
    "Parvovirus B19"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-052: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-052: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-053-v2",
@@ -218420,7 +218440,7 @@
  },
  {
   "questionId": "pediatrie-adv-058-v2",
-  "questionFingerprint": "6ac242bc88ffa0684e3ed82aa4f5ec75720af5091c9a848718edf40b65a062ea",
+  "questionFingerprint": "289b88ccef0f7691a7b92108154be2b55176d7c467473a37bd7afecfd839a3a9",
   "status": "source-checked",
   "learningObjective": "Recomandările de la 6 luni.",
   "reference": {
@@ -218463,7 +218483,7 @@
    {
     "index": 4,
     "verdict": "correct",
-    "rationale": "Cana.",
+    "rationale": "La 6 luni se începe antrenamentul de a bea din cană.",
     "evidenceLocation": "Sinopsis, p. 234, Dezvoltare și sănătate"
    }
   ],
@@ -218481,7 +218501,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.736Z",
+  "reviewedAt": "2026-11-08T11:56:49.252Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -218493,11 +218513,12 @@
    "Frică de străini"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-058: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-058: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-059-v2",
-  "questionFingerprint": "727913a679ef077b001b1c30869d2b0b3f6878ac2291bd6041259437e04d290f",
+  "questionFingerprint": "bdeb720f1b3ee68f388a5fc44917ff6f34455621f343720888b0b0948ff0fc64",
   "status": "source-checked",
   "learningObjective": "Screeningul pe vârste.",
   "reference": {
@@ -218518,13 +218539,13 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: în schema de screening, testul Papanicolau apare la 12 ani, doar la fetele active sexual.",
     "evidenceLocation": "Sinopsis, p. 235, 234, Dezvoltare și sănătate"
    },
    {
     "index": 1,
     "verdict": "correct",
-    "rationale": "6 ani.",
+    "rationale": "Consilierea pentru prevenirea obezității începe la 6 ani.",
     "evidenceLocation": "Sinopsis, p. 235, 234, Dezvoltare și sănătate"
    },
    {
@@ -218536,13 +218557,13 @@
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: la fete, hemoglobina și hematocritul se repetă de la 14 ani.",
     "evidenceLocation": "Sinopsis, p. 235, 234, Dezvoltare și sănătate"
    },
    {
     "index": 4,
     "verdict": "correct",
-    "rationale": "14 ani.",
+    "rationale": "La fete, hemoglobina și hematocritul se determină de la 14 ani.",
     "evidenceLocation": "Sinopsis, p. 235, 234, Dezvoltare și sănătate"
    }
   ],
@@ -218560,7 +218581,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.736Z",
+  "reviewedAt": "2026-11-08T11:56:49.253Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -218572,7 +218593,8 @@
    "prevenirea obezităţii"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-059: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-059: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-060-v2",
@@ -218730,7 +218752,7 @@
  },
  {
   "questionId": "pediatrie-adv-063-v2",
-  "questionFingerprint": "545cdcfa99cad79a016d3ee1ad9fc69480ca39717ff729883023b3eb34a1c3ad",
+  "questionFingerprint": "6aceb72c692761a864c249e762193c7b831e1f54a6a2e31f17f43b9282f2bfdf",
   "status": "source-checked",
   "learningObjective": "Etica consultației adolescentului.",
   "reference": {
@@ -218749,7 +218771,7 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: confidențialitatea se aplică adolescenților, iar acest drept se explică părinților.",
     "evidenceLocation": "Sinopsis, p. 236, Dezvoltare și sănătate"
    },
    {
@@ -218767,7 +218789,7 @@
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: confidențialitatea se păstrează; se ridică doar la risc vital.",
     "evidenceLocation": "Sinopsis, p. 236, Dezvoltare și sănătate"
    },
    {
@@ -218791,7 +218813,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.738Z",
+  "reviewedAt": "2026-11-08T11:56:49.253Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -218803,11 +218825,12 @@
    "explicat"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-063: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-063: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-064-v2",
-  "questionFingerprint": "0c94fa86e0fc344506ba575ac50776af24503108a3b0a3771408c90b7f35ae8f",
+  "questionFingerprint": "92843dccd49d74e4e9c192659774c485dfa25aaec09803cca69683782abcf3b2",
   "status": "source-checked",
   "learningObjective": "Debutul pubertății.",
   "reference": {
@@ -218826,7 +218849,7 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: la fete pubertatea debutează la 9–10 ani.",
     "evidenceLocation": "Sinopsis, p. 236, Dezvoltare și sănătate"
    },
    {
@@ -218868,7 +218891,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.739Z",
+  "reviewedAt": "2026-11-08T11:56:49.253Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -218880,7 +218903,8 @@
    "pubertate precoce"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-064: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-064: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-067-v2",
@@ -219040,7 +219064,7 @@
  },
  {
   "questionId": "pediatrie-adv-070-v2",
-  "questionFingerprint": "0e68a25be513fbc0f01dda56d5895c878f5e5c433f4626698a548f00d4ba0c86",
+  "questionFingerprint": "2c37e68b07d5854544f0e1e13a94de64d41027aaccec11ea4044c680e8826487",
   "status": "source-checked",
   "learningObjective": "Retinoblastomul.",
   "reference": {
@@ -219073,7 +219097,7 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: retinoblastomul provine din retină (gena RB1); din creasta neurală provine neuroblastomul.",
     "evidenceLocation": "Sinopsis, p. 227, 226, Neurologie pediatrică"
    },
    {
@@ -219103,7 +219127,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.742Z",
+  "reviewedAt": "2026-11-08T11:56:49.253Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -219115,7 +219139,8 @@
    "RBI"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-070: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-070: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-071-v2",
@@ -219273,7 +219298,7 @@
  },
  {
   "questionId": "pediatrie-adv-074-v2",
-  "questionFingerprint": "e7e8305f1148c1117a6b741a80ef463aff15d640f5080dd5bbc82df8e3527cd8",
+  "questionFingerprint": "ba01894dc5313297bba16ab503025b5b2deae876d1cb287104de9d30fc468333",
   "status": "source-checked",
   "learningObjective": "Forma pauciarticulară.",
   "reference": {
@@ -219298,7 +219323,7 @@
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: factorul reumatoid este de obicei negativ; ANA este slab pozitiv.",
     "evidenceLocation": "Sinopsis, p. 230, Ortopedie pediatrică"
    },
    {
@@ -219334,7 +219359,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.743Z",
+  "reviewedAt": "2026-11-08T11:56:49.253Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -219346,11 +219371,12 @@
    "ANA slab pozitiv"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-074: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-074: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-075-v2",
-  "questionFingerprint": "e427354f6be64085bff31e0a062dc6e2cc2d96604859d1c4df766b6bd2c4dec2",
+  "questionFingerprint": "23773b0fdbf3a99bf1fb1669024ca474a100fd2fbea84adf10008b19617c7447",
   "status": "source-checked",
   "learningObjective": "Forma sistemică.",
   "reference": {
@@ -219369,7 +219395,7 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: hamul Pavlik tratează displazia șoldului, nu artrita juvenilă.",
     "evidenceLocation": "Sinopsis, p. 230, Ortopedie pediatrică"
    },
    {
@@ -219387,7 +219413,7 @@
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: în forma sistemică ANA este negativ.",
     "evidenceLocation": "Sinopsis, p. 230, Ortopedie pediatrică"
    },
    {
@@ -219411,7 +219437,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.743Z",
+  "reviewedAt": "2026-11-08T11:56:49.254Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -219422,11 +219448,12 @@
    "ANA negativi"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-075: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-075: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-077-v2",
-  "questionFingerprint": "7a49cd056333ac5487c82e08b92e842e06ae607022992f3477e0e4ecbf6294c2",
+  "questionFingerprint": "0f77a957247c8f579cb81b64d02545e7a9e0a02a2e91d38f6ea90671a98d020e",
   "status": "source-checked",
   "learningObjective": "Calendarul vizitelor.",
   "reference": {
@@ -219469,7 +219496,7 @@
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: primele controale sunt la 2 săptămâni și la 1 lună.",
     "evidenceLocation": "Sinopsis, p. 233, Dezvoltare și sănătate"
    }
   ],
@@ -219487,7 +219514,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.744Z",
+  "reviewedAt": "2026-11-08T11:56:49.254Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -219499,7 +219526,8 @@
    "fiecare 3 luni"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-077: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-077: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-078-v2",
@@ -219580,7 +219608,7 @@
  },
  {
   "questionId": "pediatrie-adv-079-v2",
-  "questionFingerprint": "0b95f86ddf2da35033a64a7d03de6715e2aeac359c6eea40baa87e0e4c4698d5",
+  "questionFingerprint": "3b51090bdc7acd8810de864ca49c1290412d7638b0e20e3ba395a981d77e47bb",
   "status": "source-checked",
   "learningObjective": "Sindromul Job.",
   "reference": {
@@ -219599,7 +219627,7 @@
    {
     "index": 0,
     "verdict": "correct",
-    "rationale": "Abcese.",
+    "rationale": "Abcesele cutanate stafilococice recurente, „reci”, sunt caracteristice.",
     "evidenceLocation": "Sinopsis, p. 238, Patologii imune"
    },
    {
@@ -219641,7 +219669,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.745Z",
+  "reviewedAt": "2026-11-08T11:56:49.254Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -219653,11 +219681,12 @@
    "lgE seric crescut"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-079: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-079: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-082-v2",
-  "questionFingerprint": "9276e64901cd9ebd1534e90d8ef715e3b1948bbb138b15e9c14e4c548e6da08d",
+  "questionFingerprint": "7ab3158cc9d318cec6dd1d916581df7e22719e5d0daa115887773895014a46a8",
   "status": "source-checked",
   "learningObjective": "Sindromul Turner.",
   "reference": {
@@ -219682,13 +219711,13 @@
    {
     "index": 1,
     "verdict": "correct",
-    "rationale": "45X0.",
+    "rationale": "Cariotipul este 45X0 sau un mozaic.",
     "evidenceLocation": "Sinopsis, p. 239, Patologii genetice"
    },
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: tratamentul este hormonal (hormon de creștere, estrogeni).",
     "evidenceLocation": "Sinopsis, p. 239, Patologii genetice"
    },
    {
@@ -219718,7 +219747,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.746Z",
+  "reviewedAt": "2026-11-08T11:56:49.254Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -219730,11 +219759,12 @@
    "avort spontan"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-082: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-082: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-084-v2",
-  "questionFingerprint": "a9d03cde88998c45e544b2b93ff55536528bdc4e390e97933b2d729dff29c345",
+  "questionFingerprint": "c7e5e133a72ac6072527ce810bdf35d44fd0e569ef3c86b4c364bed465914421",
   "status": "source-checked",
   "learningObjective": "Sindroamele de deleție.",
   "reference": {
@@ -219765,7 +219795,7 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu: 5p.",
+    "rationale": "Nu: sindromul cri-du-chat este deleția brațului scurt al cromozomului 5 (5p).",
     "evidenceLocation": "Sinopsis, p. 240, Patologii genetice"
    },
    {
@@ -219795,7 +219825,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.746Z",
+  "reviewedAt": "2026-11-08T11:56:49.254Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -219807,11 +219837,12 @@
    "deleţia alelei"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-084: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-084: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-085-v2",
-  "questionFingerprint": "0cd46a374c830854a2db4e6edeada8c66f74714a8588c0cfdebc059fc9e1e355",
+  "questionFingerprint": "67d7da016c86cbd3630da352c2a7781929065c74e8b90d9c3e264d9373390f3a",
   "status": "source-checked",
   "learningObjective": "Otita medie acută.",
   "reference": {
@@ -219830,7 +219861,7 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: diagnosticul este clinic; culturile nu se fac de rutină.",
     "evidenceLocation": "Sinopsis, p. 241, Boli infecțioase"
    },
    {
@@ -219848,7 +219879,7 @@
    {
     "index": 3,
     "verdict": "correct",
-    "rationale": "Clinic.",
+    "rationale": "Diagnosticul este clinic, prin otoscopie.",
     "evidenceLocation": "Sinopsis, p. 241, Boli infecțioase"
    },
    {
@@ -219872,7 +219903,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.747Z",
+  "reviewedAt": "2026-11-08T11:56:49.254Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -219884,11 +219915,12 @@
    "diagnosticul este clinic"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-085: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-085: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-087-v2",
-  "questionFingerprint": "5b465edf6e59dc27ce85e71d5d444c2214da375105f56b74f55a117375433959",
+  "questionFingerprint": "e6e48412f4253305139792ef16c004cb3ab9ba4c0023b87336d5e10971ed7f84",
   "status": "source-checked",
   "learningObjective": "Roseola infantum.",
   "reference": {
@@ -219931,7 +219963,7 @@
    {
     "index": 4,
     "verdict": "correct",
-    "rationale": "HHV-6.",
+    "rationale": "Roseola infantum (exantemul subit) este produsă de HHV-6.",
     "evidenceLocation": "Sinopsis, p. 241, Boli infecțioase"
    }
   ],
@@ -219949,7 +219981,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.748Z",
+  "reviewedAt": "2026-11-08T11:56:49.254Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -219961,7 +219993,8 @@
    "exantemul subit"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-087: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-087: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-088-v2",
@@ -220042,7 +220075,7 @@
  },
  {
   "questionId": "pediatrie-adv-089-v2",
-  "questionFingerprint": "05ae95d5a9b28e51a51751dc0e954a1b6919efe5d198f07ee723862e6770ddcf",
+  "questionFingerprint": "a3385a3cf04e855ecb1460c3204cee8bf2e79a49b1da49cfe3ffc11e87f08527",
   "status": "source-checked",
   "learningObjective": "ITU pediatrică.",
   "reference": {
@@ -220075,7 +220108,7 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: diagnosticul cere urocultură.",
     "evidenceLocation": "Sinopsis, p. 242, 241, Boli infecțioase"
    },
    {
@@ -220105,7 +220138,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.749Z",
+  "reviewedAt": "2026-11-08T11:56:49.254Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -220117,7 +220150,8 @@
    "după otita medie"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-089: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-089: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-092-v2",
@@ -220279,7 +220313,7 @@
  },
  {
   "questionId": "pediatrie-adv-097-v2",
-  "questionFingerprint": "5ae506906b62bfa13c3f46ddeae269c2bb13ea6820877ee811b399b7b56096db",
+  "questionFingerprint": "54a43ac9e3524a45ce9c119234cfd41dea84a22512767f11c9c9483389e2c0e4",
   "status": "source-checked",
   "learningObjective": "Henoch-Schönlein.",
   "reference": {
@@ -220316,7 +220350,7 @@
    {
     "index": 3,
     "verdict": "correct",
-    "rationale": "IgA.",
+    "rationale": "Purpura Henoch-Schönlein este o vasculită a vaselor mici, prin complexe imune IgA.",
     "evidenceLocation": "Sinopsis, p. 215, Cardiologie pediatrică"
    },
    {
@@ -220340,7 +220374,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.752Z",
+  "reviewedAt": "2026-11-08T11:56:49.255Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -220352,7 +220386,8 @@
    "invaginaţie"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-097: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-097: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-098-v2",
@@ -220587,7 +220622,7 @@
  },
  {
   "questionId": "pediatrie-adv-103-v2",
-  "questionFingerprint": "30a678da05a16b8cb828eb2bcfcd19ae48f7b5259c717ad17d875702bbb2a17c",
+  "questionFingerprint": "cd485f4e08c8c713632d5fe2627b245d577686b98633df5d6278a281247a3187",
   "status": "source-checked",
   "learningObjective": "Testiculul necoborât.",
   "reference": {
@@ -220612,7 +220647,7 @@
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: corecția se face înainte de 5 ani.",
     "evidenceLocation": "Sinopsis, p. 222, Probleme genitourinare"
    },
    {
@@ -220630,7 +220665,7 @@
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: corecția reduce riscul de cancer, dar nu îl elimină.",
     "evidenceLocation": "Sinopsis, p. 222, Probleme genitourinare"
    }
   ],
@@ -220648,7 +220683,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.759Z",
+  "reviewedAt": "2026-11-08T11:56:49.255Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -220660,11 +220695,12 @@
    "5 ani"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-103: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-103: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-104-v2",
-  "questionFingerprint": "883c96044e0e89273cd4a076554f3cfbfe4494fe558eb8d621d0eb6ec02c9fa9",
+  "questionFingerprint": "64abb6071994e6f34755bb3b69eb67ee554135b202eb4f2a1ebb7c9dd48932d3",
   "status": "source-checked",
   "learningObjective": "Valvele uretrale.",
   "reference": {
@@ -220691,7 +220727,7 @@
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: diagnosticul se face prin ecografie și cistouretrografie micțională.",
     "evidenceLocation": "Sinopsis, p. 222, 221, Probleme genitourinare"
    },
    {
@@ -220727,7 +220763,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.760Z",
+  "reviewedAt": "2026-11-08T11:56:49.255Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -220739,7 +220775,8 @@
    "hidronefroză"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-104: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-104: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-107-v2",
@@ -220820,7 +220857,7 @@
  },
  {
   "questionId": "pediatrie-adv-108-v2",
-  "questionFingerprint": "73744ad3cf11b67d96397f9ed1fd8885ed321d0913cc064787445e3e94d7148d",
+  "questionFingerprint": "36ca36a330def0c231578b8a27ad411bd110364842736ce9a5e2b53bc32cae63",
   "status": "source-checked",
   "learningObjective": "Prognosticul convulsiilor febrile.",
   "reference": {
@@ -220841,13 +220878,13 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: antipireticele nu previn recurența convulsiilor febrile.",
     "evidenceLocation": "Sinopsis, p. 225, 224, Neurologie pediatrică"
    },
    {
     "index": 1,
     "verdict": "correct",
-    "rationale": "35%.",
+    "rationale": "Convulsiile febrile recidivează la aproximativ 35% dintre copii.",
     "evidenceLocation": "Sinopsis, p. 225, 224, Neurologie pediatrică"
    },
    {
@@ -220865,7 +220902,7 @@
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: în convulsia febrilă simplă EEG-ul nu este necesar.",
     "evidenceLocation": "Sinopsis, p. 225, 224, Neurologie pediatrică"
    }
   ],
@@ -220883,7 +220920,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.762Z",
+  "reviewedAt": "2026-11-08T11:56:49.255Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -220895,11 +220932,12 @@
    "complexe"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-108: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-108: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-109-v2",
-  "questionFingerprint": "ec272f85f4ac964de512fd90656de48ad713faa35869aa60f83daef5d5edc64e",
+  "questionFingerprint": "5822d8b10d0a456f12bf8f91e569a1fab898b1d1df696b7f3217f3fec668504f",
   "status": "source-checked",
   "learningObjective": "Tipurile de hidrocefalie.",
   "reference": {
@@ -220936,7 +220974,7 @@
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: obstrucția ventriculară produce forma necomunicantă.",
     "evidenceLocation": "Sinopsis, p. 225, Neurologie pediatrică"
    },
    {
@@ -220960,7 +220998,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.763Z",
+  "reviewedAt": "2026-11-08T11:56:49.256Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -220972,11 +221010,12 @@
    "Dandy-Walker"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-109: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-109: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-111-v2",
-  "questionFingerprint": "fb2b68e7c1d6619254d718b8a764a1a8402868a7a74c9c79b6dde1953bb8b8dd",
+  "questionFingerprint": "d386e3324d6d8f61c95e80d6ea66f8801eb507b934c05c727a0a68d09dc3f358",
   "status": "source-checked",
   "learningObjective": "Fracturile cartilajului de creștere.",
   "reference": {
@@ -220995,13 +221034,13 @@
    {
     "index": 0,
     "verdict": "correct",
-    "rationale": "Bun.",
+    "rationale": "Tipul I are prognostic bun după reducere.",
     "evidenceLocation": "Sinopsis, p. 228, Ortopedie pediatrică"
    },
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: tipul V, prin zdrobirea fizei, are cel mai rezervat prognostic.",
     "evidenceLocation": "Sinopsis, p. 228, Ortopedie pediatrică"
    },
    {
@@ -221019,7 +221058,7 @@
    {
     "index": 4,
     "verdict": "correct",
-    "rationale": "Rar.",
+    "rationale": "Tipul II, cel mai frecvent, perturbă rar creșterea.",
     "evidenceLocation": "Sinopsis, p. 228, Ortopedie pediatrică"
    }
   ],
@@ -221037,7 +221076,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.764Z",
+  "reviewedAt": "2026-11-08T11:56:49.256Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -221049,11 +221088,12 @@
    "zdrobire"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-111: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-111: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-112-v2",
-  "questionFingerprint": "fad47d3e073df30f9cc1569e6a1d4a09de564d4a3a8803d1a929e2ac2e7fa313",
+  "questionFingerprint": "1d7556798f7bfcff3041ee1a62fbf2a822e666916fd9663ae2650af561faac63",
   "status": "source-checked",
   "learningObjective": "Piciorul strâmb congenital.",
   "reference": {
@@ -221076,7 +221116,7 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: hamul Pavlik se folosește în displazia șoldului; piciorul strâmb se tratează prin gipsuri seriate.",
     "evidenceLocation": "Sinopsis, p. 228, 227, 229, Ortopedie pediatrică"
    },
    {
@@ -221100,7 +221140,7 @@
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: deformarea este în inversie; corecția aduce piciorul în eversie și flexie dorsală.",
     "evidenceLocation": "Sinopsis, p. 228, 227, 229, Ortopedie pediatrică"
    }
   ],
@@ -221118,7 +221158,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.765Z",
+  "reviewedAt": "2026-11-08T11:56:49.256Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -221130,7 +221170,8 @@
    "fixări seriate"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-112: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-112: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-113-v2",
@@ -221441,7 +221482,7 @@
  },
  {
   "questionId": "pediatrie-adv-119-v2",
-  "questionFingerprint": "8a257466a7996b3dc62867093decd9b573a7c001a3f88dbfe22ce4966c601980",
+  "questionFingerprint": "445301945d3fdb5f3e4de31be8c6a4911f079c6ddf5d723281e124e0aead3668",
   "status": "source-checked",
   "learningObjective": "Klinefelter și XYY.",
   "reference": {
@@ -221474,7 +221515,7 @@
    {
     "index": 2,
     "verdict": "correct",
-    "rationale": "47XXY.",
+    "rationale": "Sindromul Klinefelter are cariotipul 47XXY.",
     "evidenceLocation": "Sinopsis, p. 239, 238, Patologii genetice"
    },
    {
@@ -221504,7 +221545,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.768Z",
+  "reviewedAt": "2026-11-08T11:56:49.256Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -221516,11 +221557,12 @@
    "acnee severă"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-119: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-119: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-120-v2",
-  "questionFingerprint": "804a37455d754cc531a0944aad789bd2ca31a35877d82b31668b0060f4a97198",
+  "questionFingerprint": "a07efbef82e95959d01b66ac287acc2802e48e41a8c7fe86acf7b351c2dc415d",
   "status": "source-checked",
   "learningObjective": "IDCS.",
   "reference": {
@@ -221565,7 +221607,7 @@
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: în imunodeficiența combinată severă limfocitele T lipsesc.",
     "evidenceLocation": "Sinopsis, p. 238, 237, Patologii imune"
    }
   ],
@@ -221583,7 +221625,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.769Z",
+  "reviewedAt": "2026-11-08T11:56:49.256Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -221595,11 +221637,12 @@
    "vii atenuate"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-120: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-120: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-121-v2",
-  "questionFingerprint": "e3d3f14033280b8cda5dd18ef6dc6cfe842223bdcaa834a63bb60ecefe887321",
+  "questionFingerprint": "9989493946254255f4a71d00ced7e6bf3f10be644be4b7577cfa119e96d0ccbf",
   "status": "source-checked",
   "learningObjective": "Rujeola.",
   "reference": {
@@ -221630,13 +221673,13 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: parvovirusul B19 produce eritemul infecțios; rujeola este produsă de virusul rujeolic.",
     "evidenceLocation": "Sinopsis, p. 242, Boli infecțioase"
    },
    {
     "index": 3,
     "verdict": "correct",
-    "rationale": "Koplik.",
+    "rationale": "Petele Koplik, albe, pe mucoasa jugală, preced erupția.",
     "evidenceLocation": "Sinopsis, p. 242, Boli infecțioase"
    },
    {
@@ -221660,7 +221703,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.769Z",
+  "reviewedAt": "2026-11-08T11:56:49.256Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -221672,11 +221715,12 @@
    "vitamina A"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-121: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-121: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-122-v2",
-  "questionFingerprint": "e1a7cb49569520f48b1cfedea849f23647ed3f6450834784fa2c017af796c591",
+  "questionFingerprint": "400d0a6a9f0addf45d54ee6df81e6d02998d9c305d9d5c950440e5ba4e609e08",
   "status": "source-checked",
   "learningObjective": "Complicațiile parvovirozei.",
   "reference": {
@@ -221703,7 +221747,7 @@
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: encefalita este o complicație a rujeolei; parvovirusul dă hidrops fetal și criză aplastică.",
     "evidenceLocation": "Sinopsis, p. 242, 241, Boli infecțioase"
    },
    {
@@ -221739,7 +221783,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.770Z",
+  "reviewedAt": "2026-11-08T11:56:49.256Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -221751,11 +221795,12 @@
    "anemie aplastică"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-122: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-122: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-124-v2",
-  "questionFingerprint": "3e1f4ab430e799a06776411c1f90fd24e270f1bf0397213a9a8424e5dadf8bac",
+  "questionFingerprint": "934d9f5fe22cba9802e37453b119f3c05e4801f96e36afedd173a0eeedff3c3f",
   "status": "source-checked",
   "learningObjective": "Tourette.",
   "reference": {
@@ -221780,7 +221825,7 @@
    {
     "index": 1,
     "verdict": "correct",
-    "rationale": ">1 an.",
+    "rationale": "Diagnosticul cere ticuri motorii și vocale cu durată de peste 1 an.",
     "evidenceLocation": "Sinopsis, p. 243, Psihiatrie pediatrică"
    },
    {
@@ -221792,7 +221837,7 @@
    {
     "index": 3,
     "verdict": "correct",
-    "rationale": "~40%.",
+    "rationale": "Coprolalia apare la aproximativ 40% dintre pacienți.",
     "evidenceLocation": "Sinopsis, p. 243, Psihiatrie pediatrică"
    },
    {
@@ -221816,7 +221861,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:10:12.771Z",
+  "reviewedAt": "2026-11-08T11:56:49.256Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -221828,7 +221873,8 @@
    "18 ani"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-124: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-124: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-008-v2",
@@ -222142,7 +222188,7 @@
  },
  {
   "questionId": "pediatrie-adv-030-v2",
-  "questionFingerprint": "3edb59dba23874ae03fd8ce2d01b0ddbb2de5b85db35e93f8253d855d61b0d1c",
+  "questionFingerprint": "883f9354bab9c73272a973bb9f075bf6de251dbe0bd79b515d99d08e2e2ebbbf",
   "status": "source-checked",
   "learningObjective": "Deschiderea anormală a uretrei.",
   "reference": {
@@ -222179,7 +222225,7 @@
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: circumcizia se evită, deoarece prepuțul se folosește la reconstrucție.",
     "evidenceLocation": "Sinopsis, p. 222, Probleme genitourinare"
    },
    {
@@ -222203,7 +222249,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:11:22.289Z",
+  "reviewedAt": "2026-11-08T11:56:49.251Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -222215,7 +222261,8 @@
    "epispadias"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-030: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-030: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-039-v2",
@@ -222606,7 +222653,7 @@
  },
  {
   "questionId": "pediatrie-adv-065-v2",
-  "questionFingerprint": "f3502180cd1865cf2db9566f35ce21da72f2c80024c40de2a038fc8aebdb4f3c",
+  "questionFingerprint": "0acb0d9b2cb7efe064def5daa597b836a4f9ca876054bbfaa3720eaaa2199177",
   "status": "source-checked",
   "learningObjective": "Dezvoltarea psihosocială.",
   "reference": {
@@ -222649,7 +222696,7 @@
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: gândirea concretă caracterizează adolescența timpurie; cea târzie aduce maturitatea cognitivă.",
     "evidenceLocation": "Sinopsis, p. 236, Dezvoltare și sănătate"
    }
   ],
@@ -222667,7 +222714,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:11:22.295Z",
+  "reviewedAt": "2026-11-08T11:56:49.253Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -222679,11 +222726,12 @@
    "abstractă"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-065: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-065: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-073-v2",
-  "questionFingerprint": "6b1786693bd2e0b8a0fbaf660a938c9359ce2be5548f3f2f6a368f678ce62530",
+  "questionFingerprint": "0ae9674d0039b4c71f5b1a0f30a4e3a2a56abb0f96456b95323341237e7d428d",
   "status": "source-checked",
   "learningObjective": "Tratamentul scoliozei.",
   "reference": {
@@ -222702,13 +222750,13 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: hamul Pavlik se folosește în displazia de dezvoltare a șoldului.",
     "evidenceLocation": "Sinopsis, p. 229, Ortopedie pediatrică"
    },
    {
     "index": 1,
     "verdict": "correct",
-    "rationale": "Fixare.",
+    "rationale": "Curburile moderate, la copiii care încă cresc, se tratează prin imobilizare în corset.",
     "evidenceLocation": "Sinopsis, p. 229, Ortopedie pediatrică"
    },
    {
@@ -222720,7 +222768,7 @@
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: bandajul în opt se folosește în fractura de claviculă.",
     "evidenceLocation": "Sinopsis, p. 229, Ortopedie pediatrică"
    },
    {
@@ -222744,7 +222792,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:11:22.296Z",
+  "reviewedAt": "2026-11-08T11:56:49.253Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -222756,11 +222804,12 @@
    "boală pulmonară restrictivă"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-073: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-073: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-080-v2",
-  "questionFingerprint": "adcd903345ebbf642b51093222cb40dcf85b4ca54512274ed3caab3734d955ed",
+  "questionFingerprint": "527954851ab446cfc13aa33bccca88db30a35520c1c325a1932009ce875915da",
   "status": "source-checked",
   "learningObjective": "Deficitul de adeziune.",
   "reference": {
@@ -222787,7 +222836,7 @@
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: cariotipul 45X0 este al sindromului Turner.",
     "evidenceLocation": "Sinopsis, p. 238, 239, Patologii imune"
    },
    {
@@ -222805,7 +222854,7 @@
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: mutația WASP produce sindromul Wiskott-Aldrich; deficitul de adeziune leucocitară este autozomal recesiv.",
     "evidenceLocation": "Sinopsis, p. 238, 239, Patologii imune"
    }
   ],
@@ -222823,7 +222872,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:11:22.298Z",
+  "reviewedAt": "2026-11-08T11:56:49.254Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -222835,11 +222884,12 @@
    "integrinelor"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-080: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-080: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-081-v2",
-  "questionFingerprint": "700b1aa0592e3b4894fcd4943745a6ac6cb9cca9ffec187c7ebeae53970b95e0",
+  "questionFingerprint": "e71e7f1334523f7609663a119be4e99595a635e25ff4576784da8ca6c276a0e1",
   "status": "source-checked",
   "learningObjective": "Protecția maternă pasivă.",
   "reference": {
@@ -222864,25 +222914,25 @@
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: vaccinurile nu induc imunitate imediată.",
     "evidenceLocation": "Sinopsis, p. 239, Patologii imune"
    },
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: complementul nu traversează placenta; protecția vine de la IgG materne, circa 3 luni.",
     "evidenceLocation": "Sinopsis, p. 239, Patologii imune"
    },
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: protecția din primele luni vine de la anticorpii IgG materni.",
     "evidenceLocation": "Sinopsis, p. 239, Patologii imune"
    },
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: limfocitele materne nu asigură protecție; anticorpii IgG materni persistă circa 3 luni.",
     "evidenceLocation": "Sinopsis, p. 239, Patologii imune"
    }
   ],
@@ -222900,7 +222950,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:11:22.298Z",
+  "reviewedAt": "2026-11-08T11:56:49.254Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -222911,7 +222961,8 @@
    "anticorpii de la"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-081: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-081: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-083-v2",
@@ -223069,7 +223120,7 @@
  },
  {
   "questionId": "pediatrie-adv-090-v2",
-  "questionFingerprint": "7d937bc714c91ca0d6567b22af4aae279f363e9016edd5f2cffb866f0f34bde1",
+  "questionFingerprint": "c1779b1ecd68a80c0d3d26020f1ab91a1cf162493a13f211436f65784bff187d",
   "status": "source-checked",
   "learningObjective": "Fiziologia Hb fetale.",
   "reference": {
@@ -223088,19 +223139,19 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: hemoglobina fetală are afinitate mai mare pentru oxigen.",
     "evidenceLocation": "Sinopsis, p. 212, Cardiologie pediatrică"
    },
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: hemoglobina fetală predomină la naștere și este înlocuită treptat în primele luni.",
     "evidenceLocation": "Sinopsis, p. 212, Cardiologie pediatrică"
    },
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: afinitatea mai mare îi permite să preia oxigenul de la hemoglobina maternă.",
     "evidenceLocation": "Sinopsis, p. 212, Cardiologie pediatrică"
    },
    {
@@ -223112,7 +223163,7 @@
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: hemoglobina fetală preia oxigenul de la sângele matern, în placentă.",
     "evidenceLocation": "Sinopsis, p. 212, Cardiologie pediatrică"
    }
   ],
@@ -223130,7 +223181,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:11:22.300Z",
+  "reviewedAt": "2026-11-08T11:56:49.254Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -223141,7 +223192,8 @@
    "afinitate mai mare"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-090: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-090: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-091-v2",
@@ -223224,7 +223276,7 @@
  },
  {
   "questionId": "pediatrie-adv-093-v2",
-  "questionFingerprint": "50b0c952f1796031a990caa247ef1e5ae7c7c35272200a6aabd86a0075601b19",
+  "questionFingerprint": "51b7290ca33d1bbfa9ec6f1150493871cb97ee5038e796def63e278580b788a1",
   "status": "source-checked",
   "learningObjective": "Trunchiul arterial.",
   "reference": {
@@ -223243,7 +223295,7 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: indometacinul închide canalul arterial; trunchiul arterial se corectează chirurgical.",
     "evidenceLocation": "Sinopsis, p. 214, Cardiologie pediatrică"
    },
    {
@@ -223285,7 +223337,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:11:22.301Z",
+  "reviewedAt": "2026-11-08T11:56:49.255Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -223297,7 +223349,8 @@
    "partea dreaptă"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-093: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-093: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-094-v2",
@@ -223378,7 +223431,7 @@
  },
  {
   "questionId": "pediatrie-adv-100-v2",
-  "questionFingerprint": "4b1612d647a5fe8c0971bbf06d5695ce65f512f1ddfc39f313e8294a865ccf6c",
+  "questionFingerprint": "45e8ea18be8ef90c5d98f87fdb67e8751e648bc977e638b3740eedd9a28015a2",
   "status": "source-checked",
   "learningObjective": "SAM.",
   "reference": {
@@ -223399,7 +223452,7 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: raportul lecitină/sfingomielină evaluează maturitatea pulmonară, nu aspirația de meconiu.",
     "evidenceLocation": "Sinopsis, p. 218, 217, Probleme pulmonare"
    },
    {
@@ -223441,7 +223494,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:11:22.303Z",
+  "reviewedAt": "2026-11-08T11:56:49.255Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -223453,11 +223506,12 @@
    "nu mai este recomandată"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-100: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-100: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-105-v2",
-  "questionFingerprint": "8bece1f9776e8f65488b4e08ea61914479dd40cbcc169b117457cdbf3849ece3",
+  "questionFingerprint": "d98aa211922ffdfde6325758f6bc34f71b451beab10c987a6b5a3fe4271e7c10",
   "status": "source-checked",
   "learningObjective": "Hipotiroidismul congenital.",
   "reference": {
@@ -223500,7 +223554,7 @@
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: hipotiroidismul congenital se tratează cu levotiroxină; hCG se folosește în criptorhidie.",
     "evidenceLocation": "Sinopsis, p. 222, Endocrinologie și metabolism"
    }
   ],
@@ -223518,7 +223572,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:11:22.304Z",
+  "reviewedAt": "2026-11-08T11:56:49.255Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -223530,11 +223584,12 @@
    "levothyroxină"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-105: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-105: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-117-v2",
-  "questionFingerprint": "e76c01265c811216703b4ef8e9477a9755c96d21caa54931d064c4927d5790aa",
+  "questionFingerprint": "c9a4ce15e8f484719b8f285c93ac5e324d0f569142abd34109f89f403e47167c",
   "status": "source-checked",
   "learningObjective": "Agammaglobulinemia X-linkată.",
   "reference": {
@@ -223565,7 +223620,7 @@
    {
     "index": 2,
     "verdict": "correct",
-    "rationale": "IGIV.",
+    "rationale": "Tratamentul este substituția cu imunoglobulină intravenoasă.",
     "evidenceLocation": "Sinopsis, p. 237, Patologii imune"
    },
    {
@@ -223595,7 +223650,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:11:22.305Z",
+  "reviewedAt": "2026-11-08T11:56:49.256Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -223607,7 +223662,8 @@
    "IGIV"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-117: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-117: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-123-v2",
@@ -223766,7 +223822,7 @@
  },
  {
   "questionId": "pediatrie-adv-028-v2",
-  "questionFingerprint": "f3324a864deeccdd02cd7b968a34892619eb11f9139fcb4a4fc53e1812884236",
+  "questionFingerprint": "729abdb3b460ce14e95dc24590c85ac9b409a60bac6986eb1502a853344ec8de",
   "status": "source-checked",
   "learningObjective": "Semnul precoce al hipotiroidismului congenital.",
   "reference": {
@@ -223785,13 +223841,13 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: boala Kawasaki se manifestă prin febră prelungită, nu prin icter neonatal.",
     "evidenceLocation": "Sinopsis, p. 222, Endocrinologie și metabolism"
    },
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: sindromul Down se recunoaște după fenotip; icterul prelungit sugerează hipotiroidismul.",
     "evidenceLocation": "Sinopsis, p. 222, Endocrinologie și metabolism"
    },
    {
@@ -223803,13 +223859,13 @@
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: invaginația se manifestă prin colici, scaune cu sânge și mucus și masă abdominală.",
     "evidenceLocation": "Sinopsis, p. 222, Endocrinologie și metabolism"
    },
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: stenoza pilorică se manifestă prin vărsături în jet, nu prin icter prelungit.",
     "evidenceLocation": "Sinopsis, p. 222, Endocrinologie și metabolism"
    }
   ],
@@ -223827,7 +223883,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:11:57.691Z",
+  "reviewedAt": "2026-11-08T11:56:49.251Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -223838,11 +223894,12 @@
    "hipotiroidism congenital"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-028: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-028: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-034-v2",
-  "questionFingerprint": "ffdff9fbd476a339d210fbd39adeae14e484182c4fd87aa05d6ff03ef5e7a227",
+  "questionFingerprint": "62d2bb326529b3c4404d23b2038e9b14e45fa292e904fcbe72ae1ed4fc435d70",
   "status": "source-checked",
   "learningObjective": "Tumori pediatrice.",
   "reference": {
@@ -223861,13 +223918,13 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: neuroblastomul este o tumoră a crestei neurale, nu un sarcom de țesuturi moi.",
     "evidenceLocation": "Sinopsis, p. 224, Hematologie și oncologie"
    },
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: sarcomul Ewing este o tumoră osoasă.",
     "evidenceLocation": "Sinopsis, p. 224, Hematologie și oncologie"
    },
    {
@@ -223879,13 +223936,13 @@
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: osteosarcomul este un sarcom osos.",
     "evidenceLocation": "Sinopsis, p. 224, Hematologie și oncologie"
    },
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: tumora Wilms este o tumoră renală embrionară.",
     "evidenceLocation": "Sinopsis, p. 224, Hematologie și oncologie"
    }
   ],
@@ -223903,7 +223960,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:11:57.692Z",
+  "reviewedAt": "2026-11-08T11:56:49.251Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -223914,11 +223971,12 @@
    "Rabdomiosarcomul"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-034: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-034: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-055-v2",
-  "questionFingerprint": "94a8d2ce4d76a311a4327bd1dd6c6033008e7a8c4064de47fc97843b2c0b1864",
+  "questionFingerprint": "795fdff8b89196b78fa121c61716efbf15d3c9a195b913cb81d61efe79eaeaa7",
   "status": "source-checked",
   "learningObjective": "Diversificarea.",
   "reference": {
@@ -223937,7 +223995,7 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: la 12 luni se introduce laptele de vacă; solidele încep la 4–6 luni.",
     "evidenceLocation": "Sinopsis, p. 234, Dezvoltare și sănătate"
    },
    {
@@ -223949,19 +224007,19 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: solidele se introduc la 4–6 luni.",
     "evidenceLocation": "Sinopsis, p. 234, Dezvoltare și sănătate"
    },
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: introducerea se face mai devreme, la 4–6 luni.",
     "evidenceLocation": "Sinopsis, p. 234, Dezvoltare și sănătate"
    },
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: alimentele solide se introduc la 4–6 luni.",
     "evidenceLocation": "Sinopsis, p. 234, Dezvoltare și sănătate"
    }
   ],
@@ -223979,7 +224037,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:11:57.694Z",
+  "reviewedAt": "2026-11-08T11:56:49.252Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -223990,7 +224048,8 @@
    "4-6 luni"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-055: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-055: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-061-v2",
@@ -224070,7 +224129,7 @@
  },
  {
   "questionId": "pediatrie-adv-068-v2",
-  "questionFingerprint": "dbee3cf19ef588fe510fac6a3f2d743ea2aa0603fd691ec412affb54c1777468",
+  "questionFingerprint": "527232765fc96dc6d5f8f2f4663adef9ae56f9b2a27e2827d960dcb58ae81f09",
   "status": "source-checked",
   "learningObjective": "Profilaxia izoimunizării Rh.",
   "reference": {
@@ -224095,25 +224154,25 @@
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: imunoglobulina se dă după fiecare naștere a unui copil Rh pozitiv, în primele 72 de ore.",
     "evidenceLocation": "Sinopsis, p. 223, Hematologie și oncologie"
    },
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: după 72 de ore sensibilizarea poate fi deja produsă.",
     "evidenceLocation": "Sinopsis, p. 223, Hematologie și oncologie"
    },
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: profilaxia este necesară când copilul este Rh pozitiv.",
     "evidenceLocation": "Sinopsis, p. 223, Hematologie și oncologie"
    },
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: imunoglobulina previne sensibilizarea; nu tratează boala hemolitică instalată.",
     "evidenceLocation": "Sinopsis, p. 223, Hematologie și oncologie"
    }
   ],
@@ -224131,7 +224190,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:11:57.697Z",
+  "reviewedAt": "2026-11-08T11:56:49.253Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -224142,11 +224201,12 @@
    "72 de ore"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-068: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-068: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-095-v2",
-  "questionFingerprint": "52f69f964b0f56dc7f8e8c24479e1ecf4b3d3982a6b89e11b181d4f39afbf5da",
+  "questionFingerprint": "f79768594a5355d9b08aa537edfd45b009e2f537cd2afb2a54f5d44511578419",
   "status": "source-checked",
   "learningObjective": "Crizele hipoxice.",
   "reference": {
@@ -224177,7 +224237,7 @@
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: catecolaminele cresc contractilitatea infundibulară și agravează criza; se folosesc beta-blocante.",
     "evidenceLocation": "Sinopsis, p. 214, Cardiologie pediatrică"
    },
    {
@@ -224189,7 +224249,7 @@
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: indometacinul închide canalul arterial și ar agrava cianoza.",
     "evidenceLocation": "Sinopsis, p. 214, Cardiologie pediatrică"
    }
   ],
@@ -224207,7 +224267,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:11:57.699Z",
+  "reviewedAt": "2026-11-08T11:56:49.255Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -224219,11 +224279,12 @@
    "propranolol"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-095: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-095: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-019-v2",
-  "questionFingerprint": "aaa2dd605bb354a0aef407b544080d147cb9e7fa1141fa1b969a67d2588f2d7d",
+  "questionFingerprint": "490a6486c2e4f940a11168ed3e8fceadf8ab6a3190e1898de8f533b1d4baf078",
   "status": "source-checked",
   "learningObjective": "Epidemiologia vasculitelor pediatrice.",
   "reference": {
@@ -224242,7 +224303,7 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: poliarterita nodoasă este rară la copil; vasculita cea mai frecventă este purpura Henoch-Schönlein.",
     "evidenceLocation": "Sinopsis, p. 215, Cardiologie pediatrică"
    },
    {
@@ -224260,13 +224321,13 @@
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: granulomatoza cu poliangeită este rară la copil.",
     "evidenceLocation": "Sinopsis, p. 215, Cardiologie pediatrică"
    },
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: arterita Takayasu afectează mai ales femeile tinere și este rară la copii.",
     "evidenceLocation": "Sinopsis, p. 215, Cardiologie pediatrică"
    }
   ],
@@ -224284,7 +224345,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:12:51.529Z",
+  "reviewedAt": "2026-11-08T11:56:49.250Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -224295,11 +224356,12 @@
    "Cea mai comună vasculită"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-019: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-019: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-057-v2",
-  "questionFingerprint": "0abf7d613edece09ae0c9ac3509ca21a29fa3c90e009050e2d402108ad017534",
+  "questionFingerprint": "344180f003abdedcbe94d83d4054b92def2e08e7e3150c18f9a757546b053d44",
   "status": "source-checked",
   "learningObjective": "Nutriția sugarului.",
   "reference": {
@@ -224318,25 +224380,25 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: vârsta recomandată este 12 luni.",
     "evidenceLocation": "Sinopsis, p. 234, Dezvoltare și sănătate"
    },
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: laptele de vacă integral se introduce la 12 luni.",
     "evidenceLocation": "Sinopsis, p. 234, Dezvoltare și sănătate"
    },
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: înainte de 12 luni laptele de vacă integral nu se recomandă.",
     "evidenceLocation": "Sinopsis, p. 234, Dezvoltare și sănătate"
    },
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: vârsta recomandată este 12 luni.",
     "evidenceLocation": "Sinopsis, p. 234, Dezvoltare și sănătate"
    },
    {
@@ -224360,7 +224422,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:12:51.533Z",
+  "reviewedAt": "2026-11-08T11:56:49.252Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -224371,11 +224433,12 @@
    "Înţărcarea biberonului"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-057: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-057: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-066-v2",
-  "questionFingerprint": "a1b2dff16c9dcef6c70e4cc5a3819968f3a179f7e464b4435512bd8f86ac4134",
+  "questionFingerprint": "53726bd6de308917a78a0bec9c6eb1a4073cefb637b1c204a681effb339bda4f",
   "status": "source-checked",
   "learningObjective": "Mortalitatea în adolescență.",
   "reference": {
@@ -224400,25 +224463,25 @@
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: suicidul este o cauză importantă, dar accidentele rămân pe primul loc.",
     "evidenceLocation": "Sinopsis, p. 236, Dezvoltare și sănătate"
    },
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: principala cauză de deces sunt accidentele.",
     "evidenceLocation": "Sinopsis, p. 236, Dezvoltare și sănătate"
    },
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: cardiopatiile congenitale sunt o cauză rară de deces la această vârstă.",
     "evidenceLocation": "Sinopsis, p. 236, Dezvoltare și sănătate"
    },
    {
     "index": 4,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: accidentele sunt principala cauză de deces la adolescenți.",
     "evidenceLocation": "Sinopsis, p. 236, Dezvoltare și sănătate"
    }
   ],
@@ -224436,7 +224499,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:12:51.534Z",
+  "reviewedAt": "2026-11-08T11:56:49.253Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -224447,11 +224510,12 @@
    "accidentele reprezintă principala cauză"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-066: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-066: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-106-v2",
-  "questionFingerprint": "6d500ecfee459e7b53510792db66e104c046eb591b1307f7ffe01a24ac58a16b",
+  "questionFingerprint": "c65cab3dddef0cbb167b572134a2ee10e96783918bd75f9ea092d1422d89ff9d",
   "status": "source-checked",
   "learningObjective": "Glicogenozele.",
   "reference": {
@@ -224470,7 +224534,7 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: deficitul de hexozaminidază A produce boala Tay-Sachs, o sfingolipidoză.",
     "evidenceLocation": "Sinopsis, p. 223, Endocrinologie și metabolism"
    },
    {
@@ -224512,7 +224576,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:12:51.537Z",
+  "reviewedAt": "2026-11-08T11:56:49.255Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -224523,11 +224587,12 @@
    "McArdle"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-106: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-106: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-110-v2",
-  "questionFingerprint": "72cd32f09a85a3c6d0b8cbb59a2089d1b01f75b6b707807db827c23c3718df12",
+  "questionFingerprint": "18091b2262fc90736dd90258a310025b8fe642d9cef2c9decc02aff5e62d6d2c",
   "status": "source-checked",
   "learningObjective": "Osgood-Schlatter.",
   "reference": {
@@ -224546,25 +224611,25 @@
    {
     "index": 0,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: subluxația capului radial este cotul de dădacă.",
     "evidenceLocation": "Sinopsis, p. 228, Ortopedie pediatrică"
    },
    {
     "index": 1,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: necroza avasculară a epifizei femurale este boala Legg-Calvé-Perthes.",
     "evidenceLocation": "Sinopsis, p. 228, Ortopedie pediatrică"
    },
    {
     "index": 2,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: piciorul strâmb este o malformație congenitală a piciorului.",
     "evidenceLocation": "Sinopsis, p. 228, Ortopedie pediatrică"
    },
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: alunecarea epifizei capului femural apare la adolescentul supraponderal.",
     "evidenceLocation": "Sinopsis, p. 228, Ortopedie pediatrică"
    },
    {
@@ -224588,7 +224653,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:12:51.537Z",
+  "reviewedAt": "2026-11-08T11:56:49.256Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -224599,11 +224664,12 @@
    "tuberculului tibial"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-110: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-110: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "pediatrie-adv-102-v2",
-  "questionFingerprint": "23fd2bdf11fe2ab822ab08326c43d62a82810cc5c6f895f5e689bf8f600869df",
+  "questionFingerprint": "80fe7513db1050585ec1211f57ce3a88d9d0468ebf832d24719e238546faf180",
   "status": "source-checked",
   "learningObjective": "Enurezisul.",
   "reference": {
@@ -224640,7 +224706,7 @@
    {
     "index": 3,
     "verdict": "incorrect",
-    "rationale": "Nu.",
+    "rationale": "Nu: enurezisul este de regulă funcțional; valvele uretrale posterioare dau obstrucție, cu jet slab și hidronefroză.",
     "evidenceLocation": "Sinopsis, p. 222, Probleme genitourinare"
    },
    {
@@ -224664,7 +224730,7 @@
    "kind": "ai",
    "name": "Claude"
   },
-  "reviewedAt": "2026-09-25T14:13:31.052Z",
+  "reviewedAt": "2026-11-08T11:56:49.255Z",
   "unresolvedIssues": [],
   "difficulty": {
    "score": 8,
@@ -224676,7 +224742,8 @@
    "4 ani"
   ],
   "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a pediatrie-adv-102: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
+  "reviewNotes": "Rescriere a pediatrie-adv-102: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-08"
  },
  {
   "questionId": "ortopedie-adv-002-v2",
