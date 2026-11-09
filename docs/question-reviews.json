@@ -273120,5 +273120,1160 @@
   ],
   "textbookWordingReviewed": false,
   "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "perioperator-p26-001",
+  "questionFingerprint": "34954f0be041812a7c5352d045ee166633ee151faba5360d76e1902bd3c7b2a3",
+  "status": "edition-checked",
+  "learningObjective": "Recunoașterea factorilor de risc pulmonar postoperator care țin de pacient.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    2
+   ],
+   "pdfPages": [
+    2
+   ],
+   "section": "Evaluarea pulmonară"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Fumatul este un factor de risc pulmonar legat de pacient.",
+    "evidenceLocation": "Lawrence, p. 2, Evaluarea pulmonară"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: sediul intratoracic al operației este un factor legat de intervenție, nu de pacient.",
+    "evidenceLocation": "Lawrence, p. 2, Evaluarea pulmonară"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "BPOC este un factor de risc pulmonar legat de pacient.",
+    "evidenceLocation": "Lawrence, p. 2, Evaluarea pulmonară"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Insuficiența cardiacă congestivă crește riscul pulmonar postoperator.",
+    "evidenceLocation": "Lawrence, p. 2, Evaluarea pulmonară"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Vârsta figurează printre factorii de risc pulmonar legați de pacient.",
+    "evidenceLocation": "Lawrence, p. 2, Evaluarea pulmonară"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T08:17:40.994Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Singurul distractor este un factor de risc legat de intervenție."
+  },
+  "textbookExpressions": [
+   "2-9%",
+   "American Society of Anesthesiologists"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "perioperator-p26-002",
+  "questionFingerprint": "9fee5a6ad223de20edeec2c26c488fd55404057cac1676829fb9d1d00207ac6b",
+  "status": "edition-checked",
+  "learningObjective": "Recunoașterea claselor din clasificarea ASA a statusului fizic.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    2
+   ],
+   "pdfPages": [
+    2
+   ],
+   "section": "Evaluarea pulmonară"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: boala sistemică ușoară este clasa II; clasa III înseamnă boală sistemică severă.",
+    "evidenceLocation": "Lawrence, p. 2, Evaluarea pulmonară"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Clasa V descrie pacientul muribund, care nu ar supraviețui fără operație.",
+    "evidenceLocation": "Lawrence, p. 2, Evaluarea pulmonară"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Clasificarea are 6 categorii; ultima cuprinde donatorii de organe.",
+    "evidenceLocation": "Lawrence, p. 2, Evaluarea pulmonară"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Clasa I descrie pacientul sănătos, fără boală sistemică.",
+    "evidenceLocation": "Lawrence, p. 2, Evaluarea pulmonară"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: clasificarea ASA nu a fost elaborată pentru prezicerea riscului operator.",
+    "evidenceLocation": "Lawrence, p. 2, Evaluarea pulmonară"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T08:17:40.995Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii mută definiția între clase vecine și îi atribuie un rol predictiv."
+  },
+  "textbookExpressions": [
+   "American Society of Anesthesiologists",
+   "6 categorii"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "perioperator-p26-003",
+  "questionFingerprint": "e4bcf07f762d3b186c60fac81b4361a334ae14f598ea8744dc38fef964095ad8",
+  "status": "edition-checked",
+  "learningObjective": "Recunoașterea contraindicațiilor chirurgiei elective din Tabelul 1-1.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    3
+   ],
+   "pdfPages": [
+    3
+   ],
+   "section": "Tabelul 1-1"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Hipoxemia figurează printre contraindicațiile din Tabelul 1-1.",
+    "evidenceLocation": "Lawrence, p. 3, Tabelul 1-1"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: controlul ascitei face parte din pregătirea preoperatorie, nu din contraindicații.",
+    "evidenceLocation": "Lawrence, p. 3, Tabelul 1-1"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Insuficiența hepatică acută figurează în Tabelul 1-1.",
+    "evidenceLocation": "Lawrence, p. 3, Tabelul 1-1"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Coagulopatia severă, persistentă în ciuda tratamentului, contraindică chirurgia electivă.",
+    "evidenceLocation": "Lawrence, p. 3, Tabelul 1-1"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: NASH este cea mai frecventă boală hepatică cronică, dar nu figurează în tabel.",
+    "evidenceLocation": "Lawrence, p. 3, Tabelul 1-1"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T08:17:40.996Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt situații hepatice compatibile cu chirurgia electivă."
+  },
+  "textbookExpressions": [
+   "Insuficienţa hepatică acută",
+   "Coagulopatia severă"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "perioperator-p26-004",
+  "questionFingerprint": "3175c8bd8a59e32278e24855c5dc6e574ccbc3fdfe640edddb2efd87c3b70562",
+  "status": "edition-checked",
+  "learningObjective": "Aplicarea scorului MELD la estimarea mortalității operatorii.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    3
+   ],
+   "pdfPages": [
+    3
+   ],
+   "section": "Pacientul cu disfuncție hepatică — MELD"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: 5% corespunde unui scor MELD de cel mult 7.",
+    "evidenceLocation": "Lawrence, p. 3, Pacientul cu disfuncție hepatică — MELD"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: 25% corespunde intervalului MELD 12–15.",
+    "evidenceLocation": "Lawrence, p. 3, Pacientul cu disfuncție hepatică — MELD"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "În chirurgia abdominală, ortopedică și cardiovasculară, MELD 8–11 asociază mortalitate de 10%.",
+    "evidenceLocation": "Lawrence, p. 3, Pacientul cu disfuncție hepatică — MELD"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: mortalitatea peste 80% aparține clasei Child C.",
+    "evidenceLocation": "Lawrence, p. 3, Pacientul cu disfuncție hepatică — MELD"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: circa 6% este mortalitatea colecistectomiei laparoscopice cu MELD peste 8.",
+    "evidenceLocation": "Lawrence, p. 3, Pacientul cu disfuncție hepatică — MELD"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T08:17:40.996Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt mortalitățile intervalelor vecine și ale clasei Child C."
+  },
+  "textbookExpressions": [
+   "MELD <8",
+   "12-15"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "perioperator-p26-005",
+  "questionFingerprint": "a79a9b2f63bb9066c703b3c1fe2bdf11b43e80fd3ec459678e1ab6eb8ab63f1b",
+  "status": "edition-checked",
+  "learningObjective": "Aplicarea precauțiilor de analgezie și hemostază la pacientul cu BRC.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    3
+   ],
+   "pdfPages": [
+    3
+   ],
+   "section": "Pacientul cu disfuncție renală"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "AINS sunt în general contraindicate, fiind nefrotoxice.",
+    "evidenceLocation": "Lawrence, p. 3, Pacientul cu disfuncție renală"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: anemia pacientului cu BRC este de obicei bine tolerată.",
+    "evidenceLocation": "Lawrence, p. 3, Pacientul cu disfuncție renală"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Opioidele se acumulează și cresc riscul de depresie respiratorie.",
+    "evidenceLocation": "Lawrence, p. 3, Pacientul cu disfuncție renală"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: trombocitopatia uremică se tratează cu DDAVP, care eliberează factor von Willebrand.",
+    "evidenceLocation": "Lawrence, p. 3, Pacientul cu disfuncție renală"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Heparinizarea de dializă și coagulopatia uremică cresc pierderea de sânge.",
+    "evidenceLocation": "Lawrence, p. 3, Pacientul cu disfuncție renală"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T08:17:40.996Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii aplică tratamentul coagulopatiei hepatice și transfuzia de rutină."
+  },
+  "textbookExpressions": [
+   "DDAVP",
+   "hiperkalemia ameninţătoare"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "perioperator-p26-006",
+  "questionFingerprint": "c8c727737226ce3937d730dbbeb1f55aa71227fd339529397b7e7d585bf9f941",
+  "status": "edition-checked",
+  "learningObjective": "Aplicarea Tabelului 1-1 la decizia de amânare a unei intervenții elective.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    3
+   ],
+   "pdfPages": [
+    3
+   ],
+   "section": "Tabelul 1-1"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Hepatita alcoolică este una dintre contraindicațiile chirurgiei elective din Tabelul 1-1.",
+    "evidenceLocation": "Lawrence, p. 3, Tabelul 1-1"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: la colecistectomia laparoscopică, un MELD sub 8 asociază mortalitate 0%.",
+    "evidenceLocation": "Lawrence, p. 3, Tabelul 1-1"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: albumina peste 3,5 g/dL corespunde clasei Child A.",
+    "evidenceLocation": "Lawrence, p. 3, Tabelul 1-1"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: bilirubina sub 2,0 mg/dL corespunde clasei Child A.",
+    "evidenceLocation": "Lawrence, p. 3, Tabelul 1-1"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: tabelul include coagulopatia severă refractară, nu trombocitopenia ușoară.",
+    "evidenceLocation": "Lawrence, p. 3, Tabelul 1-1"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T08:17:40.996Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt valori liniștitoare din Child-Pugh și MELD."
+  },
+  "textbookExpressions": [
+   "Hepatita virală acută",
+   "MELD <8"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "perioperator-p26-007",
+  "questionFingerprint": "43733c879b6ce2a6ee2cb521932206d56a60a4a39c07af4c1d1b4743e60eee7c",
+  "status": "edition-checked",
+  "learningObjective": "Aplicarea clasificării Child-Pugh: excepțiile chirurgiei elective în clasa B.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    3
+   ],
+   "pdfPages": [
+    3
+   ],
+   "section": "Pacientul cu disfuncție hepatică"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Rezecțiile hepatice extinse sunt o excepție de la chirurgia electivă în clasa Child B.",
+    "evidenceLocation": "Lawrence, p. 3, Pacientul cu disfuncție hepatică"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: în afara celor două excepții, intervenția este posibilă după pregătire.",
+    "evidenceLocation": "Lawrence, p. 3, Pacientul cu disfuncție hepatică"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: în clasa Child B, chirurgia electivă este posibilă după pregătire.",
+    "evidenceLocation": "Lawrence, p. 3, Pacientul cu disfuncție hepatică"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Chirurgia cardiacă este cealaltă excepție citată pentru clasa Child B.",
+    "evidenceLocation": "Lawrence, p. 3, Pacientul cu disfuncție hepatică"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: intervențiile minore sunt posibile în clasa Child B, după pregătire.",
+    "evidenceLocation": "Lawrence, p. 3, Pacientul cu disfuncție hepatică"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T08:17:40.997Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt intervenții posibile după pregătire în clasa Child B."
+  },
+  "textbookExpressions": [
+   "Child A",
+   "Child C"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "perioperator-p26-008",
+  "questionFingerprint": "6521e8f342bd55820c19e2adbd5a10224cbe7ba24a2f53e102d3cb1982bd0d70",
+  "status": "edition-checked",
+  "learningObjective": "Ajustarea dozei de insulină intermediară în dimineața intervenției.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    5
+   ],
+   "pdfPages": [
+    5
+   ],
+   "section": "Pacientul diabetic — Management"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Insulina intermediară sau lungă se dă în dimineața intervenției în 1/2 din doza de dimineață.",
+    "evidenceLocation": "Lawrence, p. 5, Pacientul diabetic — Management"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: doza de dimineață se reduce la jumătate.",
+    "evidenceLocation": "Lawrence, p. 5, Pacientul diabetic — Management"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: fracția de 2/3 se aplică dozei de seară din ziua precedentă.",
+    "evidenceLocation": "Lawrence, p. 5, Pacientul diabetic — Management"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: 2/3 din doza de seară se administrează în seara dinaintea intervenției.",
+    "evidenceLocation": "Lawrence, p. 5, Pacientul diabetic — Management"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: oprirea pe durata postului privește insulina rapidă, nu pe cea intermediară.",
+    "evidenceLocation": "Lawrence, p. 5, Pacientul diabetic — Management"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T08:17:40.997Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii confundă fracțiile dozei de seară și de dimineață."
+  },
+  "textbookExpressions": [
+   "2/3 din doza",
+   "48-72 de ore"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "perioperator-p26-009",
+  "questionFingerprint": "1c72a2d26525a0de72c1a35a434e607d7ada484822aa11f144c015797cfc4fab",
+  "status": "edition-checked",
+  "learningObjective": "Încadrarea intervențiilor după gradul stresului chirurgical din Tabelul 1-3.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    5
+   ],
+   "pdfPages": [
+    5
+   ],
+   "section": "Tabelul 1-3"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: proctocolectomia este stres major, cu 100 mg hidrocortizon IV la inducție.",
+    "evidenceLocation": "Lawrence, p. 5, Tabelul 1-3"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Revascularizarea de membru este un exemplu de stres moderat.",
+    "evidenceLocation": "Lawrence, p. 5, Tabelul 1-3"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Artroplastia de șold este stres moderat: 50 mg hidrocortizon IV, apoi 25 mg la 8 ore.",
+    "evidenceLocation": "Lawrence, p. 5, Tabelul 1-3"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: procedurile minore sau sub anestezie locală nu necesită suplimentare.",
+    "evidenceLocation": "Lawrence, p. 5, Tabelul 1-3"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: esofagogastrectomia este un exemplu de stres major.",
+    "evidenceLocation": "Lawrence, p. 5, Tabelul 1-3"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T08:17:40.997Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt exemplele de stres major și minor din același tabel."
+  },
+  "textbookExpressions": [
+   "hidrocortizon IV",
+   "esofagogastrectomie"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "perioperator-p26-010",
+  "questionFingerprint": "db7252e4852f9e8920d53d01828b9fb5657feb9d57636ed488acb6a153fb9923",
+  "status": "edition-checked",
+  "learningObjective": "Recunoașterea indicațiilor de explorare chirurgicală la gravida traumatizată.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    6
+   ],
+   "pdfPages": [
+    6
+   ],
+   "section": "Pacienta însărcinată — Trauma"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Injuria uterină sau fetală completează lista indicațiilor.",
+    "evidenceLocation": "Lawrence, p. 6, Pacienta însărcinată — Trauma"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Hemoragia intraperitoneală impune explorarea chirurgicală.",
+    "evidenceLocation": "Lawrence, p. 6, Pacienta însărcinată — Trauma"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Plaga penetrantă abdominală este indicație de explorare.",
+    "evidenceLocation": "Lawrence, p. 6, Pacienta însărcinată — Trauma"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: leziunea minoră la distanță de uter este excepția de la profilaxia anti-D, nu indicație de explorare.",
+    "evidenceLocation": "Lawrence, p. 6, Pacienta însărcinată — Trauma"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Leziunea organelor cavitare este indicație de explorare.",
+    "evidenceLocation": "Lawrence, p. 6, Pacienta însărcinată — Trauma"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T08:17:40.997Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Singurul distractor preia excepția de la profilaxia anti-D."
+  },
+  "textbookExpressions": [
+   "plagă penetrantă",
+   "efectului teratogen"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "perioperator-p26-011",
+  "questionFingerprint": "414db362d706e64e6f5556c671c1a9e8e34c03c3d5b12ce0058359ccb4b5f349",
+  "status": "edition-checked",
+  "learningObjective": "Recunoașterea elementelor discuției de consimțământ informat.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    7
+   ],
+   "pdfPages": [
+    7
+   ],
+   "section": "Consimțământul informat"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Pacientul trebuie să înțeleagă natura intervenției propuse.",
+    "evidenceLocation": "Lawrence, p. 7, Consimțământul informat"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Riscurile și beneficiile anticipate se discută explicit.",
+    "evidenceLocation": "Lawrence, p. 7, Consimțământul informat"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Discuția onestă include alternativele și opțiunea de a nu opera.",
+    "evidenceLocation": "Lawrence, p. 7, Consimțământul informat"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: planul se stabilește de comun acord de pacient și chirurg.",
+    "evidenceLocation": "Lawrence, p. 7, Consimțământul informat"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: înlocuitorul intervine când pacientul nu își poate exprima voința.",
+    "evidenceLocation": "Lawrence, p. 7, Consimțământul informat"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T08:17:40.997Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii mută decizia la familie sau la chirurg."
+  },
+  "textbookExpressions": [
+   "Consimţământul informat",
+   "proces, nu un moment"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "perioperator-p26-012",
+  "questionFingerprint": "b3ef4c13ed9741c12e71ffa199686ed2a42bb226fd9df32dd4c98947eaeacf6b",
+  "status": "edition-checked",
+  "learningObjective": "Diferențierea conținutului biletului de externare de alte documente ale foii.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    7
+   ],
+   "pdfPages": [
+    7
+   ],
+   "section": "Documentația"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Destinația la externare și nivelul de activitate fac parte din bilet.",
+    "evidenceLocation": "Lawrence, p. 7, Documentația"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Biletul de externare cuprinde diagnosticul principal și rezumatul evoluției.",
+    "evidenceLocation": "Lawrence, p. 7, Documentația"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: rezultatul discuțiilor de consimțământ se consemnează în formularul de consimțământ.",
+    "evidenceLocation": "Lawrence, p. 7, Documentația"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: biletul de externare nu trebuie să menționeze fiecare detaliu al internării.",
+    "evidenceLocation": "Lawrence, p. 7, Documentația"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: pierderile sanguine și diureza se consemnează în nota imediat postoperatorie.",
+    "evidenceLocation": "Lawrence, p. 7, Documentația"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T08:17:40.998Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii preiau conținutul notei postoperatorii și al formularului de consimțământ."
+  },
+  "textbookExpressions": [
+   "obiective principale",
+   "Biletul de externare"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "perioperator-p26-013",
+  "questionFingerprint": "90c1e2e587a9d551830866f0a378ef704b105777dd10bcfe4c3ad824f835a29d",
+  "status": "edition-checked",
+  "learningObjective": "Recunoașterea măsurilor pre- și postoperatorii de prevenție a atelectaziei.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    10
+   ],
+   "pdfPages": [
+    10
+   ],
+   "section": "Atelectazia"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: chirurgia minim invazivă reduce incidența atelectaziei.",
+    "evidenceLocation": "Lawrence, p. 10, Atelectazia"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Mobilizarea precoce este o strategie postoperatorie esențială.",
+    "evidenceLocation": "Lawrence, p. 10, Atelectazia"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Oprirea fumatului înaintea intervenției reduce riscul de atelectazie.",
+    "evidenceLocation": "Lawrence, p. 10, Atelectazia"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: anestezicele generale favorizează atelectazia indiferent de agent.",
+    "evidenceLocation": "Lawrence, p. 10, Atelectazia"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Exercițiile inspiratorii inițiate preoperator previn atelectazia.",
+    "evidenceLocation": "Lawrence, p. 10, Atelectazia"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T08:17:40.998Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează efectul abordului minim invaziv și al tipului de anestezic."
+  },
+  "textbookExpressions": [
+   "90%",
+   "8 săptămâni"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "perioperator-p26-014",
+  "questionFingerprint": "d4d882eab4fb0004d427166efbcaa5c7c741a5cb7714d9e1d5551b41d288f8d1",
+  "status": "edition-checked",
+  "learningObjective": "Recunoașterea semnelor care sugerează extensia profundă a infecției de plagă.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    10
+   ],
+   "pdfPages": [
+    10
+   ],
+   "section": "Infecțiile plăgii chirurgicale"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: ameliorarea rapidă după deschiderea plăgii indică o infecție superficială, drenată.",
+    "evidenceLocation": "Lawrence, p. 10, Infecțiile plăgii chirurgicale"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Persistența tahicardiei, febrei sau ileusului sugerează o localizare profundă a infecției.",
+    "evidenceLocation": "Lawrence, p. 10, Infecțiile plăgii chirurgicale"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: edemul și durerea locală completează tetrada inflamației superficiale.",
+    "evidenceLocation": "Lawrence, p. 10, Infecțiile plăgii chirurgicale"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: scurgerea spontană de lichid seros anunță dehiscența fascială.",
+    "evidenceLocation": "Lawrence, p. 10, Infecțiile plăgii chirurgicale"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: eritemul și căldura locală sunt semne ale inflamației superficiale a plăgii.",
+    "evidenceLocation": "Lawrence, p. 10, Infecțiile plăgii chirurgicale"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T08:17:40.998Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt semne locale, semnul dehiscenței și evoluția favorabilă după drenaj."
+  },
+  "textbookExpressions": [
+   "un sfert",
+   "Drenajul prompt"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "perioperator-p26-015",
+  "questionFingerprint": "c8403ae0a5f7ac86a097d70430f0e70278c2534391bc7e79309ebbe9980a68c3",
+  "status": "edition-checked",
+  "learningObjective": "Recunoașterea circumstanțelor analizate la primul pas al evaluării febrei.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 1,
+   "printedPages": [
+    10
+   ],
+   "pdfPages": [
+    10
+   ],
+   "section": "Febra"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Locul și durata internării sunt circumstanțe analizate la primul pas.",
+    "evidenceLocation": "Lawrence, p. 10, Febra"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: testele de laborator și culturile urmează după primii doi pași.",
+    "evidenceLocation": "Lawrence, p. 10, Febra"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: examenul fizic țintit este al doilea pas al evaluării.",
+    "evidenceLocation": "Lawrence, p. 10, Febra"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Ventilația mecanică și instrumentarea orientează spre sursa febrei.",
+    "evidenceLocation": "Lawrence, p. 10, Febra"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Medicația și tipul operației fac parte din analiza circumstanțelor.",
+    "evidenceLocation": "Lawrence, p. 10, Febra"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T08:17:40.998Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii aparțin pașilor următori ai evaluării."
+  },
+  "textbookExpressions": [
+   "38,3",
+   "examenul fizic"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
  }
 ]
