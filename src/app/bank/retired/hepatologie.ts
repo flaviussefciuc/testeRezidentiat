@@ -6208,5 +6208,56 @@ export const RETIRED_HEPATOLOGIE:(Question&Record<string,unknown>)[]=[
    "cost-eficiente"
   ],
   "replaces": "hepatologie-adv-031"
+ },
+ {
+  "id": "hepatologie-adv-112-v2",
+  "topicId": "hepatologie",
+  "type": "CM",
+  "stem": "Hepcidina:",
+  "options": [
+   "crește în supraîncărcarea cu fier",
+   "este sintetizată în ficat",
+   "este secretată de enterocit",
+   "crește în deficitul de fier",
+   "este crescută în hemocromatoza HFE"
+  ],
+  "correct": [
+   1,
+   3
+  ],
+  "explanation": "crește în supraîncărcarea cu fier — Incorect: Nu: scade.\n\neste sintetizată în ficat — Corect: Hepcidina este sintetizată în ficat.\n\neste secretată de enterocit — Incorect: Nu: hepcidina este sintetizată și secretată de ficat, nu de enterocit.\n\ncrește în deficitul de fier — Corect: Crește în deficit.\n\neste crescută în hemocromatoza HFE — Incorect: Nu: în hemocromatoza HFE hepcidina este scăzută, nu crescută.\n\nReferință: Kumar & Clark, Medicină clinică, ediția a 10-a, text român, cap. 34, p. 1301, 1300, Boli hepatice metabolice (pagini PDF: 328, 327).",
+  "source": "https://rezidentiat.ms.ro/20261115/tematici/rezidentiat-M-2026.pdf",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 34,
+   "printedPages": [
+    1301,
+    1300
+   ],
+   "pdfPages": [
+    328,
+    327
+   ],
+   "section": "Boli hepatice metabolice"
+  },
+  "learningObjective": "Reglarea absorbției fierului.",
+  "optionRationales": [
+   "Nu: scade.",
+   "Hepcidina este sintetizată în ficat.",
+   "Nu: hepcidina este sintetizată și secretată de ficat, nu de enterocit.",
+   "Crește în deficit.",
+   "Nu: în hemocromatoza HFE hepcidina este scăzută, nu crescută."
+  ],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează reglarea."
+  },
+  "textbookExpressions": [
+   "sintetizată în ficat",
+   "deficit de fier"
+  ],
+  "replaces": "hepatologie-adv-112"
  }
 ];

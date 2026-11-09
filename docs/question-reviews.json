@@ -193502,86 +193502,6 @@
   "rationalesRevisedAt": "2026-11-09"
  },
  {
-  "questionId": "hepatologie-adv-112-v2",
-  "questionFingerprint": "9451afaefc8255aecf5b18b9fa8368995cda1025df0a54dccfe9f2c3df16d28e",
-  "status": "source-checked",
-  "learningObjective": "Reglarea absorbției fierului.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 34,
-   "printedPages": [
-    1301,
-    1300
-   ],
-   "pdfPages": [
-    328,
-    327
-   ],
-   "section": "Boli hepatice metabolice"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "incorrect",
-    "rationale": "Nu: scade.",
-    "evidenceLocation": "Kumar, p. 1301, 1300, Boli hepatice metabolice"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Hepcidina este sintetizată în ficat.",
-    "evidenceLocation": "Kumar, p. 1301, 1300, Boli hepatice metabolice"
-   },
-   {
-    "index": 2,
-    "verdict": "incorrect",
-    "rationale": "Nu: hepcidina este sintetizată și secretată de ficat, nu de enterocit.",
-    "evidenceLocation": "Kumar, p. 1301, 1300, Boli hepatice metabolice"
-   },
-   {
-    "index": 3,
-    "verdict": "correct",
-    "rationale": "Crește în deficit.",
-    "evidenceLocation": "Kumar, p. 1301, 1300, Boli hepatice metabolice"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Nu: în hemocromatoza HFE hepcidina este scăzută, nu crescută.",
-    "evidenceLocation": "Kumar, p. 1301, 1300, Boli hepatice metabolice"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-11-09T08:38:18.193Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează reglarea."
-  },
-  "textbookExpressions": [
-   "sintetizată în ficat",
-   "deficit de fier"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a hepatologie-adv-112: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă. Justificările opțiunilor au fost rescrise la 2026-11-09 (explicațiile telegrafice (sub 30 de caractere) rescrise într-o propoziție care enunță faptul, din enunț, opțiuni și justificările existente, fără date noi); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
-  "rationalesRevisedAt": "2026-11-09"
- },
- {
   "questionId": "hepatologie-adv-113-v2",
   "questionFingerprint": "73a1415811bcfe29f943956c560a79f93ddc9c9f4057c0e0127c0b13cb7cdc7e",
   "status": "source-checked",
@@ -277896,5 +277816,90 @@
    "flipped": []
   },
   "reviewNotes": "Rescriere în formatul caietelor a diabet-adv-162 (continuări scurte ale enunțului, lungimi echilibrate, ordine amestecată). Fiecare opțiune provine din opțiunea EDCBA a versiunii confruntate cu pagina; expresiile din manual sunt cele găsite atunci pe pagină. Fiecare opțiune a fost comparată cu originea ei de un recenzent independent (AI); constatările lui (sensuri schimbate, distractori deveniți discutabili) au fost corectate înainte de înregistrare."
+ },
+ {
+  "questionId": "hepatologie-adv-112-v3",
+  "questionFingerprint": "ea9fddb70670d7a62ad52ce3ab45980c4c53e98448a850af54cb9d8837ffa6b6",
+  "status": "source-checked",
+  "learningObjective": "Reglarea absorbției fierului.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 34,
+   "printedPages": [
+    1301,
+    1300
+   ],
+   "pdfPages": [
+    328,
+    327
+   ],
+   "section": "Boli hepatice metabolice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Hepcidina degradează exportatorul feroportină și blochează eliberarea fierului din enterocite și macrofage.",
+    "evidenceLocation": "Kumar, p. 1301, 1300, Boli hepatice metabolice"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: hepcidina degradează feroportina, deci reduce, nu stimulează, exportul de fier.",
+    "evidenceLocation": "Kumar, p. 1301, 1300, Boli hepatice metabolice"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: hepcidina este sintetizată și secretată de ficat, nu de enterocit.",
+    "evidenceLocation": "Kumar, p. 1301, 1300, Boli hepatice metabolice"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: în hemocromatoza HFE hepcidina este scăzută, nu crescută.",
+    "evidenceLocation": "Kumar, p. 1301, 1300, Boli hepatice metabolice"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Hepcidina este sintetizată în ficat și ocupă o poziție centrală în controlul absorbției fierului.",
+    "evidenceLocation": "Kumar, p. 1301, 1300, Boli hepatice metabolice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T08:39:16.274Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează reglarea."
+  },
+  "textbookExpressions": [
+   "sintetizată în ficat",
+   "deficit de fier"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Corecție de cheie a hepatologie-adv-112-v2: Versiunea v2 nota drept adevărat că hepcidina „crește în deficitul de fier” și drept fals că „crește în supraîncărcarea cu fier”, după un pasaj de la p. 1301 care inversează reglarea fiziologică (hepcidina scade în deficitul de fier și crește la încărcarea cu fier; rămâne inadecvat scăzută în hemocromatoza HFE). Conform regulii din source-discrepancies (un pasaj contestat nu validează o cheie), cele două opțiuni au fost înlocuite cu afirmații necontestate din aceeași pagină: hepcidina degradează feroportina și blochează eliberarea fierului (adevărat) și nu stimulează exportul prin feroportină (fals). Enunțul, referința, expresiile și celelalte trei opțiuni sunt neschimbate.",
+  "rationalesRevisedAt": "2026-11-09",
+  "keyCorrection": {
+   "replaces": "hepatologie-adv-112-v2",
+   "date": "2026-11-09",
+   "note": "Versiunea v2 nota drept adevărat că hepcidina „crește în deficitul de fier” și drept fals că „crește în supraîncărcarea cu fier”, după un pasaj de la p. 1301 care inversează reglarea fiziologică (hepcidina scade în deficitul de fier și crește la încărcarea cu fier; rămâne inadecvat scăzută în hemocromatoza HFE). Conform regulii din source-discrepancies (un pasaj contestat nu validează o cheie), cele două opțiuni au fost înlocuite cu afirmații necontestate din aceeași pagină: hepcidina degradează feroportina și blochează eliberarea fierului (adevărat) și nu stimulează exportul prin feroportină (fals). Enunțul, referința, expresiile și celelalte trei opțiuni sunt neschimbate."
+  }
  }
 ]

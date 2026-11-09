@@ -240751,5 +240751,85 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "hepatologie-adv-112-v2",
+  "questionFingerprint": "9451afaefc8255aecf5b18b9fa8368995cda1025df0a54dccfe9f2c3df16d28e",
+  "status": "source-checked",
+  "learningObjective": "Reglarea absorbției fierului.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 34,
+   "printedPages": [
+    1301,
+    1300
+   ],
+   "pdfPages": [
+    328,
+    327
+   ],
+   "section": "Boli hepatice metabolice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: scade.",
+    "evidenceLocation": "Kumar, p. 1301, 1300, Boli hepatice metabolice"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Hepcidina este sintetizată în ficat.",
+    "evidenceLocation": "Kumar, p. 1301, 1300, Boli hepatice metabolice"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: hepcidina este sintetizată și secretată de ficat, nu de enterocit.",
+    "evidenceLocation": "Kumar, p. 1301, 1300, Boli hepatice metabolice"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Crește în deficit.",
+    "evidenceLocation": "Kumar, p. 1301, 1300, Boli hepatice metabolice"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: în hemocromatoza HFE hepcidina este scăzută, nu crescută.",
+    "evidenceLocation": "Kumar, p. 1301, 1300, Boli hepatice metabolice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T08:38:18.193Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează reglarea."
+  },
+  "textbookExpressions": [
+   "sintetizată în ficat",
+   "deficit de fier"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a hepatologie-adv-112: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics). Justificările opțiunilor au fost rescrise la 2026-11-08 (cele de tip „Nu.” înlocuite cu faptul care face opțiunea falsă sau adevărată); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă. Justificările opțiunilor au fost rescrise la 2026-11-09 (explicațiile telegrafice (sub 30 de caractere) rescrise într-o propoziție care enunță faptul, din enunț, opțiuni și justificările existente, fără date noi); enunțul, opțiunile, cheia, referința, obiectivul și expresiile din manual sunt neschimbate, deci confruntarea anterioară a cheii cu textul rămâne valabilă.",
+  "rationalesRevisedAt": "2026-11-09"
  }
 ]
