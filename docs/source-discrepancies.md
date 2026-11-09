@@ -256,3 +256,41 @@ Fiecare temă rescrisă (versiunile `-v2`) a fost confruntată din nou cu pagini
   Niciuna dintre cele șase variante de examen din 2021–2025 nu conține întrebări din aceste secțiuni Kumar.
 - Micobacteriile netuberculoase (p. 972, după limită) au fost scoase din `-053-v2` (acum doar M. bovis) și din `-091-v2` (acum chimioprofilaxia ITBL).
 - Retrase ca dubluri: 012 (inclus în `-119-v2`), 107 (inclus în `-002-v2`), 126 (inclus în `-044-v2`).
+
+## Noiembrie 2026 — afirmații semnalate la rescrierea în formatul caietelor
+
+În noiembrie 2026 capitolele HIV, diabet, nefrologie și cardiologie au fost rescrise în formatul caietelor, iar explicațiile telegrafice din ORL, pneumologie, pediatrie, urologie, ortopedie și hepatologie au fost reformulate. Un recenzent independent (AI) a comparat fiecare opțiune rescrisă cu versiunea confruntată anterior cu pagina. Extrasele locale (`tmp/source-books/`) nu erau disponibile pe mașina folosită, deci afirmațiile de mai jos nu au putut fi reconfruntate cu textul. Ele diferă de predarea standard sau de ghidurile pe care cartea însăși le reproduce.
+
+**Decizie:** nicio cheie nu a fost schimbată pe baza cunoștințelor generale. Unde un pasaj este contestat (regula de la cefalosporine și MRSA), el nu mai validează o cheie: opțiunea a fost înlocuită cu una necontestată. Unde rescrierea a putut evita detaliul îndoielnic fără a pierde faptul verificat, l-a evitat. Restul rămân de confruntat cu pagina românească.
+
+### Corectate (pasaj contestat înlocuit cu o opțiune necontestată)
+- `ati-adv-042-v3` (Kumar, p. 228): pneumotoracele în tensiune — pasajul plasează deplasarea mediastinului „de partea pneumotoracelui”; fiziologic, mediastinul este împins spre partea opusă. Opțiunea despre direcția deplasării a fost înlocuită cu murmurul vezicular diminuat.
+- `hepatologie-adv-112-v3` (Kumar, p. 1301): hepcidina „crește în deficitul de fier și scade la supraîncărcare” — reglarea fiziologică este inversă. Opțiunile au fost înlocuite cu degradarea feroportinei.
+- `hiv-adv-011-v2`: varianta originală nota fals „țintele 90-90-90 atinse până în 2020”, deși termenul UNAIDS era chiar 2020 (2030 privește încheierea epidemiei); distractorul spune acum „epidemia încheiată până în 2020”.
+- `cardiologie-adv-224-v2`: varianta originală nota falsă o opțiune pe care propria justificare o declara adevărată (tratamentul nu este de obicei necesar; beta-blocante dacă apar aritmii); distractorul afirmă acum clar opusul.
+- `orl-adv-092-v2`: justificarea numea „cricotiroidianul lateral”; mușchiul adductor este cricoaritenoidianul lateral.
+- `gastro-adv-021-v3` (Kumar, p. 1166): versiunea v2 repeta opțiunea despre rebiopsia la 3 luni, iar copia avea o justificare despre ablația prin radiofrecvență; copia a fost înlocuită cu rezecția endoscopică a displaziei de grad înalt pe leziune nodulară.
+- `cardiologie-adv-022-v2`: „adrenalină 1 mg la intervale de minute” (cifra lipsea) este acum „la fiecare 3–5 minute”, intervalul algoritmului ALS.
+
+### Evitate în rescriere (detaliul îndoielnic nu mai apare în opțiuni)
+- Scorul TIMI pentru STEMI (`cardiologie-adv-073`, `-174`): „greutatea >67 kg”; scorul original punctează greutatea <67 kg. Opțiunile testează doar întârzierea tratamentului; banda „9–16” (scorul are maximum 14) nu mai este citată.
+- `hiv-adv-072`: inhibitorii de protează cresc „rifampicina” până la toxicitate, cu uveită — efectul este descris clasic pentru rifabutină; grila vorbește acum de rifamicine.
+- `hiv-adv-095`: incluziile „ochi de bufniță” numite citoplasmatice (clasic intranucleare) — localizarea nu mai este testată.
+- `diabet-adv-100`: „infecția HIV” printre cauzele de HbA1c fals crescută (Cadranul 23.16, p. 721); majoritatea surselor o dau la fals scăzută — distractorul este acum deficitul netratat de B12.
+- `diabet-adv-107` (neuropatia de nerv III „nedureroasă”), `-140` (analogii GLP-1 și insuficiența cardiacă, contrazis de `-155`), `-161` (segmentul „pre” direcționează transferul „în Golgi”), `-085` („timp redus de reumplere capilară”).
+- `nefrologie-adv-036` (creatinină „600–700 mmol/L”, corect µmol/L), `-055` (restricție proteică „1,8 g/zi”), `-054` („fibroză sistemică nefrotică” → nefrogenă).
+- `cardiologie-adv-180`: clasificarea Carpentier denumită „A/B/C”; rescrierea folosește tipurile I–III.
+- `cardiologie-adv-185`: valva Björk-Shiley încadrată la trombogenitate medie (ESC: discurile basculante sunt cu trombogenitate înaltă) — numele nu mai apare.
+- `cardiologie-adv-308`: enunțul „durabilitate de peste:” făcea adevărați distractorii cu valori mai mici.
+
+### De confruntat cu pagina (cheile rămân ca în versiunea verificată)
+- **ORL:** `-014` (tub de timpanostomie la „6 episoade de OMA în 6 luni”), `-013` B („75% au cel puțin 3 episoade până la 2 ani”), `-032` B (amigdalectomie la „6 amigdalite într-un an”), `-058` B (adenopatia din boala ghearelor de pisică „se remite în câteva zile”), `-023`/`-072` (drenajul sinusului sfenoidal și al etmoidului posterior).
+- **Pediatrie:** `-092` (DSA: profilaxie stomatologică necesară; „cel mai frecvent defect în sindromul Down”), `-064` (pubertatea la băieți), `-121` (exantemul rujeolic „începe pe scalp și piept”), `-095` (prostaglandina E în crizele hipoxice din tetralogia Fallot), `-093`/`-096` (cordul „în sabot” atribuit trunchiului arterial).
+- **Pneumologie:** `-060` (mezoteliomul „se poate dezvolta din plăci pleurale”), `-115` (emfizemul centroacinar „în jurul bronhiolei terminale”).
+- **HIV:** `-084` și `-015` (elite controllers: „<2.000 copii/ml sau nedetectabilă”), `-094` (valganciclovirul de întreținere „mai puțin eficace” decât ganciclovirul i.v.).
+- **Hepatologie:** `-025` (MELD 30–40: „supraviețuire 70% la 1 an”; datele de validare dau mortalitate la 3 luni).
+- **Cardiologie:** `-002`, `-031`, `-121`, `-122` (Lev = fibroză distală la vârstnic, Lenègre = proximală la tânăr; descrierea uzuală este inversă, p. 1055), `-049` (TV nesusținută de la ≥5 complexe; ghidurile: ≥3), `-066` (rezervă de flux „zero” la o stenoză de 50%), `-079` (AVC ischemic „în ultimele 3 luni” ca contraindicație absolută a trombolizei; ESC: 6 luni), `-086` (diametru „telediastolic” <55 mm în RM), `-104` (definiția pericarditei incesante), `-143` (ablația profilactică la preexcitația asimptomatică), `-151` (oprirea IECA cu 3 zile înaintea sacubitril/valsartanului; eticheta: 36 de ore), `-302` (semnul Kussmaul în tamponadă), `-235` (digoxin „2,5 mg/zi”).
+- **Nefrologie:** `-078` (anticorpii anti-THSD7A: „3% dintre cazurile PLA2R-pozitive” în expresiile versiunii verificate; literatura dă 3% din totalul cazurilor de glomerulopatie membranoasă — justificarea rescrisă spune „3% dintre pacienți”), `-039` (rituximab de întreținere la 3 luni), `-011` (ținta PTH la dializați de 2–3 ori limita superioară).
+- **Diabet:** `-100` (insuficiența renală printre cauzele de HbA1c fals crescută, păstrată ca în original).
+- **Urologie:** `-080` (amitriptilina în instilații vezicale), `-066`/`-098` (supraviețuire mediană ~53 de luni „în boala refractară”), `-001`/`-064` (90% față de 80% din cancerele de prostată în zona periferică), `-094` („disfuncția sexuală” după TURP sub 5%).
+- **Ortopedie:** `-109-v2` — enunțul întreabă de ce depinde viteza vindecării, dar două opțiuni sunt criterii de consolidare (una notată adevărată); enunțul trebuie lărgit într-o versiune nouă.
