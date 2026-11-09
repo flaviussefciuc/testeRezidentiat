@@ -4,6 +4,9 @@ import {RETIRED_GASTRO} from './retired/gastro';
 // Rewritten after the 2026-09-24 cue audit (Kumar, cap. 32: p. 1162–1166 până la
 // „Tulburările de motilitate”, p. 1173–1176 până la „Gastropareza”, p. 1198–1208).
 const q=rewriter(RETIRED_GASTRO,(p:number)=>p<=1166?p-871:p<=1176?p-876:p-897,{shuffle:true});
+// gastro-adv-021-v3 (November 2026): v2 repeated the 3-month rebiopsy option and paired the copy with an
+// explanation about radiofrequency ablation; the copy is replaced by the endoscopic resection of nodular HGD.
+const q3=rewriter(RETIRED_GASTRO,(p:number)=>p<=1166?p-871:p<=1176?p-876:p-897,{shuffle:true,version:3});
 
 const R='Boala de reflux gastro-esofagian',H='Infecția cu H. pylori și boala ulceroasă',B='Bolile inflamatorii intestinale';
 
@@ -98,10 +101,10 @@ q('gastro-adv-047',['În criteriile Praga, cu joncțiunea la 36 cm, limita circu
  'Calculul clasificării Praga.',
  ['36−33 = C3; 36−29 = M7.','Nu: valorile sunt inversate.','Nu: M este 7.','Nu: C este 3.','Nu: se scad din lungimea joncțiunii.']],
  [8,'Distractorii inversează sau omit scăderea.'],['C3 şi M7','Praga']),
-q('gastro-adv-021',['Supravegherea esofagului Barrett:',
- ['displazia de grad scăzut se reverifică la 6 luni','HGD fără leziune vizibilă cere biopsii în 3 luni','HGD fără leziune vizibilă: biopsii în 3 luni','HGD impune esofagectomie de rutină','terapia fotodinamică a înlocuit radiofrecvența'],'ABC',1166,R,
+q3('gastro-adv-021-v2',['Supravegherea esofagului Barrett:',
+ ['displazia de grad scăzut se reverifică la 6 luni','HGD fără leziune vizibilă cere biopsii în 3 luni','HGD pe leziune nodulară: rezecție endoscopică','HGD impune esofagectomie de rutină','terapia fotodinamică a înlocuit radiofrecvența'],'ABC',1166,R,
  'Conduita în displazia din esofagul Barrett.',
- ['Displazia de grad scăzut: endoscopie la 6 luni.','HGD fără leziune vizibilă: IPP și biopsii în cel mult 3 luni.','RFA este tehnica de elecție.','Nu: rezecția endoscopică previne esofagectomia.','Nu: RFA a înlocuit terapia fotodinamică.']],
+ ['Displazia de grad scăzut: endoscopie la 6 luni, cu biopsii și IPP în doză mare.','HGD fără leziune vizibilă: IPP în doză mare și biopsii în cel mult 3 luni.','Displazia de grad înalt pe o leziune nodulară se îndepărtează prin rezecție endoscopică mucosală.','Nu: rezecția endoscopică previne esofagectomia.','Nu: ablația prin radiofrecvență a înlocuit terapia fotodinamică ca tehnică de elecție.']],
  [8,'Distractorii inversează evoluția tehnicilor.'],['radiofrecvenţă','3 luni']),
 q('gastro-adv-024',['Patogenia infecției cu H. pylori:',
  ['BabA se leagă de antigenul Lewis','CagA și VacA cresc sinteza de IL-8','ureaza produce amoniu citotoxic','provoacă gastrită la toți subiecții infectați','IL-1β scăzut se asociază cu cancer'],'ABCD',1173,H,

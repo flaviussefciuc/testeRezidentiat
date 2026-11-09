@@ -124337,83 +124337,6 @@
   "reviewNotes": "Rescriere a gastro-adv-020: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  },
  {
-  "questionId": "gastro-adv-021-v2",
-  "questionFingerprint": "acede73eef6385981fb8119325777a90622d8b57b7c25492583d778dfba7a911",
-  "status": "source-checked",
-  "learningObjective": "Conduita în displazia din esofagul Barrett.",
-  "reference": {
-   "book": "Kumar & Clark",
-   "edition": "Medicină clinică, ediția a 10-a, text român",
-   "chapter": 32,
-   "printedPages": [
-    1166
-   ],
-   "pdfPages": [
-    295
-   ],
-   "section": "Boala de reflux gastro-esofagian"
-  },
-  "options": [
-   {
-    "index": 0,
-    "verdict": "correct",
-    "rationale": "RFA este tehnica de elecție.",
-    "evidenceLocation": "Kumar, p. 1166, Boala de reflux gastro-esofagian"
-   },
-   {
-    "index": 1,
-    "verdict": "correct",
-    "rationale": "Displazia de grad scăzut: endoscopie la 6 luni.",
-    "evidenceLocation": "Kumar, p. 1166, Boala de reflux gastro-esofagian"
-   },
-   {
-    "index": 2,
-    "verdict": "correct",
-    "rationale": "HGD fără leziune vizibilă: IPP și biopsii în cel mult 3 luni.",
-    "evidenceLocation": "Kumar, p. 1166, Boala de reflux gastro-esofagian"
-   },
-   {
-    "index": 3,
-    "verdict": "incorrect",
-    "rationale": "Nu: RFA a înlocuit terapia fotodinamică.",
-    "evidenceLocation": "Kumar, p. 1166, Boala de reflux gastro-esofagian"
-   },
-   {
-    "index": 4,
-    "verdict": "incorrect",
-    "rationale": "Nu: rezecția endoscopică previne esofagectomia.",
-    "evidenceLocation": "Kumar, p. 1166, Boala de reflux gastro-esofagian"
-   }
-  ],
-  "checks": {
-   "withinIncludedSyllabusPages": true,
-   "contextResolvesAmbiguity": true,
-   "distractorsClinicallyPlausible": true,
-   "noAnswerLengthOrAbsoluteWordingCue": true,
-   "independentObjectiveNotParaphraseDuplicate": true,
-   "explanationAddressesIncorrectOptions": true,
-   "terminologyReviewedInRomanian": true,
-   "keySupportedByRequestedEdition": true
-  },
-  "reviewer": {
-   "kind": "ai",
-   "name": "Claude"
-  },
-  "reviewedAt": "2026-09-25T08:18:41.436Z",
-  "unresolvedIssues": [],
-  "difficulty": {
-   "score": 8,
-   "kind": "editorial-estimate",
-   "reason": "Distractorii inversează evoluția tehnicilor."
-  },
-  "textbookExpressions": [
-   "radiofrecvenţă",
-   "3 luni"
-  ],
-  "textbookWordingReviewed": true,
-  "reviewNotes": "Rescriere a gastro-adv-021: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
- },
- {
   "questionId": "gastro-adv-052-v2",
   "questionFingerprint": "b072619d84be823d6dfdb3e4ba1b6813bf5b73ee600b20209f676fb34ab1add4",
   "status": "source-checked",
@@ -288000,5 +287923,87 @@
   ],
   "textbookWordingReviewed": false,
   "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "gastro-adv-021-v3",
+  "questionFingerprint": "ccd6c34d48975b2d1adadd83cc1e75c01068f9c77ebd82d0a77258bb6348ec25",
+  "status": "source-checked",
+  "learningObjective": "Conduita în displazia din esofagul Barrett.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 32,
+   "printedPages": [
+    1166
+   ],
+   "pdfPages": [
+    295
+   ],
+   "section": "Boala de reflux gastro-esofagian"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Displazia de grad înalt pe o leziune nodulară se îndepărtează prin rezecție endoscopică mucosală.",
+    "evidenceLocation": "Kumar, p. 1166, Boala de reflux gastro-esofagian"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Displazia de grad scăzut: endoscopie la 6 luni, cu biopsii și IPP în doză mare.",
+    "evidenceLocation": "Kumar, p. 1166, Boala de reflux gastro-esofagian"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: rezecția endoscopică previne esofagectomia.",
+    "evidenceLocation": "Kumar, p. 1166, Boala de reflux gastro-esofagian"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: ablația prin radiofrecvență a înlocuit terapia fotodinamică ca tehnică de elecție.",
+    "evidenceLocation": "Kumar, p. 1166, Boala de reflux gastro-esofagian"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "HGD fără leziune vizibilă: IPP în doză mare și biopsii în cel mult 3 luni.",
+    "evidenceLocation": "Kumar, p. 1166, Boala de reflux gastro-esofagian"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:25:01.054Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează evoluția tehnicilor."
+  },
+  "textbookExpressions": [
+   "radiofrecvenţă",
+   "3 luni"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Corecție de cheie a gastro-adv-021-v2: Versiunea v2 conținea de două ori opțiunea despre rebiopsia la 3 luni în HGD fără leziune vizibilă, iar copia purta justificarea „RFA este tehnica de elecție”, deci un student vedea o afirmație notată adevărată cu o explicație despre altceva. Copia a fost înlocuită cu faptul verificat din versiunea originală (rezecția endoscopică mucosală a HGD pe leziune nodulară); cheia, enunțul, referința și expresiile sunt neschimbate.",
+  "keyCorrection": {
+   "replaces": "gastro-adv-021-v2",
+   "date": "2026-11-09",
+   "note": "Versiunea v2 conținea de două ori opțiunea despre rebiopsia la 3 luni în HGD fără leziune vizibilă, iar copia purta justificarea „RFA este tehnica de elecție”, deci un student vedea o afirmație notată adevărată cu o explicație despre altceva. Copia a fost înlocuită cu faptul verificat din versiunea originală (rezecția endoscopică mucosală a HGD pe leziune nodulară); cheia, enunțul, referința și expresiile sunt neschimbate."
+  }
  }
 ]

@@ -277309,5 +277309,82 @@
   ],
   "textbookWordingReviewed": true,
   "reviewNotes": "Confruntare cu textul român furnizat. Expresiile sunt repere terminologice, nu scor automat de similitudine. Scor editorial estimat, fără validare psihometrică sau de medic."
+ },
+ {
+  "questionId": "gastro-adv-021-v2",
+  "questionFingerprint": "acede73eef6385981fb8119325777a90622d8b57b7c25492583d778dfba7a911",
+  "status": "source-checked",
+  "learningObjective": "Conduita în displazia din esofagul Barrett.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 32,
+   "printedPages": [
+    1166
+   ],
+   "pdfPages": [
+    295
+   ],
+   "section": "Boala de reflux gastro-esofagian"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "RFA este tehnica de elecție.",
+    "evidenceLocation": "Kumar, p. 1166, Boala de reflux gastro-esofagian"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Displazia de grad scăzut: endoscopie la 6 luni.",
+    "evidenceLocation": "Kumar, p. 1166, Boala de reflux gastro-esofagian"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "HGD fără leziune vizibilă: IPP și biopsii în cel mult 3 luni.",
+    "evidenceLocation": "Kumar, p. 1166, Boala de reflux gastro-esofagian"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: RFA a înlocuit terapia fotodinamică.",
+    "evidenceLocation": "Kumar, p. 1166, Boala de reflux gastro-esofagian"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: rezecția endoscopică previne esofagectomia.",
+    "evidenceLocation": "Kumar, p. 1166, Boala de reflux gastro-esofagian"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-09-25T08:18:41.436Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează evoluția tehnicilor."
+  },
+  "textbookExpressions": [
+   "radiofrecvenţă",
+   "3 luni"
+  ],
+  "textbookWordingReviewed": true,
+  "reviewNotes": "Rescriere a gastro-adv-021: confruntare cu pagina citată, opțiuni în formatul caietelor (continuări scurte ale enunțului), fără indicii de lungime sau formulare absolută (audit cue-metrics)."
  }
 ]

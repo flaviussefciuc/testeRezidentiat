@@ -4972,5 +4972,55 @@ export const RETIRED_GASTRO:(Question&Record<string,unknown>)[]=[
    "<3 scaune/săptămână",
    "59%"
   ]
+ },
+ {
+  "id": "gastro-adv-021-v2",
+  "topicId": "gastro",
+  "type": "CM",
+  "stem": "Supravegherea esofagului Barrett:",
+  "options": [
+   "HGD fără leziune vizibilă: biopsii în 3 luni",
+   "displazia de grad scăzut se reverifică la 6 luni",
+   "HGD fără leziune vizibilă cere biopsii în 3 luni",
+   "terapia fotodinamică a înlocuit radiofrecvența",
+   "HGD impune esofagectomie de rutină"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "HGD fără leziune vizibilă: biopsii în 3 luni — Corect: RFA este tehnica de elecție.\n\ndisplazia de grad scăzut se reverifică la 6 luni — Corect: Displazia de grad scăzut: endoscopie la 6 luni.\n\nHGD fără leziune vizibilă cere biopsii în 3 luni — Corect: HGD fără leziune vizibilă: IPP și biopsii în cel mult 3 luni.\n\nterapia fotodinamică a înlocuit radiofrecvența — Incorect: Nu: RFA a înlocuit terapia fotodinamică.\n\nHGD impune esofagectomie de rutină — Incorect: Nu: rezecția endoscopică previne esofagectomia.\n\nReferință: Kumar & Clark, Medicină clinică, ediția a 10-a, text român, cap. 32, p. 1166, Boala de reflux gastro-esofagian (pagini PDF: 295).",
+  "source": "https://rezidentiat.ms.ro/20261115/tematici/rezidentiat-M-2026.pdf",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 32,
+   "printedPages": [
+    1166
+   ],
+   "pdfPages": [
+    295
+   ],
+   "section": "Boala de reflux gastro-esofagian"
+  },
+  "learningObjective": "Conduita în displazia din esofagul Barrett.",
+  "optionRationales": [
+   "RFA este tehnica de elecție.",
+   "Displazia de grad scăzut: endoscopie la 6 luni.",
+   "HGD fără leziune vizibilă: IPP și biopsii în cel mult 3 luni.",
+   "Nu: RFA a înlocuit terapia fotodinamică.",
+   "Nu: rezecția endoscopică previne esofagectomia."
+  ],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează evoluția tehnicilor."
+  },
+  "textbookExpressions": [
+   "radiofrecvenţă",
+   "3 luni"
+  ],
+  "replaces": "gastro-adv-021"
  }
 ];
