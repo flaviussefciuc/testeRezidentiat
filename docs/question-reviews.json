@@ -284304,5 +284304,1237 @@
    "flipped": []
   },
   "reviewNotes": "Rescriere în formatul caietelor a cardiologie-adv-221 (continuări scurte ale enunțului, lungimi echilibrate, ordine amestecată). Fiecare opțiune provine din opțiunea CDABE a versiunii confruntate cu pagina; expresiile din manual sunt cele găsite atunci pe pagină. Fiecare opțiune a fost comparată cu originea ei de un recenzent independent (AI); constatările lui (sensuri schimbate, distractori deveniți discutabili) au fost corectate înainte de înregistrare."
+ },
+ {
+  "questionId": "ficat-splina-p26-001",
+  "questionFingerprint": "8691467779960d2b07757d21a4bfdd327e505d64f072e6df86684e7b76414334",
+  "status": "edition-checked",
+  "learningObjective": "Structura clasificării Couinaud: ficat drept și stâng, sectoare și opt segmente autonome.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 20,
+   "printedPages": [
+    317
+   ],
+   "pdfPages": [
+    187
+   ],
+   "section": "Anatomia ficatului"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Clasificarea Couinaud împarte ficatul în ficat drept și ficat stâng.",
+    "evidenceLocation": "Lawrence, p. 317, Anatomia ficatului"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: clasificarea descrie opt segmente, grupate în sectoare.",
+    "evidenceLocation": "Lawrence, p. 317, Anatomia ficatului"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: segmentele sunt definite de pediculii vasculo-biliari proprii, nu de ligamentele peritoneale.",
+    "evidenceLocation": "Lawrence, p. 317, Anatomia ficatului"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Clasificarea grupează segmentele în sectoare, în cadrul ficatului drept și stâng.",
+    "evidenceLocation": "Lawrence, p. 317, Anatomia ficatului"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Fiecare dintre cele opt segmente are circulație și drenaj biliar propriu.",
+    "evidenceLocation": "Lawrence, p. 317, Anatomia ficatului"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:12.451Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii schimbă numărul segmentelor și criteriul de delimitare."
+  },
+  "textbookExpressions": [
+   "Couinaud",
+   "opt segmente"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ficat-splina-p26-002",
+  "questionFingerprint": "6c6053ddb9cded8b37359225ca29905e70cf8d989dd42d817f297b238d6a92a1",
+  "status": "edition-checked",
+  "learningObjective": "Indicația biopsiei percutanate și leziunile hepatice diagnosticate fără ea.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 20,
+   "printedPages": [
+    319
+   ],
+   "pdfPages": [
+    189
+   ],
+   "section": "Tumorile hepatice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: în chistul hidatic puncția și biopsia se evită (însămânțare, anafilaxie); serologia confirmă diagnosticul.",
+    "evidenceLocation": "Lawrence, p. 319, Tumorile hepatice"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: la asimptomatici biopsia precoce se evită, din cauza erorilor, a hemoragiei și a însămânțării tumorale.",
+    "evidenceLocation": "Lawrence, p. 319, Tumorile hepatice"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: la cirotic, captarea arterială urmată de washout este diagnostică; biopsia se rezervă aspectului atipic.",
+    "evidenceLocation": "Lawrence, p. 319, Tumorile hepatice"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: ecografia (focar hiperecogen) și CT-ul cu contrast diagnostichează hemangiomul, fără biopsie.",
+    "evidenceLocation": "Lawrence, p. 319, Tumorile hepatice"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Biopsia rămâne utilă în tumorile nerezecabile a căror natură nu se lămurește prin imagistică și laborator.",
+    "evidenceLocation": "Lawrence, p. 319, Tumorile hepatice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:12.453Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt leziuni diagnosticate imagistic sau serologic, la care biopsia se evită."
+  },
+  "textbookExpressions": [
+   "evita biopsia",
+   "însămânţarea tumorală"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ficat-splina-p26-003",
+  "questionFingerprint": "484ce31e9d24d4be7687d475574cb6b219dd065c1fb27b5b5b4006f80868ef7f",
+  "status": "edition-checked",
+  "learningObjective": "Originea congenitală, structura microscopică și evoluția hemangiomului cavernos hepatic.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 20,
+   "printedPages": [
+    319
+   ],
+   "pdfPages": [
+    189
+   ],
+   "section": "Hemangiomul"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Funcția hepatică rămâne normală, iar hemangioamele incidentale nu necesită tratament specific.",
+    "evidenceLocation": "Lawrence, p. 319, Hemangiomul"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Microscopic, spațiile vasculare tapetate de endoteliu sunt separate de septuri fibroase.",
+    "evidenceLocation": "Lawrence, p. 319, Hemangiomul"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Hemangiomul este, probabil, o leziune congenitală, un hamartom embriologic.",
+    "evidenceLocation": "Lawrence, p. 319, Hemangiomul"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Hemangioamele pot crește în dimensiuni în timpul vieții.",
+    "evidenceLocation": "Lawrence, p. 319, Hemangiomul"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: hepatocitele fără triade portale sau ducte biliare definesc adenomul hepatic.",
+    "evidenceLocation": "Lawrence, p. 319, Hemangiomul"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:12.453Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul transferă asupra hemangiomului structura microscopică a adenomului."
+  },
+  "textbookExpressions": [
+   "spaţii endoteliale",
+   "septuri fibroase"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ficat-splina-p26-004",
+  "questionFingerprint": "25e85a1cf70d33a201956a9241d3fd2af678686eace94bc7a6aadd5d8521569f",
+  "status": "edition-checked",
+  "learningObjective": "Explorarea de elecție în HNF, față de semnele imagistice ale hemangiomului și adenomului.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 20,
+   "printedPages": [
+    320
+   ],
+   "pdfPages": [
+    190
+   ],
+   "section": "Hiperplazia nodulară focală"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: defectul de captare la 99mTc, prin lipsa celulelor Kupffer, caracterizează adenomul.",
+    "evidenceLocation": "Lawrence, p. 320, Hiperplazia nodulară focală"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: Dopplerul poate arăta spițele de roată, dar IRM rămâne metoda cea mai eficientă.",
+    "evidenceLocation": "Lawrence, p. 320, Hiperplazia nodulară focală"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "IRM descrie cel mai bine HNF, prin modificările din fazele arterială, venoasă și de echilibru.",
+    "evidenceLocation": "Lawrence, p. 320, Hiperplazia nodulară focală"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: captarea periferică progresivă spre centru este semnul CT al hemangiomului.",
+    "evidenceLocation": "Lawrence, p. 320, Hiperplazia nodulară focală"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: biopsia cu ac are erori de prelevare, iar HNF tipică imagistic se tratează conservator.",
+    "evidenceLocation": "Lawrence, p. 320, Hiperplazia nodulară focală"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:12.453Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt semnele și metodele utile în celelalte tumori hepatice benigne."
+  },
+  "textbookExpressions": [
+   "Doppler",
+   "septuri fibroase"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ficat-splina-p26-005",
+  "questionFingerprint": "55b5854a59d0bec02633270c1b739a46f272753880d2403691bc2f88edb7d838",
+  "status": "edition-checked",
+  "learningObjective": "Rolul estrogenilor și al sarcinii în adenom, hemangiom și hiperplazia nodulară focală.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 20,
+   "printedPages": [
+    320
+   ],
+   "pdfPages": [
+    190
+   ],
+   "section": "Adenomul hepatic"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Hemangiomul este de 5 ori mai frecvent la femei și pare sensibil hormonal, putând crește în sarcină.",
+    "evidenceLocation": "Lawrence, p. 320, Adenomul hepatic"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Adenomul apare tipic la femeia de 30–50 de ani, după expunere îndelungată la estrogeni (contraceptive orale).",
+    "evidenceLocation": "Lawrence, p. 320, Adenomul hepatic"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Creșterea și sângerarea adenomului sunt mai frecvente în sarcină și la tumorile peste 5 cm.",
+    "evidenceLocation": "Lawrence, p. 320, Adenomul hepatic"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: oprirea contraceptivelor poate duce la regresia adenomului și este prima măsură.",
+    "evidenceLocation": "Lawrence, p. 320, Adenomul hepatic"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: dimensiunea HNF nu este influențată de tratamentul hormonal sau de contraceptivele orale.",
+    "evidenceLocation": "Lawrence, p. 320, Adenomul hepatic"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:12.453Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii atribuie HNF sensibilitatea hormonală a adenomului și neagă regresia acestuia."
+  },
+  "textbookExpressions": [
+   "30 şi 50 de ani",
+   "nu este influenţată"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ficat-splina-p26-006",
+  "questionFingerprint": "e95f28ea897296ad131bf29d4e0c21710b2185bf63cf0d842018bd8a864b5260",
+  "status": "edition-checked",
+  "learningObjective": "Predilecția CHC pentru invazia portală și limitele AFP și ale imagisticii în diagnostic.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 20,
+   "printedPages": [
+    321
+   ],
+   "pdfPages": [
+    191
+   ],
+   "section": "Carcinomul hepatocelular"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "CHC are predilecție pentru invazia vasculară, în special a tributarelor sistemului venos port.",
+    "evidenceLocation": "Lawrence, p. 321, Carcinomul hepatocelular"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: invazia interesează în particular tributarele sistemului port, nu venele suprahepatice.",
+    "evidenceLocation": "Lawrence, p. 321, Carcinomul hepatocelular"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: captarea arterială urmată de washout este aspectul tipic al CHC; hemangiomul se încarcă periferic, progresiv.",
+    "evidenceLocation": "Lawrence, p. 321, Carcinomul hepatocelular"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: AFP este crescută doar la 60–80% dintre pacienți, deci o valoare normală nu exclude CHC.",
+    "evidenceLocation": "Lawrence, p. 321, Carcinomul hepatocelular"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Invazia vasculară este mai probabilă la tumorile mai mari.",
+    "evidenceLocation": "Lawrence, p. 321, Carcinomul hepatocelular"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:12.453Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii mută invazia pe venele suprahepatice și supraestimează AFP."
+  },
+  "textbookExpressions": [
+   "sistemului venos port",
+   "60-80%"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ficat-splina-p26-007",
+  "questionFingerprint": "ab96184f35e3ff49772f6f36b98506f6663bdb11271e5ddfa8b77296d7b5533d",
+  "status": "edition-checked",
+  "learningObjective": "Prima măsură în adenomul hepatic mic, asimptomatic, la femeia sub contraceptive orale.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 20,
+   "printedPages": [
+    321
+   ],
+   "pdfPages": [
+    191
+   ],
+   "section": "Adenomul hepatic"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: ablația termică este un tratament loco-regional al CHC și al metastazelor hepatice.",
+    "evidenceLocation": "Lawrence, p. 321, Adenomul hepatic"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: biopsia cu ac are erori de prelevare și nu este primul pas la leziunea mică asimptomatică.",
+    "evidenceLocation": "Lawrence, p. 321, Adenomul hepatic"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: rezecția se rezervă adenoamelor cu risc înalt (peste 5 cm, activarea beta-cateninei).",
+    "evidenceLocation": "Lawrence, p. 321, Adenomul hepatic"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: embolizarea se folosește în hemoragia pe adenom fără șoc, înaintea chirurgiei programate.",
+    "evidenceLocation": "Lawrence, p. 321, Adenomul hepatic"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Oprirea contraceptivelor este prima măsură la adenomul mic asimptomatic și poate duce la regresie.",
+    "evidenceLocation": "Lawrence, p. 321, Adenomul hepatic"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:12.454Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt conduitele adenomului cu risc înalt, ale hemoragiei și ale tumorilor maligne."
+  },
+  "textbookExpressions": [
+   "beta-cateninei",
+   "regresie dimensională"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ficat-splina-p26-008",
+  "questionFingerprint": "049493c5953e414ae11f8ebb63dbe167e2424f1c14cf5b9ab28b54c35ba2aa1b",
+  "status": "edition-checked",
+  "learningObjective": "Aplicarea criteriilor Milano: tumoră unică sub 5 cm sau până la trei tumori de cel mult 3 cm.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 20,
+   "printedPages": [
+    322
+   ],
+   "pdfPages": [
+    192
+   ],
+   "section": "Carcinomul hepatocelular — tratament"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: când există mai mulți noduli, fiecare trebuie să aibă cel mult 3 cm.",
+    "evidenceLocation": "Lawrence, p. 322, Carcinomul hepatocelular — tratament"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Tumora unică sub 5 cm, fără invazie vasculară, se încadrează în criteriile Milano.",
+    "evidenceLocation": "Lawrence, p. 322, Carcinomul hepatocelular — tratament"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: tumora unică trebuie să fie sub 5 cm.",
+    "evidenceLocation": "Lawrence, p. 322, Carcinomul hepatocelular — tratament"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Două tumori de 2 cm respectă limita de cel mult trei noduli de maximum 3 cm.",
+    "evidenceLocation": "Lawrence, p. 322, Carcinomul hepatocelular — tratament"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Până la trei tumori de cel mult 3 cm, fără invazie vasculară, se încadrează în criterii.",
+    "evidenceLocation": "Lawrence, p. 322, Carcinomul hepatocelular — tratament"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:12.454Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii depășesc pragul de 5 cm sau aplică acest prag bolii multinodulare."
+  },
+  "textbookExpressions": [
+   "criteriile Milano",
+   "fără invazie vasculară"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ficat-splina-p26-009",
+  "questionFingerprint": "bca887ab6b003c63649fbef567cfb658c60f99753c791df39743d5c4771f02bd",
+  "status": "edition-checked",
+  "learningObjective": "Trăsăturile chisturilor simple, față de boala polichistică și neoplasmul chistic.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 20,
+   "printedPages": [
+    323
+   ],
+   "pdfPages": [
+    193
+   ],
+   "section": "Chisturile hepatice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Când sunt multiple, chisturile simple sunt de obicei 3–4, dispuse aleator în ficat.",
+    "evidenceLocation": "Lawrence, p. 323, Chisturile hepatice"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "În chisturile voluminoase, hemoragia intrachistică poate îngreuna diferențierea de un chist neoplazic sau infecțios.",
+    "evidenceLocation": "Lawrence, p. 323, Chisturile hepatice"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: septurile și conținutul mucinos aparțin neoplasmului chistic (chistadenomul).",
+    "evidenceLocation": "Lawrence, p. 323, Chisturile hepatice"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: chistul simplu nu comunică cu arborele biliar.",
+    "evidenceLocation": "Lawrence, p. 323, Chisturile hepatice"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: transmiterea autozomal dominantă și asocierea renală caracterizează boala polichistică hepatică.",
+    "evidenceLocation": "Lawrence, p. 323, Chisturile hepatice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:12.454Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii transferă trăsăturile bolii polichistice și ale chistadenomului."
+  },
+  "textbookExpressions": [
+   "3-4",
+   "dispuse aleator"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ficat-splina-p26-010",
+  "questionFingerprint": "626c1e45b711b5ea2de14df5a4e3dbcd84f70d94c966aa7a2c960c05894f0825",
+  "status": "edition-checked",
+  "learningObjective": "Tratamentul abcesului piogen, distinct de cel al abcesului amebian și al leziunilor chistice.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 20,
+   "printedPages": [
+    323
+   ],
+   "pdfPages": [
+    193
+   ],
+   "section": "Abcesul piogen"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: metronidazolul fără drenaj este tratamentul abcesului amebian.",
+    "evidenceLocation": "Lawrence, p. 323, Abcesul piogen"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: albendazolul și evitarea puncției țin de chistul hidatic.",
+    "evidenceLocation": "Lawrence, p. 323, Abcesul piogen"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Aspirația percutanată cu tub de dren ajută diagnosticul și remiterea; antibioticele se adaptează culturilor.",
+    "evidenceLocation": "Lawrence, p. 323, Abcesul piogen"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: decorticarea chirurgicală este tratamentul chistului hepatic simplu simptomatic.",
+    "evidenceLocation": "Lawrence, p. 323, Abcesul piogen"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: excizia completă este tratamentul neoplasmului chistic (chistadenomul).",
+    "evidenceLocation": "Lawrence, p. 323, Abcesul piogen"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:12.454Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt tratamentele celorlalte leziuni chistice și infecțioase hepatice."
+  },
+  "textbookExpressions": [
+   "Aspiraţia percutanată",
+   "Fosfataza alcalină"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ficat-splina-p26-011",
+  "questionFingerprint": "86a26ca13b19a824900e30e88964c04fa66d3be3a2f607fd6ad9dfaf0f3e99a3",
+  "status": "edition-checked",
+  "learningObjective": "Rolul omului în ciclul parazitar, sediul și eozinofilia în echinococoza hepatică.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 20,
+   "printedPages": [
+    324
+   ],
+   "pdfPages": [
+    194
+   ],
+   "section": "Chistul hidatic"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: ficatul găzduiește două treimi dintre chisturile cu E. granulosus.",
+    "evidenceLocation": "Lawrence, p. 324, Chistul hidatic"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: omul este gazdă intermediară accidentală, nu gazdă definitivă.",
+    "evidenceLocation": "Lawrence, p. 324, Chistul hidatic"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "E. granulosus formează un chist unic, localizat hepatic în două treimi din cazuri.",
+    "evidenceLocation": "Lawrence, p. 324, Chistul hidatic"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Omul este o gazdă intermediară accidentală pentru Echinococcus.",
+    "evidenceLocation": "Lawrence, p. 324, Chistul hidatic"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Eozinofilia apare la o treime până la jumătate dintre pacienți, deci absența ei nu exclude boala.",
+    "evidenceLocation": "Lawrence, p. 324, Chistul hidatic"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:12.454Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează rolul omului în ciclu și sediul predominant."
+  },
+  "textbookExpressions": [
+   "Echinococcus granulosus",
+   "2/3 dintre cazuri"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ficat-splina-p26-012",
+  "questionFingerprint": "609371b60768a1a882840007a3c2280dbba4aa27c044eb834726a7582689b202",
+  "status": "edition-checked",
+  "learningObjective": "Cele patru ligamente suspensoare ale splinei și organele de vecinătate.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 20,
+   "printedPages": [
+    333
+   ],
+   "pdfPages": [
+    195
+   ],
+   "section": "Anatomia și fiziologia splinei"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Ligamentul splenocolic leagă splina de colon.",
+    "evidenceLocation": "Lawrence, p. 333, Anatomia și fiziologia splinei"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Ligamentul splenodiafragmatic leagă splina de diafragm.",
+    "evidenceLocation": "Lawrence, p. 333, Anatomia și fiziologia splinei"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Ligamentul gastrosplenic leagă splina de stomac.",
+    "evidenceLocation": "Lawrence, p. 333, Anatomia și fiziologia splinei"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Ligamentul splenorenal leagă splina de rinichiul stâng.",
+    "evidenceLocation": "Lawrence, p. 333, Anatomia și fiziologia splinei"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: ligamentul gastrocolic nu suspendă splina; este unul dintre sediile splinei accesorii.",
+    "evidenceLocation": "Lawrence, p. 333, Anatomia și fiziologia splinei"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:12.455Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul este un sediu al splinei accesorii, nu un ligament suspensor."
+  },
+  "textbookExpressions": [
+   "splenocolic",
+   "trunchiului celiac"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ficat-splina-p26-013",
+  "questionFingerprint": "9c09f51a98079b068d230bec0cf9bf8820fa592cb36dc49d8a0d5e5312ee1df5",
+  "status": "edition-checked",
+  "learningObjective": "Clasificarea indicațiilor hematologice ale splenectomiei în trei categorii.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 20,
+   "printedPages": [
+    338
+   ],
+   "pdfPages": [
+    200
+   ],
+   "section": "Anomaliile funcției splenice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: splenectomia nu este indicată în leucemia acută.",
+    "evidenceLocation": "Lawrence, p. 338, Anomaliile funcției splenice"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: mărimea splinei nu se corelează cu funcția; splenomegalia nu trebuie confundată cu hipersplenismul.",
+    "evidenceLocation": "Lawrence, p. 338, Anomaliile funcției splenice"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Hipersplenismul secundar este a treia categorie, când citopeniile sunt semnificative.",
+    "evidenceLocation": "Lawrence, p. 338, Anomaliile funcției splenice"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Trombocitopenia imună este a doua categorie; corticosteroizii rămân prima linie de tratament.",
+    "evidenceLocation": "Lawrence, p. 338, Anomaliile funcției splenice"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Anemiile hemolitice (de exemplu sferocitoza ereditară) sunt prima categorie în care splenectomia poate fi utilă.",
+    "evidenceLocation": "Lawrence, p. 338, Anomaliile funcției splenice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:12.455Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii confundă splenomegalia cu hipersplenismul și adaugă o hemopatie fără indicație."
+  },
+  "textbookExpressions": [
+   "siclemia",
+   "hipersplenismul"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ficat-splina-p26-014",
+  "questionFingerprint": "43d8f3217ded49598a26af014f1ef02bce02e0e4b93665daba275d24a08d015e",
+  "status": "edition-checked",
+  "learningObjective": "Diferențierea trombocitopeniei imune de PTT după măduvă, tablou și tratamentul de primă linie.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 20,
+   "printedPages": [
+    340
+   ],
+   "pdfPages": [
+    202
+   ],
+   "section": "Trombocitopenia imună"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: anemia hemolitică microangiopatică, cu trombocitopenie, sugerează PTT.",
+    "evidenceLocation": "Lawrence, p. 340, Trombocitopenia imună"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: plasmafereza este tratamentul de obicei eficient al PTT.",
+    "evidenceLocation": "Lawrence, p. 340, Trombocitopenia imună"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Trombocitele sunt distruse periferic (anticorpi antiplachetari la 85%), iar măduva are megacariocite normale sau crescute.",
+    "evidenceLocation": "Lawrence, p. 340, Trombocitopenia imună"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "În TI corticosteroizii sunt prima linie; splenectomia urmează eșecului, cu răspuns durabil la 60–85%.",
+    "evidenceLocation": "Lawrence, p. 340, Trombocitopenia imună"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: mortalitatea de aproximativ 90% fără tratament este a PTT.",
+    "evidenceLocation": "Lawrence, p. 340, Trombocitopenia imună"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:12.455Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii transferă asupra TI trăsăturile purpurei trombotice trombocitopenice."
+  },
+  "textbookExpressions": [
+   "60-85%",
+   "Plasmafereza"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ficat-splina-p26-015",
+  "questionFingerprint": "277eb5098121fd87e7087e362178a8effa536fbbfe19d8025cc8c4b97c939cc9",
+  "status": "edition-checked",
+  "learningObjective": "Agenții infecției severe postsplenectomie, în ordinea frecvenței, și infecțiile parazitare severe.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 20,
+   "printedPages": [
+    342
+   ],
+   "pdfPages": [
+    204
+   ],
+   "section": "Consecințe imunologice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "După pneumococ urmează, descrescător, H. influenzae și N. meningitidis.",
+    "evidenceLocation": "Lawrence, p. 342, Consecințe imunologice"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: S. aureus apare în listă după pneumococ, H. influenzae, meningococ și streptococul β-hemolitic.",
+    "evidenceLocation": "Lawrence, p. 342, Consecințe imunologice"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "La splenectomizați, herpesul zoster, babesioza și malaria pot avea evoluție severă.",
+    "evidenceLocation": "Lawrence, p. 342, Consecințe imunologice"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: E. coli și Pseudomonas încheie lista agenților; pneumococul rămâne primul.",
+    "evidenceLocation": "Lawrence, p. 342, Consecințe imunologice"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Streptococcus pneumoniae produce aproximativ 75% din cazurile de OPSI.",
+    "evidenceLocation": "Lawrence, p. 342, Consecințe imunologice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:12.455Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii promovează pe primul loc germeni de la finalul listei."
+  },
+  "textbookExpressions": [
+   "Streptococcus pneumoniae",
+   "75%"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "ficat-splina-p26-016",
+  "questionFingerprint": "b443c032a3a1a4df41b95eecbe3e2d68c193557ee9e7f46530895abf244a11c0",
+  "status": "edition-checked",
+  "learningObjective": "Interpretarea trombocitozei și a leucocitozei din prima săptămână după splenectomie.",
+  "reference": {
+   "book": "Lawrence",
+   "edition": "Chirurgie generală și specialități chirurgicale, ediția pentru rezidențiat MG 2025",
+   "chapter": 20,
+   "printedPages": [
+    342
+   ],
+   "pdfPages": [
+    204
+   ],
+   "section": "Modificări hematologice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Fără boală mieloproliferativă, antiagregarea se începe peste 750.000/mm³; pragul de 400.000 privește mieloproliferativii.",
+    "evidenceLocation": "Lawrence, p. 342, Modificări hematologice"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: leucocitele revin de obicei la normal în 5–7 zile; persistența lor sugerează infecție.",
+    "evidenceLocation": "Lawrence, p. 342, Modificări hematologice"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: anticoagularea cu heparină sau warfarină nu aduce beneficii și trebuie evitată.",
+    "evidenceLocation": "Lawrence, p. 342, Modificări hematologice"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: hidroxiureea se rezervă trombocitozelor extreme.",
+    "evidenceLocation": "Lawrence, p. 342, Modificări hematologice"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Abcesul subfrenic apare la 5–10 zile; leucocitoza care persistă după 5–7 zile sugerează infecție.",
+    "evidenceLocation": "Lawrence, p. 342, Modificări hematologice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:12.455Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii tratează excesiv trombocitoza și normalizează o leucocitoză suspectă."
+  },
+  "textbookExpressions": [
+   "750.000",
+   "hidroxiuree"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
  }
 ]
