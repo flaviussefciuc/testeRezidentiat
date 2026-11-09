@@ -286768,5 +286768,1237 @@
   ],
   "textbookWordingReviewed": false,
   "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "sepsis-p26-001",
+  "questionFingerprint": "0134c55ec03987573e22445de7adc621d63b3c058bc18c9e5eb50f0452401b49",
+  "status": "edition-checked",
+  "learningObjective": "Aplicarea scorului qSOFA la un caz și interpretarea lui ca instrument de risc.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 8,
+   "printedPages": [
+    154
+   ],
+   "pdfPages": [
+    8
+   ],
+   "section": "Definiția — qSOFA"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "qSOFA indică doar risc ridicat și nevoia de evaluare, nu stabilește diagnosticul de sepsis.",
+    "evidenceLocation": "Kumar, p. 154, Definiția — qSOFA"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Glasgow <15 și FR ≥22/min aduc câte un punct; TA sistolică de 108 mmHg nu punctează, deci scorul este 2, pozitiv.",
+    "evidenceLocation": "Kumar, p. 154, Definiția — qSOFA"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: orice Glasgow sub 15 aduce un punct în qSOFA.",
+    "evidenceLocation": "Kumar, p. 154, Definiția — qSOFA"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: criteriul tensional qSOFA este TA sistolică ≤100 mmHg; 108 mmHg nu aduce punct.",
+    "evidenceLocation": "Kumar, p. 154, Definiția — qSOFA"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: șocul septic cere, după resuscitare volemică, vasopresor pentru TA medie ≥65 mmHg și lactat >2 mmol/L.",
+    "evidenceLocation": "Kumar, p. 154, Definiția — qSOFA"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:18.129Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Pragul tensional qSOFA este ≤100 mmHg, iar Glasgow 14 aduce deja un punct."
+  },
+  "textbookExpressions": [
+   "qSOFA",
+   "Glasgow"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "sepsis-p26-002",
+  "questionFingerprint": "5d807d625de7428fa16ec70c21f00ad10cc86a641cb510cce11c328f098d19f0",
+  "status": "edition-checked",
+  "learningObjective": "Cadranul 8.3: pragurile care încadrează singure adultul cu suspiciune de sepsis la risc înalt.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 8,
+   "printedPages": [
+    156
+   ],
+   "pdfPages": [
+    10
+   ],
+   "section": "Cadranul 8.3 — Stratificarea riscului"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Alura ventriculară peste 130/min este criteriu de risc înalt.",
+    "evidenceLocation": "Kumar, p. 156, Cadranul 8.3 — Stratificarea riscului"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: 21–24 respirații/min înseamnă risc moderat spre crescut; riscul înalt începe la 25/min.",
+    "evidenceLocation": "Kumar, p. 156, Cadranul 8.3 — Stratificarea riscului"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: alura de 91–130/min este criteriu de risc moderat spre crescut; riscul înalt cere peste 130/min.",
+    "evidenceLocation": "Kumar, p. 156, Cadranul 8.3 — Stratificarea riscului"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: lipsa diurezei de 12–18 ore este risc moderat; riscul înalt cere 18 ore fără diureză.",
+    "evidenceLocation": "Kumar, p. 156, Cadranul 8.3 — Stratificarea riscului"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: riscul înalt cere TA sistolică ≤90 mmHg sau cu peste 40 mmHg sub valoarea normală.",
+    "evidenceLocation": "Kumar, p. 156, Cadranul 8.3 — Stratificarea riscului"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:18.130Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt valori de risc moderat, chiar sub pragurile riscului înalt."
+  },
+  "textbookExpressions": [
+   "18 ore",
+   "25 respiraţii"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "sepsis-p26-003",
+  "questionFingerprint": "04db69e0b4f757770ddbeb9273a3c8d985460ebe55d064d8c6342ba412a2c89b",
+  "status": "edition-checked",
+  "learningObjective": "Cadranul 8.5: recomandările Surviving Sepsis privind ținta tensională, lactatul și fluidele.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 8,
+   "printedPages": [
+    157
+   ],
+   "pdfPages": [
+    11
+   ],
+   "section": "Tratamentul sepsisului — Resuscitarea volemică"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: cristaloidele sunt fluidul de primă intenție, iar hidroxietil amidonul se evită.",
+    "evidenceLocation": "Kumar, p. 157, Tratamentul sepsisului — Resuscitarea volemică"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Albumina poate fi adăugată când sunt necesare volume mari de cristaloid.",
+    "evidenceLocation": "Kumar, p. 157, Tratamentul sepsisului — Resuscitarea volemică"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Ținta inițială de TA medie este de 65 mmHg.",
+    "evidenceLocation": "Kumar, p. 157, Tratamentul sepsisului — Resuscitarea volemică"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: dispozitivul de acces vascular infectat se scoate prompt, după montarea unui nou acces.",
+    "evidenceLocation": "Kumar, p. 157, Tratamentul sepsisului — Resuscitarea volemică"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "La lactat crescut, resuscitarea se ghidează spre normalizarea lui.",
+    "evidenceLocation": "Kumar, p. 157, Tratamentul sepsisului — Resuscitarea volemică"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:18.131Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează recomandarea privind amidonul și momentul scoaterii cateterului."
+  },
+  "textbookExpressions": [
+   "hidroxietil",
+   "30 ml/kg"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "sepsis-p26-004",
+  "questionFingerprint": "d9ef1b5e15a76111d0abdc7fd7ce5ef53bf323f28fd969b41063cf436d7aac21",
+  "status": "edition-checked",
+  "learningObjective": "Infecțiile în care tratamentul i.v. continuă la reevaluarea de la 72 de ore.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 8,
+   "printedPages": [
+    159
+   ],
+   "pdfPages": [
+    13
+   ],
+   "section": "Antibioterapia după 72 de ore"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Artrita septică este celălalt exemplu de continuare intravenoasă.",
+    "evidenceLocation": "Kumar, p. 159, Antibioterapia după 72 de ore"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: în pielonefrita necomplicată, la pacientul stabil, se trece la oral după 2–3 zile.",
+    "evidenceLocation": "Kumar, p. 159, Antibioterapia după 72 de ore"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: pneumonia necomplicată permite trecerea la oral după 2–3 zile, dacă pacientul se ameliorează.",
+    "evidenceLocation": "Kumar, p. 159, Antibioterapia după 72 de ore"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Meningita este exemplul dat pentru continuarea tratamentului intravenos.",
+    "evidenceLocation": "Kumar, p. 159, Antibioterapia după 72 de ore"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: dacă reevaluarea infirmă infecția, antibioticul se oprește.",
+    "evidenceLocation": "Kumar, p. 159, Antibioterapia după 72 de ore"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:18.131Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Stabilizarea clinică nu permite trecerea la oral în meningită și artrita septică."
+  },
+  "textbookExpressions": [
+   "pielonefrită",
+   "cinci decizii"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "sepsis-p26-005",
+  "questionFingerprint": "10b86b2bc620e409a3ed35417f7887920500b27834efd32327c54ffc0e0a5bea",
+  "status": "edition-checked",
+  "learningObjective": "Cadranul 8.7: indicația schemei de rifampicină 600 mg zilnic, 4 zile.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 8,
+   "printedPages": [
+    161
+   ],
+   "pdfPages": [
+    15
+   ],
+   "section": "Cadranul 8.7 — Chemoprofilaxia antibiotică"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: în reumatismul articular acut se dă fenoximetilpenicilină 250 mg de două ori pe zi.",
+    "evidenceLocation": "Kumar, p. 161, Cadranul 8.7 — Chemoprofilaxia antibiotică"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: după splenectomie se folosește fenoximetilpenicilină 500 mg de două ori pe zi.",
+    "evidenceLocation": "Kumar, p. 161, Cadranul 8.7 — Chemoprofilaxia antibiotică"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: profilaxia tuberculozei folosește izoniazidă 300 mg zilnic, 6 luni.",
+    "evidenceLocation": "Kumar, p. 161, Cadranul 8.7 — Chemoprofilaxia antibiotică"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: la contacții de meningococ rifampicina se dă 600 mg de două ori pe zi, 2 zile.",
+    "evidenceLocation": "Kumar, p. 161, Cadranul 8.7 — Chemoprofilaxia antibiotică"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Contacții unui caz cu H. influenzae tip B primesc rifampicină 600 mg zilnic, 4 zile.",
+    "evidenceLocation": "Kumar, p. 161, Cadranul 8.7 — Chemoprofilaxia antibiotică"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:18.131Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Aceeași doză de rifampicină se dă la contacții de meningococ de două ori pe zi, 2 zile."
+  },
+  "textbookExpressions": [
+   "rifampicină 600",
+   "250 mg doză dublă"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "sepsis-p26-006",
+  "questionFingerprint": "d7841a027d5e434d63815b7395b7a342b13f7cd0a511ac03ec589f7ba342752c",
+  "status": "edition-checked",
+  "learningObjective": "Clasificarea antibioticelor β-lactamice și separarea lor de alte clase active pe perete.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 8,
+   "printedPages": [
+    161
+   ],
+   "pdfPages": [
+    15
+   ],
+   "section": "Antibiotice β-lactamice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: avibactamul este primul inhibitor non-β-lactamic al β-lactamazelor.",
+    "evidenceLocation": "Kumar, p. 161, Antibiotice β-lactamice"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Temocilina este o penicilină cu spectru Gram-negativ.",
+    "evidenceLocation": "Kumar, p. 161, Antibiotice β-lactamice"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Ertapenemul face parte din carbapeneme, alături de imipenem și meropenem.",
+    "evidenceLocation": "Kumar, p. 161, Antibiotice β-lactamice"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: glicopeptidele inhibă tot sinteza peretelui, dar nu sunt β-lactamine.",
+    "evidenceLocation": "Kumar, p. 161, Antibiotice β-lactamice"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Aztreonamul este un monobactam, cu un singur inel β-lactamic.",
+    "evidenceLocation": "Kumar, p. 161, Antibiotice β-lactamice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:18.131Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Glicopeptidele și avibactamul țintesc peretele sau β-lactamazele, fără a fi β-lactamine."
+  },
+  "textbookExpressions": [
+   "dependentă de timp",
+   "peptidaze"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "sepsis-p26-007",
+  "questionFingerprint": "6ddebbb4c3e36de70236b5a1e7164810804e0d617dd11c3f21d2885010b10a55",
+  "status": "edition-checked",
+  "learningObjective": "Cadranul 8.8: doza de meropenem în meningită, față de doza uzuală.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 8,
+   "printedPages": [
+    162
+   ],
+   "pdfPages": [
+    16
+   ],
+   "section": "Cadranul 8.8 — Doze"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: administrarea de patru ori pe zi este doza maximă de piperacilină/tazobactam.",
+    "evidenceLocation": "Kumar, p. 162, Cadranul 8.8 — Doze"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: 3 g oral în doză unică este schema fosfomicinei.",
+    "evidenceLocation": "Kumar, p. 162, Cadranul 8.8 — Doze"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: 1 g de trei ori pe zi este doza uzuală; în meningită doza se dublează.",
+    "evidenceLocation": "Kumar, p. 162, Cadranul 8.8 — Doze"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: meropenemul se administrează de trei ori pe zi, nu o dată pe zi.",
+    "evidenceLocation": "Kumar, p. 162, Cadranul 8.8 — Doze"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "În meningită, meropenemul se dă 2 g de trei ori pe zi, intravenos.",
+    "evidenceLocation": "Kumar, p. 162, Cadranul 8.8 — Doze"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:18.131Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt doza uzuală și schemele altor antibiotice din cadran."
+  },
+  "textbookExpressions": [
+   "meropenem",
+   "20 mg/kg"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "sepsis-p26-008",
+  "questionFingerprint": "4e5637bd6c576891e37e34fc38d3edd100756b357abdc3e15f224706ce976b7b",
+  "status": "edition-checked",
+  "learningObjective": "Activitatea antipseudomonas comparată între clasele de β-lactamine.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 8,
+   "printedPages": [
+    163
+   ],
+   "pdfPages": [
+    17
+   ],
+   "section": "Antibiotice β-lactamice"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Piperacilina, asociată cu tazobactam, este activă pe Pseudomonas, ca și ticarcilina.",
+    "evidenceLocation": "Kumar, p. 163, Antibiotice β-lactamice"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Aztreonamul se folosește și în infecțiile cu P. aeruginosa, inclusiv pulmonare din fibroza chistică.",
+    "evidenceLocation": "Kumar, p. 163, Antibiotice β-lactamice"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Meropenemul este activ; ertapenemul este carbapenemul fără activitate pe Pseudomonas.",
+    "evidenceLocation": "Kumar, p. 163, Antibiotice β-lactamice"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Ceftazidima și cefepimul sunt cefalosporinele active pe P. aeruginosa.",
+    "evidenceLocation": "Kumar, p. 163, Antibiotice β-lactamice"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: nici temocilina, nici pivmecilinamul nu sunt active pe P. aeruginosa.",
+    "evidenceLocation": "Kumar, p. 163, Antibiotice β-lactamice"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:18.131Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Temocilina și pivmecilinamul au spectru Gram-negativ, dar fără Pseudomonas."
+  },
+  "textbookExpressions": [
+   "ceftazidima",
+   "Ertapenem"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "sepsis-p26-009",
+  "questionFingerprint": "779c41ab9abfdbd5c223b74be45a1db77cc3378eb919c1e09c3bb5a8f0c120c0",
+  "status": "edition-checked",
+  "learningObjective": "Motivul asocierii imipenemului cu cilastatin.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 8,
+   "printedPages": [
+    163
+   ],
+   "pdfPages": [
+    17
+   ],
+   "section": "Carbapenemele"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: convulsiile rămân un efect advers al imipenemului; în meningită se preferă meropenemul.",
+    "evidenceLocation": "Kumar, p. 163, Carbapenemele"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: inhibitorii clasici de β-lactamază sunt acidul clavulanic, sulbactamul și tazobactamul.",
+    "evidenceLocation": "Kumar, p. 163, Carbapenemele"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: doza unică zilnică este proprie ertapenemului, nu imipenemului.",
+    "evidenceLocation": "Kumar, p. 163, Carbapenemele"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Imipenemul este parțial inactivat enzimatic în rinichi, de aceea se asociază cu cilastatin.",
+    "evidenceLocation": "Kumar, p. 163, Carbapenemele"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: riscul mai mic de C. difficile este descris pentru temocilină.",
+    "evidenceLocation": "Kumar, p. 163, Carbapenemele"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:18.131Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Cilastatinul nu este inhibitor de β-lactamază, ci protejează imipenemul în rinichi."
+  },
+  "textbookExpressions": [
+   "cilastatin",
+   "Ertapenem"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "sepsis-p26-010",
+  "questionFingerprint": "248f6c72c672636d420633c932c09eef867f6ffa447812959c67c23829791208",
+  "status": "edition-checked",
+  "learningObjective": "Asocierea antibioticelor de primă intenție cu indicațiile lor.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 8,
+   "printedPages": [
+    163
+   ],
+   "pdfPages": [
+    17
+   ],
+   "section": "Penicilinele"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Benzilpenicilina rămâne de primă intenție în endocardita streptococică.",
+    "evidenceLocation": "Kumar, p. 163, Penicilinele"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Flucloxacilina este prima intenție în infecțiile severe cu MSSA.",
+    "evidenceLocation": "Kumar, p. 163, Penicilinele"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: pivmecilinamul nu este activ pe P. aeruginosa; se folosește în infecțiile urinare.",
+    "evidenceLocation": "Kumar, p. 163, Penicilinele"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: imipenemul poate produce convulsii; în meningită alternativa este meropenemul.",
+    "evidenceLocation": "Kumar, p. 163, Penicilinele"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: amoxicilina este inactivată de β-lactamază; penicilinaza stafilococică cere flucloxacilină.",
+    "evidenceLocation": "Kumar, p. 163, Penicilinele"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:18.132Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii pun antibiotice reale pe indicații din care sunt excluse."
+  },
+  "textbookExpressions": [
+   "fasceită necrozantă",
+   "convulsii"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "sepsis-p26-011",
+  "questionFingerprint": "7ff9381c820584876ec7027fe3665ad2bee55c41e4c765c4c47eba45be384dcb",
+  "status": "edition-checked",
+  "learningObjective": "Toxicitatea și alergia încrucișată a cefalosporinelor.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 8,
+   "printedPages": [
+    163
+   ],
+   "pdfPages": [
+    17
+   ],
+   "section": "Cefalosporinele"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: ototoxicitatea este caracteristică aminoglicozidelor, nu cefalosporinelor.",
+    "evidenceLocation": "Kumar, p. 163, Cefalosporinele"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: erupția la 90% în mononucleoză aparține amoxicilinei și ampicilinei.",
+    "evidenceLocation": "Kumar, p. 163, Cefalosporinele"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Toxicitatea este similară celei a penicilinelor, dar mai rară.",
+    "evidenceLocation": "Kumar, p. 163, Cefalosporinele"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Circa 10% dintre pacienții alergici la peniciline reacționează și la cefalosporine.",
+    "evidenceLocation": "Kumar, p. 163, Cefalosporinele"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Cefalosporinele timpurii au produs leziuni de tub proximal; derivații noi sunt mai puțin nefrotoxici.",
+    "evidenceLocation": "Kumar, p. 163, Cefalosporinele"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:18.132Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii transferă erupția amoxicilinei și ototoxicitatea aminoglicozidelor."
+  },
+  "textbookExpressions": [
+   "mononucleoză",
+   "penicilinazele stafilococice"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "sepsis-p26-012",
+  "questionFingerprint": "a2931f87a64605df6028476f4b7fc7f1a7f38a0cc10ccdfa2b05c5a77b8b7b99",
+  "status": "edition-checked",
+  "learningObjective": "Efectele adverse și farmacodinamica vancomicinei intravenoase.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 8,
+   "printedPages": [
+    164
+   ],
+   "pdfPages": [
+    18
+   ],
+   "section": "Glicopeptidele"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Perfuzia prea rapidă poate declanșa eliberare simptomatică de histamină.",
+    "evidenceLocation": "Kumar, p. 164, Glicopeptidele"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: teicoplanina este mai puțin nefrotoxică decât vancomicina.",
+    "evidenceLocation": "Kumar, p. 164, Glicopeptidele"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: administrarea de trei ori pe săptămână este posibilă cu teicoplanina.",
+    "evidenceLocation": "Kumar, p. 164, Glicopeptidele"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Injectarea perivenoasă poate produce necroză și tromboflebită.",
+    "evidenceLocation": "Kumar, p. 164, Glicopeptidele"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Vancomicina este lent bactericidă, spre deosebire de β-lactamine.",
+    "evidenceLocation": "Kumar, p. 164, Glicopeptidele"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:18.132Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii atribuie vancomicinei avantajele teicoplaninei."
+  },
+  "textbookExpressions": [
+   "Teicoplanina",
+   "trei ori pe săptămână"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "sepsis-p26-013",
+  "questionFingerprint": "615a33cde402519c3626e9b7ab8eb7fb9960365344ecc409847707d271bbd03b",
+  "status": "edition-checked",
+  "learningObjective": "Perechile β-lactamină–inhibitor de β-lactamază și partenerul avibactamului.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 8,
+   "printedPages": [
+    164
+   ],
+   "pdfPages": [
+    18
+   ],
+   "section": "Combinații β-lactamice/inhibitori de β-lactamază"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: avibactamul se combină cu ceftazidima, nu cu ceftriaxona.",
+    "evidenceLocation": "Kumar, p. 164, Combinații β-lactamice/inhibitori de β-lactamază"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: cilastatinul previne inactivarea renală a imipenemului; nu inhibă β-lactamazele.",
+    "evidenceLocation": "Kumar, p. 164, Combinații β-lactamice/inhibitori de β-lactamază"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Co-amoxiclavul asociază amoxicilina cu acidul clavulanic, inhibitor β-lactamic.",
+    "evidenceLocation": "Kumar, p. 164, Combinații β-lactamice/inhibitori de β-lactamază"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Piperacilina se asociază cu tazobactamul, inhibitor β-lactamic.",
+    "evidenceLocation": "Kumar, p. 164, Combinații β-lactamice/inhibitori de β-lactamază"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Avibactamul, primul inhibitor non-β-lactamic, se combină cu ceftazidima.",
+    "evidenceLocation": "Kumar, p. 164, Combinații β-lactamice/inhibitori de β-lactamază"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:18.132Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Imipenem–cilastatin nu este o asociere cu inhibitor de β-lactamază."
+  },
+  "textbookExpressions": [
+   "Avibactam",
+   "OXA-48"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "sepsis-p26-014",
+  "questionFingerprint": "bb76648049834fc2222aeb760c523de7edd980923702c89a6f4311c2581a0afc",
+  "status": "edition-checked",
+  "learningObjective": "Spectrul de toxicitate al aminoglicozidelor.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 8,
+   "printedPages": [
+    164
+   ],
+   "pdfPages": [
+    18
+   ],
+   "section": "Aminoglicozidele"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Ototoxicitatea poate afecta atât componenta vestibulară, cât și pe cea auditivă.",
+    "evidenceLocation": "Kumar, p. 164, Aminoglicozidele"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Nefrotoxicitatea este dependentă de doză și potențată de alte nefrotoxice.",
+    "evidenceLocation": "Kumar, p. 164, Aminoglicozidele"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Riscul de bloc neuromuscular crește la asocierea cu curarizante; se evită în miastenia gravis.",
+    "evidenceLocation": "Kumar, p. 164, Aminoglicozidele"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: unele diuretice accentuează ototoxicitatea, nu o atenuează.",
+    "evidenceLocation": "Kumar, p. 164, Aminoglicozidele"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Mutația m.1555A>G, prezentă la sub 1% din populație, predispune la ototoxicitate.",
+    "evidenceLocation": "Kumar, p. 164, Aminoglicozidele"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:18.132Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Diureticele accentuează, nu atenuează, ototoxicitatea."
+  },
+  "textbookExpressions": [
+   "m.1555A",
+   "6-14 ore"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "sepsis-p26-015",
+  "questionFingerprint": "0cbf3b26039e9fcad58648239d36ebf9d612ed06ec0f6fe556d4277c30b80ec9",
+  "status": "edition-checked",
+  "learningObjective": "Asocierea organismelor multirezistente cu mecanismul lor de rezistență.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 8,
+   "printedPages": [
+    167
+   ],
+   "pdfPages": [
+    21
+   ],
+   "section": "Mecanisme de rezistență"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: MCR-1 modifică LPS și dă rezistență la colistin la bacteriile Gram-negative.",
+    "evidenceLocation": "Kumar, p. 167, Mecanisme de rezistență"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Rezistența MRSA este mediată de PBP2a, pe care meticilina și flucloxacilina nu o inhibă.",
+    "evidenceLocation": "Kumar, p. 167, Mecanisme de rezistență"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: PBP2a este mecanismul MRSA; VRE modifică ținta glicopeptidelor (D-Ala-D-Lac).",
+    "evidenceLocation": "Kumar, p. 167, Mecanisme de rezistență"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "În Marea Britanie, carbapenemazele frecvente sunt de tip OXA-48, NDM și KPC.",
+    "evidenceLocation": "Kumar, p. 167, Mecanisme de rezistență"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "La VRE, precursorii D-Ala-D-Ala devin D-Ala-D-Lac și împiedică legarea glicopeptidelor.",
+    "evidenceLocation": "Kumar, p. 167, Mecanisme de rezistență"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:18.132Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii mută PBP2a la VRE și MCR-1 la MRSA."
+  },
+  "textbookExpressions": [
+   "peptidoglican",
+   "OXA-48"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "sepsis-p26-016",
+  "questionFingerprint": "cdfa2e5b1a0137c969cd04a5776abb9a982c48ad3dee587c910877f5fbeb84c8",
+  "status": "edition-checked",
+  "learningObjective": "Efectele adverse ale linezolidului, distincte de cele ale vancomicinei.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 8,
+   "printedPages": [
+    167
+   ],
+   "pdfPages": [
+    21
+   ],
+   "section": "MRSA — Tratament"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: nivelurile de 15–20 mg/L sunt ținta vancomicinei.",
+    "evidenceLocation": "Kumar, p. 167, MRSA — Tratament"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Linezolidul poate produce mielosupresie reversibilă, mai ales trombocitopenie, cu hemogramă săptămânală.",
+    "evidenceLocation": "Kumar, p. 167, MRSA — Tratament"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: linezolidul nu este nefrotoxic, spre deosebire de vancomicină.",
+    "evidenceLocation": "Kumar, p. 167, MRSA — Tratament"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Tratamentul prelungit expune la neuropatie periferică sau nevrită optică.",
+    "evidenceLocation": "Kumar, p. 167, MRSA — Tratament"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: linezolidul se poate da oral, cu biodisponibilitate de 100%.",
+    "evidenceLocation": "Kumar, p. 167, MRSA — Tratament"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:18.132Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii atribuie linezolidului proprietățile vancomicinei."
+  },
+  "textbookExpressions": [
+   "15-20 mg/L",
+   "linezolid"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
  }
 ]
