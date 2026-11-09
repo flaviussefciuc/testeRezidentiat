@@ -285536,5 +285536,1237 @@
   ],
   "textbookWordingReviewed": false,
   "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "gastro-p26-001",
+  "questionFingerprint": "11b8e8421f578161a0c1381020cf9df36a0c6d5b16b8665b3fff89ebecab0510",
+  "status": "edition-checked",
+  "learningObjective": "Indicația pH-metriei, capsula Bravo și scorul DeMeester.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 32,
+   "printedPages": [
+    1163
+   ],
+   "pdfPages": [
+    292
+   ],
+   "section": "Boala de reflux gastro-esofagian"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Monitorizarea pH-ului este utilă dacă nu există răspuns la IPP.",
+    "evidenceLocation": "Kumar, p. 1163, Boala de reflux gastro-esofagian"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Scorul compozit DeMeester peste 14,72 indică reflux.",
+    "evidenceLocation": "Kumar, p. 1163, Boala de reflux gastro-esofagian"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Capsula Bravo, atașată de esofagul inferior, evită sonda nazogastrică și se elimină prin scaun.",
+    "evidenceLocation": "Kumar, p. 1163, Boala de reflux gastro-esofagian"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: disfagia este semn de alarmă și impune endoscopie.",
+    "evidenceLocation": "Kumar, p. 1163, Boala de reflux gastro-esofagian"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: pH-ul se măsoară în esofagul inferior; buzunarul acid este în stomacul proximal.",
+    "evidenceLocation": "Kumar, p. 1163, Boala de reflux gastro-esofagian"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:15.214Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii folosesc pH-metria în locul endoscopiei de alarmă și mută senzorul în stomac."
+  },
+  "textbookExpressions": [
+   "capsula Bravo",
+   "DeMeester"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "gastro-p26-002",
+  "questionFingerprint": "782c9ed698e4782bbe6af1de3e72e05c6fba5fd11db4453fe733c5b1f3eebcb1",
+  "status": "edition-checked",
+  "learningObjective": "Profilul pacientului cu endoscopie normală și răspuns slab la IPP (NERD).",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 32,
+   "printedPages": [
+    1164
+   ],
+   "pdfPages": [
+    293
+   ],
+   "section": "Boala de reflux gastro-esofagian"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: este profilul esofagului Barrett; NERD apare mai ales la femei.",
+    "evidenceLocation": "Kumar, p. 1164, Boala de reflux gastro-esofagian"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Simptomele sunt adesea funcționale; pacienții sunt de obicei femei.",
+    "evidenceLocation": "Kumar, p. 1164, Boala de reflux gastro-esofagian"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: chirurgia antireflux se evită la nonresponderii la IPP.",
+    "evidenceLocation": "Kumar, p. 1164, Boala de reflux gastro-esofagian"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: hernia hiatală însoțește NERD la circa 30% dintre pacienți.",
+    "evidenceLocation": "Kumar, p. 1164, Boala de reflux gastro-esofagian"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Un grup mic are esofag hipersensibil, cu disconfort la modificări ușoare de pH.",
+    "evidenceLocation": "Kumar, p. 1164, Boala de reflux gastro-esofagian"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:15.216Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii atribuie NERD profilul Barrett și frecvența herniei din esofagita erozivă."
+  },
+  "textbookExpressions": [
+   "NERD",
+   "esofag hipersensibil"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "gastro-p26-003",
+  "questionFingerprint": "2dcc105800a1bf769b31feb5c87e678d64b750bcdff3cf3427759225c99ddbe9",
+  "status": "edition-checked",
+  "learningObjective": "Măsurile simple și alginatul în tratamentul inițial al BRGE.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 32,
+   "printedPages": [
+    1163
+   ],
+   "pdfPages": [
+    292
+   ],
+   "section": "Boala de reflux gastro-esofagian"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: IPP se dau inițial o dată pe zi; doza dublă se rezervă formelor severe.",
+    "evidenceLocation": "Kumar, p. 1163, Boala de reflux gastro-esofagian"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: nitrații sunt printre medicamentele asociate refluxului.",
+    "evidenceLocation": "Kumar, p. 1163, Boala de reflux gastro-esofagian"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Ridicarea capului patului este una dintre măsurile simple citate.",
+    "evidenceLocation": "Kumar, p. 1163, Boala de reflux gastro-esofagian"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Scăderea ponderală, alături de antiacide simple, controlează simptomele la circa jumătate dintre pacienți.",
+    "evidenceLocation": "Kumar, p. 1163, Boala de reflux gastro-esofagian"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Alginatul, 10 ml de trei ori pe zi, formează o „plută” peste conținutul gastric.",
+    "evidenceLocation": "Kumar, p. 1163, Boala de reflux gastro-esofagian"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:15.217Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii propun un medicament care favorizează refluxul și escaladarea inutilă a IPP."
+  },
+  "textbookExpressions": [
+   "alginat",
+   "capului patului"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "gastro-p26-004",
+  "questionFingerprint": "ea6ad2bdedae097e83bf80257a94f27b713db179c06862ba12fb0cffcc09636f",
+  "status": "edition-checked",
+  "learningObjective": "Aplicarea clasificării Los Angeles unei esofagite erozive.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 32,
+   "printedPages": [
+    1164
+   ],
+   "pdfPages": [
+    293
+   ],
+   "section": "Boala de reflux gastro-esofagian"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: gradul D interesează peste 75% din circumferință.",
+    "evidenceLocation": "Kumar, p. 1164, Boala de reflux gastro-esofagian"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: gradul A are eroziuni care nu depășesc 5 mm.",
+    "evidenceLocation": "Kumar, p. 1164, Boala de reflux gastro-esofagian"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Gradul B: cel puțin o eroziune peste 5 mm, fără continuitate între vârfurile a două pliuri.",
+    "evidenceLocation": "Kumar, p. 1164, Boala de reflux gastro-esofagian"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: Barrett este metaplazie columnară, descrisă prin criteriile Praga.",
+    "evidenceLocation": "Kumar, p. 1164, Boala de reflux gastro-esofagian"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: gradul C are eroziuni continue între vârfurile pliurilor, dar necircumferențiale.",
+    "evidenceLocation": "Kumar, p. 1164, Boala de reflux gastro-esofagian"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:15.217Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii ignoră pragul de 5 mm și continuitatea între pliuri."
+  },
+  "textbookExpressions": [
+   "Los Angeles",
+   "gradul B"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "gastro-p26-005",
+  "questionFingerprint": "402ff9eb0e8a4b164c04c2d71f80e4aa9ec4d88672ec45ce9872ca79091d153c",
+  "status": "edition-checked",
+  "learningObjective": "Ponderile NERD, esofagitei erozive și Barrett din figura spectrului BRGE.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 32,
+   "printedPages": [
+    1165
+   ],
+   "pdfPages": [
+    294
+   ],
+   "section": "Boala de reflux gastro-esofagian"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: pirozisul funcțional răspunde slab la IPP; 90% caracterizează esofagita erozivă.",
+    "evidenceLocation": "Kumar, p. 1165, Boala de reflux gastro-esofagian"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Esofagita erozivă (20–30%) are hernie hiatală la 70% și răspunde la IPP în 90%.",
+    "evidenceLocation": "Kumar, p. 1165, Boala de reflux gastro-esofagian"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Endoscopia normală (NERD) apare la 60–70%, cu hernie hiatală la 30%.",
+    "evidenceLocation": "Kumar, p. 1165, Boala de reflux gastro-esofagian"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Esofagul Barrett (6–12%) se asociază cu hernie hiatală la 95%.",
+    "evidenceLocation": "Kumar, p. 1165, Boala de reflux gastro-esofagian"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: Barrett apare la 6–12%; 20–30% este ponderea esofagitei erozive.",
+    "evidenceLocation": "Kumar, p. 1165, Boala de reflux gastro-esofagian"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:15.217Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii schimbă între ele procentele NERD, erozive și Barrett."
+  },
+  "textbookExpressions": [
+   "NERD",
+   "esofagul Barrett"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "gastro-p26-006",
+  "questionFingerprint": "f65fb36a60d84879c098eec3df24c6dd19dc65c5f768a2132cbcdc6f675dbe9d",
+  "status": "edition-checked",
+  "learningObjective": "Vârsta de achiziție, transmiterea și gradientul socio-economic ale infecției.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 32,
+   "printedPages": [
+    1172
+   ],
+   "pdfPages": [
+    296
+   ],
+   "section": "Infecția cu H. pylori și boala ulceroasă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Infecția se dobândește de regulă în copilărie, adesea în familie.",
+    "evidenceLocation": "Kumar, p. 1172, Infecția cu H. pylori și boala ulceroasă"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: prevalența este mult mai mare în țările în curs de dezvoltare.",
+    "evidenceLocation": "Kumar, p. 1172, Infecția cu H. pylori și boala ulceroasă"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Se transmite de la persoană la persoană, pe cale oral-orală sau fecal-orală.",
+    "evidenceLocation": "Kumar, p. 1172, Infecția cu H. pylori și boala ulceroasă"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: infecția predomină la nivel socio-economic scăzut și în aglomerație.",
+    "evidenceLocation": "Kumar, p. 1172, Infecția cu H. pylori și boala ulceroasă"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: netratată, infecția persistă de obicei toată viața.",
+    "evidenceLocation": "Kumar, p. 1172, Infecția cu H. pylori și boala ulceroasă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:15.218Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii inversează gradientul geografic și socio-economic și istoria naturală."
+  },
+  "textbookExpressions": [
+   "Helicobacter pylori",
+   "prevalența"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "gastro-p26-007",
+  "questionFingerprint": "7032c75c810c7900036299526eb6abb4fef80654145a39802a9082f55a1ba054",
+  "status": "edition-checked",
+  "learningObjective": "Morfologia H. pylori și epiteliul pe care îl colonizează.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 32,
+   "printedPages": [
+    1172
+   ],
+   "pdfPages": [
+    296
+   ],
+   "section": "Infecția cu H. pylori și boala ulceroasă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "H. pylori este un bacil gram-negativ spiralat, mobil datorită flagelilor.",
+    "evidenceLocation": "Kumar, p. 1172, Infecția cu H. pylori și boala ulceroasă"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: nu este invaziv; aderă la epiteliu, sub stratul de mucus.",
+    "evidenceLocation": "Kumar, p. 1172, Infecția cu H. pylori și boala ulceroasă"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Trăiește în stratul de mucus de deasupra epiteliului gastric.",
+    "evidenceLocation": "Kumar, p. 1172, Infecția cu H. pylori și boala ulceroasă"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: colonizează epiteliul de tip gastric, nu metaplazia intestinală.",
+    "evidenceLocation": "Kumar, p. 1172, Infecția cu H. pylori și boala ulceroasă"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Colonizează epiteliul de tip gastric; în duoden, zonele de metaplazie gastrică.",
+    "evidenceLocation": "Kumar, p. 1172, Infecția cu H. pylori și boala ulceroasă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:15.218Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii mută bacteria pe metaplazia intestinală și o fac invazivă."
+  },
+  "textbookExpressions": [
+   "Helicobacter pylori",
+   "gram-negativ"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "gastro-p26-008",
+  "questionFingerprint": "96049931808314cf6a67ae64e581404db15a5542a91fa1a1070ab086b18ed9b3",
+  "status": "edition-checked",
+  "learningObjective": "Prevalența, istoria naturală și asocierea cu H. pylori a ulcerului duodenal.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 32,
+   "printedPages": [
+    1173
+   ],
+   "pdfPages": [
+    297
+   ],
+   "section": "Infecția cu H. pylori și boala ulceroasă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Netratat, recidivează și se remite; tardiv se stinge odată cu gastrita atrofică.",
+    "evidenceLocation": "Kumar, p. 1173, Infecția cu H. pylori și boala ulceroasă"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: doar circa 15% dintre infectați fac ulcer duodenal.",
+    "evidenceLocation": "Kumar, p. 1173, Infecția cu H. pylori și boala ulceroasă"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: în țările dezvoltate, H. pylori apare la 50–75% din ulcerele duodenale, în scădere.",
+    "evidenceLocation": "Kumar, p. 1173, Infecția cu H. pylori și boala ulceroasă"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Ulcerul duodenal afectează circa 10% dintre adulți, de 2–3 ori mai des decât cel gastric.",
+    "evidenceLocation": "Kumar, p. 1173, Infecția cu H. pylori și boala ulceroasă"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: durerea nocturnă nu este un argument de încredere pentru diferențiere.",
+    "evidenceLocation": "Kumar, p. 1173, Infecția cu H. pylori și boala ulceroasă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:15.218Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii supraestimează rolul H. pylori și valoarea durerii nocturne."
+  },
+  "textbookExpressions": [
+   "ulcer duodenal",
+   "gastrită atrofică"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "gastro-p26-009",
+  "questionFingerprint": "48e61c80233dfc4723c23342adae94fad8209db9141687e52affbc0455fd1c26",
+  "status": "edition-checked",
+  "learningObjective": "Semnele de alarmă care impun endoscopie în locul strategiei „testează și tratează”.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 32,
+   "printedPages": [
+    1174
+   ],
+   "pdfPages": [
+    298
+   ],
+   "section": "Infecția cu H. pylori și boala ulceroasă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: balonarea și eructațiile sunt simptome dispeptice nespecifice.",
+    "evidenceLocation": "Kumar, p. 1174, Infecția cu H. pylori și boala ulceroasă"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: durerea nocturnă este un simptom obișnuit al ulcerului duodenal.",
+    "evidenceLocation": "Kumar, p. 1174, Infecția cu H. pylori și boala ulceroasă"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Scăderea ponderală involuntară este semn de alarmă și impune endoscopie.",
+    "evidenceLocation": "Kumar, p. 1174, Infecția cu H. pylori și boala ulceroasă"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: pirozisul este simptomul tipic al refluxului, nu un semn de alarmă.",
+    "evidenceLocation": "Kumar, p. 1174, Infecția cu H. pylori și boala ulceroasă"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Hematemeza sau melena sunt semne de alarmă care impun endoscopie.",
+    "evidenceLocation": "Kumar, p. 1174, Infecția cu H. pylori și boala ulceroasă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:15.219Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii sunt simptome dispeptice obișnuite, fără valoare de alarmă."
+  },
+  "textbookExpressions": [
+   "semne de alarmă",
+   "melenă"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "gastro-p26-010",
+  "questionFingerprint": "a1ff3727dca415dda171c99ccd431e42e011dc018d8bf1971781c4d8a860172b",
+  "status": "edition-checked",
+  "learningObjective": "Specificitatea redusă a serologiei față de celelalte teste pentru H. pylori.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 32,
+   "printedPages": [
+    1174
+   ],
+   "pdfPages": [
+    298
+   ],
+   "section": "Infecția cu H. pylori și boala ulceroasă"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: testul respirator are sensibilitate 90% și specificitate 96%.",
+    "evidenceLocation": "Kumar, p. 1174, Infecția cu H. pylori și boala ulceroasă"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Serologia IgG are sensibilitate 90% și specificitate 83%, cea mai mică dintre teste.",
+    "evidenceLocation": "Kumar, p. 1174, Infecția cu H. pylori și boala ulceroasă"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: testul rapid cu urează este specific; IPP îi scad mai ales sensibilitatea.",
+    "evidenceLocation": "Kumar, p. 1174, Infecția cu H. pylori și boala ulceroasă"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: cultura este foarte specifică și se rezervă infecției refractare.",
+    "evidenceLocation": "Kumar, p. 1174, Infecția cu H. pylori și boala ulceroasă"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: antigenul fecal monoclonal are sensibilitate 97,6% și specificitate 96%.",
+    "evidenceLocation": "Kumar, p. 1174, Infecția cu H. pylori și boala ulceroasă"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:15.219Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii detectează infecția activă; serologia rămâne pozitivă și după vindecare."
+  },
+  "textbookExpressions": [
+   "serologia",
+   "testul respirator"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "gastro-p26-011",
+  "questionFingerprint": "3bb68f74c56287be9a8a5fb45b0a881cac425cda299a4137878cb8d284e35e07",
+  "status": "edition-checked",
+  "learningObjective": "Clasificarea colitei ulcerative după extindere și ileita de reflux.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 32,
+   "printedPages": [
+    1200
+   ],
+   "pdfPages": [
+    303
+   ],
+   "section": "Bolile inflamatorii intestinale"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Colita ulcerativă poate fi limitată la rect (proctită).",
+    "evidenceLocation": "Kumar, p. 1200, Bolile inflamatorii intestinale"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: ileita terminală izolată este tipică bolii Crohn.",
+    "evidenceLocation": "Kumar, p. 1200, Bolile inflamatorii intestinale"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Forma intermediară este colita stângă, cu rectul afectat.",
+    "evidenceLocation": "Kumar, p. 1200, Bolile inflamatorii intestinale"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Forma extensivă poate avea și ileită de reflux.",
+    "evidenceLocation": "Kumar, p. 1200, Bolile inflamatorii intestinale"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: leziunile segmentare cu rect cruțat sugerează boala Crohn.",
+    "evidenceLocation": "Kumar, p. 1200, Bolile inflamatorii intestinale"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:15.219Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii transferă colitei ulcerative distribuția segmentară a bolii Crohn."
+  },
+  "textbookExpressions": [
+   "proctită",
+   "ileită de reflux"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "gastro-p26-012",
+  "questionFingerprint": "378ff88c9554e469e7cdcf782f5dbf977f24ed4ed49b234b53e5fcab231cde7b",
+  "status": "edition-checked",
+  "learningObjective": "Măsurile de susținere și monitorizarea neinvazivă în boala Crohn.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 32,
+   "printedPages": [
+    1203
+   ],
+   "pdfPages": [
+    306
+   ],
+   "section": "Bolile inflamatorii intestinale"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Calprotectina și lactoferina fecale, ieftine și neinvazive, prezic răspunsul sau eșecul.",
+    "evidenceLocation": "Kumar, p. 1203, Bolile inflamatorii intestinale"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Profilaxia tromboembolismului se face la toți pacienții internați.",
+    "evidenceLocation": "Kumar, p. 1203, Bolile inflamatorii intestinale"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: steroizii se evită în boala penetrantă și în sepsisul perianal.",
+    "evidenceLocation": "Kumar, p. 1203, Bolile inflamatorii intestinale"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Fumatul agravează boala Crohn și trebuie oprit.",
+    "evidenceLocation": "Kumar, p. 1203, Bolile inflamatorii intestinale"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Fierul intravenos se folosește când fierul oral nu este tolerat.",
+    "evidenceLocation": "Kumar, p. 1203, Bolile inflamatorii intestinale"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:15.219Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul recomandă steroizi tocmai în sepsisul perianal, unde se evită."
+  },
+  "textbookExpressions": [
+   "calprotectina fecală",
+   "lactoferina"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "gastro-p26-013",
+  "questionFingerprint": "4076f6f296a037ddee115310e214ea8f7bf47803e54ad88747669a9d1e49453e",
+  "status": "edition-checked",
+  "learningObjective": "Componentele tratamentului bolii perianale din Cadranul 32.40.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 32,
+   "printedPages": [
+    1204
+   ],
+   "pdfPages": [
+    307
+   ],
+   "section": "Bolile inflamatorii intestinale"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Azatioprina figurează în tratamentul bolii perianale.",
+    "evidenceLocation": "Kumar, p. 1204, Bolile inflamatorii intestinale"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Ciprofloxacina și metronidazolul fac parte din tratamentul bolii perianale.",
+    "evidenceLocation": "Kumar, p. 1204, Bolile inflamatorii intestinale"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Colecțiile septice perianale se drenează chirurgical.",
+    "evidenceLocation": "Kumar, p. 1204, Bolile inflamatorii intestinale"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: budesonidul tratează boala ileocecală ușoară-moderată, nu boala perianală.",
+    "evidenceLocation": "Kumar, p. 1204, Bolile inflamatorii intestinale"
+   },
+   {
+    "index": 4,
+    "verdict": "correct",
+    "rationale": "Agenții anti-TNF figurează în tratamentul bolii perianale.",
+    "evidenceLocation": "Kumar, p. 1204, Bolile inflamatorii intestinale"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:15.219Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorul mută budesonidul din boala ileocecală în boala perianală."
+  },
+  "textbookExpressions": [
+   "boala perianală",
+   "metronidazol"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "gastro-p26-014",
+  "questionFingerprint": "77caaa7b94cebedc8d625ab9659786dcf8e51b879a70e730931d5d7964715a2a",
+  "status": "edition-checked",
+  "learningObjective": "Alegerea intervenției în colita Crohn după afectarea rectului.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 32,
+   "printedPages": [
+    1205
+   ],
+   "pdfPages": [
+    308
+   ],
+   "section": "Bolile inflamatorii intestinale"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: boala Crohn nu se pretează la rezervor ileal, recurența fiind mare.",
+    "evidenceLocation": "Kumar, p. 1205, Bolile inflamatorii intestinale"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: rezecția ileocecală se adresează bolii ileocecale, nu colitei cu rect afectat.",
+    "evidenceLocation": "Kumar, p. 1205, Bolile inflamatorii intestinale"
+   },
+   {
+    "index": 2,
+    "verdict": "correct",
+    "rationale": "Când colonul și rectul sunt afectate, standardul este panproctocolectomia cu ileostomă.",
+    "evidenceLocation": "Kumar, p. 1205, Bolile inflamatorii intestinale"
+   },
+   {
+    "index": 3,
+    "verdict": "incorrect",
+    "rationale": "Nu: stricturoplastia tratează unele stricturi ale intestinului subțire.",
+    "evidenceLocation": "Kumar, p. 1205, Bolile inflamatorii intestinale"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: anastomoza ileorectală se face când rectul este cruțat sau minim afectat.",
+    "evidenceLocation": "Kumar, p. 1205, Bolile inflamatorii intestinale"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:15.219Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Fiecare distractor este intervenția altei localizări sau a colitei ulcerative."
+  },
+  "textbookExpressions": [
+   "panproctocolectomie",
+   "ileostomă"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "gastro-p26-015",
+  "questionFingerprint": "674564040984f3798e6ef5c959144078b7ea1e2f2779e32e06cbe3e1a3c99868",
+  "status": "edition-checked",
+  "learningObjective": "Indicațiile intervenției chirurgicale în boala Crohn.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 32,
+   "printedPages": [
+    1205
+   ],
+   "pdfPages": [
+    308
+   ],
+   "section": "Bolile inflamatorii intestinale"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "correct",
+    "rationale": "Eșecul tratamentului medicamentos, cu simptome care alterează viața, este indicație.",
+    "evidenceLocation": "Kumar, p. 1205, Bolile inflamatorii intestinale"
+   },
+   {
+    "index": 1,
+    "verdict": "correct",
+    "rationale": "Retardul de creștere al copilului, în ciuda tratamentului medical, este indicație.",
+    "evidenceLocation": "Kumar, p. 1205, Bolile inflamatorii intestinale"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: chirurgia nu previne recurența (~15% pe an) și se evită pe cât posibil.",
+    "evidenceLocation": "Kumar, p. 1205, Bolile inflamatorii intestinale"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Complicațiile (obstrucție, perforație, abcese, fistulă, dilatare toxică) impun chirurgie.",
+    "evidenceLocation": "Kumar, p. 1205, Bolile inflamatorii intestinale"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: anemia cu intoleranță la fierul oral se tratează cu fier intravenos.",
+    "evidenceLocation": "Kumar, p. 1205, Bolile inflamatorii intestinale"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:15.220Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii atribuie chirurgiei un rol preventiv și tratamentul anemiei."
+  },
+  "textbookExpressions": [
+   "fistulă enterocutanată",
+   "retard de creștere"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
+ },
+ {
+  "questionId": "gastro-p26-016",
+  "questionFingerprint": "854841721ec3e9f09ae3e7f7538c3f83f47d0a7347e2dced61b86706b4e8c9aa",
+  "status": "edition-checked",
+  "learningObjective": "Mecanismele de eliberare colonică ale preparatelor de 5-ASA.",
+  "reference": {
+   "book": "Kumar & Clark",
+   "edition": "Medicină clinică, ediția a 10-a, text român",
+   "chapter": 32,
+   "printedPages": [
+    1206
+   ],
+   "pdfPages": [
+    309
+   ],
+   "section": "Bolile inflamatorii intestinale"
+  },
+  "options": [
+   {
+    "index": 0,
+    "verdict": "incorrect",
+    "rationale": "Nu: două molecule de 5-ASA legate azo formează olsalazina.",
+    "evidenceLocation": "Kumar, p. 1206, Bolile inflamatorii intestinale"
+   },
+   {
+    "index": 1,
+    "verdict": "incorrect",
+    "rationale": "Nu: 4-aminobenzoil-β-alanina este purtătorul din balsalazidă.",
+    "evidenceLocation": "Kumar, p. 1206, Bolile inflamatorii intestinale"
+   },
+   {
+    "index": 2,
+    "verdict": "incorrect",
+    "rationale": "Nu: microsferele sunt alt sistem de eliberare colonică a 5-ASA.",
+    "evidenceLocation": "Kumar, p. 1206, Bolile inflamatorii intestinale"
+   },
+   {
+    "index": 3,
+    "verdict": "correct",
+    "rationale": "Sulfasalazina este 5-ASA legat azo de sulfapiridină și eliberat în colon.",
+    "evidenceLocation": "Kumar, p. 1206, Bolile inflamatorii intestinale"
+   },
+   {
+    "index": 4,
+    "verdict": "incorrect",
+    "rationale": "Nu: învelișul sensibil la pH este alt sistem de eliberare a 5-ASA.",
+    "evidenceLocation": "Kumar, p. 1206, Bolile inflamatorii intestinale"
+   }
+  ],
+  "checks": {
+   "withinIncludedSyllabusPages": true,
+   "contextResolvesAmbiguity": true,
+   "distractorsClinicallyPlausible": true,
+   "noAnswerLengthOrAbsoluteWordingCue": true,
+   "independentObjectiveNotParaphraseDuplicate": true,
+   "explanationAddressesIncorrectOptions": true,
+   "terminologyReviewedInRomanian": true,
+   "keySupportedByRequestedEdition": true
+  },
+  "reviewer": {
+   "kind": "ai",
+   "name": "Claude"
+  },
+  "reviewedAt": "2026-11-09T09:24:15.220Z",
+  "unresolvedIssues": [],
+  "difficulty": {
+   "score": 8,
+   "kind": "editorial-estimate",
+   "reason": "Distractorii atribuie sulfasalazinei vehiculele balsalazidei, olsalazinei și mesalazinei."
+  },
+  "textbookExpressions": [
+   "sulfasalazină",
+   "balsalazidă"
+  ],
+  "textbookWordingReviewed": false,
+  "reviewNotes": "Set 2026: grilă redactată pentru paginile cerute în caietele 2023–2025, în formatul caietelor. Cheia și cele cinci justificări au fost verificate față de ediția cerută și față de grilele deja confruntate cu textul român de pe aceleași pagini (fără contradicții). Expresiile din manual nu au fost confruntate mecanic cu extrasul local, indisponibil la redactare; grila poartă verification:edition până la acea confruntare."
  }
 ]
