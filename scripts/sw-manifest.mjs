@@ -11,6 +11,8 @@ const walk=dir=>readdirSync(dir).flatMap(name=>{const p=join(dir,name);return st
 const files=walk(root).filter(f=>!skip.has(f)).sort();
 const index=readFileSync('src/app/bank-index.generated.ts','utf8');
 const bankVersion=/BANK_VERSION="([0-9a-f]+)"/.exec(index)?.[1]??'0';
-const build=createHash('sha256').update(files.join('\n')).update(bankVersion).digest('hex').slice(0,12);
+// Summaries keep their file names when edited, so their content enters the build id too.
+const content=createHash('sha256');for(const f of files.filter(f=>f.startsWith('rezumate/')))content.update(readFileSync(join(root,f)));
+const build=createHash('sha256').update(files.join('\n')).update(bankVersion).update(content.digest('hex')).digest('hex').slice(0,12);
 writeFileSync(join(root,'sw-precache.json'),JSON.stringify({build,files:['/',...files.filter(f=>f!=='index.html').map(f=>'/'+f)],bank:[`/bank/active.json?v=${bankVersion}`]}));
 console.info(`Service worker precache: ${files.length} files, build ${build}.`);
